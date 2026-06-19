@@ -118,9 +118,9 @@ export default function App() {
           >
             <img src="/logo.svg" alt="BAB Logo" className="h-8 sm:h-9 w-auto" />
           </div>
-          <span className="hidden md:inline-block px-2.5 py-0.5 rounded-lg bg-[#EBE5FF] border-2 border-black text-[9px] font-black text-[#0F0F12] tracking-wider uppercase shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
+          <a href="#/features" className="hidden md:inline-block px-2.5 py-0.5 rounded-lg bg-[#EBE5FF] border-2 border-black text-[9px] font-black text-[#0F0F12] tracking-wider uppercase shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] hover:bg-[#FFDE4D] transition-colors cursor-pointer" title="Scopri le funzionalità">
             Protocollo Prevenzione
-          </span>
+          </a>
         </div>
         
         {/* Menu Links */}
@@ -438,48 +438,48 @@ export default function App() {
                     </div>
                   </div>
 
-                  {/* Summary Metric Cards in 70/30 Style */}
+                  {/* Summary Metric Cards — Y2K Style */}
                   <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-                    <div className="bg-[#0B111E] text-white border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-                      <span className="text-[10px] text-neutral-400 font-bold uppercase tracking-wider block">Atlete Monitorate</span>
+                    <div className="bg-[#D1FFEF] text-[#0F0F12] border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                      <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider block">Atlete Monitorate</span>
                       <span className="text-3xl font-black mt-1 block">18 / 20</span>
                       <span className="text-[10px] text-[#34BBC0] font-black block mt-2">✦ 90% Tasso di Adozione</span>
                     </div>
 
-                    <div className="bg-[#0B111E] text-white border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-                      <span className="text-[10px] text-neutral-400 font-bold uppercase tracking-wider block">Prevenzione LCA</span>
-                      <span className="text-3xl font-black mt-1 block text-[#DAE69A]">94.2%</span>
-                      <span className="text-[10px] text-neutral-400 font-bold block mt-2">Nessun infortunio grave</span>
+                    <div className="bg-[#EBE5FF] text-[#0F0F12] border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                      <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider block">Prevenzione LCA</span>
+                      <span className="text-3xl font-black mt-1 block text-[#34BBC0]">94.2%</span>
+                      <span className="text-[10px] text-neutral-600 font-bold block mt-2">Nessun infortunio grave</span>
                     </div>
 
-                    <div className="bg-[#0B111E] text-white border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-                      <span className="text-[10px] text-neutral-400 font-bold uppercase tracking-wider block">Alert Sovraccarico</span>
-                      <span className="text-3xl font-black mt-1 block text-[#FFE3D1]">2 Atlete</span>
-                      <span className="text-[10px] text-rose-400 font-black block mt-2">● Richiesto Scarico</span>
+                    <div className="bg-[#FFE3D1] text-[#0F0F12] border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                      <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider block">Alert Sovraccarico</span>
+                      <span className="text-3xl font-black mt-1 block text-rose-600">2 Atlete</span>
+                      <span className="text-[10px] text-rose-600 font-black block mt-2">● Richiesto Scarico</span>
                     </div>
 
-                    <div className="bg-[#0B111E] text-white border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
-                      <span className="text-[10px] text-neutral-400 font-bold uppercase tracking-wider block">Tamagotchi Integrati</span>
-                      <span className="text-3xl font-black mt-1 block text-[#34BBC0]">100%</span>
-                      <span className="text-[10px] text-[#34BBC0] font-black block mt-2">✦ Sincronizzazione Attiva</span>
+                    <div className="bg-[#FFDE4D] text-[#0F0F12] border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                      <span className="text-[10px] text-neutral-600 font-bold uppercase tracking-wider block">Tamagotchi Integrati</span>
+                      <span className="text-3xl font-black mt-1 block">100%</span>
+                      <span className="text-[10px] text-[#0F0F12] font-black block mt-2">✦ Sincronizzazione Attiva</span>
                     </div>
                   </div>
 
-                  {/* Dark professional SaaS Athlete Table with Y2K Accents */}
-                  <div className="bg-[#0B111E] text-white border-[3px] border-black rounded-3xl p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-x-auto">
-                    <div className="flex justify-between items-center mb-6 pb-4 border-b border-neutral-800">
+                  {/* Y2K Athlete Table */}
+                  <div className="bg-white/70 backdrop-blur-md text-[#0F0F12] border-[3px] border-black rounded-3xl p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-x-auto">
+                    <div className="flex justify-between items-center mb-6 pb-4 border-b-2 border-black/10">
                       <div className="flex items-center gap-2">
                         <span className="text-xl text-[#34BBC0]">◎</span>
-                        <h3 className="text-lg font-black font-serif">Rapporto Prevenzione Infortuni & Carico Fisico</h3>
+                        <h3 className="text-lg font-black font-serif text-[#0F0F12]">Rapporto Prevenzione Infortuni & Carico Fisico</h3>
                       </div>
-                      <span className="text-[10px] text-[#34BBC0] font-bold uppercase tracking-wider bg-[#34BBC0]/10 px-2 py-1 rounded border border-[#34BBC0]/20">
+                      <span className="text-[10px] text-[#34BBC0] font-black uppercase tracking-wider bg-[#34BBC0]/10 px-2 py-1 rounded-lg border-2 border-[#34BBC0]/30">
                         Squadra: U18 Femminile
                       </span>
                     </div>
 
                     <table className="w-full text-left border-collapse min-w-[600px] font-sans">
                       <thead>
-                        <tr className="border-b border-neutral-800 text-[10px] uppercase text-neutral-400 font-bold tracking-wider">
+                        <tr className="border-b-2 border-black/10 text-[10px] uppercase text-neutral-500 font-black tracking-wider">
                           <th className="py-3 px-4">Atleta</th>
                           <th className="py-3 px-4">Stato Energia</th>
                           <th className="py-3 px-4">Fase Ciclo</th>
@@ -489,27 +489,27 @@ export default function App() {
                       </thead>
                       <tbody>
                         {[
-                          { name: 'Irene R.', energy: '⚡ Carica', color: 'text-[#D1FFEF]', phase: 'Fase Follicolare (Giorno 8)', risk: '✅ Normale', riskColor: 'bg-[#D1FFEF]/10 text-[#D1FFEF] border-[#D1FFEF]/20', rec: 'Sessione Standard' },
-                          { name: 'Sofia B.', energy: '😴 Meh', color: 'text-amber-300', phase: 'Fase Ovulatoria (Giorno 14)', risk: '⚠️ Rischio LCA Elevato (Flessibilità Ridotta)', riskColor: 'bg-[#FFE3D1]/15 text-[#FFE3D1] border-[#FFE3D1]/30', rec: 'Attivazione Propriocettiva (10m)' },
-                          { name: 'Marta G.', energy: '👌 Ok', color: 'text-neutral-200', phase: 'Fase Luteale Iniziale (Giorno 18)', risk: '✅ Normale', riskColor: 'bg-[#D1FFEF]/10 text-[#D1FFEF] border-[#D1FFEF]/20', rec: 'Sessione Standard' },
-                          { name: 'Elena D.', energy: '😴 Meh', color: 'text-amber-300', phase: 'Fase Luteale Tarda (Giorno 26)', risk: '⚠️ Alert Fatica Elevata (Stanchezza)', riskColor: 'bg-[#FFE3D1]/15 text-[#FFE3D1] border-[#FFE3D1]/30', rec: 'Scarico Precauzionale (Piano B)' },
-                          { name: 'Chiara L.', energy: '⚡ Carica', color: 'text-[#D1FFEF]', phase: 'Fase Follicolare (Giorno 5)', risk: '✅ Normale', riskColor: 'bg-[#D1FFEF]/10 text-[#D1FFEF] border-[#D1FFEF]/20', rec: 'Sessione Standard' }
+                          { name: 'Irene R.', energy: '⚡ Carica', energyBg: 'bg-[#D1FFEF] text-[#0F0F12]', phase: 'Fase Follicolare (Giorno 8)', risk: '✅ Normale', riskColor: 'bg-[#D1FFEF] text-[#0F0F12] border-black/10', rec: 'Sessione Standard', recColor: 'text-[#0F0F12] border-black/20 bg-white/80' },
+                          { name: 'Sofia B.', energy: '😴 Stanca', energyBg: 'bg-[#FFE3D1] text-[#0F0F12]', phase: 'Fase Ovulatoria (Giorno 14)', risk: '⚠️ Rischio LCA (Flessibilità Ridotta)', riskColor: 'bg-[#FFE3D1] text-[#0F0F12] border-black/10', rec: 'Attivazione Propriocettiva', recColor: 'text-[#34BBC0] border-[#34BBC0]/30 bg-[#34BBC0]/5' },
+                          { name: 'Marta G.', energy: '👌 Ok', energyBg: 'bg-[#EBE5FF] text-[#0F0F12]', phase: 'Fase Luteale Iniziale (Giorno 18)', risk: '✅ Normale', riskColor: 'bg-[#D1FFEF] text-[#0F0F12] border-black/10', rec: 'Sessione Standard', recColor: 'text-[#0F0F12] border-black/20 bg-white/80' },
+                          { name: 'Elena D.', energy: '😴 Stanca', energyBg: 'bg-[#FFE3D1] text-[#0F0F12]', phase: 'Fase Luteale Tarda (Giorno 26)', risk: '⚠️ Alert Fatica Elevata', riskColor: 'bg-[#FFE3D1] text-[#0F0F12] border-black/10', rec: 'Scarico Precauzionale', recColor: 'text-rose-700 border-rose-200 bg-rose-50' },
+                          { name: 'Chiara L.', energy: '⚡ Carica', energyBg: 'bg-[#D1FFEF] text-[#0F0F12]', phase: 'Fase Follicolare (Giorno 5)', risk: '✅ Normale', riskColor: 'bg-[#D1FFEF] text-[#0F0F12] border-black/10', rec: 'Sessione Standard', recColor: 'text-[#0F0F12] border-black/20 bg-white/80' }
                         ].map((row, idx) => (
-                          <tr key={idx} className="border-b border-neutral-900 hover:bg-neutral-800/40 transition-colors">
-                            <td className="py-4 px-4 font-black">{row.name}</td>
+                          <tr key={idx} className="border-b border-black/5 hover:bg-black/[0.02] transition-colors">
+                            <td className="py-4 px-4 font-black text-[#0F0F12]">{row.name}</td>
                             <td className="py-4 px-4">
-                              <span className={`px-2 py-0.5 rounded text-xs font-bold ${row.color}`}>
+                              <span className={`px-2.5 py-1 rounded-lg border-2 border-black/10 text-xs font-black ${row.energyBg}`}>
                                 {row.energy}
                               </span>
                             </td>
-                            <td className="py-4 px-4 text-xs font-semibold text-neutral-400">{row.phase}</td>
+                            <td className="py-4 px-4 text-xs font-semibold text-neutral-500">{row.phase}</td>
                             <td className="py-4 px-4">
                               <span className={`px-2.5 py-1 rounded-lg border text-xs font-black ${row.riskColor}`}>
                                 {row.risk}
                               </span>
                             </td>
                             <td className="py-4 px-4 text-right">
-                              <span className="text-xs font-bold text-[#34BBC0] border border-[#34BBC0]/20 bg-[#34BBC0]/5 px-2 py-0.5 rounded-lg">
+                              <span className={`text-xs font-bold border px-2 py-0.5 rounded-lg ${row.recColor}`}>
                                 {row.rec}
                               </span>
                             </td>
@@ -530,6 +530,21 @@ export default function App() {
                         Durante la fase ovulatoria e la fase luteale tarda, i cambiamenti di lassità legamentosa aumentano statisticamente la probabilità di lesione del crociato anteriore (LCA) fino a 3 volte. Il protocollo BAB calcola l'insorgenza di fatica consiglia scarichi localizzati e riscaldamenti propriocettivi riducendo del 60% il tasso di infortuni complessivo.
                       </p>
                     </div>
+                  </div>
+
+                  {/* Coach Page CTA */}
+                  <div className="mt-4 bg-[#FFDE4D] border-2 border-black rounded-3xl p-8 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div className="flex flex-col gap-2">
+                      <span className="text-xs font-black text-[#0F0F12] uppercase tracking-widest">✦ Vuoi il tuo team su BAB? ✦</span>
+                      <h3 className="text-xl sm:text-2xl font-serif font-black text-[#0F0F12]">Porta il tuo club nella lista d'attesa</h3>
+                      <p className="text-xs text-neutral-700 font-bold font-sans">I primi club che si uniscono avranno accesso prioritario e tariffe speciali di lancio.</p>
+                    </div>
+                    <button
+                      onClick={() => setShowQuiz(true)}
+                      className="y2k-btn bg-[#0F0F12] text-white font-black text-sm whitespace-nowrap"
+                    >
+                      Prenota il Tuo Posto ✦
+                    </button>
                   </div>
                 </motion.div>
               )}
@@ -641,6 +656,21 @@ export default function App() {
                     </div>
 
                   </div>
+
+                  {/* Features CTA Banner */}
+                  <div className="mt-4 bg-[#34BBC0] border-2 border-black rounded-3xl p-8 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div className="flex flex-col gap-2">
+                      <span className="text-xs font-black text-white/80 uppercase tracking-widest">✦ Pronta a iniziare? ✦</span>
+                      <h3 className="text-xl sm:text-2xl font-serif font-black text-white">Unisciti alle atlete che stanno cambiando il gioco</h3>
+                      <p className="text-xs text-white/80 font-bold font-sans">Accesso anticipato — posti limitati disponibili.</p>
+                    </div>
+                    <button
+                      onClick={() => setShowQuiz(true)}
+                      className="y2k-btn bg-white text-[#0F0F12] font-black text-sm whitespace-nowrap"
+                    >
+                      Entra nella Waitlist ✦
+                    </button>
+                  </div>
                 </motion.div>
               )}
 
@@ -743,8 +773,8 @@ export default function App() {
                   </div>
 
                   {/* Behind BAB (About Gaia) */}
-                  <div className="flex flex-col md:grid md:grid-cols-12 gap-10 pt-10 border-t-2 border-black/10">
-                    <div className="md:col-span-4 flex flex-col gap-3 justify-center">
+                  <div className="flex flex-col gap-8 pt-10 border-t-2 border-black/10">
+                    <div className="text-center flex flex-col gap-2">
                       <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
                         ✦ La Fondatrice ✦
                       </span>
@@ -753,16 +783,53 @@ export default function App() {
                       </h3>
                     </div>
 
-                    <div className="md:col-span-8 p-8 bg-white/60 backdrop-blur-md border-2 border-black rounded-3xl shadow-[6px_6px_0px_0px_#000] flex flex-col gap-5 text-xs sm:text-sm text-neutral-600 font-bold leading-relaxed font-sans">
-                      <p>
-                        BAB nasce dall'esperienza personale di <strong className="text-black font-black">Gaia Manzone</strong>. Dopo dieci anni di lavoro in adidas e PUMA, Gaia ha visto da vicino le barriere e le difficoltà sistemiche che affrontano le atlete.
-                      </p>
-                      <p>
-                        Ma il suo legame con questo problema risale a molto prima, quando problemi di salute legati a uno sviluppo non supportato l'hanno costretta a smettere di gareggiare. Gaia crede fermamente che <span className="text-[#34BBC0] font-black">senza salute non possa esserci sport femminile</span>.
-                      </p>
-                      <p>
-                        Questa convinzione l'ha spinta a riunire una rete di atlete professioniste, medici, ginecologi, preparatori atletici ed esperti dello sport per creare BAB.
-                      </p>
+                    <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch">
+                      {/* Gaia Card */}
+                      <div className="md:col-span-4 bg-[#EBE5FF] border-2 border-black rounded-3xl p-8 shadow-[6px_6px_0px_0px_#000] flex flex-col gap-4 justify-center items-center text-center">
+                        <div className="w-20 h-20 rounded-full bg-[#34BBC0] border-2 border-black shadow-[3px_3px_0px_0px_#000] flex items-center justify-center text-4xl">👩</div>
+                        <div>
+                          <h4 className="text-xl font-serif font-black text-[#0F0F12]">Gaia Manzone</h4>
+                          <p className="text-xs font-black text-[#34BBC0] uppercase tracking-wider mt-1">Fondatrice & CEO</p>
+                        </div>
+                        <div className="flex flex-wrap gap-2 justify-center mt-2">
+                          <span className="px-3 py-1 bg-white border-2 border-black rounded-lg text-[10px] font-black shadow-[1.5px_1.5px_0px_0px_#000]">10+ anni adidas</span>
+                          <span className="px-3 py-1 bg-white border-2 border-black rounded-lg text-[10px] font-black shadow-[1.5px_1.5px_0px_0px_#000]">PUMA Alumni</span>
+                          <span className="px-3 py-1 bg-[#FFDE4D] border-2 border-black rounded-lg text-[10px] font-black shadow-[1.5px_1.5px_0px_0px_#000]">Ex Atleta</span>
+                        </div>
+                      </div>
+
+                      {/* Gaia Story */}
+                      <div className="md:col-span-8 p-8 bg-white/60 backdrop-blur-md border-2 border-black rounded-3xl shadow-[6px_6px_0px_0px_#000] flex flex-col gap-5 text-xs sm:text-sm text-neutral-600 font-bold leading-relaxed font-sans">
+                        <p>
+                          BAB nasce dall'esperienza personale di <strong className="text-black font-black">Gaia Manzone</strong>. Dopo dieci anni di lavoro in adidas e PUMA, Gaia ha visto da vicino le barriere e le difficoltà sistemiche che affrontano le atlete.
+                        </p>
+                        <p>
+                          Ma il suo legame con questo problema risale a molto prima, quando problemi di salute legati a uno sviluppo non supportato l'hanno costretta a smettere di gareggiare. Gaia crede fermamente che <span className="text-[#34BBC0] font-black">senza salute non possa esserci sport femminile</span>.
+                        </p>
+                        <p>
+                          Questa convinzione l'ha spinta a riunire una rete di atlete professioniste, medici, ginecologi, preparatori atletici ed esperti dello sport per creare BAB.
+                        </p>
+                        <div className="mt-2 bg-[#FFDE4D] border-2 border-black rounded-2xl p-4 shadow-[2px_2px_0px_0px_#000]">
+                          <p className="text-xs font-black text-[#0F0F12] italic text-center">
+                            ✦ "Il corpo di una giovane atleta non è un ostacolo alla performance. È la performance." ✦
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* About page bottom CTA */}
+                    <div className="bg-[#0F0F12] text-white border-2 border-black rounded-3xl p-8 shadow-[6px_6px_0px_0px_rgba(0,0,0,0.3)] flex flex-col md:flex-row items-center justify-between gap-6">
+                      <div className="flex flex-col gap-2">
+                        <span className="text-xs font-black text-[#34BBC0] uppercase tracking-widest">✦ Reach Your Personal Best ✦</span>
+                        <h3 className="text-xl sm:text-2xl font-serif font-black text-white">Sei convinta? Unisciti alla lista d'attesa</h3>
+                        <p className="text-xs text-neutral-400 font-bold font-sans">Primo accesso. Tariffa speciale di lancio. Zero rischi.</p>
+                      </div>
+                      <button
+                        onClick={() => setShowQuiz(true)}
+                        className="y2k-btn bg-[#FFDE4D] text-[#0F0F12] font-black text-sm whitespace-nowrap"
+                      >
+                        Unisciti Ora ✦
+                      </button>
                     </div>
                   </div>
                 </motion.div>
@@ -965,26 +1032,46 @@ export default function App() {
         )}
       </main>
 
-      {/* Footer (Section 11) */}
-      <footer className="border-t-2 border-black py-12 px-6 sm:px-12 bg-white text-xs text-neutral-500 font-bold flex flex-col md:flex-row items-center justify-between gap-8 mt-12">
-        <div className="flex flex-col gap-2 max-w-sm">
-          <div className="flex items-center gap-2 mb-1">
-            <img src="/logo.svg" alt="BAB Logo" className="h-6 w-auto" />
-          </div>
-          <span>Il primo sistema per proteggere la salute delle atlete under 18 e prevenire gli infortuni.</span>
-          <span>© 2026 BAB - Tutti i diritti riservati.</span>
+      {/* Footer */}
+      <footer className="border-t-[3px] border-black bg-[#0F0F12] text-white mt-12">
+        {/* Footer Top — Tagline Banner */}
+        <div className="w-full border-b-2 border-white/10 py-10 px-6 sm:px-12 flex flex-col items-center gap-3 text-center">
+          <span className="text-[10px] font-black text-[#34BBC0] uppercase tracking-widest">✦ Il Nostro Motto ✦</span>
+          <p className="text-2xl sm:text-3xl font-serif font-black text-white leading-tight">
+            Reach Your Personal Best,
+          </p>
+          <p className="text-2xl sm:text-3xl font-serif font-black text-[#FFDE4D] leading-tight">
+            By Feeling Your Best.
+          </p>
+          <button
+            onClick={() => setShowQuiz(true)}
+            className="mt-4 y2k-btn bg-[#FFDE4D] text-[#0F0F12] font-black text-sm"
+          >
+            Entra nella Waitlist ✦
+          </button>
         </div>
-        
-        {/* Contact and Social Links */}
-        <div className="flex flex-wrap gap-12 font-sans">
-          <div className="flex flex-col gap-2">
-            <span className="font-black text-[#0F0F12] uppercase tracking-wider text-[10px]">Informazioni</span>
-            <a href="mailto:info@bab-sports.com" className="hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded">Contatti</a>
+
+        {/* Footer Bottom */}
+        <div className="py-8 px-6 sm:px-12 flex flex-col md:flex-row items-center justify-between gap-8">
+          <div className="flex flex-col gap-2 max-w-sm">
+            <div className="flex items-center gap-2 mb-1">
+              <img src="/logo.svg" alt="BAB Logo" className="h-7 w-auto brightness-0 invert" />
+            </div>
+            <span className="text-xs text-neutral-400 font-bold">Il primo sistema per proteggere la salute delle atlete under 18 e prevenire gli infortuni.</span>
+            <span className="text-xs text-neutral-600 font-bold">© 2026 BAB - Tutti i diritti riservati.</span>
           </div>
-          <div className="flex flex-col gap-2">
-            <span className="font-black text-[#0F0F12] uppercase tracking-wider text-[10px]">Social</span>
-            <a href="https://substack.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded">Substack</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded">Instagram</a>
+          
+          {/* Contact and Social Links */}
+          <div className="flex flex-wrap gap-12 font-sans text-xs">
+            <div className="flex flex-col gap-2">
+              <span className="font-black text-white uppercase tracking-wider text-[10px]">Informazioni</span>
+              <a href="mailto:info@bab-sports.com" className="text-neutral-400 hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded font-bold">Contatti</a>
+            </div>
+            <div className="flex flex-col gap-2">
+              <span className="font-black text-white uppercase tracking-wider text-[10px]">Social</span>
+              <a href="https://substack.com" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded font-bold">Substack</a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded font-bold">Instagram</a>
+            </div>
           </div>
         </div>
       </footer>
