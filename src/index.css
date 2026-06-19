@@ -5,7 +5,7 @@
   --font-serif: "Bricolage Grotesque", sans-serif;
   --font-sans: "Space Grotesk", sans-serif;
   
-  --color-neo-bg: #F6F4FF;
+  --color-neo-bg: #FAF9F6; /* Soft cream/panna background */
   --color-neo-white: #FFFFFF;
   --color-neo-dark: #0F0F12;
   --color-neo-teal: #34BBC0;
@@ -31,77 +31,90 @@ body {
   overflow-x: hidden;
 }
 
-/* Neo-Brutalist Card (Flat sharp shadow, thick border) */
-.neo-card {
-  background-color: var(--color-neo-white);
-  border: 2px solid var(--color-neo-dark);
-  border-radius: 12px;
-  box-shadow: 4px 4px 0px 0px var(--color-neo-dark);
+/* Premium Y2K Glassmorphism + Net Borders */
+.y2k-glass {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1.5px solid rgba(15, 15, 18, 0.12);
+  box-shadow: 0 8px 32px 0 rgba(15, 15, 18, 0.04);
 }
 
-.neo-card-interactive {
-  background-color: var(--color-neo-white);
-  border: 2px solid var(--color-neo-dark);
-  border-radius: 12px;
-  box-shadow: 4px 4px 0px 0px var(--color-neo-dark);
-  transition: all 0.15s ease-in-out;
+.y2k-glass-card {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1.5px solid rgba(15, 15, 18, 0.85);
+  box-shadow: 4px 4px 0px 0px rgba(15, 15, 18, 0.95);
+  border-radius: 20px;
 }
 
-.neo-card-interactive:hover {
+.y2k-glass-card-interactive {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1.5px solid rgba(15, 15, 18, 0.85);
+  box-shadow: 4px 4px 0px 0px rgba(15, 15, 18, 0.95);
+  border-radius: 20px;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.y2k-glass-card-interactive:hover {
   transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0px 0px var(--color-neo-dark);
+  box-shadow: 6px 6px 0px 0px rgba(15, 15, 18, 0.95);
+  background: rgba(255, 255, 255, 0.7);
 }
 
-/* Neo-Brutalist Interactive Button */
-.neo-btn {
+/* Y2K Pop Bouncy Interactive Button */
+.y2k-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background-color: var(--color-neo-teal);
   color: var(--color-neo-dark);
-  border: 2px solid var(--color-neo-dark);
+  border: 1.5px solid var(--color-neo-dark);
   border-radius: 12px;
   padding: 0.75rem 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   box-shadow: 3px 3px 0px 0px var(--color-neo-dark);
-  transition: all 0.1s ease-in-out;
+  transition: all 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
 }
 
-.neo-btn:hover {
+.y2k-btn:hover {
   transform: translate(-1px, -1px);
-  box-shadow: 4px 4px 0px 0px var(--color-neo-dark);
+  box-shadow: 4.5px 4.5px 0px 0px var(--color-neo-dark);
 }
 
-.neo-btn:active {
-  transform: translate(2px, 2px);
+.y2k-btn:active {
+  transform: translate(1.5px, 1.5px);
   box-shadow: 1px 1px 0px 0px var(--color-neo-dark);
 }
 
 /* Secondary Button (Neutral) */
-.neo-btn-secondary {
+.y2k-btn-secondary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background-color: var(--color-neo-white);
   color: var(--color-neo-dark);
-  border: 2px solid var(--color-neo-dark);
+  border: 1.5px solid var(--color-neo-dark);
   border-radius: 12px;
   padding: 0.75rem 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
   box-shadow: 3px 3px 0px 0px var(--color-neo-dark);
-  transition: all 0.1s ease-in-out;
+  transition: all 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
 }
 
-.neo-btn-secondary:hover {
+.y2k-btn-secondary:hover {
   transform: translate(-1px, -1px);
-  box-shadow: 4px 4px 0px 0px var(--color-neo-dark);
+  box-shadow: 4.5px 4.5px 0px 0px var(--color-neo-dark);
 }
 
-.neo-btn-secondary:active {
-  transform: translate(2px, 2px);
+.y2k-btn-secondary:active {
+  transform: translate(1.5px, 1.5px);
   box-shadow: 1px 1px 0px 0px var(--color-neo-dark);
 }

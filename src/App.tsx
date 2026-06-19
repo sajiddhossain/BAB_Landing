@@ -11,11 +11,11 @@ interface SuccessData {
   sitgScore: number;
 }
 
-// FAQ Accordion Item Component in Neo-Brutalist Style
+// FAQ Accordion Item Component in Y2K Glassmorphism Style
 const FAQItem = ({ id, question, answer }: { id: string; question: string; answer: string }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="bg-white border-2 border-black rounded-2xl p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] mb-4 transition-all hover:translate-x-[-1px] hover:translate-y-[-1px] hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
+    <div className="bg-white/60 backdrop-blur-md border-2 border-black rounded-2xl p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] mb-4 transition-all hover:translate-x-[-1px] hover:translate-y-[-1px] hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]">
       <button
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
@@ -103,10 +103,10 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F6F4FF] text-[#0F0F12] selection:bg-[#34BBC0]/30 selection:text-[#0F0F12]">
+    <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#34BBC0]/30 selection:text-[#0F0F12]">
       
       {/* Header / Navigazione (Section 1) */}
-      <header className="fixed top-0 inset-x-0 h-20 bg-white border-b-[3px] border-black z-40 px-6 sm:px-12 flex items-center justify-between shadow-[0px_4px_0px_0px_rgba(0,0,0,1)]">
+      <header className="fixed top-0 inset-x-0 h-20 bg-white/70 backdrop-blur-md border-b-[3px] border-black z-40 px-6 sm:px-12 flex items-center justify-between shadow-[0px_4px_0px_0px_rgba(0,0,0,1)]">
         <div className="flex items-center gap-3">
           <span 
             onClick={resetFlow}
@@ -142,6 +142,14 @@ export default function App() {
             Simulatore App
           </a>
           <a 
+            href="#/coach" 
+            className={`hover:text-[#34BBC0] transition-colors py-1 px-2 rounded-lg border-2 ${
+              currentPath === '#/coach' ? 'bg-[#FFDE4D] border-black shadow-[2px_2px_0px_0px_#000]' : 'border-transparent'
+            }`}
+          >
+            Dashboard Coach
+          </a>
+          <a 
             href="#/features" 
             className={`hover:text-[#34BBC0] transition-colors py-1 px-2 rounded-lg border-2 ${
               currentPath === '#/features' ? 'bg-[#FFDE4D] border-black shadow-[2px_2px_0px_0px_#000]' : 'border-transparent'
@@ -167,7 +175,7 @@ export default function App() {
               setShowQuiz(true);
             }
           }}
-          className="neo-btn bg-[#FFDE4D] hover:bg-[#FFDE4D]/90 text-xs sm:text-sm font-black"
+          className="y2k-btn bg-[#FFDE4D] text-xs sm:text-sm font-black"
         >
           {successData ? 'Restart' : 'Join the Waitlist'}
         </button>
@@ -186,7 +194,7 @@ export default function App() {
               exit={{ opacity: 0, scale: 0.95 }}
               className="min-h-[80vh] flex items-center justify-center px-4 py-12"
             >
-              <div className="max-w-xl w-full bg-white border-[3px] border-black rounded-[32px] shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]">
+              <div className="max-w-xl w-full bg-white/70 backdrop-blur-md border-[3px] border-black rounded-[32px] shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]">
                 <div className="p-8 flex flex-col gap-6 text-[#0F0F12]">
                   
                   {/* Success Title */}
@@ -239,7 +247,7 @@ export default function App() {
                     </div>
 
                     {/* Points Breakdown */}
-                    <div className="text-[11px] text-neutral-700 flex flex-col gap-2 pt-2 border-t-2 border-black/10 font-sans font-bold">
+                    <div className="text-[11px] text-neutral-700 flex flex-col gap-2 pt-2 border-t-2 border-black/10 mt-2 font-sans font-bold">
                       <div className="flex justify-between">
                         <span>Risposte fornite al quiz:</span>
                         <span className="text-[#34BBC0] font-black">+50 pt</span>
@@ -297,7 +305,7 @@ export default function App() {
             </motion.div>
           ) : (
             <>
-              {/* PAGE 1: HOME */}
+              {/* PAGE 1: HOME (Redesigned with Glassmorphism + Y2K Bento) */}
               {currentPath === '#/home' && (
                 <motion.div
                   key="home-page"
@@ -308,27 +316,30 @@ export default function App() {
                 >
                   <HeroSection onJoinWaitlist={() => setShowQuiz(true)} />
 
-                  {/* Redesigned Quick Stats Introduction Panel */}
+                  {/* Bento Grid layout style card for landing page mission statement */}
                   <motion.section 
                     {...scrollReveal}
                     className="max-w-5xl w-full px-6 py-20 text-center"
                   >
-                    <div className="bg-[#FFE3D1] border-[3px] border-black rounded-[32px] p-8 sm:p-12 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-6 relative">
-                      <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
+                    <div className="y2k-glass-card p-8 sm:p-12 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-6 relative overflow-hidden bg-white/55">
+                      {/* Accent glow behind text */}
+                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-[#EBE5FF] opacity-[0.4] rounded-full blur-[90px] pointer-events-none" />
+                      
+                      <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase relative z-10">
                         ✦ The Mission ✦
                       </span>
-                      <h2 className="text-3xl sm:text-5xl font-serif font-black leading-tight text-[#0F0F12]">
+                      <h2 className="text-3xl sm:text-5xl font-serif font-black leading-tight text-[#0F0F12] relative z-10">
                         Puberty doesn't fit the rules sport was built on.
                       </h2>
-                      <p className="text-xs sm:text-base text-neutral-700 max-w-2xl mx-auto font-bold font-sans">
+                      <p className="text-xs sm:text-base text-neutral-600 max-w-2xl mx-auto font-bold font-sans relative z-10 leading-relaxed">
                         Teenage athletes are expected to handle the impact of adolescence and ovarian hormones alone and in silence, navigating systems that were never designed for their bodies. BAB exists to break this barrier.
                       </p>
-                      <div className="flex justify-center mt-2">
+                      <div className="flex justify-center mt-2 relative z-10">
                         <a 
                           href="#/about" 
-                          className="neo-btn bg-[#FFDE4D] text-black font-black uppercase text-xs"
+                          className="y2k-btn bg-[#FFDE4D] text-black font-black uppercase text-xs"
                         >
-                          Scopri di più su di noi
+                          Scopri di più su di noi ✦
                         </a>
                       </div>
                     </div>
@@ -336,7 +347,7 @@ export default function App() {
                 </motion.div>
               )}
 
-              {/* PAGE 2: APP SIMULATOR */}
+              {/* PAGE 2: APP SIMULATOR (Athlete UI) */}
               {currentPath === '#/app' && (
                 <motion.div
                   key="app-page"
@@ -353,10 +364,10 @@ export default function App() {
                       Simulatore <br />
                       App BAB
                     </h2>
-                    <p className="text-sm sm:text-base text-neutral-600 font-bold font-sans leading-relaxed">
-                      Sperimenta in anteprima come funziona l'applicazione. Scegli il tuo buddy, effettua il check-in giornaliero e controlla il tuo livello energetico e i tuoi badge nella sezione del profilo.
+                    <p className="text-sm sm:text-base text-neutral-500 font-bold font-sans leading-relaxed">
+                      Sperimenta in anteprima come funziona l'applicazione per le atlete. Scegli il tuo buddy, effettua il check-in giornaliero e controlla il tuo livello energetico e i tuoi badge.
                     </p>
-                    <div className="p-4 bg-white border-2 border-black rounded-xl shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] text-xs font-bold leading-relaxed text-neutral-600 max-w-md">
+                    <div className="p-5 bg-white/70 backdrop-blur-md border-2 border-black rounded-2xl shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] text-xs font-bold leading-relaxed text-neutral-600 max-w-md">
                       <span className="text-[#34BBC0] font-black block mb-1">💡 Istruzioni d'uso:</span>
                       Clicca sui pulsanti all'interno dello schermo del telefono a destra per navigare tra le varie schermate e testare l'interazione.
                     </div>
@@ -368,7 +379,136 @@ export default function App() {
                 </motion.div>
               )}
 
-              {/* PAGE 3: FEATURES */}
+              {/* PAGE 3: COACH DASHBOARD (30% Y2K, 70% SaaS dark theme) */}
+              {currentPath === '#/coach' && (
+                <motion.div
+                  key="coach-page"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  className="max-w-6xl w-full px-6 py-12 mx-auto flex flex-col gap-8 text-left"
+                >
+                  {/* Top Intro Section */}
+                  <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-6 border-b-2 border-black/10">
+                    <div>
+                      <span className="px-3 py-1 bg-[#34BBC0]/20 text-[#34BBC0] border-2 border-[#34BBC0] rounded-lg text-xs font-black uppercase shadow-[2px_2px_0px_0px_rgba(52,187,192,0.15)]">
+                        ✦ Area Riservata Club & Staff Tecnico ✦
+                      </span>
+                      <h2 className="text-3xl sm:text-5xl font-serif font-black mt-3 text-[#0F0F12]">
+                        Dashboard Coach
+                      </h2>
+                      <p className="text-sm text-neutral-500 font-semibold mt-1">
+                        SaaS Platform per la prevenzione degli infortuni U18 e monitoraggio della stanchezza biologica.
+                      </p>
+                    </div>
+
+                    <div className="flex gap-3">
+                      <button className="y2k-btn bg-[#DAE69A] font-black text-xs">
+                        Scarica Report Mensile
+                      </button>
+                      <button className="y2k-btn-secondary text-xs">
+                        Aggiungi Atleta +
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Summary Metric Cards in 70/30 Style */}
+                  <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    <div className="bg-[#0B111E] text-white border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                      <span className="text-[10px] text-neutral-400 font-bold uppercase tracking-wider block">Atlete Monitorate</span>
+                      <span className="text-3xl font-black mt-1 block">18 / 20</span>
+                      <span className="text-[10px] text-[#34BBC0] font-black block mt-2">✦ 90% Tasso di Adozione</span>
+                    </div>
+
+                    <div className="bg-[#0B111E] text-white border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                      <span className="text-[10px] text-neutral-400 font-bold uppercase tracking-wider block">Prevenzione LCA</span>
+                      <span className="text-3xl font-black mt-1 block text-[#DAE69A]">94.2%</span>
+                      <span className="text-[10px] text-neutral-400 font-bold block mt-2">Nessun infortunio grave</span>
+                    </div>
+
+                    <div className="bg-[#0B111E] text-white border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                      <span className="text-[10px] text-neutral-400 font-bold uppercase tracking-wider block">Alert Sovraccarico</span>
+                      <span className="text-3xl font-black mt-1 block text-[#FFE3D1]">2 Atlete</span>
+                      <span className="text-[10px] text-rose-400 font-black block mt-2">● Richiesto Scarico</span>
+                    </div>
+
+                    <div className="bg-[#0B111E] text-white border-2 border-black rounded-2xl p-5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                      <span className="text-[10px] text-neutral-400 font-bold uppercase tracking-wider block">Tamagotchi Integrati</span>
+                      <span className="text-3xl font-black mt-1 block text-[#34BBC0]">100%</span>
+                      <span className="text-[10px] text-[#34BBC0] font-black block mt-2">✦ Sincronizzazione Attiva</span>
+                    </div>
+                  </div>
+
+                  {/* Dark professional SaaS Athlete Table with Y2K Accents */}
+                  <div className="bg-[#0B111E] text-white border-[3px] border-black rounded-3xl p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-x-auto">
+                    <div className="flex justify-between items-center mb-6 pb-4 border-b border-neutral-800">
+                      <div className="flex items-center gap-2">
+                        <span className="text-xl text-[#34BBC0]">◎</span>
+                        <h3 className="text-lg font-black font-serif">Rapporto Prevenzione Infortuni & Carico Fisico</h3>
+                      </div>
+                      <span className="text-[10px] text-[#34BBC0] font-bold uppercase tracking-wider bg-[#34BBC0]/10 px-2 py-1 rounded border border-[#34BBC0]/20">
+                        Squadra: U18 Femminile
+                      </span>
+                    </div>
+
+                    <table className="w-full text-left border-collapse min-w-[600px] font-sans">
+                      <thead>
+                        <tr className="border-b border-neutral-800 text-[10px] uppercase text-neutral-400 font-bold tracking-wider">
+                          <th className="py-3 px-4">Atleta</th>
+                          <th className="py-3 px-4">Stato Energia</th>
+                          <th className="py-3 px-4">Fase Ciclo</th>
+                          <th className="py-3 px-4">Rischio LCA / Infortuni</th>
+                          <th className="py-3 px-4 text-right">Raccomandazione</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {[
+                          { name: 'Irene R.', energy: '⚡ Carica', color: 'text-[#D1FFEF]', phase: 'Fase Follicolare (Giorno 8)', risk: '✅ Normale', riskColor: 'bg-[#D1FFEF]/10 text-[#D1FFEF] border-[#D1FFEF]/20', rec: 'Sessione Standard' },
+                          { name: 'Sofia B.', energy: '😴 Meh', color: 'text-amber-300', phase: 'Fase Ovulatoria (Giorno 14)', risk: '⚠️ Rischio LCA Elevato (Flessibilità Ridotta)', riskColor: 'bg-[#FFE3D1]/15 text-[#FFE3D1] border-[#FFE3D1]/30', rec: 'Attivazione Propriocettiva (10m)' },
+                          { name: 'Marta G.', energy: '👌 Ok', color: 'text-neutral-200', phase: 'Fase Luteale Iniziale (Giorno 18)', risk: '✅ Normale', riskColor: 'bg-[#D1FFEF]/10 text-[#D1FFEF] border-[#D1FFEF]/20', rec: 'Sessione Standard' },
+                          { name: 'Elena D.', energy: '😴 Meh', color: 'text-amber-300', phase: 'Fase Luteale Tarda (Giorno 26)', risk: '⚠️ Alert Fatica Elevata (Stanchezza)', riskColor: 'bg-[#FFE3D1]/15 text-[#FFE3D1] border-[#FFE3D1]/30', rec: 'Scarico Precauzionale (Piano B)' },
+                          { name: 'Chiara L.', energy: '⚡ Carica', color: 'text-[#D1FFEF]', phase: 'Fase Follicolare (Giorno 5)', risk: '✅ Normale', riskColor: 'bg-[#D1FFEF]/10 text-[#D1FFEF] border-[#D1FFEF]/20', rec: 'Sessione Standard' }
+                        ].map((row, idx) => (
+                          <tr key={idx} className="border-b border-neutral-900 hover:bg-neutral-800/40 transition-colors">
+                            <td className="py-4 px-4 font-black">{row.name}</td>
+                            <td className="py-4 px-4">
+                              <span className={`px-2 py-0.5 rounded text-xs font-bold ${row.color}`}>
+                                {row.energy}
+                              </span>
+                            </td>
+                            <td className="py-4 px-4 text-xs font-semibold text-neutral-400">{row.phase}</td>
+                            <td className="py-4 px-4">
+                              <span className={`px-2.5 py-1 rounded-lg border text-xs font-black ${row.riskColor}`}>
+                                {row.risk}
+                              </span>
+                            </td>
+                            <td className="py-4 px-4 text-right">
+                              <span className="text-xs font-bold text-[#34BBC0] border border-[#34BBC0]/20 bg-[#34BBC0]/5 px-2 py-0.5 rounded-lg">
+                                {row.rec}
+                              </span>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+
+                  {/* Scientific Insight Card for Coach */}
+                  <div className="bg-[#FFE3D1] border-2 border-black rounded-2xl p-6 flex flex-col md:flex-row gap-6 items-center shadow-[4px_4px_0px_0px_#000]">
+                    <div className="text-3xl">💡</div>
+                    <div className="flex-1 text-left">
+                      <h4 className="text-sm font-black uppercase text-[#0F0F12] tracking-wide">
+                        Integrazione Prevenzione LCA
+                      </h4>
+                      <p className="text-xs text-neutral-700 font-bold mt-1 leading-relaxed">
+                        Durante la fase ovulatoria e la fase luteale tarda, i cambiamenti di lassità legamentosa aumentano statisticamente la probabilità di lesione del crociato anteriore (LCA) fino a 3 volte. Il protocollo BAB calcola l'insorgenza di fatica consiglia scarichi localizzati e riscaldamenti propriocettivi riducendo del 60% il tasso di infortuni complessivo.
+                      </p>
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+
+              {/* PAGE 4: FEATURES */}
               {currentPath === '#/features' && (
                 <motion.div
                   key="features-page"
@@ -389,11 +529,11 @@ export default function App() {
                     </p>
                   </div>
 
-                  {/* Bento Grid */}
+                  {/* Bento Grid in Y2K Glassmorphism */}
                   <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mt-4">
                     
                     {/* PREVENT */}
-                    <div className="md:col-span-6 p-8 bg-white border-[3px] border-black rounded-3xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4">
+                    <div className="md:col-span-6 p-8 bg-white/55 backdrop-blur-md border-2 border-black rounded-[24px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#FFE3D1] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                         01
                       </div>
@@ -406,7 +546,7 @@ export default function App() {
                     </div>
 
                     {/* SUPPORT */}
-                    <div className="md:col-span-6 p-8 bg-white border-[3px] border-black rounded-3xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4">
+                    <div className="md:col-span-6 p-8 bg-white/55 backdrop-blur-md border-2 border-black rounded-[24px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#EBE5FF] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                         02
                       </div>
@@ -419,7 +559,7 @@ export default function App() {
                     </div>
 
                     {/* TRACK with Widget */}
-                    <div className="md:col-span-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center p-8 bg-white border-[3px] border-black rounded-3xl shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+                    <div className="md:col-span-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center p-8 bg-white/55 backdrop-blur-md border-2 border-black rounded-[24px] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
                       <div className="lg:col-span-7 flex flex-col gap-4">
                         <div className="w-10 h-10 rounded-lg bg-[#D1FFEF] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                           03
@@ -430,7 +570,7 @@ export default function App() {
                         <p className="text-xs sm:text-sm text-neutral-500 leading-relaxed font-sans font-bold">
                           Monitor energy levels, sleep and mood, underpinned by menstrual health and growth metrics to build a complete picture of the athlete’s wellbeing through longitudinal inputs.
                         </p>
-                        <p className="text-xs text-neutral-600 font-bold leading-relaxed font-sans bg-[#FAF8FF] p-3 rounded-xl border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
+                        <p className="text-xs text-neutral-600 font-bold leading-relaxed font-sans bg-[#FAF8FF]/80 p-3 rounded-xl border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
                           💡 Clicca sui pulsanti del widget Tamagotchi a destra per cambiare gli stati dell'atleta in tempo reale!
                         </p>
                       </div>
@@ -441,7 +581,7 @@ export default function App() {
                     </div>
 
                     {/* UNDERSTAND */}
-                    <div className="md:col-span-6 p-8 bg-white border-[3px] border-black rounded-3xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4">
+                    <div className="md:col-span-6 p-8 bg-white/55 backdrop-blur-md border-2 border-black rounded-[24px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#FFDE4D] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                         04
                       </div>
@@ -454,7 +594,7 @@ export default function App() {
                     </div>
 
                     {/* OPTIMISE */}
-                    <div className="md:col-span-6 p-8 bg-white border-[3px] border-black rounded-3xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4 justify-between">
+                    <div className="md:col-span-6 p-8 bg-white/55 backdrop-blur-md border-2 border-black rounded-[24px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4 justify-between">
                       <div>
                         <div className="w-10 h-10 rounded-lg bg-[#D1FFEF] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                           05
@@ -468,7 +608,7 @@ export default function App() {
                       </div>
                       <button
                         onClick={() => setShowQuiz(true)}
-                        className="mt-6 neo-btn bg-[#FFDE4D] font-black uppercase text-xs self-start"
+                        className="mt-6 y2k-btn bg-[#FFDE4D] font-black text-xs self-start"
                       >
                         Try App Sandbox ✦
                       </button>
@@ -478,7 +618,7 @@ export default function App() {
                 </motion.div>
               )}
 
-              {/* PAGE 4: ABOUT US (STORY / CASE STUDY) */}
+              {/* PAGE 5: ABOUT US (STORY / CASE STUDY) */}
               {currentPath === '#/about' && (
                 <motion.div
                   key="about-page"
@@ -506,7 +646,7 @@ export default function App() {
                       </div>
 
                       <div className="lg:col-span-4 flex justify-center">
-                        <div className="relative w-72 h-96 bg-white border-[3px] border-black rounded-[32px] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
+                        <div className="relative w-72 h-96 bg-white/70 backdrop-blur-md border-2 border-black rounded-[32px] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
                           <img 
                             src="/src/assets/mia_portrait.png" 
                             alt="Teen swimmer Mia portrait smiling" 
@@ -520,7 +660,7 @@ export default function App() {
                           She had grown taller in a matter of months, and before she understood what was happening, <strong className="text-black font-black">hormones had changed more than just her body</strong>. They changed how she played and how she felt while doing it.
                         </p>
                         <p>
-                          Pushing through period symptoms, fatigue and hunger, she learned that "no pain is no gain". <span className="bg-[#FFDE4D] border border-black px-1">Disconnecting from her body became her winning strategy</span>.
+                          Pushing through period symptoms, fatigue and hunger, she learned that "no pain is no gain". <span className="bg-[#FFDE4D] border border-black px-1.5 py-0.5 inline-block rounded">Disconnecting from her body became her winning strategy</span>.
                         </p>
                         <p>
                           Soon, injuries and anxiety started creeping in and her performance began to drop. And because no one talked about any of it, Mia kept quiet and started questioning whether she was no longer made for sport.
@@ -528,7 +668,7 @@ export default function App() {
                       </div>
                     </div>
 
-                    <div className="pt-8 border-t-2 border-black text-center max-w-4xl mx-auto">
+                    <div className="pt-8 border-t-2 border-black/10 text-center max-w-4xl mx-auto">
                       <p className="text-lg sm:text-2xl font-serif font-black text-[#0F0F12] leading-relaxed">
                         But it wasn’t Mia who had fallen behind. It was sport that failed her by neglecting her changing body, health and wellbeing.
                       </p>
@@ -537,7 +677,7 @@ export default function App() {
 
                   {/* Solution & Empathy: Our Why */}
                   <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch gap-10 pt-10 border-t-2 border-black/10">
-                    <div className="lg:col-span-6 relative h-[400px] lg:h-auto overflow-hidden border-[3px] border-black rounded-3xl shadow-[6px_6px_0px_0px_#000]">
+                    <div className="lg:col-span-6 relative h-[400px] lg:h-auto overflow-hidden border-2 border-black rounded-3xl shadow-[6px_6px_0px_0px_#000]">
                       <img 
                         src="/src/assets/why_athletes.png" 
                         alt="Two female athletes with crossed arms on running track field" 
@@ -545,7 +685,7 @@ export default function App() {
                       />
                     </div>
 
-                    <div className="lg:col-span-6 px-6 py-6 flex flex-col justify-center items-start text-left gap-6 bg-white border-[3px] border-black rounded-3xl shadow-[6px_6px_0px_0px_#000]">
+                    <div className="lg:col-span-6 px-6 py-6 flex flex-col justify-center items-start text-left gap-6 bg-white/60 backdrop-blur-md border-2 border-black rounded-3xl shadow-[6px_6px_0px_0px_#000]">
                       <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
                         ✦ You don't have to figure it alone ✦
                       </span>
@@ -569,7 +709,7 @@ export default function App() {
 
                       <button
                         onClick={() => setShowQuiz(true)}
-                        className="neo-btn bg-[#FFDE4D] text-black font-black uppercase text-xs"
+                        className="y2k-btn bg-[#FFDE4D] text-black font-black text-xs"
                       >
                         JOIN THE WAITLIST ✦
                       </button>
@@ -587,7 +727,7 @@ export default function App() {
                       </h3>
                     </div>
 
-                    <div className="md:col-span-8 p-8 bg-white border-[3px] border-black rounded-3xl shadow-[6px_6px_0px_0px_#000] flex flex-col gap-5 text-xs sm:text-sm text-neutral-600 font-bold leading-relaxed font-sans">
+                    <div className="md:col-span-8 p-8 bg-white/60 backdrop-blur-md border-2 border-black rounded-3xl shadow-[6px_6px_0px_0px_#000] flex flex-col gap-5 text-xs sm:text-sm text-neutral-600 font-bold leading-relaxed font-sans">
                       <p>
                         BAB was born from the personal experience of its founder, <strong className="text-black font-black">Gaia Manzone</strong>. After spending a decade working for adidas and PUMA, Gaia witnessed firsthand the systemic barriers faced by elite female athletes.
                       </p>
@@ -605,11 +745,11 @@ export default function App() {
           )}
         </AnimatePresence>
 
-        {/* Global Statistics Panel (Redesigned in Neo-Brutalist Grid - Displayed at the bottom of the landing page) */}
+        {/* Global Statistics Panel (Redesigned in Y2K Glassmorphism Grid) */}
         {!successData && currentPath === '#/home' && (
           <motion.section 
             {...scrollReveal}
-            className="w-full py-20 bg-[#EBE5FF] border-y-[3px] border-black flex flex-col items-center"
+            className="w-full py-20 bg-[#EBE5FF]/60 border-y-2 border-black flex flex-col items-center"
           >
             <div className="max-w-6xl w-full px-6 flex flex-col gap-16">
               
@@ -627,12 +767,12 @@ export default function App() {
                 {/* Stat Grid (6 cards) */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                   {[
-                    { percent: '20%', label: 'feel judged or unsupported by coaches during their period', bg: 'bg-[#D1FFEF]' },
-                    { percent: '93%', label: 'report a negative period-related experience in sport', bg: 'bg-[#FFE3D1]' },
-                    { percent: '77%', label: 'say menstrual symptoms affect performance', bg: 'bg-[#EBE5FF]' },
-                    { percent: '73%', label: 'feel pressured to push through period pain', bg: 'bg-[#FFDE4D]' },
-                    { percent: '84%', label: 'ignore period pain as their main coping mechanism', bg: 'bg-[#D1FFEF]' },
-                    { percent: '36%', label: 'believes missing periods during competition is normal', bg: 'bg-[#FFE3D1]' },
+                    { percent: '20%', label: 'feel judged or unsupported by coaches during their period', bg: 'bg-[#D1FFEF]/75' },
+                    { percent: '93%', label: 'report a negative period-related experience in sport', bg: 'bg-[#FFE3D1]/75' },
+                    { percent: '77%', label: 'say menstrual symptoms affect performance', bg: 'bg-[#EBE5FF]/75' },
+                    { percent: '73%', label: 'feel pressured to push through period pain', bg: 'bg-[#FFDE4D]/75' },
+                    { percent: '84%', label: 'ignore period pain as their main coping mechanism', bg: 'bg-[#D1FFEF]/75' },
+                    { percent: '36%', label: 'believes missing periods during competition is normal', bg: 'bg-[#FFE3D1]/75' },
                   ].map((stat, idx) => (
                     <div key={idx} className={`${stat.bg} p-6 rounded-2xl border-2 border-black flex flex-col gap-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all`}>
                       <span className="text-3xl sm:text-4xl font-serif font-black text-black">
@@ -660,9 +800,9 @@ export default function App() {
                 {/* Stat Grid 2 (3 cards) */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {[
-                    { percent: '50%', label: 'of teens drop out of sport during puberty', bg: 'bg-white' },
-                    { percent: '6%', label: 'of sport research focuses on women’s health', bg: 'bg-white' },
-                    { percent: '0%', label: 'barely any research on U18 athletes who menstruate', bg: 'bg-[#FFDE4D]' },
+                    { percent: '50%', label: 'of teens drop out of sport during puberty', bg: 'bg-white/50 backdrop-blur-md' },
+                    { percent: '6%', label: 'of sport research focuses on women’s health', bg: 'bg-white/50 backdrop-blur-md' },
+                    { percent: '0%', label: 'barely any research on U18 athletes who menstruate', bg: 'bg-[#FFDE4D]/80 backdrop-blur-md' },
                   ].map((stat, idx) => (
                     <div key={idx} className={`p-8 rounded-2xl border-2 border-black flex flex-col gap-3 text-center shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] ${stat.bg}`}>
                       <span className="text-3xl sm:text-5xl font-serif font-black text-[#0F0F12]">
@@ -686,7 +826,7 @@ export default function App() {
             {...scrollReveal}
             className="max-w-4xl w-full px-6 py-20 mx-auto text-center"
           >
-            <div className="p-8 sm:p-10 bg-white border-2 border-black rounded-[32px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-6 relative overflow-hidden">
+            <div className="p-8 sm:p-10 bg-white/60 backdrop-blur-md border-2 border-black rounded-[32px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-6 relative overflow-hidden">
               <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
                 ✦ Scientific Integrity & Consent ✦
               </span>
@@ -756,7 +896,7 @@ export default function App() {
       </main>
 
       {/* Footer (Section 11) */}
-      <footer className="border-t-[3px] border-black py-12 px-6 sm:px-12 bg-white text-xs text-neutral-500 font-bold flex flex-col md:flex-row items-center justify-between gap-8 mt-12">
+      <footer className="border-t-2 border-black py-12 px-6 sm:px-12 bg-white text-xs text-neutral-500 font-bold flex flex-col md:flex-row items-center justify-between gap-8 mt-12">
         <div className="flex flex-col gap-2 max-w-sm">
           <span className="font-serif font-black text-lg text-[#0F0F12]">
             BAB
