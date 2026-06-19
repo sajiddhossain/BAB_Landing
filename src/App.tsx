@@ -533,7 +533,7 @@ export default function App() {
                   <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mt-4">
                     
                     {/* PREVENT */}
-                    <div className="md:col-span-6 p-8 bg-white/55 backdrop-blur-md border-2 border-black rounded-[24px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4">
+                    <div className="md:col-span-6 p-8 y2k-glass-card-interactive flex flex-col gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#FFE3D1] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                         01
                       </div>
@@ -546,7 +546,7 @@ export default function App() {
                     </div>
 
                     {/* SUPPORT */}
-                    <div className="md:col-span-6 p-8 bg-white/55 backdrop-blur-md border-2 border-black rounded-[24px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4">
+                    <div className="md:col-span-6 p-8 y2k-glass-card-interactive flex flex-col gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#EBE5FF] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                         02
                       </div>
@@ -559,7 +559,7 @@ export default function App() {
                     </div>
 
                     {/* TRACK with Widget */}
-                    <div className="md:col-span-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center p-8 bg-white/55 backdrop-blur-md border-2 border-black rounded-[24px] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+                    <div className="md:col-span-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center p-8 y2k-glass-card">
                       <div className="lg:col-span-7 flex flex-col gap-4">
                         <div className="w-10 h-10 rounded-lg bg-[#D1FFEF] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                           03
@@ -581,7 +581,7 @@ export default function App() {
                     </div>
 
                     {/* UNDERSTAND */}
-                    <div className="md:col-span-6 p-8 bg-white/55 backdrop-blur-md border-2 border-black rounded-[24px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4">
+                    <div className="md:col-span-6 p-8 y2k-glass-card-interactive flex flex-col gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#FFDE4D] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                         04
                       </div>
@@ -594,7 +594,7 @@ export default function App() {
                     </div>
 
                     {/* OPTIMISE */}
-                    <div className="md:col-span-6 p-8 bg-white/55 backdrop-blur-md border-2 border-black rounded-[24px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4 justify-between">
+                    <div className="md:col-span-6 p-8 y2k-glass-card-interactive flex flex-col gap-4 justify-between">
                       <div>
                         <div className="w-10 h-10 rounded-lg bg-[#D1FFEF] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                           05
@@ -774,7 +774,11 @@ export default function App() {
                     { percent: '84%', label: 'ignore period pain as their main coping mechanism', bg: 'bg-[#D1FFEF]/75' },
                     { percent: '36%', label: 'believes missing periods during competition is normal', bg: 'bg-[#FFE3D1]/75' },
                   ].map((stat, idx) => (
-                    <div key={idx} className={`${stat.bg} p-6 rounded-2xl border-2 border-black flex flex-col gap-3 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] transition-all`}>
+                    <div 
+                      key={idx} 
+                      className={`${stat.bg} p-6 rounded-[22px] border-2 border-black flex flex-col gap-3 transition-all hover:-translate-y-0.5 shadow-[3px_3px_0px_0px_rgba(15,15,18,0.95)] hover:shadow-[5px_5px_0px_0px_rgba(15,15,18,0.95)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_0px_rgba(15,15,18,0.95)] relative overflow-hidden`}
+                      style={{ boxShadow: 'inset 0 3px 0 0 rgba(255,255,255,0.45), inset 0 -3px 0 0 rgba(0,0,0,0.05), 3px 3px 0px 0px rgba(15,15,18,0.95)' } as any}
+                    >
                       <span className="text-3xl sm:text-4xl font-serif font-black text-black">
                         {stat.percent}
                       </span>
