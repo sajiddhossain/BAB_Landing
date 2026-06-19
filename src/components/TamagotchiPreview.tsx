@@ -13,7 +13,7 @@ export const TamagotchiPreview: React.FC = () => {
         {/* Widget Header */}
         <div className="w-full flex justify-between items-center border-b border-[#FAF9F6]/10 pb-3">
           <div>
-            <h4 className="font-serif font-bold text-sm text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+            <h4 className="font-serif font-bold text-sm text-[#FAF9F6]">
               Stato dell'Atleta (Tamagotchi)
             </h4>
             <p className="text-[9px] text-[#FAF9F6]/40 uppercase tracking-widest mt-0.5">

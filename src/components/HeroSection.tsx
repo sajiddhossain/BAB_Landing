@@ -65,7 +65,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
             className="font-serif font-bold text-4xl sm:text-5xl lg:text-7xl tracking-tight text-[#FAF9F6] leading-[1.1] max-w-xl"
-            style={{ fontFamily: "'Corben', serif" }}
           >
             Breaking All Barriers
           </motion.h1>

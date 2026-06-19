@@ -141,7 +141,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
         {/* Header Row */}
         <div className="flex justify-between items-center border-b border-[#FAF9F6]/10 pb-4">
           <div>
-            <h3 id="quiz-title" className="font-serif font-bold text-lg text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+            <h3 id="quiz-title" className="font-serif font-bold text-lg text-[#FAF9F6]">
               Analisi di Rischio
             </h3>
             <p className="text-[10px] text-[#FAF9F6]/40 uppercase tracking-widest mt-0.5">

@@ -107,8 +107,7 @@ export default function App() {
             role="button"
             aria-label="Home page BAB"
             onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') resetFlow(); }}
-            className="text-2xl font-bold font-serif text-[#FAF9F6] cursor-pointer hover:text-[#DAE69A] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded" 
-            style={{ fontFamily: "'Corben', serif" }}
+            className="text-2xl font-bold font-serif text-[#FAF9F6] cursor-pointer hover:text-[#DAE69A] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded"
           >
             BAB
           </span>
@@ -178,7 +177,7 @@ export default function App() {
                     <span className="text-xs font-bold text-[#34BBC0] tracking-widest uppercase">
                       ✦ You don't have to figure it out alone ✦
                     </span>
-                    <h2 className="text-3xl sm:text-5xl font-serif font-bold text-[#FAF9F6] leading-tight" style={{ fontFamily: "'Corben', serif" }}>
+                    <h2 className="text-3xl sm:text-5xl font-serif font-bold text-[#FAF9F6] leading-tight">
                       You don’t have to figure it out all alone
                     </h2>
                     <div className="flex flex-col gap-4 text-sm sm:text-base text-[#FAF9F6]/80 leading-relaxed font-sans">
@@ -220,7 +219,7 @@ export default function App() {
                     <span className="text-xs font-bold text-[#34BBC0] tracking-widest uppercase">
                       ✦ Athlete Case Study ✦
                     </span>
-                    <h3 className="text-2xl sm:text-4xl font-serif font-bold" style={{ fontFamily: "'Corben', serif" }}>
+                    <h3 className="text-2xl sm:text-4xl font-serif font-bold">
                       Mia's Story
                     </h3>
                   </div>
@@ -232,7 +231,6 @@ export default function App() {
                     <div className="lg:col-span-4 text-left">
                       <h4 
                         className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#FAF9F6] leading-[1.2]"
-                        style={{ fontFamily: "'Corben', serif" }}
                       >
                         At thirteen, Mia’s body no longer felt like home.
                       </h4>
@@ -268,7 +266,6 @@ export default function App() {
                   <div className="pt-8 border-t border-[#FAF9F6]/10 text-center max-w-4xl mx-auto">
                     <p 
                       className="text-lg sm:text-2xl font-serif font-bold text-[#FAF9F6] leading-relaxed"
-                      style={{ fontFamily: "'Corben', serif" }}
                     >
                       But it wasn’t Mia who had fallen behind. It was sport that failed her by neglecting her changing body, health and wellbeing.
                     </p>
@@ -287,7 +284,7 @@ export default function App() {
                   {/* Part A: Menstrual Pain Points */}
                   <div className="flex flex-col gap-10">
                     <div className="text-center max-w-3xl mx-auto flex flex-col gap-4">
-                      <h2 className="text-2xl sm:text-4xl font-serif font-bold leading-tight" style={{ fontFamily: "'Corben', serif" }}>
+                      <h2 className="text-2xl sm:text-4xl font-serif font-bold leading-tight">
                         Just like Mia, several athletes pay the cost of bleeding in sport
                       </h2>
                     </div>
@@ -306,8 +303,7 @@ export default function App() {
                           {/* Small icon placeholder */}
                           <div className="w-4 h-4 rounded bg-[#FAF9F6]/10 group-hover:bg-[#34BBC0]/30 transition-colors" />
                           <span 
-                            className="text-3xl sm:text-4xl font-serif font-bold text-[#DAE69A] mt-1" 
-                            style={{ fontFamily: "'Corben', serif" }}
+                            className="text-3xl sm:text-4xl font-serif font-bold text-[#DAE69A] mt-1"
                           >
                             {stat.percent}
                           </span>
@@ -329,7 +325,7 @@ export default function App() {
                   {/* Part B: The Systemic Gap */}
                   <div className="flex flex-col gap-10 pt-12 border-t border-[#FAF9F6]/10">
                     <div className="text-center max-w-3xl mx-auto flex flex-col gap-3">
-                      <h4 className="text-xl sm:text-3xl font-serif font-bold text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+                      <h4 className="text-xl sm:text-3xl font-serif font-bold text-[#FAF9F6]">
                         Women are treated as Small Men, and Girls as Small Women*
                       </h4>
                       <p className="text-xs sm:text-sm text-[#DAE69A] uppercase tracking-widest font-bold">
@@ -345,7 +341,7 @@ export default function App() {
                         { percent: '0%', label: 'barely any research on U18 athletes who menstruate', customBg: 'bg-[#4a1c30]/90 border-[#FAF9F6]/15' },
                       ].map((stat, idx) => (
                         <div key={idx} className={`p-8 rounded-2xl border border-[#FAF9F6]/5 flex flex-col gap-3 text-center glass-panel ${stat.customBg}`}>
-                          <span className="text-3xl sm:text-5xl font-serif font-bold text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+                          <span className="text-3xl sm:text-5xl font-serif font-bold text-[#FAF9F6]">
                             {stat.percent}
                           </span>
                           <p className="text-xs sm:text-sm text-[#FAF9F6]/70 leading-relaxed font-sans">
@@ -379,7 +375,7 @@ export default function App() {
                   <span className="text-xs font-bold text-[#34BBC0] tracking-widest uppercase">
                     ✦ Core Capabilities ✦
                   </span>
-                  <h3 className="text-3xl sm:text-5xl font-serif font-bold" style={{ fontFamily: "'Corben', serif" }}>
+                  <h3 className="text-3xl sm:text-5xl font-serif font-bold">
                     Performance x Health x Wellbeing
                   </h3>
                   <p className="text-sm text-[#FAF9F6]/60 leading-relaxed font-sans">
@@ -398,7 +394,7 @@ export default function App() {
                     <div className="w-10 h-10 rounded-lg bg-[#FAF9F6]/5 flex items-center justify-center border border-[#FAF9F6]/10 text-[#34BBC0] font-bold text-sm">
                       01
                     </div>
-                    <h4 className="text-lg sm:text-xl font-bold font-serif text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+                    <h4 className="text-lg sm:text-xl font-bold font-serif text-[#FAF9F6]">
                       PREVENT
                     </h4>
                     <p className="text-xs sm:text-sm text-[#FAF9F6]/60 leading-relaxed font-sans">
@@ -414,7 +410,7 @@ export default function App() {
                     <div className="w-10 h-10 rounded-lg bg-[#FAF9F6]/5 flex items-center justify-center border border-[#FAF9F6]/10 text-[#34BBC0] font-bold text-sm">
                       02
                     </div>
-                    <h4 className="text-lg sm:text-xl font-bold font-serif text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+                    <h4 className="text-lg sm:text-xl font-bold font-serif text-[#FAF9F6]">
                       SUPPORT
                     </h4>
                     <p className="text-xs sm:text-sm text-[#FAF9F6]/60 leading-relaxed font-sans">
@@ -428,7 +424,7 @@ export default function App() {
                       <div className="w-10 h-10 rounded-lg bg-[#FAF9F6]/5 flex items-center justify-center border border-[#FAF9F6]/10 text-[#34BBC0] font-bold text-sm">
                         03
                       </div>
-                      <h4 className="text-lg sm:text-xl font-bold font-serif text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+                      <h4 className="text-lg sm:text-xl font-bold font-serif text-[#FAF9F6]">
                         TRACK (Tamagotchi Engine)
                       </h4>
                       <p className="text-xs sm:text-sm text-[#FAF9F6]/60 leading-relaxed font-sans">
@@ -453,7 +449,7 @@ export default function App() {
                       <div className="w-10 h-10 rounded-lg bg-[#FAF9F6]/5 flex items-center justify-center border border-[#FAF9F6]/10 text-[#34BBC0] font-bold text-sm">
                         04
                       </div>
-                      <h4 className="text-lg sm:text-xl font-bold font-serif text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+                      <h4 className="text-lg sm:text-xl font-bold font-serif text-[#FAF9F6]">
                         UNDERSTAND
                       </h4>
                       <p className="text-xs sm:text-sm text-[#FAF9F6]/60 leading-relaxed font-sans">
@@ -471,7 +467,7 @@ export default function App() {
                       <div className="w-10 h-10 rounded-lg bg-[#FAF9F6]/5 flex items-center justify-center border border-[#FAF9F6]/10 text-[#34BBC0] font-bold text-sm">
                         05
                       </div>
-                      <h4 className="text-lg sm:text-xl font-bold font-serif text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+                      <h4 className="text-lg sm:text-xl font-bold font-serif text-[#FAF9F6]">
                         OPTIMISE
                       </h4>
                       <p className="text-xs sm:text-sm text-[#FAF9F6]/60 leading-relaxed font-sans">
@@ -500,7 +496,7 @@ export default function App() {
                   <span className="text-xs font-bold text-[#DAE69A] tracking-widest uppercase">
                     ✦ Scientific Integrity & Consent ✦
                   </span>
-                  <h3 className="text-2xl sm:text-4xl font-serif font-bold text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+                  <h3 className="text-2xl sm:text-4xl font-serif font-bold text-[#FAF9F6]">
                     Data that Break Barriers
                   </h3>
                   <p className="text-xs sm:text-base text-[#FAF9F6]/70 leading-relaxed max-w-2xl mx-auto font-sans">
@@ -526,7 +522,7 @@ export default function App() {
                   <span className="text-xs font-bold text-[#34BBC0] tracking-widest uppercase">
                     ✦ Voices of the community ✦
                   </span>
-                  <h3 className="text-3xl sm:text-4xl font-serif font-bold" style={{ fontFamily: "'Corben', serif" }}>
+                  <h3 className="text-3xl sm:text-4xl font-serif font-bold">
                     Co-created by athletes, scientists and parents
                   </h3>
                 </div>
@@ -594,7 +590,7 @@ export default function App() {
                     <span className="text-xs font-bold text-[#34BBC0] tracking-widest uppercase">
                       ✦ The Founder ✦
                     </span>
-                    <h3 className="text-3xl sm:text-5xl font-serif font-bold" style={{ fontFamily: "'Corben', serif" }}>
+                    <h3 className="text-3xl sm:text-5xl font-serif font-bold">
                       Behind BAB
                     </h3>
                     <div className="w-16 h-1 bg-[#DAE69A] rounded-full mt-2" aria-hidden="true" />
@@ -629,7 +625,7 @@ export default function App() {
                   <span className="text-xs font-bold text-[#34BBC0] tracking-widest uppercase">
                     ✦ FAQ ✦
                   </span>
-                  <h3 className="text-3xl sm:text-4xl font-serif font-bold" style={{ fontFamily: "'Corben', serif" }}>
+                  <h3 className="text-3xl sm:text-4xl font-serif font-bold">
                     Common Questions
                   </h3>
                 </div>
@@ -680,7 +676,7 @@ export default function App() {
                   {/* Success Title */}
                   <div className="text-center border-b border-[#FAF9F6]/10 pb-4">
                     <span className="text-4xl" role="img" aria-label="party popper">🎉</span>
-                    <h2 className="text-2xl font-serif font-bold text-[#FAF9F6] mt-3" style={{ fontFamily: "'Corben', serif" }}>
+                    <h2 className="text-2xl font-serif font-bold text-[#FAF9F6] mt-3">
                       You're on the Waitlist!
                     </h2>
                     <p className="text-xs text-[#34BBC0] uppercase tracking-widest mt-1 font-bold">
@@ -700,7 +696,7 @@ export default function App() {
                         </p>
                       </div>
                       <div className="text-right">
-                        <span className="text-3xl font-serif font-bold text-[#DAE69A]" style={{ fontFamily: "'Corben', serif" }}>
+                        <span className="text-3xl font-serif font-bold text-[#DAE69A]">
                           {successData.sitgScore}
                         </span>
                         <span className="text-xs text-[#FAF9F6]/40 font-bold block">Points</span>
@@ -790,7 +786,7 @@ export default function App() {
       {/* Footer (Section 11) */}
       <footer className="border-t border-[#FAF9F6]/5 py-12 px-6 sm:px-12 bg-[#021a1b] text-xs text-[#FAF9F6]/40 flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="flex flex-col gap-2 max-w-sm">
-          <span className="font-serif font-bold text-lg text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+          <span className="font-serif font-bold text-lg text-[#FAF9F6]">
             BAB
           </span>
           <span>The first health and wellbeing app for teenage girls in sport.</span>
