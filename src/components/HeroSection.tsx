@@ -28,132 +28,85 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
   const contentMap = {
     [Target.Coach]: {
-      subtext: 'Reduce team injuries by 60% and prevent U18 girls from dropping out of the team.',
+      subtext: 'Riduci gli infortuni del team del 60% ed evita che le ragazze mollino la squadra.',
     },
     [Target.Genitore]: {
-      subtext: 'Help your daughter understand her body signals and play sport safely.',
+      subtext: 'Aiuta tua figlia a capire i segnali del suo corpo e a fare sport in sicurezza.',
     },
   };
 
   return (
-    <section className="relative min-h-screen bg-[#F6F4FF] text-[#0F0F12] border-b-[3px] border-black overflow-hidden">
+    <section className="relative min-h-screen bg-[#F6F4FF] text-[#0F0F12] border-b-[3px] border-black overflow-hidden flex flex-col justify-center">
       
-      {/* Grid Layout: Split screen on Desktop */}
+      {/* Grid Layout: Split screen on Desktop, single column on Mobile */}
       <div className="grid grid-cols-1 lg:grid-cols-12 min-h-screen items-stretch">
         
         {/* Left Column: Text Content */}
-        <div className="lg:col-span-6 px-6 sm:px-12 py-24 flex flex-col justify-center items-start text-left gap-8 relative z-10 bg-[#F6F4FF]">
+        <div className="lg:col-span-7 px-4 sm:px-8 lg:px-12 py-20 lg:py-24 flex flex-col justify-center items-start text-left gap-6 sm:gap-8 relative z-10 bg-[#F6F4FF]">
           
-          {/* Upper Value Proposition Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#EBE5FF] border-2 border-[#0F0F12] text-xs font-black tracking-wide text-[#0F0F12] shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] max-w-xl leading-relaxed"
-          >
-            <span className="text-[#34BBC0] font-black">✦</span>
-            <span>BAB is the first health and wellbeing app for U18 athletes, co-created with medical experts and elite athletes</span>
-            <span className="text-[#34BBC0] font-black">✦</span>
-          </motion.div>
+          {/* Logo element for mobile-centered UI (hidden on desktop if logo is in header) */}
+          <div className="flex lg:hidden items-center gap-2 mb-2">
+            <img src="/logo.svg" alt="BAB Logo" className="h-8 w-auto" />
+            <span className="px-2 py-0.5 rounded-lg bg-[#EBE5FF] border-2 border-black text-[9px] font-black text-[#0F0F12] tracking-wider uppercase shadow-[1px_1px_0px_0px_rgba(0,0,0,1)]">
+              Protocollo Prevenzione
+            </span>
+          </div>
 
           {/* Main Brand Title */}
           <motion.h1
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.1 }}
-            className="font-serif font-black text-4xl sm:text-5xl lg:text-7xl tracking-tight text-[#0F0F12] leading-[1.1] max-w-xl text-balance"
+            transition={{ duration: 0.8 }}
+            className="font-serif font-black text-3xl sm:text-5xl lg:text-6xl tracking-tight text-[#0F0F12] leading-[1.1] max-w-2xl text-balance"
           >
-            Breaking <br />
-            All Barriers
+            BAB — Il primo sistema per proteggere la salute delle atlete e fermare gli infortuni.
           </motion.h1>
 
-          {/* Subtitle */}
-          <motion.p
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-sm sm:text-lg text-[#0F0F12]/90 max-w-xl leading-relaxed font-bold font-sans"
-          >
-            for the{' '}
-            <span className="bg-[#FFDE4D] px-1.5 py-0.5 border border-black inline-block transform -rotate-1 font-black">
-              Next Gen athletes to thrive in sport
-            </span>
-            , without compromising their{' '}
-            <span className="underline decoration-2 decoration-[#34BBC0] font-black">
-              development, health and wellbeing
-            </span>
-            .
-          </motion.p>
-
-          {/* Interactive Target Selector (Switch Buttons) */}
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="flex p-1 bg-white border-2 border-black rounded-xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] max-w-md w-full relative mt-2 overflow-hidden"
-            role="tablist"
-            aria-label="Target selection"
-          >
+          {/* Dynamic Switch Buttons in Y2K Glassmorphism with Brackets */}
+          <div className="w-full max-w-md flex flex-row gap-3 mt-2">
             <button
-              role="tab"
-              aria-selected={activeTarget === Target.Coach}
-              aria-label="Show features for Coaches and Clubs"
               onClick={() => handleTargetChange(Target.Coach)}
-              className={`flex-1 py-2.5 px-4 rounded-lg text-xs sm:text-sm font-black transition-all duration-300 relative z-10 focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none cursor-pointer ${
+              className={`flex-1 py-3.5 px-3 rounded-xl font-black text-xs sm:text-sm transition-all border-2 border-black cursor-pointer text-center ${
                 activeTarget === Target.Coach
-                  ? 'text-[#0F0F12]'
-                  : 'text-neutral-500 hover:text-black'
+                  ? 'bg-[#FFDE4D] shadow-[3.5px_3.5px_0px_0px_rgba(15,15,18,0.95)] -translate-y-0.5'
+                  : 'bg-white/40 backdrop-blur-md hover:bg-white/60 border-[1.5px] border-black/15 shadow-[1.5px_1.5px_0px_0px_rgba(15,15,18,0.05)]'
               }`}
             >
-              For Coaches & Clubs
+              [ Sono un Allenatore ]
             </button>
             <button
-              role="tab"
-              aria-selected={activeTarget === Target.Genitore}
-              aria-label="Show features for Parents and Families"
               onClick={() => handleTargetChange(Target.Genitore)}
-              className={`flex-1 py-2.5 px-4 rounded-lg text-xs sm:text-sm font-black transition-all duration-300 relative z-10 focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none cursor-pointer ${
+              className={`flex-1 py-3.5 px-3 rounded-xl font-black text-xs sm:text-sm transition-all border-2 border-black cursor-pointer text-center ${
                 activeTarget === Target.Genitore
-                  ? 'text-[#0F0F12]'
-                  : 'text-neutral-500 hover:text-black'
+                  ? 'bg-[#FFDE4D] shadow-[3.5px_3.5px_0px_0px_rgba(15,15,18,0.95)] -translate-y-0.5'
+                  : 'bg-white/40 backdrop-blur-md hover:bg-white/60 border-[1.5px] border-black/15 shadow-[1.5px_1.5px_0px_0px_rgba(15,15,18,0.05)]'
               }`}
             >
-              For Parents & Families
+              [ Sono un Genitore ]
             </button>
-            
-            {/* Animated Background Selector */}
-            <motion.div
-              layoutId="activeTargetBg"
-              className="absolute top-1 bottom-1 bg-[#34BBC0] border border-black rounded-lg z-0"
-              style={{
-                width: 'calc(50% - 6px)',
-                left: activeTarget === Target.Coach ? '4px' : 'calc(50% + 2px)',
-              }}
-              transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-            />
-          </motion.div>
+          </div>
 
           {/* Dynamic Subtext and CTA Block */}
-          <div className="min-h-[120px] flex flex-col justify-start items-start w-full">
+          <div className="min-h-[110px] flex flex-col justify-start items-start w-full gap-4 max-w-md">
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeTarget}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
-                transition={{ duration: 0.25, ease: 'easeInOut' }}
+                transition={{ duration: 0.2, ease: 'easeInOut' }}
                 className="flex flex-col items-start gap-4 w-full"
               >
-                <p className="text-xs sm:text-sm text-[#0F0F12]/70 font-semibold leading-relaxed max-w-md">
+                <p className="text-xs sm:text-sm text-neutral-600 font-bold leading-relaxed">
                   {contentMap[activeTarget].subtext}
                 </p>
                 
                 <button
                   onClick={onJoinWaitlist}
-                  aria-label="Join the waitlist to receive access"
-                  className="neo-btn bg-[#34BBC0] font-black uppercase text-xs sm:text-sm"
+                  aria-label="Entra nella lista d'attesa"
+                  className="y2k-btn bg-[#34BBC0] font-black uppercase text-xs sm:text-sm"
                 >
-                  JOIN THE WAITLIST ✦
+                  Entra nella Waitlist ✦
                 </button>
               </motion.div>
             </AnimatePresence>
@@ -162,19 +115,18 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           {/* Scroll Down Hint (Only on desktop) */}
           <div className="hidden lg:flex absolute bottom-8 left-12 items-center gap-2 text-[10px] text-neutral-400 uppercase tracking-widest font-black">
             <span className="w-1.5 h-1.5 rounded-full bg-[#34BBC0] animate-ping" aria-hidden="true" />
-            <span>SCROLL TO DISCOVER</span>
+            <span>SCORRI PER SCOPRIRE</span>
           </div>
 
         </div>
 
         {/* Right Column: Hero Image (Split Layout) */}
-        <div className="lg:col-span-6 relative h-[400px] lg:h-auto overflow-hidden lg:border-l-[3px] lg:border-black">
+        <div className="lg:col-span-5 relative h-[300px] sm:h-[400px] lg:h-auto overflow-hidden lg:border-l-[3px] lg:border-black">
           <img 
             src="/src/assets/hero_athletes.png" 
-            alt="Three young female track athletes smiling on track field" 
+            alt="Tre giovani atlete di atletica sorridenti sulla pista di corsa" 
             className="absolute inset-0 w-full h-full object-cover"
           />
-          {/* Minimal overlay for Neo-Brutalist graphic feel */}
           <div className="absolute inset-0 bg-[#0F0F12]/10" />
         </div>
 

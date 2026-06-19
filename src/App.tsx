@@ -103,21 +103,21 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF9F6] y2k-grid text-[#0F0F12] selection:bg-[#34BBC0]/30 selection:text-[#0F0F12]">
+    <div className="min-h-screen bg-[#FAF9F6] y2k-grid text-[#0F0F12] selection:bg-[#34BBC0]/30 selection:text-[#0F0F12] pb-24 md:pb-0">
       
       {/* Header / Navigazione (Section 1) */}
-      <header className="fixed top-0 inset-x-0 h-20 bg-white/70 backdrop-blur-md border-b-[3px] border-black z-40 px-6 sm:px-12 flex items-center justify-between shadow-[0px_4px_0px_0px_rgba(0,0,0,1)]">
+      <header className="fixed top-0 inset-x-0 h-20 bg-white/70 backdrop-blur-md border-b-[3px] border-black z-40 px-4 sm:px-12 flex items-center justify-between shadow-[0px_4px_0px_0px_rgba(0,0,0,1)]">
         <div className="flex items-center gap-3">
-          <span 
+          <div 
             onClick={resetFlow}
             tabIndex={0}
             role="button"
             aria-label="Home page BAB"
             onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') resetFlow(); }}
-            className="text-2xl font-black font-serif text-[#0F0F12] cursor-pointer hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded"
+            className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded p-1"
           >
-            BAB
-          </span>
+            <img src="/logo.svg" alt="BAB Logo" className="h-8 sm:h-9 w-auto" />
+          </div>
           <span className="hidden md:inline-block px-2.5 py-0.5 rounded-lg bg-[#EBE5FF] border-2 border-black text-[9px] font-black text-[#0F0F12] tracking-wider uppercase shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
             Protocollo Prevenzione
           </span>
@@ -177,9 +177,36 @@ export default function App() {
           }}
           className="y2k-btn bg-[#FFDE4D] text-xs sm:text-sm font-black"
         >
-          {successData ? 'Restart' : 'Join the Waitlist'}
+          {successData ? 'Ricomincia' : 'Lista d\'Attesa'}
         </button>
       </header>
+
+      {/* Floating Bottom Nav for Mobile Centered UX */}
+      <div className="md:hidden fixed bottom-4 inset-x-4 h-16 bg-white/85 backdrop-blur-lg border-2 border-black rounded-2xl z-40 px-2 flex items-center justify-around shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+        {[
+          { path: '#/home', label: 'Home', icon: '🏠' },
+          { path: '#/app', label: 'Demo App', icon: '📱' },
+          { path: '#/coach', label: 'Coach', icon: '📊' },
+          { path: '#/features', label: 'Funzioni', icon: '✦' },
+          { path: '#/about', label: 'Storia', icon: '📖' },
+        ].map((tab) => {
+          const isActive = currentPath === tab.path;
+          return (
+            <a
+              key={tab.path}
+              href={tab.path}
+              className={`flex flex-col items-center justify-center flex-1 h-full py-1 text-[9px] font-black transition-all ${
+                isActive 
+                  ? 'text-[#34BBC0] scale-110' 
+                  : 'text-[#0F0F12] hover:text-[#34BBC0]'
+              }`}
+            >
+              <span className="text-lg mb-0.5">{tab.icon}</span>
+              <span className="tracking-tight">{tab.label}</span>
+            </a>
+          );
+        })}
+      </div>
 
       {/* Main Content */}
       <main className="pt-20">
@@ -206,17 +233,15 @@ export default function App() {
                     <p className="text-xs text-[#34BBC0] uppercase tracking-widest mt-1 font-black">
                       Registrazione Completata
                     </p>
-                  </div>
-
-                  {/* SITG Score Panel */}
+                        {/* SITG Score Panel */}
                   <div className="bg-[#FFE3D1] border-2 border-black rounded-2xl p-6 flex flex-col gap-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
                     <div className="flex justify-between items-center">
                       <div>
                         <h4 className="text-sm font-black text-[#0F0F12]">
-                          Skin in the Game (SITG) Score
+                          Punteggio di Coinvolgimento (SITG)
                         </h4>
                         <p className="text-[10px] text-neutral-500 uppercase tracking-wider font-bold mt-0.5">
-                          Validation Intent Score
+                          Livello di Interesse Rilevato
                         </p>
                       </div>
                       <div className="text-right">
@@ -233,15 +258,15 @@ export default function App() {
                       <div>
                         <span className="font-black block text-[#0F0F12]">
                           {successData.sitgScore >= 80 
-                            ? 'Lead ad Alto Intento (B2B/Beta Cohort)' 
+                            ? 'Priorità Alta (Squadre & Beta Cohort)' 
                             : successData.sitgScore >= 50 
-                            ? 'Lead a Medio Intento' 
-                            : 'Lead a Basso Intento'}
+                            ? 'Priorità Media' 
+                            : 'Priorità Base'}
                         </span>
                         <span className="text-[10px] text-neutral-500 block">
                           {successData.sitgScore >= 80 
-                            ? 'Avrai la priorità nei gruppi di beta testing.' 
-                            : 'Riceverai presto il report speciale di BAB.'}
+                            ? 'Avrai la priorità assoluta nei gruppi di beta testing dell\'app.' 
+                            : 'Riceverai presto la nostra guida speciale di BAB.'}
                         </span>
                       </div>
                     </div>
@@ -261,7 +286,7 @@ export default function App() {
                         'live.com', 'icloud.com', 'libero.it', 'virgilio.it'
                       ].includes(successData.data.email.split('@')[1].toLowerCase()) && (
                         <div className="flex justify-between">
-                          <span>Bonus B2B/Dominio Istituzionale:</span>
+                          <span>Bonus Dominio Società Sportiva / Scuola:</span>
                           <span className="text-[#34BBC0] font-black">+30 pt</span>
                         </div>
                       )}
@@ -277,7 +302,7 @@ export default function App() {
                   {/* Call to Action: Referral share */}
                   <div className="flex flex-col gap-3 font-sans">
                     <p className="text-xs text-neutral-500 text-center font-bold">
-                      Invita un altro coach o genitore e ricevi **+30 punti bonus** per assicurarti l'accesso anticipato alla beta ed aiutare a chiudere il gap scientifico!
+                      Invita un altro coach o genitore e ricevi **+30 punti bonus** per assicurarti l'accesso anticipato alla beta ed aiutare a chiudere il gap scientifico nello sport femminile!
                     </p>
                     <button
                       onClick={handleShareReferral}
@@ -288,8 +313,9 @@ export default function App() {
                           : 'bg-[#34BBC0] text-black hover:bg-[#34BBC0]/90 active:translate-x-0.5 active:translate-y-0.5'
                       }`}
                     >
-                      {referralShared ? 'Link Condiviso! +30 Punti Aggiunti ✦' : 'Copia Link d\'Invito (+30 XP) ✦'}
+                      {referralShared ? 'Link Condiviso! +30 Punti Aggiunti ✦' : 'Copia Link d\'Invito (+30 pt) ✦'}
                     </button>
+                  </div>
                   </div>
 
                   {/* Back Link */}
@@ -326,20 +352,20 @@ export default function App() {
                       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] bg-[#EBE5FF] opacity-[0.4] rounded-full blur-[90px] pointer-events-none" />
                       
                       <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase relative z-10">
-                        ✦ The Mission ✦
+                        ✦ La Missione ✦
                       </span>
-                      <h2 className="text-3xl sm:text-5xl font-serif font-black leading-tight text-[#0F0F12] relative z-10">
-                        Puberty doesn't fit the rules sport was built on.
+                      <h2 className="text-3xl sm:text-5xl font-serif font-black leading-tight text-[#0F0F12] relative z-10 text-balance">
+                        La pubertà non segue le regole su cui è stato costruito lo sport.
                       </h2>
                       <p className="text-xs sm:text-base text-neutral-600 max-w-2xl mx-auto font-bold font-sans relative z-10 leading-relaxed">
-                        Teenage athletes are expected to handle the impact of adolescence and ovarian hormones alone and in silence, navigating systems that were never designed for their bodies. BAB exists to break this barrier.
+                        Le giovani atlete sono costrette ad affrontare lo sviluppo e i cambiamenti ormonali da sole e in silenzio, all'interno di sistemi sportivi che non sono stati pensati per i loro corpi. BAB è qui per abbattere questa barriera.
                       </p>
                       <div className="flex justify-center mt-2 relative z-10">
                         <a 
                           href="#/about" 
                           className="y2k-btn bg-[#FFDE4D] text-black font-black uppercase text-xs"
                         >
-                          Scopri di più su di noi ✦
+                          La Nostra Storia ✦
                         </a>
                       </div>
                     </div>
@@ -519,56 +545,56 @@ export default function App() {
                 >
                   <div className="text-center max-w-2xl mx-auto flex flex-col gap-4">
                     <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
-                      ✦ Core Capabilities ✦
+                      ✦ Le Nostre Funzionalità ✦
                     </span>
                     <h3 className="text-3xl sm:text-5xl font-serif font-black">
-                      Performance x Health x Wellbeing
+                      Performance x Salute x Crescita
                     </h3>
                     <p className="text-sm text-neutral-500 font-bold font-sans">
-                      Everything you need to support teenage athletes, built directly into five core modules.
+                      Tutto ciò di cui hai bisogno per supportare le giovani atlete, integrato in cinque moduli chiave.
                     </p>
                   </div>
 
                   {/* Bento Grid in Y2K Glassmorphism */}
                   <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mt-4">
                     
-                    {/* PREVENT */}
+                    {/* PREVENIRE */}
                     <div className="md:col-span-6 p-8 y2k-glass-card-interactive flex flex-col gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#FFE3D1] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                         01
                       </div>
                       <h4 className="text-lg sm:text-xl font-black font-serif text-[#0F0F12]">
-                        PREVENT
+                        PREVENIRE
                       </h4>
                       <p className="text-xs sm:text-sm text-neutral-500 leading-relaxed font-sans font-bold">
-                        Identify and flag warning signs early before they affect health, wellbeing, or performance.
+                        Identifica e previeni i campanelli d'allarme biologici prima che influiscano sulla salute, sul benessere o sulle prestazioni atletiche.
                       </p>
                     </div>
 
-                    {/* SUPPORT */}
+                    {/* SUPPORTARE */}
                     <div className="md:col-span-6 p-8 y2k-glass-card-interactive flex flex-col gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#EBE5FF] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                         02
                       </div>
                       <h4 className="text-lg sm:text-xl font-black font-serif text-[#0F0F12]">
-                        SUPPORT
+                        SUPPORTARE
                       </h4>
                       <p className="text-xs sm:text-sm text-neutral-500 leading-relaxed font-sans font-bold">
-                        Create a stronger support system around the athlete both on and off the field with dedicated tools for parents and coaches.
+                        Crea una rete di supporto forte intorno all'atleta, dentro e fuori dal campo, con strumenti dedicati a genitori e allenatori.
                       </p>
                     </div>
 
-                    {/* TRACK with Widget */}
+                    {/* MONITORARE with Widget */}
                     <div className="md:col-span-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center p-8 y2k-glass-card">
                       <div className="lg:col-span-7 flex flex-col gap-4">
                         <div className="w-10 h-10 rounded-lg bg-[#D1FFEF] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                           03
                         </div>
                         <h4 className="text-lg sm:text-xl font-black font-serif text-[#0F0F12]">
-                          TRACK (Tamagotchi Engine)
+                          MONITORARE (Il Tamagotchi)
                         </h4>
                         <p className="text-xs sm:text-sm text-neutral-500 leading-relaxed font-sans font-bold">
-                          Monitor energy levels, sleep and mood, underpinned by menstrual health and growth metrics to build a complete picture of the athlete’s wellbeing through longitudinal inputs.
+                          Monitora i livelli di energia, sonno e umore in relazione alla crescita e al ciclo mestruale, per avere un quadro completo dello stato di forma dell'atleta.
                         </p>
                         <p className="text-xs text-neutral-600 font-bold leading-relaxed font-sans bg-[#FAF8FF]/80 p-3 rounded-xl border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
                           💡 Clicca sui pulsanti del widget Tamagotchi a destra per cambiare gli stati dell'atleta in tempo reale!
@@ -580,37 +606,37 @@ export default function App() {
                       </div>
                     </div>
 
-                    {/* UNDERSTAND */}
+                    {/* COMPRENDERE */}
                     <div className="md:col-span-6 p-8 y2k-glass-card-interactive flex flex-col gap-4">
                       <div className="w-10 h-10 rounded-lg bg-[#FFDE4D] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                         04
                       </div>
                       <h4 className="text-lg sm:text-xl font-black font-serif text-[#0F0F12]">
-                        UNDERSTAND
+                        COMPRENDERE
                       </h4>
                       <p className="text-xs sm:text-sm text-neutral-500 leading-relaxed font-sans font-bold">
-                        Translate inputs into clear, simple and engaging language and deliver personalised, actionable insights and body literacy resources, delivered gradually, session by session.
+                        Traduci i dati fisici in consigli chiari e semplici. Fornisci guide pratiche e nozioni sul funzionamento del corpo femminile, sessione dopo sessione.
                       </p>
                     </div>
 
-                    {/* OPTIMISE */}
+                    {/* OTTIMIZZARE */}
                     <div className="md:col-span-6 p-8 y2k-glass-card-interactive flex flex-col gap-4 justify-between">
                       <div>
                         <div className="w-10 h-10 rounded-lg bg-[#D1FFEF] border-2 border-black flex items-center justify-center text-black font-black text-sm shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
                           05
                         </div>
                         <h4 className="text-lg sm:text-xl font-black font-serif text-[#0F0F12] mt-2">
-                          OPTIMISE
+                          OTTIMIZZARE
                         </h4>
                         <p className="text-xs sm:text-sm text-neutral-500 leading-relaxed font-sans font-bold mt-2">
-                          Balance performance with long-term physical and emotional wellbeing, through personalised, daily recommendations, delivered by clinical experts with the support of AI.
+                          Bilancia la performance con il benessere fisico ed emotivo a lungo termine, grazie a indicazioni quotidiane personalizzate create da medici ed esperti dello sport.
                         </p>
                       </div>
                       <button
                         onClick={() => setShowQuiz(true)}
                         className="mt-6 y2k-btn bg-[#FFDE4D] font-black text-xs self-start"
                       >
-                        Try App Sandbox ✦
+                        Prova la Demo ✦
                       </button>
                     </div>
 
@@ -631,17 +657,17 @@ export default function App() {
                   <div className="flex flex-col gap-12">
                     <div className="flex flex-col gap-3 text-center">
                       <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
-                        ✦ Athlete Case Study ✦
+                        ✦ Studio di Caso Reale ✦
                       </span>
                       <h3 className="text-3xl sm:text-5xl font-serif font-black">
-                        Mia's Story
+                        La storia di Mia
                       </h3>
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
                       <div className="lg:col-span-4 text-left">
                         <h4 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-black text-[#0F0F12] leading-[1.2]">
-                          At thirteen, Mia’s body no longer felt like home.
+                          A 13 anni, il corpo di Mia non le sembrava più casa sua.
                         </h4>
                       </div>
 
@@ -649,7 +675,7 @@ export default function App() {
                         <div className="relative w-72 h-96 bg-white/70 backdrop-blur-md border-2 border-black rounded-[32px] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] overflow-hidden">
                           <img 
                             src="/src/assets/mia_portrait.png" 
-                            alt="Teen swimmer Mia portrait smiling" 
+                            alt="Ritratto della giovane nuotatrice Mia sorridente" 
                             className="w-full h-full object-cover"
                           />
                         </div>
@@ -657,20 +683,20 @@ export default function App() {
 
                       <div className="lg:col-span-4 text-left flex flex-col gap-6 text-xs sm:text-sm text-neutral-600 leading-relaxed font-sans font-bold">
                         <p>
-                          She had grown taller in a matter of months, and before she understood what was happening, <strong className="text-black font-black">hormones had changed more than just her body</strong>. They changed how she played and how she felt while doing it.
+                          Era cresciuta di molti centimetri in pochi mesi e, prima ancora di capire cosa stesse succedendo, <strong className="text-black font-black">gli ormoni avevano cambiato il suo corpo</strong>, il suo modo di giocare e come si sentiva in campo.
                         </p>
                         <p>
-                          Pushing through period symptoms, fatigue and hunger, she learned that "no pain is no gain". <span className="bg-[#FFDE4D] border border-black px-1.5 py-0.5 inline-block rounded">Disconnecting from her body became her winning strategy</span>.
+                          Stringendo i denti contro i dolori del ciclo, la stanchezza e la fame, aveva imparato che "chi non soffre non vince". <span className="bg-[#FFDE4D] border border-black px-1.5 py-0.5 inline-block rounded">Ignorare i segnali del proprio corpo era diventata la sua unica strategia</span>.
                         </p>
                         <p>
-                          Soon, injuries and anxiety started creeping in and her performance began to drop. And because no one talked about any of it, Mia kept quiet and started questioning whether she was no longer made for sport.
+                          Ben presto sono arrivati gli infortuni e l'ansia, e le sue prestazioni hanno iniziato a calare. Poiché nessuno parlava di queste cose, Mia è rimasta in silenzio, convincendosi di non essere più adatta allo sport.
                         </p>
                       </div>
                     </div>
 
                     <div className="pt-8 border-t-2 border-black/10 text-center max-w-4xl mx-auto">
                       <p className="text-lg sm:text-2xl font-serif font-black text-[#0F0F12] leading-relaxed">
-                        But it wasn’t Mia who had fallen behind. It was sport that failed her by neglecting her changing body, health and wellbeing.
+                        Ma non era Mia ad essere inadeguata. È lo sport che l'ha lasciata sola, ignorando la biologia del suo corpo in crescita.
                       </p>
                     </div>
                   </div>
@@ -680,30 +706,30 @@ export default function App() {
                     <div className="lg:col-span-6 relative h-[400px] lg:h-auto overflow-hidden border-2 border-black rounded-3xl shadow-[6px_6px_0px_0px_#000]">
                       <img 
                         src="/src/assets/why_athletes.png" 
-                        alt="Two female athletes with crossed arms on running track field" 
+                        alt="Due giovani atlete a braccia conserte sulla pista di atletica" 
                         className="absolute inset-0 w-full h-full object-cover"
                       />
                     </div>
 
                     <div className="lg:col-span-6 px-6 py-6 flex flex-col justify-center items-start text-left gap-6 bg-white/60 backdrop-blur-md border-2 border-black rounded-3xl shadow-[6px_6px_0px_0px_#000]">
                       <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
-                        ✦ You don't have to figure it alone ✦
+                        ✦ Non sei sola in questo percorso ✦
                       </span>
                       <h2 className="text-3xl sm:text-4xl font-serif font-black text-[#0F0F12]">
-                        You don’t have to figure it all alone
+                        Non devi capire tutto da sola
                       </h2>
                       <div className="flex flex-col gap-4 text-xs sm:text-sm text-neutral-600 font-bold leading-relaxed font-sans">
                         <p>
-                          BAB is your <strong className="text-[#34BBC0] font-black">coach off-the-field</strong>, designed to support you through puberty and beyond, so you can continue to perform at your best, while feeling your best,
+                          BAB è il tuo <strong className="text-[#34BBC0] font-black">alleato fuori dal campo</strong>, pensato per supportarti durante la pubertà e la crescita, aiutando te a dare il massimo senza soffrire in silenzio,
                         </p>
                         <p>
-                          and to give your parents, coaches and club the right tools to understand and guide you along.
+                          e offrendo a genitori, allenatori e società sportiva gli strumenti giusti per capirti e guidarti al meglio.
                         </p>
                       </div>
                       
                       <div className="py-3.5 px-6 rounded-xl bg-[#EBE5FF] border-2 border-black w-full shadow-[2px_2px_0px_0px_#000]">
                         <span className="text-xs sm:text-sm font-black text-black block leading-relaxed italic text-center">
-                          ✦ "Because no one should have to choose between doing sport and feeling good" ✦
+                          ✦ "Perché nessuno dovrebbe essere costretto a scegliere tra fare sport e stare bene" ✦
                         </span>
                       </div>
 
@@ -711,7 +737,7 @@ export default function App() {
                         onClick={() => setShowQuiz(true)}
                         className="y2k-btn bg-[#FFDE4D] text-black font-black text-xs"
                       >
-                        JOIN THE WAITLIST ✦
+                        UNISCITI ALLA WAITLIST ✦
                       </button>
                     </div>
                   </div>
@@ -720,22 +746,22 @@ export default function App() {
                   <div className="flex flex-col md:grid md:grid-cols-12 gap-10 pt-10 border-t-2 border-black/10">
                     <div className="md:col-span-4 flex flex-col gap-3 justify-center">
                       <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
-                        ✦ The Founder ✦
+                        ✦ La Fondatrice ✦
                       </span>
                       <h3 className="text-3xl sm:text-4xl font-serif font-black">
-                        Behind BAB
+                        Chi c'è dietro BAB
                       </h3>
                     </div>
 
                     <div className="md:col-span-8 p-8 bg-white/60 backdrop-blur-md border-2 border-black rounded-3xl shadow-[6px_6px_0px_0px_#000] flex flex-col gap-5 text-xs sm:text-sm text-neutral-600 font-bold leading-relaxed font-sans">
                       <p>
-                        BAB was born from the personal experience of its founder, <strong className="text-black font-black">Gaia Manzone</strong>. After spending a decade working for adidas and PUMA, Gaia witnessed firsthand the systemic barriers faced by elite female athletes.
+                        BAB nasce dall'esperienza personale di <strong className="text-black font-black">Gaia Manzone</strong>. Dopo dieci anni di lavoro in adidas e PUMA, Gaia ha visto da vicino le barriere e le difficoltà sistemiche che affrontano le atlete.
                       </p>
                       <p>
-                        But her connection to the issue started much earlier, when health challenges arising from managing puberty and performance without the adequate support forced her to stop competing. Gaia believes that <span className="text-[#34BBC0] font-black">without women's health, there can be no women's sport</span>.
+                        Ma il suo legame con questo problema risale a molto prima, quando problemi di salute legati a uno sviluppo non supportato l'hanno costretta a smettere di gareggiare. Gaia crede fermamente che <span className="text-[#34BBC0] font-black">senza salute non possa esserci sport femminile</span>.
                       </p>
                       <p>
-                        That belief led her to bring together a trusted network of elite athletes, doctors, researchers, and sport experts to create BAB.
+                        Questa convinzione l'ha spinta a riunire una rete di atlete professioniste, medici, ginecologi, preparatori atletici ed esperti dello sport per creare BAB.
                       </p>
                     </div>
                   </div>
@@ -745,109 +771,149 @@ export default function App() {
           )}
         </AnimatePresence>
 
-        {/* Global Statistics Panel (Redesigned in Y2K Glassmorphism Grid) */}
+        {/* Global Statistics Panel (Bento Box with 3 main stats) */}
         {!successData && currentPath === '#/home' && (
           <motion.section 
             {...scrollReveal}
-            className="w-full py-20 bg-[#EBE5FF]/60 border-y-2 border-black flex flex-col items-center"
+            className="w-full py-16 px-4 bg-[#EBE5FF]/40 border-y-2 border-black flex flex-col items-center"
           >
-            <div className="max-w-6xl w-full px-6 flex flex-col gap-16">
-              
-              {/* Part A: Menstrual Pain Points */}
-              <div className="flex flex-col gap-10">
-                <div className="text-center max-w-3xl mx-auto flex flex-col gap-3">
-                  <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
-                    ✦ The Cost of Silence ✦
+            <div className="max-w-5xl w-full flex flex-col gap-10">
+              <div className="text-center max-w-2xl mx-auto flex flex-col gap-3">
+                <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
+                  ✦ Il Costo del Silenzio ✦
+                </span>
+                <h2 className="text-2xl sm:text-4xl font-serif font-black leading-tight text-[#0F0F12]">
+                  Lo sviluppo puberale non può essere un tabù
+                </h2>
+                <p className="text-xs sm:text-sm text-neutral-500 font-semibold">
+                  I numeri mostrano chiaramente il divario e la necessità di un intervento immediato.
+                </p>
+              </div>
+
+              {/* 3 Stats Bento Grid */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                {/* Stat 1 */}
+                <div 
+                  className="bg-[#FFE3D1]/75 p-8 rounded-3xl border-2 border-black flex flex-col justify-between gap-6 shadow-[4px_4px_0px_0px_rgba(15,15,18,0.95)]"
+                  style={{ boxShadow: 'inset 0 3px 0 0 rgba(255,255,255,0.45), 4px 4px 0px 0px rgba(15,15,18,0.95)' } as any}
+                >
+                  <div>
+                    <span className="text-5xl sm:text-6xl font-serif font-black text-black block mb-4">
+                      50%
+                    </span>
+                    <p className="text-sm sm:text-base text-neutral-800 leading-relaxed font-black font-sans">
+                      delle ragazze abbandona lo sport durante la pubertà.
+                    </p>
+                  </div>
+                  <span className="text-xs text-[#0F0F12] font-black uppercase tracking-wider bg-[#FFE3D1] border border-black/10 py-1 px-2.5 rounded-lg self-start">
+                    Abbandono precoce
                   </span>
-                  <h2 className="text-2xl sm:text-4xl font-serif font-black leading-tight">
-                    Several athletes pay the cost of bleeding in sport
-                  </h2>
                 </div>
 
-                {/* Stat Grid (6 cards) */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {[
-                    { percent: '20%', label: 'feel judged or unsupported by coaches during their period', bg: 'bg-[#D1FFEF]/75' },
-                    { percent: '93%', label: 'report a negative period-related experience in sport', bg: 'bg-[#FFE3D1]/75' },
-                    { percent: '77%', label: 'say menstrual symptoms affect performance', bg: 'bg-[#EBE5FF]/75' },
-                    { percent: '73%', label: 'feel pressured to push through period pain', bg: 'bg-[#FFDE4D]/75' },
-                    { percent: '84%', label: 'ignore period pain as their main coping mechanism', bg: 'bg-[#D1FFEF]/75' },
-                    { percent: '36%', label: 'believes missing periods during competition is normal', bg: 'bg-[#FFE3D1]/75' },
-                  ].map((stat, idx) => (
-                    <div 
-                      key={idx} 
-                      className={`${stat.bg} p-6 rounded-[22px] border-2 border-black flex flex-col gap-3 transition-all hover:-translate-y-0.5 shadow-[3px_3px_0px_0px_rgba(15,15,18,0.95)] hover:shadow-[5px_5px_0px_0px_rgba(15,15,18,0.95)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-[1px_1px_0px_0px_rgba(15,15,18,0.95)] relative overflow-hidden`}
-                      style={{ boxShadow: 'inset 0 3px 0 0 rgba(255,255,255,0.45), inset 0 -3px 0 0 rgba(0,0,0,0.05), 3px 3px 0px 0px rgba(15,15,18,0.95)' } as any}
-                    >
-                      <span className="text-3xl sm:text-4xl font-serif font-black text-black">
-                        {stat.percent}
-                      </span>
-                      <p className="text-xs sm:text-sm text-neutral-800 leading-relaxed font-bold font-sans">
-                        {stat.label}
-                      </p>
-                    </div>
-                  ))}
+                {/* Stat 2 */}
+                <div 
+                  className="bg-[#EBE5FF]/75 p-8 rounded-3xl border-2 border-black flex flex-col justify-between gap-6 shadow-[4px_4px_0px_0px_rgba(15,15,18,0.95)]"
+                  style={{ boxShadow: 'inset 0 3px 0 0 rgba(255,255,255,0.45), 4px 4px 0px 0px rgba(15,15,18,0.95)' } as any}
+                >
+                  <div>
+                    <span className="text-5xl sm:text-6xl font-serif font-black text-black block mb-4">
+                      93%
+                    </span>
+                    <p className="text-sm sm:text-base text-neutral-800 leading-relaxed font-black font-sans">
+                      soffre di dolori o forte stanchezza legati allo sviluppo in gara.
+                    </p>
+                  </div>
+                  <span className="text-xs text-[#0F0F12] font-black uppercase tracking-wider bg-[#EBE5FF] border border-black/10 py-1 px-2.5 rounded-lg self-start">
+                    Dolore in silenzio
+                  </span>
                 </div>
+
+                {/* Stat 3 */}
+                <div 
+                  className="bg-[#FFDE4D]/80 p-8 rounded-3xl border-2 border-black flex flex-col justify-between gap-6 shadow-[4px_4px_0px_0px_rgba(15,15,18,0.95)]"
+                  style={{ boxShadow: 'inset 0 3px 0 0 rgba(255,255,255,0.45), 4px 4px 0px 0px rgba(15,15,18,0.95)' } as any}
+                >
+                  <div>
+                    <span className="text-5xl sm:text-6xl font-serif font-black text-black block mb-4">
+                      0%
+                    </span>
+                    <p className="text-sm sm:text-base text-neutral-800 leading-relaxed font-black font-sans">
+                      della ricerca scientifica nello sport è fatta su ragazze under 18.
+                    </p>
+                  </div>
+                  <span className="text-xs text-[#0F0F12] font-black uppercase tracking-wider bg-[#FFDE4D] border border-black/10 py-1 px-2.5 rounded-lg self-start">
+                    Vuoto scientifico
+                  </span>
+                </div>
+
               </div>
-
-              {/* Part B: The Systemic Gap */}
-              <div className="flex flex-col gap-10 pt-12 border-t-2 border-black/10">
-                <div className="text-center max-w-3xl mx-auto flex flex-col gap-2">
-                  <h4 className="text-xl sm:text-3xl font-serif font-black text-[#0F0F12]">
-                    Women are treated as Small Men, and Girls as Small Women*
-                  </h4>
-                  <p className="text-xs text-neutral-500 uppercase tracking-widest font-black">
-                    the numbers show it
-                  </p>
-                </div>
-
-                {/* Stat Grid 2 (3 cards) */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                  {[
-                    { percent: '50%', label: 'of teens drop out of sport during puberty', bg: 'bg-white/50 backdrop-blur-md' },
-                    { percent: '6%', label: 'of sport research focuses on women’s health', bg: 'bg-white/50 backdrop-blur-md' },
-                    { percent: '0%', label: 'barely any research on U18 athletes who menstruate', bg: 'bg-[#FFDE4D]/80 backdrop-blur-md' },
-                  ].map((stat, idx) => (
-                    <div key={idx} className={`p-8 rounded-2xl border-2 border-black flex flex-col gap-3 text-center shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] ${stat.bg}`}>
-                      <span className="text-3xl sm:text-5xl font-serif font-black text-[#0F0F12]">
-                        {stat.percent}
-                      </span>
-                      <p className="text-xs sm:text-sm text-neutral-700 leading-relaxed font-sans font-bold">
-                        {stat.label}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
             </div>
           </motion.section>
         )}
 
-        {/* Global Transparency & Consent Section */}
+        {/* Patto di Privacy & Sicurezza (Bento Grid) */}
         {!successData && currentPath === '#/home' && (
           <motion.section 
             {...scrollReveal}
-            className="max-w-4xl w-full px-6 py-20 mx-auto text-center"
+            className="max-w-5xl w-full px-4 py-16 mx-auto flex flex-col gap-10"
           >
-            <div className="p-8 sm:p-10 bg-white/60 backdrop-blur-md border-2 border-black rounded-[32px] shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-6 relative overflow-hidden">
+            <div className="text-center max-w-2xl mx-auto flex flex-col gap-3">
               <span className="text-xs font-black text-[#34BBC0] tracking-widest uppercase">
-                ✦ Scientific Integrity & Consent ✦
+                ✦ Sicurezza e Trasparenza ✦
               </span>
               <h3 className="text-2xl sm:text-4xl font-serif font-black text-[#0F0F12]">
-                Data that Break Barriers
+                Il Nostro Patto di Privacy
               </h3>
-              <p className="text-xs sm:text-sm text-neutral-600 font-bold leading-relaxed max-w-2xl mx-auto font-sans">
-                Only if you give consent, what you track the data contributes to anonymous scientific research aimed at improving the health, wellbeing, and performance of both you and other young athletes. Together, we're helping close the gaps in youth and sports research, ensuring that sport and healthcare can support you in the safest and most effective way. Your data is always anonymous, protected, and used solely to advance teenagers' health, wellbeing, development, and performance.
+              <p className="text-xs sm:text-sm text-neutral-500 font-semibold">
+                Nessuna spia, massima sicurezza legale e dati blindati sul dispositivo.
               </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               
-              <div className="pt-4 border-t-2 border-black/10 flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-neutral-500 font-bold">
-                <span>🛡️ Fully encrypted logs</span>
-                <span className="hidden sm:inline" aria-hidden="true">•</span>
-                <span>🔒 Opt-in only research</span>
-                <span className="hidden sm:inline" aria-hidden="true">•</span>
-                <span>✨ Your Journey Matters</span>
+              {/* Pillar 1 */}
+              <div className="p-6 bg-white/70 backdrop-blur-md border-2 border-black rounded-[28px] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4 items-start text-left">
+                <div className="w-12 h-12 rounded-xl bg-[#D1FFEF] border-2 border-black flex items-center justify-center text-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
+                  {/* SVG Crypt/Lock Icon, 2px stroke */}
+                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
+                </div>
+                <h4 className="font-serif font-black text-lg text-[#0F0F12]">Dati Criptati al 100%</h4>
+                <p className="text-xs text-neutral-600 font-bold font-sans leading-relaxed">
+                  Tutto resta sul telefono di tua figlia. Nessun database centrale che possa esporre o scambiare le sue informazioni personali.
+                </p>
               </div>
+
+              {/* Pillar 2 */}
+              <div className="p-6 bg-white/70 backdrop-blur-md border-2 border-black rounded-[28px] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4 items-start text-left">
+                <div className="w-12 h-12 rounded-xl bg-[#FFE3D1] border-2 border-black flex items-center justify-center text-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
+                  {/* SVG Eye-Off Icon, 2px stroke */}
+                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l18 18" />
+                  </svg>
+                </div>
+                <h4 className="font-serif font-black text-lg text-[#0F0F12]">Portale Coach "Zero-Spia"</h4>
+                <p className="text-xs text-neutral-600 font-bold font-sans leading-relaxed">
+                  L'allenatore vede solo il livello di stanchezza generale aggregato del team per regolare i carichi di lavoro, mai i dati intimi o il ciclo mestruale.
+                </p>
+              </div>
+
+              {/* Pillar 3 */}
+              <div className="p-6 bg-white/70 backdrop-blur-md border-2 border-black rounded-[28px] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-4 items-start text-left">
+                <div className="w-12 h-12 rounded-xl bg-[#EBE5FF] border-2 border-black flex items-center justify-center text-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
+                  {/* SVG GDPR/Scale Shield Icon, 2px stroke */}
+                  <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <h4 className="font-serif font-black text-lg text-[#0F0F12]">Conforme GDPR</h4>
+                <p className="text-xs text-neutral-600 font-bold font-sans leading-relaxed">
+                  Massima tutela legale per i minori e per le società sportive. Conforme alle linee guida sui dati sensibili per la massima tranquillità delle famiglie.
+                </p>
+              </div>
+
             </div>
           </motion.section>
         )}
@@ -864,35 +930,35 @@ export default function App() {
                 ✦ FAQ ✦
               </span>
               <h3 className="text-3xl sm:text-4xl font-serif font-black">
-                Common Questions
+                Domande Frequenti
               </h3>
             </div>
 
             <div className="flex flex-col">
               <FAQItem
                 id="1"
-                question="What is the BAB app?"
-                answer="We believe that U18 athletes should not have to figure it all out alone. That's why BAB also gives parents, caregivers, coaches, and clubs access to the right tools and resources to better understand and support young athletes throughout their journey."
+                question="Cos'è l'app BAB?"
+                answer="Crediamo che le atlete under 18 non debbano affrontare tutto da sole. Ecco perché BAB offre a genitori, caregiver, allenatori e società l'accesso agli strumenti e alle risorse adeguate per comprendere e supportare al meglio le ragazze durante la loro crescita."
               />
               <FAQItem
                 id="2"
-                question="Who is BAB for?"
-                answer="BAB is primarily designed to support girls and young people U18 who experience periods and practice sport. The app also offers personalised insights and educational resources for parents, coaches and clubs."
+                question="A chi si rivolge BAB?"
+                answer="BAB è progettata principalmente per supportare le ragazze e le giovani atlete under 18 che affrontano lo sviluppo e praticano sport. Il sistema offre percorsi e cruscotti dedicati anche per genitori, preparatori e club."
               />
               <FAQItem
                 id="3"
-                question="What features does the BAB app include?"
-                answer="BAB includes period tracking, energy tracking, and mood tracking, helping U18 athletes understand how these factors influence both their athletic performance and everyday life."
+                question="Quali funzionalità include l'app di BAB?"
+                answer="BAB include il monitoraggio dell'energia fisica, della qualità del sonno e dell'umore, incrociati con le fasi del ciclo mestruale, per aiutare le atlete a capire come questi fattori influenzano la prestazione e la vita quotidiana."
               />
               <FAQItem
                 id="4"
-                question="Is BAB safe, anonymous, and private?"
-                answer="Yes. BAB is fully compliant with EU GDPR regulations. All raw personal data remains encrypted and safe, and we never expose individual biological data to coaches."
+                question="BAB è sicura e rispetta la privacy?"
+                answer="Assolutamente sì. BAB è pienamente conforme al GDPR europeo. Tutti i dati biologici personali restano crittografati sul telefono dell'atleta. L'allenatore non vedrà mai i dettagli intimi del ciclo o delle risposte della singola ragazza, ma solo un indice aggregato di fatica del team."
               />
               <FAQItem
                 id="5"
-                question="Who created BAB?"
-                answer="BAB was founded by Gaia Manzone in collaboration with a multidisciplinary team of sports researchers, doctors, elite U18 athletes, and coaches."
+                question="Chi ha ideato e sviluppato BAB?"
+                answer="BAB è stata fondata da Gaia Manzone in collaborazione con un team multidisciplinare composto da preparatori atletici, medici dello sport, ginecologi, e con il contributo diretto di giovani atlete professioniste."
               />
             </div>
           </motion.section>
@@ -902,21 +968,21 @@ export default function App() {
       {/* Footer (Section 11) */}
       <footer className="border-t-2 border-black py-12 px-6 sm:px-12 bg-white text-xs text-neutral-500 font-bold flex flex-col md:flex-row items-center justify-between gap-8 mt-12">
         <div className="flex flex-col gap-2 max-w-sm">
-          <span className="font-serif font-black text-lg text-[#0F0F12]">
-            BAB
-          </span>
-          <span>The first health and wellbeing app for teenage girls in sport.</span>
-          <span>© 2026 BAB - ALL RIGHTS RESERVED</span>
+          <div className="flex items-center gap-2 mb-1">
+            <img src="/logo.svg" alt="BAB Logo" className="h-6 w-auto" />
+          </div>
+          <span>Il primo sistema per proteggere la salute delle atlete under 18 e prevenire gli infortuni.</span>
+          <span>© 2026 BAB - Tutti i diritti riservati.</span>
         </div>
         
         {/* Contact and Social Links */}
         <div className="flex flex-wrap gap-12 font-sans">
           <div className="flex flex-col gap-2">
-            <span className="font-black text-[#0F0F12] uppercase tracking-wider text-[10px]">Information</span>
-            <a href="mailto:info@bab-sports.com" className="hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded">Contacts</a>
+            <span className="font-black text-[#0F0F12] uppercase tracking-wider text-[10px]">Informazioni</span>
+            <a href="mailto:info@bab-sports.com" className="hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded">Contatti</a>
           </div>
           <div className="flex flex-col gap-2">
-            <span className="font-black text-[#0F0F12] uppercase tracking-wider text-[10px]">Socials</span>
+            <span className="font-black text-[#0F0F12] uppercase tracking-wider text-[10px]">Social</span>
             <a href="https://substack.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded">Substack</a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#34BBC0] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded">Instagram</a>
           </div>
