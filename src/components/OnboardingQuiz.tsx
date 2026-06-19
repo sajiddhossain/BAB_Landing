@@ -124,7 +124,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
 
   return (
     <div 
-      className="relative max-w-lg w-full bg-white border-[3px] border-black rounded-[32px] shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] overflow-hidden"
+      className="relative max-w-lg w-full bg-white/70 backdrop-blur-md border-[2.5px] border-black rounded-[32px] shadow-[8px_8px_0px_0px_rgba(15,15,18,0.95)] overflow-hidden"
       role="dialog"
       aria-modal="true"
       aria-labelledby="quiz-title"

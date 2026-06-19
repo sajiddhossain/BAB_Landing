@@ -103,7 +103,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#34BBC0]/30 selection:text-[#0F0F12]">
+    <div className="min-h-screen bg-[#FAF9F6] y2k-grid text-[#0F0F12] selection:bg-[#34BBC0]/30 selection:text-[#0F0F12]">
       
       {/* Header / Navigazione (Section 1) */}
       <header className="fixed top-0 inset-x-0 h-20 bg-white/70 backdrop-blur-md border-b-[3px] border-black z-40 px-6 sm:px-12 flex items-center justify-between shadow-[0px_4px_0px_0px_rgba(0,0,0,1)]">

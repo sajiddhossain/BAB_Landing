@@ -61,7 +61,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="font-serif font-black text-4xl sm:text-5xl lg:text-7xl tracking-tight text-[#0F0F12] leading-[1.1] max-w-xl"
+            className="font-serif font-black text-4xl sm:text-5xl lg:text-7xl tracking-tight text-[#0F0F12] leading-[1.1] max-w-xl text-balance"
           >
             Breaking <br />
             All Barriers
