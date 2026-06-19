@@ -3,7 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 export interface QuizData {
   sport: string;
-  injuryHistory: string;
+  concern: string;
+  privacy: string;
   email: string;
 }
 
@@ -36,7 +37,8 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
   const [step, setStep] = useState<number>(1);
   const [formData, setFormData] = useState<QuizData>({
     sport: '',
-    injuryHistory: '',
+    concern: '',
+    privacy: '',
     email: '',
   });
   const [emailError, setEmailError] = useState<string>('');
@@ -47,10 +49,16 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
     setStep(2);
   };
 
-  const handleSelectInjuryHistory = (injuryHistory: string) => {
-    setFormData((prev) => ({ ...prev, injuryHistory }));
-    triggerTrackingEvent('Quiz_Step2_Submit', { injuryHistory });
+  const handleSelectConcern = (concern: string) => {
+    setFormData((prev) => ({ ...prev, concern }));
+    triggerTrackingEvent('Quiz_Step2_Submit', { concern });
     setStep(3);
+  };
+
+  const handleSelectPrivacy = (privacy: string) => {
+    setFormData((prev) => ({ ...prev, privacy }));
+    triggerTrackingEvent('Quiz_Step3_Submit', { privacy });
+    setStep(4);
   };
 
   const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -73,50 +81,36 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
     /* --------------------------------------------------------------------------
        SKIN IN THE GAME (SITG) SCORE CALCULATION
        --------------------------------------------------------------------------
-       This algorithm calculates user commitment intensity to filter low-quality
-       leads and prioritize B2B (clubs/coaches) and high-intent parents.
+       Calculates commitment intensity based on the pretyping protocol.
        -------------------------------------------------------------------------- */
     let sitgScore = 0;
 
-    // 1. Core Quiz Completion (Engagement Indicator)
-    if (formData.sport) {
-      sitgScore += 20; // +20 points for specifying the sport
-    }
-    if (formData.injuryHistory) {
-      sitgScore += 20; // +20 points for answering the injury history question
-    }
+    if (formData.sport) sitgScore += 20;
+    if (formData.concern) sitgScore += 20;
+    if (formData.privacy) sitgScore += 10;
 
-    // 2. Email Validation & Qualification
     if (formData.email) {
-      sitgScore += 30; // +30 points for a valid email input
+      sitgScore += 30; // +30 points for email
 
-      // B2B / Professional Domain Check
+      // B2B Domain Check
       const domain = formData.email.split('@')[1]?.toLowerCase();
       const genericDomains = [
-        'gmail.com',
-        'yahoo.com',
-        'hotmail.com',
-        'outlook.com',
-        'live.com',
-        'icloud.com',
-        'libero.it',
-        'virgilio.it',
+        'gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com', 
+        'live.com', 'icloud.com', 'libero.it', 'virgilio.it'
       ];
       
       if (domain && !genericDomains.includes(domain)) {
-        // High commitment indicator: business, school, or sports club domain (B2B verification)
-        sitgScore += 30; // +30 points bonus
+        sitgScore += 30; // +30 points B2B bonus (club/school/company)
       }
     }
 
-    // Pass data and final SITG score to parent callback for dashboard telemetry or API dispatch
-    triggerTrackingEvent('Quiz_Step3_Submit', { email: formData.email });
+    triggerTrackingEvent('Quiz_Step4_Submit', { email: formData.email });
     
     if (sitgScore > 50) {
       triggerTrackingEvent('Lead_Qualified', { sitgScore });
     }
 
-    // Simulated API call to VITE_API_URL
+    // Simulated API call using VITE_API_URL
     const apiUrl = import.meta.env.VITE_API_URL;
     console.log(`%c[API Request] Sending lead to ${apiUrl}/waitlist`, 'color: #DAE69A; font-weight: bold;', {
       method: 'POST',
@@ -134,12 +128,10 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
   };
 
   return (
-    <div className="relative max-w-lg w-full p-[1.5px] rounded-[20px] bg-gradient-to-br from-[#FAF9F6]/15 to-[#34BBC0]/5 shadow-2xl overflow-hidden">
+    <div className="relative max-w-lg w-full p-[1.5px] rounded-[20px] bg-gradient-to-br from-[#FAF9F6]/15 to-[#34BBC0]/5 shadow-2xl overflow-hidden glass-panel">
       
       {/* Glassmorphism Inner Container */}
-      <div 
-        className="w-full bg-[#171F2E]/75 backdrop-blur-[20px] rounded-[19px] p-8 flex flex-col gap-6 text-[#FAF9F6]"
-      >
+      <div className="w-full bg-[#171F2E]/75 backdrop-blur-[20px] rounded-[19px] p-8 flex flex-col gap-6 text-[#FAF9F6]">
         
         {/* Header Row */}
         <div className="flex justify-between items-center border-b border-[#FAF9F6]/10 pb-4">
@@ -161,15 +153,16 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
           )}
         </div>
 
-        {/* Progress Stars Indicators (Y2K style) */}
+        {/* Progress Stars Indicators (4 stars) */}
         <div className="flex gap-2 justify-center py-1 text-[#DAE69A] text-lg font-bold tracking-widest">
           <span>{step >= 1 ? '✦' : '✧'}</span>
           <span>{step >= 2 ? '✦' : '✧'}</span>
           <span>{step >= 3 ? '✦' : '✧'}</span>
+          <span>{step >= 4 ? '✦' : '✧'}</span>
         </div>
 
         {/* Quiz Steps Container */}
-        <div className="min-h-[220px] flex flex-col justify-center overflow-hidden">
+        <div className="min-h-[240px] flex flex-col justify-center overflow-hidden">
           <AnimatePresence mode="wait">
             
             {/* Step 1: Sport Selection */}
@@ -183,17 +176,17 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 transition={{ duration: 0.3 }}
                 className="flex flex-col gap-4"
               >
-                <h4 className="text-sm font-bold text-[#FAF9F6]/80 text-center mb-2">
-                  1. Che sport seguite o pratica tua figlia?
+                <h4 className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
+                  1. Di quale sport ti occupi principalmente?
                 </h4>
                 <div className="grid grid-cols-2 gap-3">
-                  {['Pallavolo', 'Calcio', 'Basket', 'Altro'].map((sport) => (
+                  {['Calcio Femminile', 'Pallavolo', 'Basket', 'Altro Sport di Squadra'].map((sport) => (
                     <motion.button
                       key={sport}
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleSelectSport(sport)}
-                      className="py-4 px-6 text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-center"
+                      className="py-4 px-3 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-center flex items-center justify-center min-h-[56px]"
                     >
                       {sport}
                     </motion.button>
@@ -202,7 +195,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
               </motion.div>
             )}
 
-            {/* Step 2: Injury History */}
+            {/* Step 2: Main Concern */}
             {step === 2 && (
               <motion.div
                 key="step2"
@@ -213,31 +206,32 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 transition={{ duration: 0.3 }}
                 className="flex flex-col gap-4"
               >
-                <h4 className="text-sm font-bold text-[#FAF9F6]/80 text-center mb-2">
-                  2. Vi è capitato di gestire atlete ferme per lunghi mesi a causa di infortuni o forti dolori?
+                <h4 className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
+                  2. Qual è la tua più grande preoccupazione riguardo alla crescita delle atlete?
                 </h4>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-2.5">
                   {[
-                    { label: 'Sì, purtroppo', value: 'Si' },
-                    { label: 'Raramente', value: 'Raramente' },
-                    { label: 'Mai finora', value: 'Mai' }
+                    { label: 'Il rischio di infortuni gravi (es. crociato LCA)', val: 'Infortuni LCA' },
+                    { label: 'Il drop-out precoce (le ragazze che mollano lo sport tra i 12 e i 16 anni)', val: 'Drop-out' },
+                    { label: 'La difficoltà di comunicazione sui temi biologici e stanchezza', val: 'Comunicazione' },
+                    { label: 'La gestione del sovraccarico fisico durante i campionati', val: 'Sovraccarico' }
                   ].map((option) => (
                     <motion.button
-                      key={option.value}
+                      key={option.val}
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
-                      onClick={() => handleSelectInjuryHistory(option.value)}
-                      className="w-full py-4 px-6 text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-left flex justify-between items-center"
+                      onClick={() => handleSelectConcern(option.val)}
+                      className="w-full py-3 px-4 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-left flex justify-between items-center"
                     >
                       <span>{option.label}</span>
-                      <span className="text-[#DAE69A]">✦</span>
+                      <span className="text-[#DAE69A] shrink-0 ml-2">✦</span>
                     </motion.button>
                   ))}
                 </div>
               </motion.div>
             )}
 
-            {/* Step 3: Email Opt-In */}
+            {/* Step 3: Privacy Preference */}
             {step === 3 && (
               <motion.div
                 key="step3"
@@ -248,9 +242,43 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 transition={{ duration: 0.3 }}
                 className="flex flex-col gap-4"
               >
+                <h4 className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
+                  3. BAB protegge la privacy delle atlete. Come preferisci che vengano gestiti i dati?
+                </h4>
+                <div className="flex flex-col gap-3">
+                  {[
+                    { label: 'Solo dati aggregati (Voglio vedere la stanchezza generale, non i dati personali)', val: 'Aggregati' },
+                    { label: 'Solo alert di prevenzione infortuni (Solo chi rischia sovraccarichi)', val: 'Alert Prevenzione' }
+                  ].map((option) => (
+                    <motion.button
+                      key={option.val}
+                      whileHover={{ scale: 1.01 }}
+                      whileTap={{ scale: 0.99 }}
+                      onClick={() => handleSelectPrivacy(option.val)}
+                      className="w-full py-3.5 px-5 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-left flex justify-between items-center"
+                    >
+                      <span>{option.label}</span>
+                      <span className="text-[#DAE69A] shrink-0 ml-2">✦</span>
+                    </motion.button>
+                  ))}
+                </div>
+              </motion.div>
+            )}
+
+            {/* Step 4: Email Entry */}
+            {step === 4 && (
+              <motion.div
+                key="step4"
+                variants={stepVariants}
+                initial="hidden"
+                animate="visible"
+                exit="exit"
+                transition={{ duration: 0.3 }}
+                className="flex flex-col gap-4"
+              >
                 <div className="text-center mb-2">
-                  <h4 className="text-sm font-bold text-[#FAF9F6]/80">
-                    3. Ricevi la guida pratica di BAB
+                  <h4 className="text-sm font-bold text-[#FAF9F6]/85">
+                    4. Ricevi la guida pratica di BAB
                   </h4>
                   <p className="text-xs text-[#FAF9F6]/50 mt-1">
                     Riceverai l'anteprima gratuita su come evitare l'abbandono sportivo e proteggere le ginocchia delle atlete.
