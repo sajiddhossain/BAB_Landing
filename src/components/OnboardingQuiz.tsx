@@ -78,11 +78,6 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
       return;
     }
 
-    /* --------------------------------------------------------------------------
-       SKIN IN THE GAME (SITG) SCORE CALCULATION
-       --------------------------------------------------------------------------
-       Calculates commitment intensity based on the pretyping protocol.
-       -------------------------------------------------------------------------- */
     let sitgScore = 0;
 
     if (formData.sport) sitgScore += 20;
@@ -129,22 +124,20 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
 
   return (
     <div 
-      className="relative max-w-lg w-full p-[1.5px] rounded-[20px] bg-gradient-to-br from-[#FAF9F6]/15 to-[#34BBC0]/5 shadow-2xl overflow-hidden glass-panel"
+      className="relative max-w-lg w-full bg-white border-[3px] border-black rounded-[32px] shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] overflow-hidden"
       role="dialog"
       aria-modal="true"
       aria-labelledby="quiz-title"
     >
-      
-      {/* Glassmorphism Inner Container */}
-      <div className="w-full bg-[#171F2E]/75 backdrop-blur-[20px] rounded-[19px] p-8 flex flex-col gap-6 text-[#FAF9F6]">
+      <div className="w-full p-8 flex flex-col gap-6 text-[#0F0F12]">
         
         {/* Header Row */}
-        <div className="flex justify-between items-center border-b border-[#FAF9F6]/10 pb-4">
+        <div className="flex justify-between items-center border-b-2 border-black pb-4">
           <div>
-            <h3 id="quiz-title" className="font-serif font-bold text-lg text-[#FAF9F6]">
+            <h3 id="quiz-title" className="font-serif font-black text-xl text-[#0F0F12]">
               Analisi di Rischio
             </h3>
-            <p className="text-[10px] text-[#FAF9F6]/40 uppercase tracking-widest mt-0.5">
+            <p className="text-[10px] text-neutral-500 uppercase tracking-widest font-black mt-0.5">
               Protocollo di Protezione BAB
             </p>
           </div>
@@ -152,7 +145,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
             <button 
               onClick={onClose} 
               aria-label="Chiudi il quiz"
-              className="text-[#FAF9F6]/40 hover:text-[#FAF9F6] transition-colors text-lg focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none p-1 rounded"
+              className="w-8 h-8 rounded-full border-2 border-black bg-[#EBE5FF] flex items-center justify-center font-black text-lg shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none hover:bg-neutral-100 cursor-pointer"
             >
               &times;
             </button>
@@ -160,7 +153,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
         </div>
 
         {/* Progress Stars Indicators (4 stars) */}
-        <div className="flex gap-2 justify-center py-1 text-[#DAE69A] text-lg font-bold tracking-widest" aria-label={`Step ${step} di 4`}>
+        <div className="flex gap-2 justify-center py-1 text-[#FFDE4D] text-xl font-black tracking-widest" aria-label={`Step ${step} di 4`}>
           <span aria-hidden="true">{step >= 1 ? '✦' : '✧'}</span>
           <span aria-hidden="true">{step >= 2 ? '✦' : '✧'}</span>
           <span aria-hidden="true">{step >= 3 ? '✦' : '✧'}</span>
@@ -168,7 +161,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
         </div>
 
         {/* Quiz Steps Container */}
-        <div className="min-h-[240px] flex flex-col justify-center overflow-hidden">
+        <div className="min-h-[260px] flex flex-col justify-center overflow-hidden">
           <AnimatePresence mode="wait">
             
             {/* Step 1: Sport Selection */}
@@ -182,22 +175,20 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 transition={{ duration: 0.3 }}
                 className="flex flex-col gap-4"
               >
-                <h4 id="question-1" className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
+                <h4 id="question-1" className="text-sm font-black text-[#0F0F12] text-center mb-2">
                   1. Di quale sport ti occupi principalmente?
                 </h4>
                 <div className="grid grid-cols-2 gap-3" role="radiogroup" aria-labelledby="question-1">
                   {['Calcio Femminile', 'Pallavolo', 'Basket', 'Altro Sport di Squadra'].map((sport) => (
-                    <motion.button
+                    <button
                       key={sport}
                       role="radio"
                       aria-checked={formData.sport === sport}
-                      whileHover={{ scale: 1.02 }}
-                      whileTap={{ scale: 0.98 }}
                       onClick={() => handleSelectSport(sport)}
-                      className="py-4 px-3 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-center flex items-center justify-center min-h-[56px] focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none"
+                      className="py-4 px-3 text-xs sm:text-sm font-black bg-white hover:bg-[#FFE3D1] border-2 border-black rounded-xl shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all text-center flex items-center justify-center min-h-[56px] focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none cursor-pointer"
                     >
                       {sport}
-                    </motion.button>
+                    </button>
                   ))}
                 </div>
               </motion.div>
@@ -214,7 +205,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 transition={{ duration: 0.3 }}
                 className="flex flex-col gap-4"
               >
-                <h4 id="question-2" className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
+                <h4 id="question-2" className="text-sm font-black text-[#0F0F12] text-center mb-2">
                   2. Qual è la tua più grande preoccupazione riguardo alla crescita delle atlete?
                 </h4>
                 <div className="flex flex-col gap-2.5" role="radiogroup" aria-labelledby="question-2">
@@ -224,18 +215,16 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                     { label: 'La difficoltà di comunicazione sui temi biologici e stanchezza', val: 'Comunicazione' },
                     { label: 'La gestione del sovraccarico fisico durante i campionati', val: 'Sovraccarico' }
                   ].map((option) => (
-                    <motion.button
+                    <button
                       key={option.val}
                       role="radio"
                       aria-checked={formData.concern === option.val}
-                      whileHover={{ scale: 1.01 }}
-                      whileTap={{ scale: 0.99 }}
                       onClick={() => handleSelectConcern(option.val)}
-                      className="w-full py-3 px-4 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-left flex justify-between items-center focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none"
+                      className="w-full py-3.5 px-4 text-xs sm:text-sm font-black bg-white hover:bg-[#EBE5FF] border-2 border-black rounded-xl shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all text-left flex justify-between items-center focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none cursor-pointer"
                     >
                       <span>{option.label}</span>
-                      <span className="text-[#DAE69A] shrink-0 ml-2" aria-hidden="true">✦</span>
-                    </motion.button>
+                      <span className="text-[#34BBC0] shrink-0 ml-2" aria-hidden="true">✦</span>
+                    </button>
                   ))}
                 </div>
               </motion.div>
@@ -252,7 +241,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 transition={{ duration: 0.3 }}
                 className="flex flex-col gap-4"
               >
-                <h4 id="question-3" className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
+                <h4 id="question-3" className="text-sm font-black text-[#0F0F12] text-center mb-2">
                   3. BAB protegge la privacy delle atlete. Come preferisci che vengano gestiti i dati?
                 </h4>
                 <div className="flex flex-col gap-3" role="radiogroup" aria-labelledby="question-3">
@@ -260,18 +249,16 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                     { label: 'Solo dati aggregati (Voglio vedere la stanchezza generale, non i dati personali)', val: 'Aggregati' },
                     { label: 'Solo alert di prevenzione infortuni (Solo chi rischia sovraccarichi)', val: 'Alert Prevenzione' }
                   ].map((option) => (
-                    <motion.button
+                    <button
                       key={option.val}
                       role="radio"
                       aria-checked={formData.privacy === option.val}
-                      whileHover={{ scale: 1.01 }}
-                      whileTap={{ scale: 0.99 }}
                       onClick={() => handleSelectPrivacy(option.val)}
-                      className="w-full py-3.5 px-5 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-left flex justify-between items-center focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none"
+                      className="w-full py-4 px-5 text-xs sm:text-sm font-black bg-white hover:bg-[#FFE3D1] border-2 border-black rounded-xl shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all text-left flex justify-between items-center focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none cursor-pointer"
                     >
                       <span>{option.label}</span>
-                      <span className="text-[#DAE69A] shrink-0 ml-2" aria-hidden="true">✦</span>
-                    </motion.button>
+                      <span className="text-[#34BBC0] shrink-0 ml-2" aria-hidden="true">✦</span>
+                    </button>
                   ))}
                 </div>
               </motion.div>
@@ -289,10 +276,10 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 className="flex flex-col gap-4"
               >
                 <div className="text-center mb-2">
-                  <h4 className="text-sm font-bold text-[#FAF9F6]/85">
+                  <h4 className="text-sm font-black text-[#0F0F12]">
                     4. Ricevi la guida prima di tutti
                   </h4>
-                  <p className="text-xs text-[#FAF9F6]/50 mt-1">
+                  <p className="text-xs text-neutral-500 font-semibold mt-1">
                     Riceverai l'anteprima gratuita su come evitare l'abbandono sportivo e proteggere le ginocchia delle atlete.
                   </p>
                 </div>
@@ -307,23 +294,21 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                       placeholder="Inserisci la tua email migliore..."
                       value={formData.email}
                       onChange={handleEmailChange}
-                      className="w-full p-4 bg-[#FAF9F6]/5 border border-[#FAF9F6]/10 focus:border-[#34BBC0]/50 outline-none rounded-xl text-sm transition-all text-center focus-visible:ring-2 focus-visible:ring-[#34BBC0]"
+                      className="w-full p-4 bg-white border-2 border-black focus:border-[#34BBC0] outline-none rounded-xl text-sm font-semibold transition-all text-center focus-visible:ring-2 focus-visible:ring-[#34BBC0]"
                     />
                     {emailError && (
-                      <span className="text-xs text-red-400 text-center mt-1" role="alert">
+                      <span className="text-xs text-red-500 font-bold text-center mt-1" role="alert">
                         {emailError}
                       </span>
                     )}
                   </div>
 
-                  <motion.button
+                  <button
                     type="submit"
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="w-full py-4 px-6 text-sm font-bold bg-[#34BBC0] text-[#080C12] rounded-xl hover:bg-[#34BBC0]/95 transition-all text-center flex justify-center items-center gap-1 focus-visible:ring-2 focus-visible:ring-[#DAE69A] focus-visible:outline-none"
+                    className="w-full neo-btn py-4 bg-[#FFDE4D] text-black font-black uppercase text-sm"
                   >
                     Ricevi la guida ✦
-                  </motion.button>
+                  </button>
                 </form>
               </motion.div>
             )}

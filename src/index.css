@@ -5,45 +5,103 @@
   --font-serif: "Bricolage Grotesque", sans-serif;
   --font-sans: "Space Grotesk", sans-serif;
   
-  --color-brand-bg: #080C12;
-  --color-brand-card: #171F2E;
-  --color-brand-text: #FAF9F6;
-  --color-brand-teal: #34BBC0;
-  --color-brand-lime: #DAE69A;
+  --color-neo-bg: #F6F4FF;
+  --color-neo-white: #FFFFFF;
+  --color-neo-dark: #0F0F12;
+  --color-neo-teal: #34BBC0;
+  --color-neo-purple: #EBE5FF;
+  --color-neo-peach: #FFE3D1;
+  --color-neo-yellow: #FFDE4D;
+  --color-neo-lime: #DAE69A;
+  --color-neo-soft-green: #D1FFEF;
 }
 
 :root {
   font-family: var(--font-sans);
-  color-scheme: dark;
+  color-scheme: light;
+  background-color: var(--color-neo-bg);
+  color: var(--color-neo-dark);
 }
 
 body {
-  background-color: var(--color-brand-bg);
-  color: var(--color-brand-text);
+  background-color: var(--color-neo-bg);
+  color: var(--color-neo-dark);
   margin: 0;
   min-height: 100vh;
   overflow-x: hidden;
 }
 
-/* Custom Glassmorphic background blur class */
-.glass-panel {
-  background-color: rgba(23, 31, 46, 0.75);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(250, 249, 246, 0.15);
+/* Neo-Brutalist Card (Flat sharp shadow, thick border) */
+.neo-card {
+  background-color: var(--color-neo-white);
+  border: 2px solid var(--color-neo-dark);
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px 0px var(--color-neo-dark);
 }
 
-.glass-panel-active {
-  background-color: rgba(23, 31, 46, 0.85);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  border: 1.5px solid rgba(52, 187, 192, 0.4);
-  box-shadow: 0px 16px 40px rgba(52, 187, 192, 0.15);
+.neo-card-interactive {
+  background-color: var(--color-neo-white);
+  border: 2px solid var(--color-neo-dark);
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px 0px var(--color-neo-dark);
+  transition: all 0.15s ease-in-out;
 }
 
-.glass-modal {
-  background-color: rgba(8, 12, 18, 0.8);
-  backdrop-filter: blur(32px);
-  -webkit-backdrop-filter: blur(32px);
-  border: 1px solid rgba(250, 249, 246, 0.1);
+.neo-card-interactive:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px var(--color-neo-dark);
+}
+
+/* Neo-Brutalist Interactive Button */
+.neo-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-neo-teal);
+  color: var(--color-neo-dark);
+  border: 2px solid var(--color-neo-dark);
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 3px 3px 0px 0px var(--color-neo-dark);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.neo-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px 0px var(--color-neo-dark);
+}
+
+.neo-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px var(--color-neo-dark);
+}
+
+/* Secondary Button (Neutral) */
+.neo-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-neo-white);
+  color: var(--color-neo-dark);
+  border: 2px solid var(--color-neo-dark);
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  box-shadow: 3px 3px 0px 0px var(--color-neo-dark);
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.neo-btn-secondary:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0px 0px var(--color-neo-dark);
+}
+
+.neo-btn-secondary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px var(--color-neo-dark);
 }
