@@ -86,10 +86,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="flex p-1 bg-[#044443]/90 border border-[#FAF9F6]/10 rounded-full shadow-lg max-w-md w-full relative mt-2"
+            role="tablist"
+            aria-label="Target selection"
           >
             <button
+              role="tab"
+              aria-selected={activeTarget === Target.Coach}
+              aria-label="Show features for Coaches and Clubs"
               onClick={() => handleTargetChange(Target.Coach)}
-              className={`flex-1 py-2.5 px-4 rounded-full text-xs sm:text-sm font-bold transition-all duration-300 relative z-10 ${
+              className={`flex-1 py-2.5 px-4 rounded-full text-xs sm:text-sm font-bold transition-all duration-300 relative z-10 focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none ${
                 activeTarget === Target.Coach
                   ? 'text-[#032e30]'
                   : 'text-[#FAF9F6]/60 hover:text-[#FAF9F6]'
@@ -98,8 +103,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               For Coaches & Clubs
             </button>
             <button
+              role="tab"
+              aria-selected={activeTarget === Target.Genitore}
+              aria-label="Show features for Parents and Families"
               onClick={() => handleTargetChange(Target.Genitore)}
-              className={`flex-1 py-2.5 px-4 rounded-full text-xs sm:text-sm font-bold transition-all duration-300 relative z-10 ${
+              className={`flex-1 py-2.5 px-4 rounded-full text-xs sm:text-sm font-bold transition-all duration-300 relative z-10 focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none ${
                 activeTarget === Target.Genitore
                   ? 'text-[#032e30]'
                   : 'text-[#FAF9F6]/60 hover:text-[#FAF9F6]'
@@ -139,7 +147,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
                   onClick={onJoinWaitlist}
-                  className="px-8 py-3.5 bg-[#c8e6a0] text-[#032e30] text-xs sm:text-sm font-bold rounded-xl border border-[#FAF9F6]/10 shadow-lg hover:bg-[#c8e6a0]/90 transition-all uppercase tracking-wider"
+                  aria-label="Join the waitlist to receive access"
+                  className="px-8 py-3.5 bg-[#c8e6a0] text-[#032e30] text-xs sm:text-sm font-bold rounded-xl border border-[#FAF9F6]/10 shadow-lg hover:bg-[#c8e6a0]/90 transition-all uppercase tracking-wider focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none"
                 >
                   JOIN THE WAITLIST ✦
                 </motion.button>
@@ -149,7 +158,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
 
           {/* Scroll Down Hint (Only on desktop) */}
           <div className="hidden lg:flex absolute bottom-8 left-12 items-center gap-2 text-[10px] text-[#FAF9F6]/40 uppercase tracking-widest">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#34BBC0] animate-ping" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#34BBC0] animate-ping" aria-hidden="true" />
             <span>SCROLL TO DISCOVER</span>
           </div>
 
@@ -159,7 +168,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         <div className="lg:col-span-6 relative h-[400px] lg:h-auto overflow-hidden">
           <img 
             src="/src/assets/hero_athletes.png" 
-            alt="U18 Female Athletes running on track" 
+            alt="Three young female track athletes smiling on track field" 
             className="absolute inset-0 w-full h-full object-cover"
           />
           {/* Overlay gradient to blend bottom/left edges on small viewports */}

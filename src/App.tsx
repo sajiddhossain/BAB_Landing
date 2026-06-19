@@ -10,19 +10,22 @@ interface SuccessData {
   sitgScore: number;
 }
 
-// FAQ Accordion Item Component
-const FAQItem = ({ question, answer }: { question: string; answer: string }) => {
+// FAQ Accordion Item Component with Accessibility
+const FAQItem = ({ id, question, answer }: { id: string; question: string; answer: string }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="border-b border-[#FAF9F6]/10 py-4">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex justify-between items-center text-left py-2 text-sm sm:text-base font-bold text-[#FAF9F6] hover:text-[#DAE69A] transition-colors"
+        aria-expanded={isOpen}
+        aria-controls={`faq-answer-${id}`}
+        className="w-full flex justify-between items-center text-left py-2 text-sm sm:text-base font-bold text-[#FAF9F6] hover:text-[#DAE69A] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded"
       >
         <span>{question}</span>
         <motion.span
           animate={{ rotate: isOpen ? 180 : 0 }}
           className="text-[#DAE69A] font-mono text-lg ml-4"
+          aria-hidden="true"
         >
           {isOpen ? '−' : '+'}
         </motion.span>
@@ -30,6 +33,8 @@ const FAQItem = ({ question, answer }: { question: string; answer: string }) => 
       <AnimatePresence initial={false}>
         {isOpen && (
           <motion.div
+            id={`faq-answer-${id}`}
+            role="region"
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
@@ -82,6 +87,14 @@ export default function App() {
     }
   };
 
+  // Framer Motion Scroll Reveal Config
+  const scrollReveal = {
+    initial: { opacity: 0, y: 30 },
+    whileInView: { opacity: 1, y: 0 },
+    viewport: { once: true, margin: "-100px" },
+    transition: { duration: 0.6, ease: "easeOut" as const }
+  };
+
   return (
     <div className="min-h-screen bg-[#032e30] text-[#FAF9F6] selection:bg-[#34BBC0]/30 selection:text-[#FAF9F6]">
       
@@ -90,7 +103,11 @@ export default function App() {
         <div className="flex items-center gap-3">
           <span 
             onClick={resetFlow}
-            className="text-2xl font-bold font-serif text-[#FAF9F6] cursor-pointer hover:text-[#DAE69A] transition-colors" 
+            tabIndex={0}
+            role="button"
+            aria-label="Home page BAB"
+            onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') resetFlow(); }}
+            className="text-2xl font-bold font-serif text-[#FAF9F6] cursor-pointer hover:text-[#DAE69A] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded" 
             style={{ fontFamily: "'Corben', serif" }}
           >
             BAB
@@ -102,10 +119,10 @@ export default function App() {
         
         {/* Menu Links */}
         <nav className="hidden md:flex items-center gap-8 text-xs font-bold uppercase tracking-wider text-[#FAF9F6]/60">
-          <button onClick={() => scrollToSection('our-why')} className="hover:text-[#FAF9F6] transition-colors">Our Why</button>
-          <button onClick={() => scrollToSection('features')} className="hover:text-[#FAF9F6] transition-colors">Features</button>
-          <button onClick={() => scrollToSection('behind-bab')} className="hover:text-[#FAF9F6] transition-colors">About Us</button>
-          <button onClick={() => scrollToSection('faq')} className="hover:text-[#FAF9F6] transition-colors">FAQ</button>
+          <button onClick={() => scrollToSection('our-why')} className="hover:text-[#FAF9F6] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded py-1 px-2">Our Why</button>
+          <button onClick={() => scrollToSection('features')} className="hover:text-[#FAF9F6] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded py-1 px-2">Features</button>
+          <button onClick={() => scrollToSection('behind-bab')} className="hover:text-[#FAF9F6] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded py-1 px-2">About Us</button>
+          <button onClick={() => scrollToSection('faq')} className="hover:text-[#FAF9F6] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded py-1 px-2">FAQ</button>
         </nav>
 
         <button
@@ -116,7 +133,8 @@ export default function App() {
               setShowQuiz(true);
             }
           }}
-          className="px-5 py-2.5 rounded-xl bg-[#c8e6a0] text-[#032e30] text-xs font-bold tracking-wide hover:bg-[#c8e6a0]/90 transition-all shadow-md active:scale-95 uppercase"
+          aria-label={successData ? "Ricomincia flusso iscrizione" : "Partecipa alla lista d'attesa"}
+          className="px-5 py-2.5 rounded-xl bg-[#c8e6a0] text-[#032e30] text-xs font-bold tracking-wide hover:bg-[#c8e6a0]/90 transition-all shadow-md active:scale-95 uppercase focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none"
         >
           {successData ? 'Restart' : 'Join the Waitlist'}
         </button>
@@ -138,14 +156,18 @@ export default function App() {
               <HeroSection onJoinWaitlist={() => setShowQuiz(true)} />
 
               {/* Sezione 3: Soluzione e Empatia (Our Why - Split Layout Invertito) */}
-              <section id="our-why" className="relative min-h-[600px] bg-[#032e30] border-b border-[#FAF9F6]/5 overflow-hidden">
+              <motion.section 
+                id="our-why" 
+                {...scrollReveal}
+                className="relative min-h-[600px] bg-[#032e30] border-b border-[#FAF9F6]/5 overflow-hidden w-full"
+              >
                 <div className="grid grid-cols-1 lg:grid-cols-12 items-stretch">
                   
                   {/* Left Column: Image */}
                   <div className="lg:col-span-6 relative h-[400px] lg:h-auto overflow-hidden">
                     <img 
                       src="/src/assets/why_athletes.png" 
-                      alt="Two female athletes on track" 
+                      alt="Two female athletes with crossed arms on running track field" 
                       className="absolute inset-0 w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b lg:bg-gradient-to-l from-[#032e30] via-transparent to-transparent opacity-40" />
@@ -177,17 +199,20 @@ export default function App() {
 
                     <button
                       onClick={() => setShowQuiz(true)}
-                      className="px-8 py-3.5 bg-[#c8e6a0] text-[#032e30] text-xs sm:text-sm font-bold rounded-xl hover:bg-[#c8e6a0]/90 transition-all uppercase tracking-wider"
+                      className="px-8 py-3.5 bg-[#c8e6a0] text-[#032e30] text-xs sm:text-sm font-bold rounded-xl hover:bg-[#c8e6a0]/90 transition-all uppercase tracking-wider focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none"
                     >
                       JOIN THE WAITLIST ✦
                     </button>
                   </div>
 
                 </div>
-              </section>
+              </motion.section>
 
               {/* Sezione 4: Storytelling (Mia's Case Study - 3 Columns Layout) */}
-              <section className="w-full px-6 py-24 bg-[#021a1b] border-b border-[#FAF9F6]/5 flex flex-col items-center">
+              <motion.section 
+                {...scrollReveal}
+                className="w-full px-6 py-24 bg-[#021a1b] border-b border-[#FAF9F6]/5 flex flex-col items-center"
+              >
                 <div className="max-w-6xl w-full flex flex-col gap-16">
                   
                   {/* Title Area */}
@@ -218,7 +243,7 @@ export default function App() {
                       <div className="relative w-72 h-96 p-[1.5px] rounded-[32px] bg-gradient-to-br from-[#FAF9F6]/15 to-[#34BBC0]/5 shadow-2xl overflow-hidden glass-panel">
                         <img 
                           src="/src/assets/mia_portrait.png" 
-                          alt="Swimmer Mia portrait" 
+                          alt="Teen swimmer Mia portrait smiling" 
                           className="w-full h-full object-cover rounded-[30px]"
                         />
                       </div>
@@ -250,18 +275,21 @@ export default function App() {
                   </div>
 
                 </div>
-              </section>
+              </motion.section>
 
               {/* Sezione 5: Dati e Pain Points (Gradiente Rosso/Teal) */}
-              <section className="w-full py-24 bg-gradient-to-b from-[#3a0d0d] to-[#032e30] flex flex-col items-center border-b border-[#FAF9F6]/5">
+              <motion.section 
+                {...scrollReveal}
+                className="w-full py-24 bg-gradient-to-b from-[#3a0d0d] to-[#032e30] flex flex-col items-center border-b border-[#FAF9F6]/5"
+              >
                 <div className="max-w-6xl w-full px-6 flex flex-col gap-16">
                   
                   {/* Part A: Menstrual Pain Points */}
                   <div className="flex flex-col gap-10">
                     <div className="text-center max-w-3xl mx-auto flex flex-col gap-4">
-                      <h3 className="text-2xl sm:text-4xl font-serif font-bold leading-tight" style={{ fontFamily: "'Corben', serif" }}>
+                      <h2 className="text-2xl sm:text-4xl font-serif font-bold leading-tight" style={{ fontFamily: "'Corben', serif" }}>
                         Just like Mia, several athletes pay the cost of bleeding in sport
-                      </h3>
+                      </h2>
                     </div>
 
                     {/* Stat Grid (6 cards) */}
@@ -274,9 +302,9 @@ export default function App() {
                         { percent: '84%', label: 'ignore period pain as their main coping mechanism' },
                         { percent: '36%', label: 'believes missing periods during competition is normal' },
                       ].map((stat, idx) => (
-                        <div key={idx} className="p-6 rounded-2xl bg-[#044443]/30 border border-[#FAF9F6]/5 flex flex-col gap-4 hover:border-[#34BBC0]/30 transition-all glass-panel relative overflow-hidden">
+                        <div key={idx} className="p-6 rounded-2xl bg-[#044443]/30 border border-[#FAF9F6]/5 flex flex-col gap-4 hover:border-[#34BBC0]/30 transition-all hover:shadow-[#34BBC0]/10 hover:shadow-lg glass-panel relative overflow-hidden group">
                           {/* Small icon placeholder */}
-                          <div className="w-4 h-4 rounded bg-[#FAF9F6]/10" />
+                          <div className="w-4 h-4 rounded bg-[#FAF9F6]/10 group-hover:bg-[#34BBC0]/30 transition-colors" />
                           <span 
                             className="text-3xl sm:text-4xl font-serif font-bold text-[#DAE69A] mt-1" 
                             style={{ fontFamily: "'Corben', serif" }}
@@ -339,10 +367,14 @@ export default function App() {
                   </div>
 
                 </div>
-              </section>
+              </motion.section>
 
               {/* Sezione 6: Funzionalità Core (Features) */}
-              <section id="features" className="max-w-6xl w-full px-6 py-24 flex flex-col gap-12 border-b border-[#FAF9F6]/5">
+              <motion.section 
+                id="features" 
+                {...scrollReveal}
+                className="max-w-6xl w-full px-6 py-24 flex flex-col gap-12 border-b border-[#FAF9F6]/5"
+              >
                 <div className="text-center max-w-2xl mx-auto flex flex-col gap-4">
                   <span className="text-xs font-bold text-[#34BBC0] tracking-widest uppercase">
                     ✦ Core Capabilities ✦
@@ -448,17 +480,20 @@ export default function App() {
                     </div>
                     <button
                       onClick={() => setShowQuiz(true)}
-                      className="px-6 py-3 rounded-full bg-[#c8e6a0] text-[#032e30] text-xs font-bold tracking-wide hover:bg-[#c8e6a0]/90 transition-all self-start md:self-auto shrink-0"
+                      className="px-6 py-3 rounded-full bg-[#c8e6a0] text-[#032e30] text-xs font-bold tracking-wide hover:bg-[#c8e6a0]/90 transition-all self-start md:self-auto shrink-0 focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none"
                     >
                       Try App Sandbox ✦
                     </button>
                   </motion.div>
 
                 </div>
-              </section>
+              </motion.section>
 
               {/* Sezione 7: Trasparenza e Etica */}
-              <section className="max-w-4xl w-full px-6 py-24 text-center border-b border-[#FAF9F6]/5">
+              <motion.section 
+                {...scrollReveal}
+                className="max-w-4xl w-full px-6 py-24 text-center border-b border-[#FAF9F6]/5"
+              >
                 <div className="p-8 sm:p-10 rounded-[28px] glass-panel border border-[#FAF9F6]/10 flex flex-col gap-6 relative overflow-hidden bg-[#044443]/15">
                   <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-[#34BBC0]/5 rounded-full blur-3xl" />
                   
@@ -474,16 +509,19 @@ export default function App() {
                   
                   <div className="pt-4 border-t border-[#FAF9F6]/5 flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-[#FAF9F6]/50">
                     <span>🛡️ Fully encrypted logs</span>
-                    <span className="hidden sm:inline">•</span>
+                    <span className="hidden sm:inline" aria-hidden="true">•</span>
                     <span>🔒 Opt-in only research</span>
-                    <span className="hidden sm:inline">•</span>
+                    <span className="hidden sm:inline" aria-hidden="true">•</span>
                     <span>✨ Your Journey Matters</span>
                   </div>
                 </div>
-              </section>
+              </motion.section>
 
               {/* Sezione 8: Social Proof (Testimonianze) */}
-              <section className="max-w-6xl w-full px-6 py-24 flex flex-col gap-12 border-b border-[#FAF9F6]/5">
+              <motion.section 
+                {...scrollReveal}
+                className="max-w-6xl w-full px-6 py-24 flex flex-col gap-12 border-b border-[#FAF9F6]/5"
+              >
                 <div className="text-center max-w-2xl mx-auto flex flex-col gap-4">
                   <span className="text-xs font-bold text-[#34BBC0] tracking-widest uppercase">
                     ✦ Voices of the community ✦
@@ -497,7 +535,7 @@ export default function App() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   
                   {/* Lisa Gutfleisch */}
-                  <div className="p-6 sm:p-8 rounded-2xl bg-[#044443]/20 border border-[#FAF9F6]/5 flex flex-col justify-between gap-6 glass-panel">
+                  <div className="p-6 sm:p-8 rounded-2xl bg-[#044443]/20 border border-[#FAF9F6]/5 flex flex-col justify-between gap-6 glass-panel group transition-colors hover:border-[#34BBC0]/30">
                     <p className="text-xs sm:text-sm text-[#FAF9F6]/80 leading-relaxed font-sans italic">
                       "BAB made me feel seen and realise how much I could have benefitted if something like existed during my upbringing in sport. It took me many years to understand that strength is not the opposite of femininity, and the next generation of female athletes should never have to choose between becoming powerful and fitting in."
                     </p>
@@ -508,7 +546,7 @@ export default function App() {
                   </div>
 
                   {/* Alisha Menon */}
-                  <div className="p-6 sm:p-8 rounded-2xl bg-[#044443]/20 border border-[#FAF9F6]/5 flex flex-col justify-between gap-6 glass-panel">
+                  <div className="p-6 sm:p-8 rounded-2xl bg-[#044443]/20 border border-[#FAF9F6]/5 flex flex-col justify-between gap-6 glass-panel group transition-colors hover:border-[#34BBC0]/30">
                     <p className="text-xs sm:text-sm text-[#FAF9F6]/80 leading-relaxed font-sans italic">
                       "Young girls face misinformation and scientific bias, challenges that are often amplified in sports settings, particularly during the profound physical and psychological changes of puberty. BAB provides a safe, preventive solution while contributing to the advancement of research in a field that has been overlooked for far too long."
                     </p>
@@ -519,7 +557,7 @@ export default function App() {
                   </div>
 
                   {/* Vasundhara P. */}
-                  <div className="p-6 sm:p-8 rounded-2xl bg-[#044443]/20 border border-[#FAF9F6]/5 flex flex-col justify-between gap-6 glass-panel">
+                  <div className="p-6 sm:p-8 rounded-2xl bg-[#044443]/20 border border-[#FAF9F6]/5 flex flex-col justify-between gap-6 glass-panel group transition-colors hover:border-[#34BBC0]/30">
                     <p className="text-xs sm:text-sm text-[#FAF9F6]/80 leading-relaxed font-sans italic">
                       "My daughter is 11 and competes at regional and national levels in fencing. A tool like BAB helps me understand how to best support her athletic goals in a safe and informed way, particularly as she navigates the changes of adolescence while continuing to pursue high-level competition."
                     </p>
@@ -530,7 +568,7 @@ export default function App() {
                   </div>
 
                   {/* Erica Sali */}
-                  <div className="p-6 sm:p-8 rounded-2xl bg-[#044443]/20 border border-[#FAF9F6]/5 flex flex-col justify-between gap-6 glass-panel">
+                  <div className="p-6 sm:p-8 rounded-2xl bg-[#044443]/20 border border-[#FAF9F6]/5 flex flex-col justify-between gap-6 glass-panel group transition-colors hover:border-[#34BBC0]/30">
                     <p className="text-xs sm:text-sm text-[#FAF9F6]/80 leading-relaxed font-sans italic">
                       "As a professional volleyball player and coach, I never had such a great resource as BAB to support the specific needs my teenage athletes and I have."
                     </p>
@@ -541,10 +579,14 @@ export default function App() {
                   </div>
 
                 </div>
-              </section>
+              </motion.section>
 
               {/* Sezione 9: Behind BAB (About Us) */}
-              <section id="behind-bab" className="w-full px-6 py-24 bg-[#021a1b] border-b border-[#FAF9F6]/5 flex flex-col items-center">
+              <motion.section 
+                id="behind-bab" 
+                {...scrollReveal}
+                className="w-full px-6 py-24 bg-[#021a1b] border-b border-[#FAF9F6]/5 flex flex-col items-center"
+              >
                 <div className="max-w-4xl w-full flex flex-col md:grid md:grid-cols-12 gap-10">
                   
                   {/* Left Column: Visual branding/Title */}
@@ -555,7 +597,7 @@ export default function App() {
                     <h3 className="text-3xl sm:text-5xl font-serif font-bold" style={{ fontFamily: "'Corben', serif" }}>
                       Behind BAB
                     </h3>
-                    <div className="w-16 h-1 bg-[#DAE69A] rounded-full mt-2" />
+                    <div className="w-16 h-1 bg-[#DAE69A] rounded-full mt-2" aria-hidden="true" />
                   </div>
 
                   {/* Right Column: Bio text */}
@@ -575,10 +617,14 @@ export default function App() {
                   </div>
 
                 </div>
-              </section>
+              </motion.section>
 
               {/* Sezione 10: FAQ */}
-              <section id="faq" className="max-w-4xl w-full px-6 py-24 flex flex-col gap-12 border-b border-[#FAF9F6]/5">
+              <motion.section 
+                id="faq" 
+                {...scrollReveal}
+                className="max-w-4xl w-full px-6 py-24 flex flex-col gap-12 border-b border-[#FAF9F6]/5"
+              >
                 <div className="text-center max-w-2xl mx-auto flex flex-col gap-4">
                   <span className="text-xs font-bold text-[#34BBC0] tracking-widest uppercase">
                     ✦ FAQ ✦
@@ -590,27 +636,32 @@ export default function App() {
 
                 <div className="glass-panel p-6 sm:p-8 rounded-[24px] border border-[#FAF9F6]/10 flex flex-col bg-[#044443]/15">
                   <FAQItem
+                    id="1"
                     question="What is the BAB app?"
                     answer="We believe that U18 athletes should not have to figure it all out alone. That's why BAB also gives parents, caregivers, coaches, and clubs access to the right tools and resources to better understand and support young athletes throughout their journey."
                   />
                   <FAQItem
+                    id="2"
                     question="Who is BAB for?"
                     answer="BAB is primarily designed to support girls and young people U18 who experience periods and practice sport. The app also offers personalised insights and educational resources for parents, coaches and clubs."
                   />
                   <FAQItem
+                    id="3"
                     question="What features does the BAB app include?"
                     answer="BAB includes period tracking, energy tracking, and mood tracking, helping U18 athletes understand how these factors influence both their athletic performance and everyday life."
                   />
                   <FAQItem
+                    id="4"
                     question="Is BAB safe, anonymous, and private?"
                     answer="Yes. BAB is fully compliant with EU GDPR regulations. All raw personal data remains encrypted and safe, and we never expose individual biological data to coaches."
                   />
                   <FAQItem
+                    id="5"
                     question="Who created BAB?"
                     answer="BAB was founded by Gaia Manzone in collaboration with a multidisciplinary team of sports researchers, doctors, elite U18 athletes, and coaches."
                   />
                 </div>
-              </section>
+              </motion.section>
 
             </motion.div>
           ) : (
@@ -628,7 +679,7 @@ export default function App() {
                   
                   {/* Success Title */}
                   <div className="text-center border-b border-[#FAF9F6]/10 pb-4">
-                    <span className="text-4xl">🎉</span>
+                    <span className="text-4xl" role="img" aria-label="party popper">🎉</span>
                     <h2 className="text-2xl font-serif font-bold text-[#FAF9F6] mt-3" style={{ fontFamily: "'Corben', serif" }}>
                       You're on the Waitlist!
                     </h2>
@@ -658,7 +709,7 @@ export default function App() {
 
                     {/* Quality Badge */}
                     <div className="flex items-center gap-2 px-3.5 py-2 rounded-lg bg-[#044443]/50 border border-[#FAF9F6]/5 text-xs">
-                      <span className="text-lg">🛡️</span>
+                      <span className="text-lg" role="img" aria-label="shield">🛡️</span>
                       <div>
                         <span className="font-bold block text-[#FAF9F6]/90">
                           {successData.sitgScore >= 80 
@@ -711,7 +762,7 @@ export default function App() {
                     <button
                       onClick={handleShareReferral}
                       disabled={referralShared}
-                      className={`w-full py-4 px-6 rounded-xl font-bold text-sm text-center transition-all ${
+                      className={`w-full py-4 px-6 rounded-xl font-bold text-sm text-center transition-all focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none ${
                         referralShared 
                           ? 'bg-[#032e30]/50 text-[#FAF9F6]/40 border border-[#FAF9F6]/10 cursor-not-allowed'
                           : 'bg-[#c8e6a0] text-[#032e30] hover:bg-[#c8e6a0]/90 active:scale-98 shadow-md'
@@ -724,7 +775,7 @@ export default function App() {
                   {/* Back Link */}
                   <button
                     onClick={resetFlow}
-                    className="text-xs text-[#FAF9F6]/40 hover:text-[#FAF9F6]/80 text-center transition-colors hover:underline font-sans"
+                    className="text-xs text-[#FAF9F6]/40 hover:text-[#FAF9F6]/80 text-center transition-colors hover:underline font-sans focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded py-0.5"
                   >
                     Back to Homepage
                   </button>
@@ -750,12 +801,12 @@ export default function App() {
         <div className="flex flex-wrap gap-12 font-sans">
           <div className="flex flex-col gap-2">
             <span className="font-bold text-[#FAF9F6] uppercase tracking-wider text-[10px]">Information</span>
-            <a href="mailto:info@bab-sports.com" className="hover:text-[#FAF9F6] transition-colors">Contacts</a>
+            <a href="mailto:info@bab-sports.com" className="hover:text-[#FAF9F6] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded">Contacts</a>
           </div>
           <div className="flex flex-col gap-2">
             <span className="font-bold text-[#FAF9F6] uppercase tracking-wider text-[10px]">Socials</span>
-            <a href="https://substack.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FAF9F6] transition-colors">Substack</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FAF9F6] transition-colors">Instagram</a>
+            <a href="https://substack.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FAF9F6] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded">Substack</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#FAF9F6] transition-colors focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none rounded">Instagram</a>
           </div>
         </div>
       </footer>

@@ -128,7 +128,12 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
   };
 
   return (
-    <div className="relative max-w-lg w-full p-[1.5px] rounded-[20px] bg-gradient-to-br from-[#FAF9F6]/15 to-[#34BBC0]/5 shadow-2xl overflow-hidden glass-panel">
+    <div 
+      className="relative max-w-lg w-full p-[1.5px] rounded-[20px] bg-gradient-to-br from-[#FAF9F6]/15 to-[#34BBC0]/5 shadow-2xl overflow-hidden glass-panel"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="quiz-title"
+    >
       
       {/* Glassmorphism Inner Container */}
       <div className="w-full bg-[#171F2E]/75 backdrop-blur-[20px] rounded-[19px] p-8 flex flex-col gap-6 text-[#FAF9F6]">
@@ -136,7 +141,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
         {/* Header Row */}
         <div className="flex justify-between items-center border-b border-[#FAF9F6]/10 pb-4">
           <div>
-            <h3 className="font-serif font-bold text-lg text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
+            <h3 id="quiz-title" className="font-serif font-bold text-lg text-[#FAF9F6]" style={{ fontFamily: "'Corben', serif" }}>
               Analisi di Rischio
             </h3>
             <p className="text-[10px] text-[#FAF9F6]/40 uppercase tracking-widest mt-0.5">
@@ -146,7 +151,8 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
           {onClose && (
             <button 
               onClick={onClose} 
-              className="text-[#FAF9F6]/40 hover:text-[#FAF9F6] transition-colors text-lg"
+              aria-label="Chiudi il quiz"
+              className="text-[#FAF9F6]/40 hover:text-[#FAF9F6] transition-colors text-lg focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none p-1 rounded"
             >
               &times;
             </button>
@@ -154,11 +160,11 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
         </div>
 
         {/* Progress Stars Indicators (4 stars) */}
-        <div className="flex gap-2 justify-center py-1 text-[#DAE69A] text-lg font-bold tracking-widest">
-          <span>{step >= 1 ? '✦' : '✧'}</span>
-          <span>{step >= 2 ? '✦' : '✧'}</span>
-          <span>{step >= 3 ? '✦' : '✧'}</span>
-          <span>{step >= 4 ? '✦' : '✧'}</span>
+        <div className="flex gap-2 justify-center py-1 text-[#DAE69A] text-lg font-bold tracking-widest" aria-label={`Step ${step} di 4`}>
+          <span aria-hidden="true">{step >= 1 ? '✦' : '✧'}</span>
+          <span aria-hidden="true">{step >= 2 ? '✦' : '✧'}</span>
+          <span aria-hidden="true">{step >= 3 ? '✦' : '✧'}</span>
+          <span aria-hidden="true">{step >= 4 ? '✦' : '✧'}</span>
         </div>
 
         {/* Quiz Steps Container */}
@@ -176,17 +182,19 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 transition={{ duration: 0.3 }}
                 className="flex flex-col gap-4"
               >
-                <h4 className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
+                <h4 id="question-1" className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
                   1. Di quale sport ti occupi principalmente?
                 </h4>
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid grid-cols-2 gap-3" role="radiogroup" aria-labelledby="question-1">
                   {['Calcio Femminile', 'Pallavolo', 'Basket', 'Altro Sport di Squadra'].map((sport) => (
                     <motion.button
                       key={sport}
+                      role="radio"
+                      aria-checked={formData.sport === sport}
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => handleSelectSport(sport)}
-                      className="py-4 px-3 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-center flex items-center justify-center min-h-[56px]"
+                      className="py-4 px-3 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-center flex items-center justify-center min-h-[56px] focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none"
                     >
                       {sport}
                     </motion.button>
@@ -206,10 +214,10 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 transition={{ duration: 0.3 }}
                 className="flex flex-col gap-4"
               >
-                <h4 className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
+                <h4 id="question-2" className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
                   2. Qual è la tua più grande preoccupazione riguardo alla crescita delle atlete?
                 </h4>
-                <div className="flex flex-col gap-2.5">
+                <div className="flex flex-col gap-2.5" role="radiogroup" aria-labelledby="question-2">
                   {[
                     { label: 'Il rischio di infortuni gravi (es. crociato LCA)', val: 'Infortuni LCA' },
                     { label: 'Il drop-out precoce (le ragazze che mollano lo sport tra i 12 e i 16 anni)', val: 'Drop-out' },
@@ -218,13 +226,15 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                   ].map((option) => (
                     <motion.button
                       key={option.val}
+                      role="radio"
+                      aria-checked={formData.concern === option.val}
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={() => handleSelectConcern(option.val)}
-                      className="w-full py-3 px-4 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-left flex justify-between items-center"
+                      className="w-full py-3 px-4 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-left flex justify-between items-center focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none"
                     >
                       <span>{option.label}</span>
-                      <span className="text-[#DAE69A] shrink-0 ml-2">✦</span>
+                      <span className="text-[#DAE69A] shrink-0 ml-2" aria-hidden="true">✦</span>
                     </motion.button>
                   ))}
                 </div>
@@ -242,23 +252,25 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 transition={{ duration: 0.3 }}
                 className="flex flex-col gap-4"
               >
-                <h4 className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
+                <h4 id="question-3" className="text-sm font-bold text-[#FAF9F6]/85 text-center mb-2">
                   3. BAB protegge la privacy delle atlete. Come preferisci che vengano gestiti i dati?
                 </h4>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-3" role="radiogroup" aria-labelledby="question-3">
                   {[
                     { label: 'Solo dati aggregati (Voglio vedere la stanchezza generale, non i dati personali)', val: 'Aggregati' },
                     { label: 'Solo alert di prevenzione infortuni (Solo chi rischia sovraccarichi)', val: 'Alert Prevenzione' }
                   ].map((option) => (
                     <motion.button
                       key={option.val}
+                      role="radio"
+                      aria-checked={formData.privacy === option.val}
                       whileHover={{ scale: 1.01 }}
                       whileTap={{ scale: 0.99 }}
                       onClick={() => handleSelectPrivacy(option.val)}
-                      className="w-full py-3.5 px-5 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-left flex justify-between items-center"
+                      className="w-full py-3.5 px-5 text-xs sm:text-sm font-bold bg-[#FAF9F6]/5 hover:bg-[#FAF9F6]/10 border border-[#FAF9F6]/10 hover:border-[#34BBC0]/40 rounded-xl transition-all text-left flex justify-between items-center focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none"
                     >
                       <span>{option.label}</span>
-                      <span className="text-[#DAE69A] shrink-0 ml-2">✦</span>
+                      <span className="text-[#DAE69A] shrink-0 ml-2" aria-hidden="true">✦</span>
                     </motion.button>
                   ))}
                 </div>
@@ -278,7 +290,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
               >
                 <div className="text-center mb-2">
                   <h4 className="text-sm font-bold text-[#FAF9F6]/85">
-                    4. Ricevi la guida pratica di BAB
+                    4. Ricevi la guida prima di tutti
                   </h4>
                   <p className="text-xs text-[#FAF9F6]/50 mt-1">
                     Riceverai l'anteprima gratuita su come evitare l'abbandono sportivo e proteggere le ginocchia delle atlete.
@@ -287,16 +299,18 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                 
                 <form onSubmit={handleSubmit} className="flex flex-col gap-3">
                   <div className="flex flex-col gap-1">
+                    <label htmlFor="user-email" className="sr-only">Indirizzo Email</label>
                     <input
+                      id="user-email"
                       type="email"
                       required
                       placeholder="Inserisci la tua email migliore..."
                       value={formData.email}
                       onChange={handleEmailChange}
-                      className="w-full p-4 bg-[#FAF9F6]/5 border border-[#FAF9F6]/10 focus:border-[#34BBC0]/50 outline-none rounded-xl text-sm transition-all text-center"
+                      className="w-full p-4 bg-[#FAF9F6]/5 border border-[#FAF9F6]/10 focus:border-[#34BBC0]/50 outline-none rounded-xl text-sm transition-all text-center focus-visible:ring-2 focus-visible:ring-[#34BBC0]"
                     />
                     {emailError && (
-                      <span className="text-xs text-red-400 text-center mt-1">
+                      <span className="text-xs text-red-400 text-center mt-1" role="alert">
                         {emailError}
                       </span>
                     )}
@@ -306,7 +320,7 @@ export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
                     type="submit"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    className="w-full py-4 px-6 text-sm font-bold bg-[#34BBC0] text-[#080C12] rounded-xl hover:bg-[#34BBC0]/95 transition-all text-center flex justify-center items-center gap-1"
+                    className="w-full py-4 px-6 text-sm font-bold bg-[#34BBC0] text-[#080C12] rounded-xl hover:bg-[#34BBC0]/95 transition-all text-center flex justify-center items-center gap-1 focus-visible:ring-2 focus-visible:ring-[#DAE69A] focus-visible:outline-none"
                   >
                     Ricevi la guida ✦
                   </motion.button>
