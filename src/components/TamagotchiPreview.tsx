@@ -1,224 +1,225 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
-export type TamagotchiState = 'active' | 'default' | 'down';
+type PetAction = 'NONE' | 'EAT' | 'PLAY' | 'SLEEP';
+type PetMood = 'HAPPY' | 'HUNGRY' | 'TIRED' | 'SICK';
 
 export const TamagotchiPreview: React.FC = () => {
-  const [state, setState] = useState<TamagotchiState>('default');
+  const [activeMenuIndex, setActiveMenuIndex] = useState<number>(0);
+  const [currentAction, setCurrentAction] = useState<PetAction>('NONE');
+  const [mood, setMood] = useState<PetMood>('HAPPY');
+  const [hearts, setHearts] = useState<number>(4);
+  const [xp, setXp] = useState<number>(100);
+  
+  const menuItems = [
+    { label: 'Cibo', icon: '🍗', action: 'EAT' as PetAction },
+    { label: 'Gioco', icon: '⚽', action: 'PLAY' as PetAction },
+    { label: 'Nanna', icon: '💤', action: 'SLEEP' as PetAction },
+  ];
+
+  // Auto mood degradation over time (simulated)
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setHearts(h => (h > 1 ? h - 1 : h));
+      setMood(m => {
+        if (m === 'HAPPY') return 'HUNGRY';
+        if (m === 'HUNGRY') return 'TIRED';
+        return 'SICK';
+      });
+    }, 15000);
+    return () => clearInterval(timer);
+  }, []);
+
+  // Button A: Cycle through menu
+  const pressButtonA = () => {
+    if (currentAction !== 'NONE') return;
+    setActiveMenuIndex(prev => (prev + 1) % menuItems.length);
+  };
+
+  // Button B: Confirm action
+  const pressButtonB = () => {
+    if (currentAction !== 'NONE') return;
+    
+    const selected = menuItems[activeMenuIndex];
+    setCurrentAction(selected.action);
+    
+    // Animate state change
+    setTimeout(() => {
+      setCurrentAction('NONE');
+      
+      // Update pet state based on action
+      if (selected.action === 'EAT') {
+        setHearts(4);
+        setMood('HAPPY');
+        setXp(x => x + 15);
+      } else if (selected.action === 'PLAY') {
+        setHearts(h => Math.min(4, h + 1));
+        setMood(m => m === 'HUNGRY' ? 'TIRED' : 'HAPPY');
+        setXp(x => x + 25);
+      } else if (selected.action === 'SLEEP') {
+        setHearts(4);
+        setMood('HAPPY');
+        setXp(x => x + 10);
+      }
+    }, 3000);
+  };
+
+  // Button C: Cancel / Reset
+  const pressButtonC = () => {
+    if (currentAction !== 'NONE') {
+      setCurrentAction('NONE');
+    } else {
+      // Diagnostic check reset
+      setMood('HAPPY');
+      setHearts(4);
+    }
+  };
+
+  // Determine pet sprite based on status and action
+  const getPetSprite = () => {
+    if (currentAction === 'EAT') return '😋🐥🍗';
+    if (currentAction === 'PLAY') return '🏃🐥⚽';
+    if (currentAction === 'SLEEP') return '💤😴💤';
+    
+    if (mood === 'HAPPY') return '🐥✨';
+    if (mood === 'HUNGRY') return '😭🐣';
+    if (mood === 'TIRED') return '🥱💤';
+    return '🤒💔';
+  };
 
   return (
-    <div className="w-full max-w-sm bg-white border-[3px] border-black rounded-[24px] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] text-[#0F0F12] overflow-hidden">
-      <div className="p-6 flex flex-col gap-6 items-center">
+    <div className="flex flex-col items-center gap-4">
+      {/* Physical Tamagotchi Toy Shell Wrapper */}
+      <div className="relative w-80 h-[450px] bg-gradient-to-br from-[#FF007F] via-[#FF007F] to-[#7B00FF] border-[5px] border-black rounded-[140px/180px] shadow-[10px_10px_0px_0px_rgba(15,15,18,0.95)] flex flex-col items-center justify-between p-7 overflow-hidden select-none">
         
-        {/* Widget Header */}
-        <div className="w-full flex justify-between items-center border-b-2 border-black pb-3">
-          <div>
-            <h4 className="font-serif font-black text-sm text-[#0F0F12]">
-              Stato dell'Atleta (Tamagotchi)
-            </h4>
-            <p className="text-[9px] text-neutral-500 uppercase tracking-widest font-black mt-0.5">
-              Dimostrazione App Atlete
-            </p>
-          </div>
-          <span className="px-2 py-0.5 rounded-lg bg-[#FFDE4D] border-2 border-black text-[9px] font-black text-black uppercase tracking-wider shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)]">
-            Live Demo
-          </span>
+        {/* Y2K Shell Decals (Retro stars and loops) */}
+        <div className="absolute top-8 left-10 text-white/30 text-2xl font-black">✦</div>
+        <div className="absolute top-12 right-12 text-[#FFDE4D]/40 text-3xl font-black">★</div>
+        <div className="absolute bottom-24 left-10 text-[#00F0FF]/30 text-3xl font-black">✦</div>
+        
+        {/* Keyring Loop at Top */}
+        <div className="absolute -top-1 w-10 h-10 border-[5px] border-black rounded-full bg-neutral-200 z-0" />
+        
+        {/* Brand Text Printed on Shell */}
+        <div className="text-[14px] font-black text-[#FFDE4D] tracking-widest uppercase font-serif mt-2 relative z-10 drop-shadow-[2px_2px_0px_rgba(0,0,0,1)]">
+          ★ BAB BUDDY ★
         </div>
 
-        {/* State Interactive Switcher */}
-        <div className="flex gap-2 p-1 bg-[#F6F4FF] border-2 border-black rounded-xl w-full">
-          {(['active', 'default', 'down'] as TamagotchiState[]).map((s) => (
-            <button
-              key={s}
-              onClick={() => setState(s)}
-              className={`flex-1 py-2 px-3 rounded-lg text-[10px] sm:text-xs font-black transition-all capitalize border-2 border-transparent cursor-pointer ${
-                state === s
-                  ? 'bg-[#34BBC0] text-black border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]'
-                  : 'text-neutral-500 hover:text-black'
-              }`}
-            >
-              {s === 'active' ? 'Peak (High)' : s === 'default' ? 'Base (Mid)' : 'Rest (Low)'}
-            </button>
-          ))}
-        </div>
-
-        {/* Avatar Display Area */}
-        <div className="relative w-48 h-48 flex items-center justify-center rounded-full bg-[#FFE3D1]/50 border-2 border-black overflow-hidden shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+        {/* LCD Screen Outer Bezel */}
+        <div className="w-[220px] h-[190px] bg-neutral-300 border-[4px] border-black rounded-[24px] p-3 flex items-center justify-center shadow-inner relative z-10">
           
-          {/* Radial Glow for Active State */}
-          {state === 'active' && (
-            <div className="absolute w-[120px] h-[120px] bg-[#FFDE4D] opacity-[0.25] rounded-full blur-[20px] pointer-events-none animate-pulse" />
-          )}
+          {/* LCD Screen Display (Monochrome Greenish Backlight Grid) */}
+          <div className="w-full h-full bg-[#8E9B79] border-[3px] border-black rounded-lg p-1.5 flex flex-col justify-between relative overflow-hidden font-mono text-[#0F0F12]">
+            
+            {/* Fine LCD grid scanline overlay */}
+            <div className="absolute inset-0 opacity-[0.08] pointer-events-none bg-[linear-gradient(rgba(0,0,0,1)_50%,transparent_50%)] bg-[length:100%_4px]" />
 
-          {/* Surrounding Recovery Ring */}
-          <div
-            className={`absolute inset-3 rounded-full border-2 border-black transition-all duration-500 flex items-center justify-center`}
-          >
-            {state === 'active' && <div className="w-full h-full bg-[#D1FFEF] rounded-full opacity-30" />}
+            {/* Top Status Bar (Menu Icons) */}
+            <div className="flex justify-between items-center border-b border-black/40 pb-1 text-xs">
+              {menuItems.map((item, idx) => (
+                <div 
+                  key={item.label}
+                  className={`px-1.5 py-0.5 rounded font-black flex items-center gap-0.5 transition-all ${
+                    activeMenuIndex === idx && currentAction === 'NONE'
+                      ? 'bg-black text-[#8E9B79]' 
+                      : ''
+                  }`}
+                >
+                  <span className="text-sm">{item.icon}</span>
+                  <span className="text-[8px] font-black tracking-tighter uppercase">{item.label}</span>
+                </div>
+              ))}
+            </div>
+
+            {/* Screen Inner Display Area */}
+            <div className="flex-1 flex flex-col items-center justify-center relative">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={getPetSprite()}
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  exit={{ scale: 0.8, opacity: 0 }}
+                  transition={{ type: 'spring', stiffness: 200, damping: 15 }}
+                  className="text-4xl flex flex-col items-center gap-1"
+                >
+                  {/* Sprite rendering */}
+                  <span className="filter drop-shadow-md tracking-wider">
+                    {getPetSprite()}
+                  </span>
+                  
+                  {/* Status Indicator text on LCD */}
+                  <span className="text-[8px] font-black uppercase tracking-widest mt-1 bg-black/10 px-1">
+                    {currentAction !== 'NONE' ? `${currentAction}...` : `MOOD: ${mood}`}
+                  </span>
+                </motion.div>
+              </AnimatePresence>
+            </div>
+
+            {/* Bottom LCD Dashboard (Hearts & XP) */}
+            <div className="flex justify-between items-center border-t border-black/40 pt-1 text-[8px] font-black uppercase">
+              {/* Hearts representation */}
+              <div className="flex gap-0.5">
+                {[1, 2, 3, 4].map(h => (
+                  <span key={h} className="text-[10px]">
+                    {h <= hearts ? '❤️' : '🖤'}
+                  </span>
+                ))}
+              </div>
+              
+              {/* XP display */}
+              <span>XP: {xp}</span>
+            </div>
+            
           </div>
-
-          {/* Floating Stars / Particles for Active State */}
-          {state === 'active' && (
-            <>
-              <motion.span
-                animate={{ y: [0, -10, 0], opacity: [0.6, 1, 0.6] }}
-                transition={{ duration: 1.5, repeat: Infinity, delay: 0 }}
-                className="absolute top-8 left-12 text-[#FFDE4D] text-xs font-black drop-shadow"
-              >
-                ✦
-              </motion.span>
-              <motion.span
-                animate={{ y: [0, -8, 0], opacity: [0.4, 0.8, 0.4] }}
-                transition={{ duration: 1.8, repeat: Infinity, delay: 0.5 }}
-                className="absolute top-12 right-12 text-[#34BBC0] text-sm font-black drop-shadow"
-              >
-                ✦
-              </motion.span>
-              <motion.span
-                animate={{ y: [0, -12, 0], opacity: [0.5, 0.9, 0.5] }}
-                transition={{ duration: 2, repeat: Infinity, delay: 0.2 }}
-                className="absolute bottom-12 left-16 text-[#34BBC0] text-xs font-black drop-shadow"
-              >
-                ✦
-              </motion.span>
-            </>
-          )}
-
-          {/* Zzz Speech Bubble for Down State */}
-          {state === 'down' && (
-            <motion.div
-              animate={{ scale: [0.9, 1.05, 0.9], y: [0, -3, 0] }}
-              transition={{ duration: 3, repeat: Infinity }}
-              className="absolute top-6 right-8 bg-white border-2 border-black px-2 py-0.5 rounded-lg text-[9px] font-black text-[#0F0F12] shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
-            >
-              Zzz...
-            </motion.div>
-          )}
-
-          {/* Tamagotchi Pixel Character */}
-          <motion.div
-            animate={
-              state === 'active'
-                ? { y: [0, -10, 0] }
-                : state === 'default'
-                ? { y: [0, -3, 0] }
-                : { scaleY: [0.98, 1, 0.98] }
-            }
-            transition={
-              state === 'active'
-                ? { duration: 0.6, repeat: Infinity, ease: 'easeOut' }
-                : state === 'default'
-                ? { duration: 2, repeat: Infinity, ease: 'easeInOut' }
-                : { duration: 3, repeat: Infinity, ease: 'easeInOut' }
-            }
-            className={`w-20 h-20 flex flex-col items-center justify-center relative transition-all duration-500 ${
-              state === 'down' ? 'opacity-75 desaturate-25' : ''
-            }`}
-          >
-            {/* SVG Tamagotchi Render */}
-            <svg viewBox="0 0 100 100" className="w-full h-full">
-              {/* Blanket outline for down state */}
-              {state === 'down' && (
-                <path
-                  d="M15 65 C 15 45, 85 45, 85 65 L 85 85 L 15 85 Z"
-                  fill="#EBE5FF"
-                  stroke="#0F0F12"
-                  strokeWidth="2.5"
-                  strokeDasharray="4 4"
-                />
-              )}
-
-              {/* Main Character Body (Retro style rounded bean) */}
-              <rect
-                x="25"
-                y="30"
-                width="50"
-                height="45"
-                rx="20"
-                fill={state === 'down' ? '#EBE5FF' : '#FFDE4D'}
-                stroke="#0F0F12"
-                strokeWidth="3.5"
-              />
-
-              {/* Hands */}
-              {state === 'active' ? (
-                <>
-                  {/* Hands Raised */}
-                  <line x1="20" y1="35" x2="10" y2="20" stroke="#0F0F12" strokeWidth="4.5" strokeLinecap="round" />
-                  <line x1="80" y1="35" x2="90" y2="20" stroke="#0F0F12" strokeWidth="4.5" strokeLinecap="round" />
-                </>
-              ) : state === 'default' ? (
-                <>
-                  {/* Hands Neutral */}
-                  <line x1="20" y1="55" x2="12" y2="55" stroke="#0F0F12" strokeWidth="4.5" strokeLinecap="round" />
-                  <line x1="80" y1="55" x2="88" y2="55" stroke="#0F0F12" strokeWidth="4.5" strokeLinecap="round" />
-                </>
-              ) : null}
-
-              {/* Eyes */}
-              {state === 'active' && (
-                <>
-                  {/* Sparkling Diamond Eyes */}
-                  <polygon points="35,42 40,47 35,52 30,47" fill="#34BBC0" stroke="#0F0F12" strokeWidth="1" />
-                  <polygon points="65,42 70,47 65,52 60,47" fill="#34BBC0" stroke="#0F0F12" strokeWidth="1" />
-                </>
-              )}
-              {state === 'default' && (
-                <>
-                  {/* Simple round eyes */}
-                  <circle cx="38" cy="48" r="4.5" fill="#0F0F12" />
-                  <circle cx="62" cy="48" r="4.5" fill="#0F0F12" />
-                </>
-              )}
-              {state === 'down' && (
-                <>
-                  {/* Curved sleeping eyes (u u) */}
-                  <path d="M 33 46 Q 38 52 43 46" fill="none" stroke="#0F0F12" strokeWidth="3" strokeLinecap="round" />
-                  <path d="M 57 46 Q 62 52 67 46" fill="none" stroke="#0F0F12" strokeWidth="3" strokeLinecap="round" />
-                </>
-              )}
-
-              {/* Mouth */}
-              {state === 'active' && (
-                <path d="M 43 57 Q 50 67 57 57 Z" fill="#FFE3D1" stroke="#0F0F12" strokeWidth="2.5" />
-              )}
-              {state === 'default' && (
-                <line x1="45" y1="58" x2="55" y2="58" stroke="#0F0F12" strokeWidth="4" strokeLinecap="round" />
-              )}
-              {state === 'down' && (
-                <path d="M 46 58 Q 50 55 54 58" fill="none" stroke="#0F0F12" strokeWidth="2.5" strokeLinecap="round" />
-              )}
-            </svg>
-          </motion.div>
         </div>
 
-        {/* Status Indicators Footer */}
-        <div className="w-full flex justify-between items-center text-xs">
-          <span className="text-neutral-500 font-bold">Stato Prevenzione:</span>
-          {state === 'active' && (
-            <span className="font-black text-[#34BBC0] flex items-center gap-1">
-              ✦ Peak Performance (95%)
-            </span>
-          )}
-          {state === 'default' && (
-            <span className="font-black text-amber-500 flex items-center gap-1">
-              ✦ Baseline Stabile (75%)
-            </span>
-          )}
-          {state === 'down' && (
-            <span className="font-black text-rose-500 flex items-center gap-1">
-              ● Piano B Attivo (45%)
-            </span>
-          )}
+        {/* Brand Liquid Label */}
+        <div className="text-[10px] text-white/80 font-black tracking-widest uppercase mt-1">
+          ✦ 1997 CLASSIC EDITION ✦
         </div>
 
-        {/* Down state context helper */}
-        {state === 'down' && (
-          <div className="text-[10px] text-neutral-600 text-center font-bold leading-relaxed bg-[#EBE5FF] p-3 rounded-xl border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-            "Oggi il tuo corpo sta usando energia extra. Consigliato scarico precauzionale. Stretching (10 min) per +50 XP."
+        {/* Tamagotchi Physical Action Buttons Row */}
+        <div className="flex justify-between w-[200px] px-3 pb-2 mt-2 relative z-10">
+          
+          {/* Button A (Left) */}
+          <div className="flex flex-col items-center gap-1">
+            <button
+              onClick={pressButtonA}
+              className="w-10 h-10 rounded-full bg-[#00F0FF] border-[3px] border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer transition-all focus:outline-none"
+              aria-label="Tasto A: Seleziona"
+            />
+            <span className="text-[9px] font-black text-white uppercase tracking-wider drop-shadow-md">A</span>
           </div>
-        )}
-        
+
+          {/* Button B (Center) */}
+          <div className="flex flex-col items-center gap-1 -translate-y-1">
+            <button
+              onClick={pressButtonB}
+              className="w-11 h-11 rounded-full bg-[#FFDE4D] border-[3px] border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer transition-all focus:outline-none"
+              aria-label="Tasto B: Conferma"
+            />
+            <span className="text-[9px] font-black text-white uppercase tracking-wider drop-shadow-md">B</span>
+          </div>
+
+          {/* Button C (Right) */}
+          <div className="flex flex-col items-center gap-1">
+            <button
+              onClick={pressButtonC}
+              className="w-10 h-10 rounded-full bg-[#39FF14] border-[3px] border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none cursor-pointer transition-all focus:outline-none"
+              aria-label="Tasto C: Indietro"
+            />
+            <span className="text-[9px] font-black text-white uppercase tracking-wider drop-shadow-md">C</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      {/* Under-toy instructions */}
+      <div className="text-center font-bold text-xs text-neutral-500 max-w-xs leading-relaxed">
+        <p>
+          Clicca su <strong className="text-black">A</strong> per scorrere il menu LCD superiore, su <strong className="text-black">B</strong> per confermare l'azione ed accudire il tuo Buddy, e su <strong className="text-black">C</strong> per annullare/resettare.
+        </p>
       </div>
     </div>
   );
