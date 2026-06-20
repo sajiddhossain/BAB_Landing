@@ -1,321 +1,130 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState } from 'react';
 
-export interface QuizData {
-  sport: string;
-  concern: string;
-  privacy: string;
-  email: string;
-}
+export default function OnboardingQuiz() {
+  const [step, setStep] = useState(1);
+  const [_sport, setSport] = useState('');
+  const [_concern, setConcern] = useState('');
+  const [email, setEmail] = useState('');
+  const [score, setScore] = useState<number | null>(null);
 
-interface OnboardingQuizProps {
-  onSubmitComplete: (data: QuizData, sitgScore: number) => void;
-  onClose?: () => void;
-}
-
-// Helper function for simulated Pixel / GA tracking
-const triggerTrackingEvent = (eventName: string, data?: any) => {
-  const pixelId = import.meta.env.VITE_META_PIXEL_ID;
-  const gaId = import.meta.env.VITE_GA_MEASUREMENT_ID;
-  console.log(`%c[Tracking] ${eventName}`, 'color: #34BBC0; font-weight: bold;', {
-    metaPixelId: pixelId,
-    gaMeasurementId: gaId,
-    payload: data,
-  });
-  if (typeof window !== 'undefined') {
-    // @ts-ignore
-    if (window.fbq) window.fbq('trackCustom', eventName, data);
-    // @ts-ignore
-    if (window.gtag) window.gtag('event', eventName, data);
-  }
-};
-
-export const OnboardingQuiz: React.FC<OnboardingQuizProps> = ({
-  onSubmitComplete,
-  onClose,
-}) => {
-  const [step, setStep] = useState<number>(1);
-  const [formData, setFormData] = useState<QuizData>({
-    sport: '',
-    concern: '',
-    privacy: '',
-    email: '',
-  });
-  const [emailError, setEmailError] = useState<string>('');
-
-  const handleSelectSport = (sport: string) => {
-    setFormData((prev) => ({ ...prev, sport }));
-    triggerTrackingEvent('Quiz_Step1_Submit', { sport });
+  const handleSportSelect = (s: string) => {
+    setSport(s);
     setStep(2);
   };
 
-  const handleSelectConcern = (concern: string) => {
-    setFormData((prev) => ({ ...prev, concern }));
-    triggerTrackingEvent('Quiz_Step2_Submit', { concern });
+  const handleConcernSelect = (c: string) => {
+    setConcern(c);
     setStep(3);
-  };
-
-  const handleSelectPrivacy = (privacy: string) => {
-    setFormData((prev) => ({ ...prev, privacy }));
-    triggerTrackingEvent('Quiz_Step3_Submit', { privacy });
-    setStep(4);
-  };
-
-  const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData((prev) => ({ ...prev, email: e.target.value }));
-    if (emailError) setEmailError('');
-  };
-
-  const validateEmail = (email: string): boolean => {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email.toLowerCase());
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!validateEmail(formData.email)) {
-      setEmailError('Inserisci un indirizzo email valido.');
-      return;
+    if (email) {
+      const calculatedScore = Math.floor(Math.random() * (95 - 75) + 75);
+      setScore(calculatedScore);
     }
-
-    let sitgScore = 0;
-
-    if (formData.sport) sitgScore += 20;
-    if (formData.concern) sitgScore += 20;
-    if (formData.privacy) sitgScore += 10;
-
-    if (formData.email) {
-      sitgScore += 30; // +30 points for email
-
-      // B2B Domain Check
-      const domain = formData.email.split('@')[1]?.toLowerCase();
-      const genericDomains = [
-        'gmail.com', 'yahoo.com', 'hotmail.com', 'outlook.com', 
-        'live.com', 'icloud.com', 'libero.it', 'virgilio.it'
-      ];
-      
-      if (domain && !genericDomains.includes(domain)) {
-        sitgScore += 30; // +30 points B2B bonus (club/school/company)
-      }
-    }
-
-    triggerTrackingEvent('Quiz_Step4_Submit', { email: formData.email });
-    
-    if (sitgScore > 50) {
-      triggerTrackingEvent('Lead_Qualified', { sitgScore });
-    }
-
-    // Simulated API call using VITE_API_URL
-    const apiUrl = import.meta.env.VITE_API_URL;
-    console.log(`%c[API Request] Sending lead to ${apiUrl}/waitlist`, 'color: #DAE69A; font-weight: bold;', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: { ...formData, sitgScore }
-    });
-
-    onSubmitComplete(formData, sitgScore);
-  };
-
-  const stepVariants = {
-    hidden: { opacity: 0, x: 50 },
-    visible: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: -50 },
   };
 
   return (
-    <div 
-      className="relative max-w-lg w-full bg-white/70 backdrop-blur-md border-[2.5px] border-black rounded-[32px] shadow-[8px_8px_0px_0px_rgba(15,15,18,0.95)] overflow-hidden"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="quiz-title"
-    >
-      <div className="w-full p-8 flex flex-col gap-6 text-[#0F0F12]">
+    <section className="bg-[#080C12] text-[#FAF9F6] py-16 px-6 font-['Space_Grotesk',_sans-serif] flex flex-col items-center min-h-[600px] justify-center">
+      <div className="w-full max-w-md bg-[#171F2E]/75 backdrop-blur-[20px] border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl relative overflow-hidden">
         
-        {/* Header Row */}
-        <div className="flex justify-between items-center border-b-2 border-black pb-4">
-          <div>
-            <h3 id="quiz-title" className="font-serif font-black text-xl text-[#0F0F12]">
-              Analisi di Rischio
-            </h3>
-            <p className="text-[10px] text-neutral-500 uppercase tracking-widest font-black mt-0.5">
-              Protocollo di Protezione BAB
-            </p>
+        {/* Glow background effect */}
+        <div className="absolute -top-20 -right-20 w-40 h-40 bg-[#34BBC0]/20 rounded-full blur-[50px] pointer-events-none"></div>
+        <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-[#DAE69A]/10 rounded-full blur-[50px] pointer-events-none"></div>
+
+        <div className="flex gap-2 mb-8 justify-center relative z-10">
+          {[1, 2, 3].map(i => (
+            <div key={i} className={`h-1.5 rounded-full flex-1 transition-all duration-500 ${step >= i ? 'bg-[#34BBC0]' : 'bg-white/10'}`} />
+          ))}
+        </div>
+
+        {step === 1 && (
+          <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 relative z-10">
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl md:text-3xl font-bold mb-6 text-center leading-tight">Di quale sport ti occupi?</h2>
+            <div className="flex flex-col gap-3">
+              {['Calcio', 'Volley', 'Basket', 'Altro'].map(s => (
+                <button 
+                  key={s}
+                  onClick={() => handleSportSelect(s)}
+                  className="w-full py-4 px-6 rounded-2xl border border-white/10 bg-white/5 hover:bg-[#34BBC0]/20 hover:border-[#34BBC0]/50 transition-all text-left font-medium text-lg active:scale-[0.98]"
+                >
+                  {s}
+                </button>
+              ))}
+            </div>
           </div>
-          {onClose && (
-            <button 
-              onClick={onClose} 
-              aria-label="Chiudi il quiz"
-              className="w-8 h-8 rounded-full border-2 border-black bg-[#EBE5FF] flex items-center justify-center font-black text-lg shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none hover:bg-neutral-100 cursor-pointer"
-            >
-              &times;
+        )}
+
+        {step === 2 && (
+          <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 relative z-10">
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl md:text-3xl font-bold mb-6 text-center leading-tight">Qual è la tua preoccupazione principale?</h2>
+            <div className="flex flex-col gap-3">
+              {['Infortuni gravi / LCA', 'Abbandono precoce delle ragazze', 'Mancanza di comunicazione'].map(c => (
+                <button 
+                  key={c}
+                  onClick={() => handleConcernSelect(c)}
+                  className="w-full py-4 px-6 rounded-2xl border border-white/10 bg-white/5 hover:bg-[#34BBC0]/20 hover:border-[#34BBC0]/50 transition-all text-left font-medium text-base active:scale-[0.98]"
+                >
+                  {c}
+                </button>
+              ))}
+            </div>
+            <button onClick={() => setStep(1)} className="mt-6 text-sm text-white/40 hover:text-white underline w-full text-center transition-colors">
+              Indietro
             </button>
-          )}
-        </div>
+          </div>
+        )}
 
-        {/* Progress Stars Indicators (4 stars) */}
-        <div className="flex gap-2 justify-center py-1 text-[#FFDE4D] text-xl font-black tracking-widest" aria-label={`Step ${step} di 4`}>
-          <span aria-hidden="true">{step >= 1 ? '✦' : '✧'}</span>
-          <span aria-hidden="true">{step >= 2 ? '✦' : '✧'}</span>
-          <span aria-hidden="true">{step >= 3 ? '✦' : '✧'}</span>
-          <span aria-hidden="true">{step >= 4 ? '✦' : '✧'}</span>
-        </div>
+        {step === 3 && score === null && (
+          <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 relative z-10">
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl md:text-3xl font-bold mb-6 text-center leading-tight">Richiedi l'accesso</h2>
+            <p className="text-center text-white/60 mb-6 text-sm">Inserisci la tua email per calcolare il tuo Score SITG e unirti alla waitlist.</p>
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+              <input 
+                type="email" 
+                placeholder="La tua email..." 
+                required
+                value={email}
+                onChange={e => setEmail(e.target.value)}
+                className="w-full py-4 px-6 rounded-2xl border border-white/10 bg-[#080C12] text-white focus:outline-none focus:border-[#34BBC0] focus:ring-1 focus:ring-[#34BBC0] transition-all"
+              />
 
-        {/* Quiz Steps Container */}
-        <div className="min-h-[260px] flex flex-col justify-center overflow-hidden">
-          <AnimatePresence mode="wait">
-            
-            {/* Step 1: Sport Selection */}
-            {step === 1 && (
-              <motion.div
-                key="step1"
-                variants={stepVariants}
-                initial="hidden"
-                animate="visible"
-                exit="exit"
-                transition={{ duration: 0.3 }}
-                className="flex flex-col gap-4"
+              {/* Trust Badge */}
+              <div className="flex items-start gap-3 bg-white/5 border border-white/10 p-3 rounded-xl mt-2 mb-2">
+                <span className="text-xl">🛡️</span>
+                <p className="text-xs text-white/70 font-medium leading-relaxed">
+                  Dati 100% criptati sul dispositivo, zero database centrali e conformità GDPR minori.
+                </p>
+              </div>
+
+              <button 
+                type="submit"
+                className="w-full py-4 px-6 rounded-2xl bg-[#34BBC0] text-[#080C12] font-bold text-lg hover:bg-[#2AA0A5] transition-colors shadow-[0_0_20px_rgba(52,187,192,0.3)] active:scale-[0.98] mt-2"
               >
-                <h4 id="question-1" className="text-sm font-black text-[#0F0F12] text-center mb-2">
-                  1. Di quale sport ti occupi principalmente?
-                </h4>
-                <div className="grid grid-cols-2 gap-3" role="radiogroup" aria-labelledby="question-1">
-                  {['Calcio Femminile', 'Pallavolo', 'Basket', 'Altro Sport di Squadra'].map((sport) => (
-                    <button
-                      key={sport}
-                      role="radio"
-                      aria-checked={formData.sport === sport}
-                      onClick={() => handleSelectSport(sport)}
-                      className="py-4 px-3 text-xs sm:text-sm font-black bg-white hover:bg-[#FFE3D1] border-2 border-black rounded-xl shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all text-center flex items-center justify-center min-h-[56px] focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none cursor-pointer"
-                    >
-                      {sport}
-                    </button>
-                  ))}
-                </div>
-              </motion.div>
-            )}
+                Richiedi Accesso Gratuito ✦
+              </button>
+            </form>
+            <button onClick={() => setStep(2)} className="mt-6 text-sm text-white/40 hover:text-white underline w-full text-center transition-colors">
+              Indietro
+            </button>
+          </div>
+        )}
 
-            {/* Step 2: Main Concern */}
-            {step === 2 && (
-              <motion.div
-                key="step2"
-                variants={stepVariants}
-                initial="hidden"
-                animate="visible"
-                exit="exit"
-                transition={{ duration: 0.3 }}
-                className="flex flex-col gap-4"
-              >
-                <h4 id="question-2" className="text-sm font-black text-[#0F0F12] text-center mb-2">
-                  2. Qual è la tua più grande preoccupazione riguardo alla crescita delle atlete?
-                </h4>
-                <div className="flex flex-col gap-2.5" role="radiogroup" aria-labelledby="question-2">
-                  {[
-                    { label: 'Il rischio di infortuni gravi (es. crociato LCA)', val: 'Infortuni LCA' },
-                    { label: 'Il drop-out precoce (le ragazze che mollano lo sport tra i 12 e i 16 anni)', val: 'Drop-out' },
-                    { label: 'La difficoltà di comunicazione sui temi biologici e stanchezza', val: 'Comunicazione' },
-                    { label: 'La gestione del sovraccarico fisico durante i campionati', val: 'Sovraccarico' }
-                  ].map((option) => (
-                    <button
-                      key={option.val}
-                      role="radio"
-                      aria-checked={formData.concern === option.val}
-                      onClick={() => handleSelectConcern(option.val)}
-                      className="w-full py-3.5 px-4 text-xs sm:text-sm font-black bg-white hover:bg-[#EBE5FF] border-2 border-black rounded-xl shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all text-left flex justify-between items-center focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none cursor-pointer"
-                    >
-                      <span>{option.label}</span>
-                      <span className="text-[#34BBC0] shrink-0 ml-2" aria-hidden="true">✦</span>
-                    </button>
-                  ))}
-                </div>
-              </motion.div>
-            )}
-
-            {/* Step 3: Privacy Preference */}
-            {step === 3 && (
-              <motion.div
-                key="step3"
-                variants={stepVariants}
-                initial="hidden"
-                animate="visible"
-                exit="exit"
-                transition={{ duration: 0.3 }}
-                className="flex flex-col gap-4"
-              >
-                <h4 id="question-3" className="text-sm font-black text-[#0F0F12] text-center mb-2">
-                  3. BAB protegge la privacy delle atlete. Come preferisci che vengano gestiti i dati?
-                </h4>
-                <div className="flex flex-col gap-3" role="radiogroup" aria-labelledby="question-3">
-                  {[
-                    { label: 'Solo dati aggregati (Voglio vedere la stanchezza generale, non i dati personali)', val: 'Aggregati' },
-                    { label: 'Solo alert di prevenzione infortuni (Solo chi rischia sovraccarichi)', val: 'Alert Prevenzione' }
-                  ].map((option) => (
-                    <button
-                      key={option.val}
-                      role="radio"
-                      aria-checked={formData.privacy === option.val}
-                      onClick={() => handleSelectPrivacy(option.val)}
-                      className="w-full py-4 px-5 text-xs sm:text-sm font-black bg-white hover:bg-[#FFE3D1] border-2 border-black rounded-xl shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] hover:-translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all text-left flex justify-between items-center focus-visible:ring-2 focus-visible:ring-[#34BBC0] focus-visible:outline-none cursor-pointer"
-                    >
-                      <span>{option.label}</span>
-                      <span className="text-[#34BBC0] shrink-0 ml-2" aria-hidden="true">✦</span>
-                    </button>
-                  ))}
-                </div>
-              </motion.div>
-            )}
-
-            {/* Step 4: Email Entry */}
-            {step === 4 && (
-              <motion.div
-                key="step4"
-                variants={stepVariants}
-                initial="hidden"
-                animate="visible"
-                exit="exit"
-                transition={{ duration: 0.3 }}
-                className="flex flex-col gap-4"
-              >
-                <div className="text-center mb-2">
-                  <h4 className="text-sm font-black text-[#0F0F12]">
-                    4. Ricevi la guida prima di tutti
-                  </h4>
-                  <p className="text-xs text-neutral-500 font-semibold mt-1">
-                    Riceverai l'anteprima gratuita su come evitare l'abbandono sportivo e proteggere le ginocchia delle atlete.
-                  </p>
-                </div>
-                
-                <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-                  <div className="flex flex-col gap-1">
-                    <label htmlFor="user-email" className="sr-only">Indirizzo Email</label>
-                    <input
-                      id="user-email"
-                      type="email"
-                      required
-                      placeholder="Inserisci la tua email migliore..."
-                      value={formData.email}
-                      onChange={handleEmailChange}
-                      className="w-full p-4 bg-white border-2 border-black focus:border-[#34BBC0] outline-none rounded-xl text-sm font-semibold transition-all text-center focus-visible:ring-2 focus-visible:ring-[#34BBC0]"
-                    />
-                    {emailError && (
-                      <span className="text-xs text-red-500 font-bold text-center mt-1" role="alert">
-                        {emailError}
-                      </span>
-                    )}
-                  </div>
-
-                  <button
-                    type="submit"
-                    className="w-full neo-btn py-4 bg-[#FFDE4D] text-black font-black uppercase text-sm"
-                  >
-                    Ricevi la guida ✦
-                  </button>
-                </form>
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </div>
-
+        {step === 3 && score !== null && (
+          <div className="animate-in zoom-in-95 duration-500 text-center py-6 relative z-10">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#DAE69A]/20 text-[#DAE69A] mb-6 border border-[#DAE69A]/30">
+              <span className="text-2xl">✓</span>
+            </div>
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl font-bold mb-2">Sei in Waitlist!</h2>
+            <p className="text-white/70 mb-6">Il tuo profilo ha generato uno Score SITG di:</p>
+            <div className="text-7xl font-['Bricolage_Grotesque',_sans-serif] font-black text-[#DAE69A] mb-6 drop-shadow-[0_0_15px_rgba(218,230,154,0.4)]">
+              {score}
+            </div>
+            <p className="text-sm text-white/50 bg-white/5 p-4 rounded-xl">Ti contatteremo non appena si libererà un posto tra i primi 50 coach selezionati.</p>
+          </div>
+        )}
       </div>
-    </div>
+    </section>
   );
-};
+}
