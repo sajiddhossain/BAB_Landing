@@ -106,13 +106,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             >
                <button 
                  onClick={() => setHeroTarget('allenatore')}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent ${heroTarget === 'allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-gray-100'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-transform border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-gray-100'}`}
                >
                  {t('home.coachBtn')}
                </button>
                <button 
                  onClick={() => setHeroTarget('genitore')}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent ${heroTarget === 'genitore' ? 'bg-[#34BBC0] text-white border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.2)]' : 'hover:bg-gray-100'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-transform border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'genitore' ? 'bg-[#34BBC0] text-white border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.2)]' : 'hover:bg-gray-100'}`}
                >
                  {t('home.parentBtn')}
                </button>
@@ -187,11 +187,31 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         </div>
       </section>
 
+      {/* MARQUEE SPORTIVO */}
+      <div className="w-full bg-[#DAE993] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]">
+        <motion.div 
+          animate={{ x: ["0%", "-50%"] }} 
+          transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
+          className="flex whitespace-nowrap w-max"
+        >
+          {[...Array(8)].map((_, i) => (
+            <span key={i} className="font-['Space_Grotesk',_sans-serif] font-black text-xl sm:text-2xl text-black uppercase tracking-widest shrink-0 px-8">
+              /// BREAK BARRIERS /// PERFORMANCE x SALUTE /// REACH YOUR PERSONAL BEST
+            </span>
+          ))}
+        </motion.div>
+      </div>
+
       {/* 2. BIVIO SCELTA (IL MODELLO FINANZ) */}
       <section className="w-full max-w-5xl px-4 py-16 mx-auto mb-16 relative text-[#0F0F12]">
-        <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black text-center uppercase mb-16 relative z-10 tracking-tighter">
-          <span className="bg-white border-[3px] border-black px-6 py-2 shadow-[6px_6px_0_0_#0F0F12] inline-block -rotate-1 text-[#0F0F12]">{t('home.costBadge')}</span>
-        </h2>
+        <div className="flex justify-center mb-16 relative z-10">
+          <div className="relative inline-block -rotate-1 hover:rotate-0 transition-transform">
+            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxyZWN0IHdpZHRoPSI0IiBoZWlnaHQ9IjQiIGZpbGw9IiMwMCIvPjxyZWN0IHg9IjQiIHk9IjQiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiIGZpbGw9IiMwMCIvPjwvc3ZnPg==')] -m-2 shadow-[6px_6px_0_0_#0F0F12] border-[3px] border-black"></div>
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black text-center uppercase tracking-tighter bg-white border-[3px] border-black px-6 py-2 relative text-[#0F0F12] m-0">
+              {t('home.costBadge')}
+            </h2>
+          </div>
+        </div>
         
         {/* Doodle connector between cards */}
         <svg className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 text-black opacity-30 z-0 hidden sm:block" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">

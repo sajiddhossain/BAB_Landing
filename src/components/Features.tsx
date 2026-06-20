@@ -51,8 +51,13 @@ export default function Features() {
                  <div className={`washi-tape ${tapes[idx]} w-24 -top-3 left-1/2 -translate-x-1/2`}></div>
                  
                  <div className="flex flex-col sm:flex-row gap-6 items-start w-full">
-                   <div className="font-['Bricolage_Grotesque',_sans-serif] text-7xl sm:text-8xl font-black shrink-0 leading-none text-white" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>
-                     {m.num}
+                   <div className="bg-white border-[3px] border-black px-6 py-4 flex flex-col items-center justify-center shrink-0 shadow-[4px_4px_0_0_#0F0F12] relative -rotate-2 hover:rotate-0 transition-transform">
+                     <div className="absolute top-2 left-2 w-2 h-2 rounded-full border-[2px] border-black bg-neutral-200"></div>
+                     <div className="absolute top-2 right-2 w-2 h-2 rounded-full border-[2px] border-black bg-neutral-200"></div>
+                     <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none text-[#0F0F12] tracking-tighter">
+                       {m.num}
+                     </span>
+                     <span className="text-[10px] font-black uppercase tracking-widest border-t-[2px] border-black mt-2 pt-1 w-full text-center">BAB ATHLETE</span>
                    </div>
                    <div className="mt-2 w-full">
                      <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl font-black mb-4 uppercase text-[#0F0F12] tracking-tight">{m.title}</h3>
@@ -61,8 +66,13 @@ export default function Features() {
                  </div>
 
                  {m.hasWidget && (
-                   <div className="bg-white border-[4px] border-black p-6 flex flex-col items-center gap-6 shadow-[inset_6px_6px_0_rgba(0,0,0,0.1)] w-full mt-4 rotate-1">
-                      <div className="text-6xl sm:text-8xl font-['Space_Grotesk',_sans-serif] text-black font-black mb-4 tracking-tighter">
+                   <div className="bg-white border-[4px] border-black p-6 flex flex-col items-center gap-6 shadow-[inset_6px_6px_0_rgba(0,0,0,0.1)] w-full mt-4 rotate-1 relative overflow-hidden">
+                      {/* Telemetry Micro-Data */}
+                      <div className="absolute top-3 left-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-[#DAE993] border-[2px] border-black px-1.5 py-0.5">BPM: 142</div>
+                      <div className="absolute top-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-[#34BBC0] text-white border-[2px] border-black px-1.5 py-0.5">ZONA 4</div>
+                      <div className="absolute bottom-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] border-b-[2px] border-black opacity-50">HRV: OK</div>
+                      
+                      <div className="text-6xl sm:text-8xl font-['Space_Grotesk',_sans-serif] text-black font-black mb-4 tracking-tighter z-10 mt-6 sm:mt-4">
                         {tamagotchiState === 'active' ? '[ °_° ]✨' : tamagotchiState === 'down' ? '[ =_= ]💤' : '[ °_° ]'}
                       </div>
                       <div className="flex gap-4">
