@@ -1,3 +1,12 @@
+/**
+ * @file      App.tsx
+ * @summary   Routing Principale e Layout per BAB (Breaking All Barriers)
+ * @author    Sajid Hossain <sajid.hossain2009@gmail.com>
+ * @copyright (c) 2026 Breaking All Barriers. Tutti i diritti riservati.
+ * @notice    Questo codice è di proprietà intellettuale dell'autore. 
+ *            L'utilizzo, la modifica o la distribuzione non autorizzata 
+ *            sono severamente vietati in assenza di accordi contrattuali scritti.
+ */
 import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -13,6 +22,14 @@ export default function App() {
   const [currentPath, setCurrentPath] = useState<string>(window.location.hash || '#/');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
+
+  // Easter Egg Signature
+  useEffect(() => {
+    console.log(
+      "%c✦ BAB Architecture designed & coded by Sajid Hossain (2026) ✦",
+      "color: #34BBC0; font-family: monospace; font-size: 12px; font-weight: bold; background: #080C12; padding: 4px 8px; border: 1px solid #DAE69A;"
+    );
+  }, []);
 
   // Sync hash routing
   useEffect(() => {

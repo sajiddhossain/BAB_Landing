@@ -1,0 +1,10 @@
+/* TEAM */
+Head of Creative & Lead Developer: Sajid Hossain
+Site: github.com/sajiddhossain
+
+/* THANKS */
+Selected at Techstars Startup Weekend AI Lecco (June 2026)
+
+/* SITE TECHNICAL SPECIFICATIONS */
+Standards: HTML5, CSS3
+Components: React, TypeScript, Tailwind CSS
