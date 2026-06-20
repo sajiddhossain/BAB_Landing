@@ -71,10 +71,10 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#FFDE4D] selection:text-[#0F0F12] font-['Space_Grotesk',_sans-serif] y2k-grid relative">
+    <div className="min-h-screen bg-gradient-to-br from-[#04090F] via-[#091F3E] to-[#00494D] text-[#F7F7F7] selection:bg-[#34BBC0] selection:text-white font-['Space_Grotesk',_sans-serif] relative">
       
       {/* HEADER (Neobrutalism) */}
-      <header className="fixed top-0 inset-x-0 h-20 bg-white border-b-[3px] border-black z-50 px-4 md:px-12 flex items-center justify-between shadow-[0_4px_0_0_#0F0F12]">
+      <header className="fixed top-0 inset-x-0 h-20 bg-[#FAF9F6] text-[#0F0F12] border-b-[3px] border-black z-50 px-4 md:px-12 flex items-center justify-between shadow-[0_4px_0_0_#34BBC0]">
         <a href="#/" className="flex items-center gap-3 hover:-translate-y-0.5 transition-transform z-50">
           <img src="/BAB_logo.svg" alt="BAB Logo" className="h-8 md:h-10" />
         </a>
@@ -138,7 +138,7 @@ export default function App() {
         {/* Mobile Hamburger Button */}
         <button 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden w-12 h-12 bg-white border-[3px] border-black flex flex-col items-center justify-center gap-1.5 shadow-[4px_4px_0_0_#0F0F12] z-50 transition-transform active:translate-y-1 active:shadow-[0_0_0_0_#000]"
+          className="md:hidden w-12 h-12 bg-white border-[3px] border-black flex flex-col items-center justify-center gap-1.5 shadow-[4px_4px_0_0_#DAE993] z-50 transition-transform active:translate-y-1 active:shadow-[0_0_0_0_#DAE993]"
         >
           <span className={`block w-6 h-[3px] bg-black transition-transform ${isMenuOpen ? 'rotate-45 translate-y-[9px]' : ''}`}></span>
           <span className={`block w-6 h-[3px] bg-black transition-opacity ${isMenuOpen ? 'opacity-0' : ''}`}></span>
