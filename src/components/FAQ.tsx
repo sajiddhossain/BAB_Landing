@@ -19,22 +19,22 @@ const faqData = [
   {
     question: "A chi si rivolge BAB?",
     answer: "BAB è progettata principalmente per supportare le ragazze e le giovani donne che hanno le mestruazioni e praticano sport.",
-    color: "bg-[#DAE69A]"
+    color: "bg-[#FFDE4D]"
   },
   {
     question: "Quali funzionalità include l'app?",
     answer: "BAB include il tracciamento del ciclo, dell'energia e dell'umore, aiutando le atlete a capire come questi fattori influenzino sia le performance sportive che la vita quotidiana. L'app offre anche insight personalizzati e risorse educative sviluppate dal nostro team medico, oltre a una funzione di Q&A privata e anonima dove atlete e genitori possono ricevere risposte da professionisti della salute e atleti d'élite.",
-    color: "bg-[#EBE5FF]"
+    color: "bg-[#FFDE4D]"
   },
   {
     question: "BAB è sicura, anonima e privata?",
     answer: "Assolutamente sì. BAB è completamente conforme alle normative GDPR europee. Ci impegniamo a mantenere i tuoi dati sicuri, protetti, privati e anonimi. Tutti i contenuti sono revisionati da medici e professionisti dello sport per garantire che siano appropriati per l'età, basati su evidenze scientifiche e sicuri.",
-    color: "bg-[#34BBC0]"
+    color: "bg-[#FFDE4D]"
   },
   {
     question: "Chi ha creato BAB?",
     answer: "BAB è stata fondata da Gaia Manzone in collaborazione con un team multidisciplinare di ricercatori sportivi, medici, atleti d'élite e allenatori, uniti dalla passione per il miglioramento della salute, del benessere e delle performance delle giovani atlete.",
-    color: "bg-[#FFE3D1]"
+    color: "bg-[#FFDE4D]"
   }
 ];
 
@@ -63,7 +63,7 @@ export default function FAQ() {
           return (
             <div 
               key={index}
-              className={`border-[3px] md:border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] overflow-hidden transition-all duration-300 ${isOpen ? faq.color : 'bg-white hover:bg-neutral-50 text-[#0F0F12]'}`}
+              className={`border-[3px] md:border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] overflow-hidden transition-all duration-300 ${isOpen ? faq.color : 'bg-white hover:bg-neutral-50 hover:text-[#FF5722] text-[#0F0F12]'}`}
             >
               <button
                 onClick={() => toggleFaq(index)}
