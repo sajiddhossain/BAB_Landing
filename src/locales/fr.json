@@ -14,47 +14,92 @@
     "heroHighlight": "Ne laissez pas cela arriver.",
     "coachBtn": "Je suis un Coach",
     "parentBtn": "Je suis un Parent",
-    "coachDesc": "Surveillez le bien-être et prévenez les blessures de votre équipe avec des données anonymes et sécurisées.",
-    "parentDesc": "Soutenez votre fille pendant sa puberté en garantissant une confidentialité totale.",
+    "coachDesc": "Surveillez le bien-être et prévenez les blessures de votre équipe féminine avec des données anonymes et sécurisées.",
+    "parentDesc": "Soutenez votre fille pendant sa puberté en garantissant une confidentialité totale et un sport sain.",
     "waitlistBtn": "Join Waitlist ✦",
     "appTag": "Application Athlète +\nTableau de bord Coach",
     "widgetTitle": "Risque Blessures",
     "widgetDesc": "-60% par mois",
-    
     "costBadge": "Le Prix du Silence",
     "oldMethod": "Ancienne Méthode",
     "old1": "Taux d'abandon de 50% à la puberté.",
     "old2": "Risque de rupture du LCA triplé si ignoré.",
-    "old3": "84% des athlètes abusent des antidouleurs.",
+    "old3": "84% des athlètes abusent des antidouleurs pour masquer les symptômes.",
     "babMethod": "Méthode BAB",
     "bab1": "Réduction de 60% des blessures évitables.",
     "bab2": "Confidentialité Totale : Les coachs voient des données groupées.",
     "bab3": "Compagnon Numérique pour un suivi sans stress.",
     "testAppBtn": "Testez l'App ✦",
     "testCoachBtn": "Vue Coach ✦",
-    
     "dataBadge": "Des Données Qui Brisent les Barrières",
     "dataTitle": "Les femmes sont traitées comme de Petits Hommes,<br/>et les filles comme de Petites Femmes.",
     "dataSubtitle": "Les chiffres le prouvent. Il y a une meilleure voie.",
     "data1Val": "50%",
     "data1Desc": "Des ados abandonnent le sport à la puberté",
     "data2Val": "6%",
-    "data2Desc": "De la recherche sportive se concentre sur les femmes",
+    "data2Desc": "De la recherche médico-sportive se concentre sur les femmes",
     "data3Val": "0%",
     "data3Desc": "Presque aucune recherche sur les athlètes U18",
-    
     "testimonialsTitle": "Ce que notre communauté dit de BAB",
-    
     "footerTitle": "Atteignez votre Meilleur Niveau,<br/> En vous sentant au Mieux.",
     "privacyTitle": "Confidentialité & Recherche",
-    "privacy1": "Avec votre accord, vos données contribuent à la recherche scientifique pour améliorer la santé et les performances des jeunes athlètes. Ensemble, comblons les lacunes de la recherche sportive.",
-    "privacy2": "Vos données sont toujours anonymes, protégées et utilisées uniquement pour le bien-être des adolescentes.",
+    "privacy1": "Avec votre accord, vos données contribuent à la recherche scientifique anonyme pour améliorer la santé et les performances des jeunes athlètes. Ensemble, comblons les lacunes de la recherche sportive.",
+    "privacy2": "Vos données restent toujours anonymes, protégées et utilisées uniquement pour le bien-être des adolescentes.",
     "footerTags": "Prévenir • Soutenir • Suivre • Comprendre • Optimiser",
-    "motto": "The first health and wellbeing app for teenage girls in sport."
+    "motto": "La première application de santé et de bien-être pour les adolescentes sportives."
+  },
+  "testimonials": {
+    "lisa": {
+      "role": "Rameuse Élite Nationale Allemande",
+      "quote": "BAB m'a fait me sentir comprise et m'a fait réaliser à quel point j'aurais bénéficié d'un tel outil pendant ma croissance sportive. Il m'a fallu de nombreuses années pour comprendre que la force n'est pas l'opposé de la féminité, et la prochaine génération de femmes athlètes ne devrait jamais avoir à choisir entre devenir puissante et s'intégrer."
+    },
+    "alisha": {
+      "role": "Doctorante à UC Berkeley",
+      "quote": "Les jeunes filles font face à la désinformation et aux préjugés scientifiques, des défis souvent amplifiés dans les environnements sportifs. BAB fournit une solution préventive et sûre tout en contribuant à l'avancement de la recherche dans un domaine négligé depuis trop longtemps."
+    },
+    "vasundhara": {
+      "role": "Maman d'une athlète de 11 ans",
+      "quote": "Ma fille a 11 ans et concourt aux niveaux régional et national en escrime. Un outil comme BAB m'aide à comprendre comment soutenir au mieux ses objectifs sportifs de manière sûre et éclairée, en particulier alors qu'elle traverse les changements de l'adolescence."
+    },
+    "erica": {
+      "role": "Joueuse et Entraîneuse de Volley-ball",
+      "quote": "En tant que joueuse professionnelle et entraîneuse de volley-ball, je n'ai jamais eu une ressource aussi formidable que BAB pour soutenir les besoins spécifiques que nous avons, mes jeunes athlètes et moi."
+    }
   },
   "features": {
     "badge": "✦ L'Écosystème BAB ✦",
     "title": "Performance<br/>x Santé",
-    "testBuddy": "Tester l'état du Buddy"
+    "testBuddy": "Tester l'état du Buddy",
+    "modules": {
+      "m1": {
+        "title": "TRACK",
+        "desc": "Surveillez les niveaux d'énergie, le sommeil et l'humeur, étayés par des mesures de santé menstruelle et de croissance pour dresser un tableau complet du bien-être de l'athlète dans le temps."
+      },
+      "m2": {
+        "title": "UNDERSTAND",
+        "desc": "Traduisez les données en un langage clair, simple et engageant, et fournissez des informations personnalisées et des ressources sur l'éducation corporelle."
+      },
+      "m3": {
+        "title": "OPTIMISE",
+        "desc": "Équilibrez les performances avec le bien-être physique et émotionnel à long terme, grâce à des recommandations quotidiennes personnalisées, élaborées par des experts cliniques avec le soutien de l'IA."
+      },
+      "m4": {
+        "title": "PREVENT",
+        "desc": "Identifiez et signalez les signaux d'alarme de manière précoce avant qu'ils n'affectent la santé, le bien-être ou les performances."
+      },
+      "m5": {
+        "title": "SUPPORT",
+        "desc": "Créez un système de soutien plus solide autour de l'athlète, sur et en dehors du terrain, avec des outils dédiés aux parents et aux entraîneurs."
+      }
+    },
+    "faqsTitle": "F.A.Q.",
+    "faqs": {
+      "q1": "Comment fonctionne la confidentialité des données biologiques ?",
+      "a1": "Toutes les données sensibles, y compris les données du cycle menstruel, sont cryptées et stockées localement sur le téléphone de l'athlète. Le coach ne voit que des agrégats anonymes ou des alertes génériques.",
+      "q2": "Est-ce adapté à tous les sports ?",
+      "a2": "Oui, l'algorithme de BAB s'adapte aux charges de travail spécifiques des sports d'équipe et individuels.",
+      "q3": "L'application est-elle gratuite pour les athlètes ?",
+      "a3": "Oui, l'application mobile pour les athlètes est entièrement gratuite. Les clubs sportifs s'abonnent pour accéder au tableau de bord des coachs."
+    }
   }
 }

@@ -24,26 +24,26 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
   const testimonials = [
     {
       name: "Lisa Gutfleisch",
-      role: "German National Elite Rower",
-      quote: "BAB made me feel seen and realise how much I could have benefitted if something like existed during my upbringing in sport. It took me many years to understand that strength is not the opposite of femininity, and the next generation of female athletes should never have to choose between becoming powerful and fitting in.",
+      role: t('testimonials.lisa.role'),
+      quote: t('testimonials.lisa.quote'),
       color: "bg-[#FFDE4D]"
     },
     {
       name: "Alisha Menon",
-      role: "PHD at UC Berkeley",
-      quote: "Young girls face misinformation and scientific bias, challenges that are often amplified in sports settings, particularly during the profound physical and psychological changes of puberty. BAB provides a safe, preventive solution while contributing to the advancement of research in a field that has been overlooked for far too long.",
+      role: t('testimonials.alisha.role'),
+      quote: t('testimonials.alisha.quote'),
       color: "bg-[#D1FFEF]"
     },
     {
       name: "Vasundhara P.",
-      role: "Mum of 11 Year Old Athlete",
-      quote: "My daughter is 11 and competes at regional and national levels in fencing. A tool like BAB helps me understand how to best support her athletic goals in a safe and informed way, particularly as she navigates the changes of adolescence while continuing to pursue high-level competition.",
+      role: t('testimonials.vasundhara.role'),
+      quote: t('testimonials.vasundhara.quote'),
       color: "bg-[#FFE3D1]"
     },
     {
       name: "Erica Sali",
-      role: "Volleyball Athlete & Coach",
-      quote: "As a professional volleyball player and coach, I never had such a great resource as BAB to support the specific needs my teenage athletes and I have.",
+      role: t('testimonials.erica.role'),
+      quote: t('testimonials.erica.quote'),
       color: "bg-[#EBE5FF]"
     }
   ];

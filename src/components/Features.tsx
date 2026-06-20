@@ -8,24 +8,26 @@
  *            sono severamente vietati in assenza di accordi contrattuali scritti.
  */
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Features() {
+  const { t } = useTranslation();
   const [tamagotchiState, setTamagotchiState] = useState<'default' | 'active' | 'down'>('default');
   const [openFaq, setOpenFaq] = useState<string | null>(null);
 
   const faqs = [
-    { id: '1', q: "Come funziona la privacy dei dati biologici?", a: "Tutti i dati sensibili, inclusi quelli sul ciclo mestruale, sono criptati e salvati in locale sul telefono dell'atleta. L'allenatore vede solo aggregati anonimi o alert generici (es. 'Consigliato scarico')." },
-    { id: '2', q: "È adatta a tutti gli sport?", a: "Sì, l'algoritmo di BAB si adatta ai carichi di lavoro specifici di sport di squadra (Calcio, Volley, Basket) e sport individuali." },
-    { id: '3', q: "L'app è gratuita per le atlete?", a: "Sì, l'app mobile per le atlete è completamente gratuita. I club sportivi sottoscrivono l'abbonamento per l'accesso alla Coach Dashboard." },
+    { id: '1', q: t('features.faqs.q1'), a: t('features.faqs.a1') },
+    { id: '2', q: t('features.faqs.q2'), a: t('features.faqs.a2') },
+    { id: '3', q: t('features.faqs.q3'), a: t('features.faqs.a3') },
   ];
 
   const modules = [
-    { num: '01', title: 'TRACK', desc: "Monitor energy levels, sleep and mood, underpinned by menstrual health and growth metrics to build a complete picture of the athlete's wellbeing through longitudinal inputs", hasWidget: true },
-    { num: '02', title: 'UNDERSTAND', desc: "Translate inputs into clear, simple and engaging language and deliver personalised, actionable insights and body literacy resources, delivered gradually, session by session", hasWidget: false },
-    { num: '03', title: 'OPTIMISE', desc: "Balance performance with long-term physical and emotional wellbeing, through personalised, daily recommendations, delivered by clinical experts with the support of Al", hasWidget: false },
-    { num: '04', title: 'PREVENT', desc: "Identify and flag warning signs early before they affect health, wellbeing, or performance", hasWidget: false },
-    { num: '05', title: 'SUPPORT', desc: "Create a stronger support system around the athlete both on and off the field with dedicated tools for parents and coaches", hasWidget: false }
+    { num: '01', title: t('features.modules.m1.title'), desc: t('features.modules.m1.desc'), hasWidget: true },
+    { num: '02', title: t('features.modules.m2.title'), desc: t('features.modules.m2.desc'), hasWidget: false },
+    { num: '03', title: t('features.modules.m3.title'), desc: t('features.modules.m3.desc'), hasWidget: false },
+    { num: '04', title: t('features.modules.m4.title'), desc: t('features.modules.m4.desc'), hasWidget: false },
+    { num: '05', title: t('features.modules.m5.title'), desc: t('features.modules.m5.desc'), hasWidget: false }
   ];
 
   return (
@@ -34,11 +36,12 @@ export default function Features() {
         
         <div className="text-center mb-20">
           <span className="inline-block bg-[#EBE5FF] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] rotate-1">
-            ✦ L'Ecosistema BAB ✦
+            {t('features.badge')}
           </span>
-          <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)]">
-            Performance<br/>x Salute
-          </h1>
+          <h1 
+            className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)]"
+            dangerouslySetInnerHTML={{__html: t('features.title')}}
+          />
         </div>
 
         {/* Flusso Moduli (Neobrutalism Layout - Scrapbook Timeline) */}
@@ -77,7 +80,7 @@ export default function Features() {
                         <button onClick={() => setTamagotchiState('down')} className={`font-black text-xl px-6 py-2 border-[3px] border-black rounded-lg transition-all ${tamagotchiState === 'down' ? 'bg-[#FFE3D1] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>C</button>
                       </div>
                       <div className="text-xs font-black uppercase tracking-widest text-center mt-2 border-t-[3px] border-black pt-4 w-full">
-                        Testa lo stato del Buddy
+                        {t('features.testBuddy')}
                       </div>
                    </div>
                  )}
@@ -88,7 +91,7 @@ export default function Features() {
 
         {/* FAQ Section Neobrutalism Folders */}
         <div className="pt-16 border-t-[4px] border-black">
-          <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl font-black mb-12 text-center uppercase drop-shadow-[4px_4px_0_rgba(255,222,77,1)]">F.A.Q.</h3>
+          <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl font-black mb-12 text-center uppercase drop-shadow-[4px_4px_0_rgba(255,222,77,1)]">{t('features.faqsTitle')}</h3>
           <div className="flex flex-col gap-6">
             {faqs.map(faq => (
               <div key={faq.id} className="y2k-brutal-card bg-white overflow-hidden p-0 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12]">

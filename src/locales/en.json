@@ -20,7 +20,6 @@
     "appTag": "Athlete App +\nCoach Dashboard",
     "widgetTitle": "Injury Risk",
     "widgetDesc": "-60% Month over Month",
-    
     "costBadge": "The Cost of Silence",
     "oldMethod": "Old Way",
     "old1": "50% early dropout rate during puberty.",
@@ -32,19 +31,16 @@
     "bab3": "Digital Buddy to monitor status without stress.",
     "testAppBtn": "Test the App ✦",
     "testCoachBtn": "Coach View ✦",
-    
     "dataBadge": "Data that Break Barriers",
     "dataTitle": "Women are treated as Small Men,<br/>and Girls as Small Women.",
     "dataSubtitle": "The numbers show it. There's a better way.",
     "data1Val": "50%",
     "data1Desc": "Of teens drop out of sport during puberty",
     "data2Val": "6%",
-    "data2Desc": "Of sport research focuses on women's health",
+    "data2Desc": "Of sport medical research focuses on women's health",
     "data3Val": "0%",
     "data3Desc": "Barely any research on U18 athletes who menstruate",
-    
     "testimonialsTitle": "What Our Community Says About What BAB Is Building",
-    
     "footerTitle": "Reach Your Personal Best,<br/> By Feeling Your Best.",
     "privacyTitle": "Privacy & Research",
     "privacy1": "Only if you give consent, the data you track contributes to anonymous scientific research aimed at improving the health, wellbeing, and performance of both you and other young athletes. Together, we're helping close the gaps in youth and sports research.",
@@ -52,9 +48,58 @@
     "footerTags": "Prevent • Support • Track • Understand • Optimise",
     "motto": "The first health and wellbeing app for teenage girls in sport."
   },
+  "testimonials": {
+    "lisa": {
+      "role": "German National Elite Rower",
+      "quote": "BAB made me feel seen and realise how much I could have benefitted if something like existed during my upbringing in sport. It took me many years to understand that strength is not the opposite of femininity, and the next generation of female athletes should never have to choose between becoming powerful and fitting in."
+    },
+    "alisha": {
+      "role": "PHD at UC Berkeley",
+      "quote": "Young girls face misinformation and scientific bias, challenges that are often amplified in sports settings, particularly during the profound physical and psychological changes of puberty. BAB provides a safe, preventive solution while contributing to the advancement of research in a field that has been overlooked for far too long."
+    },
+    "vasundhara": {
+      "role": "Mum of 11 Year Old Athlete",
+      "quote": "My daughter is 11 and competes at regional and national levels in fencing. A tool like BAB helps me understand how to best support her athletic goals in a safe and informed way, particularly as she navigates the changes of adolescence while continuing to pursue high-level competition."
+    },
+    "erica": {
+      "role": "Volleyball Athlete & Coach",
+      "quote": "As a professional volleyball player and coach, I never had such a great resource as BAB to support the specific needs my teenage athletes and I have."
+    }
+  },
   "features": {
     "badge": "✦ The BAB Ecosystem ✦",
     "title": "Performance<br/>x Health",
-    "testBuddy": "Test Buddy Status"
+    "testBuddy": "Test Buddy Status",
+    "modules": {
+      "m1": {
+        "title": "TRACK",
+        "desc": "Monitor energy levels, sleep and mood, underpinned by menstrual health and growth metrics to build a complete picture of the athlete's wellbeing through longitudinal inputs."
+      },
+      "m2": {
+        "title": "UNDERSTAND",
+        "desc": "Translate inputs into clear, simple and engaging language and deliver personalised, actionable insights and body literacy resources, delivered gradually, session by session."
+      },
+      "m3": {
+        "title": "OPTIMISE",
+        "desc": "Balance performance with long-term physical and emotional wellbeing, through personalised, daily recommendations, delivered by clinical experts with the support of Al."
+      },
+      "m4": {
+        "title": "PREVENT",
+        "desc": "Identify and flag warning signs early before they affect health, wellbeing, or performance."
+      },
+      "m5": {
+        "title": "SUPPORT",
+        "desc": "Create a stronger support system around the athlete both on and off the field with dedicated tools for parents and coaches."
+      }
+    },
+    "faqsTitle": "F.A.Q.",
+    "faqs": {
+      "q1": "How does biological data privacy work?",
+      "a1": "All sensitive data, including menstrual cycle data, is encrypted and stored locally on the athlete's phone. The coach only sees anonymous aggregates or generic alerts (e.g., 'Rest recommended').",
+      "q2": "Is it suitable for all sports?",
+      "a2": "Yes, BAB's algorithm adapts to the specific workloads of team sports (Football, Volleyball, Basketball) and individual sports.",
+      "q3": "Is the app free for athletes?",
+      "a3": "Yes, the mobile app for athletes is completely free. Sports clubs subscribe for access to the Coach Dashboard."
+    }
   }
 }
