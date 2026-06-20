@@ -208,7 +208,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         <div className="flex justify-center mb-16 relative z-10">
           <div className="relative inline-block -rotate-1 hover:rotate-0 transition-transform">
             <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxyZWN0IHdpZHRoPSI0IiBoZWlnaHQ9IjQiIGZpbGw9IiMwMCIvPjxyZWN0IHg9IjQiIHk9IjQiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiIGZpbGw9IiMwMCIvPjwvc3ZnPg==')] -m-2 shadow-[6px_6px_0_0_#0F0F12] border-[3px] border-black"></div>
-            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black text-center uppercase tracking-tighter bg-white border-[3px] border-black px-6 py-2 relative text-[#0F0F12] m-0">
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black text-center uppercase tracking-tighter bg-white border-[3px] border-black px-6 py-2 relative text-[#0F0F12] m-0 marker-circle">
               {t('home.costBadge')}
             </h2>
           </div>
@@ -271,7 +271,8 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       <section className="w-full bg-[#EBE5FF] border-y-[4px] border-black py-20 px-4 my-16 relative overflow-hidden text-[#0F0F12]">
         <div className="max-w-5xl mx-auto relative z-10 flex flex-col md:flex-row gap-12 items-center">
           <div className="flex-1">
-            <div className="inline-block bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-8">
+            <div className="inline-block bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-8 relative">
+              <div className="coffee-stain -top-6 -right-12 opacity-60"></div>
               {t('home.dataBadge')}
             </div>
             <h2 

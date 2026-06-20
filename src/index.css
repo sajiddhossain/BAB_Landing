@@ -23,14 +23,27 @@
 
 body {
   background-color: var(--color-neo-bg);
-  /* Notebook Dot Grid Background */
-  background-image: radial-gradient(var(--color-neo-dark) 1px, transparent 0);
-  background-size: 32px 32px;
-  background-position: -16px -16px;
+  /* Notebook Dot Grid Background with faint lines */
+  background-image: 
+    radial-gradient(rgba(15,15,18,0.15) 1.5px, transparent 0),
+    linear-gradient(to bottom, rgba(15,15,18,0.03) 1px, transparent 1px);
+  background-size: 32px 32px, 100% 32px;
+  background-position: -16px -16px, 0 0;
   color: var(--color-neo-dark);
   margin: 0;
   min-height: 100vh;
   overflow-x: hidden;
+}
+
+/* Texture Noise / Grain per effetto carta vera e "usata" */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.06'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
 }
 
 /* Y2K Grid background overlay */
@@ -41,22 +54,26 @@ body {
     linear-gradient(to bottom, rgba(15, 15, 18, 0.08) 1px, transparent 1px);
 }
 
-/* Washi Tape utilities for Scrapbook effect */
+/* Washi Tape utilities for Scrapbook effect - effetto "usato" e piegato */
 .washi-tape {
   position: absolute;
-  height: 24px;
+  height: 28px;
   background-color: var(--color-neo-teal);
-  opacity: 0.8;
-  border: 2px solid var(--color-neo-dark);
+  opacity: 0.85;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 1px 4px 2px 6px; /* Bordi irregolari da nastro strappato */
   z-index: 10;
-  box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.2);
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.15), inset 0 0 10px rgba(0,0,0,0.1);
+  background-image: linear-gradient(to right, rgba(0,0,0,0.05) 0%, transparent 10%, rgba(255,255,255,0.15) 50%, transparent 90%, rgba(0,0,0,0.05) 100%);
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(1px);
 }
 
 .washi-yellow { background-color: var(--color-neo-yellow); }
 .washi-peach { background-color: var(--color-neo-peach); }
 .washi-purple { background-color: var(--color-neo-purple); }
 .washi-lime { background-color: var(--color-neo-lime); }
-.washi-black { background-color: var(--color-neo-dark); color: white; opacity: 0.9; }
+.washi-black { background-color: var(--color-neo-dark); color: white; opacity: 0.9; mix-blend-mode: normal; }
 
 /* Neobrutalist Solid Card */
 .y2k-brutal-card {
@@ -116,3 +133,55 @@ body {
   font-weight: 900;
   letter-spacing: -1px;
 }
+
+/* Marker Circle Doodle */
+.marker-circle {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.marker-circle::after {
+  content: '';
+  position: absolute;
+  inset: -6px -12px;
+  border: 3px solid var(--color-neo-yellow);
+  border-radius: 50% 40% 60% 40% / 40% 60% 50% 50%;
+  pointer-events: none;
+  transform: rotate(-3deg);
+  z-index: -1;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+}
+
+/* Marker Underline Doodle */
+.marker-underline {
+  position: relative;
+  display: inline-block;
+}
+.marker-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: -2px;
+  right: -8px;
+  height: 6px;
+  background-color: var(--color-neo-teal);
+  border-radius: 2px 8px 3px 5px;
+  transform: rotate(-1deg);
+  opacity: 0.6;
+  z-index: -1;
+  mix-blend-mode: multiply;
+}
+
+/* Smudge/Stain (Dirt) effect */
+.coffee-stain {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M15,50 C15,25 30,10 55,15 C75,18 85,35 80,60 C75,85 55,90 35,85 C15,80 15,75 15,50 Z' fill='none' stroke='rgba(139,69,19,0.08)' stroke-width='6' stroke-dasharray='15,8,30,5'/%3E%3Cpath d='M25,50 C25,30 40,25 60,30 C75,35 75,55 70,70 C65,85 45,80 30,75 C15,70 25,65 25,50 Z' fill='rgba(139,69,19,0.04)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+  mix-blend-mode: multiply;
+  transform: rotate(15deg);
+}
+

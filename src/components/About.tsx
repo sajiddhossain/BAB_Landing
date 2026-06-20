@@ -30,11 +30,12 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             
             <div className="flex-1 text-center md:text-left">
-              <span className="inline-block bg-[#DAE993] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] -rotate-1">
+              <span className="inline-block bg-[#DAE993] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] -rotate-1 relative">
                 ✦ The Mission ✦
+                <div className="coffee-stain -top-12 -left-16 opacity-40"></div>
               </span>
               <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6">
-                Redefining<br/>Girls' Sport
+                <span className="marker-underline">Redefining</span><br/>Girls' Sport
               </h1>
               <p className="font-bold text-lg leading-relaxed border-l-[4px] border-black pl-4">
                 Non possiamo più accettare che le atlete siano trattate come "piccoli uomini". Costruiamo lo standard di domani, combinando scienza, dati biologici e tecnologia empatica.
@@ -58,8 +59,9 @@ export default function About() {
         <section className="mb-32 mt-16 relative overflow-hidden px-2 sm:px-4">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc0JyBoZWlnaHQ9JzQnPjxyZWN0IHdpZHRoPSc0JyBoZWlnaHQ9JzQnIGZpbGw9JyNmZmYnLz48cmVjdCB3aWR0aD0nMScgaGVpZ2h0PScxJyBmaWxsPScjY2NjJy8+PC9zdmc+')] opacity-50 -z-10"></div>
 
-          <div className="text-center mb-16">
-            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black uppercase inline-block bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-8 py-3 shadow-[8px_8px_0_0_#0F0F12] -rotate-2">
+          <div className="text-center mb-16 relative">
+            <div className="coffee-stain -top-8 -right-4 opacity-50 z-0"></div>
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black uppercase inline-block bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-8 py-3 shadow-[8px_8px_0_0_#0F0F12] -rotate-2 relative z-10">
               ✦ The Story of Mia ✦
             </h2>
           </div>
@@ -164,9 +166,10 @@ export default function About() {
             </svg>
 
             <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[4px_4px_0_rgba(0,0,0,1)] text-[#FFDE4D]">
-              Without<br/>Women's Health<br/>There Is No<br/>Women's Sport
+              Without<br/>Women's <span className="marker-circle text-white">Health</span><br/>There Is No<br/><span className="marker-underline">Women's Sport</span>
             </h3>
-            <div className="mt-12">
+            <div className="mt-12 relative">
+              <div className="coffee-stain -top-10 -right-20 opacity-30"></div>
               <p className="font-['Space_Grotesk',_sans-serif] font-black text-sm sm:text-xl bg-black text-white inline-block px-6 sm:px-8 py-3 rotate-2 shadow-[6px_6px_0_0_#34BBC0]">
                 Just like Mia, several athletes pay the cost of bleeding in sport
               </p>
