@@ -92,6 +92,7 @@ export default function Features() {
                         {t('features.testBuddy')}
                       </div>
                    </div>
+                 )}
                  </div>
                </motion.div>
              );

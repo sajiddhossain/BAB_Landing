@@ -70,13 +70,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               className="font-['Bricolage_Grotesque',_sans-serif] text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] mb-6 tracking-tighter w-full relative text-[#0F0F12]"
             >
               {t('home.heroTitle')}<br/>
-              <span className="inline-block relative z-10 mt-3 px-4 sm:px-6 py-2 -rotate-2 bg-[#34BBC0] border-[3px] md:border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[6px_6px_0_0_#0F0F12] text-white">
+              <span className="inline-block relative z-10 mt-3 px-4 sm:px-6 py-2 -rotate-2 bg-[#3B4A6B] border-[3px] md:border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[6px_6px_0_0_#0F0F12] text-white">
                  {t('home.heroHighlight')}
               </span>
               
               {/* Hand-drawn Doodle Arrow (Desktop) */}
-              <svg className="hidden lg:block absolute right-0 -bottom-8 w-16 h-16 text-[#0F0F12] rotate-12 opacity-70" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 10 Q 50 50 90 90 M 60 90 L 90 90 L 90 60" stroke="currentColor" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+              <svg className="hidden lg:block absolute right-0 -bottom-8 w-16 h-16 text-[#FFDE4D] drop-shadow-[3px_3px_0_#0F0F12] rotate-12 opacity-90" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 10 Q 50 50 90 90 M 60 90 L 90 90 L 90 60" stroke="currentColor" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </motion.h1>
 
@@ -252,9 +252,9 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                   <span className={`text-4xl transition-transform duration-500 ${bivioState === 'bab' ? 'scale-125 rotate-12' : ''}`}>🎯</span>
                 </div>
                 <ul className="space-y-6 font-bold text-lg mb-8">
-                  <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black text-2xl">✓</span> {t('home.bab1')}</li>
-                  <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black text-2xl">✓</span> {t('home.bab2')}</li>
-                  <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black text-2xl">✓</span> {t('home.bab3')}</li>
+                  <li className="flex gap-4 items-center"><span className="text-[#FFDE4D] drop-shadow-[2px_2px_0_#0F0F12] font-black text-2xl">✓</span> {t('home.bab1')}</li>
+                  <li className="flex gap-4 items-center"><span className="text-[#FFDE4D] drop-shadow-[2px_2px_0_#0F0F12] font-black text-2xl">✓</span> {t('home.bab2')}</li>
+                  <li className="flex gap-4 items-center"><span className="text-[#FFDE4D] drop-shadow-[2px_2px_0_#0F0F12] font-black text-2xl">✓</span> {t('home.bab3')}</li>
                 </ul>
               </div>
               
@@ -305,7 +305,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             </div>
             <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] -rotate-2 relative">
                <div className="washi-tape washi-peach w-12 -bottom-3 right-6 rotate-6"></div>
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#34BBC0] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data2Val')}</span>
+               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#3B4A6B] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data2Val')}</span>
                <p className="font-bold uppercase text-sm tracking-tight">{t('home.data2Desc')}</p>
             </div>
             <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] rotate-2 relative">
@@ -357,7 +357,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         <div className="mb-16 inline-block bg-white border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-12 -rotate-1 relative">
           <div className="washi-tape washi-black w-32 -top-3 left-1/2 -translate-x-1/2 rotate-1"></div>
           <h2 
-            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-tight text-[#34BBC0] tracking-tighter" 
+            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-tight text-[#3B4A6B] tracking-tighter marker-underline" 
             style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}
             dangerouslySetInnerHTML={{__html: t('home.footerTitle')}}
           />
