@@ -24,6 +24,17 @@ export default function App() {
   const [currentPath, setCurrentPath] = useState<string>(window.location.hash || '#/');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
+  const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
+
+  const currentLang = i18n.language ? i18n.language.substring(0, 2) : 'en';
+  const getFlagImg = (lng: string) => {
+    switch(lng) {
+      case 'it': return '/flags/italy.png';
+      case 'fr': return '/flags/france.png';
+      case 'en': default: return '/flags/united-kingdom.png';
+    }
+  };
+  const otherLangs = ['en', 'it', 'fr'].filter(l => l !== currentLang);
 
   // Easter Egg Signature
   useEffect(() => {
@@ -66,7 +77,6 @@ export default function App() {
       <header className="fixed top-0 inset-x-0 h-20 bg-white border-b-[3px] border-black z-50 px-4 md:px-12 flex items-center justify-between shadow-[0_4px_0_0_#0F0F12]">
         <a href="#/" className="flex items-center gap-3 hover:-translate-y-0.5 transition-transform z-50">
           <img src="/BAB_logo.svg" alt="BAB Logo" className="h-8 md:h-10" />
-          <span className="bg-[#DAE69A] text-black px-2 py-0.5 rounded border-2 border-black text-xs font-black uppercase tracking-widest shadow-[2px_2px_0_0_#000] ml-2">Beta</span>
         </a>
         
         {/* Desktop Nav */}
@@ -81,17 +91,40 @@ export default function App() {
              </a>
           ))}
           
-          {/* Language Switcher */}
-          <div className="flex items-center gap-2 border-[2px] border-black p-1 bg-[#FAF9F6] shadow-[2px_2px_0_0_#000] rounded ml-4">
-            <button onClick={() => i18n.changeLanguage('it')} className={`w-6 h-6 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 transition-transform ${i18n.language.startsWith('it') ? 'ring-2 ring-black ring-offset-1' : 'opacity-60 hover:opacity-100'}`} title="Italiano">
-              <img src="/flags/italy.png" alt="IT" className="w-full h-full object-cover" />
+          {/* Language Switcher Dropdown */}
+          <div 
+            className="relative ml-4"
+            onMouseEnter={() => setIsLangDropdownOpen(true)}
+            onMouseLeave={() => setIsLangDropdownOpen(false)}
+          >
+            <button className="w-8 h-8 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 transition-transform bg-[#FAF9F6] shadow-[2px_2px_0_0_#000] z-50 relative flex items-center justify-center">
+              <img src={getFlagImg(currentLang)} alt={currentLang.toUpperCase()} className="w-full h-full object-cover" />
             </button>
-            <button onClick={() => i18n.changeLanguage('en')} className={`w-6 h-6 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 transition-transform ${i18n.language.startsWith('en') ? 'ring-2 ring-black ring-offset-1' : 'opacity-60 hover:opacity-100'}`} title="English">
-              <img src="/flags/united-kingdom.png" alt="EN" className="w-full h-full object-cover" />
-            </button>
-            <button onClick={() => i18n.changeLanguage('fr')} className={`w-6 h-6 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 transition-transform ${i18n.language.startsWith('fr') ? 'ring-2 ring-black ring-offset-1' : 'opacity-60 hover:opacity-100'}`} title="Français">
-              <img src="/flags/france.png" alt="FR" className="w-full h-full object-cover" />
-            </button>
+            
+            <AnimatePresence>
+              {isLangDropdownOpen && (
+                <motion.div 
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  className="absolute top-full left-0 mt-2 flex flex-col gap-2 bg-white border-[2px] border-black p-2 shadow-[4px_4px_0_0_#000] z-40 rounded"
+                >
+                  {otherLangs.map(lng => (
+                    <button 
+                      key={lng}
+                      onClick={() => {
+                        i18n.changeLanguage(lng);
+                        setIsLangDropdownOpen(false);
+                      }} 
+                      className="w-8 h-8 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 hover:scale-110 transition-transform opacity-80 hover:opacity-100"
+                      title={lng.toUpperCase()}
+                    >
+                      <img src={getFlagImg(lng)} alt={lng.toUpperCase()} className="w-full h-full object-cover" />
+                    </button>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
 
           <button 

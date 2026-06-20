@@ -356,9 +356,19 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
            </p>
         </div>
 
-        <div className="mt-20 font-black uppercase tracking-widest text-sm text-neutral-500 border-t-[3px] border-black pt-8 border-dashed">
-          {t('home.footerTags')}<br/><br/>
-          © 2026 BAB. All Rights Reserved.
+        <div className="mt-20 border-t-[3px] border-black pt-12 border-dashed flex flex-col items-center gap-6 relative text-center">
+          <img src="/BAB_logo.svg" alt="BAB Logo" className="h-10 md:h-12 mb-2" />
+          <p className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black max-w-lg mb-2 text-[#0F0F12]">
+             {t('home.motto')}
+          </p>
+          <div className="flex gap-6 font-bold uppercase tracking-widest text-sm mb-4">
+             <a href="https://substack.com/@babcommunity" target="_blank" rel="noopener noreferrer" className="hover:text-[#34BBC0] transition-colors underline decoration-2 underline-offset-4">Substack</a>
+             <a href="https://www.instagram.com/bab_community/" target="_blank" rel="noopener noreferrer" className="hover:text-[#34BBC0] transition-colors underline decoration-2 underline-offset-4">Instagram</a>
+          </div>
+          <div className="font-black uppercase tracking-widest text-xs text-neutral-500">
+            {t('home.footerTags')}<br/><br/>
+            © 2026 BAB. All Rights Reserved.
+          </div>
         </div>
       </section>
 
