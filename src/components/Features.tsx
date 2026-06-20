@@ -8,6 +8,7 @@
  *            sono severamente vietati in assenza di accordi contrattuali scritti.
  */
 import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Features() {
   const [tamagotchiState, setTamagotchiState] = useState<'default' | 'active' | 'down'>('default');
@@ -56,7 +57,7 @@ export default function Features() {
                  <div className={`washi-tape ${tapes[idx]} w-24 -top-3 left-1/2 -translate-x-1/2`}></div>
                  
                  <div className="flex flex-col sm:flex-row gap-6 items-start w-full">
-                   <div className={`font-['Bricolage_Grotesque',_sans-serif] text-7xl sm:text-8xl font-black shrink-0 leading-none ${m.hasWidget ? 'text-white' : 'text-black'}`} style={{ WebkitTextStroke: '4px #0F0F12', textShadow: '6px 6px 0px #0F0F12' }}>
+                   <div className="font-['Bricolage_Grotesque',_sans-serif] text-7xl sm:text-8xl font-black shrink-0 leading-none text-white" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>
                      {m.num}
                    </div>
                    <div className="mt-2 w-full">
@@ -93,18 +94,28 @@ export default function Features() {
               <div key={faq.id} className="y2k-brutal-card bg-white overflow-hidden p-0 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12]">
                 <button 
                   onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)}
-                  className={`w-full px-6 py-5 flex justify-between items-center text-left border-b-[3px] border-transparent transition-colors ${openFaq === faq.id ? 'bg-[#FFDE4D] border-black' : 'hover:bg-neutral-100'}`}
+                  className={`w-full px-6 py-5 flex justify-between items-center text-left border-b-[3px] border-transparent transition-all duration-300 ${openFaq === faq.id ? 'bg-[#FFDE4D] border-black' : 'hover:bg-neutral-100'}`}
                 >
                   <span className="font-black uppercase pr-8 text-sm sm:text-base">{faq.q}</span>
-                  <span className={`text-2xl font-black transition-transform duration-300 ${openFaq === faq.id ? 'rotate-45' : 'rotate-0'}`}>
+                  <span className={`text-2xl font-black transition-transform duration-300 ease-in-out ${openFaq === faq.id ? 'rotate-45 scale-110' : 'rotate-0'}`}>
                     +
                   </span>
                 </button>
-                {openFaq === faq.id && (
-                  <div className="px-6 py-6 font-bold text-sm leading-relaxed bg-[#FAF9F6]">
-                    {faq.a}
-                  </div>
-                )}
+                <AnimatePresence initial={false}>
+                  {openFaq === faq.id && (
+                    <motion.div 
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: "easeInOut" }}
+                      className="overflow-hidden"
+                    >
+                      <div className="px-6 py-6 font-bold text-sm leading-relaxed bg-[#FAF9F6] border-t-[3px] border-black">
+                        {faq.a}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </div>
             ))}
           </div>
