@@ -215,10 +215,10 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       {/* 1.5 LA MISSIONE */}
       <section className="w-full bg-[#3B4A6B] py-24 px-4 text-center relative text-white border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-8 mb-16">
         <div className="max-w-5xl mx-auto relative z-10">
-           <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-12 -rotate-1">
+           <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[2px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm rounded-full mb-12">
              La Nostra Missione
            </div>
-           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 marker-underline" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>
+           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>
              BAB è la tua coach<br className="hidden sm:block"/> fuori dal campo.
            </h2>
            <p className="font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#FFDE4D] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
@@ -255,8 +255,10 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             className={`flex-1 transition-all cursor-pointer relative p-2 md:p-3 border-[4px] border-black ${bivioState === 'vecchio' ? 'bg-[#0F0F12] shadow-[8px_8px_0_0_#0F0F12] rotate-0 scale-100 z-10' : 'bg-neutral-300 shadow-[4px_4px_0_0_#0F0F12] -rotate-2 scale-95 opacity-80 hover:opacity-100 hover:rotate-0'}`}
           >
             <div className={`h-full p-6 sm:p-8 border-[3px] border-black ${bivioState === 'vecchio' ? 'bg-[#FAF9F6]' : 'bg-white'}`}>
-              <div className="washi-tape washi-yellow w-20 -top-6 left-1/2 -translate-x-1/2 rotate-3"></div>
-              <div className="flex justify-between items-center mb-8 border-b-[3px] border-black pb-4">
+              <div className="flex justify-between items-center mb-8 border-b-[3px] border-black pb-4 relative">
+                {/* Due graffette nere come "staples" */}
+                <div className="absolute -top-10 left-4 w-2 h-8 bg-black opacity-80 rotate-12"></div>
+                <div className="absolute -top-10 left-12 w-2 h-8 bg-black opacity-80 rotate-6"></div>
                 <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase tracking-tight">{t('home.oldMethod')}</h3>
                 <span className="text-4xl">❌</span>
               </div>
@@ -274,8 +276,9 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             className={`flex-1 transition-all duration-500 cursor-pointer relative p-2 md:p-3 border-[4px] border-black ${bivioState === 'bab' ? 'bg-[#0F0F12] shadow-[8px_8px_0_0_#0F0F12] rotate-1 scale-100 z-10' : 'bg-neutral-300 shadow-[4px_4px_0_0_#0F0F12] rotate-3 scale-95 opacity-80 hover:opacity-100 hover:scale-[0.98] hover:rotate-1'}`}
           >
             <div className={`h-full p-6 sm:p-8 border-[3px] border-black flex flex-col justify-between ${bivioState === 'bab' ? 'bg-[#FAF9F6]' : 'bg-white'}`}>
-              <div className="washi-tape washi-purple w-20 -top-6 right-8 -rotate-2"></div>
-              <div>
+              <div className="relative">
+                {/* Paperclip abstraction */}
+                <div className="absolute -top-12 right-4 w-5 h-16 border-[4px] border-black rounded-full bg-transparent"></div>
                 <div className="flex justify-between items-center mb-8 border-b-[3px] border-black pb-4">
                   <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase tracking-tight text-[#0F0F12]">{t('home.babMethod')}</h3>
                   <span className={`text-4xl transition-transform duration-500 ${bivioState === 'bab' ? 'scale-125 rotate-12' : ''}`}>🎯</span>
@@ -424,18 +427,20 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           <path fill="#FFDE4D" d="M10 50 Q 50 0 150 50 T 190 50 Q 100 100 10 50 Z" />
         </svg>
 
-        <div className="mb-16 inline-block bg-white border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-12 -rotate-1 relative">
-          <div className="washi-tape washi-black w-32 -top-3 left-1/2 -translate-x-1/2 rotate-1"></div>
+        <div className="mb-16 inline-block bg-white border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-12 relative">
+          {/* Folded paper corner effect */}
+          <div className="absolute top-0 right-0 w-12 h-12 border-b-[4px] border-l-[4px] border-black bg-[#EBE5FF] shadow-[-4px_4px_0_0_rgba(15,15,18,0.1)]"></div>
           <h2 
-            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-tight text-[#3B4A6B] tracking-tighter marker-underline" 
+            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-tight text-[#3B4A6B] tracking-tighter" 
             style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}
             dangerouslySetInnerHTML={{__html: t('home.footerTitle')}}
           />
         </div>
 
-        <div className="bg-white text-[#0F0F12] border-[4px] border-black p-8 sm:p-12 text-left shadow-[8px_8px_0_0_#0F0F12] rotate-1 relative max-w-3xl mx-auto">
-           <div className="washi-tape washi-lime w-20 -top-3 left-8 -rotate-3"></div>
-           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-white inline-block px-4 py-2 -rotate-1 tracking-tight">{t('home.privacyTitle')}</h3>
+        <div className="bg-white text-[#0F0F12] border-[4px] border-black p-8 sm:p-12 text-left shadow-[8px_8px_0_0_#0F0F12] relative max-w-3xl mx-auto">
+           {/* Minimalist staple */}
+           <div className="absolute top-4 right-8 w-8 h-2 bg-black opacity-80 rotate-2"></div>
+           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-white inline-block px-4 py-2 tracking-tight">{t('home.privacyTitle')}</h3>
            <p className="font-bold text-lg leading-relaxed mb-6">
              {t('home.privacy1')}
            </p>
