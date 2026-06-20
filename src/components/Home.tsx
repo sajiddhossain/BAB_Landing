@@ -67,9 +67,9 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="inline-block px-3 py-1 bg-[#EBE5FF] border-[2px] md:border-[3px] border-black text-[#0F0F12] font-black text-[10px] sm:text-xs tracking-widest uppercase mb-4 sm:mb-6 shadow-[4px_4px_0_0_#0F0F12] -rotate-1"
+              className="inline-block px-4 py-1 bg-[#EBE5FF] border-[2px] md:border-[3px] border-black text-[#0F0F12] font-black text-[10px] sm:text-xs tracking-widest uppercase mb-4 sm:mb-6 shadow-[4px_4px_0_0_#0F0F12] skew-btn"
             >
-              {t('home.badge')}
+              <span className="skew-btn-content">{t('home.badge')}</span>
             </motion.div>
             
             <motion.h1 
@@ -79,8 +79,8 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               className="font-['Bricolage_Grotesque',_sans-serif] text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] mb-6 tracking-tighter w-full relative text-[#0F0F12]"
             >
               {t('home.heroTitle')}<br/>
-              <span className="inline-block relative z-10 mt-3 px-4 sm:px-6 py-2 -rotate-2 bg-[#3B4A6B] border-[3px] md:border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[6px_6px_0_0_#0F0F12] text-white">
-                 {t('home.heroHighlight')}
+              <span className="inline-block relative z-10 mt-3 px-4 sm:px-6 py-2 bg-[#3B4A6B] border-[3px] md:border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[6px_6px_0_0_#0F0F12] text-white skew-btn">
+                 <span className="skew-btn-content italic pr-2">{t('home.heroHighlight')}</span>
               </span>
               
               {/* Hand-drawn Doodle Arrow (Desktop) */}
@@ -96,12 +96,11 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               transition={{ delay: 0.4 }}
               className="w-full flex justify-center mb-8 lg:hidden"
             >
-              <div className="w-full max-w-[280px] sm:max-w-[320px] bg-white border-[4px] border-white p-2 shadow-[8px_8px_0_0_#0F0F12] rotate-2 relative">
-                <div className="washi-tape washi-black w-20 -top-3 left-1/2 -translate-x-1/2 -rotate-2"></div>
+              <div className="w-full max-w-[280px] sm:max-w-[320px] bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#FFDE4D] skew-x-[-4deg] relative crosshairs">
                 <img 
                   src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
                   alt="BAB Atlete" 
-                  className="w-full max-h-[250px] aspect-[4/5] sm:aspect-auto object-cover border-[3px] border-black grayscale"
+                  className="w-full max-h-[250px] aspect-[4/5] sm:aspect-auto object-cover border-[3px] border-black grayscale skew-x-[4deg]"
                 />
               </div>
             </motion.div>
@@ -148,17 +147,18 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             >
               <button 
                 onClick={onOpenWaitlist}
-                className="group flex items-center justify-between gap-4 w-full sm:w-auto font-['Space_Grotesk',_sans-serif] font-black text-lg bg-[#FFDE4D] border-[3px] md:border-[4px] border-black pl-6 md:pl-8 pr-2 py-2 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] hover:shadow-none hover:translate-y-[6px] hover:translate-x-[6px] transition-all duration-300 uppercase"
+                className="group flex items-center justify-between gap-4 w-full sm:w-auto font-['Space_Grotesk',_sans-serif] font-black text-lg italic bg-[#FFDE4D] border-[3px] md:border-[4px] border-black pl-6 md:pl-8 pr-2 py-2 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] hover:shadow-none hover:translate-y-[6px] hover:translate-x-[6px] transition-all duration-300 uppercase skew-btn"
               >
-                <span>{t('home.waitlistBtn')}</span>
-                <div className="w-10 h-10 md:w-12 md:h-12 bg-[#0F0F12] rounded-full flex items-center justify-center text-[#FFDE4D] group-hover:-rotate-45 group-hover:scale-105 group-hover:translate-x-1 transition-all duration-300">
+                <span className="skew-btn-content pr-2">{t('home.waitlistBtn')}</span>
+                <div className="skew-btn-content w-10 h-10 md:w-12 md:h-12 bg-[#0F0F12] rounded-none flex items-center justify-center text-[#FFDE4D] group-hover:translate-x-1 transition-all duration-300">
                   ↗
                 </div>
               </button>
               <div 
-                className="font-['Space_Grotesk',_sans-serif] font-black text-[10px] sm:text-xs bg-[#EBE5FF] border-[2px] md:border-[3px] border-black px-3 md:px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] -rotate-1 cursor-default text-center"
-                dangerouslySetInnerHTML={{__html: t('home.appTag').replace('\n', '<br/>')}}
-              />
+                className="font-['Space_Grotesk',_sans-serif] font-black text-[10px] sm:text-xs italic bg-[#EBE5FF] border-[2px] md:border-[3px] border-black px-3 md:px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] cursor-default text-center skew-btn"
+              >
+                 <span className="skew-btn-content" dangerouslySetInnerHTML={{__html: t('home.appTag').replace('\n', '<br/>')}} />
+              </div>
             </motion.div>
           </motion.div>
 
@@ -169,12 +169,11 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             transition={{ delay: 0.4, type: "spring", stiffness: 100 }}
             className="lg:col-span-5 w-full justify-center hidden lg:flex relative text-[#0F0F12]"
           >
-            <div className="w-full max-w-md bg-white border-[4px] border-white p-2 shadow-[12px_12px_0_0_#0F0F12] rotate-3 hover:rotate-1 transition-transform duration-500 relative group">
-              <div className="washi-tape washi-black w-24 -top-3 left-1/2 -translate-x-1/2 -rotate-3 z-10"></div>
+            <div className="w-full max-w-md bg-white border-[4px] border-black p-2 shadow-[12px_12px_0_0_#FFDE4D] skew-x-[4deg] transition-transform duration-500 relative group crosshairs">
               <img 
                 src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
                 alt="BAB Atlete" 
-                className="w-full aspect-[4/5] object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500"
+                className="w-full aspect-[4/5] object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500 skew-x-[-4deg]"
               />
               
               {/* Floating Widget (Neobrutalism) */}
@@ -182,14 +181,14 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
-                className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-[#DAE69A] border-[3px] border-black p-3 shadow-[6px_6px_0_0_#0F0F12] -rotate-3 z-20 hidden sm:flex items-center gap-3 group-hover:-translate-y-2 group-hover:rotate-0 transition-all duration-300"
+                className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-[#121212] text-white border-[3px] border-black p-3 shadow-[6px_6px_0_0_#FFDE4D] skew-x-[-12deg] z-20 hidden sm:flex items-center gap-3 group-hover:-translate-y-2 transition-all duration-300"
               >
-                <div className="bg-white rounded-full border-2 border-black w-10 h-10 flex items-center justify-center text-xl shadow-[2px_2px_0_0_#000]">
-                  📉
+                <div className="bg-[#FFDE4D] text-[#0F0F12] border-2 border-black w-10 h-10 flex items-center justify-center text-xl shadow-[2px_2px_0_0_#000] skew-x-[12deg]">
+                  <span className="font-['Space_Grotesk'] font-black italic">+</span>
                 </div>
-                <div>
-                  <p className="font-['Bricolage_Grotesque',_sans-serif] font-black leading-none text-sm uppercase">{t('home.widgetTitle')}</p>
-                  <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xs">{t('home.widgetDesc')}</p>
+                <div className="skew-x-[12deg]">
+                  <p className="font-['Bricolage_Grotesque',_sans-serif] italic font-black leading-none text-sm uppercase">{t('home.widgetTitle')}</p>
+                  <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xs opacity-80">{t('home.widgetDesc')}</p>
                 </div>
               </motion.div>
             </div>
@@ -215,10 +214,10 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       {/* 1.5 LA MISSIONE */}
       <section className="w-full bg-[#3B4A6B] py-24 px-4 text-center relative text-white border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-8 mb-16">
         <div className="max-w-5xl mx-auto relative z-10">
-           <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[2px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm rounded-full mb-12">
-             La Nostra Missione
+           <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-12 skew-btn">
+             <span className="skew-btn-content italic">La Nostra Missione</span>
            </div>
-           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>
+           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black italic uppercase leading-[0.9] tracking-tighter mb-10" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>
              BAB è la tua coach<br className="hidden sm:block"/> fuori dal campo.
            </h2>
            <p className="font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#FFDE4D] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
@@ -233,66 +232,56 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       </section>
 
       {/* 2. BIVIO SCELTA (IL MODELLO FINANZ) */}
-      <section className="w-full max-w-5xl px-4 py-16 mx-auto mb-16 relative text-[#0F0F12]">
-        <div className="flex justify-center mb-16 relative z-10">
-          <div className="relative inline-block -rotate-1 hover:rotate-0 transition-transform">
-            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPjxyZWN0IHdpZHRoPSI0IiBoZWlnaHQ9IjQiIGZpbGw9IiMwMCIvPjxyZWN0IHg9IjQiIHk9IjQiIHdpZHRoPSI0IiBoZWlnaHQ9IjQiIGZpbGw9IiMwMCIvPjwvc3ZnPg==')] -m-2 shadow-[6px_6px_0_0_#0F0F12] border-[3px] border-black"></div>
-            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black text-center uppercase tracking-tighter bg-white border-[3px] border-black px-6 py-2 relative text-[#0F0F12] m-0 marker-circle">
-              {t('home.costBadge')}
-            </h2>
-          </div>
-        </div>
-        
-        {/* Doodle connector between cards */}
-        <svg className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-32 h-32 text-black opacity-30 z-0 hidden sm:block" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 50 Q 50 10 90 50 T 10 50" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" strokeDasharray="8 8"/>
-        </svg>
-
-        <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 w-full relative z-10 text-[#0F0F12]">
-          {/* Vecchio Metodo */}
-          <div 
-            onClick={() => setBivioState('vecchio')}
-            className={`flex-1 transition-all cursor-pointer relative p-2 md:p-3 border-[4px] border-black ${bivioState === 'vecchio' ? 'bg-[#0F0F12] shadow-[8px_8px_0_0_#0F0F12] rotate-0 scale-100 z-10' : 'bg-neutral-300 shadow-[4px_4px_0_0_#0F0F12] -rotate-2 scale-95 opacity-80 hover:opacity-100 hover:rotate-0'}`}
-          >
-            <div className={`h-full p-6 sm:p-8 border-[3px] border-black ${bivioState === 'vecchio' ? 'bg-[#FAF9F6]' : 'bg-white'}`}>
-              <div className="flex justify-between items-center mb-8 border-b-[3px] border-black pb-4 relative">
-                {/* Due graffette nere come "staples" */}
-                <div className="absolute -top-10 left-4 w-2 h-8 bg-black opacity-80 rotate-12"></div>
-                <div className="absolute -top-10 left-12 w-2 h-8 bg-black opacity-80 rotate-6"></div>
-                <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase tracking-tight">{t('home.oldMethod')}</h3>
-                <span className="text-4xl">❌</span>
-              </div>
-              <ul className="space-y-6 font-bold text-lg">
-                <li className="flex gap-4"><span className="text-[#FF5722] font-black">1.</span> {t('home.old1')}</li>
-                <li className="flex gap-4"><span className="text-[#FF5722] font-black">2.</span> {t('home.old2')}</li>
-                <li className="flex gap-4"><span className="text-[#FF5722] font-black">3.</span> {t('home.old3')}</li>
-              </ul>
+      <section className="w-full px-4 py-24 mb-16 relative bg-[#121212] text-white border-y-[4px] border-black shadow-[0_8px_0_0_#FFDE4D]">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex justify-center mb-16 relative z-10">
+            <div className="relative inline-block skew-btn">
+              <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black italic text-center uppercase tracking-tighter bg-[#FFDE4D] border-[4px] border-black px-8 py-3 relative text-[#0F0F12] m-0 shadow-[8px_8px_0_0_#34BBC0]">
+                <span className="skew-btn-content pr-2">{t('home.costBadge')}</span>
+              </h2>
             </div>
           </div>
-
-          {/* Metodo BAB */}
-          <div 
-            onClick={() => setBivioState('bab')}
-            className={`flex-1 transition-all duration-500 cursor-pointer relative p-2 md:p-3 border-[4px] border-black ${bivioState === 'bab' ? 'bg-[#0F0F12] shadow-[8px_8px_0_0_#0F0F12] rotate-1 scale-100 z-10' : 'bg-neutral-300 shadow-[4px_4px_0_0_#0F0F12] rotate-3 scale-95 opacity-80 hover:opacity-100 hover:scale-[0.98] hover:rotate-1'}`}
-          >
-            <div className={`h-full p-6 sm:p-8 border-[3px] border-black flex flex-col justify-between ${bivioState === 'bab' ? 'bg-[#FAF9F6]' : 'bg-white'}`}>
-              <div className="relative">
-                {/* Paperclip abstraction */}
-                <div className="absolute -top-12 right-4 w-5 h-16 border-[4px] border-black rounded-full bg-transparent"></div>
-                <div className="flex justify-between items-center mb-8 border-b-[3px] border-black pb-4">
-                  <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase tracking-tight text-[#0F0F12]">{t('home.babMethod')}</h3>
-                  <span className={`text-4xl transition-transform duration-500 ${bivioState === 'bab' ? 'scale-125 rotate-12' : ''}`}>🎯</span>
+          
+          <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 w-full relative z-10 text-[#0F0F12]">
+            {/* Vecchio Metodo */}
+            <div 
+              onClick={() => setBivioState('vecchio')}
+              className={`flex-1 transition-all cursor-pointer relative p-2 md:p-3 border-[4px] border-black ${bivioState === 'vecchio' ? 'bg-[#FFDE4D] shadow-[8px_8px_0_0_#FFDE4D] scale-100 z-10' : 'bg-[#3B4A6B] shadow-[4px_4px_0_0_#0F0F12] scale-95 opacity-80 hover:opacity-100'}`}
+            >
+              <div className={`h-full p-6 sm:p-8 border-[3px] border-black crosshairs ${bivioState === 'vecchio' ? 'bg-[#FAF9F6]' : 'bg-[#121212] text-white'}`}>
+                <div className="flex justify-between items-center mb-8 border-b-[3px] border-current pb-4">
+                  <h3 className="font-['Bricolage_Grotesque',_sans-serif] italic text-3xl font-black uppercase tracking-tight">{t('home.oldMethod')}</h3>
                 </div>
-                <ul className="space-y-6 font-bold text-lg mb-8">
-                  <li className="flex gap-4 items-center"><span className="text-[#FFDE4D] drop-shadow-[2px_2px_0_#0F0F12] font-black text-2xl">✓</span> {t('home.bab1')}</li>
-                  <li className="flex gap-4 items-center"><span className="text-[#FFDE4D] drop-shadow-[2px_2px_0_#0F0F12] font-black text-2xl">✓</span> {t('home.bab2')}</li>
-                  <li className="flex gap-4 items-center"><span className="text-[#FFDE4D] drop-shadow-[2px_2px_0_#0F0F12] font-black text-2xl">✓</span> {t('home.bab3')}</li>
+                <ul className="space-y-6 font-bold text-lg">
+                  <li className="flex gap-4"><span className="text-[#FF5722] font-black italic">01.</span> {t('home.old1')}</li>
+                  <li className="flex gap-4"><span className="text-[#FF5722] font-black italic">02.</span> {t('home.old2')}</li>
+                  <li className="flex gap-4"><span className="text-[#FF5722] font-black italic">03.</span> {t('home.old3')}</li>
                 </ul>
               </div>
-              
-              <div className={`flex flex-col sm:flex-row gap-4 mt-auto transition-all duration-500 origin-top ${bivioState === 'bab' ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
-                 <a href="#/app" className="y2k-btn bg-white text-xs text-center flex-1 hover:bg-[#FFDE4D] transition-colors duration-300">{t('home.testAppBtn')}</a>
-                 <a href="#/coach" className="y2k-btn bg-white text-xs text-center flex-1 hover:bg-[#FFDE4D] transition-colors duration-300">{t('home.testCoachBtn')}</a>
+            </div>
+
+            {/* Metodo BAB */}
+            <div 
+              onClick={() => setBivioState('bab')}
+              className={`flex-1 transition-all duration-500 cursor-pointer relative p-2 md:p-3 border-[4px] border-black ${bivioState === 'bab' ? 'bg-[#FFDE4D] shadow-[8px_8px_0_0_#FFDE4D] scale-100 z-10' : 'bg-[#3B4A6B] shadow-[4px_4px_0_0_#0F0F12] scale-95 opacity-80 hover:opacity-100 hover:scale-[0.98]'}`}
+            >
+              <div className={`h-full p-6 sm:p-8 border-[3px] border-black flex flex-col justify-between crosshairs ${bivioState === 'bab' ? 'bg-[#FAF9F6] text-[#0F0F12]' : 'bg-[#121212] text-white'}`}>
+                <div>
+                  <div className="flex justify-between items-center mb-8 border-b-[3px] border-current pb-4 relative">
+                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl italic font-black uppercase tracking-tight relative z-10 bg-inherit pr-4">{t('home.babMethod')}</h3>
+                    <div className="telemetry-line"></div>
+                  </div>
+                  <ul className="space-y-6 font-bold text-lg mb-8">
+                    <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black italic text-2xl">SYS.</span> {t('home.bab1')}</li>
+                    <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black italic text-2xl">OP.</span> {t('home.bab2')}</li>
+                    <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black italic text-2xl">LOG.</span> {t('home.bab3')}</li>
+                  </ul>
+                </div>
+                
+                <div className={`flex flex-col sm:flex-row gap-4 mt-auto transition-all duration-500 origin-top ${bivioState === 'bab' ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
+                   <a href="#/app" className="y2k-btn bg-[#FFDE4D] text-[#0F0F12] text-xs text-center flex-1 transition-colors duration-300 italic skew-btn"><span className="skew-btn-content">{t('home.testAppBtn')}</span></a>
+                   <a href="#/coach" className="y2k-btn bg-[#FFDE4D] text-[#0F0F12] text-xs text-center flex-1 transition-colors duration-300 italic skew-btn"><span className="skew-btn-content">{t('home.testCoachBtn')}</span></a>
+                </div>
               </div>
             </div>
           </div>
@@ -307,50 +296,49 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       </div>
 
       {/* 3. DATA THAT BREAK BARRIERS */}
-      <section className="w-full bg-[#EBE5FF] border-y-[4px] border-black py-20 px-4 my-16 relative overflow-hidden text-[#0F0F12]">
+      <section className="w-full bg-[#EBE5FF] border-y-[4px] border-black py-20 px-4 my-16 relative overflow-hidden text-[#0F0F12] grid-pattern">
         <div className="max-w-5xl mx-auto relative z-10 flex flex-col md:flex-row gap-12 items-center">
           <div className="flex-1">
-            <div className="inline-block bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-8 relative">
-              <div className="coffee-stain -top-6 -right-12 opacity-60"></div>
-              {t('home.dataBadge')}
+            <div className="inline-block bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-8 relative skew-btn">
+              <span className="skew-btn-content italic">{t('home.dataBadge')}</span>
             </div>
             <h2 
-              className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black leading-tight uppercase mb-6 tracking-tighter"
+              className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl italic font-black leading-tight uppercase mb-6 tracking-tighter"
               dangerouslySetInnerHTML={{__html: t('home.dataTitle')}}
             />
             <p className="text-xl font-bold mb-8 max-w-3xl text-[#0F0F12]">{t('home.dataSubtitle')}</p>
           </div>
           
           <div className="w-full md:w-1/3 shrink-0 hidden md:block">
-            <img 
-              src="/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif" 
-              alt="Atleta BAB" 
-              className="w-full aspect-square object-cover border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] rotate-3 grayscale hover:grayscale-0 transition-all duration-300" 
-            />
+            <div className="w-full aspect-square border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] skew-x-[4deg] crosshairs relative overflow-hidden bg-white">
+              <img 
+                src="/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif" 
+                alt="Atleta BAB" 
+                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300 skew-x-[-4deg] scale-110" 
+              />
+            </div>
           </div>
         </div>
         
         <div className="max-w-5xl mx-auto mt-12 relative z-10 text-[#0F0F12]">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6 relative">
-            {/* SVG Zigzag Connector */}
-            <svg className="absolute top-1/2 left-0 w-full h-8 -translate-y-1/2 text-[#0F0F12] opacity-30 -z-10 hidden sm:block" viewBox="0 0 100 20" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 10 L 20 0 L 40 20 L 60 0 L 80 20 L 100 10" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            
-            <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] rotate-1 relative">
-               <div className="washi-tape washi-yellow w-12 -top-3 left-6 -rotate-6"></div>
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#FFDE4D] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data1Val')}</span>
-               <p className="font-bold uppercase text-sm tracking-tight">{t('home.data1Desc')}</p>
+            <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] relative crosshairs skew-x-[-6deg]">
+               <div className="skew-x-[6deg]">
+                 <span className="font-['Space_Grotesk',_sans-serif] text-7xl font-black italic text-[#FFDE4D] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data1Val')}</span>
+                 <p className="font-bold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data1Desc')}</p>
+               </div>
             </div>
-            <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] -rotate-2 relative">
-               <div className="washi-tape washi-peach w-12 -bottom-3 right-6 rotate-6"></div>
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#3B4A6B] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data2Val')}</span>
-               <p className="font-bold uppercase text-sm tracking-tight">{t('home.data2Desc')}</p>
+            <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] relative crosshairs skew-x-[-6deg]">
+               <div className="skew-x-[6deg]">
+                 <span className="font-['Space_Grotesk',_sans-serif] text-7xl font-black italic text-[#3B4A6B] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data2Val')}</span>
+                 <p className="font-bold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data2Desc')}</p>
+               </div>
             </div>
-            <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] rotate-2 relative">
-               <div className="washi-tape washi-purple w-12 -top-3 left-1/2 -translate-x-1/2 rotate-1"></div>
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#DAE69A] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data3Val')}</span>
-               <p className="font-bold uppercase text-sm tracking-tight">{t('home.data3Desc')}</p>
+            <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] relative crosshairs skew-x-[-6deg]">
+               <div className="skew-x-[6deg]">
+                 <span className="font-['Space_Grotesk',_sans-serif] text-7xl font-black italic text-[#34BBC0] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data3Val')}</span>
+                 <p className="font-bold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data3Desc')}</p>
+               </div>
             </div>
           </div>
         </div>
@@ -389,19 +377,16 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           className="w-full flex overflow-x-auto snap-x snap-mandatory gap-6 px-4 md:px-12 pb-12 pt-8 hide-scrollbar scroll-smooth"
         >
           {testimonials.map((t, i) => {
-            const rotations = ['-rotate-2', 'rotate-1', '-rotate-1', 'rotate-2'];
-            const tapes = ['washi-yellow', 'washi-peach', 'washi-purple', 'washi-lime'];
             return (
-              <div key={i} className={`snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between ${t.color} text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform ${rotations[i % 4]} hover:rotate-0 hover:-translate-y-2`}>
-                <div className={`washi-tape ${tapes[i % 4]} w-24 -top-3 left-1/2 -translate-x-1/2`}></div>
-                <p className="text-base sm:text-lg font-bold leading-relaxed mb-8 border-l-[4px] border-black pl-4 sm:pl-6 relative">
+              <div key={i} className={`snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between ${t.color} text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform skew-x-[-2deg] crosshairs hover:-translate-y-2`}>
+                <div className="telemetry-line"></div>
+                <p className="text-base sm:text-lg font-bold leading-relaxed mb-8 border-l-[4px] border-black pl-4 sm:pl-6 relative skew-x-[2deg]">
                   <span className="absolute -left-3 -top-3 text-4xl opacity-20 font-serif font-black">"</span>
                   {t.quote}
-                  <span className="absolute -bottom-6 right-0 text-4xl opacity-20 font-serif font-black">"</span>
                 </p>
-                <div className="border-t-[3px] border-black pt-4 mt-auto">
-                  <h4 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl font-black uppercase leading-none mb-1">{t.name}</h4>
-                  <p className="text-xs font-black uppercase tracking-widest opacity-80">{t.role}</p>
+                <div className="border-t-[3px] border-black pt-4 mt-auto skew-x-[2deg]">
+                  <h4 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl font-black italic uppercase leading-none mb-1">{t.name}</h4>
+                  <p className="text-xs font-black italic uppercase tracking-widest opacity-80">{t.role}</p>
                 </div>
               </div>
             );
@@ -427,26 +412,24 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           <path fill="#FFDE4D" d="M10 50 Q 50 0 150 50 T 190 50 Q 100 100 10 50 Z" />
         </svg>
 
-        <div className="mb-16 inline-block bg-white border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-12 relative">
-          {/* Folded paper corner effect */}
-          <div className="absolute top-0 right-0 w-12 h-12 border-b-[4px] border-l-[4px] border-black bg-[#EBE5FF] shadow-[-4px_4px_0_0_rgba(15,15,18,0.1)]"></div>
+        <div className="mb-16 inline-block bg-white border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-12 relative skew-x-[-6deg] crosshairs">
           <h2 
-            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-tight text-[#3B4A6B] tracking-tighter" 
+            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black italic uppercase leading-tight text-[#3B4A6B] tracking-tighter skew-x-[6deg]" 
             style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}
             dangerouslySetInnerHTML={{__html: t('home.footerTitle')}}
           />
         </div>
 
-        <div className="bg-white text-[#0F0F12] border-[4px] border-black p-8 sm:p-12 text-left shadow-[8px_8px_0_0_#0F0F12] relative max-w-3xl mx-auto">
-           {/* Minimalist staple */}
-           <div className="absolute top-4 right-8 w-8 h-2 bg-black opacity-80 rotate-2"></div>
-           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-white inline-block px-4 py-2 tracking-tight">{t('home.privacyTitle')}</h3>
-           <p className="font-bold text-lg leading-relaxed mb-6">
+        <div className="bg-white text-[#0F0F12] border-[4px] border-black p-8 sm:p-12 text-left shadow-[8px_8px_0_0_#0F0F12] relative max-w-3xl mx-auto skew-x-[-2deg] crosshairs">
+           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black italic uppercase mb-6 bg-black text-[#FFDE4D] inline-block px-4 py-2 tracking-tight skew-btn"><span className="skew-btn-content">{t('home.privacyTitle')}</span></h3>
+           <p className="font-bold text-lg leading-relaxed mb-6 skew-x-[2deg]">
              {t('home.privacy1')}
            </p>
-           <p className="font-bold text-lg leading-relaxed bg-[#EBE5FF] border-[3px] border-black p-4 rotate-1 shadow-[4px_4px_0_0_#0F0F12]">
-             {t('home.privacy2')}
-           </p>
+           <div className="skew-x-[2deg]">
+             <p className="font-bold text-lg leading-relaxed bg-[#EBE5FF] border-[3px] border-black p-4 shadow-[4px_4px_0_0_#0F0F12] border-l-[8px] border-l-[#34BBC0]">
+               {t('home.privacy2')}
+             </p>
+           </div>
         </div>
 
         <div className="mt-20 border-t-[3px] border-black/20 pt-12 border-dashed flex flex-col items-center gap-6 relative text-center">

@@ -48,14 +48,14 @@ export default function FAQ() {
   return (
     <section className="w-full max-w-4xl mx-auto px-4 py-16 md:py-24">
       <div className="flex flex-col items-center mb-12 text-center">
-        <span className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black font-black text-xs sm:text-sm tracking-widest uppercase mb-4 px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] rotate-1">
-          ✦ F.A.Q. ✦
+        <span className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black font-black text-xs sm:text-sm tracking-widest uppercase mb-4 px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] skew-x-[-12deg]">
+          <span className="block skew-x-[12deg]">✦ F.A.Q. ✦</span>
         </span>
         <h2 
-          className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-none text-[#FFDE4D] tracking-tighter drop-shadow-[4px_4px_0_rgba(15,15,18,1)]"
+          className="font-['Bricolage_Grotesque',_sans-serif] italic text-4xl sm:text-6xl font-black uppercase leading-none text-[#FFDE4D] tracking-tighter drop-shadow-[4px_4px_0_rgba(15,15,18,1)] skew-x-[-6deg]"
           style={{ WebkitTextStroke: '2px #0F0F12' }}
         >
-          Domande<br/>Frequenti
+          <span className="block skew-x-[6deg]">Domande<br/>Frequenti</span>
         </h2>
       </div>
 
@@ -64,15 +64,15 @@ export default function FAQ() {
           const isOpen = openIndex === index;
           const isDarkTheme = faq.color === 'bg-[#34BBC0]';
           return (
-            <div key={index} className="bg-[#0F0F12] p-1.5 md:p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 transition-transform">
+            <div key={index} className="bg-[#0F0F12] p-1.5 md:p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 transition-transform skew-x-[-2deg] crosshairs">
               <div 
-                className={`border-[3px] border-black overflow-hidden transition-all duration-300 h-full ${isOpen ? faq.color : 'bg-white hover:bg-neutral-50 hover:text-[#FF5722] text-[#0F0F12]'}`}
+                className={`border-[3px] border-black overflow-hidden transition-all duration-300 h-full skew-x-[2deg] ${isOpen ? faq.color : 'bg-white hover:bg-neutral-50 hover:text-[#FF5722] text-[#0F0F12]'}`}
               >
                 <button
                   onClick={() => toggleFaq(index)}
                   className="w-full flex items-center justify-between p-4 sm:p-6 text-left focus:outline-none"
                 >
-                  <h3 className={`font-['Bricolage_Grotesque',_sans-serif] text-xl sm:text-2xl font-black pr-4 ${isOpen && isDarkTheme ? 'text-white' : 'text-black'}`}>
+                  <h3 className={`font-['Bricolage_Grotesque',_sans-serif] italic text-xl sm:text-2xl font-black pr-4 ${isOpen && isDarkTheme ? 'text-white' : 'text-black'}`}>
                     {faq.question}
                   </h3>
                   <motion.div
@@ -80,7 +80,7 @@ export default function FAQ() {
                     transition={{ type: "spring", stiffness: 200, damping: 20 }}
                     className={`w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border-[2px] sm:border-[3px] shrink-0 ${isOpen && isDarkTheme ? 'border-white bg-white text-black' : isOpen ? 'border-black bg-black text-white' : 'border-black bg-white text-black'}`}
                   >
-                    <span className="font-['Space_Grotesk',_sans-serif] font-black text-xl leading-none">
+                    <span className="font-['Space_Grotesk',_sans-serif] font-black italic text-xl leading-none">
                       {isOpen ? '−' : '+'}
                     </span>
                   </motion.div>
@@ -94,7 +94,7 @@ export default function FAQ() {
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3, ease: "easeInOut" }}
                     >
-                      <div className={`p-4 sm:p-6 pt-0 border-t-[3px] font-bold text-base sm:text-lg leading-relaxed ${isDarkTheme ? 'text-white border-white' : 'text-black border-black'}`}>
+                      <div className={`p-4 sm:p-6 pt-0 border-t-[3px] font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg leading-relaxed ${isDarkTheme ? 'text-white border-white' : 'text-black border-black'}`}>
                         {faq.answer}
                       </div>
                     </motion.div>

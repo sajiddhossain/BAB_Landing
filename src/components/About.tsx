@@ -30,12 +30,11 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             
             <div className="flex-1 text-center md:text-left">
-              <span className="inline-block bg-[#DAE993] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] -rotate-1 relative">
-                ✦ The Mission ✦
-                <div className="coffee-stain -top-12 -left-16 opacity-40"></div>
+              <span className="inline-block bg-[#DAE993] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] skew-x-[-12deg] relative">
+                <span className="block skew-x-[12deg]">✦ The Mission ✦</span>
               </span>
               <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6">
-                <span className="marker-underline">Redefining</span><br/>Girls' Sport
+                <span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">Redefining</span><br/>Girls' Sport
               </h1>
               <p className="font-bold text-lg leading-relaxed border-l-[4px] border-black pl-4">
                 Non possiamo più accettare che le atlete siano trattate come "piccoli uomini". Costruiamo lo standard di domani, combinando scienza, dati biologici e tecnologia empatica.
@@ -43,7 +42,7 @@ export default function About() {
             </div>
             
             <div className="flex-1 w-full">
-              <div className="bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#0F0F12] rotate-2">
+              <div className="bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#0F0F12] skew-x-[-2deg]">
                 <img 
                   src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
                   alt="Atlete BAB" 
@@ -60,9 +59,8 @@ export default function About() {
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc0JyBoZWlnaHQ9JzQnPjxyZWN0IHdpZHRoPSc0JyBoZWlnaHQ9JzQnIGZpbGw9JyNmZmYnLz48cmVjdCB3aWR0aD0nMScgaGVpZ2h0PScxJyBmaWxsPScjY2NjJy8+PC9zdmc+')] opacity-50 -z-10"></div>
 
           <div className="text-center mb-16 relative">
-            <div className="coffee-stain -top-8 -right-4 opacity-50 z-0"></div>
-            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black uppercase inline-block bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-8 py-3 shadow-[8px_8px_0_0_#0F0F12] -rotate-2 relative z-10">
-              ✦ The Story of Mia ✦
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black uppercase inline-block bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-8 py-3 shadow-[8px_8px_0_0_#0F0F12] skew-x-[-6deg] relative z-10">
+              <span className="block skew-x-[6deg]">✦ The Story of Mia ✦</span>
             </h2>
           </div>
           
@@ -70,13 +68,12 @@ export default function About() {
             
             {/* Pezzo 1 */}
             <motion.div 
-              initial={{ opacity: 0, y: 30, rotate: -3 }}
-              whileInView={{ opacity: 1, y: 0, rotate: -1 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1] }}
-              className="relative self-start w-11/12 sm:w-4/5 hover:rotate-0 transition-transform"
+              className="relative self-start w-11/12 sm:w-4/5 transition-transform"
             >
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-6 bg-[#34BBC0] opacity-80 border-2 border-black rotate-3 z-10"></div>
               <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
                 <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 h-full">
                   At thirteen, Mia's body no longer felt like home. She had grown taller in a matter of months, and before she understood what was happening, hormones had changed more than just her body. They changed how she played and how she felt while doing it.
@@ -84,20 +81,17 @@ export default function About() {
               </div>
             </motion.div>
 
-            {/* Doodle Separator */}
-            <svg width="60" height="20" viewBox="0 0 60 20" className="text-black opacity-40">
-              <path d="M0 10 Q 15 0, 30 10 T 60 10" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-            </svg>
+            {/* Telemetry Line */}
+            <div className="h-4 w-12 border-l-[3px] border-r-[3px] border-black/40 skew-x-[-12deg]"></div>
 
             {/* Pezzo 2 */}
             <motion.div 
-              initial={{ opacity: 0, y: 30, rotate: 5 }}
-              whileInView={{ opacity: 1, y: 0, rotate: 2 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1], delay: 0.1 }}
-              className="relative self-end w-11/12 sm:w-4/5 hover:rotate-0 transition-transform"
+              className="relative self-end w-11/12 sm:w-4/5 transition-transform"
             >
-              <div className="absolute -top-3 left-8 w-12 h-5 bg-[#FFDE4D] opacity-90 border-2 border-black -rotate-6 z-10"></div>
               <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
                 <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 h-full">
                   Pushing through period symptoms, fatigue and hunger, she learned that <span className="font-['Bricolage_Grotesque',_sans-serif] bg-black text-white px-2 italic uppercase">"no pain is no gain"</span>. Disconnecting from her body became her winning strategy.
@@ -107,14 +101,13 @@ export default function About() {
 
             {/* POLAROID */}
             <motion.div 
-              initial={{ opacity: 0, scale: 0.9, rotate: -10 }}
-              whileInView={{ opacity: 1, scale: 1, rotate: 3 }}
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.8, ease: [0.32, 0.72, 0, 1], delay: 0.2 }}
-              className="relative w-64 sm:w-80 hover:rotate-6 transition-all duration-300 my-4 shadow-[12px_12px_0_0_#0F0F12] border-[4px] border-black bg-black group z-10 p-2"
+              className="relative w-64 sm:w-80 my-4 shadow-[12px_12px_0_0_#0F0F12] border-[4px] border-black bg-black group z-10 p-2 skew-x-[-2deg]"
             >
-              <div className="absolute -top-4 right-8 w-20 h-6 bg-[#0F0F12] opacity-80 -rotate-2 z-20 border-[2px] border-white/20"></div>
-              <div className="bg-white p-2 sm:p-3 border-[3px] border-black">
+              <div className="bg-white p-2 sm:p-3 border-[3px] border-black skew-x-[2deg]">
                 <img src="/fotobab/mia.avif" alt="Mia" className="w-full aspect-square object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500" />
                 <div className="p-4 font-['Bricolage_Grotesque',_sans-serif] text-center font-black uppercase text-xl text-neutral-400">Mia, 13</div>
               </div>
@@ -122,13 +115,12 @@ export default function About() {
 
             {/* Pezzo 3 */}
             <motion.div 
-              initial={{ opacity: 0, y: 30, rotate: -5 }}
-              whileInView={{ opacity: 1, y: 0, rotate: -2 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1], delay: 0.3 }}
-              className="relative self-start w-11/12 sm:w-4/5 hover:rotate-0 transition-transform"
+              className="relative self-start w-11/12 sm:w-4/5 transition-transform"
             >
-              <div className="absolute -top-3 right-1/4 w-16 h-6 bg-[#DAE993] opacity-90 border-2 border-black rotate-6 z-10"></div>
               <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
                 <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 h-full">
                   Soon, injuries and anxiety started creeping in and her performance began to drop. And because no one talked about any of it, Mia kept quiet and started questioning whether she was no longer made for sport.
@@ -136,10 +128,8 @@ export default function About() {
               </div>
             </motion.div>
 
-            {/* Doodle Separator */}
-            <svg width="40" height="40" viewBox="0 0 40 40" className="text-black opacity-40">
-              <path d="M20 0 L25 15 L40 20 L25 25 L20 40 L15 25 L0 20 L15 15 Z" fill="currentColor" />
-            </svg>
+            {/* Telemetry Line */}
+            <div className="h-4 w-12 border-l-[3px] border-r-[3px] border-black/40 skew-x-[12deg]"></div>
 
             {/* Pezzo 4 (Risoluzione) */}
             <motion.div 
@@ -147,9 +137,8 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.8, ease: [0.32, 0.72, 0, 1], delay: 0.4 }}
-              className="relative w-full rotate-1 hover:-rotate-1 transition-transform"
+              className="relative w-full skew-x-[-2deg] transition-transform"
             >
-              <div className="absolute top-1/2 -left-4 -translate-y-1/2 w-8 h-16 bg-[#FFDE4D] opacity-90 z-10 border-2 border-black hidden sm:block"></div>
               <div className="bg-[#DAE69A] p-2 md:p-3 border-[4px] border-black shadow-[8px_8px_0_0_#000]">
                 <div className="bg-[#0F0F12] text-white border-[3px] border-black p-8 sm:p-10 h-full">
                   But it wasn't Mia who had fallen behind. <span className="underline decoration-4 underline-offset-4 decoration-[#FFDE4D]">It was sport that failed her</span> by neglecting her changing body, health and wellbeing.
@@ -166,39 +155,38 @@ export default function About() {
             </svg>
 
             <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[4px_4px_0_rgba(0,0,0,1)] text-[#FFDE4D]">
-              Without<br/>Women's <span className="marker-circle text-white">Health</span><br/>There Is No<br/><span className="marker-underline">Women's Sport</span>
+              Without<br/>Women's <span className="underline decoration-[#DAE69A] decoration-8 underline-offset-4 text-white">Health</span><br/>There Is No<br/><span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">Women's Sport</span>
             </h3>
             <div className="mt-12 relative">
-              <div className="coffee-stain -top-10 -right-20 opacity-30"></div>
-              <p className="font-['Space_Grotesk',_sans-serif] font-black text-sm sm:text-xl bg-black text-white inline-block px-6 sm:px-8 py-3 rotate-2 shadow-[6px_6px_0_0_#34BBC0]">
-                Just like Mia, several athletes pay the cost of bleeding in sport
+              <p className="font-['Space_Grotesk',_sans-serif] font-black italic text-sm sm:text-xl bg-black text-white inline-block px-6 sm:px-8 py-3 skew-x-[-12deg] shadow-[6px_6px_0_0_#34BBC0]">
+                <span className="block skew-x-[12deg]">Just like Mia, several athletes pay the cost of bleeding in sport</span>
               </p>
             </div>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl font-black text-[#FFDE4D] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>20%</span>
+               <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#FFDE4D] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>20%</span>
                <p className="font-bold uppercase text-xs sm:text-sm">feel judged or unsupported by coaches during their period</p>
             </div>
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl font-black text-[#FFDE4D] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>93%</span>
+               <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#FFDE4D] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>93%</span>
                <p className="font-bold uppercase text-xs sm:text-sm">report a negative period-related experience in sport</p>
             </div>
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl font-black text-[#DAE69A] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>77%</span>
+               <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#DAE69A] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>77%</span>
                <p className="font-bold uppercase text-xs sm:text-sm">say menstrual symptoms affect performance</p>
             </div>
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl font-black text-[#DAE69A] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>73%</span>
+               <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#DAE69A] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>73%</span>
                <p className="font-bold uppercase text-xs sm:text-sm">feel pressured to push through period pain</p>
             </div>
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl font-black text-[#34BBC0] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>84%</span>
+               <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#34BBC0] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>84%</span>
                <p className="font-bold uppercase text-xs sm:text-sm">ignore period pain as their main coping mechanism</p>
             </div>
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl font-black text-[#34BBC0] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>36%</span>
+               <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#34BBC0] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>36%</span>
                <p className="font-bold uppercase text-xs sm:text-sm">believes missing periods during competition is normal</p>
             </div>
           </div>
@@ -215,14 +203,14 @@ export default function About() {
               <img 
                 src="/fotobab/GaiaManzone.avif" 
                 alt="Gaia Manzone, CEO & Founder" 
-                className="w-full aspect-[4/5] object-cover object-top border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] rotate-2 hover:rotate-0 transition-transform duration-300"
+                className="w-full aspect-[4/5] object-cover object-top border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] skew-x-[-2deg] transition-transform duration-300"
               />
             </div>
 
             {/* Testi e badge a destra */}
             <div className="flex-1 bg-white border-[4px] border-black p-6 sm:p-8 shadow-[8px_8px_0_0_#000] w-full">
                <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-4xl font-black mb-2 uppercase">Gaia Manzone</h3>
-               <span className="inline-block bg-black text-white text-xs sm:text-sm font-black uppercase tracking-widest px-3 py-1 mb-6 -rotate-1">CEO & Founder</span>
+               <span className="inline-block bg-black text-white text-xs sm:text-sm font-black uppercase tracking-widest px-3 py-1 mb-6 skew-x-[-12deg]"><span className="block skew-x-[12deg]">CEO & Founder</span></span>
                
                {/* ELEMENTI DI AUTORITÀ (Space Grotesk) */}
                <div className="flex flex-col gap-3 mb-8 font-['Space_Grotesk',_sans-serif]">
@@ -242,8 +230,8 @@ export default function About() {
                  <p className="text-[#34BBC0]">
                    "Dopo aver lavorato per anni nel marketing di colossi come Adidas e Puma, studiando l'impatto dello sport sulle community e le barriere che affrontano le giovani atlete, ho capito che il vuoto scientifico e comunicativo per le ragazze under 18 è strutturale."
                  </p>
-                 <p className="bg-black text-white p-4 shadow-[4px_4px_0_0_#FFDE4D] rotate-1 mt-4">
-                   "BAB è lo scudo tecnologico che avrei voluto avere io stessa per non sentirmi sbagliata sul campo."
+                 <p className="bg-black text-white p-4 shadow-[4px_4px_0_0_#FFDE4D] skew-x-[-2deg] mt-4">
+                   <span className="block skew-x-[2deg]">"BAB è lo scudo tecnologico che avrei voluto avere io stessa per non sentirmi sbagliata sul campo."</span>
                  </p>
                </div>
             </div>
@@ -260,9 +248,6 @@ export default function About() {
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {images.slice(0, 6).map((img, index) => {
-              const bgColors = ['bg-[#FAF9F6]', 'bg-[#FAF9F6]', 'bg-[#FAF9F6]', 'bg-[#FAF9F6]', 'bg-[#FAF9F6]', 'bg-[#FAF9F6]'];
-              const rotations = ['rotate-2', '-rotate-3', 'rotate-3', '-rotate-2', 'rotate-1', '-rotate-1'];
-              
               return (
                 <motion.div 
                   key={index} 
@@ -270,9 +255,9 @@ export default function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, ease: [0.32, 0.72, 0, 1], delay: index * 0.1 }}
-                  className={`bg-black p-2 border-[4px] border-black shadow-[4px_4px_0_0_#000] md:shadow-[8px_8px_0_0_#000] ${rotations[index % rotations.length]} hover:rotate-0 hover:-translate-y-1 transition-all duration-300 group`}
+                  className={`bg-black p-2 border-[4px] border-black shadow-[4px_4px_0_0_#000] md:shadow-[8px_8px_0_0_#000] skew-x-[-2deg] hover:-translate-y-1 transition-all duration-300 group`}
                 >
-                  <div className={`${bgColors[index % bgColors.length]} p-2 sm:p-3 md:p-4 border-[3px] border-black h-full`}>
+                  <div className={`bg-[#FAF9F6] p-2 sm:p-3 md:p-4 border-[3px] border-black h-full skew-x-[2deg]`}>
                     <img 
                       src={`/fotobab/${img}`} 
                       alt="BAB Community" 

@@ -26,8 +26,8 @@ export default function Features() {
       <div className="max-w-3xl mx-auto w-full">
         
         <div className="text-center mb-20">
-          <span className="inline-block bg-[#EBE5FF] border-[3px] border-black text-[#0F0F12] font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] rotate-1">
-            {t('features.badge')}
+          <span className="inline-block bg-[#EBE5FF] border-[3px] border-black text-[#0F0F12] font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] skew-x-[-12deg]">
+            <span className="block skew-x-[12deg]">{t('features.badge')}</span>
           </span>
           <h1 
             className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(15,15,18,1)] text-[#0F0F12] tracking-tighter"
@@ -43,8 +43,6 @@ export default function Features() {
 
           {modules.map((m, idx) => {
              const bgColors = ['bg-[#FFDE4D]', 'bg-[#EBE5FF]', 'bg-[#FFE3D1]', 'bg-[#DAE69A]', 'bg-[#D1FFEF]'];
-             const rotations = ['-rotate-1', 'rotate-2', '-rotate-2', 'rotate-1', '-rotate-1'];
-             const tapes = ['washi-black', 'washi-peach', 'washi-yellow', 'washi-purple', 'washi-lime'];
              
              return (
                <motion.div 
@@ -53,19 +51,18 @@ export default function Features() {
                  whileInView={{ opacity: 1, y: 0 }}
                  viewport={{ once: true, margin: "-100px" }}
                  transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1], delay: idx * 0.1 }}
-                 className={`w-full relative ${rotations[idx]} z-10 p-2 md:p-3 bg-neutral-300 border-[4px] border-black shadow-[12px_12px_0_0_#0F0F12]`}
+                 className={`w-full relative z-10 p-2 md:p-3 bg-neutral-300 border-[4px] border-black shadow-[12px_12px_0_0_#0F0F12] skew-x-[-2deg]`}
                >
-                 <div className={`flex flex-col gap-6 items-start w-full bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-10 hover:rotate-1 transition-transform duration-300 text-[#0F0F12] h-full`}>
-                   <div className={`washi-tape ${tapes[idx]} w-24 -top-6 left-1/2 -translate-x-1/2`}></div>
+                 <div className={`flex flex-col gap-6 items-start w-full bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-10 text-[#0F0F12] h-full skew-x-[2deg]`}>
                  
                  <div className="flex flex-col sm:flex-row gap-6 items-start w-full">
-                   <div className="bg-white border-[3px] border-black px-6 py-4 flex flex-col items-center justify-center shrink-0 shadow-[4px_4px_0_0_#0F0F12] relative -rotate-2 hover:rotate-0 transition-transform">
+                   <div className="bg-white border-[3px] border-black px-6 py-4 flex flex-col items-center justify-center shrink-0 shadow-[4px_4px_0_0_#0F0F12] relative skew-x-[-6deg]">
                      <div className="absolute top-2 left-2 w-2 h-2 rounded-full border-[2px] border-black bg-neutral-200"></div>
                      <div className="absolute top-2 right-2 w-2 h-2 rounded-full border-[2px] border-black bg-neutral-200"></div>
-                     <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none text-[#0F0F12] tracking-tighter">
+                     <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-7xl font-black italic leading-none text-[#0F0F12] tracking-tighter skew-x-[6deg]">
                        {m.num}
                      </span>
-                     <span className="text-[10px] font-black uppercase tracking-widest border-t-[2px] border-black mt-2 pt-1 w-full text-center">BAB ATHLETE</span>
+                     <span className="text-[10px] font-black uppercase tracking-widest border-t-[2px] border-black mt-2 pt-1 w-full text-center skew-x-[6deg]">BAB ATHLETE</span>
                    </div>
                    <div className="mt-2 w-full">
                      <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl font-black mb-4 uppercase text-[#0F0F12] tracking-tight">{m.title}</h3>
@@ -74,21 +71,21 @@ export default function Features() {
                  </div>
 
                  {m.hasWidget && (
-                   <div className="bg-white border-[4px] border-black p-6 flex flex-col items-center gap-6 shadow-[inset_6px_6px_0_rgba(0,0,0,0.1)] w-full mt-4 rotate-1 relative overflow-hidden">
+                   <div className="bg-white border-[4px] border-black p-6 flex flex-col items-center gap-6 shadow-[inset_6px_6px_0_rgba(0,0,0,0.1)] w-full mt-4 skew-x-[-2deg] relative overflow-hidden">
                       {/* Telemetry Micro-Data */}
-                      <div className="absolute top-3 left-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-[#DAE993] border-[2px] border-black px-1.5 py-0.5">BPM: 142</div>
-                      <div className="absolute top-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-[#34BBC0] text-white border-[2px] border-black px-1.5 py-0.5">ZONA 4</div>
-                      <div className="absolute bottom-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] border-b-[2px] border-black opacity-50">HRV: OK</div>
+                      <div className="absolute top-3 left-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-[#DAE993] border-[2px] border-black px-1.5 py-0.5 skew-x-[2deg]">BPM: 142</div>
+                      <div className="absolute top-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-[#34BBC0] text-white border-[2px] border-black px-1.5 py-0.5 skew-x-[2deg]">ZONA 4</div>
+                      <div className="absolute bottom-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] border-b-[2px] border-black opacity-50 skew-x-[2deg]">HRV: OK</div>
                       
-                      <div className="text-6xl sm:text-8xl font-['Space_Grotesk',_sans-serif] text-black font-black mb-4 tracking-tighter z-10 mt-6 sm:mt-4">
+                      <div className="text-6xl sm:text-8xl font-['Space_Grotesk',_sans-serif] italic text-black font-black mb-4 tracking-tighter z-10 mt-6 sm:mt-4 skew-x-[2deg]">
                         {tamagotchiState === 'active' ? '[ °_° ]✨' : tamagotchiState === 'down' ? '[ =_= ]💤' : '[ °_° ]'}
                       </div>
-                      <div className="flex gap-4">
-                        <button onClick={() => setTamagotchiState('active')} className={`font-black text-xl px-6 py-2 border-[3px] border-black rounded-lg transition-all ${tamagotchiState === 'active' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>A</button>
-                        <button onClick={() => setTamagotchiState('default')} className={`font-black text-xl px-6 py-2 border-[3px] border-black rounded-lg transition-all ${tamagotchiState === 'default' ? 'bg-[#FFDE4D] text-black translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>B</button>
-                        <button onClick={() => setTamagotchiState('down')} className={`font-black text-xl px-6 py-2 border-[3px] border-black rounded-lg transition-all ${tamagotchiState === 'down' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>C</button>
+                      <div className="flex gap-4 skew-x-[2deg]">
+                        <button onClick={() => setTamagotchiState('active')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'active' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>A</button>
+                        <button onClick={() => setTamagotchiState('default')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'default' ? 'bg-[#FFDE4D] text-black translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>B</button>
+                        <button onClick={() => setTamagotchiState('down')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'down' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>C</button>
                       </div>
-                      <div className="text-xs font-black uppercase tracking-widest text-center mt-2 border-t-[3px] border-black pt-4 w-full">
+                      <div className="text-xs font-black uppercase tracking-widest text-center mt-2 border-t-[3px] border-black pt-4 w-full skew-x-[2deg]">
                         {t('features.testBuddy')}
                       </div>
                    </div>

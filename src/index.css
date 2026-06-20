@@ -54,135 +54,62 @@ body::after {
     linear-gradient(to bottom, rgba(15, 15, 18, 0.08) 1px, transparent 1px);
 }
 
-/* Washi Tape utilities for Scrapbook effect - effetto "usato" e piegato */
-.washi-tape {
-  position: absolute;
-  height: 28px;
-  background-color: var(--color-neo-teal);
-  opacity: 0.85;
-  border: 1px solid rgba(0,0,0,0.3);
-  border-radius: 1px 4px 2px 6px; /* Bordi irregolari da nastro strappato */
-  z-index: 10;
-  box-shadow: 1px 2px 2px rgba(0,0,0,0.15), inset 0 0 10px rgba(0,0,0,0.1);
-  background-image: linear-gradient(to right, rgba(0,0,0,0.05) 0%, transparent 10%, rgba(255,255,255,0.15) 50%, transparent 90%, rgba(0,0,0,0.05) 100%);
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(1px);
+/* Millimeter Grid Pattern */
+.grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(15,15,18,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15,15,18,0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
 }
 
-.washi-yellow { background-color: var(--color-neo-yellow); }
-.washi-peach { background-color: var(--color-neo-peach); }
-.washi-purple { background-color: var(--color-neo-purple); }
-.washi-lime { background-color: var(--color-neo-lime); }
-.washi-black { background-color: var(--color-neo-dark); color: white; opacity: 0.9; mix-blend-mode: normal; }
-
-/* Neobrutalist Solid Card */
-.y2k-brutal-card {
-  background-color: var(--color-neo-white);
-  border: 3px solid var(--color-neo-dark);
-  box-shadow: 6px 6px 0px 0px var(--color-neo-dark);
-  border-radius: 16px;
-  transition: all 0.2s cubic-bezier(0.25, 1, 0.5, 1);
-}
-
-.y2k-brutal-card-hoverable:hover {
-  transform: translate(-3px, -3px);
-  box-shadow: 9px 9px 0px 0px var(--color-neo-dark);
-}
-
-/* Neobrutalist Button */
-.y2k-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color-neo-teal);
-  color: var(--color-neo-dark);
-  border: 3px solid var(--color-neo-dark);
-  padding: 0.75rem 1.5rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  box-shadow: 4px 4px 0px 0px var(--color-neo-dark);
-  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
+/* Crosshairs (Telemetric Corners) */
+.crosshairs {
   position: relative;
-  overflow: hidden;
 }
-
-.y2k-btn:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0px 0px var(--color-neo-dark);
-  filter: brightness(1.05);
-}
-
-.y2k-btn:active {
-  transform: translate(4px, 4px);
-  box-shadow: 0px 0px 0px 0px var(--color-neo-dark);
-}
-
-/* Retro LCD Panel */
-.y2k-lcd {
-  background-color: #8E9B79; /* Olive LCD Green */
-  color: #1a2012;
-  border: 4px inset #697654;
-  font-family: monospace;
-  box-shadow: inset 4px 4px 10px rgba(0,0,0,0.3);
-}
-
-/* Pseudo-pixel text style */
-.pixel-text {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 900;
-  letter-spacing: -1px;
-}
-
-/* Marker Circle Doodle */
-.marker-circle {
-  position: relative;
-  display: inline-block;
-  z-index: 1;
-}
-.marker-circle::after {
+.crosshairs::before,
+.crosshairs::after {
   content: '';
   position: absolute;
-  inset: -6px -12px;
-  border: 3px solid var(--color-neo-yellow);
-  border-radius: 50% 40% 60% 40% / 40% 60% 50% 50%;
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(15,15,18,0.4);
   pointer-events: none;
-  transform: rotate(-3deg);
-  z-index: -1;
+  z-index: 20;
+}
+.crosshairs::before {
+  top: -2px; left: -2px;
+  border-right: none; border-bottom: none;
+}
+.crosshairs::after {
+  bottom: -2px; right: -2px;
+  border-left: none; border-top: none;
+}
+
+/* Telemetry Line (Heartbeat simulation) */
+.telemetry-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-neo-yellow);
   opacity: 0.8;
-  mix-blend-mode: multiply;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.y2k-brutal-card:hover .telemetry-line {
+  transform: scaleX(1);
 }
 
-/* Marker Underline Doodle */
-.marker-underline {
-  position: relative;
+/* Skewed Button Utility */
+.skew-btn {
+  transform: skewX(-12deg);
+  display: inline-flex;
+}
+.skew-btn-content {
+  transform: skewX(12deg);
   display: inline-block;
-}
-.marker-underline::after {
-  content: '';
-  position: absolute;
-  bottom: -4px;
-  left: -2px;
-  right: -8px;
-  height: 6px;
-  background-color: var(--color-neo-teal);
-  border-radius: 2px 8px 3px 5px;
-  transform: rotate(-1deg);
-  opacity: 0.6;
-  z-index: -1;
-  mix-blend-mode: multiply;
-}
-
-/* Smudge/Stain (Dirt) effect */
-.coffee-stain {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M15,50 C15,25 30,10 55,15 C75,18 85,35 80,60 C75,85 55,90 35,85 C15,80 15,75 15,50 Z' fill='none' stroke='rgba(139,69,19,0.08)' stroke-width='6' stroke-dasharray='15,8,30,5'/%3E%3Cpath d='M25,50 C25,30 40,25 60,30 C75,35 75,55 70,70 C65,85 45,80 30,75 C15,70 25,65 25,50 Z' fill='rgba(139,69,19,0.04)'/%3E%3C/svg%3E");
-  pointer-events: none;
-  z-index: 0;
-  mix-blend-mode: multiply;
-  transform: rotate(15deg);
 }
 
 /* Hide scrollbar for horizontal scrolling elements */
