@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import FAQ from './FAQ';
@@ -11,6 +11,15 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
   const { t } = useTranslation();
   const [bivioState, setBivioState] = useState<'vecchio' | 'bab'>('vecchio');
   const [heroTarget, setHeroTarget] = useState<'allenatore' | 'genitore'>('allenatore');
+
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+  const scrollLeft = () => {
+    if (scrollContainerRef.current) scrollContainerRef.current.scrollBy({ left: -350, behavior: 'smooth' });
+  };
+  const scrollRight = () => {
+    if (scrollContainerRef.current) scrollContainerRef.current.scrollBy({ left: 350, behavior: 'smooth' });
+  };
 
   const testimonials = [
     {
@@ -203,6 +212,26 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         </motion.div>
       </div>
 
+      {/* 1.5 LA MISSIONE */}
+      <section className="w-full bg-[#3B4A6B] py-24 px-4 text-center relative text-white border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-8 mb-16">
+        <div className="max-w-5xl mx-auto relative z-10">
+           <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-12 -rotate-1">
+             La Nostra Missione
+           </div>
+           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 marker-underline" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>
+             BAB è la tua coach<br className="hidden sm:block"/> fuori dal campo.
+           </h2>
+           <p className="font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#FFDE4D] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
+             Ti insegna ad ascoltare il tuo corpo, capire i suoi segnali e fare scelte che ti fanno stare bene — per sapere quando dare il massimo e quando recuperare. <span className="text-[#DAE993]">Per continuare a fare sport e divertirti, performando al meglio e sentendoti meglio.</span>
+           </p>
+        </div>
+        
+        {/* Background Decorative Doodles */}
+        <svg className="absolute top-0 right-0 w-64 h-64 text-[#FFDE4D] opacity-20 -rotate-12 translate-x-1/4 -translate-y-1/4" viewBox="0 0 100 100" fill="currentColor">
+          <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="4" />
+        </svg>
+      </section>
+
       {/* 2. BIVIO SCELTA (IL MODELLO FINANZ) */}
       <section className="w-full max-w-5xl px-4 py-16 mx-auto mb-16 relative text-[#0F0F12]">
         <div className="flex justify-center mb-16 relative z-10">
@@ -335,14 +364,27 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
       {/* 5. TESTIMONIALS */}
       <section className="w-full py-24 text-[#0F0F12] overflow-hidden relative">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black uppercase mb-12 sm:mb-16 text-center max-w-4xl mx-auto leading-tight tracking-tighter">
+        <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8 mb-12 sm:mb-16">
+          <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black uppercase text-center md:text-left leading-tight tracking-tighter">
             Cosa dice la Community<br className="hidden sm:block"/> del futuro di BAB
           </h2>
+          
+          {/* Navigation Arrows */}
+          <div className="flex gap-4 shrink-0 hidden sm:flex">
+            <button onClick={scrollLeft} className="w-14 h-14 bg-white border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] flex items-center justify-center hover:-translate-y-1 hover:bg-[#EBE5FF] transition-all group active:translate-y-0 active:shadow-none">
+              <span className="text-3xl font-black group-hover:-translate-x-1 transition-transform">←</span>
+            </button>
+            <button onClick={scrollRight} className="w-14 h-14 bg-[#FFDE4D] border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] flex items-center justify-center hover:-translate-y-1 hover:bg-[#EBE5FF] transition-all group active:translate-y-0 active:shadow-none">
+              <span className="text-3xl font-black group-hover:translate-x-1 transition-transform">→</span>
+            </button>
+          </div>
         </div>
         
         {/* Horizontal Slider Polaroid */}
-        <div className="w-full flex overflow-x-auto snap-x snap-mandatory gap-6 px-4 md:px-[calc(50vw-28rem)] pb-12 pt-8 hide-scrollbar">
+        <div 
+          ref={scrollContainerRef}
+          className="w-full flex overflow-x-auto snap-x snap-mandatory gap-6 px-4 md:px-12 pb-12 pt-8 hide-scrollbar scroll-smooth"
+        >
           {testimonials.map((t, i) => {
             const rotations = ['-rotate-2', 'rotate-1', '-rotate-1', 'rotate-2'];
             const tapes = ['washi-yellow', 'washi-peach', 'washi-purple', 'washi-lime'];
