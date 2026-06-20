@@ -22,7 +22,7 @@ export default function Features() {
   ];
 
   return (
-    <div className="flex flex-col items-center w-full min-h-screen px-4 py-16 text-[#0F0F12]">
+    <div className="flex flex-col items-center w-full min-h-screen px-4 py-24 md:py-32 text-[#0F0F12]">
       <div className="max-w-3xl mx-auto w-full">
         
         <div className="text-center mb-20">
@@ -47,8 +47,16 @@ export default function Features() {
              const tapes = ['washi-black', 'washi-peach', 'washi-yellow', 'washi-purple', 'washi-lime'];
              
              return (
-               <div key={idx} className={`flex flex-col gap-6 items-start w-full relative ${rotations[idx]} hover:rotate-0 transition-transform duration-300 z-10 bg-[#FAF9F6] border-[4px] border-black p-6 sm:p-10 shadow-[12px_12px_0_0_#0F0F12] text-[#0F0F12]`}>
-                 <div className={`washi-tape ${tapes[idx]} w-24 -top-3 left-1/2 -translate-x-1/2`}></div>
+               <motion.div 
+                 key={idx} 
+                 initial={{ opacity: 0, y: 50 }}
+                 whileInView={{ opacity: 1, y: 0 }}
+                 viewport={{ once: true, margin: "-100px" }}
+                 transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1], delay: idx * 0.1 }}
+                 className={`w-full relative ${rotations[idx]} z-10 p-2 md:p-3 bg-neutral-300 border-[4px] border-black shadow-[12px_12px_0_0_#0F0F12]`}
+               >
+                 <div className={`flex flex-col gap-6 items-start w-full bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-10 hover:rotate-1 transition-transform duration-300 text-[#0F0F12] h-full`}>
+                   <div className={`washi-tape ${tapes[idx]} w-24 -top-6 left-1/2 -translate-x-1/2`}></div>
                  
                  <div className="flex flex-col sm:flex-row gap-6 items-start w-full">
                    <div className="bg-white border-[3px] border-black px-6 py-4 flex flex-col items-center justify-center shrink-0 shadow-[4px_4px_0_0_#0F0F12] relative -rotate-2 hover:rotate-0 transition-transform">
@@ -84,18 +92,25 @@ export default function Features() {
                         {t('features.testBuddy')}
                       </div>
                    </div>
-                 )}
-               </div>
+                 </div>
+               </motion.div>
              );
           })}
         </div>
 
         {/* FAQ Section Neobrutalism Folders */}
-        <div className="pt-16 border-t-[4px] border-black">
-          <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl font-black mb-12 text-center uppercase drop-shadow-[4px_4px_0_rgba(15,15,18,1)] text-[#0F0F12] tracking-tighter">{t('features.faqsTitle')}</h3>
-          <div className="flex flex-col gap-6">
+        <div className="pt-24 md:pt-32 border-t-[4px] border-black mt-16">
+          <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl font-black mb-16 text-center uppercase drop-shadow-[4px_4px_0_rgba(15,15,18,1)] text-[#0F0F12] tracking-tighter">{t('features.faqsTitle')}</h3>
+          <div className="flex flex-col gap-8">
             {faqs.map(faq => (
-              <div key={faq.id} className="y2k-brutal-card bg-white text-[#0F0F12] overflow-hidden p-0 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12]">
+              <motion.div 
+                key={faq.id} 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.6, ease: [0.32, 0.72, 0, 1] }}
+                className="y2k-brutal-card bg-white text-[#0F0F12] overflow-hidden p-0 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]"
+              >
                 <button 
                   onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)}
                   className={`w-full px-6 py-5 flex justify-between items-center text-left border-b-[3px] border-transparent transition-all duration-300 ${openFaq === faq.id ? 'bg-[#FFDE4D] border-black' : 'hover:bg-neutral-100 hover:text-[#FF5722]'}`}
@@ -120,7 +135,7 @@ export default function Features() {
                     </motion.div>
                   )}
                 </AnimatePresence>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>

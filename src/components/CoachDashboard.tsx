@@ -13,7 +13,7 @@ export default function CoachDashboard() {
   const [activeView, setActiveView] = useState<'squadra' | 'singolo'>('squadra');
 
   return (
-    <div className="flex flex-col items-center w-full min-h-[100dvh] text-[#0F0F12] px-4 py-8">
+    <div className="flex flex-col items-center w-full min-h-[100dvh] text-[#0F0F12] px-4 py-24 md:py-32">
       
       <div className="w-full max-w-5xl mx-auto flex flex-col pt-10">
         
@@ -67,27 +67,32 @@ export default function CoachDashboard() {
           
           <div className="flex flex-col gap-4">
              {/* Card 1 */}
-             <div className="bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] p-6 flex flex-col sm:flex-row gap-6 justify-between items-start sm:items-center">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-[#FF5722] text-white border-[3px] border-black rounded-full flex items-center justify-center font-black text-xl shadow-[inset_-2px_-2px_0_rgba(0,0,0,0.2)]">!</div>
-                  <div>
-                    <h4 className="font-black text-lg uppercase">2 Atlete in fase pre-mestruale (Luteale Tardiva)</h4>
-                    <p className="text-xs font-bold mt-1 max-w-md">Picco di rilassina. Evitare cambi di direzione esplosivi o salti massimali per proteggere il crociato (LCA).</p>
+             {/* Card 1 */}
+             <div className="bg-[#0F0F12] p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 transition-transform group">
+               <div className="bg-white border-[3px] border-black p-6 flex flex-col sm:flex-row gap-6 justify-between items-start sm:items-center h-full">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-[#FF5722] text-white border-[3px] border-black rounded-full flex items-center justify-center font-black text-xl shadow-[inset_-2px_-2px_0_rgba(0,0,0,0.2)]">!</div>
+                    <div>
+                      <h4 className="font-black text-lg uppercase">2 Atlete in fase pre-mestruale (Luteale Tardiva)</h4>
+                      <p className="text-xs font-bold mt-1 max-w-md">Picco di rilassina. Evitare cambi di direzione esplosivi o salti massimali per proteggere il crociato (LCA).</p>
+                    </div>
                   </div>
-                </div>
-                <button className="y2k-btn text-xs bg-[#FFDE4D] w-full sm:w-auto hover:bg-[#FF5722] hover:text-white transition-colors duration-300">Modifica Scheda</button>
+                  <button className="y2k-btn text-xs bg-[#FFDE4D] w-full sm:w-auto hover:bg-[#FF5722] hover:text-white transition-colors duration-300">Modifica Scheda</button>
+               </div>
              </div>
 
              {/* Card 2 */}
-             <div className="bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] p-6 flex flex-col sm:flex-row gap-6 justify-between items-start sm:items-center">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-[#DAE69A] border-[3px] border-black rounded-full flex items-center justify-center font-black text-xl shadow-[inset_-2px_-2px_0_rgba(0,0,0,0.2)]">✓</div>
-                  <div>
-                    <h4 className="font-black text-lg uppercase">80% in picco energetico</h4>
-                    <p className="text-xs font-bold mt-1 max-w-md">Alta tolleranza al carico oggi. Ottimo momento per allenamento di forza e resistenza.</p>
+             <div className="bg-neutral-300 p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 transition-transform group mt-2">
+               <div className="bg-white border-[3px] border-black p-6 flex flex-col sm:flex-row gap-6 justify-between items-start sm:items-center h-full">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-[#DAE69A] border-[3px] border-black rounded-full flex items-center justify-center font-black text-xl shadow-[inset_-2px_-2px_0_rgba(0,0,0,0.2)]">✓</div>
+                    <div>
+                      <h4 className="font-black text-lg uppercase">80% in picco energetico</h4>
+                      <p className="text-xs font-bold mt-1 max-w-md">Alta tolleranza al carico oggi. Ottimo momento per allenamento di forza e resistenza.</p>
+                    </div>
                   </div>
-                </div>
-                <button className="y2k-btn text-xs bg-[#FFDE4D] border-black w-full sm:w-auto hover:bg-[#34BBC0] hover:text-white transition-colors duration-300">Conferma Carico</button>
+                  <button className="y2k-btn text-xs bg-[#FFDE4D] border-black w-full sm:w-auto hover:bg-[#34BBC0] hover:text-white transition-colors duration-300">Conferma Carico</button>
+               </div>
              </div>
           </div>
         </div>

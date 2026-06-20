@@ -7,6 +7,8 @@
  *            L'utilizzo, la modifica o la distribuzione non autorizzata 
  *            sono severamente vietati in assenza di accordi contrattuali scritti.
  */
+import { motion } from 'framer-motion';
+
 export default function About() {
   const images = [
     "3AycctSWhDTcwrDl8YUS0jxhU.avif",
@@ -20,7 +22,7 @@ export default function About() {
   ];
 
   return (
-    <div className="flex flex-col items-center w-full min-h-screen text-[#0F0F12] px-4 py-16">
+    <div className="flex flex-col items-center w-full min-h-screen text-[#0F0F12] px-4 py-24 md:py-32">
       <div className="max-w-5xl mx-auto w-full">
         
         {/* HERO MISSION */}
@@ -65,12 +67,20 @@ export default function About() {
           <div className="flex flex-col items-center gap-12 sm:gap-16 max-w-3xl mx-auto mb-20 font-['Space_Grotesk',_sans-serif] font-bold text-lg sm:text-xl leading-relaxed">
             
             {/* Pezzo 1 */}
-            <div className="relative self-start w-11/12 sm:w-4/5 -rotate-1 hover:rotate-0 transition-transform">
+            <motion.div 
+              initial={{ opacity: 0, y: 30, rotate: -3 }}
+              whileInView={{ opacity: 1, y: 0, rotate: -1 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1] }}
+              className="relative self-start w-11/12 sm:w-4/5 hover:rotate-0 transition-transform"
+            >
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-6 bg-[#34BBC0] opacity-80 border-2 border-black rotate-3 z-10"></div>
-              <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 shadow-[6px_6px_0_0_#0F0F12]">
-                At thirteen, Mia's body no longer felt like home. She had grown taller in a matter of months, and before she understood what was happening, hormones had changed more than just her body. They changed how she played and how she felt while doing it.
+              <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
+                <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 h-full">
+                  At thirteen, Mia's body no longer felt like home. She had grown taller in a matter of months, and before she understood what was happening, hormones had changed more than just her body. They changed how she played and how she felt while doing it.
+                </div>
               </div>
-            </div>
+            </motion.div>
 
             {/* Doodle Separator */}
             <svg width="60" height="20" viewBox="0 0 60 20" className="text-black opacity-40">
@@ -78,27 +88,51 @@ export default function About() {
             </svg>
 
             {/* Pezzo 2 */}
-            <div className="relative self-end w-11/12 sm:w-4/5 rotate-2 hover:rotate-0 transition-transform">
+            <motion.div 
+              initial={{ opacity: 0, y: 30, rotate: 5 }}
+              whileInView={{ opacity: 1, y: 0, rotate: 2 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1], delay: 0.1 }}
+              className="relative self-end w-11/12 sm:w-4/5 hover:rotate-0 transition-transform"
+            >
               <div className="absolute -top-3 left-8 w-12 h-5 bg-[#FFDE4D] opacity-90 border-2 border-black -rotate-6 z-10"></div>
-              <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 shadow-[6px_6px_0_0_#0F0F12]">
-                Pushing through period symptoms, fatigue and hunger, she learned that <span className="font-['Bricolage_Grotesque',_sans-serif] bg-black text-white px-2 italic uppercase">"no pain is no gain"</span>. Disconnecting from her body became her winning strategy.
+              <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
+                <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 h-full">
+                  Pushing through period symptoms, fatigue and hunger, she learned that <span className="font-['Bricolage_Grotesque',_sans-serif] bg-black text-white px-2 italic uppercase">"no pain is no gain"</span>. Disconnecting from her body became her winning strategy.
+                </div>
               </div>
-            </div>
+            </motion.div>
 
             {/* POLAROID */}
-            <div className="relative w-64 sm:w-80 rotate-3 hover:rotate-6 transition-all duration-300 my-4 shadow-[12px_12px_0_0_#0F0F12] border-[4px] border-white bg-white group z-10">
-              <div className="absolute -top-4 right-8 w-20 h-6 bg-black opacity-80 -rotate-2 z-20"></div>
-              <img src="/fotobab/mia.avif" alt="Mia" className="w-full aspect-square object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500" />
-              <div className="p-4 font-['Bricolage_Grotesque',_sans-serif] text-center font-black uppercase text-xl text-neutral-400">Mia, 13</div>
-            </div>
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.9, rotate: -10 }}
+              whileInView={{ opacity: 1, scale: 1, rotate: 3 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.8, ease: [0.32, 0.72, 0, 1], delay: 0.2 }}
+              className="relative w-64 sm:w-80 hover:rotate-6 transition-all duration-300 my-4 shadow-[12px_12px_0_0_#0F0F12] border-[4px] border-black bg-black group z-10 p-2"
+            >
+              <div className="absolute -top-4 right-8 w-20 h-6 bg-[#0F0F12] opacity-80 -rotate-2 z-20 border-[2px] border-white/20"></div>
+              <div className="bg-white p-2 sm:p-3 border-[3px] border-black">
+                <img src="/fotobab/mia.avif" alt="Mia" className="w-full aspect-square object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500" />
+                <div className="p-4 font-['Bricolage_Grotesque',_sans-serif] text-center font-black uppercase text-xl text-neutral-400">Mia, 13</div>
+              </div>
+            </motion.div>
 
             {/* Pezzo 3 */}
-            <div className="relative self-start w-11/12 sm:w-4/5 -rotate-2 hover:rotate-0 transition-transform">
+            <motion.div 
+              initial={{ opacity: 0, y: 30, rotate: -5 }}
+              whileInView={{ opacity: 1, y: 0, rotate: -2 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1], delay: 0.3 }}
+              className="relative self-start w-11/12 sm:w-4/5 hover:rotate-0 transition-transform"
+            >
               <div className="absolute -top-3 right-1/4 w-16 h-6 bg-[#DAE993] opacity-90 border-2 border-black rotate-6 z-10"></div>
-              <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 shadow-[6px_6px_0_0_#0F0F12]">
-                Soon, injuries and anxiety started creeping in and her performance began to drop. And because no one talked about any of it, Mia kept quiet and started questioning whether she was no longer made for sport.
+              <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
+                <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 h-full">
+                  Soon, injuries and anxiety started creeping in and her performance began to drop. And because no one talked about any of it, Mia kept quiet and started questioning whether she was no longer made for sport.
+                </div>
               </div>
-            </div>
+            </motion.div>
 
             {/* Doodle Separator */}
             <svg width="40" height="40" viewBox="0 0 40 40" className="text-black opacity-40">
@@ -106,12 +140,20 @@ export default function About() {
             </svg>
 
             {/* Pezzo 4 (Risoluzione) */}
-            <div className="relative w-full rotate-1 hover:-rotate-1 transition-transform">
+            <motion.div 
+              initial={{ opacity: 0, y: 50, scale: 0.95 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.8, ease: [0.32, 0.72, 0, 1], delay: 0.4 }}
+              className="relative w-full rotate-1 hover:-rotate-1 transition-transform"
+            >
               <div className="absolute top-1/2 -left-4 -translate-y-1/2 w-8 h-16 bg-[#FFDE4D] opacity-90 z-10 border-2 border-black hidden sm:block"></div>
-              <div className="bg-[#0F0F12] text-white border-[4px] border-black p-8 sm:p-10 shadow-[8px_8px_0_0_#000]">
-                But it wasn't Mia who had fallen behind. <span className="underline decoration-4 underline-offset-4 decoration-[#FFDE4D]">It was sport that failed her</span> by neglecting her changing body, health and wellbeing.
+              <div className="bg-[#DAE69A] p-2 md:p-3 border-[4px] border-black shadow-[8px_8px_0_0_#000]">
+                <div className="bg-[#0F0F12] text-white border-[3px] border-black p-8 sm:p-10 h-full">
+                  But it wasn't Mia who had fallen behind. <span className="underline decoration-4 underline-offset-4 decoration-[#FFDE4D]">It was sport that failed her</span> by neglecting her changing body, health and wellbeing.
+                </div>
               </div>
-            </div>
+            </motion.div>
 
           </div>
 
@@ -219,17 +261,23 @@ export default function About() {
               const rotations = ['rotate-2', '-rotate-3', 'rotate-3', '-rotate-2', 'rotate-1', '-rotate-1'];
               
               return (
-                <div 
+                <motion.div 
                   key={index} 
-                  className={`${bgColors[index % bgColors.length]} border-[3px] md:border-[4px] border-black p-2 sm:p-3 md:p-4 shadow-[4px_4px_0_0_#000] md:shadow-[8px_8px_0_0_#000] ${rotations[index % rotations.length]} hover:rotate-0 hover:-translate-y-1 transition-all duration-300`}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, ease: [0.32, 0.72, 0, 1], delay: index * 0.1 }}
+                  className={`bg-black p-2 border-[4px] border-black shadow-[4px_4px_0_0_#000] md:shadow-[8px_8px_0_0_#000] ${rotations[index % rotations.length]} hover:rotate-0 hover:-translate-y-1 transition-all duration-300 group`}
                 >
-                  <img 
-                    src={`/fotobab/${img}`} 
-                    alt="BAB Community" 
-                    className="w-full aspect-[4/5] md:aspect-square object-cover border-[2px] md:border-[3px] border-black grayscale hover:grayscale-0 transition-all duration-300"
-                    loading="lazy"
-                  />
-                </div>
+                  <div className={`${bgColors[index % bgColors.length]} p-2 sm:p-3 md:p-4 border-[3px] border-black h-full`}>
+                    <img 
+                      src={`/fotobab/${img}`} 
+                      alt="BAB Community" 
+                      className="w-full aspect-[4/5] md:aspect-square object-cover border-[2px] md:border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+                </motion.div>
               );
             })}
           </div>
