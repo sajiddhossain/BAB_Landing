@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "app": "Simulateur App",
+    "coach": "Tableau de Bord Coach",
+    "features": "Fonctionnalités",
+    "about": "À Propos",
+    "waitlist": "Rejoindre la liste"
+  },
+  "home": {
+    "beta": "Bêta",
+    "badge": "✦ Techstars Startup Weekend AI · Lecco ✦",
+    "heroTitle": "Une fille sur deux abandonne le sport à la puberté.",
+    "heroHighlight": "Ne laissez pas cela arriver.",
+    "coachBtn": "Je suis un Coach",
+    "parentBtn": "Je suis un Parent",
+    "coachDesc": "Surveillez le bien-être et prévenez les blessures de votre équipe avec des données anonymes et sécurisées.",
+    "parentDesc": "Soutenez votre fille pendant sa puberté en garantissant une confidentialité totale.",
+    "waitlistBtn": "Join Waitlist ✦",
+    "appTag": "Application Athlète +\nTableau de bord Coach",
+    "widgetTitle": "Risque Blessures",
+    "widgetDesc": "-60% par mois",
+    
+    "costBadge": "Le Prix du Silence",
+    "oldMethod": "Ancienne Méthode",
+    "old1": "Taux d'abandon de 50% à la puberté.",
+    "old2": "Risque de rupture du LCA triplé si ignoré.",
+    "old3": "84% des athlètes abusent des antidouleurs.",
+    "babMethod": "Méthode BAB",
+    "bab1": "Réduction de 60% des blessures évitables.",
+    "bab2": "Confidentialité Totale : Les coachs voient des données groupées.",
+    "bab3": "Compagnon Numérique pour un suivi sans stress.",
+    "testAppBtn": "Testez l'App ✦",
+    "testCoachBtn": "Vue Coach ✦",
+    
+    "dataBadge": "Des Données Qui Brisent les Barrières",
+    "dataTitle": "Les femmes sont traitées comme de Petits Hommes,<br/>et les filles comme de Petites Femmes.",
+    "dataSubtitle": "Les chiffres le prouvent. Il y a une meilleure voie.",
+    "data1Val": "50%",
+    "data1Desc": "Des ados abandonnent le sport à la puberté",
+    "data2Val": "6%",
+    "data2Desc": "De la recherche sportive se concentre sur les femmes",
+    "data3Val": "0%",
+    "data3Desc": "Presque aucune recherche sur les athlètes U18",
+    
+    "testimonialsTitle": "Ce que notre communauté dit de BAB",
+    
+    "footerTitle": "Atteignez votre Meilleur Niveau,<br/> En vous sentant au Mieux.",
+    "privacyTitle": "Confidentialité & Recherche",
+    "privacy1": "Avec votre accord, vos données contribuent à la recherche scientifique pour améliorer la santé et les performances des jeunes athlètes. Ensemble, comblons les lacunes de la recherche sportive.",
+    "privacy2": "Vos données sont toujours anonymes, protégées et utilisées uniquement pour le bien-être des adolescentes.",
+    "footerTags": "Prévenir • Soutenir • Suivre • Comprendre • Optimiser"
+  },
+  "features": {
+    "badge": "✦ L'Écosystème BAB ✦",
+    "title": "Performance<br/>x Santé",
+    "testBuddy": "Tester l'état du Buddy"
+  }
+}

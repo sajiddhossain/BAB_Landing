@@ -9,6 +9,7 @@
  */
 import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 // Route Components
 import Home from './components/Home';
@@ -19,6 +20,7 @@ import About from './components/About';
 import WaitlistModal from './components/WaitlistModal';
 
 export default function App() {
+  const { t, i18n } = useTranslation();
   const [currentPath, setCurrentPath] = useState<string>(window.location.hash || '#/');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
@@ -50,11 +52,11 @@ export default function App() {
   }, []);
 
   const navLinks = [
-    { path: '#/', label: 'Home' },
-    { path: '#/app', label: 'App Simulator' },
-    { path: '#/coach', label: 'Coach Dashboard' },
-    { path: '#/features', label: 'Features' },
-    { path: '#/about', label: 'About Us' },
+    { path: '#/', label: t('nav.home') },
+    { path: '#/app', label: t('nav.app') },
+    { path: '#/coach', label: t('nav.coach') },
+    { path: '#/features', label: t('nav.features') },
+    { path: '#/about', label: t('nav.about') },
   ];
 
   return (
@@ -63,8 +65,8 @@ export default function App() {
       {/* HEADER (Neobrutalism) */}
       <header className="fixed top-0 inset-x-0 h-20 bg-white border-b-[3px] border-black z-50 px-4 md:px-12 flex items-center justify-between shadow-[0_4px_0_0_#0F0F12]">
         <a href="#/" className="flex items-center gap-3 hover:-translate-y-0.5 transition-transform z-50">
-          <span className="font-['Bricolage_Grotesque',_sans-serif] font-black text-3xl text-black tracking-tighter">BAB</span>
-          <span className="bg-[#DAE69A] text-black px-2 py-0.5 rounded border-2 border-black text-xs font-black uppercase tracking-widest shadow-[2px_2px_0_0_#000]">Beta</span>
+          <img src="/BAB_logo.svg" alt="BAB Logo" className="h-8 md:h-10" />
+          <span className="bg-[#DAE69A] text-black px-2 py-0.5 rounded border-2 border-black text-xs font-black uppercase tracking-widest shadow-[2px_2px_0_0_#000] ml-2">Beta</span>
         </a>
         
         {/* Desktop Nav */}
@@ -78,11 +80,25 @@ export default function App() {
                {link.label}
              </a>
           ))}
+          
+          {/* Language Switcher */}
+          <div className="flex items-center gap-2 border-[2px] border-black p-1 bg-[#FAF9F6] shadow-[2px_2px_0_0_#000] rounded ml-4">
+            <button onClick={() => i18n.changeLanguage('it')} className={`w-6 h-6 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 transition-transform ${i18n.language.startsWith('it') ? 'ring-2 ring-black ring-offset-1' : 'opacity-60 hover:opacity-100'}`} title="Italiano">
+              <img src="/flags/italy.png" alt="IT" className="w-full h-full object-cover" />
+            </button>
+            <button onClick={() => i18n.changeLanguage('en')} className={`w-6 h-6 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 transition-transform ${i18n.language.startsWith('en') ? 'ring-2 ring-black ring-offset-1' : 'opacity-60 hover:opacity-100'}`} title="English">
+              <img src="/flags/united-kingdom.png" alt="EN" className="w-full h-full object-cover" />
+            </button>
+            <button onClick={() => i18n.changeLanguage('fr')} className={`w-6 h-6 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 transition-transform ${i18n.language.startsWith('fr') ? 'ring-2 ring-black ring-offset-1' : 'opacity-60 hover:opacity-100'}`} title="Français">
+              <img src="/flags/france.png" alt="FR" className="w-full h-full object-cover" />
+            </button>
+          </div>
+
           <button 
             onClick={() => setIsWaitlistOpen(true)} 
-            className="y2k-btn bg-[#FFDE4D] text-xs hover:bg-[#34BBC0] hover:text-white transition-colors"
+            className="y2k-btn bg-[#FFDE4D] text-xs hover:bg-[#34BBC0] hover:text-white transition-colors ml-4"
           >
-            Join Waitlist
+            {t('nav.waitlist')}
           </button>
         </nav>
 
@@ -124,8 +140,21 @@ export default function App() {
                   }} 
                   className="w-full text-center bg-[#34BBC0] border-[3px] border-black py-4 shadow-[6px_6px_0_0_#0F0F12] mt-4 hover:bg-[#FFDE4D] transition-colors"
                 >
-                  JOIN WAITLIST ✦
+                  {t('nav.waitlist')} ✦
                 </button>
+                
+                {/* Mobile Language Switcher */}
+                <div className="flex justify-center gap-4 mt-8">
+                  <button onClick={() => i18n.changeLanguage('it')} className={`w-10 h-10 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform ${i18n.language.startsWith('it') ? 'shadow-[4px_4px_0_0_#000]' : 'opacity-60'}`}>
+                    <img src="/flags/italy.png" alt="IT" className="w-full h-full object-cover" />
+                  </button>
+                  <button onClick={() => i18n.changeLanguage('en')} className={`w-10 h-10 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform ${i18n.language.startsWith('en') ? 'shadow-[4px_4px_0_0_#000]' : 'opacity-60'}`}>
+                    <img src="/flags/united-kingdom.png" alt="EN" className="w-full h-full object-cover" />
+                  </button>
+                  <button onClick={() => i18n.changeLanguage('fr')} className={`w-10 h-10 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform ${i18n.language.startsWith('fr') ? 'shadow-[4px_4px_0_0_#000]' : 'opacity-60'}`}>
+                    <img src="/flags/france.png" alt="FR" className="w-full h-full object-cover" />
+                  </button>
+                </div>
              </nav>
           </motion.div>
         )}

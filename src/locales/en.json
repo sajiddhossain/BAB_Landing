@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Home",
+    "app": "App Simulator",
+    "coach": "Coach Dashboard",
+    "features": "Features",
+    "about": "About Us",
+    "waitlist": "Join Waitlist"
+  },
+  "home": {
+    "beta": "Beta",
+    "badge": "✦ Techstars Startup Weekend AI · Lecco ✦",
+    "heroTitle": "One in two girls drops out of sport during puberty.",
+    "heroHighlight": "Don't let it happen.",
+    "coachBtn": "I'm a Coach",
+    "parentBtn": "I'm a Parent",
+    "coachDesc": "Monitor wellbeing and prevent injuries in your female team with secure, aggregated data.",
+    "parentDesc": "Support your daughter through puberty changes, ensuring total privacy and healthy sports.",
+    "waitlistBtn": "Join Waitlist ✦",
+    "appTag": "Athlete App +\nCoach Dashboard",
+    "widgetTitle": "Injury Risk",
+    "widgetDesc": "-60% Month over Month",
+    
+    "costBadge": "The Cost of Silence",
+    "oldMethod": "Old Way",
+    "old1": "50% early dropout rate during puberty.",
+    "old2": "ACL tear risk triples during ovulation if ignored.",
+    "old3": "84% of athletes abuse painkillers to hide symptoms.",
+    "babMethod": "BAB Method",
+    "bab1": "60% reduction in preventable injuries.",
+    "bab2": "Total Privacy: Coaches only see aggregated data.",
+    "bab3": "Digital Buddy to monitor status without stress.",
+    "testAppBtn": "Test the App ✦",
+    "testCoachBtn": "Coach View ✦",
+    
+    "dataBadge": "Data that Break Barriers",
+    "dataTitle": "Women are treated as Small Men,<br/>and Girls as Small Women.",
+    "dataSubtitle": "The numbers show it. There's a better way.",
+    "data1Val": "50%",
+    "data1Desc": "Of teens drop out of sport during puberty",
+    "data2Val": "6%",
+    "data2Desc": "Of sport research focuses on women's health",
+    "data3Val": "0%",
+    "data3Desc": "Barely any research on U18 athletes who menstruate",
+    
+    "testimonialsTitle": "What Our Community Says About What BAB Is Building",
+    
+    "footerTitle": "Reach Your Personal Best,<br/> By Feeling Your Best.",
+    "privacyTitle": "Privacy & Research",
+    "privacy1": "Only if you give consent, the data you track contributes to anonymous scientific research aimed at improving the health, wellbeing, and performance of both you and other young athletes. Together, we're helping close the gaps in youth and sports research.",
+    "privacy2": "Your data is always anonymous, protected, and used solely to advance teenagers' health, wellbeing, development, and performance.",
+    "footerTags": "Prevent • Support • Track • Understand • Optimise"
+  },
+  "features": {
+    "badge": "✦ The BAB Ecosystem ✦",
+    "title": "Performance<br/>x Health",
+    "testBuddy": "Test Buddy Status"
+  }
+}

@@ -9,6 +9,7 @@
  */
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import FAQ from './FAQ';
 
 interface HomeProps {
@@ -16,6 +17,7 @@ interface HomeProps {
 }
 
 export default function Home({ onOpenWaitlist }: HomeProps) {
+  const { t } = useTranslation();
   const [bivioState, setBivioState] = useState<'vecchio' | 'bab'>('vecchio');
   const [heroTarget, setHeroTarget] = useState<'allenatore' | 'genitore'>('allenatore');
 
@@ -67,7 +69,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               transition={{ delay: 0.2 }}
               className="inline-block px-3 py-1 bg-[#EBE5FF] border-[2px] md:border-[3px] border-black text-black font-black text-[10px] sm:text-xs tracking-widest uppercase mb-4 sm:mb-6 shadow-[4px_4px_0_0_#0F0F12] -rotate-1"
             >
-              ✦ #1 Techstars Startup Weekend AI · Lecco ✦
+              {t('home.badge')}
             </motion.div>
             
             <motion.h1 
@@ -76,9 +78,9 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               transition={{ delay: 0.3 }}
               className="font-['Bricolage_Grotesque',_sans-serif] text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] mb-6 tracking-tight w-full relative"
             >
-              Una ragazza su due abbandona lo sport durante la pubertà.<br/>
+              {t('home.heroTitle')}<br/>
               <span className="inline-block relative z-10 mt-3 px-4 sm:px-6 py-2 -rotate-2 bg-[#34BBC0] border-[3px] md:border-[4px] border-black shadow-[4px_4px_0_0_#000] md:shadow-[6px_6px_0_0_#000] text-white">
-                 Non lasciare che accada.
+                 {t('home.heroHighlight')}
               </span>
               
               {/* Hand-drawn Doodle Arrow (Desktop) */}
@@ -115,13 +117,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                  onClick={() => setHeroTarget('allenatore')}
                  className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent ${heroTarget === 'allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-gray-100'}`}
                >
-                 Sono un Allenatore
+                 {t('home.coachBtn')}
                </button>
                <button 
                  onClick={() => setHeroTarget('genitore')}
                  className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent ${heroTarget === 'genitore' ? 'bg-[#34BBC0] text-white border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.2)]' : 'hover:bg-gray-100'}`}
                >
-                 Sono un Genitore
+                 {t('home.parentBtn')}
                </button>
             </motion.div>
 
@@ -133,8 +135,8 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               className="min-h-[4rem] flex items-center mb-8"
             >
                <p className="text-sm sm:text-base md:text-lg font-bold border-l-[4px] border-black pl-4 text-left leading-snug">
-                 {heroTarget === 'allenatore' && "Monitora il benessere e previeni gli infortuni del tuo team femminile grazie a dati sicuri e aggregati."}
-                 {heroTarget === 'genitore' && "Supporta tua figlia nei cambiamenti della pubertà garantendo privacy totale e uno sport sano."}
+                 {heroTarget === 'allenatore' && t('home.coachDesc')}
+                 {heroTarget === 'genitore' && t('home.parentDesc')}
                </p>
             </motion.div>
 
@@ -148,13 +150,14 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                 onClick={onOpenWaitlist}
                 className="w-full sm:w-auto font-['Space_Grotesk',_sans-serif] font-black text-lg bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-6 md:px-8 py-3 md:py-4 shadow-[6px_6px_0_0_#0F0F12] hover:shadow-[2px_2px_0_0_#0F0F12] hover:translate-y-1 transition-all duration-300 uppercase relative group overflow-hidden"
               >
-                <span className="relative z-10">Join Waitlist ✦</span>
+                <span className="relative z-10">{t('home.waitlistBtn')}</span>
                 <div className="absolute inset-0 bg-black -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out z-0"></div>
-                <span className="absolute inset-0 z-10 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">Join Waitlist ✦</span>
+                <span className="absolute inset-0 z-10 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">{t('home.waitlistBtn')}</span>
               </button>
-              <div className="font-['Space_Grotesk',_sans-serif] font-black text-[10px] sm:text-xs bg-[#EBE5FF] border-[2px] md:border-[3px] border-black px-3 md:px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] -rotate-1 cursor-default text-center">
-                App per l'Atleta +<br/>Dashboard Coach
-              </div>
+              <div 
+                className="font-['Space_Grotesk',_sans-serif] font-black text-[10px] sm:text-xs bg-[#EBE5FF] border-[2px] md:border-[3px] border-black px-3 md:px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] -rotate-1 cursor-default text-center"
+                dangerouslySetInnerHTML={{__html: t('home.appTag').replace('\n', '<br/>')}}
+              />
             </motion.div>
           </motion.div>
 
@@ -184,8 +187,8 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                   📉
                 </div>
                 <div>
-                  <p className="font-['Bricolage_Grotesque',_sans-serif] font-black leading-none text-sm uppercase">Rischi Infortuni</p>
-                  <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xs">-60% Mese su Mese</p>
+                  <p className="font-['Bricolage_Grotesque',_sans-serif] font-black leading-none text-sm uppercase">{t('home.widgetTitle')}</p>
+                  <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xs">{t('home.widgetDesc')}</p>
                 </div>
               </motion.div>
             </div>
@@ -196,7 +199,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       {/* 2. BIVIO SCELTA (IL MODELLO FINANZ) */}
       <section className="w-full max-w-5xl px-4 py-16 mx-auto mb-16 relative">
         <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black text-center uppercase mb-16 relative z-10">
-          <span className="bg-white border-[3px] border-black px-6 py-2 shadow-[6px_6px_0_0_#0F0F12] inline-block -rotate-1">Il Costo del Silenzio</span>
+          <span className="bg-white border-[3px] border-black px-6 py-2 shadow-[6px_6px_0_0_#0F0F12] inline-block -rotate-1">{t('home.costBadge')}</span>
         </h2>
         
         {/* Doodle connector between cards */}
@@ -212,13 +215,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           >
             <div className="washi-tape washi-yellow w-20 -top-3 left-1/2 -translate-x-1/2 rotate-3"></div>
             <div className="flex justify-between items-center mb-8 border-b-[3px] border-black pb-4">
-              <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase">Vecchio Metodo</h3>
+              <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase">{t('home.oldMethod')}</h3>
               <span className="text-4xl">❌</span>
             </div>
             <ul className="space-y-6 font-bold text-lg">
-              <li className="flex gap-4"><span className="text-rose-500 font-black">1.</span> 50% di abbandono precoce durante la pubertà.</li>
-              <li className="flex gap-4"><span className="text-rose-500 font-black">2.</span> Rischio di rottura LCA triplicato in fase ovulatoria se ignorato.</li>
-              <li className="flex gap-4"><span className="text-rose-500 font-black">3.</span> 84% delle atlete abusa di antidolorifici per nascondere i sintomi.</li>
+              <li className="flex gap-4"><span className="text-rose-500 font-black">1.</span> {t('home.old1')}</li>
+              <li className="flex gap-4"><span className="text-rose-500 font-black">2.</span> {t('home.old2')}</li>
+              <li className="flex gap-4"><span className="text-rose-500 font-black">3.</span> {t('home.old3')}</li>
             </ul>
           </div>
 
@@ -230,19 +233,19 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             <div className="washi-tape washi-purple w-20 -top-3 right-8 -rotate-2"></div>
             <div>
               <div className="flex justify-between items-center mb-8 border-b-[3px] border-black pb-4">
-                <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase">Metodo BAB</h3>
+                <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase">{t('home.babMethod')}</h3>
                 <span className={`text-4xl transition-transform duration-500 ${bivioState === 'bab' ? 'scale-125 rotate-12' : ''}`}>💚</span>
               </div>
               <ul className="space-y-6 font-bold text-lg mb-8">
-                <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black text-2xl">✓</span> Riduzione del 60% degli infortuni prevedibili.</li>
-                <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black text-2xl">✓</span> Patto di Privacy totale: Coach vede solo dati aggregati.</li>
-                <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black text-2xl">✓</span> Buddy Digitale per monitorare lo stato senza stress.</li>
+                <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black text-2xl">✓</span> {t('home.bab1')}</li>
+                <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black text-2xl">✓</span> {t('home.bab2')}</li>
+                <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black text-2xl">✓</span> {t('home.bab3')}</li>
               </ul>
             </div>
             
             <div className={`flex flex-col sm:flex-row gap-4 mt-auto transition-all duration-500 origin-top ${bivioState === 'bab' ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
-               <a href="#/app" className="y2k-btn bg-white text-xs text-center flex-1 hover:bg-[#34BBC0] hover:text-white transition-colors duration-300">Testa l'App ✦</a>
-               <a href="#/coach" className="y2k-btn bg-white text-xs text-center flex-1 hover:bg-[#FFDE4D] transition-colors duration-300">Vista Coach ✦</a>
+               <a href="#/app" className="y2k-btn bg-white text-xs text-center flex-1 hover:bg-[#34BBC0] hover:text-white transition-colors duration-300">{t('home.testAppBtn')}</a>
+               <a href="#/coach" className="y2k-btn bg-white text-xs text-center flex-1 hover:bg-[#FFDE4D] transition-colors duration-300">{t('home.testCoachBtn')}</a>
             </div>
           </div>
         </div>
@@ -253,12 +256,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         <div className="max-w-5xl mx-auto relative z-10 flex flex-col md:flex-row gap-12 items-center">
           <div className="flex-1">
             <div className="inline-block bg-white border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-8">
-              Data that Break Barriers
+              {t('home.dataBadge')}
             </div>
-            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black leading-tight uppercase mb-6">
-              Women are treated as Small Men,<br/>and Girls as Small Women.
-            </h2>
-            <p className="text-xl font-bold mb-8 max-w-3xl">The numbers show it. There's a better way.</p>
+            <h2 
+              className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black leading-tight uppercase mb-6"
+              dangerouslySetInnerHTML={{__html: t('home.dataTitle')}}
+            />
+            <p className="text-xl font-bold mb-8 max-w-3xl">{t('home.dataSubtitle')}</p>
           </div>
           
           <div className="w-full md:w-1/3 shrink-0 hidden md:block">
@@ -279,18 +283,18 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             
             <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#000] rotate-1 relative">
                <div className="washi-tape washi-yellow w-12 -top-3 left-6 -rotate-6"></div>
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#FFDE4D] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>50%</span>
-               <p className="font-bold uppercase text-sm">Of teens drop out of sport during puberty</p>
+               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#FFDE4D] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data1Val')}</span>
+               <p className="font-bold uppercase text-sm">{t('home.data1Desc')}</p>
             </div>
             <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#000] -rotate-2 relative">
                <div className="washi-tape washi-peach w-12 -bottom-3 right-6 rotate-6"></div>
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#34BBC0] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>6%</span>
-               <p className="font-bold uppercase text-sm">Of sport research focuses on women's health</p>
+               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#34BBC0] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data2Val')}</span>
+               <p className="font-bold uppercase text-sm">{t('home.data2Desc')}</p>
             </div>
             <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#000] rotate-2 relative">
                <div className="washi-tape washi-purple w-12 -top-3 left-1/2 -translate-x-1/2 rotate-1"></div>
-               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#DAE69A] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>0%</span>
-               <p className="font-bold uppercase text-sm">Barely any research on U18 athletes who menstruate</p>
+               <span className="font-['Bricolage_Grotesque',_sans-serif] text-7xl font-black text-[#DAE69A] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data3Val')}</span>
+               <p className="font-bold uppercase text-sm">{t('home.data3Desc')}</p>
             </div>
           </div>
         </div>
@@ -302,7 +306,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       <section className="w-full bg-black text-white py-24 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase mb-16 text-center max-w-4xl mx-auto leading-tight">
-            What Our Community Says About What BAB Is Building
+            {t('home.testimonialsTitle')}
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 masonry-like">
@@ -334,24 +338,26 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
         <div className="mb-16 inline-block bg-white border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-12 -rotate-1 relative">
           <div className="washi-tape washi-black w-32 -top-3 left-1/2 -translate-x-1/2 rotate-1"></div>
-          <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-tight mb-4 text-[#34BBC0]" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>
-            Reach Your Personal Best,<br/> By Feeling Your Best.
-          </h2>
+          <h2 
+            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-tight mb-4 text-[#34BBC0]" 
+            style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}
+            dangerouslySetInnerHTML={{__html: t('home.footerTitle')}}
+          />
         </div>
 
         <div className="bg-[#FAF9F6] border-[4px] border-black p-8 sm:p-12 text-left shadow-[8px_8px_0_0_#000] rotate-1 relative max-w-3xl mx-auto">
            <div className="washi-tape washi-lime w-20 -top-3 left-8 -rotate-3"></div>
-           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-white inline-block px-4 py-2 -rotate-1">Privacy & Research</h3>
+           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-white inline-block px-4 py-2 -rotate-1">{t('home.privacyTitle')}</h3>
            <p className="font-bold text-lg leading-relaxed mb-6">
-             Only if you give consent, the data you track contributes to anonymous scientific research aimed at improving the health, wellbeing, and performance of both you and other young athletes. Together, we're helping close the gaps in youth and sports research.
+             {t('home.privacy1')}
            </p>
            <p className="font-bold text-lg leading-relaxed bg-[#EBE5FF] border-[3px] border-black p-4 rotate-1 shadow-[4px_4px_0_0_#000]">
-             Your data is always anonymous, protected, and used solely to advance teenagers' health, wellbeing, development, and performance.
+             {t('home.privacy2')}
            </p>
         </div>
 
         <div className="mt-20 font-black uppercase tracking-widest text-sm text-neutral-500 border-t-[3px] border-black pt-8 border-dashed">
-          Prevent • Support • Track • Understand • Optimise<br/><br/>
+          {t('home.footerTags')}<br/><br/>
           © 2026 BAB. All Rights Reserved.
         </div>
       </section>

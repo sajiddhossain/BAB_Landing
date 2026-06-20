@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Home",
+    "app": "App Simulator",
+    "coach": "Coach Dashboard",
+    "features": "Features",
+    "about": "About Us",
+    "waitlist": "Join Waitlist"
+  },
+  "home": {
+    "beta": "Beta",
+    "badge": "✦ Techstars Startup Weekend AI · Lecco ✦",
+    "heroTitle": "Una ragazza su due abbandona lo sport durante la pubertà.",
+    "heroHighlight": "Non lasciare che accada.",
+    "coachBtn": "Sono un Allenatore",
+    "parentBtn": "Sono un Genitore",
+    "coachDesc": "Monitora il benessere e previeni gli infortuni del tuo team femminile grazie a dati sicuri e aggregati.",
+    "parentDesc": "Supporta tua figlia nei cambiamenti della pubertà garantendo privacy totale e uno sport sano.",
+    "waitlistBtn": "Join Waitlist ✦",
+    "appTag": "App per l'Atleta +\nDashboard Coach",
+    "widgetTitle": "Rischi Infortuni",
+    "widgetDesc": "-60% Mese su Mese",
+    
+    "costBadge": "Il Costo del Silenzio",
+    "oldMethod": "Vecchio Metodo",
+    "old1": "50% di abbandono precoce durante la pubertà.",
+    "old2": "Rischio di rottura LCA triplicato in fase ovulatoria se ignorato.",
+    "old3": "84% delle atlete abusa di antidolorifici per nascondere i sintomi.",
+    "babMethod": "Metodo BAB",
+    "bab1": "Riduzione del 60% degli infortuni prevedibili.",
+    "bab2": "Patto di Privacy totale: Coach vede solo dati aggregati.",
+    "bab3": "Buddy Digitale per monitorare lo stato senza stress.",
+    "testAppBtn": "Testa l'App ✦",
+    "testCoachBtn": "Vista Coach ✦",
+    
+    "dataBadge": "Data that Break Barriers",
+    "dataTitle": "Le donne sono trattate come Piccoli Uomini,<br/>e le ragazze come Piccole Donne.",
+    "dataSubtitle": "I numeri parlano chiaro. C'è un modo migliore.",
+    "data1Val": "50%",
+    "data1Desc": "Delle adolescenti abbandona lo sport in pubertà",
+    "data2Val": "6%",
+    "data2Desc": "Della ricerca sportiva si concentra sulla salute femminile",
+    "data3Val": "0%",
+    "data3Desc": "Nessuna ricerca sulle atlete Under 18 con ciclo mestruale",
+    
+    "testimonialsTitle": "Cosa dice la Community del futuro di BAB",
+    
+    "footerTitle": "Reach Your Personal Best,<br/> By Feeling Your Best.",
+    "privacyTitle": "Privacy & Ricerca",
+    "privacy1": "Solo se dai il tuo consenso, i dati che monitori contribuiscono a ricerche scientifiche anonime per migliorare la salute, il benessere e le performance tue e di altre giovani atlete. Insieme stiamo colmando il vuoto nella ricerca giovanile.",
+    "privacy2": "I tuoi dati sono sempre anonimi, protetti e usati esclusivamente per favorire la salute e lo sviluppo delle adolescenti.",
+    "footerTags": "Prevent • Support • Track • Understand • Optimise"
+  },
+  "features": {
+    "badge": "✦ L'Ecosistema BAB ✦",
+    "title": "Performance<br/>x Salute",
+    "testBuddy": "Testa lo stato del Buddy"
+  }
+}
