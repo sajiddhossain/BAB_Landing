@@ -29,34 +29,32 @@ export default function OnboardingQuiz() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (email) {
-      const calculatedScore = Math.floor(Math.random() * (95 - 75) + 75);
-      setScore(calculatedScore);
+      setScore(Math.floor(Math.random() * (95 - 75) + 75));
     }
   };
 
   return (
-    <section className="bg-[#080C12] text-[#FAF9F6] py-16 px-6 font-['Space_Grotesk',_sans-serif] flex flex-col items-center min-h-[600px] justify-center">
-      <div className="w-full max-w-md bg-[#171F2E]/75 backdrop-blur-[20px] border border-white/10 rounded-3xl p-6 md:p-8 shadow-2xl relative overflow-hidden">
+    <section className="bg-[#FAF9F6] text-[#0F0F12] py-16 px-4 font-['Space_Grotesk',_sans-serif] flex flex-col items-center min-h-[80vh] justify-center">
+      <div className="w-full max-w-md bg-white border-2 md:border-4 border-[#0F0F12] shadow-[4px_4px_0px_0px_#0F0F12] md:shadow-[6px_6px_0px_0px_#0F0F12] p-6 md:p-8 relative">
         
-        {/* Glow background effect */}
-        <div className="absolute -top-20 -right-20 w-40 h-40 bg-[#34BBC0]/20 rounded-full blur-[50px] pointer-events-none"></div>
-        <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-[#DAE69A]/10 rounded-full blur-[50px] pointer-events-none"></div>
-
-        <div className="flex gap-2 mb-8 justify-center relative z-10">
+        {/* Race Bib Step Indicators */}
+        <div className="flex gap-4 mb-8 justify-center">
           {[1, 2, 3].map(i => (
-            <div key={i} className={`h-1.5 rounded-full flex-1 transition-all duration-500 ${step >= i ? 'bg-[#34BBC0]' : 'bg-white/10'}`} />
+            <div key={i} className={`w-12 h-12 flex items-center justify-center border-2 border-[#0F0F12] shadow-[2px_2px_0px_0px_#0F0F12] font-['Bricolage_Grotesque',_sans-serif] font-black text-xl transition-all ${step >= i ? 'bg-[#FFDE4D]' : 'bg-white text-gray-300'}`}>
+              {i}
+            </div>
           ))}
         </div>
 
         {step === 1 && (
-          <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 relative z-10">
-            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl md:text-3xl font-bold mb-6 text-center leading-tight">Di quale sport ti occupi?</h2>
-            <div className="flex flex-col gap-3">
+          <div className="animate-in fade-in slide-in-from-bottom-4 duration-300">
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 text-center">Il tuo Sport?</h2>
+            <div className="flex flex-col gap-4">
               {['Calcio', 'Volley', 'Basket', 'Altro'].map(s => (
                 <button 
                   key={s}
                   onClick={() => handleSportSelect(s)}
-                  className="w-full py-4 px-6 rounded-2xl border border-white/10 bg-white/5 hover:bg-[#34BBC0]/20 hover:border-[#34BBC0]/50 transition-all text-left font-medium text-lg active:scale-[0.98]"
+                  className="w-full py-4 px-6 bg-white border-2 border-[#0F0F12] shadow-[4px_4px_0px_0px_#0F0F12] hover:bg-[#DAE993] hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_#0F0F12] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all text-left font-black uppercase text-lg"
                 >
                   {s}
                 </button>
@@ -66,71 +64,68 @@ export default function OnboardingQuiz() {
         )}
 
         {step === 2 && (
-          <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 relative z-10">
-            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl md:text-3xl font-bold mb-6 text-center leading-tight">Qual è la tua preoccupazione principale?</h2>
-            <div className="flex flex-col gap-3">
-              {['Infortuni gravi / LCA', 'Abbandono precoce delle ragazze', 'Mancanza di comunicazione'].map(c => (
+          <div className="animate-in fade-in slide-in-from-bottom-4 duration-300">
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 text-center">Focus?</h2>
+            <div className="flex flex-col gap-4">
+              {['Infortuni gravi / LCA', 'Abbandono ragazze', 'Mancanza comunicazione'].map(c => (
                 <button 
                   key={c}
                   onClick={() => handleConcernSelect(c)}
-                  className="w-full py-4 px-6 rounded-2xl border border-white/10 bg-white/5 hover:bg-[#34BBC0]/20 hover:border-[#34BBC0]/50 transition-all text-left font-medium text-base active:scale-[0.98]"
+                  className="w-full py-4 px-6 bg-white border-2 border-[#0F0F12] shadow-[4px_4px_0px_0px_#0F0F12] hover:bg-[#DAE993] hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_#0F0F12] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all text-left font-black uppercase text-base"
                 >
                   {c}
                 </button>
               ))}
             </div>
-            <button onClick={() => setStep(1)} className="mt-6 text-sm text-white/40 hover:text-white underline w-full text-center transition-colors">
-              Indietro
+            <button onClick={() => setStep(1)} className="mt-6 text-sm font-bold uppercase hover:text-[#FF5722] w-full text-center">
+              ← Indietro
             </button>
           </div>
         )}
 
         {step === 3 && score === null && (
-          <div className="animate-in fade-in slide-in-from-bottom-4 duration-500 relative z-10">
-            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl md:text-3xl font-bold mb-6 text-center leading-tight">Richiedi l'accesso</h2>
-            <p className="text-center text-white/60 mb-6 text-sm">Inserisci la tua email per calcolare il tuo Score SITG e unirti alla waitlist.</p>
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+          <div className="animate-in fade-in slide-in-from-bottom-4 duration-300">
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-4 text-center">Accesso</h2>
+            <form onSubmit={handleSubmit} className="flex flex-col gap-6">
               <input 
                 type="email" 
-                placeholder="La tua email..." 
+                placeholder="LA TUA EMAIL..." 
                 required
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-                className="w-full py-4 px-6 rounded-2xl border border-white/10 bg-[#080C12] text-white focus:outline-none focus:border-[#34BBC0] focus:ring-1 focus:ring-[#34BBC0] transition-all"
+                className="w-full py-4 px-6 border-2 md:border-4 border-[#0F0F12] bg-[#FAF9F6] font-bold uppercase focus:outline-none focus:bg-[#DAE993] transition-colors"
               />
 
-              {/* Trust Badge */}
-              <div className="flex items-start gap-3 bg-white/5 border border-white/10 p-3 rounded-xl mt-2 mb-2">
-                <span className="text-xl">🛡️</span>
-                <p className="text-xs text-white/70 font-medium leading-relaxed">
-                  Dati 100% criptati sul dispositivo, zero database centrali e conformità GDPR minori.
+              <div className="flex items-start gap-3 bg-[#EBE5FF] border-2 border-[#0F0F12] p-3 shadow-[4px_4px_0px_0px_#0F0F12] rotate-1">
+                <span className="text-xl">🔒</span>
+                <p className="text-xs font-bold uppercase leading-tight">
+                  Dati criptati. Zero db centrali. Conformità GDPR garantita.
                 </p>
               </div>
 
               <button 
                 type="submit"
-                className="w-full py-4 px-6 rounded-2xl bg-[#34BBC0] text-[#080C12] font-bold text-lg hover:bg-[#2AA0A5] transition-colors shadow-[0_0_20px_rgba(52,187,192,0.3)] active:scale-[0.98] mt-2"
+                className="w-full py-4 px-6 bg-[#FFDE4D] border-2 md:border-4 border-[#0F0F12] shadow-[4px_4px_0px_0px_#0F0F12] md:shadow-[6px_6px_0px_0px_#0F0F12] text-[#0F0F12] font-black text-xl uppercase hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_#0F0F12] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none transition-all"
               >
-                Richiedi Accesso Gratuito ✦
+                Invia ✦
               </button>
             </form>
-            <button onClick={() => setStep(2)} className="mt-6 text-sm text-white/40 hover:text-white underline w-full text-center transition-colors">
-              Indietro
+            <button onClick={() => setStep(2)} className="mt-6 text-sm font-bold uppercase hover:text-[#FF5722] w-full text-center">
+              ← Indietro
             </button>
           </div>
         )}
 
         {step === 3 && score !== null && (
-          <div className="animate-in zoom-in-95 duration-500 text-center py-6 relative z-10">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#DAE69A]/20 text-[#DAE69A] mb-6 border border-[#DAE69A]/30">
-              <span className="text-2xl">✓</span>
+          <div className="animate-in zoom-in-95 duration-300 text-center py-6">
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-[#DAE993] border-4 border-[#0F0F12] shadow-[4px_4px_0px_0px_#0F0F12] mb-6 rotate-3">
+              <span className="text-4xl">✓</span>
             </div>
-            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl font-bold mb-2">Sei in Waitlist!</h2>
-            <p className="text-white/70 mb-6">Il tuo profilo ha generato uno Score SITG di:</p>
-            <div className="text-7xl font-['Bricolage_Grotesque',_sans-serif] font-black text-[#DAE69A] mb-6 drop-shadow-[0_0_15px_rgba(218,230,154,0.4)]">
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl font-black uppercase mb-4">In Waitlist!</h2>
+            <p className="font-bold uppercase text-sm mb-4">Score SITG:</p>
+            <div className="text-7xl font-['Bricolage_Grotesque',_sans-serif] font-black text-[#FFDE4D] border-4 border-[#0F0F12] shadow-[6px_6px_0px_0px_#0F0F12] inline-block px-8 py-4 mb-6 bg-[#0F0F12] -rotate-2">
               {score}
             </div>
-            <p className="text-sm text-white/50 bg-white/5 p-4 rounded-xl">Ti contatteremo non appena si libererà un posto tra i primi 50 coach selezionati.</p>
           </div>
         )}
       </div>

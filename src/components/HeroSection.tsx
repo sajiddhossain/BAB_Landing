@@ -13,42 +13,52 @@ export default function HeroSection() {
   const [role, setRole] = useState<'allenatore' | 'genitore'>('allenatore');
 
   return (
-    <section className="bg-[#080C12] text-[#FAF9F6] py-16 px-6 font-['Space_Grotesk',_sans-serif] min-h-screen flex flex-col items-center justify-center text-center">
-      <div className="inline-block px-4 py-1.5 rounded-full bg-[#171F2E]/75 backdrop-blur-[20px] border border-[#34BBC0]/30 text-[#DAE69A] text-xs font-bold tracking-wide uppercase mb-8">
-        ✦ Selezionato al Techstars Startup Weekend AI · Lecco
-      </div>
-      
-      <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl md:text-5xl lg:text-6xl font-bold max-w-4xl leading-tight mb-8">
-        Una ragazza su due abbandona lo sport durante la pubertà. <br className="hidden md:block"/>
-        <span className="text-[#34BBC0]">Non lasciare che accada alla tua squadra.</span>
-      </h1>
+    <section className="bg-[#FAF9F6] text-[#0F0F12] py-16 px-6 font-['Space_Grotesk',_sans-serif] min-h-[90vh] flex flex-col md:flex-row items-center justify-center gap-12">
+      <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left w-full max-w-2xl">
+        <div className="inline-block px-4 py-1.5 bg-[#DAE993] border-2 md:border-4 border-[#0F0F12] shadow-[4px_4px_0px_0px_#0F0F12] text-[#0F0F12] text-xs font-black tracking-widest uppercase mb-8 -rotate-1">
+          ✦ Startup Weekend Lecco
+        </div>
+        
+        <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl md:text-7xl font-black uppercase leading-none mb-8 drop-shadow-[4px_4px_0px_rgba(15,15,18,1)] text-[#FFDE4D]" style={{ WebkitTextStroke: '2px #0F0F12' }}>
+          Stop<br/>Drop-Out<br/>
+          <span className="text-[#34BBC0] drop-shadow-none" style={{ WebkitTextStroke: '0px' }}>Inizia Da Qui.</span>
+        </h1>
 
-      <div className="flex bg-[#171F2E]/75 backdrop-blur-[20px] rounded-full p-1 mb-8 border border-white/10 shadow-lg">
-        <button 
-          onClick={() => setRole('allenatore')}
-          className={`px-6 py-2 rounded-full text-sm transition-all duration-300 ${role === 'allenatore' ? 'bg-[#34BBC0] text-[#080C12] font-bold shadow-[0_0_15px_rgba(52,187,192,0.4)]' : 'text-[#FAF9F6] hover:bg-white/5'}`}
-        >
-          Sono un Allenatore
-        </button>
-        <button 
-          onClick={() => setRole('genitore')}
-          className={`px-6 py-2 rounded-full text-sm transition-all duration-300 ${role === 'genitore' ? 'bg-[#34BBC0] text-[#080C12] font-bold shadow-[0_0_15px_rgba(52,187,192,0.4)]' : 'text-[#FAF9F6] hover:bg-white/5'}`}
-        >
-          Sono un Genitore
-        </button>
-      </div>
-
-      <p className="text-lg md:text-xl text-[#FAF9F6]/80 max-w-2xl mb-12 min-h-[60px]">
-        {role === 'allenatore' 
-          ? "Prevedi gli infortuni e monitora il benessere delle tue atlete incrociando i dati del ciclo mestruale con i carichi di lavoro."
-          : "Proteggi la salute sportiva di tua figlia e aiutala a comprendere il proprio corpo per performare al meglio in totale sicurezza."}
-      </p>
-
-      <div className="bg-[#171F2E]/75 backdrop-blur-[20px] border border-[#DAE69A]/40 rounded-2xl p-4 flex items-center gap-4 max-w-md w-full justify-center shadow-lg">
-        <span className="text-2xl animate-pulse">🔥</span>
-        <p className="text-sm font-medium text-left">
-          <span className="text-[#DAE69A] font-bold">42/50 posti già assegnati.</span><br/> L'accesso anticipato è aperto solo ai primi 50 coach.
+        <p className="text-xl md:text-2xl font-bold max-w-xl mb-12 min-h-[80px] border-l-4 border-[#0F0F12] pl-4">
+          {role === 'allenatore' 
+            ? "Prevedi gli infortuni e monitora il benessere incrociando i dati del ciclo mestruale con i carichi."
+            : "Proteggi la salute sportiva di tua figlia e aiutala a comprendere il corpo per performare in sicurezza."}
         </p>
+
+        <div className="flex bg-[#FAF9F6] border-2 md:border-4 border-[#0F0F12] shadow-[4px_4px_0px_0px_#0F0F12] md:shadow-[6px_6px_0px_0px_#0F0F12] p-1 mb-8 w-full max-w-md">
+          <button 
+            onClick={() => setRole('allenatore')}
+            className={`flex-1 px-4 py-3 font-black text-sm uppercase transition-all duration-300 border-2 border-transparent ${role === 'allenatore' ? 'bg-[#FFDE4D] border-[#0F0F12] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none' : 'hover:text-[#FF5722]'}`}
+          >
+            Coach
+          </button>
+          <button 
+            onClick={() => setRole('genitore')}
+            className={`flex-1 px-4 py-3 font-black text-sm uppercase transition-all duration-300 border-2 border-transparent ${role === 'genitore' ? 'bg-[#FFDE4D] border-[#0F0F12] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none' : 'hover:text-[#FF5722]'}`}
+          >
+            Parent
+          </button>
+        </div>
+
+        <div className="bg-white border-2 md:border-4 border-[#0F0F12] p-4 flex items-center gap-4 w-full shadow-[4px_4px_0px_0px_#0F0F12] md:shadow-[6px_6px_0px_0px_#0F0F12] rotate-1">
+          <span className="text-3xl animate-pulse">🔥</span>
+          <p className="text-sm font-bold text-left uppercase">
+            <span className="text-[#FF5722] font-black text-base block">42/50 posti assegnati</span>
+            Accesso anticipato in chiusura.
+          </p>
+        </div>
+      </div>
+
+      <div className="flex-1 w-full flex justify-center mt-12 md:mt-0">
+         {/* Placeholder for image or graphic */}
+         <div className="w-full max-w-md aspect-square bg-[#EBE5FF] border-2 md:border-4 border-[#0F0F12] shadow-[4px_4px_0px_0px_#0F0F12] md:shadow-[6px_6px_0px_0px_#0F0F12] flex items-center justify-center rotate-3 hover:rotate-0 transition-transform">
+           <span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl font-black uppercase text-center p-6 text-[#34BBC0]">App<br/>Preview<br/>Here</span>
+         </div>
       </div>
     </section>
   );
