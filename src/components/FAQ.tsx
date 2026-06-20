@@ -48,10 +48,10 @@ export default function FAQ() {
   return (
     <section className="w-full max-w-4xl mx-auto px-4 py-16 md:py-24">
       <div className="flex flex-col items-center mb-12 text-center">
-        <span className="inline-block bg-[#FAF9F6] text-[#0F0F12] font-black text-xs sm:text-sm tracking-widest uppercase mb-4 px-4 py-2 shadow-[4px_4px_0_0_#DAE993] rotate-1">
+        <span className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black font-black text-xs sm:text-sm tracking-widest uppercase mb-4 px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] rotate-1">
           ✦ F.A.Q. ✦
         </span>
-        <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-none text-[#DAE993]">
+        <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-none text-[#0F0F12] tracking-tighter drop-shadow-[4px_4px_0_rgba(15,15,18,1)]">
           Domande<br/>Frequenti
         </h2>
       </div>
@@ -63,7 +63,7 @@ export default function FAQ() {
           return (
             <div 
               key={index}
-              className={`border-[3px] md:border-[4px] border-black shadow-[6px_6px_0_0_#34BBC0] overflow-hidden transition-all duration-300 ${isOpen ? faq.color : 'bg-[#FAF9F6] hover:bg-white text-[#0F0F12]'}`}
+              className={`border-[3px] md:border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] overflow-hidden transition-all duration-300 ${isOpen ? faq.color : 'bg-white hover:bg-neutral-50 text-[#0F0F12]'}`}
             >
               <button
                 onClick={() => toggleFaq(index)}
