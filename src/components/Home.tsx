@@ -15,26 +15,26 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
   const testimonials = [
     {
       name: "Lisa Gutfleisch",
-      role: t('testimonials.lisa.role'),
-      quote: t('testimonials.lisa.quote'),
+      role: "Canottiera Elite Nazionale Tedesca",
+      quote: "BAB mi ha fatta sentire compresa e mi ha fatto capire quanto avrei beneficiato di uno strumento simile durante la mia crescita sportiva. Mi ci sono voluti molti anni per capire che la forza non è l'opposto della femminilità, e la prossima generazione di atlete non dovrebbe mai dover scegliere tra diventare forti e sentirsi adeguate.",
       color: "bg-[#FAF9F6]"
     },
     {
       name: "Alisha Menon",
-      role: t('testimonials.alisha.role'),
-      quote: t('testimonials.alisha.quote'),
+      role: "Dottoranda alla UC Berkeley",
+      quote: "Le giovani ragazze affrontano disinformazione e pregiudizi scientifici, sfide spesso amplificate negli ambienti sportivi, in particolare durante i profondi cambiamenti fisici e psicologici della pubertà. BAB fornisce una soluzione preventiva e sicura, contribuendo al contempo al progresso della ricerca in un campo che è stato trascurato per troppo tempo.",
       color: "bg-[#FAF9F6]"
     },
     {
       name: "Vasundhara P.",
-      role: t('testimonials.vasundhara.role'),
-      quote: t('testimonials.vasundhara.quote'),
+      role: "Mamma di un'atleta di 11 anni",
+      quote: "Mia figlia ha 11 anni e gareggia a livello regionale e nazionale nella scherma. Uno strumento come BAB mi aiuta a capire come supportare al meglio i suoi obiettivi sportivi in modo sicuro e informato, in particolare mentre affronta i cambiamenti dell'adolescenza continuando a competere ad alto livello.",
       color: "bg-[#FAF9F6]"
     },
     {
       name: "Erica Sali",
-      role: t('testimonials.erica.role'),
-      quote: t('testimonials.erica.quote'),
+      role: "Giocatrice e Allenatrice di Pallavolo",
+      quote: "Come giocatrice professionista e allenatrice di pallavolo, non ho mai avuto una risorsa così straordinaria come BAB per supportare le esigenze specifiche che abbiamo io e le mie atlete adolescenti.",
       color: "bg-[#FAF9F6]"
     }
   ];
@@ -267,6 +267,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         </div>
       </section>
 
+      {/* SECTION DIVIDER */}
+      <div className="w-full flex justify-center py-8">
+        <svg width="300" height="20" viewBox="0 0 300 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-[#0F0F12] opacity-20">
+          <path d="M0 10 L 30 0 L 60 20 L 90 0 L 120 20 L 150 0 L 180 20 L 210 0 L 240 20 L 270 0 L 300 10" stroke="currentColor" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      </div>
+
       {/* 3. DATA THAT BREAK BARRIERS */}
       <section className="w-full bg-[#EBE5FF] border-y-[4px] border-black py-20 px-4 my-16 relative overflow-hidden text-[#0F0F12]">
         <div className="max-w-5xl mx-auto relative z-10 flex flex-col md:flex-row gap-12 items-center">
@@ -317,31 +324,52 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         </div>
       </section>
 
+      {/* SECTION DIVIDER */}
+      <div className="w-full flex justify-center py-8">
+        <svg width="300" height="20" viewBox="0 0 300 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-[#0F0F12] opacity-20">
+          <path d="M0 10 L 30 0 L 60 20 L 90 0 L 120 20 L 150 0 L 180 20 L 210 0 L 240 20 L 270 0 L 300 10" stroke="currentColor" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      </div>
+
       {/* 4. WAITLIST (Global popup is now used instead) */}
 
       {/* 5. TESTIMONIALS */}
-      <section className="w-full py-24 px-4 text-[#0F0F12]">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black uppercase mb-16 text-center max-w-4xl mx-auto leading-tight tracking-tighter">
-            {t('home.testimonialsTitle')}
+      <section className="w-full py-24 text-[#0F0F12] overflow-hidden relative">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black uppercase mb-12 sm:mb-16 text-center max-w-4xl mx-auto leading-tight tracking-tighter">
+            Cosa dice la Community<br className="hidden sm:block"/> del futuro di BAB
           </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 masonry-like">
-            {testimonials.map((t, i) => (
-               <div key={i} className={`${t.color} text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 hover:-translate-y-2 transition-transform ${i % 2 !== 0 ? 'md:mt-16' : ''}`}>
-                 <div className="washi-tape washi-black w-24 -top-3 right-10 rotate-3"></div>
-                 <p className="text-lg sm:text-xl font-bold leading-relaxed mb-8 border-l-[4px] border-black pl-6">
-                   "{t.quote}"
-                 </p>
-                 <div className="border-t-[3px] border-black pt-4">
-                   <h4 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl font-black uppercase">{t.name}</h4>
-                   <p className="text-sm font-black uppercase tracking-widest opacity-70 mt-1">{t.role}</p>
-                 </div>
-               </div>
-            ))}
-          </div>
+        </div>
+        
+        {/* Horizontal Slider Polaroid */}
+        <div className="w-full flex overflow-x-auto snap-x snap-mandatory gap-6 px-4 md:px-[calc(50vw-28rem)] pb-12 pt-8 hide-scrollbar">
+          {testimonials.map((t, i) => {
+            const rotations = ['-rotate-2', 'rotate-1', '-rotate-1', 'rotate-2'];
+            const tapes = ['washi-yellow', 'washi-peach', 'washi-purple', 'washi-lime'];
+            return (
+              <div key={i} className={`snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between ${t.color} text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform ${rotations[i % 4]} hover:rotate-0 hover:-translate-y-2`}>
+                <div className={`washi-tape ${tapes[i % 4]} w-24 -top-3 left-1/2 -translate-x-1/2`}></div>
+                <p className="text-base sm:text-lg font-bold leading-relaxed mb-8 border-l-[4px] border-black pl-4 sm:pl-6 relative">
+                  <span className="absolute -left-3 -top-3 text-4xl opacity-20 font-serif font-black">"</span>
+                  {t.quote}
+                  <span className="absolute -bottom-6 right-0 text-4xl opacity-20 font-serif font-black">"</span>
+                </p>
+                <div className="border-t-[3px] border-black pt-4 mt-auto">
+                  <h4 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl font-black uppercase leading-none mb-1">{t.name}</h4>
+                  <p className="text-xs font-black uppercase tracking-widest opacity-80">{t.role}</p>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
+
+      {/* SECTION DIVIDER */}
+      <div className="w-full flex justify-center py-8">
+        <svg width="300" height="20" viewBox="0 0 300 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-[#0F0F12] opacity-20">
+          <path d="M0 10 L 30 0 L 60 20 L 90 0 L 120 20 L 150 0 L 180 20 L 210 0 L 240 20 L 270 0 L 300 10" stroke="currentColor" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      </div>
 
       {/* 5.5 FAQ SECTION */}
       <FAQ />
