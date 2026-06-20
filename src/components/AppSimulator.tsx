@@ -26,7 +26,7 @@ export default function AppSimulator() {
       
       {!selectedBuddy ? (
         <motion.div initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} className="w-full max-w-sm mx-auto flex flex-col items-center justify-center flex-1 h-full pt-10">
-          <div className="bg-[#34BBC0] border-[3px] border-black px-4 py-2 mb-6 font-black uppercase text-sm shadow-[4px_4px_0_0_#000] rotate-2">
+          <div className="bg-[#DAE993] border-[3px] border-black px-4 py-2 mb-6 font-black uppercase text-sm shadow-[4px_4px_0_0_#000] rotate-2">
             Inizializzazione...
           </div>
           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl font-black text-center mb-8 uppercase leading-none">
@@ -92,12 +92,12 @@ export default function AppSimulator() {
                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black mb-6 uppercase">Task Speciale</h3>
                    
                    <div className="w-full bg-[#FFE3D1] border-[3px] border-black rounded-xl p-6 text-left shadow-[6px_6px_0_0_#000]">
-                     <span className="text-[10px] font-black bg-black text-white px-2 py-1 mb-3 inline-block uppercase tracking-widest shadow-[2px_2px_0_0_#34BBC0]">
+                     <span className="text-[10px] font-black bg-black text-white px-2 py-1 mb-3 inline-block uppercase tracking-widest shadow-[2px_2px_0_0_#FF5722]">
                        +50 XP Sbloccati
                      </span>
                      <h4 className="text-xl font-black mb-2 uppercase">10 min di stretching</h4>
                      <p className="text-xs font-bold mb-6">HRV bassa. Questa task sostituisce il potenziamento di oggi.</p>
-                     <button className="y2k-btn bg-white w-full shadow-[4px_4px_0_0_#000] border-[3px] border-black py-2">Inizia Ora</button>
+                     <button className="y2k-btn bg-[#FFDE4D] w-full shadow-[4px_4px_0_0_#000] border-[3px] border-black py-2 hover:bg-[#FF5722] hover:text-white transition-colors duration-300">Inizia Ora</button>
                    </div>
                  </motion.div>
                )}

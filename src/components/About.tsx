@@ -28,7 +28,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             
             <div className="flex-1 text-center md:text-left">
-              <span className="inline-block bg-[#EBE5FF] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] -rotate-1">
+              <span className="inline-block bg-[#DAE993] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] -rotate-1">
                 ✦ The Mission ✦
               </span>
               <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6">
@@ -67,7 +67,7 @@ export default function About() {
             {/* Pezzo 1 */}
             <div className="relative self-start w-11/12 sm:w-4/5 -rotate-1 hover:rotate-0 transition-transform">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-6 bg-[#34BBC0] opacity-80 border-2 border-black rotate-3 z-10"></div>
-              <div className="bg-[#FFE3D1] border-[3px] border-black p-6 sm:p-8 shadow-[6px_6px_0_0_#0F0F12]">
+              <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 shadow-[6px_6px_0_0_#0F0F12]">
                 At thirteen, Mia's body no longer felt like home. She had grown taller in a matter of months, and before she understood what was happening, hormones had changed more than just her body. They changed how she played and how she felt while doing it.
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function About() {
             {/* Pezzo 2 */}
             <div className="relative self-end w-11/12 sm:w-4/5 rotate-2 hover:rotate-0 transition-transform">
               <div className="absolute -top-3 left-8 w-12 h-5 bg-[#FFDE4D] opacity-90 border-2 border-black -rotate-6 z-10"></div>
-              <div className="bg-[#EBE5FF] border-[3px] border-black p-6 sm:p-8 shadow-[6px_6px_0_0_#0F0F12]">
+              <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 shadow-[6px_6px_0_0_#0F0F12]">
                 Pushing through period symptoms, fatigue and hunger, she learned that <span className="font-['Bricolage_Grotesque',_sans-serif] bg-black text-white px-2 italic uppercase">"no pain is no gain"</span>. Disconnecting from her body became her winning strategy.
               </div>
             </div>
@@ -94,8 +94,8 @@ export default function About() {
 
             {/* Pezzo 3 */}
             <div className="relative self-start w-11/12 sm:w-4/5 -rotate-2 hover:rotate-0 transition-transform">
-              <div className="absolute -top-3 right-1/4 w-16 h-6 bg-[#DAE69A] opacity-90 border-2 border-black rotate-6 z-10"></div>
-              <div className="bg-white border-[3px] border-black p-6 sm:p-8 shadow-[6px_6px_0_0_#0F0F12]">
+              <div className="absolute -top-3 right-1/4 w-16 h-6 bg-[#DAE993] opacity-90 border-2 border-black rotate-6 z-10"></div>
+              <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 shadow-[6px_6px_0_0_#0F0F12]">
                 Soon, injuries and anxiety started creeping in and her performance began to drop. And because no one talked about any of it, Mia kept quiet and started questioning whether she was no longer made for sport.
               </div>
             </div>
@@ -107,8 +107,8 @@ export default function About() {
 
             {/* Pezzo 4 (Risoluzione) */}
             <div className="relative w-full rotate-1 hover:-rotate-1 transition-transform">
-              <div className="absolute top-1/2 -left-4 -translate-y-1/2 w-8 h-16 bg-black opacity-90 z-10 hidden sm:block"></div>
-              <div className="bg-[#34BBC0] text-white border-[4px] border-black p-8 sm:p-10 shadow-[8px_8px_0_0_#000]">
+              <div className="absolute top-1/2 -left-4 -translate-y-1/2 w-8 h-16 bg-[#FFDE4D] opacity-90 z-10 border-2 border-black hidden sm:block"></div>
+              <div className="bg-[#0F0F12] text-white border-[4px] border-black p-8 sm:p-10 shadow-[8px_8px_0_0_#000]">
                 But it wasn't Mia who had fallen behind. <span className="underline decoration-4 underline-offset-4 decoration-[#FFDE4D]">It was sport that failed her</span> by neglecting her changing body, health and wellbeing.
               </div>
             </div>
@@ -215,7 +215,7 @@ export default function About() {
           
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {images.slice(0, 6).map((img, index) => {
-              const bgColors = ['bg-[#DAE69A]', 'bg-[#FFE3D1]', 'bg-[#34BBC0]', 'bg-[#EBE5FF]', 'bg-[#FFDE4D]', 'bg-[#D1FFEF]'];
+              const bgColors = ['bg-[#FAF9F6]', 'bg-[#FAF9F6]', 'bg-[#FAF9F6]', 'bg-[#FAF9F6]', 'bg-[#FAF9F6]', 'bg-[#FAF9F6]'];
               const rotations = ['rotate-2', '-rotate-3', 'rotate-3', '-rotate-2', 'rotate-1', '-rotate-1'];
               
               return (

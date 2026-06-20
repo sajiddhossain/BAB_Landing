@@ -27,13 +27,13 @@ export default function CoachDashboard() {
           <div className="flex bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] rounded-lg overflow-hidden">
             <button 
               onClick={() => setActiveView('squadra')}
-              className={`px-6 py-3 font-black text-xs uppercase tracking-widest transition-colors ${activeView === 'squadra' ? 'bg-[#34BBC0] border-r-[3px] border-black' : 'hover:bg-neutral-100 border-r-[3px] border-black'}`}
+              className={`px-6 py-3 font-black text-xs uppercase tracking-widest transition-colors ${activeView === 'squadra' ? 'bg-[#FFDE4D] border-r-[3px] border-black' : 'hover:bg-neutral-100 hover:text-[#FF5722] border-r-[3px] border-black'}`}
             >
               Panoramica
             </button>
             <button 
               onClick={() => setActiveView('singolo')}
-              className={`px-6 py-3 font-black text-xs uppercase tracking-widest transition-colors ${activeView === 'singolo' ? 'bg-[#34BBC0]' : 'hover:bg-neutral-100'}`}
+              className={`px-6 py-3 font-black text-xs uppercase tracking-widest transition-colors ${activeView === 'singolo' ? 'bg-[#FFDE4D]' : 'hover:bg-neutral-100 hover:text-[#FF5722]'}`}
             >
               Dettaglio
             </button>
@@ -69,13 +69,13 @@ export default function CoachDashboard() {
              {/* Card 1 */}
              <div className="bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] p-6 flex flex-col sm:flex-row gap-6 justify-between items-start sm:items-center">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-[#FFDE4D] border-[3px] border-black rounded-full flex items-center justify-center font-black text-xl shadow-[inset_-2px_-2px_0_rgba(0,0,0,0.2)]">!</div>
+                  <div className="w-12 h-12 bg-[#FF5722] text-white border-[3px] border-black rounded-full flex items-center justify-center font-black text-xl shadow-[inset_-2px_-2px_0_rgba(0,0,0,0.2)]">!</div>
                   <div>
                     <h4 className="font-black text-lg uppercase">2 Atlete in fase pre-mestruale (Luteale Tardiva)</h4>
                     <p className="text-xs font-bold mt-1 max-w-md">Picco di rilassina. Evitare cambi di direzione esplosivi o salti massimali per proteggere il crociato (LCA).</p>
                   </div>
                 </div>
-                <button className="y2k-btn text-xs bg-white w-full sm:w-auto">Modifica Scheda</button>
+                <button className="y2k-btn text-xs bg-[#FFDE4D] w-full sm:w-auto hover:bg-[#FF5722] hover:text-white transition-colors duration-300">Modifica Scheda</button>
              </div>
 
              {/* Card 2 */}
@@ -87,7 +87,7 @@ export default function CoachDashboard() {
                     <p className="text-xs font-bold mt-1 max-w-md">Alta tolleranza al carico oggi. Ottimo momento per allenamento di forza e resistenza.</p>
                   </div>
                 </div>
-                <button className="y2k-btn text-xs bg-black text-white border-black w-full sm:w-auto">Conferma Carico</button>
+                <button className="y2k-btn text-xs bg-[#FFDE4D] border-black w-full sm:w-auto hover:bg-[#34BBC0] hover:text-white transition-colors duration-300">Conferma Carico</button>
              </div>
           </div>
         </div>

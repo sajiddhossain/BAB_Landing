@@ -134,7 +134,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                         </p>
                       </div>
 
-                      <button type="submit" className="y2k-btn bg-[#FFDE4D] w-full text-base hover:bg-[#34BBC0] hover:text-white transition-colors duration-300">
+                      <button type="submit" className="y2k-btn bg-[#FFDE4D] w-full text-base hover:bg-[#FF5722] hover:text-white transition-colors duration-300">
                         Richiedi Accesso ✦
                       </button>
                     </form>
