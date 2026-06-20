@@ -17,25 +17,25 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       name: "Lisa Gutfleisch",
       role: t('testimonials.lisa.role'),
       quote: t('testimonials.lisa.quote'),
-      color: "bg-[#FFDE4D]"
+      color: "bg-[#FAF9F6]"
     },
     {
       name: "Alisha Menon",
       role: t('testimonials.alisha.role'),
       quote: t('testimonials.alisha.quote'),
-      color: "bg-[#D1FFEF]"
+      color: "bg-[#FAF9F6]"
     },
     {
       name: "Vasundhara P.",
       role: t('testimonials.vasundhara.role'),
       quote: t('testimonials.vasundhara.quote'),
-      color: "bg-[#FFE3D1]"
+      color: "bg-[#FAF9F6]"
     },
     {
       name: "Erica Sali",
       role: t('testimonials.erica.role'),
       quote: t('testimonials.erica.quote'),
-      color: "bg-[#EBE5FF]"
+      color: "bg-[#FAF9F6]"
     }
   ];
 
@@ -106,13 +106,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             >
                <button 
                  onClick={() => setHeroTarget('allenatore')}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-transform border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-gray-100'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-[#FF5722]'}`}
                >
                  {t('home.coachBtn')}
                </button>
                <button 
                  onClick={() => setHeroTarget('genitore')}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-transform border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'genitore' ? 'bg-[#34BBC0] text-white border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.2)]' : 'hover:bg-gray-100'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'genitore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-[#FF5722]'}`}
                >
                  {t('home.parentBtn')}
                </button>
@@ -139,7 +139,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             >
               <button 
                 onClick={onOpenWaitlist}
-                className="w-full sm:w-auto font-['Space_Grotesk',_sans-serif] font-black text-lg bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-6 md:px-8 py-3 md:py-4 shadow-[6px_6px_0_0_#0F0F12] hover:shadow-[2px_2px_0_0_#0F0F12] hover:translate-y-1 transition-all duration-300 uppercase relative group overflow-hidden"
+                className="w-full sm:w-auto font-['Space_Grotesk',_sans-serif] font-black text-lg bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-6 md:px-8 py-3 md:py-4 shadow-[6px_6px_0_0_#0F0F12] hover:shadow-[2px_2px_0_0_#0F0F12] hover:translate-y-1 hover:bg-[#FF5722] hover:text-white transition-all duration-300 uppercase relative group overflow-hidden"
               >
                 <span className="relative z-10">{t('home.waitlistBtn')}</span>
                 <div className="absolute inset-0 bg-black -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out z-0"></div>
@@ -222,7 +222,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           {/* Vecchio Metodo */}
           <div 
             onClick={() => setBivioState('vecchio')}
-            className={`flex-1 p-8 sm:p-10 border-[4px] border-black transition-all cursor-pointer relative ${bivioState === 'vecchio' ? 'bg-[#FFE3D1] shadow-[8px_8px_0_0_#0F0F12] rotate-0 scale-100 z-10' : 'bg-white/90 backdrop-blur-sm shadow-[4px_4px_0_0_#0F0F12] -rotate-2 scale-95 opacity-80 hover:opacity-100 hover:rotate-0'}`}
+            className={`flex-1 p-8 sm:p-10 border-[4px] border-black transition-all cursor-pointer relative ${bivioState === 'vecchio' ? 'bg-[#FAF9F6] shadow-[8px_8px_0_0_#0F0F12] rotate-0 scale-100 z-10' : 'bg-white/90 backdrop-blur-sm shadow-[4px_4px_0_0_#0F0F12] -rotate-2 scale-95 opacity-80 hover:opacity-100 hover:rotate-0'}`}
           >
             <div className="washi-tape washi-yellow w-20 -top-3 left-1/2 -translate-x-1/2 rotate-3"></div>
             <div className="flex justify-between items-center mb-8 border-b-[3px] border-black pb-4">
@@ -230,22 +230,22 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               <span className="text-4xl">❌</span>
             </div>
             <ul className="space-y-6 font-bold text-lg">
-              <li className="flex gap-4"><span className="text-rose-500 font-black">1.</span> {t('home.old1')}</li>
-              <li className="flex gap-4"><span className="text-rose-500 font-black">2.</span> {t('home.old2')}</li>
-              <li className="flex gap-4"><span className="text-rose-500 font-black">3.</span> {t('home.old3')}</li>
+              <li className="flex gap-4"><span className="text-[#FF5722] font-black">1.</span> {t('home.old1')}</li>
+              <li className="flex gap-4"><span className="text-[#FF5722] font-black">2.</span> {t('home.old2')}</li>
+              <li className="flex gap-4"><span className="text-[#FF5722] font-black">3.</span> {t('home.old3')}</li>
             </ul>
           </div>
 
           {/* Metodo BAB */}
           <div 
             onClick={() => setBivioState('bab')}
-            className={`flex-1 p-8 sm:p-10 border-[4px] border-black transition-all duration-500 cursor-pointer flex flex-col justify-between relative ${bivioState === 'bab' ? 'bg-[#DAE69A] shadow-[8px_8px_0_0_#0F0F12] rotate-1 scale-100 z-10' : 'bg-white/90 backdrop-blur-sm shadow-[4px_4px_0_0_#0F0F12] rotate-3 scale-95 opacity-80 hover:opacity-100 hover:scale-[0.98] hover:rotate-1'}`}
+            className={`flex-1 p-8 sm:p-10 border-[4px] border-black transition-all duration-500 cursor-pointer flex flex-col justify-between relative ${bivioState === 'bab' ? 'bg-[#FAF9F6] shadow-[8px_8px_0_0_#0F0F12] rotate-1 scale-100 z-10' : 'bg-white/90 backdrop-blur-sm shadow-[4px_4px_0_0_#0F0F12] rotate-3 scale-95 opacity-80 hover:opacity-100 hover:scale-[0.98] hover:rotate-1'}`}
           >
             <div className="washi-tape washi-purple w-20 -top-3 right-8 -rotate-2"></div>
             <div>
               <div className="flex justify-between items-center mb-8 border-b-[3px] border-black pb-4">
-                <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase tracking-tight">{t('home.babMethod')}</h3>
-                <span className={`text-4xl transition-transform duration-500 ${bivioState === 'bab' ? 'scale-125 rotate-12' : ''}`}>💚</span>
+                <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase tracking-tight text-[#0F0F12]">{t('home.babMethod')}</h3>
+                <span className={`text-4xl transition-transform duration-500 ${bivioState === 'bab' ? 'scale-125 rotate-12' : ''}`}>🎯</span>
               </div>
               <ul className="space-y-6 font-bold text-lg mb-8">
                 <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black text-2xl">✓</span> {t('home.bab1')}</li>
@@ -255,7 +255,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             </div>
             
             <div className={`flex flex-col sm:flex-row gap-4 mt-auto transition-all duration-500 origin-top ${bivioState === 'bab' ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
-               <a href="#/app" className="y2k-btn bg-white text-xs text-center flex-1 hover:bg-[#34BBC0] hover:text-white transition-colors duration-300">{t('home.testAppBtn')}</a>
+               <a href="#/app" className="y2k-btn bg-white text-xs text-center flex-1 hover:bg-[#FFDE4D] transition-colors duration-300">{t('home.testAppBtn')}</a>
                <a href="#/coach" className="y2k-btn bg-white text-xs text-center flex-1 hover:bg-[#FFDE4D] transition-colors duration-300">{t('home.testCoachBtn')}</a>
             </div>
           </div>
@@ -374,8 +374,8 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
              {t('home.motto')}
           </p>
           <div className="flex gap-6 font-bold uppercase tracking-widest text-sm mb-4">
-             <a href="https://substack.com/@babcommunity" target="_blank" rel="noopener noreferrer" className="hover:text-[#34BBC0] transition-colors underline decoration-2 underline-offset-4">Substack</a>
-             <a href="https://www.instagram.com/bab_community/" target="_blank" rel="noopener noreferrer" className="hover:text-[#34BBC0] transition-colors underline decoration-2 underline-offset-4">Instagram</a>
+             <a href="https://substack.com/@babcommunity" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF5722] transition-colors underline decoration-2 underline-offset-4">Substack</a>
+             <a href="https://www.instagram.com/bab_community/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF5722] transition-colors underline decoration-2 underline-offset-4">Instagram</a>
           </div>
           <div className="font-black uppercase tracking-widest text-xs text-[#0F0F12]/60">
             {t('home.footerTags')}<br/><br/>
