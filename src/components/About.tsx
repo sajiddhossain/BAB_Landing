@@ -230,7 +230,7 @@ export default function About() {
 
               <div className="font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl leading-relaxed border-l-[4px] border-black pl-4 sm:pl-6 flex flex-col gap-4">
                 <p>{t('about.founderQuote1')}</p>
-                <p className="text-[#0F766E]">{t('about.founderQuote2')}</p>
+                <p className="text-vividteal">{t('about.founderQuote2')}</p>
                 <p className="bg-black text-white p-4 shadow-[4px_4px_0_0_#FFDE4D] skew-x-[-2deg] mt-4">
                   <span className="block skew-x-[2deg]">{t('about.founderQuote3')}</span>
                 </p>
