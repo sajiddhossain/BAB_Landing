@@ -37,7 +37,7 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
           {/* Brand + tagline + social */}
           <div className="md:col-span-5 flex flex-col items-start gap-6">
             <a href="#/" className="inline-block hover:-translate-y-0.5 transition-transform" aria-label="BAB — Home">
-              <img src="/BAB_logo.svg" alt="BAB Logo" className="h-12" />
+              <img src="/BAB_logo.svg" alt="BAB — Breaking All Barriers" className="h-12" />
             </a>
             <p className="font-['Space_Grotesk',_sans-serif] font-bold text-base leading-relaxed max-w-xs text-[#FAF9F6]/80">
               {t('footer.tagline')}

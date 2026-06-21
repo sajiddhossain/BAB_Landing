@@ -115,7 +115,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                 <div className="duct-tape duct-tape-black -top-4 right-2 rotate-[12deg] w-16 h-6 z-20"></div>
                 <img 
                   src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
-                  alt="BAB Atlete" 
+                  alt={t('home.heroPhotoAlt')} 
                   className="w-full max-h-[250px] aspect-[4/5] sm:aspect-auto object-cover border-[3px] border-black grayscale skew-x-[4deg]"
                 />
               </div>
@@ -187,7 +187,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             <div className="w-full max-w-md bg-white border-[4px] border-black p-2 shadow-[12px_12px_0_0_#FFDE4D] skew-x-[4deg] transition-transform duration-500 relative group crosshairs">
               <img 
                 src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
-                alt="BAB Atlete" 
+                alt={t('home.heroPhotoAlt')} 
                 className="w-full aspect-[4/5] object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500 skew-x-[-4deg]"
               />
               
@@ -406,7 +406,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                 <div className="duct-tape -top-4 -left-4 rotate-[-15deg] w-32 h-10 z-20 opacity-80"></div>
                 <img
                   src="/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif"
-                  alt="Atleta BAB"
+                  alt={t('home.dataPhotoAlt')}
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300 skew-x-[-4deg] scale-110"
                 />
               </div>
