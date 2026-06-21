@@ -50,11 +50,6 @@ export default function WaitlistModal({ isOpen, onClose, target }: WaitlistModal
   );
 }
 
-/** Named export for design previews: renders the panel inline without the fixed overlay. */
-export function WaitlistPanel({ target = 'genitore' }: { target?: UserType }) {
-  return <WaitlistPanelContent onClose={() => {}} target={target} />;
-}
-
 function WaitlistBody({ onClose, target }: { onClose: () => void; target?: UserType }) {
   const dialogRef = useRef<HTMLDivElement>(null);
 
