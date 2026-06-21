@@ -13,6 +13,30 @@
   --color-neo-peach: #FFE3D1;
   --color-neo-yellow: #FFDE4D;
   --color-neo-lime: #DAE69A;
+
+  /* === Palette BAB v2 — vedi docs/brand/color-system.md ===
+     Ruoli semantici, non solo tinte. Niente blu notte (navy ritirato). */
+  /* Neutri & inchiostro */
+  --color-cream: #FAF9F6;        /* carta / spazio sicuro */
+  --color-sand: #E8E4D8;         /* carta secondaria */
+  --color-ink: #0F0F12;          /* bordi · testo · ombre */
+  /* Fiducia / brand (verde-teal = ponte atleta↔coach) */
+  --color-deepteal: #143F36;     /* superfici scure "spazio sicuro" (ex navy) */
+  --color-vividteal: #1F7A63;    /* brand primario */
+  --color-teal: #34BBC0;         /* accento interattivo (cyan storico) */
+  --color-sky: #8FD4E8;          /* calma / respiro / recupero */
+  /* Azione / vai */
+  --color-lime: #D4F46A;         /* energia positiva / "vai" */
+  --color-sagelime: #DAE69A;     /* tint lime (superficie) */
+  --color-yellow: #FFDE4D;       /* CTA / highlight */
+  --color-gold: #FFC042;         /* ricompensa / badge */
+  /* Energia & corpo */
+  --color-coral: #FF6B5C;        /* energia / sfida / allarme */
+  --color-peach: #FFE3D1;        /* tint corallo (superficie calda) */
+  --color-pink: #FF8FB1;         /* corpo / ciclo / femminilità */
+  /* Mood */
+  --color-lavender: #B8A9E8;     /* umore / emozioni */
+  --color-palelavender: #EBE5FF; /* tint lavanda (superficie) */
 }
 
 :root {

@@ -48,7 +48,7 @@ export default function AppSimulator() {
             <div className="absolute top-4 left-4 bg-[#EBE5FF] border-2 border-[#0F0F12] px-2 py-1 font-black text-xs">
               BPM {data.bpm}
             </div>
-            <div className="absolute top-4 right-4 bg-[#34BBC0] text-white border-2 border-[#0F0F12] px-2 py-1 font-black text-xs">
+            <div className="absolute top-4 right-4 bg-vividteal text-white border-2 border-[#0F0F12] px-2 py-1 font-black text-xs">
               ZONA {data.zone}
             </div>
 

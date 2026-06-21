@@ -365,9 +365,9 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                   {t('home.bivioParentDesc')}
                 </p>
                 <ul className="space-y-4 font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg mb-12 flex-grow opacity-90">
-                  <li className="flex gap-4 items-start"><span className="text-[#34BBC0] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP1')}</span></li>
-                  <li className="flex gap-4 items-start"><span className="text-[#34BBC0] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP2')}</span></li>
-                  <li className="flex gap-4 items-start"><span className="text-[#34BBC0] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP3')}</span></li>
+                  <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP1')}</span></li>
+                  <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP2')}</span></li>
+                  <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP3')}</span></li>
                 </ul>
                 <a href="#/app" className="group flex items-center justify-center w-full bg-[#FFDE4D] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none transition-all mt-auto text-center">
                   {t('home.bivioParentCta')}
@@ -384,8 +384,8 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         </svg>
       </div>
 
-      {/* 3. DATA THAT BREAK BARRIERS */}
-      <section className="w-full bg-[#EBE5FF] border-y-[4px] border-black py-20 px-4 my-16 relative overflow-hidden text-[#0F0F12] grid-pattern">
+      {/* 3. A SYSTEMIC PROBLEM — carta spenta (sand), il dolore in coral, la speranza (kicker) in vividteal */}
+      <section className="w-full bg-sand border-y-[4px] border-black py-20 px-4 my-16 relative overflow-hidden text-[#0F0F12] grid-pattern">
         <div className="max-w-5xl mx-auto relative z-10 text-[#0F0F12]">
 
           {/* Header: testo a sinistra, immagine a destra */}
@@ -427,16 +427,16 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
             {/* 6% */}
             <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-t-[3px] border-black/10">
-              <span className="font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 #FF5722' }}>{t('home.data2Val')}</span>
+              <span className="font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 var(--color-coral)' }}>{t('home.data2Val')}</span>
               <p className="flex-1 font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data2Desc')}</p>
             </li>
 
             {/* 0% — il terminale: il vuoto che BAB colma */}
             <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-y-[3px] border-black/10">
-              <span className="font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 #34BBC0' }}>{t('home.data3Val')}</span>
+              <span className="font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 var(--color-coral)' }}>{t('home.data3Val')}</span>
               <div className="flex-1">
                 <p className="font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data3Desc')}</p>
-                <p className="mt-2 font-black uppercase text-[11px] tracking-widest text-[#0F766E]">↳ {t('home.dataVoid')}</p>
+                <p className="mt-2 font-black uppercase text-[11px] tracking-widest text-vividteal">↳ {t('home.dataVoid')}</p>
               </div>
             </li>
 
