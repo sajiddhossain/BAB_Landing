@@ -64,21 +64,22 @@ export default function FAQ() {
           const isOpen = openIndex === index;
           const isDarkTheme = faq.color === 'bg-[#34BBC0]';
           return (
-            <div key={index} className="bg-[#0F0F12] p-1.5 md:p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 transition-transform skew-x-[-2deg] crosshairs">
-              <div 
-                className={`border-[3px] border-black overflow-hidden transition-all duration-300 h-full skew-x-[2deg] ${isOpen ? faq.color : 'bg-white hover:bg-neutral-50 hover:text-[#FF5722] text-[#0F0F12]'}`}
-              >
+            <div 
+              key={index} 
+              className={`border-[2px] border-black overflow-hidden shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 transition-all duration-300 skew-x-[-2deg] crosshairs ${isOpen ? faq.color : 'bg-white hover:bg-neutral-50 hover:text-[#FF5722] text-[#0F0F12]'}`}
+            >
+              <div className="skew-x-[2deg] h-full flex flex-col">
                 <button
                   onClick={() => toggleFaq(index)}
-                  className="w-full flex items-center justify-between p-4 sm:p-6 text-left focus:outline-none"
+                  className="w-full flex items-center justify-between p-3 sm:p-5 text-left focus:outline-none"
                 >
-                  <h3 className={`font-['Bricolage_Grotesque',_sans-serif] italic text-xl sm:text-2xl font-black pr-4 ${isOpen && isDarkTheme ? 'text-white' : 'text-black'}`}>
+                  <h3 className={`font-['Bricolage_Grotesque',_sans-serif] italic text-lg sm:text-xl font-black pr-4 ${isOpen && isDarkTheme ? 'text-white' : 'text-black'}`}>
                     {faq.question}
                   </h3>
                   <motion.div
                     animate={{ rotate: isOpen ? 180 : 0 }}
                     transition={{ type: "spring", stiffness: 200, damping: 20 }}
-                    className={`w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border-[2px] sm:border-[3px] shrink-0 ${isOpen && isDarkTheme ? 'border-white bg-white text-black' : isOpen ? 'border-black bg-black text-white' : 'border-black bg-white text-black'}`}
+                    className={`w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center border-[2px] shrink-0 ${isOpen && isDarkTheme ? 'border-white bg-white text-black' : isOpen ? 'border-black bg-black text-white' : 'border-black bg-white text-black'}`}
                   >
                     <span className="font-['Space_Grotesk',_sans-serif] font-black italic text-xl leading-none">
                       {isOpen ? '−' : '+'}
@@ -94,7 +95,7 @@ export default function FAQ() {
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3, ease: "easeInOut" }}
                     >
-                      <div className={`p-4 sm:p-6 pt-0 border-t-[3px] font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg leading-relaxed ${isDarkTheme ? 'text-white border-white' : 'text-black border-black'}`}>
+                      <div className={`p-4 sm:p-5 pt-0 border-t-[2px] font-['Space_Grotesk',_sans-serif] font-bold text-sm sm:text-base leading-relaxed ${isDarkTheme ? 'text-white border-white' : 'text-black border-black'}`}>
                         {faq.answer}
                       </div>
                     </motion.div>

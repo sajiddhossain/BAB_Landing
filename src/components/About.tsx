@@ -36,7 +36,7 @@ export default function About() {
               <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6">
                 <span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">Redefining</span><br/>Girls' Sport
               </h1>
-              <p className="font-bold text-lg leading-relaxed border-l-[4px] border-black pl-4">
+              <p className="font-extrabold text-lg leading-relaxed border-l-[4px] border-black pl-4">
                 Non possiamo più accettare che le atlete siano trattate come "piccoli uomini". Costruiamo lo standard di domani, combinando scienza, dati biologici e tecnologia empatica.
               </p>
             </div>
@@ -64,7 +64,7 @@ export default function About() {
             </h2>
           </div>
           
-          <div className="flex flex-col items-center gap-12 sm:gap-16 max-w-3xl mx-auto mb-20 font-['Space_Grotesk',_sans-serif] font-bold text-lg sm:text-xl leading-relaxed">
+          <div className="flex flex-col items-center gap-12 sm:gap-16 max-w-3xl mx-auto mb-20 font-['Space_Grotesk',_sans-serif] font-extrabold text-lg sm:text-xl leading-relaxed">
             
             {/* Pezzo 1 */}
             <motion.div 
@@ -167,27 +167,27 @@ export default function About() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
                <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#FFDE4D] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>20%</span>
-               <p className="font-bold uppercase text-xs sm:text-sm">feel judged or unsupported by coaches during their period</p>
+               <p className="font-extrabold uppercase text-xs sm:text-sm">feel judged or unsupported by coaches during their period</p>
             </div>
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
                <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#FFDE4D] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>93%</span>
-               <p className="font-bold uppercase text-xs sm:text-sm">report a negative period-related experience in sport</p>
+               <p className="font-extrabold uppercase text-xs sm:text-sm">report a negative period-related experience in sport</p>
             </div>
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
                <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#DAE69A] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>77%</span>
-               <p className="font-bold uppercase text-xs sm:text-sm">say menstrual symptoms affect performance</p>
+               <p className="font-extrabold uppercase text-xs sm:text-sm">say menstrual symptoms affect performance</p>
             </div>
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
                <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#DAE69A] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>73%</span>
-               <p className="font-bold uppercase text-xs sm:text-sm">feel pressured to push through period pain</p>
+               <p className="font-extrabold uppercase text-xs sm:text-sm">feel pressured to push through period pain</p>
             </div>
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
                <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#34BBC0] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>84%</span>
-               <p className="font-bold uppercase text-xs sm:text-sm">ignore period pain as their main coping mechanism</p>
+               <p className="font-extrabold uppercase text-xs sm:text-sm">ignore period pain as their main coping mechanism</p>
             </div>
             <div className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
                <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-6xl font-black italic skew-x-[-12deg] text-[#34BBC0] mb-2 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '3px 3px 0px #0F0F12' }}>36%</span>
-               <p className="font-bold uppercase text-xs sm:text-sm">believes missing periods during competition is normal</p>
+               <p className="font-extrabold uppercase text-xs sm:text-sm">believes missing periods during competition is normal</p>
             </div>
           </div>
         </section>
@@ -214,10 +214,10 @@ export default function About() {
                
                {/* ELEMENTI DI AUTORITÀ (Space Grotesk) */}
                <div className="flex flex-col gap-3 mb-8 font-['Space_Grotesk',_sans-serif]">
-                 <div className="bg-[#FAF9F6] text-[#0F0F12] border-[1.5px] border-black px-3 py-1 text-sm font-bold self-start inline-block">
+                 <div className="bg-[#FAF9F6] text-[#0F0F12] border-[1.5px] border-black px-3 py-1 text-sm font-extrabold self-start inline-block">
                    Ex Atleta Agonista
                  </div>
-                 <div className="bg-[#FAF9F6] text-[#0F0F12] border-[1.5px] border-black px-3 py-1 text-sm font-bold self-start inline-block">
+                 <div className="bg-[#FAF9F6] text-[#0F0F12] border-[1.5px] border-black px-3 py-1 text-sm font-extrabold self-start inline-block">
                    Ex Marketing Specialist @ Adidas (~5 anni) & Puma (2.5 anni)
                  </div>
                </div>

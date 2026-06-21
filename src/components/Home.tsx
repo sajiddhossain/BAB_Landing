@@ -9,7 +9,6 @@ interface HomeProps {
 
 export default function Home({ onOpenWaitlist }: HomeProps) {
   const { t } = useTranslation();
-  const [bivioState, setBivioState] = useState<'vecchio' | 'bab'>('vecchio');
   const [heroTarget, setHeroTarget] = useState<'allenatore' | 'genitore'>('allenatore');
 
   const scrollContainerRef = useRef<HTMLDivElement>(null);
@@ -67,9 +66,10 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="inline-block px-4 py-1 bg-[#EBE5FF] border-[2px] md:border-[3px] border-black text-[#0F0F12] font-black text-[10px] sm:text-xs tracking-widest uppercase mb-4 sm:mb-6 shadow-[4px_4px_0_0_#0F0F12] skew-btn"
+              className="relative inline-block px-4 py-1 bg-[#EBE5FF] border-[2px] md:border-[3px] border-black text-[#0F0F12] font-black text-[10px] sm:text-xs tracking-widest uppercase mb-4 sm:mb-6 shadow-[4px_4px_0_0_#0F0F12]"
             >
-              <span className="skew-btn-content">{t('home.badge')}</span>
+              <div className="duct-tape duct-tape-black -top-2 -left-4 rotate-[-8deg] w-12 h-4"></div>
+              <span className="relative z-10">{t('home.badge')}</span>
             </motion.div>
             
             <motion.h1 
@@ -80,7 +80,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             >
               {t('home.heroTitle')}<br/>
               <span className="inline-block relative z-10 mt-3 px-4 sm:px-6 py-2 bg-[#3B4A6B] border-[3px] md:border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[6px_6px_0_0_#0F0F12] text-white skew-btn">
-                 <span className="skew-btn-content italic pr-2">{t('home.heroHighlight')}</span>
+                 <span className="skew-btn-content font-['Space_Grotesk',_sans-serif] font-bold pr-2 tracking-wide">{t('home.heroHighlight')}</span>
               </span>
               
               {/* Hand-drawn Doodle Arrow (Desktop) */}
@@ -97,6 +97,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               className="w-full flex justify-center mb-8 lg:hidden"
             >
               <div className="w-full max-w-[280px] sm:max-w-[320px] bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#FFDE4D] skew-x-[-4deg] relative crosshairs">
+                <div className="duct-tape duct-tape-black -top-4 right-2 rotate-[12deg] w-16 h-6 z-20"></div>
                 <img 
                   src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
                   alt="BAB Atlete" 
@@ -133,7 +134,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               transition={{ delay: 0.5 }}
               className="min-h-[4rem] flex items-center mb-8"
             >
-               <p className="text-sm sm:text-base md:text-lg font-bold border-l-[4px] border-black pl-4 text-left leading-snug text-[#0F0F12]">
+               <p className="text-sm sm:text-base md:text-lg font-extrabold border-l-[4px] border-black pl-4 text-left leading-snug text-[#0F0F12]">
                  {heroTarget === 'allenatore' && t('home.coachDesc')}
                  {heroTarget === 'genitore' && t('home.parentDesc')}
                </p>
@@ -147,12 +148,9 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             >
               <button 
                 onClick={onOpenWaitlist}
-                className="group flex items-center justify-between gap-4 w-full sm:w-auto font-['Space_Grotesk',_sans-serif] font-black text-lg italic bg-[#FFDE4D] border-[3px] md:border-[4px] border-black pl-6 md:pl-8 pr-2 py-2 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] hover:shadow-none hover:translate-y-[6px] hover:translate-x-[6px] transition-all duration-300 uppercase skew-btn"
+                className="group flex items-center justify-center w-full sm:w-auto font-['Space_Grotesk',_sans-serif] font-black text-xl sm:text-2xl italic bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] transition-all duration-300 uppercase skew-btn"
               >
-                <span className="skew-btn-content pr-2">{t('home.waitlistBtn')}</span>
-                <div className="skew-btn-content w-10 h-10 md:w-12 md:h-12 bg-[#0F0F12] rounded-none flex items-center justify-center text-[#FFDE4D] group-hover:translate-x-1 transition-all duration-300">
-                  ↗
-                </div>
+                <span className="skew-btn-content">{t('home.waitlistBtn')}</span>
               </button>
               <div 
                 className="font-['Space_Grotesk',_sans-serif] font-black text-[10px] sm:text-xs italic bg-[#EBE5FF] border-[2px] md:border-[3px] border-black px-3 md:px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] cursor-default text-center skew-btn"
@@ -217,10 +215,10 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
            <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-12 skew-btn">
              <span className="skew-btn-content italic">La Nostra Missione</span>
            </div>
-           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black italic uppercase leading-[0.9] tracking-tighter mb-10" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>
+           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 text-white drop-shadow-[4px_4px_0_rgba(15,15,18,1)]">
              BAB è la tua coach<br className="hidden sm:block"/> fuori dal campo.
            </h2>
-           <p className="font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#FFDE4D] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
+           <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#FFDE4D] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
              Ti insegna ad ascoltare il tuo corpo, capire i suoi segnali e fare scelte che ti fanno stare bene — per sapere quando dare il massimo e quando recuperare. <span className="text-[#DAE993]">Per continuare a fare sport e divertirti, performando al meglio e sentendoti meglio.</span>
            </p>
         </div>
@@ -232,55 +230,55 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       </section>
 
       {/* 2. BIVIO SCELTA (IL MODELLO FINANZ) */}
-      <section className="w-full px-4 py-24 mb-16 relative bg-[#121212] text-white border-y-[4px] border-black shadow-[0_8px_0_0_#FFDE4D]">
-        <div className="max-w-5xl mx-auto">
-          <div className="flex justify-center mb-16 relative z-10">
+      <section className="w-full px-4 py-24 mb-16 relative bg-[#FAF9F6] text-[#0F0F12] border-y-[4px] border-black overflow-hidden">
+        {/* Sfondo Grid Pattern */}
+        <div className="absolute inset-0 grid-pattern opacity-40 pointer-events-none"></div>
+
+        <div className="max-w-6xl mx-auto relative z-10">
+          <div className="flex justify-center mb-16 sm:mb-24">
             <div className="relative inline-block skew-btn">
-              <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black italic text-center uppercase tracking-tighter bg-[#FFDE4D] border-[4px] border-black px-8 py-3 relative text-[#0F0F12] m-0 shadow-[8px_8px_0_0_#34BBC0]">
+              <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black italic text-center uppercase tracking-tighter bg-[#0F0F12] border-[4px] border-[#0F0F12] px-8 py-3 text-[#FFDE4D] m-0 shadow-[8px_8px_0_0_#34BBC0]">
                 <span className="skew-btn-content pr-2">{t('home.costBadge')}</span>
               </h2>
             </div>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 w-full relative z-10 text-[#0F0F12]">
-            {/* Vecchio Metodo */}
-            <div 
-              onClick={() => setBivioState('vecchio')}
-              className={`flex-1 transition-all cursor-pointer relative p-2 md:p-3 border-[4px] border-black ${bivioState === 'vecchio' ? 'bg-[#FFDE4D] shadow-[8px_8px_0_0_#FFDE4D] scale-100 z-10' : 'bg-[#3B4A6B] shadow-[4px_4px_0_0_#0F0F12] scale-95 opacity-80 hover:opacity-100'}`}
-            >
-              <div className={`h-full p-6 sm:p-8 border-[3px] border-black crosshairs ${bivioState === 'vecchio' ? 'bg-[#FAF9F6]' : 'bg-[#121212] text-white'}`}>
-                <div className="flex justify-between items-center mb-8 border-b-[3px] border-current pb-4">
-                  <h3 className="font-['Bricolage_Grotesque',_sans-serif] italic text-3xl font-black uppercase tracking-tight">{t('home.oldMethod')}</h3>
+          <div className="flex flex-col md:flex-row items-stretch gap-8 sm:gap-12 w-full relative z-10">
+            {/* Vecchio Metodo (Obsoleto) */}
+            <div className="flex-1 relative md:mt-12 flex flex-col">
+              <div className="h-full p-6 sm:p-8 border-[4px] border-black bg-neutral-200 text-neutral-500 shadow-[4px_4px_0_0_rgba(0,0,0,0.2)] skew-x-[2deg] crosshairs">
+                <div className="skew-x-[-2deg]">
+                  <div className="flex justify-between items-center mb-8 border-b-[3px] border-neutral-400 pb-4">
+                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] italic text-3xl font-black uppercase tracking-tight text-neutral-600 line-through decoration-[4px] decoration-[#FF5722]/60">{t('home.oldMethod')}</h3>
+                  </div>
+                  <ul className="space-y-6 font-extrabold text-lg text-neutral-600">
+                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-300 font-black italic tracking-tighter">01.</span> <span className="leading-snug mt-1">{t('home.old1')}</span></li>
+                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-300 font-black italic tracking-tighter">02.</span> <span className="leading-snug mt-1">{t('home.old2')}</span></li>
+                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-300 font-black italic tracking-tighter">03.</span> <span className="leading-snug mt-1">{t('home.old3')}</span></li>
+                  </ul>
                 </div>
-                <ul className="space-y-6 font-bold text-lg">
-                  <li className="flex gap-4"><span className="text-[#FF5722] font-black italic">01.</span> {t('home.old1')}</li>
-                  <li className="flex gap-4"><span className="text-[#FF5722] font-black italic">02.</span> {t('home.old2')}</li>
-                  <li className="flex gap-4"><span className="text-[#FF5722] font-black italic">03.</span> {t('home.old3')}</li>
-                </ul>
               </div>
             </div>
 
-            {/* Metodo BAB */}
-            <div 
-              onClick={() => setBivioState('bab')}
-              className={`flex-1 transition-all duration-500 cursor-pointer relative p-2 md:p-3 border-[4px] border-black ${bivioState === 'bab' ? 'bg-[#FFDE4D] shadow-[8px_8px_0_0_#FFDE4D] scale-100 z-10' : 'bg-[#3B4A6B] shadow-[4px_4px_0_0_#0F0F12] scale-95 opacity-80 hover:opacity-100 hover:scale-[0.98]'}`}
-            >
-              <div className={`h-full p-6 sm:p-8 border-[3px] border-black flex flex-col justify-between crosshairs ${bivioState === 'bab' ? 'bg-[#FAF9F6] text-[#0F0F12]' : 'bg-[#121212] text-white'}`}>
-                <div>
-                  <div className="flex justify-between items-center mb-8 border-b-[3px] border-current pb-4 relative">
-                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl italic font-black uppercase tracking-tight relative z-10 bg-inherit pr-4">{t('home.babMethod')}</h3>
-                    <div className="telemetry-line"></div>
+            {/* Metodo BAB (High Performance) */}
+            <div className="flex-[1.2] relative flex flex-col z-20">
+              <div className="h-full p-8 sm:p-10 border-[4px] border-black bg-white text-[#0F0F12] shadow-[12px_12px_0_0_#34BBC0] skew-x-[-2deg] crosshairs ring-[8px] ring-[#FAF9F6]">
+                <div className="skew-x-[2deg] h-full flex flex-col">
+                  <div className="flex justify-between items-center mb-8 border-b-[3px] border-[#34BBC0] pb-4 relative">
+                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl italic font-black uppercase tracking-tight text-[#0F0F12]">{t('home.babMethod')}</h3>
+                    <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/3 h-[2px] bg-gradient-to-r from-[#34BBC0] to-transparent"></div>
                   </div>
-                  <ul className="space-y-6 font-bold text-lg mb-8">
-                    <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black italic text-2xl">SYS.</span> {t('home.bab1')}</li>
-                    <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black italic text-2xl">OP.</span> {t('home.bab2')}</li>
-                    <li className="flex gap-4 items-center"><span className="text-[#34BBC0] font-black italic text-2xl">LOG.</span> {t('home.bab3')}</li>
+                  
+                  <ul className="space-y-8 font-extrabold text-lg sm:text-xl mb-12 flex-grow">
+                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl leading-none text-[#34BBC0] font-black italic tracking-tighter drop-shadow-[2px_2px_0_rgba(15,15,18,1)]" style={{ WebkitTextStroke: '1.5px #0F0F12' }}>01.</span> <span className="leading-snug mt-1">{t('home.bab1')}</span></li>
+                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl leading-none text-[#FFDE4D] font-black italic tracking-tighter drop-shadow-[2px_2px_0_rgba(15,15,18,1)]" style={{ WebkitTextStroke: '1.5px #0F0F12' }}>02.</span> <span className="leading-snug mt-1">{t('home.bab2')}</span></li>
+                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl leading-none text-[#FF5722] font-black italic tracking-tighter drop-shadow-[2px_2px_0_rgba(15,15,18,1)]" style={{ WebkitTextStroke: '1.5px #0F0F12' }}>03.</span> <span className="leading-snug mt-1">{t('home.bab3')}</span></li>
                   </ul>
-                </div>
-                
-                <div className={`flex flex-col sm:flex-row gap-4 mt-auto transition-all duration-500 origin-top ${bivioState === 'bab' ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}`}>
-                   <a href="#/app" className="y2k-btn bg-[#FFDE4D] text-[#0F0F12] text-xs text-center flex-1 transition-colors duration-300 italic skew-btn"><span className="skew-btn-content">{t('home.testAppBtn')}</span></a>
-                   <a href="#/coach" className="y2k-btn bg-[#FFDE4D] text-[#0F0F12] text-xs text-center flex-1 transition-colors duration-300 italic skew-btn"><span className="skew-btn-content">{t('home.testCoachBtn')}</span></a>
+                  
+                  <div className="flex flex-col sm:flex-row gap-4 mt-auto">
+                     <a href="#/app" className="group flex items-center justify-center gap-4 flex-1 bg-[#FFDE4D] text-[#0F0F12] font-black italic text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] active:scale-95 hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all skew-btn"><span className="skew-btn-content text-center flex-1">{t('home.testAppBtn')}</span></a>
+                     <a href="#/coach" className="group flex items-center justify-center gap-4 flex-1 bg-[#34BBC0] text-[#0F0F12] font-black italic text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] active:scale-95 hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all skew-btn"><span className="skew-btn-content text-center flex-1">{t('home.testCoachBtn')}</span></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -306,11 +304,12 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl italic font-black leading-tight uppercase mb-6 tracking-tighter"
               dangerouslySetInnerHTML={{__html: t('home.dataTitle')}}
             />
-            <p className="text-xl font-bold mb-8 max-w-3xl text-[#0F0F12]">{t('home.dataSubtitle')}</p>
+            <p className="text-xl font-extrabold mb-8 max-w-3xl text-[#0F0F12]">{t('home.dataSubtitle')}</p>
           </div>
           
           <div className="w-full md:w-1/3 shrink-0 hidden md:block">
             <div className="w-full aspect-square border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] skew-x-[4deg] crosshairs relative overflow-hidden bg-white">
+              <div className="duct-tape -top-4 -left-4 rotate-[-15deg] w-32 h-10 z-20 opacity-80"></div>
               <img 
                 src="/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif" 
                 alt="Atleta BAB" 
@@ -323,21 +322,24 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         <div className="max-w-5xl mx-auto mt-12 relative z-10 text-[#0F0F12]">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6 relative">
             <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] relative crosshairs skew-x-[-6deg]">
+               <div className="duct-tape duct-tape-black -top-4 right-4 rotate-[15deg] w-20 h-6 z-20 opacity-70"></div>
                <div className="skew-x-[6deg]">
-                 <span className="font-['Space_Grotesk',_sans-serif] text-7xl font-black italic text-[#FFDE4D] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data1Val')}</span>
-                 <p className="font-bold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data1Desc')}</p>
+                 <span className="font-['Bricolage_Grotesque',_sans-serif] text-8xl md:text-[8rem] leading-none font-black italic text-[#FFDE4D] mb-4 block tracking-tighter" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '6px 6px 0px #0F0F12' }}>{t('home.data1Val')}</span>
+                 <p className="font-extrabold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data1Desc')}</p>
                </div>
             </div>
             <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] relative crosshairs skew-x-[-6deg]">
+               <div className="duct-tape -bottom-3 left-4 rotate-[-8deg] w-16 h-6 z-20 opacity-60"></div>
                <div className="skew-x-[6deg]">
-                 <span className="font-['Space_Grotesk',_sans-serif] text-7xl font-black italic text-[#3B4A6B] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data2Val')}</span>
-                 <p className="font-bold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data2Desc')}</p>
+                 <span className="font-['Bricolage_Grotesque',_sans-serif] text-8xl md:text-[8rem] leading-none font-black italic text-[#FF5722] mb-4 block tracking-tighter" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '6px 6px 0px #0F0F12' }}>{t('home.data2Val')}</span>
+                 <p className="font-extrabold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data2Desc')}</p>
                </div>
             </div>
             <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] relative crosshairs skew-x-[-6deg]">
+               <div className="duct-tape duct-tape-black -top-3 left-1/2 -translate-x-1/2 rotate-[2deg] w-24 h-6 z-20 opacity-80"></div>
                <div className="skew-x-[6deg]">
-                 <span className="font-['Space_Grotesk',_sans-serif] text-7xl font-black italic text-[#34BBC0] mb-4 block" style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{t('home.data3Val')}</span>
-                 <p className="font-bold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data3Desc')}</p>
+                 <span className="font-['Bricolage_Grotesque',_sans-serif] text-8xl md:text-[8rem] leading-none font-black italic text-[#34BBC0] mb-4 block tracking-tighter" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '6px 6px 0px #0F0F12' }}>{t('home.data3Val')}</span>
+                 <p className="font-extrabold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data3Desc')}</p>
                </div>
             </div>
           </div>
@@ -378,9 +380,10 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         >
           {testimonials.map((t, i) => {
             return (
-              <div key={i} className={`snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between ${t.color} text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform skew-x-[-2deg] crosshairs hover:-translate-y-2`}>
+              <div key={i} className={`relative snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between ${t.color} text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform skew-x-[-2deg] crosshairs hover:-translate-y-2`}>
+                <div className="duct-tape duct-tape-black -top-4 inset-x-1/2 -translate-x-1/2 rotate-[-2deg] w-28 h-8 z-20 opacity-90"></div>
                 <div className="telemetry-line"></div>
-                <p className="text-base sm:text-lg font-bold leading-relaxed mb-8 border-l-[4px] border-black pl-4 sm:pl-6 relative skew-x-[2deg]">
+                <p className="text-base sm:text-lg font-extrabold leading-relaxed mb-8 border-l-[4px] border-black pl-4 sm:pl-6 relative skew-x-[2deg]">
                   <span className="absolute -left-3 -top-3 text-4xl opacity-20 font-serif font-black">"</span>
                   {t.quote}
                 </p>
@@ -414,19 +417,19 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
         <div className="mb-16 inline-block bg-white border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-12 relative skew-x-[-6deg] crosshairs">
           <h2 
-            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black italic uppercase leading-tight text-[#3B4A6B] tracking-tighter skew-x-[6deg]" 
+            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black italic uppercase leading-tight text-white tracking-tighter skew-x-[6deg]" 
             style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}
             dangerouslySetInnerHTML={{__html: t('home.footerTitle')}}
           />
         </div>
 
         <div className="bg-white text-[#0F0F12] border-[4px] border-black p-8 sm:p-12 text-left shadow-[8px_8px_0_0_#0F0F12] relative max-w-3xl mx-auto skew-x-[-2deg] crosshairs">
-           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black italic uppercase mb-6 bg-black text-[#FFDE4D] inline-block px-4 py-2 tracking-tight skew-btn"><span className="skew-btn-content">{t('home.privacyTitle')}</span></h3>
-           <p className="font-bold text-lg leading-relaxed mb-6 skew-x-[2deg]">
-             {t('home.privacy1')}
-           </p>
-           <div className="skew-x-[2deg]">
-             <p className="font-bold text-lg leading-relaxed bg-[#EBE5FF] border-[3px] border-black p-4 shadow-[4px_4px_0_0_#0F0F12] border-l-[8px] border-l-[#34BBC0]">
+           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-[#FFDE4D] inline-block px-4 py-2 tracking-tight skew-btn"><span className="skew-btn-content">{t('home.privacyTitle')}</span></h3>
+           <div className="skew-x-[2deg] font-['Space_Grotesk',_sans-serif] font-bold">
+             <p className="text-lg leading-relaxed mb-6">
+               {t('home.privacy1')}
+             </p>
+             <p className="text-lg leading-relaxed bg-[#EBE5FF] border-[3px] border-black p-4 shadow-[4px_4px_0_0_#0F0F12] border-l-[8px] border-l-[#34BBC0]">
                {t('home.privacy2')}
              </p>
            </div>

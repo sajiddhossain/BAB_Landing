@@ -129,9 +129,9 @@ export default function App() {
 
           <button 
             onClick={() => setIsWaitlistOpen(true)} 
-            className="y2k-btn bg-[#FFDE4D] text-xs hover:bg-[#34BBC0] hover:text-white transition-colors ml-4"
+            className="group relative bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black px-6 py-2 ml-6 text-sm font-black uppercase tracking-wider italic shadow-[4px_4px_0_0_#0F0F12] active:shadow-none active:translate-y-1 active:translate-x-1 transition-all skew-btn"
           >
-            {t('nav.waitlist')}
+            <span className="skew-btn-content">{t('nav.waitlist')}</span>
           </button>
         </nav>
 
@@ -166,15 +166,15 @@ export default function App() {
                      {link.label}
                    </a>
                 ))}
-                <button 
-                  onClick={() => {
-                    setIsWaitlistOpen(true);
-                    setIsMenuOpen(false);
-                  }} 
-                  className="w-full text-center bg-[#34BBC0] border-[3px] border-black py-4 shadow-[6px_6px_0_0_#0F0F12] mt-4 hover:bg-[#FFDE4D] transition-colors"
-                >
-                  {t('nav.waitlist')} ✦
-                </button>
+                  <button 
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      setIsWaitlistOpen(true);
+                    }}
+                    className="w-full text-center py-4 bg-[#FFDE4D] border-[4px] border-black text-[#0F0F12] font-black italic text-xl shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:translate-x-1 active:shadow-none transition-all skew-btn"
+                  >
+                    <span className="skew-btn-content">{t('nav.waitlist')}</span>
+                  </button>
                 
                 {/* Mobile Language Switcher */}
                 <div className="flex justify-center gap-4 mt-8">

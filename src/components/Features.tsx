@@ -66,7 +66,7 @@ export default function Features() {
                    </div>
                    <div className="mt-2 w-full">
                      <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl font-black mb-4 uppercase text-[#0F0F12] tracking-tight">{m.title}</h3>
-                     <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg sm:text-xl leading-relaxed border-l-[4px] border-black pl-4 sm:pl-6 bg-white/70">{m.desc}</p>
+                     <p className="font-['Space_Grotesk',_sans-serif] font-extrabold text-lg sm:text-xl leading-relaxed border-l-[4px] border-black pl-4 sm:pl-6 bg-white/70">{m.desc}</p>
                    </div>
                  </div>
 
@@ -127,7 +127,7 @@ export default function Features() {
                       transition={{ duration: 0.3, ease: "easeInOut" }}
                       className="overflow-hidden"
                     >
-                      <div className="px-6 py-6 font-bold text-sm leading-relaxed bg-[#FAF9F6] border-t-[3px] border-black">
+                      <div className="px-6 py-6 font-extrabold text-sm leading-relaxed bg-[#FAF9F6] border-t-[3px] border-black">
                         {faq.a}
                       </div>
                     </motion.div>
