@@ -239,9 +239,9 @@ export default function App() {
                       setIsMenuOpen(false);
                       openWaitlist();
                     }}
-                    className="w-full text-center py-4 mt-2 bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black font-black text-xl uppercase tracking-wider shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:translate-x-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all skew-btn"
+                    className="w-full flex items-center justify-center py-4 mt-2 -skew-x-6 bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black font-black text-2xl uppercase tracking-wider shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:translate-x-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all"
                   >
-                    <span className="skew-btn-content">{t('nav.waitlist')}</span>
+                    {t('nav.waitlist')}
                   </button>
 
                 {/* Mobile Language Switcher */}
