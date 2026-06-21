@@ -92,11 +92,11 @@ export default function App() {
     };
   }, [isLangDropdownOpen]);
 
-  // Blocca lo scroll del body quando il menu mobile fullscreen è aperto
+  // Blocca lo scroll del body quando il menu mobile o la waitlist sono aperti
   useEffect(() => {
-    document.body.style.overflow = isMenuOpen ? 'hidden' : '';
+    document.body.style.overflow = (isMenuOpen || isWaitlistOpen) ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
-  }, [isMenuOpen]);
+  }, [isMenuOpen, isWaitlistOpen]);
 
   // Chiudi il menu mobile con Escape
   useEffect(() => {
