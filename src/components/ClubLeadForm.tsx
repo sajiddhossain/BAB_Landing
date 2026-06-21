@@ -29,7 +29,7 @@ export default function ClubLeadForm() {
   const [message, setMessage] = useState('');
   const [status, setStatus] = useState<Status>('idle');
 
-  const canSubmit = Boolean(name && club && isValidEmail(email)) && status !== 'submitting';
+  const canSubmit = Boolean(name.trim() && club.trim() && isValidEmail(email.trim())) && status !== 'submitting';
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -39,12 +39,12 @@ export default function ClubLeadForm() {
     const chosenRole = role || roles[0] || null;
 
     const result = await insertLead({
-      email,
+      email: email.trim().toLowerCase(),
       user_type: 'societa',
-      name,
-      club,
+      name: name.trim(),
+      club: club.trim(),
       role: chosenRole,
-      message: message || null,
+      message: message.trim() || null,
       lang,
       source_path: '#/coach',
     });
