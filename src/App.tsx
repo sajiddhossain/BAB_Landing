@@ -133,6 +133,10 @@ export default function App() {
     { path: '#/about', label: t('nav.about') },
   ];
 
+  // Route sconosciuta → mostra la Home invece di una pagina bianca (no dead-end)
+  const knownPaths = ['#/', '#/app', '#/coach', '#/features', '#/about'];
+  const activePath = knownPaths.includes(currentPath) ? currentPath : '#/';
+
   return (
     <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#FFDE4D] selection:text-[#0F0F12] font-['Space_Grotesk',_sans-serif] y2k-grid relative">
       
@@ -145,7 +149,7 @@ export default function App() {
         {/* Desktop Nav (>= lg per evitare l'affollamento con le etichette IT) */}
         <nav className="hidden lg:flex items-center gap-6 xl:gap-8 text-sm font-black uppercase tracking-widest">
           {navLinks.map((link) => {
-            const active = currentPath === link.path;
+            const active = activePath === link.path;
             return (
              <a
                key={link.path}
@@ -233,7 +237,7 @@ export default function App() {
           >
              <nav className="flex flex-col items-center gap-5 text-2xl font-black uppercase tracking-widest w-full px-6 max-w-md my-auto pt-28 pb-16" aria-label="Menu principale">
                 {navLinks.map((link) => {
-                   const active = currentPath === link.path;
+                   const active = activePath === link.path;
                    return (
                    <a
                      key={link.path}
@@ -282,11 +286,11 @@ export default function App() {
       <main className="pt-20 w-full overflow-x-hidden relative z-10">
         <Suspense fallback={<RouteFallback />}>
           <AnimatePresence mode="wait">
-            {currentPath === '#/' && <Home key="home" onOpenWaitlist={openWaitlist} />}
-            {currentPath === '#/app' && <AppSimulator key="app" />}
-            {currentPath === '#/coach' && <CoachDashboard key="coach" />}
-            {currentPath === '#/features' && <Features key="features" />}
-            {currentPath === '#/about' && <About key="about" />}
+            {activePath === '#/' && <Home key="home" onOpenWaitlist={openWaitlist} />}
+            {activePath === '#/app' && <AppSimulator key="app" />}
+            {activePath === '#/coach' && <CoachDashboard key="coach" />}
+            {activePath === '#/features' && <Features key="features" />}
+            {activePath === '#/about' && <About key="about" />}
           </AnimatePresence>
         </Suspense>
       </main>
