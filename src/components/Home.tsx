@@ -2,8 +2,12 @@ import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import FAQ from './FAQ';
+import Doodle from './Doodle';
 import { trackEvent } from '../lib/analytics';
 import type { UserType } from '../lib/leads';
+
+// Palette "voci ritrovate": spettro caldo per le affermazioni post-BAB (foto 3).
+const BAB_MARK = ['#D4F46A', '#8FD4E8', '#FF8FB1', '#B8A9E8', '#D4F46A', '#FFC042', '#FF8FB1'];
 
 interface HomeProps {
   onOpenWaitlist?: (target?: UserType) => void;
@@ -45,6 +49,9 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
     { name: 'Erica Sali', role: t('testimonials.erica.role'), quote: t('testimonials.erica.quote') },
   ];
 
+  const oldVoices = t('home.silenceOldVoices', { returnObjects: true }) as unknown as string[];
+  const babVoices = t('home.silenceBabVoices', { returnObjects: true }) as unknown as string[];
+
   return (
     <div className="flex flex-col items-center w-full min-h-screen text-[#0F0F12]">
       
@@ -77,7 +84,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               className="font-['Bricolage_Grotesque',_sans-serif] text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] mb-6 tracking-tighter w-full relative text-[#0F0F12]"
             >
               {t('home.heroTitle')}<br/>
-              <span className="inline-block relative z-10 mt-3 px-4 sm:px-6 py-2 bg-[#3B4A6B] border-[3px] md:border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[6px_6px_0_0_#0F0F12] text-white skew-btn">
+              <span className="inline-block relative z-10 mt-3 px-4 sm:px-6 py-2 bg-[#143F36] border-[3px] md:border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[6px_6px_0_0_#0F0F12] text-white skew-btn">
                  <span className="skew-btn-content font-['Bricolage_Grotesque',_sans-serif] italic font-black pr-2 tracking-wide">{t('home.heroHighlight')}</span>
               </span>
               
@@ -220,7 +227,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       </div>
 
       {/* 1.5 LA MISSIONE */}
-      <section className="w-full bg-[#3B4A6B] py-24 px-4 text-center relative text-white border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-16 mb-16">
+      <section className="w-full bg-[#143F36] py-24 px-4 text-center relative text-white border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-16 mb-16">
         <div className="max-w-5xl mx-auto relative z-10">
            <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-12 skew-btn">
              <span className="skew-btn-content">{t('home.missionBadge')}</span>
@@ -240,6 +247,67 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         <svg className="absolute top-0 right-0 w-64 h-64 text-[#FFDE4D] opacity-20 -rotate-12 translate-x-1/4 -translate-y-1/4" viewBox="0 0 100 100" fill="currentColor">
           <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="4" />
         </svg>
+      </section>
+
+      {/* 1.6 IL COSTO DEL SILENZIO — la voce dell'atleta, prima → dopo BAB (citazioni reali) */}
+      <section className="w-full px-4 py-20 sm:py-24 mb-16 relative bg-[#FAF9F6] text-[#0F0F12] border-y-[4px] border-black overflow-hidden grid-pattern">
+        <div className="max-w-5xl mx-auto relative z-10">
+
+          {/* Titolo nastrato */}
+          <div className="text-center mb-12 sm:mb-16">
+            <div className="relative inline-block -rotate-1">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-24 h-6 z-20 rotate-2 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#FFC042', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
+              <h2 className="relative font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-5xl font-black uppercase bg-white border-[4px] border-black px-6 sm:px-10 py-3 shadow-[8px_8px_0_0_#0F0F12]">{t('home.silenceBadge')}</h2>
+            </div>
+            <p className="mt-7 font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg text-[#0F0F12]/80 max-w-lg mx-auto">{t('home.silenceLead')}</p>
+          </div>
+
+          {/* Due pagine: Senza BAB  →  Con BAB */}
+          <div className="flex flex-col md:flex-row items-stretch gap-5 md:gap-4">
+
+            {/* SENZA BAB — voce spenta, barrata */}
+            <div className="flex-1 relative bg-[#FFE3D1] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-6 sm:p-7 md:-rotate-1">
+              <div className="absolute -top-3 left-6 w-20 h-6 z-20 -rotate-6 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#FFC042', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
+              <div className="flex items-center justify-between border-b-[3px] border-black/25 pb-3 mb-5">
+                <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl sm:text-3xl font-black uppercase text-[#0F0F12]/65">{t('home.silenceOldLabel')}</h3>
+                <span className="w-9 h-9 rounded-full bg-[#FF6B5C] text-white border-[3px] border-black flex items-center justify-center font-black shrink-0" aria-hidden="true">✕</span>
+              </div>
+              <ul className="flex flex-col gap-3">
+                {oldVoices.map((v, i) => (
+                  <li key={i} className="flex items-start gap-2.5">
+                    <span className="text-[#FF6B5C] font-black mt-px shrink-0" aria-hidden="true">✕</span>
+                    <span className="font-bold text-base sm:text-lg leading-snug line-through decoration-[#FF6B5C] decoration-2 text-[#0F0F12]/55">{v}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Freccia trasformazione */}
+            <div className="flex items-center justify-center shrink-0 py-1 md:py-0">
+              <Doodle name="arrow" className="w-12 h-12 text-[#1F7A63] -rotate-45 md:rotate-[200deg]" stroke={3} />
+            </div>
+
+            {/* CON BAB — voce viva, evidenziata */}
+            <div className="flex-1 relative bg-white border-[4px] border-black shadow-[8px_8px_0_0_#FF8FB1] p-6 sm:p-7 md:rotate-1">
+              <div className="absolute -top-3 right-6 w-20 h-6 z-20 rotate-6 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#B8A9E8', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
+              <div className="flex items-center justify-between border-b-[3px] border-black pb-3 mb-5">
+                <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl sm:text-3xl font-black uppercase">{t('home.silenceBabLabel')}</h3>
+                <span className="w-9 h-9 rounded-full bg-[#D4F46A] border-[3px] border-black flex items-center justify-center text-base shrink-0" aria-hidden="true">💚</span>
+              </div>
+              <ul className="flex flex-col gap-3">
+                {babVoices.map((v, i) => (
+                  <li key={i} className="flex items-start gap-2.5">
+                    <span className="text-[#1F7A63] font-black mt-px shrink-0" aria-hidden="true">✓</span>
+                    <span className="font-bold text-base sm:text-lg leading-snug box-decoration-clone px-1.5 py-0.5 text-[#0F0F12]" style={{ backgroundColor: BAB_MARK[i % BAB_MARK.length] }}>{v}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          {/* Nota fonte */}
+          <p className="mt-10 text-center text-xs sm:text-sm font-bold text-[#0F0F12]/55 max-w-xl mx-auto">* {t('home.silenceFootnote')}</p>
+        </div>
       </section>
 
       {/* 2. IL TUO BIVIO */}
@@ -263,7 +331,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           {/* Bivio Grid */}
           <div className="w-full flex flex-col md:flex-row border-[3px] border-black shadow-[12px_12px_0_0_#0F0F12] overflow-hidden bg-white">
              {/* Colonna Allenatore */}
-             <div className="flex-1 bg-[#3B4A6B] text-white p-8 sm:p-12 flex flex-col relative">
+             <div className="flex-1 bg-[#143F36] text-white p-8 sm:p-12 flex flex-col relative">
                 <div className="inline-block bg-[#FFDE4D] text-[#0F0F12] border-[2px] border-black px-4 py-1 font-['Space_Grotesk',_sans-serif] font-black uppercase tracking-widest text-xs mb-8 self-start shadow-[4px_4px_0_0_#0F0F12]">
                   {t('home.bivioCoachBadge')}
                 </div>
