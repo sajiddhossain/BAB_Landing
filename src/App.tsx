@@ -7,7 +7,7 @@
  *            L'utilizzo, la modifica o la distribuzione non autorizzata 
  *            sono severamente vietati in assenza di accordi contrattuali scritti.
  */
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { initAnalytics, trackPageview, trackEvent } from './lib/analytics';
@@ -20,6 +20,7 @@ import CoachDashboard from './components/CoachDashboard';
 import Features from './components/Features';
 import About from './components/About';
 import WaitlistModal from './components/WaitlistModal';
+import Footer from './components/Footer';
 
 export default function App() {
   const { t, i18n } = useTranslation();
@@ -28,6 +29,7 @@ export default function App() {
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
   const [waitlistTarget, setWaitlistTarget] = useState<UserType | undefined>(undefined);
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
+  const langRef = useRef<HTMLDivElement>(null);
 
   const openWaitlist = (target?: UserType) => {
     setWaitlistTarget(target);
@@ -58,6 +60,39 @@ export default function App() {
     initAnalytics();
     trackPageview(window.location.hash || '#/');
   }, []);
+
+  // Chiudi il dropdown lingua su click-fuori o Escape (touch-friendly + a11y)
+  useEffect(() => {
+    if (!isLangDropdownOpen) return;
+    const onPointer = (e: PointerEvent) => {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+        setIsLangDropdownOpen(false);
+      }
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsLangDropdownOpen(false);
+    };
+    document.addEventListener('pointerdown', onPointer);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('pointerdown', onPointer);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [isLangDropdownOpen]);
+
+  // Blocca lo scroll del body quando il menu mobile fullscreen è aperto
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [isMenuOpen]);
+
+  // Chiudi il menu mobile con Escape
+  useEffect(() => {
+    if (!isMenuOpen) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsMenuOpen(false); };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  }, [isMenuOpen]);
 
   // Sync hash routing
   useEffect(() => {
@@ -96,46 +131,54 @@ export default function App() {
         </a>
         
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-8 text-sm font-black uppercase tracking-widest">
-          {navLinks.map((link) => (
-             <a 
-               key={link.path} 
-               href={link.path} 
-               className={`transition-all hover:-translate-y-0.5 ${currentPath === link.path ? 'text-[#0F766E] underline decoration-[3px] underline-offset-4' : 'text-black hover:text-[#0F766E]'}`}
+        <nav className="hidden md:flex items-center gap-7 lg:gap-8 text-sm font-black uppercase tracking-widest">
+          {navLinks.map((link) => {
+            const active = currentPath === link.path;
+            return (
+             <a
+               key={link.path}
+               href={link.path}
+               aria-current={active ? 'page' : undefined}
+               className={`relative py-1 transition-all hover:-translate-y-0.5 after:absolute after:left-0 after:-bottom-0.5 after:h-[3px] after:bg-[#34BBC0] after:transition-all ${active ? 'text-[#0F766E] after:w-full' : 'text-black hover:text-[#0F766E] after:w-0 hover:after:w-full'}`}
              >
                {link.label}
              </a>
-          ))}
-          
-          {/* Language Switcher Dropdown */}
-          <div 
-            className="relative ml-4"
-            onMouseEnter={() => setIsLangDropdownOpen(true)}
-            onMouseLeave={() => setIsLangDropdownOpen(false)}
-          >
-            <button className="w-8 h-8 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 transition-transform bg-[#FAF9F6] shadow-[2px_2px_0_0_#000] z-50 relative flex items-center justify-center">
-              <img src={getFlagImg(currentLang)} alt={currentLang.toUpperCase()} className="w-full h-full object-cover" />
+            );
+          })}
+
+          {/* Language Switcher Dropdown (click-based, a11y) */}
+          <div className="relative ml-2" ref={langRef}>
+            <button
+              onClick={() => setIsLangDropdownOpen(o => !o)}
+              aria-haspopup="true"
+              aria-expanded={isLangDropdownOpen}
+              aria-label={`Lingua: ${currentLang.toUpperCase()}`}
+              className="w-9 h-9 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-0.5 transition-transform bg-[#FAF9F6] shadow-[2px_2px_0_0_#000] z-50 relative flex items-center justify-center focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+            >
+              <img src={getFlagImg(currentLang)} alt="" className="w-full h-full object-cover" />
             </button>
-            
+
             <AnimatePresence>
               {isLangDropdownOpen && (
-                <motion.div 
+                <motion.div
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
-                  className="absolute top-full left-0 mt-2 flex flex-col gap-2 bg-white border-[2px] border-black p-2 shadow-[4px_4px_0_0_#000] z-40 rounded"
+                  transition={{ duration: 0.15 }}
+                  className="absolute top-full right-0 mt-2 flex flex-col gap-2 bg-white border-[2px] border-black p-2 shadow-[4px_4px_0_0_#000] z-40 rounded"
                 >
                   {otherLangs.map(lng => (
-                    <button 
+                    <button
                       key={lng}
                       onClick={() => {
                         i18n.changeLanguage(lng);
                         setIsLangDropdownOpen(false);
-                      }} 
-                      className="w-8 h-8 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 hover:scale-110 transition-transform opacity-80 hover:opacity-100"
+                      }}
+                      className="w-9 h-9 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 hover:scale-110 transition-transform opacity-80 hover:opacity-100 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] focus-visible:opacity-100"
                       title={lng.toUpperCase()}
+                      aria-label={lng.toUpperCase()}
                     >
-                      <img src={getFlagImg(lng)} alt={lng.toUpperCase()} className="w-full h-full object-cover" />
+                      <img src={getFlagImg(lng)} alt="" className="w-full h-full object-cover" />
                     </button>
                   ))}
                 </motion.div>
@@ -145,16 +188,19 @@ export default function App() {
 
           <button
             onClick={() => openWaitlist()}
-            className="group relative bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black px-6 py-2 ml-6 text-sm font-black uppercase tracking-wider shadow-[4px_4px_0_0_#0F0F12] active:shadow-none active:translate-y-1 active:translate-x-1 transition-all skew-btn"
+            className="group relative bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black px-6 py-2 ml-4 text-sm font-black uppercase tracking-wider shadow-[4px_4px_0_0_#0F0F12] hover:bg-[#34BBC0] active:shadow-none active:translate-y-1 active:translate-x-1 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all skew-btn"
           >
             <span className="skew-btn-content">{t('nav.waitlist')}</span>
           </button>
         </nav>
 
         {/* Mobile Hamburger Button */}
-        <button 
+        <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden w-12 h-12 bg-white border-[3px] border-black flex flex-col items-center justify-center gap-1.5 shadow-[4px_4px_0_0_#0F0F12] z-50 transition-transform active:translate-y-1 active:shadow-[0_0_0_0_#000]"
+          aria-label={isMenuOpen ? 'Chiudi menu' : 'Apri menu'}
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-menu"
+          className="md:hidden w-12 h-12 bg-white border-[3px] border-black flex flex-col items-center justify-center gap-1.5 shadow-[4px_4px_0_0_#0F0F12] z-50 transition-transform active:translate-y-1 active:shadow-[0_0_0_0_#000] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
         >
           <span className={`block w-6 h-[3px] bg-black transition-transform ${isMenuOpen ? 'rotate-45 translate-y-[9px]' : ''}`}></span>
           <span className={`block w-6 h-[3px] bg-black transition-opacity ${isMenuOpen ? 'opacity-0' : ''}`}></span>
@@ -165,44 +211,54 @@ export default function App() {
       {/* MOBILE FULLSCREEN MENU */}
       <AnimatePresence>
         {isMenuOpen && (
-          <motion.div 
+          <motion.div
+            id="mobile-menu"
             initial={{ y: '-100%' }}
             animate={{ y: 0 }}
             exit={{ y: '-100%' }}
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
-            className="fixed inset-0 bg-[#FFDE4D] z-40 flex flex-col items-center justify-center border-b-[4px] border-black"
+            className="fixed inset-0 bg-[#FFDE4D] z-40 flex flex-col items-center justify-center border-b-[4px] border-black overflow-y-auto py-24"
           >
-             <nav className="flex flex-col items-center gap-8 text-2xl font-black uppercase tracking-widest w-full px-6">
-                {navLinks.map((link) => (
-                   <a 
-                     key={link.path} 
-                     href={link.path} 
-                     className="w-full text-center bg-white border-[3px] border-black py-4 shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#000] transition-all"
+             <nav className="flex flex-col items-center gap-5 text-2xl font-black uppercase tracking-widest w-full px-6 max-w-md" aria-label="Menu principale">
+                {navLinks.map((link) => {
+                   const active = currentPath === link.path;
+                   return (
+                   <a
+                     key={link.path}
+                     href={link.path}
+                     aria-current={active ? 'page' : undefined}
+                     className={`w-full text-center border-[3px] border-black py-4 shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#000] transition-all ${active ? 'bg-[#34BBC0] text-[#0F0F12]' : 'bg-white'}`}
                    >
                      {link.label}
                    </a>
-                ))}
+                   );
+                })}
                   <button
                     onClick={() => {
                       setIsMenuOpen(false);
                       openWaitlist();
                     }}
-                    className="w-full text-center py-4 bg-[#FFDE4D] border-[4px] border-black text-[#0F0F12] font-black text-xl shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:translate-x-1 active:shadow-none transition-all skew-btn"
+                    className="w-full text-center py-4 mt-2 bg-[#0F0F12] border-[4px] border-black text-[#FFDE4D] font-black text-xl shadow-[6px_6px_0_0_#34BBC0] active:translate-y-1 active:translate-x-1 active:shadow-none transition-all skew-btn"
                   >
-                    <span className="skew-btn-content">{t('nav.waitlist')}</span>
+                    <span className="skew-btn-content">{t('nav.waitlist')} ✦</span>
                   </button>
-                
+
                 {/* Mobile Language Switcher */}
-                <div className="flex justify-center gap-4 mt-8">
-                  <button onClick={() => i18n.changeLanguage('it')} className={`w-10 h-10 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform ${i18n.language.startsWith('it') ? 'shadow-[4px_4px_0_0_#000]' : 'opacity-60'}`}>
-                    <img src="/flags/italy.png" alt="IT" className="w-full h-full object-cover" />
-                  </button>
-                  <button onClick={() => i18n.changeLanguage('en')} className={`w-10 h-10 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform ${i18n.language.startsWith('en') ? 'shadow-[4px_4px_0_0_#000]' : 'opacity-60'}`}>
-                    <img src="/flags/united-kingdom.png" alt="EN" className="w-full h-full object-cover" />
-                  </button>
-                  <button onClick={() => i18n.changeLanguage('fr')} className={`w-10 h-10 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform ${i18n.language.startsWith('fr') ? 'shadow-[4px_4px_0_0_#000]' : 'opacity-60'}`}>
-                    <img src="/flags/france.png" alt="FR" className="w-full h-full object-cover" />
-                  </button>
+                <div className="flex justify-center gap-4 mt-8" role="group" aria-label="Lingua">
+                  {([['it','/flags/italy.png'],['en','/flags/united-kingdom.png'],['fr','/flags/france.png']] as const).map(([lng, flag]) => {
+                    const active = i18n.language.startsWith(lng);
+                    return (
+                      <button
+                        key={lng}
+                        onClick={() => i18n.changeLanguage(lng)}
+                        aria-label={lng.toUpperCase()}
+                        aria-pressed={active}
+                        className={`w-11 h-11 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${active ? 'shadow-[4px_4px_0_0_#000] scale-110' : 'opacity-60'}`}
+                      >
+                        <img src={flag} alt="" className="w-full h-full object-cover" />
+                      </button>
+                    );
+                  })}
                 </div>
              </nav>
           </motion.div>
@@ -219,6 +275,9 @@ export default function App() {
           {currentPath === '#/about' && <About key="about" />}
         </AnimatePresence>
       </main>
+
+      {/* GLOBAL FOOTER (tutte le pagine) */}
+      <Footer onOpenWaitlist={openWaitlist} />
 
       {/* GLOBAL WAITLIST MODAL */}
       <WaitlistModal

@@ -7,6 +7,15 @@
     "about": "À propos",
     "waitlist": "Liste d'attente"
   },
+  "footer": {
+    "tagline": "La première application santé et bien-être pour les jeunes athlètes féminines.",
+    "navHeading": "Naviguer",
+    "followHeading": "Suivez-nous",
+    "ctaHeading": "Prête à commencer ?",
+    "ctaText": "Rejoignez la liste d'attente et la communauté qui brise les barrières.",
+    "rights": "© 2026 BAB. Tous droits réservés.",
+    "tags": "Prévenir • Soutenir • Suivre • Comprendre • Optimiser"
+  },
   "home": {
     "beta": "Bêta",
     "badge": "✦ Techstars Startup Weekend AI · Lecco ✦",
