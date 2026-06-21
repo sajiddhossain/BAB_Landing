@@ -37,7 +37,7 @@ export default function About() {
               <span className="inline-flex items-center gap-2 bg-[#DAE69A] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] skew-x-[-12deg] relative">
                 <span className="block skew-x-[12deg]">{t('about.missionBadge')}</span>
               </span>
-              <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6">
+              <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6 break-words max-w-full">
                 <span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">{t('about.titleWord')}</span><br/>{t('about.titleRest')}
               </h1>
               <p className="font-extrabold text-lg leading-relaxed border-l-[4px] border-black pl-4">
@@ -166,7 +166,7 @@ export default function About() {
             <Doodle name="star" className="absolute top-6 right-4 sm:right-20 w-8 h-8 text-[#FF6B5C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12" />
 
             <h3
-              className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#FFDE4D]"
+              className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#FFDE4D] break-words max-w-full"
               style={{ WebkitTextStroke: '2.5px #0F0F12' }}
             >
               {t('about.bigA')}<br/><span className="underline decoration-[#DAE69A] decoration-8 underline-offset-4 text-white">{t('about.bigHealth')}</span><br/>{t('about.bigB')}<br/><span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">{t('about.bigSport')}</span>

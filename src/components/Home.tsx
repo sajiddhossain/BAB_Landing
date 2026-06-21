@@ -233,7 +233,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
              <span className="skew-btn-content">{t('home.missionBadge')}</span>
            </div>
            <h2 
-             className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 text-white drop-shadow-[6px_6px_0_rgba(15,15,18,1)]"
+             className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 text-white drop-shadow-[6px_6px_0_rgba(15,15,18,1)] break-words max-w-full"
              style={{ WebkitTextStroke: '2px #0F0F12' }}
            >
              {t('home.missionTitle')}
@@ -320,7 +320,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
              <div className="font-['Space_Grotesk',_sans-serif] font-black tracking-widest text-sm uppercase text-black/60 mb-4">
                {t('home.bivioSuper')}
              </div>
-             <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl lg:text-7xl font-black italic uppercase tracking-tighter text-[#FAF9F6] drop-shadow-[6px_6px_0_rgba(15,15,18,1)] mb-6" style={{ WebkitTextStroke: '2.5px #0F0F12' }}>
+             <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl lg:text-7xl font-black italic uppercase tracking-tighter text-[#FAF9F6] drop-shadow-[6px_6px_0_rgba(15,15,18,1)] mb-6 break-words max-w-full" style={{ WebkitTextStroke: '2.5px #0F0F12' }}>
                {t('home.bivioTitle')}
              </h2>
              <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg sm:text-xl max-w-2xl text-[#0F0F12]">
@@ -421,19 +421,19 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
             {/* 50% */}
             <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-t-[3px] border-black/10">
-              <span className="font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 #FFDE4D' }}>{t('home.data1Val')}</span>
+              <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.2em] sm:w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 #FFDE4D' }}>{t('home.data1Val')}</span>
               <p className="flex-1 font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data1Desc')}</p>
             </li>
 
             {/* 6% */}
             <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-t-[3px] border-black/10">
-              <span className="font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 var(--color-coral)' }}>{t('home.data2Val')}</span>
+              <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.2em] sm:w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 var(--color-coral)' }}>{t('home.data2Val')}</span>
               <p className="flex-1 font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data2Desc')}</p>
             </li>
 
             {/* 0% — il terminale: il vuoto che BAB colma */}
             <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-y-[3px] border-black/10">
-              <span className="font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 var(--color-coral)' }}>{t('home.data3Val')}</span>
+              <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.2em] sm:w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 var(--color-coral)' }}>{t('home.data3Val')}</span>
               <div className="flex-1">
                 <p className="font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data3Desc')}</p>
                 <p className="mt-2 font-black uppercase text-[11px] tracking-widest text-deepteal">↳ {t('home.dataVoid')}</p>
