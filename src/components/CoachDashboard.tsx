@@ -125,7 +125,7 @@ export default function CoachDashboard() {
                   role="tab"
                   aria-selected={tab === key}
                   onClick={() => setTab(key)}
-                  className={`flex-1 sm:flex-none px-6 py-3 font-black text-xs uppercase tracking-widest transition-colors focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[-3px] focus-visible:outline-[#34BBC0] ${i === 0 ? 'border-r-[3px] border-black' : ''} ${tab === key ? 'bg-[#FFDE4D]' : 'hover:bg-neutral-100 hover:text-[#0F766E]'}`}
+                  className={`flex-1 sm:flex-none px-6 py-3 font-black text-xs uppercase tracking-widest transition-colors focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[-3px] focus-visible:outline-[#34BBC0] ${i === 0 ? 'border-r-[3px] border-black' : ''} ${tab === key ? 'bg-[#FFDE4D]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
                 >
                   {label}
                 </button>
@@ -161,7 +161,7 @@ export default function CoachDashboard() {
                 {/* Umore */}
                 <div className="bg-[#FFE3D1] border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] p-6">
                   <h3 className="text-xs font-black uppercase tracking-widest mb-1 border-b-2 border-black pb-2">{t('coach.kpiMoodLabel')}</h3>
-                  <div className="text-4xl font-['Bricolage_Grotesque',_sans-serif] font-black mt-4 uppercase leading-none flex items-center gap-2"><span className="text-[#0F766E]" aria-hidden="true">↗</span>{t('coach.kpiMoodValue')}</div>
+                  <div className="text-4xl font-['Bricolage_Grotesque',_sans-serif] font-black mt-4 uppercase leading-none flex items-center gap-2"><span className="text-vividteal" aria-hidden="true">↗</span>{t('coach.kpiMoodValue')}</div>
                   <p className="text-sm font-bold mt-3">{t('coach.kpiMoodNote')}</p>
                 </div>
               </div>
