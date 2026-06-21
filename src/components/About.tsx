@@ -34,7 +34,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
 
             <div className="flex-1 text-center md:text-left">
-              <span className="inline-flex items-center gap-2 bg-[#DAE993] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] skew-x-[-12deg] relative">
+              <span className="inline-flex items-center gap-2 bg-[#DAE69A] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] skew-x-[-12deg] relative">
                 <span className="block skew-x-[12deg]">{t('about.missionBadge')}</span>
               </span>
               <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6">
@@ -117,7 +117,7 @@ export default function About() {
             >
               {/* doodle: decorazioni "da diario" attorno alla polaroid di Mia */}
               <Doodle name="sparkle" className="absolute -top-4 -right-4 w-10 h-10 text-[#FFDE4D] drop-shadow-[2px_2px_0_#0F0F12] rotate-12 z-20 pointer-events-none" />
-              <Doodle name="heart" className="absolute -bottom-4 -left-5 w-10 h-10 text-[#FF5722] -rotate-12 z-20 drop-shadow-[2px_2px_0_#0F0F12] pointer-events-none" />
+              <Doodle name="heart" className="absolute -bottom-4 -left-5 w-10 h-10 text-[#FF6B5C] -rotate-12 z-20 drop-shadow-[2px_2px_0_#0F0F12] pointer-events-none" />
               <div className="bg-white p-2 sm:p-3 border-[3px] border-black skew-x-[2deg]">
                 <img src="/fotobab/mia.avif" alt={t('about.miaCaption')} className="w-full aspect-square object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500" loading="lazy" />
                 <div className="p-4 font-['Bricolage_Grotesque',_sans-serif] text-center font-black uppercase text-xl text-neutral-500">{t('about.miaCaption')}</div>
@@ -163,7 +163,7 @@ export default function About() {
 
             {/* doodle: scintille d'enfasi attorno al manifesto */}
             <Doodle name="sparkle" className="absolute -top-2 left-4 sm:left-16 w-9 h-9 text-[#34BBC0] drop-shadow-[2px_2px_0_#0F0F12] -rotate-12" />
-            <Doodle name="star" className="absolute top-6 right-4 sm:right-20 w-8 h-8 text-[#FF5722] drop-shadow-[2px_2px_0_#0F0F12] rotate-12" />
+            <Doodle name="star" className="absolute top-6 right-4 sm:right-20 w-8 h-8 text-[#FF6B5C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12" />
 
             <h3
               className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#FFDE4D]"
@@ -212,7 +212,7 @@ export default function About() {
             <div className="flex-1 bg-white border-[4px] border-black p-6 sm:p-8 shadow-[8px_8px_0_0_#000] w-full">
               <div className="flex flex-col items-start gap-5 mb-8">
                 <h3 className="relative inline-block font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-4xl font-black uppercase m-0">Gaia Manzone
-                  <Doodle name="underline" stretch className="absolute -bottom-2.5 left-0 w-full h-3 text-[#FF5722]" stroke={3} />
+                  <Doodle name="underline" stretch className="absolute -bottom-2.5 left-0 w-full h-3 text-[#FF6B5C]" stroke={3} />
                 </h3>
                 <span className="inline-block bg-black text-white text-xs sm:text-sm font-black uppercase tracking-widest px-4 py-1.5 skew-x-[-12deg] shadow-[4px_4px_0_0_#34BBC0]">
                   <span className="block skew-x-[12deg]">{t('about.founderRole')}</span>
@@ -244,7 +244,7 @@ export default function About() {
         <section className="mb-20 relative">
           <div className="flex items-center gap-4 mb-8">
             <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-5xl font-black uppercase">{t('about.communityTitle')}</h2>
-            <Doodle name="heart" className="w-7 h-7 shrink-0 text-[#FF5722] -rotate-12 drop-shadow-[2px_2px_0_#0F0F12]" />
+            <Doodle name="heart" className="w-7 h-7 shrink-0 text-[#FF6B5C] -rotate-12 drop-shadow-[2px_2px_0_#0F0F12]" />
             <div className="flex-1 h-[4px] bg-black"></div>
             <Doodle name="star" className="w-7 h-7 shrink-0 text-[#34BBC0] rotate-12 drop-shadow-[2px_2px_0_#0F0F12]" />
           </div>

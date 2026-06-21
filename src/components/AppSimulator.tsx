@@ -37,7 +37,7 @@ export default function AppSimulator() {
     <section className="bg-[#FAF9F6] text-[#0F0F12] py-24 md:py-32 px-4 font-['Space_Grotesk',_sans-serif] min-h-screen flex items-center justify-center">
       <div className="w-full max-w-sm">
         
-        <div className="bg-[#DAE993] border-2 md:border-4 border-[#0F0F12] px-4 py-2 mb-6 font-black uppercase text-sm shadow-[4px_4px_0px_0px_#0F0F12] rotate-2 inline-block">
+        <div className="bg-[#DAE69A] border-2 md:border-4 border-[#0F0F12] px-4 py-2 mb-6 font-black uppercase text-sm shadow-[4px_4px_0px_0px_#0F0F12] rotate-2 inline-block">
           {t('simulator.title')}
         </div>
 
