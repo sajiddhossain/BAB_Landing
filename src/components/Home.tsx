@@ -214,7 +214,10 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
            <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-12 skew-btn">
              <span className="skew-btn-content">{t('home.missionBadge')}</span>
            </div>
-           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 text-white drop-shadow-[4px_4px_0_rgba(15,15,18,1)]">
+           <h2 
+             className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 text-white drop-shadow-[6px_6px_0_rgba(15,15,18,1)]"
+             style={{ WebkitTextStroke: '2px #0F0F12' }}
+           >
              {t('home.missionTitle')}
            </h2>
            <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#FFDE4D] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
@@ -415,7 +418,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       {/* 5.5 FAQ SECTION */}
       <FAQ />
 
-      {/* 6. FOOTER / MANIFESTO */}
+      {/* 6. MANIFESTO + PRIVACY (chiusura Home — il footer globale è in App.tsx) */}
       <section className="w-full max-w-4xl mx-auto px-4 py-24 text-center relative text-[#0F0F12]">
         
         {/* Doodle abstract bg for the footer title */}
@@ -443,20 +446,6 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
            </div>
         </div>
 
-        <div className="mt-20 border-t-[3px] border-black/20 pt-12 border-dashed flex flex-col items-center gap-6 relative text-center">
-          <img src="/BAB_logo.svg" alt="BAB Logo" className="h-10 md:h-12 mb-2" />
-          <p className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black max-w-lg mb-2 text-[#0F0F12]">
-             {t('home.motto')}
-          </p>
-          <div className="flex gap-6 font-bold uppercase tracking-widest text-sm mb-4">
-             <a href="https://substack.com/@babcommunity" target="_blank" rel="noopener noreferrer" className="hover:text-[#C2410C] transition-colors underline decoration-2 underline-offset-4">Substack</a>
-             <a href="https://www.instagram.com/bab_community/" target="_blank" rel="noopener noreferrer" className="hover:text-[#C2410C] transition-colors underline decoration-2 underline-offset-4">Instagram</a>
-          </div>
-          <div className="font-black uppercase tracking-widest text-xs text-[#0F0F12]/60">
-            {t('home.footerTags')}<br/><br/>
-            © 2026 BAB. ALL RIGHTS RESERVED.
-          </div>
-        </div>
       </section>
 
     </div>
