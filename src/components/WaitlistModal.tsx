@@ -5,7 +5,7 @@
  * @author    Sajid Hossain <sajid.hossain2009@gmail.com>
  * @copyright (c) 2026 Breaking All Barriers. Tutti i diritti riservati.
  */
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { insertLead, type UserType } from '../lib/leads';
@@ -56,8 +56,50 @@ export function WaitlistPanel({ target = 'genitore' }: { target?: UserType }) {
 }
 
 function WaitlistBody({ onClose, target }: { onClose: () => void; target?: UserType }) {
+  const dialogRef = useRef<HTMLDivElement>(null);
+
+  // Focus iniziale sul modale + ripristino del focus alla chiusura (a11y)
+  useEffect(() => {
+    const previouslyFocused = document.activeElement as HTMLElement | null;
+    const focusables = () =>
+      Array.from(
+        dialogRef.current?.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        ) ?? []
+      );
+    // Porta il focus sul primo elemento interattivo del modale
+    focusables()[0]?.focus();
+
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+        return;
+      }
+      if (e.key !== 'Tab') return;
+      // Focus trap: il Tab resta dentro al modale
+      const items = focusables();
+      if (items.length === 0) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      const active = document.activeElement;
+      if (e.shiftKey && (active === first || !dialogRef.current?.contains(active))) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && active === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+
+    document.addEventListener('keydown', onKeyDown);
+    return () => {
+      document.removeEventListener('keydown', onKeyDown);
+      previouslyFocused?.focus?.();
+    };
+  }, [onClose]);
+
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="waitlist-title">
+    <div ref={dialogRef} className="fixed inset-0 z-[100] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="waitlist-title">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
