@@ -131,14 +131,14 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                <button
                  onClick={() => selectTarget('allenatore')}
                  aria-pressed={heroTarget === 'allenatore'}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
                >
                  {t('home.coachBtn')}
                </button>
                <button
                  onClick={() => selectTarget('genitore')}
                  aria-pressed={heroTarget === 'genitore'}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'genitore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='genitore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
                >
                  {t('home.parentBtn')}
                </button>
@@ -165,7 +165,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             >
               <button
                 onClick={handleHeroCta}
-                className="group flex items-center justify-center w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] italic font-black text-xl sm:text-2xl bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] transition-all duration-300 uppercase skew-btn"
+                className="group flex items-center justify-center w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] italic font-black text-xl sm:text-2xl bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all duration-300 uppercase skew-btn"
               >
                 <span className="skew-btn-content">{heroTarget === 'allenatore' ? t('home.ctaCoach') : t('home.ctaParent')}</span>
               </button>
@@ -347,7 +347,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                   <li className="flex gap-4 items-start"><span className="text-[#FFDE4D] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP2')}</span></li>
                   <li className="flex gap-4 items-start"><span className="text-[#FFDE4D] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP3')}</span></li>
                 </ul>
-                <a href="#/coach" className="group flex items-center justify-center w-full bg-[#FFDE4D] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none transition-all mt-auto text-center">
+                <a href="#/coach" className="group flex items-center justify-center w-full bg-[#FFDE4D] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all mt-auto text-center">
                   {t('home.bivioCoachCta')}
                 </a>
              </div>
@@ -369,7 +369,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                   <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP2')}</span></li>
                   <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP3')}</span></li>
                 </ul>
-                <a href="#/app" className="group flex items-center justify-center w-full bg-[#FFDE4D] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none transition-all mt-auto text-center">
+                <a href="#/app" className="group flex items-center justify-center w-full bg-[#FFDE4D] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all mt-auto text-center">
                   {t('home.bivioParentCta')}
                 </a>
              </div>
@@ -462,10 +462,10 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           
           {/* Navigation Arrows */}
           <div className="flex gap-4 shrink-0 hidden sm:flex">
-            <button onClick={scrollLeft} className="w-14 h-14 bg-white border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] flex items-center justify-center hover:-translate-y-1 hover:bg-[#EBE5FF] transition-all group active:translate-y-0 active:shadow-none">
+            <button onClick={scrollLeft} className="w-14 h-14 bg-white border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] flex items-center justify-center hover:-translate-y-1 hover:bg-[#EBE5FF] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all group active:translate-y-0 active:shadow-none">
               <span className="text-3xl font-black group-hover:-translate-x-1 transition-transform">←</span>
             </button>
-            <button onClick={scrollRight} className="w-14 h-14 bg-[#FFDE4D] border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] flex items-center justify-center hover:-translate-y-1 hover:bg-[#EBE5FF] transition-all group active:translate-y-0 active:shadow-none">
+            <button onClick={scrollRight} className="w-14 h-14 bg-[#FFDE4D] border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] flex items-center justify-center hover:-translate-y-1 hover:bg-[#EBE5FF] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all group active:translate-y-0 active:shadow-none">
               <span className="text-3xl font-black group-hover:translate-x-1 transition-transform">→</span>
             </button>
           </div>

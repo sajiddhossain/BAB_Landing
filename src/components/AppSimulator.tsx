@@ -68,7 +68,8 @@ export default function AppSimulator() {
                 <button 
                   key={btn}
                   onClick={() => setTamagotchiState(btn as 'A' | 'B' | 'C')}
-                  className={`w-14 h-14 rounded-full border-[3px] border-[#0F0F12] flex items-center justify-center font-black text-xl transition-all ${tamagotchiState === btn ? 'bg-[#FFDE4D] shadow-none translate-x-[3px] translate-y-[3px]' : 'bg-white shadow-[6px_6px_0px_0px_#0F0F12] hover:shadow-none hover:translate-y-[6px] hover:translate-x-[6px] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none'}`}
+                  aria-label={`Stato ${btn}`}
+                  className={`w-14 h-14 rounded-full border-[3px] border-[#0F0F12] flex items-center justify-center font-black text-xl transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${tamagotchiState === btn ? 'bg-[#FFDE4D] shadow-none translate-x-[3px] translate-y-[3px]' : 'bg-white shadow-[6px_6px_0px_0px_#0F0F12] hover:shadow-none hover:translate-y-[6px] hover:translate-x-[6px] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none'}`}
                 >
                   {btn}
                 </button>
