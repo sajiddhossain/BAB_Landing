@@ -49,79 +49,58 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
     <div className="flex flex-col items-center w-full min-h-screen text-[#0F0F12]">
       
       {/* 1. HERO SECTION */}
-      <section className="w-full min-h-[100dvh] pt-24 md:pt-32 pb-16 flex justify-center relative overflow-hidden bg-white">
-        {/* Sfondo a Griglia Leggera */}
-        <div className="absolute inset-0 z-0 opacity-[0.15] pointer-events-none" style={{ backgroundImage: 'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)', backgroundSize: '40px 40px' }}></div>
+      <section className="w-full min-h-[100dvh] max-w-6xl mx-auto px-4 py-24 md:py-32 flex items-center justify-center relative overflow-hidden">
         
-        <div className="max-w-6xl w-full mx-auto px-4 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 relative z-10">
-          
-          {/* COLONNA SINISTRA */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center w-full">
+          {/* COLONNA SINISTRA (Span 7) */}
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="lg:col-span-7 flex flex-col items-start text-left w-full"
+            className="lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left z-10 w-full"
           >
-            {/* Techstars Badge */}
+            
             <motion.div 
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="inline-flex items-center px-4 py-1.5 bg-white border-[3px] border-black text-[#0F0F12] font-['Space_Grotesk',_sans-serif] font-bold text-[10px] sm:text-xs tracking-widest uppercase mb-8 shadow-[4px_4px_0_0_#0F0F12]"
+              className="relative inline-block px-4 py-1 bg-[#EBE5FF] border-[2px] md:border-[3px] border-black font-['Space_Grotesk',_sans-serif] text-[#0F0F12] font-black text-[10px] sm:text-xs tracking-widest uppercase mb-4 sm:mb-6 shadow-[4px_4px_0_0_#0F0F12]"
             >
-              {t('home.badge')}
+              <div className="duct-tape duct-tape-black -top-2 -left-4 rotate-[-8deg] w-12 h-4"></div>
+              <span className="relative z-10">{t('home.badge')}</span>
             </motion.div>
             
-            {/* Main Title */}
             <motion.h1 
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3 }}
-              className="font-['Bricolage_Grotesque',_sans-serif] text-[2.75rem] sm:text-6xl lg:text-7xl font-black leading-[1.05] mb-6 tracking-tighter w-full text-[#0F0F12]"
+              className="font-['Bricolage_Grotesque',_sans-serif] text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] mb-6 tracking-tighter w-full relative text-[#0F0F12]"
             >
-              {t('home.heroTitle')}
+              {t('home.heroTitle')}<br/>
+              <span className="inline-block relative z-10 mt-3 px-4 sm:px-6 py-2 bg-[#3B4A6B] border-[3px] md:border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[6px_6px_0_0_#0F0F12] text-white skew-btn">
+                 <span className="skew-btn-content font-['Bricolage_Grotesque',_sans-serif] italic font-black pr-2 tracking-wide">{t('home.heroHighlight')}</span>
+              </span>
+              
+              {/* Hand-drawn Doodle Arrow (Desktop) */}
+              <svg className="hidden lg:block absolute right-0 -bottom-8 w-16 h-16 text-[#FFDE4D] drop-shadow-[3px_3px_0_#0F0F12] rotate-12 opacity-90" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 10 Q 50 50 90 90 M 60 90 L 90 90 L 90 60" stroke="currentColor" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </motion.h1>
-
-            {/* Punchline "Non lasciare che accada." */}
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.35 }}
-              className="mb-10"
-            >
-              <div className="inline-block px-6 py-3 bg-[#1E293B] border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
-                 <span className="font-['Space_Grotesk',_sans-serif] font-bold text-white text-xl sm:text-2xl tracking-wide">{t('home.heroHighlight')}</span>
-              </div>
-            </motion.div>
 
             {/* IMMAGINE MOBILE (Nascosta su Desktop) */}
             <motion.div 
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.4 }}
-              className="w-full flex justify-center mb-10 lg:hidden"
+              className="w-full flex justify-center mb-8 lg:hidden"
             >
-              <div className="w-full max-w-[280px] sm:max-w-[320px] relative mt-4">
-                {/* Yellow Offset Layer */}
-                <div className="absolute inset-0 bg-[#FFDE4D] border-[4px] border-black translate-x-3 translate-y-3"></div>
-                {/* Main Image Container */}
-                <div className="relative bg-white border-[4px] border-black p-2 z-10" style={{ backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 10px, #e5e5e5 10px, #e5e5e5 11px)' }}>
-                  <img 
-                    src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
-                    alt="BAB Atlete" 
-                    className="w-full aspect-square object-cover border-[3px] border-black grayscale"
-                  />
-                  {/* Floating Widget */}
-                  <div className="absolute -bottom-4 -left-4 bg-[#121212] text-white border-[3px] border-black p-2 shadow-[4px_4px_0_0_#FFDE4D] flex items-center gap-2 z-20">
-                    <div className="bg-[#FFDE4D] text-[#0F0F12] border-2 border-black w-6 h-6 flex items-center justify-center text-sm shadow-[2px_2px_0_0_#000]">
-                      <span className="font-['Space_Grotesk'] font-black">+</span>
-                    </div>
-                    <div>
-                      <p className="font-['Bricolage_Grotesque',_sans-serif] italic font-black leading-none text-[10px] sm:text-xs uppercase">{t('home.widgetTitle')}</p>
-                      <p className="font-['Space_Grotesk',_sans-serif] font-bold text-[8px] sm:text-[10px] opacity-80">Indice in tempo reale</p>
-                    </div>
-                  </div>
-                </div>
+              <div className="w-full max-w-[280px] sm:max-w-[320px] bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#FFDE4D] skew-x-[-4deg] relative crosshairs">
+                <div className="duct-tape duct-tape-black -top-4 right-2 rotate-[12deg] w-16 h-6 z-20"></div>
+                <img 
+                  src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
+                  alt="BAB Atlete" 
+                  className="w-full max-h-[250px] aspect-[4/5] sm:aspect-auto object-cover border-[3px] border-black grayscale skew-x-[4deg]"
+                />
               </div>
             </motion.div>
 
@@ -130,19 +109,19 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="w-full max-w-lg mb-6 bg-white border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] flex flex-col sm:flex-row text-[#0F0F12]"
+              className="w-full max-w-lg mb-6 bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] p-1 flex flex-col sm:flex-row gap-2 sm:gap-0 text-[#0F0F12]"
             >
                <button
                  onClick={() => selectTarget('allenatore')}
                  aria-pressed={heroTarget === 'allenatore'}
-                 className={`flex-1 py-4 px-4 text-sm font-black uppercase tracking-wider transition-colors border-b-[4px] sm:border-b-0 sm:border-r-[4px] border-black ${heroTarget === 'allenatore' ? 'bg-[#FFDE4D]' : 'hover:bg-neutral-100'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
                >
                  {t('home.coachBtn')}
                </button>
                <button
                  onClick={() => selectTarget('genitore')}
                  aria-pressed={heroTarget === 'genitore'}
-                 className={`flex-1 py-4 px-4 text-sm font-black uppercase tracking-wider transition-colors ${heroTarget === 'genitore' ? 'bg-white' : 'hover:bg-neutral-100'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'genitore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
                >
                  {t('home.parentBtn')}
                </button>
@@ -153,70 +132,63 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
-              className="min-h-[4rem] flex items-center mb-8 max-w-lg"
+              className="min-h-[4rem] flex items-center mb-8"
             >
-               <p className="text-base sm:text-lg font-bold border-l-[4px] border-black pl-4 text-left leading-relaxed text-[#0F0F12]">
+               <p className="font-['Space_Grotesk',_sans-serif] text-sm sm:text-base md:text-lg font-bold border-l-[4px] border-black pl-4 text-left leading-snug text-[#0F0F12]">
                  {heroTarget === 'allenatore' && t('home.coachDesc')}
                  {heroTarget === 'genitore' && t('home.parentDesc')}
                </p>
             </motion.div>
 
-            {/* CTA BUTTONS */}
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
-              className="flex flex-col items-start gap-4 w-full text-[#0F0F12]"
+              className="flex flex-col sm:flex-row items-center gap-4 w-full lg:w-auto text-[#0F0F12]"
             >
               <button
                 onClick={handleHeroCta}
-                className="font-['Space_Grotesk',_sans-serif] font-black text-xl sm:text-2xl bg-[#FFDE4D] border-[4px] border-black px-8 py-4 shadow-[6px_6px_0_0_#0F0F12] active:translate-y-[2px] active:translate-x-[2px] active:shadow-[4px_4px_0_0_#0F0F12] transition-all uppercase"
+                className="group flex items-center justify-center w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] italic font-black text-xl sm:text-2xl bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] transition-all duration-300 uppercase skew-btn"
               >
-                {heroTarget === 'allenatore' ? t('home.ctaCoach') : t('home.ctaParent')}
+                <span className="skew-btn-content">{heroTarget === 'allenatore' ? t('home.ctaCoach') : t('home.ctaParent')}</span>
               </button>
-              
-              <div className="font-['Space_Grotesk',_sans-serif] font-bold text-xs uppercase bg-[#EBE5FF] border-[3px] border-black px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] cursor-default text-center">
-                 <span dangerouslySetInnerHTML={{__html: t('home.appTag').replace('\n', ' + ')}} />
+              <div
+                className="font-['Space_Grotesk',_sans-serif] font-bold text-[10px] sm:text-xs bg-[#EBE5FF] border-[2px] md:border-[3px] border-black px-3 md:px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] cursor-default text-center skew-btn leading-tight"
+              >
+                 <span className="skew-btn-content" dangerouslySetInnerHTML={{__html: t('home.appTag').replace('\n', '<br/>')}} />
               </div>
             </motion.div>
-
           </motion.div>
 
           {/* COLONNA DESTRA (Span 5 - Solo Desktop) */}
           <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0.9, rotate: -5 }}
+            animate={{ opacity: 1, scale: 1, rotate: 0 }}
             transition={{ delay: 0.4, type: "spring", stiffness: 100 }}
             className="lg:col-span-5 w-full justify-center hidden lg:flex relative text-[#0F0F12]"
           >
-            <div className="w-full max-w-md relative mt-12">
-              {/* Yellow Offset Layer */}
-              <div className="absolute inset-0 bg-[#FFDE4D] border-[4px] border-black translate-x-4 translate-y-4"></div>
+            <div className="w-full max-w-md bg-white border-[4px] border-black p-2 shadow-[12px_12px_0_0_#FFDE4D] skew-x-[4deg] transition-transform duration-500 relative group crosshairs">
+              <img 
+                src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
+                alt="BAB Atlete" 
+                className="w-full aspect-[4/5] object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500 skew-x-[-4deg]"
+              />
               
-              {/* Main Image Container */}
-              <div className="relative bg-white border-[4px] border-black p-3 z-10 transition-transform hover:-translate-y-1 hover:-translate-x-1 duration-300" style={{ backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 15px, #e5e5e5 15px, #e5e5e5 16px)' }}>
-                <img 
-                  src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
-                  alt="BAB Atlete" 
-                  className="w-full aspect-[4/5] object-cover border-[4px] border-black grayscale transition-all duration-500 hover:grayscale-0"
-                />
-                
-                {/* Floating Widget (Neobrutalism) */}
-                <motion.div 
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.8 }}
-                  className="absolute -bottom-6 -left-8 bg-[#121212] text-white border-[4px] border-black p-3 shadow-[6px_6px_0_0_#FFDE4D] flex items-center gap-3 z-20"
-                >
-                  <div className="bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black w-10 h-10 flex items-center justify-center text-xl shadow-[3px_3px_0_0_#000]">
-                    <span className="font-['Space_Grotesk'] font-black">+</span>
-                  </div>
-                  <div>
-                    <p className="font-['Bricolage_Grotesque',_sans-serif] italic font-black leading-none text-sm uppercase">{t('home.widgetTitle')}</p>
-                    <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xs opacity-80">Indice in tempo reale</p>
-                  </div>
-                </motion.div>
-              </div>
+              {/* Floating Widget (Neobrutalism) */}
+              <motion.div 
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.8 }}
+                className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-[#121212] text-white border-[3px] border-black p-3 shadow-[6px_6px_0_0_#FFDE4D] skew-x-[-12deg] z-20 hidden sm:flex items-center gap-3 group-hover:-translate-y-2 transition-all duration-300"
+              >
+                <div className="bg-[#FFDE4D] text-[#0F0F12] border-2 border-black w-10 h-10 flex items-center justify-center text-xl shadow-[2px_2px_0_0_#000] skew-x-[12deg]">
+                  <span className="font-['Space_Grotesk'] font-black italic">+</span>
+                </div>
+                <div className="skew-x-[12deg]">
+                  <p className="font-['Bricolage_Grotesque',_sans-serif] italic font-black leading-none text-sm uppercase">{t('home.widgetTitle')}</p>
+                  <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xs opacity-80">{t('home.widgetDesc')}</p>
+                </div>
+              </motion.div>
             </div>
           </motion.div>
         </div>
@@ -256,59 +228,69 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         </svg>
       </section>
 
-      {/* 2. BIVIO SCELTA (IL MODELLO FINANZ) */}
+      {/* 2. IL TUO BIVIO */}
       <section className="w-full px-4 py-24 mb-16 relative bg-[#FAF9F6] text-[#0F0F12] border-y-[4px] border-black overflow-hidden">
         {/* Sfondo Grid Pattern */}
         <div className="absolute inset-0 grid-pattern opacity-40 pointer-events-none"></div>
 
         <div className="max-w-6xl mx-auto relative z-10">
-          <div className="flex justify-center mb-16 sm:mb-24">
-            <div className="relative inline-block skew-btn">
-              <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black italic text-center uppercase tracking-tighter bg-[#0F0F12] border-[4px] border-[#0F0F12] px-8 py-3 text-[#FFDE4D] m-0 shadow-[8px_8px_0_0_#34BBC0]">
-                <span className="skew-btn-content pr-2">{t('home.costBadge')}</span>
-              </h2>
-            </div>
+          <div className="flex flex-col items-center justify-center mb-16 sm:mb-20 text-center">
+             <div className="font-['Space_Grotesk',_sans-serif] font-black tracking-widest text-sm uppercase text-black/60 mb-4">
+               {t('home.bivioSuper')}
+             </div>
+             <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl lg:text-7xl font-black italic uppercase tracking-tighter text-[#FAF9F6] drop-shadow-[6px_6px_0_rgba(15,15,18,1)] mb-6" style={{ WebkitTextStroke: '2.5px #0F0F12' }}>
+               {t('home.bivioTitle')}
+             </h2>
+             <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg sm:text-xl max-w-2xl text-[#0F0F12]">
+               {t('home.bivioSub')}
+             </p>
           </div>
           
-          <div className="flex flex-col md:flex-row items-stretch gap-8 sm:gap-12 w-full relative z-10">
-            {/* Vecchio Metodo (Obsoleto) */}
-            <div className="flex-1 relative md:mt-12 flex flex-col">
-              <div className="h-full p-6 sm:p-8 border-[4px] border-black bg-neutral-200 text-neutral-500 shadow-[4px_4px_0_0_rgba(0,0,0,0.2)] skew-x-[2deg] crosshairs">
-                <div className="skew-x-[-2deg]">
-                  <div className="flex justify-between items-center mb-8 border-b-[3px] border-neutral-400 pb-4">
-                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] italic text-3xl font-black uppercase tracking-tight text-neutral-600 line-through decoration-[4px] decoration-[#FF5722]/60">{t('home.oldMethod')}</h3>
-                  </div>
-                  <ul className="space-y-6 font-extrabold text-lg text-neutral-600">
-                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-400 font-black italic tracking-tighter">01.</span> <span className="leading-snug mt-1">{t('home.old1')}</span></li>
-                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-400 font-black italic tracking-tighter">02.</span> <span className="leading-snug mt-1">{t('home.old2')}</span></li>
-                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-400 font-black italic tracking-tighter">03.</span> <span className="leading-snug mt-1">{t('home.old3')}</span></li>
-                  </ul>
+          {/* Bivio Grid */}
+          <div className="w-full flex flex-col md:flex-row border-[3px] border-black shadow-[12px_12px_0_0_#0F0F12] overflow-hidden bg-white">
+             {/* Colonna Allenatore */}
+             <div className="flex-1 bg-[#3B4A6B] text-white p-8 sm:p-12 flex flex-col relative">
+                <div className="inline-block bg-[#FFDE4D] text-[#0F0F12] border-[2px] border-black px-4 py-1 font-['Space_Grotesk',_sans-serif] font-black uppercase tracking-widest text-xs mb-8 self-start shadow-[4px_4px_0_0_#0F0F12]">
+                  {t('home.bivioCoachBadge')}
                 </div>
-              </div>
-            </div>
-
-            {/* Metodo BAB (High Performance) */}
-            <div className="flex-[1.2] relative flex flex-col z-20">
-              <div className="h-full p-8 sm:p-10 border-[4px] border-black bg-white text-[#0F0F12] shadow-[12px_12px_0_0_#34BBC0] skew-x-[-2deg] crosshairs ring-[8px] ring-[#FAF9F6]">
-                <div className="skew-x-[2deg] h-full flex flex-col">
-                  <div className="flex justify-between items-center mb-8 border-b-[3px] border-[#34BBC0] pb-4 relative">
-                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl italic font-black uppercase tracking-tight text-[#0F0F12]">{t('home.babMethod')}</h3>
-                    <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/3 h-[2px] bg-gradient-to-r from-[#34BBC0] to-transparent"></div>
-                  </div>
-                  
-                  <ul className="space-y-8 font-extrabold text-lg sm:text-xl mb-12 flex-grow">
-                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl leading-none text-[#34BBC0] font-black italic tracking-tighter drop-shadow-[2px_2px_0_rgba(15,15,18,1)]" style={{ WebkitTextStroke: '1.5px #0F0F12' }}>01.</span> <span className="leading-snug mt-1">{t('home.bab1')}</span></li>
-                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl leading-none text-[#FFDE4D] font-black italic tracking-tighter drop-shadow-[2px_2px_0_rgba(15,15,18,1)]" style={{ WebkitTextStroke: '1.5px #0F0F12' }}>02.</span> <span className="leading-snug mt-1">{t('home.bab2')}</span></li>
-                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl leading-none text-[#FF5722] font-black italic tracking-tighter drop-shadow-[2px_2px_0_rgba(15,15,18,1)]" style={{ WebkitTextStroke: '1.5px #0F0F12' }}>03.</span> <span className="leading-snug mt-1">{t('home.bab3')}</span></li>
-                  </ul>
-                  
-                  <div className="flex flex-col sm:flex-row gap-4 mt-auto">
-                     <a href="#/app" className="group flex items-center justify-center gap-4 flex-1 bg-[#FFDE4D] text-[#0F0F12] font-black italic text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] active:scale-95 hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all skew-btn"><span className="skew-btn-content text-center flex-1">{t('home.testAppBtn')}</span></a>
-                     <a href="#/coach" className="group flex items-center justify-center gap-4 flex-1 bg-[#34BBC0] text-[#0F0F12] font-black italic text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] active:scale-95 hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all skew-btn"><span className="skew-btn-content text-center flex-1">{t('home.testCoachBtn')}</span></a>
-                  </div>
+                <h3 className="font-['Space_Grotesk',_sans-serif] text-4xl sm:text-5xl font-black leading-tight mb-8">
+                  {t('home.bivioCoachTitle1')}<br/>
+                  {t('home.bivioCoachTitle2')}
+                </h3>
+                <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg leading-relaxed border-l-[4px] border-[#FFDE4D] pl-6 mb-12 opacity-90">
+                  {t('home.bivioCoachDesc')}
+                </p>
+                <ul className="space-y-4 font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg mb-12 flex-grow opacity-90">
+                  <li className="flex gap-4 items-start"><span className="text-[#FFDE4D] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP1')}</span></li>
+                  <li className="flex gap-4 items-start"><span className="text-[#FFDE4D] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP2')}</span></li>
+                  <li className="flex gap-4 items-start"><span className="text-[#FFDE4D] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP3')}</span></li>
+                </ul>
+                <a href="#/coach" className="group flex items-center justify-center w-full bg-[#FFDE4D] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none transition-all mt-auto text-center">
+                  {t('home.bivioCoachCta')}
+                </a>
+             </div>
+             
+             {/* Colonna Genitore */}
+             <div className="flex-1 bg-[#FAF9F6] text-[#0F0F12] p-8 sm:p-12 flex flex-col relative border-t-[3px] md:border-t-0 md:border-l-[3px] border-black">
+                <div className="inline-block bg-[#34BBC0] text-[#0F0F12] border-[2px] border-black px-4 py-1 font-['Space_Grotesk',_sans-serif] font-black uppercase tracking-widest text-xs mb-8 self-start shadow-[4px_4px_0_0_#0F0F12]">
+                  {t('home.bivioParentBadge')}
                 </div>
-              </div>
-            </div>
+                <h3 className="font-['Space_Grotesk',_sans-serif] text-4xl sm:text-5xl font-black leading-tight mb-8">
+                  {t('home.bivioParentTitle1')}<br/>
+                  {t('home.bivioParentTitle2')}
+                </h3>
+                <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg leading-relaxed border-l-[4px] border-[#34BBC0] pl-6 mb-12 opacity-90">
+                  {t('home.bivioParentDesc')}
+                </p>
+                <ul className="space-y-4 font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg mb-12 flex-grow opacity-90">
+                  <li className="flex gap-4 items-start"><span className="text-[#34BBC0] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP1')}</span></li>
+                  <li className="flex gap-4 items-start"><span className="text-[#34BBC0] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP2')}</span></li>
+                  <li className="flex gap-4 items-start"><span className="text-[#34BBC0] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP3')}</span></li>
+                </ul>
+                <a href="#/app" className="group flex items-center justify-center w-full bg-[#FFDE4D] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none transition-all mt-auto text-center">
+                  {t('home.bivioParentCta')}
+                </a>
+             </div>
           </div>
         </div>
       </section>
