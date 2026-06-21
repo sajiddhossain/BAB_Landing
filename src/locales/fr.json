@@ -17,7 +17,6 @@
     "tags": "Prévenir • Soutenir • Suivre • Comprendre • Optimiser"
   },
   "home": {
-    "beta": "Bêta",
     "badge": "Breaking All Barriers for the Next Gen Athletes",
     "heroTitle": "Une fille sur deux abandonne le sport à la puberté parce qu'elle se sent inadéquate.",
     "heroHighlight": "Ne laissez pas cela arriver.",
@@ -28,7 +27,6 @@
     "parentDesc": "Soutenez votre fille pendant sa puberté en garantissant une confidentialité totale et un sport sain.",
     "ctaCoach": "Activer BAB pour mon Club ✦",
     "ctaParent": "Demander l'accès pour ma Fille ✦",
-    "waitlistBtn": "Rejoindre la liste d'attente ✦",
     "appTag": "Application Athlète +\nTableau de bord Coach",
     "widgetTitle": "Écoute ton corps",
     "widgetDesc": "Reconnais ses signaux",
@@ -94,8 +92,6 @@
     "privacyTitle": "Confidentialité & Recherche",
     "privacy1": "Avec votre accord, vos données contribuent à la recherche scientifique anonyme pour améliorer la santé et les performances des jeunes athlètes. Ensemble, comblons les lacunes de la recherche sportive.",
     "privacy2": "Vos données restent toujours anonymes, protégées et utilisées uniquement pour le bien-être des adolescentes.",
-    "footerTags": "Prévenir • Soutenir • Suivre • Comprendre • Optimiser",
-    "motto": "La première application de santé et de bien-être pour les adolescentes sportives.",
     "heroPhotoAlt": "Jeune athlète adolescente à l'entraînement, portrait en noir et blanc",
     "dataPhotoAlt": "Portrait d'une athlète BAB à côté des données sur l'abandon du sport chez les filles"
   },

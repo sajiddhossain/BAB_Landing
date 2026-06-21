@@ -17,7 +17,6 @@
     "tags": "Prevent • Support • Monitor • Understand • Optimize"
   },
   "home": {
-    "beta": "Beta",
     "badge": "Breaking All Barriers for the Next Gen Athletes",
     "heroTitle": "One in two girls drops out of sport with puberty because she feels wrong.",
     "heroHighlight": "Don't let it happen.",
@@ -28,7 +27,6 @@
     "parentDesc": "Support your daughter through puberty changes, ensuring total privacy and healthy sports.",
     "ctaCoach": "Activate BAB for my Club ✦",
     "ctaParent": "Request access for my Daughter ✦",
-    "waitlistBtn": "Join the waitlist ✦",
     "appTag": "Athlete App +\nCoach Dashboard",
     "widgetTitle": "Listen to your body",
     "widgetDesc": "Recognize its signals",
@@ -94,8 +92,6 @@
     "privacyTitle": "Privacy & Research",
     "privacy1": "Only if you give consent, the data you track contributes to anonymous scientific research aimed at improving the health, wellbeing, and performance of both you and other young athletes. Together, we're helping close the gaps in youth and sports research.",
     "privacy2": "Your data is always anonymous, protected, and used solely to advance teenagers' health, wellbeing, development, and performance.",
-    "footerTags": "Prevent • Support • Track • Understand • Optimise",
-    "motto": "The first health and wellbeing app for teenage girls in sport.",
     "heroPhotoAlt": "Teenage athlete during training, black-and-white portrait",
     "dataPhotoAlt": "Portrait of a BAB athlete next to data on girls dropping out of sport"
   },
