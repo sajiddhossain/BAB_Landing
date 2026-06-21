@@ -7,32 +7,44 @@
  *            L'utilizzo, la modifica o la distribuzione non autorizzata 
  *            sono severamente vietati in assenza di accordi contrattuali scritti.
  */
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { initAnalytics, trackPageview, trackEvent } from './lib/analytics';
 import type { UserType } from './lib/leads';
 
-// Route Components
+// Route Components — Home eager (LCP della landing), il resto code-split per route
 import Home from './components/Home';
-import AppSimulator from './components/AppSimulator';
-import CoachDashboard from './components/CoachDashboard';
-import Features from './components/Features';
-import About from './components/About';
-import WaitlistModal from './components/WaitlistModal';
 import Footer from './components/Footer';
+const AppSimulator = lazy(() => import('./components/AppSimulator'));
+const CoachDashboard = lazy(() => import('./components/CoachDashboard'));
+const Features = lazy(() => import('./components/Features'));
+const About = lazy(() => import('./components/About'));
+const WaitlistModal = lazy(() => import('./components/WaitlistModal'));
+
+// Fallback minimale durante il caricamento del chunk di route
+function RouteFallback() {
+  return (
+    <div className="min-h-[60vh] flex items-center justify-center" role="status" aria-live="polite">
+      <div className="w-10 h-10 border-[4px] border-black border-t-transparent rounded-full animate-spin" aria-hidden="true"></div>
+      <span className="sr-only">Caricamento…</span>
+    </div>
+  );
+}
 
 export default function App() {
   const { t, i18n } = useTranslation();
   const [currentPath, setCurrentPath] = useState<string>(window.location.hash || '#/');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
+  const [waitlistMounted, setWaitlistMounted] = useState(false); // carica il chunk solo al 1° open, poi resta montato per animare la chiusura
   const [waitlistTarget, setWaitlistTarget] = useState<UserType | undefined>(undefined);
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
 
   const openWaitlist = (target?: UserType) => {
     setWaitlistTarget(target);
+    setWaitlistMounted(true);
     setIsWaitlistOpen(true);
     trackEvent('waitlist_open', { target: target ?? 'unknown' });
   };
@@ -268,24 +280,30 @@ export default function App() {
 
       {/* MAIN CONTENT ROUTING */}
       <main className="pt-20 w-full overflow-x-hidden relative z-10">
-        <AnimatePresence mode="wait">
-          {currentPath === '#/' && <Home key="home" onOpenWaitlist={openWaitlist} />}
-          {currentPath === '#/app' && <AppSimulator key="app" />}
-          {currentPath === '#/coach' && <CoachDashboard key="coach" />}
-          {currentPath === '#/features' && <Features key="features" />}
-          {currentPath === '#/about' && <About key="about" />}
-        </AnimatePresence>
+        <Suspense fallback={<RouteFallback />}>
+          <AnimatePresence mode="wait">
+            {currentPath === '#/' && <Home key="home" onOpenWaitlist={openWaitlist} />}
+            {currentPath === '#/app' && <AppSimulator key="app" />}
+            {currentPath === '#/coach' && <CoachDashboard key="coach" />}
+            {currentPath === '#/features' && <Features key="features" />}
+            {currentPath === '#/about' && <About key="about" />}
+          </AnimatePresence>
+        </Suspense>
       </main>
 
       {/* GLOBAL FOOTER (tutte le pagine) */}
       <Footer onOpenWaitlist={openWaitlist} />
 
-      {/* GLOBAL WAITLIST MODAL */}
-      <WaitlistModal
-        isOpen={isWaitlistOpen}
-        onClose={() => setIsWaitlistOpen(false)}
-        target={waitlistTarget}
-      />
+      {/* GLOBAL WAITLIST MODAL — chunk caricato solo al 1° open, poi resta montato per l'animazione di uscita */}
+      {waitlistMounted && (
+        <Suspense fallback={null}>
+          <WaitlistModal
+            isOpen={isWaitlistOpen}
+            onClose={() => setIsWaitlistOpen(false)}
+            target={waitlistTarget}
+          />
+        </Suspense>
+      )}
 
     </div>
   );
