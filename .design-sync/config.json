@@ -1,0 +1,27 @@
+{
+  "projectId": "0c21e3bd-b933-437d-9558-72a962989c32",
+  "pkg": "bab-landing",
+  "globalName": "BABLanding",
+  "shape": "package",
+  "tsconfig": "./tsconfig.app.json",
+  "srcDir": "src/components",
+  "cssEntry": "src/styles/ds-compiled.css",
+  "buildCmd": "npm run build",
+  "runtimeFontPrefixes": ["Bricolage Grotesque", "Space Grotesk"],
+  "extraEntries": ["./src/lib/BabProvider.tsx"],
+  "provider": { "component": "BabProvider" },
+  "componentSrcMap": {
+    "About": "src/components/About.tsx",
+    "AppSimulator": "src/components/AppSimulator.tsx",
+    "ClubLeadForm": "src/components/ClubLeadForm.tsx",
+    "CoachDashboard": "src/components/CoachDashboard.tsx",
+    "FAQ": "src/components/FAQ.tsx",
+    "Features": "src/components/Features.tsx",
+    "Home": "src/components/Home.tsx",
+    "WaitlistModal": "src/components/WaitlistModal.tsx"
+  },
+  "dtsPropsFor": {
+    "Home": "  onOpenWaitlist?: (target?: string) => void;",
+    "WaitlistModal": "  isOpen: boolean;\n  onClose: () => void;\n  target?: 'societa' | 'allenatore' | 'genitore' | 'atleta';"
+  }
+}

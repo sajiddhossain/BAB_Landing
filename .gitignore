@@ -25,3 +25,11 @@ tmp/
 *.sln
 *.sw?
 *.log
+
+# Design-sync generated artifacts (never committed)
+.ds-sync/
+ds-bundle/
+.design-sync/.cache/
+.design-sync/learnings/
+.design-sync/node_modules
+src/styles/ds-compiled.css

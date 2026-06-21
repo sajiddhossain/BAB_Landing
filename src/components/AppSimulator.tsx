@@ -9,8 +9,10 @@
  */
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 export default function AppSimulator() {
+  const { t } = useTranslation();
   const [tamagotchiState, setTamagotchiState] = useState<'A' | 'B' | 'C'>('B');
 
   const getAvatar = () => {
@@ -36,7 +38,7 @@ export default function AppSimulator() {
       <div className="w-full max-w-sm">
         
         <div className="bg-[#DAE993] border-2 md:border-4 border-[#0F0F12] px-4 py-2 mb-6 font-black uppercase text-sm shadow-[4px_4px_0px_0px_#0F0F12] rotate-2 inline-block">
-          Simulator
+          {t('simulator.title')}
         </div>
 
         <div className="bg-[#0F0F12] p-2 border-[4px] border-[#0F0F12] shadow-[8px_8px_0_0_#0F0F12] md:shadow-[12px_12px_0_0_#0F0F12]">
@@ -65,7 +67,7 @@ export default function AppSimulator() {
               {['A', 'B', 'C'].map(btn => (
                 <button 
                   key={btn}
-                  onClick={() => setTamagotchiState(btn as any)}
+                  onClick={() => setTamagotchiState(btn as 'A' | 'B' | 'C')}
                   className={`w-14 h-14 rounded-full border-[3px] border-[#0F0F12] flex items-center justify-center font-black text-xl transition-all ${tamagotchiState === btn ? 'bg-[#FFDE4D] shadow-none translate-x-[3px] translate-y-[3px]' : 'bg-white shadow-[6px_6px_0px_0px_#0F0F12] hover:shadow-none hover:translate-y-[6px] hover:translate-x-[6px] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none'}`}
                 >
                   {btn}
