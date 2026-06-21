@@ -113,9 +113,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             >
               <div className="w-full max-w-[280px] sm:max-w-[320px] bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#FFDE4D] skew-x-[-4deg] relative crosshairs">
                 <div className="duct-tape duct-tape-black -top-4 right-2 rotate-[12deg] w-16 h-6 z-20"></div>
-                <img 
-                  src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
-                  alt={t('home.heroPhotoAlt')} 
+                <img
+                  src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif"
+                  alt={t('home.heroPhotoAlt')}
+                  width={1639}
+                  height={2048}
+                  fetchPriority="high"
+                  decoding="async"
                   className="w-full max-h-[250px] aspect-[4/5] sm:aspect-auto object-cover border-[3px] border-black grayscale skew-x-[4deg]"
                 />
               </div>
@@ -185,9 +189,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             className="lg:col-span-5 w-full justify-center hidden lg:flex relative text-[#0F0F12]"
           >
             <div className="w-full max-w-md bg-white border-[4px] border-black p-2 shadow-[12px_12px_0_0_#FFDE4D] skew-x-[4deg] transition-transform duration-500 relative group crosshairs">
-              <img 
-                src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" 
-                alt={t('home.heroPhotoAlt')} 
+              <img
+                src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif"
+                alt={t('home.heroPhotoAlt')}
+                width={1639}
+                height={2048}
+                fetchPriority="high"
+                decoding="async"
                 className="w-full aspect-[4/5] object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500 skew-x-[-4deg]"
               />
               
