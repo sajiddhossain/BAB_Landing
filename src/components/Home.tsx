@@ -131,14 +131,14 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                <button
                  onClick={() => selectTarget('allenatore')}
                  aria-pressed={heroTarget === 'allenatore'}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
                >
                  {t('home.coachBtn')}
                </button>
                <button
                  onClick={() => selectTarget('genitore')}
                  aria-pressed={heroTarget === 'genitore'}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='genitore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='genitore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
                >
                  {t('home.parentBtn')}
                </button>
@@ -212,7 +212,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       </section>
 
       {/* MARQUEE — trust badges */}
-      <div className="w-full bg-[#DAE993] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]" role="img" aria-label="GDPR Compliant · Backed by Science · Built with Elite Athletes · Puberty Support">
+      <div className="w-full bg-[#DAE69A] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]" role="img" aria-label="GDPR Compliant · Backed by Science · Built with Elite Athletes · Puberty Support">
         <motion.div
           animate={{ x: ["0%", "-50%"] }}
           transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
@@ -239,7 +239,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
              {t('home.missionTitle')}
            </h2>
            <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#FFDE4D] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
-             {t('home.missionBody')} <span className="text-[#DAE993]">{t('home.missionBodyHighlight')}</span>
+             {t('home.missionBody')} <span className="text-[#DAE69A]">{t('home.missionBodyHighlight')}</span>
            </p>
         </div>
         

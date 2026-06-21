@@ -177,7 +177,7 @@ export default function CoachDashboard() {
                   <div key={i} className={`p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] ${s.warn ? 'bg-[#FFE3D1]' : 'bg-[#EBE5FF]'}`}>
                     <div className="bg-white border-[3px] border-black p-5 sm:p-6 flex flex-col sm:flex-row gap-4 justify-between items-start sm:items-center">
                       <div className="flex items-center gap-4">
-                        <div className={`w-12 h-12 border-[3px] border-black rounded-full flex items-center justify-center font-black text-xl shrink-0 ${s.warn ? 'bg-[#C2410C] text-white' : 'bg-[#34BBC0] text-[#0F0F12]'}`} aria-hidden="true">{s.warn ? '!' : '?'}</div>
+                        <div className={`w-12 h-12 border-[3px] border-black rounded-full flex items-center justify-center font-black text-xl shrink-0 ${s.warn ? 'bg-coral text-[#0F0F12]' : 'bg-[#34BBC0] text-[#0F0F12]'}`} aria-hidden="true">{s.warn ? '!' : '?'}</div>
                         <div>
                           <h4 className="font-black text-base sm:text-lg uppercase leading-tight">{s.title}</h4>
                           <p className="text-sm font-bold mt-1 max-w-md">{s.desc}</p>
