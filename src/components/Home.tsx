@@ -148,7 +148,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             >
               <button
                 onClick={handleHeroCta}
-                className="group flex items-center justify-center w-full sm:w-auto font-['Space_Grotesk',_sans-serif] font-black text-xl sm:text-2xl italic bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] transition-all duration-300 uppercase skew-btn"
+                className="group flex items-center justify-center w-full sm:w-auto font-['Space_Grotesk',_sans-serif] font-black text-xl sm:text-2xl bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] transition-all duration-300 uppercase skew-btn"
               >
                 <span className="skew-btn-content">{heroTarget === 'allenatore' ? t('home.ctaCoach') : t('home.ctaParent')}</span>
               </button>
@@ -209,7 +209,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       </div>
 
       {/* 1.5 LA MISSIONE */}
-      <section className="w-full bg-[#3B4A6B] py-24 px-4 text-center relative text-white border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-8 mb-16">
+      <section className="w-full bg-[#3B4A6B] py-24 px-4 text-center relative text-white border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-16 mb-16">
         <div className="max-w-5xl mx-auto relative z-10">
            <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-12 skew-btn">
              <span className="skew-btn-content">{t('home.missionBadge')}</span>
@@ -251,9 +251,9 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                     <h3 className="font-['Bricolage_Grotesque',_sans-serif] italic text-3xl font-black uppercase tracking-tight text-neutral-600 line-through decoration-[4px] decoration-[#FF5722]/60">{t('home.oldMethod')}</h3>
                   </div>
                   <ul className="space-y-6 font-extrabold text-lg text-neutral-600">
-                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-300 font-black italic tracking-tighter">01.</span> <span className="leading-snug mt-1">{t('home.old1')}</span></li>
-                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-300 font-black italic tracking-tighter">02.</span> <span className="leading-snug mt-1">{t('home.old2')}</span></li>
-                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-300 font-black italic tracking-tighter">03.</span> <span className="leading-snug mt-1">{t('home.old3')}</span></li>
+                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-400 font-black italic tracking-tighter">01.</span> <span className="leading-snug mt-1">{t('home.old1')}</span></li>
+                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-400 font-black italic tracking-tighter">02.</span> <span className="leading-snug mt-1">{t('home.old2')}</span></li>
+                    <li className="flex gap-4 items-start"><span className="font-['Bricolage_Grotesque',_sans-serif] text-4xl leading-none text-neutral-400 font-black italic tracking-tighter">03.</span> <span className="leading-snug mt-1">{t('home.old3')}</span></li>
                   </ul>
                 </div>
               </div>
@@ -415,7 +415,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
         <div className="mb-16 inline-block bg-white border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-12 relative skew-x-[-6deg] crosshairs">
           <h2 
-            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black italic uppercase leading-tight text-white tracking-tighter skew-x-[6deg]" 
+            className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-tight text-[#0F0F12] tracking-tighter skew-x-[6deg]" 
             style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}
             dangerouslySetInnerHTML={{__html: t('home.footerTitle')}}
           />
@@ -444,7 +444,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           </div>
           <div className="font-black uppercase tracking-widest text-xs text-[#0F0F12]/60">
             {t('home.footerTags')}<br/><br/>
-            © 2026 BAB. All Rights Reserved.
+            © 2026 BAB. ALL RIGHTS RESERVED.
           </div>
         </div>
       </section>
