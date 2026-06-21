@@ -104,15 +104,16 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
 
   const handleQuizSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (status === 'submitting' || !isValidEmail(email)) return;
+    const cleanEmail = email.trim().toLowerCase();
+    if (status === 'submitting' || !isValidEmail(cleanEmail)) return;
     setStatus('submitting');
 
-    const sitg = computeSitg(sport, concern, email);
+    const sitg = computeSitg(sport, concern, cleanEmail);
     const userType: UserType = target ?? 'genitore';
     const lang = i18n.language ? i18n.language.substring(0, 2) : 'it';
 
     const result = await insertLead({
-      email,
+      email: cleanEmail,
       user_type: userType,
       sport,
       concern,
