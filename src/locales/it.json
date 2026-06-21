@@ -259,7 +259,10 @@
     "photoAlt": "Giovane atleta della community BAB"
   },
   "simulator": {
-    "title": "Simulatore"
+    "title": "Simulatore",
+    "heading": "Provalo tu stessa",
+    "intro": "Tocca A, B o C: l'avatar reagisce ai segnali del corpo — energia, battito, recupero. È così che BAB rende leggibile ciò che l'atleta sente, giorno per giorno.",
+    "cta": "Entra in lista d'attesa"
   },
   "faqHome": {
     "badge": "✦ F.A.Q. ✦",

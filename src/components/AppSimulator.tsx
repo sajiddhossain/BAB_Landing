@@ -10,8 +10,13 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import type { UserType } from '../lib/leads';
 
-export default function AppSimulator() {
+interface AppSimulatorProps {
+  onOpenWaitlist?: (target?: UserType) => void;
+}
+
+export default function AppSimulator({ onOpenWaitlist }: AppSimulatorProps) {
   const { t } = useTranslation();
   const [tamagotchiState, setTamagotchiState] = useState<'A' | 'B' | 'C'>('B');
 
@@ -36,10 +41,17 @@ export default function AppSimulator() {
   return (
     <section className="bg-[#FAF9F6] text-[#0F0F12] py-24 md:py-32 px-4 font-['Space_Grotesk',_sans-serif] min-h-screen flex items-center justify-center">
       <div className="w-full max-w-sm">
-        
+
         <div className="bg-[#DAE69A] border-2 md:border-4 border-[#0F0F12] px-4 py-2 mb-6 font-black uppercase text-sm shadow-[4px_4px_0px_0px_#0F0F12] rotate-2 inline-block">
           {t('simulator.title')}
         </div>
+
+        <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl font-black uppercase tracking-tighter leading-none mb-4 break-words max-w-full">
+          {t('simulator.heading')}
+        </h1>
+        <p className="font-['Space_Grotesk',_sans-serif] font-bold text-base leading-relaxed text-[#0F0F12]/90 mb-8">
+          {t('simulator.intro')}
+        </p>
 
         <div className="bg-[#0F0F12] p-2 border-[4px] border-[#0F0F12] shadow-[8px_8px_0_0_#0F0F12] md:shadow-[12px_12px_0_0_#0F0F12]">
           <div className="bg-white border-[3px] border-[#0F0F12] flex flex-col p-6 relative">
@@ -78,6 +90,13 @@ export default function AppSimulator() {
 
           </div>
         </div>
+
+        <button
+          onClick={() => onOpenWaitlist?.('genitore')}
+          className="mt-10 w-full bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black px-6 py-4 font-black uppercase tracking-wider shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-x-1 active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all"
+        >
+          {t('simulator.cta')}
+        </button>
       </div>
     </section>
   );

@@ -287,7 +287,7 @@ export default function App() {
         <Suspense fallback={<RouteFallback />}>
           <AnimatePresence mode="wait">
             {activePath === '#/' && <Home key="home" onOpenWaitlist={openWaitlist} />}
-            {activePath === '#/app' && <AppSimulator key="app" />}
+            {activePath === '#/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
             {activePath === '#/coach' && <CoachDashboard key="coach" />}
             {activePath === '#/features' && <Features key="features" />}
             {activePath === '#/about' && <About key="about" />}

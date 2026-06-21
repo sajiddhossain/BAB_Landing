@@ -259,7 +259,10 @@
     "photoAlt": "Young athlete from the BAB community"
   },
   "simulator": {
-    "title": "Simulator"
+    "title": "Simulator",
+    "heading": "Try it yourself",
+    "intro": "Tap A, B or C: the avatar reacts to the body's signals — energy, heart rate, recovery. This is how BAB makes what an athlete feels readable, day by day.",
+    "cta": "Join the waitlist"
   },
   "faqHome": {
     "badge": "✦ F.A.Q. ✦",
