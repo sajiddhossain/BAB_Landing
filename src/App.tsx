@@ -125,13 +125,13 @@ export default function App() {
     <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#FFDE4D] selection:text-[#0F0F12] font-['Space_Grotesk',_sans-serif] y2k-grid relative">
       
       {/* HEADER (Neobrutalism) */}
-      <header className="fixed top-0 inset-x-0 h-20 bg-[#FAF9F6] text-[#0F0F12] border-b-[3px] border-black z-50 px-4 md:px-12 flex items-center justify-between shadow-[0_4px_0_0_#0F0F12]">
-        <a href="#/" className="flex items-center gap-3 hover:-translate-y-0.5 transition-transform z-50">
+      <header className="fixed top-0 inset-x-0 h-20 bg-[#FAF9F6] text-[#0F0F12] border-b-[3px] border-black z-50 px-4 sm:px-6 lg:px-10 flex items-center justify-between gap-4 shadow-[0_4px_0_0_#0F0F12]">
+        <a href="#/" className="flex items-center gap-3 hover:-translate-y-0.5 transition-transform z-50 shrink-0">
           <img src="/BAB_logo.svg" alt="BAB Logo" className="h-8 md:h-10" />
         </a>
-        
-        {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-7 lg:gap-8 text-sm font-black uppercase tracking-widest">
+
+        {/* Desktop Nav (>= lg per evitare l'affollamento con le etichette IT) */}
+        <nav className="hidden lg:flex items-center gap-6 xl:gap-8 text-sm font-black uppercase tracking-widest">
           {navLinks.map((link) => {
             const active = currentPath === link.path;
             return (
@@ -194,13 +194,13 @@ export default function App() {
           </button>
         </nav>
 
-        {/* Mobile Hamburger Button */}
+        {/* Mobile Hamburger Button (< lg) */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label={isMenuOpen ? 'Chiudi menu' : 'Apri menu'}
           aria-expanded={isMenuOpen}
           aria-controls="mobile-menu"
-          className="md:hidden w-12 h-12 bg-white border-[3px] border-black flex flex-col items-center justify-center gap-1.5 shadow-[4px_4px_0_0_#0F0F12] z-50 transition-transform active:translate-y-1 active:shadow-[0_0_0_0_#000] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+          className="lg:hidden w-12 h-12 shrink-0 bg-white border-[3px] border-black flex flex-col items-center justify-center gap-1.5 shadow-[4px_4px_0_0_#0F0F12] z-50 transition-transform active:translate-y-1 active:shadow-[0_0_0_0_#000] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
         >
           <span className={`block w-6 h-[3px] bg-black transition-transform ${isMenuOpen ? 'rotate-45 translate-y-[9px]' : ''}`}></span>
           <span className={`block w-6 h-[3px] bg-black transition-opacity ${isMenuOpen ? 'opacity-0' : ''}`}></span>
@@ -217,15 +217,16 @@ export default function App() {
             animate={{ y: 0 }}
             exit={{ y: '-100%' }}
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
-            className="fixed inset-0 bg-[#FFDE4D] z-40 flex flex-col items-center justify-center border-b-[4px] border-black overflow-y-auto py-24"
+            className="fixed inset-0 bg-[#FAF9F6] y2k-grid z-40 lg:hidden flex flex-col items-center overflow-y-auto"
           >
-             <nav className="flex flex-col items-center gap-5 text-2xl font-black uppercase tracking-widest w-full px-6 max-w-md" aria-label="Menu principale">
+             <nav className="flex flex-col items-center gap-5 text-2xl font-black uppercase tracking-widest w-full px-6 max-w-md my-auto pt-28 pb-16" aria-label="Menu principale">
                 {navLinks.map((link) => {
                    const active = currentPath === link.path;
                    return (
                    <a
                      key={link.path}
                      href={link.path}
+                     onClick={() => setIsMenuOpen(false)}
                      aria-current={active ? 'page' : undefined}
                      className={`w-full text-center border-[3px] border-black py-4 shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#000] transition-all ${active ? 'bg-[#34BBC0] text-[#0F0F12]' : 'bg-white'}`}
                    >
@@ -238,9 +239,9 @@ export default function App() {
                       setIsMenuOpen(false);
                       openWaitlist();
                     }}
-                    className="w-full text-center py-4 mt-2 bg-[#0F0F12] border-[4px] border-black text-[#FFDE4D] font-black text-xl shadow-[6px_6px_0_0_#34BBC0] active:translate-y-1 active:translate-x-1 active:shadow-none transition-all skew-btn"
+                    className="w-full text-center py-4 mt-2 bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black font-black text-xl uppercase tracking-wider shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:translate-x-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all skew-btn"
                   >
-                    <span className="skew-btn-content">{t('nav.waitlist')} ✦</span>
+                    <span className="skew-btn-content">{t('nav.waitlist')}</span>
                   </button>
 
                 {/* Mobile Language Switcher */}
