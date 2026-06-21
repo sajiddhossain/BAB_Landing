@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO al go-live: aggiornare con il dominio definitivo
+Sitemap: https://www.babsport.com/sitemap.xml
