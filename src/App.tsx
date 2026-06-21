@@ -10,6 +10,8 @@
 import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { initAnalytics, trackPageview, trackEvent } from './lib/analytics';
+import type { UserType } from './lib/leads';
 
 // Route Components
 import Home from './components/Home';
@@ -24,7 +26,14 @@ export default function App() {
   const [currentPath, setCurrentPath] = useState<string>(window.location.hash || '#/');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
+  const [waitlistTarget, setWaitlistTarget] = useState<UserType | undefined>(undefined);
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
+
+  const openWaitlist = (target?: UserType) => {
+    setWaitlistTarget(target);
+    setIsWaitlistOpen(true);
+    trackEvent('waitlist_open', { target: target ?? 'unknown' });
+  };
 
   const currentLang = i18n.language ? i18n.language.substring(0, 2) : 'en';
   const getFlagImg = (lng: string) => {
@@ -44,6 +53,12 @@ export default function App() {
     );
   }, []);
 
+  // Analytics: init una volta + pageview iniziale (no-op senza ID reali in .env)
+  useEffect(() => {
+    initAnalytics();
+    trackPageview(window.location.hash || '#/');
+  }, []);
+
   // Sync hash routing
   useEffect(() => {
     const handleHashChange = () => {
@@ -51,6 +66,7 @@ export default function App() {
       setCurrentPath(hash);
       window.scrollTo(0, 0);
       setIsMenuOpen(false); // Chiudi il menu al cambio pagina
+      trackPageview(hash);
     };
     
     // Set initial hash if empty
@@ -85,7 +101,7 @@ export default function App() {
              <a 
                key={link.path} 
                href={link.path} 
-               className={`transition-all hover:-translate-y-0.5 ${currentPath === link.path ? 'text-[#34BBC0] underline decoration-[3px] underline-offset-4' : 'text-black hover:text-[#34BBC0]'}`}
+               className={`transition-all hover:-translate-y-0.5 ${currentPath === link.path ? 'text-[#0F766E] underline decoration-[3px] underline-offset-4' : 'text-black hover:text-[#0F766E]'}`}
              >
                {link.label}
              </a>
@@ -127,9 +143,9 @@ export default function App() {
             </AnimatePresence>
           </div>
 
-          <button 
-            onClick={() => setIsWaitlistOpen(true)} 
-            className="group relative bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black px-6 py-2 ml-6 text-sm font-black uppercase tracking-wider italic shadow-[4px_4px_0_0_#0F0F12] active:shadow-none active:translate-y-1 active:translate-x-1 transition-all skew-btn"
+          <button
+            onClick={() => openWaitlist()}
+            className="group relative bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black px-6 py-2 ml-6 text-sm font-black uppercase tracking-wider shadow-[4px_4px_0_0_#0F0F12] active:shadow-none active:translate-y-1 active:translate-x-1 transition-all skew-btn"
           >
             <span className="skew-btn-content">{t('nav.waitlist')}</span>
           </button>
@@ -166,12 +182,12 @@ export default function App() {
                      {link.label}
                    </a>
                 ))}
-                  <button 
+                  <button
                     onClick={() => {
                       setIsMenuOpen(false);
-                      setIsWaitlistOpen(true);
+                      openWaitlist();
                     }}
-                    className="w-full text-center py-4 bg-[#FFDE4D] border-[4px] border-black text-[#0F0F12] font-black italic text-xl shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:translate-x-1 active:shadow-none transition-all skew-btn"
+                    className="w-full text-center py-4 bg-[#FFDE4D] border-[4px] border-black text-[#0F0F12] font-black text-xl shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:translate-x-1 active:shadow-none transition-all skew-btn"
                   >
                     <span className="skew-btn-content">{t('nav.waitlist')}</span>
                   </button>
@@ -196,7 +212,7 @@ export default function App() {
       {/* MAIN CONTENT ROUTING */}
       <main className="pt-20 w-full overflow-x-hidden relative z-10">
         <AnimatePresence mode="wait">
-          {currentPath === '#/' && <Home key="home" onOpenWaitlist={() => setIsWaitlistOpen(true)} />}
+          {currentPath === '#/' && <Home key="home" onOpenWaitlist={openWaitlist} />}
           {currentPath === '#/app' && <AppSimulator key="app" />}
           {currentPath === '#/coach' && <CoachDashboard key="coach" />}
           {currentPath === '#/features' && <Features key="features" />}
@@ -205,9 +221,10 @@ export default function App() {
       </main>
 
       {/* GLOBAL WAITLIST MODAL */}
-      <WaitlistModal 
-        isOpen={isWaitlistOpen} 
-        onClose={() => setIsWaitlistOpen(false)} 
+      <WaitlistModal
+        isOpen={isWaitlistOpen}
+        onClose={() => setIsWaitlistOpen(false)}
+        target={waitlistTarget}
       />
 
     </div>

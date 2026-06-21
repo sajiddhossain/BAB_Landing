@@ -42,8 +42,6 @@ export default function Features() {
           <div className="absolute left-10 md:left-24 top-0 bottom-0 w-1 bg-black opacity-20 hidden sm:block border-l-[4px] border-dashed border-[#0F0F12]"></div>
 
           {modules.map((m, idx) => {
-             const bgColors = ['bg-[#FFDE4D]', 'bg-[#EBE5FF]', 'bg-[#FFE3D1]', 'bg-[#DAE69A]', 'bg-[#D1FFEF]'];
-             
              return (
                <motion.div 
                  key={idx} 
@@ -81,9 +79,9 @@ export default function Features() {
                         {tamagotchiState === 'active' ? '[ °_° ]✨' : tamagotchiState === 'down' ? '[ =_= ]💤' : '[ °_° ]'}
                       </div>
                       <div className="flex gap-4 skew-x-[2deg]">
-                        <button onClick={() => setTamagotchiState('active')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'active' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>A</button>
-                        <button onClick={() => setTamagotchiState('default')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'default' ? 'bg-[#FFDE4D] text-black translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>B</button>
-                        <button onClick={() => setTamagotchiState('down')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'down' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>C</button>
+                        <button onClick={() => setTamagotchiState('active')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'active' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#C2410C] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>A</button>
+                        <button onClick={() => setTamagotchiState('default')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'default' ? 'bg-[#FFDE4D] text-black translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#C2410C] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>B</button>
+                        <button onClick={() => setTamagotchiState('down')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'down' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#C2410C] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>C</button>
                       </div>
                       <div className="text-xs font-black uppercase tracking-widest text-center mt-2 border-t-[3px] border-black pt-4 w-full skew-x-[2deg]">
                         {t('features.testBuddy')}
@@ -107,11 +105,11 @@ export default function Features() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.6, ease: [0.32, 0.72, 0, 1] }}
-                className="y2k-brutal-card bg-white text-[#0F0F12] overflow-hidden p-0 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]"
+                className="bg-white text-[#0F0F12] overflow-hidden p-0 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]"
               >
                 <button 
                   onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)}
-                  className={`w-full px-6 py-5 flex justify-between items-center text-left border-b-[3px] border-transparent transition-all duration-300 ${openFaq === faq.id ? 'bg-[#FFDE4D] border-black' : 'hover:bg-neutral-100 hover:text-[#FF5722]'}`}
+                  className={`w-full px-6 py-5 flex justify-between items-center text-left border-b-[3px] border-transparent transition-all duration-300 ${openFaq === faq.id ? 'bg-[#FFDE4D] border-black' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
                 >
                   <span className="font-black uppercase pr-8 text-sm sm:text-base tracking-tight">{faq.q}</span>
                   <span className={`text-2xl font-black transition-transform duration-300 ease-in-out ${openFaq === faq.id ? 'rotate-45 scale-110' : 'rotate-0'}`}>

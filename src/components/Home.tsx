@@ -2,14 +2,32 @@ import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import FAQ from './FAQ';
+import { trackEvent } from '../lib/analytics';
+import type { UserType } from '../lib/leads';
 
 interface HomeProps {
-  onOpenWaitlist?: () => void;
+  onOpenWaitlist?: (target?: UserType) => void;
 }
 
 export default function Home({ onOpenWaitlist }: HomeProps) {
   const { t } = useTranslation();
   const [heroTarget, setHeroTarget] = useState<'allenatore' | 'genitore'>('allenatore');
+
+  // CTA dinamica: l'allenatore va al percorso B2B "Per le Società", il genitore alla waitlist.
+  const handleHeroCta = () => {
+    if (heroTarget === 'allenatore') {
+      trackEvent('hero_cta', { target: 'allenatore', dest: 'coach' });
+      window.location.hash = '#/coach';
+    } else {
+      trackEvent('hero_cta', { target: 'genitore', dest: 'waitlist' });
+      onOpenWaitlist?.('genitore');
+    }
+  };
+
+  const selectTarget = (target: 'allenatore' | 'genitore') => {
+    setHeroTarget(target);
+    trackEvent('target_switch', { target });
+  };
 
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
@@ -21,30 +39,10 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
   };
 
   const testimonials = [
-    {
-      name: "Lisa Gutfleisch",
-      role: "Canottiera Elite Nazionale Tedesca",
-      quote: "BAB mi ha fatta sentire compresa e mi ha fatto capire quanto avrei beneficiato di uno strumento simile durante la mia crescita sportiva. Mi ci sono voluti molti anni per capire che la forza non è l'opposto della femminilità, e la prossima generazione di atlete non dovrebbe mai dover scegliere tra diventare forti e sentirsi adeguate.",
-      color: "bg-[#FAF9F6]"
-    },
-    {
-      name: "Alisha Menon",
-      role: "Dottoranda alla UC Berkeley",
-      quote: "Le giovani ragazze affrontano disinformazione e pregiudizi scientifici, sfide spesso amplificate negli ambienti sportivi, in particolare durante i profondi cambiamenti fisici e psicologici della pubertà. BAB fornisce una soluzione preventiva e sicura, contribuendo al contempo al progresso della ricerca in un campo che è stato trascurato per troppo tempo.",
-      color: "bg-[#FAF9F6]"
-    },
-    {
-      name: "Vasundhara P.",
-      role: "Mamma di un'atleta di 11 anni",
-      quote: "Mia figlia ha 11 anni e gareggia a livello regionale e nazionale nella scherma. Uno strumento come BAB mi aiuta a capire come supportare al meglio i suoi obiettivi sportivi in modo sicuro e informato, in particolare mentre affronta i cambiamenti dell'adolescenza continuando a competere ad alto livello.",
-      color: "bg-[#FAF9F6]"
-    },
-    {
-      name: "Erica Sali",
-      role: "Giocatrice e Allenatrice di Pallavolo",
-      quote: "Come giocatrice professionista e allenatrice di pallavolo, non ho mai avuto una risorsa così straordinaria come BAB per supportare le esigenze specifiche che abbiamo io e le mie atlete adolescenti.",
-      color: "bg-[#FAF9F6]"
-    }
+    { name: 'Lisa Gutfleisch', role: t('testimonials.lisa.role'), quote: t('testimonials.lisa.quote') },
+    { name: 'Alisha Menon', role: t('testimonials.alisha.role'), quote: t('testimonials.alisha.quote') },
+    { name: 'Vasundhara P.', role: t('testimonials.vasundhara.role'), quote: t('testimonials.vasundhara.quote') },
+    { name: 'Erica Sali', role: t('testimonials.erica.role'), quote: t('testimonials.erica.quote') },
   ];
 
   return (
@@ -113,15 +111,17 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               transition={{ delay: 0.4 }}
               className="w-full max-w-lg mb-6 bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] p-1 flex flex-col sm:flex-row gap-2 sm:gap-0 text-[#0F0F12]"
             >
-               <button 
-                 onClick={() => setHeroTarget('allenatore')}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-[#FF5722]'}`}
+               <button
+                 onClick={() => selectTarget('allenatore')}
+                 aria-pressed={heroTarget === 'allenatore'}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
                >
                  {t('home.coachBtn')}
                </button>
-               <button 
-                 onClick={() => setHeroTarget('genitore')}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'genitore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-[#FF5722]'}`}
+               <button
+                 onClick={() => selectTarget('genitore')}
+                 aria-pressed={heroTarget === 'genitore'}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left ${heroTarget === 'genitore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
                >
                  {t('home.parentBtn')}
                </button>
@@ -146,14 +146,14 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               transition={{ delay: 0.6 }}
               className="flex flex-col sm:flex-row items-center gap-4 w-full lg:w-auto text-[#0F0F12]"
             >
-              <button 
-                onClick={onOpenWaitlist}
+              <button
+                onClick={handleHeroCta}
                 className="group flex items-center justify-center w-full sm:w-auto font-['Space_Grotesk',_sans-serif] font-black text-xl sm:text-2xl italic bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] transition-all duration-300 uppercase skew-btn"
               >
-                <span className="skew-btn-content">{t('home.waitlistBtn')}</span>
+                <span className="skew-btn-content">{heroTarget === 'allenatore' ? t('home.ctaCoach') : t('home.ctaParent')}</span>
               </button>
-              <div 
-                className="font-['Space_Grotesk',_sans-serif] font-black text-[10px] sm:text-xs italic bg-[#EBE5FF] border-[2px] md:border-[3px] border-black px-3 md:px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] cursor-default text-center skew-btn"
+              <div
+                className="font-['Space_Grotesk',_sans-serif] font-black text-[10px] sm:text-xs bg-[#EBE5FF] border-[2px] md:border-[3px] border-black px-3 md:px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] cursor-default text-center skew-btn"
               >
                  <span className="skew-btn-content" dangerouslySetInnerHTML={{__html: t('home.appTag').replace('\n', '<br/>')}} />
               </div>
@@ -195,16 +195,15 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       </section>
 
       {/* MARQUEE SPORTIVO */}
-      <div className="w-full bg-[#DAE993] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]">
-        <motion.div 
-          animate={{ x: ["0%", "-50%"] }} 
+      <div className="w-full bg-[#DAE993] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]" aria-hidden="true">
+        <motion.div
+          animate={{ x: ["0%", "-50%"] }}
           transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
-          className="flex whitespace-nowrap w-max"
+          className="flex whitespace-nowrap w-max motion-reduce:animate-none"
         >
           {[...Array(8)].map((_, i) => (
             <span key={i} className="font-['Space_Grotesk',_sans-serif] font-black text-xl sm:text-2xl text-black uppercase tracking-widest shrink-0 px-8">
-              /// BREAK BARRIERS /// PERFORMANCE x SALUTE /// REACH YOUR PERSONAL BEST
-            </span>
+              /// {t('home.marquee')} </span>
           ))}
         </motion.div>
       </div>
@@ -213,13 +212,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       <section className="w-full bg-[#3B4A6B] py-24 px-4 text-center relative text-white border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-8 mb-16">
         <div className="max-w-5xl mx-auto relative z-10">
            <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-12 skew-btn">
-             <span className="skew-btn-content italic">La Nostra Missione</span>
+             <span className="skew-btn-content">{t('home.missionBadge')}</span>
            </div>
            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 text-white drop-shadow-[4px_4px_0_rgba(15,15,18,1)]">
-             BAB è la tua coach<br className="hidden sm:block"/> fuori dal campo.
+             {t('home.missionTitle')}
            </h2>
            <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#FFDE4D] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
-             Ti insegna ad ascoltare il tuo corpo, capire i suoi segnali e fare scelte che ti fanno stare bene — per sapere quando dare il massimo e quando recuperare. <span className="text-[#DAE993]">Per continuare a fare sport e divertirti, performando al meglio e sentendoti meglio.</span>
+             {t('home.missionBody')} <span className="text-[#DAE993]">{t('home.missionBodyHighlight')}</span>
            </p>
         </div>
         
@@ -359,7 +358,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
       <section className="w-full py-24 text-[#0F0F12] overflow-hidden relative">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8 mb-12 sm:mb-16">
           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black uppercase text-center md:text-left leading-tight tracking-tighter">
-            Cosa dice la Community<br className="hidden sm:block"/> del futuro di BAB
+            {t('home.testimonialsTitle')}
           </h2>
           
           {/* Navigation Arrows */}
@@ -378,18 +377,17 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           ref={scrollContainerRef}
           className="w-full flex overflow-x-auto snap-x snap-mandatory gap-6 px-4 md:px-12 pb-12 pt-8 hide-scrollbar scroll-smooth"
         >
-          {testimonials.map((t, i) => {
+          {testimonials.map((item, i) => {
             return (
-              <div key={i} className={`relative snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between ${t.color} text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform skew-x-[-2deg] crosshairs hover:-translate-y-2`}>
-                <div className="duct-tape duct-tape-black -top-4 inset-x-1/2 -translate-x-1/2 rotate-[-2deg] w-28 h-8 z-20 opacity-90"></div>
+              <div key={i} className="relative snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between bg-[#FAF9F6] text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform skew-x-[-2deg] crosshairs hover:-translate-y-2">
                 <div className="telemetry-line"></div>
                 <p className="text-base sm:text-lg font-extrabold leading-relaxed mb-8 border-l-[4px] border-black pl-4 sm:pl-6 relative skew-x-[2deg]">
-                  <span className="absolute -left-3 -top-3 text-4xl opacity-20 font-serif font-black">"</span>
-                  {t.quote}
+                  <span className="absolute -left-3 -top-3 text-4xl opacity-20 font-serif font-black" aria-hidden="true">"</span>
+                  {item.quote}
                 </p>
                 <div className="border-t-[3px] border-black pt-4 mt-auto skew-x-[2deg]">
-                  <h4 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl font-black italic uppercase leading-none mb-1">{t.name}</h4>
-                  <p className="text-xs font-black italic uppercase tracking-widest opacity-80">{t.role}</p>
+                  <h4 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl font-black italic uppercase leading-none mb-1">{item.name}</h4>
+                  <p className="text-xs font-black uppercase tracking-widest opacity-80">{item.role}</p>
                 </div>
               </div>
             );
@@ -441,8 +439,8 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
              {t('home.motto')}
           </p>
           <div className="flex gap-6 font-bold uppercase tracking-widest text-sm mb-4">
-             <a href="https://substack.com/@babcommunity" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF5722] transition-colors underline decoration-2 underline-offset-4">Substack</a>
-             <a href="https://www.instagram.com/bab_community/" target="_blank" rel="noopener noreferrer" className="hover:text-[#FF5722] transition-colors underline decoration-2 underline-offset-4">Instagram</a>
+             <a href="https://substack.com/@babcommunity" target="_blank" rel="noopener noreferrer" className="hover:text-[#C2410C] transition-colors underline decoration-2 underline-offset-4">Substack</a>
+             <a href="https://www.instagram.com/bab_community/" target="_blank" rel="noopener noreferrer" className="hover:text-[#C2410C] transition-colors underline decoration-2 underline-offset-4">Instagram</a>
           </div>
           <div className="font-black uppercase tracking-widest text-xs text-[#0F0F12]/60">
             {t('home.footerTags')}<br/><br/>

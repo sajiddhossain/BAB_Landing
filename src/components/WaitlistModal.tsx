@@ -1,101 +1,160 @@
 /**
  * @file      WaitlistModal.tsx
- * @summary   Componente UI per BAB (Breaking All Barriers)
+ * @summary   Waitlist B2C (atlete/genitori) per BAB. Cattura email + risposte quiz su
+ *            Supabase, calcola lo score SITG reale e mostra stati di invio/successo/errore.
  * @author    Sajid Hossain <sajid.hossain2009@gmail.com>
  * @copyright (c) 2026 Breaking All Barriers. Tutti i diritti riservati.
- * @notice    Questo codice è di proprietà intellettuale dell'autore. 
- *            L'utilizzo, la modifica o la distribuzione non autorizzata 
- *            sono severamente vietati in assenza di accordi contrattuali scritti.
  */
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import { insertLead, type UserType } from '../lib/leads';
+import { trackEvent } from '../lib/analytics';
 
 interface WaitlistModalProps {
   isOpen: boolean;
   onClose: () => void;
+  target?: UserType;
 }
 
-export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
+type SubmitStatus = 'idle' | 'submitting' | 'success' | 'error';
+
+const GENERIC_DOMAINS = [
+  'gmail.com', 'yahoo.com', 'yahoo.it', 'hotmail.com', 'hotmail.it', 'outlook.com',
+  'outlook.it', 'libero.it', 'icloud.com', 'live.com', 'live.it', 'gmx.com',
+  'virgilio.it', 'tin.it', 'aol.com', 'proton.me', 'protonmail.com', 'tiscali.it', 'alice.it',
+];
+
+const isValidEmail = (email: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+/** SITG: +20 sport, +20 focus, +30 email valida, +30 bonus dominio non generico (alto intento B2B). */
+function computeSitg(sport: string | null, concern: string | null, email: string): number {
+  let s = 0;
+  if (sport) s += 20;
+  if (concern) s += 20;
+  if (isValidEmail(email)) {
+    s += 30;
+    const domain = email.split('@')[1]?.toLowerCase() ?? '';
+    if (domain && !GENERIC_DOMAINS.includes(domain)) s += 30;
+  }
+  return s;
+}
+
+export default function WaitlistModal({ isOpen, onClose, target }: WaitlistModalProps) {
+  // Il corpo è montato solo quando aperto: ogni apertura riparte con stato pulito
+  // (niente effetto di reset → niente cascading render).
+  return (
+    <AnimatePresence>
+      {isOpen && <WaitlistBody onClose={onClose} target={target} />}
+    </AnimatePresence>
+  );
+}
+
+function WaitlistBody({ onClose, target }: { onClose: () => void; target?: UserType }) {
+  const { t, i18n } = useTranslation();
   const [quizStep, setQuizStep] = useState(1);
+  const [sport, setSport] = useState<string | null>(null);
+  const [concern, setConcern] = useState<string | null>(null);
   const [email, setEmail] = useState('');
   const [score, setScore] = useState<number | null>(null);
+  const [status, setStatus] = useState<SubmitStatus>('idle');
 
-  // Reset state when opened
-  useEffect(() => {
-    if (isOpen) {
-      setQuizStep(1);
-      setEmail('');
-      setScore(null);
-    }
-  }, [isOpen]);
+  const sports = t('waitlist.sports', { returnObjects: true }) as unknown as string[];
+  const concerns = t('waitlist.concerns', { returnObjects: true }) as unknown as string[];
 
-  const handleQuizSubmit = (e: React.FormEvent) => {
+  const chooseSport = (s: string) => {
+    setSport(s);
+    setQuizStep(2);
+    trackEvent('quiz_step1', { sport: s });
+  };
+
+  const chooseConcern = (c: string) => {
+    setConcern(c);
+    setQuizStep(3);
+    trackEvent('quiz_step2', { concern: c });
+  };
+
+  const handleQuizSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) {
-      setScore(Math.floor(Math.random() * (95 - 75) + 75));
+    if (status === 'submitting' || !isValidEmail(email)) return;
+    setStatus('submitting');
+
+    const sitg = computeSitg(sport, concern, email);
+    const userType: UserType = target ?? 'genitore';
+    const lang = i18n.language ? i18n.language.substring(0, 2) : 'it';
+
+    const result = await insertLead({
+      email,
+      user_type: userType,
+      sport,
+      concern,
+      sitg_score: sitg,
+      lang,
+    });
+
+    if (result.ok) {
+      setScore(sitg);
+      setStatus('success');
+      trackEvent('lead_submit', { user_type: userType, sitg_score: sitg, sport, concern });
+    } else {
+      setStatus('error');
+      trackEvent('lead_error', { reason: result.error ?? 'unknown' });
     }
   };
 
   return (
-    <AnimatePresence>
-      {isOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-          
-          {/* Backdrop */}
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={onClose}
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"
-          />
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="waitlist-title">
 
-          {/* Modal Content */}
-          <motion.div 
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        onClick={onClose}
+        className="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"
+      />
+
+          <motion.div
             initial={{ opacity: 0, y: 50, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            transition={{ type: "spring", stiffness: 300, damping: 25 }}
+            transition={{ type: 'spring', stiffness: 300, damping: 25 }}
             className="relative w-full max-w-md bg-[#FAF9F6] border-[4px] border-black shadow-[12px_12px_0_0_#0F0F12] flex flex-col z-10 max-h-[90vh] overflow-y-auto"
           >
-            
-            {/* Header */}
+
             <div className="flex items-center justify-between p-4 border-b-[3px] border-black bg-[#FFDE4D]">
-               <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black uppercase tracking-widest">
-                 Join Waitlist ✦
-               </h2>
-               <button 
-                 onClick={onClose}
-                 className="w-8 h-8 flex items-center justify-center bg-white border-2 border-black font-black text-xl hover:bg-black hover:text-white transition-colors"
-               >
-                 ✕
-               </button>
+              <h2 id="waitlist-title" className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black uppercase tracking-widest">
+                {t('waitlist.title')}
+              </h2>
+              <button
+                onClick={onClose}
+                aria-label={t('waitlist.close')}
+                className="w-8 h-8 flex items-center justify-center bg-white border-2 border-black font-black text-xl hover:bg-black hover:text-white focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors"
+              >
+                ✕
+              </button>
             </div>
 
-            {/* Content Area */}
             <div className="p-6">
-              
-              {/* Badge Scarcity */}
+
               <div className="bg-black text-[#DAE69A] px-4 py-2 flex items-center justify-center gap-3 shadow-[4px_4px_0_0_#DAE69A] transform -rotate-1 mb-8">
-                <span className="text-xl animate-pulse">🔥</span>
+                <span className="text-xl" aria-hidden="true">🔒</span>
                 <span className="text-sm font-black uppercase tracking-widest">
-                  42/50 posti assegnati
+                  {t('waitlist.scarcity')}
                 </span>
               </div>
 
-              {/* Steps Layout */}
               <div className="flex flex-col gap-6">
-                
-                {/* Step 1 */}
-                <div className={`y2k-brutal-card bg-white p-5 ${quizStep >= 1 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
+
+                {/* Step 1 — Sport */}
+                <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] p-5 ${quizStep >= 1 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
                   <div className="flex justify-between items-center mb-4 border-b-[2px] border-black pb-2">
-                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black">1. Sport di Squadra</h3>
+                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black">{t('waitlist.step1Title')}</h3>
                     {quizStep > 1 && <span className="bg-[#34BBC0] border-2 border-black w-6 h-6 rounded-full flex items-center justify-center font-bold text-xs">✓</span>}
                   </div>
                   {quizStep === 1 && (
                     <div className="flex flex-col gap-3">
-                      {['Calcio', 'Volley', 'Basket', 'Altro'].map(s => (
-                        <button key={s} onClick={() => setQuizStep(2)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#000] active:translate-y-1 active:shadow-[0_0_0_0_#000] transition-all text-left font-black uppercase text-sm">
+                      {sports.map(s => (
+                        <button key={s} onClick={() => chooseSport(s)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#000] active:translate-y-1 active:shadow-[0_0_0_0_#000] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">
                           {s}
                         </button>
                       ))}
@@ -103,16 +162,16 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                   )}
                 </div>
 
-                {/* Step 2 */}
-                <div className={`y2k-brutal-card bg-white p-5 ${quizStep >= 2 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
+                {/* Step 2 — Focus */}
+                <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] p-5 ${quizStep >= 2 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
                   <div className="flex justify-between items-center mb-4 border-b-[2px] border-black pb-2">
-                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black">2. Focus Principale</h3>
+                    <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black">{t('waitlist.step2Title')}</h3>
                     {quizStep > 2 && <span className="bg-[#34BBC0] border-2 border-black w-6 h-6 rounded-full flex items-center justify-center font-bold text-xs">✓</span>}
                   </div>
                   {quizStep === 2 && (
                     <div className="flex flex-col gap-3">
-                      {['Infortuni gravi / LCA', 'Abbandono precoce', 'Comunicazione'].map(c => (
-                        <button key={c} onClick={() => setQuizStep(3)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#000] active:translate-y-1 active:shadow-[0_0_0_0_#000] transition-all text-left font-black uppercase text-sm">
+                      {concerns.map(c => (
+                        <button key={c} onClick={() => chooseConcern(c)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#000] active:translate-y-1 active:shadow-[0_0_0_0_#000] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">
                           {c}
                         </button>
                       ))}
@@ -120,31 +179,53 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                   )}
                 </div>
 
-                {/* Step 3 */}
-                <div className={`y2k-brutal-card bg-white p-5 ${quizStep >= 3 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
-                  <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black mb-4 border-b-[2px] border-black pb-2">3. Accesso</h3>
-                  {quizStep >= 3 && score === null && (
+                {/* Step 3 — Accesso */}
+                <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] p-5 ${quizStep >= 3 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
+                  <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black mb-4 border-b-[2px] border-black pb-2">{t('waitlist.step3Title')}</h3>
+
+                  {quizStep >= 3 && status !== 'success' && (
                     <form onSubmit={handleQuizSubmit} className="flex flex-col gap-4">
-                      <input type="email" placeholder="LA TUA EMAIL..." required value={email} onChange={e => setEmail(e.target.value)} className="w-full py-3 px-4 bg-white border-[3px] border-black font-bold uppercase text-sm focus:outline-none focus:ring-4 focus:ring-[#FFDE4D]/50 shadow-[inset_4px_4px_0_rgba(0,0,0,0.05)] transition-all duration-300"/>
-                      
+                      <input
+                        type="email"
+                        placeholder={t('waitlist.emailPlaceholder')}
+                        aria-label={t('waitlist.emailPlaceholder')}
+                        required
+                        value={email}
+                        onChange={e => setEmail(e.target.value)}
+                        className="w-full py-3 px-4 bg-white border-[3px] border-black font-bold uppercase text-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-[#34BBC0]/60 shadow-[inset_4px_4px_0_rgba(0,0,0,0.05)] transition-all duration-300"
+                      />
+
                       <div className="flex items-start gap-3 bg-[#EBE5FF] border-[3px] border-black p-3 my-2 shadow-[4px_4px_0_0_#0F0F12]">
-                        <span className="text-xl mt-0.5">🛡️</span>
+                        <span className="text-xl mt-0.5" aria-hidden="true">🛡️</span>
                         <p className="text-xs font-bold leading-relaxed uppercase tracking-wide">
-                          Dati 100% criptati sul dispositivo, zero db centrali e conformità GDPR minori.
+                          {t('waitlist.privacyNote')}
                         </p>
                       </div>
 
-                      <button type="submit" className="y2k-btn bg-[#FFDE4D] w-full text-base hover:bg-[#FF5722] hover:text-white transition-colors duration-300">
-                        Richiedi Accesso ✦
+                      {status === 'error' && (
+                        <p role="alert" className="text-xs font-black uppercase tracking-wide bg-[#FDEBEB] text-[#7A1F1F] border-[3px] border-[#7A1F1F] p-3">
+                          {t('waitlist.error')}
+                        </p>
+                      )}
+
+                      <button
+                        type="submit"
+                        disabled={status === 'submitting' || !isValidEmail(email)}
+                        className="w-full bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black px-6 py-3 text-base font-black uppercase tracking-wide shadow-[4px_4px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
+                      >
+                        {status === 'submitting' ? t('waitlist.submitting') : t('waitlist.submit')}
                       </button>
                     </form>
                   )}
-                  {score !== null && (
-                    <div className="text-center py-4">
-                      <p className="font-black uppercase tracking-widest mb-2 text-xs">Score di Ingresso (SITG):</p>
+
+                  {status === 'success' && (
+                    <div className="text-center py-4" role="status" aria-live="polite">
+                      <p className="font-black uppercase tracking-widest mb-2 text-xs">{t('waitlist.scoreLabel')}</p>
                       <div className="text-6xl font-['Bricolage_Grotesque',_sans-serif] font-black bg-[#DAE69A] border-[3px] border-black inline-block px-6 py-2 shadow-[6px_6px_0_0_#000] -rotate-2 mb-4">{score}</div>
-                      <p className="text-xs font-bold uppercase tracking-widest bg-black text-white py-2 px-4 inline-block transform rotate-1">In Waitlist ✓</p>
-                      <button onClick={onClose} className="mt-6 font-bold uppercase text-xs hover:underline">Chiudi finestra</button>
+                      <p className="text-xs font-bold uppercase tracking-widest bg-black text-white py-2 px-4 inline-block transform rotate-1">{t('waitlist.successTag')}</p>
+                      <div>
+                        <button onClick={onClose} className="mt-6 font-bold uppercase text-xs hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]">{t('waitlist.closeWindow')}</button>
+                      </div>
                     </div>
                   )}
                 </div>
@@ -153,7 +234,5 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
             </div>
           </motion.div>
         </div>
-      )}
-    </AnimatePresence>
   );
 }
