@@ -73,8 +73,14 @@ export function initAnalytics(): void {
       const t = document.createElement('script')
       t.async = true
       t.src = 'https://connect.facebook.net/en_US/fbevents.js'
+      // Inserisci prima del primo <script> se esiste, altrimenti aggancia all'head
+      // (robusto anche se il documento non contiene ancora alcun <script>).
       const first = document.getElementsByTagName('script')[0]
-      first.parentNode?.insertBefore(t, first)
+      if (first && first.parentNode) {
+        first.parentNode.insertBefore(t, first)
+      } else {
+        (document.head || document.documentElement).appendChild(t)
+      }
     }
     window.fbq?.('init', PIXEL_ID)
     window.fbq?.('track', 'PageView')
