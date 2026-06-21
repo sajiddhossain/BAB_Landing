@@ -88,7 +88,7 @@ export default function Features() {
                    <div className="bg-white border-[4px] border-black p-6 flex flex-col items-center gap-6 shadow-[inset_6px_6px_0_rgba(0,0,0,0.1)] w-full mt-4 skew-x-[-2deg] relative overflow-hidden">
                       {/* Telemetry Micro-Data */}
                       <div className="absolute top-3 left-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-[#DAE993] border-[2px] border-black px-1.5 py-0.5 skew-x-[2deg]">BPM: 142</div>
-                      <div className="absolute top-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-[#34BBC0] text-white border-[2px] border-black px-1.5 py-0.5 skew-x-[2deg]">ZONA 4</div>
+                      <div className="absolute top-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-vividteal text-white border-[2px] border-black px-1.5 py-0.5 skew-x-[2deg]">ZONA 4</div>
                       <div className="absolute bottom-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] border-b-[2px] border-black opacity-50 skew-x-[2deg]">HRV: OK</div>
                       
                       <div className="text-6xl sm:text-8xl font-['Space_Grotesk',_sans-serif] italic text-black font-black mb-4 tracking-tighter z-10 mt-6 sm:mt-4 skew-x-[2deg]">
