@@ -50,7 +50,35 @@ export default function WaitlistModal({ isOpen, onClose, target }: WaitlistModal
   );
 }
 
+/** Named export for design previews: renders the panel inline without the fixed overlay. */
+export function WaitlistPanel({ target = 'genitore' }: { target?: UserType }) {
+  return <WaitlistPanelContent onClose={() => {}} target={target} />;
+}
+
 function WaitlistBody({ onClose, target }: { onClose: () => void; target?: UserType }) {
+  return (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="waitlist-title">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        onClick={onClose}
+        className="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"
+      />
+      <motion.div
+        initial={{ opacity: 0, y: 50, scale: 0.95 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        exit={{ opacity: 0, y: 20, scale: 0.95 }}
+        transition={{ type: 'spring', stiffness: 300, damping: 25 }}
+        className="relative w-full max-w-md z-10"
+      >
+        <WaitlistPanelContent onClose={onClose} target={target} />
+      </motion.div>
+    </div>
+  );
+}
+
+function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target?: UserType }) {
   const { t, i18n } = useTranslation();
   const [quizStep, setQuizStep] = useState(1);
   const [sport, setSport] = useState<string | null>(null);
@@ -103,23 +131,7 @@ function WaitlistBody({ onClose, target }: { onClose: () => void; target?: UserT
   };
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="waitlist-title">
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        onClick={onClose}
-        className="absolute inset-0 bg-black/60 backdrop-blur-sm cursor-pointer"
-      />
-
-          <motion.div
-            initial={{ opacity: 0, y: 50, scale: 0.95 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            transition={{ type: 'spring', stiffness: 300, damping: 25 }}
-            className="relative w-full max-w-md bg-[#FAF9F6] border-[4px] border-black shadow-[12px_12px_0_0_#0F0F12] flex flex-col z-10 max-h-[90vh] overflow-y-auto"
-          >
+          <div className="relative w-full max-w-md bg-[#FAF9F6] border-[4px] border-black shadow-[12px_12px_0_0_#0F0F12] flex flex-col z-10 max-h-[90vh] overflow-y-auto">
 
             <div className="flex items-center justify-between p-4 border-b-[3px] border-black bg-[#FFDE4D]">
               <h2 id="waitlist-title" className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black uppercase tracking-widest">
@@ -232,7 +244,6 @@ function WaitlistBody({ onClose, target }: { onClose: () => void; target?: UserT
 
               </div>
             </div>
-          </motion.div>
-        </div>
+          </div>
   );
 }
