@@ -183,7 +183,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
               <button
                 onClick={onClose}
                 aria-label={t('waitlist.close')}
-                className="w-8 h-8 flex items-center justify-center bg-white border-2 border-black font-black text-xl hover:bg-black hover:text-white focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors"
+                className="w-11 h-11 shrink-0 flex items-center justify-center bg-white border-2 border-black font-black text-xl hover:bg-black hover:text-white focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors"
               >
                 ✕
               </button>
