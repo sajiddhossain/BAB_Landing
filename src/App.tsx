@@ -169,7 +169,7 @@ export default function App() {
               aria-haspopup="true"
               aria-expanded={isLangDropdownOpen}
               aria-label={`Lingua: ${currentLang.toUpperCase()}`}
-              className="w-11 h-11 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-0.5 transition-transform bg-[#FAF9F6] shadow-[2px_2px_0_0_#000] z-50 relative flex items-center justify-center focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+              className="w-11 h-11 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-0.5 transition-transform bg-[#FAF9F6] shadow-[2px_2px_0_0_#0F0F12] z-50 relative flex items-center justify-center focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
             >
               <img src={getFlagImg(currentLang)} alt="" className="w-full h-full object-cover" />
             </button>
@@ -181,7 +181,7 @@ export default function App() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
                   transition={{ duration: 0.15 }}
-                  className="absolute top-full right-0 mt-2 flex flex-col gap-2 bg-white border-[2px] border-black p-2 shadow-[4px_4px_0_0_#000] z-40 rounded"
+                  className="absolute top-full right-0 mt-2 flex flex-col gap-2 bg-white border-[2px] border-black p-2 shadow-[4px_4px_0_0_#0F0F12] z-40 rounded"
                 >
                   {otherLangs.map(lng => (
                     <button
@@ -216,7 +216,7 @@ export default function App() {
           aria-label={isMenuOpen ? 'Chiudi menu' : 'Apri menu'}
           aria-expanded={isMenuOpen}
           aria-controls="mobile-menu"
-          className="lg:hidden w-12 h-12 shrink-0 bg-white border-[3px] border-black flex flex-col items-center justify-center gap-1.5 shadow-[4px_4px_0_0_#0F0F12] z-50 transition-transform active:translate-y-1 active:shadow-[0_0_0_0_#000] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+          className="lg:hidden w-12 h-12 shrink-0 bg-white border-[3px] border-black flex flex-col items-center justify-center gap-1.5 shadow-[4px_4px_0_0_#0F0F12] z-50 transition-transform active:translate-y-1 active:shadow-[0_0_0_0_#0F0F12] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
         >
           <span className={`block w-6 h-[3px] bg-black transition-transform ${isMenuOpen ? 'rotate-45 translate-y-[9px]' : ''}`}></span>
           <span className={`block w-6 h-[3px] bg-black transition-opacity ${isMenuOpen ? 'opacity-0' : ''}`}></span>
@@ -244,7 +244,7 @@ export default function App() {
                      href={link.path}
                      onClick={() => setIsMenuOpen(false)}
                      aria-current={active ? 'page' : undefined}
-                     className={`w-full text-center border-[3px] border-black py-4 shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#000] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all ${active ? 'bg-[#34BBC0] text-[#0F0F12]' : 'bg-white'}`}
+                     className={`w-full text-center border-[3px] border-black py-4 shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#0F0F12] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all ${active ? 'bg-[#34BBC0] text-[#0F0F12]' : 'bg-white'}`}
                    >
                      {link.label}
                    </a>
@@ -270,7 +270,7 @@ export default function App() {
                         onClick={() => i18n.changeLanguage(lng)}
                         aria-label={lng.toUpperCase()}
                         aria-pressed={active}
-                        className={`w-11 h-11 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${active ? 'shadow-[4px_4px_0_0_#000] scale-110' : 'opacity-60'}`}
+                        className={`w-11 h-11 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${active ? 'shadow-[4px_4px_0_0_#0F0F12] scale-110' : 'opacity-60'}`}
                       >
                         <img src={flag} alt="" className="w-full h-full object-cover" />
                       </button>

@@ -206,7 +206,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                 transition={{ delay: 0.8 }}
                 className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-[#121212] text-white border-[3px] border-black p-3 shadow-[6px_6px_0_0_#FFDE4D] skew-x-[-12deg] z-20 hidden sm:flex items-center gap-3 group-hover:-translate-y-2 transition-all duration-300"
               >
-                <div className="bg-[#FFDE4D] text-[#0F0F12] border-2 border-black w-10 h-10 flex items-center justify-center text-xl shadow-[2px_2px_0_0_#000] skew-x-[12deg]">
+                <div className="bg-[#FFDE4D] text-[#0F0F12] border-2 border-black w-10 h-10 flex items-center justify-center text-xl shadow-[2px_2px_0_0_#0F0F12] skew-x-[12deg]">
                   <span className="font-['Space_Grotesk'] font-black italic">+</span>
                 </div>
                 <div className="skew-x-[12deg]">

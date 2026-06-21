@@ -201,7 +201,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
               <div className="flex flex-col gap-6">
 
                 {/* Step 1 — Sport */}
-                <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] p-5 ${quizStep >= 1 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
+                <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] p-5 ${quizStep >= 1 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
                   <div className="flex justify-between items-center mb-4 border-b-[2px] border-black pb-2">
                     <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black">{t('waitlist.step1Title')}</h3>
                     {quizStep > 1 && <span className="bg-[#34BBC0] border-2 border-black w-6 h-6 rounded-full flex items-center justify-center font-bold text-xs">✓</span>}
@@ -209,7 +209,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                   {quizStep === 1 && (
                     <div className="flex flex-col gap-3">
                       {sports.map(s => (
-                        <button key={s} onClick={() => chooseSport(s)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#000] active:translate-y-1 active:shadow-[0_0_0_0_#000] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">
+                        <button key={s} onClick={() => chooseSport(s)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#0F0F12] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">
                           {s}
                         </button>
                       ))}
@@ -218,7 +218,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                 </div>
 
                 {/* Step 2 — Focus */}
-                <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] p-5 ${quizStep >= 2 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
+                <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] p-5 ${quizStep >= 2 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
                   <div className="flex justify-between items-center mb-4 border-b-[2px] border-black pb-2">
                     <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black">{t('waitlist.step2Title')}</h3>
                     {quizStep > 2 && <span className="bg-[#34BBC0] border-2 border-black w-6 h-6 rounded-full flex items-center justify-center font-bold text-xs">✓</span>}
@@ -226,7 +226,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                   {quizStep === 2 && (
                     <div className="flex flex-col gap-3">
                       {concerns.map(c => (
-                        <button key={c} onClick={() => chooseConcern(c)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#000] active:translate-y-1 active:shadow-[0_0_0_0_#000] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">
+                        <button key={c} onClick={() => chooseConcern(c)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#0F0F12] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">
                           {c}
                         </button>
                       ))}
@@ -235,7 +235,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                 </div>
 
                 {/* Step 3 — Accesso */}
-                <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#000] p-5 ${quizStep >= 3 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
+                <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] p-5 ${quizStep >= 3 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
                   <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black mb-4 border-b-[2px] border-black pb-2">{t('waitlist.step3Title')}</h3>
 
                   {quizStep >= 3 && status !== 'success' && (
@@ -276,7 +276,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                   {status === 'success' && (
                     <div className="text-center py-4" role="status" aria-live="polite">
                       <p className="font-black uppercase tracking-widest mb-2 text-xs">{t('waitlist.scoreLabel')}</p>
-                      <div className="text-6xl font-['Bricolage_Grotesque',_sans-serif] font-black bg-[#DAE69A] border-[3px] border-black inline-block px-6 py-2 shadow-[6px_6px_0_0_#000] -rotate-2 mb-4">{score}</div>
+                      <div className="text-6xl font-['Bricolage_Grotesque',_sans-serif] font-black bg-[#DAE69A] border-[3px] border-black inline-block px-6 py-2 shadow-[6px_6px_0_0_#0F0F12] -rotate-2 mb-4">{score}</div>
                       <p className="text-xs font-bold uppercase tracking-widest bg-black text-white py-2 px-4 inline-block transform rotate-1">{t('waitlist.successTag')}</p>
                       <div>
                         <button onClick={onClose} className="mt-6 font-bold uppercase text-xs hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]">{t('waitlist.closeWindow')}</button>
