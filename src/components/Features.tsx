@@ -30,7 +30,8 @@ export default function Features() {
             <span className="block skew-x-[12deg]">{t('features.badge')}</span>
           </span>
           <h1 
-            className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(15,15,18,1)] text-[#0F0F12] tracking-tighter"
+            className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#FAF9F6] tracking-tighter"
+            style={{ WebkitTextStroke: '2.5px #0F0F12' }}
             dangerouslySetInnerHTML={{__html: t('features.title')}}
           />
         </div>
@@ -42,8 +43,15 @@ export default function Features() {
           <div className="absolute left-10 md:left-24 top-0 bottom-0 w-1 bg-black opacity-20 hidden sm:block border-l-[4px] border-dashed border-[#0F0F12]"></div>
 
           {modules.map((m, idx) => {
-             const bgColors = ['bg-[#FFDE4D]', 'bg-[#EBE5FF]', 'bg-[#FFE3D1]', 'bg-[#DAE69A]', 'bg-[#D1FFEF]'];
-             
+             const colors = [
+               { bg: 'bg-[#FFDE4D]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', tape: 'duct-tape-black', rot: 'rotate-[-2deg]' },
+               { bg: 'bg-[#34BBC0]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', tape: 'duct-tape-white', rot: 'rotate-[1deg]' },
+               { bg: 'bg-[#FF5722]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', tape: 'duct-tape-black', rot: 'rotate-[-1deg]' },
+               { bg: 'bg-[#EBE5FF]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', tape: 'duct-tape-black', rot: 'rotate-[2deg]' },
+               { bg: 'bg-[#0F0F12]', text: 'text-[#FFDE4D]', shadow: 'shadow-[6px_6px_0_0_#34BBC0]', tape: 'duct-tape-white', rot: 'rotate-[0deg]' },
+             ];
+             const theme = colors[idx % colors.length];
+
              return (
                <motion.div 
                  key={idx} 
@@ -55,14 +63,20 @@ export default function Features() {
                >
                  <div className={`flex flex-col gap-6 items-start w-full bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-10 text-[#0F0F12] h-full skew-x-[2deg]`}>
                  
-                 <div className="flex flex-col sm:flex-row gap-6 items-start w-full">
-                   <div className="bg-white border-[3px] border-black px-6 py-4 flex flex-col items-center justify-center shrink-0 shadow-[4px_4px_0_0_#0F0F12] relative skew-x-[-6deg]">
-                     <div className="absolute top-2 left-2 w-2 h-2 rounded-full border-[2px] border-black bg-neutral-200"></div>
-                     <div className="absolute top-2 right-2 w-2 h-2 rounded-full border-[2px] border-black bg-neutral-200"></div>
-                     <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-7xl font-black italic leading-none text-[#0F0F12] tracking-tighter skew-x-[6deg]">
+                 <div className="flex flex-col sm:flex-row gap-6 sm:gap-10 items-start w-full">
+                   <div className={`${theme.bg} ${theme.text} ${theme.shadow} border-[3px] border-black px-6 py-6 flex flex-col items-center justify-center shrink-0 relative ${theme.rot} min-w-[120px] transition-transform hover:scale-105 duration-300`}>
+                     {/* Scrapbook Duct Tape */}
+                     <div className={`duct-tape ${theme.tape} absolute -top-4 left-1/2 -translate-x-1/2 w-14 h-5 rotate-[-6deg] z-20`}></div>
+                     {/* Faux paper hole punches */}
+                     <div className="absolute top-4 left-3 w-3 h-3 rounded-full bg-black/10 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.6)]"></div>
+                     <div className="absolute top-4 right-3 w-3 h-3 rounded-full bg-black/10 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.6)]"></div>
+                     
+                     <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-7xl font-black leading-none tracking-tighter" style={{ WebkitTextStroke: theme.bg === 'bg-[#0F0F12]' ? '1.5px #FFDE4D' : '2px #0F0F12' }}>
                        {m.num}
                      </span>
-                     <span className="text-[10px] font-black uppercase tracking-widest border-t-[2px] border-black mt-2 pt-1 w-full text-center skew-x-[6deg]">BAB ATHLETE</span>
+                     <span className={`text-[10px] font-black uppercase tracking-widest border-t-[2px] ${theme.bg === 'bg-[#0F0F12]' ? 'border-[#FFDE4D]' : 'border-black'} mt-4 pt-2 w-full text-center opacity-90`}>
+                       BAB ATHLETE
+                     </span>
                    </div>
                    <div className="mt-2 w-full">
                      <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl font-black mb-4 uppercase text-[#0F0F12] tracking-tight">{m.title}</h3>
@@ -81,9 +95,9 @@ export default function Features() {
                         {tamagotchiState === 'active' ? '[ °_° ]✨' : tamagotchiState === 'down' ? '[ =_= ]💤' : '[ °_° ]'}
                       </div>
                       <div className="flex gap-4 skew-x-[2deg]">
-                        <button onClick={() => setTamagotchiState('active')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'active' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>A</button>
-                        <button onClick={() => setTamagotchiState('default')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'default' ? 'bg-[#FFDE4D] text-black translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>B</button>
-                        <button onClick={() => setTamagotchiState('down')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'down' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#FF5722] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>C</button>
+                        <button onClick={() => setTamagotchiState('active')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'active' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#C2410C] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>A</button>
+                        <button onClick={() => setTamagotchiState('default')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'default' ? 'bg-[#FFDE4D] text-black translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#C2410C] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>B</button>
+                        <button onClick={() => setTamagotchiState('down')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all ${tamagotchiState === 'down' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#000] hover:text-[#C2410C] active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>C</button>
                       </div>
                       <div className="text-xs font-black uppercase tracking-widest text-center mt-2 border-t-[3px] border-black pt-4 w-full skew-x-[2deg]">
                         {t('features.testBuddy')}
@@ -107,11 +121,11 @@ export default function Features() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.6, ease: [0.32, 0.72, 0, 1] }}
-                className="y2k-brutal-card bg-white text-[#0F0F12] overflow-hidden p-0 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]"
+                className="bg-white text-[#0F0F12] overflow-hidden p-0 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]"
               >
                 <button 
                   onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)}
-                  className={`w-full px-6 py-5 flex justify-between items-center text-left border-b-[3px] border-transparent transition-all duration-300 ${openFaq === faq.id ? 'bg-[#FFDE4D] border-black' : 'hover:bg-neutral-100 hover:text-[#FF5722]'}`}
+                  className={`w-full px-6 py-5 flex justify-between items-center text-left border-b-[3px] border-transparent transition-all duration-300 ${openFaq === faq.id ? 'bg-[#FFDE4D] border-black' : 'hover:bg-neutral-100 hover:text-[#C2410C]'}`}
                 >
                   <span className="font-black uppercase pr-8 text-sm sm:text-base tracking-tight">{faq.q}</span>
                   <span className={`text-2xl font-black transition-transform duration-300 ease-in-out ${openFaq === faq.id ? 'rotate-45 scale-110' : 'rotate-0'}`}>

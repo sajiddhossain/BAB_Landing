@@ -42,8 +42,13 @@ body::after {
   inset: 0;
   pointer-events: none;
   z-index: 9999;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.06'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E");
   mix-blend-mode: overlay;
+}
+
+/* Riduci la grana per chi preferisce meno movimento/effetti */
+@media (prefers-reduced-motion: reduce) {
+  body::after { display: none; }
 }
 
 /* Y2K Grid background overlay */
@@ -98,7 +103,7 @@ body::after {
   transform-origin: left;
   transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.y2k-brutal-card:hover .telemetry-line {
+.crosshairs:hover .telemetry-line {
   transform: scaleX(1);
 }
 
