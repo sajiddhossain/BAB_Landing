@@ -147,7 +147,7 @@ export default function About() {
               transition={{ duration: 0.8, ease: [0.32, 0.72, 0, 1], delay: 0.4 }}
               className="relative w-full skew-x-[-2deg] transition-transform"
             >
-              <div className="bg-[#DAE69A] p-2 md:p-3 border-[4px] border-black shadow-[8px_8px_0_0_#000]">
+              <div className="bg-[#DAE69A] p-2 md:p-3 border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12]">
                 <div className="bg-[#0F0F12] text-white border-[3px] border-black p-8 sm:p-10 h-full">
                   {t('about.story4pre')}<span className="underline decoration-4 underline-offset-4 decoration-[#FFDE4D]">{t('about.story4highlight')}</span>{t('about.story4post')}
                 </div>
@@ -209,7 +209,7 @@ export default function About() {
               />
             </div>
 
-            <div className="flex-1 bg-white border-[4px] border-black p-6 sm:p-8 shadow-[8px_8px_0_0_#000] w-full">
+            <div className="flex-1 bg-white border-[4px] border-black p-6 sm:p-8 shadow-[8px_8px_0_0_#0F0F12] w-full">
               <div className="flex flex-col items-start gap-5 mb-8">
                 <h3 className="relative inline-block font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-4xl font-black uppercase m-0">Gaia Manzone
                   <Doodle name="underline" stretch className="absolute -bottom-2.5 left-0 w-full h-3 text-[#FF6B5C]" stroke={3} />
@@ -258,7 +258,7 @@ export default function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, ease: [0.32, 0.72, 0, 1], delay: index * 0.1 }}
-                  className="bg-black p-2 border-[4px] border-black shadow-[4px_4px_0_0_#000] md:shadow-[8px_8px_0_0_#000] skew-x-[-2deg] hover:-translate-y-1 transition-all duration-300 group"
+                  className="bg-black p-2 border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[8px_8px_0_0_#0F0F12] skew-x-[-2deg] hover:-translate-y-1 transition-all duration-300 group"
                 >
                   <div className="bg-[#FAF9F6] p-2 sm:p-3 md:p-4 border-[3px] border-black h-full skew-x-[2deg]">
                     <img
