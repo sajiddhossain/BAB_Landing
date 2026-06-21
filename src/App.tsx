@@ -169,7 +169,7 @@ export default function App() {
               aria-haspopup="true"
               aria-expanded={isLangDropdownOpen}
               aria-label={`Lingua: ${currentLang.toUpperCase()}`}
-              className="w-9 h-9 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-0.5 transition-transform bg-[#FAF9F6] shadow-[2px_2px_0_0_#000] z-50 relative flex items-center justify-center focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+              className="w-11 h-11 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-0.5 transition-transform bg-[#FAF9F6] shadow-[2px_2px_0_0_#000] z-50 relative flex items-center justify-center focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
             >
               <img src={getFlagImg(currentLang)} alt="" className="w-full h-full object-cover" />
             </button>
@@ -190,7 +190,7 @@ export default function App() {
                         i18n.changeLanguage(lng);
                         setIsLangDropdownOpen(false);
                       }}
-                      className="w-9 h-9 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 hover:scale-110 transition-transform opacity-80 hover:opacity-100 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] focus-visible:opacity-100"
+                      className="w-11 h-11 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 hover:scale-110 transition-transform opacity-80 hover:opacity-100 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] focus-visible:opacity-100"
                       title={lng.toUpperCase()}
                       aria-label={lng.toUpperCase()}
                     >
