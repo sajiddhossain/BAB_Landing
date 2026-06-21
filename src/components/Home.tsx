@@ -87,6 +87,16 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               </svg>
             </motion.h1>
 
+            {/* PARAGRAFO INTRO (messaggio unico, sopra il toggle) */}
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.35 }}
+              className="font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg leading-relaxed text-[#0F0F12]/90 max-w-xl mb-8 text-center lg:text-left"
+            >
+              {t('home.heroBody')}
+            </motion.p>
+
             {/* IMMAGINE MOBILE (Nascosta su Desktop) */}
             <motion.div 
               initial={{ opacity: 0, scale: 0.95 }}
@@ -194,16 +204,17 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         </div>
       </section>
 
-      {/* MARQUEE SPORTIVO */}
-      <div className="w-full bg-[#DAE993] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]" aria-hidden="true">
+      {/* MARQUEE — trust badges */}
+      <div className="w-full bg-[#DAE993] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]" role="img" aria-label="GDPR Compliant · Backed by Science · Built with Elite Athletes · Puberty Support">
         <motion.div
           animate={{ x: ["0%", "-50%"] }}
           transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
           className="flex whitespace-nowrap w-max motion-reduce:animate-none"
+          aria-hidden="true"
         >
           {[...Array(8)].map((_, i) => (
-            <span key={i} className="font-['Space_Grotesk',_sans-serif] font-black text-xl sm:text-2xl text-black uppercase tracking-widest shrink-0 px-8">
-              /// {t('home.marquee')} </span>
+            <span key={i} className="font-['Space_Grotesk',_sans-serif] font-black text-base sm:text-xl text-black uppercase tracking-wide shrink-0 px-6">
+              {t('home.marquee')}&nbsp;</span>
           ))}
         </motion.div>
       </div>
@@ -307,54 +318,61 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
       {/* 3. DATA THAT BREAK BARRIERS */}
       <section className="w-full bg-[#EBE5FF] border-y-[4px] border-black py-20 px-4 my-16 relative overflow-hidden text-[#0F0F12] grid-pattern">
-        <div className="max-w-5xl mx-auto relative z-10 flex flex-col md:flex-row gap-12 items-center">
-          <div className="flex-1">
-            <div className="inline-block bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-8 relative skew-btn">
-              <span className="skew-btn-content italic">{t('home.dataBadge')}</span>
-            </div>
-            <h2 
-              className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl italic font-black leading-tight uppercase mb-6 tracking-tighter"
-              dangerouslySetInnerHTML={{__html: t('home.dataTitle')}}
-            />
-            <p className="text-xl font-extrabold mb-8 max-w-3xl text-[#0F0F12]">{t('home.dataSubtitle')}</p>
-          </div>
-          
-          <div className="w-full md:w-1/3 shrink-0 hidden md:block">
-            <div className="w-full aspect-square border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] skew-x-[4deg] crosshairs relative overflow-hidden bg-white">
-              <div className="duct-tape -top-4 -left-4 rotate-[-15deg] w-32 h-10 z-20 opacity-80"></div>
-              <img 
-                src="/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif" 
-                alt="Atleta BAB" 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300 skew-x-[-4deg] scale-110" 
+        <div className="max-w-5xl mx-auto relative z-10 text-[#0F0F12]">
+
+          {/* Header: testo a sinistra, immagine a destra */}
+          <div className="flex flex-col md:flex-row gap-10 md:gap-12 md:items-center">
+            <div className="flex-1">
+              <div className="inline-block bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-8 relative skew-btn">
+                <span className="skew-btn-content italic">{t('home.dataBadge')}</span>
+              </div>
+              <h2
+                className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl italic font-black leading-tight uppercase mb-5 tracking-tighter"
+                dangerouslySetInnerHTML={{__html: t('home.dataTitle')}}
               />
+              <p className="text-lg sm:text-xl font-extrabold max-w-xl text-[#0F0F12]">{t('home.dataSubtitle')}</p>
+            </div>
+
+            <div className="w-full md:w-1/3 shrink-0 hidden md:block">
+              <div className="w-full aspect-square border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] skew-x-[4deg] crosshairs relative overflow-hidden bg-white">
+                <div className="duct-tape -top-4 -left-4 rotate-[-15deg] w-32 h-10 z-20 opacity-80"></div>
+                <img
+                  src="/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif"
+                  alt="Atleta BAB"
+                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300 skew-x-[-4deg] scale-110"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        
-        <div className="max-w-5xl mx-auto mt-12 relative z-10 text-[#0F0F12]">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6 relative">
-            <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] relative crosshairs skew-x-[-6deg]">
-               <div className="duct-tape duct-tape-black -top-4 right-4 rotate-[15deg] w-20 h-6 z-20 opacity-70"></div>
-               <div className="skew-x-[6deg]">
-                 <span className="font-['Bricolage_Grotesque',_sans-serif] text-8xl md:text-[8rem] leading-none font-black italic text-[#FFDE4D] mb-4 block tracking-tighter" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '6px 6px 0px #0F0F12' }}>{t('home.data1Val')}</span>
-                 <p className="font-extrabold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data1Desc')}</p>
-               </div>
-            </div>
-            <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] relative crosshairs skew-x-[-6deg]">
-               <div className="duct-tape -bottom-3 left-4 rotate-[-8deg] w-16 h-6 z-20 opacity-60"></div>
-               <div className="skew-x-[6deg]">
-                 <span className="font-['Bricolage_Grotesque',_sans-serif] text-8xl md:text-[8rem] leading-none font-black italic text-[#FF5722] mb-4 block tracking-tighter" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '6px 6px 0px #0F0F12' }}>{t('home.data2Val')}</span>
-                 <p className="font-extrabold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data2Desc')}</p>
-               </div>
-            </div>
-            <div className="bg-white border-[4px] border-black p-8 shadow-[6px_6px_0_0_#0F0F12] relative crosshairs skew-x-[-6deg]">
-               <div className="duct-tape duct-tape-black -top-3 left-1/2 -translate-x-1/2 rotate-[2deg] w-24 h-6 z-20 opacity-80"></div>
-               <div className="skew-x-[6deg]">
-                 <span className="font-['Bricolage_Grotesque',_sans-serif] text-8xl md:text-[8rem] leading-none font-black italic text-[#34BBC0] mb-4 block tracking-tighter" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '6px 6px 0px #0F0F12' }}>{t('home.data3Val')}</span>
-                 <p className="font-extrabold uppercase text-sm tracking-tight border-l-[4px] border-black pl-3">{t('home.data3Desc')}</p>
-               </div>
-            </div>
-          </div>
+
+          {/* SIGNATURE — Il ledger del silenzio.
+              50% → 6% → 0%: più il bisogno si fa specifico, meno se ne sa.
+              Numeri cavi allineati (stesso contorno ink + ombra-accento); lo 0% è
+              il terminale — l'assenza — che BAB colma. */}
+          <ol className="mt-12 sm:mt-16 flex flex-col">
+
+            {/* 50% */}
+            <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-t-[3px] border-black/10">
+              <span className="font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 #FFDE4D' }}>{t('home.data1Val')}</span>
+              <p className="flex-1 font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data1Desc')}</p>
+            </li>
+
+            {/* 6% */}
+            <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-t-[3px] border-black/10">
+              <span className="font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 #FF5722' }}>{t('home.data2Val')}</span>
+              <p className="flex-1 font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data2Desc')}</p>
+            </li>
+
+            {/* 0% — il terminale: il vuoto che BAB colma */}
+            <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-y-[3px] border-black/10">
+              <span className="font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 #34BBC0' }}>{t('home.data3Val')}</span>
+              <div className="flex-1">
+                <p className="font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data3Desc')}</p>
+                <p className="mt-2 font-black uppercase text-[11px] tracking-widest text-[#0F766E]">↳ {t('home.dataVoid')}</p>
+              </div>
+            </li>
+
+          </ol>
         </div>
       </section>
 
