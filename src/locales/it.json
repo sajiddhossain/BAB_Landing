@@ -70,10 +70,26 @@
     "silenceLead": "La stessa voce, prima e dopo BAB.",
     "silenceOldLabel": "Senza BAB",
     "silenceBabLabel": "Con BAB",
-    "silenceOldVoices": ["Faccio schifo", "Mi sento persa", "No pain, no gain", "Tengo tutto per me", "Ho paura di non essere più brava", "Nessuno mi capisce", "Sono sbagliata"],
-    "silenceBabVoices": ["Conosco e apprezzo il mio corpo", "Finalmente ha senso", "Lavoro con il mio corpo, non contro", "Non devo farcela da sola", "Gioco meglio perché mi conosco meglio", "So spiegare di cosa ho bisogno", "Appartengo"],
+    "silenceOldVoices": [
+      "Faccio schifo",
+      "Mi sento persa",
+      "No pain, no gain",
+      "Tengo tutto per me",
+      "Ho paura di non essere più brava",
+      "Nessuno mi capisce",
+      "Sono sbagliata"
+    ],
+    "silenceBabVoices": [
+      "Conosco e apprezzo il mio corpo",
+      "Finalmente ha senso",
+      "Lavoro con il mio corpo, non contro",
+      "Non devo farcela da sola",
+      "Gioco meglio perché mi conosco meglio",
+      "So spiegare di cosa ho bisogno",
+      "Appartengo"
+    ],
     "silenceFootnote": "Citazioni reali da 25 interviste qualitative con atlete di 13–14 anni.",
-    "marquee": "🕵️‍♀️ GDPR Compliant ✦ 🧪 Backed by Science ✦ 👟 Built with Elite Athletes ✦ ✨ Puberty Support ✦",
+    "marquee": "🕵️‍♀️ Conforme al GDPR ✦ 🧪 Basato sulla scienza ✦ 👟 Creato con atlete d'élite ✦ ✨ Supporto nella crescita ✦",
     "footerTitle": "Reach Your <span class='text-[#FFDE4D]'>Personal Best</span>,<br/> By Feeling <span class='text-[#34BBC0]'>Your Best</span>.",
     "privacyTitle": "Privacy & Ricerca",
     "privacy1": "Solo se dai il tuo consenso, i dati che monitori contribuiranno a ricerche scientifiche anonime per migliorare la salute, il benessere e le performance tue e di altre giovani atlete. Insieme stiamo colmando il vuoto nella ricerca sportiva giovanile.",
@@ -86,9 +102,17 @@
     "scarcity": "Accesso beta limitato",
     "close": "Chiudi",
     "step1Title": "1. Il tuo sport",
-    "sports": ["Sport di squadra", "Sport individuale", "Altro"],
+    "sports": [
+      "Sport di squadra",
+      "Sport individuale",
+      "Altro"
+    ],
     "step2Title": "2. Focus principale",
-    "concerns": ["Capire i segnali del corpo", "Energia e recupero", "Restare nello sport"],
+    "concerns": [
+      "Capire i segnali del corpo",
+      "Energia e recupero",
+      "Restare nello sport"
+    ],
     "step3Title": "3. Accesso",
     "emailPlaceholder": "La tua email...",
     "privacyNote": "Dati 100% criptati sul dispositivo, zero database centrali e conformità GDPR minori.",
@@ -108,7 +132,12 @@
     "email": "Email",
     "emailPlaceholder": "mario@club.it",
     "role": "Ruolo",
-    "roles": ["Allenatore/trice", "Direttore / Dirigente", "Preparatore atletico", "Altro"],
+    "roles": [
+      "Allenatore/trice",
+      "Direttore / Dirigente",
+      "Preparatore atletico",
+      "Altro"
+    ],
     "message": "Messaggio (facoltativo)",
     "messagePlaceholder": "Quante squadre / atlete vorresti seguire?",
     "submit": "Prenota una demo",
@@ -159,7 +188,15 @@
     "signal2Cta": "Rispondi alla squadra",
     "signalSent": "Inviato alla squadra ✓",
     "weekTitle": "Energia media della squadra · ultimi 7 giorni",
-    "weekDays": ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"],
+    "weekDays": [
+      "Lun",
+      "Mar",
+      "Mer",
+      "Gio",
+      "Ven",
+      "Sab",
+      "Dom"
+    ],
     "weekCheckin": "check-in",
     "weekSummary": "Partecipazione media 82% · energia stabile"
   },
@@ -184,12 +221,30 @@
     "bigSport": "Sport Femminile",
     "bigCaption": "Proprio come Mia, molte atlete pagano il prezzo del ciclo nello sport.",
     "stats": [
-      { "val": "20%", "label": "si sente giudicata o non supportata dagli allenatori durante il ciclo" },
-      { "val": "93%", "label": "riferisce un'esperienza negativa legata al ciclo nello sport" },
-      { "val": "77%", "label": "dice che i sintomi mestruali influenzano le performance" },
-      { "val": "73%", "label": "si sente spinta a ignorare il dolore mestruale" },
-      { "val": "84%", "label": "ignora il dolore mestruale come principale strategia" },
-      { "val": "36%", "label": "crede che saltare il ciclo durante le gare sia normale" }
+      {
+        "val": "20%",
+        "label": "si sente giudicata o non supportata dagli allenatori durante il ciclo"
+      },
+      {
+        "val": "93%",
+        "label": "riferisce un'esperienza negativa legata al ciclo nello sport"
+      },
+      {
+        "val": "77%",
+        "label": "dice che i sintomi mestruali influenzano le performance"
+      },
+      {
+        "val": "73%",
+        "label": "si sente spinta a ignorare il dolore mestruale"
+      },
+      {
+        "val": "84%",
+        "label": "ignora il dolore mestruale come principale strategia"
+      },
+      {
+        "val": "36%",
+        "label": "crede che saltare il ciclo durante le gare sia normale"
+      }
     ],
     "founderTitle": "La Founder",
     "founderRole": "CEO & Founder",
@@ -208,11 +263,26 @@
     "badge": "✦ F.A.Q. ✦",
     "title": "Domande Frequenti",
     "items": [
-      { "q": "Cos'è l'app BAB?", "a": "Crediamo che le adolescenti non debbano affrontare tutto da sole. Per questo BAB offre a genitori, allenatori e club gli strumenti e le risorse giuste per comprendere e supportare al meglio le giovani atlete durante il loro percorso." },
-      { "q": "A chi si rivolge BAB?", "a": "BAB è progettata principalmente per supportare le ragazze e le giovani donne che hanno le mestruazioni e praticano sport." },
-      { "q": "Quali funzionalità include l'app?", "a": "BAB include il tracciamento del ciclo, dell'energia e dell'umore, aiutando le atlete a capire come questi fattori influenzino sia le performance sportive che la vita quotidiana. L'app offre anche insight personalizzati e risorse educative sviluppate dal nostro team medico, oltre a una funzione di Q&A privata e anonima dove atlete e genitori possono ricevere risposte da professionisti della salute e atleti d'élite." },
-      { "q": "BAB è sicura, anonima e privata?", "a": "Assolutamente sì. BAB è completamente conforme alle normative GDPR europee. Ci impegniamo a mantenere i tuoi dati sicuri, protetti, privati e anonimi. Tutti i contenuti sono revisionati da medici e professionisti dello sport per garantire che siano appropriati per l'età, basati su evidenze scientifiche e sicuri." },
-      { "q": "Chi ha creato BAB?", "a": "BAB è stata fondata da Gaia Manzone in collaborazione con un team multidisciplinare di ricercatori sportivi, medici, atleti d'élite e allenatori, uniti dalla passione per il miglioramento della salute, del benessere e delle performance delle giovani atlete." }
+      {
+        "q": "Cos'è l'app BAB?",
+        "a": "Crediamo che le adolescenti non debbano affrontare tutto da sole. Per questo BAB offre a genitori, allenatori e club gli strumenti e le risorse giuste per comprendere e supportare al meglio le giovani atlete durante il loro percorso."
+      },
+      {
+        "q": "A chi si rivolge BAB?",
+        "a": "BAB è progettata principalmente per supportare le ragazze e le giovani donne che hanno le mestruazioni e praticano sport."
+      },
+      {
+        "q": "Quali funzionalità include l'app?",
+        "a": "BAB include il tracciamento del ciclo, dell'energia e dell'umore, aiutando le atlete a capire come questi fattori influenzino sia le performance sportive che la vita quotidiana. L'app offre anche insight personalizzati e risorse educative sviluppate dal nostro team medico, oltre a una funzione di Q&A privata e anonima dove atlete e genitori possono ricevere risposte da professionisti della salute e atleti d'élite."
+      },
+      {
+        "q": "BAB è sicura, anonima e privata?",
+        "a": "Assolutamente sì. BAB è completamente conforme alle normative GDPR europee. Ci impegniamo a mantenere i tuoi dati sicuri, protetti, privati e anonimi. Tutti i contenuti sono revisionati da medici e professionisti dello sport per garantire che siano appropriati per l'età, basati su evidenze scientifiche e sicuri."
+      },
+      {
+        "q": "Chi ha creato BAB?",
+        "a": "BAB è stata fondata da Gaia Manzone in collaborazione con un team multidisciplinare di ricercatori sportivi, medici, atleti d'élite e allenatori, uniti dalla passione per il miglioramento della salute, del benessere e delle performance delle giovani atlete."
+      }
     ]
   },
   "testimonials": {
@@ -239,23 +309,23 @@
     "testBuddy": "Testa lo stato del Buddy",
     "modules": {
       "m1": {
-        "title": "TRACK",
+        "title": "MONITORA",
         "desc": "Monitora i livelli di energia, il sonno e l'umore, supportati dalle metriche di salute mestruale e di crescita, per costruire un quadro completo del benessere dell'atleta nel tempo."
       },
       "m2": {
-        "title": "UNDERSTAND",
+        "title": "COMPRENDI",
         "desc": "Traduci i dati in un linguaggio chiaro, semplice e coinvolgente, fornendo insight personalizzati e risorse di educazione corporea, sessione dopo sessione."
       },
       "m3": {
-        "title": "OPTIMISE",
-        "desc": "Bilancia le performance con il benessere fisico ed emotivo a lungo termine, attraverso raccomandazioni quotidiane personalizzate, create da esperti clinici con il supporto dell'AI."
+        "title": "OTTIMIZZA",
+        "desc": "Mette il benessere fisico ed emotivo al primo posto, e da lì costruisce la performance: raccomandazioni quotidiane personalizzate, definite da esperti clinici con il supporto dell'AI."
       },
       "m4": {
-        "title": "PREVENT",
+        "title": "PREVIENI",
         "desc": "Identifica e segnala precocemente i campanelli d'allarme prima che possano influenzare la salute, il benessere o le performance."
       },
       "m5": {
-        "title": "SUPPORT",
+        "title": "SUPPORTA",
         "desc": "Crea un sistema di supporto più forte attorno all'atleta, sia in campo che fuori, con strumenti dedicati per genitori e allenatori."
       }
     },
