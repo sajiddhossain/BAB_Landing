@@ -139,7 +139,7 @@ export default function App() {
                key={link.path}
                href={link.path}
                aria-current={active ? 'page' : undefined}
-               className={`relative py-1 transition-all hover:-translate-y-0.5 after:absolute after:left-0 after:-bottom-0.5 after:h-[3px] after:bg-[#34BBC0] after:transition-all ${active ? 'text-[#0F766E] after:w-full' : 'text-black hover:text-[#0F766E] after:w-0 hover:after:w-full'}`}
+               className={`relative py-1 transition-all hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-4 focus-visible:outline-[#0F0F12] after:absolute after:left-0 after:-bottom-0.5 after:h-[3px] after:bg-[#34BBC0] after:transition-all ${active ? 'text-[#0F766E] after:w-full' : 'text-black hover:text-[#0F766E] after:w-0 hover:after:w-full'}`}
              >
                {link.label}
              </a>
@@ -228,7 +228,7 @@ export default function App() {
                      href={link.path}
                      onClick={() => setIsMenuOpen(false)}
                      aria-current={active ? 'page' : undefined}
-                     className={`w-full text-center border-[3px] border-black py-4 shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#000] transition-all ${active ? 'bg-[#34BBC0] text-[#0F0F12]' : 'bg-white'}`}
+                     className={`w-full text-center border-[3px] border-black py-4 shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#000] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all ${active ? 'bg-[#34BBC0] text-[#0F0F12]' : 'bg-white'}`}
                    >
                      {link.label}
                    </a>
