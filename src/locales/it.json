@@ -238,28 +238,20 @@
     "bigCaption": "Proprio come Mia, molte atlete pagano il prezzo del ciclo nello sport.",
     "stats": [
       {
-        "val": "20%",
-        "label": "si sente giudicata o non supportata dagli allenatori durante il ciclo"
-      },
-      {
-        "val": "93%",
-        "label": "riferisce un'esperienza negativa legata al ciclo nello sport"
-      },
-      {
         "val": "77%",
-        "label": "dice che i sintomi mestruali influenzano le performance"
+        "label": "Ritiene che il ciclo mestruale influenzi negativamente la performance"
       },
       {
-        "val": "73%",
-        "label": "si sente spinta a ignorare il dolore mestruale"
+        "val": "50%",
+        "label": "Abbandona lo sport durante la pubertà"
       },
       {
-        "val": "84%",
-        "label": "ignora il dolore mestruale come principale strategia"
+        "val": "6%",
+        "label": "Della ricerca sportiva è condotta solo su atlete donne"
       },
       {
-        "val": "36%",
-        "label": "crede che saltare il ciclo durante le gare sia normale"
+        "val": "~0%",
+        "label": "La ricerca scientifica sugli infortuni delle atlete adolescenti"
       }
     ],
     "founderTitle": "La Founder",
@@ -270,7 +262,8 @@
     "founderQuote2": "\"Dopo aver lavorato per anni nel marketing di colossi come Adidas e Puma, studiando l'impatto dello sport sulle community e le barriere che affrontano le giovani atlete, ho capito che il vuoto scientifico e comunicativo per le ragazze under 18 è strutturale.\"",
     "founderQuote3": "\"BAB è lo scudo tecnologico che avrei voluto avere io stessa per non sentirmi sbagliata sul campo.\"",
     "communityTitle": "Il Muro della Community",
-    "photoAlt": "Giovane atleta della community BAB"
+    "photoAlt": "Giovane atleta della community BAB",
+    "statsSources": "Fonti: Jones & Bishop (2024, n=128); abbandono ~1 su 2 con la pubertà; Cowley et al. (2021), «Invisible Sportswomen»; Horan et al. (2024). Riferimenti completi su richiesta."
   },
   "simulator": {
     "title": "Simulatore",
