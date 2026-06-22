@@ -1,0 +1,16 @@
+{
+  "name": "BAB — Breaking All Barriers",
+  "short_name": "BAB",
+  "description": "BAB aiuta le atlete adolescenti a riconoscere, comprendere e gestire i segnali del corpo durante la pubertà — per continuare a fare sport, performare e sentirsi meglio.",
+  "lang": "it",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAF9F6",
+  "theme_color": "#143F36",
+  "categories": ["health", "sports", "lifestyle"],
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/BAB_logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
