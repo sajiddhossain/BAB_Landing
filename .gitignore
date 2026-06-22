@@ -32,7 +32,6 @@ ds-bundle/
 .design-sync/.cache/
 .design-sync/learnings/
 .design-sync/node_modules
-src/styles/ds-compiled.css
 
 # Installed agent skills (external tools, not project code)
 .agents/
