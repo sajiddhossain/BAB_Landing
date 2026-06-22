@@ -102,12 +102,12 @@ S.append(Paragraph("③ Ricerca sulle atlete adolescenti", SEC))
 S.append(stat_block(
     CORAL,
     "«0% — La ricerca sportiva sulle atlete adolescenti è quasi inesistente»",
-    "«Quasi inesistente — La ricerca scientifica sugli infortuni delle atlete adolescenti»",
+    "«~0% — La ricerca scientifica sugli infortuni delle atlete adolescenti»",
     "Horan et al. (2024), <i>Sports Medicine</i> — revisione sistematica: solo <b>32 studi</b> sugli infortuni "
     "nelle atlete under-19, quasi tutti nel calcio (DOI 10.1007/s40279-023-01988-w).",
-    "Non esiste uno «0%» pubblicato: era una cifra retorica e quindi attaccabile. «Quasi inesistente» è una "
-    "parafrasi corretta e sostenuta dai dati (32 studi in tutto), e mantiene la stessa forza comunicativa "
-    "senza esporci a una contestazione sul numero."))
+    "Non esiste uno «0%» esatto pubblicato. Il simbolo «~» (circa) lo dichiara come <b>approssimazione</b>, "
+    "non come misura esatta: così resta uniforme agli altri numeri (77%, 6%) ed è sostenuto dai dati "
+    "(solo 32 studi in tutto), senza esporci a una contestazione su uno «0%» netto."))
 
 S.append(Spacer(1, 10))
 S.append(HRFlowable(width="100%", thickness=1, color=HexColor("#DDDDDD"), spaceAfter=6))
