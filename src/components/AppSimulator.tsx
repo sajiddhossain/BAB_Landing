@@ -81,7 +81,7 @@ export default function AppSimulator({ onOpenWaitlist }: AppSimulatorProps) {
                   key={btn}
                   onClick={() => setTamagotchiState(btn as 'A' | 'B' | 'C')}
                   aria-label={`Stato ${btn}`}
-                  className={`w-14 h-14 rounded-full border-[3px] border-[#0F0F12] flex items-center justify-center font-black text-xl transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${tamagotchiState === btn ? 'bg-[#FFDE4D] shadow-none translate-x-[3px] translate-y-[3px]' : 'bg-white shadow-[6px_6px_0px_0px_#0F0F12] hover:shadow-none hover:translate-y-[6px] hover:translate-x-[6px] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none'}`}
+                  className={`w-14 h-14 rounded-full border-[3px] border-[#0F0F12] flex items-center justify-center font-black text-xl transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${tamagotchiState === btn ? 'bg-[#D2EC7C] shadow-none translate-x-[3px] translate-y-[3px]' : 'bg-white shadow-[6px_6px_0px_0px_#0F0F12] hover:shadow-none hover:translate-y-[6px] hover:translate-x-[6px] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none'}`}
                 >
                   {btn}
                 </button>
@@ -93,7 +93,7 @@ export default function AppSimulator({ onOpenWaitlist }: AppSimulatorProps) {
 
         <button
           onClick={() => onOpenWaitlist?.('genitore')}
-          className="mt-10 w-full bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black px-6 py-4 font-black uppercase tracking-wider shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-x-1 active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all"
+          className="mt-10 w-full bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-4 font-black uppercase tracking-wider shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-x-1 active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all"
         >
           {t('simulator.cta')}
         </button>

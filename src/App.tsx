@@ -138,7 +138,7 @@ export default function App() {
   const activePath = knownPaths.includes(currentPath) ? currentPath : '#/';
 
   return (
-    <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#FFDE4D] selection:text-[#0F0F12] font-['Space_Grotesk',_sans-serif] y2k-grid relative">
+    <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#D2EC7C] selection:text-[#0F0F12] font-['Space_Grotesk',_sans-serif] y2k-grid relative">
       
       {/* HEADER (Neobrutalism) */}
       <header className="fixed top-0 inset-x-0 h-20 bg-[#FAF9F6] text-[#0F0F12] border-b-[3px] border-black z-50 px-4 sm:px-6 lg:px-10 flex items-center justify-between gap-4 shadow-[0_4px_0_0_#0F0F12]">
@@ -204,7 +204,7 @@ export default function App() {
 
           <button
             onClick={() => openWaitlist()}
-            className="group relative bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black px-6 py-2 ml-4 text-sm font-black uppercase tracking-wider shadow-[4px_4px_0_0_#0F0F12] hover:bg-[#34BBC0] active:shadow-none active:translate-y-1 active:translate-x-1 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all skew-btn"
+            className="group relative bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-2 ml-4 text-sm font-black uppercase tracking-wider shadow-[4px_4px_0_0_#0F0F12] hover:bg-[#34BBC0] active:shadow-none active:translate-y-1 active:translate-x-1 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all skew-btn"
           >
             <span className="skew-btn-content">{t('nav.waitlist')}</span>
           </button>
@@ -255,7 +255,7 @@ export default function App() {
                       setIsMenuOpen(false);
                       openWaitlist();
                     }}
-                    className="w-full flex items-center justify-center py-4 mt-2 -skew-x-6 bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black font-black text-2xl uppercase tracking-wider shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:translate-x-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all"
+                    className="w-full flex items-center justify-center py-4 mt-2 -skew-x-6 bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black font-black text-2xl uppercase tracking-wider shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:translate-x-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all"
                   >
                     {t('nav.waitlist')}
                   </button>

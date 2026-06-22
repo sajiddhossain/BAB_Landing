@@ -11,7 +11,7 @@
   --color-neo-teal: #34BBC0;
   --color-neo-purple: #EBE5FF;
   --color-neo-peach: #FFE3D1;
-  --color-neo-yellow: #FFDE4D;
+  --color-neo-yellow: #D2EC7C;
   --color-neo-lime: #DAE69A;
 
   /* === Palette BAB v2 — vedi docs/brand/color-system.md ===
@@ -28,7 +28,7 @@
   /* Azione / vai */
   --color-lime: #D4F46A;         /* energia positiva / "vai" */
   --color-sagelime: #DAE69A;     /* tint lime (superficie) */
-  --color-yellow: #FFDE4D;       /* CTA / highlight */
+  --color-yellow: #D2EC7C;       /* CTA / highlight */
   --color-gold: #FFC042;         /* ricompensa / badge */
   /* Energia & corpo */
   --color-coral: #FF6B5C;        /* energia / sfida / allarme */
