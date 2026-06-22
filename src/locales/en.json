@@ -123,7 +123,9 @@
     "scoreLabel": "Entry score (SITG):",
     "successTag": "You're on the waitlist ✓",
     "closeWindow": "Close window",
-    "error": "We couldn't save your request. Please try again shortly."
+    "error": "We couldn't save your request. Please try again shortly.",
+    "consentPre": "I consent to the processing of my data to be contacted, as described in the",
+    "consentLink": "Privacy Policy"
   },
   "club": {
     "formTitle": "Book a demo",
@@ -146,7 +148,9 @@
     "submitting": "Sending...",
     "successTitle": "Request sent",
     "successBody": "We'll get back to you shortly to schedule the demo.",
-    "error": "We couldn't send your request. Please try again shortly."
+    "error": "We couldn't send your request. Please try again shortly.",
+    "consentPre": "I consent to the processing of my data to be contacted, as described in the",
+    "consentLink": "Privacy Policy"
   },
   "coach": {
     "sectionLabel": "For Sports Clubs",

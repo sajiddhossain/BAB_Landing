@@ -123,7 +123,9 @@
     "scoreLabel": "Score d'entrée (SITG) :",
     "successTag": "Vous êtes sur la liste d'attente ✓",
     "closeWindow": "Fermer la fenêtre",
-    "error": "Nous n'avons pas pu enregistrer votre demande. Réessayez bientôt."
+    "error": "Nous n'avons pas pu enregistrer votre demande. Réessayez bientôt.",
+    "consentPre": "Je consens au traitement de mes données pour être recontacté(e), comme décrit dans la",
+    "consentLink": "Politique de confidentialité"
   },
   "club": {
     "formTitle": "Réserver une démo",
@@ -146,7 +148,9 @@
     "submitting": "Envoi en cours...",
     "successTitle": "Demande envoyée",
     "successBody": "Nous vous recontacterons sous peu pour planifier la démo.",
-    "error": "Nous n'avons pas pu envoyer votre demande. Réessayez bientôt."
+    "error": "Nous n'avons pas pu envoyer votre demande. Réessayez bientôt.",
+    "consentPre": "Je consens au traitement de mes données pour être recontacté(e), comme décrit dans la",
+    "consentLink": "Politique de confidentialité"
   },
   "coach": {
     "sectionLabel": "Pour les Clubs Sportifs",

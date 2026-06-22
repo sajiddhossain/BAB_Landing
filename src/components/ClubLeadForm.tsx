@@ -27,9 +27,10 @@ export default function ClubLeadForm() {
   const [email, setEmail] = useState('');
   const [role, setRole] = useState('');
   const [message, setMessage] = useState('');
+  const [consent, setConsent] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
 
-  const canSubmit = Boolean(name.trim() && club.trim() && isValidEmail(email.trim())) && status !== 'submitting';
+  const canSubmit = Boolean(name.trim() && club.trim() && isValidEmail(email.trim()) && consent) && status !== 'submitting';
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -99,6 +100,21 @@ export default function ClubLeadForm() {
         <label className={labelClass} htmlFor="club-message">{t('club.message')}</label>
         <textarea id="club-message" className={inputClass} rows={2} value={message} onChange={e => setMessage(e.target.value)} placeholder={t('club.messagePlaceholder')} />
       </div>
+
+      <label htmlFor="club-consent" className="flex items-start gap-3 cursor-pointer mt-5 py-1">
+        <input
+          id="club-consent"
+          type="checkbox"
+          checked={consent}
+          onChange={e => setConsent(e.target.checked)}
+          required
+          className="mt-0.5 w-5 h-5 shrink-0 accent-[#1F7A63] border-[2px] border-black focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+        />
+        <span className="text-[13px] font-medium leading-relaxed text-[#0F0F12]/90">
+          {t('club.consentPre')}{' '}
+          <a href="#/privacy" target="_blank" rel="noopener" className="underline text-vividteal hover:no-underline">{t('club.consentLink')}</a>.
+        </span>
+      </label>
 
       {status === 'error' && (
         <p role="alert" className="mt-4 text-sm font-bold bg-[#FDEBEB] text-[#7A1F1F] border-[2px] border-[#7A1F1F] p-3">

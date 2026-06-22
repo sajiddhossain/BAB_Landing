@@ -123,7 +123,9 @@
     "scoreLabel": "Punteggio di ingresso (SITG):",
     "successTag": "Sei in lista d'attesa ✓",
     "closeWindow": "Chiudi finestra",
-    "error": "Non siamo riusciti a salvare la tua richiesta. Riprova tra poco."
+    "error": "Non siamo riusciti a salvare la tua richiesta. Riprova tra poco.",
+    "consentPre": "Acconsento al trattamento dei miei dati per essere ricontattata/o, come descritto nella",
+    "consentLink": "Privacy Policy"
   },
   "club": {
     "formTitle": "Prenota una demo",
@@ -146,7 +148,9 @@
     "submitting": "Invio in corso...",
     "successTitle": "Richiesta inviata",
     "successBody": "Ti ricontatteremo a breve per fissare la demo.",
-    "error": "Non siamo riusciti a inviare la richiesta. Riprova tra poco."
+    "error": "Non siamo riusciti a inviare la richiesta. Riprova tra poco.",
+    "consentPre": "Acconsento al trattamento dei miei dati per essere ricontattata/o, come descritto nella",
+    "consentLink": "Privacy Policy"
   },
   "coach": {
     "sectionLabel": "Per le Società Sportive",

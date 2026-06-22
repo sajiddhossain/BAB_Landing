@@ -121,6 +121,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
   const [sport, setSport] = useState<string | null>(null);
   const [concern, setConcern] = useState<string | null>(null);
   const [email, setEmail] = useState('');
+  const [consent, setConsent] = useState(false);
   const [score, setScore] = useState<number | null>(null);
   const [status, setStatus] = useState<SubmitStatus>('idle');
 
@@ -142,7 +143,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
   const handleQuizSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const cleanEmail = email.trim().toLowerCase();
-    if (status === 'submitting' || !isValidEmail(cleanEmail)) return;
+    if (status === 'submitting' || !isValidEmail(cleanEmail) || !consent) return;
     setStatus('submitting');
 
     const sitg = computeSitg(sport, concern, cleanEmail);
@@ -252,6 +253,21 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                         </p>
                       </div>
 
+                      <label htmlFor="waitlist-consent" className="flex items-start gap-3 cursor-pointer py-1">
+                        <input
+                          id="waitlist-consent"
+                          type="checkbox"
+                          checked={consent}
+                          onChange={e => setConsent(e.target.checked)}
+                          required
+                          className="mt-0.5 w-5 h-5 shrink-0 accent-[#1F7A63] border-[2px] border-black focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+                        />
+                        <span className="text-xs font-bold leading-relaxed">
+                          {t('waitlist.consentPre')}{' '}
+                          <a href="#/privacy" target="_blank" rel="noopener" className="underline text-vividteal hover:no-underline">{t('waitlist.consentLink')}</a>.
+                        </span>
+                      </label>
+
                       {status === 'error' && (
                         <p role="alert" className="text-xs font-black uppercase tracking-wide bg-[#FDEBEB] text-[#7A1F1F] border-[3px] border-[#7A1F1F] p-3">
                           {t('waitlist.error')}
@@ -260,7 +276,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
 
                       <button
                         type="submit"
-                        disabled={status === 'submitting' || !isValidEmail(email)}
+                        disabled={status === 'submitting' || !isValidEmail(email) || !consent}
                         className="w-full bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-3 text-base font-black uppercase tracking-wide shadow-[4px_4px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
                       >
                         {status === 'submitting' ? t('waitlist.submitting') : t('waitlist.submit')}
