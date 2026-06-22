@@ -354,43 +354,51 @@
   "legal": {
     "backHome": "Back to home",
     "updatedLabel": "Last updated:",
-    "contact": "For any question about how we handle your data, or to exercise your rights, write to us at bab.community.official@gmail.com.",
+    "contact": "For any question about how we handle your data or to exercise your rights, write to us at bab.community.official@gmail.com.",
     "privacy": {
       "title": "Privacy Policy",
       "updated": "June 2026",
-      "intro": "BAB (Breaking All Barriers) cares about the privacy of athletes and the people who support them. This notice explains what data we collect through this site, why, and what rights you have.",
+      "intro": "BAB (Breaking All Barriers) cares about the privacy of athletes and those who support them. This policy explains what data we collect through this site, why, with whom we share it and what rights you have.",
       "sections": [
         {
           "h": "1. Data controller",
-          "p": "The data controller is BAB — Breaking All Barriers. You can reach us at any time at bab.community.official@gmail.com."
+          "p": "The controller of the data collected through this site is Gaia Manzone, as the person responsible for the BAB — Breaking All Barriers project. You can contact the controller at any time at bab.community.official@gmail.com."
         },
         {
           "h": "2. What data we collect",
-          "p": "We only collect the data you give us voluntarily through the site forms: your email address and, optionally, your sport, area of interest, role, club name and the message you send in a demo request. We do not collect individual health data through this site."
+          "p": "We only collect the data you provide voluntarily through the site forms: your email address and, optionally, the sport you practise, your area of interest, your role, the name of the club and the message in a demo request. We do not collect individual health data through this site. Providing data is optional, but without a valid email address we cannot get back to you."
         },
         {
-          "h": "3. Why we process it (legal basis)",
-          "p": "We process your data on the basis of your consent (Art. 6.1.a GDPR) to contact you about the waitlist, demos and BAB updates. Site-usage analytics are aggregated and anonymous, based on our legitimate interest in improving the service."
+          "h": "3. Why we process data (legal basis)",
+          "p": "We process your data on the basis of your consent (Art. 6.1.a GDPR) to contact you about the waitlist, demos and BAB updates. Any analytics on site usage, if enabled, are aggregated and anonymous on the basis of our legitimate interest (Art. 6.1.f GDPR) in improving the service, and only after your consent to analytics cookies."
         },
         {
           "h": "4. Minors",
-          "p": "The forms on this site are intended for adults (coaches, club managers, parents). Where processing concerns underage athletes, it only happens with the consent of a parent or guardian. If you believe a minor has given us data without such consent, contact us and we will delete it."
+          "p": "The forms on this site are intended for adults (coaches, club managers, parents). We do not knowingly collect data from minors through this site. Where processing concerns underage athletes, it takes place exclusively with the consent of those holding parental responsibility. If you believe a minor has provided us data without such consent, write to us and we will delete it promptly."
         },
         {
-          "h": "5. Where we store data",
-          "p": "Leads are stored securely via Supabase, our infrastructure provider. We do not sell or share your data with third parties for marketing purposes."
+          "h": "5. Providers and processors",
+          "p": "To run the service we rely on providers that process data on our behalf as processors: leads are stored via Supabase, on infrastructure located in the European Union (Frankfurt region, Germany). If we later enable analytics tools (Google Analytics 4, Meta Pixel) we will update this page and load them only with your consent. We do not sell or share your data with third parties for marketing purposes."
         },
         {
-          "h": "6. How long we keep it",
-          "p": "We keep data only as long as needed for validation and contact, and in any case until you withdraw consent. After that it is deleted or anonymised."
+          "h": "6. Where we store data and transfers",
+          "p": "Data collected through the forms is stored on servers located in the European Union and is not transferred outside the EU. Should we in future enable tools involving a transfer to third countries (e.g. US analytics), such transfer will take place only on the basis of appropriate safeguards under the GDPR, such as the Standard Contractual Clauses."
         },
         {
-          "h": "7. Your rights",
-          "p": "You have the right to access, rectify, erase, restrict or object to the processing of your data and to data portability. To exercise these rights or withdraw consent, write to bab.community.official@gmail.com. You also have the right to lodge a complaint with your data protection authority."
+          "h": "7. Data security",
+          "p": "We apply appropriate technical and organisational measures to protect data: encrypted transmission (HTTPS), access limited to the controller and database-level security rules that prevent public reading of the collected data."
         },
         {
-          "h": "8. Changes to this notice",
-          "p": "We may update this notice over time. The version in force is always the one published on this page, with the update date shown at the top."
+          "h": "8. How long",
+          "p": "We keep data for as long as necessary for validation and contact purposes, and in any case until you withdraw your consent. After that it is deleted or anonymised."
+        },
+        {
+          "h": "9. Your rights",
+          "p": "You have the right to access, rectify, erase, restrict or object to the processing of your data and to data portability. To exercise these rights or withdraw consent at any time, write to bab.community.official@gmail.com. You also have the right to lodge a complaint with the Italian Data Protection Authority (Garante, www.garanteprivacy.it)."
+        },
+        {
+          "h": "10. Changes to this policy",
+          "p": "We may update this policy over time. The version in force is always the one published on this page, with the update date shown at the top. We invite you to review it periodically."
         }
       ]
     },
@@ -401,19 +409,19 @@
       "sections": [
         {
           "h": "1. What cookies are",
-          "p": "Cookies are small text files a site saves on your device. They help the site work and, in some cases, measure how it is used."
+          "p": "Cookies are small text files a site saves on your device. They make the site work and, in some cases, measure its usage. Similar technologies, such as local storage (localStorage), serve comparable functions."
         },
         {
-          "h": "2. Technical cookies (always on)",
-          "p": "We use technical local storage to remember your language preference and your cookie consent. These are necessary for the site to work and do not require consent."
+          "h": "2. Technical cookies and technologies (always on)",
+          "p": "We use technical local storage to remember your language preference and your cookie choice. They are necessary for the site to work, do not profile users and, under the applicable rules, do not require consent."
         },
         {
-          "h": "3. Analytics and marketing cookies (consent only)",
-          "p": "If enabled, we may use Google Analytics 4 and Meta Pixel to understand how the site is used and improve campaigns. These tools load only after your explicit consent via the banner."
+          "h": "3. Analytics and marketing cookies (only with consent)",
+          "p": "At present the site does not install third-party analytics or marketing cookies. If we enable them in future (e.g. Google Analytics 4 and Meta Pixel) to understand how the site is used, they will be loaded only after your explicit consent via the banner, and this page will be updated with the specific tools and durations."
         },
         {
           "h": "4. Managing consent",
-          "p": "You can accept or reject non-essential cookies from the banner shown on your first visit. You can change your mind at any time by clearing cookies and site data in your browser: the banner will reappear."
+          "p": "You can accept or reject non-essential cookies from the banner shown on your first visit. You can change your mind at any time by clearing the site cookies and data from your browser: the banner will reappear and you can make a new choice."
         }
       ]
     },
@@ -424,23 +432,43 @@
       "sections": [
         {
           "h": "1. Purpose of the site",
-          "p": "This site presents BAB — Breaking All Barriers and collects expressions of interest (waitlist and demo requests). It does not constitute a binding commercial offer."
+          "p": "This site presents BAB — Breaking All Barriers and collects expressions of interest (waitlist and demo requests). It is informational and promotional in nature and does not constitute a binding commercial offer."
         },
         {
           "h": "2. Waitlist and demo requests",
-          "p": "Joining the waitlist or submitting a demo request does not constitute a contract nor guarantee access to the product. We will contact you with details when the service becomes available."
+          "p": "Joining the waitlist or sending a demo request does not constitute a contract and does not guarantee access to the product. We will get back to you with details when the service is available. You agree to provide truthful information and not to submit unlawful, offensive or third-party content without the right to do so."
         },
         {
-          "h": "3. Intellectual property",
-          "p": "All site content (text, graphics, logo, code) belongs to BAB and may not be used or reproduced without written permission."
+          "h": "3. Medical disclaimer",
+          "p": "The content of this site and of the BAB project is for informational and educational purposes only and does not constitute medical advice, diagnosis or treatment. It is in no way a substitute for consulting a qualified doctor or healthcare professional. No information here creates a doctor-patient relationship. For any health-related decision, always consult a qualified professional; BAB is not responsible for choices made on the basis of the site content."
         },
         {
-          "h": "4. Limitation of liability",
-          "p": "The site is provided \"as is\". The information here is for general purposes and does not replace the advice of a doctor or qualified health professional."
+          "h": "4. Intellectual property",
+          "p": "The name \"BAB\", \"Breaking All Barriers\", the logo, graphics, texts, code and any other site content are owned by the project holder and protected by copyright and trademark law. They may not be copied, reproduced, distributed or used, in whole or in part, without written authorisation."
         },
         {
-          "h": "5. Governing law",
-          "p": "These terms are governed by Italian law. Any dispute falls under the jurisdiction of the controller's registered location."
+          "h": "5. No warranty and service availability",
+          "p": "The site is provided \"as is\" and \"as available\", without warranties of any kind. We do not guarantee that the site will always be available, error-free or uninterrupted, and we reserve the right to change, suspend or discontinue its content or features at any time, even without notice."
+        },
+        {
+          "h": "6. Limitation of liability",
+          "p": "To the maximum extent permitted by law, the holder is not liable for indirect, incidental or consequential damages arising from the use of or inability to use the site, nor for any misuse of the information provided. Mandatory consumer rights granted by law remain unaffected."
+        },
+        {
+          "h": "7. Links to third-party sites",
+          "p": "The site may contain links to third-party sites or services. We do not control and are not responsible for their content, policies or practices: visiting such sites is at your own risk and subject to their terms."
+        },
+        {
+          "h": "8. Changes to the terms",
+          "p": "We may update these terms over time. The version in force is always the one published on this page, with the date shown at the top. Continued use of the site after any changes constitutes acceptance."
+        },
+        {
+          "h": "9. Severability",
+          "p": "If any provision of these terms is held invalid or unenforceable, the remaining provisions will remain in full force and effect."
+        },
+        {
+          "h": "10. Governing law and jurisdiction",
+          "p": "These terms are governed by Italian law. Any dispute falls under the courts of the place of residence or domicile of the project holder; provided that, if you are a consumer, the mandatory jurisdiction of your place of residence or domicile under the law applies."
         }
       ]
     }
