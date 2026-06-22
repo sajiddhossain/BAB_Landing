@@ -238,28 +238,20 @@
     "bigCaption": "Just like Mia, several athletes pay the cost of bleeding in sport.",
     "stats": [
       {
-        "val": "20%",
-        "label": "feel judged or unsupported by coaches during their period"
-      },
-      {
-        "val": "93%",
-        "label": "report a negative period-related experience in sport"
-      },
-      {
         "val": "77%",
-        "label": "say menstrual symptoms affect performance"
+        "label": "Believe their menstrual cycle negatively affects performance"
       },
       {
-        "val": "73%",
-        "label": "feel pressured to push through period pain"
+        "val": "50%",
+        "label": "Drop out of sport during puberty"
       },
       {
-        "val": "84%",
-        "label": "ignore period pain as their main coping mechanism"
+        "val": "6%",
+        "label": "Of sports research is conducted on female athletes only"
       },
       {
-        "val": "36%",
-        "label": "believe missing periods during competition is normal"
+        "val": "~0%",
+        "label": "Scientific research on injuries in adolescent female athletes"
       }
     ],
     "founderTitle": "The Founder",
@@ -270,7 +262,8 @@
     "founderQuote2": "\"After years working in marketing for giants like Adidas and Puma, studying sport's impact on communities and the barriers young athletes face, I realised the scientific and communication gap for girls under 18 is structural.\"",
     "founderQuote3": "\"BAB is the technological shield I wish I'd had myself, so I wouldn't feel wrong on the field.\"",
     "communityTitle": "Community Wall",
-    "photoAlt": "Young athlete from the BAB community"
+    "photoAlt": "Young athlete from the BAB community",
+    "statsSources": "Sources: Jones & Bishop (2024, n=128); ~1 in 2 drop out at puberty; Cowley et al. (2021), “Invisible Sportswomen”; Horan et al. (2024). Full references on request."
   },
   "simulator": {
     "title": "Simulator",

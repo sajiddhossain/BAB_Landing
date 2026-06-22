@@ -238,28 +238,20 @@
     "bigCaption": "Tout comme Mia, de nombreuses athlètes paient le prix des règles dans le sport.",
     "stats": [
       {
-        "val": "20%",
-        "label": "se sentent jugées ou non soutenues par les entraîneurs pendant leurs règles"
-      },
-      {
-        "val": "93%",
-        "label": "rapportent une expérience négative liée aux règles dans le sport"
-      },
-      {
         "val": "77%",
-        "label": "disent que les symptômes menstruels affectent les performances"
+        "label": "Estiment que leur cycle menstruel nuit à leur performance"
       },
       {
-        "val": "73%",
-        "label": "se sentent obligées d'ignorer la douleur des règles"
+        "val": "50%",
+        "label": "Abandonnent le sport pendant la puberté"
       },
       {
-        "val": "84%",
-        "label": "ignorent la douleur des règles comme principale stratégie"
+        "val": "6%",
+        "label": "De la recherche sportive porte uniquement sur des athlètes femmes"
       },
       {
-        "val": "36%",
-        "label": "pensent qu'il est normal de ne pas avoir ses règles en compétition"
+        "val": "~0%",
+        "label": "La recherche scientifique sur les blessures des jeunes athlètes féminines"
       }
     ],
     "founderTitle": "La Fondatrice",
@@ -270,7 +262,8 @@
     "founderQuote2": "\"Après des années dans le marketing de géants comme Adidas et Puma, en étudiant l'impact du sport sur les communautés et les barrières que rencontrent les jeunes athlètes, j'ai compris que le vide scientifique et de communication pour les filles de moins de 18 ans est structurel.\"",
     "founderQuote3": "\"BAB est le bouclier technologique que j'aurais voulu avoir moi-même, pour ne pas me sentir inadéquate sur le terrain.\"",
     "communityTitle": "Mur de la Communauté",
-    "photoAlt": "Jeune athlète de la communauté BAB"
+    "photoAlt": "Jeune athlète de la communauté BAB",
+    "statsSources": "Sources : Jones & Bishop (2024, n=128) ; ~1 sur 2 abandonne à la puberté ; Cowley et al. (2021) ; Horan et al. (2024). Références complètes sur demande."
   },
   "simulator": {
     "title": "Simulateur",
