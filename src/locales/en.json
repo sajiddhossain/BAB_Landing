@@ -482,5 +482,8 @@
       "title": "Terms & Conditions — BAB",
       "desc": "The terms of use of the BAB site."
     }
+  },
+  "a11y": {
+    "skipToContent": "Skip to content"
   }
 }

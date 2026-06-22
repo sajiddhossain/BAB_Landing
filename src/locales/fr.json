@@ -482,5 +482,8 @@
       "title": "Conditions générales — BAB",
       "desc": "Les conditions d’utilisation du site BAB."
     }
+  },
+  "a11y": {
+    "skipToContent": "Aller au contenu"
   }
 }

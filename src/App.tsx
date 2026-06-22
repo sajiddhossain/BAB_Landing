@@ -170,7 +170,16 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#D2EC7C] selection:text-[#0F0F12] font-['Space_Grotesk',_sans-serif] y2k-grid relative">
-      
+
+      {/* Skip-to-content: primo elemento focusabile, fuori schermo finché non riceve focus */}
+      <a
+        href="#main-content"
+        onClick={() => document.getElementById('main-content')?.focus()}
+        className="fixed left-3 -top-24 focus:top-3 z-[200] px-5 py-3 bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black font-black uppercase text-sm tracking-wide shadow-[4px_4px_0_0_#0F0F12] focus:outline focus:outline-[3px] focus:outline-offset-2 focus:outline-[#0F0F12] transition-all"
+      >
+        {t('a11y.skipToContent')}
+      </a>
+
       {/* HEADER (Neobrutalism) */}
       <header className="fixed top-0 inset-x-0 h-20 bg-[#FAF9F6] text-[#0F0F12] border-b-[3px] border-black z-50 px-4 sm:px-6 lg:px-10 flex items-center justify-between gap-4 shadow-[0_4px_0_0_#0F0F12]">
         <a href="#/" className="flex items-center gap-3 hover:-translate-y-0.5 transition-transform z-50 shrink-0">
@@ -314,7 +323,7 @@ export default function App() {
       </AnimatePresence>
 
       {/* MAIN CONTENT ROUTING */}
-      <main className="pt-20 w-full overflow-x-hidden relative z-10">
+      <main id="main-content" tabIndex={-1} className="pt-20 w-full overflow-x-hidden relative z-10 focus:outline-none">
         <Suspense fallback={<RouteFallback />}>
           <AnimatePresence mode="wait">
             {activePath === '#/' && <Home key="home" onOpenWaitlist={openWaitlist} />}
