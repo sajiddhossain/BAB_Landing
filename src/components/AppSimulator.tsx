@@ -9,69 +9,15 @@
  */
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
+import BabBuddy, { type BuddyMood } from './BabBuddy';
 import type { UserType } from '../lib/leads';
 
 interface AppSimulatorProps {
   onOpenWaitlist?: (target?: UserType) => void;
 }
 
-const INK = '#0F0F12';
-
-/* ───────── Buddy espressivo (SVG, mobile-friendly) ───────── */
-type Mood = 'sleepy' | 'meh' | 'ok' | 'happy' | 'star';
-const MOOD_BG: Record<Mood, string> = { sleepy: '#E8E4D8', meh: '#FFE3D1', ok: '#8FD4E8', happy: '#D2EC7C', star: '#FFC042' };
-
-function Buddy({ mood, bounce }: { mood: Mood; bounce: number }) {
-  const eyes =
-    mood === 'sleepy' ? (
-      <>
-        <line x1="30" y1="46" x2="42" y2="46" stroke={INK} strokeWidth="4.5" strokeLinecap="round" />
-        <line x1="58" y1="46" x2="70" y2="46" stroke={INK} strokeWidth="4.5" strokeLinecap="round" />
-      </>
-    ) : mood === 'star' ? (
-      <>
-        <path d="M30 47 L36 40 L42 47" fill="none" stroke={INK} strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
-        <path d="M58 47 L64 40 L70 47" fill="none" stroke={INK} strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
-      </>
-    ) : mood === 'meh' ? (
-      <>
-        <circle cx="36" cy="46" r="3.6" fill={INK} />
-        <circle cx="64" cy="46" r="3.6" fill={INK} />
-      </>
-    ) : (
-      <>
-        <circle cx="36" cy="44" r="5" fill={INK} />
-        <circle cx="64" cy="44" r="5" fill={INK} />
-      </>
-    );
-
-  const mouth =
-    mood === 'sleepy' || mood === 'meh' ? (
-      <path d="M42 72 Q50 67 58 72" fill="none" stroke={INK} strokeWidth="4.5" strokeLinecap="round" />
-    ) : mood === 'star' ? (
-      <path d="M34 64 Q50 86 66 64 Z" fill={INK} />
-    ) : (
-      <path d="M34 66 Q50 80 66 66" fill="none" stroke={INK} strokeWidth="4.5" strokeLinecap="round" />
-    );
-
-  return (
-    <motion.svg
-      key={bounce}
-      initial={{ scale: 0.9, y: 4 }}
-      animate={{ scale: 1, y: 0 }}
-      transition={{ type: 'spring', stiffness: 360, damping: 12 }}
-      width="120" height="120" viewBox="0 0 100 100" role="img" aria-label="Il tuo Buddy BAB"
-      className="shrink-0 drop-shadow-[4px_4px_0_#0F0F12]"
-    >
-      <rect x="6" y="9" width="88" height="82" rx="26" fill={MOOD_BG[mood]} stroke={INK} strokeWidth="4.5" />
-      <circle cx="24" cy="62" r="4" fill="#FF8FB1" opacity="0.85" />
-      <circle cx="76" cy="62" r="4" fill="#FF8FB1" opacity="0.85" />
-      {mood === 'star' && <text x="50" y="6" textAnchor="middle" fontSize="14">👑</text>}
-      {eyes}
-      {mouth}
-    </motion.svg>
-  );
-}
+/* ───────── Buddy espressivo: componente condiviso (anche in /features) ───────── */
+type Mood = BuddyMood;
 
 /* ───────── Care actions ───────── */
 type CareId = 'acqua' | 'energia' | 'umore' | 'calma';
@@ -130,7 +76,7 @@ export default function AppSimulator({ onOpenWaitlist }: AppSimulatorProps) {
 
           {/* Buddy + battuta */}
           <div className="flex items-center gap-3 mb-4 min-h-[120px]">
-            <Buddy mood={mood} bounce={bounce} />
+            <BabBuddy mood={mood} bounce={bounce} />
             <p className="text-sm font-bold leading-snug bg-[#FAF9F6] border-[2px] border-black p-2.5 shadow-[3px_3px_0_0_#0F0F12] flex-1">
               {buddyLine}
             </p>
@@ -289,7 +235,7 @@ function CuddleTask({ onDone, onCancel, onTap, hearts, mood, bounce }: { onDone:
   return (
     <TaskShell title="Coccola il Buddy" hint="Toccalo per fargli sentire il tuo affetto" onCancel={onCancel}>
       <button onPointerDown={tap} className="w-full relative select-none touch-none border-[3px] border-black bg-[#FFE3D1] shadow-[4px_4px_0_0_#0F0F12] active:translate-y-[2px] active:shadow-none py-4 flex flex-col items-center focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12]" aria-label="Coccola il Buddy">
-        <Buddy mood={mood} bounce={bounce} />
+        <BabBuddy mood={mood} bounce={bounce} />
         <div className="mt-2 font-black uppercase text-sm">{n >= 4 ? '💖 Coccolato!' : `Toccalo ancora (${n}/4)`}</div>
         {hearts.slice(-6).map((h, i) => (
           <motion.span key={h} initial={{ opacity: 1, y: 0, scale: 0.6 }} animate={{ opacity: 0, y: -90, scale: 1.3 }} transition={{ duration: 1 }} className="absolute text-2xl pointer-events-none" style={{ left: `${30 + i * 8}%`, top: '40%' }} aria-hidden="true">❤️</motion.span>
@@ -366,7 +312,7 @@ function Done({ onOpenWaitlist, onReset, mood, bounce }: { onOpenWaitlist?: (t?:
           >{confetti[i % confetti.length]}</motion.span>
         ))}
         <div className="bg-white border-[3px] border-black p-5 text-center relative z-10">
-          <div className="flex justify-center mb-2"><Buddy mood={mood} bounce={bounce} /></div>
+          <div className="flex justify-center mb-2"><BabBuddy mood={mood} bounce={bounce} /></div>
           <div className="inline-block bg-[#FFC042] border-[3px] border-black px-4 py-1.5 font-black uppercase text-sm -rotate-2 shadow-[3px_3px_0_0_#0F0F12] mb-2">Buddy al top! 🔥</div>
           <p className="font-black uppercase text-xs tracking-widest text-black/70 mb-4">Giorno 1 · torna domani per la serie</p>
 
