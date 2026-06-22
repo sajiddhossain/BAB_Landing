@@ -264,7 +264,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                         />
                         <span className="text-xs font-bold leading-relaxed">
                           {t('waitlist.consentPre')}{' '}
-                          <a href="#/privacy" target="_blank" rel="noopener" className="underline text-vividteal hover:no-underline">{t('waitlist.consentLink')}</a>.
+                          <a href="/privacy" target="_blank" rel="noopener" className="underline text-vividteal hover:no-underline">{t('waitlist.consentLink')}</a>.
                         </span>
                       </label>
 
