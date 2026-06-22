@@ -222,17 +222,15 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
 
       {/* MARQUEE — trust badges */}
       <div className="w-full bg-[#DAE69A] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]" role="img" aria-label="GDPR Compliant · Backed by Science · Built with Elite Athletes · Puberty Support">
-        <motion.div
-          animate={{ x: ["0%", "-50%"] }}
-          transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
-          className="flex whitespace-nowrap w-max motion-reduce:animate-none"
+        <div
+          className="flex whitespace-nowrap w-max animate-marquee motion-reduce:[animation:none]"
           aria-hidden="true"
         >
           {[...Array(8)].map((_, i) => (
             <span key={i} className="font-['Space_Grotesk',_sans-serif] font-black text-base sm:text-xl text-black uppercase tracking-wide shrink-0 px-6">
               {t('home.marquee')}&nbsp;</span>
           ))}
-        </motion.div>
+        </div>
       </div>
 
       {/* 1.5 LA MISSIONE */}
@@ -259,7 +257,7 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
       </section>
 
       {/* 1.6 IL COSTO DEL SILENZIO — la voce dell'atleta, prima → dopo BAB (citazioni reali) */}
-      <section className="w-full px-4 py-20 sm:py-24 mb-16 relative bg-[#FAF9F6] text-[#0F0F12] border-y-[4px] border-black overflow-hidden grid-pattern">
+      <section className="w-full px-4 py-20 sm:py-24 mb-16 relative bg-[#FAF9F6] text-[#0F0F12] border-y-[4px] border-black overflow-hidden grid-pattern cv-auto">
         <div className="max-w-5xl mx-auto relative z-10">
 
           {/* Titolo nastrato */}
@@ -320,7 +318,7 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
       </section>
 
       {/* 2. IL TUO BIVIO */}
-      <section className="w-full px-4 py-24 mb-16 relative bg-[#FAF9F6] text-[#0F0F12] border-y-[4px] border-black overflow-hidden">
+      <section className="w-full px-4 py-24 mb-16 relative bg-[#FAF9F6] text-[#0F0F12] border-y-[4px] border-black overflow-hidden cv-auto">
         {/* Sfondo Grid Pattern */}
         <div className="absolute inset-0 grid-pattern opacity-40 pointer-events-none"></div>
 
@@ -394,7 +392,7 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
       </div>
 
       {/* 3. A SYSTEMIC PROBLEM — carta spenta (sand), il dolore in coral, la speranza (kicker) in vividteal */}
-      <section className="w-full bg-sand border-y-[4px] border-black py-20 px-4 my-16 relative overflow-hidden text-[#0F0F12] grid-pattern">
+      <section className="w-full bg-sand border-y-[4px] border-black py-20 px-4 my-16 relative overflow-hidden text-[#0F0F12] grid-pattern cv-auto">
         <div className="max-w-5xl mx-auto relative z-10 text-[#0F0F12]">
 
           {/* Header: testo a sinistra, immagine a destra */}
@@ -416,6 +414,8 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
                 <img
                   src="/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif"
                   alt={t('home.dataPhotoAlt')}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover transition-all duration-300 skew-x-[-4deg] scale-110"
                 />
               </div>
@@ -468,7 +468,7 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
       {/* 4. WAITLIST (Global popup is now used instead) */}
 
       {/* 5. TESTIMONIALS */}
-      <section className="w-full py-24 text-[#0F0F12] overflow-hidden relative">
+      <section className="w-full py-24 text-[#0F0F12] overflow-hidden relative cv-auto">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8 mb-12 sm:mb-16">
           <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black uppercase text-center md:text-left leading-tight tracking-tighter">
             {t('home.testimonialsTitle')}
@@ -519,7 +519,7 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
       <FAQ />
 
       {/* 6. MANIFESTO + PRIVACY (chiusura Home — il footer globale è in App.tsx) */}
-      <section className="w-full max-w-4xl mx-auto px-4 py-24 text-center relative text-[#0F0F12]">
+      <section className="w-full max-w-4xl mx-auto px-4 py-24 text-center relative text-[#0F0F12] cv-auto">
         
         {/* Doodle abstract bg for the footer title */}
         <svg className="absolute top-0 left-1/2 -translate-x-1/2 w-[150%] h-64 opacity-20 -z-10 pointer-events-none" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
