@@ -282,9 +282,9 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               </div>
               <ul className="flex flex-col gap-3">
                 {oldVoices.map((v, i) => (
-                  <li key={i} className="flex items-start gap-2.5">
-                    <span className="text-[#FF6B5C] font-black mt-px shrink-0" aria-hidden="true">✕</span>
-                    <span className="font-bold text-base sm:text-lg leading-snug line-through decoration-[#FF6B5C] decoration-2 text-[#0F0F12]/70">{v}</span>
+                  <li key={i} className="flex items-start gap-2.5 opacity-45">
+                    <span className="text-[#0F0F12] font-black mt-px shrink-0" aria-hidden="true">✕</span>
+                    <span className="font-bold text-base sm:text-lg leading-snug text-[#0F0F12]">{v}</span>
                   </li>
                 ))}
               </ul>
