@@ -175,13 +175,6 @@ body::after {
   will-change: transform;
 }
 
-/* Salta il rendering del contenuto fuori dal viewport sulle sezioni lunghe →
-   scroll più fluido su pagine alte. contain-intrinsic-size evita salti di layout. */
-.cv-auto {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 700px;
-}
-
 
 /* --- Punk-Sport Scrapbook Elements --- */
 .duct-tape {
