@@ -6,7 +6,7 @@
  * @copyright (c) 2026 Breaking All Barriers. Tutti i diritti riservati.
  */
 import { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { insertLead, type UserType } from '../lib/leads';
 import { trackEvent } from '../lib/analytics';
@@ -115,8 +115,36 @@ function WaitlistBody({ onClose, target }: { onClose: () => void; target?: UserT
   );
 }
 
+/** Badge ✓ di step completato: entra con un "pop" a molla, esce con un fade. */
+function StepCheck({ reduce }: { reduce: boolean | null }) {
+  return (
+    <motion.span
+      initial={reduce ? { opacity: 0 } : { scale: 0, rotate: -40 }}
+      animate={reduce ? { opacity: 1 } : { scale: 1, rotate: 0 }}
+      exit={reduce ? { opacity: 0 } : { scale: 0, opacity: 0 }}
+      transition={{ type: 'spring', stiffness: 520, damping: 14 }}
+      className="bg-[#34BBC0] border-2 border-black w-6 h-6 rounded-full flex items-center justify-center font-bold text-xs shrink-0"
+    >
+      ✓
+    </motion.span>
+  );
+}
+
 function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target?: UserType }) {
   const { t, i18n } = useTranslation();
+  const reduce = useReducedMotion();
+
+  // Varianti condivise: lista che scaglia i figli, ogni voce entra da sinistra con
+  // uno spring secco (in linea con lo stile neobrutalista). Reduced-motion → solo fade.
+  const listV = { hidden: {}, show: { transition: { staggerChildren: reduce ? 0 : 0.07, delayChildren: reduce ? 0 : 0.04 } } };
+  const itemV = reduce
+    ? { hidden: { opacity: 0 }, show: { opacity: 1 }, exit: { opacity: 0 } }
+    : {
+        hidden: { opacity: 0, x: -16 },
+        show: { opacity: 1, x: 0, transition: { type: 'spring' as const, stiffness: 460, damping: 26 } },
+        exit: { opacity: 0, x: 12, transition: { duration: 0.12 } },
+      };
+
   const [quizStep, setQuizStep] = useState(1);
   const [sport, setSport] = useState<string | null>(null);
   const [concern, setConcern] = useState<string | null>(null);
@@ -187,12 +215,17 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
 
             <div className="p-6">
 
-              <div className="bg-black text-[#DAE69A] px-4 py-2 flex items-center justify-center gap-3 shadow-[4px_4px_0_0_#DAE69A] transform -rotate-1 mb-8">
+              <motion.div
+                initial={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.85, rotate: -6 }}
+                animate={reduce ? { opacity: 1 } : { opacity: 1, scale: 1, rotate: -1 }}
+                transition={{ type: 'spring', stiffness: 320, damping: 16, delay: 0.1 }}
+                className="bg-black text-[#DAE69A] px-4 py-2 flex items-center justify-center gap-3 shadow-[4px_4px_0_0_#DAE69A] mb-8"
+              >
                 <span className="text-xl" aria-hidden="true">🔒</span>
                 <span className="text-sm font-black uppercase tracking-widest">
                   {t('waitlist.scarcity')}
                 </span>
-              </div>
+              </motion.div>
 
               <div className="flex flex-col gap-6">
 
@@ -200,34 +233,46 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                 <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] p-5 ${quizStep >= 1 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
                   <div className="flex justify-between items-center mb-4 border-b-[2px] border-black pb-2">
                     <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black">{t('waitlist.step1Title')}</h3>
-                    {quizStep > 1 && <span className="bg-[#34BBC0] border-2 border-black w-6 h-6 rounded-full flex items-center justify-center font-bold text-xs">✓</span>}
+                    <AnimatePresence>
+                      {quizStep > 1 && <StepCheck reduce={reduce} />}
+                    </AnimatePresence>
                   </div>
-                  {quizStep === 1 && (
-                    <div className="flex flex-col gap-3">
-                      {sports.map(s => (
-                        <button key={s} onClick={() => chooseSport(s)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#0F0F12] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">
-                          {s}
-                        </button>
-                      ))}
-                    </div>
-                  )}
+                  <AnimatePresence mode="wait">
+                    {quizStep === 1 && (
+                      <motion.div variants={listV} initial="hidden" animate="show" exit="hidden" className="flex flex-col gap-3">
+                        {sports.map(s => (
+                          <motion.div key={s} variants={itemV}>
+                            <button onClick={() => chooseSport(s)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#0F0F12] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">
+                              {s}
+                            </button>
+                          </motion.div>
+                        ))}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </div>
 
                 {/* Step 2 — Focus */}
                 <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] p-5 ${quizStep >= 2 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
                   <div className="flex justify-between items-center mb-4 border-b-[2px] border-black pb-2">
                     <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black">{t('waitlist.step2Title')}</h3>
-                    {quizStep > 2 && <span className="bg-[#34BBC0] border-2 border-black w-6 h-6 rounded-full flex items-center justify-center font-bold text-xs">✓</span>}
+                    <AnimatePresence>
+                      {quizStep > 2 && <StepCheck reduce={reduce} />}
+                    </AnimatePresence>
                   </div>
-                  {quizStep === 2 && (
-                    <div className="flex flex-col gap-3">
-                      {concerns.map(c => (
-                        <button key={c} onClick={() => chooseConcern(c)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#0F0F12] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">
-                          {c}
-                        </button>
-                      ))}
-                    </div>
-                  )}
+                  <AnimatePresence mode="wait">
+                    {quizStep === 2 && (
+                      <motion.div variants={listV} initial="hidden" animate="show" exit="hidden" className="flex flex-col gap-3">
+                        {concerns.map(c => (
+                          <motion.div key={c} variants={itemV}>
+                            <button onClick={() => chooseConcern(c)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#0F0F12] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">
+                              {c}
+                            </button>
+                          </motion.div>
+                        ))}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </div>
 
                 {/* Step 3 — Accesso */}
@@ -235,7 +280,13 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                   <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black mb-4 border-b-[2px] border-black pb-2">{t('waitlist.step3Title')}</h3>
 
                   {quizStep >= 3 && status !== 'success' && (
-                    <form onSubmit={handleQuizSubmit} className="flex flex-col gap-4">
+                    <motion.form
+                      onSubmit={handleQuizSubmit}
+                      className="flex flex-col gap-4"
+                      initial={reduce ? { opacity: 0 } : { opacity: 0, y: 12 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ type: 'spring', stiffness: 380, damping: 28 }}
+                    >
                       <input
                         type="email"
                         placeholder={t('waitlist.emailPlaceholder')}
@@ -281,18 +332,32 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                       >
                         {status === 'submitting' ? t('waitlist.submitting') : t('waitlist.submit')}
                       </button>
-                    </form>
+                    </motion.form>
                   )}
 
                   {status === 'success' && (
-                    <div className="text-center py-4" role="status" aria-live="polite">
-                      <p className="font-black uppercase tracking-widest mb-2 text-xs">{t('waitlist.scoreLabel')}</p>
-                      <div className="text-6xl font-['Bricolage_Grotesque',_sans-serif] font-black bg-[#DAE69A] border-[3px] border-black inline-block px-6 py-2 shadow-[6px_6px_0_0_#0F0F12] -rotate-2 mb-4">{score}</div>
-                      <p className="text-xs font-bold uppercase tracking-widest bg-black text-white py-2 px-4 inline-block transform rotate-1">{t('waitlist.successTag')}</p>
-                      <div>
+                    <motion.div
+                      className="text-center py-4"
+                      role="status"
+                      aria-live="polite"
+                      variants={listV}
+                      initial="hidden"
+                      animate="show"
+                    >
+                      <motion.p variants={itemV} className="font-black uppercase tracking-widest mb-2 text-xs">{t('waitlist.scoreLabel')}</motion.p>
+                      <motion.div
+                        initial={reduce ? { opacity: 0 } : { scale: 0.2, rotate: 10, opacity: 0 }}
+                        animate={reduce ? { opacity: 1 } : { scale: 1, rotate: -2, opacity: 1 }}
+                        transition={{ type: 'spring', stiffness: 260, damping: 13, delay: reduce ? 0 : 0.12 }}
+                        className="text-6xl font-['Bricolage_Grotesque',_sans-serif] font-black bg-[#DAE69A] border-[3px] border-black inline-block px-6 py-2 shadow-[6px_6px_0_0_#0F0F12] mb-4"
+                      >
+                        {score}
+                      </motion.div>
+                      <motion.p variants={itemV} className="text-xs font-bold uppercase tracking-widest bg-black text-white py-2 px-4 inline-block transform rotate-1">{t('waitlist.successTag')}</motion.p>
+                      <motion.div variants={itemV}>
                         <button onClick={onClose} className="mt-6 font-bold uppercase text-xs hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]">{t('waitlist.closeWindow')}</button>
-                      </div>
-                    </div>
+                      </motion.div>
+                    </motion.div>
                   )}
                 </div>
 
