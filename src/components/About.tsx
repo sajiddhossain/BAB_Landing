@@ -53,7 +53,7 @@ export default function About() {
                 <img
                   src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif"
                   alt={t('about.photoAlt')}
-                  className="w-full aspect-square md:aspect-video object-cover border-[3px] border-black grayscale hover:grayscale-0 transition-all duration-500"
+                  className="w-full aspect-square md:aspect-video object-cover border-[3px] border-black transition-all duration-500"
                   loading="lazy"
                 />
               </div>
@@ -119,7 +119,7 @@ export default function About() {
               <Doodle name="sparkle" className="absolute -top-4 -right-4 w-10 h-10 text-[#D2EC7C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12 z-20 pointer-events-none" />
               <Doodle name="heart" className="absolute -bottom-4 -left-5 w-10 h-10 text-[#FF6B5C] -rotate-12 z-20 drop-shadow-[2px_2px_0_#0F0F12] pointer-events-none" />
               <div className="bg-white p-2 sm:p-3 border-[3px] border-black skew-x-[2deg]">
-                <img src="/fotobab/mia.avif" alt={t('about.miaCaption')} className="w-full aspect-square object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500" loading="lazy" />
+                <img src="/fotobab/mia.avif" alt={t('about.miaCaption')} className="w-full aspect-square object-cover border-[3px] border-black transition-all duration-500" loading="lazy" />
                 <div className="p-4 font-['Bricolage_Grotesque',_sans-serif] text-center font-black uppercase text-xl text-neutral-500">{t('about.miaCaption')}</div>
               </div>
             </motion.div>
@@ -264,7 +264,7 @@ export default function About() {
                     <img
                       src={`/fotobab/${img}`}
                       alt={t('about.photoAlt')}
-                      className="w-full aspect-[4/5] md:aspect-square object-cover border-[2px] md:border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-300"
+                      className="w-full aspect-[4/5] md:aspect-square object-cover border-[2px] md:border-[3px] border-black transition-all duration-300"
                       loading="lazy"
                     />
                   </div>

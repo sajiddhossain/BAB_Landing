@@ -120,7 +120,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                   height={2048}
                   fetchPriority="high"
                   decoding="async"
-                  className="w-full max-h-[250px] aspect-[4/5] sm:aspect-auto object-cover border-[3px] border-black grayscale skew-x-[4deg]"
+                  className="w-full max-h-[250px] aspect-[4/5] sm:aspect-auto object-cover border-[3px] border-black skew-x-[4deg]"
                 />
               </div>
             </motion.div>
@@ -196,7 +196,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                 height={2048}
                 fetchPriority="high"
                 decoding="async"
-                className="w-full aspect-[4/5] object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500 skew-x-[-4deg]"
+                className="w-full aspect-[4/5] object-cover border-[3px] border-black transition-all duration-500 skew-x-[-4deg]"
               />
               
               {/* Floating Widget (Neobrutalism) */}
@@ -415,7 +415,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                 <img
                   src="/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif"
                   alt={t('home.dataPhotoAlt')}
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300 skew-x-[-4deg] scale-110"
+                  className="w-full h-full object-cover transition-all duration-300 skew-x-[-4deg] scale-110"
                 />
               </div>
             </div>
