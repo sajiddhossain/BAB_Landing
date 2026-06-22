@@ -164,6 +164,24 @@ body::after {
   display: none;
 }
 
+/* Marquee via animazione CSS (gira sul compositor, fuori dal main thread →
+   non compete con lo scroll; framer faceva un loop JS rAF a ogni frame). */
+@keyframes bab-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: bab-marquee 18s linear infinite;
+  will-change: transform;
+}
+
+/* Salta il rendering del contenuto fuori dal viewport sulle sezioni lunghe →
+   scroll più fluido su pagine alte. contain-intrinsic-size evita salti di layout. */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 700px;
+}
+
 
 /* --- Punk-Sport Scrapbook Elements --- */
 .duct-tape {
