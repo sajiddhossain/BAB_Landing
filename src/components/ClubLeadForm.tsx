@@ -109,7 +109,7 @@ export default function ClubLeadForm() {
       <button
         type="submit"
         disabled={!canSubmit}
-        className="mt-5 bg-[#FFDE4D] text-[#0F0F12] border-[2px] border-black shadow-[4px_4px_0_0_#0F0F12] px-6 py-3 text-[15px] font-bold hover:bg-[#34BBC0] active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+        className="mt-5 bg-[#D2EC7C] text-[#0F0F12] border-[2px] border-black shadow-[4px_4px_0_0_#0F0F12] px-6 py-3 text-[15px] font-bold hover:bg-[#34BBC0] active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] disabled:opacity-50 disabled:cursor-not-allowed transition-all"
       >
         {status === 'submitting' ? t('club.submitting') : t('club.submit')}
       </button>

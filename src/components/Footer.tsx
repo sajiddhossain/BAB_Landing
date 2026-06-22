@@ -44,7 +44,7 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
             </p>
 
             <div className="flex flex-col gap-3 w-full max-w-xs">
-              <span className="font-black uppercase tracking-widest text-[11px] text-[#FFDE4D]">
+              <span className="font-black uppercase tracking-widest text-[11px] text-[#D2EC7C]">
                 {t('footer.followHeading')}
               </span>
               <div className="flex flex-wrap gap-3">
@@ -54,7 +54,7 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
                     href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2 text-xs font-black uppercase tracking-wider shadow-[3px_3px_0_0_#34BBC0] hover:bg-[#FFDE4D] hover:shadow-[3px_3px_0_0_#FAF9F6] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all"
+                    className="bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2 text-xs font-black uppercase tracking-wider shadow-[3px_3px_0_0_#34BBC0] hover:bg-[#D2EC7C] hover:shadow-[3px_3px_0_0_#FAF9F6] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all"
                   >
                     {s.label}
                   </a>
@@ -65,7 +65,7 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
 
           {/* Navigazione */}
           <nav className="md:col-span-3" aria-label={t('footer.navHeading')}>
-            <span className="block font-black uppercase tracking-widest text-[11px] text-[#FFDE4D] mb-5">
+            <span className="block font-black uppercase tracking-widest text-[11px] text-[#D2EC7C] mb-5">
               {t('footer.navHeading')}
             </span>
             <ul className="flex flex-col gap-3">
@@ -92,7 +92,7 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
             </p>
             <button
               onClick={() => onOpenWaitlist?.()}
-              className="group bg-[#FFDE4D] text-[#0F0F12] border-[3px] border-black px-6 py-3 text-sm font-black uppercase tracking-wider shadow-[5px_5px_0_0_#34BBC0] hover:shadow-[5px_5px_0_0_#FAF9F6] active:translate-x-[5px] active:translate-y-[5px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all skew-btn"
+              className="group bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-3 text-sm font-black uppercase tracking-wider shadow-[5px_5px_0_0_#34BBC0] hover:shadow-[5px_5px_0_0_#FAF9F6] active:translate-x-[5px] active:translate-y-[5px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all skew-btn"
             >
               <span className="skew-btn-content">{t('nav.waitlist')} ✦</span>
             </button>

@@ -23,7 +23,7 @@ export default function About() {
   ];
 
   const stats = t('about.stats', { returnObjects: true }) as unknown as { val: string; label: string }[];
-  const statColor = (i: number) => (i < 2 ? '#FFDE4D' : i < 4 ? '#DAE69A' : '#34BBC0');
+  const statColor = (i: number) => (i < 2 ? '#D2EC7C' : i < 4 ? '#DAE69A' : '#34BBC0');
 
   return (
     <div className="flex flex-col items-center w-full min-h-screen text-[#0F0F12] px-4 py-24 md:py-32">
@@ -47,7 +47,7 @@ export default function About() {
 
             <div className="flex-1 w-full relative">
               {/* doodle: sparkle + freccia "scarabocchiata" sulla foto, come un diario */}
-              <Doodle name="sparkle" className="absolute -top-5 -left-5 w-10 h-10 text-[#FFDE4D] drop-shadow-[2px_2px_0_#0F0F12] rotate-12 z-20" />
+              <Doodle name="sparkle" className="absolute -top-5 -left-5 w-10 h-10 text-[#D2EC7C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12 z-20" />
               <Doodle name="arrowCurl" className="hidden md:block absolute -bottom-8 -left-12 w-20 h-16 text-[#34BBC0] -rotate-12 z-20" stroke={3} />
               <div className="bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#0F0F12] skew-x-[-2deg] relative">
                 <img
@@ -67,7 +67,7 @@ export default function About() {
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc0JyBoZWlnaHQ9JzQnPjxyZWN0IHdpZHRoPSc0JyBoZWlnaHQ9JzQnIGZpbGw9JyNmZmYnLz48cmVjdCB3aWR0aD0nMScgaGVpZ2h0PScxJyBmaWxsPScjY2NjJy8+PC9zdmc+')] opacity-50 -z-10" aria-hidden="true"></div>
 
           <div className="text-center mb-16 relative">
-            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black uppercase inline-block bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-8 py-3 shadow-[8px_8px_0_0_#0F0F12] skew-x-[-6deg] relative z-10">
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black uppercase inline-block bg-[#D2EC7C] border-[3px] md:border-[4px] border-black px-8 py-3 shadow-[8px_8px_0_0_#0F0F12] skew-x-[-6deg] relative z-10">
               <span className="block skew-x-[6deg]">{t('about.storyBadge')}</span>
             </h2>
           </div>
@@ -116,7 +116,7 @@ export default function About() {
               className="relative w-64 sm:w-80 my-4 shadow-[12px_12px_0_0_#0F0F12] border-[4px] border-black bg-black group z-10 p-2 skew-x-[-2deg]"
             >
               {/* doodle: decorazioni "da diario" attorno alla polaroid di Mia */}
-              <Doodle name="sparkle" className="absolute -top-4 -right-4 w-10 h-10 text-[#FFDE4D] drop-shadow-[2px_2px_0_#0F0F12] rotate-12 z-20 pointer-events-none" />
+              <Doodle name="sparkle" className="absolute -top-4 -right-4 w-10 h-10 text-[#D2EC7C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12 z-20 pointer-events-none" />
               <Doodle name="heart" className="absolute -bottom-4 -left-5 w-10 h-10 text-[#FF6B5C] -rotate-12 z-20 drop-shadow-[2px_2px_0_#0F0F12] pointer-events-none" />
               <div className="bg-white p-2 sm:p-3 border-[3px] border-black skew-x-[2deg]">
                 <img src="/fotobab/mia.avif" alt={t('about.miaCaption')} className="w-full aspect-square object-cover border-[3px] border-black grayscale group-hover:grayscale-0 transition-all duration-500" loading="lazy" />
@@ -149,7 +149,7 @@ export default function About() {
             >
               <div className="bg-[#DAE69A] p-2 md:p-3 border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12]">
                 <div className="bg-[#0F0F12] text-white border-[3px] border-black p-8 sm:p-10 h-full">
-                  {t('about.story4pre')}<span className="underline decoration-4 underline-offset-4 decoration-[#FFDE4D]">{t('about.story4highlight')}</span>{t('about.story4post')}
+                  {t('about.story4pre')}<span className="underline decoration-4 underline-offset-4 decoration-[#D2EC7C]">{t('about.story4highlight')}</span>{t('about.story4post')}
                 </div>
               </div>
             </motion.div>
@@ -166,7 +166,7 @@ export default function About() {
             <Doodle name="star" className="absolute top-6 right-4 sm:right-20 w-8 h-8 text-[#FF6B5C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12" />
 
             <h3
-              className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#FFDE4D] break-words max-w-full"
+              className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#D2EC7C] break-words max-w-full"
               style={{ WebkitTextStroke: '2.5px #0F0F12' }}
             >
               {t('about.bigA')}<br/><span className="underline decoration-[#DAE69A] decoration-8 underline-offset-4 text-white">{t('about.bigHealth')}</span><br/>{t('about.bigB')}<br/><span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">{t('about.bigSport')}</span>
@@ -197,7 +197,7 @@ export default function About() {
             </h2>
           </div>
 
-          <div className="bg-[#FFDE4D] border-[4px] border-black p-6 sm:p-12 shadow-[12px_12px_0_0_#0F0F12] flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
+          <div className="bg-[#D2EC7C] border-[4px] border-black p-6 sm:p-12 shadow-[12px_12px_0_0_#0F0F12] flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
 
             <div className="w-full sm:w-2/3 lg:w-1/3 shrink-0 mx-auto lg:mx-0 relative">
               <Doodle name="sparkle" className="absolute -top-5 -right-4 w-10 h-10 text-[#0F0F12] rotate-12 z-20" />
@@ -231,7 +231,7 @@ export default function About() {
               <div className="font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl leading-relaxed border-l-[4px] border-black pl-4 sm:pl-6 flex flex-col gap-4">
                 <p>{t('about.founderQuote1')}</p>
                 <p className="text-vividteal">{t('about.founderQuote2')}</p>
-                <p className="bg-black text-white p-4 shadow-[4px_4px_0_0_#FFDE4D] skew-x-[-2deg] mt-4">
+                <p className="bg-black text-white p-4 shadow-[4px_4px_0_0_#D2EC7C] skew-x-[-2deg] mt-4">
                   <span className="block skew-x-[2deg]">{t('about.founderQuote3')}</span>
                 </p>
               </div>

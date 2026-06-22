@@ -81,7 +81,7 @@ export default function CoachDashboard() {
             </div>
             <button
               onClick={scrollToForm}
-              className="bg-[#34BBC0] text-[#0F0F12] border-[2px] border-black px-5 py-2.5 font-bold hover:bg-[#FFDE4D] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-white transition-colors"
+              className="bg-[#34BBC0] text-[#0F0F12] border-[2px] border-black px-5 py-2.5 font-bold hover:bg-[#D2EC7C] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-white transition-colors"
             >
               {t('coach.pricingCta')}
             </button>
@@ -125,7 +125,7 @@ export default function CoachDashboard() {
                   role="tab"
                   aria-selected={tab === key}
                   onClick={() => setTab(key)}
-                  className={`flex-1 sm:flex-none px-6 py-3 font-black text-xs uppercase tracking-widest transition-colors focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[-3px] focus-visible:outline-[#34BBC0] ${i === 0 ? 'border-r-[3px] border-black' : ''} ${tab === key ? 'bg-[#FFDE4D]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
+                  className={`flex-1 sm:flex-none px-6 py-3 font-black text-xs uppercase tracking-widest transition-colors focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[-3px] focus-visible:outline-[#34BBC0] ${i === 0 ? 'border-r-[3px] border-black' : ''} ${tab === key ? 'bg-[#D2EC7C]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
                 >
                   {label}
                 </button>
@@ -168,7 +168,7 @@ export default function CoachDashboard() {
 
               {/* Segnali anonimi */}
               <div className="flex flex-wrap items-center gap-3 mb-6">
-                <span className="bg-black text-white px-2 py-1 font-black text-sm shadow-[2px_2px_0_0_#FFDE4D]">{t('coach.signalsLabel')}</span>
+                <span className="bg-black text-white px-2 py-1 font-black text-sm shadow-[2px_2px_0_0_#D2EC7C]">{t('coach.signalsLabel')}</span>
                 <span className="text-xs font-semibold text-[#42424a] uppercase tracking-wider">{t('coach.signalsHint')}</span>
               </div>
 
@@ -187,7 +187,7 @@ export default function CoachDashboard() {
                         onClick={() => setSent(p => ({ ...p, [i]: true }))}
                         disabled={sent[i]}
                         aria-live="polite"
-                        className={`border-[3px] border-black px-4 py-2 text-xs font-black uppercase shadow-[3px_3px_0_0_#0F0F12] transition-all w-full sm:w-auto shrink-0 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${sent[i] ? 'bg-[#DAE69A] cursor-default translate-y-[3px] shadow-none' : 'bg-[#FFDE4D] hover:bg-[#34BBC0] active:translate-y-1 active:shadow-none'}`}
+                        className={`border-[3px] border-black px-4 py-2 text-xs font-black uppercase shadow-[3px_3px_0_0_#0F0F12] transition-all w-full sm:w-auto shrink-0 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${sent[i] ? 'bg-[#DAE69A] cursor-default translate-y-[3px] shadow-none' : 'bg-[#D2EC7C] hover:bg-[#34BBC0] active:translate-y-1 active:shadow-none'}`}
                       >
                         {sent[i] ? t('coach.signalSent') : s.cta}
                       </button>

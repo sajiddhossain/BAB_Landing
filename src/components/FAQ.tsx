@@ -24,7 +24,7 @@ export default function FAQ() {
           <span className="block skew-x-[12deg]">{t('faqHome.badge')}</span>
         </span>
         <h2
-          className="font-['Bricolage_Grotesque',_sans-serif] italic text-4xl sm:text-6xl font-black uppercase leading-none text-[#FFDE4D] tracking-tighter drop-shadow-[4px_4px_0_rgba(15,15,18,1)] skew-x-[-6deg]"
+          className="font-['Bricolage_Grotesque',_sans-serif] italic text-4xl sm:text-6xl font-black uppercase leading-none text-[#D2EC7C] tracking-tighter drop-shadow-[4px_4px_0_rgba(15,15,18,1)] skew-x-[-6deg]"
           style={{ WebkitTextStroke: '2px #0F0F12' }}
         >
           <span className="block skew-x-[6deg]">{t('faqHome.title')}</span>
@@ -37,7 +37,7 @@ export default function FAQ() {
           return (
             <div
               key={index}
-              className={`border-[2px] border-black overflow-hidden shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 transition-all duration-300 skew-x-[-2deg] crosshairs ${isOpen ? 'bg-[#FFDE4D]' : 'bg-white text-[#0F0F12]'}`}
+              className={`border-[2px] border-black overflow-hidden shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 transition-all duration-300 skew-x-[-2deg] crosshairs ${isOpen ? 'bg-[#D2EC7C]' : 'bg-white text-[#0F0F12]'}`}
             >
               <div className="skew-x-[2deg] h-full flex flex-col">
                 <button

@@ -89,7 +89,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               </span>
               
               {/* Hand-drawn Doodle Arrow (Desktop) */}
-              <svg className="hidden lg:block absolute right-0 -bottom-8 w-16 h-16 text-[#FFDE4D] drop-shadow-[3px_3px_0_#0F0F12] rotate-12 opacity-90" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className="hidden lg:block absolute right-0 -bottom-8 w-16 h-16 text-[#D2EC7C] drop-shadow-[3px_3px_0_#0F0F12] rotate-12 opacity-90" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10 10 Q 50 50 90 90 M 60 90 L 90 90 L 90 60" stroke="currentColor" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </motion.h1>
@@ -111,7 +111,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               transition={{ delay: 0.4 }}
               className="w-full flex justify-center mb-8 lg:hidden"
             >
-              <div className="w-full max-w-[280px] sm:max-w-[320px] bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#FFDE4D] skew-x-[-4deg] relative crosshairs">
+              <div className="w-full max-w-[280px] sm:max-w-[320px] bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#D2EC7C] skew-x-[-4deg] relative crosshairs">
                 <div className="duct-tape duct-tape-black -top-4 right-2 rotate-[12deg] w-16 h-6 z-20"></div>
                 <img
                   src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif"
@@ -135,14 +135,14 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                <button
                  onClick={() => selectTarget('allenatore')}
                  aria-pressed={heroTarget === 'allenatore'}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='allenatore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='allenatore' ? 'bg-[#D2EC7C] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
                >
                  {t('home.coachBtn')}
                </button>
                <button
                  onClick={() => selectTarget('genitore')}
                  aria-pressed={heroTarget === 'genitore'}
-                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='genitore' ? 'bg-[#FFDE4D] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
+                 className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent hover:-skew-x-6 origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='genitore' ? 'bg-[#D2EC7C] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
                >
                  {t('home.parentBtn')}
                </button>
@@ -169,7 +169,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             >
               <button
                 onClick={handleHeroCta}
-                className="group flex items-center justify-center w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] italic font-black text-xl sm:text-2xl bg-[#FFDE4D] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all duration-300 uppercase skew-btn"
+                className="group flex items-center justify-center w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] italic font-black text-xl sm:text-2xl bg-[#D2EC7C] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all duration-300 uppercase skew-btn"
               >
                 <span className="skew-btn-content">{heroTarget === 'allenatore' ? t('home.ctaCoach') : t('home.ctaParent')}</span>
               </button>
@@ -188,7 +188,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             transition={{ delay: 0.4, type: "spring", stiffness: 100 }}
             className="lg:col-span-5 w-full justify-center hidden lg:flex relative text-[#0F0F12]"
           >
-            <div className="w-full max-w-md bg-white border-[4px] border-black p-2 shadow-[12px_12px_0_0_#FFDE4D] skew-x-[4deg] transition-transform duration-500 relative group crosshairs">
+            <div className="w-full max-w-md bg-white border-[4px] border-black p-2 shadow-[12px_12px_0_0_#D2EC7C] skew-x-[4deg] transition-transform duration-500 relative group crosshairs">
               <img
                 src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif"
                 alt={t('home.heroPhotoAlt')}
@@ -204,9 +204,9 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
-                className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-[#121212] text-white border-[3px] border-black p-3 shadow-[6px_6px_0_0_#FFDE4D] skew-x-[-12deg] z-20 hidden sm:flex items-center gap-3 group-hover:-translate-y-2 transition-all duration-300"
+                className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-[#121212] text-white border-[3px] border-black p-3 shadow-[6px_6px_0_0_#D2EC7C] skew-x-[-12deg] z-20 hidden sm:flex items-center gap-3 group-hover:-translate-y-2 transition-all duration-300"
               >
-                <div className="bg-[#FFDE4D] text-[#0F0F12] border-2 border-black w-10 h-10 flex items-center justify-center text-xl shadow-[2px_2px_0_0_#0F0F12] skew-x-[12deg]">
+                <div className="bg-[#D2EC7C] text-[#0F0F12] border-2 border-black w-10 h-10 flex items-center justify-center text-xl shadow-[2px_2px_0_0_#0F0F12] skew-x-[12deg]">
                   <span className="font-['Space_Grotesk'] font-black italic">+</span>
                 </div>
                 <div className="skew-x-[12deg]">
@@ -246,13 +246,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
            >
              {t('home.missionTitle')}
            </h2>
-           <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#FFDE4D] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
+           <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#D2EC7C] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
              {t('home.missionBody')} <span className="text-[#DAE69A]">{t('home.missionBodyHighlight')}</span>
            </p>
         </div>
         
         {/* Background Decorative Doodles */}
-        <svg className="absolute top-0 right-0 w-64 h-64 text-[#FFDE4D] opacity-20 -rotate-12 translate-x-1/4 -translate-y-1/4" viewBox="0 0 100 100" fill="currentColor">
+        <svg className="absolute top-0 right-0 w-64 h-64 text-[#D2EC7C] opacity-20 -rotate-12 translate-x-1/4 -translate-y-1/4" viewBox="0 0 100 100" fill="currentColor">
           <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="4" />
         </svg>
       </section>
@@ -328,7 +328,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
              <div className="font-['Space_Grotesk',_sans-serif] font-black tracking-widest text-sm uppercase text-black/60 mb-4">
                {t('home.bivioSuper')}
              </div>
-             <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl lg:text-7xl font-black italic uppercase tracking-tighter text-[#D4F46A] drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] mb-6 break-words max-w-full" style={{ WebkitTextStroke: '2.5px #0F0F12' }}>
+             <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl lg:text-7xl font-black italic uppercase tracking-tighter text-[#8FD4E8] drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] mb-6 break-words max-w-full" style={{ WebkitTextStroke: '2.5px #0F0F12' }}>
                {t('home.bivioTitle')}
              </h2>
              <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg sm:text-xl max-w-2xl text-[#0F0F12]">
@@ -340,22 +340,22 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           <div className="w-full flex flex-col md:flex-row border-[3px] border-black shadow-[12px_12px_0_0_#0F0F12] overflow-hidden bg-white">
              {/* Colonna Allenatore */}
              <div className="flex-1 bg-[#143F36] text-white p-8 sm:p-12 flex flex-col relative">
-                <div className="inline-block bg-[#FFDE4D] text-[#0F0F12] border-[2px] border-black px-4 py-1 font-['Space_Grotesk',_sans-serif] font-black uppercase tracking-widest text-xs mb-8 self-start shadow-[4px_4px_0_0_#0F0F12]">
+                <div className="inline-block bg-[#D2EC7C] text-[#0F0F12] border-[2px] border-black px-4 py-1 font-['Space_Grotesk',_sans-serif] font-black uppercase tracking-widest text-xs mb-8 self-start shadow-[4px_4px_0_0_#0F0F12]">
                   {t('home.bivioCoachBadge')}
                 </div>
                 <h3 className="font-['Space_Grotesk',_sans-serif] text-4xl sm:text-5xl font-black leading-tight mb-8">
                   {t('home.bivioCoachTitle1')}<br/>
                   {t('home.bivioCoachTitle2')}
                 </h3>
-                <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg leading-relaxed border-l-[4px] border-[#FFDE4D] pl-6 mb-12 opacity-90">
+                <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg leading-relaxed border-l-[4px] border-[#D2EC7C] pl-6 mb-12 opacity-90">
                   {t('home.bivioCoachDesc')}
                 </p>
                 <ul className="space-y-4 font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg mb-12 flex-grow opacity-90">
-                  <li className="flex gap-4 items-start"><span className="text-[#FFDE4D] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP1')}</span></li>
-                  <li className="flex gap-4 items-start"><span className="text-[#FFDE4D] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP2')}</span></li>
-                  <li className="flex gap-4 items-start"><span className="text-[#FFDE4D] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP3')}</span></li>
+                  <li className="flex gap-4 items-start"><span className="text-[#D2EC7C] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP1')}</span></li>
+                  <li className="flex gap-4 items-start"><span className="text-[#D2EC7C] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP2')}</span></li>
+                  <li className="flex gap-4 items-start"><span className="text-[#D2EC7C] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP3')}</span></li>
                 </ul>
-                <a href="#/coach" className="group flex items-center justify-center w-full bg-[#FFDE4D] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all mt-auto text-center">
+                <a href="#/coach" className="group flex items-center justify-center w-full bg-[#D2EC7C] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all mt-auto text-center">
                   {t('home.bivioCoachCta')}
                 </a>
              </div>
@@ -377,7 +377,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                   <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP2')}</span></li>
                   <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP3')}</span></li>
                 </ul>
-                <a href="#/app" className="group flex items-center justify-center w-full bg-[#FFDE4D] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all mt-auto text-center">
+                <a href="#/app" className="group flex items-center justify-center w-full bg-[#D2EC7C] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] italic font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all mt-auto text-center">
                   {t('home.bivioParentCta')}
                 </a>
              </div>
@@ -429,7 +429,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
             {/* 50% */}
             <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-t-[3px] border-black/10">
-              <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.2em] sm:w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 #FFDE4D' }}>{t('home.data1Val')}</span>
+              <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.2em] sm:w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 #D2EC7C' }}>{t('home.data1Val')}</span>
               <p className="flex-1 font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data1Desc')}</p>
             </li>
 
@@ -473,7 +473,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             <button onClick={scrollLeft} className="w-14 h-14 bg-white border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] flex items-center justify-center hover:-translate-y-1 hover:bg-[#EBE5FF] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all group active:translate-y-0 active:shadow-none">
               <span className="text-3xl font-black group-hover:-translate-x-1 transition-transform">←</span>
             </button>
-            <button onClick={scrollRight} className="w-14 h-14 bg-[#FFDE4D] border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] flex items-center justify-center hover:-translate-y-1 hover:bg-[#EBE5FF] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all group active:translate-y-0 active:shadow-none">
+            <button onClick={scrollRight} className="w-14 h-14 bg-[#D2EC7C] border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] flex items-center justify-center hover:-translate-y-1 hover:bg-[#EBE5FF] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all group active:translate-y-0 active:shadow-none">
               <span className="text-3xl font-black group-hover:translate-x-1 transition-transform">→</span>
             </button>
           </div>
@@ -517,7 +517,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         
         {/* Doodle abstract bg for the footer title */}
         <svg className="absolute top-0 left-1/2 -translate-x-1/2 w-[150%] h-64 opacity-20 -z-10 pointer-events-none" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-          <path fill="#FFDE4D" d="M10 50 Q 50 0 150 50 T 190 50 Q 100 100 10 50 Z" />
+          <path fill="#D2EC7C" d="M10 50 Q 50 0 150 50 T 190 50 Q 100 100 10 50 Z" />
         </svg>
 
         <div className="mb-16 inline-block bg-white border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-12 relative skew-x-[-6deg] crosshairs">
@@ -529,7 +529,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
         </div>
 
         <div className="bg-white text-[#0F0F12] border-[4px] border-black p-8 sm:p-12 text-left shadow-[8px_8px_0_0_#0F0F12] relative max-w-3xl mx-auto skew-x-[-2deg] crosshairs">
-           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-[#FFDE4D] inline-block px-4 py-2 tracking-tight skew-btn"><span className="skew-btn-content">{t('home.privacyTitle')}</span></h3>
+           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-[#D2EC7C] inline-block px-4 py-2 tracking-tight skew-btn"><span className="skew-btn-content">{t('home.privacyTitle')}</span></h3>
            <div className="skew-x-[2deg] font-['Space_Grotesk',_sans-serif] font-bold">
              <p className="text-lg leading-relaxed mb-6">
                {t('home.privacy1')}

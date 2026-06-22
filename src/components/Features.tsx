@@ -44,11 +44,11 @@ export default function Features() {
 
           {modules.map((m, idx) => {
              const colors = [
-               { bg: 'bg-[#FFDE4D]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', tape: 'duct-tape-black', rot: 'rotate-[-2deg]' },
+               { bg: 'bg-[#D2EC7C]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', tape: 'duct-tape-black', rot: 'rotate-[-2deg]' },
                { bg: 'bg-[#34BBC0]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', tape: 'duct-tape-white', rot: 'rotate-[1deg]' },
                { bg: 'bg-[#FF6B5C]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', tape: 'duct-tape-black', rot: 'rotate-[-1deg]' },
                { bg: 'bg-[#EBE5FF]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', tape: 'duct-tape-black', rot: 'rotate-[2deg]' },
-               { bg: 'bg-[#0F0F12]', text: 'text-[#FFDE4D]', shadow: 'shadow-[6px_6px_0_0_#34BBC0]', tape: 'duct-tape-white', rot: 'rotate-[0deg]' },
+               { bg: 'bg-[#0F0F12]', text: 'text-[#D2EC7C]', shadow: 'shadow-[6px_6px_0_0_#34BBC0]', tape: 'duct-tape-white', rot: 'rotate-[0deg]' },
              ];
              const theme = colors[idx % colors.length];
 
@@ -71,10 +71,10 @@ export default function Features() {
                      <div className="absolute top-4 left-3 w-3 h-3 rounded-full bg-black/10 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.6)]"></div>
                      <div className="absolute top-4 right-3 w-3 h-3 rounded-full bg-black/10 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.6)]"></div>
                      
-                     <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-7xl font-black leading-none tracking-tighter" style={{ WebkitTextStroke: theme.bg === 'bg-[#0F0F12]' ? '1.5px #FFDE4D' : '2px #0F0F12' }}>
+                     <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-7xl font-black leading-none tracking-tighter" style={{ WebkitTextStroke: theme.bg === 'bg-[#0F0F12]' ? '1.5px #D2EC7C' : '2px #0F0F12' }}>
                        {m.num}
                      </span>
-                     <span className={`text-[10px] font-black uppercase tracking-widest border-t-[2px] ${theme.bg === 'bg-[#0F0F12]' ? 'border-[#FFDE4D]' : 'border-black'} mt-4 pt-2 w-full text-center opacity-90`}>
+                     <span className={`text-[10px] font-black uppercase tracking-widest border-t-[2px] ${theme.bg === 'bg-[#0F0F12]' ? 'border-[#D2EC7C]' : 'border-black'} mt-4 pt-2 w-full text-center opacity-90`}>
                        BAB ATHLETE
                      </span>
                    </div>
@@ -95,9 +95,9 @@ export default function Features() {
                         {tamagotchiState === 'active' ? '[ °_° ]✨' : tamagotchiState === 'down' ? '[ =_= ]💤' : '[ °_° ]'}
                       </div>
                       <div className="flex gap-4 skew-x-[2deg]">
-                        <button onClick={() => setTamagotchiState('active')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${tamagotchiState ==='active' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#0F0F12] hover:text-vividteal active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>A</button>
-                        <button onClick={() => setTamagotchiState('default')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${tamagotchiState ==='default' ? 'bg-[#FFDE4D] text-black translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#0F0F12] hover:text-vividteal active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>B</button>
-                        <button onClick={() => setTamagotchiState('down')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${tamagotchiState ==='down' ? 'bg-[#FFDE4D] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#0F0F12] hover:text-vividteal active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>C</button>
+                        <button onClick={() => setTamagotchiState('active')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${tamagotchiState ==='active' ? 'bg-[#D2EC7C] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#0F0F12] hover:text-vividteal active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>A</button>
+                        <button onClick={() => setTamagotchiState('default')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${tamagotchiState ==='default' ? 'bg-[#D2EC7C] text-black translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#0F0F12] hover:text-vividteal active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>B</button>
+                        <button onClick={() => setTamagotchiState('down')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${tamagotchiState ==='down' ? 'bg-[#D2EC7C] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#0F0F12] hover:text-vividteal active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>C</button>
                       </div>
                       <div className="text-xs font-black uppercase tracking-widest text-center mt-2 border-t-[3px] border-black pt-4 w-full skew-x-[2deg]">
                         {t('features.testBuddy')}
@@ -126,7 +126,7 @@ export default function Features() {
                 <button 
                   onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)}
                   aria-expanded={openFaq === faq.id}
-                  className={`w-full px-6 py-5 flex justify-between items-center text-left border-b-[3px] border-transparent transition-all duration-300 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[-3px] focus-visible:outline-[#0F0F12] ${openFaq === faq.id ? 'bg-[#FFDE4D] border-black' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
+                  className={`w-full px-6 py-5 flex justify-between items-center text-left border-b-[3px] border-transparent transition-all duration-300 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[-3px] focus-visible:outline-[#0F0F12] ${openFaq === faq.id ? 'bg-[#D2EC7C] border-black' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
                 >
                   <span className="font-black uppercase pr-8 text-sm sm:text-base tracking-tight">{faq.q}</span>
                   <span className={`text-2xl font-black transition-transform duration-300 ease-in-out ${openFaq === faq.id ? 'rotate-45 scale-110' : 'rotate-0'}`}>
