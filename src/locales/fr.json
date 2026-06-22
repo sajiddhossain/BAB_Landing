@@ -448,5 +448,39 @@
     "link": "En savoir plus",
     "accept": "Accepter",
     "reject": "Refuser"
+  },
+  "seo": {
+    "home": {
+      "title": "BAB — Sport et croissance pour les jeunes athlètes",
+      "desc": "BAB aide les filles à traverser la puberté tout en restant dans le sport : reconnaître, comprendre et gérer les signaux du corps."
+    },
+    "app": {
+      "title": "L’app BAB — Essayez-la",
+      "desc": "Simulez l’app BAB : l’avatar réagit aux signaux du corps (énergie, rythme cardiaque, récupération), jour après jour."
+    },
+    "coach": {
+      "title": "BAB pour les clubs sportifs — Coach Dashboard",
+      "desc": "Réduisez les blessures et l’abandon dans votre équipe grâce à des insights agrégés et anonymes. Vie privée des athlètes toujours protégée."
+    },
+    "features": {
+      "title": "Fonctionnalités — L’écosystème BAB",
+      "desc": "Suivre, comprendre, optimiser, prévenir et soutenir : les modules BAB pour la santé et la performance des jeunes athlètes."
+    },
+    "about": {
+      "title": "À propos — La mission de BAB",
+      "desc": "Redéfinir le sport féminin : l’histoire, la fondatrice et les données derrière BAB."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité — BAB",
+      "desc": "Comment BAB collecte et traite vos données, et vos droits."
+    },
+    "cookie": {
+      "title": "Politique de cookies — BAB",
+      "desc": "Comment BAB utilise les cookies techniques et analytiques."
+    },
+    "termini": {
+      "title": "Conditions générales — BAB",
+      "desc": "Les conditions d’utilisation du site BAB."
+    }
   }
 }
