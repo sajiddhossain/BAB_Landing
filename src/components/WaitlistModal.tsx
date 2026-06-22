@@ -10,6 +10,7 @@ import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { insertLead, type UserType } from '../lib/leads';
 import { trackEvent } from '../lib/analytics';
+import { useAntiSpam, HONEYPOT_FIELD } from '../lib/antispam';
 
 interface WaitlistModalProps {
   isOpen: boolean;
@@ -152,6 +153,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
   const [consent, setConsent] = useState(false);
   const [score, setScore] = useState<number | null>(null);
   const [status, setStatus] = useState<SubmitStatus>('idle');
+  const antiSpam = useAntiSpam();
 
   const sports = t('waitlist.sports', { returnObjects: true }) as unknown as string[];
   const concerns = t('waitlist.concerns', { returnObjects: true }) as unknown as string[];
@@ -172,9 +174,17 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
     e.preventDefault();
     const cleanEmail = email.trim().toLowerCase();
     if (status === 'submitting' || !isValidEmail(cleanEmail) || !consent) return;
-    setStatus('submitting');
 
     const sitg = computeSitg(sport, concern, cleanEmail);
+    // Anti-spam: bot riconosciuto → finto successo, nessuna scrittura sul DB.
+    if (antiSpam.isLikelyBot()) {
+      setScore(sitg);
+      setStatus('success');
+      trackEvent('lead_spam_blocked', { form: 'waitlist' });
+      return;
+    }
+    setStatus('submitting');
+
     const userType: UserType = target ?? 'genitore';
     const lang = i18n.language ? i18n.language.substring(0, 2) : 'it';
 
@@ -287,6 +297,19 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ type: 'spring', stiffness: 380, damping: 28 }}
                     >
+                      {/* Honeypot: invisibile agli umani, compilato dai bot → invio scartato */}
+                      <div className="absolute left-[-9999px] top-0 w-px h-px overflow-hidden" aria-hidden="true">
+                        <label htmlFor={HONEYPOT_FIELD}>Non compilare questo campo</label>
+                        <input
+                          id={HONEYPOT_FIELD}
+                          name={HONEYPOT_FIELD}
+                          type="text"
+                          tabIndex={-1}
+                          autoComplete="off"
+                          value={antiSpam.trap}
+                          onChange={e => antiSpam.setTrap(e.target.value)}
+                        />
+                      </div>
                       <input
                         type="email"
                         placeholder={t('waitlist.emailPlaceholder')}

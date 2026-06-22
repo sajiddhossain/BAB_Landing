@@ -8,6 +8,10 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { insertLead } from '../lib/leads';
 import { trackEvent } from '../lib/analytics';
+import { useAntiSpam, HONEYPOT_FIELD } from '../lib/antispam';
+
+/** Campo honeypot: fuori schermo, non focusabile, ignorato dagli screen reader. */
+const honeypotClass = 'absolute left-[-9999px] top-0 w-px h-px overflow-hidden';
 
 type Status = 'idle' | 'submitting' | 'success' | 'error';
 
@@ -29,12 +33,19 @@ export default function ClubLeadForm() {
   const [message, setMessage] = useState('');
   const [consent, setConsent] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
+  const antiSpam = useAntiSpam();
 
   const canSubmit = Boolean(name.trim() && club.trim() && isValidEmail(email.trim()) && consent) && status !== 'submitting';
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!canSubmit) return;
+    // Anti-spam: bot riconosciuto → finto successo, nessuna scrittura sul DB.
+    if (antiSpam.isLikelyBot()) {
+      setStatus('success');
+      trackEvent('lead_spam_blocked', { form: 'club' });
+      return;
+    }
     setStatus('submitting');
     const lang = i18n.language ? i18n.language.substring(0, 2) : 'it';
     const chosenRole = role || roles[0] || null;
@@ -74,6 +85,20 @@ export default function ClubLeadForm() {
   return (
     <form onSubmit={onSubmit} className="bg-white border-[2px] border-black shadow-[4px_4px_0_0_#0F0F12] p-6">
       <h3 className="text-xl font-bold text-[#0F0F12] mb-4">{t('club.formTitle')}</h3>
+
+      {/* Honeypot: invisibile agli umani, compilato dai bot → invio scartato */}
+      <div className={honeypotClass} aria-hidden="true">
+        <label htmlFor={HONEYPOT_FIELD}>Non compilare questo campo</label>
+        <input
+          id={HONEYPOT_FIELD}
+          name={HONEYPOT_FIELD}
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+          value={antiSpam.trap}
+          onChange={e => antiSpam.setTrap(e.target.value)}
+        />
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
