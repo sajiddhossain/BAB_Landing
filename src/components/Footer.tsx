@@ -6,6 +6,7 @@
  * @copyright (c) 2026 Breaking All Barriers. Tutti i diritti riservati.
  */
 import { useTranslation } from 'react-i18next';
+import BabLogo from './BabLogo';
 import type { UserType } from '../lib/leads';
 
 interface FooterProps {
@@ -37,7 +38,7 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
           {/* Brand + tagline + social */}
           <div className="md:col-span-5 flex flex-col items-start gap-6">
             <a href="/" className="inline-block hover:-translate-y-0.5 transition-transform" aria-label="BAB — Home">
-              <img src="/BAB_logo.svg" alt="BAB — Breaking All Barriers" className="h-12" />
+              <BabLogo className="h-11 w-auto text-[#D2EC7C]" />
             </a>
             <p className="font-['Space_Grotesk',_sans-serif] font-bold text-base leading-relaxed max-w-xs text-[#FAF9F6]/80">
               {t('footer.tagline')}
