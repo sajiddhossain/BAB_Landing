@@ -21,6 +21,12 @@ i18n
     interpolation: {
       escapeValue: false, // react already safes from xss
     },
+    react: {
+      // Le risorse sono già bundlate staticamente: senza Suspense, useTranslation non
+      // registra l'effetto di "attesa risorse" che cambiava il numero di hook tra i
+      // render (warning React "useEffect changed size between renders").
+      useSuspense: false,
+    },
   });
 
 // Mantieni l'attributo <html lang> sincronizzato con la lingua attiva (SEO + accessibilità)
