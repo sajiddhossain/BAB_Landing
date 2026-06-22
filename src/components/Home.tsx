@@ -247,7 +247,7 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
            >
              {t('home.missionTitle')}
            </h2>
-           <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#D2EC7C] pl-6 md:pl-10 text-left bg-black/20 p-6 md:p-8 backdrop-blur-sm shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
+           <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#D2EC7C] pl-6 md:pl-10 text-left bg-black/30 p-6 md:p-8 shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
              {t('home.missionBody')} <span className="text-[#DAE69A]">{t('home.missionBodyHighlight')}</span>
            </p>
         </div>
