@@ -439,11 +439,13 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
               <p className="flex-1 font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data2Desc')}</p>
             </li>
 
-            {/* Terminale — il vuoto che BAB colma (testo, non un numero) */}
-            <li className="flex flex-col gap-1 py-5 sm:py-7 border-y-[3px] border-black/10">
-              <span className="font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-5xl leading-[0.95] font-black uppercase text-[#FF6B5C] tracking-tight break-words" style={{ WebkitTextStroke: '1.5px #0F0F12' }}>{t('home.data3Val')}</span>
-              <p className="font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug mt-1">{t('home.data3Desc')}</p>
-              <p className="mt-1 font-black uppercase text-[11px] tracking-widest text-deepteal">↳ {t('home.dataVoid')}</p>
+            {/* ~0% — il terminale: il vuoto che BAB colma */}
+            <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-y-[3px] border-black/10">
+              <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.2em] sm:w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 var(--color-coral)' }}>{t('home.data3Val')}</span>
+              <div className="flex-1">
+                <p className="font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data3Desc')}</p>
+                <p className="mt-2 font-black uppercase text-[11px] tracking-widest text-deepteal">↳ {t('home.dataVoid')}</p>
+              </div>
             </li>
 
           </ol>
