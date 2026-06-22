@@ -20,6 +20,7 @@ const AppSimulator = lazy(() => import('./components/AppSimulator'));
 const CoachDashboard = lazy(() => import('./components/CoachDashboard'));
 const Features = lazy(() => import('./components/Features'));
 const About = lazy(() => import('./components/About'));
+const LegalPage = lazy(() => import('./components/LegalPage'));
 const WaitlistModal = lazy(() => import('./components/WaitlistModal'));
 
 // Fallback minimale durante il caricamento del chunk di route
@@ -134,7 +135,7 @@ export default function App() {
   ];
 
   // Route sconosciuta → mostra la Home invece di una pagina bianca (no dead-end)
-  const knownPaths = ['#/', '#/app', '#/coach', '#/features', '#/about'];
+  const knownPaths = ['#/', '#/app', '#/coach', '#/features', '#/about', '#/privacy', '#/cookie', '#/termini'];
   const activePath = knownPaths.includes(currentPath) ? currentPath : '#/';
 
   return (
@@ -291,6 +292,9 @@ export default function App() {
             {activePath === '#/coach' && <CoachDashboard key="coach" />}
             {activePath === '#/features' && <Features key="features" />}
             {activePath === '#/about' && <About key="about" />}
+            {activePath === '#/privacy' && <LegalPage key="privacy" page="privacy" />}
+            {activePath === '#/cookie' && <LegalPage key="cookie" page="cookie" />}
+            {activePath === '#/termini' && <LegalPage key="termini" page="terms" />}
           </AnimatePresence>
         </Suspense>
       </main>

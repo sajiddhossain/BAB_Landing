@@ -14,7 +14,11 @@
     "ctaHeading": "Prête à commencer ?",
     "ctaText": "Rejoignez la liste d'attente et la communauté qui brise les barrières.",
     "rights": "© 2026 BAB. Tous droits réservés.",
-    "tags": "Prévenir • Soutenir • Suivre • Comprendre • Optimiser"
+    "tags": "Prévenir • Soutenir • Suivre • Comprendre • Optimiser",
+    "legalHeading": "Mentions légales",
+    "legalPrivacy": "Confidentialité",
+    "legalCookie": "Cookies",
+    "legalTerms": "Conditions"
   },
   "home": {
     "badge": "Breaking All Barriers · pour les athlètes de demain",
@@ -338,6 +342,100 @@
       "a2": "Oui, BAB s'adapte aux charges de travail de chaque sport, d'équipe ou individuel.",
       "q3": "L'application est-elle gratuite pour les athlètes ?",
       "a3": "Oui, l'application mobile pour les athlètes est entièrement gratuite. Les clubs sportifs s'abonnent pour accéder au tableau de bord des coachs."
+    }
+  },
+  "legal": {
+    "backHome": "Retour à l'accueil",
+    "updatedLabel": "Dernière mise à jour :",
+    "contact": "Pour toute question sur le traitement de vos données ou pour exercer vos droits, écrivez-nous à bab.community.official@gmail.com.",
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "updated": "juin 2026",
+      "intro": "BAB (Breaking All Barriers) tient à la vie privée des athlètes et de celles et ceux qui les accompagnent. Cette notice explique quelles données nous collectons via ce site, pourquoi, et quels sont vos droits.",
+      "sections": [
+        {
+          "h": "1. Responsable du traitement",
+          "p": "Le responsable du traitement est BAB — Breaking All Barriers. Vous pouvez nous joindre à tout moment à bab.community.official@gmail.com."
+        },
+        {
+          "h": "2. Quelles données nous collectons",
+          "p": "Nous ne collectons que les données que vous nous fournissez volontairement via les formulaires du site : votre adresse e-mail et, facultativement, votre sport, votre centre d'intérêt, votre rôle, le nom du club et le message envoyé dans une demande de démo. Nous ne collectons pas de données de santé individuelles via ce site."
+        },
+        {
+          "h": "3. Pourquoi nous les traitons (base légale)",
+          "p": "Nous traitons vos données sur la base de votre consentement (art. 6.1.a RGPD) pour vous recontacter au sujet de la liste d'attente, des démos et des actualités de BAB. Les analyses d'usage du site sont agrégées et anonymes, sur la base de notre intérêt légitime à améliorer le service."
+        },
+        {
+          "h": "4. Mineurs",
+          "p": "Les formulaires de ce site sont destinés à des adultes (entraîneurs, dirigeants, parents). Lorsque le traitement concerne des athlètes mineures, il n'a lieu qu'avec le consentement d'un parent ou tuteur. Si vous pensez qu'un mineur nous a fourni des données sans ce consentement, contactez-nous et nous les supprimerons."
+        },
+        {
+          "h": "5. Où nous stockons les données",
+          "p": "Les contacts sont stockés de manière sécurisée via Supabase, notre fournisseur d'infrastructure. Nous ne vendons ni ne partageons vos données avec des tiers à des fins marketing."
+        },
+        {
+          "h": "6. Durée de conservation",
+          "p": "Nous conservons les données uniquement le temps nécessaire à la validation et au contact, et en tout cas jusqu'à ce que vous retiriez votre consentement. Elles sont ensuite supprimées ou anonymisées."
+        },
+        {
+          "h": "7. Vos droits",
+          "p": "Vous avez le droit d'accéder à vos données, de les rectifier, de les effacer, d'en limiter ou de vous opposer au traitement et à la portabilité. Pour exercer ces droits ou retirer votre consentement, écrivez à bab.community.official@gmail.com. Vous pouvez aussi déposer une réclamation auprès de votre autorité de protection des données."
+        },
+        {
+          "h": "8. Modifications de cette notice",
+          "p": "Nous pouvons mettre à jour cette notice. La version en vigueur est toujours celle publiée sur cette page, avec la date de mise à jour indiquée en haut."
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Politique de cookies",
+      "updated": "juin 2026",
+      "intro": "Cette page explique comment BAB utilise les cookies et technologies similaires sur ce site.",
+      "sections": [
+        {
+          "h": "1. Que sont les cookies",
+          "p": "Les cookies sont de petits fichiers texte qu'un site enregistre sur votre appareil. Ils aident le site à fonctionner et, dans certains cas, à mesurer son utilisation."
+        },
+        {
+          "h": "2. Cookies techniques (toujours actifs)",
+          "p": "Nous utilisons un stockage local technique pour mémoriser votre préférence de langue et votre consentement aux cookies. Ils sont nécessaires au fonctionnement du site et ne requièrent pas de consentement."
+        },
+        {
+          "h": "3. Cookies analytiques et marketing (avec consentement)",
+          "p": "S'ils sont activés, nous pouvons utiliser Google Analytics 4 et Meta Pixel pour comprendre l'usage du site et améliorer les campagnes. Ces outils ne se chargent qu'après votre consentement explicite via le bandeau."
+        },
+        {
+          "h": "4. Gérer le consentement",
+          "p": "Vous pouvez accepter ou refuser les cookies non essentiels depuis le bandeau affiché lors de votre première visite. Vous pouvez changer d'avis à tout moment en effaçant les cookies et données du site dans votre navigateur : le bandeau réapparaîtra."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Conditions générales",
+      "updated": "juin 2026",
+      "intro": "En utilisant ce site, vous acceptez les conditions suivantes. Merci de les lire attentivement.",
+      "sections": [
+        {
+          "h": "1. Objet du site",
+          "p": "Ce site présente BAB — Breaking All Barriers et recueille des manifestations d'intérêt (liste d'attente et demandes de démo). Il ne constitue pas une offre commerciale contraignante."
+        },
+        {
+          "h": "2. Liste d'attente et demandes de démo",
+          "p": "L'inscription à la liste d'attente ou l'envoi d'une demande de démo ne constitue pas un contrat et ne garantit pas l'accès au produit. Nous vous recontacterons avec les détails dès que le service sera disponible."
+        },
+        {
+          "h": "3. Propriété intellectuelle",
+          "p": "Tout le contenu du site (textes, graphismes, logo, code) appartient à BAB et ne peut être utilisé ou reproduit sans autorisation écrite."
+        },
+        {
+          "h": "4. Limitation de responsabilité",
+          "p": "Le site est fourni « tel quel ». Les informations présentes ont une vocation générale et ne remplacent pas l'avis d'un médecin ou d'un professionnel de santé qualifié."
+        },
+        {
+          "h": "5. Droit applicable",
+          "p": "Les présentes conditions sont régies par le droit italien. Tout litige relève de la juridiction du lieu d'établissement du responsable."
+        }
+      ]
     }
   }
 }
