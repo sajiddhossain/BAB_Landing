@@ -448,5 +448,39 @@
     "link": "Learn more",
     "accept": "Accept",
     "reject": "Reject"
+  },
+  "seo": {
+    "home": {
+      "title": "BAB — Sport and growth for teen athletes",
+      "desc": "BAB helps girls move through puberty while staying in sport: recognise, understand and manage their body’s signals."
+    },
+    "app": {
+      "title": "The BAB App — Try it yourself",
+      "desc": "Simulate the BAB app: the avatar reacts to body signals (energy, heart rate, recovery), day by day."
+    },
+    "coach": {
+      "title": "BAB for Sports Clubs — Coach Dashboard",
+      "desc": "Reduce injuries and drop-out in your team with aggregated, anonymous insights. Athletes’ privacy always protected."
+    },
+    "features": {
+      "title": "Features — The BAB ecosystem",
+      "desc": "Track, understand, optimise, prevent and support: the BAB modules for young athletes’ health and performance."
+    },
+    "about": {
+      "title": "About — BAB’s mission",
+      "desc": "Redefining women’s sport: the story, the founder and the data behind BAB."
+    },
+    "privacy": {
+      "title": "Privacy Policy — BAB",
+      "desc": "How BAB collects and processes your data, and your rights."
+    },
+    "cookie": {
+      "title": "Cookie Policy — BAB",
+      "desc": "How BAB uses technical and analytics cookies."
+    },
+    "termini": {
+      "title": "Terms & Conditions — BAB",
+      "desc": "The terms of use of the BAB site."
+    }
   }
 }

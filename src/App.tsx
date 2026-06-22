@@ -112,6 +112,23 @@ export default function App() {
     return () => { document.body.style.overflow = ''; };
   }, [isMenuOpen, isWaitlistOpen]);
 
+  // SEO: title + meta description per-rotta, localizzati (tab, bookmark, share, crawler JS)
+  useEffect(() => {
+    const map: Record<string, string> = {
+      '#/': 'home', '#/app': 'app', '#/coach': 'coach', '#/features': 'features',
+      '#/about': 'about', '#/privacy': 'privacy', '#/cookie': 'cookie', '#/termini': 'termini',
+    };
+    const key = map[currentPath] ?? 'home';
+    document.title = t(`seo.${key}.title`);
+    let meta = document.querySelector('meta[name="description"]');
+    if (!meta) {
+      meta = document.createElement('meta');
+      meta.setAttribute('name', 'description');
+      document.head.appendChild(meta);
+    }
+    meta.setAttribute('content', t(`seo.${key}.desc`));
+  }, [currentPath, t, i18n.language]);
+
   // Chiudi il menu mobile con Escape
   useEffect(() => {
     if (!isMenuOpen) return;
