@@ -99,8 +99,15 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
           </div>
         </div>
 
+        {/* Legale */}
+        <nav className="mt-16 pt-8 border-t-[3px] border-dashed border-[#FAF9F6]/25 flex flex-wrap items-center justify-center sm:justify-start gap-x-6 gap-y-1" aria-label={t('footer.legalHeading')}>
+          <a href="#/privacy" className="font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalPrivacy')}</a>
+          <a href="#/cookie" className="font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalCookie')}</a>
+          <a href="#/termini" className="font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalTerms')}</a>
+        </nav>
+
         {/* Bottom bar */}
-        <div className="mt-16 pt-8 border-t-[3px] border-dashed border-[#FAF9F6]/25 flex flex-col-reverse sm:flex-row items-center justify-between gap-4">
+        <div className="mt-8 pt-8 border-t-[3px] border-dashed border-[#FAF9F6]/25 flex flex-col-reverse sm:flex-row items-center justify-between gap-4">
           <p className="font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/50 text-center sm:text-left">
             {t('footer.rights')}
           </p>

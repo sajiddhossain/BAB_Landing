@@ -14,7 +14,11 @@
     "ctaHeading": "Ready to start?",
     "ctaText": "Join the waitlist and become part of the community breaking barriers.",
     "rights": "© 2026 BAB. All rights reserved.",
-    "tags": "Prevent • Support • Monitor • Understand • Optimize"
+    "tags": "Prevent • Support • Monitor • Understand • Optimize",
+    "legalHeading": "Legal",
+    "legalPrivacy": "Privacy",
+    "legalCookie": "Cookies",
+    "legalTerms": "Terms"
   },
   "home": {
     "badge": "Breaking All Barriers for the Next Gen Athletes",
@@ -338,6 +342,100 @@
       "a2": "Yes, BAB adapts to the workloads of every sport, whether team or individual.",
       "q3": "Is the app free for athletes?",
       "a3": "Yes, the mobile app for athletes is completely free. Sports clubs subscribe for access to the Coach Dashboard."
+    }
+  },
+  "legal": {
+    "backHome": "Back to home",
+    "updatedLabel": "Last updated:",
+    "contact": "For any question about how we handle your data, or to exercise your rights, write to us at bab.community.official@gmail.com.",
+    "privacy": {
+      "title": "Privacy Policy",
+      "updated": "June 2026",
+      "intro": "BAB (Breaking All Barriers) cares about the privacy of athletes and the people who support them. This notice explains what data we collect through this site, why, and what rights you have.",
+      "sections": [
+        {
+          "h": "1. Data controller",
+          "p": "The data controller is BAB — Breaking All Barriers. You can reach us at any time at bab.community.official@gmail.com."
+        },
+        {
+          "h": "2. What data we collect",
+          "p": "We only collect the data you give us voluntarily through the site forms: your email address and, optionally, your sport, area of interest, role, club name and the message you send in a demo request. We do not collect individual health data through this site."
+        },
+        {
+          "h": "3. Why we process it (legal basis)",
+          "p": "We process your data on the basis of your consent (Art. 6.1.a GDPR) to contact you about the waitlist, demos and BAB updates. Site-usage analytics are aggregated and anonymous, based on our legitimate interest in improving the service."
+        },
+        {
+          "h": "4. Minors",
+          "p": "The forms on this site are intended for adults (coaches, club managers, parents). Where processing concerns underage athletes, it only happens with the consent of a parent or guardian. If you believe a minor has given us data without such consent, contact us and we will delete it."
+        },
+        {
+          "h": "5. Where we store data",
+          "p": "Leads are stored securely via Supabase, our infrastructure provider. We do not sell or share your data with third parties for marketing purposes."
+        },
+        {
+          "h": "6. How long we keep it",
+          "p": "We keep data only as long as needed for validation and contact, and in any case until you withdraw consent. After that it is deleted or anonymised."
+        },
+        {
+          "h": "7. Your rights",
+          "p": "You have the right to access, rectify, erase, restrict or object to the processing of your data and to data portability. To exercise these rights or withdraw consent, write to bab.community.official@gmail.com. You also have the right to lodge a complaint with your data protection authority."
+        },
+        {
+          "h": "8. Changes to this notice",
+          "p": "We may update this notice over time. The version in force is always the one published on this page, with the update date shown at the top."
+        }
+      ]
+    },
+    "cookie": {
+      "title": "Cookie Policy",
+      "updated": "June 2026",
+      "intro": "This page explains how BAB uses cookies and similar technologies on this site.",
+      "sections": [
+        {
+          "h": "1. What cookies are",
+          "p": "Cookies are small text files a site saves on your device. They help the site work and, in some cases, measure how it is used."
+        },
+        {
+          "h": "2. Technical cookies (always on)",
+          "p": "We use technical local storage to remember your language preference and your cookie consent. These are necessary for the site to work and do not require consent."
+        },
+        {
+          "h": "3. Analytics and marketing cookies (consent only)",
+          "p": "If enabled, we may use Google Analytics 4 and Meta Pixel to understand how the site is used and improve campaigns. These tools load only after your explicit consent via the banner."
+        },
+        {
+          "h": "4. Managing consent",
+          "p": "You can accept or reject non-essential cookies from the banner shown on your first visit. You can change your mind at any time by clearing cookies and site data in your browser: the banner will reappear."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "updated": "June 2026",
+      "intro": "By using this site you accept the following terms. Please read them carefully.",
+      "sections": [
+        {
+          "h": "1. Purpose of the site",
+          "p": "This site presents BAB — Breaking All Barriers and collects expressions of interest (waitlist and demo requests). It does not constitute a binding commercial offer."
+        },
+        {
+          "h": "2. Waitlist and demo requests",
+          "p": "Joining the waitlist or submitting a demo request does not constitute a contract nor guarantee access to the product. We will contact you with details when the service becomes available."
+        },
+        {
+          "h": "3. Intellectual property",
+          "p": "All site content (text, graphics, logo, code) belongs to BAB and may not be used or reproduced without written permission."
+        },
+        {
+          "h": "4. Limitation of liability",
+          "p": "The site is provided \"as is\". The information here is for general purposes and does not replace the advice of a doctor or qualified health professional."
+        },
+        {
+          "h": "5. Governing law",
+          "p": "These terms are governed by Italian law. Any dispute falls under the jurisdiction of the controller's registered location."
+        }
+      ]
     }
   }
 }
