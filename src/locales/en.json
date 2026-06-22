@@ -56,12 +56,12 @@
     "dataBadge": "A Systemic Problem",
     "dataTitle": "Women are treated as miniature men,<br/>and girls as small women.",
     "dataSubtitle": "The numbers speak:",
-    "data1Val": "93%",
-    "data1Desc": "Have had a negative experience tied to their menstrual cycle in sport",
+    "data1Val": "77%",
+    "data1Desc": "Believe their menstrual cycle negatively affects athletic performance",
     "data2Val": "6%",
-    "data2Desc": "Of sport research focuses on women's health",
-    "data3Val": "0%",
-    "data3Desc": "Sport research on adolescent athletes is almost non-existent",
+    "data2Desc": "Of all sports research is conducted exclusively on female athletes",
+    "data3Val": "Almost none",
+    "data3Desc": "Scientific research on injuries in adolescent female athletes",
     "dataVoid": "The void BAB fills",
     "testimonialsTitle": "What Our Community Says About What BAB Is Building",
     "missionBadge": "The BAB Platform",
@@ -98,7 +98,7 @@
     "privacy2": "Your data is always anonymous, protected, and used solely to advance teenagers' health, wellbeing, development, and performance.",
     "heroPhotoAlt": "Teenage athlete during training, black-and-white portrait",
     "dataPhotoAlt": "Portrait of a BAB athlete next to data on girls dropping out of sport",
-    "dataSources": "Sources: independent research on menstrual health, injuries and drop-out in youth women’s sport (2019–2024). Full references available on request."
+    "dataSources": "Sources: ① Jones, Bishop et al. (2024), 128 elite athletes, 76.8% (PMC10912517). ② Cowley et al. (2021), “Invisible Sportswomen”, WSPAJ 29(2): 6% of studies on women only. ③ Horan et al. (2024), Sports Medicine: just 32 injury studies on under-19 female athletes. Full references on request."
   },
   "waitlist": {
     "title": "Join the waitlist",

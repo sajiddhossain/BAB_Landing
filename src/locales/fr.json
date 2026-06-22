@@ -56,12 +56,12 @@
     "dataBadge": "Un Problème Systémique",
     "dataTitle": "Les femmes sont traitées comme des hommes miniatures,<br/>et les filles comme de petites femmes.",
     "dataSubtitle": "Les chiffres parlent :",
-    "data1Val": "93%",
-    "data1Desc": "Ont vécu une expérience négative liée au cycle menstruel dans le sport",
+    "data1Val": "77%",
+    "data1Desc": "Estiment que leur cycle menstruel nuit à leur performance sportive",
     "data2Val": "6%",
-    "data2Desc": "De la recherche sportive porte sur la santé féminine",
-    "data3Val": "0%",
-    "data3Desc": "La recherche sportive sur les athlètes adolescentes est quasi inexistante",
+    "data2Desc": "De la recherche sportive totale porte exclusivement sur des athlètes femmes",
+    "data3Val": "Quasi inexistante",
+    "data3Desc": "La recherche scientifique sur les blessures des jeunes athlètes féminines",
     "dataVoid": "Le vide que BAB comble",
     "testimonialsTitle": "Ce que notre communauté dit de BAB",
     "missionBadge": "La plateforme BAB",
@@ -98,7 +98,7 @@
     "privacy2": "Vos données restent toujours anonymes, protégées et utilisées uniquement pour le bien-être des adolescentes.",
     "heroPhotoAlt": "Jeune athlète adolescente à l'entraînement, portrait en noir et blanc",
     "dataPhotoAlt": "Portrait d'une athlète BAB à côté des données sur l'abandon du sport chez les filles",
-    "dataSources": "Sources : recherches indépendantes sur la santé menstruelle, les blessures et l’abandon dans le sport féminin chez les jeunes (2019–2024). Références complètes disponibles sur demande."
+    "dataSources": "Sources : ① Jones, Bishop et al. (2024), 128 athlètes d’élite, 76,8 % (PMC10912517). ② Cowley et al. (2021), « Invisible Sportswomen », WSPAJ 29(2) : 6 % des études uniquement sur des femmes. ③ Horan et al. (2024), Sports Medicine : seulement 32 études sur les blessures des athlètes de moins de 19 ans. Références complètes sur demande."
   },
   "waitlist": {
     "title": "Rejoindre la liste d'attente",
