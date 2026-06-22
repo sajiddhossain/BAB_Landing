@@ -25,6 +25,13 @@ const About = lazy(() => import('./components/About'));
 const LegalPage = lazy(() => import('./components/LegalPage'));
 const WaitlistModal = lazy(() => import('./components/WaitlistModal'));
 
+// Normalizza il path: rimuove lo slash finale (/coach/ → /coach), così il match
+// delle rotte funziona anche quando l'hosting serve la pagina con trailing slash.
+const normalizePath = (p: string): string => {
+  const clean = p.replace(/\/+$/, '');
+  return clean === '' ? '/' : clean;
+};
+
 // Fallback minimale durante il caricamento del chunk di route
 function RouteFallback() {
   return (
@@ -37,7 +44,7 @@ function RouteFallback() {
 
 export default function App() {
   const { t, i18n } = useTranslation();
-  const [currentPath, setCurrentPath] = useState<string>(window.location.pathname || '/');
+  const [currentPath, setCurrentPath] = useState<string>(normalizePath(window.location.pathname));
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
   const [waitlistMounted, setWaitlistMounted] = useState(false); // carica il chunk solo al 1° open, poi resta montato per animare la chiusura
@@ -158,10 +165,11 @@ export default function App() {
     };
     // Avanti/Indietro del browser
     const onPop = () => {
-      setCurrentPath(window.location.pathname || '/');
+      const p = normalizePath(window.location.pathname);
+      setCurrentPath(p);
       window.scrollTo(0, 0);
       setIsMenuOpen(false);
-      trackPageview(window.location.pathname || '/');
+      trackPageview(p);
     };
     document.addEventListener('click', onClick);
     window.addEventListener('popstate', onPop);
