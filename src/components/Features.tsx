@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
+import BabBuddy from './BabBuddy';
 
 export default function Features() {
   const { t } = useTranslation();
@@ -91,8 +92,12 @@ export default function Features() {
                       <div className="absolute top-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-vividteal text-white border-[2px] border-black px-1.5 py-0.5 skew-x-[2deg]">ZONA 4</div>
                       <div className="absolute bottom-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] border-b-[2px] border-black opacity-50 skew-x-[2deg]">HRV: OK</div>
                       
-                      <div className="text-6xl sm:text-8xl font-['Space_Grotesk',_sans-serif] italic text-black font-black mb-4 tracking-tighter z-10 mt-6 sm:mt-4 skew-x-[2deg]">
-                        {tamagotchiState === 'active' ? '[ °_° ]✨' : tamagotchiState === 'down' ? '[ =_= ]💤' : '[ °_° ]'}
+                      <div className="z-10 mt-6 sm:mt-4 skew-x-[2deg]">
+                        <BabBuddy
+                          mood={tamagotchiState === 'active' ? 'star' : tamagotchiState === 'down' ? 'sleepy' : 'happy'}
+                          bounce={tamagotchiState === 'active' ? 1 : tamagotchiState === 'down' ? 2 : 0}
+                          size={132}
+                        />
                       </div>
                       <div className="flex gap-4 skew-x-[2deg]">
                         <button onClick={() => setTamagotchiState('active')} className={`font-black text-xl px-6 py-2 border-[3px] border-black transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${tamagotchiState ==='active' ? 'bg-[#D2EC7C] translate-y-1 shadow-none' : 'bg-white border-b-[6px] hover:-translate-y-1 hover:shadow-[0_4px_0_0_#0F0F12] hover:text-vividteal active:border-b-[3px] active:translate-y-1 active:shadow-none'}`}>A</button>
