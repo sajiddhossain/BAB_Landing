@@ -358,62 +358,70 @@
     "privacy": {
       "title": "Informativa sulla Privacy",
       "updated": "giugno 2026",
-      "intro": "BAB (Breaking All Barriers) tiene alla privacy delle atlete e di chi le accompagna. Questa informativa spiega quali dati raccogliamo attraverso questo sito, perché lo facciamo e quali diritti hai.",
+      "intro": "BAB (Breaking All Barriers) tiene alla privacy delle atlete e di chi le accompagna. Questa informativa spiega quali dati raccogliamo attraverso questo sito, perché lo facciamo, con chi li condividiamo e quali diritti hai.",
       "sections": [
         {
           "h": "1. Titolare del trattamento",
-          "p": "Il titolare del trattamento è BAB — Breaking All Barriers. Puoi contattarci in qualsiasi momento all'indirizzo bab.community.official@gmail.com."
+          "p": "Il titolare del trattamento dei dati raccolti tramite questo sito è Gaia Manzone, in qualità di referente del progetto BAB — Breaking All Barriers. Puoi contattare il titolare in qualsiasi momento all'indirizzo bab.community.official@gmail.com."
         },
         {
           "h": "2. Quali dati raccogliamo",
-          "p": "Raccogliamo solo i dati che ci fornisci volontariamente tramite i moduli del sito: l'indirizzo email e, facoltativamente, lo sport praticato, l'area di interesse, il tuo ruolo, il nome della società e il messaggio inviato nella richiesta demo. Non raccogliamo dati sanitari individuali tramite questo sito."
+          "p": "Raccogliamo solo i dati che ci fornisci volontariamente tramite i moduli del sito: l'indirizzo email e, facoltativamente, lo sport praticato, l'area di interesse, il tuo ruolo, il nome della società e il messaggio inviato nella richiesta demo. Non raccogliamo dati sanitari individuali tramite questo sito. Il conferimento dei dati è facoltativo, ma senza un indirizzo email valido non potremo ricontattarti."
         },
         {
           "h": "3. Perché trattiamo i dati (base giuridica)",
-          "p": "Trattiamo i tuoi dati sulla base del tuo consenso (art. 6.1.a GDPR) per ricontattarti riguardo alla lista d'attesa, alle demo e agli aggiornamenti su BAB. Le analisi sull'uso del sito avvengono in forma aggregata e anonima, sulla base del nostro legittimo interesse a migliorare il servizio."
+          "p": "Trattiamo i tuoi dati sulla base del tuo consenso (art. 6.1.a GDPR) per ricontattarti riguardo alla lista d'attesa, alle demo e agli aggiornamenti su BAB. Eventuali analisi sull'uso del sito, se attivate, avvengono in forma aggregata e anonima sulla base del nostro legittimo interesse (art. 6.1.f GDPR) a migliorare il servizio, e solo dopo il tuo consenso ai cookie analitici."
         },
         {
           "h": "4. Minori",
-          "p": "I moduli di questo sito sono destinati a persone adulte (allenatori, dirigenti, genitori). Quando il trattamento riguarda atlete minorenni, avviene esclusivamente con il consenso di chi esercita la responsabilità genitoriale. Se ritieni che un minore ci abbia fornito dati senza tale consenso, scrivici e li cancelleremo."
+          "p": "I moduli di questo sito sono destinati a persone maggiorenni (allenatori, dirigenti, genitori). Non raccogliamo consapevolmente dati di minori tramite questo sito. Quando il trattamento riguarda atlete minorenni, avviene esclusivamente con il consenso di chi esercita la responsabilità genitoriale. Se ritieni che un minore ci abbia fornito dati senza tale consenso, scrivici e li cancelleremo senza indugio."
         },
         {
-          "h": "5. Dove conserviamo i dati",
-          "p": "I lead vengono archiviati in modo sicuro tramite Supabase, nostro fornitore di infrastruttura. Non vendiamo né cediamo i tuoi dati a terzi per finalità di marketing."
+          "h": "5. Fornitori e responsabili del trattamento",
+          "p": "Per erogare il servizio ci avvaliamo di fornitori che trattano i dati per nostro conto come responsabili del trattamento: i lead sono archiviati tramite Supabase, su infrastruttura situata nell'Unione Europea (regione di Francoforte, Germania). Se in futuro attiveremo strumenti di analisi (Google Analytics 4, Meta Pixel), ti informeremo aggiornando questa pagina e li caricheremo solo previo tuo consenso. Non vendiamo né cediamo i tuoi dati a terzi per finalità di marketing."
         },
         {
-          "h": "6. Per quanto tempo",
+          "h": "6. Dove conserviamo i dati e trasferimenti",
+          "p": "I dati raccolti tramite i moduli sono conservati su server situati nell'Unione Europea e non vengono trasferiti al di fuori dell'UE. Qualora in futuro attivassimo strumenti che comportano un trasferimento verso paesi terzi (ad es. analisi statunitensi), tale trasferimento avverrà solo sulla base di garanzie adeguate previste dal GDPR, come le Clausole Contrattuali Standard."
+        },
+        {
+          "h": "7. Sicurezza dei dati",
+          "p": "Adottiamo misure tecniche e organizzative adeguate a proteggere i dati: trasmissione cifrata (HTTPS), accesso limitato al solo titolare e regole di sicurezza a livello di database che impediscono la lettura pubblica dei dati raccolti."
+        },
+        {
+          "h": "8. Per quanto tempo",
           "p": "Conserviamo i dati per il tempo necessario alle finalità di validazione e contatto, e comunque finché non revochi il consenso. Dopodiché vengono cancellati o anonimizzati."
         },
         {
-          "h": "7. I tuoi diritti",
-          "p": "Hai diritto di accedere ai tuoi dati, rettificarli, cancellarli, limitarne o opporti al trattamento e ottenerne la portabilità. Per esercitare questi diritti o revocare il consenso, scrivi a bab.community.official@gmail.com. Hai inoltre diritto di presentare reclamo al Garante per la protezione dei dati personali."
+          "h": "9. I tuoi diritti",
+          "p": "Hai diritto di accedere ai tuoi dati, rettificarli, cancellarli, limitarne o opporti al trattamento e ottenerne la portabilità. Per esercitare questi diritti o revocare il consenso in qualsiasi momento, scrivi a bab.community.official@gmail.com. Hai inoltre diritto di presentare reclamo al Garante per la protezione dei dati personali (www.garanteprivacy.it)."
         },
         {
-          "h": "8. Modifiche a questa informativa",
-          "p": "Possiamo aggiornare questa informativa nel tempo. La versione in vigore è sempre quella pubblicata su questa pagina, con la data di aggiornamento indicata in alto."
+          "h": "10. Modifiche a questa informativa",
+          "p": "Possiamo aggiornare questa informativa nel tempo. La versione in vigore è sempre quella pubblicata su questa pagina, con la data di aggiornamento indicata in alto. Ti invitiamo a consultarla periodicamente."
         }
       ]
     },
     "cookie": {
       "title": "Cookie Policy",
       "updated": "giugno 2026",
-      "intro": "Questa pagina spiega come BAB utilizza i cookie e tecnologie simili su questo sito.",
+      "intro": "Questa pagina spiega come BAB utilizza i cookie e le tecnologie simili su questo sito.",
       "sections": [
         {
           "h": "1. Cosa sono i cookie",
-          "p": "I cookie sono piccoli file di testo che un sito salva sul tuo dispositivo. Servono a far funzionare il sito e, in alcuni casi, a misurarne l'utilizzo."
+          "p": "I cookie sono piccoli file di testo che un sito salva sul tuo dispositivo. Servono a far funzionare il sito e, in alcuni casi, a misurarne l'utilizzo. Tecnologie simili, come la memoria locale (localStorage), svolgono funzioni analoghe."
         },
         {
-          "h": "2. Cookie tecnici (sempre attivi)",
-          "p": "Usiamo una memoria locale tecnica per ricordare la tua preferenza di lingua e il tuo consenso ai cookie. Sono necessari al funzionamento del sito e non richiedono consenso."
+          "h": "2. Cookie e tecnologie tecniche (sempre attivi)",
+          "p": "Usiamo una memoria locale tecnica per ricordare la tua preferenza di lingua e la tua scelta sul consenso ai cookie. Sono necessari al funzionamento del sito, non profilano l'utente e, ai sensi della normativa, non richiedono consenso."
         },
         {
           "h": "3. Cookie analitici e di marketing (solo con consenso)",
-          "p": "Se attivati, possiamo usare Google Analytics 4 e Meta Pixel per capire come viene usato il sito e migliorare le campagne. Questi strumenti vengono caricati esclusivamente dopo il tuo consenso esplicito tramite il banner."
+          "p": "Allo stato attuale il sito non installa cookie analitici o di marketing di terze parti. Se in futuro li attiveremo (ad es. Google Analytics 4 e Meta Pixel) per capire come viene usato il sito, verranno caricati esclusivamente dopo il tuo consenso esplicito tramite il banner, e questa pagina sarà aggiornata con gli strumenti e le durate specifiche."
         },
         {
           "h": "4. Gestire il consenso",
-          "p": "Puoi accettare o rifiutare i cookie non essenziali dal banner che compare alla prima visita. Puoi cambiare idea in qualsiasi momento cancellando i cookie e i dati del sito dal tuo browser: il banner ricomparirà."
+          "p": "Puoi accettare o rifiutare i cookie non essenziali dal banner che compare alla prima visita. Puoi cambiare idea in qualsiasi momento cancellando i cookie e i dati del sito dal tuo browser: il banner ricomparirà e potrai esprimere una nuova scelta."
         }
       ]
     },
@@ -424,23 +432,43 @@
       "sections": [
         {
           "h": "1. Oggetto del sito",
-          "p": "Questo sito presenta BAB — Breaking All Barriers e raccoglie manifestazioni di interesse (lista d'attesa e richieste demo). Non costituisce un'offerta commerciale vincolante."
+          "p": "Questo sito presenta BAB — Breaking All Barriers e raccoglie manifestazioni di interesse (lista d'attesa e richieste demo). Ha natura informativa e promozionale e non costituisce un'offerta commerciale vincolante."
         },
         {
           "h": "2. Lista d'attesa e richieste demo",
-          "p": "L'iscrizione alla lista d'attesa o l'invio di una richiesta demo non costituiscono un contratto né garantiscono l'accesso al prodotto. Ti ricontatteremo con i dettagli quando il servizio sarà disponibile."
+          "p": "L'iscrizione alla lista d'attesa o l'invio di una richiesta demo non costituiscono un contratto né garantiscono l'accesso al prodotto. Ti ricontatteremo con i dettagli quando il servizio sarà disponibile. Ti impegni a fornire informazioni veritiere e a non inviare contenuti illeciti, offensivi o di terzi senza averne diritto."
         },
         {
-          "h": "3. Proprietà intellettuale",
-          "p": "Tutti i contenuti del sito (testi, grafica, logo, codice) sono di proprietà di BAB e non possono essere utilizzati o riprodotti senza autorizzazione scritta."
+          "h": "3. Avvertenza medico-sanitaria",
+          "p": "I contenuti di questo sito e del progetto BAB hanno finalità esclusivamente informative ed educative e non costituiscono parere, diagnosi o trattamento medico. Non sostituiscono in alcun modo il consulto di un medico o di un professionista sanitario qualificato. Nessuna informazione qui presente instaura un rapporto medico-paziente. Per qualsiasi decisione relativa alla salute, rivolgiti sempre a un professionista qualificato; BAB non è responsabile di scelte assunte sulla base dei contenuti del sito."
         },
         {
-          "h": "4. Limitazione di responsabilità",
-          "p": "Il sito è fornito \"così com'è\". Le informazioni presenti hanno scopo divulgativo e non sostituiscono il parere di un medico o di un professionista sanitario qualificato."
+          "h": "4. Proprietà intellettuale",
+          "p": "Il nome \"BAB\", \"Breaking All Barriers\", il logo, la grafica, i testi, il codice e ogni altro contenuto del sito sono di proprietà del titolare del progetto e tutelati dalle norme sul diritto d'autore e sui marchi. Non possono essere copiati, riprodotti, distribuiti o utilizzati, in tutto o in parte, senza autorizzazione scritta."
         },
         {
-          "h": "5. Legge applicabile",
-          "p": "I presenti termini sono regolati dalla legge italiana. Per ogni controversia sarà competente il foro del luogo in cui ha sede il titolare."
+          "h": "5. Nessuna garanzia e disponibilità del servizio",
+          "p": "Il sito è fornito \"così com'è\" e \"come disponibile\", senza garanzie di alcun tipo. Non garantiamo che il sito sia sempre disponibile, privo di errori o di interruzioni, e ci riserviamo il diritto di modificarne, sospenderne o interromperne in qualsiasi momento i contenuti o le funzionalità, anche senza preavviso."
+        },
+        {
+          "h": "6. Limitazione di responsabilità",
+          "p": "Nei limiti massimi consentiti dalla legge, il titolare non è responsabile per danni indiretti, incidentali o consequenziali derivanti dall'uso o dall'impossibilità di usare il sito, né per l'eventuale uso improprio delle informazioni fornite. Restano impregiudicati i diritti inderogabili riconosciuti ai consumatori dalla legge."
+        },
+        {
+          "h": "7. Collegamenti a siti terzi",
+          "p": "Il sito può contenere collegamenti a siti o servizi di terzi. Non controlliamo e non siamo responsabili dei loro contenuti, delle loro policy o delle loro pratiche: la consultazione di tali siti avviene a tuo rischio e secondo i termini da essi previsti."
+        },
+        {
+          "h": "8. Modifiche ai termini",
+          "p": "Possiamo aggiornare questi termini nel tempo. La versione in vigore è sempre quella pubblicata su questa pagina, con la data indicata in alto. L'uso continuato del sito dopo eventuali modifiche ne comporta l'accettazione."
+        },
+        {
+          "h": "9. Clausola di salvaguardia",
+          "p": "Se una qualsiasi disposizione di questi termini fosse ritenuta invalida o inefficace, le restanti disposizioni resteranno pienamente valide ed efficaci."
+        },
+        {
+          "h": "10. Legge applicabile e foro competente",
+          "p": "I presenti termini sono regolati dalla legge italiana. Per ogni controversia è competente il foro del luogo di residenza o domicilio del titolare del progetto; resta fermo che, se sei un consumatore, si applica il foro inderogabile della tua residenza o domicilio previsto dalla legge."
         }
       ]
     }
