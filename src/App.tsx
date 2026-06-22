@@ -19,6 +19,7 @@ import type { UserType } from './lib/leads';
 // Route Components — Home eager (LCP della landing), il resto code-split per route
 import Home from './components/Home';
 import Footer from './components/Footer';
+import NotFound from './components/NotFound';
 const AppSimulator = lazy(() => import('./components/AppSimulator'));
 const CoachDashboard = lazy(() => import('./components/CoachDashboard'));
 const Features = lazy(() => import('./components/Features'));
@@ -126,15 +127,29 @@ export default function App() {
       '/': 'home', '/app': 'app', '/coach': 'coach', '/features': 'features',
       '/about': 'about', '/privacy': 'privacy', '/cookie': 'cookie', '/termini': 'termini',
     };
+    const isUnknown = !(currentPath in map);
     const key = map[currentPath] ?? 'home';
-    document.title = t(`seo.${key}.title`);
+    document.title = isUnknown ? `${t('notFound.title')} — BAB` : t(`seo.${key}.title`);
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement('meta');
       meta.setAttribute('name', 'description');
       document.head.appendChild(meta);
     }
-    meta.setAttribute('content', t(`seo.${key}.desc`));
+    meta.setAttribute('content', isUnknown ? t('notFound.body') : t(`seo.${key}.desc`));
+
+    // 404: chiedi ai crawler di non indicizzare la pagina (soft-404 pulito)
+    let robots = document.querySelector('meta[name="robots"]');
+    if (isUnknown) {
+      if (!robots) {
+        robots = document.createElement('meta');
+        robots.setAttribute('name', 'robots');
+        document.head.appendChild(robots);
+      }
+      robots.setAttribute('content', 'noindex, follow');
+    } else if (robots) {
+      robots.remove();
+    }
   }, [currentPath, t, i18n.language]);
 
   // Chiudi il menu mobile con Escape
@@ -199,9 +214,10 @@ export default function App() {
     { path: '/about', label: t('nav.about') },
   ];
 
-  // Route sconosciuta → mostra la Home invece di una pagina bianca (no dead-end)
+  // Route sconosciuta → pagina 404 in-brand (non un finto rendering della Home)
   const knownPaths = ['/', '/app', '/coach', '/features', '/about', '/privacy', '/cookie', '/termini'];
-  const activePath = knownPaths.includes(currentPath) ? currentPath : '/';
+  const isNotFound = !knownPaths.includes(currentPath);
+  const activePath = currentPath;
 
   return (
     <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#D2EC7C] selection:text-[#0F0F12] font-['Space_Grotesk',_sans-serif] y2k-grid relative">
@@ -361,6 +377,7 @@ export default function App() {
       <main id="main-content" tabIndex={-1} className="pt-20 w-full overflow-x-hidden relative z-10 focus:outline-none">
         <Suspense fallback={<RouteFallback />}>
           <AnimatePresence mode="wait">
+            {isNotFound && <NotFound key="404" onNavigate={navigate} />}
             {activePath === '/' && <Home key="home" onOpenWaitlist={openWaitlist} onNavigate={navigate} />}
             {activePath === '/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
             {activePath === '/coach' && <CoachDashboard key="coach" />}

@@ -378,7 +378,7 @@
         },
         {
           "h": "5. Prestataires et sous-traitants",
-          "p": "Pour fournir le service, nous faisons appel à des prestataires qui traitent les données pour notre compte en tant que sous-traitants : les leads sont stockés via Supabase, sur une infrastructure située dans l'Union européenne (région de Francfort, Allemagne). Si nous activons à l'avenir des outils d'analyse (Google Analytics 4, Meta Pixel), nous mettrons à jour cette page et ne les chargerons qu'après votre consentement. Nous ne vendons ni ne cédons vos données à des tiers à des fins de marketing."
+          "p": "Pour fournir le service, nous faisons appel à des prestataires qui traitent les données pour notre compte en tant que sous-traitants : les leads sont stockés via Supabase, sur une infrastructure située dans l'Union européenne (région de Dublino, Irlande). Si nous activons à l'avenir des outils d'analyse (Google Analytics 4, Meta Pixel), nous mettrons à jour cette page et ne les chargerons qu'après votre consentement. Nous ne vendons ni ne cédons vos données à des tiers à des fins de marketing."
         },
         {
           "h": "6. Où nous conservons les données et transferts",
@@ -516,5 +516,11 @@
   },
   "a11y": {
     "skipToContent": "Aller au contenu"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "code": "Erreur 404",
+    "body": "La page que vous cherchez n’existe pas, a été déplacée ou le lien est erroné. Revenez à l’accueil pour continuer à explorer BAB.",
+    "cta": "Retour à l’accueil"
   }
 }
