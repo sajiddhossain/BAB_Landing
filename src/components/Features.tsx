@@ -30,7 +30,7 @@ export default function Features() {
             <span className="block skew-x-[12deg]">{t('features.badge')}</span>
           </span>
           <h1 
-            className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#FAF9F6] tracking-tighter"
+            className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#0F0F12] tracking-tighter"
             style={{ WebkitTextStroke: '2.5px #0F0F12' }}
             dangerouslySetInnerHTML={{__html: t('features.title')}}
           />
