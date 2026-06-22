@@ -284,7 +284,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
                 {oldVoices.map((v, i) => (
                   <li key={i} className="flex items-start gap-2.5">
                     <span className="text-[#FF6B5C] font-black mt-px shrink-0" aria-hidden="true">✕</span>
-                    <span className="font-bold text-base sm:text-lg leading-snug line-through decoration-[#FF6B5C] decoration-2 text-[#0F0F12]/55">{v}</span>
+                    <span className="font-bold text-base sm:text-lg leading-snug line-through decoration-[#FF6B5C] decoration-2 text-[#0F0F12]/70">{v}</span>
                   </li>
                 ))}
               </ul>
@@ -314,7 +314,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
           </div>
 
           {/* Nota fonte */}
-          <p className="mt-10 text-center text-xs sm:text-sm font-bold text-[#0F0F12]/55 max-w-xl mx-auto">* {t('home.silenceFootnote')}</p>
+          <p className="mt-10 text-center text-xs sm:text-sm font-bold text-[#0F0F12]/70 max-w-xl mx-auto">* {t('home.silenceFootnote')}</p>
         </div>
       </section>
 

@@ -60,7 +60,7 @@
     "data3Desc": "La recherche sportive sur les athlètes adolescentes est quasi inexistante",
     "dataVoid": "Le vide que BAB comble",
     "testimonialsTitle": "Ce que notre communauté dit de BAB",
-    "missionBadge": "The BAB Platform",
+    "missionBadge": "La plateforme BAB",
     "missionTitle": "BAB est ton coach en dehors du terrain.",
     "missionBody": "Avec des quiz, des jeux et des métaphores sportives, elle accompagne le développement des filles dans le sport, en leur apprenant à suivre, écouter et communiquer ce qu'elles ressentent à leurs coéquipières, coachs et parents.",
     "missionBodyHighlight": "Ainsi, elles affrontent la puberté sans se sentir inadéquates ou seules dans leur parcours.",
@@ -146,7 +146,7 @@
   },
   "coach": {
     "sectionLabel": "Pour les Clubs Sportifs",
-    "accessibleNote": "Variante accessible · contraste AA",
+    "accessibleNote": "Données d'équipe agrégées · vie privée des athlètes toujours protégée",
     "headline": "Aidez vos athlètes à traverser la puberté sans quitter le sport.",
     "sub": "BAB donne aux filles les outils pour suivre, écouter et communiquer ce qu'elles ressentent. Vous ne recevez que des signaux d'équipe agrégés et anonymes — jamais le cycle ni la santé individuelle.",
     "value1Title": "Confidentialité & RGPD",
