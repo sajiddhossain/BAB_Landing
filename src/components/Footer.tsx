@@ -54,7 +54,7 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
                     href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2 text-xs font-black uppercase tracking-wider shadow-[3px_3px_0_0_#34BBC0] hover:bg-[#D2EC7C] hover:shadow-[3px_3px_0_0_#FAF9F6] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all"
+                    className="inline-flex items-center min-h-[44px] bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2.5 text-xs font-black uppercase tracking-wider shadow-[3px_3px_0_0_#34BBC0] hover:bg-[#D2EC7C] hover:shadow-[3px_3px_0_0_#FAF9F6] active:translate-x-[3px] active:translate-y-[3px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all"
                   >
                     {s.label}
                   </a>
@@ -68,12 +68,12 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
             <span className="block font-black uppercase tracking-widest text-[11px] text-[#D2EC7C] mb-5">
               {t('footer.navHeading')}
             </span>
-            <ul className="flex flex-col gap-3">
+            <ul className="flex flex-col gap-0.5">
               {NAV_LINKS.map((link) => (
                 <li key={link.path}>
                   <a
                     href={link.path}
-                    className="inline-block font-['Space_Grotesk',_sans-serif] font-bold text-base uppercase tracking-wide text-[#FAF9F6]/90 hover:text-[#34BBC0] hover:translate-x-1 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all"
+                    className="inline-flex items-center min-h-[44px] font-['Space_Grotesk',_sans-serif] font-bold text-base uppercase tracking-wide text-[#FAF9F6]/90 hover:text-[#34BBC0] hover:translate-x-1 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all"
                   >
                     {t(link.key)}
                   </a>
@@ -101,9 +101,9 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
 
         {/* Legale */}
         <nav className="mt-16 pt-8 border-t-[3px] border-dashed border-[#FAF9F6]/25 flex flex-wrap items-center justify-center sm:justify-start gap-x-6 gap-y-1" aria-label={t('footer.legalHeading')}>
-          <a href="#/privacy" className="font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalPrivacy')}</a>
-          <a href="#/cookie" className="font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalCookie')}</a>
-          <a href="#/termini" className="font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalTerms')}</a>
+          <a href="#/privacy" className="inline-flex items-center min-h-[44px] font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalPrivacy')}</a>
+          <a href="#/cookie" className="inline-flex items-center min-h-[44px] font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalCookie')}</a>
+          <a href="#/termini" className="inline-flex items-center min-h-[44px] font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalTerms')}</a>
         </nav>
 
         {/* Bottom bar */}
