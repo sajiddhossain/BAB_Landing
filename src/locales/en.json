@@ -97,7 +97,8 @@
     "privacy1": "Only if you give consent, the data you track contributes to anonymous scientific research aimed at improving the health, wellbeing, and performance of both you and other young athletes. Together, we're helping close the gaps in youth and sports research.",
     "privacy2": "Your data is always anonymous, protected, and used solely to advance teenagers' health, wellbeing, development, and performance.",
     "heroPhotoAlt": "Teenage athlete during training, black-and-white portrait",
-    "dataPhotoAlt": "Portrait of a BAB athlete next to data on girls dropping out of sport"
+    "dataPhotoAlt": "Portrait of a BAB athlete next to data on girls dropping out of sport",
+    "dataSources": "Sources: independent research on menstrual health, injuries and drop-out in youth women’s sport (2019–2024). Full references available on request."
   },
   "waitlist": {
     "title": "Join the waitlist",

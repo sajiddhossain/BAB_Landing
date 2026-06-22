@@ -449,6 +449,11 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
             </li>
 
           </ol>
+
+          {/* Fonti — credibilità per buyer senior (dirigenti/genitori) */}
+          <p className="mt-8 text-xs leading-relaxed text-[#0F0F12]/70 max-w-2xl">
+            {t('home.dataSources')}
+          </p>
         </div>
       </section>
 
