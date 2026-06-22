@@ -38,7 +38,7 @@ export default function CoachDashboard() {
     { title: t('coach.value2Title'), desc: t('coach.value2Desc') },
     { title: t('coach.value3Title'), desc: t('coach.value3Desc') },
   ];
-  const trust = [t('coach.trust1'), t('coach.trust2'), t('coach.trust3')];
+  const trust = [t('coach.trust1'), t('coach.trust2'), t('coach.trust3'), t('coach.trust4')];
   const weekDays = t('coach.weekDays', { returnObjects: true }) as unknown as string[];
   const signals = [
     { title: t('coach.signal1Title'), desc: t('coach.signal1Desc'), cta: t('coach.signal1Cta'), warn: true },
@@ -65,7 +65,7 @@ export default function CoachDashboard() {
             {t('coach.sub')}
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
             {values.map((v, i) => (
               <div key={i} className="bg-white border-[2px] border-black border-l-[6px] border-l-[#34BBC0] shadow-[4px_4px_0_0_#0F0F12] p-5">
                 <h3 className="text-lg font-bold text-[#0F0F12] mb-1">{v.title}</h3>
@@ -74,7 +74,21 @@ export default function CoachDashboard() {
             ))}
           </div>
 
-          <div className="bg-[#0F0F12] border-[2px] border-black p-5 sm:p-6 flex flex-wrap items-center justify-between gap-4 mb-8">
+          {/* Come funziona, in 3 passi */}
+          <div className="mb-12">
+            <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl sm:text-3xl font-bold mb-5">{t('coach.howTitle')}</h2>
+            <ol className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {[1, 2, 3].map(n => (
+                <li key={n} className="bg-white border-[2px] border-black shadow-[4px_4px_0_0_#0F0F12] p-5">
+                  <div className="w-9 h-9 flex items-center justify-center bg-[#D2EC7C] border-[2px] border-black font-black text-lg mb-3" aria-hidden="true">{n}</div>
+                  <h3 className="text-base font-bold text-[#0F0F12] mb-1">{t(`coach.how${n}Title`)}</h3>
+                  <p className="text-sm leading-relaxed text-[#42424a]">{t(`coach.how${n}Desc`)}</p>
+                </li>
+              ))}
+            </ol>
+          </div>
+
+          <div className="bg-[#0F0F12] border-[2px] border-black p-5 sm:p-6 flex flex-wrap items-center justify-between gap-4 mb-3">
             <div>
               <div className="text-xs uppercase tracking-wider text-[#DAE69A] font-semibold">{t('coach.pricingLabel')}</div>
               <div className="text-lg text-white font-bold mt-1">{t('coach.pricingValue')}</div>
@@ -86,6 +100,7 @@ export default function CoachDashboard() {
               {t('coach.pricingCta')}
             </button>
           </div>
+          <p className="text-sm text-[#42424a] mb-8">{t('coach.ctaReassure')}</p>
 
           <div className="flex flex-wrap gap-2 mb-10">
             {trust.map((tr, i) => (
