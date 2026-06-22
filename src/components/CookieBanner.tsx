@@ -35,7 +35,7 @@ export default function CookieBanner({ onChoice }: CookieBannerProps) {
       <div className="pointer-events-auto w-full max-w-3xl bg-[#FAF9F6] border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center gap-4">
         <p className="font-['Space_Grotesk',_sans-serif] text-sm leading-relaxed text-[#0F0F12] flex-1">
           {t('cookieBanner.text')}{' '}
-          <a href="#/cookie" className="underline text-vividteal hover:no-underline focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12]">
+          <a href="/cookie" className="underline text-vividteal hover:no-underline focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12]">
             {t('cookieBanner.link')}
           </a>.
         </p>
