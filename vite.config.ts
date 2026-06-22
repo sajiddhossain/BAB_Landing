@@ -1,3 +1,11 @@
+/**
+ * @file      vite.config.ts
+ * @summary   Config Vite + plugin di prerender SEO per BAB: genera un index.html
+ *            statico per ogni rotta (title/description/OG/canonical) e inietta i
+ *            dati strutturati FAQPage nella homepage per i rich results di Google.
+ * @author    Sajid Hossain <sajid.hossain2009@gmail.com>
+ * @copyright (c) 2026 Breaking All Barriers. Tutti i diritti riservati.
+ */
 import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
@@ -35,7 +43,26 @@ function prerenderRoutes(): Plugin {
       const indexPath = path.join(dist, 'index.html')
       if (!fs.existsSync(indexPath)) return
       const baseHtml = fs.readFileSync(indexPath, 'utf8')
-      const seo = JSON.parse(fs.readFileSync(path.resolve('src/locales/it.json'), 'utf8')).seo
+      const it = JSON.parse(fs.readFileSync(path.resolve('src/locales/it.json'), 'utf8'))
+      const seo = it.seo
+
+      // FAQPage: dati strutturati generati dalle stesse Q&A mostrate in home →
+      // candidabili ai rich result di Google senza duplicare contenuto a mano.
+      const faqItems: Array<{ q: string; a: string }> = it.faqHome?.items ?? []
+      if (faqItems.length) {
+        const faqLd = {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: faqItems.map(({ q, a }) => ({
+            '@type': 'Question',
+            name: q,
+            acceptedAnswer: { '@type': 'Answer', text: a },
+          })),
+        }
+        const ldTag = `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>`
+        const homeHtml = baseHtml.replace('</head>', `    ${ldTag}\n  </head>`)
+        fs.writeFileSync(indexPath, homeHtml)
+      }
 
       const replaceAttr = (html: string, re: RegExp, value: string) =>
         re.test(html) ? html.replace(re, `$1${esc(value)}$2`) : html
