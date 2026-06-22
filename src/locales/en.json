@@ -378,7 +378,7 @@
         },
         {
           "h": "5. Providers and processors",
-          "p": "To run the service we rely on providers that process data on our behalf as processors: leads are stored via Supabase, on infrastructure located in the European Union (Frankfurt region, Germany). If we later enable analytics tools (Google Analytics 4, Meta Pixel) we will update this page and load them only with your consent. We do not sell or share your data with third parties for marketing purposes."
+          "p": "To run the service we rely on providers that process data on our behalf as processors: leads are stored via Supabase, on infrastructure located in the European Union (Dublin region, Ireland). If we later enable analytics tools (Google Analytics 4, Meta Pixel) we will update this page and load them only with your consent. We do not sell or share your data with third parties for marketing purposes."
         },
         {
           "h": "6. Where we store data and transfers",
@@ -516,5 +516,11 @@
   },
   "a11y": {
     "skipToContent": "Skip to content"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "code": "Error 404",
+    "body": "The page you are looking for does not exist, has moved, or the link is wrong. Go back home to keep exploring BAB.",
+    "cta": "Back to home"
   }
 }

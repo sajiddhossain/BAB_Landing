@@ -378,7 +378,7 @@
         },
         {
           "h": "5. Fornitori e responsabili del trattamento",
-          "p": "Per erogare il servizio ci avvaliamo di fornitori che trattano i dati per nostro conto come responsabili del trattamento: i lead sono archiviati tramite Supabase, su infrastruttura situata nell'Unione Europea (regione di Francoforte, Germania). Se in futuro attiveremo strumenti di analisi (Google Analytics 4, Meta Pixel), ti informeremo aggiornando questa pagina e li caricheremo solo previo tuo consenso. Non vendiamo né cediamo i tuoi dati a terzi per finalità di marketing."
+          "p": "Per erogare il servizio ci avvaliamo di fornitori che trattano i dati per nostro conto come responsabili del trattamento: i lead sono archiviati tramite Supabase, su infrastruttura situata nell'Unione Europea (regione di Dublino, Irlanda). Se in futuro attiveremo strumenti di analisi (Google Analytics 4, Meta Pixel), ti informeremo aggiornando questa pagina e li caricheremo solo previo tuo consenso. Non vendiamo né cediamo i tuoi dati a terzi per finalità di marketing."
         },
         {
           "h": "6. Dove conserviamo i dati e trasferimenti",
@@ -516,5 +516,11 @@
   },
   "a11y": {
     "skipToContent": "Salta al contenuto"
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "code": "Errore 404",
+    "body": "La pagina che cerchi non esiste, è stata spostata o il link è errato. Torna alla home per continuare a esplorare BAB.",
+    "cta": "Torna alla home"
   }
 }
