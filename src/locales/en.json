@@ -441,5 +441,12 @@
         }
       ]
     }
+  },
+  "cookieBanner": {
+    "aria": "Cookie consent",
+    "text": "We use technical cookies and, only with your consent, analytics cookies to improve the site.",
+    "link": "Learn more",
+    "accept": "Accept",
+    "reject": "Reject"
   }
 }

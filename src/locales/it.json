@@ -441,5 +441,12 @@
         }
       ]
     }
+  },
+  "cookieBanner": {
+    "aria": "Consenso ai cookie",
+    "text": "Usiamo cookie tecnici e, solo con il tuo consenso, cookie analitici per migliorare il sito.",
+    "link": "Scopri di più",
+    "accept": "Accetta",
+    "reject": "Rifiuta"
   }
 }

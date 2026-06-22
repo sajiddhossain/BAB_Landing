@@ -11,6 +11,8 @@ import { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { initAnalytics, trackPageview, trackEvent } from './lib/analytics';
+import { getConsent } from './lib/consent';
+import CookieBanner from './components/CookieBanner';
 import type { UserType } from './lib/leads';
 
 // Route Components — Home eager (LCP della landing), il resto code-split per route
@@ -68,11 +70,22 @@ export default function App() {
     );
   }, []);
 
-  // Analytics: init una volta + pageview iniziale (no-op senza ID reali in .env)
+  // Analytics: init SOLO con consenso cookie già accettato (GDPR).
+  // Senza consenso → niente tag finché l'utente non accetta dal banner.
   useEffect(() => {
-    initAnalytics();
-    trackPageview(window.location.hash || '#/');
+    if (getConsent() === 'accepted') {
+      initAnalytics();
+      trackPageview(window.location.hash || '#/');
+    }
   }, []);
+
+  // Attiva gli analytics nel momento in cui l'utente accetta dal banner.
+  const handleCookieChoice = (choice: 'accepted' | 'rejected') => {
+    if (choice === 'accepted') {
+      initAnalytics();
+      trackPageview(window.location.hash || '#/');
+    }
+  };
 
   // Chiudi il dropdown lingua su click-fuori o Escape (touch-friendly + a11y)
   useEffect(() => {
@@ -312,6 +325,9 @@ export default function App() {
           />
         </Suspense>
       )}
+
+      {/* Banner consenso cookie — gate degli analytics (GDPR) */}
+      <CookieBanner onChoice={handleCookieChoice} />
 
     </div>
   );
