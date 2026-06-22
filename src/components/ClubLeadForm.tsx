@@ -47,7 +47,7 @@ export default function ClubLeadForm() {
       role: chosenRole,
       message: message.trim() || null,
       lang,
-      source_path: '#/coach',
+      source_path: '/coach',
     });
 
     if (result.ok) {
@@ -112,7 +112,7 @@ export default function ClubLeadForm() {
         />
         <span className="text-[13px] font-medium leading-relaxed text-[#0F0F12]/90">
           {t('club.consentPre')}{' '}
-          <a href="#/privacy" target="_blank" rel="noopener" className="underline text-vividteal hover:no-underline">{t('club.consentLink')}</a>.
+          <a href="/privacy" target="_blank" rel="noopener" className="underline text-vividteal hover:no-underline">{t('club.consentLink')}</a>.
         </span>
       </label>
 

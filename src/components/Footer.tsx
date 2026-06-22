@@ -13,11 +13,11 @@ interface FooterProps {
 }
 
 const NAV_LINKS = [
-  { path: '#/', key: 'nav.home' },
-  { path: '#/app', key: 'nav.app' },
-  { path: '#/coach', key: 'nav.coach' },
-  { path: '#/features', key: 'nav.features' },
-  { path: '#/about', key: 'nav.about' },
+  { path: '/', key: 'nav.home' },
+  { path: '/app', key: 'nav.app' },
+  { path: '/coach', key: 'nav.coach' },
+  { path: '/features', key: 'nav.features' },
+  { path: '/about', key: 'nav.about' },
 ] as const;
 
 const SOCIALS = [
@@ -36,7 +36,7 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
 
           {/* Brand + tagline + social */}
           <div className="md:col-span-5 flex flex-col items-start gap-6">
-            <a href="#/" className="inline-block hover:-translate-y-0.5 transition-transform" aria-label="BAB — Home">
+            <a href="/" className="inline-block hover:-translate-y-0.5 transition-transform" aria-label="BAB — Home">
               <img src="/BAB_logo.svg" alt="BAB — Breaking All Barriers" className="h-12" />
             </a>
             <p className="font-['Space_Grotesk',_sans-serif] font-bold text-base leading-relaxed max-w-xs text-[#FAF9F6]/80">
@@ -101,9 +101,9 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
 
         {/* Legale */}
         <nav className="mt-16 pt-8 border-t-[3px] border-dashed border-[#FAF9F6]/25 flex flex-wrap items-center justify-center sm:justify-start gap-x-6 gap-y-1" aria-label={t('footer.legalHeading')}>
-          <a href="#/privacy" className="inline-flex items-center min-h-[44px] font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalPrivacy')}</a>
-          <a href="#/cookie" className="inline-flex items-center min-h-[44px] font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalCookie')}</a>
-          <a href="#/termini" className="inline-flex items-center min-h-[44px] font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalTerms')}</a>
+          <a href="/privacy" className="inline-flex items-center min-h-[44px] font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalPrivacy')}</a>
+          <a href="/cookie" className="inline-flex items-center min-h-[44px] font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalCookie')}</a>
+          <a href="/termini" className="inline-flex items-center min-h-[44px] font-black uppercase tracking-widest text-[11px] text-[#FAF9F6]/70 hover:text-[#34BBC0] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-colors py-2">{t('footer.legalTerms')}</a>
         </nav>
 
         {/* Bottom bar */}

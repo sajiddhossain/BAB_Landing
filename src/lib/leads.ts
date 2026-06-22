@@ -64,7 +64,7 @@ export async function insertLead(payload: LeadPayload): Promise<InsertLeadResult
     ...payload,
     source_path:
       payload.source_path ??
-      (typeof window !== 'undefined' ? window.location.hash : null),
+      (typeof window !== 'undefined' ? window.location.pathname : null),
   }
 
   let lastError = 'unknown_error'

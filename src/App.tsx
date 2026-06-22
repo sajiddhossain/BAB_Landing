@@ -37,7 +37,7 @@ function RouteFallback() {
 
 export default function App() {
   const { t, i18n } = useTranslation();
-  const [currentPath, setCurrentPath] = useState<string>(window.location.hash || '#/');
+  const [currentPath, setCurrentPath] = useState<string>(window.location.pathname || '/');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
   const [waitlistMounted, setWaitlistMounted] = useState(false); // carica il chunk solo al 1° open, poi resta montato per animare la chiusura
@@ -75,7 +75,7 @@ export default function App() {
   useEffect(() => {
     if (getConsent() === 'accepted') {
       initAnalytics();
-      trackPageview(window.location.hash || '#/');
+      trackPageview(window.location.pathname || '/');
     }
   }, []);
 
@@ -83,7 +83,7 @@ export default function App() {
   const handleCookieChoice = (choice: 'accepted' | 'rejected') => {
     if (choice === 'accepted') {
       initAnalytics();
-      trackPageview(window.location.hash || '#/');
+      trackPageview(window.location.pathname || '/');
     }
   };
 
@@ -115,8 +115,8 @@ export default function App() {
   // SEO: title + meta description per-rotta, localizzati (tab, bookmark, share, crawler JS)
   useEffect(() => {
     const map: Record<string, string> = {
-      '#/': 'home', '#/app': 'app', '#/coach': 'coach', '#/features': 'features',
-      '#/about': 'about', '#/privacy': 'privacy', '#/cookie': 'cookie', '#/termini': 'termini',
+      '/': 'home', '/app': 'app', '/coach': 'coach', '/features': 'features',
+      '/about': 'about', '/privacy': 'privacy', '/cookie': 'cookie', '/termini': 'termini',
     };
     const key = map[currentPath] ?? 'home';
     document.title = t(`seo.${key}.title`);
@@ -137,36 +137,62 @@ export default function App() {
     return () => document.removeEventListener('keydown', onKey);
   }, [isMenuOpen]);
 
-  // Sync hash routing
+  // Routing con URL puliti (History API), no hash. Vercel serve index.html su ogni path.
   useEffect(() => {
-    const handleHashChange = () => {
-      const hash = window.location.hash || '#/';
-      setCurrentPath(hash);
-      window.scrollTo(0, 0);
-      setIsMenuOpen(false); // Chiudi il menu al cambio pagina
-      trackPageview(hash);
+    // Intercetta i click sui link interni "/..." → navigazione SPA senza ricaricare
+    const onClick = (e: MouseEvent) => {
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      const anchor = (e.target as HTMLElement).closest('a');
+      if (!anchor) return;
+      const href = anchor.getAttribute('href');
+      // solo link interni assoluti; esclude #ancore, mailto/http esterni, target=_blank
+      if (!href || !href.startsWith('/') || anchor.getAttribute('target') === '_blank') return;
+      e.preventDefault();
+      if (href !== window.location.pathname) {
+        window.history.pushState({}, '', href);
+        setCurrentPath(href);
+        window.scrollTo(0, 0);
+        trackPageview(href);
+      }
+      setIsMenuOpen(false);
     };
-    
-    // Set initial hash if empty
-    if (!window.location.hash) {
-      window.location.hash = '#/';
-    }
-
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    // Avanti/Indietro del browser
+    const onPop = () => {
+      setCurrentPath(window.location.pathname || '/');
+      window.scrollTo(0, 0);
+      setIsMenuOpen(false);
+      trackPageview(window.location.pathname || '/');
+    };
+    document.addEventListener('click', onClick);
+    window.addEventListener('popstate', onPop);
+    return () => {
+      document.removeEventListener('click', onClick);
+      window.removeEventListener('popstate', onPop);
+    };
   }, []);
 
+  // Navigazione programmatica (CTA non-link)
+  const navigate = (path: string) => {
+    if (path !== window.location.pathname) {
+      window.history.pushState({}, '', path);
+      setCurrentPath(path);
+      window.scrollTo(0, 0);
+      trackPageview(path);
+    }
+    setIsMenuOpen(false);
+  };
+
   const navLinks = [
-    { path: '#/', label: t('nav.home') },
-    { path: '#/app', label: t('nav.app') },
-    { path: '#/coach', label: t('nav.coach') },
-    { path: '#/features', label: t('nav.features') },
-    { path: '#/about', label: t('nav.about') },
+    { path: '/', label: t('nav.home') },
+    { path: '/app', label: t('nav.app') },
+    { path: '/coach', label: t('nav.coach') },
+    { path: '/features', label: t('nav.features') },
+    { path: '/about', label: t('nav.about') },
   ];
 
   // Route sconosciuta → mostra la Home invece di una pagina bianca (no dead-end)
-  const knownPaths = ['#/', '#/app', '#/coach', '#/features', '#/about', '#/privacy', '#/cookie', '#/termini'];
-  const activePath = knownPaths.includes(currentPath) ? currentPath : '#/';
+  const knownPaths = ['/', '/app', '/coach', '/features', '/about', '/privacy', '/cookie', '/termini'];
+  const activePath = knownPaths.includes(currentPath) ? currentPath : '/';
 
   return (
     <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#D2EC7C] selection:text-[#0F0F12] font-['Space_Grotesk',_sans-serif] y2k-grid relative">
@@ -182,7 +208,7 @@ export default function App() {
 
       {/* HEADER (Neobrutalism) */}
       <header className="fixed top-0 inset-x-0 h-20 bg-[#FAF9F6] text-[#0F0F12] border-b-[3px] border-black z-50 px-4 sm:px-6 lg:px-10 flex items-center justify-between gap-4 shadow-[0_4px_0_0_#0F0F12]">
-        <a href="#/" className="flex items-center gap-3 hover:-translate-y-0.5 transition-transform z-50 shrink-0">
+        <a href="/" className="flex items-center gap-3 hover:-translate-y-0.5 transition-transform z-50 shrink-0">
           <img src="/BAB_logo.svg" alt="BAB — Breaking All Barriers" className="h-8 md:h-10" />
         </a>
 
@@ -326,14 +352,14 @@ export default function App() {
       <main id="main-content" tabIndex={-1} className="pt-20 w-full overflow-x-hidden relative z-10 focus:outline-none">
         <Suspense fallback={<RouteFallback />}>
           <AnimatePresence mode="wait">
-            {activePath === '#/' && <Home key="home" onOpenWaitlist={openWaitlist} />}
-            {activePath === '#/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
-            {activePath === '#/coach' && <CoachDashboard key="coach" />}
-            {activePath === '#/features' && <Features key="features" />}
-            {activePath === '#/about' && <About key="about" />}
-            {activePath === '#/privacy' && <LegalPage key="privacy" page="privacy" />}
-            {activePath === '#/cookie' && <LegalPage key="cookie" page="cookie" />}
-            {activePath === '#/termini' && <LegalPage key="termini" page="terms" />}
+            {activePath === '/' && <Home key="home" onOpenWaitlist={openWaitlist} onNavigate={navigate} />}
+            {activePath === '/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
+            {activePath === '/coach' && <CoachDashboard key="coach" />}
+            {activePath === '/features' && <Features key="features" />}
+            {activePath === '/about' && <About key="about" />}
+            {activePath === '/privacy' && <LegalPage key="privacy" page="privacy" />}
+            {activePath === '/cookie' && <LegalPage key="cookie" page="cookie" />}
+            {activePath === '/termini' && <LegalPage key="termini" page="terms" />}
           </AnimatePresence>
         </Suspense>
       </main>

@@ -26,7 +26,7 @@ export default function LegalPage({ page }: LegalPageProps) {
       <article className="max-w-2xl mx-auto w-full">
 
         <a
-          href="#/"
+          href="/"
           className="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-vividteal hover:underline focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] mb-10"
         >
           <span aria-hidden="true">←</span> {t('legal.backHome')}
