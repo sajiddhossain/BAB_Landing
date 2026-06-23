@@ -395,21 +395,21 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  {/* 77% */}
  <li className="relative bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] px-6 pt-10 pb-6">
  <span aria-hidden="true" className="absolute -top-3 left-7 w-16 h-6 rotate-[-6deg] opacity-85 shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#FFC042', clipPath: 'polygon(0 8%,100% 0,98% 92%,2% 100%)' }}></span>
- <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#FFC042', WebkitTextStroke: '3px #0F0F12', paintOrder: 'stroke', textShadow: '2px 2px 0 rgba(15,15,18,0.25)' }}>{t('home.data1Val')}</span>
+ <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#FFC042', WebkitTextStroke: '5px #0F0F12', paintOrder: 'stroke', textShadow: '3px 3px 0 rgba(15,15,18,0.2)' }}>{t('home.data1Val')}</span>
  <p className="font-extrabold uppercase text-xs sm:text-sm tracking-tight leading-snug">{t('home.data1Desc')}</p>
  </li>
 
  {/* 6% */}
  <li className="relative bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] px-6 pt-10 pb-6">
  <span aria-hidden="true" className="absolute -top-3 left-7 w-16 h-6 rotate-[5deg] opacity-85 shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#EBE5FF', clipPath: 'polygon(0 8%,100% 0,98% 92%,2% 100%)' }}></span>
- <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#34BBC0', WebkitTextStroke: '3px #0F0F12', paintOrder: 'stroke', textShadow: '2px 2px 0 rgba(15,15,18,0.25)' }}>{t('home.data2Val')}</span>
+ <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#34BBC0', WebkitTextStroke: '5px #0F0F12', paintOrder: 'stroke', textShadow: '3px 3px 0 rgba(15,15,18,0.2)' }}>{t('home.data2Val')}</span>
  <p className="font-extrabold uppercase text-xs sm:text-sm tracking-tight leading-snug">{t('home.data2Desc')}</p>
  </li>
 
  {/* ~0% — il vuoto che BAB colma */}
  <li className="relative bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] px-6 pt-10 pb-6">
  <span aria-hidden="true" className="absolute -top-3 left-7 w-16 h-6 rotate-[-4deg] opacity-85 shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#8FD4E8', clipPath: 'polygon(0 8%,100% 0,98% 92%,2% 100%)' }}></span>
- <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#1F7A63', WebkitTextStroke: '3px #0F0F12', paintOrder: 'stroke', textShadow: '2px 2px 0 rgba(15,15,18,0.25)' }}>{t('home.data3Val')}</span>
+ <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#1F7A63', WebkitTextStroke: '5px #0F0F12', paintOrder: 'stroke', textShadow: '3px 3px 0 rgba(15,15,18,0.2)' }}>{t('home.data3Val')}</span>
  <p className="font-extrabold uppercase text-xs sm:text-sm tracking-tight leading-snug">{t('home.data3Desc')}</p>
  <p className="mt-2 font-black uppercase text-[11px] tracking-widest text-deepteal">↳ {t('home.dataVoid')}</p>
  </li>
