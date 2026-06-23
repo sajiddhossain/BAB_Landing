@@ -250,20 +250,20 @@
     "bigCaption": "Proprio come Mia, molte atlete pagano il prezzo del ciclo nello sport.",
     "stats": [
       {
-        "val": "77%",
-        "label": "Ritiene che il ciclo mestruale influenzi negativamente la performance"
+        "val": "93%",
+        "label": "Riferisce un’esperienza negativa legata al ciclo nello sport"
       },
       {
-        "val": "50%",
-        "label": "Abbandona lo sport durante la pubertà"
+        "val": "73%",
+        "label": "Si sente sotto pressione per andare avanti nonostante i dolori mestruali"
       },
       {
-        "val": "6%",
-        "label": "Della ricerca sportiva è condotta solo su atlete donne"
+        "val": "84%",
+        "label": "Ignora il dolore mestruale come principale strategia per gestirlo"
       },
       {
-        "val": "~0%",
-        "label": "La ricerca scientifica sugli infortuni delle atlete adolescenti"
+        "val": "36%",
+        "label": "Crede che saltare il ciclo durante le gare sia normale"
       }
     ],
     "founderTitle": "La Founder",
@@ -275,7 +275,7 @@
     "founderQuote3": "\"BAB è lo scudo tecnologico che avrei voluto avere io stessa per non sentirmi sbagliata sul campo.\"",
     "communityTitle": "Il Muro della Community",
     "photoAlt": "Giovane atleta della community BAB",
-    "statsSources": "Fonti: Jones & Bishop (2024, n=128); abbandono ~1 su 2 con la pubertà; Cowley et al. (2021), «Invisible Sportswomen»; Horan et al. (2024). Riferimenti completi su richiesta."
+    "statsSources": "Fonti disponibili su richiesta."
   },
   "simulator": {
     "badge": "Gioca con BAB · Demo",
