@@ -250,20 +250,20 @@
     "bigCaption": "Tout comme Mia, de nombreuses athlètes paient le prix des règles dans le sport.",
     "stats": [
       {
-        "val": "77%",
-        "label": "Estiment que leur cycle menstruel nuit à leur performance"
+        "val": "93%",
+        "label": "Rapportent une expérience négative liée aux règles dans le sport"
       },
       {
-        "val": "50%",
-        "label": "Abandonnent le sport pendant la puberté"
+        "val": "73%",
+        "label": "Se sentent obligées de continuer malgré les douleurs menstruelles"
       },
       {
-        "val": "6%",
-        "label": "De la recherche sportive porte uniquement sur des athlètes femmes"
+        "val": "84%",
+        "label": "Ignorent la douleur menstruelle comme principale stratégie d’adaptation"
       },
       {
-        "val": "~0%",
-        "label": "La recherche scientifique sur les blessures des jeunes athlètes féminines"
+        "val": "36%",
+        "label": "Pensent qu’il est normal de ne pas avoir ses règles en compétition"
       }
     ],
     "founderTitle": "La Fondatrice",
@@ -275,7 +275,7 @@
     "founderQuote3": "\"BAB est le bouclier technologique que j'aurais voulu avoir moi-même, pour ne pas me sentir inadéquate sur le terrain.\"",
     "communityTitle": "Mur de la Communauté",
     "photoAlt": "Jeune athlète de la communauté BAB",
-    "statsSources": "Sources : Jones & Bishop (2024, n=128) ; ~1 sur 2 abandonne à la puberté ; Cowley et al. (2021) ; Horan et al. (2024). Références complètes sur demande."
+    "statsSources": "Sources disponibles sur demande."
   },
   "simulator": {
     "badge": "Joue avec BAB · Démo",
