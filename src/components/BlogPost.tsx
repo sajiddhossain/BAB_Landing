@@ -9,6 +9,7 @@
 import { useTranslation } from 'react-i18next';
 import { BLOG_POSTS, formatDate, type BlogPostData } from './Blog';
 import NotFound from './NotFound';
+import SponsorSlot from './SponsorSlot';
 
 interface BlogPostProps {
   slug: string;
@@ -67,6 +68,9 @@ export default function BlogPost({ slug, onNavigate }: BlogPostProps) {
         className="blog-prose font-['Space_Grotesk',_sans-serif] text-[17px] leading-relaxed text-[#0F0F12]"
         dangerouslySetInnerHTML={{ __html: post.html }}
       />
+
+      {/* Spazio sponsor #2 — in fondo all'articolo, gestito a mano */}
+      <SponsorSlot className="mt-12" />
     </article>
   );
 }

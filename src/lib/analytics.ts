@@ -6,6 +6,7 @@
 
 const GA_ID = import.meta.env.VITE_GA_MEASUREMENT_ID
 const PIXEL_ID = import.meta.env.VITE_META_PIXEL_ID
+const CF_TOKEN = import.meta.env.VITE_CLOUDFLARE_ANALYTICS_TOKEN
 
 function isRealGaId(v: string | undefined): v is string {
   return !!v && /^G-[A-Z0-9]{4,}$/i.test(v) && !/dummy|your_/i.test(v)
@@ -15,9 +16,29 @@ function isRealPixelId(v: string | undefined): v is string {
   return !!v && /^\d{6,}$/.test(v) && !/dummy/i.test(v)
 }
 
+function isRealCfToken(v: string | undefined): v is string {
+  return !!v && /^[a-f0-9]{16,}$/i.test(v) && !/dummy|your_/i.test(v)
+}
+
 export const gaEnabled = isRealGaId(GA_ID)
 export const pixelEnabled = isRealPixelId(PIXEL_ID)
+export const cfAnalyticsEnabled = isRealCfToken(CF_TOKEN)
 export const analyticsEnabled = gaEnabled || pixelEnabled
+
+/**
+ * Cloudflare Web Analytics: cookieless e senza dati personali → si può caricare
+ * SEMPRE, indipendentemente dal consenso cookie (a differenza di GA4/Pixel).
+ * No-op se nessun token reale è configurato.
+ */
+export function initWebAnalytics(): void {
+  if (!cfAnalyticsEnabled || typeof document === 'undefined') return
+  if (document.querySelector('script[data-cf-beacon]')) return
+  const s = document.createElement('script')
+  s.defer = true
+  s.src = 'https://static.cloudflareinsights.com/beacon.min.js'
+  s.setAttribute('data-cf-beacon', JSON.stringify({ token: CF_TOKEN }))
+  document.head.appendChild(s)
+}
 
 interface FbqStub {
   (...args: unknown[]): void

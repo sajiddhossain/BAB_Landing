@@ -542,5 +542,11 @@
     "by": "di",
     "back": "Tutti gli articoli",
     "empty": "Presto nuovi articoli."
+  },
+  "sponsor": {
+    "label": "Spazio sponsor",
+    "title": "Questo spazio può essere tuo",
+    "text": "Sostieni lo sport femminile e raggiungi famiglie e società sportive.",
+    "cta": "Diventa partner"
   }
 }

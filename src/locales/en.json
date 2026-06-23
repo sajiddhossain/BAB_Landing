@@ -542,5 +542,11 @@
     "by": "by",
     "back": "All articles",
     "empty": "New articles coming soon."
+  },
+  "sponsor": {
+    "label": "Sponsor slot",
+    "title": "This space could be yours",
+    "text": "Support women's sport and reach families and sports clubs.",
+    "cta": "Become a partner"
   }
 }

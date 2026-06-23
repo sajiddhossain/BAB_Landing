@@ -8,6 +8,7 @@
  */
 import { useTranslation } from 'react-i18next';
 import blogData from '../generated/blog.json';
+import SponsorSlot from './SponsorSlot';
 
 export interface BlogPostData {
   slug: string;
@@ -105,6 +106,9 @@ export default function Blog() {
           ))}
         </ul>
       )}
+
+      {/* Spazio sponsor #1 — gestito a mano (vedi SponsorSlot) */}
+      <SponsorSlot className="mt-12 sm:mt-16" />
     </section>
   );
 }
