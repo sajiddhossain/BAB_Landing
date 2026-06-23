@@ -44,6 +44,11 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
  <p className="font-['Space_Grotesk',_sans-serif] font-bold text-base leading-relaxed max-w-xs text-[#FAF9F6]/80">
  {t('footer.tagline')}
  </p>
+ {/* Motto (spostato qui dalla home) */}
+ <p
+ className="font-['Bricolage_Grotesque',_sans-serif] font-black uppercase text-lg sm:text-xl leading-tight tracking-tight text-[#FAF9F6] max-w-xs"
+ dangerouslySetInnerHTML={{ __html: t('home.footerTitle') }}
+ />
 
  <div className="flex flex-col gap-3 w-full max-w-xs">
  <span className="font-black uppercase tracking-widest text-[11px] text-[#D2EC7C]">
