@@ -220,15 +220,6 @@ export default function About() {
  </span>
  </div>
 
- <div className="flex flex-col gap-3 mb-8 font-['Space_Grotesk',_sans-serif]">
- <div className="bg-[#FAF9F6] text-[#0F0F12] border-[1.5px] border-black px-3 py-1 text-sm font-extrabold self-start inline-block">
- {t('about.founderBadge1')}
- </div>
- <div className="bg-[#FAF9F6] text-[#0F0F12] border-[1.5px] border-black px-3 py-1 text-sm font-extrabold self-start inline-block">
- {t('about.founderBadge2')}
- </div>
- </div>
-
  <div className="font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl leading-relaxed border-l-[4px] border-black pl-4 sm:pl-6 flex flex-col gap-4">
  <p>{t('about.founderQuote1')}</p>
  <p className="text-vividteal">{t('about.founderQuote2')}</p>
