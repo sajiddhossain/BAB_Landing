@@ -35,12 +35,36 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
   };
 
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [activeTestimonial, setActiveTestimonial] = useState(0);
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) scrollContainerRef.current.scrollBy({ left: -350, behavior: 'smooth' });
   };
   const scrollRight = () => {
     if (scrollContainerRef.current) scrollContainerRef.current.scrollBy({ left: 350, behavior: 'smooth' });
+  };
+  // Sincronizza il dot attivo con la card più vicina al centro della vista.
+  // Uso getBoundingClientRect (coordinate viewport) → indipendente dall'offsetParent.
+  const onSliderScroll = () => {
+    const el = scrollContainerRef.current;
+    if (!el) return;
+    const center = el.getBoundingClientRect().left + el.clientWidth / 2;
+    let best = 0;
+    let bestDist = Infinity;
+    Array.from(el.children).forEach((child, i) => {
+      const r = (child as HTMLElement).getBoundingClientRect();
+      const dist = Math.abs(r.left + r.width / 2 - center);
+      if (dist < bestDist) { bestDist = dist; best = i; }
+    });
+    setActiveTestimonial(best);
+  };
+  const scrollToTestimonial = (i: number) => {
+    const el = scrollContainerRef.current;
+    const child = el?.children[i] as HTMLElement | undefined;
+    if (!el || !child) return;
+    const elRect = el.getBoundingClientRect();
+    const r = child.getBoundingClientRect();
+    el.scrollBy({ left: r.left + r.width / 2 - (elRect.left + elRect.width / 2), behavior: 'smooth' });
   };
 
   const testimonials = [
@@ -487,8 +511,9 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
         </div>
         
         {/* Horizontal Slider Polaroid */}
-        <div 
+        <div
           ref={scrollContainerRef}
+          onScroll={onSliderScroll}
           className="w-full flex overflow-x-auto snap-x snap-mandatory gap-6 px-4 md:px-12 pb-12 pt-8 hide-scrollbar scroll-smooth"
         >
           {testimonials.map((item, i) => {
@@ -506,6 +531,24 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
               </div>
             );
           })}
+        </div>
+
+        {/* Indicatore di posizione: dot cliccabili (affordance di swipe + "quanti ce ne sono") */}
+        <div className="flex justify-center items-center gap-1 mt-2" role="tablist" aria-label={t('home.testimonialsTitle')}>
+          {testimonials.map((item, i) => (
+            <button
+              key={i}
+              onClick={() => scrollToTestimonial(i)}
+              role="tab"
+              aria-selected={activeTestimonial === i}
+              aria-label={`${i + 1} / ${testimonials.length} — ${item.name}`}
+              className="group flex items-center justify-center min-h-[44px] min-w-[44px] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12]"
+            >
+              <span
+                className={`block h-3 border-[2px] border-black transition-all ${activeTestimonial === i ? 'w-8 bg-[#34BBC0]' : 'w-3 bg-white group-hover:bg-[#EBE5FF]'}`}
+              />
+            </button>
+          ))}
         </div>
       </section>
 
