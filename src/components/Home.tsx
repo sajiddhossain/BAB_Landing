@@ -329,6 +329,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <li className="flex gap-4 items-start"><span className="text-[#D2EC7C] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP1')}</span></li>
  <li className="flex gap-4 items-start"><span className="text-[#D2EC7C] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP2')}</span></li>
  <li className="flex gap-4 items-start"><span className="text-[#D2EC7C] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP3')}</span></li>
+ <li className="flex gap-4 items-start"><span className="text-[#D2EC7C] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP4')}</span></li>
  </ul>
  <a href="/coach" className="group flex items-center justify-center w-full bg-[#D2EC7C] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all mt-auto text-center">
  {t('home.bivioCoachCta')}

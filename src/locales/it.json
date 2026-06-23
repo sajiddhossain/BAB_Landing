@@ -41,10 +41,10 @@
     "bivioCoachBadge": "ALLENATORE - CLUB SPORTIVO",
     "bivioCoachTitle1": "Previeni.",
     "bivioCoachTitle2": "Non solo reagisci.",
-    "bivioCoachDesc": "Accedi agli indici di prontezza in tempo reale. Intervieni prima che l'infortunio accada, senza mai esporre dati biologici individuali.",
-    "bivioCoachP1": "Dashboard squadra aggregata",
-    "bivioCoachP2": "Alert preventivi LCA personalizzati",
-    "bivioCoachP3": "Protocollo GDPR compliant",
+    "bivioCoachDesc": "BAB facilita e migliora la comunicazione con le tue atlete, così hai tutto ciò che ti serve per supportarle durante la pubertà e l’adolescenza.",
+    "bivioCoachP1": "Trattieni i talenti nella tua squadra",
+    "bivioCoachP2": "Aiutale a diventare più forti, sicure e a proprio agio con il proprio corpo",
+    "bivioCoachP3": "Previeni gli infortuni",
     "bivioCoachCta": "ATTIVA BAB PER IL MIO CLUB ✦",
     "bivioParentBadge": "GENITORE - FAMIGLIA",
     "bivioParentTitle1": "Supporta.",
@@ -110,7 +110,8 @@
     "marqueeScience": "Basato sulla scienza",
     "marqueeElite": "Creato con atlete d’élite",
     "marqueePuberty": "Supporto nella pubertà",
-    "marqueeWaitlist": "Entra in lista d’attesa"
+    "marqueeWaitlist": "Entra in lista d’attesa",
+    "bivioCoachP4": "Contribuisci alla ricerca sportiva"
   },
   "waitlist": {
     "title": "Entra in lista d'attesa",

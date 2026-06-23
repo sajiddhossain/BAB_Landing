@@ -41,10 +41,10 @@
     "bivioCoachBadge": "COACH - SPORTS CLUB",
     "bivioCoachTitle1": "Prevent.",
     "bivioCoachTitle2": "Don't just react.",
-    "bivioCoachDesc": "Access readiness indexes in real-time. Intervene before injuries happen, without ever exposing individual biological data.",
-    "bivioCoachP1": "Aggregated team dashboard",
-    "bivioCoachP2": "Personalized ACL preventive alerts",
-    "bivioCoachP3": "GDPR compliant protocol",
+    "bivioCoachDesc": "BAB facilitates and improves the communication with your athletes, so you have all you need to support them through puberty and adolescence.",
+    "bivioCoachP1": "Retain talent in your team",
+    "bivioCoachP2": "Help them get stronger, more confident and comfortable with their bodies",
+    "bivioCoachP3": "Prevent injuries",
     "bivioCoachCta": "ACTIVATE BAB FOR MY CLUB ✦",
     "bivioParentBadge": "PARENT - FAMILY",
     "bivioParentTitle1": "Support.",
@@ -110,7 +110,8 @@
     "marqueeScience": "Backed by Science",
     "marqueeElite": "Built with Elite Athletes",
     "marqueePuberty": "Puberty Support",
-    "marqueeWaitlist": "Join the waitlist"
+    "marqueeWaitlist": "Join the waitlist",
+    "bivioCoachP4": "Help advance sports research"
   },
   "waitlist": {
     "title": "Join the waitlist",
