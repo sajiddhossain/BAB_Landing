@@ -91,7 +91,7 @@
       "Appartengo"
     ],
     "silenceFootnote": "Citazioni reali da 25 interviste qualitative con atlete di 13–14 anni.",
-    "marquee": "🕵️‍♀️ Conforme al GDPR ✦ 🧪 Basato sulla scienza ✦ 👟 Creato con atlete d'élite ✦ ✨ Supporto nella crescita ✦",
+    "marquee": "🕵️‍♀️ Conforme al GDPR ✦ 🧪 Basato sulla scienza ✦ 👟 Creato con atlete e allenatori ✦ ✨ Supporto nella crescita ✦",
     "footerTitle": "Reach Your <span class='text-[#D2EC7C]'>Personal Best</span>,<br/> By Feeling <span class='text-[#34BBC0]'>Your Best</span>.",
     "privacyTitle": "Privacy & Ricerca",
     "privacy1": "Solo se dai il tuo consenso, i dati che monitori contribuiranno a ricerche scientifiche anonime per migliorare la salute, il benessere e le performance tue e di altre giovani atlete. Insieme stiamo colmando il vuoto nella ricerca sportiva giovanile.",
@@ -118,7 +118,7 @@
     ],
     "step3Title": "3. Accesso",
     "emailPlaceholder": "La tua email...",
-    "privacyNote": "Dati 100% criptati sul dispositivo, zero database centrali e conformità GDPR minori.",
+    "privacyNote": "I tuoi dati restano protetti e conformi al GDPR. I segnali individuali non vengono mai condivisi con coach o club.",
     "submit": "Richiedi accesso ✦",
     "submitting": "Invio in corso...",
     "scoreLabel": "Punteggio di ingresso (SITG):",
@@ -165,9 +165,9 @@
     "value3Title": "La privacy come vantaggio",
     "value3Desc": "Solo dati aggregati e anonimi, conformi al GDPR minori. Il ciclo e la salute individuale non sono mai visibili: le famiglie si fidano, tu sei tutelato.",
     "pricingLabel": "Abbonamento club",
-    "pricingValue": "Prezzo su misura in base al numero di squadre",
+    "pricingValue": "Canone annuo per club, in base al numero di squadre. Gratis per le atlete.",
     "pricingCta": "Prenota una demo gratuita",
-    "trust1": "Crittografia end-to-end",
+    "trust1": "Dati cifrati e protetti",
     "trust2": "Conforme GDPR minori",
     "trust3": "Solo dati aggregati",
     "previewLabel": "Anteprima Coach Dashboard",
@@ -214,7 +214,7 @@
     "how2Desc": "Solo dati aggregati e anonimi: partecipazione, energia media e campanelli del gruppo.",
     "how3Title": "Intervieni prima",
     "how3Desc": "Dosi il carico, invii una nota o rispondi alle domande della squadra — al momento giusto.",
-    "ctaReassure": "Demo gratuita e senza impegno. Ti ricontattiamo entro pochi giorni."
+    "ctaReassure": "Siamo in fase di lancio con i primi club partner. Demo gratuita e senza impegno: ti ricontattiamo entro pochi giorni."
   },
   "about": {
     "missionBadge": "✦ La Missione ✦",
@@ -285,15 +285,15 @@
       },
       {
         "q": "Quali funzionalità include l'app?",
-        "a": "BAB include il tracciamento del ciclo, dell'energia e dell'umore, aiutando le atlete a capire come questi fattori influenzino sia le performance sportive che la vita quotidiana. L'app offre anche insight personalizzati e risorse educative sviluppate dal nostro team medico, oltre a una funzione di Q&A privata e anonima dove atlete e genitori possono ricevere risposte da professionisti della salute e atleti d'élite."
+        "a": "BAB include il tracciamento del ciclo, dell'energia e dell'umore, aiutando le atlete a capire come questi fattori influenzino le performance sportive e la vita quotidiana. Offre inoltre insight personalizzati e risorse educative basate su evidenze scientifiche, oltre a una funzione di Q&A privata e anonima. I riferimenti scientifici sono disponibili su richiesta."
       },
       {
         "q": "BAB è sicura, anonima e privata?",
-        "a": "Assolutamente sì. BAB è completamente conforme alle normative GDPR europee. Ci impegniamo a mantenere i tuoi dati sicuri, protetti, privati e anonimi. Tutti i contenuti sono revisionati da medici e professionisti dello sport per garantire che siano appropriati per l'età, basati su evidenze scientifiche e sicuri."
+        "a": "Sì. BAB è progettata per essere conforme al GDPR europeo e ci impegniamo a mantenere i dati sicuri, protetti e — per i segnali individuali — mai condivisi con coach o club. I contenuti sono sviluppati su basi scientifiche e pensati per essere appropriati all’età."
       },
       {
         "q": "Chi ha creato BAB?",
-        "a": "BAB è stata fondata da Gaia Manzone in collaborazione con un team multidisciplinare di ricercatori sportivi, medici, atleti d'élite e allenatori, uniti dalla passione per il miglioramento della salute, del benessere e delle performance delle giovani atlete."
+        "a": "BAB è stata fondata da Gaia Manzone, con il contributo di professionisti dello sport, della ricerca e della salute, uniti dalla passione per migliorare salute, benessere e performance delle giovani atlete."
       }
     ]
   },
@@ -344,7 +344,7 @@
     "faqsTitle": "F.A.Q.",
     "faqs": {
       "q1": "Come funziona la privacy dei dati biologici?",
-      "a1": "Tutti i dati sensibili, inclusi quelli sul ciclo mestruale, sono criptati e salvati in locale sul telefono dell'atleta. L'allenatore vede solo aggregati anonimi o alert generici (es. 'Consigliato scarico').",
+      "a1": "I dati sensibili, incluso il ciclo, sono cifrati e protetti, e i segnali individuali non vengono mai condivisi: l'allenatore vede solo aggregati anonimi o alert generici (es. «Consigliato scarico»).",
       "q2": "È adatta a tutti gli sport?",
       "a2": "Sì, BAB si adatta ai carichi di lavoro di ogni sport, sia di squadra che individuale.",
       "q3": "L'app è gratuita per le atlete?",
