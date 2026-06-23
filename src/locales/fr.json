@@ -273,10 +273,62 @@
     "statsSources": "Sources : Jones & Bishop (2024, n=128) ; ~1 sur 2 abandonne à la puberté ; Cowley et al. (2021) ; Horan et al. (2024). Références complètes sur demande."
   },
   "simulator": {
-    "title": "Simulateur",
-    "heading": "Essaie toi-même",
-    "intro": "Touche A, B ou C : l'avatar réagit aux signaux du corps — énergie, fréquence cardiaque, récupération. C'est ainsi que BAB rend lisible ce que ressent l'athlète, jour après jour.",
-    "cta": "Rejoindre la liste d'attente"
+    "badge": "Joue avec BAB · Démo",
+    "pageTitle": "Prends soin de ton Buddy.",
+    "footer": "30 secondes par jour. Comme un Tamagotchi — mais c'est toi. 🌱",
+    "care": {
+      "acqua": "Eau",
+      "energia": "Énergie",
+      "umore": "Humeur",
+      "calma": "Calme"
+    },
+    "careDone": "✓ Terminé",
+    "doneBtn": "🎉 Terminé ! Buddy au top",
+    "buddyDone": "MERCI ! Tu m’as gardé au top aujourd’hui 💛",
+    "buddyMax": "Je suis au max ! Touche « Terminé » 👇",
+    "buddyLow": "Hé… je suis un peu down aujourd’hui. Tu m’aides ?",
+    "buddyOk": "Je me sens mieux ! Continue comme ça 💪",
+    "close": "Fermer",
+    "hold": {
+      "title": "Verse l'eau",
+      "hint": "Maintiens jusqu'à ce que le verre soit plein",
+      "action": "Maintiens ⤵",
+      "done": "Terminé !"
+    },
+    "tap": {
+      "title": "Recharge-le !",
+      "hint": "Touche vite : sauts et étirements",
+      "action": "Touche, touche, touche ! ⚡",
+      "done": "Chargé !"
+    },
+    "cuddle": {
+      "title": "Câline le Buddy",
+      "hint": "Touche-le pour lui montrer ton affection",
+      "again": "Touche encore ({{n}}/4)",
+      "done": "💖 Câliné !"
+    },
+    "breathe": {
+      "title": "Respire avec lui",
+      "hint": "Une respiration lente ensemble : 4 secondes inspire, 4 expire",
+      "ready": "Prête ?",
+      "in": "Inspire…",
+      "out": "Expire…",
+      "great": "Très bien 😌",
+      "start": "Commence à respirer"
+    },
+    "done": {
+      "badge": "Buddy au top ! 🔥",
+      "day": "Jour 1 · reviens demain pour la série",
+      "privacy": "Tu as pris 30 secondes pour toi. Les coachs et les parents ne voient qu’un signal — jamais ton cycle, ton humeur ou les détails.",
+      "coachLabel": "Vue Coach",
+      "coachMsg": "Mia est en forme aujourd’hui. Bon moment pour travailler la technique.",
+      "parentLabel": "Vue Parent",
+      "parentMsg": "Mia va bien. Encourage-la aussi à l’entraînement, pas seulement en compétition.",
+      "ctaQuestion": "Tu veux BAB pour ta fille ou pour ton équipe ?",
+      "ctaWaitlist": "Rejoindre la liste d'attente",
+      "ctaClub": "Je suis un club →",
+      "replay": "↺ Rejouer la démo"
+    }
   },
   "faqHome": {
     "badge": "✦ F.A.Q. ✦",
