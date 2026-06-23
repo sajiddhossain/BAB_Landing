@@ -1,0 +1,58 @@
+/**
+ * @file      scripts/build-blog.mjs
+ * @summary   Genera il manifest del blog leggendo i Markdown in content/blog/{lang}/*.md
+ *            e producendo src/generated/blog.json (frontmatter + HTML + reading time).
+ *            Gira come prebuild/predev: i componenti React importano il JSON, il plugin
+ *            di prerender in vite.config.ts genera le pagine statiche da questo stesso file.
+ *            gray-matter e marked restano dipendenze SOLO di build (mai nel bundle client).
+ * @author    Sajid Hossain <sajid.hossain2009@gmail.com>
+ * @copyright (c) 2026 Breaking All Barriers. Tutti i diritti riservati.
+ */
+import fs from 'node:fs';
+import path from 'node:path';
+import matter from 'gray-matter';
+import { marked } from 'marked';
+
+const ROOT = process.cwd();
+const CONTENT_DIR = path.join(ROOT, 'content', 'blog');
+const OUT_DIR = path.join(ROOT, 'src', 'generated');
+const OUT_FILE = path.join(OUT_DIR, 'blog.json');
+const LANGS = ['it', 'en', 'fr'];
+
+marked.setOptions({ mangle: false, headerIds: false });
+
+const readingMinutes = (raw) => Math.max(1, Math.round(raw.trim().split(/\s+/).length / 200));
+
+function collect() {
+  const posts = [];
+  for (const lang of LANGS) {
+    const dir = path.join(CONTENT_DIR, lang);
+    if (!fs.existsSync(dir)) continue;
+    for (const file of fs.readdirSync(dir).filter((f) => f.endsWith('.md'))) {
+      const raw = fs.readFileSync(path.join(dir, file), 'utf8');
+      const { data, content } = matter(raw);
+      const slug = data.slug || file.replace(/\.md$/, '');
+      posts.push({
+        slug,
+        lang,
+        title: data.title || slug,
+        date: data.date ? new Date(data.date).toISOString().slice(0, 10) : null,
+        author: data.author || null,
+        excerpt: data.excerpt || '',
+        cover: data.cover || null,
+        tags: Array.isArray(data.tags) ? data.tags : [],
+        readingMinutes: readingMinutes(content),
+        html: marked.parse(content),
+      });
+    }
+  }
+  // più recenti prima
+  posts.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  return posts;
+}
+
+const posts = collect();
+fs.mkdirSync(OUT_DIR, { recursive: true });
+fs.writeFileSync(OUT_FILE, JSON.stringify({ posts }, null, 2) + '\n');
+// eslint-disable-next-line no-console
+console.log(`✓ blog: ${posts.length} articoli → src/generated/blog.json`);

@@ -19,6 +19,7 @@ const NAV_LINKS = [
   { path: '/coach', key: 'nav.coach' },
   { path: '/features', key: 'nav.features' },
   { path: '/about', key: 'nav.about' },
+  { path: '/blog', key: 'nav.blog' },
 ] as const;
 
 const SOCIALS = [
