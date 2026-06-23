@@ -118,7 +118,7 @@
     ],
     "step3Title": "3. Access",
     "emailPlaceholder": "Your email...",
-    "privacyNote": "Data 100% encrypted on device, no central databases, GDPR-minor compliant.",
+    "privacyNote": "Your data stays protected and GDPR-compliant. Individual signals are never shared with coaches or clubs.",
     "submit": "Request access ✦",
     "submitting": "Submitting...",
     "scoreLabel": "Entry score (SITG):",
@@ -165,9 +165,9 @@
     "value3Title": "Privacy as an advantage",
     "value3Desc": "Only aggregated, anonymous data, compliant with GDPR for minors. The cycle and individual health are never visible: families trust you, and you’re protected.",
     "pricingLabel": "Club subscription",
-    "pricingValue": "Custom pricing based on the number of teams",
+    "pricingValue": "Annual fee per club, based on the number of teams. Free for athletes.",
     "pricingCta": "Book a free demo",
-    "trust1": "End-to-end encryption",
+    "trust1": "Encrypted, protected data",
     "trust2": "GDPR-compliant (minors)",
     "trust3": "Aggregated data only",
     "previewLabel": "Coach Dashboard preview",
@@ -214,7 +214,7 @@
     "how2Desc": "Only aggregated, anonymous data: participation, average energy and group flags.",
     "how3Title": "Act earlier",
     "how3Desc": "Adjust load, send a note or answer the team’s questions — at the right time.",
-    "ctaReassure": "Free demo, no commitment. We’ll get back to you within a few days."
+    "ctaReassure": "We're launching with our first partner clubs. Free, no-commitment demo — we'll get back to you within a few days."
   },
   "about": {
     "missionBadge": "✦ The Mission ✦",
@@ -285,15 +285,15 @@
       },
       {
         "q": "What features does the app include?",
-        "a": "BAB includes cycle, energy and mood tracking, helping athletes understand how these factors affect both sports performance and daily life. The app also offers personalised insights and educational resources developed by our medical team, plus a private, anonymous Q&A where athletes and parents can get answers from health professionals and elite athletes."
+        "a": "BAB includes cycle, energy and mood tracking, helping athletes understand how these factors affect both sporting performance and daily life. It also offers personalised insights and educational resources based on scientific evidence, plus a private, anonymous Q&A. Scientific references are available on request."
       },
       {
         "q": "Is BAB safe, anonymous and private?",
-        "a": "Absolutely. BAB is fully compliant with European GDPR regulations. We are committed to keeping your data safe, protected, private and anonymous. All content is reviewed by doctors and sports professionals to ensure it is age-appropriate, evidence-based and safe."
+        "a": "Yes. BAB is designed to comply with EU GDPR, and we are committed to keeping data safe, protected and — for individual signals — never shared with coaches or clubs. Content is built on scientific evidence and designed to be age-appropriate."
       },
       {
         "q": "Who created BAB?",
-        "a": "BAB was founded by Gaia Manzone in collaboration with a multidisciplinary team of sports researchers, doctors, elite athletes and coaches, united by a passion for improving the health, wellbeing and performance of young athletes."
+        "a": "BAB was founded by Gaia Manzone, with the contribution of professionals in sport, research and health, united by a passion for improving the health, wellbeing and performance of young athletes."
       }
     ]
   },
@@ -344,7 +344,7 @@
     "faqsTitle": "F.A.Q.",
     "faqs": {
       "q1": "How does biological data privacy work?",
-      "a1": "All sensitive data, including menstrual cycle data, is encrypted and stored locally on the athlete's phone. The coach only sees anonymous aggregates or generic alerts (e.g., 'Rest recommended').",
+      "a1": "Sensitive data, including the menstrual cycle, is encrypted and protected, and individual signals are never shared: the coach only sees anonymous aggregates or generic alerts (e.g. 'Deload recommended').",
       "q2": "Is it suitable for all sports?",
       "a2": "Yes, BAB adapts to the workloads of every sport, whether team or individual.",
       "q3": "Is the app free for athletes?",
