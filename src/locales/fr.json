@@ -98,7 +98,13 @@
     "privacy2": "Vos données restent toujours anonymes, protégées et utilisées uniquement pour le bien-être des adolescentes.",
     "heroPhotoAlt": "Jeune athlète adolescente à l'entraînement, portrait en noir et blanc",
     "dataPhotoAlt": "Portrait d'une athlète BAB à côté des données sur l'abandon du sport chez les filles",
-    "dataSources": "Sources : ① Jones, Bishop et al. (2024), 128 athlètes d’élite, 76,8 % (PMC10912517). ② Cowley et al. (2021), « Invisible Sportswomen », WSPAJ 29(2) : 6 % des études uniquement sur des femmes. ③ Horan et al. (2024), Sports Medicine : seulement 32 études sur les blessures des athlètes de moins de 19 ans. Références complètes sur demande."
+    "dataSources": "Sources : ① Jones, Bishop et al. (2024), 128 athlètes d’élite, 76,8 % (PMC10912517). ② Cowley et al. (2021), « Invisible Sportswomen », WSPAJ 29(2) : 6 % des études uniquement sur des femmes. ③ Horan et al. (2024), Sports Medicine : seulement 32 études sur les blessures des athlètes de moins de 19 ans. Références complètes sur demande.",
+    "trustbar": {
+      "gdpr": "Conforme au RGPD",
+      "sources": "Chiffres avec sources citées",
+      "aggregate": "Uniquement des agrégats anonymes"
+    },
+    "trustbarAria": "Garanties de confiance"
   },
   "waitlist": {
     "title": "Rejoindre la liste d'attente",

@@ -98,7 +98,13 @@
     "privacy2": "I tuoi dati restano sempre anonimi, protetti e usati esclusivamente per favorire la salute e lo sviluppo delle adolescenti.",
     "heroPhotoAlt": "Giovane atleta adolescente durante un allenamento, ritratto in bianco e nero",
     "dataPhotoAlt": "Ritratto di un'atleta BAB accanto ai dati sul drop-out sportivo femminile",
-    "dataSources": "Fonti: ① Jones, Bishop et al. (2024), 128 atlete d’élite, 76,8% (PMC10912517). ② Cowley et al. (2021), «Invisible Sportswomen», WSPAJ 29(2): 6% degli studi condotto solo su donne. ③ Horan et al. (2024), Sports Medicine: solo 32 studi sugli infortuni nelle atlete under-19. Riferimenti completi su richiesta."
+    "dataSources": "Fonti: ① Jones, Bishop et al. (2024), 128 atlete d’élite, 76,8% (PMC10912517). ② Cowley et al. (2021), «Invisible Sportswomen», WSPAJ 29(2): 6% degli studi condotto solo su donne. ③ Horan et al. (2024), Sports Medicine: solo 32 studi sugli infortuni nelle atlete under-19. Riferimenti completi su richiesta.",
+    "trustbar": {
+      "gdpr": "Conforme al GDPR",
+      "sources": "Numeri con fonti citate",
+      "aggregate": "Solo dati aggregati e anonimi"
+    },
+    "trustbarAria": "Garanzie di fiducia"
   },
   "waitlist": {
     "title": "Entra in lista d'attesa",

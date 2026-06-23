@@ -98,7 +98,13 @@
     "privacy2": "Your data is always anonymous, protected, and used solely to advance teenagers' health, wellbeing, development, and performance.",
     "heroPhotoAlt": "Teenage athlete during training, black-and-white portrait",
     "dataPhotoAlt": "Portrait of a BAB athlete next to data on girls dropping out of sport",
-    "dataSources": "Sources: ① Jones, Bishop et al. (2024), 128 elite athletes, 76.8% (PMC10912517). ② Cowley et al. (2021), “Invisible Sportswomen”, WSPAJ 29(2): 6% of studies on women only. ③ Horan et al. (2024), Sports Medicine: just 32 injury studies on under-19 female athletes. Full references on request."
+    "dataSources": "Sources: ① Jones, Bishop et al. (2024), 128 elite athletes, 76.8% (PMC10912517). ② Cowley et al. (2021), “Invisible Sportswomen”, WSPAJ 29(2): 6% of studies on women only. ③ Horan et al. (2024), Sports Medicine: just 32 injury studies on under-19 female athletes. Full references on request.",
+    "trustbar": {
+      "gdpr": "GDPR-compliant",
+      "sources": "Figures with cited sources",
+      "aggregate": "Only anonymous aggregates"
+    },
+    "trustbarAria": "Trust guarantees"
   },
   "waitlist": {
     "title": "Join the waitlist",
