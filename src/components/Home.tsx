@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import FAQ from './FAQ';
 import Doodle from './Doodle';
-import { trackEvent } from '../lib/analytics';
 import type { UserType } from '../lib/leads';
 
 // Palette "voci ritrovate": spettro caldo per le affermazioni post-BAB (foto 3).
@@ -14,25 +13,8 @@ interface HomeProps {
  onNavigate?: (path: string) => void;
 }
 
-export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
+export default function Home({ onOpenWaitlist }: HomeProps) {
  const { t } = useTranslation();
- const [heroTarget, setHeroTarget] = useState<'allenatore' | 'genitore'>('allenatore');
-
- // CTA dinamica: l'allenatore va al percorso B2B "Per le Società", il genitore alla waitlist.
- const handleHeroCta = () => {
- if (heroTarget === 'allenatore') {
- trackEvent('hero_cta', { target: 'allenatore', dest: 'coach' });
- onNavigate?.('/coach');
- } else {
- trackEvent('hero_cta', { target: 'genitore', dest: 'waitlist' });
- onOpenWaitlist?.('genitore');
- }
- };
-
- const selectTarget = (target: 'allenatore' | 'genitore') => {
- setHeroTarget(target);
- trackEvent('target_switch', { target });
- };
 
  const scrollContainerRef = useRef<HTMLDivElement>(null);
  const [activeTestimonial, setActiveTestimonial] = useState(0);
@@ -150,59 +132,19 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
  </div>
  </motion.div>
 
- {/* SWITCH INTERATTIVO */}
- <motion.div 
- initial={{ opacity: 0, y: 20 }}
- animate={{ opacity: 1, y: 0 }}
- transition={{ delay: 0.4 }}
- className="w-full max-w-lg mb-6 bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] p-1 flex flex-col sm:flex-row gap-2 sm:gap-0 text-[#0F0F12]"
+ {/* CALL TO ACTION UNICA — lista d'attesa (richiesta CEO) */}
+ <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.4 }}
+  className="w-full flex justify-center lg:justify-start"
  >
- <button
- onClick={() => selectTarget('allenatore')}
- aria-pressed={heroTarget === 'allenatore'}
- className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='allenatore' ? 'bg-[#D2EC7C] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
- >
- {t('home.coachBtn')}
- </button>
- <button
- onClick={() => selectTarget('genitore')}
- aria-pressed={heroTarget === 'genitore'}
- className={`w-full sm:flex-1 py-3 sm:py-2 px-4 font-['Space_Grotesk',_sans-serif] text-xs sm:text-sm font-black uppercase tracking-wider transition-all border-[2px] border-transparent origin-bottom-left focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${heroTarget ==='genitore' ? 'bg-[#D2EC7C] border-black shadow-[inset_0_-4px_0_0_rgba(0,0,0,0.1)] text-[#0F0F12]' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
- >
- {t('home.parentBtn')}
- </button>
- </motion.div>
-
- {/* SOTTO-TESTO DINAMICO */}
- <motion.div 
- initial={{ opacity: 0 }}
- animate={{ opacity: 1 }}
- transition={{ delay: 0.5 }}
- className="min-h-[4rem] flex items-center mb-8"
- >
- <p className="font-['Space_Grotesk',_sans-serif] text-sm sm:text-base md:text-lg font-bold border-l-[4px] border-black pl-4 text-left leading-snug text-[#0F0F12]">
- {heroTarget === 'allenatore' && t('home.coachDesc')}
- {heroTarget === 'genitore' && t('home.parentDesc')}
- </p>
- </motion.div>
-
- <motion.div 
- initial={{ opacity: 0, y: 20 }}
- animate={{ opacity: 1, y: 0 }}
- transition={{ delay: 0.6 }}
- className="flex flex-col sm:flex-row items-center gap-4 w-full lg:w-auto text-[#0F0F12]"
- >
- <button
- onClick={handleHeroCta}
- className="group flex items-center justify-center w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] font-black text-xl sm:text-2xl bg-[#D2EC7C] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all duration-300 uppercase skew-btn"
- >
- <span className="skew-btn-content">{heroTarget === 'allenatore' ? t('home.ctaCoach') : t('home.ctaParent')}</span>
- </button>
- <div
- className="font-['Space_Grotesk',_sans-serif] font-bold text-[10px] sm:text-xs bg-[#EBE5FF] border-[2px] md:border-[3px] border-black px-3 md:px-4 py-2 shadow-[4px_4px_0_0_#0F0F12] cursor-default text-center skew-btn leading-tight"
- >
- <span className="skew-btn-content" dangerouslySetInnerHTML={{__html: t('home.appTag').replace('\n', '<br/>')}} />
- </div>
+  <button
+  onClick={() => onOpenWaitlist?.()}
+  className="group inline-flex items-center justify-center gap-2 w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] font-black text-xl sm:text-2xl bg-[#D2EC7C] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all duration-300 uppercase"
+  >
+  {t('nav.waitlist')} ✦
+  </button>
  </motion.div>
  </motion.div>
 
@@ -259,26 +201,19 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
  </div>
 
  {/* 1.5 LA MISSIONE */}
- <section className="w-full bg-[#143F36] py-24 px-4 text-center relative text-white border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-16 mb-16">
+ <section className="w-full bg-[#FAF9F6] py-24 px-4 text-center relative text-[#0F0F12] border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-16 mb-16">
  <div className="max-w-5xl mx-auto relative z-10">
  <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-12 skew-btn">
  <span className="skew-btn-content">{t('home.missionBadge')}</span>
  </div>
- <h2 
- className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 text-white drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] break-words max-w-full"
- style={{ WebkitTextStroke: '2px #0F0F12' }}
- >
+ <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 text-[#143F36] break-words max-w-full">
  {t('home.missionTitle')}
  </h2>
- <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-l-[4px] border-[#D2EC7C] pl-6 md:pl-10 text-left bg-black/30 p-6 md:p-8 shadow-[inset_4px_4px_0_0_rgba(0,0,0,0.5)]">
- {t('home.missionBody')} <span className="text-[#DAE69A]">{t('home.missionBodyHighlight')}</span>
+ <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-[3px] border-black border-l-[10px] border-l-[#D2EC7C] pl-6 md:pl-10 text-left bg-white p-6 md:p-8 shadow-[6px_6px_0_0_#0F0F12] text-[#0F0F12]">
+ {t('home.missionBody')} <span className="text-[#1F7A63]">{t('home.missionBodyHighlight')}</span>
  </p>
  </div>
  
- {/* Background Decorative Doodles */}
- <svg className="absolute top-0 right-0 w-64 h-64 text-[#D2EC7C] opacity-20 -rotate-12 translate-x-1/4 -translate-y-1/4" viewBox="0 0 100 100" fill="currentColor">
- <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="4" />
- </svg>
  </section>
 
  {/* 1.6 IL COSTO DEL SILENZIO — la voce dell'atleta, prima → dopo BAB (citazioni reali) */}

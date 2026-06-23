@@ -80,7 +80,7 @@ export default function About() {
  initial={{ opacity: 0, y: 30 }}
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-50px" }}
- transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1] }}
+ transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1] }}
  className="relative self-start w-11/12 sm:w-4/5 transition-transform"
  >
  <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
@@ -96,7 +96,7 @@ export default function About() {
  initial={{ opacity: 0, y: 30 }}
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-50px" }}
- transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1], delay: 0.1 }}
+ transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1], delay: 0.05 }}
  className="relative self-end w-11/12 sm:w-4/5 transition-transform"
  >
  <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
@@ -112,7 +112,7 @@ export default function About() {
  initial={{ opacity: 0, scale: 0.9 }}
  whileInView={{ opacity: 1, scale: 1 }}
  viewport={{ once: true, margin: "-50px" }}
- transition={{ duration: 0.8, ease: [0.32, 0.72, 0, 1], delay: 0.2 }}
+ transition={{ duration: 0.45, ease: [0.32, 0.72, 0, 1], delay: 0.1 }}
  className="relative w-64 sm:w-80 my-4 shadow-[12px_12px_0_0_#0F0F12] border-[4px] border-black bg-black group z-10 p-2 "
  >
  {/* doodle: decorazioni "da diario" attorno alla polaroid di Mia */}
@@ -128,7 +128,7 @@ export default function About() {
  initial={{ opacity: 0, y: 30 }}
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-50px" }}
- transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1], delay: 0.3 }}
+ transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1], delay: 0.15 }}
  className="relative self-start w-11/12 sm:w-4/5 transition-transform"
  >
  <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
@@ -144,7 +144,7 @@ export default function About() {
  initial={{ opacity: 0, y: 50, scale: 0.95 }}
  whileInView={{ opacity: 1, y: 0, scale: 1 }}
  viewport={{ once: true, margin: "-50px" }}
- transition={{ duration: 0.8, ease: [0.32, 0.72, 0, 1], delay: 0.4 }}
+ transition={{ duration: 0.45, ease: [0.32, 0.72, 0, 1], delay: 0.2 }}
  className="relative w-full transition-transform"
  >
  <div className="bg-[#DAE69A] p-2 md:p-3 border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12]">
@@ -258,7 +258,7 @@ export default function About() {
  initial={{ opacity: 0, y: 20 }}
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true }}
- transition={{ duration: 0.6, ease: [0.32, 0.72, 0, 1], delay: index * 0.1 }}
+ transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1], delay: index * 0.05 }}
  className="bg-black p-2 border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[8px_8px_0_0_#0F0F12] hover:-translate-y-1 transition-all duration-300 group"
  >
  <div className="bg-[#FAF9F6] p-2 sm:p-3 md:p-4 border-[3px] border-black h-full ">
