@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import FAQ from './FAQ';
-import Doodle, { type DoodleName } from './Doodle';
+import Doodle from './Doodle';
 import { trackEvent } from '../lib/analytics';
 import type { UserType } from '../lib/leads';
 
@@ -220,27 +220,19 @@ export default function Home({ onOpenWaitlist, onNavigate }: HomeProps) {
         </div>
       </section>
 
-      {/* TRUST-BAR statica e verificabile (ex marquee) — la prova arriva subito sotto l'hero.
-          Ogni badge è un link che porta alla prova (privacy, fonti, modello dati aggregati). */}
-      <nav aria-label={t('home.trustbarAria')} className="w-full bg-[#DAE69A] border-y-[4px] border-black py-3 sm:py-4 relative z-20 shadow-[0_4px_0_0_#0F0F12]">
-        <ul className="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-2.5 sm:gap-4 px-4">
-          {([
-            { icon: 'shield', label: t('home.trustbar.gdpr'), href: '/privacy' },
-            { icon: 'sparkle', label: t('home.trustbar.sources'), href: '#dati' },
-            { icon: 'lock', label: t('home.trustbar.aggregate'), href: '/coach' },
-          ] as { icon: DoodleName; label: string; href: string }[]).map(({ icon, label, href }) => (
-            <li key={label}>
-              <a
-                href={href}
-                className="group inline-flex items-center gap-2 min-h-[44px] bg-white border-[3px] border-black px-3.5 py-2 shadow-[3px_3px_0_0_#0F0F12] hover:-translate-y-0.5 hover:shadow-[4px_4px_0_0_#0F0F12] active:translate-y-0.5 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all"
-              >
-                <Doodle name={icon} className="w-4 h-4 shrink-0 text-[#1F7A63]" stroke={2} />
-                <span className="font-['Space_Grotesk',_sans-serif] font-black text-[11px] sm:text-xs uppercase tracking-wide text-[#0F0F12]">{label}</span>
-              </a>
-            </li>
+      {/* MARQUEE — trust badges che scorrono lenti (firma del brand). Testo già ripulito
+          dai claim non sostanziabili; aria-label localizzato e difendibile. */}
+      <div className="w-full bg-[#DAE69A] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]" role="img" aria-label={t('home.trustbarAria')}>
+        <div
+          className="flex whitespace-nowrap w-max animate-marquee motion-reduce:[animation:none]"
+          aria-hidden="true"
+        >
+          {[...Array(8)].map((_, i) => (
+            <span key={i} className="font-['Space_Grotesk',_sans-serif] font-black text-base sm:text-xl text-black uppercase tracking-wide shrink-0 px-6">
+              {t('home.marquee')}&nbsp;</span>
           ))}
-        </ul>
-      </nav>
+        </div>
+      </div>
 
       {/* 1.5 LA MISSIONE */}
       <section className="w-full bg-[#143F36] py-24 px-4 text-center relative text-white border-y-[4px] border-black shadow-[0_8px_0_0_#0F0F12] z-10 overflow-hidden mt-16 mb-16">
