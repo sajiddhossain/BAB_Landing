@@ -58,8 +58,8 @@ export default function Features() {
  key={idx} 
  initial={{ opacity: 0, y: 50 }}
  whileInView={{ opacity: 1, y: 0 }}
- viewport={{ once: true, margin: "-100px" }}
- transition={{ duration: 0.7, ease: [0.32, 0.72, 0, 1], delay: idx * 0.1 }}
+ viewport={{ once: true, margin: "-40px" }}
+ transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1], delay: idx * 0.05 }}
  className={`w-full relative z-10 p-2 md:p-3 bg-neutral-300 border-[4px] border-black shadow-[12px_12px_0_0_#0F0F12] `}
  >
  <div className={`flex flex-col gap-6 items-start w-full bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-10 text-[#0F0F12] h-full `}>
@@ -125,7 +125,7 @@ export default function Features() {
  initial={{ opacity: 0, y: 30 }}
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-50px" }}
- transition={{ duration: 0.6, ease: [0.32, 0.72, 0, 1] }}
+ transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1] }}
  className="bg-white text-[#0F0F12] overflow-hidden p-0 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]"
  >
  <button 
