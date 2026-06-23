@@ -10,7 +10,7 @@
 import { useState, useEffect, useRef, lazy, Suspense } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { initAnalytics, trackPageview, trackEvent } from './lib/analytics';
+import { initAnalytics, initWebAnalytics, trackPageview, trackEvent } from './lib/analytics';
 import { getConsent } from './lib/consent';
 import CookieBanner from './components/CookieBanner';
 import BabLogo from './components/BabLogo';
@@ -75,6 +75,11 @@ export default function App() {
       "%c✦ BAB Architecture designed & coded by Sajid Hossain (2026) ✦",
       "color: #34BBC0; font-family: monospace; font-size: 12px; font-weight: bold; background: #080C12; padding: 4px 8px; border: 1px solid #DAE69A;"
     );
+  }, []);
+
+  // Cloudflare Web Analytics: cookieless → caricata sempre, senza gate del consenso.
+  useEffect(() => {
+    initWebAnalytics();
   }, []);
 
   // Analytics: init SOLO con consenso cookie già accettato (GDPR).
