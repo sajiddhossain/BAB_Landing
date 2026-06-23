@@ -23,6 +23,7 @@ const PRERENDER_ROUTES: Record<string, string> = {
   '/privacy': 'privacy',
   '/cookie': 'cookie',
   '/termini': 'termini',
+  '/blog': 'blog',
 }
 
 // Etichette brevi per il breadcrumb (il <title> SEO è troppo lungo come nodo)
@@ -34,6 +35,7 @@ const BREADCRUMB_LABEL: Record<string, string> = {
   '/privacy': 'Privacy Policy',
   '/cookie': 'Cookie Policy',
   '/termini': 'Termini e Condizioni',
+  '/blog': 'Blog',
 }
 
 const esc = (s: string) =>
@@ -141,8 +143,81 @@ function prerenderRoutes(): Plugin {
         fs.mkdirSync(outDir, { recursive: true })
         fs.writeFileSync(path.join(outDir, 'index.html'), page)
       }
+
+      // --- Articoli del blog: una pagina statica per slug (canonica in IT) ---
+      const blogPath = path.resolve('src/generated/blog.json')
+      const blogUrls: string[] = []
+      if (fs.existsSync(blogPath)) {
+        type Post = { slug: string; lang: string; title: string; date: string | null; author: string | null; excerpt: string; cover: string | null }
+        const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
+        const bySlug = new Map<string, Post>()
+        for (const p of allPosts) {
+          const cur = bySlug.get(p.slug)
+          if (!cur || (p.lang === 'it' && cur.lang !== 'it')) bySlug.set(p.slug, p)
+        }
+        for (const post of bySlug.values()) {
+          const url = `${DOMAIN}/blog/${post.slug}`
+          let page = baseHtml
+          page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(post.title)} — BAB</title>`)
+          page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, post.excerpt)
+          page = replaceAttr(page, /(<meta property="og:title" content=")[^"]*(")/, post.title)
+          page = replaceAttr(page, /(<meta property="og:description" content=")[^"]*(")/, post.excerpt)
+          page = replaceAttr(page, /(<meta property="og:url" content=")[^"]*(")/, url)
+          page = replaceAttr(page, /(<meta property="og:type" content=")[^"]*(")/, 'article')
+          page = replaceAttr(page, /(<meta name="twitter:title" content=")[^"]*(")/, post.title)
+          page = replaceAttr(page, /(<meta name="twitter:description" content=")[^"]*(")/, post.excerpt)
+          page = replaceAttr(page, /(<link rel="canonical" href=")[^"]*(")/, url)
+          if (post.cover) {
+            page = replaceAttr(page, /(<meta property="og:image" content=")[^"]*(")/, `${DOMAIN}${post.cover}`)
+            page = replaceAttr(page, /(<meta name="twitter:image" content=")[^"]*(")/, `${DOMAIN}${post.cover}`)
+          }
+          page = page.replace(
+            /<div id="root">\s*<\/div>/,
+            `<div id="root"><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p></div>`,
+          )
+          const breadcrumb = {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: `${DOMAIN}/` },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: `${DOMAIN}/blog` },
+              { '@type': 'ListItem', position: 3, name: post.title, item: url },
+            ],
+          }
+          const blogPosting = {
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            headline: post.title,
+            description: post.excerpt,
+            ...(post.date ? { datePublished: post.date } : {}),
+            ...(post.author ? { author: { '@type': 'Person', name: post.author } } : {}),
+            ...(post.cover ? { image: `${DOMAIN}${post.cover}` } : {}),
+            inLanguage: 'it-IT',
+            mainEntityOfPage: url,
+            publisher: { '@type': 'Organization', name: 'BAB — Breaking All Barriers', url: `${DOMAIN}/` },
+          }
+          page = page.replace('</head>', `    ${[breadcrumb, blogPosting].map(ldScript).join('\n    ')}\n  </head>`)
+          const outDir = path.join(dist, 'blog', post.slug)
+          fs.mkdirSync(outDir, { recursive: true })
+          fs.writeFileSync(path.join(outDir, 'index.html'), page)
+          blogUrls.push(url)
+        }
+      }
+
+      // --- Sitemap: inserisce le URL del blog (lista + articoli) prima di </urlset> ---
+      const sitemapPath = path.join(dist, 'sitemap.xml')
+      if (fs.existsSync(sitemapPath)) {
+        let xml = fs.readFileSync(sitemapPath, 'utf8')
+        const entries = [`${DOMAIN}/blog`, ...blogUrls]
+          .filter((u) => !xml.includes(`<loc>${u}</loc>`))
+          .map((u) => `  <url>\n    <loc>${u}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.6</priority>\n  </url>`)
+          .join('\n')
+        if (entries) xml = xml.replace('</urlset>', `${entries}\n</urlset>`)
+        fs.writeFileSync(sitemapPath, xml)
+      }
+
       // eslint-disable-next-line no-console
-      console.log(`✓ prerender: ${Object.keys(PRERENDER_ROUTES).length} pagine statiche generate`)
+      console.log(`✓ prerender: ${Object.keys(PRERENDER_ROUTES).length} pagine + ${blogUrls.length} articoli blog`)
     },
   }
 }

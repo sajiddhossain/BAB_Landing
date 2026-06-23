@@ -26,6 +26,8 @@ const CoachDashboard = lazy(() => import('./components/CoachDashboard'));
 const Features = lazy(() => import('./components/Features'));
 const About = lazy(() => import('./components/About'));
 const LegalPage = lazy(() => import('./components/LegalPage'));
+const Blog = lazy(() => import('./components/Blog'));
+const BlogPost = lazy(() => import('./components/BlogPost'));
 const WaitlistModal = lazy(() => import('./components/WaitlistModal'));
 
 // Normalizza il path: rimuove lo slash finale (/coach/ → /coach), così il match
@@ -120,9 +122,13 @@ export default function App() {
     const map: Record<string, string> = {
       '/': 'home', '/app': 'app', '/coach': 'coach', '/features': 'features',
       '/about': 'about', '/privacy': 'privacy', '/cookie': 'cookie', '/termini': 'termini',
+      '/blog': 'blog',
     };
-    const isUnknown = !(currentPath in map);
-    const key = map[currentPath] ?? 'home';
+    // Gli articoli (/blog/:slug) usano i meta SEO del blog lato client; il crawler
+    // riceve comunque title/desc per-articolo dalla pagina statica prerenderizzata.
+    const isBlogRoute = currentPath === '/blog' || currentPath.startsWith('/blog/');
+    const isUnknown = !(currentPath in map) && !isBlogRoute;
+    const key = isBlogRoute ? 'blog' : (map[currentPath] ?? 'home');
     document.title = isUnknown ? `${t('notFound.title')} — BAB` : t(`seo.${key}.title`);
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
@@ -208,9 +214,14 @@ export default function App() {
     { path: '/about', label: t('nav.about') },
   ];
 
+  // Blog: lista su /blog, articolo su /blog/:slug (lo slug è validato da BlogPost)
+  const isBlogList = currentPath === '/blog';
+  const blogSlug = currentPath.startsWith('/blog/') ? decodeURIComponent(currentPath.slice('/blog/'.length)) : null;
+  const isBlogRoute = isBlogList || blogSlug !== null;
+
   // Route sconosciuta → pagina 404 in-brand (non un finto rendering della Home)
-  const knownPaths = ['/', '/app', '/coach', '/features', '/about', '/privacy', '/cookie', '/termini'];
-  const isNotFound = !knownPaths.includes(currentPath);
+  const knownPaths = ['/', '/app', '/coach', '/features', '/about', '/privacy', '/cookie', '/termini', '/blog'];
+  const isNotFound = !knownPaths.includes(currentPath) && !isBlogRoute;
   const activePath = currentPath;
 
   return (
@@ -372,6 +383,8 @@ export default function App() {
         <Suspense fallback={<RouteFallback />}>
           <AnimatePresence mode="wait">
             {isNotFound && <NotFound key="404" onNavigate={navigate} />}
+            {isBlogList && <Blog key="blog" />}
+            {blogSlug && <BlogPost key={`blog-${blogSlug}`} slug={blogSlug} onNavigate={navigate} />}
             {activePath === '/' && <Home key="home" onOpenWaitlist={openWaitlist} onNavigate={navigate} />}
             {activePath === '/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
             {activePath === '/coach' && <CoachDashboard key="coach" />}
