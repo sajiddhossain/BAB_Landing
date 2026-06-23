@@ -1,18 +1,11 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import BabBuddy from './BabBuddy';
 
 export default function Features() {
  const { t } = useTranslation();
  const [tamagotchiState, setTamagotchiState] = useState<'default' | 'active' | 'down'>('default');
- const [openFaq, setOpenFaq] = useState<string | null>(null);
-
- const faqs = [
- { id: '1', q: t('features.faqs.q1'), a: t('features.faqs.a1') },
- { id: '2', q: t('features.faqs.q2'), a: t('features.faqs.a2') },
- { id: '3', q: t('features.faqs.q3'), a: t('features.faqs.a3') },
- ];
 
  const modules = [
  { num: '01', title: t('features.modules.m1.title'), desc: t('features.modules.m1.desc'), hasWidget: true },
@@ -115,48 +108,7 @@ export default function Features() {
  })}
  </div>
 
- {/* FAQ Section Neobrutalism Folders */}
- <div className="pt-24 md:pt-32 border-t-[4px] border-black mt-16">
- <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl font-black mb-16 text-center uppercase drop-shadow-[4px_4px_0_rgba(15,15,18,1)] text-[#0F0F12] tracking-tighter">{t('features.faqsTitle')}</h3>
- <div className="flex flex-col gap-8">
- {faqs.map(faq => (
- <motion.div 
- key={faq.id} 
- initial={{ opacity: 0, y: 30 }}
- whileInView={{ opacity: 1, y: 0 }}
- viewport={{ once: true, margin: "-50px" }}
- transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1] }}
- className="bg-white text-[#0F0F12] overflow-hidden p-0 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]"
- >
- <button 
- onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)}
- aria-expanded={openFaq === faq.id}
- className={`w-full px-6 py-5 flex justify-between items-center text-left border-b-[3px] border-transparent transition-all duration-300 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[-3px] focus-visible:outline-[#0F0F12] ${openFaq === faq.id ? 'bg-[#D2EC7C] border-black' : 'hover:bg-neutral-100 hover:text-vividteal'}`}
- >
- <span className="font-black uppercase pr-8 text-sm sm:text-base tracking-tight">{faq.q}</span>
- <span className={`text-2xl font-black transition-transform duration-300 ease-in-out ${openFaq === faq.id ? 'rotate-45 scale-110' : 'rotate-0'}`}>
- +
- </span>
- </button>
- <AnimatePresence initial={false}>
- {openFaq === faq.id && (
- <motion.div 
- initial={{ height: 0, opacity: 0 }}
- animate={{ height: "auto", opacity: 1 }}
- exit={{ height: 0, opacity: 0 }}
- transition={{ duration: 0.3, ease: "easeInOut" }}
- className="overflow-hidden"
- >
- <div className="px-6 py-6 font-extrabold text-sm leading-relaxed bg-[#FAF9F6] border-t-[3px] border-black">
- {faq.a}
- </div>
- </motion.div>
- )}
- </AnimatePresence>
- </motion.div>
- ))}
- </div>
- </div>
+ {/* FAQ rimosse da /features (le FAQ restano sulla home). */}
 
  </div>
 
