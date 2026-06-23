@@ -16,7 +16,6 @@ const DOMAIN = 'https://www.babsport.com'
 
 // Rotte da pre-renderizzare → chiave SEO nel locale IT
 const PRERENDER_ROUTES: Record<string, string> = {
-  '/coach': 'coach',
   '/features': 'features',
   '/app': 'app',
   '/about': 'about',
@@ -28,7 +27,6 @@ const PRERENDER_ROUTES: Record<string, string> = {
 
 // Etichette brevi per il breadcrumb (il <title> SEO è troppo lungo come nodo)
 const BREADCRUMB_LABEL: Record<string, string> = {
-  '/coach': 'Per le Società',
   '/features': 'Funzionalità',
   '/app': "L'App",
   '/about': 'Chi siamo',
