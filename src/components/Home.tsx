@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import FAQ from './FAQ';
-import Doodle from './Doodle';
+import Doodle, { type DoodleName } from './Doodle';
 import type { UserType } from '../lib/leads';
 
 // Palette "voci ritrovate": spettro caldo per le affermazioni post-BAB (foto 3).
@@ -10,6 +10,15 @@ const BAB_MARK = ['#D4F46A', '#8FD4E8', '#FF8FB1', '#B8A9E8', '#D4F46A', '#FFC04
 
 // Colori y2k per le card della community (chiari → testo scuro leggibile).
 const TESTI_COLORS = ['#EBE5FF', '#8FD4E8', '#FFE3D1', '#D2EC7C'];
+
+// Marquee: doodle disegnati a mano (no emoji) + voce "Lista d'attesa".
+const MARQUEE_ITEMS: { d: DoodleName; k: string }[] = [
+  { d: 'shield', k: 'home.marqueeGdpr' },
+  { d: 'sparkle', k: 'home.marqueeScience' },
+  { d: 'star', k: 'home.marqueeElite' },
+  { d: 'heart', k: 'home.marqueePuberty' },
+  { d: 'arrowCurl', k: 'home.marqueeWaitlist' },
+];
 
 interface HomeProps {
  onOpenWaitlist?: (target?: UserType) => void;
@@ -189,16 +198,20 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  </div>
  </section>
 
- {/* MARQUEE — trust badges che scorrono lenti (firma del brand). Testo già ripulito
- dai claim non sostanziabili; aria-label localizzato e difendibile. */}
+ {/* MARQUEE — badge che scorrono lenti (firma del brand), con doodle disegnati
+ a mano invece delle emoji; include la voce "Lista d'attesa". */}
  <div className="w-full bg-[#DAE69A] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]" role="img" aria-label={t('home.trustbarAria')}>
  <div
- className="flex whitespace-nowrap w-max animate-marquee motion-reduce:[animation:none]"
+ className="flex items-center whitespace-nowrap w-max animate-marquee motion-reduce:[animation:none]"
  aria-hidden="true"
  >
- {[...Array(8)].map((_, i) => (
- <span key={i} className="font-['Space_Grotesk',_sans-serif] font-black text-base sm:text-xl text-black uppercase tracking-wide shrink-0 px-6">
- {t('home.marquee')}&nbsp;</span>
+ {[...Array(6)].map((_, rep) => (
+ MARQUEE_ITEMS.map((m, i) => (
+ <span key={`${rep}-${i}`} className="inline-flex items-center gap-2.5 px-6 shrink-0">
+ <Doodle name={m.d} className="w-5 h-5 shrink-0 text-black" stroke={2} />
+ <span className="font-['Space_Grotesk',_sans-serif] font-black text-base sm:text-lg text-black uppercase tracking-wide">{t(m.k)}</span>
+ </span>
+ ))
  ))}
  </div>
  </div>

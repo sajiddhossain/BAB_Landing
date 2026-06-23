@@ -170,7 +170,7 @@ body::after {
   to { transform: translateX(-50%); }
 }
 .animate-marquee {
-  animation: bab-marquee 18s linear infinite;
+  animation: bab-marquee 30s linear infinite;
   will-change: transform;
 }
 
