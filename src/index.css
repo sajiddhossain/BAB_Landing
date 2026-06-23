@@ -145,13 +145,12 @@ body::after {
   transform: scaleX(1);
 }
 
-/* Skewed Button Utility */
+/* Pulsanti: box dritti (niente parallelogramma) — richiesta CEO.
+   Le classi restano per non toccare ogni markup, ma senza skew. */
 .skew-btn {
-  transform: skewX(-12deg);
   display: inline-flex;
 }
 .skew-btn-content {
-  transform: skewX(12deg);
   display: inline-block;
 }
 
