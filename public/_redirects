@@ -1,0 +1,6 @@
+# Netlify SPA fallback: gli URL senza un file statico corrispondente vengono serviti
+# da index.html (status 200), così React monta e mostra il 404 in-brand.
+# Le pagine prerenderizzate (/coach, /blog/<slug>, ...) hanno il proprio index.html
+# e vengono servite direttamente: il catch-all scatta solo per i path inesistenti.
+# Inerte su Vercel (che usa vercel.json) → sicuro su entrambi gli host.
+/*    /index.html   200
