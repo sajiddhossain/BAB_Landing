@@ -8,6 +8,9 @@ import type { UserType } from '../lib/leads';
 // Palette "voci ritrovate": spettro caldo per le affermazioni post-BAB (foto 3).
 const BAB_MARK = ['#D4F46A', '#8FD4E8', '#FF8FB1', '#B8A9E8', '#D4F46A', '#FFC042', '#FF8FB1'];
 
+// Colori y2k per le card della community (chiari → testo scuro leggibile).
+const TESTI_COLORS = ['#EBE5FF', '#8FD4E8', '#FFE3D1', '#D2EC7C'];
+
 interface HomeProps {
  onOpenWaitlist?: (target?: UserType) => void;
  onNavigate?: (path: string) => void;
@@ -386,27 +389,29 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  50% → 6% → 0%: più il bisogno si fa specifico, meno se ne sa.
  Numeri cavi allineati (stesso contorno ink + ombra-accento); lo 0% è
  il terminale — l'assenza — che BAB colma. */}
- <ol className="mt-12 sm:mt-16 flex flex-col">
+ {/* Numeri come "pezzi di carta col scotch": card dritte, solo il nastro è inclinato */}
+ <ol className="mt-12 sm:mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8">
 
- {/* 50% */}
- <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-t-[3px] border-black/10">
- <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.2em] sm:w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 #D2EC7C' }}>{t('home.data1Val')}</span>
- <p className="flex-1 font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data1Desc')}</p>
+ {/* 77% */}
+ <li className="relative bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] px-6 pt-10 pb-6">
+ <span aria-hidden="true" className="absolute -top-3 left-7 w-16 h-6 rotate-[-6deg] opacity-85 shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#FFC042', clipPath: 'polygon(0 8%,100% 0,98% 92%,2% 100%)' }}></span>
+ <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#FFC042', textShadow: '3px 3px 0 #0F0F12' }}>{t('home.data1Val')}</span>
+ <p className="font-extrabold uppercase text-xs sm:text-sm tracking-tight leading-snug">{t('home.data1Desc')}</p>
  </li>
 
  {/* 6% */}
- <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-t-[3px] border-black/10">
- <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.2em] sm:w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 var(--color-coral)' }}>{t('home.data2Val')}</span>
- <p className="flex-1 font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data2Desc')}</p>
+ <li className="relative bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] px-6 pt-10 pb-6">
+ <span aria-hidden="true" className="absolute -top-3 left-7 w-16 h-6 rotate-[5deg] opacity-85 shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#EBE5FF', clipPath: 'polygon(0 8%,100% 0,98% 92%,2% 100%)' }}></span>
+ <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#34BBC0', textShadow: '3px 3px 0 #0F0F12' }}>{t('home.data2Val')}</span>
+ <p className="font-extrabold uppercase text-xs sm:text-sm tracking-tight leading-snug">{t('home.data2Desc')}</p>
  </li>
 
- {/* ~0% — il terminale: il vuoto che BAB colma */}
- <li className="flex items-center gap-5 sm:gap-10 py-5 sm:py-7 border-y-[3px] border-black/10">
- <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl leading-[0.8] font-black text-transparent shrink-0 w-[2.2em] sm:w-[2.5em] text-right" style={{ WebkitTextStroke: '3px #0F0F12', textShadow: '4px 4px 0 var(--color-coral)' }}>{t('home.data3Val')}</span>
- <div className="flex-1">
- <p className="font-extrabold uppercase text-sm sm:text-base tracking-tight leading-snug">{t('home.data3Desc')}</p>
+ {/* ~0% — il vuoto che BAB colma */}
+ <li className="relative bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] px-6 pt-10 pb-6">
+ <span aria-hidden="true" className="absolute -top-3 left-7 w-16 h-6 rotate-[-4deg] opacity-85 shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#8FD4E8', clipPath: 'polygon(0 8%,100% 0,98% 92%,2% 100%)' }}></span>
+ <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#1F7A63', textShadow: '3px 3px 0 #0F0F12' }}>{t('home.data3Val')}</span>
+ <p className="font-extrabold uppercase text-xs sm:text-sm tracking-tight leading-snug">{t('home.data3Desc')}</p>
  <p className="mt-2 font-black uppercase text-[11px] tracking-widest text-deepteal">↳ {t('home.dataVoid')}</p>
- </div>
  </li>
 
  </ol>
@@ -453,7 +458,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  >
  {testimonials.map((item, i) => {
  return (
- <div key={i} className="relative snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between bg-[#FAF9F6] text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform crosshairs hover:-translate-y-2">
+ <div key={i} style={{ backgroundColor: TESTI_COLORS[i % TESTI_COLORS.length] }} className="relative snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform crosshairs hover:-translate-y-2">
  <div className="telemetry-line"></div>
  <p className="text-base sm:text-lg font-extrabold leading-relaxed mb-8 border-l-[4px] border-black pl-4 sm:pl-6 relative ">
  <span className="absolute -left-3 -top-3 text-4xl opacity-20 font-serif font-black" aria-hidden="true">"</span>

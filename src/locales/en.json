@@ -54,16 +54,16 @@
     "bivioParentP2": "Sleep and nutrition advice",
     "bivioParentP3": "Total privacy guaranteed (GDPR)",
     "bivioParentCta": "REQUEST ACCESS FOR MY DAUGHTER ✦",
-    "dataBadge": "A Systemic Problem",
-    "dataTitle": "Women are treated as miniature men,<br/>and girls as small women.",
-    "dataSubtitle": "The numbers speak:",
+    "dataBadge": "A systemic problem",
+    "dataTitle": "Women are treated as small men,<br/>and girls as small women.",
+    "dataSubtitle": "The numbers show it:",
     "data1Val": "77%",
     "data1Desc": "Believe their menstrual cycle negatively affects athletic performance",
     "data2Val": "6%",
-    "data2Desc": "Of all sports research is conducted exclusively on female athletes",
+    "data2Desc": "Of all sports research is conducted exclusively on women athletes",
     "data3Val": "~0%",
     "data3Desc": "Scientific research on injuries in adolescent female athletes",
-    "dataVoid": "The void BAB fills",
+    "dataVoid": "The gap BAB fills",
     "testimonialsTitle": "What Our Community Says About What BAB Is Building",
     "missionBadge": "The BAB Platform",
     "missionTitle": "BAB is your coach off the pitch.",
@@ -98,8 +98,8 @@
     "privacy1": "Only if you give consent, the data you track contributes to anonymous scientific research aimed at improving the health, wellbeing, and performance of both you and other young athletes. Together, we're helping close the gaps in youth and sports research.",
     "privacy2": "Your data is always anonymous, protected, and used solely to advance teenagers' health, wellbeing, development, and performance.",
     "heroPhotoAlt": "Teenage athlete during training, black-and-white portrait",
-    "dataPhotoAlt": "Portrait of a BAB athlete next to data on girls dropping out of sport",
-    "dataSources": "Sources: ① Jones, Bishop et al. (2024), 128 elite athletes, 76.8% (PMC10912517). ② Cowley et al. (2021), “Invisible Sportswomen”, WSPAJ 29(2): 6% of studies on women only. ③ Horan et al. (2024), Sports Medicine: just 32 injury studies on under-19 female athletes. Full references on request.",
+    "dataPhotoAlt": "Portrait of a BAB athlete next to data on female sport drop-out",
+    "dataSources": "Sources: ① Jones, Bishop et al. (2024), 128 elite athletes, 76.8% (PMC10912517). ② Cowley et al. (2021), «Invisible Sportswomen», WSPAJ 29(2): 6% of studies on women only. ③ Horan et al. (2024), Sports Medicine: only 32 studies on injuries in under-19 athletes. Full references on request.",
     "trustbar": {
       "gdpr": "GDPR-compliant",
       "sources": "Figures with cited sources",
@@ -284,23 +284,23 @@
     "items": [
       {
         "q": "What is the BAB app?",
-        "a": "We believe teenage girls shouldn't have to face everything on their own. That's why BAB gives parents, coaches and clubs the right tools and resources to understand and best support young athletes throughout their journey."
+        "a": "We believe that teens should not have to figure it all out alone. That's why BAB also gives parents, caregivers, coaches, and clubs access to the right tools and resources to better understand and support young athletes throughout their journey."
       },
       {
         "q": "Who is BAB for?",
-        "a": "BAB is designed primarily to support girls and young women who menstruate and play sport."
+        "a": "BAB is primarily designed to support girls and young people who experience periods and practice sport.\nThe app also offers personalised insights and educational resources developed by our research and medical teams, as well as a private and anonymous Q&A feature where teens and parents can ask questions and receive answers from elite athletes and healthcare professionals."
       },
       {
-        "q": "What features does the app include?",
-        "a": "BAB includes cycle, energy and mood tracking, helping athletes understand how these factors affect both sporting performance and daily life. It also offers personalised insights and educational resources based on scientific evidence, plus a private, anonymous Q&A. Scientific references are available on request."
+        "q": "What features does the BAB app include?",
+        "a": "BAB includes period tracking, energy tracking, and mood tracking, helping teenage athletes understand how these factors influence both their athletic performance and everyday life.\nThe app also offers personalised insights and educational resources developed by our research and medical teams, as well as a private and anonymous Q&A feature where teens and parents can ask questions and receive answers from elite athletes and healthcare professionals."
       },
       {
-        "q": "Is BAB safe, anonymous and private?",
-        "a": "Yes. BAB is designed to comply with EU GDPR, and we are committed to keeping data safe, protected and — for individual signals — never shared with coaches or clubs. Content is built on scientific evidence and designed to be age-appropriate."
+        "q": "Is BAB safe, anonymous, and private?",
+        "a": "Yes. BAB is fully compliant with EU GDPR regulations, and we are committed to keeping your data safe, secure, private, and anonymous.\nWe also ensure that all content and features are reviewed by medical professionals and sports experts to guarantee that they are age-appropriate, evidence-based, and safe for young athletes."
       },
       {
         "q": "Who created BAB?",
-        "a": "BAB was founded by Gaia Manzone, with the contribution of professionals in sport, research and health, united by a passion for improving the health, wellbeing and performance of young athletes."
+        "a": "BAB was founded by Gaia Manzone in collaboration with a multidisciplinary team of sports researchers, doctors, elite athletes, and coaches who are passionate about improving health, wellbeing, and performance outcomes for young athletes."
       }
     ]
   },

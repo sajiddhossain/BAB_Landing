@@ -54,15 +54,15 @@
     "bivioParentP2": "Conseils sur le sommeil et la nutrition",
     "bivioParentP3": "Confidentialité totale garantie (RGPD)",
     "bivioParentCta": "DEMANDER L'ACCÈS POUR MA FILLE ✦",
-    "dataBadge": "Un Problème Systémique",
-    "dataTitle": "Les femmes sont traitées comme des hommes miniatures,<br/>et les filles comme de petites femmes.",
+    "dataBadge": "Un problème systémique",
+    "dataTitle": "Les femmes sont traitées comme de petits hommes,<br/>et les filles comme de petites femmes.",
     "dataSubtitle": "Les chiffres parlent :",
     "data1Val": "77%",
-    "data1Desc": "Estiment que leur cycle menstruel nuit à leur performance sportive",
+    "data1Desc": "Estiment que leur cycle menstruel nuit à la performance sportive",
     "data2Val": "6%",
     "data2Desc": "De la recherche sportive totale porte exclusivement sur des athlètes femmes",
     "data3Val": "~0%",
-    "data3Desc": "La recherche scientifique sur les blessures des jeunes athlètes féminines",
+    "data3Desc": "La recherche scientifique sur les blessures des athlètes adolescentes",
     "dataVoid": "Le vide que BAB comble",
     "testimonialsTitle": "Ce que notre communauté dit de BAB",
     "missionBadge": "La plateforme BAB",
@@ -98,7 +98,7 @@
     "privacy1": "Avec votre accord, vos données contribuent à la recherche scientifique anonyme pour améliorer la santé et les performances des jeunes athlètes. Ensemble, comblons les lacunes de la recherche sportive.",
     "privacy2": "Vos données restent toujours anonymes, protégées et utilisées uniquement pour le bien-être des adolescentes.",
     "heroPhotoAlt": "Jeune athlète adolescente à l'entraînement, portrait en noir et blanc",
-    "dataPhotoAlt": "Portrait d'une athlète BAB à côté des données sur l'abandon du sport chez les filles",
+    "dataPhotoAlt": "Portrait d'une athlète BAB à côté des données sur l'abandon sportif féminin",
     "dataSources": "Sources : ① Jones, Bishop et al. (2024), 128 athlètes d’élite, 76,8 % (PMC10912517). ② Cowley et al. (2021), « Invisible Sportswomen », WSPAJ 29(2) : 6 % des études uniquement sur des femmes. ③ Horan et al. (2024), Sports Medicine : seulement 32 études sur les blessures des athlètes de moins de 19 ans. Références complètes sur demande.",
     "trustbar": {
       "gdpr": "Conforme au RGPD",
@@ -284,23 +284,23 @@
     "items": [
       {
         "q": "Qu'est-ce que l'application BAB ?",
-        "a": "Nous pensons que les adolescentes ne devraient pas tout affronter seules. C'est pourquoi BAB donne aux parents, aux entraîneurs et aux clubs les bons outils et ressources pour comprendre et soutenir au mieux les jeunes athlètes tout au long de leur parcours."
+        "a": "Nous pensons que les adolescentes ne devraient pas avoir à tout gérer seules. C'est pourquoi BAB donne aussi aux parents, aux accompagnants, aux entraîneurs et aux clubs l'accès aux bons outils et ressources pour mieux comprendre et soutenir les jeunes athlètes tout au long de leur parcours."
       },
       {
         "q": "À qui s'adresse BAB ?",
-        "a": "BAB est conçue principalement pour soutenir les filles et les jeunes femmes qui ont leurs règles et pratiquent un sport."
+        "a": "BAB est principalement conçue pour soutenir les filles et les jeunes qui ont leurs règles et pratiquent un sport.\nL'application offre aussi des informations personnalisées et des ressources éducatives développées par nos équipes de recherche et médicale, ainsi qu'une fonction de questions-réponses privée et anonyme où adolescentes et parents peuvent poser des questions et recevoir des réponses d'athlètes d'élite et de professionnels de santé."
       },
       {
-        "q": "Quelles fonctionnalités comprend l'application ?",
-        "a": "BAB inclut le suivi du cycle, de l'énergie et de l'humeur, aidant les athlètes à comprendre comment ces facteurs influencent les performances sportives et la vie quotidienne. L'application offre aussi des informations personnalisées et des ressources éducatives fondées sur des preuves scientifiques, ainsi qu'une fonction de questions-réponses privée et anonyme. Les références scientifiques sont disponibles sur demande."
+        "q": "Quelles fonctionnalités l'application BAB inclut-elle ?",
+        "a": "BAB inclut le suivi du cycle, de l'énergie et de l'humeur, aidant les athlètes adolescentes à comprendre comment ces facteurs influencent à la fois leurs performances sportives et leur vie quotidienne.\nL'application offre aussi des informations personnalisées et des ressources éducatives développées par nos équipes de recherche et médicale, ainsi qu'une fonction de questions-réponses privée et anonyme où adolescentes et parents peuvent poser des questions et recevoir des réponses d'athlètes d'élite et de professionnels de santé."
       },
       {
         "q": "BAB est-elle sûre, anonyme et privée ?",
-        "a": "Oui. BAB est conçue pour être conforme au RGPD européen, et nous nous engageons à garder les données sûres, protégées et — pour les signaux individuels — jamais partagées avec les coachs ou les clubs. Les contenus sont fondés sur des preuves scientifiques et pensés pour être adaptés à l'âge."
+        "a": "Oui. BAB est pleinement conforme au RGPD européen, et nous nous engageons à garder vos données sûres, sécurisées, privées et anonymes.\nNous veillons également à ce que tous les contenus et fonctionnalités soient examinés par des professionnels de santé et des experts du sport, afin de garantir qu'ils sont adaptés à l'âge, fondés sur des preuves et sûrs pour les jeunes athlètes."
       },
       {
         "q": "Qui a créé BAB ?",
-        "a": "BAB a été fondée par Gaia Manzone, avec la contribution de professionnels du sport, de la recherche et de la santé, unis par la passion d'améliorer la santé, le bien-être et les performances des jeunes athlètes."
+        "a": "BAB a été fondée par Gaia Manzone en collaboration avec une équipe pluridisciplinaire de chercheurs en sport, de médecins, d'athlètes d'élite et d'entraîneurs, animés par la passion d'améliorer la santé, le bien-être et les performances des jeunes athlètes."
       }
     ]
   },

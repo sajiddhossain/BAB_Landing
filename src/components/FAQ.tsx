@@ -68,7 +68,7 @@ export default function FAQ() {
  exit={{ height: 0, opacity: 0 }}
  transition={{ duration: 0.3, ease: 'easeInOut' }}
  >
- <div className="p-4 sm:p-5 pt-0 border-t-[2px] font-['Space_Grotesk',_sans-serif] font-bold text-sm sm:text-base leading-relaxed text-black border-black">
+ <div className="p-4 sm:p-5 pt-0 border-t-[2px] font-['Space_Grotesk',_sans-serif] font-bold text-sm sm:text-base leading-relaxed text-black border-black whitespace-pre-line">
  {faq.a}
  </div>
  </motion.div>
