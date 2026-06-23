@@ -323,7 +323,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  {t('home.bivioCoachTitle1')}<br/>
  {t('home.bivioCoachTitle2')}
  </h3>
- <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg leading-relaxed border-l-[4px] border-[#D2EC7C] pl-6 mb-12 opacity-90">
+ <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg leading-relaxed border-l-[4px] border-[#D2EC7C] pl-6 mb-12 md:min-h-[150px] opacity-90">
  {t('home.bivioCoachDesc')}
  </p>
  <ul className="space-y-4 font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg mb-12 flex-grow opacity-90">
@@ -352,7 +352,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  {t('home.bivioParentTitle1')}<br/>
  {t('home.bivioParentTitle2')}
  </h3>
- <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg leading-relaxed border-l-[4px] border-[#34BBC0] pl-6 mb-12 opacity-90">
+ <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg leading-relaxed border-l-[4px] border-[#34BBC0] pl-6 mb-12 md:min-h-[150px] opacity-90">
  {t('home.bivioParentDesc')}
  </p>
  <ul className="space-y-4 font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg mb-12 flex-grow opacity-90">
