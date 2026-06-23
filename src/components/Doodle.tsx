@@ -10,7 +10,8 @@ import type { CSSProperties } from 'react';
 
 export type DoodleName =
   | 'sparkle' | 'star' | 'arrow' | 'arrowCurl' | 'circle'
-  | 'underline' | 'heart' | 'squiggle' | 'burst' | 'spiral';
+  | 'underline' | 'heart' | 'squiggle' | 'burst' | 'spiral'
+  | 'lock' | 'shield';
 
 interface DoodleProps {
   name: DoodleName;
@@ -87,6 +88,24 @@ const PATHS: Record<DoodleName, { vb: string; el: React.ReactNode; fill?: boolea
   spiral: {
     vb: '0 0 32 32',
     el: <path d="M16 16c0-2 3-2 3 1 0 4-5 4-6-1-1-6 6-7 9 0 3 8-7 11-12 4" />,
+  },
+  // Lucchetto disegnato a mano (corpo leggermente storto + archetto + buco chiave)
+  lock: {
+    vb: '0 0 24 24',
+    el: <>
+      <path d="M5.6 11.4Q5 11.5 5 12.2L5.2 20Q5.2 21 6.2 21L18 20.9Q19 20.9 19 19.9L18.7 12.1Q18.7 11.4 18 11.4" />
+      <path d="M8 11.3C7.7 8.6 8.4 6.1 12 6.2 15.5 6.3 16.1 8.9 15.9 11.4" />
+      <circle cx="11.9" cy="15" r="1.4" fill="currentColor" stroke="none" />
+      <path d="M11.9 16.2 12 18.3" />
+    </>,
+  },
+  // Scudo a mano con spunta (privacy/sicurezza)
+  shield: {
+    vb: '0 0 24 24',
+    el: <>
+      <path d="M12 2.9C12 2.9 16 5.1 19 5.4 19.1 11.6 16.3 17.7 12 20.9 7.7 17.7 4.9 11.6 5 5.4 8 5.1 12 2.9 12 2.9Z" />
+      <path d="M8.8 11.5 11 13.9 15.4 9" />
+    </>,
   },
 };
 
