@@ -505,19 +505,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  {/* 6. MANIFESTO + PRIVACY (chiusura Home — il footer globale è in App.tsx) */}
  <section className="w-full max-w-4xl mx-auto px-4 py-24 text-center relative text-[#0F0F12]">
  
- {/* Doodle abstract bg for the footer title */}
- <svg className="absolute top-0 left-1/2 -translate-x-1/2 w-[150%] h-64 opacity-20 -z-10 pointer-events-none" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
- <path fill="#D2EC7C" d="M10 50 Q 50 0 150 50 T 190 50 Q 100 100 10 50 Z" />
- </svg>
-
- <div className="mb-16 inline-block bg-white border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-12 relative crosshairs">
- <h2 
- className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-tight text-[#0F0F12] tracking-tighter " 
- style={{ WebkitTextStroke: '2px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}
- dangerouslySetInnerHTML={{__html: t('home.footerTitle')}}
- />
- </div>
-
+ {/* Il motto "Reach your personal best…" è stato spostato nel footer (sotto la tagline). */}
  <div className="bg-white text-[#0F0F12] border-[4px] border-black p-8 sm:p-12 text-left shadow-[8px_8px_0_0_#0F0F12] relative max-w-3xl mx-auto crosshairs">
  <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-[#D2EC7C] inline-block px-4 py-2 tracking-tight skew-btn"><span className="skew-btn-content">{t('home.privacyTitle')}</span></h3>
  <div className=" font-['Space_Grotesk',_sans-serif] font-bold">
