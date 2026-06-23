@@ -390,3 +390,11 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
  </div>
  );
 }
+
+/**
+ * WaitlistPanel — variante del modale SENZA overlay fixed, pensata per le preview
+ * del design system (claude.ai/design). Rende solo il pannello del quiz/email.
+ */
+export function WaitlistPanel({ target }: { target?: UserType }) {
+  return <WaitlistPanelContent onClose={() => {}} target={target} />;
+}
