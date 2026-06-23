@@ -48,11 +48,11 @@
     "bivioCoachCta": "ACTIVER BAB POUR MON CLUB ✦",
     "bivioParentBadge": "PARENT - FAMILLE",
     "bivioParentTitle1": "Soutenir.",
-    "bivioParentTitle2": "Sans contrôler.",
-    "bivioParentDesc": "Recevez des conseils pratiques sur le sommeil et la nutrition. Sans jamais voir les données biologiques de votre fille. Sa vie privée est absolue.",
-    "bivioParentP1": "Notifications de bien-être hebdomadaires",
-    "bivioParentP2": "Conseils sur le sommeil et la nutrition",
-    "bivioParentP3": "Confidentialité totale garantie (RGPD)",
+    "bivioParentTitle2": "Comme elle en a besoin.",
+    "bivioParentDesc": "BAB offre des outils pratiques et des ressources interactives pour t’aider à soutenir le développement, le bien-être et la performance de ta fille — avec une approche adaptée à ses besoins individuels.",
+    "bivioParentP1": "Des informations qui respectent sa vie privée et son espace personnel",
+    "bivioParentP2": "Validé cliniquement",
+    "bivioParentP3": "Sûr et sécurisé",
     "bivioParentCta": "DEMANDER L'ACCÈS POUR MA FILLE ✦",
     "dataBadge": "Un problème systémique",
     "dataTitle": "Les femmes sont traitées comme <mark style=\"background-color:#8FD4E8;color:#0F0F12;box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:0 0.12em;\">de petits hommes,</mark><br/>et les filles comme de petites femmes.",
@@ -111,7 +111,8 @@
     "marqueeElite": "Conçu avec des athlètes d’élite",
     "marqueePuberty": "Accompagnement de la puberté",
     "marqueeWaitlist": "Rejoindre la liste d’attente",
-    "bivioCoachP4": "Contribue à faire avancer la recherche sportive"
+    "bivioCoachP4": "Contribue à faire avancer la recherche sportive",
+    "bivioParentP4": "Conçu sur des protocoles conformes au RGPD"
   },
   "waitlist": {
     "title": "Rejoindre la liste d'attente",

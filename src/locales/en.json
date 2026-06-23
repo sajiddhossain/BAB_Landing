@@ -48,11 +48,11 @@
     "bivioCoachCta": "ACTIVATE BAB FOR MY CLUB ✦",
     "bivioParentBadge": "PARENT - FAMILY",
     "bivioParentTitle1": "Support.",
-    "bivioParentTitle2": "Without controlling.",
-    "bivioParentDesc": "Receive practical advice on sleep and nutrition. Without ever seeing your daughter's biological data. Her privacy is absolute.",
-    "bivioParentP1": "Weekly wellness notifications",
-    "bivioParentP2": "Sleep and nutrition advice",
-    "bivioParentP3": "Total privacy guaranteed (GDPR)",
+    "bivioParentTitle2": "The way she needs it.",
+    "bivioParentDesc": "BAB provides practical tools and interactive resources to help you support your daughter’s development, wellbeing, and performance — through an approach tailored to her individual needs.",
+    "bivioParentP1": "Insights that respect her privacy and personal space",
+    "bivioParentP2": "Clinically backed",
+    "bivioParentP3": "Safe and secure",
     "bivioParentCta": "REQUEST ACCESS FOR MY DAUGHTER ✦",
     "dataBadge": "A systemic problem",
     "dataTitle": "Women are treated as <mark style=\"background-color:#8FD4E8;color:#0F0F12;box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:0 0.12em;\">small men,</mark><br/>and girls as small women.",
@@ -111,7 +111,8 @@
     "marqueeElite": "Built with Elite Athletes",
     "marqueePuberty": "Puberty Support",
     "marqueeWaitlist": "Join the waitlist",
-    "bivioCoachP4": "Help advance sports research"
+    "bivioCoachP4": "Help advance sports research",
+    "bivioParentP4": "Built on GDPR-compliant protocols"
   },
   "waitlist": {
     "title": "Join the waitlist",
