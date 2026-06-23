@@ -23,7 +23,7 @@ export default function About() {
  ];
 
  const stats = t('about.stats', { returnObjects: true }) as unknown as { val: string; label: string }[];
- const statColor = (i: number) => (i < 2 ? '#D2EC7C' : i < 4 ? '#DAE69A' : '#34BBC0');
+ const statColor = (i: number) => (i < 2 ? '#D2EC7C' : i < 4 ? '#D2EC7C' : '#34BBC0');
 
  return (
  <div className="flex flex-col items-center w-full min-h-screen text-[#0F0F12] px-4 py-24 md:py-32">
@@ -34,7 +34,7 @@ export default function About() {
  <div className="flex flex-col md:flex-row gap-8 items-center">
 
  <div className="flex-1 text-center md:text-left">
- <span className="inline-flex items-center gap-2 bg-[#DAE69A] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] relative">
+ <span className="inline-flex items-center gap-2 bg-[#D2EC7C] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] relative">
  <span className="block ">{t('about.missionBadge')}</span>
  </span>
  <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6 break-words max-w-full">
@@ -147,7 +147,7 @@ export default function About() {
  transition={{ duration: 0.45, ease: [0.32, 0.72, 0, 1], delay: 0.2 }}
  className="relative w-full transition-transform"
  >
- <div className="bg-[#DAE69A] p-2 md:p-3 border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12]">
+ <div className="bg-[#D2EC7C] p-2 md:p-3 border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12]">
  <div className="bg-[#0F0F12] text-white border-[3px] border-black p-8 sm:p-10 h-full">
  {t('about.story4pre')}<span className="underline decoration-4 underline-offset-4 decoration-[#D2EC7C]">{t('about.story4highlight')}</span>{t('about.story4post')}
  </div>
@@ -158,7 +158,7 @@ export default function About() {
 
  <div className="text-center mb-24 relative">
  <svg className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-2xl h-auto -z-10 opacity-30" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
- <path fill="#DAE69A" d="M42.7,-73.4C54.9,-66.3,64,-53.4,72.6,-40C81.2,-26.6,89.3,-13.3,88.7,-0.3C88.1,12.6,78.8,25.2,70.2,38C61.6,50.8,53.7,63.8,42.2,71.2C30.7,78.6,15.3,80.4,1.4,78C-12.5,75.6,-25,69,-37.2,61.8C-49.4,54.6,-61.3,46.8,-70.5,35.6C-79.7,24.4,-86.2,9.8,-85.4,-4.3C-84.6,-18.4,-76.5,-32,-66.4,-43C-56.3,-54,-44.2,-62.4,-31.6,-69.1C-19,-75.8,-5.9,-80.8,4.5,-88.7C14.9,-96.6,29.8,-86.8,42.7,-73.4Z" transform="translate(100 100) scale(1.1)" />
+ <path fill="#D2EC7C" d="M42.7,-73.4C54.9,-66.3,64,-53.4,72.6,-40C81.2,-26.6,89.3,-13.3,88.7,-0.3C88.1,12.6,78.8,25.2,70.2,38C61.6,50.8,53.7,63.8,42.2,71.2C30.7,78.6,15.3,80.4,1.4,78C-12.5,75.6,-25,69,-37.2,61.8C-49.4,54.6,-61.3,46.8,-70.5,35.6C-79.7,24.4,-86.2,9.8,-85.4,-4.3C-84.6,-18.4,-76.5,-32,-66.4,-43C-56.3,-54,-44.2,-62.4,-31.6,-69.1C-19,-75.8,-5.9,-80.8,4.5,-88.7C14.9,-96.6,29.8,-86.8,42.7,-73.4Z" transform="translate(100 100) scale(1.1)" />
  </svg>
 
  {/* doodle: scintille d'enfasi attorno al manifesto */}
@@ -169,7 +169,7 @@ export default function About() {
  className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#D2EC7C] break-words max-w-full"
  style={{ WebkitTextStroke: '2.5px #0F0F12' }}
  >
- {t('about.bigA')}<br/><span className="underline decoration-[#DAE69A] decoration-8 underline-offset-4 text-white">{t('about.bigHealth')}</span><br/>{t('about.bigB')}<br/><span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">{t('about.bigSport')}</span>
+ {t('about.bigA')}<br/><span className="underline decoration-[#D2EC7C] decoration-8 underline-offset-4 text-white">{t('about.bigHealth')}</span><br/>{t('about.bigB')}<br/><span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">{t('about.bigSport')}</span>
  </h3>
  <div className="mt-12 relative">
  <p className="font-['Space_Grotesk',_sans-serif] font-black text-sm sm:text-xl bg-black text-white inline-block px-6 sm:px-8 py-3 shadow-[6px_6px_0_0_#34BBC0]">
