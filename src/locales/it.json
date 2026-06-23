@@ -273,10 +273,62 @@
     "statsSources": "Fonti: Jones & Bishop (2024, n=128); abbandono ~1 su 2 con la pubertà; Cowley et al. (2021), «Invisible Sportswomen»; Horan et al. (2024). Riferimenti completi su richiesta."
   },
   "simulator": {
-    "title": "Simulatore",
-    "heading": "Provalo tu stessa",
-    "intro": "Tocca A, B o C: l'avatar reagisce ai segnali del corpo — energia, battito, recupero. È così che BAB rende leggibile ciò che l'atleta sente, giorno per giorno.",
-    "cta": "Entra in lista d'attesa"
+    "badge": "Gioca con BAB · Demo",
+    "pageTitle": "Prenditi cura del tuo Buddy.",
+    "footer": "30 secondi al giorno. Come un Tamagotchi — ma sei tu. 🌱",
+    "care": {
+      "acqua": "Acqua",
+      "energia": "Energia",
+      "umore": "Umore",
+      "calma": "Calma"
+    },
+    "careDone": "✓ Fatto",
+    "doneBtn": "🎉 Fatto! Buddy al top",
+    "buddyDone": "GRAZIE! Mi hai tenuto al top oggi 💛",
+    "buddyMax": "Sono al massimo! Tocca “Fatto” 👇",
+    "buddyLow": "Ehi… oggi sono un po’ giù. Mi dai una mano?",
+    "buddyOk": "Mi sento meglio! Continua così 💪",
+    "close": "Chiudi",
+    "hold": {
+      "title": "Versa l’acqua",
+      "hint": "Tieni premuto finché il bicchiere è pieno",
+      "action": "Tieni premuto ⤵",
+      "done": "Fatto!"
+    },
+    "tap": {
+      "title": "Caricala!",
+      "hint": "Tocca veloce: saltelli e stretching",
+      "action": "Tocca, tocca, tocca! ⚡",
+      "done": "Carica!"
+    },
+    "cuddle": {
+      "title": "Coccola il Buddy",
+      "hint": "Toccalo per fargli sentire il tuo affetto",
+      "again": "Toccalo ancora ({{n}}/4)",
+      "done": "💖 Coccolato!"
+    },
+    "breathe": {
+      "title": "Respira con lui",
+      "hint": "Un respiro lento insieme: 4 secondi dentro, 4 fuori",
+      "ready": "Pronta?",
+      "in": "Inspira…",
+      "out": "Espira…",
+      "great": "Bravissima 😌",
+      "start": "Inizia il respiro"
+    },
+    "done": {
+      "badge": "Buddy al top! 🔥",
+      "day": "Giorno 1 · torna domani per la serie",
+      "privacy": "Ti sei presa 30 secondi per te. Coach e genitori vedono solo un segnale — mai il ciclo, l’umore o i dettagli.",
+      "coachLabel": "Vista Coach",
+      "coachMsg": "Mia è carica oggi. Bel momento per spingere sulla tecnica.",
+      "parentLabel": "Vista Genitore",
+      "parentMsg": "Mia sta bene. Fai il tifo per lei anche in allenamento, non solo in gara.",
+      "ctaQuestion": "Vuoi BAB per tua figlia o per la tua squadra?",
+      "ctaWaitlist": "Entra in lista d’attesa",
+      "ctaClub": "Sono una società →",
+      "replay": "↺ Rigioca la demo"
+    }
   },
   "faqHome": {
     "badge": "✦ F.A.Q. ✦",

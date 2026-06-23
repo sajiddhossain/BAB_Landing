@@ -273,10 +273,62 @@
     "statsSources": "Sources: Jones & Bishop (2024, n=128); ~1 in 2 drop out at puberty; Cowley et al. (2021), “Invisible Sportswomen”; Horan et al. (2024). Full references on request."
   },
   "simulator": {
-    "title": "Simulator",
-    "heading": "Try it yourself",
-    "intro": "Tap A, B or C: the avatar reacts to the body's signals — energy, heart rate, recovery. This is how BAB makes what an athlete feels readable, day by day.",
-    "cta": "Join the waitlist"
+    "badge": "Play with BAB · Demo",
+    "pageTitle": "Take care of your Buddy.",
+    "footer": "30 seconds a day. Like a Tamagotchi — but it's you. 🌱",
+    "care": {
+      "acqua": "Water",
+      "energia": "Energy",
+      "umore": "Mood",
+      "calma": "Calm"
+    },
+    "careDone": "✓ Done",
+    "doneBtn": "🎉 Done! Buddy at its best",
+    "buddyDone": "THANK YOU! You kept me at my best today 💛",
+    "buddyMax": "I’m maxed out! Tap “Done” 👇",
+    "buddyLow": "Hey… I’m a bit down today. Can you help me?",
+    "buddyOk": "I feel better! Keep it up 💪",
+    "close": "Close",
+    "hold": {
+      "title": "Pour the water",
+      "hint": "Hold until the glass is full",
+      "action": "Hold down ⤵",
+      "done": "Done!"
+    },
+    "tap": {
+      "title": "Charge it up!",
+      "hint": "Tap fast: hops and stretching",
+      "action": "Tap, tap, tap! ⚡",
+      "done": "Charged!"
+    },
+    "cuddle": {
+      "title": "Cuddle the Buddy",
+      "hint": "Tap to show it your affection",
+      "again": "Tap again ({{n}}/4)",
+      "done": "💖 Cuddled!"
+    },
+    "breathe": {
+      "title": "Breathe with it",
+      "hint": "A slow breath together: 4 seconds in, 4 out",
+      "ready": "Ready?",
+      "in": "Breathe in…",
+      "out": "Breathe out…",
+      "great": "Well done 😌",
+      "start": "Start breathing"
+    },
+    "done": {
+      "badge": "Buddy at its best! 🔥",
+      "day": "Day 1 · come back tomorrow for the streak",
+      "privacy": "You took 30 seconds for yourself. Coaches and parents only see a signal — never your cycle, mood or details.",
+      "coachLabel": "Coach view",
+      "coachMsg": "Mia is energised today. Great moment to push on technique.",
+      "parentLabel": "Parent view",
+      "parentMsg": "Mia is doing well. Cheer for her at training too, not just on race day.",
+      "ctaQuestion": "Want BAB for your daughter or your team?",
+      "ctaWaitlist": "Join the waitlist",
+      "ctaClub": "I’m a club →",
+      "replay": "↺ Replay the demo"
+    }
   },
   "faqHome": {
     "badge": "✦ F.A.Q. ✦",

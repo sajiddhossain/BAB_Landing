@@ -313,7 +313,7 @@ export default function App() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
                   transition={{ duration: 0.15 }}
-                  className="absolute top-full right-0 mt-2 flex flex-col gap-2 bg-white border-[2px] border-black p-2 shadow-[4px_4px_0_0_#0F0F12] z-40 rounded"
+                  className="absolute top-full left-1/2 -translate-x-1/2 mt-2 flex flex-col items-center gap-2 bg-white border-[2px] border-black p-2 shadow-[4px_4px_0_0_#0F0F12] z-40 rounded"
                 >
                   {otherLangs.map(lng => (
                     <button
