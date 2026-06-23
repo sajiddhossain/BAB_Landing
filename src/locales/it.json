@@ -13,7 +13,7 @@
     "navHeading": "Naviga",
     "followHeading": "Seguici",
     "ctaHeading": "Pronta a iniziare?",
-    "ctaText": "Entra nella lista d'attesa e unisciti alla community che rompe le barriere.",
+    "ctaText": "Entra in lista d’attesa e aiutaci a Rompere Ogni Barriera per le atlete della prossima generazione",
     "rights": "© 2026 BAB. Tutti i diritti riservati.",
     "tags": "Previeni • Supporta • Monitora • Comprendi • Ottimizza",
     "legalHeading": "Legale",
@@ -105,7 +105,12 @@
       "sources": "Numeri con fonti citate",
       "aggregate": "Solo dati aggregati e anonimi"
     },
-    "trustbarAria": "Garanzie di fiducia"
+    "trustbarAria": "Garanzie di fiducia",
+    "marqueeGdpr": "Conforme al GDPR",
+    "marqueeScience": "Basato sulla scienza",
+    "marqueeElite": "Creato con atlete d’élite",
+    "marqueePuberty": "Supporto nella pubertà",
+    "marqueeWaitlist": "Entra in lista d’attesa"
   },
   "waitlist": {
     "title": "Entra in lista d'attesa",

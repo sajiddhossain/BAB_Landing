@@ -13,7 +13,7 @@
     "navHeading": "Naviguer",
     "followHeading": "Suivez-nous",
     "ctaHeading": "Prête à commencer ?",
-    "ctaText": "Rejoignez la liste d'attente et la communauté qui brise les barrières.",
+    "ctaText": "Rejoins la liste d’attente et aide-nous à Briser Toutes les Barrières pour les athlètes de la prochaine génération",
     "rights": "© 2026 BAB. Tous droits réservés.",
     "tags": "Prévenir • Soutenir • Suivre • Comprendre • Optimiser",
     "legalHeading": "Mentions légales",
@@ -105,7 +105,12 @@
       "sources": "Chiffres avec sources citées",
       "aggregate": "Uniquement des agrégats anonymes"
     },
-    "trustbarAria": "Garanties de confiance"
+    "trustbarAria": "Garanties de confiance",
+    "marqueeGdpr": "Conforme au RGPD",
+    "marqueeScience": "Fondé sur la science",
+    "marqueeElite": "Conçu avec des athlètes d’élite",
+    "marqueePuberty": "Accompagnement de la puberté",
+    "marqueeWaitlist": "Rejoindre la liste d’attente"
   },
   "waitlist": {
     "title": "Rejoindre la liste d'attente",

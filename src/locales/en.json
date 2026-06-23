@@ -13,7 +13,7 @@
     "navHeading": "Explore",
     "followHeading": "Follow us",
     "ctaHeading": "Ready to start?",
-    "ctaText": "Join the waitlist and become part of the community breaking barriers.",
+    "ctaText": "Join the waitlist and help us Break All Barriers for the Next-Gen Athletes",
     "rights": "© 2026 BAB. All rights reserved.",
     "tags": "Prevent • Support • Monitor • Understand • Optimize",
     "legalHeading": "Legal",
@@ -105,7 +105,12 @@
       "sources": "Figures with cited sources",
       "aggregate": "Only anonymous aggregates"
     },
-    "trustbarAria": "Trust guarantees"
+    "trustbarAria": "Trust guarantees",
+    "marqueeGdpr": "GDPR Compliant",
+    "marqueeScience": "Backed by Science",
+    "marqueeElite": "Built with Elite Athletes",
+    "marqueePuberty": "Puberty Support",
+    "marqueeWaitlist": "Join the waitlist"
   },
   "waitlist": {
     "title": "Join the waitlist",
