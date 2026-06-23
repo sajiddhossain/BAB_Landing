@@ -3,6 +3,7 @@
   "pkg": "bab-landing",
   "globalName": "BABLanding",
   "shape": "package",
+  "readmeHeader": ".design-sync/conventions.md",
   "tsconfig": "./tsconfig.app.json",
   "srcDir": "src/components",
   "cssEntry": "src/styles/ds-compiled.css",
