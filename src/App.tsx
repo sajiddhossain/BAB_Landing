@@ -14,6 +14,7 @@ import { initAnalytics, trackPageview, trackEvent } from './lib/analytics';
 import { getConsent } from './lib/consent';
 import CookieBanner from './components/CookieBanner';
 import BabLogo from './components/BabLogo';
+import FlagIcon, { type FlagLang } from './components/FlagIcon';
 import type { UserType } from './lib/leads';
 
 // Route Components — Home eager (LCP della landing), il resto code-split per route
@@ -61,15 +62,8 @@ export default function App() {
     trackEvent('waitlist_open', { target: target ?? 'unknown' });
   };
 
-  const currentLang = i18n.language ? i18n.language.substring(0, 2) : 'en';
-  const getFlagImg = (lng: string) => {
-    switch(lng) {
-      case 'it': return '/flags/italy.png';
-      case 'fr': return '/flags/france.png';
-      case 'en': default: return '/flags/united-kingdom.png';
-    }
-  };
-  const otherLangs = ['en', 'it', 'fr'].filter(l => l !== currentLang);
+  const currentLang = (i18n.language ? i18n.language.substring(0, 2) : 'en') as FlagLang;
+  const otherLangs = (['en', 'it', 'fr'] as FlagLang[]).filter(l => l !== currentLang);
 
   // Easter Egg Signature
   useEffect(() => {
@@ -262,7 +256,7 @@ export default function App() {
               aria-label={`Lingua: ${currentLang.toUpperCase()}`}
               className="w-11 h-11 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-0.5 transition-transform bg-[#FAF9F6] shadow-[2px_2px_0_0_#0F0F12] z-50 relative flex items-center justify-center focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
             >
-              <img src={getFlagImg(currentLang)} alt="" className="w-full h-full object-cover" />
+              <FlagIcon lang={currentLang} className="w-full h-full" />
             </button>
 
             <AnimatePresence>
@@ -285,7 +279,7 @@ export default function App() {
                       title={lng.toUpperCase()}
                       aria-label={lng.toUpperCase()}
                     >
-                      <img src={getFlagImg(lng)} alt="" className="w-full h-full object-cover" />
+                      <FlagIcon lang={lng} className="w-full h-full" />
                     </button>
                   ))}
                 </motion.div>
@@ -353,7 +347,7 @@ export default function App() {
 
                 {/* Mobile Language Switcher */}
                 <div className="flex justify-center gap-4 mt-8" role="group" aria-label="Lingua">
-                  {([['it','/flags/italy.png'],['en','/flags/united-kingdom.png'],['fr','/flags/france.png']] as const).map(([lng, flag]) => {
+                  {(['it', 'en', 'fr'] as FlagLang[]).map((lng) => {
                     const active = i18n.language.startsWith(lng);
                     return (
                       <button
@@ -363,7 +357,7 @@ export default function App() {
                         aria-pressed={active}
                         className={`w-11 h-11 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${active ? 'shadow-[4px_4px_0_0_#0F0F12] scale-110' : 'opacity-60'}`}
                       >
-                        <img src={flag} alt="" className="w-full h-full object-cover" />
+                        <FlagIcon lang={lng} className="w-full h-full" />
                       </button>
                     );
                   })}
