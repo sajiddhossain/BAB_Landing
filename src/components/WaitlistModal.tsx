@@ -11,6 +11,7 @@ import { useTranslation } from 'react-i18next';
 import { insertLead, type UserType } from '../lib/leads';
 import { trackEvent } from '../lib/analytics';
 import { useAntiSpam, HONEYPOT_FIELD } from '../lib/antispam';
+import Doodle from './Doodle';
 
 interface WaitlistModalProps {
   isOpen: boolean;
@@ -231,7 +232,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                 transition={{ type: 'spring', stiffness: 320, damping: 16, delay: 0.1 }}
                 className="bg-black text-[#DAE69A] px-4 py-2 flex items-center justify-center gap-3 shadow-[4px_4px_0_0_#DAE69A] mb-8"
               >
-                <span className="text-xl" aria-hidden="true">🔒</span>
+                <Doodle name="lock" className="w-5 h-5 shrink-0 text-[#DAE69A]" stroke={2} />
                 <span className="text-sm font-black uppercase tracking-widest">
                   {t('waitlist.scarcity')}
                 </span>
@@ -321,7 +322,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
                       />
 
                       <div className="flex items-start gap-3 bg-[#EBE5FF] border-[3px] border-black p-3 my-2 shadow-[4px_4px_0_0_#0F0F12]">
-                        <span className="text-xl mt-0.5" aria-hidden="true">🛡️</span>
+                        <Doodle name="shield" className="w-5 h-5 shrink-0 mt-0.5 text-[#1F7A63]" stroke={2} />
                         <p className="text-xs font-bold leading-relaxed uppercase tracking-wide">
                           {t('waitlist.privacyNote')}
                         </p>

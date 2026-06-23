@@ -10,6 +10,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import BabBuddy, { type BuddyMood } from './BabBuddy';
+import Doodle from './Doodle';
 import type { UserType } from '../lib/leads';
 
 interface AppSimulatorProps {
@@ -319,7 +320,7 @@ function Done({ onOpenWaitlist, onReset, mood, bounce }: { onOpenWaitlist?: (t?:
           {/* Reveal privacy */}
           <div className="text-left">
             <div className="flex items-start gap-2 mb-3 bg-[#EBE5FF] border-[2px] border-black p-2.5 text-[12px] font-bold">
-              <span aria-hidden="true">🔒</span>
+              <Doodle name="lock" className="w-4 h-4 shrink-0 mt-0.5 text-[#1F7A63]" stroke={2} />
               <span>Ti sei presa 30 secondi per te. Coach e genitori vedono solo un segnale — mai il ciclo, l’umore o i dettagli.</span>
             </div>
             <div className="border-[3px] border-black bg-white shadow-[4px_4px_0_0_#0F0F12] p-3 mb-2.5">

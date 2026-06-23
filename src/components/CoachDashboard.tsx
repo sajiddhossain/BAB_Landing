@@ -10,6 +10,7 @@
 import { useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import ClubLeadForm from './ClubLeadForm';
+import Doodle from './Doodle';
 
 // Dati demo (mock): partecipazione al check-in + energia media auto-riportata per giorno.
 const WEEK = [
@@ -150,7 +151,7 @@ export default function CoachDashboard() {
 
           {/* Nota privacy sempre visibile nella dashboard */}
           <div className="flex items-start gap-2 mb-8 bg-[#EBE5FF] border-[2px] border-black px-3 py-2 text-xs sm:text-sm font-semibold">
-            <span aria-hidden="true">🔒</span>
+            <Doodle name="lock" className="w-4 h-4 shrink-0 mt-0.5 text-[#1F7A63]" stroke={2} />
             <span>{t('coach.privacyInline')}</span>
           </div>
 
