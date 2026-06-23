@@ -228,7 +228,7 @@ export default function App() {
       {/* HEADER (Neobrutalism) */}
       <header className="fixed top-0 inset-x-0 h-20 bg-[#FAF9F6] text-[#0F0F12] border-b-[3px] border-black z-50 px-4 sm:px-6 lg:px-10 flex items-center justify-between gap-4 shadow-[0_4px_0_0_#0F0F12]">
         <a href="/" aria-label="BAB — Home" className="flex items-center hover:-translate-y-0.5 transition-transform z-50 shrink-0">
-          <BabLogo className="h-9 md:h-11 w-auto text-[#143F36]" />
+          <BabLogo className="h-9 md:h-10 w-auto text-[#143F36]" />
         </a>
 
         {/* Desktop Nav (>= lg per evitare l'affollamento con le etichette IT) */}
