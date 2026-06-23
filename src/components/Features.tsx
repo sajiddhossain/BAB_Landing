@@ -159,6 +159,17 @@ export default function Features() {
  </div>
 
  </div>
+
+ {/* Privacy & Research (spostato qui dalla home) */}
+ <section className="w-full max-w-3xl mx-auto mt-16">
+ <div className="bg-white text-[#0F0F12] border-[4px] border-black p-8 sm:p-12 text-left shadow-[8px_8px_0_0_#0F0F12] relative crosshairs">
+ <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-[#D2EC7C] inline-block px-4 py-2 tracking-tight">{t('home.privacyTitle')}</h3>
+ <div className="font-['Space_Grotesk',_sans-serif] font-bold">
+ <p className="text-lg leading-relaxed mb-6">{t('home.privacy1')}</p>
+ <p className="text-lg leading-relaxed bg-[#EBE5FF] border-[3px] border-black p-4 shadow-[4px_4px_0_0_#0F0F12] border-l-[8px] border-l-[#34BBC0]">{t('home.privacy2')}</p>
+ </div>
+ </div>
+ </section>
  </div>
  );
 }
