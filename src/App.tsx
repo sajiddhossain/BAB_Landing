@@ -56,6 +56,8 @@ export default function App() {
   const [waitlistTarget, setWaitlistTarget] = useState<UserType | undefined>(undefined);
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
   const langRef = useRef<HTMLDivElement>(null);
+  const menuRef = useRef<HTMLDivElement>(null);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
 
   const openWaitlist = (target?: UserType) => {
     setWaitlistTarget(target);
@@ -152,12 +154,41 @@ export default function App() {
     }
   }, [currentPath, t, i18n.language]);
 
-  // Chiudi il menu mobile con Escape
+  // Menu mobile fullscreen: Escape per chiudere + focus-trap + ritorno del focus
+  // al pulsante hamburger alla chiusura (a11y, senso di "controllo").
   useEffect(() => {
     if (!isMenuOpen) return;
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsMenuOpen(false); };
+    const trigger = menuButtonRef.current;
+    const focusables = () =>
+      Array.from(
+        menuRef.current?.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        ) ?? []
+      );
+    // Porta il focus sul primo elemento interattivo del menu (come nel WaitlistModal)
+    focusables()[0]?.focus();
+
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') { setIsMenuOpen(false); return; }
+      if (e.key !== 'Tab') return;
+      const items = focusables();
+      if (items.length === 0) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      const active = document.activeElement;
+      if (e.shiftKey && (active === first || !menuRef.current?.contains(active))) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && active === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
     document.addEventListener('keydown', onKey);
-    return () => document.removeEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      trigger?.focus?.();
+    };
   }, [isMenuOpen]);
 
   // Routing con URL puliti (History API), no hash. Vercel serve index.html su ogni path.
@@ -308,6 +339,7 @@ export default function App() {
 
         {/* Mobile Hamburger Button (< lg) */}
         <button
+          ref={menuButtonRef}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label={isMenuOpen ? 'Chiudi menu' : 'Apri menu'}
           aria-expanded={isMenuOpen}
@@ -325,6 +357,10 @@ export default function App() {
         {isMenuOpen && (
           <motion.div
             id="mobile-menu"
+            ref={menuRef}
+            role="dialog"
+            aria-modal="true"
+            aria-label="Menu"
             initial={{ y: '-100%' }}
             animate={{ y: 0 }}
             exit={{ y: '-100%' }}
