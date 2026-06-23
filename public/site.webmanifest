@@ -11,6 +11,6 @@
   "categories": ["health", "sports", "lifestyle"],
   "icons": [
     { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
-    { "src": "/BAB_logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+    { "src": "/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
   ]
 }
