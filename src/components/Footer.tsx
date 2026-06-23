@@ -8,6 +8,7 @@
 import { useTranslation } from 'react-i18next';
 import BabLogo from './BabLogo';
 import type { UserType } from '../lib/leads';
+import { COACH_ENABLED } from '../lib/flags';
 
 interface FooterProps {
  onOpenWaitlist?: (target?: UserType) => void;
@@ -20,7 +21,7 @@ const NAV_LINKS = [
  { path: '/features', key: 'nav.features' },
  { path: '/about', key: 'nav.about' },
  { path: '/blog', key: 'nav.blog' },
-] as const;
+].filter((l) => COACH_ENABLED || l.path !== '/coach');
 
 const SOCIALS = [
  { href: 'https://substack.com/@babcommunity', label: 'Substack' },

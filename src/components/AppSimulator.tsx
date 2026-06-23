@@ -14,6 +14,7 @@ import { useTranslation } from 'react-i18next';
 import BabBuddy, { type BuddyMood } from './BabBuddy';
 import Doodle from './Doodle';
 import type { UserType } from '../lib/leads';
+import { COACH_ENABLED } from '../lib/flags';
 
 interface AppSimulatorProps {
   onOpenWaitlist?: (target?: UserType) => void;
@@ -349,7 +350,11 @@ function Done({ onOpenWaitlist, onReset, mood, bounce }: { onOpenWaitlist?: (t?:
       <p className="font-bold text-sm text-black/80 my-4 text-center">{t('simulator.done.ctaQuestion')}</p>
       <div className="flex flex-col gap-2.5">
         <button onClick={() => onOpenWaitlist?.('genitore')} className="w-full bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-3.5 font-black uppercase tracking-wider shadow-[5px_5px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-[2px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all">{t('simulator.done.ctaWaitlist')}</button>
-        <a href="/coach" className="w-full text-center bg-white text-[#0F0F12] border-[3px] border-black px-6 py-3.5 font-black uppercase tracking-wider shadow-[5px_5px_0_0_#0F0F12] hover:bg-[#EBE5FF] active:translate-y-[2px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all">{t('simulator.done.ctaClub')}</a>
+        {COACH_ENABLED ? (
+          <a href="/coach" className="w-full text-center bg-white text-[#0F0F12] border-[3px] border-black px-6 py-3.5 font-black uppercase tracking-wider shadow-[5px_5px_0_0_#0F0F12] hover:bg-[#EBE5FF] active:translate-y-[2px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all">{t('simulator.done.ctaClub')}</a>
+        ) : (
+          <button onClick={() => onOpenWaitlist?.('societa')} className="w-full text-center bg-white text-[#0F0F12] border-[3px] border-black px-6 py-3.5 font-black uppercase tracking-wider shadow-[5px_5px_0_0_#0F0F12] hover:bg-[#EBE5FF] active:translate-y-[2px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all">{t('simulator.done.ctaClub')}</button>
+        )}
         <button onClick={onReset} className="w-full text-center text-sm font-bold underline text-black/60 py-2">{t('simulator.done.replay')}</button>
       </div>
     </div>

@@ -15,6 +15,7 @@ import { getConsent } from './lib/consent';
 import CookieBanner from './components/CookieBanner';
 import BabLogo from './components/BabLogo';
 import FlagIcon, { type FlagLang } from './components/FlagIcon';
+import { COACH_ENABLED } from './lib/flags';
 import type { UserType } from './lib/leads';
 
 // Route Components — Home eager (LCP della landing), il resto code-split per route
@@ -81,6 +82,14 @@ export default function App() {
   useEffect(() => {
     initWebAnalytics();
   }, []);
+
+  // /coach temporaneamente nascosto: se qualcuno ci arriva, correggi l'URL a "/".
+  useEffect(() => {
+    if (!COACH_ENABLED && currentPath === '/coach') {
+      window.history.replaceState({}, '', '/');
+      setCurrentPath('/');
+    }
+  }, [currentPath]);
 
   // Analytics: init SOLO con consenso cookie già accettato (GDPR).
   // Senza consenso → niente tag finché l'utente non accetta dal banner.
@@ -248,7 +257,7 @@ export default function App() {
     { path: '/coach', label: t('nav.coach') },
     { path: '/features', label: t('nav.features') },
     { path: '/about', label: t('nav.about') },
-  ];
+  ].filter((l) => COACH_ENABLED || l.path !== '/coach');
 
   // Blog: lista su /blog, articolo su /blog/:slug (lo slug è validato da BlogPost)
   const isBlogList = currentPath === '/blog';
@@ -258,7 +267,8 @@ export default function App() {
   // Route sconosciuta → pagina 404 in-brand (non un finto rendering della Home)
   const knownPaths = ['/', '/app', '/coach', '/features', '/about', '/privacy', '/cookie', '/termini', '/blog'];
   const isNotFound = !knownPaths.includes(currentPath) && !isBlogRoute;
-  const activePath = currentPath;
+  // /coach temporaneamente nascosto → renderizza la Home (l'URL viene corretto a "/" dall'effetto)
+  const activePath = (!COACH_ENABLED && currentPath === '/coach') ? '/' : currentPath;
 
   return (
     <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#D2EC7C] selection:text-[#0F0F12] font-['Space_Grotesk',_sans-serif] y2k-grid relative">
@@ -428,7 +438,7 @@ export default function App() {
             {blogSlug && <BlogPost key={`blog-${blogSlug}`} slug={blogSlug} onNavigate={navigate} />}
             {activePath === '/' && <Home key="home" onOpenWaitlist={openWaitlist} onNavigate={navigate} />}
             {activePath === '/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
-            {activePath === '/coach' && <CoachDashboard key="coach" />}
+            {COACH_ENABLED && activePath === '/coach' && <CoachDashboard key="coach" />}
             {activePath === '/features' && <Features key="features" />}
             {activePath === '/about' && <About key="about" />}
             {activePath === '/privacy' && <LegalPage key="privacy" page="privacy" />}
