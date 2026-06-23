@@ -8,6 +8,9 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
+// Colori y2k: ogni FAQ aperta assume un colore diverso (chiari → testo nero leggibile).
+const FAQ_COLORS = ['#D2EC7C', '#8FD4E8', '#FF8FB1', '#EBE5FF', '#FFC042'];
+
 export default function FAQ() {
  const { t } = useTranslation();
  const faqData = t('faqHome.items', { returnObjects: true }) as unknown as { q: string; a: string }[];
@@ -37,7 +40,8 @@ export default function FAQ() {
  return (
  <div
  key={index}
- className={`border-[2px] border-black overflow-hidden shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 transition-all duration-300 crosshairs ${isOpen ? 'bg-[#D2EC7C]' : 'bg-white text-[#0F0F12]'}`}
+ style={isOpen ? { backgroundColor: FAQ_COLORS[index % FAQ_COLORS.length] } : undefined}
+ className={`border-[2px] border-black overflow-hidden shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 transition-all duration-300 crosshairs text-[#0F0F12] ${isOpen ? '' : 'bg-white'}`}
  >
  <div className=" h-full flex flex-col">
  <button
