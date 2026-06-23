@@ -5,7 +5,8 @@
     "coach": "Pour les clubs",
     "features": "Fonctionnalités",
     "about": "À propos",
-    "waitlist": "Liste d'attente"
+    "waitlist": "Liste d'attente",
+    "blog": "Blog"
   },
   "footer": {
     "tagline": "La première application santé et bien-être pour les jeunes athlètes féminines.",
@@ -518,6 +519,10 @@
     "termini": {
       "title": "Conditions générales — BAB",
       "desc": "Les conditions d’utilisation du site BAB."
+    },
+    "blog": {
+      "title": "Blog BAB — Sport, croissance et santé des athlètes",
+      "desc": "Histoires, données et conseils sur le sport féminin, le cycle, le décrochage et la croissance des jeunes athlètes."
     }
   },
   "a11y": {
@@ -528,5 +533,14 @@
     "code": "Erreur 404",
     "body": "La page que vous cherchez n’existe pas, a été déplacée ou le lien est erroné. Revenez à l’accueil pour continuer à explorer BAB.",
     "cta": "Retour à l’accueil"
+  },
+  "blog": {
+    "kicker": "Blog",
+    "title": "Histoires, données et conseils",
+    "subtitle": "Analyses sur le sport, la croissance et la santé des jeunes athlètes.",
+    "reading": "min de lecture",
+    "by": "par",
+    "back": "Tous les articles",
+    "empty": "Nouveaux articles bientôt."
   }
 }

@@ -5,7 +5,8 @@
     "coach": "For Clubs",
     "features": "Features",
     "about": "About",
-    "waitlist": "Join waitlist"
+    "waitlist": "Join waitlist",
+    "blog": "Blog"
   },
   "footer": {
     "tagline": "The first health and wellness app for young female athletes.",
@@ -518,6 +519,10 @@
     "termini": {
       "title": "Terms & Conditions — BAB",
       "desc": "The terms of use of the BAB site."
+    },
+    "blog": {
+      "title": "BAB Blog — Sport, growth and athlete health",
+      "desc": "Stories, data and advice on women's sport, the cycle, drop-out and the growth of young athletes."
     }
   },
   "a11y": {
@@ -528,5 +533,14 @@
     "code": "Error 404",
     "body": "The page you are looking for does not exist, has moved, or the link is wrong. Go back home to keep exploring BAB.",
     "cta": "Back to home"
+  },
+  "blog": {
+    "kicker": "Blog",
+    "title": "Stories, data and advice",
+    "subtitle": "Insights on sport, growth and the health of young athletes.",
+    "reading": "min read",
+    "by": "by",
+    "back": "All articles",
+    "empty": "New articles coming soon."
   }
 }
