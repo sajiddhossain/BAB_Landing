@@ -37,7 +37,7 @@ export default function About() {
  <span className="inline-flex items-center gap-2 bg-[#D2EC7C] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] relative">
  <span className="block ">{t('about.missionBadge')}</span>
  </span>
- <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl font-black leading-none uppercase drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6 break-words max-w-full">
+ <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl font-black leading-none uppercase drop-shadow-[2px_2px_0_rgba(52,187,192,1)] sm:drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6 break-words max-w-full">
  <span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">{t('about.titleWord')}</span><br/>{t('about.titleRest')}
  </h1>
  <p className="font-extrabold text-lg leading-relaxed border-l-[4px] border-black pl-4">
