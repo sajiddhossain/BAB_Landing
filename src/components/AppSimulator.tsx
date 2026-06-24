@@ -76,7 +76,7 @@ export default function AppSimulator({ onOpenWaitlist }: AppSimulatorProps) {
 
   return (
     <Page>
-      <div className="bg-[#0F0F12] p-2 border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12]">
+      <div className="bg-[#0F0F12] p-2 border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12]">
         <div className="bg-white border-[3px] border-black p-4 sm:p-5">
 
           {/* Buddy + battuta */}
@@ -311,7 +311,7 @@ function Done({ onOpenWaitlist, onReset, mood, bounce }: { onOpenWaitlist?: (t?:
   const confetti = ['🎉', '✨', '💛', '⭐', '💚', '🎊'];
   return (
     <div>
-      <div className="relative bg-[#0F0F12] p-2 border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] overflow-hidden">
+      <div className="relative bg-[#0F0F12] p-2 border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12] overflow-hidden">
         {/* coriandoli */}
         {Array.from({ length: 14 }).map((_, i) => (
           <motion.span

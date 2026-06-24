@@ -130,7 +130,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  transition={{ delay: 0.4 }}
  className="w-full flex justify-center mb-8 lg:hidden"
  >
- <div className="w-full max-w-[280px] sm:max-w-[320px] bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#D2EC7C] relative crosshairs">
+ <div className="w-full max-w-[280px] sm:max-w-[320px] bg-white border-[4px] border-black p-2 shadow-[4px_4px_0_0_#D2EC7C] sm:shadow-[8px_8px_0_0_#D2EC7C] relative crosshairs">
  <img
  src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif"
  alt={t('home.heroPhotoAlt')}
@@ -166,7 +166,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  transition={{ delay: 0.4, type: "spring", stiffness: 100 }}
  className="lg:col-span-5 w-full justify-center hidden lg:flex relative text-[#0F0F12]"
  >
- <div className="w-full max-w-md bg-white border-[4px] border-black p-2 shadow-[12px_12px_0_0_#D2EC7C] transition-transform duration-500 relative group crosshairs">
+ <div className="w-full max-w-md bg-white border-[4px] border-black p-2 shadow-[6px_6px_0_0_#D2EC7C] sm:shadow-[12px_12px_0_0_#D2EC7C] transition-transform duration-500 relative group crosshairs">
  <img
  src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif"
  alt={t('home.heroPhotoAlt')}
@@ -239,7 +239,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <div className="text-center mb-12 sm:mb-16">
  <div className="relative inline-block ">
  <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-24 h-6 z-20 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#D2EC7C', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
- <h2 className="relative font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-5xl font-black uppercase bg-white border-[4px] border-black px-6 sm:px-10 py-3 shadow-[8px_8px_0_0_#0F0F12]">{t('home.silenceBadge')}</h2>
+ <h2 className="relative font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-5xl font-black uppercase bg-white border-[4px] border-black px-6 sm:px-10 py-3 shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12]">{t('home.silenceBadge')}</h2>
  </div>
  <p className="mt-7 font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg text-[#0F0F12]/80 max-w-lg mx-auto">{t('home.silenceLead')}</p>
  </div>
@@ -248,7 +248,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <div className="flex flex-col md:flex-row items-stretch gap-5 md:gap-4">
 
  {/* SENZA BAB — voce spenta, barrata */}
- <div className="flex-1 relative bg-[#EBE5FF] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-6 sm:p-7">
+ <div className="flex-1 relative bg-[#EBE5FF] border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12] p-6 sm:p-7">
  <div className="absolute -top-3 left-6 w-20 h-6 z-20 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#D2EC7C', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
  <div className="flex items-center justify-between border-b-[3px] border-black/25 pb-3 mb-5">
  <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl sm:text-3xl font-black uppercase text-[#0F0F12]/65">{t('home.silenceOldLabel')}</h3>
@@ -270,7 +270,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  </div>
 
  {/* CON BAB — voce viva, evidenziata */}
- <div className="flex-1 relative bg-white border-[4px] border-black shadow-[8px_8px_0_0_#34BBC0] p-6 sm:p-7">
+ <div className="flex-1 relative bg-white border-[4px] border-black shadow-[4px_4px_0_0_#34BBC0] sm:shadow-[8px_8px_0_0_#34BBC0] p-6 sm:p-7">
  <div className="absolute -top-3 right-6 w-20 h-6 z-20 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#EBE5FF', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
  <div className="flex items-center justify-between border-b-[3px] border-black pb-3 mb-5">
  <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl sm:text-3xl font-black uppercase">{t('home.silenceBabLabel')}</h3>
@@ -311,7 +311,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  </div>
  
  {/* Bivio Grid */}
- <div className="w-full flex flex-col md:flex-row border-[3px] border-black shadow-[12px_12px_0_0_#0F0F12] overflow-hidden bg-white">
+ <div className="w-full flex flex-col md:flex-row border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] sm:shadow-[12px_12px_0_0_#0F0F12] overflow-hidden bg-white">
  {/* Colonna Allenatore */}
  <div className="flex-1 bg-[#143F36] text-white p-8 sm:p-12 flex flex-col relative">
  <div className="inline-block bg-[#D2EC7C] text-[#0F0F12] border-[2px] border-black px-4 py-1 font-['Space_Grotesk',_sans-serif] font-black uppercase tracking-widest text-xs mb-8 self-start shadow-[4px_4px_0_0_#0F0F12]">
@@ -392,7 +392,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  </div>
 
  <div className="w-full md:w-1/3 shrink-0 hidden md:block">
- <div className="w-full aspect-square border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] crosshairs relative overflow-hidden bg-white">
+ <div className="w-full aspect-square border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12] crosshairs relative overflow-hidden bg-white">
  <img
  src="/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif"
  alt={t('home.dataPhotoAlt')}
@@ -477,7 +477,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  >
  {testimonials.map((item, i) => {
  return (
- <div key={i} style={{ backgroundColor: TESTI_COLORS[i % TESTI_COLORS.length] }} className="relative snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between text-[#0F0F12] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform crosshairs hover:-translate-y-2">
+ <div key={i} style={{ backgroundColor: TESTI_COLORS[i % TESTI_COLORS.length] }} className="relative snap-center shrink-0 w-[85vw] max-w-[400px] flex flex-col justify-between text-[#0F0F12] border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12] p-8 sm:p-10 transition-transform crosshairs hover:-translate-y-2">
  <div className="telemetry-line"></div>
  <p className="text-base sm:text-lg font-extrabold leading-relaxed mb-8 border-l-[4px] border-black pl-4 sm:pl-6 relative ">
  <span className="absolute -left-3 -top-3 text-4xl opacity-20 font-serif font-black" aria-hidden="true">"</span>

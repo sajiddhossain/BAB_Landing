@@ -49,7 +49,7 @@ export default function About() {
  {/* doodle: sparkle + freccia "scarabocchiata" sulla foto, come un diario */}
  <Doodle name="sparkle" className="absolute -top-5 -left-5 w-10 h-10 text-[#D2EC7C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12 z-20" />
  <Doodle name="arrowCurl" className="hidden md:block absolute -bottom-8 -left-12 w-20 h-16 text-[#34BBC0] -rotate-12 z-20" stroke={3} />
- <div className="bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#0F0F12] relative">
+ <div className="bg-white border-[4px] border-black p-2 shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12] relative">
  <img
  src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif"
  alt={t('about.photoAlt')}
@@ -67,7 +67,7 @@ export default function About() {
  <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc0JyBoZWlnaHQ9JzQnPjxyZWN0IHdpZHRoPSc0JyBoZWlnaHQ9JzQnIGZpbGw9JyNmZmYnLz48cmVjdCB3aWR0aD0nMScgaGVpZ2h0PScxJyBmaWxsPScjY2NjJy8+PC9zdmc+')] opacity-50 -z-10" aria-hidden="true"></div>
 
  <div className="text-center mb-16 relative">
- <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black uppercase inline-block bg-[#D2EC7C] border-[3px] md:border-[4px] border-black px-8 py-3 shadow-[8px_8px_0_0_#0F0F12] relative z-10">
+ <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-5xl lg:text-6xl font-black uppercase inline-block bg-[#D2EC7C] border-[3px] md:border-[4px] border-black px-8 py-3 shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12] relative z-10">
  <span className="block ">{t('about.storyBadge')}</span>
  </h2>
  </div>
@@ -113,7 +113,7 @@ export default function About() {
  whileInView={{ opacity: 1, scale: 1 }}
  viewport={{ once: true, margin: "-50px" }}
  transition={{ duration: 0.45, ease: [0.32, 0.72, 0, 1], delay: 0.1 }}
- className="relative w-64 sm:w-80 my-4 shadow-[12px_12px_0_0_#0F0F12] border-[4px] border-black bg-black group z-10 p-2 "
+ className="relative w-64 sm:w-80 my-4 shadow-[6px_6px_0_0_#0F0F12] sm:shadow-[12px_12px_0_0_#0F0F12] border-[4px] border-black bg-black group z-10 p-2 "
  >
  {/* doodle: decorazioni "da diario" attorno alla polaroid di Mia */}
  <Doodle name="sparkle" className="absolute -top-4 -right-4 w-10 h-10 text-[#D2EC7C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12 z-20 pointer-events-none" />
@@ -147,7 +147,7 @@ export default function About() {
  transition={{ duration: 0.45, ease: [0.32, 0.72, 0, 1], delay: 0.2 }}
  className="relative w-full transition-transform"
  >
- <div className="bg-[#D2EC7C] p-2 md:p-3 border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12]">
+ <div className="bg-[#D2EC7C] p-2 md:p-3 border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12]">
  <div className="bg-[#0F0F12] text-white border-[3px] border-black p-8 sm:p-10 h-full">
  {t('about.story4pre')}<span className="underline decoration-4 underline-offset-4 decoration-[#D2EC7C]">{t('about.story4highlight')}</span>{t('about.story4post')}
  </div>
@@ -196,19 +196,19 @@ export default function About() {
  </h2>
  </div>
 
- <div className="bg-[#D2EC7C] border-[4px] border-black p-6 sm:p-12 shadow-[12px_12px_0_0_#0F0F12] flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
+ <div className="bg-[#D2EC7C] border-[4px] border-black p-6 sm:p-12 shadow-[6px_6px_0_0_#0F0F12] sm:shadow-[12px_12px_0_0_#0F0F12] flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
 
  <div className="w-full sm:w-2/3 lg:w-1/3 shrink-0 mx-auto lg:mx-0 relative">
  <Doodle name="sparkle" className="absolute -top-5 -right-4 w-10 h-10 text-[#0F0F12] rotate-12 z-20" />
  <img
  src="/fotobab/GaiaManzone.avif"
  alt="Gaia Manzone, CEO & Founder"
- className="w-full aspect-[4/5] object-cover object-top border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] transition-transform duration-300"
+ className="w-full aspect-[4/5] object-cover object-top border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12] transition-transform duration-300"
  loading="lazy"
  />
  </div>
 
- <div className="flex-1 bg-white border-[4px] border-black p-6 sm:p-8 shadow-[8px_8px_0_0_#0F0F12] w-full">
+ <div className="flex-1 bg-white border-[4px] border-black p-6 sm:p-8 shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12] w-full">
  <div className="flex flex-col items-start gap-5 mb-8">
  <h3 className="relative inline-block font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-4xl font-black uppercase m-0">Gaia Manzone
  <Doodle name="underline" stretch className="absolute -bottom-2.5 left-0 w-full h-3 text-[#FF6B5C]" stroke={3} />
