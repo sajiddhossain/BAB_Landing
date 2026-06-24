@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 // Colori y2k: ogni FAQ aperta assume un colore diverso (chiari → testo nero leggibile).
-const FAQ_COLORS = ['#D2EC7C', '#8FD4E8', '#FF8FB1', '#EBE5FF', '#FFC042'];
+const FAQ_COLORS = ['#D2EC7C', '#EBE5FF', '#34BBC0'];
 
 export default function FAQ() {
  const { t } = useTranslation();

@@ -16,7 +16,7 @@ export default function NotFound({ onNavigate }: NotFoundProps) {
 
  return (
  <section className="min-h-[70vh] flex flex-col items-center justify-center text-center px-6 py-20">
- <span className="inline-block bg-black text-[#DAE69A] px-4 py-1.5 border-[3px] border-black font-black uppercase tracking-widest text-xs sm:text-sm shadow-[4px_4px_0_0_#DAE69A] mb-8">
+ <span className="inline-block bg-black text-[#D2EC7C] px-4 py-1.5 border-[3px] border-black font-black uppercase tracking-widest text-xs sm:text-sm shadow-[4px_4px_0_0_#D2EC7C] mb-8">
  {t('notFound.code')}
  </span>
 

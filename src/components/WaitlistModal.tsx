@@ -230,9 +230,9 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
  initial={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.85, rotate: -6 }}
  animate={reduce ? { opacity: 1 } : { opacity: 1, scale: 1, rotate: -1 }}
  transition={{ type: 'spring', stiffness: 320, damping: 16, delay: 0.1 }}
- className="bg-black text-[#DAE69A] px-4 py-2 flex items-center justify-center gap-3 shadow-[4px_4px_0_0_#DAE69A] mb-8"
+ className="bg-black text-[#D2EC7C] px-4 py-2 flex items-center justify-center gap-3 shadow-[4px_4px_0_0_#D2EC7C] mb-8"
  >
- <Doodle name="lock" className="w-5 h-5 shrink-0 text-[#DAE69A]" stroke={2} />
+ <Doodle name="lock" className="w-5 h-5 shrink-0 text-[#D2EC7C]" stroke={2} />
  <span className="text-sm font-black uppercase tracking-widest">
  {t('waitlist.scarcity')}
  </span>
@@ -373,7 +373,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
  initial={reduce ? { opacity: 0 } : { scale: 0.2, rotate: 10, opacity: 0 }}
  animate={reduce ? { opacity: 1 } : { scale: 1, rotate: -2, opacity: 1 }}
  transition={{ type: 'spring', stiffness: 260, damping: 13, delay: reduce ? 0 : 0.12 }}
- className="text-6xl font-['Bricolage_Grotesque',_sans-serif] font-black bg-[#DAE69A] border-[3px] border-black inline-block px-6 py-2 shadow-[6px_6px_0_0_#0F0F12] mb-4"
+ className="text-6xl font-['Bricolage_Grotesque',_sans-serif] font-black bg-[#D2EC7C] border-[3px] border-black inline-block px-6 py-2 shadow-[6px_6px_0_0_#0F0F12] mb-4"
  >
  {score}
  </motion.div>
@@ -389,4 +389,12 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
  </div>
  </div>
  );
+}
+
+/**
+ * WaitlistPanel — variante del modale SENZA overlay fixed, pensata per le preview
+ * del design system (claude.ai/design). Rende solo il pannello del quiz/email.
+ */
+export function WaitlistPanel({ target }: { target?: UserType }) {
+  return <WaitlistPanelContent onClose={() => {}} target={target} />;
 }

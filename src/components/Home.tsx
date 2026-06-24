@@ -7,10 +7,10 @@ import { COACH_ENABLED } from '../lib/flags';
 import type { UserType } from '../lib/leads';
 
 // Palette "voci ritrovate": spettro caldo per le affermazioni post-BAB (foto 3).
-const BAB_MARK = ['#D4F46A', '#8FD4E8', '#FF8FB1', '#B8A9E8', '#D4F46A', '#FFC042', '#FF8FB1'];
+const BAB_MARK = ['#D2EC7C', '#34BBC0', '#EBE5FF'];
 
 // Colori y2k per le card della community (chiari → testo scuro leggibile).
-const TESTI_COLORS = ['#EBE5FF', '#8FD4E8', '#FFE3D1', '#D2EC7C'];
+const TESTI_COLORS = ['#EBE5FF', '#34BBC0', '#D2EC7C'];
 
 // Marquee: doodle disegnati a mano (no emoji) + voce "Lista d'attesa".
 const MARQUEE_ITEMS: { d: DoodleName; k: string }[] = [
@@ -201,7 +201,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
  {/* MARQUEE — badge che scorrono lenti (firma del brand), con doodle disegnati
  a mano invece delle emoji; include la voce "Lista d'attesa". */}
- <div className="w-full bg-[#DAE69A] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]" role="img" aria-label={t('home.trustbarAria')}>
+ <div className="w-full bg-[#D2EC7C] border-y-[4px] border-black overflow-hidden py-3 sm:py-4 relative z-20 flex items-center shadow-[0_4px_0_0_#0F0F12]" role="img" aria-label={t('home.trustbarAria')}>
  <div
  className="flex items-center whitespace-nowrap w-max animate-marquee motion-reduce:[animation:none]"
  aria-hidden="true"
@@ -240,7 +240,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  {/* Titolo nastrato */}
  <div className="text-center mb-12 sm:mb-16">
  <div className="relative inline-block ">
- <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-24 h-6 z-20 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#FFC042', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
+ <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-24 h-6 z-20 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#D2EC7C', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
  <h2 className="relative font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-5xl font-black uppercase bg-white border-[4px] border-black px-6 sm:px-10 py-3 shadow-[8px_8px_0_0_#0F0F12]">{t('home.silenceBadge')}</h2>
  </div>
  <p className="mt-7 font-['Space_Grotesk',_sans-serif] font-bold text-base sm:text-lg text-[#0F0F12]/80 max-w-lg mx-auto">{t('home.silenceLead')}</p>
@@ -250,8 +250,8 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <div className="flex flex-col md:flex-row items-stretch gap-5 md:gap-4">
 
  {/* SENZA BAB — voce spenta, barrata */}
- <div className="flex-1 relative bg-[#FFE3D1] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-6 sm:p-7">
- <div className="absolute -top-3 left-6 w-20 h-6 z-20 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#FFC042', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
+ <div className="flex-1 relative bg-[#EBE5FF] border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] p-6 sm:p-7">
+ <div className="absolute -top-3 left-6 w-20 h-6 z-20 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#D2EC7C', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
  <div className="flex items-center justify-between border-b-[3px] border-black/25 pb-3 mb-5">
  <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl sm:text-3xl font-black uppercase text-[#0F0F12]/65">{t('home.silenceOldLabel')}</h3>
  <span className="w-9 h-9 rounded-full bg-[#FF6B5C] text-white border-[3px] border-black flex items-center justify-center font-black shrink-0" aria-hidden="true">✕</span>
@@ -272,11 +272,11 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  </div>
 
  {/* CON BAB — voce viva, evidenziata */}
- <div className="flex-1 relative bg-white border-[4px] border-black shadow-[8px_8px_0_0_#FF8FB1] p-6 sm:p-7">
- <div className="absolute -top-3 right-6 w-20 h-6 z-20 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#B8A9E8', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
+ <div className="flex-1 relative bg-white border-[4px] border-black shadow-[8px_8px_0_0_#34BBC0] p-6 sm:p-7">
+ <div className="absolute -top-3 right-6 w-20 h-6 z-20 opacity-90 shadow-[0_3px_6px_rgba(0,0,0,0.25)]" style={{ backgroundColor: '#EBE5FF', clipPath: 'polygon(0 5%, 100% 0, 98% 95%, 2% 100%)' }} aria-hidden="true"></div>
  <div className="flex items-center justify-between border-b-[3px] border-black pb-3 mb-5">
  <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-2xl sm:text-3xl font-black uppercase">{t('home.silenceBabLabel')}</h3>
- <span className="w-9 h-9 rounded-full bg-[#D4F46A] border-[3px] border-black flex items-center justify-center text-base shrink-0" aria-hidden="true">💚</span>
+ <span className="w-9 h-9 rounded-full bg-[#D2EC7C] border-[3px] border-black flex items-center justify-center text-base shrink-0" aria-hidden="true">💚</span>
  </div>
  <ul className="flex flex-col gap-3">
  {babVoices.map((v, i) => (
@@ -304,7 +304,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <div className="font-['Space_Grotesk',_sans-serif] font-black tracking-widest text-sm uppercase text-black/60 mb-4">
  {t('home.bivioSuper')}
  </div>
- <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-[#8FD4E8] drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] mb-6 break-words max-w-full" style={{ WebkitTextStroke: '2.5px #0F0F12' }}>
+ <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-[#34BBC0] drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] mb-6 break-words max-w-full" style={{ WebkitTextStroke: '2.5px #0F0F12' }}>
  {t('home.bivioTitle')}
  </h2>
  <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg sm:text-xl max-w-2xl text-[#0F0F12]">
@@ -416,8 +416,8 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
  {/* 77% */}
  <li className="relative bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] px-6 pt-10 pb-6">
- <span aria-hidden="true" className="absolute -top-3 left-7 w-16 h-6 rotate-[-6deg] opacity-85 shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#FFC042', clipPath: 'polygon(0 8%,100% 0,98% 92%,2% 100%)' }}></span>
- <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#FFC042', WebkitTextStroke: '5px #0F0F12', paintOrder: 'stroke', textShadow: '3px 3px 0 rgba(15,15,18,0.2)' }}>{t('home.data1Val')}</span>
+ <span aria-hidden="true" className="absolute -top-3 left-7 w-16 h-6 rotate-[-6deg] opacity-85 shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#D2EC7C', clipPath: 'polygon(0 8%,100% 0,98% 92%,2% 100%)' }}></span>
+ <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#D2EC7C', WebkitTextStroke: '5px #0F0F12', paintOrder: 'stroke', textShadow: '3px 3px 0 rgba(15,15,18,0.2)' }}>{t('home.data1Val')}</span>
  <p className="font-extrabold uppercase text-xs sm:text-sm tracking-tight leading-snug">{t('home.data1Desc')}</p>
  </li>
 
@@ -430,7 +430,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
  {/* ~0% — il vuoto che BAB colma */}
  <li className="relative bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] px-6 pt-10 pb-6">
- <span aria-hidden="true" className="absolute -top-3 left-7 w-16 h-6 rotate-[-4deg] opacity-85 shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#8FD4E8', clipPath: 'polygon(0 8%,100% 0,98% 92%,2% 100%)' }}></span>
+ <span aria-hidden="true" className="absolute -top-3 left-7 w-16 h-6 rotate-[-4deg] opacity-85 shadow-[0_2px_4px_rgba(0,0,0,0.2)]" style={{ backgroundColor: '#34BBC0', clipPath: 'polygon(0 8%,100% 0,98% 92%,2% 100%)' }}></span>
  <span className="block font-['Bricolage_Grotesque',_sans-serif] text-6xl sm:text-7xl leading-none font-black mb-3" style={{ color: '#1F7A63', WebkitTextStroke: '5px #0F0F12', paintOrder: 'stroke', textShadow: '3px 3px 0 rgba(15,15,18,0.2)' }}>{t('home.data3Val')}</span>
  <p className="font-extrabold uppercase text-xs sm:text-sm tracking-tight leading-snug">{t('home.data3Desc')}</p>
  <p className="mt-2 font-black uppercase text-[11px] tracking-widest text-deepteal">↳ {t('home.dataVoid')}</p>
