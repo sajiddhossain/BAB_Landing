@@ -93,7 +93,6 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  transition={{ delay: 0.2 }}
  className="relative inline-block px-4 py-1 bg-[#EBE5FF] border-[2px] md:border-[3px] border-black font-['Space_Grotesk',_sans-serif] text-[#0F0F12] font-black text-[10px] sm:text-xs tracking-widest uppercase mb-4 sm:mb-6 shadow-[4px_4px_0_0_#0F0F12]"
  >
- <div className="duct-tape duct-tape-black -top-2 -left-4 rotate-[-8deg] w-12 h-4"></div>
  <span className="relative z-10">{t('home.badge')}</span>
  </motion.div>
  
@@ -132,7 +131,6 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  className="w-full flex justify-center mb-8 lg:hidden"
  >
  <div className="w-full max-w-[280px] sm:max-w-[320px] bg-white border-[4px] border-black p-2 shadow-[8px_8px_0_0_#D2EC7C] relative crosshairs">
- <div className="duct-tape duct-tape-black -top-4 right-2 rotate-[12deg] w-16 h-6 z-20"></div>
  <img
  src="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif"
  alt={t('home.heroPhotoAlt')}
@@ -395,7 +393,6 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
 
  <div className="w-full md:w-1/3 shrink-0 hidden md:block">
  <div className="w-full aspect-square border-[4px] border-black shadow-[8px_8px_0_0_#0F0F12] crosshairs relative overflow-hidden bg-white">
- <div className="duct-tape -top-4 -left-4 rotate-[-15deg] w-32 h-10 z-20 opacity-80"></div>
  <img
  src="/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif"
  alt={t('home.dataPhotoAlt')}
