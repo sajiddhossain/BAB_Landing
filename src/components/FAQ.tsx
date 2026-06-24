@@ -27,7 +27,7 @@ export default function FAQ() {
  <span className="block ">{t('faqHome.badge')}</span>
  </span>
  <h2
- className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-none text-[#D2EC7C] tracking-tighter drop-shadow-[5px_5px_0_rgba(15,15,18,1)] " style={{ WebkitTextStroke: '2px #0F0F12', paintOrder: 'stroke' }}>
+ className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black uppercase leading-none text-[#D2EC7C] tracking-tighter drop-shadow-[3px_3px_0_rgba(15,15,18,1)] " style={{ WebkitTextStroke: '2px #0F0F12', paintOrder: 'stroke' }}>
  <span className="block ">{t('faqHome.title')}</span>
  </h2>
  </div>
