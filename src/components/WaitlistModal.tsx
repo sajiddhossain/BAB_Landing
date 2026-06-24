@@ -209,7 +209,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
  };
 
  return (
- <div className="relative w-full max-w-md bg-[#FAF9F6] border-[4px] border-black shadow-[12px_12px_0_0_#0F0F12] flex flex-col z-10 max-h-[90vh] overflow-y-auto">
+ <div className="relative w-full max-w-md bg-[#FAF9F6] border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] sm:shadow-[12px_12px_0_0_#0F0F12] flex flex-col z-10 max-h-[90vh] overflow-y-auto">
 
  <div className="flex items-center justify-between p-4 border-b-[3px] border-black bg-[#D2EC7C]">
  <h2 id="waitlist-title" className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black uppercase tracking-widest">

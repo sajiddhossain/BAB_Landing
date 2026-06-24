@@ -51,7 +51,7 @@ export default function Features() {
  whileInView={{ opacity: 1, y: 0 }}
  viewport={{ once: true, margin: "-40px" }}
  transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1], delay: idx * 0.05 }}
- className={`w-full relative z-10 p-2 md:p-3 bg-neutral-300 border-[4px] border-black shadow-[12px_12px_0_0_#0F0F12] `}
+ className={`w-full relative z-10 p-2 md:p-3 bg-neutral-300 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12] sm:shadow-[12px_12px_0_0_#0F0F12] `}
  >
  <div className={`flex flex-col gap-6 items-start w-full bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-10 text-[#0F0F12] h-full `}>
  
@@ -110,7 +110,7 @@ export default function Features() {
 
  {/* Privacy & Research (spostato qui dalla home) */}
  <section className="w-full max-w-3xl mx-auto mt-16">
- <div className="bg-white text-[#0F0F12] border-[4px] border-black p-8 sm:p-12 text-left shadow-[8px_8px_0_0_#0F0F12] relative crosshairs">
+ <div className="bg-white text-[#0F0F12] border-[4px] border-black p-8 sm:p-12 text-left shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12] relative crosshairs">
  <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl font-black uppercase mb-6 bg-black text-[#D2EC7C] inline-block px-4 py-2 tracking-tight">{t('home.privacyTitle')}</h3>
  <div className="font-['Space_Grotesk',_sans-serif] font-bold">
  <p className="text-lg leading-relaxed mb-6">{t('home.privacy1')}</p>
