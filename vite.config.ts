@@ -223,4 +223,11 @@ function prerenderRoutes(): Plugin {
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), prerenderRoutes()],
+  // Onora la porta fornita dall'ambiente (es. il preview con autoPort imposta PORT),
+  // altrimenti usa 5173. strictPort:false => se occupata, passa alla successiva libera
+  // invece di fallire.
+  server: {
+    port: process.env.PORT ? Number(process.env.PORT) : 5173,
+    strictPort: false,
+  },
 })
