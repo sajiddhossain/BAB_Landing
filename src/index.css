@@ -59,28 +59,9 @@ body {
   overflow-x: hidden;
 }
 
-/* Texture Noise / Grain per effetto carta vera e "usata".
-   NB: niente mix-blend-mode (forzava la ri-fusione dell'intera viewport a ogni
-   frame di scroll → jank su mobile). E su dispositivi touch la grana è disattivata
-   del tutto: a 0.035 di opacità è impercettibile, ma toglie un layer fisso a
-   tutto schermo dal percorso di composizione dello scroll. */
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 9999;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.035'/%3E%3C/svg%3E");
-  opacity: 0.6;
-}
-@media (pointer: coarse) {
-  body::after { display: none; }
-}
-
-/* prefers-reduced-motion: spegne grana, e neutralizza animazioni/transizioni CSS
+/* prefers-reduced-motion: neutralizza animazioni/transizioni CSS
    (le animazioni framer-motion sono già gestite da <MotionConfig reducedMotion="user"> in main.tsx) */
 @media (prefers-reduced-motion: reduce) {
-  body::after { display: none; }
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
