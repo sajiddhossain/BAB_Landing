@@ -166,7 +166,7 @@ export default function About() {
  <Doodle name="star" className="absolute top-6 right-4 sm:right-20 w-8 h-8 text-[#FF6B5C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12" />
 
  <h3
- className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[4px_4px_0_rgba(15,15,18,1)] md:drop-shadow-[7px_7px_0_rgba(15,15,18,1)] text-[#D2EC7C] break-words max-w-full" style={{ WebkitTextStroke: '2.5px #0F0F12', paintOrder: 'stroke' }}>
+ className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[3px_3px_0_rgba(15,15,18,1)] text-[#D2EC7C] break-words max-w-full" style={{ WebkitTextStroke: '2.5px #0F0F12', paintOrder: 'stroke' }}>
  {t('about.bigA')}<br/><span className="underline decoration-[#D2EC7C] decoration-8 underline-offset-4 text-white">{t('about.bigHealth')}</span><br/>{t('about.bigB')}<br/><span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">{t('about.bigSport')}</span>
  </h3>
  <div className="mt-12 relative">
