@@ -24,7 +24,7 @@ export default function Features() {
  <span className="block ">{t('features.badge')}</span>
  </span>
  <h1 
- className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#8FD4E8] tracking-tighter"
+ className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] text-[#34BBC0] tracking-tighter"
  style={{ WebkitTextStroke: '2.5px #0F0F12' }}
  dangerouslySetInnerHTML={{__html: t('features.title')}}
  />
@@ -81,7 +81,7 @@ export default function Features() {
  {m.hasWidget && (
  <div className="bg-white border-[4px] border-black p-6 flex flex-col items-center gap-6 shadow-[inset_6px_6px_0_rgba(0,0,0,0.1)] w-full mt-4 relative overflow-hidden">
  {/* Telemetry Micro-Data */}
- <div className="absolute top-3 left-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-[#DAE69A] border-[2px] border-black px-1.5 py-0.5 ">BPM: 142</div>
+ <div className="absolute top-3 left-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-[#D2EC7C] border-[2px] border-black px-1.5 py-0.5 ">BPM: 142</div>
  <div className="absolute top-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] bg-vividteal text-white border-[2px] border-black px-1.5 py-0.5 ">ZONA 4</div>
  <div className="absolute bottom-3 right-3 text-[10px] sm:text-xs font-black font-['Space_Grotesk',_sans-serif] border-b-[2px] border-black opacity-50 ">HRV: OK</div>
  
