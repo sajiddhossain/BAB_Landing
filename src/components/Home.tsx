@@ -302,7 +302,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <div className="font-['Space_Grotesk',_sans-serif] font-black tracking-widest text-sm uppercase text-black/60 mb-4">
  {t('home.bivioSuper')}
  </div>
- <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-[#34BBC0] drop-shadow-[3px_3px_0_rgba(15,15,18,1)] md:drop-shadow-[6px_6px_0_rgba(15,15,18,1)] mb-6 break-words max-w-full" style={{ WebkitTextStroke: '2.5px #0F0F12', paintOrder: 'stroke' }}>
+ <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-[#34BBC0] drop-shadow-[4px_4px_0_rgba(15,15,18,1)] md:drop-shadow-[7px_7px_0_rgba(15,15,18,1)] mb-6 break-words max-w-full" style={{ WebkitTextStroke: '2.5px #0F0F12', paintOrder: 'stroke' }}>
  {t('home.bivioTitle')}
  </h2>
  <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg sm:text-xl max-w-2xl text-[#0F0F12]">
