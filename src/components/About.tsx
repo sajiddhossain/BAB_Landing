@@ -38,7 +38,7 @@ export default function About() {
  <span className="block ">{t('about.missionBadge')}</span>
  </span>
  <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl font-black leading-none uppercase drop-shadow-[2px_2px_0_rgba(52,187,192,1)] sm:drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6 break-words max-w-full">
- <span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">{t('about.titleWord')}</span><br/>{t('about.titleRest')}
+ <span className="underline decoration-[#FF6B5C] decoration-[6px] sm:decoration-8 underline-offset-4">{t('about.titleWord')}</span><br/>{t('about.titleRest')}
  </h1>
  <p className="font-extrabold text-lg leading-relaxed border-l-[4px] border-black pl-4">
  {t('about.missionLead')}
