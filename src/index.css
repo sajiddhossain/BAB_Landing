@@ -156,6 +156,20 @@ body {
 }
 
 
+/* Contorno dei titoli (outlined). paint-order:stroke = fill opaco sopra il
+   contorno -> niente bleed della griglia. Responsivo: 3px mobile, 4px da sm
+   (il testo e' text-4xl su mobile e text-7xl su desktop). Un solo punto da
+   ritoccare per tutti i titoli. */
+.title-stroke {
+  -webkit-text-stroke: 3px #0F0F12;
+  paint-order: stroke;
+}
+@media (min-width: 640px) {
+  .title-stroke {
+    -webkit-text-stroke: 4px #0F0F12;
+  }
+}
+
 /* --- Punk-Sport Scrapbook Elements --- */
 .vinyl-sticker {
   box-shadow: 3px 3px 0 0 rgba(15,15,18,1);
