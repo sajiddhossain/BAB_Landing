@@ -40,7 +40,7 @@ export default function Features() {
  { bg: 'bg-[#34BBC0]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', rot: 'rotate-[1deg]' },
  { bg: 'bg-[#FF6B5C]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', rot: 'rotate-[-1deg]' },
  { bg: 'bg-[#EBE5FF]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', rot: 'rotate-[2deg]' },
- { bg: 'bg-[#0F0F12]', text: 'text-[#D2EC7C]', shadow: 'shadow-[6px_6px_0_0_#34BBC0]', rot: 'rotate-[0deg]' },
+ { bg: 'bg-[#D2EC7C]', text: 'text-[#0F0F12]', shadow: 'shadow-[6px_6px_0_0_#0F0F12]', rot: 'rotate-[-1deg]' },
  ];
  const theme = colors[idx % colors.length];
 
