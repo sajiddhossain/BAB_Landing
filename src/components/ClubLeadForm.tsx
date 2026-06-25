@@ -58,12 +58,11 @@ export default function ClubLeadForm() {
  role: chosenRole,
  message: message.trim() || null,
  lang,
- source_path: '/coach',
  });
 
  if (result.ok) {
  setStatus('success');
- trackEvent('demo_request', { club, role: chosenRole });
+ trackEvent('club_waitlist', { club, role: chosenRole });
  } else {
  setStatus('error');
  trackEvent('lead_error', { reason: result.error ?? 'unknown', form: 'club' });

@@ -12,6 +12,7 @@ import { insertLead, type UserType } from '../lib/leads';
 import { trackEvent } from '../lib/analytics';
 import { useAntiSpam, HONEYPOT_FIELD } from '../lib/antispam';
 import Doodle from './Doodle';
+import ClubLeadForm from './ClubLeadForm';
 
 interface WaitlistModalProps {
  isOpen: boolean;
@@ -147,6 +148,11 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
  exit: { opacity: 0, x: 12, transition: { duration: 0.12 } },
  };
 
+ // Step 0: scelta del profilo. Se il modale è aperto con un target preciso
+ // (es. 'societa' dal giochino) saltiamo la scelta e andiamo dritti al percorso.
+ const [audience, setAudience] = useState<'family' | 'club' | null>(
+   target === 'societa' ? 'club' : target ? 'family' : null,
+ );
  const [quizStep, setQuizStep] = useState(1);
  const [sport, setSport] = useState<string | null>(null);
  const [concern, setConcern] = useState<string | null>(null);
@@ -226,6 +232,32 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
 
  <div className="p-6">
 
+ {/* Step 0 — scelta del profilo (saltata se c'è già un target preimpostato) */}
+ {audience === null && (
+ <div className="flex flex-col gap-4">
+ <p className="text-sm font-black uppercase tracking-wide text-center text-[#0F0F12]/80">{t('waitlist.choosePrompt')}</p>
+ {([['family', 'waitlist.chooseFamily', 'waitlist.chooseFamilyDesc'], ['club', 'waitlist.chooseClub', 'waitlist.chooseClubDesc']] as const).map(([a, lab, desc]) => (
+ <button key={a} onClick={() => setAudience(a)} className="w-full text-left bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] p-5 hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all">
+ <span className="block font-['Bricolage_Grotesque',_sans-serif] text-lg font-black uppercase">{t(lab)}</span>
+ <span className="block text-xs font-bold text-[#0F0F12]/70 mt-1 normal-case">{t(desc)}</span>
+ </button>
+ ))}
+ </div>
+ )}
+
+ {/* Indietro alla scelta (solo se entrati dal chooser) */}
+ {audience !== null && !target && status !== 'success' && (
+ <div className="mb-5">
+ <button onClick={() => setAudience(null)} className="text-xs font-black uppercase tracking-wide hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]">{t('waitlist.back')}</button>
+ </div>
+ )}
+
+ {/* Percorso SOCIETÀ SPORTIVA */}
+ {audience === 'club' && <ClubLeadForm />}
+
+ {/* Percorso FAMIGLIA / ATLETA */}
+ {audience === 'family' && (
+ <>
  <motion.div
  initial={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.85, rotate: -6 }}
  animate={reduce ? { opacity: 1 } : { opacity: 1, scale: 1, rotate: -1 }}
@@ -386,6 +418,9 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
  </div>
 
  </div>
+ </>
+ )}
+
  </div>
  </div>
  );
