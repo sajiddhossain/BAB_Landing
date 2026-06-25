@@ -170,6 +170,19 @@ body {
   }
 }
 
+/* Numeri-statistica (es. /about 93/73/84/36): stroke un filo piu' marcato dei
+   titoli, responsivo. Il colore del fill resta inline (varia per statistica),
+   l'ombra resta inline. */
+.stat-stroke {
+  -webkit-text-stroke: 3.5px #0F0F12;
+  paint-order: stroke;
+}
+@media (min-width: 640px) {
+  .stat-stroke {
+    -webkit-text-stroke: 5px #0F0F12;
+  }
+}
+
 /* --- Punk-Sport Scrapbook Elements --- */
 .vinyl-sticker {
   box-shadow: 3px 3px 0 0 rgba(15,15,18,1);
