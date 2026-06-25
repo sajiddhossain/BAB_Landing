@@ -83,7 +83,7 @@ export default function About() {
  transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1] }}
  className="relative self-start w-11/12 sm:w-4/5 transition-transform"
  >
- <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
+ <div className="bg-[#EBE5FF] p-2 border-[3px] border-black shadow-[3px_3px_0_0_#0F0F12] sm:shadow-[5px_5px_0_0_#0F0F12]">
  <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 h-full">
  {t('about.story1')}
  </div>
@@ -99,7 +99,7 @@ export default function About() {
  transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1], delay: 0.05 }}
  className="relative self-end w-11/12 sm:w-4/5 transition-transform"
  >
- <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
+ <div className="bg-[#34BBC0] p-2 border-[3px] border-black shadow-[3px_3px_0_0_#0F0F12] sm:shadow-[5px_5px_0_0_#0F0F12]">
  <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 h-full">
  {t('about.story2pre')}<span className="relative inline-block font-['Bricolage_Grotesque',_sans-serif] bg-black text-white px-3 py-0.5 mx-1 uppercase">
  {t('about.story2highlight')}
@@ -113,7 +113,7 @@ export default function About() {
  whileInView={{ opacity: 1, scale: 1 }}
  viewport={{ once: true, margin: "-50px" }}
  transition={{ duration: 0.45, ease: [0.32, 0.72, 0, 1], delay: 0.1 }}
- className="relative w-64 sm:w-80 my-4 shadow-[6px_6px_0_0_#0F0F12] sm:shadow-[12px_12px_0_0_#0F0F12] border-[4px] border-black bg-black group z-10 p-2 "
+ className="relative w-64 sm:w-80 my-4 shadow-[4px_4px_0_0_#0F0F12] sm:shadow-[8px_8px_0_0_#0F0F12] border-[3px] border-black bg-[#EBE5FF] group z-10 p-2 "
  >
  {/* doodle: decorazioni "da diario" attorno alla polaroid di Mia */}
  <Doodle name="sparkle" className="absolute -top-4 -right-4 w-10 h-10 text-[#D2EC7C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12 z-20 pointer-events-none" />
@@ -131,7 +131,7 @@ export default function About() {
  transition={{ duration: 0.4, ease: [0.32, 0.72, 0, 1], delay: 0.15 }}
  className="relative self-start w-11/12 sm:w-4/5 transition-transform"
  >
- <div className="bg-black p-2 border-[4px] border-black shadow-[6px_6px_0_0_#0F0F12]">
+ <div className="bg-[#34BBC0] p-2 border-[3px] border-black shadow-[3px_3px_0_0_#0F0F12] sm:shadow-[5px_5px_0_0_#0F0F12]">
  <div className="bg-[#FAF9F6] border-[3px] border-black p-6 sm:p-8 h-full">
  {t('about.story3')}
  </div>
