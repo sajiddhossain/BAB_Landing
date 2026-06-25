@@ -24,7 +24,7 @@ export default function Features() {
  <span className="block ">{t('features.badge')}</span>
  </span>
  <h1 
- className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[3px_3px_0_rgba(15,15,18,1)] text-[#34BBC0] tracking-tighter title-stroke" dangerouslySetInnerHTML={{__html: t('features.title')}}
+ className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[3px_3px_0_rgba(15,15,18,1)] text-[#34BBC0] tracking-tight title-stroke" dangerouslySetInnerHTML={{__html: t('features.title')}}
  />
  </div>
 
@@ -61,7 +61,7 @@ export default function Features() {
  <div className="absolute top-4 left-3 w-3 h-3 rounded-full bg-black/10 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.6)]"></div>
  <div className="absolute top-4 right-3 w-3 h-3 rounded-full bg-black/10 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.6)]"></div>
  
- <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-7xl font-black leading-none tracking-tighter" style={{ WebkitTextStroke: theme.bg === 'bg-[#0F0F12]' ? '1.5px #D2EC7C' : '2px #0F0F12' }}>
+ <span className="font-['Space_Grotesk',_sans-serif] text-5xl sm:text-7xl font-black leading-none tracking-tight" style={{ WebkitTextStroke: theme.bg === 'bg-[#0F0F12]' ? '1.5px #D2EC7C' : '2px #0F0F12' }}>
  {m.num}
  </span>
  <span className={`text-[10px] font-black uppercase tracking-widest border-t-[2px] ${theme.bg === 'bg-[#0F0F12]' ? 'border-[#D2EC7C]' : 'border-black'} mt-4 pt-2 w-full text-center opacity-90`}>
