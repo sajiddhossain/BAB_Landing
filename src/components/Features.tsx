@@ -24,7 +24,7 @@ export default function Features() {
  <span className="block ">{t('features.badge')}</span>
  </span>
  <h1 
- className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[3px_3px_0_rgba(15,15,18,1)] text-[#34BBC0] tracking-tighter" style={{ WebkitTextStroke: '2.5px #0F0F12', paintOrder: 'stroke' }} dangerouslySetInnerHTML={{__html: t('features.title')}}
+ className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-7xl font-black leading-none uppercase drop-shadow-[3px_3px_0_rgba(15,15,18,1)] text-[#34BBC0] tracking-tighter title-stroke" dangerouslySetInnerHTML={{__html: t('features.title')}}
  />
  </div>
 
