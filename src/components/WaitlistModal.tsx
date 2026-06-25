@@ -12,7 +12,6 @@ import { insertLead, type UserType } from '../lib/leads';
 import { trackEvent } from '../lib/analytics';
 import { useAntiSpam, HONEYPOT_FIELD } from '../lib/antispam';
 import Doodle from './Doodle';
-import ClubLeadForm from './ClubLeadForm';
 
 interface WaitlistModalProps {
  isOpen: boolean;
@@ -131,6 +130,157 @@ function StepCheck({ reduce }: { reduce: boolean | null }) {
  ✓
  </motion.span>
  );
+}
+
+/**
+ * ClubFlow — percorso "Società sportiva" come quiz animato a step (ruolo →
+ * società → accesso), stesso stile giovanile del quiz famiglia. Salva su
+ * Supabase con user_type='societa'.
+ */
+function ClubFlow({ onClose }: { onClose: () => void }) {
+  const { t, i18n } = useTranslation();
+  const reduce = useReducedMotion();
+  const listV = { hidden: {}, show: { transition: { staggerChildren: reduce ? 0 : 0.07, delayChildren: reduce ? 0 : 0.04 } } };
+  const itemV = reduce
+    ? { hidden: { opacity: 0 }, show: { opacity: 1 }, exit: { opacity: 0 } }
+    : {
+        hidden: { opacity: 0, x: -16 },
+        show: { opacity: 1, x: 0, transition: { type: 'spring' as const, stiffness: 460, damping: 26 } },
+        exit: { opacity: 0, x: 12, transition: { duration: 0.12 } },
+      };
+
+  const roles = t('club.roles', { returnObjects: true }) as unknown as string[];
+  const [step, setStep] = useState(1);
+  const [role, setRole] = useState<string | null>(null);
+  const [name, setName] = useState('');
+  const [club, setClub] = useState('');
+  const [message, setMessage] = useState('');
+  const [email, setEmail] = useState('');
+  const [consent, setConsent] = useState(false);
+  const [status, setStatus] = useState<SubmitStatus>('idle');
+  const antiSpam = useAntiSpam();
+
+  const chooseRole = (r: string) => { setRole(r); setStep(2); trackEvent('club_quiz_role', { role: r }); };
+  const step2Valid = name.trim() !== '' && club.trim() !== '';
+  const goStep3 = (e: React.FormEvent) => { e.preventDefault(); if (step2Valid) setStep(3); };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const cleanEmail = email.trim().toLowerCase();
+    if (status === 'submitting' || !isValidEmail(cleanEmail) || !consent) return;
+    if (antiSpam.isLikelyBot()) { setStatus('success'); trackEvent('lead_spam_blocked', { form: 'club' }); return; }
+    setStatus('submitting');
+    const lang = i18n.language ? i18n.language.substring(0, 2) : 'it';
+    const result = await insertLead({
+      email: cleanEmail,
+      user_type: 'societa',
+      name: name.trim(),
+      club: club.trim(),
+      role: role || roles[0] || null,
+      message: message.trim() || null,
+      lang,
+    });
+    if (result.ok) { setStatus('success'); trackEvent('club_waitlist', { club: club.trim(), role }); }
+    else { setStatus('error'); trackEvent('lead_error', { reason: result.error ?? 'unknown', form: 'club' }); }
+  };
+
+  const inputCls = 'w-full py-3 px-4 bg-white border-[3px] border-black font-bold text-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-[#34BBC0]/60 shadow-[inset_4px_4px_0_rgba(0,0,0,0.05)] transition-all';
+
+  if (status === 'success') {
+    return (
+      <motion.div className="text-center py-4" role="status" aria-live="polite" variants={listV} initial="hidden" animate="show">
+        <motion.div
+          initial={reduce ? { opacity: 0 } : { scale: 0.2, rotate: 10, opacity: 0 }}
+          animate={reduce ? { opacity: 1 } : { scale: 1, rotate: -2, opacity: 1 }}
+          transition={{ type: 'spring', stiffness: 260, damping: 13, delay: reduce ? 0 : 0.1 }}
+          className="w-16 h-16 mx-auto bg-[#34BBC0] text-[#0F0F12] border-[3px] border-black flex items-center justify-center font-black text-3xl shadow-[6px_6px_0_0_#0F0F12] mb-5"
+          aria-hidden="true"
+        >✓</motion.div>
+        <motion.p variants={itemV} className="font-['Bricolage_Grotesque',_sans-serif] font-black text-xl uppercase tracking-wide mb-2">{t('club.successTitle')}</motion.p>
+        <motion.p variants={itemV} className="text-sm font-bold leading-relaxed text-[#0F0F12]/75 mb-5 max-w-xs mx-auto">{t('club.successBody')}</motion.p>
+        <motion.div variants={itemV}>
+          <button onClick={onClose} className="font-bold uppercase text-xs hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]">{t('waitlist.closeWindow')}</button>
+        </motion.div>
+      </motion.div>
+    );
+  }
+
+  return (
+    <>
+      <motion.div
+        initial={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.85, rotate: -6 }}
+        animate={reduce ? { opacity: 1 } : { opacity: 1, scale: 1, rotate: -1 }}
+        transition={{ type: 'spring', stiffness: 320, damping: 16, delay: 0.1 }}
+        className="bg-black text-[#D2EC7C] px-4 py-2 flex items-center justify-center gap-3 shadow-[4px_4px_0_0_#D2EC7C] mb-8"
+      >
+        <Doodle name="lock" className="w-5 h-5 shrink-0 text-[#D2EC7C]" stroke={2} />
+        <span className="text-sm font-black uppercase tracking-widest">{t('waitlist.scarcity')}</span>
+      </motion.div>
+
+      {/* Honeypot */}
+      <div className="absolute left-[-9999px] top-0 w-px h-px overflow-hidden" aria-hidden="true">
+        <label htmlFor={HONEYPOT_FIELD}>Non compilare questo campo</label>
+        <input id={HONEYPOT_FIELD} name={HONEYPOT_FIELD} type="text" tabIndex={-1} autoComplete="off" value={antiSpam.trap} onChange={e => antiSpam.setTrap(e.target.value)} />
+      </div>
+
+      <div className="flex flex-col gap-6">
+
+        {/* Step 1 — Ruolo */}
+        <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] p-5 ${step >= 1 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
+          <div className="flex justify-between items-center mb-4 border-b-[2px] border-black pb-2">
+            <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black">{t('waitlist.clubStep1')}</h3>
+            <AnimatePresence>{step > 1 && <StepCheck reduce={reduce} />}</AnimatePresence>
+          </div>
+          <AnimatePresence mode="wait">
+            {step === 1 && (
+              <motion.div variants={listV} initial="hidden" animate="show" exit="hidden" className="flex flex-col gap-3">
+                {roles.map(r => (
+                  <motion.div key={r} variants={itemV}>
+                    <button onClick={() => chooseRole(r)} className="w-full py-3 px-4 bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-1 hover:shadow-[6px_6px_0_0_#0F0F12] active:translate-y-1 active:shadow-[0_0_0_0_#0F0F12] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all text-left font-black uppercase text-sm">{r}</button>
+                  </motion.div>
+                ))}
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+
+        {/* Step 2 — Società */}
+        <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] p-5 ${step >= 2 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
+          <div className="flex justify-between items-center mb-4 border-b-[2px] border-black pb-2">
+            <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black">{t('waitlist.clubStep2')}</h3>
+            <AnimatePresence>{step > 2 && <StepCheck reduce={reduce} />}</AnimatePresence>
+          </div>
+          <AnimatePresence mode="wait">
+            {step === 2 && (
+              <motion.form onSubmit={goStep3} variants={listV} initial="hidden" animate="show" exit="hidden" className="flex flex-col gap-3">
+                <motion.input variants={itemV} type="text" required value={name} onChange={e => setName(e.target.value)} placeholder={t('club.namePlaceholder')} aria-label={t('club.name')} className={inputCls} />
+                <motion.input variants={itemV} type="text" required value={club} onChange={e => setClub(e.target.value)} placeholder={t('club.clubPlaceholder')} aria-label={t('club.club')} className={inputCls} />
+                <motion.textarea variants={itemV} rows={2} value={message} onChange={e => setMessage(e.target.value)} placeholder={t('club.messagePlaceholder')} aria-label={t('club.message')} className={inputCls} />
+                <motion.button variants={itemV} type="submit" disabled={!step2Valid} className="w-full bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-3 text-base font-black uppercase tracking-wide shadow-[4px_4px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] disabled:opacity-50 disabled:cursor-not-allowed transition-all">{t('waitlist.continue')}</motion.button>
+              </motion.form>
+            )}
+          </AnimatePresence>
+        </div>
+
+        {/* Step 3 — Accesso */}
+        <div className={`bg-white border-[3px] border-black shadow-[4px_4px_0_0_#0F0F12] p-5 ${step >= 3 ? 'opacity-100' : 'opacity-40 grayscale pointer-events-none'}`}>
+          <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black mb-4 border-b-[2px] border-black pb-2">{t('waitlist.step3Title')}</h3>
+          {step >= 3 && (
+            <motion.form onSubmit={handleSubmit} className="flex flex-col gap-4" initial={reduce ? { opacity: 0 } : { opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 380, damping: 28 }}>
+              <input type="email" required value={email} onChange={e => setEmail(e.target.value)} placeholder={t('club.emailPlaceholder')} aria-label={t('club.email')} className={`${inputCls} uppercase`} />
+              <label htmlFor="club-flow-consent" className="flex items-start gap-3 cursor-pointer py-1">
+                <input id="club-flow-consent" type="checkbox" checked={consent} onChange={e => setConsent(e.target.checked)} required className="mt-0.5 w-5 h-5 shrink-0 accent-[#1F7A63] border-[2px] border-black focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]" />
+                <span className="text-xs font-bold leading-relaxed">{t('club.consentPre')}{' '}<a href="/privacy" target="_blank" rel="noopener" className="underline text-vividteal hover:no-underline">{t('club.consentLink')}</a>.</span>
+              </label>
+              {status === 'error' && (<p role="alert" className="text-xs font-black uppercase tracking-wide bg-[#FDEBEB] text-[#7A1F1F] border-[3px] border-[#7A1F1F] p-3">{t('club.error')}</p>)}
+              <button type="submit" disabled={status === 'submitting' || !isValidEmail(email) || !consent} className="w-full bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-3 text-base font-black uppercase tracking-wide shadow-[4px_4px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] disabled:opacity-50 disabled:cursor-not-allowed transition-all">{status === 'submitting' ? t('club.submitting') : t('club.submit')}</button>
+            </motion.form>
+          )}
+        </div>
+
+      </div>
+    </>
+  );
 }
 
 function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target?: UserType }) {
@@ -252,8 +402,8 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
  </div>
  )}
 
- {/* Percorso SOCIETÀ SPORTIVA */}
- {audience === 'club' && <ClubLeadForm />}
+ {/* Percorso SOCIETÀ SPORTIVA — quiz animato a step */}
+ {audience === 'club' && <ClubFlow onClose={onClose} />}
 
  {/* Percorso FAMIGLIA / ATLETA */}
  {audience === 'family' && (

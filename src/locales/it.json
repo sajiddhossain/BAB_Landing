@@ -146,7 +146,10 @@
     "chooseFamilyDesc": "Entra in lista d'attesa per l'app",
     "chooseClub": "Società sportiva",
     "chooseClubDesc": "Porta BAB nella tua società",
-    "back": "← Indietro"
+    "back": "← Indietro",
+    "clubStep1": "1. Il tuo ruolo",
+    "clubStep2": "2. La tua società",
+    "continue": "Continua ✦"
   },
   "club": {
     "formTitle": "La tua società sportiva",
