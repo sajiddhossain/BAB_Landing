@@ -379,11 +379,11 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  {/* Header: testo a sinistra, immagine a destra */}
  <div className="flex flex-col md:flex-row gap-10 md:gap-12 md:items-center">
  <div className="flex-1">
- <div className="inline-block bg-white text-[#0F0F12] border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-8 relative skew-btn">
+ <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-8 relative skew-btn">
  <span className="skew-btn-content ">{t('home.dataBadge')}</span>
  </div>
  <h2
- className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black leading-tight uppercase mb-5 tracking-tight"
+ className="font-['Bricolage_Grotesque',_sans-serif] text-[#D2EC7C] text-4xl sm:text-6xl font-black leading-tight uppercase mb-5 tracking-tight drop-shadow-[3px_3px_0_rgba(15,15,18,1)] title-stroke"
  dangerouslySetInnerHTML={{__html: t('home.dataTitle')}}
  />
  <p className="text-lg sm:text-xl font-extrabold max-w-xl text-[#0F0F12]">{t('home.dataSubtitle')}</p>
