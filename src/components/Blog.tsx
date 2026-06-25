@@ -55,7 +55,7 @@ export default function Blog() {
  <span className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-4 py-1.5 font-black uppercase tracking-widest text-xs shadow-[4px_4px_0_0_#0F0F12] mb-6">
  {t('blog.kicker')}
  </span>
- <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black tracking-tighter mb-4">
+ <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black tracking-tight mb-4">
  {t('blog.title')}
  </h1>
  <p className="font-['Space_Grotesk',_sans-serif] text-lg sm:text-xl text-[#0F0F12]/75 max-w-2xl">

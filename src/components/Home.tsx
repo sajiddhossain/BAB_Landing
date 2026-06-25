@@ -100,7 +100,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  initial={{ opacity: 0, x: -20 }}
  animate={{ opacity: 1, x: 0 }}
  transition={{ delay: 0.3 }}
- className="font-['Bricolage_Grotesque',_sans-serif] text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] mb-6 tracking-tighter w-full relative text-[#0F0F12]"
+ className="font-['Bricolage_Grotesque',_sans-serif] text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] mb-6 tracking-tight w-full relative text-[#0F0F12]"
  >
  {t('home.heroTitle')}<br/>
  <span className="inline-block relative z-10 mt-3 px-4 sm:px-6 py-2 bg-[#143F36] border-[3px] md:border-[4px] border-black shadow-[4px_4px_0_0_#0F0F12] md:shadow-[6px_6px_0_0_#0F0F12] text-white skew-btn">
@@ -221,7 +221,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <div className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-6 py-2 font-black uppercase tracking-widest text-sm shadow-[4px_4px_0_0_#0F0F12] mb-12 skew-btn">
  <span className="skew-btn-content">{t('home.missionBadge')}</span>
  </div>
- <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter mb-10 text-[#143F36] break-words max-w-full">
+ <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tight mb-10 text-[#143F36] break-words max-w-full">
  {t('home.missionTitle')}
  </h2>
  <p className="font-['Space_Grotesk',_sans-serif] font-bold text-xl sm:text-2xl md:text-3xl leading-relaxed max-w-4xl mx-auto border-[3px] border-black border-l-[10px] border-l-[#D2EC7C] pl-6 md:pl-10 text-left bg-white p-6 md:p-8 shadow-[6px_6px_0_0_#0F0F12] text-[#0F0F12]">
@@ -287,8 +287,6 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  </div>
  </div>
 
- {/* Nota fonte */}
- <p className="mt-10 text-center text-xs sm:text-sm font-bold text-[#0F0F12]/70 max-w-xl mx-auto">* {t('home.silenceFootnote')}</p>
  </div>
  </section>
 
@@ -302,7 +300,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <div className="font-['Space_Grotesk',_sans-serif] font-black tracking-widest text-sm uppercase text-black/60 mb-4">
  {t('home.bivioSuper')}
  </div>
- <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-[#34BBC0] drop-shadow-[3px_3px_0_rgba(15,15,18,1)] mb-6 break-words max-w-full title-stroke">
+ <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl lg:text-7xl font-black uppercase tracking-tight text-[#34BBC0] drop-shadow-[3px_3px_0_rgba(15,15,18,1)] mb-6 break-words max-w-full title-stroke">
  {t('home.bivioTitle')}
  </h2>
  <p className="font-['Space_Grotesk',_sans-serif] font-bold text-lg sm:text-xl max-w-2xl text-[#0F0F12]">
@@ -385,7 +383,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <span className="skew-btn-content ">{t('home.dataBadge')}</span>
  </div>
  <h2
- className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black leading-tight uppercase mb-5 tracking-tighter"
+ className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black leading-tight uppercase mb-5 tracking-tight"
  dangerouslySetInnerHTML={{__html: t('home.dataTitle')}}
  />
  <p className="text-lg sm:text-xl font-extrabold max-w-xl text-[#0F0F12]">{t('home.dataSubtitle')}</p>
@@ -454,7 +452,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  {/* 5. TESTIMONIALS */}
  <section className="w-full py-24 text-[#0F0F12] overflow-hidden relative">
  <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8 mb-12 sm:mb-16">
- <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black uppercase text-center md:text-left leading-tight tracking-tighter">
+ <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-[#0F0F12] text-4xl sm:text-6xl font-black uppercase text-center md:text-left leading-tight tracking-tight">
  {t('home.testimonialsTitle')}
  </h2>
  

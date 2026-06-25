@@ -20,7 +20,7 @@ export default function NotFound({ onNavigate }: NotFoundProps) {
  {t('notFound.code')}
  </span>
 
- <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl font-black tracking-tighter mb-5 max-w-2xl">
+ <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl font-black tracking-tight mb-5 max-w-2xl">
  {t('notFound.title')}
  </h1>
 
