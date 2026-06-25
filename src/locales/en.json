@@ -140,10 +140,16 @@
     "closeWindow": "Close window",
     "error": "We couldn't save your request. Please try again shortly.",
     "consentPre": "I consent to the processing of my data to be contacted, as described in the",
-    "consentLink": "Privacy Policy"
+    "consentLink": "Privacy Policy",
+    "choosePrompt": "To start, choose your profile",
+    "chooseFamily": "Family or athlete",
+    "chooseFamilyDesc": "Join the app waitlist",
+    "chooseClub": "Sports club",
+    "chooseClubDesc": "Bring BAB to your club",
+    "back": "← Back"
   },
   "club": {
-    "formTitle": "Book a demo",
+    "formTitle": "Your sports club",
     "name": "Full name",
     "namePlaceholder": "Mario Rossi",
     "club": "Club / organisation",
@@ -159,10 +165,10 @@
     ],
     "message": "Message (optional)",
     "messagePlaceholder": "How many teams / athletes would you follow?",
-    "submit": "Book a demo",
+    "submit": "Join the waitlist ✦",
     "submitting": "Sending...",
-    "successTitle": "Request sent",
-    "successBody": "We'll get back to you shortly to schedule the demo.",
+    "successTitle": "You're on the waitlist",
+    "successBody": "We'll get in touch as soon as we open access for sports clubs.",
     "error": "We couldn't send your request. Please try again shortly.",
     "consentPre": "I consent to the processing of my data to be contacted, as described in the",
     "consentLink": "Privacy Policy"

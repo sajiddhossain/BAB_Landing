@@ -140,10 +140,16 @@
     "closeWindow": "Chiudi finestra",
     "error": "Non siamo riusciti a salvare la tua richiesta. Riprova tra poco.",
     "consentPre": "Acconsento al trattamento dei miei dati per essere ricontattata/o, come descritto nella",
-    "consentLink": "Privacy Policy"
+    "consentLink": "Privacy Policy",
+    "choosePrompt": "Per iniziare, scegli il tuo profilo",
+    "chooseFamily": "Famiglia o atleta",
+    "chooseFamilyDesc": "Entra in lista d'attesa per l'app",
+    "chooseClub": "Società sportiva",
+    "chooseClubDesc": "Porta BAB nella tua società",
+    "back": "← Indietro"
   },
   "club": {
-    "formTitle": "Prenota una demo",
+    "formTitle": "La tua società sportiva",
     "name": "Nome e cognome",
     "namePlaceholder": "Mario Rossi",
     "club": "Società / club",
@@ -159,10 +165,10 @@
     ],
     "message": "Messaggio (facoltativo)",
     "messagePlaceholder": "Quante squadre / atlete vorresti seguire?",
-    "submit": "Prenota una demo",
+    "submit": "Entra in lista d'attesa ✦",
     "submitting": "Invio in corso...",
-    "successTitle": "Richiesta inviata",
-    "successBody": "Ti ricontatteremo a breve per fissare la demo.",
+    "successTitle": "Sei in lista d'attesa",
+    "successBody": "Ti ricontatteremo appena apriamo gli accessi per le società sportive.",
     "error": "Non siamo riusciti a inviare la richiesta. Riprova tra poco.",
     "consentPre": "Acconsento al trattamento dei miei dati per essere ricontattata/o, come descritto nella",
     "consentLink": "Privacy Policy"

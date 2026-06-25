@@ -140,10 +140,16 @@
     "closeWindow": "Fermer la fenêtre",
     "error": "Nous n'avons pas pu enregistrer votre demande. Réessayez bientôt.",
     "consentPre": "Je consens au traitement de mes données pour être recontacté(e), comme décrit dans la",
-    "consentLink": "Politique de confidentialité"
+    "consentLink": "Politique de confidentialité",
+    "choosePrompt": "Pour commencer, choisis ton profil",
+    "chooseFamily": "Famille ou athlète",
+    "chooseFamilyDesc": "Rejoins la liste d'attente de l'appli",
+    "chooseClub": "Club sportif",
+    "chooseClubDesc": "Amène BAB dans ton club",
+    "back": "← Retour"
   },
   "club": {
-    "formTitle": "Réserver une démo",
+    "formTitle": "Votre club sportif",
     "name": "Nom et prénom",
     "namePlaceholder": "Mario Rossi",
     "club": "Club / organisation",
@@ -159,10 +165,10 @@
     ],
     "message": "Message (facultatif)",
     "messagePlaceholder": "Combien d'équipes / d'athlètes souhaitez-vous suivre ?",
-    "submit": "Réserver une démo",
+    "submit": "Rejoindre la liste d'attente ✦",
     "submitting": "Envoi en cours...",
-    "successTitle": "Demande envoyée",
-    "successBody": "Nous vous recontacterons sous peu pour planifier la démo.",
+    "successTitle": "Vous êtes sur la liste d'attente",
+    "successBody": "Nous vous recontacterons dès l'ouverture des accès pour les clubs sportifs.",
     "error": "Nous n'avons pas pu envoyer votre demande. Réessayez bientôt.",
     "consentPre": "Je consens au traitement de mes données pour être recontacté(e), comme décrit dans la",
     "consentLink": "Politique de confidentialité"
