@@ -162,6 +162,7 @@ function prerenderRoutes(): Plugin {
       // --- Articoli del blog: una pagina statica per slug (canonica in IT) ---
       const blogPath = path.resolve('src/generated/blog.json')
       const blogUrls: string[] = []
+      const blogLastmod = new Map<string, string>()
       if (fs.existsSync(blogPath)) {
         type Post = { slug: string; lang: string; title: string; date: string | null; author: string | null; excerpt: string; cover: string | null }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
@@ -216,6 +217,7 @@ function prerenderRoutes(): Plugin {
           fs.mkdirSync(outDir, { recursive: true })
           fs.writeFileSync(path.join(outDir, 'index.html'), page)
           blogUrls.push(url)
+          if (post.date) blogLastmod.set(url, post.date)
         }
       }
 
@@ -223,9 +225,14 @@ function prerenderRoutes(): Plugin {
       const sitemapPath = path.join(dist, 'sitemap.xml')
       if (fs.existsSync(sitemapPath)) {
         let xml = fs.readFileSync(sitemapPath, 'utf8')
+        const latestBlog = [...blogLastmod.values()].sort().slice(-1)[0]
         const entries = [`${DOMAIN}/blog`, ...blogUrls]
           .filter((u) => !xml.includes(`<loc>${u}</loc>`))
-          .map((u) => `  <url>\n    <loc>${u}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.6</priority>\n  </url>`)
+          .map((u) => {
+            const lm = u === `${DOMAIN}/blog` ? latestBlog : blogLastmod.get(u)
+            const lmTag = lm ? `\n    <lastmod>${lm}</lastmod>` : ''
+            return `  <url>\n    <loc>${u}</loc>${lmTag}\n    <changefreq>weekly</changefreq>\n    <priority>0.6</priority>\n  </url>`
+          })
           .join('\n')
         if (entries) xml = xml.replace('</urlset>', `${entries}\n</urlset>`)
         fs.writeFileSync(sitemapPath, xml)

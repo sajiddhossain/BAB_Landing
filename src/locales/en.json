@@ -23,7 +23,7 @@
   },
   "home": {
     "badge": "Breaking All Barriers for the Next Gen Athletes",
-    "heroTitle": "One in two girls drops out of sport with puberty because she feels wrong.",
+    "heroTitle": "One in two girls drops out of sport at puberty because she feels wrong.",
     "heroHighlight": "Don't let it happen.",
     "heroBody": "BAB helps adolescent athletes recognise, understand and manage their body's signals precisely when it becomes most unpredictable, so they keep playing and having fun — performing at their best and feeling their best.",
     "coachBtn": "I'm a Coach",
@@ -99,7 +99,7 @@
     "privacy2": "Your data is always anonymous, protected, and used solely to advance teenagers' health, wellbeing, development, and performance.",
     "heroPhotoAlt": "Teenage athlete during training, black-and-white portrait",
     "dataPhotoAlt": "Portrait of a BAB athlete next to data on female sport drop-out",
-    "dataSources": "Sources: ① Jones, Bishop et al. (2024), 128 elite athletes, 76.8% (PMC10912517). ② Cowley et al. (2021), «Invisible Sportswomen», WSPAJ 29(2): 6% of studies on women only. ③ Horan et al. (2024), Sports Medicine: only 32 studies on injuries in under-19 athletes. Full references on request.",
+    "dataSources": "Sources: ① Jones, Bishop et al. (2024), 128 elite athletes, 76.8% (PMC10912517). ② Cowley et al. (2021), \"Invisible Sportswomen\", WSPAJ 29(2): 6% of studies on women only. ③ Horan et al. (2024), Sports Medicine: only 32 studies on injuries in under-19 athletes. Full references on request.",
     "trustbar": {
       "gdpr": "GDPR-compliant",
       "sources": "Figures with cited sources",
@@ -280,7 +280,7 @@
     "founderTitle": "The Founder",
     "founderRole": "CEO & Founder",
     "founderBadge1": "Former Competitive Athlete",
-    "founderBadge2": "Former Marketing Specialist @ Adidas (~5 yrs) & Puma (2.5 yrs)",
+    "founderBadge2": "Former Marketing Specialist @ adidas (~5 yrs) & PUMA (2.5 yrs)",
     "founderQuote1": "BAB was born from the personal experience of its founder, Gaia Manzone. After spending a decade working for adidas and PUMA, Gaia witnessed firsthand the systemic barriers faced by elite female athletes. But her connection to the issue started much earlier, when health challenges arising from managing puberty and performance without the adequate support forced her to stop competing.",
     "founderQuote2": "Gaia believes that without women’s health, there can be no women’s sport. That belief led her to bring together a trusted network of elite athletes, doctors, researchers, and sport experts to create BAB: a platform built for adolescents, their parents, their coaches, and the scientists working tirelessly to drive change, but often without the resources, tools, or support they need to do so.",
     "founderQuote3": "BAB exists to ensure that no young athlete has to navigate puberty, hormones, health, and performance alone.",
@@ -352,7 +352,7 @@
     "items": [
       {
         "q": "What is the BAB app?",
-        "a": "BAB is your coach off-the-field; designed with clinical experts to support teenage girls and non-binary athletes to navigate, understand and leverage the impact puberty, ovarian hormones and adolescence have on their performance, health and wellbeing.\nWe believe that teens should not have to figure it all out alone. That's why BAB also gives parents, caregivers, coaches, and clubs access to the right tools and resources to better understand and support young athletes throughout their journey."
+        "a": "BAB is your coach off the pitch; designed with clinical experts to support teenage girls and non-binary athletes to navigate, understand and leverage the impact puberty, ovarian hormones and adolescence have on their performance, health and wellbeing.\nWe believe that teens should not have to figure it all out alone. That's why BAB also gives parents, caregivers, coaches, and clubs access to the right tools and resources to better understand and support young athletes throughout their journey."
       },
       {
         "q": "Who is BAB for?",
@@ -413,7 +413,7 @@
       },
       "m5": {
         "title": "SUPPORT",
-        "desc": "Create a stronger support system around the athlete both on and off the field with dedicated tools for parents and coaches."
+        "desc": "Create a stronger support system around the athlete both on and off the pitch with dedicated tools for parents and coaches."
       }
     },
     "faqsTitle": "F.A.Q.",
