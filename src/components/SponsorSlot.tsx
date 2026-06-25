@@ -54,7 +54,7 @@ export default function SponsorSlot({ sponsor, className = '' }: SponsorSlotProp
  <p className="text-sm font-bold text-[#0F0F12]/70 max-w-md">{t('sponsor.text')}</p>
  <a
  href={CONTACT}
- className="mt-1 inline-flex items-center min-h-[44px] bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-5 py-2 text-sm font-black uppercase tracking-wide shadow-[3px_3px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-0.5 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all"
+ className="mt-1 inline-flex items-center min-h-[44px] cta px-5 py-2 text-sm font-black uppercase tracking-wider"
  >
  {t('sponsor.cta')}
  </a>

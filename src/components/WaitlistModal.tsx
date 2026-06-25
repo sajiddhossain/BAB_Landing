@@ -534,7 +534,7 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
  <button
  type="submit"
  disabled={status === 'submitting' || !isValidEmail(email) || !consent}
- className="w-full bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-3 text-base font-black uppercase tracking-wide shadow-[4px_4px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
+ className="w-full cta px-6 py-3 text-base font-black uppercase tracking-wider disabled:opacity-50 disabled:cursor-not-allowed"
  >
  {status === 'submitting' ? t('waitlist.submitting') : t('waitlist.submit')}
  </button>
