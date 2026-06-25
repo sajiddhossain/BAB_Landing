@@ -343,6 +343,63 @@
       "ctaWaitlist": "Join the waitlist",
       "ctaClub": "I’m a club →",
       "replay": "↺ Replay the demo"
+    },
+    "checkin": {
+      "intro": "Hi! How do you feel today? 30 seconds for you.",
+      "next": "Next →",
+      "privacyNote": "Only you see these answers.",
+      "cycleLabel": "Cycle",
+      "cycle": {
+        "opt1": "All good",
+        "opt2": "So-so days",
+        "opt3": "Rather not say"
+      },
+      "energyLabel": "Energy",
+      "energy": {
+        "opt1": "Charged",
+        "opt2": "Average",
+        "opt3": "A bit low"
+      },
+      "moodLabel": "Mood",
+      "mood": {
+        "opt1": "Buzzing",
+        "opt2": "Okay",
+        "opt3": "Off day"
+      }
+    },
+    "quiz": {
+      "title": "BAB mini-quiz",
+      "intro": "Two questions, zero judgement.",
+      "continue": "Continue →",
+      "goodjob": "Nice one! 💛",
+      "q1": {
+        "prompt": "Your \"inner team\": who plays when you're tired?",
+        "opt1": "Just willpower",
+        "opt2": "Body, energy and mind, together",
+        "opt3": "No one: I quit",
+        "explain": "Your body is a team: when one part runs low, the others cover. Listening to it makes you stronger, not weaker."
+      },
+      "q2": {
+        "prompt": "Body traffic light: what do you do on \"amber\"?",
+        "opt1": "Push like always",
+        "opt2": "Stop completely",
+        "opt3": "Adjust the load and listen to the signals",
+        "explain": "Amber isn't a stop: it's \"go with care\". Adjusting the load keeps you in the game longer."
+      }
+    },
+    "reveal": {
+      "title": "The same day, 3 points of view",
+      "intro": "You decide what to share. See who sees what.",
+      "tabAthlete": "Athlete",
+      "tabCoach": "Coach",
+      "tabParent": "Parent",
+      "athleteHeading": "What you see",
+      "athleteBody": "Cycle, energy, mood and today's progress — in full, just for you.",
+      "athleteSees": "Only you see this.",
+      "coachNotSees": "Does NOT see: your cycle, your mood, your name.",
+      "parentHeading": "Your support at home",
+      "parentBody": "A gentle summary: \"she's doing well, cheer her on at training too\".",
+      "parentNotSees": "Does NOT see: no cycle data, no clinical detail."
     }
   },
   "faqHome": {

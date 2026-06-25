@@ -343,6 +343,63 @@
       "ctaWaitlist": "Rejoindre la liste d'attente",
       "ctaClub": "Je suis un club →",
       "replay": "↺ Rejouer la démo"
+    },
+    "checkin": {
+      "intro": "Salut ! Comment tu te sens aujourd'hui ? 30 secondes pour toi.",
+      "next": "Suivant →",
+      "privacyNote": "Toi seule vois ces réponses.",
+      "cycleLabel": "Cycle",
+      "cycle": {
+        "opt1": "Tout va bien",
+        "opt2": "Jours comme ça",
+        "opt3": "Je préfère ne pas dire"
+      },
+      "energyLabel": "Énergie",
+      "energy": {
+        "opt1": "À fond",
+        "opt2": "Dans la moyenne",
+        "opt3": "Un peu à plat"
+      },
+      "moodLabel": "Humeur",
+      "mood": {
+        "opt1": "Au top",
+        "opt2": "Ça va",
+        "opt3": "Journée sans"
+      }
+    },
+    "quiz": {
+      "title": "Mini-quiz BAB",
+      "intro": "Deux questions, zéro jugement.",
+      "continue": "Continuer →",
+      "goodjob": "Bravo ! 💛",
+      "q1": {
+        "prompt": "Ton «équipe intérieure» : qui joue quand tu es fatiguée ?",
+        "opt1": "Juste la volonté",
+        "opt2": "Corps, énergie et tête, ensemble",
+        "opt3": "Personne : j'abandonne",
+        "explain": "Ton corps est une équipe : quand une partie est à plat, les autres compensent. L'écouter te rend plus forte, pas plus faible."
+      },
+      "q2": {
+        "prompt": "Le feu de ton corps : que fais-tu à l'«orange» ?",
+        "opt1": "Je pousse comme d'habitude",
+        "opt2": "Je m'arrête complètement",
+        "opt3": "J'adapte la charge et j'écoute les signaux",
+        "explain": "L'orange n'est pas un stop : c'est «vas-y prudemment». Adapter la charge te garde sur le terrain plus longtemps."
+      }
+    },
+    "reveal": {
+      "title": "La même journée, 3 points de vue",
+      "intro": "Tu décides quoi partager. Regarde qui voit quoi.",
+      "tabAthlete": "Athlète",
+      "tabCoach": "Coach",
+      "tabParent": "Parent",
+      "athleteHeading": "Ce que tu vois",
+      "athleteBody": "Cycle, énergie, humeur et tes progrès du jour — en clair, juste pour toi.",
+      "athleteSees": "Toi seule le vois.",
+      "coachNotSees": "Ne voit PAS : ton cycle, ton humeur, ton nom.",
+      "parentHeading": "Ton soutien à la maison",
+      "parentBody": "Un résumé tout en douceur : «elle va bien, encourage-la aussi à l'entraînement».",
+      "parentNotSees": "Ne voit PAS : aucune donnée de cycle, aucun détail clinique."
     }
   },
   "faqHome": {
