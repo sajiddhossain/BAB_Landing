@@ -135,6 +135,23 @@ function prerenderRoutes(): Plugin {
         // Dati strutturati per-rotta: breadcrumb sempre, scheda app solo su /app
         const routeLd: unknown[] = [breadcrumbLd(route, BREADCRUMB_LABEL[route] ?? s.title)]
         if (route === '/app') routeLd.push(softwareAppLd(s.title, s.desc))
+        // FAQPage su /features dalle stesse Q&A in pagina (q1/a1…): candidabili
+        // ai rich result e pescabili dalle risposte AI, senza duplicare contenuto.
+        if (route === '/features') {
+          const f: Record<string, string> = it.features?.faqs ?? {}
+          const qa = [1, 2, 3].map((n) => ({ q: f[`q${n}`], a: f[`a${n}`] })).filter((x) => x.q && x.a)
+          if (qa.length) {
+            routeLd.push({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: qa.map(({ q, a }) => ({
+                '@type': 'Question',
+                name: q,
+                acceptedAnswer: { '@type': 'Answer', text: a },
+              })),
+            })
+          }
+        }
         page = page.replace('</head>', `    ${routeLd.map(ldScript).join('\n    ')}\n  </head>`)
 
         const outDir = path.join(dist, route)
