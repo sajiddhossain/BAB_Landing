@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/icon-maskable.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#143F36" />
     <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Preload dell'immagine hero (LCP): stessa su mobile e desktop → mostrata prima -->
+    <link rel="preload" as="image" href="/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif" type="image/avif" fetchpriority="high" />
 
     <!-- Font Google: preconnect + caricamento anticipato (al posto di @import render-blocking in CSS) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
