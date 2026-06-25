@@ -25,7 +25,7 @@
     "badge": "Breaking All Barriers · pour les athlètes de demain",
     "heroTitle": "Une fille sur deux abandonne le sport à la puberté parce qu'elle se sent inadéquate.",
     "heroHighlight": "Ne laissez pas cela arriver.",
-    "heroBody": "BAB aide les jeunes athlètes à reconnaître, comprendre et gérer les signaux de leur corps précisément au moment où il devient le plus imprévisible, pour qu'elles continuent à faire du sport et à s'amuser, en performant au mieux et en se sentant au mieux.",
+    "heroBody": "BAB aide les jeunes athlètes à reconnaître, comprendre et gérer les signaux de leur corps précisément au moment où il devient le plus imprévisible, pour qu'elles continuent à faire du sport et à s'amuser, en donnant le meilleur d'elles-mêmes et en se sentant au mieux.",
     "coachBtn": "Je suis un Coach",
     "parentBtn": "Je suis un Parent",
     "coachDesc": "Aidez vos athlètes à comprendre les signaux de leur corps et à ne pas abandonner le sport, avec des données anonymes et sécurisées.",
@@ -40,7 +40,7 @@
     "bivioSub": "BAB permet à l’entourage des athlètes de les accompagner dans leur croissance et leur développement, sur le terrain et en dehors.",
     "bivioCoachBadge": "ENTRAÎNEUR - CLUB SPORTIF",
     "bivioCoachTitle1": "Prévenir.",
-    "bivioCoachTitle2": "Ne pas juste réagir.",
+    "bivioCoachTitle2": "Ne pas se contenter de réagir.",
     "bivioCoachDesc": "BAB facilite et améliore la communication avec tes athlètes, pour que tu aies tout ce qu’il faut pour les soutenir pendant la puberté et l’adolescence.",
     "bivioCoachP1": "Fidélise les talents de ton équipe",
     "bivioCoachP2": "Aide-les à devenir plus fortes, sûres d’elles et à l’aise avec leur corps",
@@ -64,7 +64,7 @@
     "data3Val": "~0%",
     "data3Desc": "La recherche scientifique sur les blessures des athlètes adolescentes",
     "dataVoid": "Le vide que BAB comble",
-    "testimonialsTitle": "Ce que notre communauté dit de BAB",
+    "testimonialsTitle": "Ce que notre communauté dit de ce que BAB construit",
     "missionBadge": "La plateforme BAB",
     "missionTitle": "BAB est ton coach en dehors du terrain.",
     "missionBody": "Avec des quiz, des jeux et des métaphores sportives, elle accompagne le développement des filles dans le sport, en leur apprenant à suivre, écouter, gérer et communiquer ce qu’elles ressentent à leurs coéquipières, coachs et parents.",
@@ -293,7 +293,7 @@
     "doneBtn": "🎉 Terminé ! Buddy au top",
     "buddyDone": "MERCI ! Tu m’as gardé au top aujourd’hui 💛",
     "buddyMax": "Je suis au max ! Touche « Terminé » 👇",
-    "buddyLow": "Hé… je suis un peu down aujourd’hui. Tu m’aides ?",
+    "buddyLow": "Hé… je suis un peu à plat aujourd’hui. Tu m’aides ?",
     "buddyOk": "Je me sens mieux ! Continue comme ça 💪",
     "close": "Fermer",
     "hold": {
@@ -365,7 +365,7 @@
   },
   "testimonials": {
     "lisa": {
-      "role": "Rameuse Élite Nationale Allemande",
+      "role": "Rameuse · Équipe nationale allemande (élite)",
       "quote": "BAB m'a fait me sentir comprise et m'a fait réaliser à quel point j'aurais bénéficié d'un tel outil pendant ma croissance sportive. Il m'a fallu de nombreuses années pour comprendre que la force n'est pas l'opposé de la féminité, et la prochaine génération de femmes athlètes ne devrait jamais avoir à choisir entre devenir puissante et s'intégrer."
     },
     "alisha": {
@@ -387,24 +387,24 @@
     "testBuddy": "Tester l'état du Buddy",
     "modules": {
       "m1": {
-        "title": "TRACK",
+        "title": "SUIVRE",
         "desc": "Surveillez les niveaux d'énergie, le sommeil et l'humeur, étayés par des mesures de santé menstruelle et de croissance pour dresser un tableau complet du bien-être de l'athlète dans le temps."
       },
       "m2": {
-        "title": "UNDERSTAND",
+        "title": "COMPRENDRE",
         "desc": "Traduisez les données dans un langage clair, simple et engageant, avec des explications de vos propres données et des ressources d’éducation corporelle, séance après séance."
       },
       "m3": {
-        "title": "OPTIMISE",
+        "title": "OPTIMISER",
         "desc": "Met le bien-être physique et émotionnel au premier plan, et construit la performance à partir de là : des recommandations quotidiennes personnalisées, élaborées par des experts cliniques."
       },
       "m4": {
-        "title": "PREVENT",
+        "title": "PRÉVENIR",
         "desc": "Aide à reconnaître tôt les signaux du corps, avec des rappels et des messages éducatifs, avant qu’ils ne puissent affecter la santé, le bien-être ou la performance."
       },
       "m5": {
-        "title": "SUPPORT",
-        "desc": "Créez un système de soutien plus solide autour de l'athlète, sur et en dehors du terrain, avec des outils dédiés aux parents et aux entraîneurs."
+        "title": "SOUTENIR",
+        "desc": "Créez un réseau de soutien plus solide autour de l'athlète, sur et en dehors du terrain, avec des outils dédiés aux parents et aux entraîneurs."
       }
     },
     "faqsTitle": "F.A.Q.",
