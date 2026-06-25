@@ -25,7 +25,7 @@
     "badge": "Breaking All Barriers · per le atlete di domani",
     "heroTitle": "Una ragazza su due abbandona lo sport con la pubertà perché si sente sbagliata.",
     "heroHighlight": "Non lasciare che accada.",
-    "heroBody": "BAB aiuta le atlete adolescenti a riconoscere, comprendere e gestire i segnali del loro corpo proprio nel momento in cui diventa più imprevedibile, affinché continuino a fare sport e divertirsi, performando al meglio e sentendosi meglio.",
+    "heroBody": "BAB aiuta le atlete adolescenti a riconoscere, comprendere e gestire i segnali del loro corpo proprio nel momento in cui diventa più imprevedibile, affinché continuino a fare sport e a divertirsi, dando il meglio e sentendosi al meglio.",
     "coachBtn": "Sono un Allenatore",
     "parentBtn": "Sono un Genitore",
     "coachDesc": "Aiuta le tue atlete a comprendere i segnali del corpo e a non abbandonare lo sport, con dati sicuri e aggregati.",
@@ -37,10 +37,10 @@
     "widgetDesc": "Riconosci i suoi segnali",
     "bivioSuper": "ATLETA · COACH · GENITORI",
     "bivioTitle": "Non possono farcela da sole",
-    "bivioSub": "BAB permette al sistema di supporto delle atlete di accompagnarle nella crescita e nello sviluppo, dentro e fuori dal campo.",
+    "bivioSub": "BAB permette alla rete di supporto attorno alle atlete di accompagnarle nella crescita e nello sviluppo, dentro e fuori dal campo.",
     "bivioCoachBadge": "ALLENATORE - CLUB SPORTIVO",
     "bivioCoachTitle1": "Previeni.",
-    "bivioCoachTitle2": "Non solo reagisci.",
+    "bivioCoachTitle2": "Non limitarti a reagire.",
     "bivioCoachDesc": "BAB facilita e migliora la comunicazione con le tue atlete, così hai tutto ciò che ti serve per supportarle durante la pubertà e l’adolescenza.",
     "bivioCoachP1": "Trattieni i talenti nella tua squadra",
     "bivioCoachP2": "Aiutale a diventare più forti, sicure e a proprio agio con il proprio corpo",
@@ -50,7 +50,7 @@
     "bivioParentTitle1": "Supporta.",
     "bivioParentTitle2": "Come ne ha bisogno lei.",
     "bivioParentDesc": "BAB offre strumenti pratici e risorse interattive per aiutarti a sostenere lo sviluppo, il benessere e la performance di tua figlia — con un approccio su misura per le sue esigenze individuali.",
-    "bivioParentP1": "Insight che rispettano la sua privacy e il suo spazio personale",
+    "bivioParentP1": "Spunti che rispettano la sua privacy e i suoi spazi",
     "bivioParentP2": "Validato clinicamente",
     "bivioParentP3": "Sicuro e protetto",
     "bivioParentCta": "RICHIEDI ACCESSO PER MIA FIGLIA ✦",
@@ -64,7 +64,7 @@
     "data3Val": "~0%",
     "data3Desc": "La ricerca scientifica sugli infortuni delle atlete adolescenti",
     "dataVoid": "Il vuoto che BAB colma",
-    "testimonialsTitle": "Cosa dice la Community del futuro di BAB",
+    "testimonialsTitle": "Cosa dice la nostra community di ciò che BAB sta costruendo",
     "missionBadge": "La piattaforma BAB",
     "missionTitle": "BAB è la tua coach fuori dal campo.",
     "missionBody": "Con quiz, giochi e metafore sportive, accompagna lo sviluppo delle ragazze nello sport, insegnando a tracciare, ascoltare, gestire e comunicare come si sentono a compagne, coach e genitori.",
@@ -272,7 +272,7 @@
     "founderRole": "CEO & Founder",
     "founderBadge1": "Ex Atleta Agonista",
     "founderBadge2": "Ex Marketing Specialist @ Adidas (~5 anni) & Puma (2.5 anni)",
-    "founderQuote1": "BAB nasce dall’esperienza personale della sua founder, Gaia Manzone. Dopo un decennio nel marketing di adidas e PUMA, Gaia ha visto in prima persona le barriere sistemiche che affrontano le atlete d’élite. Ma il suo legame con il tema è iniziato molto prima, quando le difficoltà di salute nel gestire pubertà e performance senza un supporto adeguato l’hanno costretta a smettere di competere.",
+    "founderQuote1": "BAB nasce dall’esperienza personale della sua founder, Gaia Manzone. Dopo un decennio nel marketing di adidas e PUMA, Gaia ha visto in prima persona le barriere sistemiche affrontate dalle atlete d’élite. Ma il suo legame con il tema è iniziato molto prima, quando le difficoltà di salute nel gestire pubertà e performance senza un supporto adeguato l’hanno costretta a smettere di competere.",
     "founderQuote2": "Gaia crede che senza la salute delle donne non possa esistere lo sport femminile. Da questa convinzione è nata la scelta di riunire una rete fidata di atlete d’élite, medici, ricercatori ed esperti dello sport per creare BAB: una piattaforma pensata per le adolescenti, i loro genitori, i loro allenatori e gli scienziati che lavorano instancabilmente per il cambiamento, spesso senza le risorse, gli strumenti o il supporto necessari.",
     "founderQuote3": "BAB esiste per fare in modo che nessuna giovane atleta debba affrontare da sola pubertà, ormoni, salute e performance.",
     "communityTitle": "Il Muro della Community",
@@ -347,11 +347,11 @@
       },
       {
         "q": "A chi si rivolge BAB?",
-        "a": "BAB è pensata principalmente per supportare ragazze e giovani che hanno il ciclo e praticano sport.\nL'app offre inoltre insight personalizzati e risorse educative sviluppate dal nostro team di ricerca e medico, oltre a una funzione di Q&A privata e anonima dove atlete e genitori possono fare domande e ricevere risposte da atlete d'élite e professionisti della salute."
+        "a": "BAB è pensata principalmente per supportare ragazze e giovani che hanno il ciclo e praticano sport.\nL'app offre inoltre indicazioni personalizzate e risorse educative sviluppate dal nostro team di ricerca e medico, oltre a una funzione di Q&A privata e anonima dove atlete e genitori possono fare domande e ricevere risposte da atlete d'élite e professionisti della salute."
       },
       {
         "q": "Quali funzionalità include l'app BAB?",
-        "a": "BAB usa la gamification per aiutare le adolescenti a riconoscere, comprendere, comunicare e gestire i segnali che il loro corpo invia. Include inoltre il tracciamento del ciclo, dell'energia e dell'umore, aiutando le atlete adolescenti a capire come questi fattori influenzino sia le performance sportive sia la vita quotidiana.\nLa piattaforma offre inoltre insight personalizzati e risorse educative sviluppate dal nostro team di ricerca e medico, oltre a una funzione di Q&A privata e anonima dove atlete e genitori possono fare domande e ricevere risposte da atlete d'élite e professionisti della salute."
+        "a": "BAB usa la gamification per aiutare le adolescenti a riconoscere, comprendere, comunicare e gestire i segnali che il loro corpo invia. Include inoltre il tracciamento del ciclo, dell'energia e dell'umore, aiutando le atlete adolescenti a capire come questi fattori influenzino sia le performance sportive sia la vita quotidiana.\nLa piattaforma offre inoltre indicazioni personalizzate e risorse educative sviluppate dal nostro team di ricerca e medico, oltre a una funzione di Q&A privata e anonima dove atlete e genitori possono fare domande e ricevere risposte da atlete d'élite e professionisti della salute."
       },
       {
         "q": "BAB è sicura, anonima e privata?",
@@ -365,7 +365,7 @@
   },
   "testimonials": {
     "lisa": {
-      "role": "Canottiera Elite Nazionale Tedesca",
+      "role": "Canottaggio · Nazionale tedesca (élite)",
       "quote": "BAB mi ha fatta sentire compresa e mi ha fatto capire quanto avrei beneficiato di uno strumento simile durante la mia crescita sportiva. Mi ci sono voluti molti anni per capire che la forza non è l'opposto della femminilità, e la prossima generazione di atlete non dovrebbe mai dover scegliere tra diventare forti e sentirsi adeguate."
     },
     "alisha": {
@@ -404,7 +404,7 @@
       },
       "m5": {
         "title": "SUPPORTA",
-        "desc": "Crea un sistema di supporto più forte attorno all'atleta, sia in campo che fuori, con strumenti dedicati per genitori e allenatori."
+        "desc": "Crea una rete di supporto più solida attorno all'atleta, dentro e fuori dal campo, con strumenti dedicati per genitori e allenatori."
       }
     },
     "faqsTitle": "F.A.Q.",
@@ -557,7 +557,7 @@
     },
     "coach": {
       "title": "BAB per le Società Sportive — Coach Dashboard",
-      "desc": "Riduci infortuni e drop-out della tua squadra con insight aggregati e anonimi. Privacy delle atlete sempre protetta."
+      "desc": "Riduci infortuni e drop-out della tua squadra con indicazioni aggregate e anonime. Privacy delle atlete sempre protetta."
     },
     "features": {
       "title": "Funzionalità — L’ecosistema BAB",
