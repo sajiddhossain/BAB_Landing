@@ -152,7 +152,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  >
   <button
   onClick={() => onOpenWaitlist?.()}
-  className="group inline-flex items-center justify-center gap-2 w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] font-black text-base sm:text-2xl whitespace-nowrap bg-[#D2EC7C] border-[3px] md:border-[4px] border-black px-6 sm:px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all duration-300 uppercase"
+  className="group inline-flex items-center justify-center gap-2 w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] font-black text-base sm:text-2xl whitespace-nowrap cta px-6 sm:px-10 py-4 uppercase"
   >
   {t('nav.waitlist')} ✦
   </button>
@@ -329,11 +329,11 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <li className="flex gap-4 items-start"><span className="text-[#D2EC7C] font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioCoachP4')}</span></li>
  </ul>
  {COACH_ENABLED ? (
- <a href="/coach" className="group flex items-center justify-center w-full bg-[#D2EC7C] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all mt-auto text-center">
+ <a href="/coach" className="group flex items-center justify-center w-full cta font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl uppercase px-4 py-4 mt-auto text-center">
  {t('home.bivioCoachCta')}
  </a>
  ) : (
- <button onClick={() => onOpenWaitlist?.('societa')} className="group flex items-center justify-center w-full bg-[#D2EC7C] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all mt-auto text-center">
+ <button onClick={() => onOpenWaitlist?.('societa')} className="group flex items-center justify-center w-full cta font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl uppercase px-4 py-4 mt-auto text-center">
  {t('home.bivioCoachCta')}
  </button>
  )}
@@ -357,7 +357,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP3')}</span></li>
  <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP4')}</span></li>
  </ul>
- <a href="/app" className="group flex items-center justify-center w-full bg-[#D2EC7C] text-[#0F0F12] font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl uppercase px-4 py-4 border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:bg-[#EBE5FF] active:translate-y-0 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all mt-auto text-center">
+ <a href="/app" className="group flex items-center justify-center w-full cta font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl uppercase px-4 py-4 mt-auto text-center">
  {t('home.bivioParentCta')}
  </a>
  </div>

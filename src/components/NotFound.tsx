@@ -36,7 +36,7 @@ export default function NotFound({ onNavigate }: NotFoundProps) {
  onNavigate('/');
  }
  }}
- className="inline-flex items-center bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-7 py-3 text-base font-black uppercase tracking-wide shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:translate-x-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all skew-btn"
+ className="inline-flex items-center cta px-7 py-3 text-base font-black uppercase tracking-wider skew-btn"
  >
  <span className="skew-btn-content">{t('notFound.cta')}</span>
  </a>

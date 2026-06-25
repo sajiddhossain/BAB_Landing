@@ -349,7 +349,7 @@ function Done({ onOpenWaitlist, onReset, mood, bounce }: { onOpenWaitlist?: (t?:
       {/* CTA */}
       <p className="font-bold text-sm text-black/80 my-4 text-center">{t('simulator.done.ctaQuestion')}</p>
       <div className="flex flex-col gap-2.5">
-        <button onClick={() => onOpenWaitlist?.('genitore')} className="w-full bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-3.5 font-black uppercase tracking-wider shadow-[5px_5px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-[2px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all">{t('simulator.done.ctaWaitlist')}</button>
+        <button onClick={() => onOpenWaitlist?.('genitore')} className="w-full cta px-6 py-3.5 font-black uppercase tracking-wider">{t('simulator.done.ctaWaitlist')}</button>
         {COACH_ENABLED ? (
           <a href="/coach" className="w-full text-center bg-white text-[#0F0F12] border-[3px] border-black px-6 py-3.5 font-black uppercase tracking-wider shadow-[5px_5px_0_0_#0F0F12] hover:bg-[#EBE5FF] active:translate-y-[2px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all">{t('simulator.done.ctaClub')}</a>
         ) : (

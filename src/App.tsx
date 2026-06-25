@@ -346,7 +346,7 @@ export default function App() {
 
           <button
             onClick={() => openWaitlist()}
-            className="group relative bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-2 ml-4 text-sm font-black uppercase tracking-wider shadow-[4px_4px_0_0_#0F0F12] hover:bg-[#34BBC0] active:shadow-none active:translate-y-1 active:translate-x-1 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all skew-btn"
+            className="group relative cta px-6 py-2 ml-4 text-sm font-black uppercase tracking-wider skew-btn"
           >
             <span className="skew-btn-content">{t('nav.waitlist')}</span>
           </button>
@@ -402,7 +402,7 @@ export default function App() {
                       setIsMenuOpen(false);
                       openWaitlist();
                     }}
-                    className="w-full flex items-center justify-center py-4 mt-2 bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black font-black text-2xl uppercase tracking-wider shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:translate-x-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all"
+                    className="w-full flex items-center justify-center py-4 mt-2 cta font-black text-2xl uppercase tracking-wider"
                   >
                     {t('nav.waitlist')}
                   </button>

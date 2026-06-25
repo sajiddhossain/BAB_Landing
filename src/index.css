@@ -135,6 +135,21 @@ body {
   display: inline-block;
 }
 
+/* CTA primaria unificata = stile del bottone "Join the waitlist" del footer:
+   lime + bordo nero + ombra dura TEAL, hover -> ombra cream, active -> press.
+   Dimensioni/typografia restano sulle utility di ogni bottone. Unico punto da
+   ritoccare per tutte le CTA del sito. */
+.cta {
+  background-color: #D2EC7C;
+  color: #0F0F12;
+  border: 3px solid #0F0F12;
+  box-shadow: 5px 5px 0 0 #34BBC0;
+  transition: all 0.2s ease;
+}
+.cta:hover { box-shadow: 5px 5px 0 0 #FAF9F6; }
+.cta:active { transform: translate(5px, 5px); box-shadow: none; }
+.cta:focus-visible { outline: 3px solid #34BBC0; outline-offset: 2px; }
+
 /* Hide scrollbar for horizontal scrolling elements */
 .hide-scrollbar {
   -ms-overflow-style: none;

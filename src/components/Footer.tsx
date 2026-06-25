@@ -100,7 +100,7 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
  </p>
  <button
  onClick={() => onOpenWaitlist?.()}
- className="group bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-3 text-sm font-black uppercase tracking-wider shadow-[5px_5px_0_0_#34BBC0] hover:shadow-[5px_5px_0_0_#FAF9F6] active:translate-x-[5px] active:translate-y-[5px] active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all skew-btn"
+ className="group cta px-6 py-3 text-sm font-black uppercase tracking-wider skew-btn"
  >
  <span className="skew-btn-content">{t('nav.waitlist')} ✦</span>
  </button>
