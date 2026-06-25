@@ -179,7 +179,7 @@ export default function About() {
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
  {stats.map((s, i) => (
  <div key={i} className="bg-white border-[3px] border-black p-4 sm:p-6 shadow-[4px_4px_0_0_#0F0F12]">
- <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl font-black mb-2 block" style={{ color: statColor(i), WebkitTextStroke: '2.5px #0F0F12', textShadow: '4px 4px 0px #0F0F12' }}>{s.val}</span>
+ <span className="font-['Bricolage_Grotesque',_sans-serif] text-5xl sm:text-6xl font-black mb-2 block" style={{ color: statColor(i), WebkitTextStroke: '2.5px #0F0F12', paintOrder: 'stroke', textShadow: '4px 4px 0px #0F0F12' }}>{s.val}</span>
  <p className="font-extrabold uppercase text-xs sm:text-sm">{s.label}</p>
  </div>
  ))}
