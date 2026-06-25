@@ -152,7 +152,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  >
   <button
   onClick={() => onOpenWaitlist?.()}
-  className="group inline-flex items-center justify-center gap-2 w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] font-black text-xl sm:text-2xl bg-[#D2EC7C] border-[3px] md:border-[4px] border-black px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all duration-300 uppercase"
+  className="group inline-flex items-center justify-center gap-2 w-full sm:w-auto font-['Bricolage_Grotesque',_sans-serif] font-black text-base sm:text-2xl whitespace-nowrap bg-[#D2EC7C] border-[3px] md:border-[4px] border-black px-6 sm:px-10 py-4 shadow-[6px_6px_0_0_#0F0F12] hover:bg-[#34BBC0] active:scale-[0.98] active:shadow-none active:translate-y-[6px] active:translate-x-[6px] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] transition-all duration-300 uppercase"
   >
   {t('nav.waitlist')} ✦
   </button>
