@@ -343,6 +343,63 @@
       "ctaWaitlist": "Entra in lista d’attesa",
       "ctaClub": "Sono una società →",
       "replay": "↺ Rigioca la demo"
+    },
+    "checkin": {
+      "intro": "Ciao! Come ti senti oggi? 30 secondi per te.",
+      "next": "Avanti →",
+      "privacyNote": "Solo tu vedi queste risposte.",
+      "cycleLabel": "Ciclo",
+      "cycle": {
+        "opt1": "Tutto ok",
+        "opt2": "Giorni così",
+        "opt3": "Preferisco non dirlo"
+      },
+      "energyLabel": "Energia",
+      "energy": {
+        "opt1": "Carica",
+        "opt2": "Nella media",
+        "opt3": "Un po' giù"
+      },
+      "moodLabel": "Umore",
+      "mood": {
+        "opt1": "Su di giri",
+        "opt2": "Ok",
+        "opt3": "Giornata no"
+      }
+    },
+    "quiz": {
+      "title": "Mini-quiz BAB",
+      "intro": "Due domande, zero giudizi.",
+      "continue": "Continua →",
+      "goodjob": "Bravissima! 💛",
+      "q1": {
+        "prompt": "La tua «squadra interiore»: chi gioca quando sei stanca?",
+        "opt1": "Solo la forza di volontà",
+        "opt2": "Corpo, energia e testa, insieme",
+        "opt3": "Nessuno: mollo",
+        "explain": "Il corpo è una squadra: quando un reparto è scarico, gli altri lo coprono. Ascoltarlo ti rende più forte, non più debole."
+      },
+      "q2": {
+        "prompt": "Semaforo del corpo: cosa fai quando sei sul «giallo»?",
+        "opt1": "Spingo come sempre",
+        "opt2": "Mi fermo del tutto",
+        "opt3": "Adatto il carico e ascolto i segnali",
+        "explain": "Il giallo non è uno stop: è «vai con attenzione». Adattare il carico ti tiene in campo più a lungo."
+      }
+    },
+    "reveal": {
+      "title": "La stessa giornata, 3 punti di vista",
+      "intro": "Decidi tu cosa condividere. Guarda chi vede cosa.",
+      "tabAthlete": "Atleta",
+      "tabCoach": "Coach",
+      "tabParent": "Genitore",
+      "athleteHeading": "Quello che vedi tu",
+      "athleteBody": "Ciclo, energia, umore e i tuoi progressi di oggi — in chiaro, solo per te.",
+      "athleteSees": "Lo vedi solo tu.",
+      "coachNotSees": "NON vede: il tuo ciclo, il tuo umore, il tuo nome.",
+      "parentHeading": "Chi ti supporta a casa",
+      "parentBody": "Un riassunto gentile: «sta bene, falle il tifo anche in allenamento».",
+      "parentNotSees": "NON vede: nessun dato del ciclo, nessun dettaglio clinico."
     }
   },
   "faqHome": {
