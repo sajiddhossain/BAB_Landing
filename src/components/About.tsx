@@ -34,15 +34,13 @@ export default function About() {
  <div className="flex flex-col md:flex-row gap-8 items-center">
 
  <div className="flex-1 text-center md:text-left">
- <span className="inline-flex items-center gap-2 bg-[#D2EC7C] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] relative">
+ <span className="inline-flex items-center gap-2 bg-[#EBE5FF] border-[3px] border-black text-black font-black text-xs tracking-widest uppercase mb-6 px-4 py-1.5 shadow-[4px_4px_0_0_#0F0F12] relative">
  <span className="block ">{t('about.missionBadge')}</span>
  </span>
- <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl font-black leading-none uppercase drop-shadow-[2px_2px_0_rgba(52,187,192,1)] sm:drop-shadow-[4px_4px_0_rgba(52,187,192,1)] mb-6 break-words max-w-full">
- <span className="underline decoration-[#FF6B5C] decoration-[6px] sm:decoration-8 underline-offset-4">{t('about.titleWord')}</span><br/>{t('about.titleRest')}
+ <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-[#34BBC0] text-4xl sm:text-7xl font-black leading-none uppercase drop-shadow-[3px_3px_0_rgba(15,15,18,1)] mb-6 break-words max-w-full title-stroke">
+ <span className="underline decoration-[#FF6B5C] decoration-4 underline-offset-4">{t('about.titleWord')}</span><br/>{t('about.titleRest')}
  </h1>
- <p className="font-extrabold text-lg leading-relaxed border-l-[4px] border-black pl-4">
- {t('about.missionLead')}
- </p>
+ <p className="font-extrabold text-lg leading-relaxed border-l-[4px] border-black pl-4" dangerouslySetInnerHTML={{ __html: t('about.missionLead') }} />
  </div>
 
  <div className="flex-1 w-full relative">
@@ -166,8 +164,8 @@ export default function About() {
  <Doodle name="star" className="absolute top-6 right-4 sm:right-20 w-8 h-8 text-[#FF6B5C] drop-shadow-[2px_2px_0_#0F0F12] rotate-12" />
 
  <h3
- className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-none drop-shadow-[3px_3px_0_rgba(15,15,18,1)] text-[#D2EC7C] break-words max-w-full title-stroke">
- {t('about.bigA')}<br/><span className="underline decoration-[#D2EC7C] decoration-8 underline-offset-4 text-white">{t('about.bigHealth')}</span><br/>{t('about.bigB')}<br/><span className="underline decoration-[#34BBC0] decoration-8 underline-offset-4">{t('about.bigSport')}</span>
+ className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-7xl lg:text-[5.5rem] font-black uppercase leading-tight drop-shadow-[3px_3px_0_rgba(15,15,18,1)] text-[#D2EC7C] break-words max-w-full title-stroke">
+ {t('about.bigA')}<br/><span className="underline decoration-[#34BBC0] decoration-4 underline-offset-4 text-white">{t('about.bigHealth')}</span><br/>{t('about.bigB')}<br/><span className="underline decoration-[#34BBC0] decoration-4 underline-offset-4 text-white">{t('about.bigSport')}</span>
  </h3>
  <div className="mt-12 relative">
  <p className="font-['Space_Grotesk',_sans-serif] font-black text-sm sm:text-xl bg-black text-white inline-block px-6 sm:px-8 py-3 shadow-[6px_6px_0_0_#34BBC0]">
