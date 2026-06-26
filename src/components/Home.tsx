@@ -75,7 +75,7 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <div className="flex flex-col items-center w-full min-h-screen text-[#0F0F12]">
  
  {/* 1. HERO SECTION */}
- <section className="w-full min-h-[100dvh] max-w-6xl mx-auto px-4 py-24 md:py-32 flex items-center justify-center relative overflow-hidden">
+ <section className="w-full min-h-[calc(100dvh-80px)] max-w-6xl mx-auto px-4 pt-8 pb-20 md:pt-12 md:pb-28 flex items-center justify-center relative overflow-hidden">
  
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center w-full">
  {/* COLONNA SINISTRA (Span 7) */}
