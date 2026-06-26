@@ -16,6 +16,7 @@ import CookieBanner from './components/CookieBanner';
 import BabLogo from './components/BabLogo';
 import FlagIcon, { type FlagLang } from './components/FlagIcon';
 import { COACH_ENABLED } from './lib/flags';
+import { SUPPORTED_LNGS } from './i18n';
 import type { UserType } from './lib/leads';
 
 // Route Components — Home eager (LCP della landing), il resto code-split per route
@@ -67,8 +68,10 @@ export default function App() {
     trackEvent('waitlist_open', { target: target ?? 'unknown' });
   };
 
-  const currentLang = (i18n.language ? i18n.language.substring(0, 2) : 'en') as FlagLang;
-  const otherLangs = (['en', 'it', 'fr'] as FlagLang[]).filter(l => l !== currentLang);
+  // Una lingua attiva fuori da SUPPORTED_LNGS (es. 'fr' residuo) viene mostrata come 'en'.
+  const detected = (i18n.language ? i18n.language.substring(0, 2) : 'en') as FlagLang;
+  const currentLang: FlagLang = (SUPPORTED_LNGS as readonly string[]).includes(detected) ? detected : 'en';
+  const otherLangs = (SUPPORTED_LNGS as readonly FlagLang[]).filter(l => l !== currentLang);
 
   // Easter Egg Signature
   useEffect(() => {
@@ -409,7 +412,7 @@ export default function App() {
 
                 {/* Mobile Language Switcher */}
                 <div className="flex justify-center gap-4 mt-8" role="group" aria-label="Lingua">
-                  {(['it', 'en', 'fr'] as FlagLang[]).map((lng) => {
+                  {(SUPPORTED_LNGS as readonly FlagLang[]).map((lng) => {
                     const active = i18n.language.startsWith(lng);
                     return (
                       <button
