@@ -18,7 +18,6 @@ const MARQUEE_ITEMS: { d: DoodleName; k: string }[] = [
   { d: 'sparkle', k: 'home.marqueeScience' },
   { d: 'star', k: 'home.marqueeElite' },
   { d: 'heart', k: 'home.marqueePuberty' },
-  { d: 'burst', k: 'home.marqueeWaitlist' },
 ];
 
 interface HomeProps {
