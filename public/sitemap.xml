@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TODO al go-live: sostituire https://www.babsport.com con il dominio definitivo.
-     URL puliti (history routing): ogni pagina è ora indicizzabile separatamente. -->
+<!-- Dominio definitivo: https://www.babsport.com (www canonico; apex → www).
+     URL puliti (history routing): ogni pagina è indicizzabile separatamente. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.babsport.com/</loc>
