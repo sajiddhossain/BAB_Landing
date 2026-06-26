@@ -148,7 +148,41 @@
     "back": "← Back",
     "clubStep1": "1. Your role",
     "clubStep2": "2. Your club",
-    "continue": "Continue ✦"
+    "continue": "Continue ✦",
+    "stepRole": "1. Who you are",
+    "stepAbout": "2. About you",
+    "rolePrompt": "Select your role",
+    "role": {
+      "coach": "Coach",
+      "technical": "Technical staff",
+      "medical": "Medical staff",
+      "parent": "Parent",
+      "athlete": "Athlete"
+    },
+    "genderLabel": "Gender",
+    "gender": {
+      "female": "Female",
+      "male": "Male",
+      "nonbinary": "Non-binary",
+      "preferNot": "Prefer not to say"
+    },
+    "ageLabel": "Age",
+    "ageRanges": [
+      "Under 18",
+      "18–24",
+      "25–34",
+      "35–44",
+      "45+"
+    ],
+    "sportLabelNew": "Sport",
+    "sportPlaceholderNew": "E.g. football, volleyball, athletics…",
+    "locationLabel": "Location",
+    "locationPlaceholder": "City, country",
+    "betaLabel": "Do you want to be the first to try the beta version?",
+    "betaYes": "Yes",
+    "betaNo": "No",
+    "successTitle": "You're on the waitlist ✓",
+    "successBody": "Thank you! We'll be in touch as soon as BAB opens its first spots."
   },
   "club": {
     "formTitle": "Your sports club",

@@ -20,6 +20,10 @@ export interface LeadPayload {
   club?: string | null
   role?: string | null
   message?: string | null
+  gender?: string | null
+  age_range?: string | null
+  location?: string | null
+  beta_tester?: boolean | null
 }
 
 export interface InsertLeadResult {
