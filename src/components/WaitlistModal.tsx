@@ -260,20 +260,20 @@ function WaitlistPanelContent({ onClose, target }: { onClose: () => void; target
       <div className="p-6">
 
         {status === 'success' ? (
-          <motion.div className="text-center py-4" role="status" aria-live="polite" variants={listV} initial="hidden" animate="show">
+          <div className="text-center py-4" role="status" aria-live="polite">
+            {/* Solo l'icona è animata: il testo di conferma è sempre visibile, mai
+                dipendente dal completamento dell'animazione. */}
             <motion.div
-              initial={reduce ? { opacity: 0 } : { scale: 0.2, rotate: 10, opacity: 0 }}
-              animate={reduce ? { opacity: 1 } : { scale: 1, rotate: -2, opacity: 1 }}
+              initial={reduce ? false : { scale: 0.2, rotate: 10, opacity: 0 }}
+              animate={reduce ? undefined : { scale: 1, rotate: -2, opacity: 1 }}
               transition={{ type: 'spring', stiffness: 260, damping: 13, delay: reduce ? 0 : 0.1 }}
               className="w-16 h-16 mx-auto bg-[#34BBC0] text-[#0F0F12] border-[3px] border-black flex items-center justify-center font-black text-3xl shadow-[6px_6px_0_0_#0F0F12] mb-5"
               aria-hidden="true"
             >✓</motion.div>
-            <motion.p variants={itemV} className="font-['Bricolage_Grotesque',_sans-serif] font-black text-xl uppercase tracking-wide mb-2">{t('waitlist.successTitle')}</motion.p>
-            <motion.p variants={itemV} className="text-sm font-bold leading-relaxed text-[#0F0F12]/75 mb-5 max-w-xs mx-auto">{t('waitlist.successBody')}</motion.p>
-            <motion.div variants={itemV}>
-              <button onClick={onClose} className="font-bold uppercase text-xs hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]">{t('waitlist.closeWindow')}</button>
-            </motion.div>
-          </motion.div>
+            <p className="font-['Bricolage_Grotesque',_sans-serif] font-black text-xl uppercase tracking-wide mb-2">{t('waitlist.successTitle')}</p>
+            <p className="text-sm font-bold leading-relaxed text-[#0F0F12]/75 mb-5 max-w-xs mx-auto">{t('waitlist.successBody')}</p>
+            <button onClick={onClose} className="font-bold uppercase text-xs hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]">{t('waitlist.closeWindow')}</button>
+          </div>
         ) : (
           <>
             <motion.div
