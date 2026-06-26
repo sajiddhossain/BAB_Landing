@@ -53,4 +53,4 @@ Dati proprietari dalle interviste/uso · privacy-first (fiducia di club e genito
 - **RED-S (Relative Energy Deficiency in Sport)** — riferimento di autorità/approfondimento, non fonte numerica: **Project RED-S** di Pippa Woolven (ex mezzofondista GB). https://red-s.com — supporta il quadro del 36% («saltare il ciclo in gara non è normale»). *Uso interno: non citato sul sito pubblico (decisione giu 2026).*
 
 ---
-**Contatti:** bab.community.official@gmail.com · Instagram @bab_community · Substack @babcommunity
+**Contatti:** info@babsport.com · Instagram @bab_community · Substack @babcommunity

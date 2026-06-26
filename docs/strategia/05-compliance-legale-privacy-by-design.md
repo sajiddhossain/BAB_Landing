@@ -14,7 +14,7 @@
 > in buona fede ma possono cambiare; verificare sempre la versione vigente.
 >
 > Stato del documento: **bozza di lavoro — da validare legalmente.**
-> Titolare (provvisorio, da formalizzare): contatto `bab.community.official@gmail.com`.
+> Titolare (provvisorio, da formalizzare): contatto `info@babsport.com`.
 
 ---
 
@@ -522,7 +522,7 @@ Per ogni consenso (cookie e art. 9): **registrare chi/quando/quale versione del 
 
 Operativamente:
 
-- **Canale unico** per le richieste: `bab.community.official@gmail.com` (da formalizzare; valutare
+- **Canale unico** per le richieste: `info@babsport.com` (da formalizzare; valutare
   un indirizzo dedicato es. `privacy@…`).
 - **Verifica dell'identità** del richiedente (e, per i minori, della responsabilità genitoriale)
   prima di evadere — senza raccogliere dati eccessivi.
