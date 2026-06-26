@@ -2,7 +2,7 @@
 
 > **Documento di strategia · 07** · Italiano · v1.0 · Giugno 2026
 > Riferimenti gemelli: la "bibbia del brand" in `docs/brand/` — [vision-and-target](../brand/vision-and-target.md), [color-system](../brand/color-system.md), [typography-and-voice](../brand/typography-and-voice.md).
-> Canali: **Substack** (long-form, autorevolezza) + **Instagram** [@bab_community](https://instagram.com/bab_community) (community, awareness). Email: bab.community.official@gmail.com.
+> Canali: **Substack** (long-form, autorevolezza) + **Instagram** [@bab_community](https://instagram.com/bab_community) (community, awareness). Email: info@babsport.com.
 
 ---
 
@@ -250,7 +250,7 @@ Alcune situazioni meritano regole esplicite perché è facile scivolare nel tono
 - **BAB** si scrive sempre in **maiuscolo**. Non "Bab", non "bab".
 - Pronuncia/lettura: come acronimo (B-A-B) — mantenere coerenza ovunque sul significato esteso (da definire/confermare con la founder; finché non confermato, non inventarlo nei copy pubblici).
 - Handle social: **@bab_community** (Instagram). Mantieni l'underscore. Su altri canali punta alla stessa radice (`bab.community` / `babcommunity`) per coerenza, evitando di frammentare l'identità.
-- Email ufficiale: **bab.community.official@gmail.com**.
+- Email ufficiale: **info@babsport.com**.
 - "BAB Buddy" / "Buddy": il personaggio/companion dell'esperienza atleta (vedi demo tamagotchi). Va trattato con la "B" maiuscola come nome proprio.
 
 ## 3.2 Glossario / lessico BAB

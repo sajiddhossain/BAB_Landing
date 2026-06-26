@@ -25,7 +25,7 @@ interface SponsorSlotProps {
  className?: string;
 }
 
-const CONTACT = 'mailto:bab.community.official@gmail.com?subject=Sponsorizzazione%20BAB';
+const CONTACT = 'mailto:info@babsport.com?subject=Sponsorizzazione%20BAB';
 
 export default function SponsorSlot({ sponsor, className = '' }: SponsorSlotProps) {
  const { t } = useTranslation();
