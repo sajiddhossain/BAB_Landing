@@ -148,7 +148,41 @@
     "back": "← Indietro",
     "clubStep1": "1. Il tuo ruolo",
     "clubStep2": "2. La tua società",
-    "continue": "Continua ✦"
+    "continue": "Continua ✦",
+    "stepRole": "1. Chi sei",
+    "stepAbout": "2. Su di te",
+    "rolePrompt": "Seleziona il tuo ruolo",
+    "role": {
+      "coach": "Allenatore/trice",
+      "technical": "Staff tecnico",
+      "medical": "Staff medico",
+      "parent": "Genitore",
+      "athlete": "Atleta"
+    },
+    "genderLabel": "Genere",
+    "gender": {
+      "female": "Femmina",
+      "male": "Maschio",
+      "nonbinary": "Non binario",
+      "preferNot": "Preferisco non dirlo"
+    },
+    "ageLabel": "Fascia d'età",
+    "ageRanges": [
+      "Meno di 18",
+      "18–24",
+      "25–34",
+      "35–44",
+      "45+"
+    ],
+    "sportLabelNew": "Sport",
+    "sportPlaceholderNew": "Es. calcio, pallavolo, atletica…",
+    "locationLabel": "Località",
+    "locationPlaceholder": "Città, Paese",
+    "betaLabel": "Vuoi essere tra le prime a provare la versione beta?",
+    "betaYes": "Sì",
+    "betaNo": "No",
+    "successTitle": "Sei in lista d'attesa ✓",
+    "successBody": "Grazie! Ti scriveremo appena BAB apre i primi accessi."
   },
   "club": {
     "formTitle": "La tua società sportiva",

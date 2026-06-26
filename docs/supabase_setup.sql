@@ -25,8 +25,21 @@ create table if not exists public.leads (
   name        text    check (name is null or char_length(name) <= 120),
   club        text    check (club is null or char_length(club) <= 160),
   role        text    check (role is null or char_length(role) <= 80),
-  message     text    check (message is null or char_length(message) <= 2000)
+  message     text    check (message is null or char_length(message) <= 2000),
+  -- Campi waitlist v2 (giu 2026): profilazione del lead richiesta dalla CEO.
+  gender      text    check (gender is null or char_length(gender) <= 40),
+  age_range   text    check (age_range is null or char_length(age_range) <= 20),
+  location    text    check (location is null or char_length(location) <= 120),
+  beta_tester boolean
 );
+
+-- ── Migrazione su tabella `leads` ESISTENTE ──────────────────────────────────
+-- Se la tabella era già stata creata con la versione precedente, esegui SOLO
+-- questo blocco (idempotente) per aggiungere le nuove colonne:
+alter table public.leads add column if not exists gender      text    check (gender is null or char_length(gender) <= 40);
+alter table public.leads add column if not exists age_range   text    check (age_range is null or char_length(age_range) <= 20);
+alter table public.leads add column if not exists location    text    check (location is null or char_length(location) <= 120);
+alter table public.leads add column if not exists beta_tester boolean;
 
 alter table public.leads enable row level security;
 
