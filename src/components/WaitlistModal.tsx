@@ -185,6 +185,7 @@ function ClubFlow({ onClose }: { onClose: () => void }) {
   };
 
   const inputCls = 'w-full py-3 px-4 bg-white border-[3px] border-black font-bold text-sm focus:outline-none focus-visible:ring-4 focus-visible:ring-[#34BBC0]/60 shadow-[inset_4px_4px_0_rgba(0,0,0,0.05)] transition-all';
+  const fieldLabelCls = 'text-xs font-black uppercase tracking-wide text-[#0F0F12]';
 
   if (status === 'success') {
     return (
@@ -253,9 +254,18 @@ function ClubFlow({ onClose }: { onClose: () => void }) {
           <AnimatePresence mode="wait">
             {step === 2 && (
               <motion.form onSubmit={goStep3} variants={listV} initial="hidden" animate="show" exit="hidden" className="flex flex-col gap-3">
-                <motion.input variants={itemV} type="text" required value={name} onChange={e => setName(e.target.value)} placeholder={t('club.namePlaceholder')} aria-label={t('club.name')} className={inputCls} />
-                <motion.input variants={itemV} type="text" required value={club} onChange={e => setClub(e.target.value)} placeholder={t('club.clubPlaceholder')} aria-label={t('club.club')} className={inputCls} />
-                <motion.textarea variants={itemV} rows={2} value={message} onChange={e => setMessage(e.target.value)} placeholder={t('club.messagePlaceholder')} aria-label={t('club.message')} className={inputCls} />
+                <motion.div variants={itemV} className="flex flex-col gap-1">
+                  <label htmlFor="club-flow-name" className={fieldLabelCls}>{t('club.name')}</label>
+                  <input id="club-flow-name" type="text" required value={name} onChange={e => setName(e.target.value)} placeholder={t('club.namePlaceholder')} className={inputCls} />
+                </motion.div>
+                <motion.div variants={itemV} className="flex flex-col gap-1">
+                  <label htmlFor="club-flow-club" className={fieldLabelCls}>{t('club.club')}</label>
+                  <input id="club-flow-club" type="text" required value={club} onChange={e => setClub(e.target.value)} placeholder={t('club.clubPlaceholder')} className={inputCls} />
+                </motion.div>
+                <motion.div variants={itemV} className="flex flex-col gap-1">
+                  <label htmlFor="club-flow-message" className={fieldLabelCls}>{t('club.message')}</label>
+                  <textarea id="club-flow-message" rows={2} value={message} onChange={e => setMessage(e.target.value)} placeholder={t('club.messagePlaceholder')} className={inputCls} />
+                </motion.div>
                 <motion.button variants={itemV} type="submit" disabled={!step2Valid} className="w-full bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-6 py-3 text-base font-black uppercase tracking-wide shadow-[4px_4px_0_0_#0F0F12] hover:bg-[#34BBC0] active:translate-y-1 active:shadow-none focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] disabled:opacity-50 disabled:cursor-not-allowed transition-all">{t('waitlist.continue')}</motion.button>
               </motion.form>
             )}
@@ -267,7 +277,10 @@ function ClubFlow({ onClose }: { onClose: () => void }) {
           <h3 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black mb-4 border-b-[2px] border-black pb-2">{t('waitlist.step3Title')}</h3>
           {step >= 3 && (
             <motion.form onSubmit={handleSubmit} className="flex flex-col gap-4" initial={reduce ? { opacity: 0 } : { opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 380, damping: 28 }}>
-              <input type="email" required value={email} onChange={e => setEmail(e.target.value)} placeholder={t('club.emailPlaceholder')} aria-label={t('club.email')} className={`${inputCls} uppercase`} />
+              <div className="flex flex-col gap-1">
+                <label htmlFor="club-flow-email" className={fieldLabelCls}>{t('club.email')}</label>
+                <input id="club-flow-email" type="email" required value={email} onChange={e => setEmail(e.target.value)} placeholder={t('club.emailPlaceholder')} className={`${inputCls} uppercase`} />
+              </div>
               <label htmlFor="club-flow-consent" className="flex items-start gap-3 cursor-pointer py-1">
                 <input id="club-flow-consent" type="checkbox" checked={consent} onChange={e => setConsent(e.target.checked)} required className="mt-0.5 w-5 h-5 shrink-0 accent-[#1F7A63] border-[2px] border-black focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]" />
                 <span className="text-xs font-bold leading-relaxed">{t('club.consentPre')}{' '}<a href="/privacy" target="_blank" rel="noopener" className="underline text-vividteal hover:no-underline">{t('club.consentLink')}</a>.</span>
