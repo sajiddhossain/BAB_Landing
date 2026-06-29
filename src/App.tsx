@@ -15,7 +15,7 @@ import { getConsent } from './lib/consent';
 import CookieBanner from './components/CookieBanner';
 import BabLogo from './components/BabLogo';
 import FlagIcon, { type FlagLang } from './components/FlagIcon';
-import { COACH_ENABLED } from './lib/flags';
+import { COACH_ENABLED, APP_ENABLED } from './lib/flags';
 import { SUPPORTED_LNGS } from './i18n';
 import type { UserType } from './lib/leads';
 
@@ -86,9 +86,10 @@ export default function App() {
     initWebAnalytics();
   }, []);
 
-  // /coach temporaneamente nascosto: se qualcuno ci arriva, correggi l'URL a "/".
+  // /coach e /app temporaneamente nascosti: se qualcuno ci arriva, correggi l'URL a "/".
   useEffect(() => {
-    if (!COACH_ENABLED && currentPath === '/coach') {
+    const hidden = (!COACH_ENABLED && currentPath === '/coach') || (!APP_ENABLED && currentPath === '/app');
+    if (hidden) {
       window.history.replaceState({}, '', '/');
       setCurrentPath('/');
     }
@@ -260,7 +261,7 @@ export default function App() {
     { path: '/coach', label: t('nav.coach') },
     { path: '/features', label: t('nav.features') },
     { path: '/about', label: t('nav.about') },
-  ].filter((l) => COACH_ENABLED || l.path !== '/coach');
+  ].filter((l) => (COACH_ENABLED || l.path !== '/coach') && (APP_ENABLED || l.path !== '/app'));
 
   // Blog: lista su /blog, articolo su /blog/:slug (lo slug è validato da BlogPost)
   const isBlogList = currentPath === '/blog';
@@ -270,8 +271,8 @@ export default function App() {
   // Route sconosciuta → pagina 404 in-brand (non un finto rendering della Home)
   const knownPaths = ['/', '/app', '/coach', '/features', '/about', '/privacy', '/cookie', '/termini', '/blog'];
   const isNotFound = !knownPaths.includes(currentPath) && !isBlogRoute;
-  // /coach temporaneamente nascosto → renderizza la Home (l'URL viene corretto a "/" dall'effetto)
-  const activePath = (!COACH_ENABLED && currentPath === '/coach') ? '/' : currentPath;
+  // /coach e /app temporaneamente nascosti → renderizza la Home (l'URL viene corretto a "/" dall'effetto)
+  const activePath = ((!COACH_ENABLED && currentPath === '/coach') || (!APP_ENABLED && currentPath === '/app')) ? '/' : currentPath;
 
   return (
     <div className="min-h-screen bg-[#FAF9F6] text-[#0F0F12] selection:bg-[#D2EC7C] selection:text-[#0F0F12] font-['Space_Grotesk',_sans-serif] y2k-grid relative">
@@ -440,7 +441,7 @@ export default function App() {
             {isBlogList && <Blog key="blog" />}
             {blogSlug && <BlogPost key={`blog-${blogSlug}`} slug={blogSlug} onNavigate={navigate} />}
             {activePath === '/' && <Home key="home" onOpenWaitlist={openWaitlist} onNavigate={navigate} />}
-            {activePath === '/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
+            {APP_ENABLED && activePath === '/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
             {COACH_ENABLED && activePath === '/coach' && <CoachDashboard key="coach" />}
             {activePath === '/features' && <Features key="features" />}
             {activePath === '/about' && <About key="about" />}
