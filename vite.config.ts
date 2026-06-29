@@ -17,7 +17,7 @@ const DOMAIN = 'https://www.babsport.com'
 // Rotte da pre-renderizzare → chiave SEO nel locale IT
 const PRERENDER_ROUTES: Record<string, string> = {
   '/features': 'features',
-  '/app': 'app',
+  // '/app' temporaneamente nascosta (APP_ENABLED=false): non pre-renderizzata.
   '/about': 'about',
   '/privacy': 'privacy',
   '/cookie': 'cookie',

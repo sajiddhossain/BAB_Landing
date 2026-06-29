@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import FAQ from './FAQ';
 import Doodle, { type DoodleName } from './Doodle';
-import { COACH_ENABLED } from '../lib/flags';
+import { COACH_ENABLED, APP_ENABLED } from '../lib/flags';
 import type { UserType } from '../lib/leads';
 
 // Palette "voci ritrovate": spettro caldo per le affermazioni post-BAB (foto 3).
@@ -356,9 +356,15 @@ export default function Home({ onOpenWaitlist }: HomeProps) {
  <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP3')}</span></li>
  <li className="flex gap-4 items-start"><span className="text-vividteal font-serif text-xl leading-none mt-0.5">✦</span> <span>{t('home.bivioParentP4')}</span></li>
  </ul>
+ {APP_ENABLED ? (
  <a href="/app" className="group flex items-center justify-center w-full cta font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl uppercase px-4 py-4 mt-auto text-center">
  {t('home.bivioParentCta')}
  </a>
+ ) : (
+ <button onClick={() => onOpenWaitlist?.('genitore')} className="group flex items-center justify-center w-full cta font-['Bricolage_Grotesque',_sans-serif] font-black text-lg sm:text-xl uppercase px-4 py-4 mt-auto text-center">
+ {t('home.bivioParentCta')}
+ </button>
+ )}
  </div>
  </div>
  </div>
