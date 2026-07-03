@@ -13,6 +13,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "preview", "--", "--port", "4174"],
       "port": 4174
+    },
+    {
+      "name": "bab-diario",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/sajid/Documents/bab-diario", "run", "dev", "--", "--port", "5180"],
+      "port": 5180
     }
   ]
 }
