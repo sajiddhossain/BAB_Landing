@@ -164,7 +164,7 @@ function prerenderRoutes(): Plugin {
       const blogUrls: string[] = []
       const blogLastmod = new Map<string, string>()
       if (fs.existsSync(blogPath)) {
-        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number }
+        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; faq?: Array<{ q: string; a: string }> }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
         const bySlug = new Map<string, Post>()
         for (const p of allPosts) {
@@ -187,9 +187,15 @@ function prerenderRoutes(): Plugin {
             page = replaceAttr(page, /(<meta property="og:image" content=")[^"]*(")/, `${DOMAIN}${post.cover}`)
             page = replaceAttr(page, /(<meta name="twitter:image" content=")[^"]*(")/, `${DOMAIN}${post.cover}`)
           }
+          // Le FAQ finiscono anche nel contenuto statico di #root (React lo
+          // sostituisce al mount): così sono visibili ai crawler senza JS e
+          // combaciano con il dato strutturato FAQPage qui sotto.
+          const faqHtml = (post.faq ?? [])
+            .map((f) => `<h2>${esc(f.q)}</h2><p>${esc(f.a)}</p>`)
+            .join('')
           page = page.replace(
             /<div id="root">\s*<\/div>/,
-            `<div id="root"><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p></div>`,
+            `<div id="root"><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p>${faqHtml}</div>`,
           )
           const breadcrumb = {
             '@context': 'https://schema.org',
@@ -221,7 +227,21 @@ function prerenderRoutes(): Plugin {
               logo: { '@type': 'ImageObject', url: `${DOMAIN}/icon-512.png`, width: 512, height: 512 },
             },
           }
-          page = page.replace('</head>', `    ${[breadcrumb, blogPosting].map(ldScript).join('\n    ')}\n  </head>`)
+          const articleLd: unknown[] = [breadcrumb, blogPosting]
+          // FAQPage dagli stessi Q&A mostrati in pagina: pescabile dalle risposte
+          // AI (AEO/GEO) e candidabile ai rich result, senza duplicare contenuto.
+          if (post.faq?.length) {
+            articleLd.push({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: post.faq.map((f) => ({
+                '@type': 'Question',
+                name: f.q,
+                acceptedAnswer: { '@type': 'Answer', text: f.a },
+              })),
+            })
+          }
+          page = page.replace('</head>', `    ${articleLd.map(ldScript).join('\n    ')}\n  </head>`)
           const outDir = path.join(dist, 'blog', post.slug)
           fs.mkdirSync(outDir, { recursive: true })
           fs.writeFileSync(path.join(outDir, 'index.html'), page)
