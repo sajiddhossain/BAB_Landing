@@ -69,6 +69,29 @@ export default function BlogPost({ slug, onNavigate }: BlogPostProps) {
  dangerouslySetInnerHTML={{ __html: post.html }}
  />
 
+ {post.faq && post.faq.length > 0 && (
+ <section className="mt-14 border-t-[3px] border-black pt-8" aria-labelledby="faq-heading">
+ <h2
+ id="faq-heading"
+ className="font-['Bricolage_Grotesque',_sans-serif] text-2xl sm:text-3xl font-black tracking-tight mb-6"
+ >
+ {lang === 'en' ? 'Frequently asked questions' : 'Domande frequenti'}
+ </h2>
+ <dl className="flex flex-col gap-6">
+ {post.faq.map((f, i) => (
+ <div key={i}>
+ <dt className="font-['Space_Grotesk',_sans-serif] font-bold text-[17px] text-[#0F0F12] mb-1.5">
+ {f.q}
+ </dt>
+ <dd className="font-['Space_Grotesk',_sans-serif] text-[#0F0F12]/80 leading-relaxed">
+ {f.a}
+ </dd>
+ </div>
+ ))}
+ </dl>
+ </section>
+ )}
+
  {/* Spazio sponsor #2 — in fondo all'articolo, gestito a mano */}
  <SponsorSlot className="mt-12" />
  </article>

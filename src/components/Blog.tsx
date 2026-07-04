@@ -19,6 +19,7 @@ export interface BlogPostData {
  excerpt: string;
  cover: string | null;
  tags: string[];
+ faq?: { q: string; a: string }[];
  readingMinutes: number;
  html: string;
 }

@@ -42,6 +42,11 @@ function collect() {
         excerpt: data.excerpt || '',
         cover: data.cover || null,
         tags: Array.isArray(data.tags) ? data.tags : [],
+        // FAQ opzionali (per l'AEO/GEO): coppie q/a validate, mostrate in pagina
+        // e pubblicate come dato strutturato FAQPage nel prerender.
+        faq: Array.isArray(data.faq)
+          ? data.faq.filter((x) => x && x.q && x.a).map((x) => ({ q: String(x.q), a: String(x.a) }))
+          : [],
         words: content.trim().split(/\s+/).filter(Boolean).length,
         readingMinutes: readingMinutes(content),
         html: marked.parse(content),
