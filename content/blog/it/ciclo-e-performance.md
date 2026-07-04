@@ -2,7 +2,7 @@
 slug: ciclo-e-performance
 title: "Il ciclo mestruale e la performance: quello che nessuno spiega alle atlete"
 date: 2026-06-20
-author: Gaia Manzone
+author: Sajid Hossain
 excerpt: "Il 77% delle atlete sente che il ciclo influenza la propria performance, ma quasi nessuna riceve strumenti per capirlo. Ecco da dove partire."
 cover: /fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif
 tags:

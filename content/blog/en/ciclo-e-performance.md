@@ -2,7 +2,7 @@
 slug: ciclo-e-performance
 title: "The menstrual cycle and performance: what no one tells young athletes"
 date: 2026-06-20
-author: Gaia Manzone
+author: Sajid Hossain
 excerpt: "77% of athletes feel their cycle affects performance, yet almost none get tools to understand it. Here's where to start."
 cover: /fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif
 tags:

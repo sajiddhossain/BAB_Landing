@@ -2,7 +2,7 @@
 slug: reggiseno-sportivo-ragazze
 title: "Reggiseno sportivo per ragazze: guida al primo (e alla taglia giusta)"
 date: 2026-07-02
-author: Gaia Manzone
+author: Sajid Hossain
 excerpt: "Il seno che cambia è uno dei motivi meno detti per cui le ragazze lasciano lo sport. Ecco quando serve il primo reggiseno sportivo, come scegliere la taglia giusta e vivere l'allenamento senza imbarazzo."
 cover: /fotobab/cover-reggiseno-sportivo.jpg
 tags:
