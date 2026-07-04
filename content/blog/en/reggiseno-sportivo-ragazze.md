@@ -2,7 +2,7 @@
 slug: reggiseno-sportivo-ragazze
 title: "Sports bras for girls: a guide to the first one (and the right size)"
 date: 2026-07-02
-author: Gaia Manzone
+author: Sajid Hossain
 excerpt: "A changing chest is one of the least-talked-about reasons girls leave sport. Here's when a first sports bra is needed, how to choose the right size, and how to train without embarrassment."
 cover: /fotobab/cover-reggiseno-sportivo.jpg
 tags:

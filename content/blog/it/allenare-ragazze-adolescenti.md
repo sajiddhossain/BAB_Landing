@@ -2,7 +2,7 @@
 slug: allenare-ragazze-adolescenti
 title: "Come allenare ragazze adolescenti: la guida per coach e società sportive"
 date: 2026-07-02
-author: Gaia Manzone
+author: Sajid Hossain
 excerpt: "Alla pubertà circa una ragazza su due lascia lo sport. Spesso non è una questione di motivazione, ma di ambiente. Ecco cosa può fare concretamente chi allena per non perdere le proprie atlete."
 cover: /fotobab/cover-allenare-ragazze.jpg
 tags:

@@ -2,7 +2,7 @@
 slug: allenare-ragazze-adolescenti
 title: "How to coach teenage girls: a guide for coaches and sports clubs"
 date: 2026-07-02
-author: Gaia Manzone
+author: Sajid Hossain
 excerpt: "At puberty, around one in two girls leaves sport. Often it isn't about motivation, but environment. Here's what coaches can concretely do to keep their athletes in the game."
 cover: /fotobab/cover-allenare-ragazze.jpg
 tags:

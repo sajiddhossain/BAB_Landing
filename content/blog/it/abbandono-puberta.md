@@ -2,7 +2,7 @@
 slug: abbandono-puberta
 title: "Una ragazza su due lascia lo sport con la pubertà. Non è inevitabile."
 date: 2026-06-22
-author: Gaia Manzone
+author: Sajid Hossain
 excerpt: "Il drop-out femminile alla pubertà non è una questione di motivazione, ma di ambiente. Cosa possono fare società e famiglie per invertirlo."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
 tags:
