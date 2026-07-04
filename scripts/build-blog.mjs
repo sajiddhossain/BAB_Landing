@@ -37,10 +37,12 @@ function collect() {
         lang,
         title: data.title || slug,
         date: data.date ? new Date(data.date).toISOString().slice(0, 10) : null,
+        updated: data.updated ? new Date(data.updated).toISOString().slice(0, 10) : null,
         author: data.author || null,
         excerpt: data.excerpt || '',
         cover: data.cover || null,
         tags: Array.isArray(data.tags) ? data.tags : [],
+        words: content.trim().split(/\s+/).filter(Boolean).length,
         readingMinutes: readingMinutes(content),
         html: marked.parse(content),
       });
