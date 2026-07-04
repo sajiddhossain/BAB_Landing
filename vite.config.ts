@@ -95,6 +95,16 @@ function prerenderRoutes(): Plugin {
           inLanguage: 'it-IT',
           publisher: { '@type': 'Organization', name: 'BAB — Breaking All Barriers', url: `${DOMAIN}/` },
         },
+        // Entità Organization con logo: consolida l'editore referenziato da ogni
+        // BlogPosting e aiuta i motori generativi a riconoscere il brand (GEO/E-E-A-T).
+        {
+          '@context': 'https://schema.org',
+          '@type': 'Organization',
+          name: 'BAB — Breaking All Barriers',
+          url: `${DOMAIN}/`,
+          logo: { '@type': 'ImageObject', url: `${DOMAIN}/icon-512.png`, width: 512, height: 512 },
+          description: seo.home?.desc ?? '',
+        },
       ]
       const faqItems: Array<{ q: string; a: string }> = it.faqHome?.items ?? []
       if (faqItems.length) {
@@ -162,6 +172,7 @@ function prerenderRoutes(): Plugin {
       // --- Articoli del blog: una pagina statica per slug (canonica in IT) ---
       const blogPath = path.resolve('src/generated/blog.json')
       const blogUrls: string[] = []
+      const blogForLlms: Array<{ slug: string; title: string; excerpt: string }> = []
       const blogLastmod = new Map<string, string>()
       if (fs.existsSync(blogPath)) {
         type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; faq?: Array<{ q: string; a: string }> }
@@ -246,6 +257,7 @@ function prerenderRoutes(): Plugin {
           fs.mkdirSync(outDir, { recursive: true })
           fs.writeFileSync(path.join(outDir, 'index.html'), page)
           blogUrls.push(url)
+          blogForLlms.push({ slug: post.slug, title: post.title, excerpt: post.excerpt })
           if (post.date) blogLastmod.set(url, post.date)
         }
       }
@@ -267,8 +279,36 @@ function prerenderRoutes(): Plugin {
         fs.writeFileSync(sitemapPath, xml)
       }
 
+      // --- llms.txt (GEO): guida per assistenti/answer engine, generata dal manifest ---
+      // Convenzione llmstxt.org: titolo, sintesi, e link curati alle risorse chiave.
+      const llms = [
+        '# BAB — Breaking All Barriers',
+        '',
+        '> BAB è un ecosistema digitale per la salute e la crescita delle giovani atlete (13-17 anni). ' +
+          "Aiuta le atlete a riconoscere in privato i segnali del proprio corpo — energia, umore, recupero, ciclo mestruale — " +
+          'e fornisce alle società sportive solo segnali aggregati e anonimi, mai il dato di salute individuale.',
+        '',
+        '## Principi',
+        '- I dati di salute individuali restano privati: le società vedono solo aggregati anonimi.',
+        '- Approccio evidence-based: si monitora e si segnala, non si diagnostica; la fase del ciclo è una stima, non un dato clinico.',
+        '- Pensato per minori: privacy-first, linguaggio non giudicante, nessun uso dei dati per addestrare modelli.',
+        '',
+        '## Blog (articoli con fonti)',
+        ...blogForLlms.map((p) => `- [${p.title}](${DOMAIN}/blog/${p.slug}): ${p.excerpt}`),
+        '',
+        '## Pagine principali',
+        `- [Blog](${DOMAIN}/blog)`,
+        `- [Funzionalità](${DOMAIN}/features)`,
+        `- [Chi siamo](${DOMAIN}/about)`,
+        `- [Privacy](${DOMAIN}/privacy)`,
+        '',
+        `Sitemap: ${DOMAIN}/sitemap.xml`,
+        '',
+      ].join('\n')
+      fs.writeFileSync(path.join(dist, 'llms.txt'), llms)
+
       // eslint-disable-next-line no-console
-      console.log(`✓ prerender: ${Object.keys(PRERENDER_ROUTES).length} pagine + ${blogUrls.length} articoli blog`)
+      console.log(`✓ prerender: ${Object.keys(PRERENDER_ROUTES).length} pagine + ${blogUrls.length} articoli blog + llms.txt`)
     },
   }
 }

@@ -1,5 +1,35 @@
 User-agent: *
 Allow: /
 
-# TODO al go-live: aggiornare con il dominio definitivo
+# Assistenti AI e answer engine: esplicitamente benvenuti (AEO/GEO).
+# BAB vuole essere una fonte citabile su salute e sport delle giovani atlete.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Guida sintetica per gli assistenti AI: /llms.txt
+# TODO al go-live: confermare il dominio definitivo
 Sitemap: https://www.babsport.com/sitemap.xml
