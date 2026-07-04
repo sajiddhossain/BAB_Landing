@@ -164,7 +164,7 @@ function prerenderRoutes(): Plugin {
       const blogUrls: string[] = []
       const blogLastmod = new Map<string, string>()
       if (fs.existsSync(blogPath)) {
-        type Post = { slug: string; lang: string; title: string; date: string | null; author: string | null; excerpt: string; cover: string | null }
+        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
         const bySlug = new Map<string, Post>()
         for (const p of allPosts) {
@@ -206,11 +206,20 @@ function prerenderRoutes(): Plugin {
             headline: post.title,
             description: post.excerpt,
             ...(post.date ? { datePublished: post.date } : {}),
-            ...(post.author ? { author: { '@type': 'Person', name: post.author } } : {}),
+            ...(post.updated || post.date ? { dateModified: post.updated || post.date } : {}),
+            ...(post.author ? { author: { '@type': 'Person', name: post.author, url: `${DOMAIN}/about` } } : {}),
             ...(post.cover ? { image: `${DOMAIN}${post.cover}` } : {}),
+            ...(post.tags?.length ? { keywords: post.tags.join(', '), articleSection: post.tags[0] } : {}),
+            ...(post.words ? { wordCount: post.words } : {}),
             inLanguage: 'it-IT',
-            mainEntityOfPage: url,
-            publisher: { '@type': 'Organization', name: 'BAB — Breaking All Barriers', url: `${DOMAIN}/` },
+            mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+            publisher: {
+              '@type': 'Organization',
+              name: 'BAB — Breaking All Barriers',
+              url: `${DOMAIN}/`,
+              // Google richiede il logo dell'editore per i rich result "Article".
+              logo: { '@type': 'ImageObject', url: `${DOMAIN}/icon-512.png`, width: 512, height: 512 },
+            },
           }
           page = page.replace('</head>', `    ${[breadcrumb, blogPosting].map(ldScript).join('\n    ')}\n  </head>`)
           const outDir = path.join(dist, 'blog', post.slug)
