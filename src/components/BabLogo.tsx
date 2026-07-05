@@ -2,7 +2,7 @@
  * @file BabLogo.tsx
  * @summary Wordmark BAB inline (fill=currentColor) così il colore si controlla via
  * `text-*`: scuro su header chiaro, chiaro su footer scuro. Stesso file SVG,
- * sorgente in docs/logo/BAB_logo.svg.
+ * sorgente in bab-brain/04-brand/BAB_logo.svg.
  */
 interface BabLogoProps {
  className?: string;
