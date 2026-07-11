@@ -23,6 +23,36 @@ marked.setOptions({ mangle: false, headerIds: false });
 
 const readingMinutes = (raw) => Math.max(1, Math.round(raw.trim().split(/\s+/).length / 200));
 
+/**
+ * Estrae le fonti citate dalla sezione "## Fonti" / "## Sources" del Markdown:
+ * per ogni voce di elenco restituisce { name, url } (l'URL preferito è il DOI).
+ * Alimenta il dato strutturato `citation` (ScholarlyArticle) nel prerender — un
+ * segnale E-E-A-T/GEO poco sfruttato ma prezioso per un blog basato su evidenze.
+ */
+function extractSources(content) {
+  const lines = content.split('\n');
+  const start = lines.findIndex((l) => /^#{2,3}\s+(fonti|sources|bibliografia|references)\b/i.test(l.trim()));
+  if (start === -1) return [];
+  const sources = [];
+  for (let i = start + 1; i < lines.length; i++) {
+    const line = lines[i];
+    if (/^#{1,6}\s/.test(line)) break; // fine sezione al primo heading successivo
+    if (!/^\s*[-*]\s+/.test(line)) continue; // solo voci di elenco
+    const urls = [...line.matchAll(/\((https?:\/\/[^)]+)\)/g)].map((m) => m[1]);
+    if (!urls.length) continue;
+    const url = urls.find((u) => /doi\.org|pubmed|pmc|ncbi/i.test(u)) || urls[0];
+    const name = line
+      .replace(/^\s*[-*]\s+/, '')
+      .replace(/\[([^\]]+)\]\((?:https?:\/\/[^)]+)\)/g, '$1') // link → solo testo
+      .replace(/\*\*([^*]+)\*\*/g, '$1') // grassetto
+      .replace(/\*([^*]+)\*/g, '$1') // corsivo
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (name) sources.push({ name, url });
+  }
+  return sources;
+}
+
 function collect() {
   const posts = [];
   for (const lang of LANGS) {
@@ -49,6 +79,10 @@ function collect() {
           : [],
         words: content.trim().split(/\s+/).filter(Boolean).length,
         readingMinutes: readingMinutes(content),
+        // Durata di lettura in ISO 8601 (BlogPosting.timeRequired) + fonti citate
+        // estratte dalla sezione "Fonti"/"Sources" (BlogPosting.citation).
+        timeRequired: `PT${readingMinutes(content)}M`,
+        sources: extractSources(content),
         html: marked.parse(content),
       });
     }

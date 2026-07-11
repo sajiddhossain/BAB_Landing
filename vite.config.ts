@@ -39,6 +39,73 @@ const BREADCRUMB_LABEL: Record<string, string> = {
 const esc = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
+// --- Glossario BAB (GEO): concetti-chiave come entità DefinedTerm, ancorati a
+// voci enciclopediche (sameAs). Il set completo è pubblicato in home; ogni
+// articolo referenzia i termini pertinenti via `about`, aiutando i motori
+// generativi a collegare i contenuti a entità note (entity/answer grounding). ---
+const GLOSSARY_ID = `${DOMAIN}/#glossario`
+const GLOSSARY: Record<string, { name: string; description: string; sameAs?: string }> = {
+  'red-s': {
+    name: 'RED-S (Relative Energy Deficiency in Sport)',
+    description:
+      "Sindrome da bassa disponibilità di energia nello sport: quando l'apporto energetico non copre la spesa dell'allenamento, con effetti su ciclo, ossa, sistema immunitario e umore.",
+    sameAs: 'https://en.wikipedia.org/wiki/Relative_energy_deficiency_in_sport',
+  },
+  ciclo: {
+    name: 'Ciclo mestruale',
+    description: 'Il ciclo ormonale femminile; nello sport giovanile è un segnale di salute da riconoscere, non un dato clinico da diagnosticare.',
+    sameAs: 'https://it.wikipedia.org/wiki/Ciclo_mestruale',
+  },
+  'pubertà': {
+    name: 'Pubertà',
+    description: 'La fase di sviluppo in cui il corpo matura; finestra in cui emergono molti dei cambiamenti fisiologici rilevanti per le giovani atlete.',
+    sameAs: 'https://it.wikipedia.org/wiki/Pubert%C3%A0',
+  },
+  dolore: {
+    name: 'Dolore',
+    description: "Esperienza sensoriale ed emotiva che durante la pubertà cambia nei suoi meccanismi; il dolore clinico tende ad aumentare in questa fascia d'età.",
+    sameAs: 'https://it.wikipedia.org/wiki/Dolore',
+  },
+  amenorrea: {
+    name: 'Amenorrea',
+    description: "Assenza di mestruazioni; nello sport non è un effetto collaterale innocuo dell'allenamento ma un possibile segnale d'allarme.",
+    sameAs: 'https://it.wikipedia.org/wiki/Amenorrea',
+  },
+  menarca: {
+    name: 'Menarca',
+    description: 'La prima mestruazione; il suo timing è associato a diversi esiti di salute in adolescenza e in età adulta.',
+    sameAs: 'https://it.wikipedia.org/wiki/Menarca',
+  },
+}
+const definedTerm = (key: string) => ({
+  '@type': 'DefinedTerm',
+  '@id': `${DOMAIN}/#term-${key}`,
+  name: GLOSSARY[key].name,
+  description: GLOSSARY[key].description,
+  inDefinedTermSet: GLOSSARY_ID,
+  ...(GLOSSARY[key].sameAs ? { sameAs: GLOSSARY[key].sameAs } : {}),
+})
+
+/** Legge larghezza/altezza da JPEG e PNG senza dipendenze (per ImageObject/OG). AVIF → null. */
+function imageSize(absPath: string): { w: number; h: number; type: string } | null {
+  try {
+    const buf = fs.readFileSync(absPath)
+    if (buf.length > 24 && buf.toString('ascii', 1, 4) === 'PNG')
+      return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20), type: 'image/png' }
+    if (buf[0] === 0xff && buf[1] === 0xd8) {
+      let o = 2
+      while (o < buf.length - 8) {
+        if (buf[o] !== 0xff) { o++; continue }
+        const m = buf[o + 1]
+        if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc)
+          return { h: buf.readUInt16BE(o + 5), w: buf.readUInt16BE(o + 7), type: 'image/jpeg' }
+        o += 2 + buf.readUInt16BE(o + 2)
+      }
+    }
+  } catch { /* ignora: nessuna dimensione */ }
+  return null
+}
+
 const ldScript = (obj: unknown) =>
   `<script type="application/ld+json">${JSON.stringify(obj)}</script>`
 
@@ -95,16 +162,9 @@ function prerenderRoutes(): Plugin {
           inLanguage: 'it-IT',
           publisher: { '@type': 'Organization', name: 'BAB — Breaking All Barriers', url: `${DOMAIN}/` },
         },
-        // Entità Organization con logo: consolida l'editore referenziato da ogni
-        // BlogPosting e aiuta i motori generativi a riconoscere il brand (GEO/E-E-A-T).
-        {
-          '@context': 'https://schema.org',
-          '@type': 'Organization',
-          name: 'BAB — Breaking All Barriers',
-          url: `${DOMAIN}/`,
-          logo: { '@type': 'ImageObject', url: `${DOMAIN}/icon-512.png`, width: 512, height: 512 },
-          description: seo.home?.desc ?? '',
-        },
+        // NB: l'entità Organization (con logo, sameAs, knowsAbout) è statica nel
+        // template index.html → è site-wide su ogni pagina. Non la ripetiamo qui
+        // per non creare un nodo duplicato dello stesso editore.
       ]
       const faqItems: Array<{ q: string; a: string }> = it.faqHome?.items ?? []
       if (faqItems.length) {
@@ -118,6 +178,17 @@ function prerenderRoutes(): Plugin {
           })),
         })
       }
+      // Glossario dei concetti-chiave come DefinedTermSet (GEO): dà ai motori
+      // generativi definizioni curate e ancorate a entità note, referenziate dai
+      // singoli articoli via `about`.
+      homeLd.push({
+        '@context': 'https://schema.org',
+        '@type': 'DefinedTermSet',
+        '@id': GLOSSARY_ID,
+        name: 'Glossario BAB — salute e sviluppo delle giovani atlete',
+        hasDefinedTerm: Object.keys(GLOSSARY).map(definedTerm),
+      })
+
       const homeTags = homeLd.map(ldScript).join('\n    ')
       fs.writeFileSync(indexPath, baseHtml.replace('</head>', `    ${homeTags}\n  </head>`))
 
@@ -172,10 +243,10 @@ function prerenderRoutes(): Plugin {
       // --- Articoli del blog: una pagina statica per slug (canonica in IT) ---
       const blogPath = path.resolve('src/generated/blog.json')
       const blogUrls: string[] = []
-      const blogForLlms: Array<{ slug: string; title: string; excerpt: string }> = []
+      const blogForLlms: Array<{ slug: string; title: string; excerpt: string; date: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }> }> = []
       const blogLastmod = new Map<string, string>()
       if (fs.existsSync(blogPath)) {
-        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; faq?: Array<{ q: string; a: string }> }
+        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }> }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
         const bySlug = new Map<string, Post>()
         for (const p of allPosts) {
@@ -194,10 +265,28 @@ function prerenderRoutes(): Plugin {
           page = replaceAttr(page, /(<meta name="twitter:title" content=")[^"]*(")/, post.title)
           page = replaceAttr(page, /(<meta name="twitter:description" content=")[^"]*(")/, post.excerpt)
           page = replaceAttr(page, /(<link rel="canonical" href=")[^"]*(")/, url)
+          const coverDim = post.cover ? imageSize(path.join(path.resolve('public'), post.cover)) : null
           if (post.cover) {
             page = replaceAttr(page, /(<meta property="og:image" content=")[^"]*(")/, `${DOMAIN}${post.cover}`)
             page = replaceAttr(page, /(<meta name="twitter:image" content=")[^"]*(")/, `${DOMAIN}${post.cover}`)
+            page = replaceAttr(page, /(<meta property="og:image:alt" content=")[^"]*(")/, post.title)
+            page = replaceAttr(page, /(<meta name="twitter:image:alt" content=")[^"]*(")/, post.title)
+            if (coverDim) {
+              page = replaceAttr(page, /(<meta property="og:image:type" content=")[^"]*(")/, coverDim.type)
+              page = replaceAttr(page, /(<meta property="og:image:width" content=")[^"]*(")/, String(coverDim.w))
+              page = replaceAttr(page, /(<meta property="og:image:height" content=")[^"]*(")/, String(coverDim.h))
+            }
           }
+          // Meta OpenGraph specifiche degli articoli (article:*): non presenti nel
+          // template base, quindi iniettate qui prima di </head>.
+          const articleMeta = [
+            post.date ? `<meta property="article:published_time" content="${post.date}" />` : '',
+            post.updated || post.date ? `<meta property="article:modified_time" content="${post.updated || post.date}" />` : '',
+            post.author ? `<meta property="article:author" content="${esc(post.author)}" />` : '',
+            post.tags?.[0] ? `<meta property="article:section" content="${esc(post.tags[0])}" />` : '',
+            ...(post.tags ?? []).map((t) => `<meta property="article:tag" content="${esc(t)}" />`),
+          ].filter(Boolean).join('\n    ')
+          if (articleMeta) page = page.replace('</head>', `    ${articleMeta}\n  </head>`)
           // Le FAQ finiscono anche nel contenuto statico di #root (React lo
           // sostituisce al mount): così sono visibili ai crawler senza JS e
           // combaciano con il dato strutturato FAQPage qui sotto.
@@ -225,10 +314,32 @@ function prerenderRoutes(): Plugin {
             ...(post.date ? { datePublished: post.date } : {}),
             ...(post.updated || post.date ? { dateModified: post.updated || post.date } : {}),
             ...(post.author ? { author: { '@type': 'Person', name: post.author, url: `${DOMAIN}/about` } } : {}),
-            ...(post.cover ? { image: `${DOMAIN}${post.cover}` } : {}),
+            ...(post.cover
+              ? {
+                  image: {
+                    '@type': 'ImageObject',
+                    url: `${DOMAIN}${post.cover}`,
+                    ...(coverDim ? { width: coverDim.w, height: coverDim.h } : {}),
+                  },
+                }
+              : {}),
             ...(post.tags?.length ? { keywords: post.tags.join(', '), articleSection: post.tags[0] } : {}),
             ...(post.words ? { wordCount: post.words } : {}),
+            ...(post.timeRequired ? { timeRequired: post.timeRequired } : {}),
+            isAccessibleForFree: true,
             inLanguage: 'it-IT',
+            // Entità collegate (GEO): i concetti-chiave dell'articolo come DefinedTerm.
+            ...(() => {
+              const terms = (post.tags ?? []).filter((t) => GLOSSARY[t]).map(definedTerm)
+              return terms.length ? { about: terms } : {}
+            })(),
+            // Citazioni scientifiche (E-E-A-T/GEO): le stesse fonti elencate in fondo
+            // all'articolo, come dato strutturato ScholarlyArticle.
+            ...(post.sources?.length
+              ? { citation: post.sources.map((s) => ({ '@type': 'ScholarlyArticle', name: s.name, url: s.url, '@id': s.url })) }
+              : {}),
+            // Contenuto leggibile ad alta voce (AEO / voice assistant).
+            speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', 'h2'] },
             mainEntityOfPage: { '@type': 'WebPage', '@id': url },
             publisher: {
               '@type': 'Organization',
@@ -257,7 +368,7 @@ function prerenderRoutes(): Plugin {
           fs.mkdirSync(outDir, { recursive: true })
           fs.writeFileSync(path.join(outDir, 'index.html'), page)
           blogUrls.push(url)
-          blogForLlms.push({ slug: post.slug, title: post.title, excerpt: post.excerpt })
+          blogForLlms.push({ slug: post.slug, title: post.title, excerpt: post.excerpt, date: post.date, tags: post.tags, sources: post.sources })
           if (post.date) blogLastmod.set(url, post.date)
         }
       }
@@ -294,7 +405,15 @@ function prerenderRoutes(): Plugin {
         '- Pensato per minori: privacy-first, linguaggio non giudicante, nessun uso dei dati per addestrare modelli.',
         '',
         '## Blog (articoli con fonti)',
-        ...blogForLlms.map((p) => `- [${p.title}](${DOMAIN}/blog/${p.slug}): ${p.excerpt}`),
+        ...blogForLlms.flatMap((p) => {
+          const meta = [p.date, ...(p.tags ?? [])].filter(Boolean).join(' · ')
+          const lines = [`- [${p.title}](${DOMAIN}/blog/${p.slug})${meta ? ` — ${meta}` : ''}: ${p.excerpt}`]
+          if (p.sources?.length) lines.push(`  Fonti: ${p.sources.map((s) => s.url).join(' · ')}`)
+          return lines
+        }),
+        '',
+        '## Definizioni',
+        ...Object.keys(GLOSSARY).map((k) => `- ${GLOSSARY[k].name}: ${GLOSSARY[k].description}`),
         '',
         '## Pagine principali',
         `- [Blog](${DOMAIN}/blog)`,
