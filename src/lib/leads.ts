@@ -5,6 +5,7 @@
  *            (società / allenatore / genitore / atleta) per il ricontatto manuale.
  */
 import { getSupabase, isSupabaseConfigured } from './supabase'
+import { notifyLead } from './notify'
 
 export type UserType = 'societa' | 'allenatore' | 'genitore' | 'atleta'
 
@@ -80,6 +81,8 @@ export async function insertLead(payload: LeadPayload): Promise<InsertLeadResult
       )
       // Errore Postgres (es. RLS, validazione): non è transitorio, inutile ritentare
       if (error) return { ok: false, error: error.message }
+      // Salvataggio riuscito → avvisa il team via email (best-effort, non bloccante)
+      notifyLead(row)
       return { ok: true }
     } catch (e) {
       // Errore di rete / timeout: transitorio → ritenta dopo un breve backoff
