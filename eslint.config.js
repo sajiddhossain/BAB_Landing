@@ -9,6 +9,8 @@ export default defineConfig([
   globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
+    // Le funzioni serverless in api/ sono codice Node, non React: linter dedicato sotto.
+    ignores: ['api/**'],
     extends: [
       js.configs.recommended,
       tseslint.configs.recommended,
@@ -17,6 +19,14 @@ export default defineConfig([
     ],
     languageOptions: {
       globals: globals.browser,
+    },
+  },
+  {
+    // Funzioni serverless Vercel (Node): globals Node, niente regole React.
+    files: ['api/**/*.{ts,js}'],
+    extends: [js.configs.recommended, tseslint.configs.recommended],
+    languageOptions: {
+      globals: globals.node,
     },
   },
 ])
