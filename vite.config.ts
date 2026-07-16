@@ -76,6 +76,28 @@ const GLOSSARY: Record<string, { name: string; description: string; sameAs?: str
     description: 'La prima mestruazione; il suo timing è associato a diversi esiti di salute in adolescenza e in età adulta.',
     sameAs: 'https://it.wikipedia.org/wiki/Menarca',
   },
+  'drop-out': {
+    name: 'Drop-out sportivo femminile',
+    description:
+      "L'abbandono dello sport in adolescenza: tra le ragazze tesserate a 10-14 anni il 71% smette senza mai rientrare (Eime et al., 2020). Non è un calo di motivazione, ma l'esito di un ambiente che smette di funzionare quando il corpo cambia.",
+  },
+  'reggiseno-sportivo': {
+    name: 'Reggiseno sportivo',
+    description:
+      'Indumento di sostegno per il seno durante il movimento. Il tessuto mammario non ha muscoli propri che lo sostengano: a 13-14 anni il 51% delle ragazze dice che il seno influenza la partecipazione allo sport, ma solo il 10% ne indossa sempre uno (Scurr et al., 2016).',
+    sameAs: 'https://it.wikipedia.org/wiki/Reggiseno_sportivo',
+  },
+  ferro: {
+    name: 'Carenza di ferro',
+    description:
+      "Riserve di ferro insufficienti, misurate con la ferritina; può esserci anche senza anemia. Nelle atlete adolescenti la prevalenza di carenza lieve (ferritina ≤30 µg/L) è del 53% (Nicotra et al., 2023). Si accerta con un esame del sangue, non si presume.",
+    sameAs: 'https://it.wikipedia.org/wiki/Carenza_di_ferro',
+  },
+  energia: {
+    name: 'Disponibilità energetica',
+    description:
+      "L'energia che resta al corpo per le sue funzioni vitali dopo aver coperto la spesa dell'allenamento. Quando è troppo bassa il corpo riduce funzioni come ciclo mestruale, salute ossea e recupero: è il meccanismo alla base della RED-S.",
+  },
 }
 const definedTerm = (key: string) => ({
   '@type': 'DefinedTerm',
@@ -243,7 +265,7 @@ function prerenderRoutes(): Plugin {
       // --- Articoli del blog: una pagina statica per slug (canonica in IT) ---
       const blogPath = path.resolve('src/generated/blog.json')
       const blogUrls: string[] = []
-      const blogForLlms: Array<{ slug: string; title: string; excerpt: string; date: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }> }> = []
+      const blogForLlms: Array<{ slug: string; title: string; excerpt: string; date: string | null; updated?: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }> }> = []
       const blogLastmod = new Map<string, string>()
       if (fs.existsSync(blogPath)) {
         type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }> }
@@ -368,8 +390,11 @@ function prerenderRoutes(): Plugin {
           fs.mkdirSync(outDir, { recursive: true })
           fs.writeFileSync(path.join(outDir, 'index.html'), page)
           blogUrls.push(url)
-          blogForLlms.push({ slug: post.slug, title: post.title, excerpt: post.excerpt, date: post.date, tags: post.tags, sources: post.sources })
-          if (post.date) blogLastmod.set(url, post.date)
+          blogForLlms.push({ slug: post.slug, title: post.title, excerpt: post.excerpt, date: post.date, updated: post.updated, tags: post.tags, sources: post.sources, faq: post.faq })
+          // lastmod = data dell'ultima revisione reale (updated), non della prima
+          // pubblicazione: è ciò che dice ai crawler che vale la pena ripassare.
+          const lastmod = post.updated || post.date
+          if (lastmod) blogLastmod.set(url, lastmod)
         }
       }
 
@@ -404,10 +429,18 @@ function prerenderRoutes(): Plugin {
         '- Approccio evidence-based: si monitora e si segnala, non si diagnostica; la fase del ciclo è una stima, non un dato clinico.',
         '- Pensato per minori: privacy-first, linguaggio non giudicante, nessun uso dei dati per addestrare modelli.',
         '',
+        '## Politica editoriale (come leggere e citare questi contenuti)',
+        '- Ogni affermazione di salute, fisiologica o statistica è ancorata a una fonte citata in fondo a ciascun articolo, preferibilmente con DOI.',
+        "- Quando una fonte è stata condotta su adulti, l'articolo lo dichiara esplicitamente: i risultati su atlete adulte non vengono presentati come validi per ragazze di 13-14 anni.",
+        "- La ricerca \"grigia\" (report non peer-reviewed) è etichettata come tale, e distinta dalla letteratura peer-reviewed.",
+        '- I contenuti sono educativi e non costituiscono parere medico né strumento diagnostico.',
+        '- Citazione consigliata: BAB — Breaking All Barriers, titolo dell\'articolo, ' + `${DOMAIN}/blog/{slug}.`,
+        '',
         '## Blog (articoli con fonti)',
         ...blogForLlms.flatMap((p) => {
-          const meta = [p.date, ...(p.tags ?? [])].filter(Boolean).join(' · ')
+          const meta = [p.updated ? `aggiornato ${p.updated}` : p.date, ...(p.tags ?? [])].filter(Boolean).join(' · ')
           const lines = [`- [${p.title}](${DOMAIN}/blog/${p.slug})${meta ? ` — ${meta}` : ''}: ${p.excerpt}`]
+          if (p.faq?.length) lines.push(`  Risponde a: ${p.faq.map((f) => f.q).join(' | ')}`)
           if (p.sources?.length) lines.push(`  Fonti: ${p.sources.map((s) => s.url).join(' · ')}`)
           return lines
         }),
