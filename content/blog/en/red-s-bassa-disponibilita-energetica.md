@@ -2,10 +2,11 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: when training more does harm (and how to catch it early)"
 date: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-18
 author: Sajid Hossain
-excerpt: "When the energy an athlete takes in isn't enough to cover training and growth, the body shuts down essential functions. It's called RED-S: what the science says, the signs to know, and why daily awareness matters."
+excerpt: "When the energy an athlete takes in isn't enough to cover training and growth, the body shuts down essential functions: periods, bones, recovery, mood. It's called RED-S. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
 cover: /fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif
+coverAlt: "A young athlete in a white sweatshirt and headband stretching her arms overhead on an athletics track"
 tags:
   - health
   - energy
@@ -17,6 +18,12 @@ faq:
     a: "No. A missing or irregular period is not a sign of good training but a possible signal of low energy availability that deserves attention. In a study of 90 adolescent athletes, 44% mistakenly believed that losing the period was a normal response to high training loads (Armento et al., 2021)."
   - q: "Can an app diagnose RED-S?"
     a: "No, and no one should try to via an app. RED-S is assessed by healthcare professionals. Tools like BAB help an athlete observe her own signals day by day and, if she wishes, bring them to a trusted adult or doctor: monitoring is not diagnosing."
+  - q: "What are the early signs of RED-S in a teenage athlete?"
+    a: "No single sign is diagnostic, but these deserve attention if they persist: an absent or irregular period after menarche with no other explanation; fatigue that doesn't lift with normal recovery; recurrent overuse injuries, including stress fractures; performance dropping despite increased effort; disturbed sleep, low mood and frequent illness. These are the domains described in the IOC consensus (Mountjoy et al., 2023). If they persist, the next step is a healthcare professional, not self-diagnosis."
+  - q: "What's the difference between the Female Athlete Triad and RED-S?"
+    a: "The Triad describes three linked elements: low energy availability, menstrual dysfunction and impaired bone health (De Souza et al., 2014). In 2014 the International Olympic Committee widened the frame with RED-S, recognising that energy deficiency also affects the immune system, metabolism, mood, the cardiovascular system and performance itself (Mountjoy et al., 2014), updating it in 2023 with new risk-assessment tools. RED-S doesn't replace the Triad: it contains and extends it, and applies across sexes."
+  - q: "How is RED-S risk assessed?"
+    a: "With screening tools, designed to flag who merits further assessment rather than to label anyone: the LEAF-Q questionnaire, validated across gastrointestinal symptoms, menstrual function and injuries (Melin et al., 2014); the Female Athlete Triad Cumulative Risk Assessment, a points-based score; and REDs CAT2, the traffic-light tool from the 2023 IOC consensus. They are filters, not verdicts: clinical assessment belongs to doctors, dietitians and specialists — never to an app or a coach."
 ---
 
 There's a dangerous idea in youth women's sport: that training harder is always better. But an adolescent athlete's body is not an engine you can push forever. When the energy coming in isn't enough to cover what goes out — across training, school and growth itself — the body starts to **cut the functions it deems least urgent**. That is the heart of a condition science calls RED-S.
@@ -36,7 +43,9 @@ In 2014 the International Olympic Committee broadened the picture with **RED-S**
 
 The underlying message is counter-intuitive but crucial: **energy shortfall can reduce performance**, not raise it. The idea "eat less, weigh less, go faster" is, in the long run, a dead end.
 
-## What "low energy availability" really means
+## What does "low energy availability" mean?
+
+**It means that, after covering the cost of training, the body doesn't have enough energy left to run everything else** — periods, bones, immune system, recovery. It is not a judgement about food, nor a diagnosis of an eating disorder: it's a balance that doesn't add up, and it can happen without anyone noticing.
 
 Energy availability is, put simply, **the energy left for the body to function after subtracting what's spent in exercise**. When this margin is too low — from too little food, too much training, or both — the body enters "saving mode".
 
@@ -56,7 +65,7 @@ None of these signs, alone, "makes a diagnosis". But together they deserve atten
 - **Fatigue that won't lift** with normal recovery.
 - **Recurring overuse injuries**, including stress fractures.
 - **Performance dropping** despite rising effort.
-- **Disturbed sleep, low mood, frequent colds/illness.**
+- **Disturbed sleep, low mood, frequent colds/illness.** Sleep deserves separate attention: the consensus recommendation for ages 13-18 is **8-10 hours per night** ([Paruthi et al., 2016](https://doi.org/10.5664/jcsm.5866)), and among adolescent athletes sleeping under 8 hours is associated with being injured 1.7 times more often ([Milewski et al., 2014](https://doi.org/10.1097/BPO.0000000000000151)) — we covered this in [sleep and teenage athletes](/blog/sonno-atlete-adolescenti).
 
 Here lies a cultural problem. In a study of 90 adolescent athletes, **44% believed losing the period was a normal response to high load** ([Armento et al., 2021](https://doi.org/10.4085/624-20)). Misinformation starts early: normalising a warning sign is exactly what delays action.
 
@@ -73,7 +82,7 @@ One principle guides them all: they are **filters, not verdicts**. Clinical asse
 ## What the people around the athlete can actually do
 
 - **The athlete**: observe your own signals day by day, without judgement. Recognising your patterns is the first step to talking about them.
-- **The family**: refuel without guilt. Food is fuel, not a reward or a punishment.
+- **The family**: refuel without guilt. Food is fuel, not a reward or a punishment. And if fatigue is the dominant symptom, it's worth ruling out [iron deficiency](/blog/ferro-atlete-adolescenti) too: that's established with a blood test, not assumed.
 - **The staff**: read team-level signals (widespread fatigue, rising injuries) as useful information, without asking the athlete to expose herself in public.
 - **Everyone**: replace "you lost your period because you train a lot, it's normal" with "let's talk to someone who knows".
 
@@ -89,5 +98,7 @@ BAB does not diagnose and does not replace a doctor. It helps the athlete **reco
 - Melin A., et al. **The LEAF questionnaire: a screening tool for the female athlete triad / RED-S.** *Br J Sports Med*, 2014. [doi:10.1136/bjsports-2013-093240](https://doi.org/10.1136/bjsports-2013-093240)
 - Armento A., et al. **Adolescent female athletes' beliefs about menstrual dysfunction.** 2021. [doi:10.4085/624-20](https://doi.org/10.4085/624-20)
 - Cowley E.S., et al. **"Invisible Sportswomen": the sex data gap in sport and exercise science research.** *Women in Sport and Physical Activity Journal*, 2021. [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
+- Paruthi S., et al. **Recommended Amount of Sleep for Pediatric Populations: A Consensus Statement of the American Academy of Sleep Medicine.** *Journal of Clinical Sleep Medicine*, 2016;12(6):785-786. (ages 13-18: 8-10 hours per night) [doi:10.5664/jcsm.5866](https://doi.org/10.5664/jcsm.5866)
+- Milewski M.D., et al. **Chronic lack of sleep is associated with increased sports injuries in adolescent athletes.** *Journal of Pediatric Orthopaedics*, 2014;34(2):129-133. (n=112 adolescent athletes; cross-sectional, results not broken down by sex) [doi:10.1097/BPO.0000000000000151](https://doi.org/10.1097/BPO.0000000000000151)
 
 *This article is for informational purposes and does not constitute medical advice. If signals persist, consult a healthcare professional.*

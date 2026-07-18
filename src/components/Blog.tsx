@@ -18,6 +18,8 @@ export interface BlogPostData {
  author: string | null;
  excerpt: string;
  cover: string | null;
+ /** Testo alternativo della copertina; se assente si ricade sul titolo. */
+ coverAlt?: string;
  tags: string[];
  faq?: { q: string; a: string }[];
  readingMinutes: number;
@@ -79,7 +81,7 @@ export default function Blog() {
  {p.cover && (
  <img
  src={p.cover}
- alt=""
+ alt={p.coverAlt || p.title}
  loading="lazy"
  className="w-full aspect-video object-cover border-b-[3px] border-black"
  />

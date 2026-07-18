@@ -98,6 +98,24 @@ const GLOSSARY: Record<string, { name: string; description: string; sameAs?: str
     description:
       "L'energia che resta al corpo per le sue funzioni vitali dopo aver coperto la spesa dell'allenamento. Quando è troppo bassa il corpo riduce funzioni come ciclo mestruale, salute ossea e recupero: è il meccanismo alla base della RED-S.",
   },
+  sonno: {
+    name: 'Sonno in adolescenza',
+    description:
+      "Il riposo notturno nella fascia 13-18 anni, per cui la raccomandazione di consenso è di 8-10 ore per notte (Paruthi et al., 2016). Negli atleti adolescenti dormire meno di 8 ore è associato a essere infortunati 1,7 volte più spesso (Milewski et al., 2014). Non è recupero opzionale: è parte della crescita.",
+    sameAs: 'https://it.wikipedia.org/wiki/Sonno',
+  },
+  'ritmo-circadiano': {
+    name: 'Ritmo circadiano',
+    description:
+      "L'orologio biologico interno che regola sonno e veglia. Con la pubertà la sua temporizzazione slitta in avanti: il bisogno di sonno non diminuisce, cambia l'orario in cui il corpo riesce ad addormentarsi, e questo entra in conflitto con gli orari scolastici (Carskadon, 2011).",
+    sameAs: 'https://it.wikipedia.org/wiki/Ritmo_circadiano',
+  },
+  tanner: {
+    name: 'Stadi di Tanner',
+    description:
+      'La scala clinica che descrive le tappe dello sviluppo puberale. È utile perché molti fenomeni si legano allo stadio puberale più che allo stadio anagrafico: i sintomi di insonnia nelle ragazze, per esempio, salgono dal 3,4% al 12,2% tra lo stadio 1 e lo stadio 5 (Zhang et al., 2016).',
+    sameAs: 'https://it.wikipedia.org/wiki/Scala_di_Tanner',
+  },
 }
 const definedTerm = (key: string) => ({
   '@type': 'DefinedTerm',
@@ -361,7 +379,13 @@ function prerenderRoutes(): Plugin {
               ? { citation: post.sources.map((s) => ({ '@type': 'ScholarlyArticle', name: s.name, url: s.url, '@id': s.url })) }
               : {}),
             // Contenuto leggibile ad alta voce (AEO / voice assistant).
-            speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', 'h2'] },
+            // Speakable (AEO): oltre ai titoli, indichiamo il sommario "In breve" e il
+            // primo paragrafo — cioè le parti scritte per essere lette ad alta voce
+            // come risposta autonoma da un assistente vocale.
+            speakable: {
+              '@type': 'SpeakableSpecification',
+              cssSelector: ['h1', 'h2', '.blog-prose > blockquote:first-of-type', '.blog-prose > p:first-of-type'],
+            },
             mainEntityOfPage: { '@type': 'WebPage', '@id': url },
             publisher: {
               '@type': 'Organization',
@@ -444,6 +468,21 @@ function prerenderRoutes(): Plugin {
           if (p.sources?.length) lines.push(`  Fonti: ${p.sources.map((s) => s.url).join(' · ')}`)
           return lines
         }),
+        '',
+        // Affermazioni fattuali nette, ciascuna legata alla sua fonte: pensate per
+        // essere citate testualmente da un motore generativo senza perdere l'ancora.
+        '## Fatti citabili (ognuno con la sua fonte e la sua popolazione)',
+        '- Tra le ragazze tesserate a 10-14 anni, il 71% abbandona lo sport senza mai rientrare. Fonte: Eime et al., 2020.',
+        "- Il 77% delle atlete d'élite riferisce che il ciclo mestruale ha influenzato negativamente la propria performance. Popolazione: 128 atlete ADULTE, età media 28 anni. Fonte: Jones et al., 2024, doi:10.3389/fspor.2024.1296189.",
+        '- Tra le adolescenti di 10-18 anni, dal 25,2% al 61,1% evita o riduce l\'attività fisica durante le mestruazioni. Fonte: Harvey et al., 2025, doi:10.1186/s12905-025-03825-w.',
+        "- Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: 4% se è un uomo, 55% se è una donna; l'88% ha imparato queste cose da sola. Popolazione: 1.086 atlete, adulte e adolescenti insieme, dati non suddivisi per età. Fonte: Höök et al., 2022, doi:10.3390/ijerph191911932.",
+        '- Il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia una normale risposta a carichi di allenamento elevati. Popolazione: 90 atlete adolescenti. Fonte: Armento et al., 2021, doi:10.4085/624-20.',
+        '- Nelle atlete adolescenti (11-18 anni) la prevalenza di carenza di ferro lieve (ferritina ≤30 µg/L) è del 53,2%, mentre l\'anemia sideropenica riguarda il 4%. Fonte: Nicotra et al., 2023, doi:10.3390/jcm12030970.',
+        "- A 13-14 anni il 51% delle ragazze dice che il seno influenza la partecipazione allo sport, ma solo il 10% indossa sempre un reggiseno sportivo. Fonte: Scurr et al., 2016.",
+        '- La raccomandazione di consenso per i 13-18 anni è di 8-10 ore di sonno per notte. Fonte: Paruthi et al., 2016, doi:10.5664/jcsm.5866.',
+        '- Negli atleti adolescenti, dormire meno di 8 ore per notte è associato a essere infortunati 1,7 volte più spesso (IC 95% 1,0-3,0; p=0,04). Popolazione: 112 atleti adolescenti di entrambi i sessi, risultati non suddivisi per sesso; associazione, non causa dimostrata. Fonte: Milewski et al., 2014, doi:10.1097/BPO.0000000000000151.',
+        '- I sintomi di insonnia salgono dal 3,4% al 12,2% nelle ragazze tra lo stadio 1 e lo stadio 5 di Tanner, contro il 4,3%-9,1% nei ragazzi. Popolazione: 7.507 bambini e adolescenti di 6-17 anni. Fonte: Zhang et al., 2016, doi:10.5665/sleep.6022.',
+        '- Solo il 6% degli studi in scienze dello sport è condotto esclusivamente su donne. Fonte: Cowley et al., 2021, doi:10.1123/wspaj.2021-0028.',
         '',
         '## Definizioni',
         ...Object.keys(GLOSSARY).map((k) => `- ${GLOSSARY[k].name}: ${GLOSSARY[k].description}`),
