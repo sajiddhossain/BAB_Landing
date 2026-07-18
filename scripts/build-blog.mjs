@@ -71,6 +71,7 @@ function collect() {
         author: data.author || null,
         excerpt: data.excerpt || '',
         cover: data.cover || null,
+        coverAlt: data.coverAlt || '',
         tags: Array.isArray(data.tags) ? data.tags : [],
         // FAQ opzionali (per l'AEO/GEO): coppie q/a validate, mostrate in pagina
         // e pubblicate come dato strutturato FAQPage nel prerender.

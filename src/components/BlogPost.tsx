@@ -59,7 +59,7 @@ export default function BlogPost({ slug, onNavigate }: BlogPostProps) {
  {post.cover && (
  <img
  src={post.cover}
- alt=""
+ alt={post.coverAlt || post.title}
  className="w-full aspect-video object-cover border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] mb-10"
  />
  )}

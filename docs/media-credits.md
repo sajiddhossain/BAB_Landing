@@ -12,3 +12,12 @@
 - Uso: cover articolo blog "carenza di ferro nelle atlete adolescenti" (IT + EN)
 - Lavorazione: rendition `editor_1024` (senza filigrana), ritaglio 16:9 e resample a 1200x675, JPEG q85.
   NB: la rendition `image_1300` dello stesso file è filigranata "rawpixel" → non usare.
+
+## cover-sonno-atlete.jpg
+- Titolo originale: "Bedroom Clean"
+- Fonte: StockSnap.io — https://stocksnap.io/photo/bedroom-clean-OE0F9BHXJQ (reperita via Openverse)
+- Autore: Burst (https://burst.shopify.com)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "sonno e atlete adolescenti" (IT + EN)
+- Lavorazione: rendition `960w` (massima disponibile sul CDN), ritaglio 16:9 a 960x540, JPEG q85.
+  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
