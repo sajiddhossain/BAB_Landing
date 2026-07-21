@@ -70,7 +70,8 @@ export default function BlogPost({ slug, onNavigate }: BlogPostProps) {
  />
 
  {post.faq && post.faq.length > 0 && (
- <section className="mt-14 border-t-[3px] border-black pt-8" aria-labelledby="faq-heading">
+ // `blog-faq`: aggancio stabile per il selettore Speakable dichiarato nel JSON-LD (vite.config.ts).
+ <section className="blog-faq mt-14 border-t-[3px] border-black pt-8" aria-labelledby="faq-heading">
  <h2
  id="faq-heading"
  className="font-['Bricolage_Grotesque',_sans-serif] text-2xl sm:text-3xl font-black tracking-tight mb-6"

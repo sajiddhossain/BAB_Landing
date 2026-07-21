@@ -2,10 +2,11 @@
 slug: ciclo-e-performance
 title: "Il ciclo mestruale e la performance: quello che nessuno spiega alle atlete"
 date: 2026-06-20
-updated: 2026-07-16
+updated: 2026-07-21
 author: Sajid Hossain
 excerpt: "Il 77% delle atlete d'élite riferisce che il ciclo influenza la propria performance, e tra le adolescenti una su quattro — fino a sei su dieci — riduce o evita l'attività fisica durante le mestruazioni. Non è una questione di volontà: è un segnale del corpo che quasi nessuna impara a leggere. Ecco i dati, e da dove partire."
 cover: /fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif
+coverAlt: "Giovane atleta in canotta nera in mezzo alle compagne di squadra su una pista di atletica, lo sguardo dritto in camera"
 tags:
   - salute
   - performance
@@ -17,6 +18,8 @@ faq:
     a: "Molte più di quante si pensi. Una revisione di 86 studi condotti in 33 Paesi su adolescenti di 10-18 anni ha rilevato che la quota di ragazze che evita o riduce l'attività fisica durante le mestruazioni varia dal 25,2% al 61,1% a seconda della popolazione studiata (Harvey et al., 2025). Tra i motivi ricorrenti non c'è solo il dolore: ci sono la paura delle perdite e l'imbarazzo."
   - q: "Perché si sa così poco di ciclo e sport?"
     a: "Perché la ricerca ha guardato altrove. Analizzando 5.261 pubblicazioni di scienze dello sport uscite tra il 2014 e il 2020, solo il 6% era condotto esclusivamente su donne, e le partecipanti femmine erano il 34% del totale (Cowley et al., 2021). Non è che le risposte siano nascoste: in gran parte non sono ancora state cercate."
+  - q: "Bisogna adattare l'allenamento alla fase del ciclo?"
+    a: "Oggi l'evidenza non lo sostiene, e per le adolescenti non esiste proprio. La meta-analisi più ampia sull'effetto della fase del ciclo sulla performance — 78 studi e 1.193 partecipanti — ha trovato una riduzione di entità «banale» nella fase follicolare precoce rispetto alle altre fasi (ES 0,5 = -0,06; CrI 95% -0,16 a 0,04), con qualità delle prove giudicata bassa secondo GRADE (McNulty et al., 2020). Attenzione all'età: quelle partecipanti sono donne adulte di 18-40 anni. La conclusione pratica è quindi doppia: non esistono basi per periodizzare l'allenamento di una ragazza di 14 anni sulla fase del ciclo, ma esistono ottime ragioni per ascoltare come sta e adattare la singola seduta a ciò che riferisce."
 ---
 
 Per troppo tempo lo sport femminile è stato allenato come se fosse uno sport maschile più piccolo. Ma il corpo di un'atleta adolescente cambia, e con lui cambiano energia, recupero e umore lungo il ciclo mestruale. Il punto non è se questo accada: è che quasi nessuna riceve gli strumenti per leggerlo.
@@ -62,5 +65,6 @@ BAB aiuta le atlete a riconoscere questi segnali in privato, e dà ad allenatori
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studi, 33 Paesi, adolescenti 10-18 anni) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
 - Gopalan S.S., O'Dean S., Buckler E.J., et al. **A longitudinal assessment of the impact of biological maturity and menarche on adolescents' organized sport and physical activity participation.** *Journal of Adolescence*, 2025;97(6):1484-1493. (n=6.639 adolescenti) [doi:10.1002/jad.12512](https://doi.org/10.1002/jad.12512)
 - Cowley E.S., Olenick A.A., McNulty K.L., Ross E.Z. **"Invisible Sportswomen": The Sex Data Gap in Sport and Exercise Science Research.** *Women in Sport and Physical Activity Journal*, 2021;29(2):146-151. (5.261 pubblicazioni analizzate) [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
+- McNulty K.L., Elliott-Sale K.J., Dolan E., Swinton P.A., Ansdell P., Goodall S., Thomas K., Hicks K.M. **The Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic Women: A Systematic Review and Meta-Analysis.** *Sports Medicine*, 2020;50(10):1813-1827. (78 studi, 1.193 partecipanti **donne adulte di 18-40 anni**; effetto di entità banale, qualità delle prove bassa secondo GRADE) [doi:10.1007/s40279-020-01319-3](https://doi.org/10.1007/s40279-020-01319-3)
 
 *Questo articolo ha finalità informative e non costituisce parere medico. In presenza di segnali persistenti, rivolgersi a un professionista sanitario.*

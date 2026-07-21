@@ -2,10 +2,11 @@
 slug: reggiseno-sportivo-ragazze
 title: "Sports bras for girls: a guide to the first one (and the right size)"
 date: 2026-07-02
-updated: 2026-07-16
+updated: 2026-07-21
 author: Sajid Hossain
 excerpt: "At 13-14, one girl in two says her breasts affect her participation in sport — yet only one in ten always wears a sports bra. It's the least-talked-about reason girls quit, and the fix is cheap. When the first one is needed, how to get the size right, and what the evidence says."
 cover: /fotobab/cover-reggiseno-sportivo.jpg
+coverAlt: "Folded sportswear — black shorts and a patterned vest — laid out on a yoga mat"
 tags:
   - sports-bra
   - puberty
@@ -26,7 +27,7 @@ At puberty the body changes fast, and a growing chest is one of the changes **al
 > - Only **10%** always wear a sports bra; **over half** never do.
 > - **87%** want to know more — and **50 minutes** of education is enough to change the habits of two-thirds of girls (Omrani et al., 2020).
 
-## Why it matters more than it seems
+## Why does a sports bra matter more than it seems?
 
 Breast tissue **has no muscle holding it in place**: internal support is weak, so during running and jumping it moves independently of the rest of the body, and the more so the larger the breast (Scurr et al., 2016). In adult women with a D cup, unsupported breast displacement goes from about **4.2 cm when walking to 15.2 cm when running** (Scurr et al., 2011).
 
@@ -36,13 +37,13 @@ Without proper support there's discomfort, and there's — just as important —
 
 The good news is that among the reasons [a girl leaves sport](/blog/abbandono-puberta), this is by far the easiest one to take off the table.
 
-## When a first sports bra is needed
+## At what age is a first sports bra needed?
 
 There's no "right" age: the cue is the **body**, not the calendar. A sports bra is needed as soon as breast development begins, or the moment there's any discomfort when moving. It's not about size or how much you've "developed" — it's about **comfort and confidence**. Better early than waiting until discomfort becomes a reason to skip training.
 
 The data says girls get there late, and for the wrong reason. In Scurr and colleagues' study, **over half of the girls never wore a sports bra** and only **10%** always did — against 78% of active adult women and 91% of marathon runners. And the girls most likely never to wear one had **smaller** breasts (49%) rather than larger ones (35%): a sign that it's read as a question of size, when it's a question of movement.
 
-## How to choose the right size
+## How do you know if the size is right?
 
 A sports bra works on two measurements: the **band** (snug but not tight) and the **cup** (it should contain without compressing or spilling over). Signs the size is wrong:
 
@@ -52,7 +53,7 @@ A sports bra works on two measurements: the **band** (snug but not tight) and th
 
 Through the growing years the body changes often, so it's normal to **recheck the size every 6–12 months** and replace the bra when the elastic loosens and no longer supports.
 
-## Compression or encapsulation?
+## Compression or encapsulation — which is better?
 
 These are the two main types:
 
@@ -61,14 +62,14 @@ These are the two main types:
 
 Many modern designs combine the two. The rule of thumb: **the higher the impact of the sport, the more support you need.**
 
-## Tips for coaches and parents
+## What can coaches and parents do?
 
 - **Normalise it.** Talking about it as naturally as you'd talk about the right shoes removes the embarrassment.
 - **Ensure privacy** in changing rooms and when getting changed.
 - **Never tease** about a changing body: one comment too many can cost you an athlete.
 - Treat it as **part of the kit**, exactly like shoes or shin guards.
 
-## Information alone works
+## Is talking about it enough to change habits?
 
 It's rare to be able to say this so plainly. In a study of **787 girls aged 11-14**, **87%** reported at least one breast-specific concern and one in four had negative feelings about their breasts. After **a single 50-minute education session**, two-thirds started wearing a sports bra and half changed size (Omrani et al., 2020). In Scurr's study, **87% of girls wanted to know more** about their breasts, and 44% specifically about breasts and sports bras.
 

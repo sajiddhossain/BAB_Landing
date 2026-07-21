@@ -6,6 +6,7 @@ updated: 2026-07-16
 author: Sajid Hossain
 excerpt: "More than one teenage athlete in two has low iron stores, and almost none of them know: deficiency exists long before anaemia and gives no obvious symptoms. Since 2026, US paediatric guidance recommends testing every menstruating adolescent. What the evidence says, and why the right move is a blood test, not a supplement."
 cover: /fotobab/cover-ferro-atlete.jpg
+coverAlt: "Three varieties of lentils — green, red and black — laid out in stripes on a grey surface"
 tags:
   - iron
   - health

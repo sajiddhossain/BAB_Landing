@@ -6,6 +6,7 @@ updated: 2026-07-16
 author: Sajid Hossain
 excerpt: "Più di una atleta adolescente su due ha riserve di ferro basse, e quasi nessuna lo sa: la carenza esiste molto prima dell'anemia e non dà sintomi evidenti. Dal 2026 le linee guida pediatriche americane raccomandano di testare tutte le adolescenti mestruate. Cosa dicono i dati, e perché la mossa giusta è un prelievo, non un integratore."
 cover: /fotobab/cover-ferro-atlete.jpg
+coverAlt: "Tre varietà di lenticchie — verdi, rosse e nere — disposte in strisce affiancate su un piano grigio"
 tags:
   - ferro
   - salute
