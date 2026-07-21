@@ -6,6 +6,7 @@ updated: 2026-07-11
 author: Sajid Hossain
 excerpt: "Headaches, abdominal pain, period pain: during puberty clinical pain increases and the differences between girls and boys emerge right now, not before. It isn't fragility or theatre: it's a developmental stage documented by neuroscience. Here's what happens, and why it matters for coaches and parents."
 cover: /fotobab/cover-dolore-puberta.jpg
+coverAlt: "Close-up of the white lane lines on an empty red athletics track"
 tags:
   - pain
   - puberty

@@ -6,6 +6,7 @@ updated: 2026-07-09
 author: Sajid Hossain
 excerpt: "Un allenatore percepito come informato è associato a meno sintomi di RED-S nelle sue atlete; un commento sul corpo, anche detto 'per motivare', quadruplica la probabilità che una ragazza modifichi l'alimentazione. Quello che lo staff sa e dice non è neutro: è una variabile di salute. Ecco i dati e cosa farne."
 cover: /fotobab/Lk1n229r5pBnV0VjfyxuaNksAM8.avif
+coverAlt: "Squadra di giovani calciatrici che esulta abbracciata su un campo in erba"
 tags:
   - coach
   - educazione

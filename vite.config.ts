@@ -110,6 +110,17 @@ const GLOSSARY: Record<string, { name: string; description: string; sameAs?: str
       "L'orologio biologico interno che regola sonno e veglia. Con la pubertà la sua temporizzazione slitta in avanti: il bisogno di sonno non diminuisce, cambia l'orario in cui il corpo riesce ad addormentarsi, e questo entra in conflitto con gli orari scolastici (Carskadon, 2011).",
     sameAs: 'https://it.wikipedia.org/wiki/Ritmo_circadiano',
   },
+  crociato: {
+    name: 'Legamento crociato anteriore (LCA)',
+    description:
+      "Legamento che stabilizza il ginocchio; la sua rottura è l'infortunio che più spesso interrompe la carriera sportiva di una ragazza. Nello sport scolastico le atlete subiscono 1,40 volte le rotture dei coetanei maschi (0,084 contro 0,060 per 1.000 esposizioni), con il divario più ampio nel basket (RR 4,14) (Bram et al., 2021).",
+    sameAs: 'https://it.wikipedia.org/wiki/Legamento_crociato_anteriore',
+  },
+  prevenzione: {
+    name: 'Allenamento neuromuscolare preventivo',
+    description:
+      "Riscaldamento strutturato con stabilizzazione all'atterraggio, forza e controllo del bacino. Riduce il rischio di rottura del crociato da circa 1 su 54 a 1 su 111 (OR 0,51), con effetto più forte tra le atlete di 13-19 anni (OR 0,38) (Petushek et al., 2019). Funziona solo sopra il ~66% di aderenza (Sugimoto et al., 2012).",
+  },
   tanner: {
     name: 'Stadi di Tanner',
     description:
@@ -379,12 +390,21 @@ function prerenderRoutes(): Plugin {
               ? { citation: post.sources.map((s) => ({ '@type': 'ScholarlyArticle', name: s.name, url: s.url, '@id': s.url })) }
               : {}),
             // Contenuto leggibile ad alta voce (AEO / voice assistant).
-            // Speakable (AEO): oltre ai titoli, indichiamo il sommario "In breve" e il
-            // primo paragrafo — cioè le parti scritte per essere lette ad alta voce
-            // come risposta autonoma da un assistente vocale.
+            // Speakable (AEO): oltre ai titoli, indichiamo il sommario "In breve", il
+            // primo paragrafo e l'elenco puntato del sommario — cioè le parti scritte
+            // per essere lette ad alta voce come risposta autonoma da un assistente
+            // vocale. Includiamo anche il blocco FAQ, che è già in forma domanda →
+            // risposta breve e quindi il candidato migliore a una lettura vocale.
             speakable: {
               '@type': 'SpeakableSpecification',
-              cssSelector: ['h1', 'h2', '.blog-prose > blockquote:first-of-type', '.blog-prose > p:first-of-type'],
+              cssSelector: [
+                'h1',
+                'h2',
+                '.blog-prose > blockquote:first-of-type',
+                '.blog-prose > blockquote:first-of-type li',
+                '.blog-prose > p:first-of-type',
+                '.blog-faq',
+              ],
             },
             mainEntityOfPage: { '@type': 'WebPage', '@id': url },
             publisher: {
@@ -483,6 +503,13 @@ function prerenderRoutes(): Plugin {
         '- Negli atleti adolescenti, dormire meno di 8 ore per notte è associato a essere infortunati 1,7 volte più spesso (IC 95% 1,0-3,0; p=0,04). Popolazione: 112 atleti adolescenti di entrambi i sessi, risultati non suddivisi per sesso; associazione, non causa dimostrata. Fonte: Milewski et al., 2014, doi:10.1097/BPO.0000000000000151.',
         '- I sintomi di insonnia salgono dal 3,4% al 12,2% nelle ragazze tra lo stadio 1 e lo stadio 5 di Tanner, contro il 4,3%-9,1% nei ragazzi. Popolazione: 7.507 bambini e adolescenti di 6-17 anni. Fonte: Zhang et al., 2016, doi:10.5665/sleep.6022.',
         '- Solo il 6% degli studi in scienze dello sport è condotto esclusivamente su donne. Fonte: Cowley et al., 2021, doi:10.1123/wspaj.2021-0028.',
+        "- Nello sport delle scuole superiori le ragazze subiscono 0,084 rotture del legamento crociato anteriore ogni 1.000 esposizioni contro 0,060 nei ragazzi (rapporto 1,40; IC 95% 1,25-1,57); il divario più ampio è nel basket (RR 4,14) e il tasso assoluto più alto nel calcio femminile (0,166). Popolazione: atleti adolescenti delle scuole superiori. Fonte: Bram et al., 2021, doi:10.1177/0363546520959619.",
+        "- L'allenamento neuromuscolare preventivo riduce il rischio di rottura del crociato da circa 1 su 54 a 1 su 111 (OR 0,51; IC 95% 0,37-0,69); tra le atlete di 13-19 anni l'odds ratio scende a 0,38 (IC 95% 0,24-0,60), circa il 60% di rischio in meno. Dose media efficace: 24,1 minuti a sessione, 2,51 volte a settimana. Popolazione: 27.231 atlete di 13-24 anni, sottogruppo 13-19 riportato separatamente. Fonte: Petushek et al., 2019, doi:10.1177/0363546518782460.",
+        "- Il beneficio dei programmi di prevenzione dipende dall'aderenza: gli studi ad alta aderenza registrano un'incidenza di rotture pari a 0,27 volte quella degli studi a bassa aderenza (IC 95% 0,07-0,80), con una soglia stimata intorno al 66%. Popolazione: atlete di 14-22 anni. Fonte: Sugimoto et al., 2012, doi:10.4085/1062-6050-47.6.10.",
+        "- Dopo la pubertà le ragazze atterrano con un valgismo dinamico di ginocchio significativamente maggiore dei coetanei maschi (-9,3° contro -3,6°; p<0,001), mentre nei maschi il valore non cambia negli anni. Popolazione: 315 giovani atleti di entrambi i sessi, studio longitudinale. Fonte: Ford et al., 2010, doi:10.1249/MSS.0b013e3181dc99b1.",
+        "- Non esiste evidenza sufficiente per legare la fase del ciclo mestruale al rischio di rottura del crociato: su 21 studi e 68.758 partecipanti la qualità complessiva delle prove è giudicata «molto bassa» secondo GRADE. Fonte: Herzberg et al., 2017, doi:10.1177/2325967117718781.",
+        "- L'effetto della fase del ciclo mestruale sulla performance è di entità banale (ES 0,5 = -0,06; CrI 95% -0,16 a 0,04), con qualità delle prove bassa secondo GRADE. Popolazione: 78 studi, 1.193 donne ADULTE di 18-40 anni; nessun dato equivalente sulle adolescenti. Fonte: McNulty et al., 2020, doi:10.1007/s40279-020-01319-3.",
+        "- Dopo una ricostruzione del crociato, il 23% degli atleti under 25 che tornano allo sport subisce un secondo infortunio al crociato. Popolazione: atleti di entrambi i sessi. Fonte: Wiggins et al., 2016, doi:10.1177/0363546515621554.",
         '',
         '## Definizioni',
         ...Object.keys(GLOSSARY).map((k) => `- ${GLOSSARY[k].name}: ${GLOSSARY[k].description}`),

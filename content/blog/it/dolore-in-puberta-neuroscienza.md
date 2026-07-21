@@ -6,6 +6,7 @@ updated: 2026-07-11
 author: Sajid Hossain
 excerpt: "Mal di testa, dolore addominale, dismenorrea: durante la pubertà il dolore clinico aumenta e le differenze tra ragazze e ragazzi emergono proprio ora, non prima. Non è fragilità né teatro: è una fase dello sviluppo documentata dalle neuroscienze. Ecco cosa succede, e perché conta per chi allena e per chi cresce una figlia."
 cover: /fotobab/cover-dolore-puberta.jpg
+coverAlt: "Primo piano delle corsie bianche di una pista di atletica rossa, vuota"
 tags:
   - dolore
   - pubertà

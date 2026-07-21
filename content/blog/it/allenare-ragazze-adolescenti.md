@@ -2,10 +2,11 @@
 slug: allenare-ragazze-adolescenti
 title: "Come allenare ragazze adolescenti: la guida per coach e società sportive"
 date: 2026-07-02
-updated: 2026-07-16
+updated: 2026-07-21
 author: Sajid Hossain
 excerpt: "Tra le ragazze che entrano in una società a 10-14 anni, il 71% abbandona senza mai rientrare. Spesso non è una questione di motivazione, ma di ambiente — e gran parte di quell'ambiente passa dalle mani di chi allena. Ecco le quattro leve concrete, con i dati che le sostengono."
 cover: /fotobab/cover-allenare-ragazze.jpg
+coverAlt: "Campo in erba sintetica con una fila di coni colorati in primo piano e due porte da allenamento sullo sfondo"
 tags:
   - coach
   - società
@@ -17,6 +18,8 @@ faq:
     a: "No, e non deve fare diagnosi né conoscere il dato individuale di ciascuna atleta. Deve avere una cultura di base, e questo si misura: nel Female Athlete Health Report 2023 (769 atlete, UK), chi percepiva il proprio allenatore come «molto informato» riportava in media 3,2 sintomi di RED-S contro 4,3 di chi lo percepiva come non informato — il 36% in meno. Va detto che quel report ha un'età media di 32 anni, quindi fotografa la popolazione atletica adulta: indica la direzione, non una prevalenza sulle adolescenti."
   - q: "Perché non dovrei guardare i dati di salute delle singole atlete?"
     a: "Perché è la privacy a rendere possibile la fiducia. Nel momento in cui un'atleta teme che il suo ciclo o il suo umore finiscano «in chiaro» davanti al gruppo, smette di dire la verità — e il dato che ottieni diventa inutile oltre che invasivo. Segnali aggregati e anonimi permettono di programmare uno scarico o cambiare il tono di una settimana pesante senza chiedere a nessuna di esporsi."
+  - q: "Come si prevengono gli infortuni gravi nelle atlete adolescenti?"
+    a: "Con il riscaldamento, fatto in un modo preciso e con costanza. Una meta-analisi su 27.231 atlete ha stimato che l'allenamento neuromuscolare preventivo riduce il rischio di rottura del crociato da circa 1 su 54 a 1 su 111 (OR 0,51; IC 95% 0,37-0,69), e l'effetto è più forte proprio nella fascia 13-19 anni (OR 0,38; IC 95% 0,24-0,60), cioè circa il 60% di rischio in meno (Petushek et al., 2019). Il dosaggio medio degli studi efficaci è di circa 24 minuti a sessione, 2,5 volte a settimana. La variabile decisiva non è quali esercizi si scelgono, ma la costanza: sotto il ~66% di aderenza complessiva il beneficio non si vede (Sugimoto et al., 2012)."
 ---
 
 Tra le ragazze che entrano in una società sportiva a **10-14 anni, il 71% abbandona senza mai rientrare** (Eime et al., 2020). Per un club non è solo un dato sociale: è talento che se ne va e una rosa che si assottiglia proprio negli anni in cui dovrebbe crescere. La buona notizia? Gran parte di ciò che trattiene un'atleta passa dalle mani di chi la allena.
@@ -43,6 +46,8 @@ Anche qui c'è un numero. Nel Female Athlete Health Report 2023, le atlete che p
 
 L'energia di un'atleta adolescente non è costante, e va bene così. Un giorno "sul giallo" non è pigrizia: è un corpo che sta lavorando su molti fronti. **Adattare il carico** — invece di pretendere sempre il massimo o di sanzionare il calo — è ciò che tiene una ragazza in campo più a lungo. Il messaggio che conta: *ascoltarsi non è debolezza, è strategia.*
 
+E c'è un adattamento del carico che vale più di tutti gli altri, perché è misurato: **venti minuti di riscaldamento neuromuscolare, due volte a settimana**, riducono il rischio di rottura del crociato di circa il **60%** nelle atlete di 13-19 anni (Petushek et al., 2019). Non è un'aggiunta al programma: prende il posto del riscaldamento che già si fa, e [funziona solo se lo si fa davvero](/blog/crociato-giovani-atlete) — sotto il ~66% di aderenza il beneficio sparisce (Sugimoto et al., 2012).
+
 ## 3. Usa segnali di squadra, mai dati individuali
 
 Capire come sta la squadra ti permette di intervenire prima del sovraccarico — programmare un scarico, cambiare tono di una settimana pesante. Ma questo va fatto con **segnali aggregati e anonimi**: mai esporre il dato della singola atleta. La privacy non è un vincolo burocratico, è la condizione perché le ragazze si fidino e condividano. Il momento in cui un'atleta teme che il suo ciclo o il suo umore finiscano "in chiaro" davanti a tutti, smette di dirti la verità.
@@ -66,5 +71,7 @@ BAB dà alle società gli strumenti per leggere i segnali aggregati e anonimi de
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studi, 33 Paesi, adolescenti 10-18 anni) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
 - Scurr J., Brown N., Smith J., et al. **The Influence of the Breast on Sport and Exercise Participation in School Girls in the United Kingdom.** *Journal of Adolescent Health*, 2016;58(2):167-173. (n=2.089 ragazze, 11-18 anni) [doi:10.1016/j.jadohealth.2015.10.005](https://doi.org/10.1016/j.jadohealth.2015.10.005)
 - Women in Sport. **Reframing Sport for Teenage Girls: Tackling Teenage Disengagement.** 2022. (Sondaggio Savanta su 2.291 ragazze di 11-18 anni, UK — report non peer-reviewed) [womeninsport.org](https://womeninsport.org/wp-content/uploads/2022/03/2022-Reframing-Sport-for-Teenage-Girls-Tackling-Teenage-Disengagement.pdf)
+- Petushek E.J., Sugimoto D., Stoolmiller M., Smith G., Myer G.D. **Evidence-Based Best-Practice Guidelines for Preventing Anterior Cruciate Ligament Injuries in Young Female Athletes: A Systematic Review and Meta-analysis.** *The American Journal of Sports Medicine*, 2019;47(7):1744-1753. (n=27.231 atlete, 13-24 anni; sottogruppo 13-19 anni riportato separatamente) [doi:10.1177/0363546518782460](https://doi.org/10.1177/0363546518782460)
+- Sugimoto D., Myer G.D., Bush H.M., Klugman M.F., Medina McKeon J.M., Hewett T.E. **Compliance With Neuromuscular Training and Anterior Cruciate Ligament Injury Risk Reduction in Female Athletes: A Meta-Analysis.** *Journal of Athletic Training*, 2012;47(6):714-723. (6 studi su atlete di 14-22 anni) [doi:10.4085/1062-6050-47.6.10](https://doi.org/10.4085/1062-6050-47.6.10)
 
 *Questo articolo ha finalità informative e non costituisce parere medico. In presenza di segnali persistenti, rivolgersi a un professionista sanitario.*

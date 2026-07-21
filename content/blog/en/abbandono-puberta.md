@@ -2,10 +2,11 @@
 slug: abbandono-puberta
 title: "Four in ten girls leave sport as teenagers. It isn't inevitable."
 date: 2026-06-22
-updated: 2026-07-16
+updated: 2026-07-21
 author: Sajid Hossain
-excerpt: "43% of teenage girls say they loved sport as children and have since fallen out of love with it — against 24% of boys. It isn't a dip in motivation: it's an environment that stops working exactly when the body changes. The evidence, and the three levers a club actually holds."
+excerpt: "43% of teenage girls say they loved sport as children and have since fallen out of love with it — against 24% of boys. It isn't a dip in motivation: it's an environment that stops working exactly when the body changes. The evidence, and the four levers a club actually holds — including the one that returns most: preventing the injury that ends everything."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
+coverAlt: "A smiling girl with headphones round her neck, sitting at a desk writing in a notebook"
 tags:
   - drop-out
   - clubs
@@ -16,7 +17,7 @@ faq:
   - q: "Do girls leave sport because they lose interest?"
     a: "It's the most convenient explanation, and the one the data supports least. A review of 86 studies across 33 countries in adolescents aged 10-18 shows that between 25% and 61% of girls avoid or reduce physical activity during their period — for pain, but also for fear of leaking and embarrassment (Harvey et al., 2025). And a Canadian longitudinal study of 781 boys and girls found that girls who went through puberty earlier were significantly more likely to discontinue organised activities (HR 1.68) — a risk tied to when the body changes, not to motivation."
   - q: "What can a sports club concretely do?"
-    a: "Three things, none of which requires a doctor on site. First: normalise the topic with plain, non-judgemental language — a coach perceived as well-informed is associated with fewer RED-S symptoms in his or her athletes. Second: read aggregated, anonymous team signals, never individual data, because privacy is what makes trust possible. Third: get the practical conditions right — privacy in changing rooms, period products available, continuity in the people athletes look up to."
+    a: "Four things, none of which requires a doctor on site. First: normalise the topic with plain, non-judgemental language — a coach perceived as well-informed is associated with fewer RED-S symptoms in his or her athletes. Second: read aggregated, anonymous team signals, never individual data, because privacy is what makes trust possible. Third: get the practical conditions right — privacy in changing rooms, period products available, continuity in the people athletes look up to. Fourth: prevent the injuries that end a career, because twenty minutes of neuromuscular training twice a week cuts ACL injury risk by roughly 60% in athletes aged 13-19 (Petushek et al., 2019)."
 ---
 
 Around puberty, women's sport loses people — and loses them quietly. The explanation you hear most often, "they lost interest", is the one the evidence supports least. The reality is less comfortable: too many athletes feel out of place at exactly the moment their body changes.
@@ -45,11 +46,12 @@ And you can see the mechanism. A review of **86 studies across 33 countries in a
 
 When an environment won't talk about periods, energy and a changing body, the athlete is left alone with questions she doesn't dare ask. Silence doesn't protect anyone: it pushes girls away. It's exactly what happens with [the cycle and the coach](/blog/parlare-di-ciclo-con-allenatore), where only 11% of athletes raise the topic with the person coaching them.
 
-## Three concrete levers for clubs
+## Four concrete levers for clubs
 
 1. **Culture.** Normalise the topic with plain, non-judgemental language. This isn't rhetoric: in the Female Athlete Health Report 2023, athletes who perceived their coach as very well-informed reported on average 36% fewer RED-S symptoms. [A coach's words](/blog/parole-allenatore-salute-atlete) are a health variable.
 2. **Team signals, not individual data.** Understanding when the group is struggling lets you act before overload — without ever breaching an individual's privacy. Privacy is what makes trust possible, not the other way round.
 3. **Continuity and practical conditions.** Privacy in changing rooms, period products available, stable people to look up to. And watch what looks like a detail: the [sports bra](/blog/reggiseno-sportivo-ragazze) is one of the least-discussed reasons a girl quietly dials down her intensity.
+4. **Prevent the injury that ends everything.** A dropout can begin with one long lay-off. In high-school sport girls sustain 1.40 times the ACL injuries of their male peers (Bram et al., 2021), and twenty minutes of [neuromuscular training twice a week](/blog/crociato-giovani-atlete) cuts that risk by roughly 60% in the 13-19 band (Petushek et al., 2019). It is the best cost-to-return lever a club has.
 
 ## Why it pays off for the club too
 
@@ -63,5 +65,7 @@ BAB gives clubs the tools to read the team's aggregated, anonymous signals, and 
 - Eime R., Harvey J., Charity M., Westerbeek H. **Longitudinal Trends in Sport Participation and Retention of Women and Girls.** *Frontiers in Sports and Active Living*, 2020;2:39. (29,225 female athletes, seven years of registration data) [doi:10.3389/fspor.2020.00039](https://doi.org/10.3389/fspor.2020.00039)
 - Gallant F., Hebert J.J., Thibault V., et al. **Puberty timing and relative age as predictors of physical activity discontinuation during adolescence.** *Scientific Reports*, 2023;13:13740. (n=781, longitudinal) [doi:10.1038/s41598-023-40882-3](https://doi.org/10.1038/s41598-023-40882-3)
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studies, 33 countries, adolescents aged 10-18) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
+- Bram J.T., Magee L.C., Mehta N.N., Patel N.M., Ganley T.J. **Anterior Cruciate Ligament Injury Incidence in Adolescent Athletes: A Systematic Review and Meta-analysis.** *The American Journal of Sports Medicine*, 2021;49(7):1962-1972. [doi:10.1177/0363546520959619](https://doi.org/10.1177/0363546520959619)
+- Petushek E.J., Sugimoto D., Stoolmiller M., Smith G., Myer G.D. **Evidence-Based Best-Practice Guidelines for Preventing Anterior Cruciate Ligament Injuries in Young Female Athletes: A Systematic Review and Meta-analysis.** *The American Journal of Sports Medicine*, 2019;47(7):1744-1753. (n=27,231 female athletes, aged 13-24; 13-19 subgroup reported separately) [doi:10.1177/0363546518782460](https://doi.org/10.1177/0363546518782460)
 
 *This article is for information only and does not constitute medical advice. If signals persist, speak to a healthcare professional.*

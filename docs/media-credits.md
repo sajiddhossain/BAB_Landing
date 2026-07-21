@@ -21,3 +21,12 @@
 - Uso: cover articolo blog "sonno e atlete adolescenti" (IT + EN)
 - Lavorazione: rendition `960w` (massima disponibile sul CDN), ritaglio 16:9 a 960x540, JPEG q85.
   Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+
+## cover-crociato-atlete.jpg
+- Titolo originale: "An empty indoor basketball court with polished wooden flooring…"
+- Fonte: WordPress Photo Directory — https://wordpress.org/photos/photo/9296797cc2/ (reperita via Openverse)
+- Autore: mdburnette
+- Licenza: CC0 1.0 (i contributori del WordPress Photo Directory pubblicano sotto CC0: uso libero, anche commerciale, senza attribuzione obbligatoria)
+- Uso: cover articolo blog "crociato e giovani atlete" (IT + EN)
+- Lavorazione: originale 2048x1536, ritaglio centrato 16:9 e resample a 1200x675, JPEG q85.
+  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.

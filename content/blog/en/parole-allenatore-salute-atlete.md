@@ -6,6 +6,7 @@ updated: 2026-07-09
 author: Sajid Hossain
 excerpt: "A coach perceived as knowledgeable is associated with fewer RED-S symptoms in his athletes; a comment about the body, even one meant 'to motivate', quadruples the odds that a girl will change how she eats. What staff know and say isn't neutral: it's a health variable. Here's the data and what to do with it."
 cover: /fotobab/Lk1n229r5pBnV0VjfyxuaNksAM8.avif
+coverAlt: "A team of young female footballers celebrating in a huddle on a grass pitch"
 tags:
   - coaching
   - education

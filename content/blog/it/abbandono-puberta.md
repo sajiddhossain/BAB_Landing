@@ -2,10 +2,11 @@
 slug: abbandono-puberta
 title: "Quattro ragazze su dieci lasciano lo sport da adolescenti. Non è inevitabile."
 date: 2026-06-22
-updated: 2026-07-16
+updated: 2026-07-21
 author: Sajid Hossain
-excerpt: "Il 43% delle adolescenti dice di aver amato lo sport da bambina e di averlo lasciato — contro il 24% dei coetanei maschi. Non è un calo di motivazione: è un ambiente che smette di funzionare proprio quando il corpo cambia. I dati, e le tre leve che una società ha davvero in mano."
+excerpt: "Il 43% delle adolescenti dice di aver amato lo sport da bambina e di averlo lasciato — contro il 24% dei coetanei maschi. Non è un calo di motivazione: è un ambiente che smette di funzionare proprio quando il corpo cambia. I dati, e le quattro leve che una società ha davvero in mano — inclusa quella che vale di più: prevenire l'infortunio che interrompe tutto."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
+coverAlt: "Ragazza sorridente con le cuffie al collo, seduta alla scrivania mentre scrive su un quaderno"
 tags:
   - drop-out
   - società
@@ -16,7 +17,7 @@ faq:
   - q: "Le ragazze lasciano lo sport perché perdono interesse?"
     a: "È la spiegazione più comoda, ed è la meno sostenuta dai dati. Una revisione di 86 studi in 33 Paesi su adolescenti di 10-18 anni mostra che dal 25% al 61% delle ragazze evita o riduce l'attività fisica durante le mestruazioni, per dolore ma anche per paura delle perdite e imbarazzo (Harvey et al., 2025). E uno studio longitudinale canadese su 781 ragazzi e ragazze ha rilevato che le ragazze con pubertà precoce hanno una probabilità significativamente più alta di abbandonare le attività organizzate (HR 1,68) — un rischio legato al momento in cui il corpo cambia, non alla motivazione."
   - q: "Cosa può fare concretamente una società sportiva?"
-    a: "Tre cose, nessuna delle quali richiede un medico in sede. Primo: normalizzare il tema con un linguaggio semplice e non giudicante — un allenatore percepito come informato si associa a meno sintomi di RED-S nelle sue atlete. Secondo: leggere segnali di squadra aggregati e anonimi, mai il dato individuale, perché è la privacy a rendere possibile la fiducia. Terzo: garantire le condizioni pratiche — privacy negli spogliatoi, prodotti mestruali disponibili, continuità nelle figure di riferimento."
+    a: "Quattro cose, nessuna delle quali richiede un medico in sede. Primo: normalizzare il tema con un linguaggio semplice e non giudicante — un allenatore percepito come informato si associa a meno sintomi di RED-S nelle sue atlete. Secondo: leggere segnali di squadra aggregati e anonimi, mai il dato individuale, perché è la privacy a rendere possibile la fiducia. Terzo: garantire le condizioni pratiche — privacy negli spogliatoi, prodotti mestruali disponibili, continuità nelle figure di riferimento. Quarto: prevenire gli infortuni che interrompono una carriera, perché venti minuti di allenamento neuromuscolare due volte a settimana riducono il rischio di rottura del crociato di circa il 60% tra le atlete di 13-19 anni (Petushek et al., 2019)."
 ---
 
 Intorno alla pubertà lo sport femminile perde pezzi, e li perde in silenzio. La spiegazione che si sente più spesso — "hanno perso interesse" — è quella che i dati sostengono meno. La realtà è più scomoda: troppe atlete si sentono fuori posto proprio nel momento in cui il corpo cambia.
@@ -45,11 +46,12 @@ E il meccanismo si vede. Una revisione di **86 studi in 33 Paesi su adolescenti 
 
 Quando un ambiente non parla di ciclo, energia e cambiamenti del corpo, l'atleta resta sola con domande che non osa fare. Il silenzio non protegge: allontana. È esattamente ciò che accade con [il ciclo e l'allenatore](/blog/parlare-di-ciclo-con-allenatore), dove solo l'11% delle atlete affronta il tema con chi la allena.
 
-## Tre leve concrete per le società
+## Quattro leve concrete per le società
 
 1. **Cultura.** Normalizzare il tema con un linguaggio semplice e non giudicante. Non è retorica: nel Female Athlete Health Report 2023, le atlete che percepivano il proprio allenatore come molto informato riportavano in media il 36% di sintomi di RED-S in meno. [Le parole di chi allena](/blog/parole-allenatore-salute-atlete) sono una variabile di salute.
 2. **Dati di squadra, non individuali.** Capire quando il gruppo fatica permette di intervenire prima del sovraccarico — senza mai violare la privacy della singola. È la privacy a rendere possibile la fiducia, non il contrario.
 3. **Continuità e condizioni pratiche.** Privacy negli spogliatoi, prodotti mestruali disponibili, figure di riferimento stabili. E attenzione a ciò che sembra un dettaglio: il [reggiseno sportivo](/blog/reggiseno-sportivo-ragazze) è uno dei motivi meno detti per cui una ragazza riduce l'intensità.
+4. **Prevenire l'infortunio che interrompe tutto.** Un abbandono può cominciare da uno stop lungo. Nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei maschi (Bram et al., 2021), e venti minuti di [allenamento neuromuscolare due volte a settimana](/blog/crociato-giovani-atlete) riducono il rischio di circa il 60% nella fascia 13-19 anni (Petushek et al., 2019). È la leva con il miglior rapporto tra costo e ritorno che una società abbia.
 
 ## Perché conviene anche al club
 
@@ -63,5 +65,7 @@ BAB dà alle società gli strumenti per leggere i segnali aggregati e anonimi de
 - Eime R., Harvey J., Charity M., Westerbeek H. **Longitudinal Trends in Sport Participation and Retention of Women and Girls.** *Frontiers in Sports and Active Living*, 2020;2:39. (29.225 atlete, dati di tesseramento su 7 anni) [doi:10.3389/fspor.2020.00039](https://doi.org/10.3389/fspor.2020.00039)
 - Gallant F., Hebert J.J., Thibault V., et al. **Puberty timing and relative age as predictors of physical activity discontinuation during adolescence.** *Scientific Reports*, 2023;13:13740. (n=781, studio longitudinale) [doi:10.1038/s41598-023-40882-3](https://doi.org/10.1038/s41598-023-40882-3)
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studi, 33 Paesi, adolescenti 10-18 anni) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
+- Bram J.T., Magee L.C., Mehta N.N., Patel N.M., Ganley T.J. **Anterior Cruciate Ligament Injury Incidence in Adolescent Athletes: A Systematic Review and Meta-analysis.** *The American Journal of Sports Medicine*, 2021;49(7):1962-1972. [doi:10.1177/0363546520959619](https://doi.org/10.1177/0363546520959619)
+- Petushek E.J., Sugimoto D., Stoolmiller M., Smith G., Myer G.D. **Evidence-Based Best-Practice Guidelines for Preventing Anterior Cruciate Ligament Injuries in Young Female Athletes: A Systematic Review and Meta-analysis.** *The American Journal of Sports Medicine*, 2019;47(7):1744-1753. (n=27.231 atlete, 13-24 anni; sottogruppo 13-19 anni riportato separatamente) [doi:10.1177/0363546518782460](https://doi.org/10.1177/0363546518782460)
 
 *Questo articolo ha finalità informative e non costituisce parere medico. In presenza di segnali persistenti, rivolgersi a un professionista sanitario.*

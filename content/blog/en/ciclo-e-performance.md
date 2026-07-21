@@ -2,10 +2,11 @@
 slug: ciclo-e-performance
 title: "The menstrual cycle and performance: what no one tells young athletes"
 date: 2026-06-20
-updated: 2026-07-16
+updated: 2026-07-21
 author: Sajid Hossain
 excerpt: "77% of elite athletes report their cycle affects their performance, and among adolescents one in four — up to six in ten — cuts back or avoids physical activity during their period. It isn't about willpower: it's a signal from the body that almost no one is taught to read. Here's the evidence, and where to start."
 cover: /fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif
+coverAlt: "A young athlete in a black vest among her teammates on an athletics track, looking straight at the camera"
 tags:
   - health
   - performance
@@ -17,6 +18,8 @@ faq:
     a: "Far more than most people assume. A review of 86 studies across 33 countries in adolescents aged 10-18 found that the share of girls avoiding or reducing physical activity during menstruation ranges from 25.2% to 61.1% depending on the population studied (Harvey et al., 2025). Pain isn't the only reason: fear of leaking and embarrassment come up repeatedly."
   - q: "Why do we know so little about the cycle and sport?"
     a: "Because the research looked elsewhere. Across 5,261 sport and exercise science publications from 2014 to 2020, only 6% were conducted on women only, and female participants made up 34% of the total (Cowley et al., 2021). It isn't that the answers are hidden: for the most part they haven't been looked for yet."
+  - q: "Should training be adapted to the cycle phase?"
+    a: "The evidence does not currently support it, and for adolescents it simply doesn't exist. The largest meta-analysis on the effect of cycle phase on performance — 78 studies, 1,193 participants — found a «trivial» reduction in the early follicular phase compared with all other phases (ES 0.5 = -0.06; 95% CrI -0.16 to 0.04), with the quality of evidence rated low under GRADE (McNulty et al., 2020). Note the age: those participants are adult women aged 18-40. So the practical conclusion is twofold: there is no basis for periodising a 14-year-old's training around her cycle phase, but there are excellent reasons to ask how she is and adapt the individual session to what she reports."
 ---
 
 For too long, women's sport has been coached as if it were a smaller version of men's sport. But a teenage athlete's body changes — and with it, energy, recovery and mood shift across the menstrual cycle. The question isn't whether this happens: it's that almost no girl is given the tools to read it.
@@ -62,5 +65,6 @@ BAB helps athletes recognise these signals privately, and gives coaches and club
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studies, 33 countries, adolescents aged 10-18) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
 - Gopalan S.S., O'Dean S., Buckler E.J., et al. **A longitudinal assessment of the impact of biological maturity and menarche on adolescents' organized sport and physical activity participation.** *Journal of Adolescence*, 2025;97(6):1484-1493. (n=6,639 adolescents) [doi:10.1002/jad.12512](https://doi.org/10.1002/jad.12512)
 - Cowley E.S., Olenick A.A., McNulty K.L., Ross E.Z. **"Invisible Sportswomen": The Sex Data Gap in Sport and Exercise Science Research.** *Women in Sport and Physical Activity Journal*, 2021;29(2):146-151. (5,261 publications analysed) [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
+- McNulty K.L., Elliott-Sale K.J., Dolan E., Swinton P.A., Ansdell P., Goodall S., Thomas K., Hicks K.M. **The Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic Women: A Systematic Review and Meta-Analysis.** *Sports Medicine*, 2020;50(10):1813-1827. (78 studies, 1,193 participants, **adult women aged 18-40**; trivial effect size, quality of evidence rated low under GRADE) [doi:10.1007/s40279-020-01319-3](https://doi.org/10.1007/s40279-020-01319-3)
 
 *This article is for information only and does not constitute medical advice. If signals persist, speak to a healthcare professional.*
