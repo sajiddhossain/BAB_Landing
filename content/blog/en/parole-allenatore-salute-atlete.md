@@ -2,9 +2,9 @@
 slug: parole-allenatore-salute-atlete
 title: "A coach's words: how staff knowledge and language change athletes' health"
 date: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-22
 author: Sajid Hossain
-excerpt: "A coach perceived as knowledgeable is associated with fewer RED-S symptoms in his athletes; a comment about the body, even one meant 'to motivate', quadruples the odds that a girl will change how she eats. What staff know and say isn't neutral: it's a health variable. Here's the data and what to do with it."
+excerpt: "How much does what a coach knows and says actually matter? Athletes who perceive their coach as very knowledgeable report 36% fewer RED-S symptoms; those who have received comments about their body are four times more likely to change how they eat (33% vs 7%). Staff language is not a neutral backdrop to training: it is a measurable health variable. The data, the limits, and what to do with it tomorrow in the gym."
 cover: /fotobab/Lk1n229r5pBnV0VjfyxuaNksAM8.avif
 coverAlt: "A team of young female footballers celebrating in a huddle on a grass pitch"
 tags:
@@ -16,6 +16,10 @@ faq:
     a: "No. A coach doesn't have to diagnose anything or know each athlete's individual data. But basic awareness matters: in the Female Athlete Health Report 2023 (769 athletes, UK), those who perceived their coach as 'very knowledgeable' reported an average of 3.2 RED-S symptoms versus 4.3 for those who perceived their coach as uninformed — 36% fewer. Even baseline staff knowledge is associated with a better health outcome."
   - q: "Why is a comment about the body a problem if I say it 'to motivate'?"
     a: "Because what counts is the effect, not the intention. In the same report, athletes who had received body comments that made them uncomfortable were four times more likely to change how they ate to 'fit in' (33% vs 7%) and reported 34% more RED-S symptoms. A remark made in passing can trigger behaviours that last for months."
+  - q: "What should a coach never say to an adolescent athlete?"
+    a: "The simplest rule is to take the body out of the vocabulary of the pitch: no comments on weight, shape or how an athlete \"looks\" — not to motivate, not even as a compliment. In the Female Athlete Health Report 2023, 53% of athletes had received body comments in a sporting setting that made them uncomfortable, and those who had were four times more likely to change how they ate (33% vs 7%). What works instead are questions about how she feels and what she can do: they describe the performance without judging the person."
+  - q: "How do you open the conversation without invading a girl's privacy?"
+    a: "By normalising without probing. A line like \"this can be talked about here, and nobody judges you for it\" opens the door without asking for a single private detail: the athlete decides whether, when and how much to say. It holds for periods, for pain, for fatigue and for the symptoms that get discussed even less. The practical difference is that a coach does not need to collect health information: they need to make it possible for a girl to talk to someone, and to know where to refer her."
   - q: "Do these figures also apply to 13-14-year-old athletes?"
     a: "They should be used with care: the UK report has an average age of 32, so it captures a pattern in the adult athletic population, not a prevalence among 13-14-year-olds. But other sources suggest adolescence is exactly when to act: peak bone formation happens between ages 10 and 14 (NASPAG, 2025), and already at 13-18 years, 44% of athletes believe that losing their period is a normal response to training (Armento et al., 2021). Misinformation — and the window to correct it — start early."
 ---
@@ -28,9 +32,9 @@ In a locker room, a line like "you're a bit out of shape compared to last year" 
 > - Those who should know often don't: **fewer than 50%** of athletes knew the term RED-S, and **30%** were told by a medical professional that losing your period through physical activity is "normal".
 > - The lever isn't turning coaches into doctors, but giving them **basic awareness** and **guidance on what not to say** — and giving athletes a channel that doesn't force them to expose themselves.
 
-## A number that puts staff inside the equation
+## How much does what a coach knows actually matter?
 
-Most conversations about athletes' health stop at the athlete: what she eats, how she sleeps, how she manages her cycle. One figure from the **Female Athlete Health Report 2023** — a survey of **769 athletes** conducted in the UK by two athlete-led organisations (Project RED-S and Kyniska Advocacy) — shifts the centre of gravity onto the staff.
+Enough to show up in their athletes' symptoms: **36% fewer**, in the available data. Most conversations about athletes' health stop at the athlete: what she eats, how she sleeps, how she manages her cycle. One figure from the **Female Athlete Health Report 2023** — a survey of **769 athletes** conducted in the UK by two athlete-led organisations (Project RED-S and Kyniska Advocacy) — shifts the centre of gravity onto the staff.
 
 Athletes who rated their coach as "very well informed" about female athlete health reported an average of **3.2 RED-S symptoms**. Those who perceived their coach as uninformed: **4.3**. A difference of **36%**, in exactly the direction you'd expect if staff knowledge really mattered.
 
@@ -68,7 +72,7 @@ None of this asks a coach to become a doctor. It asks for a few sustainable habi
 - **Normalise without probing.** A line like "you can talk about it here, and no one judges you for it" opens the door without asking for private details.
 - **Treat fatigue, pain or drops in energy as information, not excuses.** They can have a physiological explanation; dismissing them teaches a girl to hide them.
 - **Take the body out of the pitch-side vocabulary.** No comments on weight, shape or how an athlete "looks" — not to motivate, not as a compliment. Talk about how she feels and what she can do.
-- **Know who to refer to.** Recognising a sign and pointing to the right professional is worth more than any attempt to handle it alone.
+- **Know who to refer to.** Recognising a sign and pointing to the right professional is worth more than any attempt to handle it alone. It holds for chronic fatigue, for [insufficient sleep](/blog/sonno-atlete-adolescenti) and for the symptoms nobody names: among adolescent athletes, [87% would not mention urinary leakage during jumping to their coach](/blog/perdite-urina-giovani-atlete) — a symptom affecting nearly one in two.
 
 And at club level: the athletes themselves say what they want — **56%** ask for a website with reliable resources, **34%** for online workshops. Minimal staff training isn't a luxury: in the report it is one of four explicit recommendations (mandatory RED-S training in coach certification pathways).
 
@@ -84,5 +88,6 @@ It's how you turn an attentive coach into an informed one without asking him to 
 - Romano M.E., Sass A. **Reproductive Health Management of Female Adolescent Athletes With Relative-Energy Deficiency in Sport.** *Journal of Pediatric and Adolescent Gynecology*, 2025. [doi:10.1016/j.jpag.2024.11.008](https://doi.org/10.1016/j.jpag.2024.11.008)
 - Armento A., et al. **Adolescent female athletes' beliefs about the menstrual cycle and sport.** *Journal of Athletic Training*, 2021. [doi:10.4085/624-20](https://doi.org/10.4085/624-20)
 - Höök M., et al. **Perceptions of and communication about the menstrual cycle among female athletes.** *International Journal of Environmental Research and Public Health*, 2022. [doi:10.3390/ijerph191911932](https://doi.org/10.3390/ijerph191911932)
+- Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studies, 633 adolescent athletes, mean age 16.15 years) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
 
 *This article is for informational and educational purposes and does not constitute medical advice.*

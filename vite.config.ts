@@ -121,6 +121,18 @@ const GLOSSARY: Record<string, { name: string; description: string; sameAs?: str
     description:
       "Riscaldamento strutturato con stabilizzazione all'atterraggio, forza e controllo del bacino. Riduce il rischio di rottura del crociato da circa 1 su 54 a 1 su 111 (OR 0,51), con effetto più forte tra le atlete di 13-19 anni (OR 0,38) (Petushek et al., 2019). Funziona solo sopra il ~66% di aderenza (Sugimoto et al., 2012).",
   },
+  'pavimento-pelvico': {
+    name: 'Pavimento pelvico',
+    description:
+      "Il gruppo di muscoli che sostiene vescica e organi pelvici e partecipa al meccanismo della continenza. Nello sport a impatto ripetuto è sollecitato a ogni salto e atterraggio: tra le atlete adolescenti la prevalenza media di incontinenza urinaria è del 48,58% (Rial Rebullido et al., 2021).",
+    sameAs: 'https://it.wikipedia.org/wiki/Pavimento_pelvico',
+  },
+  incontinenza: {
+    name: 'Incontinenza urinaria nello sport',
+    description:
+      "Perdite involontarie di urina durante l'attività fisica, tipicamente in salti, sprint e cambi di direzione. È frequente ma non fisiologica: l'87% delle atlete adolescenti dichiara che non ne parlerebbe con l'allenatore e fino al 90% non ha mai sentito nominare l'allenamento del pavimento pelvico (Rial Rebullido et al., 2021).",
+    sameAs: 'https://it.wikipedia.org/wiki/Incontinenza_urinaria',
+  },
   tanner: {
     name: 'Stadi di Tanner',
     description:
@@ -510,6 +522,11 @@ function prerenderRoutes(): Plugin {
         "- Non esiste evidenza sufficiente per legare la fase del ciclo mestruale al rischio di rottura del crociato: su 21 studi e 68.758 partecipanti la qualità complessiva delle prove è giudicata «molto bassa» secondo GRADE. Fonte: Herzberg et al., 2017, doi:10.1177/2325967117718781.",
         "- L'effetto della fase del ciclo mestruale sulla performance è di entità banale (ES 0,5 = -0,06; CrI 95% -0,16 a 0,04), con qualità delle prove bassa secondo GRADE. Popolazione: 78 studi, 1.193 donne ADULTE di 18-40 anni; nessun dato equivalente sulle adolescenti. Fonte: McNulty et al., 2020, doi:10.1007/s40279-020-01319-3.",
         "- Dopo una ricostruzione del crociato, il 23% degli atleti under 25 che tornano allo sport subisce un secondo infortunio al crociato. Popolazione: atleti di entrambi i sessi. Fonte: Wiggins et al., 2016, doi:10.1177/0363546515621554.",
+        "- Tra le atlete adolescenti la prevalenza di incontinenza urinaria durante lo sport va dal 18,2% all'80% a seconda della disciplina, con una media del 48,58%; i valori più alti sono nel trampolino elastico (80%), nel salto con la corda (75%) e nel calcio (62,8%). Popolazione: 9 studi, 633 atlete sotto i 19 anni, età media 16,15. Fonte: Rial Rebullido et al., 2021, doi:10.3390/jfmk6010012.",
+        "- L'87% delle atlete adolescenti dichiara che non parlerebbe dei propri sintomi di incontinenza urinaria con il proprio allenatore, e dal 69% al 90% non ha mai sentito nominare l'allenamento del pavimento pelvico. Fonte: Rial Rebullido et al., 2021, doi:10.3390/jfmk6010012.",
+        "- Ai Mondiali under 20 di atletica di Lima 2024 il 43,7% degli atleti riferiva almeno un sintomo di disfunzione del pavimento pelvico (53,7% tra le ragazze, 29,3% tra i ragazzi) e il 12,9% perdite di urina durante salti, sprint e cambi di direzione; il 78,2% non ne aveva mai parlato con nessuno, l'88% non era mai stato sottoposto a screening e solo il 30% era consapevole del tema. Popolazione: 325 atleti under 20 di entrambi i sessi, età media 18,1 anni. Fonte: Giagio et al., 2025, doi:10.1136/bmjsem-2025-002564.",
+        "- Tra 319 ginnaste e cheerleader di 12-36 anni (età media 17,4) la prevalenza di incontinenza urinaria è del 67,4%; tra chi ha incontinenza da sforzo l'82,6% riferisce un effetto negativo sulla prestazione e il 22,4% evita a volte l'allenamento o esercizi specifici. Fonte: Skaug et al., 2022, doi:10.1007/s00192-021-04696-z.",
+        "- La riabilitazione del pavimento pelvico ha migliorato i sintomi in 5 studi su 6 (in uno, 64% del gruppo di allenamento contro 8% dei controlli), ma su popolazione ADULTA: 131 atlete, età media 23,19 anni. Gli autori segnalano che le evidenze sulle atlete adolescenti sono molto limitate. Fonte: Demeco et al., 2024, doi:10.3390/sports12120338.",
         '',
         '## Definizioni',
         ...Object.keys(GLOSSARY).map((k) => `- ${GLOSSARY[k].name}: ${GLOSSARY[k].description}`),
