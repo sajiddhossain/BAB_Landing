@@ -2,9 +2,9 @@
 slug: dolore-in-puberta-neuroscienza
 title: "Pain changes at puberty: what neuroscience says (and why it isn't 'being dramatic')"
 date: 2026-07-11
-updated: 2026-07-11
+updated: 2026-07-22
 author: Sajid Hossain
-excerpt: "Headaches, abdominal pain, period pain: during puberty clinical pain increases and the differences between girls and boys emerge right now, not before. It isn't fragility or theatre: it's a developmental stage documented by neuroscience. Here's what happens, and why it matters for coaches and parents."
+excerpt: "During puberty clinical pain genuinely increases: abdominal pain rises to nearly 30% in girls versus 16% in boys, and period pain affects 71.1% of young women, with 20.1% missing school because of it. It isn't fragility or theatre: it's a developmental stage documented by neuroscience. Here's what happens, and why it matters for coaches and parents."
 cover: /fotobab/cover-dolore-puberta.jpg
 coverAlt: "Close-up of the white lane lines on an empty red athletics track"
 tags:
@@ -18,6 +18,10 @@ faq:
     a: "The differences emerge during adolescence, not before. Between ages 9 and 11 there's no sex difference in pain to controlled stimuli; in late adolescence girls show, on average, lower thresholds — that is, greater sensitivity (Nahman-Averbuch et al., 2023). It's developmental physiology, not a character weakness."
   - q: "Why does tracking pain make sense for a 13-14-year-old athlete?"
     a: "Because this is exactly the window in which pain changes and sex differences form. Recording intensity and recurrence over time turns an isolated symptom into a readable pattern — useful for understanding yourself and for talking about it with the right person. But monitoring is not diagnosing: a tool like BAB helps recognise the signals, it doesn't replace a professional."
+  - q: "How common is period pain, and how much does it really cost?"
+    a: "Very common, and more costly than usually admitted. A meta-analysis of 38 studies covering 21,573 young women under 25 estimated a dysmenorrhoea prevalence of 71.1% (95% CI 66.6-75.2), which among school-age students is 72.5%. The impact is measurable: 20.1% report missing school or university because of period pain, and 40.9% say classroom concentration and performance suffer (Armour et al., 2019). If it removes school hours, it is reasonable to expect it removes training sessions too."
+  - q: "How do you tell pain to observe from pain that needs a doctor?"
+    a: "You don't tell them apart on your own, and this article is not the tool for it. Some markers do indicate it is time to see a healthcare professional rather than simply keep observing: pain that is very intense, pain that does not respond to the usual measures, pain that recurs and regularly costs school or training, or pain that is new and unlike the usual. Noting intensity and recurrence serves exactly this purpose: arriving at the appointment with a precise description instead of an approximate memory."
 ---
 
 "Her stomach hurts", "she always has a headache", "she says she can't manage today". In youth sport these lines are often filed under low grit or a bit of drama. Research tells a different story: **during puberty, pain genuinely changes** — not in the mind of the person feeling it, but in the mechanisms that generate it. And it changes precisely in the 13-14 age range, when a girl is most often asked to "grit her teeth".
@@ -27,6 +31,7 @@ faq:
 > - The **differences between girls and boys** in pain **emerge in adolescence, not before**: at 9-11 there are none; later, girls show lower thresholds.
 > - Abdominal pain after puberty rises to nearly **30% in girls** versus **16% in boys**; migraine increases more in girls.
 > - **Early menarche** is associated with more headaches, abdominal pain and back pain in adolescence and adulthood.
+> - **Dysmenorrhoea** affects **71.1%** of young women under 25; **20.1%** miss school because of it (Armour et al., 2019).
 > - Practical upshot: pain should be treated as **information**, not as an excuse — nor, at the opposite extreme, dramatised.
 
 ## Two kinds of pain that move in opposite directions
@@ -53,6 +58,14 @@ There's another thread the review highlights, and one that gets talked about ver
 
 In parallel, the **pain syndromes specific to the female body** — dysmenorrhoea, endometriosis — appear right around menarche, and can increase the risk of other chronic pain syndromes later. Translated: early period pain is not an isolated episode to be minimised, but a signal worth observing over time.
 
+## How common is period pain, and what does it actually cost?
+
+It affects roughly **seven young women in ten**, and the cost is measured in hours taken away. A meta-analysis of **38 studies covering 21,573 young women under 25** estimated a dysmenorrhoea prevalence of **71.1%** (95% CI 66.6-75.2), essentially identical in high- and low-income countries; among school-age students it is **72.5%** ([Armour et al., 2019](https://doi.org/10.1089/jwh.2018.7615)).
+
+What makes the phenomenon impossible to file under "discomfort", though, is the measured impact: **20.1%** report **missing school or university** because of period pain (95% CI 14.9-26.7), and **40.9%** say classroom concentration and performance suffer (95% CI 28.3-54.9).
+
+A note on the population, because it matters: the sample includes young women **up to 25**, not only adolescents, and the data concern school, not training. No study here measures how many sessions athletes miss because of dysmenorrhoea. But if pain removes a fifth of school attendance, it is reasonable to expect it removes training too — and that is exactly what is observed in physical activity, where [25% to 61% of adolescent girls reduce or avoid activity during menstruation](/blog/ciclo-e-performance).
+
 ## It's not "in her head" — it's biology changing (along with everything else)
 
 Why does all this happen? The review proposes a **biopsychosocial** model: no single switch, but several factors intertwining.
@@ -71,6 +84,8 @@ One necessary caveat: this is neuroscience and paediatrics literature, **not spo
 - **Look at patterns, not the single episode.** An isolated stomach ache says little; the same pain returning at a certain intensity, month after month, says a lot. The value is in time, not in a single day.
 - **Avoid both extremes.** Neither minimise ("it's normal, grit your teeth") nor dramatise every twinge. The middle path is to observe, note, and — when needed — turn to a professional, because monitoring is not diagnosing.
 
+One caveat on vocabulary is worth adding: "common" and "normal" are not synonyms. It is the same confusion that keeps another very widespread symptom silent among young athletes, [urinary leakage during jumping](/blog/perdite-urina-giovani-atlete) — present in nearly one in two, yet withheld from the coach by 87% of girls.
+
 ## BAB's role
 
 This is exactly where BAB works. It gives the athlete a **private space** to record her own signals — including pain, with an intensity you can follow over time — turning scattered sensations into a readable pattern. It adds an **educational layer** that explains, in non-clinical and non-alarmist language, why certain things change at this age. And it gives clubs back **only aggregated, anonymous signals** — never an individual's data.
@@ -80,6 +95,9 @@ It is not a diagnostic tool and doesn't pretend to be: it's there to **recognise
 ## Sources
 
 - Nahman-Averbuch H., Li R., Boerner K.E., Lewis C., Garwood S., Palermo T.M., Jordan A. **Alterations in pain during adolescence and puberty.** *Trends in Neurosciences*, 2023. [doi:10.1016/j.tins.2023.01.006](https://doi.org/10.1016/j.tins.2023.01.006)
-- Findlay R.J., et al. **How the menstrual cycle and menstruation affect sporting performance: experiences of elite female rugby players.** *Br J Sports Med*, 2020. [doi:10.1136/bjsports-2019-101486](https://doi.org/10.1136/bjsports-2019-101486)
+- Armour M., Parry K., Manohar N., Holmes K., Ferfolja T., Curry C., MacMillan F., Smith C.A. **The Prevalence and Academic Impact of Dysmenorrhea in 21,573 Young Women: A Systematic Review and Meta-Analysis.** *Journal of Women's Health*, 2019;28(8):1161-1171. (38 studies, 21,573 young women **under 25**, not only adolescents) [doi:10.1089/jwh.2018.7615](https://doi.org/10.1089/jwh.2018.7615)
+- Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studies, 33 countries, adolescents aged 10-18) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
+- Findlay R.J., Macrae E.H.R., Whyte I.Y., Easton C., Forrest L.J. **How the menstrual cycle and menstruation affect sporting performance: experiences of elite female rugby players.** *British Journal of Sports Medicine*, 2020;54(18):1108-1113. (qualitative study on **adult** elite athletes) [doi:10.1136/bjsports-2019-101486](https://doi.org/10.1136/bjsports-2019-101486)
+- Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studies, 633 adolescent athletes, mean age 16.15 years) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
 
 *This article is for informational and educational purposes and does not constitute medical advice. In case of intense or persistent pain, consult a healthcare professional.*

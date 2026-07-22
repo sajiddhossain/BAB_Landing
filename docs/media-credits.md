@@ -30,3 +30,13 @@
 - Uso: cover articolo blog "crociato e giovani atlete" (IT + EN)
 - Lavorazione: originale 2048x1536, ritaglio centrato 16:9 e resample a 1200x675, JPEG q85.
   Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+
+## cover-pavimento-pelvico.jpg
+- Titolo originale: "Vinohradska Sokolovna Hlavni Sal B 16 9"
+- Fonte: Wikimedia Commons — https://commons.wikimedia.org/w/index.php?curid=163134600 (reperita via Openverse)
+- Autore: Mojmir Churavy
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "perdite di urina nelle giovani atlete / pavimento pelvico" (IT + EN)
+- Lavorazione: originale 3680x2070, resample a 1200x675, JPEG q85.
+  Nessuna persona ritratta: scelta deliberata per un tema intimo che riguarda minori.
+  NB: scartata la variante "Hlavni Sal A" dello stesso autore perché contiene figure in lontananza.

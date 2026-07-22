@@ -2,7 +2,7 @@
 slug: ciclo-e-performance
 title: "The menstrual cycle and performance: what no one tells young athletes"
 date: 2026-06-20
-updated: 2026-07-21
+updated: 2026-07-22
 author: Sajid Hossain
 excerpt: "77% of elite athletes report their cycle affects their performance, and among adolescents one in four — up to six in ten — cuts back or avoids physical activity during their period. It isn't about willpower: it's a signal from the body that almost no one is taught to read. Here's the evidence, and where to start."
 cover: /fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif
@@ -52,7 +52,7 @@ The absence of simple answers is no accident. Across **5,261 sport and exercise 
 
 - **Observe, don't judge.** Logging energy, mood and sleep day by day helps reveal your own patterns. An off day stops being a mystery once you see it land at the same point each month.
 - **Adapt, don't stop.** Knowing your own phases lets you dose load and recovery instead of being caught off guard.
-- **Talk about it.** A shared language with coaches and family turns a taboo into an advantage — and [a coach's words](/blog/parole-allenatore-salute-atlete) carry more weight than the person saying them tends to realise.
+- **Talk about it, including what embarrasses you.** Periods are not the only subject left outside the changing room: [urinary leakage during jumping](/blog/perdite-urina-giovani-atlete) affects nearly one adolescent athlete in two, and 87% would not raise it with their coach. A shared language with coaches and family turns a taboo into an advantage — and [a coach's words](/blog/parole-allenatore-salute-atlete) carry more weight than the person saying them tends to realise.
 - **Tell the physiological from what needs a closer look.** A cycle that disappears is not a sign of good training: it can be a signal of [low energy availability](/blog/red-s-bassa-disponibilita-energetica), and it deserves a professional, not an app.
 
 ## Where BAB fits
@@ -66,5 +66,6 @@ BAB helps athletes recognise these signals privately, and gives coaches and club
 - Gopalan S.S., O'Dean S., Buckler E.J., et al. **A longitudinal assessment of the impact of biological maturity and menarche on adolescents' organized sport and physical activity participation.** *Journal of Adolescence*, 2025;97(6):1484-1493. (n=6,639 adolescents) [doi:10.1002/jad.12512](https://doi.org/10.1002/jad.12512)
 - Cowley E.S., Olenick A.A., McNulty K.L., Ross E.Z. **"Invisible Sportswomen": The Sex Data Gap in Sport and Exercise Science Research.** *Women in Sport and Physical Activity Journal*, 2021;29(2):146-151. (5,261 publications analysed) [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
 - McNulty K.L., Elliott-Sale K.J., Dolan E., Swinton P.A., Ansdell P., Goodall S., Thomas K., Hicks K.M. **The Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic Women: A Systematic Review and Meta-Analysis.** *Sports Medicine*, 2020;50(10):1813-1827. (78 studies, 1,193 participants, **adult women aged 18-40**; trivial effect size, quality of evidence rated low under GRADE) [doi:10.1007/s40279-020-01319-3](https://doi.org/10.1007/s40279-020-01319-3)
+- Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studies, 633 adolescent athletes, mean age 16.15 years) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
 
 *This article is for information only and does not constitute medical advice. If signals persist, speak to a healthcare professional.*
