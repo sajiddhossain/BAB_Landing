@@ -133,6 +133,17 @@ const GLOSSARY: Record<string, { name: string; description: string; sameAs?: str
       "Perdite involontarie di urina durante l'attività fisica, tipicamente in salti, sprint e cambi di direzione. È frequente ma non fisiologica: l'87% delle atlete adolescenti dichiara che non ne parlerebbe con l'allenatore e fino al 90% non ha mai sentito nominare l'allenamento del pavimento pelvico (Rial Rebullido et al., 2021).",
     sameAs: 'https://it.wikipedia.org/wiki/Incontinenza_urinaria',
   },
+  'commozione-cerebrale': {
+    name: 'Commozione cerebrale nello sport',
+    description:
+      "Trauma cranico funzionale indotto da forze biomeccaniche: non richiede né un colpo visibile alla testa né la perdita di coscienza. Nel calcio scolastico le atlete ne subiscono 1,88 volte quelle dei coetanei maschi (IC 95% 1,69-2,09) e il meccanismo prevalente è il contatto con un oggetto (41,9%) anziché con un altro giocatore (Bretzin et al., 2021). In caso di sospetto l'atleta va rimossa immediatamente dall'attività.",
+    sameAs: 'https://it.wikipedia.org/wiki/Commozione_cerebrale',
+  },
+  'ritorno-al-gioco': {
+    name: 'Ritorno al gioco (return-to-sport)',
+    description:
+      "Il percorso graduale che riporta un'atleta all'attività dopo un infortunio. Dopo una commozione cerebrale il consenso internazionale di Amsterdam 2022 prevede 24-48 ore di riposo relativo (non assoluto), 4 tappe di ritorno a scuola e 6 tappe di ritorno allo sport di almeno 24 ore ciascuna, con il rientro scolastico completo prima di quello sportivo senza restrizioni e l'autorizzazione finale affidata a un professionista sanitario (Patricios et al., 2023).",
+  },
   tanner: {
     name: 'Stadi di Tanner',
     description:
@@ -526,6 +537,12 @@ function prerenderRoutes(): Plugin {
         "- L'87% delle atlete adolescenti dichiara che non parlerebbe dei propri sintomi di incontinenza urinaria con il proprio allenatore, e dal 69% al 90% non ha mai sentito nominare l'allenamento del pavimento pelvico. Fonte: Rial Rebullido et al., 2021, doi:10.3390/jfmk6010012.",
         "- Ai Mondiali under 20 di atletica di Lima 2024 il 43,7% degli atleti riferiva almeno un sintomo di disfunzione del pavimento pelvico (53,7% tra le ragazze, 29,3% tra i ragazzi) e il 12,9% perdite di urina durante salti, sprint e cambi di direzione; il 78,2% non ne aveva mai parlato con nessuno, l'88% non era mai stato sottoposto a screening e solo il 30% era consapevole del tema. Popolazione: 325 atleti under 20 di entrambi i sessi, età media 18,1 anni. Fonte: Giagio et al., 2025, doi:10.1136/bmjsem-2025-002564.",
         "- Tra 319 ginnaste e cheerleader di 12-36 anni (età media 17,4) la prevalenza di incontinenza urinaria è del 67,4%; tra chi ha incontinenza da sforzo l'82,6% riferisce un effetto negativo sulla prestazione e il 22,4% evita a volte l'allenamento o esercizi specifici. Fonte: Skaug et al., 2022, doi:10.1007/s00192-021-04696-z.",
+        "- Nel calcio delle scuole superiori del Michigan le atlete hanno un rischio di commozione cerebrale 1,88 volte quello dei coetanei maschi (IC 95% 1,69-2,09): 950 casi tra le ragazze contro 557 tra i ragazzi. Il meccanismo prevalente differisce: contatto con un oggetto nelle ragazze (41,9%), con un altro giocatore nei ragazzi (48,4%); i maschi hanno 1,54 volte la probabilità di essere rimossi immediatamente dal campo. Popolazione: 83.378 atleti di scuola superiore (43.741 maschi, 39.637 femmine), 2016-2019, sport scolastico statunitense. Fonte: Bretzin et al., 2021, doi:10.1001/jamanetworkopen.2021.8191.",
+        "- Negli sport confrontabili tra i due sessi, le atlete hanno 1,26 volte la probabilità di NON essere tolte dall'attività dopo una commozione cerebrale (IC 95% 1,09-1,45); nel calcio 1,37 (IC 95% 1,09-1,72). Popolazione: 4.418 commozioni cerebrali (2.773 femmine, 1.645 maschi) in 22 sport, scuole superiori del Michigan 2016-2019. Fonte: Zynda et al., 2021, doi:10.1177/03635465211020007.",
+        "- Gli atleti adolescenti rimossi immediatamente dal gioco dopo una commozione cerebrale recuperano in media in 22,0 giorni, contro 44,4 giorni per chi continua a giocare (p=0,003); chi resta in campo ha 8,8 volte la probabilità di un recupero prolungato oltre i 21 giorni. Popolazione: 69 atleti di 12-19 anni di entrambi i sessi, reclutati in centro specialistico — campione piccolo e selezionato. Fonte: Elbin et al., 2016, doi:10.1542/peds.2016-0910.",
+        "- Il 60% degli episodi di commozione cerebrale ricordati dagli atleti non era stato riferito a un adulto responsabile; per i colpi lievi («bell-ringer») la quota di non segnalazione sale all'87%. Popolazione: 167 atleti di scuola superiore di entrambi i sessi, età media 15,7 anni; studio preliminare. Fonte: Register-Mihalik et al., 2013, doi:10.4085/1062-6050-48.3.20.",
+        "- Dopo una commozione cerebrale il consenso internazionale di Amsterdam 2022 indica riposo relativo (non assoluto) fino ai primi 2 giorni, attività fisica leggera già nelle prime 24-48 ore, ritorno a scuola in 4 tappe e ritorno allo sport in 6 tappe di almeno 24 ore ciascuna; il tempo medio aggregato al ritorno allo sport senza restrizioni è di circa 19,8 giorni (IC 95% 18,8-20,7; 57 studi) e si parla di sintomi persistenti oltre le 4 settimane. Fonte: Patricios et al., 2023, doi:10.1136/bjsports-2023-106898.",
+        "- Le tre dichiarazioni di consenso più influenti sulla commozione cerebrale nello sport poggiano su 171 studi i cui campioni sono all'80,1% maschili; il 40,4% degli studi non include nemmeno un'atleta. Fonte: D'Lauro et al., 2022, doi:10.1136/bjsports-2021-105045.",
         "- La riabilitazione del pavimento pelvico ha migliorato i sintomi in 5 studi su 6 (in uno, 64% del gruppo di allenamento contro 8% dei controlli), ma su popolazione ADULTA: 131 atlete, età media 23,19 anni. Gli autori segnalano che le evidenze sulle atlete adolescenti sono molto limitate. Fonte: Demeco et al., 2024, doi:10.3390/sports12120338.",
         '',
         '## Definizioni',
