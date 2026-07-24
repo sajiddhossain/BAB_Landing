@@ -2,9 +2,9 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: when training more does harm (and how to catch it early)"
 date: 2026-07-04
-updated: 2026-07-18
+updated: 2026-07-24
 author: Sajid Hossain
-excerpt: "When the energy an athlete takes in isn't enough to cover training and growth, the body shuts down essential functions: periods, bones, recovery, mood. It's called RED-S. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
+excerpt: "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
 cover: /fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif
 coverAlt: "A young athlete in a white sweatshirt and headband stretching her arms overhead on an athletics track"
 tags:
@@ -35,7 +35,9 @@ There's a dangerous idea in youth women's sport: that training harder is always 
 > - A vanishing period, chronic fatigue and recurring injuries are **signals to listen to**, not to hide.
 > - You monitor and bring it to a professional: **you don't self-diagnose**.
 
-## From "Triad" to syndrome: what changed
+## What is the difference between the Female Athlete Triad and RED-S?
+
+**The Triad described three problems — energy, periods, bones — while RED-S describes a syndrome affecting the whole body.** Same starting phenomenon, read more broadly.
 
 For years the focus was the **Female Athlete Triad**: the combination of low energy availability, menstrual dysfunction and reduced bone health (De Souza et al., [Female Athlete Triad Coalition, 2014](https://doi.org/10.1136/bjsports-2013-093218)).
 
@@ -51,25 +53,25 @@ Energy availability is, put simply, **the energy left for the body to function a
 
 An important, often misunderstood point: **an eating disorder is not required** for it to happen. Many athletes reach low energy availability without realising it, simply because no one explained how much growth and training increase their needs.
 
-## Why adolescents are more exposed
+## Why are teenage female athletes more exposed to RED-S?
 
 A 13-14-year-old body is still growing: building bone, tissue, mass. **Growth is itself energetic work.** Add several training sessions a week and the margin thins fast.
 
 Yet research struggles to keep up: only **6% of sport-science studies** are conducted exclusively on women ([Cowley et al., 2021, *Invisible Sportswomen*](https://doi.org/10.1123/wspaj.2021-0028)). Much of what we know is inferred from adult athletes, and transferability to younger ones is limited. All the more reason to **observe the individual athlete** rather than apply population averages.
 
-## The signs to know (without alarmism)
+## What are the signs of RED-S to know?
 
 None of these signs, alone, "makes a diagnosis". But together they deserve attention and, if they persist, a professional's opinion:
 
 - **Absent or irregular period** after menarche, unexplained by anything else.
 - **Fatigue that won't lift** with normal recovery.
-- **Recurring overuse injuries**, including stress fractures.
+- **Recurring overuse injuries**, including stress fractures. A body that recovers worse is also a body more exposed to acute injury: [ACL prevention](/blog/crociato-giovani-atlete) grows from the same ground.
 - **Performance dropping** despite rising effort.
 - **Disturbed sleep, low mood, frequent colds/illness.** Sleep deserves separate attention: the consensus recommendation for ages 13-18 is **8-10 hours per night** ([Paruthi et al., 2016](https://doi.org/10.5664/jcsm.5866)), and among adolescent athletes sleeping under 8 hours is associated with being injured 1.7 times more often ([Milewski et al., 2014](https://doi.org/10.1097/BPO.0000000000000151)) — we covered this in [sleep and teenage athletes](/blog/sonno-atlete-adolescenti).
 
 Here lies a cultural problem. In a study of 90 adolescent athletes, **44% believed losing the period was a normal response to high load** ([Armento et al., 2021](https://doi.org/10.4085/624-20)). Misinformation starts early: normalising a warning sign is exactly what delays action.
 
-## How risk is assessed (and by whom)
+## How is RED-S risk assessed, and by whom?
 
 There are tools designed to **flag who needs a closer look**, not to label. The best known:
 
@@ -79,7 +81,7 @@ There are tools designed to **flag who needs a closer look**, not to label. The 
 
 One principle guides them all: they are **filters, not verdicts**. Clinical assessment belongs to doctors, dietitians and specialists — never to an app or a coach.
 
-## What the people around the athlete can actually do
+## What can the people around the athlete actually do?
 
 - **The athlete**: observe your own signals day by day, without judgement. Recognising your patterns is the first step to talking about them.
 - **The family**: refuel without guilt. Food is fuel, not a reward or a punishment. And if fatigue is the dominant symptom, it's worth ruling out [iron deficiency](/blog/ferro-atlete-adolescenti) too: that's established with a blood test, not assumed.

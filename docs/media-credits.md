@@ -40,3 +40,12 @@
 - Lavorazione: originale 3680x2070, resample a 1200x675, JPEG q85.
   Nessuna persona ritratta: scelta deliberata per un tema intimo che riguarda minori.
   NB: scartata la variante "Hlavni Sal A" dello stesso autore perché contiene figure in lontananza.
+
+## cover-commozione-cerebrale.jpg
+- Titolo originale: "Still Items"
+- Fonte: StockSnap.io — https://stocksnap.io/photo/still-items-KTQZYM7YXM (reperita via Openverse)
+- Autore: Markus Spiske
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "commozione cerebrale nelle giovani atlete" (IT + EN)
+- Lavorazione: rendition `960w` (originale 2972x1896), ritaglio centrato 16:9 a 960x540, JPEG q85.
+  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.

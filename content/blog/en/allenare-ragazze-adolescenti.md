@@ -2,7 +2,7 @@
 slug: allenare-ragazze-adolescenti
 title: "How to coach teenage girls: a guide for coaches and sports clubs"
 date: 2026-07-02
-updated: 2026-07-21
+updated: 2026-07-24
 author: Sajid Hossain
 excerpt: "Among girls who join a club aged 10-14, 71% drop out without ever returning. Often it isn't about motivation, but environment — and much of that environment runs through the hands of the person coaching them. Here are the four concrete levers, and the evidence behind them."
 cover: /fotobab/cover-allenare-ragazze.jpg
@@ -48,6 +48,8 @@ An adolescent athlete's energy isn't constant, and that's fine. An "amber" day i
 
 And there is one load adjustment worth more than all the others, because it has been measured: **twenty minutes of neuromuscular warm-up, twice a week**, cuts ACL injury risk by roughly **60%** in athletes aged 13-19 (Petushek et al., 2019). It isn't an addition to the programme: it takes the place of the warm-up already being done, and [it only works if it is actually done](/blog/crociato-giovani-atlete) — below ~66% compliance the benefit disappears (Sugimoto et al., 2012).
 
+Then there is the load adjustment decided in thirty seconds rather than over a week: what happens after a blow to the head. Across sex-comparable sports, **female athletes are 1.26 times more likely not to be removed from activity** after a concussion (95% CI 1.09-1.45) (Zynda et al., 2021) — and those who stay on the field recover in 44 days instead of 22 (Elbin et al., 2016). There is one rule, and [it is worth writing it down before you need it](/blog/commozione-cerebrale-giovani-atlete): if a concussion is suspected, the athlete comes off and does not return that day.
+
 ## 3. Use team signals, never individual data
 
 Understanding how the team is doing lets you act before overload — schedule a deload, change the tone of a heavy week. But this must be done with **aggregated, anonymous signals**: never expose an individual athlete's data. Privacy isn't red tape, it's the condition for girls to trust you and open up. The moment an athlete fears her cycle or her mood could end up on display in front of everyone, she stops telling you the truth.
@@ -73,5 +75,7 @@ BAB gives clubs the tools to read the team's aggregated, anonymous signals, and 
 - Women in Sport. **Reframing Sport for Teenage Girls: Tackling Teenage Disengagement.** 2022. (Savanta survey of 2,291 girls aged 11-18, UK — not peer-reviewed) [womeninsport.org](https://womeninsport.org/wp-content/uploads/2022/03/2022-Reframing-Sport-for-Teenage-Girls-Tackling-Teenage-Disengagement.pdf)
 - Petushek E.J., Sugimoto D., Stoolmiller M., Smith G., Myer G.D. **Evidence-Based Best-Practice Guidelines for Preventing Anterior Cruciate Ligament Injuries in Young Female Athletes: A Systematic Review and Meta-analysis.** *The American Journal of Sports Medicine*, 2019;47(7):1744-1753. (n=27,231 female athletes, aged 13-24; 13-19 subgroup reported separately) [doi:10.1177/0363546518782460](https://doi.org/10.1177/0363546518782460)
 - Sugimoto D., Myer G.D., Bush H.M., Klugman M.F., Medina McKeon J.M., Hewett T.E. **Compliance With Neuromuscular Training and Anterior Cruciate Ligament Injury Risk Reduction in Female Athletes: A Meta-Analysis.** *Journal of Athletic Training*, 2012;47(6):714-723. (6 studies in female athletes aged 14-22) [doi:10.4085/1062-6050-47.6.10](https://doi.org/10.4085/1062-6050-47.6.10)
+- Zynda A.J., Petit K.M., Anderson M., Tomczyk C.P., Covassin T. **Removal From Activity After Sports-Related Concussion in Sex-Comparable Sports From the Michigan High School Athletic Association.** *The American Journal of Sports Medicine*, 2021;49(10):2810-2816. (n=4,418 concussions, 22 sex-comparable sports) [doi:10.1177/03635465211020007](https://doi.org/10.1177/03635465211020007)
+- Elbin R.J., Sufrinko A., Schatz P., French J., Henry L., Burkhart S., Collins M.W., Kontos A.P. **Removal From Play After Concussion and Recovery Time.** *Pediatrics*, 2016;138(3):e20160910. (n=69 athletes aged 12-19, both sexes, small clinic-referred sample) [doi:10.1542/peds.2016-0910](https://doi.org/10.1542/peds.2016-0910)
 
 *This article is for information only and does not constitute medical advice. If signals persist, speak to a healthcare professional.*

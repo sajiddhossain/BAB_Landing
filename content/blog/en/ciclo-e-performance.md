@@ -2,7 +2,7 @@
 slug: ciclo-e-performance
 title: "The menstrual cycle and performance: what no one tells young athletes"
 date: 2026-06-20
-updated: 2026-07-22
+updated: 2026-07-24
 author: Sajid Hossain
 excerpt: "77% of elite athletes report their cycle affects their performance, and among adolescents one in four — up to six in ten — cuts back or avoids physical activity during their period. It isn't about willpower: it's a signal from the body that almost no one is taught to read. Here's the evidence, and where to start."
 cover: /fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif
@@ -18,6 +18,8 @@ faq:
     a: "Far more than most people assume. A review of 86 studies across 33 countries in adolescents aged 10-18 found that the share of girls avoiding or reducing physical activity during menstruation ranges from 25.2% to 61.1% depending on the population studied (Harvey et al., 2025). Pain isn't the only reason: fear of leaking and embarrassment come up repeatedly."
   - q: "Why do we know so little about the cycle and sport?"
     a: "Because the research looked elsewhere. Across 5,261 sport and exercise science publications from 2014 to 2020, only 6% were conducted on women only, and female participants made up 34% of the total (Cowley et al., 2021). It isn't that the answers are hidden: for the most part they haven't been looked for yet."
+  - q: "Is training during your period harmful?"
+    a: "There is no evidence that physical activity during menstruation is harmful, and the largest meta-analysis on the topic — 78 studies and 1,193 participants — found the effect of cycle phase on performance to be «trivial», with evidence quality rated low under GRADE (McNulty et al., 2020). Two caveats: those participants are adult women aged 18-40, and equivalent data in adolescents simply do not exist. In practice the opposite of what you would expect happens: among adolescents aged 10-18, between 25.2% and 61.1% avoid or reduce physical activity during their period, often out of fear of leaking and embarrassment rather than pain (Harvey et al., 2025). If menstrual pain is severe enough to prevent normal activities, it isn't something to put up with: it should be taken to a healthcare professional."
   - q: "Should training be adapted to the cycle phase?"
     a: "The evidence does not currently support it, and for adolescents it simply doesn't exist. The largest meta-analysis on the effect of cycle phase on performance — 78 studies, 1,193 participants — found a «trivial» reduction in the early follicular phase compared with all other phases (ES 0.5 = -0.06; 95% CrI -0.16 to 0.04), with the quality of evidence rated low under GRADE (McNulty et al., 2020). Note the age: those participants are adult women aged 18-40. So the practical conclusion is twofold: there is no basis for periodising a 14-year-old's training around her cycle phase, but there are excellent reasons to ask how she is and adapt the individual session to what she reports."
 ---
@@ -36,7 +38,7 @@ Yes — according to the large majority of athletes who live it. In a longitudin
 
 Two honest caveats, because they matter. First: that sample has a **mean age of 28**. These are adult elite athletes, not thirteen-year-olds — the figure describes a real phenomenon in women's sport, but it is not a prevalence measured in adolescents. Second: it is **self-reported**. Far from being a flaw, that's precisely the point: what decides whether an athlete shows up to training is lived experience, not a lab value.
 
-## So what happens to 13- and 14-year-olds?
+## So what happens to 13- and 14-year-olds and their periods?
 
 Here the evidence is newer and speaks the right language. A review of **86 studies across 33 countries in adolescents aged 10-18** found that the share of girls who **avoid or reduce physical activity during menstruation ranges from 25.2% to 61.1%**, depending on the population (Harvey et al., 2025). In one included study, **80.4%** of girls with heavy bleeding had skipped PE.
 
@@ -44,9 +46,9 @@ And pain isn't the only reason. The same review notes that **fear of leaking** i
 
 It's worth being precise about the other side too. A longitudinal study of 6,639 Australian adolescents found that menarche is associated with lower odds of taking part in **individual sports** (OR 0.74), but has **no** significant effect on team sports or moderate-to-vigorous physical activity (Gopalan et al., 2025). The cycle alone doesn't switch an athlete off. What does is the cycle **lived in an environment that won't talk about it** — a mechanism we covered in detail when writing about [the silence between athlete and coach](/blog/parlare-di-ciclo-con-allenatore).
 
-## Why nobody explains it: the data gap
+## Why do we know so little about periods and sport?
 
-The absence of simple answers is no accident. Across **5,261 sport and exercise science publications** from 2014 to 2020, Cowley and colleagues found only **6% of studies were conducted on women only**, and that female participants made up **34%** of the 12.5 million subjects overall (Cowley et al., 2021, *Invisible Sportswomen*). Female athletes don't have fewer questions: they have less research behind them.
+**Because the research looked elsewhere.** The absence of simple answers is no accident. Across **5,261 sport and exercise science publications** from 2014 to 2020, Cowley and colleagues found only **6% of studies were conducted on women only**, and that female participants made up **34%** of the 12.5 million subjects overall (Cowley et al., 2021, *Invisible Sportswomen*). Female athletes don't have fewer questions: they have less research behind them.
 
 ## What an athlete can do, starting today
 

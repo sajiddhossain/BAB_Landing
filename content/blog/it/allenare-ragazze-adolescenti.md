@@ -2,7 +2,7 @@
 slug: allenare-ragazze-adolescenti
 title: "Come allenare ragazze adolescenti: la guida per coach e società sportive"
 date: 2026-07-02
-updated: 2026-07-21
+updated: 2026-07-24
 author: Sajid Hossain
 excerpt: "Tra le ragazze che entrano in una società a 10-14 anni, il 71% abbandona senza mai rientrare. Spesso non è una questione di motivazione, ma di ambiente — e gran parte di quell'ambiente passa dalle mani di chi allena. Ecco le quattro leve concrete, con i dati che le sostengono."
 cover: /fotobab/cover-allenare-ragazze.jpg
@@ -48,6 +48,8 @@ L'energia di un'atleta adolescente non è costante, e va bene così. Un giorno "
 
 E c'è un adattamento del carico che vale più di tutti gli altri, perché è misurato: **venti minuti di riscaldamento neuromuscolare, due volte a settimana**, riducono il rischio di rottura del crociato di circa il **60%** nelle atlete di 13-19 anni (Petushek et al., 2019). Non è un'aggiunta al programma: prende il posto del riscaldamento che già si fa, e [funziona solo se lo si fa davvero](/blog/crociato-giovani-atlete) — sotto il ~66% di aderenza il beneficio sparisce (Sugimoto et al., 2012).
 
+C'è poi un adattamento del carico che si decide in trenta secondi, non in una settimana: cosa si fa dopo un colpo alla testa. Negli sport confrontabili tra i due sessi, **le atlete hanno 1,26 volte la probabilità di non essere tolte dall'attività** dopo una commozione cerebrale (IC 95% 1,09-1,45) (Zynda et al., 2021) — e chi resta in campo recupera in 44 giorni invece di 22 (Elbin et al., 2016). La regola è una sola, e [vale la pena scriverla prima che serva](/blog/commozione-cerebrale-giovani-atlete): in caso di sospetto, l'atleta esce e non rientra quel giorno.
+
 ## 3. Usa segnali di squadra, mai dati individuali
 
 Capire come sta la squadra ti permette di intervenire prima del sovraccarico — programmare un scarico, cambiare tono di una settimana pesante. Ma questo va fatto con **segnali aggregati e anonimi**: mai esporre il dato della singola atleta. La privacy non è un vincolo burocratico, è la condizione perché le ragazze si fidino e condividano. Il momento in cui un'atleta teme che il suo ciclo o il suo umore finiscano "in chiaro" davanti a tutti, smette di dirti la verità.
@@ -73,5 +75,7 @@ BAB dà alle società gli strumenti per leggere i segnali aggregati e anonimi de
 - Women in Sport. **Reframing Sport for Teenage Girls: Tackling Teenage Disengagement.** 2022. (Sondaggio Savanta su 2.291 ragazze di 11-18 anni, UK — report non peer-reviewed) [womeninsport.org](https://womeninsport.org/wp-content/uploads/2022/03/2022-Reframing-Sport-for-Teenage-Girls-Tackling-Teenage-Disengagement.pdf)
 - Petushek E.J., Sugimoto D., Stoolmiller M., Smith G., Myer G.D. **Evidence-Based Best-Practice Guidelines for Preventing Anterior Cruciate Ligament Injuries in Young Female Athletes: A Systematic Review and Meta-analysis.** *The American Journal of Sports Medicine*, 2019;47(7):1744-1753. (n=27.231 atlete, 13-24 anni; sottogruppo 13-19 anni riportato separatamente) [doi:10.1177/0363546518782460](https://doi.org/10.1177/0363546518782460)
 - Sugimoto D., Myer G.D., Bush H.M., Klugman M.F., Medina McKeon J.M., Hewett T.E. **Compliance With Neuromuscular Training and Anterior Cruciate Ligament Injury Risk Reduction in Female Athletes: A Meta-Analysis.** *Journal of Athletic Training*, 2012;47(6):714-723. (6 studi su atlete di 14-22 anni) [doi:10.4085/1062-6050-47.6.10](https://doi.org/10.4085/1062-6050-47.6.10)
+- Zynda A.J., Petit K.M., Anderson M., Tomczyk C.P., Covassin T. **Removal From Activity After Sports-Related Concussion in Sex-Comparable Sports From the Michigan High School Athletic Association.** *The American Journal of Sports Medicine*, 2021;49(10):2810-2816. (n=4.418 commozioni cerebrali, 22 sport confrontabili tra i sessi) [doi:10.1177/03635465211020007](https://doi.org/10.1177/03635465211020007)
+- Elbin R.J., Sufrinko A., Schatz P., French J., Henry L., Burkhart S., Collins M.W., Kontos A.P. **Removal From Play After Concussion and Recovery Time.** *Pediatrics*, 2016;138(3):e20160910. (n=69 atleti di 12-19 anni di entrambi i sessi, campione piccolo e reclutato in clinica) [doi:10.1542/peds.2016-0910](https://doi.org/10.1542/peds.2016-0910)
 
 *Questo articolo ha finalità informative e non costituisce parere medico. In presenza di segnali persistenti, rivolgersi a un professionista sanitario.*
