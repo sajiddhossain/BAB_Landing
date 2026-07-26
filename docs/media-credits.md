@@ -49,3 +49,14 @@
 - Uso: cover articolo blog "commozione cerebrale nelle giovani atlete" (IT + EN)
 - Lavorazione: rendition `960w` (originale 2972x1896), ritaglio centrato 16:9 a 960x540, JPEG q85.
   Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+
+## cover-specializzazione-precoce.jpg
+- Titolo originale: "Hobbies Sports"
+- Fonte: StockSnap.io — https://stocksnap.io/photo/hobbies-sports-HBNGBU52V1 (reperita via Openverse)
+- Autore: Emile-Victor Portenart
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "specializzazione precoce nelle giovani atlete" (IT + EN)
+- Lavorazione: rendition `960w` (originale 3365x1892), già in 16:9 → 960x540, JPEG q85.
+  Scelta del soggetto: campetto polivalente (basket + porte da calcio) come immagine del gioco
+  libero e multi-sport, cioè l'opposto della specializzazione precoce.
+  Le persone presenti sono riprese dall'alto e a distanza, non identificabili: nessun volto leggibile.

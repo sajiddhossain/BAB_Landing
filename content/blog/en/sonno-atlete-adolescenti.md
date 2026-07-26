@@ -2,9 +2,9 @@
 slug: sonno-atlete-adolescenti
 title: "Sleep and teenage athletes: why 8 hours isn't a luxury (and puberty makes them harder to get)"
 date: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-26
 author: Sajid Hossain
-excerpt: "The American Academy of Sleep Medicine recommends 8-10 hours of sleep for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured. And through puberty, insomnia symptoms in girls climb from 3.4% to 12.2%. What the evidence actually says, without shortcuts."
+excerpt: "How many hours should a 14-year-old athlete sleep? Between 8 and 10, says the consensus recommendation for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured, and through puberty insomnia symptoms in girls climb from 3.4% to 12.2% — against 4.3%-9.1% in boys. What the evidence says, what it does not, and what a club can change from Monday."
 cover: /fotobab/cover-sonno-atlete.jpg
 coverAlt: "A bright, tidy bedroom at dawn, with an unmade bed, a lit bedside lamp and natural light from the window"
 tags:
@@ -39,9 +39,9 @@ In youth sport, sleep is the variable nobody discusses and the first one to get 
 
 Two clarifications that matter. First: it is a **health** recommendation, not a sports performance threshold — nine hours is not a training protocol. Second: it applies to all adolescents, athletes or not. An athlete doesn't need *less* sleep because she's fit; if anything, she adds a further load on top of school.
 
-## The injury finding, read for what it is
+## Does short sleep really cause more injuries?
 
-Precision matters here, because this number circulates widely and often badly. The reference study involved **112 adolescent athletes** (54 male and 58 female, grades 7 to 12) at a Los Angeles school ([Milewski et al., 2014, *J Pediatr Orthop*](https://doi.org/10.1097/BPO.0000000000000151)). The result: those sleeping **less than 8 hours a night were 1.7 times more likely to have been injured** than those sleeping at least 8 (95% CI 1.0-3.0; p=0.04). The only other independent predictor was school grade: each additional grade was associated with 1.4 times the injury likelihood.
+**The data say those sleeping under 8 hours were 1.7 times more likely to have been injured — and they also say this is an association, not a proven cause.** The number circulates widely and often badly, so it is worth reading in full. The reference study involved **112 adolescent athletes** (54 male and 58 female, grades 7 to 12) at a Los Angeles school ([Milewski et al., 2014, *J Pediatr Orthop*](https://doi.org/10.1097/BPO.0000000000000151)). The result: those sleeping **less than 8 hours a night were 1.7 times more likely to have been injured** than those sleeping at least 8 (95% CI 1.0-3.0; p=0.04). The only other independent predictor was school grade: each additional grade was associated with 1.4 times the injury likelihood.
 
 What this study does **not** say, and should be said:
 
@@ -51,13 +51,13 @@ What this study does **not** say, and should be said:
 
 That said, the direction is consistent with the broader athlete literature: longer sleep duration and better sleep quality are associated with better performance and plausibly with lower injury and illness risk, while most athletes fail to obtain the recommended amount ([Watson, 2017, *Curr Sports Med Rep*](https://doi.org/10.1249/JSR.0000000000000418)). It's a signal to take seriously without turning it into a slogan.
 
-## Why puberty makes all of this harder
+## Why does falling asleep early get harder at puberty?
 
-There's a widespread misconception: that adolescents sleep little because they "need less sleep", or because they can't be bothered. Both are false.
+**Because puberty shifts the body clock forward: the internal sleep signal arrives later in the evening, while the school alarm stays where it is.** So it is not true that adolescents "need less sleep", nor that they can't be bothered — a widespread misconception, false on both counts.
 
-Puberty **changes circadian timing**: the internal signal saying "time to sleep" arrives later in the evening. Sleep need stays high, but the window in which the body can actually fall asleep moves forward — and collides with school timetables that don't move ([Carskadon, 2011, *Pediatr Clin North Am*](https://doi.org/10.1016/j.pcl.2011.03.003)). The result is what Carskadon calls the "perfect storm": biology and calendar pulling in opposite directions, with the adolescent caught in between.
+In physiological terms, puberty **changes circadian timing**. Sleep need stays high, but the window in which the body can actually fall asleep moves forward — and collides with school timetables that don't move ([Carskadon, 2011, *Pediatr Clin North Am*](https://doi.org/10.1016/j.pcl.2011.03.003)). The result is what Carskadon calls the "perfect storm": biology and calendar pulling in opposite directions, with the adolescent caught in between.
 
-For an athlete there's a third vector: **evening training**. Finishing at 9:30pm, eating, winding down and falling asleep by 10:30pm to get eight hours is, quite simply, an unrealistic ask. The debt doesn't come from a bad choice: it comes from a scheduling clash.
+For an athlete there's a third vector: **evening training**. Finishing at 9:30pm, eating, winding down and falling asleep by 10:30pm to get eight hours is, quite simply, an unrealistic ask. The debt doesn't come from a bad choice: it comes from a scheduling clash. And the clash tightens when the sporting year has no breaks: it is one of the least visible costs of [early specialisation in a single sport](/blog/specializzazione-precoce-giovani-atlete).
 
 ## The gap that opens between girls and boys
 
@@ -70,11 +70,11 @@ A study of **7,507 children and adolescents aged 6-17** (48.5% female, 31 school
 - The sex × pubertal stage interaction is statistically significant (p<0.001), and the higher female prevalence **emerges at Tanner stage 4**.
 - The result holds after controlling for age, family income and school start time.
 
-This reframes the picture. The sleep gap between girls and boys **isn't about age, it's about puberty**: it appears when the body changes. The same window in which many girls [drop out of sport](/blog/abbandono-puberta), in which [pain becomes more frequent](/blog/dolore-in-puberta-neuroscienza), in which the first questions about periods arrive. These aren't separate problems: they're the same passage, seen from different angles.
+This reframes the picture. The sleep gap between girls and boys **isn't about age, it's about puberty**: it appears when the body changes. The same window in which many girls [drop out of sport](/blog/abbandono-puberta), in which [pain becomes more frequent](/blog/dolore-in-puberta-neuroscienza), in which [the ACL injury gap with male peers opens up](/blog/crociato-giovani-atlete), in which the first questions about periods arrive. These aren't separate problems: they're the same passage, seen from different angles.
 
-## Careful with evidence that comes from adults
+## Does sleeping more actually improve sporting performance?
 
-When you read that "sleeping more improves performance", the source is almost always the same one: a sleep-extension study on **11 male collegiate basketball players**, mean age 19.4, with no control group ([Mah et al., 2011, *Sleep*](https://doi.org/10.5665/SLEEP.1132)). The reported results are striking — roughly **+111 minutes** of sleep per night, sprint time from 16.2 to 15.5 seconds, **+9%** free-throw accuracy and **+9.2%** from three-point range.
+**In adolescent female athletes there is no solid evidence: the most-cited finding comes from eleven male collegiate basketball players.** When you read that "sleeping more improves performance", that is almost always the source: a sleep-extension study on **11 male collegiate basketball players**, mean age 19.4, with no control group ([Mah et al., 2011, *Sleep*](https://doi.org/10.5665/SLEEP.1132)). The reported results are striking — roughly **+111 minutes** of sleep per night, sprint time from 16.2 to 15.5 seconds, **+9%** free-throw accuracy and **+9.2%** from three-point range.
 
 But that sample is **adult, male and tiny**. Presenting those numbers as valid for a 14-year-old girl would be wrong: pubertal physiology, the energy cost of growth and the adolescent female sleep profile are all different. On this topic, for teenage female athletes, **the performance evidence simply isn't there yet**. That's a research gap, not an answer.
 

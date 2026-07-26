@@ -144,6 +144,21 @@ const GLOSSARY: Record<string, { name: string; description: string; sameAs?: str
     description:
       "Il percorso graduale che riporta un'atleta all'attività dopo un infortunio. Dopo una commozione cerebrale il consenso internazionale di Amsterdam 2022 prevede 24-48 ore di riposo relativo (non assoluto), 4 tappe di ritorno a scuola e 6 tappe di ritorno allo sport di almeno 24 ore ciascuna, con il rientro scolastico completo prima di quello sportivo senza restrizioni e l'autorizzazione finale affidata a un professionista sanitario (Patricios et al., 2023).",
   },
+  'specializzazione-precoce': {
+    name: 'Specializzazione sportiva precoce',
+    description:
+      "Praticare un solo sport per più di 8 mesi all'anno, sceglierlo come sport principale e abbandonare gli altri: tre criteri che definiscono l'alta specializzazione sulla scala a 3 punti usata in letteratura. Tra le atlete di 13-18 anni le altamente specializzate riferiscono una storia di infortuni 2,93 volte più spesso delle poco specializzate (Okoruwa et al., 2022); l'American Academy of Pediatrics raccomanda di praticare più sport almeno fino alla pubertà (Brenner e AAP, 2016).",
+  },
+  sovraccarico: {
+    name: 'Infortunio da sovraccarico (overuse)',
+    description:
+      "Danno da carico ripetuto senza un trauma singolo identificabile: si accumula nel tempo e per questo viene notato tardi. Negli atleti molto specializzati il rischio è 1,81 volte quello dei poco specializzati (Bell et al., 2018), e chi si allena più ore a settimana dei propri anni d'età ha 2,07 volte le probabilità di un infortunio grave da sovraccarico (Jayanthi et al., 2015).",
+  },
+  'gioco-libero': {
+    name: 'Gioco libero (deliberate play)',
+    description:
+      "Attività fisica non strutturata, scelta e regolata dai ragazzi stessi, distinta dall'allenamento organizzato. Non è tempo perso: quando il rapporto tra sport organizzato e gioco libero supera 2:1 ore a settimana, le probabilità di un infortunio grave da sovraccarico salgono a 1,87 volte (Jayanthi et al., 2015).",
+  },
   tanner: {
     name: 'Stadi di Tanner',
     description:
@@ -418,6 +433,9 @@ function prerenderRoutes(): Plugin {
             // per essere lette ad alta voce come risposta autonoma da un assistente
             // vocale. Includiamo anche il blocco FAQ, che è già in forma domanda →
             // risposta breve e quindi il candidato migliore a una lettura vocale.
+            // `h2 + p` copre il paragrafo che segue ogni H2: negli articoli è scritto
+            // in forma "risposta prima di tutto", cioè la risposta autonoma alla
+            // domanda posta dal titolo — esattamente ciò che un answer engine cerca.
             speakable: {
               '@type': 'SpeakableSpecification',
               cssSelector: [
@@ -426,6 +444,8 @@ function prerenderRoutes(): Plugin {
                 '.blog-prose > blockquote:first-of-type',
                 '.blog-prose > blockquote:first-of-type li',
                 '.blog-prose > p:first-of-type',
+                '.blog-prose > h2 + p',
+                '.blog-prose > h2 + ul > li',
                 '.blog-faq',
               ],
             },
@@ -543,6 +563,12 @@ function prerenderRoutes(): Plugin {
         "- Il 60% degli episodi di commozione cerebrale ricordati dagli atleti non era stato riferito a un adulto responsabile; per i colpi lievi («bell-ringer») la quota di non segnalazione sale all'87%. Popolazione: 167 atleti di scuola superiore di entrambi i sessi, età media 15,7 anni; studio preliminare. Fonte: Register-Mihalik et al., 2013, doi:10.4085/1062-6050-48.3.20.",
         "- Dopo una commozione cerebrale il consenso internazionale di Amsterdam 2022 indica riposo relativo (non assoluto) fino ai primi 2 giorni, attività fisica leggera già nelle prime 24-48 ore, ritorno a scuola in 4 tappe e ritorno allo sport in 6 tappe di almeno 24 ore ciascuna; il tempo medio aggregato al ritorno allo sport senza restrizioni è di circa 19,8 giorni (IC 95% 18,8-20,7; 57 studi) e si parla di sintomi persistenti oltre le 4 settimane. Fonte: Patricios et al., 2023, doi:10.1136/bjsports-2023-106898.",
         "- Le tre dichiarazioni di consenso più influenti sulla commozione cerebrale nello sport poggiano su 171 studi i cui campioni sono all'80,1% maschili; il 40,4% degli studi non include nemmeno un'atleta. Fonte: D'Lauro et al., 2022, doi:10.1136/bjsports-2021-105045.",
+        "- Tra 219 atlete di 13-18 anni, le altamente specializzate in un solo sport riferiscono una storia di infortuni 2,93 volte più spesso delle poco specializzate (IC 95% 1,38-6,24) e una storia di commozione cerebrale 5,00 volte più spesso (IC 95% 1,86-13,42); le moderatamente specializzate riferiscono fratture da stress 3,62 volte più spesso (IC 95% 1,27-10,26). Popolazione: 219 atlete di scuola superiore, studio trasversale su questionario, intervalli di confidenza ampi. Fonte: Okoruwa et al., 2022, doi:10.1177/19417381221123532.",
+        "- Gli atleti giovanili molto specializzati hanno un rischio di infortunio da sovraccarico 1,81 volte quello dei poco specializzati (IC 95% 1,26-2,60); il passaggio da bassa a moderata specializzazione porta già un RR di 1,39 (IC 95% 1,04-1,87). Popolazione: revisione sistematica con meta-analisi, atleti di entrambi i sessi, risultati non suddivisi per sesso; forza della raccomandazione grado B. Fonte: Bell et al., 2018, doi:10.1542/peds.2018-0657.",
+        "- I giovani atleti che praticano più ore di sport organizzato a settimana dei propri anni d'età hanno 2,07 volte le probabilità di un infortunio grave da sovraccarico (IC 95% 1,40-3,05); un rapporto tra sport organizzato e gioco libero superiore a 2:1 porta a 1,87 volte (IC 95% 1,26-2,76). La specializzazione resta un fattore indipendente anche correggendo per età e ore (OR 1,27; IC 95% 1,07-1,52). Popolazione: studio caso-controllo su giovani atleti di entrambi i sessi. Fonte: Jayanthi et al., 2015, doi:10.1177/0363546514567298.",
+        "- In uno studio longitudinale su 579 giovani atleti (età media 14,1 anni, 53% femmine) gli altamente specializzati avevano 1,41 volte le probabilità di infortunarsi (IC 95% 1,06-1,87) e le atlete femmine 1,43 volte le probabilità di un infortunio da sovraccarico (IC 95% 1,05-1,96; p=0,02). Popolazione: campione clinico, quindi selezionato verso chi già si rivolge a un medico. Fonte: Jayanthi et al., 2020, doi:10.1177/2325967120922764.",
+        "- Gli atleti di livello mondiale da adulti hanno praticato più sport diversi da bambini, iniziato più tardi il proprio sport principale, accumulato meno pratica specifica e progredito più lentamente rispetto agli atleti di livello nazionale; tra i giovani atleti vale invece il contrario. Popolazione: meta-analisi di 51 studi, 6.096 atleti di entrambi i sessi, di cui 772 di livello mondiale. Fonte: Güllich et al., 2022, doi:10.1177/1745691620974772.",
+        "- La guidance dell'American Academy of Pediatrics per gli under 18 indica: praticare più sport almeno fino alla pubertà, specializzarsi più tardi (tarda adolescenza, ~15-16 anni), meno ore settimanali di sport organizzato degli anni d'età e comunque sotto le 16, almeno 1-2 giorni a settimana liberi dallo sport specifico e almeno 3 mesi all'anno di stacco in blocchi di un mese. È guidance di consenso su evidenza limitata — l'AAP stessa scrive che la soglia esatta non è stata chiarita — e nasce nel contesto sportivo statunitense. Fonte: Brenner e AAP, 2016, doi:10.1542/peds.2016-2148.",
         "- La riabilitazione del pavimento pelvico ha migliorato i sintomi in 5 studi su 6 (in uno, 64% del gruppo di allenamento contro 8% dei controlli), ma su popolazione ADULTA: 131 atlete, età media 23,19 anni. Gli autori segnalano che le evidenze sulle atlete adolescenti sono molto limitate. Fonte: Demeco et al., 2024, doi:10.3390/sports12120338.",
         '',
         '## Definizioni',
