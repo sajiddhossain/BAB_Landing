@@ -2,9 +2,9 @@
 slug: sonno-atlete-adolescenti
 title: "Sonno e atlete adolescenti: perché 8 ore non sono un lusso (e la pubertà le rende più difficili)"
 date: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-26
 author: Sajid Hossain
-excerpt: "L'American Academy of Sleep Medicine raccomanda 8-10 ore di sonno per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato. E con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2%. Cosa dicono davvero i dati, senza scorciatoie."
+excerpt: "Quante ore deve dormire un'atleta di 14 anni? Tra 8 e 10, dice la raccomandazione di consenso per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato, e con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2% — contro il 4,3%-9,1% dei ragazzi. Cosa dicono davvero i dati, cosa non dicono, e cosa può cambiare una società sportiva già da lunedì."
 cover: /fotobab/cover-sonno-atlete.jpg
 coverAlt: "Camera da letto luminosa e ordinata all'alba, con letto disfatto, lampada da comodino accesa e luce naturale dalla finestra"
 tags:
@@ -39,9 +39,9 @@ Nello sport giovanile il sonno è la variabile di cui si parla meno e che si tag
 
 Due precisazioni che contano. La prima: è una raccomandazione **di salute**, non una soglia di performance sportiva — dormire nove ore non è un protocollo di allenamento. La seconda: vale per tutti gli adolescenti, atleti e non. Un'atleta non ha bisogno di *meno* sonno perché è allenata; semmai somma alla scuola un carico in più.
 
-## Il dato sugli infortuni, letto per quello che è
+## Dormire poco fa infortunare di più?
 
-Qui serve precisione, perché è un numero che gira molto e spesso male. Lo studio di riferimento ha coinvolto **112 atleti adolescenti** (54 maschi e 58 femmine, dalla seconda media all'ultimo anno di superiori) di una scuola di Los Angeles ([Milewski et al., 2014, *J Pediatr Orthop*](https://doi.org/10.1097/BPO.0000000000000151)). Il risultato: chi dormiva **meno di 8 ore a notte risultava 1,7 volte più spesso infortunato** rispetto a chi ne dormiva almeno 8 (IC 95% 1,0-3,0; p=0,04). L'unico altro predittore indipendente era l'anno di corso: ogni anno scolastico in più si associava a 1,4 volte più infortuni.
+**I dati dicono che chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato — ma dicono anche che è un'associazione, non una causa dimostrata.** È un numero che gira molto e spesso male, quindi vale la pena leggerlo per intero. Lo studio di riferimento ha coinvolto **112 atleti adolescenti** (54 maschi e 58 femmine, dalla seconda media all'ultimo anno di superiori) di una scuola di Los Angeles ([Milewski et al., 2014, *J Pediatr Orthop*](https://doi.org/10.1097/BPO.0000000000000151)). Il risultato: chi dormiva **meno di 8 ore a notte risultava 1,7 volte più spesso infortunato** rispetto a chi ne dormiva almeno 8 (IC 95% 1,0-3,0; p=0,04). L'unico altro predittore indipendente era l'anno di corso: ogni anno scolastico in più si associava a 1,4 volte più infortuni.
 
 Cosa **non** dice questo studio, e va detto:
 
@@ -51,13 +51,13 @@ Cosa **non** dice questo studio, e va detto:
 
 Detto questo, la direzione è coerente con quanto emerge dalla letteratura più ampia sugli atleti: durata e qualità del sonno maggiori si associano a prestazioni migliori e, plausibilmente, a minor rischio di infortunio e malattia, mentre gran parte degli atleti dorme meno del raccomandato ([Watson, 2017, *Curr Sports Med Rep*](https://doi.org/10.1249/JSR.0000000000000418)). È un segnale da prendere sul serio senza trasformarlo in slogan.
 
-## Perché la pubertà rende tutto più difficile
+## Perché in pubertà diventa più difficile addormentarsi presto?
 
-C'è un equivoco diffuso: che gli adolescenti dormano poco perché "hanno bisogno di meno sonno" o perché sono svogliati. È falso su entrambi i fronti.
+**Perché con la pubertà l'orologio biologico slitta in avanti: il segnale interno di sonno arriva più tardi la sera, mentre la sveglia per la scuola resta la stessa.** Non è quindi vero né che gli adolescenti "hanno bisogno di meno sonno", né che siano svogliati: è un equivoco diffuso, falso su entrambi i fronti.
 
-Con la pubertà **cambia la temporizzazione circadiana**: il segnale interno che dice "è ora di dormire" arriva più tardi la sera. Il bisogno di sonno resta alto, ma la finestra in cui il corpo riesce ad addormentarsi si sposta in avanti — e va a sbattere contro orari scolastici che non si spostano ([Carskadon, 2011, *Pediatr Clin North Am*](https://doi.org/10.1016/j.pcl.2011.03.003)). Il risultato è quello che Carskadon chiama la "tempesta perfetta": biologia e calendario che tirano in direzioni opposte, con l'adolescente in mezzo.
+In termini fisiologici, con la pubertà **cambia la temporizzazione circadiana**. Il bisogno di sonno resta alto, ma la finestra in cui il corpo riesce ad addormentarsi si sposta in avanti — e va a sbattere contro orari scolastici che non si spostano ([Carskadon, 2011, *Pediatr Clin North Am*](https://doi.org/10.1016/j.pcl.2011.03.003)). Il risultato è quello che Carskadon chiama la "tempesta perfetta": biologia e calendario che tirano in direzioni opposte, con l'adolescente in mezzo.
 
-Per un'atleta si aggiunge un terzo vettore: **l'allenamento serale**. Finire alle 21:30, cenare, scaricare l'attivazione e addormentarsi entro le 22:30 per fare otto ore è, semplicemente, una richiesta poco realistica. Il debito non nasce da una scelta sbagliata: nasce da un incastro.
+Per un'atleta si aggiunge un terzo vettore: **l'allenamento serale**. Finire alle 21:30, cenare, scaricare l'attivazione e addormentarsi entro le 22:30 per fare otto ore è, semplicemente, una richiesta poco realistica. Il debito non nasce da una scelta sbagliata: nasce da un incastro. E l'incastro si stringe quando l'anno sportivo non ha pause: è uno dei costi meno visibili della [specializzazione precoce in un solo sport](/blog/specializzazione-precoce-giovani-atlete).
 
 ## Il divario che si apre tra ragazze e ragazzi
 
@@ -70,11 +70,11 @@ Uno studio su **7.507 bambini e adolescenti di 6-17 anni** (48,5% femmine, 31 sc
 - L'interazione sesso × stadio puberale è statisticamente significativa (p<0,001), e la prevalenza femminile più alta **emerge allo stadio 4 di Tanner**.
 - Il risultato tiene anche controllando età, reddito familiare e orario di inizio della scuola.
 
-È un'informazione che cambia la lettura. Il divario di sonno tra ragazze e ragazzi **non è una questione di età, ma di pubertà**: compare quando il corpo cambia. La stessa finestra in cui molte ragazze [smettono di fare sport](/blog/abbandono-puberta), in cui [il dolore diventa più frequente](/blog/dolore-in-puberta-neuroscienza), in cui compaiono le prime domande sul ciclo. Non sono problemi separati: sono lo stesso passaggio, visto da angoli diversi.
+È un'informazione che cambia la lettura. Il divario di sonno tra ragazze e ragazzi **non è una questione di età, ma di pubertà**: compare quando il corpo cambia. La stessa finestra in cui molte ragazze [smettono di fare sport](/blog/abbandono-puberta), in cui [il dolore diventa più frequente](/blog/dolore-in-puberta-neuroscienza), in cui [il rischio di infortunio al crociato si allarga rispetto ai coetanei maschi](/blog/crociato-giovani-atlete), in cui compaiono le prime domande sul ciclo. Non sono problemi separati: sono lo stesso passaggio, visto da angoli diversi.
 
-## Attenzione a un'evidenza che viene dagli adulti
+## Dormire di più migliora davvero la prestazione sportiva?
 
-Quando si legge che "dormire di più migliora la prestazione", la fonte è quasi sempre la stessa: uno studio di estensione del sonno su **11 cestisti universitari maschi**, età media 19,4 anni, senza gruppo di controllo ([Mah et al., 2011, *Sleep*](https://doi.org/10.5665/SLEEP.1132)). I risultati riportati sono notevoli — circa **+111 minuti** di sonno per notte, tempo sullo sprint da 16,2 a 15,5 secondi, **+9%** di tiri liberi e **+9,2%** da tre punti.
+**Sulle atlete adolescenti non esistono prove solide: l'evidenza più citata viene da undici cestisti universitari maschi.** Quando si legge che "dormire di più migliora la prestazione", la fonte è quasi sempre quella: uno studio di estensione del sonno su **11 cestisti universitari maschi**, età media 19,4 anni, senza gruppo di controllo ([Mah et al., 2011, *Sleep*](https://doi.org/10.5665/SLEEP.1132)). I risultati riportati sono notevoli — circa **+111 minuti** di sonno per notte, tempo sullo sprint da 16,2 a 15,5 secondi, **+9%** di tiri liberi e **+9,2%** da tre punti.
 
 Ma quel campione è **adulto, maschile e minuscolo**. Presentare quei numeri come validi per una ragazza di 14 anni sarebbe scorretto: la fisiologia puberale, il carico di crescita e il profilo di sonno femminile adolescenziale sono diversi. Su questo tema, sulle atlete adolescenti, **le prove di performance semplicemente non ci sono ancora**. È un vuoto di ricerca, non una risposta.
 

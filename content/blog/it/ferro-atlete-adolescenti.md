@@ -2,11 +2,11 @@
 slug: ferro-atlete-adolescenti
 title: "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e che si trova con un esame)"
 date: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-26
 author: Sajid Hossain
-excerpt: "Più di una atleta adolescente su due ha riserve di ferro basse, e quasi nessuna lo sa: la carenza esiste molto prima dell'anemia e non dà sintomi evidenti. Dal 2026 le linee guida pediatriche americane raccomandano di testare tutte le adolescenti mestruate. Cosa dicono i dati, e perché la mossa giusta è un prelievo, non un integratore."
+excerpt: "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli."
 cover: /fotobab/cover-ferro-atlete.jpg
-coverAlt: "Tre varietà di lenticchie — verdi, rosse e nere — disposte in strisce affiancate su un piano grigio"
+coverAlt: "Tre varietà di lenticchie — verdi, rosse e nere — disposte in strisce affiancate su un piano grigio: legumi tra le fonti alimentari di ferro"
 tags:
   - ferro
   - salute
@@ -18,6 +18,10 @@ faq:
     a: "Non secondo i dati sulle adolescenti, ed è giusto dirlo. Uno studio che ha confrontato direttamente nuotatrici (46,7%), podiste (40%) e non atlete (26,7%) non ha trovato differenze statisticamente significative tra i gruppi (Rowland et al., 1991). E in uno studio svedese su 394 studentesse non atlete di circa 16 anni, il 73,6% aveva ferritina sotto 30 µg/L (Söderman et al., 2025). Il fattore dominante non è l'allenamento: sono le mestruazioni e l'alimentazione. Lo sport aggiunge motivi — nelle podiste la ferritina cala nel corso della stagione (Rowland et al., 1987) — e alza la posta, perché la fatica costa di più a chi si allena."
   - q: "Posso dare un integratore di ferro a mia figlia se è sempre stanca?"
     a: "No, non prima di un esame del sangue. Non è una formalità: senza una carenza documentata il ferro non porta benefici dimostrati, dà spesso effetti collaterali gastrointestinali e soprattutto rischia di mascherare altre cause della stanchezza. Anche in presenza di carenza i benefici sulla performance sono controversi: una revisione di 12 studi ne ha trovati 6 con miglioramento e 6 senza (Rubeor et al., 2018). La sequenza corretta è emocromo più ferritina, poi un medico decide. Mai il contrario."
+  - q: "La carenza di ferro dà sintomi riconoscibili?"
+    a: "Non abbastanza da poterci contare. La carenza non anemica si definisce su un valore di laboratorio — la ferritina — proprio perché l'emocromo resta normale: nello studio su 126 atlete di 11-18 anni la carenza lieve riguardava il 53,2% e l'anemia sideropenica solo il 4% (Nicotra et al., 2023). Tradotto: la maggior parte delle ragazze con riserve basse ha esami di routine perfettamente normali. È il motivo per cui il clinical report dell'American Academy of Pediatrics del 2026 raccomanda uno screening di laboratorio e non un sospetto basato sui sintomi. Una stanchezza che non passa con il riposo resta un buon motivo per chiedere l'esame, non per dedurre la diagnosi."
+  - q: "Una dieta vegetariana o povera di carne aumenta il rischio?"
+    a: "Sì, ed è un dato misurato nell'età giusta. In uno studio su 394 studentesse post-menarca di circa 16 anni, una dieta che limita la carne si associava a odds di carenza 3,5 volte più alte; un flusso mestruale abbondante a 3 volte più alte; le due cose insieme a 13,5 volte (IC 95% 6,4-28,7) (Söderman et al., 2025). Non è un argomento contro le diete vegetariane: è un argomento a favore del controllo. Una dieta senza carne ben pianificata non è un problema in sé — è un motivo in più per misurare la ferritina invece di presumerla."
   - q: "Quando andrebbe fatto il controllo?"
     a: "Dal 2026 il clinical report dell'American Academy of Pediatrics raccomanda uno screening universale con emocromo e ferritina sierica in tutte le adolescenti, ad almeno un anno dal menarca e comunque non oltre i 14 anni, con ferritina ≤30 ng/mL come soglia di carenza (AAP, 2026). Un gruppo di ematologi ed esperti di medicina dello sport propone in modo indipendente uno screening intorno ai 14-15 anni, da ripetere ogni cinque (Revel-Vilk et al., 2025). In Italia non esiste una raccomandazione di screening universale equivalente: la decisione spetta al pediatra o al medico dello sport."
 ---
@@ -62,7 +66,7 @@ Sul versante sportivo esistono meccanismi noti — l'esercizio innalza l'**epcid
 
 È la tentazione più naturale del mondo, ed è quella da evitare. **Non date integratori di ferro senza un esame del sangue.**
 
-Non è prudenza burocratica. È che, senza una carenza documentata, il ferro **non ha benefici dimostrati**, dà con frequenza effetti collaterali gastrointestinali, e soprattutto **maschera** altre cause della stanchezza — che a 14 anni possono essere il sonno, il carico, la scuola, o [una disponibilità energetica troppo bassa](/blog/red-s-bassa-disponibilita-energetica).
+Non è prudenza burocratica. È che, senza una carenza documentata, il ferro **non ha benefici dimostrati**, dà con frequenza effetti collaterali gastrointestinali, e soprattutto **maschera** altre cause della stanchezza — che a 14 anni possono essere [il sonno](/blog/sonno-atlete-adolescenti), il carico, la scuola, o [una disponibilità energetica troppo bassa](/blog/red-s-bassa-disponibilita-energetica).
 
 E anche quando la carenza c'è, l'onestà impone di dire che i benefici sono **controversi**. Una revisione di 12 studi su 283 partecipanti ha trovato **6 studi con miglioramento della performance e 6 senza** (Rubeor et al., 2018). Gli autori notano che i sei positivi usavano tutti una soglia di trattamento di ferritina ≤20 µg/L: sotto quella soglia, integrare sembra avere più senso. L'unico trial condotto proprio su atlete adolescenti — 14 podiste con ferritina sotto 20, in doppio cieco — ha mostrato un miglioramento significativo del tempo di endurance, senza differenze nel VO2max (Rowland et al., 1988). Quattordici partecipanti, nel 1988: è la miglior evidenza sull'età giusta che abbiamo, ed è poca.
 

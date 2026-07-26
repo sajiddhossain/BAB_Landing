@@ -1,10 +1,10 @@
 ---
 slug: parlare-di-ciclo-con-allenatore
-title: "The cycle and the coach: the silence that holds athletes back (and how to break it)"
+title: "Talking about periods with your coach: why only 11% of athletes do (and how to change it)"
 date: 2026-07-03
-updated: 2026-07-18
+updated: 2026-07-26
 author: Sajid Hossain
-excerpt: "Only 11% of athletes talk about their menstrual cycle with their coach: 4% if he's a man, 55% if she's a woman. And 88% learned these things on their own. It isn't disinterest, it's the absence of a safe channel. What the data on 1,086 athletes show, and what coaches can actually do."
+excerpt: "Only 11% of athletes talk about their menstrual cycle with their coach: 4% if he's a man, 55% if she's a woman. And 88% learned these things on their own. It isn't disinterest: it is the absence of a safe channel. What data from 1,086 athletes across 57 sports show, what coaches can actually say, and how to open the channel without forcing anyone to expose herself."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
 coverAlt: "A smiling girl sitting at her desk at home, headphones round her neck, writing in a notebook"
 tags:
@@ -20,6 +20,10 @@ faq:
     a: "Because education is almost entirely informal: in the same study, 88% of athletes had learned these things on their own. There's no shared language and no safe channels. Silence is not disinterest: it's the absence of a simple, non-embarrassing way to communicate."
   - q: "How can I talk to my coach about my period without feeling embarrassed?"
     a: "You don't have to share personal details. A functional, training-centred sentence is enough: \"my energy is low today, I'd rather reduce the load\" tells staff everything they need without exposing anything private. Coaches don't need the clinical fact; they need to know how to pitch the session. And if an environment makes even that sentence impossible, the problem is the environment, not the athlete."
+  - q: "Do you need a female coach for athletes to talk about it?"
+    a: "It helps a great deal, but it is not the structural fix. In the study of 1,086 athletes, the share discussing menstrual matters rises from 4% with a male coach to 55% with a female coach (Höök et al., 2022): the gap is huge, and it says the coach's gender matters. But 53% of athletes rated their coach's knowledge of female athlete health as poor, and 88% had learned these things on their own — so the gap is one of training and of channel, not only of gender. Swapping people is not enough: you have to raise the staff's baseline knowledge and give the athlete a way to communicate that doesn't force her to expose herself."
+  - q: "What else do athletes not talk about with their coaches?"
+    a: "The silence is not limited to periods. Among adolescent female athletes, 87% say they would not discuss urinary leakage during activity with their coach, and between 69% and 90% have never heard of pelvic floor training (Rial Rebullido et al., 2021). It is the same mechanism: a common symptom, no shared language to name it, and therefore no conversation."
   - q: "What can a coach say to make the topic less taboo?"
     a: "A few words, said once and backed up by behaviour: \"you can talk about this here, and nobody gets judged for it.\" Then consistency — don't comment on bodies, don't treat fatigue as an excuse, don't ask for details. In Höök and colleagues' study (2022), 53% of athletes rated their coach's knowledge of female-athlete health as poor: closing that gap is the staff's responsibility, not the girls'."
 ---
@@ -52,7 +56,7 @@ One necessary caveat on age: Höök and colleagues' sample includes adult and ad
 
 It's easy to read that 4% as indifference. It's the opposite. In qualitative research on international rugby players, **93% reported cycle-related symptoms** and **two-thirds perceived an impact on performance** ([Findlay et al., 2020, *BJSM*](https://doi.org/10.1136/bjsports-2019-101486)). Athletes *live* the topic every month. They simply have no comfortable way to bring it to the person coaching them — especially if he's a man, especially at 13-14, especially in front of teammates.
 
-Silence, in other words, is **a channel problem**, not a willingness problem. And it has a measurable cost: among adolescents aged 10-18, between **25.2% and 61.1%** avoid or reduce physical activity during their period, often out of fear of leaks and embarrassment rather than pain ([Harvey et al., 2025, *BMC Women's Health*](https://doi.org/10.1186/s12905-025-03825-w)). Those are lost training sessions nobody records — a mechanism we covered in detail in [the cycle and performance](/blog/ciclo-e-performance).
+Silence, in other words, is **a channel problem**, not a willingness problem. And it has a measurable cost: among adolescents aged 10-18, between **25.2% and 61.1%** avoid or reduce physical activity during their period, often out of fear of leaks and embarrassment rather than pain ([Harvey et al., 2025, *BMC Women's Health*](https://doi.org/10.1186/s12905-025-03825-w)). Those are lost training sessions nobody records — a mechanism we covered in detail in [the cycle and performance](/blog/ciclo-e-performance). And periods are not the only topic that stays outside the changing room: [urinary leakage during sport](/blog/perdite-urina-giovani-atlete) follows exactly the same curve of silence.
 
 ## The bridge: awareness for staff, privacy for the athlete
 
@@ -80,5 +84,6 @@ BAB was born exactly in this void. It gives the athlete a **private space** to r
 - Findlay R.J., et al. **How the menstrual cycle and menstruation affect sporting performance: experiences of elite female rugby players.** *Br J Sports Med*, 2020. (n=15 international rugby players, **adults**) [doi:10.1136/bjsports-2019-101486](https://doi.org/10.1136/bjsports-2019-101486)
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studies, 33 countries, adolescents aged 10-18) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
 - Cowley E.S., Olenick A.A., McNulty K.L., Ross E.Z. **"Invisible Sportswomen": the sex data gap in sport and exercise science research.** *Women in Sport and Physical Activity Journal*, 2021;29(2):146-151. [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
+- Rial Rebullido T., Stracciolini A., Faigenbaum A.D., Chulvi-Medrano I. **Pelvic Floor Dysfunction in Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studies, 633 athletes under 19, mean age 16.15) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
 
 *This article is for informational and educational purposes and does not constitute medical advice.*

@@ -2,11 +2,11 @@
 slug: ferro-atlete-adolescenti
 title: "Low iron in teenage athletes: the deficiency nobody looks for (and a blood test finds)"
 date: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-26
 author: Sajid Hossain
-excerpt: "More than one teenage athlete in two has low iron stores, and almost none of them know: deficiency exists long before anaemia and gives no obvious symptoms. Since 2026, US paediatric guidance recommends testing every menstruating adolescent. What the evidence says, and why the right move is a blood test, not a supplement."
+excerpt: "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone."
 cover: /fotobab/cover-ferro-atlete.jpg
-coverAlt: "Three varieties of lentils — green, red and black — laid out in stripes on a grey surface"
+coverAlt: "Three varieties of lentils — green, red and black — laid out in stripes on a grey surface: pulses among the dietary sources of iron"
 tags:
   - iron
   - health
@@ -18,6 +18,10 @@ faq:
     a: "Not according to the adolescent data, and it's only fair to say so. A study directly comparing swimmers (46.7%), runners (40%) and non-athletes (26.7%) below the 12 ng/ml threshold found no statistically significant differences between groups (Rowland et al., 1991). And in a Swedish study of 394 non-athlete students around age 16, 73.6% had ferritin below 30 µg/L (Söderman et al., 2025). The dominant factors aren't training: they're menstruation and diet. Sport adds reasons — ferritin declines across a season in runners (Rowland et al., 1987) — and raises the stakes, because fatigue costs more when you train."
   - q: "Can I give my daughter an iron supplement if she's always tired?"
     a: "No — not before a blood test. This isn't a formality: without documented deficiency, iron has no demonstrated benefit, frequently causes gastrointestinal side effects, and above all risks masking other causes of fatigue. Even where deficiency exists, performance benefits are contested: a review of 12 studies found 6 showing improvement and 6 showing none (Rubeor et al., 2018). The right sequence is a full blood count plus ferritin, then a doctor decides. Never the reverse."
+  - q: "Does iron deficiency give recognisable symptoms?"
+    a: "Not reliably enough to count on. Non-anaemic deficiency is defined by a laboratory value — ferritin — precisely because the blood count stays normal: in the study of 126 athletes aged 11-18, mild deficiency affected 53.2% while iron-deficiency anaemia affected only 4% (Nicotra et al., 2023). In other words, most girls with low stores have perfectly normal routine tests. That is why the 2026 clinical report from the American Academy of Pediatrics recommends laboratory screening rather than symptom-led suspicion. Fatigue that doesn't lift with rest is still a good reason to ask for the test — not to infer the diagnosis."
+  - q: "Does a vegetarian or low-meat diet increase the risk?"
+    a: "Yes, and it has been measured in the right age band. In a study of 394 post-menarcheal students of around 16, a diet limiting meat was associated with 3.5 times higher odds of deficiency; heavy menstrual bleeding with 3 times higher odds; the two combined with 13.5 times (95% CI 6.4-28.7) (Söderman et al., 2025). This is not an argument against vegetarian diets: it is an argument for testing. A well-planned meat-free diet is not a problem in itself — it is one more reason to measure ferritin instead of assuming it."
   - q: "When should the check happen?"
     a: "Since 2026 the American Academy of Pediatrics clinical report recommends universal laboratory screening with a complete blood count and serum ferritin in all adolescents, at least one year post-menarche and no later than age 14, with ferritin ≤30 ng/mL as the threshold for deficiency (AAP, 2026). Independently, a group of haematologists and sports medicine experts proposes screening around ages 14-15, repeated every five years (Revel-Vilk et al., 2025). Guidance varies by country — the decision rests with your paediatrician or sports physician."
 ---
@@ -62,7 +66,7 @@ On the sporting side there are known mechanisms — exercise raises **hepcidin**
 
 It's the most natural temptation in the world, and it's the one to resist. **Don't give iron supplements without a blood test.**
 
-This isn't box-ticking. Without documented deficiency, iron has **no demonstrated benefit**, frequently causes gastrointestinal side effects, and above all **masks** other causes of fatigue — which at 14 might be sleep, training load, school, or [energy availability that's too low](/blog/red-s-bassa-disponibilita-energetica).
+This isn't box-ticking. Without documented deficiency, iron has **no demonstrated benefit**, frequently causes gastrointestinal side effects, and above all **masks** other causes of fatigue — which at 14 might be [sleep](/blog/sonno-atlete-adolescenti), training load, school, or [energy availability that's too low](/blog/red-s-bassa-disponibilita-energetica).
 
 And even where deficiency exists, honesty requires saying the benefits are **contested**. A review of 12 studies across 283 participants found **6 studies showing improved performance and 6 showing none** (Rubeor et al., 2018). The authors note that all six positive studies used a treatment threshold of ferritin ≤20 µg/L: below that line, supplementing appears to make more sense. The only trial run specifically on adolescent female athletes — 14 runners with ferritin under 20, double-blind — showed a significant improvement in treadmill endurance time, with no difference in VO2max (Rowland et al., 1988). Fourteen participants, in 1988: it's the best evidence at the right age we have, and it isn't much.
 

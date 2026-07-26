@@ -1,10 +1,10 @@
 ---
 slug: parlare-di-ciclo-con-allenatore
-title: "Il ciclo e l'allenatore: il silenzio che frena le atlete (e come romperlo)"
+title: "Parlare di ciclo con l'allenatore: perché lo fa solo l'11% delle atlete (e come cambiarlo)"
 date: 2026-07-03
-updated: 2026-07-18
+updated: 2026-07-26
 author: Sajid Hossain
-excerpt: "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: 4% se è un uomo, 55% se è una donna. E l'88% ha imparato queste cose da sola. Non è disinteresse, è l'assenza di un canale sicuro. Cosa dicono i dati su 1.086 atlete, e cosa può fare davvero chi allena."
+excerpt: "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: il 4% se è un uomo, il 55% se è una donna. E l'88% ha imparato queste cose da sola. Non è disinteresse: è l'assenza di un canale sicuro. Cosa dicono i dati raccolti su 1.086 atlete in 57 sport, cosa può dire davvero chi allena, e come si apre il canale senza obbligare nessuna a esporsi."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
 coverAlt: "Ragazza sorridente seduta alla scrivania di camera sua, con cuffie al collo, mentre scrive su un quaderno"
 tags:
@@ -20,6 +20,10 @@ faq:
     a: "Perché l'educazione è quasi tutta informale: nello stesso studio, l'88% delle atlete aveva imparato queste cose da sola. Manca un linguaggio condiviso e mancano canali sicuri. Il silenzio non è disinteresse: è l'assenza di un modo semplice e non imbarazzante per comunicare."
   - q: "Come faccio a parlare di ciclo con il mio allenatore senza imbarazzo?"
     a: "Non serve raccontare dettagli personali. Basta un linguaggio funzionale, centrato sull'allenamento: «oggi ho poca energia, preferirei ridurre il carico» dice tutto ciò che serve allo staff, senza esporre nulla di privato. Chi allena non ha bisogno del dato clinico: ha bisogno di sapere come dosare la seduta. E se un ambiente rende impossibile anche solo questa frase, il problema è dell'ambiente, non dell'atleta."
+  - q: "Serve un'allenatrice donna perché le atlete ne parlino?"
+    a: "Aiuta molto, ma non è la soluzione strutturale. Nello studio su 1.086 atlete la quota che affronta tematiche mestruali passa dal 4% con un allenatore uomo al 55% con un'allenatrice donna (Höök et al., 2022): il divario è enorme e dice che il genere di chi allena pesa. Ma il 53% delle atlete giudicava scarsa la conoscenza del proprio allenatore sulla salute dell'atleta donna, e l'88% aveva imparato queste cose da sola — cioè il vuoto è di formazione e di canale, non solo di genere. Sostituire le persone non basta: serve alzare la cultura di base dello staff e dare all'atleta un modo di comunicare che non la costringa a esporsi."
+  - q: "Di quali altri temi le atlete non parlano con chi le allena?"
+    a: "Il silenzio non riguarda solo il ciclo. Tra le atlete adolescenti, l'87% dichiara che non parlerebbe con il proprio allenatore di perdite di urina durante l'attività, e dal 69% al 90% non ha mai sentito nominare l'allenamento del pavimento pelvico (Rial Rebullido et al., 2021). È lo stesso meccanismo: un sintomo frequente, nessun linguaggio condiviso per nominarlo, e quindi nessuna conversazione."
   - q: "Cosa può dire un allenatore per rendere il tema meno tabù?"
     a: "Poche parole, dette una volta e mantenute nei fatti: «qui se ne può parlare, e nessuno viene valutato per questo». Poi coerenza — non commentare i corpi, non trattare la stanchezza come una scusa, non chiedere dettagli. Nello studio di Höök e colleghi (2022) il 53% delle atlete giudicava scarsa la conoscenza del proprio allenatore sulla salute dell'atleta donna: colmare quel vuoto è responsabilità dello staff, non delle ragazze."
 ---
@@ -52,7 +56,7 @@ Una precisazione doverosa sull'età: il campione di Höök e colleghi comprende 
 
 È facile leggere quel 4% come indifferenza. È l'opposto. In una ricerca qualitativa su rugbiste internazionali, il **93% riferiva sintomi legati al ciclo** e i **due terzi percepivano un impatto sulla performance** ([Findlay et al., 2020, *BJSM*](https://doi.org/10.1136/bjsports-2019-101486)). Le atlete *vivono* il tema ogni mese. Semplicemente, non hanno un modo comodo per portarlo a chi le allena — soprattutto se è un uomo, soprattutto a 13-14 anni, soprattutto davanti alle compagne.
 
-Il silenzio, insomma, è **un problema di canale**, non di volontà. E ha un costo misurabile: tra le adolescenti di 10-18 anni, dal **25,2% al 61,1%** evita o riduce l'attività fisica durante le mestruazioni, spesso per paura delle perdite e imbarazzo più che per il dolore ([Harvey et al., 2025, *BMC Women's Health*](https://doi.org/10.1186/s12905-025-03825-w)). Sono allenamenti persi che nessuno registra — un meccanismo che abbiamo raccontato nel dettaglio parlando di [ciclo e performance](/blog/ciclo-e-performance).
+Il silenzio, insomma, è **un problema di canale**, non di volontà. E ha un costo misurabile: tra le adolescenti di 10-18 anni, dal **25,2% al 61,1%** evita o riduce l'attività fisica durante le mestruazioni, spesso per paura delle perdite e imbarazzo più che per il dolore ([Harvey et al., 2025, *BMC Women's Health*](https://doi.org/10.1186/s12905-025-03825-w)). Sono allenamenti persi che nessuno registra — un meccanismo che abbiamo raccontato nel dettaglio parlando di [ciclo e performance](/blog/ciclo-e-performance). E il ciclo non è l'unico tema che resta fuori dallo spogliatoio: [le perdite di urina durante lo sport](/blog/perdite-urina-giovani-atlete) seguono esattamente la stessa curva di silenzio.
 
 ## Il ponte: cultura per lo staff, privacy per l'atleta
 
@@ -80,5 +84,6 @@ BAB nasce esattamente in questo vuoto. Dà all'atleta uno **spazio privato** per
 - Findlay R.J., et al. **How the menstrual cycle and menstruation affect sporting performance: experiences of elite female rugby players.** *Br J Sports Med*, 2020. (n=15 rugbiste internazionali, **adulte**) [doi:10.1136/bjsports-2019-101486](https://doi.org/10.1136/bjsports-2019-101486)
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studi, 33 Paesi, adolescenti 10-18 anni) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
 - Cowley E.S., Olenick A.A., McNulty K.L., Ross E.Z. **"Invisible Sportswomen": the sex data gap in sport and exercise science research.** *Women in Sport and Physical Activity Journal*, 2021;29(2):146-151. [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
+- Rial Rebullido T., Stracciolini A., Faigenbaum A.D., Chulvi-Medrano I. **Pelvic Floor Dysfunction in Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studi, 633 atlete sotto i 19 anni, età media 16,15) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
 
 *Questo articolo ha finalità informative e divulgative e non costituisce parere medico.*
