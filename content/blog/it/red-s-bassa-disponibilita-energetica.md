@@ -2,7 +2,7 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)"
 date: 2026-07-04
-updated: 2026-07-24
+updated: 2026-07-28
 author: Sajid Hossain
 excerpt: "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica."
 cover: /fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif
@@ -65,7 +65,7 @@ Nessuno di questi segnali, da solo, "fa diagnosi". Ma insieme meritano ascolto e
 
 - **Ciclo mestruale assente o irregolare** dopo il menarca, non spiegato da altro.
 - **Stanchezza che non passa** con il normale recupero.
-- **Infortuni da sovraccarico ricorrenti**, comprese le fratture da stress. Un corpo che recupera peggio è anche un corpo più esposto agli infortuni acuti: [la prevenzione del crociato](/blog/crociato-giovani-atlete) passa dallo stesso terreno.
+- **Infortuni da sovraccarico ricorrenti**, comprese le [fratture da stress](/blog/salute-ossea-fratture-da-stress-giovani-atlete). Qui l'evidenza è quantificata: in uno studio prospettico multicentrico su 259 ragazze e giovani donne attive (età media 18,1 anni), chi aveva bassa densità ossea e si allenava ≥12 ore a settimana ha subito una lesione ossea da stress nel **29,7%** dei casi, e chi sommava ≥12 ore, uno sport «di magrezza» e restrizione alimentare nel **46,2%**, contro un 10,8% complessivo ([Barrack et al., 2014](https://doi.org/10.1177/0363546513520295)). Un corpo che recupera peggio è anche un corpo più esposto agli infortuni acuti: [la prevenzione del crociato](/blog/crociato-giovani-atlete) passa dallo stesso terreno.
 - **Prestazione che cala** nonostante l'impegno aumenti.
 - **Sonno disturbato, umore giù, frequente raffreddore/malanno.** Il sonno merita attenzione a parte: la raccomandazione di consenso per i 13-18 anni è di **8-10 ore per notte** ([Paruthi et al., 2016](https://doi.org/10.5664/jcsm.5866)), e negli atleti adolescenti dormire meno di 8 ore è associato a essere infortunati 1,7 volte più spesso ([Milewski et al., 2014](https://doi.org/10.1097/BPO.0000000000000151)) — ne abbiamo parlato in [sonno e atlete adolescenti](/blog/sonno-atlete-adolescenti).
 
@@ -97,6 +97,7 @@ BAB non diagnostica e non sostituisce un medico. Aiuta l'atleta a **riconoscere 
 - Mountjoy M., et al. **2023 IOC consensus statement on Relative Energy Deficiency in Sport (REDs).** *Br J Sports Med*, 2023. [doi:10.1136/bjsports-2023-106994](https://doi.org/10.1136/bjsports-2023-106994)
 - Mountjoy M., et al. **The IOC consensus statement: beyond the Female Athlete Triad — Relative Energy Deficiency in Sport (RED-S).** *Br J Sports Med*, 2014. [doi:10.1136/bjsports-2014-093502](https://doi.org/10.1136/bjsports-2014-093502)
 - De Souza M.J., et al. **Female Athlete Triad Coalition consensus statement.** *Br J Sports Med*, 2014. [doi:10.1136/bjsports-2013-093218](https://doi.org/10.1136/bjsports-2013-093218)
+- Barrack M.T., Gibbs J.C., De Souza M.J., Williams N.I., Nichols J.F., Rauh M.J., Nattiv A. **Higher Incidence of Bone Stress Injuries With Increasing Female Athlete Triad-Related Risk Factors: A Prospective Multisite Study of Exercising Girls and Women.** *The American Journal of Sports Medicine*, 2014;42(4):949-958. (n=259, **età media 18,1 anni**: ragazze e giovani donne, non preadolescenti; studio osservazionale) [doi:10.1177/0363546513520295](https://doi.org/10.1177/0363546513520295)
 - Melin A., et al. **The LEAF questionnaire: a screening tool for the female athlete triad / RED-S.** *Br J Sports Med*, 2014. [doi:10.1136/bjsports-2013-093240](https://doi.org/10.1136/bjsports-2013-093240)
 - Armento A., et al. **Adolescent female athletes' beliefs about menstrual dysfunction.** 2021. [doi:10.4085/624-20](https://doi.org/10.4085/624-20)
 - Cowley E.S., et al. **"Invisible Sportswomen": the sex data gap in sport and exercise science research.** *Women in Sport and Physical Activity Journal*, 2021. [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)

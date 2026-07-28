@@ -60,3 +60,13 @@
   Scelta del soggetto: campetto polivalente (basket + porte da calcio) come immagine del gioco
   libero e multi-sport, cioè l'opposto della specializzazione precoce.
   Le persone presenti sono riprese dall'alto e a distanza, non identificabili: nessun volto leggibile.
+
+## cover-salute-ossea.jpg
+- Titolo originale: "Hopscotch game"
+- Fonte: Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Hopscotch_game.jpg (reperita via Openverse)
+- Autore: Gwasheya (opera propria, Wiki Loves Africa 2024, Namibia)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "salute ossea e fratture da stress nelle giovani atlete" (IT + EN)
+- Lavorazione: originale 3024x4032 (verticale), ritaglio centrato 16:9 a 3024x1701 e resample a 1200x675, JPEG q85.
+  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: il gioco della campana come immagine del carico a impatto — l'attività che nei dati costruisce osso.

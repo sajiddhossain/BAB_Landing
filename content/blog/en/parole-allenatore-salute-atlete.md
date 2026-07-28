@@ -2,7 +2,7 @@
 slug: parole-allenatore-salute-atlete
 title: "A coach's words: how staff knowledge and language change athletes' health"
 date: 2026-07-09
-updated: 2026-07-22
+updated: 2026-07-28
 author: Sajid Hossain
 excerpt: "How much does what a coach knows and says actually matter? Athletes who perceive their coach as very knowledgeable report 36% fewer RED-S symptoms; those who have received comments about their body are four times more likely to change how they eat (33% vs 7%). Staff language is not a neutral backdrop to training: it is a measurable health variable. The data, the limits, and what to do with it tomorrow in the gym."
 cover: /fotobab/Lk1n229r5pBnV0VjfyxuaNksAM8.avif
@@ -42,9 +42,9 @@ RED-S — *Relative Energy Deficiency in Sport*, the low-energy-availability syn
 
 One necessary caveat: this is not a randomised study and does not prove cause and effect. But it is one of the very few datasets that explicitly links the **perceived knowledge level of staff** to a **health outcome measured in athletes**, with a number attached. And the direction is consistent with the rest of the literature.
 
-## The other side: words that harm
+## Can a comment about an athlete's body change how she eats?
 
-If knowledge helps, carelessness does concrete damage. In the same report, **53%** of athletes had received, in a sporting context, comments about their body that made them uncomfortable. Those who had were **four times more likely** to change how they ate to "fit in" with their sport (**33% vs 7%**) and reported **34% more RED-S symptoms**.
+**Yes, and the effect is measured: four times the odds of changing her eating.** If knowledge helps, carelessness does concrete damage. In the same report, **53%** of athletes had received, in a sporting context, comments about their body that made them uncomfortable. Those who had were **four times more likely** to change how they ate to "fit in" with their sport (**33% vs 7%**) and reported **34% more RED-S symptoms**.
 
 The point is that the effect matters, not the intention. "You should lean out a bit", "you're heavier this year", even a clumsy compliment: in an adolescent's mind these can turn into a dietary rule. And the ground is already fragile — **74%** of athletes had, at some point, felt "like they didn't look like an athlete", and **91%** had worried about how many calories they were eating. In that context, a coach's comment doesn't land in a vacuum: it lands on a worry that is often already there.
 
@@ -60,7 +60,7 @@ Here honesty is required. The UK report's sample has an **average age of 32**: i
 
 Two elements, though, indicate that adolescence is exactly the window in which this culture makes the difference:
 
-- **Peak bone formation falls between ages 10 and 14**, and almost all bone mass is built by 18 ([Romano & Sass, 2025](https://doi.org/10.1016/j.jpag.2024.11.008)). A period of low energy availability in exactly those years leaves a mark that can no longer be recovered at 30. It's the age when the right — or wrong — words from staff weigh more, not less.
+- **Peak bone formation falls between ages 10 and 14**, and almost all bone mass is built by 18 ([Romano & Sass, 2025](https://doi.org/10.1016/j.jpag.2024.11.008)). The longitudinal data confirm the timing: total body bone mineral content plateaus on average 6 years after peak height velocity, around age 18 in girls ([Baxter-Jones et al., 2011, *J Bone Miner Res*](https://doi.org/10.1002/jbmr.412)). A period of low energy availability in exactly those years leaves a mark that can no longer be recovered at 30 — the mechanism we described writing about [bone health and stress fractures](/blog/salute-ossea-fratture-da-stress-giovani-atlete). It's the age when the right — or wrong — words from staff weigh more, not less.
 - Misinformation starts very early: among athletes aged **13-18**, **44%** believe that losing their period is a "normal response to high training load" ([Armento et al., 2021, *J Athl Train*](https://doi.org/10.4085/624-20)). If no one corrects the idea at that age, it becomes tomorrow's normal.
 
 The adult pattern, in other words, is not destiny: it's what happens when the culture isn't built at the right moment. And the right moment is now.
@@ -89,5 +89,6 @@ It's how you turn an attentive coach into an informed one without asking him to 
 - Armento A., et al. **Adolescent female athletes' beliefs about the menstrual cycle and sport.** *Journal of Athletic Training*, 2021. [doi:10.4085/624-20](https://doi.org/10.4085/624-20)
 - Höök M., et al. **Perceptions of and communication about the menstrual cycle among female athletes.** *International Journal of Environmental Research and Public Health*, 2022. [doi:10.3390/ijerph191911932](https://doi.org/10.3390/ijerph191911932)
 - Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studies, 633 adolescent athletes, mean age 16.15 years) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
+- Baxter-Jones A.D.G., Faulkner R.A., Forwood M.R., Mirwald R.L., Bailey D.A. **Bone Mineral Accrual from 8 to 30 Years of Age: An Estimation of Peak Bone Mass.** *Journal of Bone and Mineral Research*, 2011;26(8):1729-1739. (longitudinal study; bone mineral content plateaus at +6 years from peak height velocity, ~18 years in girls) [doi:10.1002/jbmr.412](https://doi.org/10.1002/jbmr.412)
 
 *This article is for informational and educational purposes and does not constitute medical advice.*

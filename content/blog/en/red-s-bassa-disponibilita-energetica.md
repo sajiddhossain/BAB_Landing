@@ -2,7 +2,7 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: when training more does harm (and how to catch it early)"
 date: 2026-07-04
-updated: 2026-07-24
+updated: 2026-07-28
 author: Sajid Hossain
 excerpt: "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
 cover: /fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif
@@ -65,7 +65,7 @@ None of these signs, alone, "makes a diagnosis". But together they deserve atten
 
 - **Absent or irregular period** after menarche, unexplained by anything else.
 - **Fatigue that won't lift** with normal recovery.
-- **Recurring overuse injuries**, including stress fractures. A body that recovers worse is also a body more exposed to acute injury: [ACL prevention](/blog/crociato-giovani-atlete) grows from the same ground.
+- **Recurring overuse injuries**, including [stress fractures](/blog/salute-ossea-fratture-da-stress-giovani-atlete). Here the evidence is quantified: in a prospective multisite study of 259 physically active girls and young women (mean age 18.1 years), those with low bone mineral density training ≥12 hours a week sustained a bone stress injury in **29.7%** of cases, and those combining ≥12 hours, a leanness sport and dietary restraint in **46.2%**, against 10.8% overall ([Barrack et al., 2014](https://doi.org/10.1177/0363546513520295)). A body that recovers worse is also a body more exposed to acute injury: [ACL prevention](/blog/crociato-giovani-atlete) grows from the same ground.
 - **Performance dropping** despite rising effort.
 - **Disturbed sleep, low mood, frequent colds/illness.** Sleep deserves separate attention: the consensus recommendation for ages 13-18 is **8-10 hours per night** ([Paruthi et al., 2016](https://doi.org/10.5664/jcsm.5866)), and among adolescent athletes sleeping under 8 hours is associated with being injured 1.7 times more often ([Milewski et al., 2014](https://doi.org/10.1097/BPO.0000000000000151)) — we covered this in [sleep and teenage athletes](/blog/sonno-atlete-adolescenti).
 
@@ -97,6 +97,7 @@ BAB does not diagnose and does not replace a doctor. It helps the athlete **reco
 - Mountjoy M., et al. **2023 IOC consensus statement on Relative Energy Deficiency in Sport (REDs).** *Br J Sports Med*, 2023. [doi:10.1136/bjsports-2023-106994](https://doi.org/10.1136/bjsports-2023-106994)
 - Mountjoy M., et al. **The IOC consensus statement: beyond the Female Athlete Triad — Relative Energy Deficiency in Sport (RED-S).** *Br J Sports Med*, 2014. [doi:10.1136/bjsports-2014-093502](https://doi.org/10.1136/bjsports-2014-093502)
 - De Souza M.J., et al. **Female Athlete Triad Coalition consensus statement.** *Br J Sports Med*, 2014. [doi:10.1136/bjsports-2013-093218](https://doi.org/10.1136/bjsports-2013-093218)
+- Barrack M.T., Gibbs J.C., De Souza M.J., Williams N.I., Nichols J.F., Rauh M.J., Nattiv A. **Higher Incidence of Bone Stress Injuries With Increasing Female Athlete Triad-Related Risk Factors: A Prospective Multisite Study of Exercising Girls and Women.** *The American Journal of Sports Medicine*, 2014;42(4):949-958. (n=259, **mean age 18.1 years**: girls and young women, not pre-adolescents; observational study) [doi:10.1177/0363546513520295](https://doi.org/10.1177/0363546513520295)
 - Melin A., et al. **The LEAF questionnaire: a screening tool for the female athlete triad / RED-S.** *Br J Sports Med*, 2014. [doi:10.1136/bjsports-2013-093240](https://doi.org/10.1136/bjsports-2013-093240)
 - Armento A., et al. **Adolescent female athletes' beliefs about menstrual dysfunction.** 2021. [doi:10.4085/624-20](https://doi.org/10.4085/624-20)
 - Cowley E.S., et al. **"Invisible Sportswomen": the sex data gap in sport and exercise science research.** *Women in Sport and Physical Activity Journal*, 2021. [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
