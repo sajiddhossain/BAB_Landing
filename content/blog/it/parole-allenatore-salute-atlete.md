@@ -2,7 +2,7 @@
 slug: parole-allenatore-salute-atlete
 title: "Le parole dell'allenatore: come la cultura e il linguaggio dello staff cambiano la salute delle atlete"
 date: 2026-07-09
-updated: 2026-07-22
+updated: 2026-07-28
 author: Sajid Hossain
 excerpt: "Quanto conta quello che un allenatore sa e dice? Le atlete che percepiscono il proprio allenatore come molto informato riportano il 36% di sintomi di RED-S in meno; chi ha ricevuto commenti sul proprio corpo è quattro volte più propensa a modificare l'alimentazione (33% contro 7%). Il linguaggio dello staff non è un contorno neutro dell'allenamento: è una variabile di salute misurabile. I dati, i limiti, e cosa farne domani in palestra."
 cover: /fotobab/Lk1n229r5pBnV0VjfyxuaNksAM8.avif
@@ -42,9 +42,9 @@ RED-S — *Relative Energy Deficiency in Sport*, la sindrome da bassa disponibil
 
 Una precisazione doverosa: questo non è uno studio randomizzato e non dimostra un rapporto di causa-effetto. Ma è uno dei pochissimi dataset che collega esplicitamente il **livello di conoscenza percepito dello staff** a un **esito di salute misurato sulle atlete**, con un numero. E la direzione è coerente con tutto il resto della letteratura.
 
-## L'altra faccia: le parole che feriscono
+## Un commento sul corpo può cambiare come mangia un'atleta?
 
-Se la conoscenza aiuta, la disattenzione fa danni concreti. Nello stesso report, **il 53%** delle atlete aveva ricevuto, in ambito sportivo, commenti sul proprio corpo che l'avevano messa a disagio. Chi li aveva ricevuti era **quattro volte più propenso** a modificare l'alimentazione per "adattarsi" al proprio sport (**33% contro 7%**) e riportava il **34% di sintomi di RED-S in più**.
+**Sì, e l'effetto è misurato: quattro volte più probabilità di modificare l'alimentazione.** Se la conoscenza aiuta, la disattenzione fa danni concreti. Nello stesso report, **il 53%** delle atlete aveva ricevuto, in ambito sportivo, commenti sul proprio corpo che l'avevano messa a disagio. Chi li aveva ricevuti era **quattro volte più propenso** a modificare l'alimentazione per "adattarsi" al proprio sport (**33% contro 7%**) e riportava il **34% di sintomi di RED-S in più**.
 
 Il punto è che conta l'effetto, non l'intenzione. "Dovresti scaricare un po'", "quest'anno sei più pesante", persino un complimento sbagliato: nella testa di un'adolescente possono trasformarsi in una regola alimentare. E il terreno è già fragile — il **74%** delle atlete si è sentita, a un certo punto, "come se non sembrasse un'atleta", e il **91%** si è preoccupata di quante calorie assumeva. In questo contesto, il commento dell'allenatore non cade nel vuoto: cade su una preoccupazione che spesso è già lì.
 
@@ -60,7 +60,7 @@ Qui serve onestà. Il campione del report UK ha un'**età media di 32 anni**: fo
 
 Due elementi, però, indicano che l'adolescenza è proprio la finestra in cui questa cultura fa la differenza:
 
-- Il **picco di formazione ossea si colloca tra i 10 e i 14 anni**, e la massa ossea si costruisce quasi tutta entro i 18 ([Romano & Sass, 2025](https://doi.org/10.1016/j.jpag.2024.11.008)). Un periodo di bassa disponibilità di energia proprio in quegli anni lascia un segno che a 30 anni non si recupera più. È l'età in cui le parole giuste — o sbagliate — dello staff pesano di più, non di meno.
+- Il **picco di formazione ossea si colloca tra i 10 e i 14 anni**, e la massa ossea si costruisce quasi tutta entro i 18 ([Romano & Sass, 2025](https://doi.org/10.1016/j.jpag.2024.11.008)). Il dato longitudinale conferma i tempi: il contenuto minerale osseo totale raggiunge un plateau in media 6 anni dopo il picco di velocità di crescita staturale, cioè intorno ai 18 anni nelle ragazze ([Baxter-Jones et al., 2011, *J Bone Miner Res*](https://doi.org/10.1002/jbmr.412)). Un periodo di bassa disponibilità di energia proprio in quegli anni lascia un segno che a 30 anni non si recupera più: è il meccanismo che abbiamo raccontato parlando di [salute ossea e fratture da stress](/blog/salute-ossea-fratture-da-stress-giovani-atlete). È l'età in cui le parole giuste — o sbagliate — dello staff pesano di più, non di meno.
 - La disinformazione parte prestissimo: tra atlete di **13-18 anni**, il **44%** crede che perdere il ciclo sia una "risposta normale all'alto carico" ([Armento et al., 2021, *J Athl Train*](https://doi.org/10.4085/624-20)). Se a quell'età nessuno corregge l'idea, diventa la normalità di domani.
 
 Il pattern degli adulti, insomma, non è un destino: è ciò che accade quando la cultura non viene costruita nel momento giusto. E il momento giusto è adesso.
@@ -89,5 +89,6 @@ BAB lavora esattamente su questo doppio fronte. All'atleta dà uno **spazio priv
 - Armento A., et al. **Adolescent female athletes' beliefs about the menstrual cycle and sport.** *Journal of Athletic Training*, 2021. [doi:10.4085/624-20](https://doi.org/10.4085/624-20)
 - Höök M., et al. **Perceptions of and communication about the menstrual cycle among female athletes.** *International Journal of Environmental Research and Public Health*, 2022. [doi:10.3390/ijerph191911932](https://doi.org/10.3390/ijerph191911932)
 - Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studi, 633 atlete adolescenti, età media 16,15 anni) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
+- Baxter-Jones A.D.G., Faulkner R.A., Forwood M.R., Mirwald R.L., Bailey D.A. **Bone Mineral Accrual from 8 to 30 Years of Age: An Estimation of Peak Bone Mass.** *Journal of Bone and Mineral Research*, 2011;26(8):1729-1739. (studio longitudinale; plateau del contenuto minerale osseo a +6 anni dal picco di crescita, ~18 anni nelle ragazze) [doi:10.1002/jbmr.412](https://doi.org/10.1002/jbmr.412)
 
 *Questo articolo ha finalità informative e divulgative e non costituisce parere medico.*
