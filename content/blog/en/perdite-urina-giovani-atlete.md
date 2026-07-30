@@ -2,11 +2,11 @@
 slug: perdite-urina-giovani-atlete
 title: "I leak when I jump: the symptom almost no young athlete talks about"
 date: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-30
 author: Sajid Hossain
-excerpt: "Among adolescent female athletes the average reported prevalence of urinary leakage during sport is 48.6%, rising to 80% in trampolining. Yet 87% say they would not mention it to their coach. It is not normal, it is not their fault, and it is not a life sentence: here are the data, and what can be done without medicalising anything."
+excerpt: "Leaking urine when jumping or landing affects on average 48.6% of adolescent female athletes, and 80% in trampolining. Yet 87% say they would not mention it to their coach. It is common, but common does not mean normal: what the data say about girls aged 13-17, why it is not their fault, and what a club can do without medicalising anything."
 cover: /fotobab/cover-pavimento-pelvico.jpg
-coverAlt: "Empty indoor sports hall with a green court, painted game lines and wooden stands"
+coverAlt: "Empty indoor sports hall seen from above: green floor with painted game lines, light wooden stands along one side, no people present"
 tags:
   - pavimento-pelvico
   - incontinenza
@@ -20,6 +20,10 @@ faq:
     a: "Almost none. In the adolescent review, 87% said they would not mention their symptoms to their coach, and between 69% and 90% had never heard of pelvic floor muscle training (Rial Rebullido et al., 2021). Among the 325 athletes at the Lima 2024 World Athletics U20 Championships, 78.2% of those with symptoms had never disclosed them to anyone, 95.1% had not sought specialist care, and 88% had never been screened (Giagio et al., 2025)."
   - q: "Can anything be done? And does it apply to adolescents?"
     a: "Yes to the first question, with honesty about the second. A systematic review of six studies on 131 female athletes found symptom improvement in five of six after pelvic floor rehabilitation programmes lasting 8 weeks to 4 months (Demeco et al., 2024). But the mean age of those participants is 23.19 years: they are adult athletes. The authors themselves flag that evidence specific to adolescent athletes is very limited. So: the direction is encouraging, the data on 13-14 year olds does not exist yet, and assessment belongs to a healthcare professional — not an app, not a coach."
+  - q: "Does leaking when jumping go away on its own with age?"
+    a: "There is no evidence that it resolves on its own, and the available data suggest the opposite: prevalence does not fall with age across adolescence. In the study of 319 gymnasts and cheerleaders aged 12-36, being 16-17 years old was significantly associated with stress urinary incontinence, alongside training four or more days a week (Skaug et al., 2022). And at the Lima 2024 U20 World Championships, among 325 athletes with a mean age of 18.1 years, 53.7% of the girls reported at least one pelvic floor symptom (Giagio et al., 2025): these are older athletes, not girls who grew out of it. Waiting is not a strategy; talking to a healthcare professional is."
+  - q: "What should a coach NOT do when an athlete brings it up?"
+    a: "Three things. First: do not reassure with 'that is normal' — it is common, not normal, and that difference is exactly what convinces a girl there is nothing to say. Second: do not ask for details or follow-up questions: the topic is intimate and involves minors, so opening the door does not mean walking through it. Third: do not prescribe exercises. Even in adults not every intervention works equally well — in one of the six studies in the systematic review, Kegel exercises alone produced no significant improvement (Demeco et al., 2024). Only one thing is needed from a coach: knowing who to refer her to."
   - q: "Can urinary leakage make a girl stop playing sport?"
     a: "It can reduce her training, and that is documented. Among 319 gymnasts and cheerleaders, 82.6% of those with stress urinary incontinence reported a negative effect on their sporting performance, 28.4% used protective pads, and 22.4% sometimes avoided training or specific exercises because of leakage (Skaug et al., 2022). Nobody records it as an injury, but it removes training sessions all the same."
 ---
@@ -51,22 +55,22 @@ The pelvic floor is the group of muscles that supports the bladder and pelvic or
 
 There is also an association with training load. In a cross-sectional study of **319 artistic gymnasts, team gymnasts and cheerleaders aged 12-36** (mean 17.4), urinary incontinence prevalence was **67.4%**, and training **four or more days a week** was significantly associated with stress urinary incontinence, alongside being 16-17 years old and the type of sport practised ([Skaug et al., 2022](https://doi.org/10.1007/s00192-021-04696-z)).
 
-## The real cost: training quietly taken away
+## What does it actually cost, in training sessions?
 
-The symptom on its own would be manageable. It is what surrounds it that is expensive.
+**The symptom on its own would be manageable: it is the withdrawal that grows around it that is expensive — and it affects more than one girl in five.**
 
 In the same study of gymnasts and cheerleaders, among those with stress urinary incontinence **82.6%** reported a negative effect on their sporting performance, **28.4%** used protective pads during activity, and **22.4%** had at least sometimes avoided training or specific exercises for fear of leaking. **26.4%** had never discussed it with anyone, and the recurring reasons were fear of visible leakage and embarrassment.
 
-It is the same mechanism we have seen elsewhere: a withdrawal nobody records as an injury, yet one that removes training sessions exactly like an injury. It applies to menstruation — where [25% to 61% of adolescent girls reduce or avoid physical activity](/blog/ciclo-e-performance) — and it applies to seemingly minor details like the [sports bra](/blog/reggiseno-sportivo-ragazze). The symptom changes; the dynamic does not: **the body changes, the environment stays silent, and the athlete removes herself from the situation.** It is one of the threads that leads to [dropping out](/blog/abbandono-puberta).
+It is the same mechanism we have seen elsewhere: a withdrawal nobody records as an injury, yet one that removes training sessions exactly like an injury. It applies to pain too: in the data, adolescent girls with [knee pain and no trauma](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) seek help in 55.7% of cases versus 80% of those who had an injury — an event seems to be needed before it feels allowed to ask. It applies to menstruation — where [25% to 61% of adolescent girls reduce or avoid physical activity](/blog/ciclo-e-performance) — and it applies to seemingly minor details like the [sports bra](/blog/reggiseno-sportivo-ragazze). The symptom changes; the dynamic does not: **the body changes, the environment stays silent, and the athlete removes herself from the situation.** It is one of the threads that leads to [dropping out](/blog/abbandono-puberta).
 
-## The silence, in numbers
+## How many girls talk to anyone about it?
 
-If one number sums up this article, it is how few people know.
+**Very few, and the number that sums up this article is not the prevalence: it is how few people know.**
 
 - **87%** of adolescent female athletes state they would **not** discuss their symptoms with their coach, and between **69% and 90%** had never heard of pelvic floor muscle training ([Rial Rebullido et al., 2021](https://doi.org/10.3390/jfmk6010012)).
 - Among the U20 athletes in Lima, **78.2%** of those with symptoms had never disclosed them to anyone, **95.1%** had not consulted a specialist, **88%** had never undergone any screening, and only **30%** reported being aware of pelvic floor health at all ([Giagio et al., 2025](https://doi.org/10.1136/bmjsem-2025-002564)).
 
-These are elite athletes with technical staff around them, at an international championship. If the screening rate is 12% there, it is reasonable to expect it to be closer to zero at a local club. And as with [the menstrual cycle and the coach](/blog/parlare-di-ciclo-con-allenatore), the silence is not girls being coy: it is the absence of a context in which the subject exists at all.
+These are elite athletes with technical staff around them, at an international championship. It is the same information vacuum measured on other topics of a changing body, from [iron](/blog/ferro-atlete-adolescenti) to [sleep](/blog/sonno-atlete-adolescenti). If the screening rate is 12% there, it is reasonable to expect it to be closer to zero at a local club. And as with [the menstrual cycle and the coach](/blog/parlare-di-ciclo-con-allenatore), the silence is not girls being coy: it is the absence of a context in which the subject exists at all.
 
 ## What the evidence says about what to do (and what it does not say)
 
@@ -102,6 +106,7 @@ On a topic like this, the difference between a girl who quits and a girl who car
 - Giagio S., Adami P.E., Bermon S., Rial-Rebullido T., Pillastrini P., Vecchiato M., Garrandes F. **Nearly half of 325 athletes reported pelvic floor symptoms: a cross-sectional study at the Lima 2024 World Athletics U20 Championships.** *BMJ Open Sport & Exercise Medicine*, 2025;11(3):e002564. (325 U20 athletes, 192 female and 133 male, mean age 18.1 years) [doi:10.1136/bmjsem-2025-002564](https://doi.org/10.1136/bmjsem-2025-002564)
 - Skaug K.L., Engh M.E., Frawley H., Bø K. **Urinary and anal incontinence among female gymnasts and cheerleaders — bother and associated factors. A cross-sectional study.** *International Urogynecology Journal*, 2022;33(4):955-964. (319 athletes aged 12-36, mean 17.4) [doi:10.1007/s00192-021-04696-z](https://doi.org/10.1007/s00192-021-04696-z)
 - Demeco A., et al. **The Efficacy of Pelvic Floor Rehabilitation in the Treatment of Urinary Incontinence in Female Athletes: A Systematic Review.** *Sports*, 2024;12(12):338. (6 studies, 131 athletes, **mean age 23.19 years — adult population**; the authors flag very limited evidence on adolescents) [doi:10.3390/sports12120338](https://doi.org/10.3390/sports12120338)
+- Rathleff M.S., Skuldbøl S.K., Rasch M.N.B., Roos E.M., Rasmussen S., Olesen J.L. **Care-seeking behaviour of adolescents with knee pain: a population-based study among 504 adolescents.** *BMC Musculoskeletal Disorders*, 2013;14:225. (504 Danish adolescents aged 15-19; among girls, help sought in 80% of traumatic-onset pain versus 55.7% of insidious-onset pain) [doi:10.1186/1471-2474-14-225](https://doi.org/10.1186/1471-2474-14-225)
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studies, 33 countries, adolescents aged 10-18) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
 
 *This article is for information purposes only and does not constitute medical advice. If you experience urinary leakage during physical activity, or any persistent symptom, please consult a healthcare professional.*

@@ -70,3 +70,15 @@
 - Lavorazione: originale 3024x4032 (verticale), ritaglio centrato 16:9 a 3024x1701 e resample a 1200x675, JPEG q85.
   Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: il gioco della campana come immagine del carico a impatto — l'attività che nei dati costruisce osso.
+
+## cover-dolore-ginocchio.jpg
+- Titolo originale: "Stade René-Saint-Germain, entrée escaliers"
+- Fonte: Wikimedia Commons — https://commons.wikimedia.org/w/index.php?curid=172244197 (reperita via Openverse)
+- Autore: Ptaff (opera propria, 6 agosto 2025, Sorel-Tracy, Québec)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "dolore femoro-rotuleo / il ginocchio che fa male da mesi" (IT + EN)
+- Lavorazione: originale 3840x2160, ritaglio 2960x1665 con offset (640, 300) per rendere dominante la scala,
+  resample a 1200x675, JPEG q85 progressivo.
+  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: la scala di uno stadio come immagine del gesto che nel dolore femoro-rotuleo
+  fa male per primo — salire e scendere le scale.
