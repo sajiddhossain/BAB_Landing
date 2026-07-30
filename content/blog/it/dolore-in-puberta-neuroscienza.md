@@ -2,9 +2,9 @@
 slug: dolore-in-puberta-neuroscienza
 title: "Il dolore cambia in pubertà: cosa dice la neuroscienza (e perché non sono 'scuse')"
 date: 2026-07-11
-updated: 2026-07-22
+updated: 2026-07-30
 author: Sajid Hossain
-excerpt: "Durante la pubertà il dolore clinico aumenta davvero: il dolore addominale sale a quasi il 30% nelle ragazze contro il 16% nei ragazzi, e il dolore mestruale riguarda il 71,1% delle giovani donne, con il 20,1% che salta scuola per questo. Non è fragilità né teatro: è una fase dello sviluppo documentata dalle neuroscienze. Ecco cosa succede, e perché conta per chi allena e per chi cresce una figlia."
+excerpt: "In pubertà il dolore clinico aumenta davvero: il dolore addominale sale a quasi il 30% nelle ragazze contro il 16% nei ragazzi, e il dolore mestruale riguarda il 71,1% delle giovani donne — il 20,1% salta scuola per questo. Non è fragilità né teatro: è una fase dello sviluppo documentata dalle neuroscienze. Cosa succede a 13-14 anni, come distinguere un dolore da osservare da uno da far vedere a un medico, e perché conta per chi allena e per chi cresce una figlia."
 cover: /fotobab/cover-dolore-puberta.jpg
 coverAlt: "Primo piano delle corsie bianche di una pista di atletica rossa, vuota"
 tags:
@@ -24,7 +24,7 @@ faq:
     a: "Non lo si distingue da soli, e questo articolo non serve a farlo. Alcuni elementi però indicano che è il momento di rivolgersi a un professionista sanitario invece di limitarsi a osservare: un dolore molto intenso, un dolore che non risponde alle misure abituali, un dolore che si ripresenta facendo saltare regolarmente scuola o allenamenti, oppure un dolore nuovo e diverso dal solito. Annotare intensità e ricorrenza serve proprio a questo: arrivare dal medico con una descrizione precisa invece che con un ricordo approssimativo."
 ---
 
-"Le fa male la pancia", "ha sempre mal di testa", "dice che oggi non ce la fa". Nello sport giovanile queste frasi vengono spesso archiviate come poca grinta o un po' di teatro. La ricerca racconta un'altra storia: **durante la pubertà il dolore cambia davvero** — non nella testa di chi lo prova, ma nei meccanismi che lo generano. E cambia proprio nella fascia d'età, 13-14 anni, in cui a una ragazza si chiede più spesso di "stringere i denti".
+Durante la pubertà il dolore clinico di una ragazza aumenta davvero, e la neuroscienza lo ha misurato. "Le fa male la pancia", "ha sempre mal di testa", "dice che oggi non ce la fa": nello sport giovanile queste frasi vengono spesso archiviate come poca grinta o un po' di teatro. La ricerca racconta un'altra storia: **il dolore in questa fase cambia davvero** — non nella testa di chi lo prova, ma nei meccanismi che lo generano. E cambia proprio nella fascia d'età, 13-14 anni, in cui a una ragazza si chiede più spesso di "stringere i denti".
 
 > **In breve**
 > - In pubertà il dolore **sperimentale** (a stimoli controllati) tende a **diminuire**, ma il dolore **clinico** — mal di testa, dolore addominale, dismenorrea — **aumenta**.
@@ -34,17 +34,17 @@ faq:
 > - La **dismenorrea** riguarda il **71,1%** delle giovani donne sotto i 25 anni; il **20,1%** salta scuola per questo motivo (Armour et al., 2019).
 > - Conseguenza pratica: il dolore va trattato come **informazione**, non come scusa — né, all'opposto, drammatizzato.
 
-## Due tipi di dolore che vanno in direzioni opposte
+## Se la tolleranza al dolore migliora, perché una ragazza ha più mal di pancia?
 
-Una review pubblicata su *Trends in Neurosciences* — rivista di neuroscienze ad alto impatto — ha messo in fila la letteratura su come il dolore si modifica durante l'adolescenza ([Nahman-Averbuch et al., 2023](https://doi.org/10.1016/j.tins.2023.01.006)). Il quadro che ne esce è controintuitivo, perché separa due cose che spesso confondiamo.
+**Perché sono due dolori diversi, e in pubertà vanno in direzioni opposte: il dolore misurato in laboratorio diminuisce, quello vero della vita quotidiana aumenta.** Una review pubblicata su *Trends in Neurosciences* — rivista di neuroscienze ad alto impatto — ha messo in fila la letteratura su come il dolore si modifica durante l'adolescenza ([Nahman-Averbuch et al., 2023](https://doi.org/10.1016/j.tins.2023.01.006)). Il quadro che ne esce è controintuitivo, perché separa due cose che spesso confondiamo.
 
 Il **dolore sperimentale** — quello misurato in laboratorio con stimoli controllati, come il freddo o la pressione — tende a **diminuire** con la maturazione puberale, in entrambi i sessi. In altre parole, davanti a uno stimolo standard il corpo di un adolescente diventa mediamente più tollerante.
 
 Il **dolore clinico** — quello vero, spontaneo: mal di testa, dolore addominale, dolore mestruale — fa l'opposto: **aumenta**. È la forma di dolore che conta nella vita di tutti i giorni, ed è proprio quella che cresce durante la pubertà. Confondere i due piani porta all'errore classico: "se regge una gara dura, allora il mal di pancia è una scusa". Sono due sistemi diversi.
 
-## Le differenze tra ragazze e ragazzi nascono adesso
+## Le ragazze sentono più dolore dei ragazzi?
 
-C'è un'idea diffusa secondo cui le femmine "sono sempre state più sensibili" al dolore. I dati dicono qualcosa di più preciso: **quella differenza non c'è nell'infanzia, si forma nell'adolescenza**.
+**In adolescenza sì, in media — ma non è un tratto che avevano da bambine: si forma adesso.** C'è un'idea diffusa secondo cui le femmine "sono sempre state più sensibili" al dolore. I dati dicono qualcosa di più preciso: **quella differenza non c'è nell'infanzia, si forma nell'adolescenza**.
 
 - Tra i **9 e gli 11 anni** non emergono differenze significative tra i sessi nel dolore a stimoli controllati. In **tarda adolescenza**, invece, le ragazze mostrano in media soglie più basse — cioè maggiore sensibilità — confermato da una meta-analisi sul *cold pressor test* sopra i 12 anni.
 - Il **dolore addominale**: prima della pubertà ha tassi simili tra i sessi (circa il 22%); dopo la pubertà arriva a quasi il **30% nelle ragazze** ma scende al **16% nei ragazzi**, in uno studio su oltre 15.000 adolescenti.
@@ -52,9 +52,9 @@ C'è un'idea diffusa secondo cui le femmine "sono sempre state più sensibili" a
 
 Non è un tratto caratteriale né un dato di "fragilità": è un cambiamento dello sviluppo che si accende in una finestra precisa, la stessa in cui una ragazza inizia a fare sport più serio, con carichi più alti e più pressione.
 
-## Il menarca precoce lascia un'impronta
+## Il menarca precoce lascia un'impronta sul dolore?
 
-C'è un altro filo che la review mette in evidenza, e che si parla pochissimo: il **timing del menarca**. Diversi studi di popolazione molto ampi — tra cui il norvegese HUNT e i dati HBSC su quasi **300.000 ragazze** — trovano che un **menarca precoce è associato a una maggiore prevalenza di mal di testa, dolore addominale e dolore alla schiena**, sia in adolescenza sia in età adulta.
+**Nei dati di popolazione sì: chi ha il primo ciclo prima riferisce più mal di testa, dolore addominale e dolore alla schiena, in adolescenza e da adulta.** C'è un altro filo che la review mette in evidenza, e che si parla pochissimo: il **timing del menarca**. Diversi studi di popolazione molto ampi — tra cui il norvegese HUNT e i dati HBSC su quasi **300.000 ragazze** — trovano che un **menarca precoce è associato a una maggiore prevalenza di mal di testa, dolore addominale e dolore alla schiena**, sia in adolescenza sia in età adulta.
 
 In parallelo, le **sindromi dolorose specifiche del corpo femminile** — dismenorrea, endometriosi — compaiono proprio intorno al menarca, e possono aumentare il rischio di altre sindromi dolorose croniche in seguito. Tradotto: il dolore mestruale precoce non è un episodio isolato da minimizzare, ma un segnale che vale la pena osservare nel tempo.
 
@@ -66,9 +66,9 @@ Il dato che rende il fenomeno impossibile da archiviare come "fastidio" è però
 
 Una precisazione sulla popolazione, perché conta: il campione comprende giovani donne **fino ai 25 anni**, non solo adolescenti, e i dati riguardano la scuola, non l'allenamento. Nessuno studio qui misura quante sedute saltano le atlete per dismenorrea. Ma se un dolore toglie un quinto delle presenze scolastiche, è ragionevole aspettarsi che tolga anche allenamenti — ed è esattamente ciò che si osserva nell'attività fisica, dove [dal 25% al 61% delle adolescenti riduce o evita l'attività durante le mestruazioni](/blog/ciclo-e-performance).
 
-## Non è "nella sua testa" — è biologia che cambia (insieme al resto)
+## Se c'entrano anche fattori psicologici, allora "è nella sua testa"?
 
-Perché succede tutto questo? La review propone un modello **biopsicosociale**: nessun singolo interruttore, ma più fattori che si intrecciano.
+**No: significa il contrario — che il dolore è reale e ha più cause insieme, non che sia immaginato.** La review propone un modello **biopsicosociale**: nessun singolo interruttore, ma più fattori che si intrecciano.
 
 - **Ormoni sessuali**: il testosterone ha un effetto antidolorifico piuttosto consistente; l'estrogeno ha effetti misti. La divergenza ormonale della pubertà è parte della spiegazione.
 - **Cervello che si rimodella**: cambiano struttura e funzione di aree coinvolte nel dolore, come l'amigdala e la corteccia prefrontale.
@@ -81,10 +81,10 @@ Il punto è delicato e va detto con onestà: dire che ci sono anche fattori psic
 Una precisazione doverosa: questa è letteratura di neuroscienze e pediatria, **non di scienze dello sport**. Riguarda gli adolescenti in generale, non le atlete nello specifico, e va presa come contesto scientifico di base — non come dato su performance o allenamento. Con questo limite in chiaro, tre indicazioni tengono:
 
 - **Trattare il dolore come informazione, non come scusa.** Se il dolore clinico aumenta proprio in questa fascia d'età, dismetterlo insegna alla ragazza a nasconderlo — e a nascondere significa non poter intervenire.
-- **Guardare gli schemi, non il singolo episodio.** Un mal di pancia isolato dice poco; lo stesso dolore che ritorna con una certa intensità, mese dopo mese, dice molto. Il valore sta nel tempo, non nella singola giornata.
+- **Guardare gli schemi, non il singolo episodio.** Un mal di pancia isolato dice poco; lo stesso dolore che ritorna con una certa intensità, mese dopo mese, dice molto. Il valore sta nel tempo, non nella singola giornata. Vale anche per il dolore localizzato: un dolore osseo che torna sempre nello stesso punto è un quadro diverso, e più urgente ([le fratture da stress](/blog/salute-ossea-fratture-da-stress-giovani-atlete)).
 - **Evitare i due estremi.** Né minimizzare ("è normale, stringi i denti"), né drammatizzare ogni fitta. La via di mezzo è osservare, annotare e, quando serve, rivolgersi a un professionista — perché monitorare non è diagnosticare.
 
-Vale anche un'avvertenza sul lessico: "frequente" e "normale" non sono sinonimi. È lo stesso equivoco che tiene in silenzio un altro sintomo diffusissimo tra le giovani atlete, [le perdite di urina durante i salti](/blog/perdite-urina-giovani-atlete) — comuni in quasi una su due, eppure taciute all'allenatore dall'87% delle ragazze.
+Lo stesso vale per il dolore muscoloscheletrico che dura: un ginocchio che fa male da mesi in un'adolescente non è un dolore di crescita che passa da solo, ed è il caso in cui "osservare gli schemi" ha la resa più alta — [ne abbiamo scritto qui](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete). Vale anche un'avvertenza sul lessico: "frequente" e "normale" non sono sinonimi. È lo stesso equivoco che tiene in silenzio un altro sintomo diffusissimo tra le giovani atlete, [le perdite di urina durante i salti](/blog/perdite-urina-giovani-atlete) — comuni in quasi una su due, eppure taciute all'allenatore dall'87% delle ragazze.
 
 ## Il ruolo di BAB
 

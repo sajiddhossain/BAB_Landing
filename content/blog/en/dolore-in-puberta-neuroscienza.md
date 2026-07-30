@@ -2,9 +2,9 @@
 slug: dolore-in-puberta-neuroscienza
 title: "Pain changes at puberty: what neuroscience says (and why it isn't 'being dramatic')"
 date: 2026-07-11
-updated: 2026-07-22
+updated: 2026-07-30
 author: Sajid Hossain
-excerpt: "During puberty clinical pain genuinely increases: abdominal pain rises to nearly 30% in girls versus 16% in boys, and period pain affects 71.1% of young women, with 20.1% missing school because of it. It isn't fragility or theatre: it's a developmental stage documented by neuroscience. Here's what happens, and why it matters for coaches and parents."
+excerpt: "During puberty clinical pain genuinely increases: abdominal pain rises to nearly 30% in girls versus 16% in boys, and period pain affects 71.1% of young women — 20.1% miss school because of it. It isn't fragility or theatre: it's a developmental stage documented by neuroscience. What happens at 13-14, how to tell pain worth watching from pain that needs a doctor, and why it matters for coaches and parents."
 cover: /fotobab/cover-dolore-puberta.jpg
 coverAlt: "Close-up of the white lane lines on an empty red athletics track"
 tags:
@@ -24,7 +24,7 @@ faq:
     a: "You don't tell them apart on your own, and this article is not the tool for it. Some markers do indicate it is time to see a healthcare professional rather than simply keep observing: pain that is very intense, pain that does not respond to the usual measures, pain that recurs and regularly costs school or training, or pain that is new and unlike the usual. Noting intensity and recurrence serves exactly this purpose: arriving at the appointment with a precise description instead of an approximate memory."
 ---
 
-"Her stomach hurts", "she always has a headache", "she says she can't manage today". In youth sport these lines are often filed under low grit or a bit of drama. Research tells a different story: **during puberty, pain genuinely changes** — not in the mind of the person feeling it, but in the mechanisms that generate it. And it changes precisely in the 13-14 age range, when a girl is most often asked to "grit her teeth".
+During puberty a girl's clinical pain genuinely increases, and neuroscience has measured it. "Her stomach hurts", "she always has a headache", "she says she can't manage today": in youth sport these lines are often filed under low grit or a bit of drama. Research tells a different story: **pain in this phase genuinely changes** — not in the mind of the person feeling it, but in the mechanisms that generate it. And it changes precisely in the 13-14 age range, when a girl is most often asked to "grit her teeth".
 
 > **In short**
 > - At puberty, **experimental** pain (to controlled stimuli) tends to **decrease**, but **clinical** pain — headaches, abdominal pain, dysmenorrhoea — **increases**.
@@ -34,17 +34,17 @@ faq:
 > - **Dysmenorrhoea** affects **71.1%** of young women under 25; **20.1%** miss school because of it (Armour et al., 2019).
 > - Practical upshot: pain should be treated as **information**, not as an excuse — nor, at the opposite extreme, dramatised.
 
-## Two kinds of pain that move in opposite directions
+## If pain tolerance improves, why does a girl get more stomach aches?
 
-A review published in *Trends in Neurosciences* — a high-impact neuroscience journal — lined up the literature on how pain shifts during adolescence ([Nahman-Averbuch et al., 2023](https://doi.org/10.1016/j.tins.2023.01.006)). The picture that emerges is counterintuitive, because it separates two things we often conflate.
+**Because these are two different kinds of pain, and at puberty they move in opposite directions: pain measured in the lab decreases, while the real pain of everyday life increases.** A review published in *Trends in Neurosciences* — a high-impact neuroscience journal — lined up the literature on how pain shifts during adolescence ([Nahman-Averbuch et al., 2023](https://doi.org/10.1016/j.tins.2023.01.006)). The picture that emerges is counterintuitive, because it separates two things we often conflate.
 
 **Experimental pain** — the kind measured in a lab with controlled stimuli, like cold or pressure — tends to **decrease** with pubertal maturation, in both sexes. In other words, faced with a standard stimulus, an adolescent's body becomes on average more tolerant.
 
 **Clinical pain** — the real, spontaneous kind: headaches, abdominal pain, period pain — does the opposite: it **increases**. This is the form of pain that matters in everyday life, and it's exactly the one that grows during puberty. Confusing the two leads to the classic error: "if she can get through a hard race, then the stomach ache is an excuse". They're two different systems.
 
-## The differences between girls and boys start now
+## Do girls feel more pain than boys?
 
-There's a widespread idea that girls "have always been more sensitive" to pain. The data say something more precise: **that difference isn't there in childhood — it forms in adolescence.**
+**In adolescence, on average yes — but it is not a trait they had as children: it forms now.** There's a widespread idea that girls "have always been more sensitive" to pain. The data say something more precise: **that difference isn't there in childhood — it forms in adolescence.**
 
 - Between ages **9 and 11**, no significant sex differences emerge in pain to controlled stimuli. In **late adolescence**, by contrast, girls show, on average, lower thresholds — that is, greater sensitivity — confirmed by a meta-analysis of the *cold pressor test* above age 12.
 - **Abdominal pain**: before puberty, rates are similar across sexes (about 22%); after puberty it reaches nearly **30% in girls** but drops to **16% in boys**, in a study of over 15,000 adolescents.
@@ -52,9 +52,9 @@ There's a widespread idea that girls "have always been more sensitive" to pain. 
 
 It's not a character trait or a marker of "fragility": it's a developmental change that switches on in a precise window — the same one in which a girl starts doing more serious sport, with higher loads and more pressure.
 
-## Early menarche leaves a mark
+## Does early menarche leave a mark on pain?
 
-There's another thread the review highlights, and one that gets talked about very little: the **timing of menarche**. Several very large population studies — including the Norwegian HUNT and HBSC data on nearly **300,000 girls** — find that **early menarche is associated with a higher prevalence of headaches, abdominal pain and back pain**, both in adolescence and in adulthood.
+**In population data, yes: those whose first period comes earlier report more headaches, abdominal pain and back pain, both in adolescence and as adults.** There's another thread the review highlights, and one that gets talked about very little: the **timing of menarche**. Several very large population studies — including the Norwegian HUNT and HBSC data on nearly **300,000 girls** — find that **early menarche is associated with a higher prevalence of headaches, abdominal pain and back pain**, both in adolescence and in adulthood.
 
 In parallel, the **pain syndromes specific to the female body** — dysmenorrhoea, endometriosis — appear right around menarche, and can increase the risk of other chronic pain syndromes later. Translated: early period pain is not an isolated episode to be minimised, but a signal worth observing over time.
 
@@ -66,9 +66,9 @@ What makes the phenomenon impossible to file under "discomfort", though, is the 
 
 A note on the population, because it matters: the sample includes young women **up to 25**, not only adolescents, and the data concern school, not training. No study here measures how many sessions athletes miss because of dysmenorrhoea. But if pain removes a fifth of school attendance, it is reasonable to expect it removes training too — and that is exactly what is observed in physical activity, where [25% to 61% of adolescent girls reduce or avoid activity during menstruation](/blog/ciclo-e-performance).
 
-## It's not "in her head" — it's biology changing (along with everything else)
+## If psychological factors are involved, does that mean it is "in her head"?
 
-Why does all this happen? The review proposes a **biopsychosocial** model: no single switch, but several factors intertwining.
+**No: it means the opposite — that the pain is real and has several causes at once, not that it is imagined.** The review proposes a **biopsychosocial** model: no single switch, but several factors intertwining.
 
 - **Sex hormones**: testosterone has a fairly consistent pain-dampening effect; oestrogen has mixed effects. The hormonal divergence of puberty is part of the explanation.
 - **A brain remodelling itself**: the structure and function of areas involved in pain change, such as the amygdala and prefrontal cortex.
@@ -81,10 +81,10 @@ The point is delicate and worth stating honestly: saying there are also psychoso
 One necessary caveat: this is neuroscience and paediatrics literature, **not sport science**. It concerns adolescents in general, not athletes specifically, and should be taken as basic scientific context — not as data on performance or training. With that limit clear, three takeaways hold:
 
 - **Treat pain as information, not an excuse.** If clinical pain increases in exactly this age range, dismissing it teaches a girl to hide it — and hiding means no one can help.
-- **Look at patterns, not the single episode.** An isolated stomach ache says little; the same pain returning at a certain intensity, month after month, says a lot. The value is in time, not in a single day.
+- **Look at patterns, not the single episode.** An isolated stomach ache says little; the same pain returning at a certain intensity, month after month, says a lot. The value is in time, not in a single day. The same holds for localised pain: bone pain that keeps returning to exactly the same spot is a different, more urgent picture ([stress fractures](/blog/salute-ossea-fratture-da-stress-giovani-atlete)).
 - **Avoid both extremes.** Neither minimise ("it's normal, grit your teeth") nor dramatise every twinge. The middle path is to observe, note, and — when needed — turn to a professional, because monitoring is not diagnosing.
 
-One caveat on vocabulary is worth adding: "common" and "normal" are not synonyms. It is the same confusion that keeps another very widespread symptom silent among young athletes, [urinary leakage during jumping](/blog/perdite-urina-giovani-atlete) — present in nearly one in two, yet withheld from the coach by 87% of girls.
+The same applies to musculoskeletal pain that lasts: a knee that has hurt for months in an adolescent girl is not growing pains that resolve on their own, and it is the case where "looking at patterns" pays off most — [we wrote about it here](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete). One caveat on vocabulary is worth adding: "common" and "normal" are not synonyms. It is the same confusion that keeps another very widespread symptom silent among young athletes, [urinary leakage during jumping](/blog/perdite-urina-giovani-atlete) — present in nearly one in two, yet withheld from the coach by 87% of girls.
 
 ## BAB's role
 

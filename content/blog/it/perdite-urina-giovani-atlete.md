@@ -2,11 +2,11 @@
 slug: perdite-urina-giovani-atlete
 title: "Perdo urina quando salto: il sintomo di cui quasi nessuna atleta parla"
 date: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-30
 author: Sajid Hossain
-excerpt: "Tra le atlete adolescenti la prevalenza media di perdite di urina durante lo sport è del 48,6%, e arriva all'80% nel trampolino elastico. Eppure l'87% dice che non ne parlerebbe con il proprio allenatore. Non è normale, non è colpa loro, e non è nemmeno un destino: ecco i dati, e cosa si può fare senza medicalizzare nulla."
+excerpt: "Perdere urina saltando o atterrando riguarda in media il 48,6% delle atlete adolescenti, e l'80% nel trampolino elastico. Eppure l'87% dice che non ne parlerebbe con il proprio allenatore. È frequente, ma frequente non vuol dire normale: cosa dicono i dati sulle ragazze di 13-17 anni, perché non è colpa loro, e cosa può fare una società senza medicalizzare nulla."
 cover: /fotobab/cover-pavimento-pelvico.jpg
-coverAlt: "Palestra sportiva al coperto vuota, con campo verde, linee di gioco e tribune in legno"
+coverAlt: "Palestra sportiva al coperto vuota vista dall'alto: pavimento verde con linee di gioco, tribune in legno chiaro lungo un lato, nessuna persona presente"
 tags:
   - pavimento-pelvico
   - incontinenza
@@ -20,6 +20,10 @@ faq:
     a: "Pochissime. Nella revisione sulle adolescenti, l'87% ha dichiarato che non parlerebbe dei propri sintomi con l'allenatore, e tra il 69% e il 90% non aveva mai sentito nominare l'allenamento del pavimento pelvico (Rial Rebullido et al., 2021). Tra i 325 atleti dei Mondiali under 20 di Lima 2024, il 78,2% di chi aveva sintomi non ne aveva mai parlato con nessuno, il 95,1% non si era rivolto a uno specialista e l'88% non era mai stato sottoposto a uno screening (Giagio et al., 2025)."
   - q: "Si può fare qualcosa? E vale anche per le adolescenti?"
     a: "Sì per la prima domanda, con onestà sulla seconda. Una revisione sistematica di sei studi su 131 atlete ha trovato miglioramenti dei sintomi in cinque studi su sei dopo programmi di allenamento del pavimento pelvico di 8 settimane-4 mesi (Demeco et al., 2024). Ma l'età media di quelle partecipanti è 23,19 anni: sono atlete adulte. Gli stessi autori segnalano che l'evidenza specifica sulle atlete adolescenti è molto limitata. Quindi: la direzione è incoraggiante, il dato sulle 13-14enni non c'è ancora, e la valutazione va fatta da un professionista sanitario, non da un'app né dall'allenatore."
+  - q: "Le perdite di urina saltando passano da sole crescendo?"
+    a: "Non c'è evidenza che passino da sole, e i dati disponibili suggeriscono il contrario: la prevalenza non cala con l'età nella fascia adolescenziale. Nello studio su 319 ginnaste e cheerleader di 12-36 anni, l'età di 16-17 anni risultava significativamente associata all'incontinenza da sforzo, insieme all'allenarsi quattro o più giorni a settimana (Skaug et al., 2022). E ai Mondiali under 20 di Lima 2024, su 325 atleti di età media 18,1 anni, il 53,7% delle ragazze riferiva almeno un sintomo del pavimento pelvico (Giagio et al., 2025): sono atlete più grandi, non ragazze che ne sono uscite crescendo. Aspettare non è una strategia; parlarne con un professionista sanitario sì."
+  - q: "Cosa NON deve fare un allenatore quando un'atleta ne parla?"
+    a: "Tre cose. Primo: non rassicurare con «è normale» — è frequente, non normale, e la differenza è ciò che convince una ragazza che non ci sia niente da dire. Secondo: non chiedere dettagli né fare domande di approfondimento: il tema è intimo e riguarda minori, quindi aprire la porta non significa entrare. Terzo: non prescrivere esercizi. Anche negli adulti non tutti gli interventi funzionano allo stesso modo — in uno dei sei studi della revisione sistematica i soli esercizi di Kegel non hanno prodotto miglioramenti significativi (Demeco et al., 2024). Quello che serve dall'allenatore è una cosa sola: sapere a chi indirizzare."
   - q: "Le perdite di urina possono far smettere di fare sport?"
     a: "Possono ridurre l'allenamento, ed è documentato. Tra 319 ginnaste e cheerleader, l'82,6% di chi aveva incontinenza da sforzo riferiva un effetto negativo sulla propria prestazione sportiva, il 28,4% usava assorbenti protettivi e il 22,4% evitava a volte l'allenamento o esercizi specifici proprio a causa delle perdite (Skaug et al., 2022). Nessuno lo registra come infortunio, ma toglie allenamenti allo stesso modo."
 ---
@@ -51,22 +55,22 @@ Il pavimento pelvico è l'insieme di muscoli che sostiene vescica e organi pelvi
 
 C'è anche un'associazione con il carico di allenamento. In uno studio trasversale su **319 tra ginnaste artistiche, ginnaste di squadra e cheerleader di 12-36 anni** (età media 17,4), la prevalenza di incontinenza urinaria era del **67,4%**, e allenarsi **quattro o più giorni a settimana** risultava significativamente associato all'incontinenza da sforzo, insieme all'età di 16-17 anni e al tipo di sport praticato ([Skaug et al., 2022](https://doi.org/10.1007/s00192-021-04696-z)).
 
-## Il costo vero: allenamenti tolti, in silenzio
+## Quanto costa davvero, in allenamenti?
 
-Il sintomo, da solo, sarebbe gestibile. È quello che ci sta intorno a costare caro.
+**Il sintomo, da solo, sarebbe gestibile: è la rinuncia che ci cresce intorno a costare caro — e riguarda più di una ragazza su cinque.**
 
 Nello stesso studio su ginnaste e cheerleader, tra chi aveva incontinenza da sforzo l'**82,6%** riferiva un effetto negativo sulla propria prestazione sportiva, il **28,4%** usava assorbenti protettivi durante l'attività e il **22,4%** aveva evitato, almeno a volte, l'allenamento o esercizi specifici proprio per timore delle perdite. Il **26,4%** non ne aveva mai parlato con nessuno, e le motivazioni ricorrenti erano la paura che le perdite si vedessero e l'imbarazzo.
 
-È lo stesso meccanismo che abbiamo visto altrove: una rinuncia che nessuno registra come infortunio, ma che sottrae allenamenti esattamente come un infortunio. Riguarda le mestruazioni — dove [dal 25% al 61% delle adolescenti riduce o evita l'attività fisica](/blog/ciclo-e-performance) — e riguarda anche dettagli apparentemente minori come il [reggiseno sportivo](/blog/reggiseno-sportivo-ragazze). Cambia il sintomo, non cambia la dinamica: **il corpo cambia, l'ambiente non ne parla, l'atleta si toglie da sola dalla situazione.** Ed è uno dei fili che portano [all'abbandono](/blog/abbandono-puberta).
+È lo stesso meccanismo che abbiamo visto altrove: una rinuncia che nessuno registra come infortunio, ma che sottrae allenamenti esattamente come un infortunio. Vale anche per il dolore: nei dati, le adolescenti con un [dolore al ginocchio senza trauma](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) cercano aiuto nel 55,7% dei casi contro l'80% di chi ha avuto un infortunio — serve un evento per sentirsi autorizzate a chiedere. Riguarda le mestruazioni — dove [dal 25% al 61% delle adolescenti riduce o evita l'attività fisica](/blog/ciclo-e-performance) — e riguarda anche dettagli apparentemente minori come il [reggiseno sportivo](/blog/reggiseno-sportivo-ragazze). Cambia il sintomo, non cambia la dinamica: **il corpo cambia, l'ambiente non ne parla, l'atleta si toglie da sola dalla situazione.** Ed è uno dei fili che portano [all'abbandono](/blog/abbandono-puberta).
 
-## Il silenzio, in cifre
+## Quante ragazze ne parlano con qualcuno?
 
-Se c'è un numero che riassume questo articolo, è il tasso di persone informate.
+**Pochissime, e il numero che riassume l'articolo non è la prevalenza: è il tasso di persone informate.**
 
 - L'**87%** delle atlete adolescenti dichiara che **non** parlerebbe dei propri sintomi con l'allenatore, e tra il **69% e il 90%** non aveva mai sentito nominare l'allenamento del pavimento pelvico ([Rial Rebullido et al., 2021](https://doi.org/10.3390/jfmk6010012)).
 - Tra gli atleti under 20 di Lima, il **78,2%** di chi aveva sintomi non ne aveva mai parlato con nessuno, il **95,1%** non si era rivolto a uno specialista, l'**88%** non era mai stato sottoposto ad alcuno screening e solo il **30%** dichiarava di essere consapevole del tema della salute del pavimento pelvico ([Giagio et al., 2025](https://doi.org/10.1136/bmjsem-2025-002564)).
 
-Sono atleti d'élite, seguiti da staff tecnici, in un contesto internazionale. Se il tasso di screening è del 12% lì, è ragionevole aspettarsi che in una società sportiva di provincia sia più vicino a zero. E come con [il ciclo mestruale e l'allenatore](/blog/parlare-di-ciclo-con-allenatore), il silenzio non è pudore delle ragazze: è l'assenza di un contesto in cui il tema esista.
+Sono atleti d'élite, seguiti da staff tecnici, in un contesto internazionale. È lo stesso vuoto informativo che si misura su altri temi del corpo che cambia, dal [ferro](/blog/ferro-atlete-adolescenti) al [sonno](/blog/sonno-atlete-adolescenti). Se il tasso di screening è del 12% lì, è ragionevole aspettarsi che in una società sportiva di provincia sia più vicino a zero. E come con [il ciclo mestruale e l'allenatore](/blog/parlare-di-ciclo-con-allenatore), il silenzio non è pudore delle ragazze: è l'assenza di un contesto in cui il tema esista.
 
 ## Cosa dice l'evidenza sul cosa fare (e cosa non dice)
 
@@ -102,6 +106,7 @@ Su un tema come questo, la differenza tra una ragazza che smette e una che conti
 - Giagio S., Adami P.E., Bermon S., Rial-Rebullido T., Pillastrini P., Vecchiato M., Garrandes F. **Nearly half of 325 athletes reported pelvic floor symptoms: a cross-sectional study at the Lima 2024 World Athletics U20 Championships.** *BMJ Open Sport & Exercise Medicine*, 2025;11(3):e002564. (325 atleti under 20, 192 femmine e 133 maschi, età media 18,1 anni) [doi:10.1136/bmjsem-2025-002564](https://doi.org/10.1136/bmjsem-2025-002564)
 - Skaug K.L., Engh M.E., Frawley H., Bø K. **Urinary and anal incontinence among female gymnasts and cheerleaders — bother and associated factors. A cross-sectional study.** *International Urogynecology Journal*, 2022;33(4):955-964. (319 atlete di 12-36 anni, età media 17,4) [doi:10.1007/s00192-021-04696-z](https://doi.org/10.1007/s00192-021-04696-z)
 - Demeco A., et al. **The Efficacy of Pelvic Floor Rehabilitation in the Treatment of Urinary Incontinence in Female Athletes: A Systematic Review.** *Sports*, 2024;12(12):338. (6 studi, 131 atlete, **età media 23,19 anni — popolazione adulta**; gli autori segnalano evidenze molto limitate sulle adolescenti) [doi:10.3390/sports12120338](https://doi.org/10.3390/sports12120338)
+- Rathleff M.S., Skuldbøl S.K., Rasch M.N.B., Roos E.M., Rasmussen S., Olesen J.L. **Care-seeking behaviour of adolescents with knee pain: a population-based study among 504 adolescents.** *BMC Musculoskeletal Disorders*, 2013;14:225. (504 adolescenti danesi di 15-19 anni; tra le ragazze, richiesta di aiuto nell'80% dei dolori da trauma contro il 55,7% di quelli a esordio insidioso) [doi:10.1186/1471-2474-14-225](https://doi.org/10.1186/1471-2474-14-225)
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studi, 33 Paesi, adolescenti 10-18 anni) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
 
 *Questo articolo ha finalità informative e divulgative e non costituisce parere medico. In presenza di perdite di urina durante l'attività fisica, o di qualsiasi sintomo persistente, rivolgersi a un professionista sanitario.*

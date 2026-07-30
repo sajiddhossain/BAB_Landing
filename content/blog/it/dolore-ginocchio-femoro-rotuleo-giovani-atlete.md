@@ -1,0 +1,128 @@
+---
+slug: dolore-ginocchio-femoro-rotuleo-giovani-atlete
+title: "Il ginocchio che fa male da mesi: perché non è «dolore di crescita»"
+date: 2026-07-30
+updated: 2026-07-30
+author: Sajid Hossain
+excerpt: "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze, la durata mediana del dolore è di 24 mesi e cinque anni dopo il 40,5% ha ancora male — con il 60% che ha smesso o ridotto lo sport. Il dolore femoro-rotuleo non passa «crescendo»: passa quando qualcuno lo prende sul serio e dosa il carico. I dati, e cosa cambia in palestra."
+cover: /fotobab/cover-dolore-ginocchio.jpg
+coverAlt: "Scala metallica esterna di uno stadio sportivo vuoto, gradini in lamiera e ringhiere, senza persone"
+tags:
+  - dolore-femoro-rotuleo
+  - osgood-schlatter
+  - gestione-del-carico
+  - dolore
+faq:
+  - q: "Il dolore al ginocchio in adolescenza passa da solo con la crescita?"
+    a: "Spesso no, ed è la domanda a cui la ricerca ha risposto in modo più netto. In una coorte danese di adolescenti seguiti nel tempo, il 55,9% di chi riferiva dolore al ginocchio all'inizio ne riferiva ancora due anni dopo; chi era stato classificato con dolore femoro-rotuleo aveva un rischio relativo di 1,26 di avere ancora male rispetto a chi aveva altri tipi di dolore al ginocchio. Gli autori concludono esplicitamente che il dolore al ginocchio in adolescenza, e il dolore femoro-rotuleo in particolare, «potrebbe non essere autolimitante» (Rathleff et al., 2016). A cinque anni la quota con dolore persistente è del 40,5% (IC 95% 35,4-45,6) contro il 13,2% di chi non aveva dolore all'inizio, e tra chi ha ancora male il 60% ha smesso o ridotto lo sport a causa del ginocchio (Rathleff et al., 2019). Popolazione: adolescenti danesi di 15-19 anni di entrambi i sessi, non specificamente atlete di 13-14 anni."
+  - q: "Che cos'è il dolore femoro-rotuleo e come si riconosce?"
+    a: "È un dolore diffuso nella zona attorno o dietro la rotula, che si accende con le attività che caricano l'articolazione in flessione: salire e scendere le scale, accosciarsi, saltare, correre, e anche stare seduta a lungo con le ginocchia piegate. A differenza della frattura da stress non lo si indica con un dito su un punto preciso dell'osso, e a differenza della rottura del crociato non nasce da un singolo episodio traumatico: nella coorte danese il 68,3% dei dolori al ginocchio degli adolescenti aveva un esordio insidioso, cioè senza trauma (Rathleff et al., 2013). Attenzione però: questo articolo non serve a fare una diagnosi. Il dolore al ginocchio in un'adolescente ha diverse cause possibili e la distinzione la fa un professionista sanitario, non un elenco di sintomi."
+  - q: "Riposare è la cura?"
+    a: "Il riposo totale non è ciò che ha funzionato negli studi: quello che ha funzionato è modificare il carico e poi rinforzare. In uno studio prospettico su 151 adolescenti di 10-14 anni con dolore femoro-rotuleo, un percorso di 12 settimane costruito su modifica dell'attività nelle prime 4 settimane, esercizi a casa dalla quinta e ritorno graduale allo sport dalla nona ha portato all'86% di esiti riferiti come positivi a 12 settimane e all'81% a 12 mesi, con forza di anca e ginocchio aumentata del 20-33% (Rathleff et al., 2019). Va detto che è uno studio senza gruppo di controllo, quindi non dimostra da solo l'efficacia dell'intervento. Il dato randomizzato viene da un'altra popolazione: in 121 adolescenti di 15-19 anni, aggiungere esercizio supervisionato all'educazione ha aumentato le probabilità di guarigione a 12 mesi (OR 1,73; IC 95% 1,02-2,93) e ancora di più a 24 mesi (OR 2,52), con un numero necessario da trattare di 5 (Rathleff et al., 2015)."
+  - q: "Perché il dolore al ginocchio sembra riguardare più le ragazze?"
+    a: "Perché nei dati di popolazione lo riferiscono più spesso. In un campione di 2.953 adolescenti danesi di 12-19 anni, il dolore al ginocchio era riferito dal 35,0% delle ragazze contro il 27,9% dei ragazzi, e il dolore quasi quotidiano in qualsiasi sede dal 23,8% contro il 13,3% (Rathleff et al., 2013). Nella coorte di adolescenti con dolore al ginocchio almeno mensile, 363 su 504 erano ragazze, cioè il 72% (Rathleff et al., 2013). Un dato in più, misurato solo sulle ragazze: le adolescenti con dolore femoro-rotuleo hanno soglie di dolore alla pressione più basse delle coetanee senza dolore, anche in punti lontani dal ginocchio (Rathleff et al., 2013, JOSPT). Non è una prova di fragilità: è un indizio che un dolore che dura mesi cambia il modo in cui il sistema nervoso elabora gli stimoli, cosa che rende ancora meno sensato aspettare."
+  - q: "Quando bisogna portarla da un medico?"
+    a: "Un dolore al ginocchio che dura da più di due o tre settimane, che si ripresenta a ogni allenamento, che le fa evitare scale, accosciate o salti, o che le fa saltare sedute, va valutato da un professionista sanitario: pediatra, medico dello sport o fisioterapista. Ci sono poi segnali che richiedono una valutazione senza aspettare: gonfiore, cedimenti o blocchi dell'articolazione, dolore dopo un trauma, dolore notturno o localizzabile con un dito su un punto preciso dell'osso. Il motivo per non aspettare non è allarmismo, è statistica: la durata mediana del dolore negli adolescenti che poi cercano aiuto è di 24 mesi, e solo il 59% aveva cercato assistenza (Rathleff et al., 2013). Il tempo, qui, non è un alleato."
+---
+
+C'è un infortunio delle giovani atlete che non compare in nessun referto e non fa perdere nemmeno una partita: fa perdere gli anni. È **il ginocchio che fa male da mesi** — sulle scale, in accosciata, dopo venti minuti seduta al banco — e che viene archiviato come dolore di crescita, o come qualcosa che «passerà quando finisce di crescere». La ricerca dice il contrario: negli adolescenti seguiti nel tempo, **cinque anni dopo il 40,5% ha ancora male, e il 60% di loro ha smesso o ridotto lo sport a causa del ginocchio** (Rathleff et al., 2019).
+
+> **In breve**
+> - Tra gli adolescenti con dolore al ginocchio almeno mensile, **363 su 504 sono ragazze (72%)** e la durata **mediana** del dolore è di **24 mesi**; solo il **59%** aveva cercato assistenza sanitaria (Rathleff et al., 2013).
+> - Due anni dopo, il **55,9%** ha ancora dolore al ginocchio; con dolore femoro-rotuleo il rischio relativo è **1,26** rispetto ad altri dolori al ginocchio (Rathleff et al., 2016).
+> - **Cinque anni** dopo: **40,5%** ancora con dolore (contro il 13,2% dei controlli), il **60%** ha smesso o ridotto lo sport, il **15%** dice che il ginocchio ha influenzato la scelta del lavoro (Rathleff et al., 2019).
+> - Non è raro: la prevalenza annuale di dolore femoro-rotuleo negli adolescenti è stimata al **28,9%** (Smith et al., 2018).
+> - Ciò che ha funzionato non è il riposo: è **modificare il carico e poi rinforzare**. Nel percorso di 12 settimane su 151 ragazzi e ragazze di 10-14 anni, **86%** di esiti positivi a 12 settimane e **81%** a un anno (Rathleff et al., 2019).
+
+## Quanto è diffuso il dolore al ginocchio nelle giovani atlete?
+
+**Molto più di quanto suggerisca il numero di ragazze che ne parlano.** La revisione sistematica con meta-analisi più citata sull'argomento ha raccolto 23 studi e stima una **prevalenza annuale di dolore femoro-rotuleo del 28,9% negli adolescenti**, contro il 22,7% nella popolazione generale; tra gli atleti adolescenti amatoriali l'incidenza nell'arco di una stagione va dal **5,1% al 14,9%** ([Smith et al., 2018, *PLOS ONE*](https://doi.org/10.1371/journal.pone.0190892)). Gli autori stessi segnalano che le stime poggiano su pochi studi e su definizioni non uniformi: il numero esatto va preso con cautela, l'ordine di grandezza no.
+
+Il quadro di popolazione conferma la direzione. In un campione di **2.953 adolescenti danesi di 12-19 anni**, il **dolore al ginocchio** era riferito dal **35,0% delle ragazze** contro il **27,9% dei ragazzi**, e il dolore quasi quotidiano in qualsiasi sede dal **23,8%** contro il **13,3%** ([Rathleff et al., 2013, *BMC Pediatrics*](https://doi.org/10.1186/1471-2431-13-191)).
+
+E quando si guarda solo a chi ha dolore al ginocchio ricorrente, lo squilibrio diventa evidente: tra i **504 adolescenti di 15-19 anni** con dolore al ginocchio **almeno mensile**, **363 erano ragazze — il 72%** ([Rathleff et al., 2013, *BMC Musculoskeletal Disorders*](https://doi.org/10.1186/1471-2474-14-225)). Nella stessa coorte il **68,3%** dei dolori aveva un **esordio insidioso**, cioè senza nessun trauma da raccontare.
+
+È esattamente il tipo di dolore che nello sport giovanile non entra in nessuna statistica: non c'è un episodio, non c'è un contrasto, non c'è un giorno in cui è iniziato.
+
+## Che cos'è il dolore femoro-rotuleo, e cosa non è
+
+**È un dolore diffuso attorno o dietro la rotula che si accende con il carico in flessione del ginocchio**: scale, accosciate, salti, corsa, e — dettaglio che tradisce spesso l'origine — anche lo stare seduta a lungo con le ginocchia piegate. Chi lo prova non riesce a indicarlo con un dito: lo indica con la mano, «qui intorno».
+
+Serve distinguerlo da altre due cose di cui abbiamo già parlato, perché la gestione è diversa:
+
+- Non è **[la rottura del legamento crociato](/blog/crociato-giovani-atlete)**, che è un evento singolo, quasi sempre con un momento preciso e un ginocchio che cede.
+- Non è **[la frattura da stress](/blog/salute-ossea-fratture-da-stress-giovani-atlete)**, il cui segno tipico è un dolore osseo *puntiforme*, indicabile con un dito, sempre nello stesso punto.
+
+Una precisazione che va detta con chiarezza: **questo articolo non serve a diagnosticare**. Il dolore al ginocchio in un'adolescente ha diverse cause possibili — alcune banali, alcune no — e la distinzione la fa un professionista sanitario. Quello che serve sapere qui è un'altra cosa: che un dolore così **non è un motivo per aspettare**.
+
+## Il dolore al ginocchio in adolescenza passa da solo?
+
+**Nella maggioranza dei casi no, e questa è la domanda a cui la letteratura ha risposto meglio.** Uno studio ha seguito per due anni gli adolescenti danesi con dolore al ginocchio: al follow-up il **55,9%** riferiva ancora dolore. Chi era stato classificato con **dolore femoro-rotuleo** aveva un rischio relativo di **1,26** di avere ancora male rispetto a chi aveva altri tipi di dolore al ginocchio. Il titolo dello studio è una domanda — *il dolore al ginocchio in adolescenza è una condizione autolimitante?* — e la conclusione degli autori è che, nella maggior parte dei casi, il dolore è ancora presente dopo due anni e quindi **potrebbe non essere autolimitante** ([Rathleff et al., 2016, *Am J Sports Med*](https://doi.org/10.1177/0363546515622456)).
+
+A cinque anni il quadro non si è raddrizzato ([Rathleff et al., 2019, *BMJ Open*](https://doi.org/10.1136/bmjopen-2018-024113)):
+
+- **40,5%** di chi aveva dolore all'inizio ne ha ancora (IC 95% 35,4-45,6), contro il **13,2%** di chi non ne aveva (IC 95% 8,2-18,1).
+- Tra chi ha ancora dolore, il **60%** ha **smesso o ridotto lo sport** a causa del ginocchio.
+- Il **15%** (IC 95% 12-20) dichiara che il dolore al ginocchio ha **influenzato la scelta del lavoro o della carriera**.
+- Punteggi funzionali molto peggiori: **-13 punti** su KOOS Funzione e **-30 punti** su KOOS Sport/attività ricreative; circa **un terzo** usa antidolorifici regolarmente.
+
+Va detto con precisione quale popolazione stiamo guardando: sono **adolescenti danesi di 15-19 anni di entrambi i sessi**, reclutati nella popolazione scolastica e non tra le atlete tesserate. Non sono tredicenni di una società italiana, e i numeri non si trasferiscono uno a uno. Ma la direzione — un dolore che nel tempo si porta via lo sport, non se stesso — è misurata, non ipotizzata.
+
+C'è un secondo dato, questo sì specifico sulle ragazze, che rende l'attesa ancora meno difendibile: le **adolescenti femmine con dolore femoro-rotuleo** hanno **soglie di dolore alla pressione più basse** delle coetanee senza dolore, anche in punti del corpo lontani dal ginocchio ([Rathleff et al., 2013, *JOSPT*](https://doi.org/10.2519/jospt.2013.4383)). Tradotto: un dolore che dura mesi non resta un problema locale — **cambia il modo in cui il sistema nervoso elabora gli stimoli**, come già raccontato parlando di [come il dolore cambia in pubertà](/blog/dolore-in-puberta-neuroscienza).
+
+## Perché quasi nessuno lo porta da un medico
+
+**Perché sembra troppo poco per disturbare, e troppo normale per essere un problema.** Nella coorte dei 504 adolescenti con dolore al ginocchio almeno mensile, la **durata mediana** del dolore era di **24 mesi** e solo il **59%** aveva cercato assistenza sanitaria; il **18%** era in trattamento al momento del questionario ([Rathleff et al., 2013, *BMC Musculoskeletal Disorders*](https://doi.org/10.1186/1471-2474-14-225)).
+
+Il dettaglio più istruttivo dello studio, però, è un altro. Tra le **ragazze**, chi aveva un dolore **da trauma** cercava aiuto nell'**80%** dei casi; chi aveva un dolore a **esordio insidioso** solo nel **55,7%**. Nei ragazzi la differenza tra i due tipi di esordio era minima (47,9% contro 49,5%).
+
+Detto in modo diretto: **serve un incidente per sentirsi autorizzate a chiedere.** È la stessa dinamica che tiene in silenzio [le perdite di urina durante i salti](/blog/perdite-urina-giovani-atlete) e [il ciclo mestruale davanti all'allenatore](/blog/parlare-di-ciclo-con-allenatore) — un sintomo senza evento che lo giustifichi non sembra abbastanza serio da nominare. E un dolore che non viene nominato è un dolore che nessuno può dosare.
+
+## Cosa funziona: non il riposo, il carico dosato
+
+**Negli studi non ha funzionato lo stop: ha funzionato modificare il carico e poi rinforzare.** È la parte controintuitiva e la più utile in palestra.
+
+Lo studio più vicino all'età che ci interessa ha seguito **151 adolescenti di 10-14 anni** con dolore femoro-rotuleo in un percorso di **12 settimane**: **modifica dell'attività** nelle settimane 1-4, **esercizi a casa** dalla 5 alla 8, **ritorno graduale allo sport** dalla 9 alla 12, con quattro sole sedute supervisionate a cui doveva partecipare anche un genitore. Gli esiti riferiti come positivi sono stati l'**86% a 12 settimane**, il **77% a 6 mesi** e l'**81% a 12 mesi**; la forza di anca e ginocchio è aumentata del **20-33%** e il ritorno allo sport è arrivato al **81% a un anno** ([Rathleff et al., 2019, *Am J Sports Med*](https://doi.org/10.1177/0363546519843915)).
+
+Un limite da dichiarare subito: quello studio **non ha un gruppo di controllo**, quindi da solo non dimostra che l'effetto sia dell'intervento e non del tempo. Il dato randomizzato viene da una popolazione più grande d'età: in un trial a cluster su **121 adolescenti di 15-19 anni**, aggiungere **esercizio supervisionato durante l'orario scolastico** alla sola educazione ha aumentato le probabilità di guarigione a **12 mesi** (OR 1,73; IC 95% 1,02-2,93; NNT 11), e l'effetto è **cresciuto** a 24 mesi (OR 2,52; NNT 5). Più sedute di esercizio a settimana, più probabilità di guarire ([Rathleff et al., 2015, *Br J Sports Med*](https://doi.org/10.1136/bjsports-2014-093929)).
+
+Sul *tipo* di lavoro, la dichiarazione di consenso internazionale è chiara: è raccomandata la **terapia con esercizio**, in particolare la **combinazione di esercizi per l'anca e per il ginocchio**; **non** sono raccomandate le mobilizzazioni articolari isolate né gli agenti elettrofisici (ultrasuoni, correnti e simili) ([Collins et al., 2018, *Br J Sports Med*](https://doi.org/10.1136/bjsports-2018-099397)). Una nota di onestà: quel consenso riguarda la popolazione generale con dolore femoro-rotuleo, in larga parte adulta — negli adolescenti l'evidenza è quella degli studi sopra.
+
+Il punto pratico che tiene insieme tutto: **il ginocchio non guarisce stando fermo, guarisce ricevendo la dose giusta.** È lo stesso principio che vale per [la specializzazione precoce e il sovraccarico](/blog/specializzazione-precoce-giovani-atlete): non è il carico il nemico, è il carico non gestito.
+
+## E il ginocchio che fa male sotto la rotula (Osgood-Schlatter)?
+
+**È un quadro diverso, con lo stesso approccio.** Il dolore localizzato sulla tuberosità tibiale — quella prominenza ossea appena sotto la rotula, dove si inserisce il tendine rotuleo — è tipico dell'adolescenza in crescita e viene chiamato morbo di Osgood-Schlatter. Anche qui l'idea che serva solo aspettare è stata messa alla prova: in uno studio prospettico su **51 adolescenti di 10-14 anni (51% ragazze)**, un percorso di 12 settimane con **una scala di progressione del carico** sul tendine rotuleo, esercizi di rinforzo e ritorno graduale allo sport ha prodotto l'**80% di esiti riferiti come positivi a 12 settimane** e il **90% a 12 mesi** ([Rathleff et al., 2020, *Orthop J Sports Med*](https://doi.org/10.1177/2325967120911106)).
+
+Anche questo è uno studio **senza gruppo di controllo** e su un campione piccolo: non è una prova di efficacia, è un segnale coerente. Ma il messaggio che ne esce è lo stesso, e vale la pena ripeterlo: **la progressione del carico è un intervento, l'attesa no.**
+
+## Cosa può fare una società, da lunedì
+
+Nessuna di queste è una prescrizione medica. Sono scelte organizzative e di linguaggio, alla portata di chiunque alleni:
+
+- **Chiedere «da quanto tempo?», non «quanto ti fa male?».** L'intensità del momento dice poco; la durata dice quasi tutto. Oltre le due-tre settimane, il dolore va portato a un professionista sanitario e non gestito a bordo campo.
+- **Chiedere «me lo indichi?».** Se lo indica con una mano attorno alla rotula è un quadro; se lo indica con un dito su un punto preciso dell'osso è un altro, e ha un'urgenza diversa ([le fratture da stress](/blog/salute-ossea-fratture-da-stress-giovani-atlete)).
+- **Non aspettare un incidente per dare permesso.** Nei dati, le ragazze con dolore senza trauma chiedono aiuto molto meno delle altre. Dirlo ad alta voce una volta all'anno — «un dolore che torna sempre non ha bisogno di un infortunio per essere detto» — costa trenta secondi.
+- **Prevedere una modalità «a carico ridotto», non solo «dentro o fuori».** Un'atleta con dolore al ginocchio che può fare metà seduta resta nel gruppo; una messa a riposo totale sparisce, e spesso non torna. È esattamente il meccanismo che alimenta [l'abbandono in pubertà](/blog/abbandono-puberta).
+- **Mettere forza di anca e ginocchio nel programma di tutte, non solo di chi ha male.** È il contenuto raccomandato dal consenso, e nella pratica occupa lo stesso spazio del [riscaldamento neuromuscolare che protegge il crociato](/blog/crociato-giovani-atlete).
+
+## Il ruolo di BAB
+
+BAB non diagnostica, non tratta e non decide quando si torna in campo. Fa una cosa che oggi quasi nessuno fa: rende **visibile la durata**. Un'atleta annota in privato dolore, carico percepito, energia e recupero, e vede formarsi una linea — non il singolo brutto giorno, ma le sei settimane in cui quel ginocchio è tornato sempre. Alla società arrivano **solo segnali aggregati e anonimi**, mai il dato di salute della singola.
+
+Perché in questa storia il numero decisivo non è l'intensità del dolore. È **24 mesi** — la durata mediana con cui questi ginocchi arrivano, finalmente, davanti a qualcuno.
+
+## Fonti
+
+- Smith B.E., Selfe J., Thacker D., Hendrick P., Bateman M., Moffatt F., Rathleff M.S., Smith T.O., Logan P. **Incidence and prevalence of patellofemoral pain: A systematic review and meta-analysis.** *PLOS ONE*, 2018;13(1):e0190892. (revisione sistematica di 23 studi; prevalenza annuale 28,9% negli adolescenti e 22,7% nella popolazione generale; gli autori segnalano pochi studi e definizioni eterogenee) [doi:10.1371/journal.pone.0190892](https://doi.org/10.1371/journal.pone.0190892)
+- Rathleff C.R., Olesen J.L., Roos E.M., Rasmussen S., Rathleff M.S. **High prevalence of daily and multi-site pain — a cross-sectional population-based study among 3000 Danish adolescents.** *BMC Pediatrics*, 2013;13:191. (2.953 adolescenti danesi di 12-19 anni, entrambi i sessi; dolore al ginocchio 35,0% nelle ragazze contro 27,9% nei ragazzi) [doi:10.1186/1471-2431-13-191](https://doi.org/10.1186/1471-2431-13-191)
+- Rathleff M.S., Skuldbøl S.K., Rasch M.N.B., Roos E.M., Rasmussen S., Olesen J.L. **Care-seeking behaviour of adolescents with knee pain: a population-based study among 504 adolescents.** *BMC Musculoskeletal Disorders*, 2013;14:225. (504 adolescenti danesi di 15-19 anni con dolore al ginocchio almeno mensile, di cui 363 ragazze — 72%; durata mediana 24 mesi; 68,3% esordio insidioso) [doi:10.1186/1471-2474-14-225](https://doi.org/10.1186/1471-2474-14-225)
+- Rathleff M.S., Rathleff C.R., Olesen J.L., Rasmussen S., Roos E.M. **Is Knee Pain During Adolescence a Self-limiting Condition? Prognosis of Patellofemoral Pain and Other Types of Knee Pain.** *The American Journal of Sports Medicine*, 2016;44(5):1165-1171. (follow-up a 2 anni; 55,9% con dolore ancora presente; rischio relativo 1,26 per il dolore femoro-rotuleo) [doi:10.1177/0363546515622456](https://doi.org/10.1177/0363546515622456)
+- Rathleff M.S., Holden S., Straszek C.L., Olesen J.L., Jensen M.B., Roos E.M. **Five-year prognosis and impact of adolescent knee pain: a prospective population-based cohort study of 504 adolescents in Denmark.** *BMJ Open*, 2019;9(5):e024113. (follow-up a 5 anni; 40,5% ancora con dolore contro 13,2% dei controlli; 60% ha smesso o ridotto lo sport; adolescenti di entrambi i sessi) [doi:10.1136/bmjopen-2018-024113](https://doi.org/10.1136/bmjopen-2018-024113)
+- Rathleff M.S., Roos E.M., Olesen J.L., Rasmussen S. **Exercise during school hours when added to patient education improves outcome for 2 years in adolescent patellofemoral pain: a cluster randomised trial.** *British Journal of Sports Medicine*, 2015;49(6):406-412. (trial randomizzato a cluster su 121 adolescenti di 15-19 anni; OR di guarigione 1,73 a 12 mesi e 2,52 a 24 mesi) [doi:10.1136/bjsports-2014-093929](https://doi.org/10.1136/bjsports-2014-093929)
+- Rathleff M.S., Graven-Nielsen T., Hölmich P., Winiarski L., Krommes K., Holden S., Thorborg K. **Activity Modification and Load Management of Adolescents With Patellofemoral Pain: A Prospective Intervention Study Including 151 Adolescents.** *The American Journal of Sports Medicine*, 2019;47(7):1629-1637. (151 adolescenti di 10-14 anni; studio prospettico **senza gruppo di controllo**, quindi non dimostrativo di efficacia; 86% di esiti positivi a 12 settimane, 81% a 12 mesi) [doi:10.1177/0363546519843915](https://doi.org/10.1177/0363546519843915)
+- Rathleff M.S., Winiarski L., Krommes K., Graven-Nielsen T., Hölmich P., Olesen J.L., Holden S., Thorborg K. **Activity Modification and Knee Strengthening for Osgood-Schlatter Disease: A Prospective Cohort Study.** *Orthopaedic Journal of Sports Medicine*, 2020;8(4):2325967120911106. (51 adolescenti di 10-14 anni, 51% ragazze; coorte prospettica **senza gruppo di controllo**; 80% di esiti positivi a 12 settimane, 90% a 12 mesi) [doi:10.1177/2325967120911106](https://doi.org/10.1177/2325967120911106)
+- Rathleff M.S., Roos E.M., Olesen J.L., Rasmussen S., Arendt-Nielsen L. **Lower Mechanical Pressure Pain Thresholds in Female Adolescents With Patellofemoral Pain Syndrome.** *Journal of Orthopaedic & Sports Physical Therapy*, 2013;43(6):414-421. (studio trasversale su **adolescenti femmine** con dolore femoro-rotuleo e controlli della stessa età) [doi:10.2519/jospt.2013.4383](https://doi.org/10.2519/jospt.2013.4383)
+- Collins N.J., Barton C.J., van Middelkoop M., Callaghan M.J., Rathleff M.S., Vicenzino B.T., Davis I.S., Powers C.M., Macri E.M., Hart H.F., de Oliveira Silva D., Crossley K.M. **2018 Consensus statement on exercise therapy and physical interventions (orthoses, taping and manual therapy) to treat patellofemoral pain: recommendations from the 5th International Patellofemoral Pain Research Retreat, Gold Coast, Australia, 2017.** *British Journal of Sports Medicine*, 2018;52(18):1170-1178. (dichiarazione di consenso su popolazione con dolore femoro-rotuleo **in larga parte adulta**) [doi:10.1136/bjsports-2018-099397](https://doi.org/10.1136/bjsports-2018-099397)
+
+*Questo articolo ha finalità informative e divulgative e non costituisce parere medico né strumento diagnostico. Le coorti citate riguardano adolescenti di entrambi i sessi, in prevalenza danesi di 15-19 anni, e non sono direttamente trasferibili a un'atleta di 13-14 anni. Un dolore al ginocchio che persiste oltre due-tre settimane, o accompagnato da gonfiore, cedimenti, blocchi o comparso dopo un trauma, va valutato da un pediatra, da un medico dello sport o da un fisioterapista: la decisione sul carico e sul ritorno all'attività spetta a chi segue clinicamente l'atleta.*
