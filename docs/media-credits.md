@@ -82,3 +82,16 @@
   Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: la scala di uno stadio come immagine del gesto che nel dolore femoro-rotuleo
   fa male per primo — salire e scendere le scale.
+
+## cover-picco-di-crescita.jpg
+- Titolo originale: "Wall bars"
+- Fonte: Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Wall_bars.webp
+- Autore: Wikideas1
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "picco di crescita nelle giovani atlete" (IT + EN)
+- Lavorazione: originale 1690x3903 (verticale), ritaglio 16:9 della fascia centrale (offset y=1200, 1690x950)
+  e resample a 1200x675, JPEG q85 progressivo.
+  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: i pioli della spalliera come tacche di altezza che salgono — il picco di crescita
+  visto come una scala, non come un incidente.
+  NB: scartata "Gymnastics room 2.webp" (pure CC0) perché ritrae giovani ginnaste identificabili.

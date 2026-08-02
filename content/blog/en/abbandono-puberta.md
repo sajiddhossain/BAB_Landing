@@ -2,11 +2,11 @@
 slug: abbandono-puberta
 title: "Why girls stop playing sport as teenagers (and why it isn't inevitable)"
 date: 2026-06-22
-updated: 2026-07-28
+updated: 2026-08-02
 author: Sajid Hossain
 excerpt: "43% of teenage girls say they loved sport as children and have since fallen out of love with it — against 24% of boys. It isn't a dip in motivation: it's an environment that stops working exactly when the body changes. The evidence, and the four levers a club actually holds — including the one that returns most: preventing the injury that ends everything."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
-coverAlt: "A smiling girl with headphones round her neck, sitting at a desk writing in a notebook"
+coverAlt: "A smiling teenage girl with headphones round her neck, sitting at her bedroom desk writing in a notebook: the free time that competes with sport in adolescence"
 tags:
   - drop-out
   - clubs
@@ -42,9 +42,13 @@ For the real number, look at registrations. Tracking the actual club sign-ups of
 
 One caveat that makes the case stronger, not weaker: neither source proves that *puberty* is the cause. The first anchors the shift to the end of primary school; the second doesn't isolate causes. Connecting the dots takes a third source.
 
-## It isn't the girls' fault: what the evidence shows
+## Why do girls stop precisely during puberty?
+
+Because drop-out tracks the developing body rather than the date on the birth certificate — and that has been measured.
 
 That third source exists, and it's longitudinal. Following **781 Canadian adolescents** from ages 10-13 over seven years, Gallant and colleagues found that **girls who started puberty earlier were significantly more likely to discontinue organised activities** than girls with average pubertal timing (HR 1.68; 95% CI 1.05-2.69) (Gallant et al., 2023). It isn't the calendar that explains drop-out: it's the moment the body changes.
+
+There is also a part of this story that belongs to the fast-growing body: in the years around [the growth spurt](/blog/picco-di-crescita-giovani-atlete) movements can feel less precise, and an athlete who believes she has "got clumsy" has one more reason to step aside. It should be said that the evidence on that phase, in girls, is still limited — all the more reason not to turn it into a verdict.
 
 And you can see the mechanism. A review of **86 studies across 33 countries in adolescents aged 10-18** finds that between **25.2% and 61.1%** of girls avoid or reduce physical activity during menstruation — for pain, but also for **fear of leaking** and embarrassment, to the point that across several studies they would rather sit out than risk it (Harvey et al., 2025).
 
@@ -59,7 +63,9 @@ When an environment won't talk about periods, energy and a changing body, the at
 3. **Continuity and practical conditions.** Privacy in changing rooms, period products available, stable people to look up to. And watch what looks like a detail: the [sports bra](/blog/reggiseno-sportivo-ragazze) is one of the least-discussed reasons a girl quietly dials down her intensity — and [urinary leakage during jumping](/blog/perdite-urina-giovani-atlete) is discussed even less, affecting nearly one adolescent athlete in two, with 87% saying they would not raise it with their coach.
 4. **Prevent the injury that ends everything.** A dropout can begin with one long lay-off. In high-school sport girls sustain 1.40 times the ACL injuries of their male peers (Bram et al., 2021), and twenty minutes of [neuromuscular training twice a week](/blog/crociato-giovani-atlete) cuts that risk by roughly 60% in the 13-19 band (Petushek et al., 2019). The same applies to the long lay-offs that make no noise: in high-school sport girls sustain [stress fractures](/blog/salute-ossea-fratture-da-stress-giovani-atlete) 1.75 times as often as their male peers, and one in five comes back (Changstrom et al., 2015). It is the best cost-to-return lever a club has.
 
-## Why it pays off for the club too
+## Why does retaining athletes pay off for the club too?
+
+Because every athlete who stays is a squad that doesn't thin out in exactly the years it should be growing.
 
 Retaining athletes isn't only an ethical question: it's sporting sustainability. Every girl who stays is an investment that keeps returning value to the team — fewer dropouts, a more solid squad, steadier results over time.
 

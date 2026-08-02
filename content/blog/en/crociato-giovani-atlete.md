@@ -2,7 +2,7 @@
 slug: crociato-giovani-atlete
 title: "ACL injuries in young female athletes: why the risk is higher, and the 20 minutes that halve it"
 date: 2026-07-21
-updated: 2026-07-30
+updated: 2026-08-02
 author: Sajid Hossain
 excerpt: "In high-school sport, girls tear their ACL 1.4 times as often as boys — and over four times as often in basketball. A neuromuscular warm-up cuts that risk by roughly 60% in 13-19 year-old athletes, costs twenty minutes twice a week, and almost no team actually does it. The evidence, and what changes on Monday."
 cover: /fotobab/cover-crociato-atlete.jpg
@@ -44,6 +44,8 @@ An average, though, hides more than it shows. The same work finds the gap is alm
 ## Why the gap opens at puberty
 
 Here the common explanation — "it's female anatomy" — is not enough, because the anatomy is there at 8 too, when the gap is not. What changes in between is puberty.
+
+That puberty, though, is not a date: it is a phase with a speed of its own, and the moment the body changes fastest has a name — [peak height velocity](/blog/picco-di-crescita-giovani-atlete). That is when levers lengthen and landing changes, and it is the reason the neuromuscular warm-up should not be dropped in exactly the years an athlete grows most.
 
 A longitudinal study of **315 young athletes**, retested a year apart, measured how they land from a jump: in the pubertal group **girls increased their peak knee abduction** (the inward collapse known as dynamic valgus) from one year to the next (p<0.001), while their male peers did not change at all (p=0.90). After puberty the distance is stark: **-9.3° in girls versus -3.6° in boys** (p<0.001), with abduction moments nearly double (-21.9 Nm vs -13.0 Nm; p=0.017) (Ford et al., 2010).
 

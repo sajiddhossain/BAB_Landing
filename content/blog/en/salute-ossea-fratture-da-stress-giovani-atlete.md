@@ -2,7 +2,7 @@
 slug: salute-ossea-fratture-da-stress-giovani-atlete
 title: "Stress fractures in young female athletes: why bone is built now, not later"
 date: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-02
 author: Sajid Hossain
 excerpt: "In US high school sport, girls sustain stress fractures 1.75 times as often as boys and account for 63% of all cases. That is not bad luck: it is a skeleton still under construction, inside a window that closes around age 18. What the data say, which signs to watch, and what actually builds bone."
 cover: /fotobab/cover-salute-ossea.jpg
@@ -53,6 +53,8 @@ One honest caveat about the prevalence figures in circulation: the most-cited na
 ## Why an adolescent athlete's bone is more exposed
 
 Two things get confused here. First, a girl's bone in puberty **is not a smaller adult bone**: it is an open building site. Second, what pushes it over the edge is almost never a single session, but the sum of load and fuel.
+
+There is also a question of synchrony, not just duration: peak bone mineral accrual arrives **roughly six months after** peak height velocity (Bailey et al., 1999), so for a period bone is already longer but not yet as dense — one reason not to raise the load in exactly the quarter [an athlete is growing fast](/blog/picco-di-crescita-giovani-atlete).
 
 On the first point, the evidence on timing is clear. A longitudinal study of bone mineral accrual from age 8 to 30 estimated that **total body bone mineral content plateaus on average 6 years after peak height velocity**, which in girls corresponds roughly to age **18** ([Baxter-Jones et al., 2011, *J Bone Miner Res*](https://doi.org/10.1002/jbmr.412)). Before that point bone is deposited fast; afterwards, far less so.
 
@@ -123,6 +125,7 @@ Because a stress fracture does not start on the day it hurts. It starts in the t
 - Beck B., Drysdale L. **Risk Factors, Diagnosis and Management of Bone Stress Injuries in Adolescent Athletes: A Narrative Review.** *Sports*, 2021;9(4):52. (narrative, therefore non-systematic review; estimated incidence 3.9-19% and recurrence up to 21% in adolescent athletes) [doi:10.3390/sports9040052](https://doi.org/10.3390/sports9040052)
 - Barrack M.T., Gibbs J.C., De Souza M.J., Williams N.I., Nichols J.F., Rauh M.J., Nattiv A. **Higher Incidence of Bone Stress Injuries With Increasing Female Athlete Triad-Related Risk Factors: A Prospective Multisite Study of Exercising Girls and Women.** *The American Journal of Sports Medicine*, 2014;42(4):949-958. (n=259, **mean age 18.1 years**: girls and young women, not pre-adolescents; observational study, associations rather than causation) [doi:10.1177/0363546513520295](https://doi.org/10.1177/0363546513520295)
 - Baxter-Jones A.D.G., Faulkner R.A., Forwood M.R., Mirwald R.L., Bailey D.A. **Bone Mineral Accrual from 8 to 30 Years of Age: An Estimation of Peak Bone Mass.** *Journal of Bone and Mineral Research*, 2011;26(8):1729-1739. (longitudinal study; total body bone mineral content plateaus on average at +6 years from peak height velocity, ~18 years in girls) [doi:10.1002/jbmr.412](https://doi.org/10.1002/jbmr.412)
+- Bailey D.A., McKay H.A., Mirwald R.L., Crocker P.R.E., Faulkner R.A. **A Six-Year Longitudinal Study of the Relationship of Physical Activity to Bone Mineral Accrual in Growing Children: The University of Saskatchewan Bone Mineral Accrual Study.** *Journal of Bone and Mineral Research*, 1999;14(10):1672-1679. (53 girls and 60 boys followed for 6 years; peak bone mineral accrual occurs roughly 6 months after peak height velocity) [doi:10.1359/jbmr.1999.14.10.1672](https://doi.org/10.1359/jbmr.1999.14.10.1672)
 - Weaver C.M., Gordon C.M., Janz K.F., et al. **The National Osteoporosis Foundation's position statement on peak bone mass development and lifestyle factors: a systematic review and implementation recommendations.** *Osteoporosis International*, 2016;27(4):1281-1386. (systematic review; lifestyle factors account for 20-40% of adult peak bone mass) [doi:10.1007/s00198-015-3440-3](https://doi.org/10.1007/s00198-015-3440-3)
 - Weeks B.K., Young C.M., Beck B.R. **Eight Months of Regular In-School Jumping Improves Indices of Bone Strength in Adolescent Boys and Girls: The POWER PE Study.** *Journal of Bone and Mineral Research*, 2008;23(7):1002-1011. (randomised controlled trial in 99 adolescents, mean age 13.8 years; 10 minutes of jumping twice a week for 8 months; sex-specific effects) [doi:10.1359/jbmr.080226](https://doi.org/10.1359/jbmr.080226)
 

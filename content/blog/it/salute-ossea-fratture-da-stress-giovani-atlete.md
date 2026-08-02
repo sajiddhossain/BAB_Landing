@@ -2,7 +2,7 @@
 slug: salute-ossea-fratture-da-stress-giovani-atlete
 title: "Fratture da stress nelle giovani atlete: perché l'osso si costruisce adesso"
 date: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-02
 author: Sajid Hossain
 excerpt: "Nelle scuole superiori americane le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi, e sono il 63% di tutti i casi. Non è sfortuna: è un osso che si sta ancora costruendo, in una finestra che si chiude verso i 18 anni. Cosa dicono i dati, quali segnali guardare e cosa costruisce osso davvero."
 cover: /fotobab/cover-salute-ossea.jpg
@@ -53,6 +53,8 @@ Una precisazione onesta sulle stime di prevalenza che circolano: la revisione na
 ## Perché l'osso di un'atleta adolescente è più esposto
 
 Qui serve distinguere due cose che spesso vengono confuse. La prima è che l'osso di una ragazza in pubertà **non è un osso adulto più piccolo**: è un cantiere aperto. La seconda è che ciò che lo mette in crisi non è quasi mai il singolo allenamento, ma la somma di carico e carburante.
+
+C'è anche una questione di sincronia, non solo di durata: il picco di accumulo di minerale osseo arriva **circa sei mesi dopo** il picco di velocità di crescita staturale (Bailey et al., 1999), quindi per un periodo l'osso è già più lungo ma non ancora altrettanto denso — è una delle ragioni per cui vale la pena non aumentare il carico proprio nel trimestre in cui [un'atleta cresce in fretta](/blog/picco-di-crescita-giovani-atlete).
 
 Sul primo punto, l'evidenza è chiara sui tempi. Uno studio longitudinale sull'accumulo di minerale osseo dagli 8 ai 30 anni ha stimato che il **contenuto minerale osseo totale raggiunge un plateau in media 6 anni dopo il picco di velocità di crescita staturale**, che nelle ragazze corrisponde grosso modo ai **18 anni** ([Baxter-Jones et al., 2011, *J Bone Miner Res*](https://doi.org/10.1002/jbmr.412)). Prima di quel momento l'osso si deposita in fretta; dopo, molto meno.
 
@@ -123,6 +125,7 @@ Perché una frattura da stress non nasce il giorno in cui fa male. Nasce nei tre
 - Beck B., Drysdale L. **Risk Factors, Diagnosis and Management of Bone Stress Injuries in Adolescent Athletes: A Narrative Review.** *Sports*, 2021;9(4):52. (revisione narrativa, quindi non sistematica; incidenza stimata 3,9-19% e recidive fino al 21% negli atleti adolescenti) [doi:10.3390/sports9040052](https://doi.org/10.3390/sports9040052)
 - Barrack M.T., Gibbs J.C., De Souza M.J., Williams N.I., Nichols J.F., Rauh M.J., Nattiv A. **Higher Incidence of Bone Stress Injuries With Increasing Female Athlete Triad-Related Risk Factors: A Prospective Multisite Study of Exercising Girls and Women.** *The American Journal of Sports Medicine*, 2014;42(4):949-958. (n=259, **età media 18,1 anni**: ragazze e giovani donne, non preadolescenti; studio osservazionale, associazioni e non causalità) [doi:10.1177/0363546513520295](https://doi.org/10.1177/0363546513520295)
 - Baxter-Jones A.D.G., Faulkner R.A., Forwood M.R., Mirwald R.L., Bailey D.A. **Bone Mineral Accrual from 8 to 30 Years of Age: An Estimation of Peak Bone Mass.** *Journal of Bone and Mineral Research*, 2011;26(8):1729-1739. (studio longitudinale; il contenuto minerale osseo totale raggiunge un plateau in media a +6 anni dal picco di velocità di crescita, ~18 anni nelle ragazze) [doi:10.1002/jbmr.412](https://doi.org/10.1002/jbmr.412)
+- Bailey D.A., McKay H.A., Mirwald R.L., Crocker P.R.E., Faulkner R.A. **A Six-Year Longitudinal Study of the Relationship of Physical Activity to Bone Mineral Accrual in Growing Children: The University of Saskatchewan Bone Mineral Accrual Study.** *Journal of Bone and Mineral Research*, 1999;14(10):1672-1679. (53 ragazze e 60 ragazzi seguiti per 6 anni; il picco di accumulo minerale osseo si colloca circa 6 mesi dopo il picco di velocità di crescita) [doi:10.1359/jbmr.1999.14.10.1672](https://doi.org/10.1359/jbmr.1999.14.10.1672)
 - Weaver C.M., Gordon C.M., Janz K.F., et al. **The National Osteoporosis Foundation's position statement on peak bone mass development and lifestyle factors: a systematic review and implementation recommendations.** *Osteoporosis International*, 2016;27(4):1281-1386. (revisione sistematica; i fattori di stile di vita influenzano il 20-40% della massa ossea di picco dell'adulto) [doi:10.1007/s00198-015-3440-3](https://doi.org/10.1007/s00198-015-3440-3)
 - Weeks B.K., Young C.M., Beck B.R. **Eight Months of Regular In-School Jumping Improves Indices of Bone Strength in Adolescent Boys and Girls: The POWER PE Study.** *Journal of Bone and Mineral Research*, 2008;23(7):1002-1011. (studio controllato randomizzato su 99 adolescenti, età media 13,8 anni; 10 minuti di salti 2 volte a settimana per 8 mesi; effetti sesso-specifici) [doi:10.1359/jbmr.080226](https://doi.org/10.1359/jbmr.080226)
 

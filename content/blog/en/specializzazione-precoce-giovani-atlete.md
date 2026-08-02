@@ -2,7 +2,7 @@
 slug: specializzazione-precoce-giovani-atlete
 title: "Early specialisation: one sport all year round, and what it actually costs girls"
 date: 2026-07-26
-updated: 2026-07-26
+updated: 2026-08-02
 author: Sajid Hossain
 excerpt: "Among female athletes aged 13-18, those highly specialised in a single sport are 2.93 times as likely to report an injury history. Training more hours per week than your age in years doubles the odds of a serious overuse injury. And the athletes who actually reach the top started their main sport later, not earlier. The evidence, its limits, and the three questions that tell you whether a girl is already specialised."
 cover: /fotobab/cover-specializzazione-precoce.jpg
@@ -69,6 +69,8 @@ If one thing should survive this article, it's this. A case-control study of you
 
 - Athletes who play **more hours of organised sport per week than their age in years** have **2.07 times** the odds of a serious overuse injury (95% CI 1.40-3.05; p<0.001). At 13: more than 13 hours.
 - Athletes whose ratio of **organised sport to free play exceeds 2:1** have **1.87 times** those odds (95% CI 1.26-2.76; p<0.01).
+
+There is a moment when that calendar deserves a fresh look, and it is the quarter in which an athlete is growing fast: adding hours exactly while the body changes fastest is the least sensible combination there is, as we explain in [the growth spurt in young female athletes](/blog/picco-di-crescita-giovani-atlete).
 
 Specialisation remains an independent factor even after adjusting for age and hours (OR 1.27; 95% CI 1.07-1.52 for injury; OR 1.36 for serious overuse injury), but the effect is smaller. Put practically: **the calendar matters more than the label**. A girl doing one sport for ten hours a week with two months off is in a different situation from one doing the same sport for twenty hours, twelve months a year, with zero unstructured play.
 

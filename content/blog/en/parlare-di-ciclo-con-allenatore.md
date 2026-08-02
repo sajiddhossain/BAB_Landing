@@ -2,7 +2,7 @@
 slug: parlare-di-ciclo-con-allenatore
 title: "Talking about periods with your coach: why only 11% of athletes do (and how to change it)"
 date: 2026-07-03
-updated: 2026-07-26
+updated: 2026-08-02
 author: Sajid Hossain
 excerpt: "Only 11% of athletes talk about their menstrual cycle with their coach: 4% if he's a man, 55% if she's a woman. And 88% learned these things on their own. It isn't disinterest: it is the absence of a safe channel. What data from 1,086 athletes across 57 sports show, what coaches can actually say, and how to open the channel without forcing anyone to expose herself."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
@@ -52,15 +52,15 @@ And one detail that widens the problem: **there is no significant difference in 
 
 One necessary caveat on age: Höök and colleagues' sample includes adult and adolescent athletes together, and the data are not broken down by age band. So we do not have a prevalence measured on 13-year-olds — which is no accident, given that only **6%** of studies in sport and exercise science are conducted exclusively on women ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). The picture describes a real phenomenon; the specific number for the youngest athletes simply hasn't been measured yet.
 
-## Why silence isn't "disinterest"
+## Why doesn't an athlete talk about her cycle with her coach?
 
-It's easy to read that 4% as indifference. It's the opposite. In qualitative research on international rugby players, **93% reported cycle-related symptoms** and **two-thirds perceived an impact on performance** ([Findlay et al., 2020, *BJSM*](https://doi.org/10.1136/bjsports-2019-101486)). Athletes *live* the topic every month. They simply have no comfortable way to bring it to the person coaching them — especially if he's a man, especially at 13-14, especially in front of teammates.
+Not because the topic doesn't concern her, but because **there is no comfortable, private channel to bring it through**: athletes live their cycle every month, they simply have no way to say so without exposing themselves in front of the group. It's easy to read that 4% as indifference. It's the opposite. In qualitative research on international rugby players, **93% reported cycle-related symptoms** and **two-thirds perceived an impact on performance** ([Findlay et al., 2020, *BJSM*](https://doi.org/10.1136/bjsports-2019-101486)). Athletes *live* the topic every month. They simply have no comfortable way to bring it to the person coaching them — especially if he's a man, especially at 13-14, especially in front of teammates.
 
 Silence, in other words, is **a channel problem**, not a willingness problem. And it has a measurable cost: among adolescents aged 10-18, between **25.2% and 61.1%** avoid or reduce physical activity during their period, often out of fear of leaks and embarrassment rather than pain ([Harvey et al., 2025, *BMC Women's Health*](https://doi.org/10.1186/s12905-025-03825-w)). Those are lost training sessions nobody records — a mechanism we covered in detail in [the cycle and performance](/blog/ciclo-e-performance). And periods are not the only topic that stays outside the changing room: [urinary leakage during sport](/blog/perdite-urina-giovani-atlete) follows exactly the same curve of silence.
 
-## The bridge: awareness for staff, privacy for the athlete
+## How do you open the channel without forcing anyone to expose herself?
 
-The wrong answer would be to ask every girl to "open up" to the coach. The right answer works on two sides at once:
+By working on both sides at once: **baseline literacy for the staff, guaranteed privacy for the athlete**. The wrong answer would be to ask every girl to "open up" to the coach. The right answer works on two sides at once:
 
 1. **Raise the staff's baseline awareness.** A coach doesn't need to become a gynaecologist (in the study, only 3% of athletes had access to one through sport). But he should know that fatigue, pain or a dip in energy can have an explanation, and treat them as information, not excuses. He should know, for instance, that a cycle that disappears is not a sign of good training but a possible signal of [low energy availability](/blog/red-s-bassa-disponibilita-energetica), or that [the words used to comment on a body](/blog/parole-allenatore-salute-atlete) stay with a girl for years.
 2. **Give the athlete a channel that doesn't force her to expose herself.** This is where technology can help, if well designed: the athlete observes her own signals in private, and staff receive **only an aggregated, anonymous picture** of the team — never an individual's data.
