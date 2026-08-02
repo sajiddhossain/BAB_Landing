@@ -2,7 +2,7 @@
 slug: crociato-giovani-atlete
 title: "Crociato e giovani atlete: perché il rischio è più alto, e i 20 minuti che lo dimezzano"
 date: 2026-07-21
-updated: 2026-07-30
+updated: 2026-08-02
 author: Sajid Hossain
 excerpt: "Nello sport scolastico le ragazze si rompono il crociato 1,4 volte più dei coetanei maschi — a basket oltre quattro volte tanto. Esiste un riscaldamento neuromuscolare che nelle atlete di 13-19 anni riduce il rischio di circa il 60%, costa venti minuti due volte a settimana e quasi nessuna squadra lo fa davvero. I dati, e cosa cambia lunedì in palestra."
 cover: /fotobab/cover-crociato-atlete.jpg
@@ -44,6 +44,8 @@ Una media, però, nasconde più di quanto mostri. Lo stesso lavoro trova che il 
 ## Perché il divario si apre proprio in pubertà
 
 Qui la spiegazione più diffusa — "è l'anatomia femminile" — è insufficiente, perché l'anatomia c'è anche a 8 anni, quando il divario non c'è. Ciò che cambia in mezzo è la pubertà.
+
+Quella pubertà, però, non è una data: è una fase con una velocità propria, e il momento in cui il corpo cambia più in fretta ha un nome — il [picco di velocità di crescita](/blog/picco-di-crescita-giovani-atlete). È lì che le leve si allungano e l'atterraggio cambia, ed è la ragione per cui il riscaldamento neuromuscolare non va tolto proprio negli anni in cui un'atleta cresce di più.
 
 Uno studio longitudinale su **315 giovani atleti**, rivalutati a un anno di distanza, ha misurato come atterrano da un salto: nel gruppo puberale **le ragazze aumentano il picco di abduzione del ginocchio** (il cedimento verso l'interno, il cosiddetto valgismo dinamico) da un anno all'altro (p<0,001), mentre nei coetanei maschi non cambia nulla (p=0,90). E dopo la pubertà la distanza è netta: **-9,3° nelle ragazze contro -3,6° nei ragazzi** (p<0,001), con momenti di abduzione quasi doppi (-21,9 Nm contro -13,0 Nm; p=0,017) (Ford et al., 2010).
 

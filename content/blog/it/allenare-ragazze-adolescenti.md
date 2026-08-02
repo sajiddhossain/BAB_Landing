@@ -1,10 +1,10 @@
 ---
 slug: allenare-ragazze-adolescenti
-title: "Come allenare ragazze adolescenti: la guida per coach e società sportive"
+title: "Come allenare ragazze adolescenti: 4 leve concrete per coach e società sportive"
 date: 2026-07-02
-updated: 2026-07-24
+updated: 2026-08-02
 author: Sajid Hossain
-excerpt: "Tra le ragazze che entrano in una società a 10-14 anni, il 71% abbandona senza mai rientrare. Spesso non è una questione di motivazione, ma di ambiente — e gran parte di quell'ambiente passa dalle mani di chi allena. Ecco le quattro leve concrete, con i dati che le sostengono."
+excerpt: "Allenare bene ragazze adolescenti significa parlare del corpo che cambia, adattare il carico, usare solo segnali di squadra anonimi e garantire spazi e continuità. Sono le quattro leve che tengono un'atleta in campo — perché tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Ecco i dati che sostengono ciascuna leva."
 cover: /fotobab/cover-allenare-ragazze.jpg
 coverAlt: "Campo in erba sintetica con una fila di coni colorati in primo piano e due porte da allenamento sullo sfondo"
 tags:
@@ -18,6 +18,10 @@ faq:
     a: "No, e non deve fare diagnosi né conoscere il dato individuale di ciascuna atleta. Deve avere una cultura di base, e questo si misura: nel Female Athlete Health Report 2023 (769 atlete, UK), chi percepiva il proprio allenatore come «molto informato» riportava in media 3,2 sintomi di RED-S contro 4,3 di chi lo percepiva come non informato — il 36% in meno. Va detto che quel report ha un'età media di 32 anni, quindi fotografa la popolazione atletica adulta: indica la direzione, non una prevalenza sulle adolescenti."
   - q: "Perché non dovrei guardare i dati di salute delle singole atlete?"
     a: "Perché è la privacy a rendere possibile la fiducia. Nel momento in cui un'atleta teme che il suo ciclo o il suo umore finiscano «in chiaro» davanti al gruppo, smette di dire la verità — e il dato che ottieni diventa inutile oltre che invasivo. Segnali aggregati e anonimi permettono di programmare uno scarico o cambiare il tono di una settimana pesante senza chiedere a nessuna di esporsi."
+  - q: "Quali sono le leve concrete per allenare bene ragazze adolescenti?"
+    a: "Sono quattro, e nessuna richiede budget. 1) Parlare del corpo che cambia con un linguaggio semplice e non giudicante. 2) Adattare il carico invece di sanzionare il calo — a partire dal riscaldamento neuromuscolare di 20 minuti, due volte a settimana. 3) Usare segnali di squadra aggregati e anonimi, mai il dato di salute individuale. 4) Garantire spazi con privacy, prodotti mestruali disponibili e continuità nelle figure di riferimento. Le prime due incidono sulla salute misurabile, le altre due sul fatto che un'atleta si fidi abbastanza da restare."
+  - q: "Come si adatta il carico a un'atleta che sta crescendo in fretta?"
+    a: "Tenendolo stabile, non aumentandolo, nel trimestre in cui cresce. La ragione fisiologica è che il picco di accumulo di minerale osseo arriva circa sei mesi dopo il picco di velocità di crescita staturale (Bailey et al., 1999): per un periodo l'osso è già più lungo ma non ancora altrettanto denso. Basta un metro fisso a muro e una misurazione ogni tre mesi per accorgersi di chi sta crescendo. Va detto con onestà che nelle ragazze l'evidenza che lega direttamente la maturazione agli infortuni è ancora limitata (Zoellner e Whatman, 2026): è una ragione di prudenza, non un allarme."
   - q: "Come si prevengono gli infortuni gravi nelle atlete adolescenti?"
     a: "Con il riscaldamento, fatto in un modo preciso e con costanza. Una meta-analisi su 27.231 atlete ha stimato che l'allenamento neuromuscolare preventivo riduce il rischio di rottura del crociato da circa 1 su 54 a 1 su 111 (OR 0,51; IC 95% 0,37-0,69), e l'effetto è più forte proprio nella fascia 13-19 anni (OR 0,38; IC 95% 0,24-0,60), cioè circa il 60% di rischio in meno (Petushek et al., 2019). Il dosaggio medio degli studi efficaci è di circa 24 minuti a sessione, 2,5 volte a settimana. La variabile decisiva non è quali esercizi si scelgono, ma la costanza: sotto il ~66% di aderenza complessiva il beneficio non si vede (Sugimoto et al., 2012)."
 ---
@@ -30,9 +34,9 @@ Tra le ragazze che entrano in una società sportiva a **10-14 anni, il 71% abban
 > - Dal **25%** al **61%** delle adolescenti evita o riduce l'attività fisica durante le mestruazioni (Harvey et al., 2025).
 > - Le quattro leve: **parlare del corpo**, **adattare il carico**, **usare segnali di squadra anonimi**, **creare spazi e continuità**.
 
-## Il problema non è la motivazione, è il contesto
+## Perché un'atleta adolescente smette di venire agli allenamenti?
 
-È facile leggere un calo di presenze come "non ha più voglia". Quasi mai è così. Nella maggior parte dei casi l'atleta si sente **fuori posto** proprio mentre il corpo cambia: ciclo, energia altalenante, seno che cresce, sguardi che pesano. Se l'ambiente non ne parla, resta sola con domande che non osa fare — e va via in silenzio.
+Quasi mai perché ha perso la voglia: molto più spesso perché **il contesto ha smesso di funzionare per lei**. È facile leggere un calo di presenze come "non ha più voglia". Quasi mai è così. Nella maggior parte dei casi l'atleta si sente **fuori posto** proprio mentre il corpo cambia: ciclo, energia altalenante, seno che cresce, sguardi che pesano. Se l'ambiente non ne parla, resta sola con domande che non osa fare — e va via in silenzio.
 
 Non è un'impressione. Uno studio longitudinale su 781 adolescenti canadesi ha rilevato che **le ragazze con pubertà precoce hanno una probabilità significativamente maggiore di abbandonare le attività organizzate** (HR 1,68) rispetto alle coetanee con sviluppo nella media (Gallant et al., 2023). E dal **25% al 61%** delle adolescenti evita o riduce l'attività fisica durante le mestruazioni — per dolore, ma anche per paura delle perdite e imbarazzo (Harvey et al., 2025). Allenare bene le adolescenti significa, prima di tutto, costruire un contesto in cui restare è più facile che andarsene. [Il drop-out femminile](/blog/abbandono-puberta) non è un destino: è un esito.
 
@@ -48,6 +52,8 @@ L'energia di un'atleta adolescente non è costante, e va bene così. Un giorno "
 
 E c'è un adattamento del carico che vale più di tutti gli altri, perché è misurato: **venti minuti di riscaldamento neuromuscolare, due volte a settimana**, riducono il rischio di rottura del crociato di circa il **60%** nelle atlete di 13-19 anni (Petushek et al., 2019). Non è un'aggiunta al programma: prende il posto del riscaldamento che già si fa, e [funziona solo se lo si fa davvero](/blog/crociato-giovani-atlete) — sotto il ~66% di aderenza il beneficio sparisce (Sugimoto et al., 2012).
 
+C'è un momento in cui adattare il carico conta più che in ogni altro, e si riconosce con un metro a muro: il trimestre in cui un'atleta cresce in fretta. Il picco di accumulo di minerale osseo arriva **circa sei mesi dopo** il picco di velocità di crescita (Bailey et al., 1999): per un periodo l'osso è già più lungo ma non ancora altrettanto denso. Non significa fermarsi — significa tenere stabile il volume e lavorare su tecnica e controllo, come spieghiamo in [picco di crescita nelle giovani atlete](/blog/picco-di-crescita-giovani-atlete).
+
 C'è poi un adattamento del carico che si decide in trenta secondi, non in una settimana: cosa si fa dopo un colpo alla testa. Negli sport confrontabili tra i due sessi, **le atlete hanno 1,26 volte la probabilità di non essere tolte dall'attività** dopo una commozione cerebrale (IC 95% 1,09-1,45) (Zynda et al., 2021) — e chi resta in campo recupera in 44 giorni invece di 22 (Elbin et al., 2016). La regola è una sola, e [vale la pena scriverla prima che serva](/blog/commozione-cerebrale-giovani-atlete): in caso di sospetto, l'atleta esce e non rientra quel giorno.
 
 ## 3. Usa segnali di squadra, mai dati individuali
@@ -60,9 +66,9 @@ Piccole cose fanno una grande differenza: **privacy** negli spogliatoi, prodotti
 
 E attenzione a ciò che sembra un dettaglio dell'attrezzatura: tra le ragazze di 11-18 anni, il **46% dice che il seno influenza la propria partecipazione allo sport obbligatorio** — quota che sale al **51% proprio a 13-14 anni** — eppure solo il **10%** indossa sempre un reggiseno sportivo (Scurr et al., 2016). È un problema con [una soluzione semplice](/blog/reggiseno-sportivo-ragazze), che costa nulla e nessuno nomina.
 
-## Perché conviene alla società
+## Perché trattenere le atlete conviene anche alla società?
 
-Trattenere le atlete non è solo etica: è **sostenibilità sportiva**. Ogni ragazza che resta è un investimento che continua a dare valore alla squadra — meno abbandoni, rosa più solida, risultati più continui nel tempo. Chi costruisce oggi un ambiente in cui le adolescenti restano, tra qualche anno avrà le squadre più forti.
+Perché ogni ragazza che resta è una rosa che non si assottiglia. Trattenere le atlete non è solo etica: è **sostenibilità sportiva**. Ogni ragazza che resta è un investimento che continua a dare valore alla squadra — meno abbandoni, rosa più solida, risultati più continui nel tempo. Chi costruisce oggi un ambiente in cui le adolescenti restano, tra qualche anno avrà le squadre più forti.
 
 BAB dà alle società gli strumenti per leggere i segnali aggregati e anonimi della squadra, e alle atlete l'app gratuita per ascoltare il proprio corpo — sempre nel rispetto della privacy della singola. Due facce dello stesso obiettivo: **non lasciare che accada.**
 
@@ -77,5 +83,7 @@ BAB dà alle società gli strumenti per leggere i segnali aggregati e anonimi de
 - Sugimoto D., Myer G.D., Bush H.M., Klugman M.F., Medina McKeon J.M., Hewett T.E. **Compliance With Neuromuscular Training and Anterior Cruciate Ligament Injury Risk Reduction in Female Athletes: A Meta-Analysis.** *Journal of Athletic Training*, 2012;47(6):714-723. (6 studi su atlete di 14-22 anni) [doi:10.4085/1062-6050-47.6.10](https://doi.org/10.4085/1062-6050-47.6.10)
 - Zynda A.J., Petit K.M., Anderson M., Tomczyk C.P., Covassin T. **Removal From Activity After Sports-Related Concussion in Sex-Comparable Sports From the Michigan High School Athletic Association.** *The American Journal of Sports Medicine*, 2021;49(10):2810-2816. (n=4.418 commozioni cerebrali, 22 sport confrontabili tra i sessi) [doi:10.1177/03635465211020007](https://doi.org/10.1177/03635465211020007)
 - Elbin R.J., Sufrinko A., Schatz P., French J., Henry L., Burkhart S., Collins M.W., Kontos A.P. **Removal From Play After Concussion and Recovery Time.** *Pediatrics*, 2016;138(3):e20160910. (n=69 atleti di 12-19 anni di entrambi i sessi, campione piccolo e reclutato in clinica) [doi:10.1542/peds.2016-0910](https://doi.org/10.1542/peds.2016-0910)
+- Bailey D.A., McKay H.A., Mirwald R.L., Crocker P.R.E., Faulkner R.A. **A Six-Year Longitudinal Study of the Relationship of Physical Activity to Bone Mineral Accrual in Growing Children: The University of Saskatchewan Bone Mineral Accrual Study.** *Journal of Bone and Mineral Research*, 1999;14(10):1672-1679. (53 ragazze e 60 ragazzi seguiti per 6 anni; il picco di accumulo minerale osseo arriva circa 6 mesi dopo il picco di velocità di crescita) [doi:10.1359/jbmr.1999.14.10.1672](https://doi.org/10.1359/jbmr.1999.14.10.1672)
+- Zoellner A., Whatman C. **The association between biological maturity and injury in young females participating in sport: A systematic review.** *Physical Therapy in Sport*, 2026;80:101843. (revisione sistematica di 31 studi; evidenza limitata tra maturazione e infortunio, moderata tra maturazione e fattori di rischio del ginocchio) [doi:10.1016/j.ptsp.2025.08.007](https://doi.org/10.1016/j.ptsp.2025.08.007)
 
 *Questo articolo ha finalità informative e non costituisce parere medico. In presenza di segnali persistenti, rivolgersi a un professionista sanitario.*

@@ -2,7 +2,7 @@
 slug: specializzazione-precoce-giovani-atlete
 title: "Specializzazione precoce: un solo sport tutto l'anno, e cosa costa davvero alle ragazze"
 date: 2026-07-26
-updated: 2026-07-26
+updated: 2026-08-02
 author: Sajid Hossain
 excerpt: "Tra le atlete di 13-18 anni, chi è altamente specializzata in un solo sport ha 2,93 volte le probabilità di aver avuto un infortunio. Allenarsi più ore a settimana dei propri anni d'età raddoppia il rischio di infortunio grave da sovraccarico. E gli atleti che arrivano davvero in cima hanno iniziato il loro sport principale più tardi, non prima. I dati, i limiti dei dati, e le tre domande che dicono se una ragazza è già specializzata."
 cover: /fotobab/cover-specializzazione-precoce.jpg
@@ -69,6 +69,8 @@ Se una sola cosa deve restare di questo articolo, è questa. Uno studio caso-con
 
 - Chi pratica **più ore di sport organizzato a settimana dei propri anni d'età** ha **2,07 volte** le probabilità di un infortunio grave da sovraccarico (IC 95% 1,40-3,05; p<0,001). A 13 anni: più di 13 ore.
 - Chi ha un rapporto **sport organizzato : gioco libero superiore a 2:1** ha **1,87 volte** quelle probabilità (IC 95% 1,26-2,76; p<0,01).
+
+C'è un momento in cui quel calendario andrebbe riletto da capo, ed è il trimestre in cui un'atleta cresce in fretta: aggiungere ore proprio mentre il corpo cambia più rapidamente è la combinazione meno sensata che ci sia, come spieghiamo in [picco di crescita nelle giovani atlete](/blog/picco-di-crescita-giovani-atlete).
 
 La specializzazione resta un fattore indipendente anche correggendo per età e ore (OR 1,27; IC 95% 1,07-1,52 per infortunio; OR 1,36 per infortunio grave da sovraccarico), ma è un effetto più piccolo. Detto in modo pratico: **il calendario conta più dell'etichetta**. Una ragazza che fa un solo sport dieci ore a settimana con due mesi di stacco è in una situazione diversa da una che ne fa uno solo per venti ore, dodici mesi all'anno, con zero gioco non strutturato.
 

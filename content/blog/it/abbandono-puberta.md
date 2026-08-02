@@ -2,11 +2,11 @@
 slug: abbandono-puberta
 title: "Perché le ragazze smettono di fare sport in adolescenza (e non è inevitabile)"
 date: 2026-06-22
-updated: 2026-07-28
+updated: 2026-08-02
 author: Sajid Hossain
 excerpt: "Il 43% delle adolescenti dice di aver amato lo sport da bambina e di averlo lasciato — contro il 24% dei coetanei maschi. Non è un calo di motivazione: è un ambiente che smette di funzionare proprio quando il corpo cambia. I dati, e le quattro leve che una società ha davvero in mano — inclusa quella che vale di più: prevenire l'infortunio che interrompe tutto."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
-coverAlt: "Ragazza sorridente con le cuffie al collo, seduta alla scrivania mentre scrive su un quaderno"
+coverAlt: "Adolescente sorridente con le cuffie al collo, seduta alla scrivania di camera sua mentre scrive su un quaderno: il tempo libero che nell'adolescenza compete con lo sport"
 tags:
   - drop-out
   - società
@@ -42,9 +42,11 @@ Per il dato reale serve guardare i tesseramenti. Seguendo per sette anni le iscr
 
 Una precisazione che rende il quadro più solido, non più debole: nessuna di queste due fonti dimostra che sia *la pubertà* la causa. La prima ancora il fenomeno alla fine delle elementari, la seconda non isola le cause. Serve una terza fonte per collegare i puntini.
 
-## Non è colpa delle ragazze: cosa dice l'evidenza
+## Perché le ragazze smettono proprio in pubertà?
 
-Quella terza fonte esiste, ed è longitudinale. Seguendo **781 adolescenti canadesi** dai 10-13 anni per sette anni, Gallant e colleghi hanno trovato che **le ragazze con pubertà precoce hanno una probabilità significativamente maggiore di abbandonare le attività organizzate** rispetto alle coetanee con sviluppo nella media (HR 1,68; IC 95% 1,05-2,69) (Gallant et al., 2023). Non è il calendario a spiegare l'abbandono: è il momento in cui il corpo cambia.
+Perché l'abbandono segue lo sviluppo del corpo, non l'età sulla carta d'identità — e questo è stato misurato. Quella terza fonte esiste, ed è longitudinale. Seguendo **781 adolescenti canadesi** dai 10-13 anni per sette anni, Gallant e colleghi hanno trovato che **le ragazze con pubertà precoce hanno una probabilità significativamente maggiore di abbandonare le attività organizzate** rispetto alle coetanee con sviluppo nella media (HR 1,68; IC 95% 1,05-2,69) (Gallant et al., 2023). Non è il calendario a spiegare l'abbandono: è il momento in cui il corpo cambia.
+
+C'è poi un pezzo di questa storia che riguarda il corpo che cresce in fretta: proprio negli anni del [picco di crescita](/blog/picco-di-crescita-giovani-atlete) i gesti sembrano meno precisi, e un'atleta che si sente «diventata imbranata» ha una ragione in più per farsi da parte. Va detto che l'evidenza su quella fase, nelle ragazze, è ancora limitata — motivo in più per non trasformarla in un giudizio.
 
 E il meccanismo si vede. Una revisione di **86 studi in 33 Paesi su adolescenti di 10-18 anni** rileva che dal **25,2% al 61,1%** delle ragazze evita o riduce l'attività fisica durante le mestruazioni — per dolore, ma anche per **paura delle perdite** e imbarazzo, al punto che in più studi preferiscono restare fuori pur di non rischiare una figuraccia (Harvey et al., 2025).
 
@@ -59,9 +61,9 @@ Quando un ambiente non parla di ciclo, energia e cambiamenti del corpo, l'atleta
 3. **Continuità e condizioni pratiche.** Privacy negli spogliatoi, prodotti mestruali disponibili, figure di riferimento stabili. E attenzione a ciò che sembra un dettaglio: il [reggiseno sportivo](/blog/reggiseno-sportivo-ragazze) è uno dei motivi meno detti per cui una ragazza riduce l'intensità — e lo è ancora di più [l'incontinenza urinaria durante i salti](/blog/perdite-urina-giovani-atlete), che riguarda quasi una atleta adolescente su due e di cui l'87% non parlerebbe con chi la allena.
 4. **Prevenire l'infortunio che interrompe tutto.** Un abbandono può cominciare da uno stop lungo. Nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei maschi (Bram et al., 2021), e venti minuti di [allenamento neuromuscolare due volte a settimana](/blog/crociato-giovani-atlete) riducono il rischio di circa il 60% nella fascia 13-19 anni (Petushek et al., 2019). Lo stesso vale per gli stop lunghi che non fanno rumore: nello sport delle scuole superiori le ragazze subiscono [fratture da stress](/blog/salute-ossea-fratture-da-stress-giovani-atlete) 1,75 volte più spesso dei coetanei maschi, e una su cinque si ripresenta (Changstrom et al., 2015). È la leva con il miglior rapporto tra costo e ritorno che una società abbia.
 
-## Perché conviene anche al club
+## Perché trattenere le atlete conviene anche al club?
 
-Trattenere le atlete non è solo una questione etica: è sostenibilità sportiva. Ogni ragazza che resta è un investimento che continua a dare valore alla squadra — meno abbandoni, rosa più solida, risultati più continui nel tempo.
+Perché ogni atleta che resta è una rosa che non si assottiglia proprio negli anni in cui dovrebbe crescere. Trattenere le atlete non è solo una questione etica: è sostenibilità sportiva. Ogni ragazza che resta è un investimento che continua a dare valore alla squadra — meno abbandoni, rosa più solida, risultati più continui nel tempo.
 
 BAB dà alle società gli strumenti per leggere i segnali aggregati e anonimi della squadra, e alle atlete l'app gratuita per ascoltare il proprio corpo. Due facce dello stesso obiettivo: **non lasciare che accada.**
 

@@ -194,6 +194,17 @@ const GLOSSARY: Record<string, { name: string; description: string; sameAs?: str
       'La scala clinica che descrive le tappe dello sviluppo puberale. È utile perché molti fenomeni si legano allo stadio puberale più che allo stadio anagrafico: i sintomi di insonnia nelle ragazze, per esempio, salgono dal 3,4% al 12,2% tra lo stadio 1 e lo stadio 5 (Zhang et al., 2016).',
     sameAs: 'https://it.wikipedia.org/wiki/Scala_di_Tanner',
   },
+  'picco-di-crescita': {
+    name: 'Picco di velocità di crescita (peak height velocity, PHV)',
+    description:
+      "Il momento in cui la statura aumenta alla velocità massima durante la pubertà. Nelle giovani atlete l'età media stimata è di 11,18 anni, ma con un intervallo di credibilità al 90% che va da 8,62 a 12,94 anni (Lima et al., 2024): due atlete della stessa categoria possono essere biologicamente distanti anni. Il picco di accumulo di minerale osseo arriva circa 6 mesi dopo (Bailey et al., 1999), quindi per un periodo l'osso è più lungo ma non ancora altrettanto denso.",
+    sameAs: 'https://en.wikipedia.org/wiki/Adolescent_growth_spurt',
+  },
+  maturazione: {
+    name: 'Maturazione biologica',
+    description:
+      "Il punto a cui è arrivato lo sviluppo di un corpo, distinto dall'età anagrafica. Nelle giovani atlete l'evidenza che lega lo stato di maturazione agli infortuni è limitata, mentre è moderata quella che lo lega a fattori di rischio del ginocchio in salto e atterraggio (Zoellner e Whatman, 2026). Si stima con misurazioni ripetute della statura ed equazioni di maturity offset (Moore et al., 2015): sono stime con margini d'errore ampi, utili a programmare il carico, non a etichettare un'atleta.",
+  },
 }
 const definedTerm = (key: string) => ({
   '@type': 'DefinedTerm',
@@ -616,6 +627,12 @@ function prerenderRoutes(): Plugin {
         "- Nel morbo di Osgood-Schlatter una scala di progressione del carico sul tendine rotuleo con esercizi di rinforzo ha prodotto l'80% di esiti riferiti come positivi a 12 settimane e il 90% a 12 mesi. Popolazione: 51 adolescenti di 10-14 anni, 51% ragazze; coorte prospettica SENZA gruppo di controllo. Fonte: Rathleff et al., 2020, doi:10.1177/2325967120911106.",
         "- Tra 2.953 adolescenti danesi di 12-19 anni, il dolore al ginocchio era riferito dal 35,0% delle ragazze contro il 27,9% dei ragazzi, e il dolore quasi quotidiano in qualsiasi sede dal 23,8% contro il 13,3%. Fonte: Rathleff et al., 2013, doi:10.1186/1471-2431-13-191.",
         "- La riabilitazione del pavimento pelvico ha migliorato i sintomi in 5 studi su 6 (in uno, 64% del gruppo di allenamento contro 8% dei controlli), ma su popolazione ADULTA: 131 atlete, età media 23,19 anni. Gli autori segnalano che le evidenze sulle atlete adolescenti sono molto limitate. Fonte: Demeco et al., 2024, doi:10.3390/sports12120338.",
+        "- Nelle giovani atlete l'età media stimata al picco di velocità di crescita (PHV) è di 11,18 anni, con intervallo di credibilità al 90% da 8,62 a 12,94 anni: l'ampiezza dell'intervallo è il dato, non un difetto della stima — in una stessa categoria convivono atlete biologicamente distanti anni. Popolazione: meta-analisi longitudinale bayesiana di 14 studi e 21 campioni indipendenti di giovani atlete. Fonte: Lima et al., 2024, doi:10.7759/cureus.59482.",
+        '- Il picco di accumulo di contenuto minerale osseo si colloca circa 6 mesi DOPO il picco di velocità di crescita staturale: in quell\'intervallo l\'osso è già più lungo ma non ancora altrettanto denso. Popolazione: 53 ragazze e 60 ragazzi canadesi seguiti per 6 anni. Fonte: Bailey et al., 1999, doi:10.1359/jbmr.1999.14.10.1672.',
+        "- Nelle giovani atlete l'evidenza a sostegno di un'associazione tra maturazione biologica e infortunio è LIMITATA; è invece moderata l'evidenza di un'associazione tra maturazione e fattori di rischio potenziali, soprattutto nella biomeccanica di salto e atterraggio e nel rischio di infortunio al ginocchio. Popolazione: revisione sistematica di 31 studi (10 sugli infortuni, 21 sui fattori di rischio) su ragazze e giovani donne nello sport. Fonte: Zoellner e Whatman, 2026, doi:10.1016/j.ptsp.2025.08.007.",
+        "- In un'accademia calcistica d'élite una crescita superiore a 7,2 cm/anno prima del picco si associa a un'incidenza di infortuni 1,65 e 2,38 volte maggiore rispetto a crescita moderata e lenta, e il periodo attorno al picco registra il carico più alto: 136,0 giorni persi ogni 1.000 ore (IC 95% 119,6-154,6). ATTENZIONE: popolazione di 84 giocatori MASCHI seguiti per 20 stagioni — non trasferibile alle atlete. Fonte: Monasterio et al., 2024, doi:10.5114/biolsport.2024.129472.",
+        "- Nelle giovani atlete l'incidenza complessiva di infortuni è di 4,4 ogni 1.000 ore (16,5 in partita, 2,2 in allenamento); il 40% subisce almeno un infortunio con perdita di tempo, il 67% degli infortuni riguarda l'arto inferiore (caviglia 23%, ginocchio 16%) e la mediana dei giorni persi è 10. Popolazione: revisione sistematica con meta-analisi di 32 studi, 15.908 giovani atlete. Fonte: Beech et al., 2024, doi:10.1007/s40279-023-01988-w.",
+        "- La «goffaggine adolescenziale» non è un fatto acquisito: non esiste una definizione condivisa né un metodo standard di misurazione, alcuni studi osservano un calo della funzione sensomotoria durante lo scatto di crescita e altri un miglioramento continuo o un'elevata variabilità; sprint e salto tendono a migliorare. Gli autori segnalano che pochissimi studi hanno analizzato questi cambiamenti nelle ragazze adolescenti. Fonte: revisione NARRATIVA, Borato et al., 2025, doi:10.1177/17479541251364101; ipotesi originaria in Quatman-Yates et al., 2012, doi:10.1136/bjsm.2010.079616.",
         '',
         '## Definizioni',
         ...Object.keys(GLOSSARY).map((k) => `- ${GLOSSARY[k].name}: ${GLOSSARY[k].description}`),

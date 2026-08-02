@@ -2,7 +2,7 @@
 slug: parlare-di-ciclo-con-allenatore
 title: "Parlare di ciclo con l'allenatore: perché lo fa solo l'11% delle atlete (e come cambiarlo)"
 date: 2026-07-03
-updated: 2026-07-26
+updated: 2026-08-02
 author: Sajid Hossain
 excerpt: "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: il 4% se è un uomo, il 55% se è una donna. E l'88% ha imparato queste cose da sola. Non è disinteresse: è l'assenza di un canale sicuro. Cosa dicono i dati raccolti su 1.086 atlete in 57 sport, cosa può dire davvero chi allena, e come si apre il canale senza obbligare nessuna a esporsi."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
@@ -52,15 +52,15 @@ E un dettaglio che allarga il problema: **non c'è differenza significativa di c
 
 Una precisazione doverosa sull'età: il campione di Höök e colleghi comprende atlete adulte e adolescenti insieme, e i dati non sono suddivisi per fascia d'età. Non abbiamo quindi una prevalenza misurata sulle tredicenni — e non è un caso, visto che solo il **6%** degli studi in scienze dello sport è condotto esclusivamente su donne ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). Il quadro descrive un fenomeno reale; il numero specifico sulle più giovani, semplicemente, nessuno l'ha ancora misurato.
 
-## Perché il silenzio non è "disinteresse"
+## Perché un'atleta non parla del ciclo con l'allenatore?
 
-È facile leggere quel 4% come indifferenza. È l'opposto. In una ricerca qualitativa su rugbiste internazionali, il **93% riferiva sintomi legati al ciclo** e i **due terzi percepivano un impatto sulla performance** ([Findlay et al., 2020, *BJSM*](https://doi.org/10.1136/bjsports-2019-101486)). Le atlete *vivono* il tema ogni mese. Semplicemente, non hanno un modo comodo per portarlo a chi le allena — soprattutto se è un uomo, soprattutto a 13-14 anni, soprattutto davanti alle compagne.
+Non perché il tema non la riguardi, ma perché **manca un canale comodo e privato per portarlo**: le atlete vivono il ciclo ogni mese, semplicemente non hanno un modo per dirlo senza esporsi davanti al gruppo. È facile leggere quel 4% come indifferenza. È l'opposto. In una ricerca qualitativa su rugbiste internazionali, il **93% riferiva sintomi legati al ciclo** e i **due terzi percepivano un impatto sulla performance** ([Findlay et al., 2020, *BJSM*](https://doi.org/10.1136/bjsports-2019-101486)). Le atlete *vivono* il tema ogni mese. Semplicemente, non hanno un modo comodo per portarlo a chi le allena — soprattutto se è un uomo, soprattutto a 13-14 anni, soprattutto davanti alle compagne.
 
 Il silenzio, insomma, è **un problema di canale**, non di volontà. E ha un costo misurabile: tra le adolescenti di 10-18 anni, dal **25,2% al 61,1%** evita o riduce l'attività fisica durante le mestruazioni, spesso per paura delle perdite e imbarazzo più che per il dolore ([Harvey et al., 2025, *BMC Women's Health*](https://doi.org/10.1186/s12905-025-03825-w)). Sono allenamenti persi che nessuno registra — un meccanismo che abbiamo raccontato nel dettaglio parlando di [ciclo e performance](/blog/ciclo-e-performance). E il ciclo non è l'unico tema che resta fuori dallo spogliatoio: [le perdite di urina durante lo sport](/blog/perdite-urina-giovani-atlete) seguono esattamente la stessa curva di silenzio.
 
-## Il ponte: cultura per lo staff, privacy per l'atleta
+## Come si apre il canale senza obbligare nessuna a esporsi?
 
-La risposta sbagliata sarebbe chiedere a ogni ragazza di "aprirsi" con l'allenatore. La risposta giusta lavora su due lati insieme:
+Lavorando sui due lati insieme: **cultura di base per lo staff, privacy garantita per l'atleta**. La risposta sbagliata sarebbe chiedere a ogni ragazza di "aprirsi" con l'allenatore. La risposta giusta lavora su due lati insieme:
 
 1. **Alzare la cultura di base dello staff.** Un allenatore non deve diventare un ginecologo (nello studio, solo il 3% delle atlete aveva accesso a un ginecologo tramite lo sport). Deve però sapere che stanchezza, dolore o calo di energia possono avere una spiegazione, e trattarli come informazione, non come scuse. Sapere, per esempio, che un ciclo che sparisce non è un segno di buon allenamento ma un possibile segnale di [bassa disponibilità energetica](/blog/red-s-bassa-disponibilita-energetica), o che [le parole con cui si commenta un corpo](/blog/parole-allenatore-salute-atlete) restano addosso per anni.
 2. **Dare all'atleta un canale che non la costringe a esporsi.** È qui che la tecnologia può aiutare, se progettata bene: l'atleta osserva i propri segnali in privato, e lo staff riceve **solo un quadro aggregato e anonimo** della squadra — mai il dato della singola.
