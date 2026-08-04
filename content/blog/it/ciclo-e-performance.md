@@ -2,7 +2,7 @@
 slug: ciclo-e-performance
 title: "Il ciclo mestruale e la performance: quello che nessuno spiega alle atlete"
 date: 2026-06-20
-updated: 2026-07-28
+updated: 2026-08-04
 author: Sajid Hossain
 excerpt: "Il 77% delle atlete d'élite riferisce che il ciclo influenza la propria performance, e tra le adolescenti una su quattro — fino a sei su dieci — riduce o evita l'attività fisica durante le mestruazioni. Non è una questione di volontà: è un segnale del corpo che quasi nessuna impara a leggere. Ecco i dati, e da dove partire."
 cover: /fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif
@@ -24,11 +24,13 @@ faq:
     a: "Sulla domanda più studiata — la rottura del legamento crociato anteriore — la risposta oggi è che non lo sappiamo. Una revisione sistematica su 21 studi e 68.758 partecipanti ha giudicato la qualità complessiva delle prove «molto bassa» secondo GRADE: non c'è evidenza sufficiente per legare una fase del ciclo a un rischio maggiore (Herzberg et al., 2017). Il che non significa che il ciclo sia irrilevante, ma che pianificare l'allenamento di una ragazza sulla base della fase, in chiave preventiva, non ha oggi una base scientifica. Ciò che invece la ha è la costanza dell'allenamento neuromuscolare preventivo."
   - q: "Allenarsi durante le mestruazioni fa male?"
     a: "Non esistono evidenze che l'attività fisica durante le mestruazioni sia dannosa, e la meta-analisi più ampia sull'argomento — 78 studi e 1.193 partecipanti — ha trovato che l'effetto della fase del ciclo sulla performance è di entità «banale», con qualità delle prove bassa secondo GRADE (McNulty et al., 2020). Due precisazioni: quelle partecipanti sono donne adulte di 18-40 anni, e sulle adolescenti dati equivalenti non esistono. Nella pratica succede il contrario di quanto ci si aspetterebbe: tra le adolescenti di 10-18 anni, dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, spesso per paura delle perdite e imbarazzo più che per dolore (Harvey et al., 2025). Se il dolore mestruale è forte al punto da impedire le normali attività, non è qualcosa da sopportare: va portato a un professionista sanitario."
+  - q: "Il ciclo mestruale fa perdere forza?"
+    a: "Non in misura rilevante, stando ai dati disponibili. La meta-analisi più ampia sull'effetto della fase del ciclo sulla performance — 78 studi, 1.193 partecipanti donne adulte di 18-40 anni — descrive un effetto di entità «banale», con qualità delle prove bassa secondo GRADE (McNulty et al., 2020); sulle adolescenti dati equivalenti non esistono. Il confronto utile è di scala: la variazione attribuibile alla fase del ciclo è piccola, mentre l'allenamento contro resistenza in bambini e adolescenti produce un guadagno di forza con effect size 1,12 (IC 95% 0,9-1,3), che cresce con la maturazione (Behringer et al., 2010). In pratica: ciò che una ragazza costruisce nei mesi pesa molto più di come si sente in una singola settimana."
   - q: "Bisogna adattare l'allenamento alla fase del ciclo?"
     a: "Oggi l'evidenza non lo sostiene, e per le adolescenti non esiste proprio. La meta-analisi più ampia sull'effetto della fase del ciclo sulla performance — 78 studi e 1.193 partecipanti — ha trovato una riduzione di entità «banale» nella fase follicolare precoce rispetto alle altre fasi (ES 0,5 = -0,06; CrI 95% -0,16 a 0,04), con qualità delle prove giudicata bassa secondo GRADE (McNulty et al., 2020). Attenzione all'età: quelle partecipanti sono donne adulte di 18-40 anni. La conclusione pratica è quindi doppia: non esistono basi per periodizzare l'allenamento di una ragazza di 14 anni sulla fase del ciclo, ma esistono ottime ragioni per ascoltare come sta e adattare la singola seduta a ciò che riferisce."
 ---
 
-Per troppo tempo lo sport femminile è stato allenato come se fosse uno sport maschile più piccolo. Ma il corpo di un'atleta adolescente cambia, e con lui cambiano energia, recupero e umore lungo il ciclo mestruale. Il punto non è se questo accada: è che quasi nessuna riceve gli strumenti per leggerlo.
+Il ciclo mestruale influenza la performance sportiva: **lo riferisce il 77% delle atlete d'élite**, e tra le adolescenti fino a sei su dieci riducono o evitano l'attività fisica durante le mestruazioni. Per troppo tempo lo sport femminile è stato allenato come se fosse uno sport maschile più piccolo. Ma il corpo di un'atleta adolescente cambia, e con lui cambiano energia, recupero e umore lungo il ciclo. Il punto non è se questo accada: è che quasi nessuna riceve gli strumenti per leggerlo.
 
 > **In breve**
 > - Il **77%** delle atlete d'élite riferisce che il ciclo ha influenzato negativamente la performance (Jones et al., 2024) — campione **adulto**, età media 28 anni.
@@ -54,10 +56,12 @@ Vale la pena essere precisi anche sul rovescio della medaglia. Uno studio longit
 
 **Perché la ricerca ha guardato altrove.** Non è un caso che manchino risposte semplici. Analizzando **5.261 pubblicazioni** di scienze dello sport tra il 2014 e il 2020, Cowley e colleghi hanno trovato che solo il **6% degli studi era condotto esclusivamente su donne**, e che le partecipanti femmine erano il **34%** dei 12,5 milioni di soggetti complessivi (Cowley et al., 2021, *Invisible Sportswomen*). Le atlete non hanno meno domande: hanno meno ricerca alle spalle.
 
-## Cosa può fare un'atleta, da subito
+## Cosa può fare un'atleta con il ciclo, da subito?
+
+**Quattro cose, e nessuna richiede un permesso o una diagnosi:** osservare i propri segnali nel tempo, adattare la singola seduta invece di saltarla, parlarne con chi allena, e distinguere ciò che è fisiologico da ciò che va portato a un professionista.
 
 - **Osservare, non giudicare.** Annotare energia, umore e sonno giorno per giorno aiuta a riconoscere i propri schemi. Un giorno storto smette di essere un mistero quando lo vedi ripresentarsi nello stesso punto del mese.
-- **Adattare, non fermarsi.** Conoscere le proprie fasi permette di dosare carico e recupero invece di subirli.
+- **Adattare, non fermarsi.** Conoscere le proprie fasi permette di dosare carico e recupero invece di subirli. E tenere presente la scala delle cose: la variazione legata alla fase del ciclo è di entità «banale» nella meta-analisi più ampia disponibile (McNulty et al., 2020), mentre ciò che si costruisce nei mesi — a partire dall'[allenamento della forza](/blog/forza-ragazze-adolescenti) — ha effetti molto più grandi.
 - **Parlarne, anche di ciò che imbarazza.** Il ciclo non è l'unico tema che resta fuori dallo spogliatoio: [le perdite di urina durante i salti](/blog/perdite-urina-giovani-atlete) riguardano quasi una atleta adolescente su due, e l'87% non ne parlerebbe con l'allenatore. Un linguaggio condiviso con allenatori e famiglia trasforma un tabù in un vantaggio — e [le parole di chi allena](/blog/parole-allenatore-salute-atlete) pesano più di quanto chi le pronuncia immagini.
 - **Distinguere il fisiologico da ciò che va guardato.** Un ciclo che sparisce non è un segno di buon allenamento: può essere un segnale di [bassa disponibilità energetica](/blog/red-s-bassa-disponibilita-energetica), e merita un professionista, non un'app.
 
@@ -74,6 +78,7 @@ BAB aiuta le atlete a riconoscere questi segnali in privato, e dà ad allenatori
 - Gallant F., Hebert J.J., Thibault V., et al. **Puberty timing and relative age as predictors of physical activity discontinuation during adolescence.** *Scientific Reports*, 2023;13:13740. (n=781, studio longitudinale) [doi:10.1038/s41598-023-40882-3](https://doi.org/10.1038/s41598-023-40882-3)
 - Cowley E.S., Olenick A.A., McNulty K.L., Ross E.Z. **"Invisible Sportswomen": The Sex Data Gap in Sport and Exercise Science Research.** *Women in Sport and Physical Activity Journal*, 2021;29(2):146-151. (5.261 pubblicazioni analizzate) [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
 - McNulty K.L., Elliott-Sale K.J., Dolan E., Swinton P.A., Ansdell P., Goodall S., Thomas K., Hicks K.M. **The Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic Women: A Systematic Review and Meta-Analysis.** *Sports Medicine*, 2020;50(10):1813-1827. (78 studi, 1.193 partecipanti **donne adulte di 18-40 anni**; effetto di entità banale, qualità delle prove bassa secondo GRADE) [doi:10.1007/s40279-020-01319-3](https://doi.org/10.1007/s40279-020-01319-3)
+- Behringer M., vom Heede A., Yue Z., Mester J. **Effects of Resistance Training in Children and Adolescents: A Meta-analysis.** *Pediatrics*, 2010;126(5):e1199-e1210. (meta-analisi su bambini e adolescenti sani sotto i 18 anni; effect size complessivo 1,12, IC 95% 0,9-1,3; maturità come moderatore significativo) [doi:10.1542/peds.2010-0445](https://doi.org/10.1542/peds.2010-0445)
 - Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studi, 633 atlete adolescenti, età media 16,15 anni) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
 
 *Questo articolo ha finalità informative e non costituisce parere medico. In presenza di segnali persistenti, rivolgersi a un professionista sanitario.*
