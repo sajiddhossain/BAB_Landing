@@ -200,6 +200,18 @@ const GLOSSARY: Record<string, { name: string; description: string; sameAs?: str
       "Il momento in cui la statura aumenta alla velocità massima durante la pubertà. Nelle giovani atlete l'età media stimata è di 11,18 anni, ma con un intervallo di credibilità al 90% che va da 8,62 a 12,94 anni (Lima et al., 2024): due atlete della stessa categoria possono essere biologicamente distanti anni. Il picco di accumulo di minerale osseo arriva circa 6 mesi dopo (Bailey et al., 1999), quindi per un periodo l'osso è più lungo ma non ancora altrettanto denso.",
     sameAs: 'https://en.wikipedia.org/wiki/Adolescent_growth_spurt',
   },
+  'allenamento-della-forza': {
+    name: 'Allenamento della forza in età giovanile (youth resistance training)',
+    description:
+      "L'allenamento contro resistenza svolto prima della maturità scheletrica. Le dichiarazioni di consenso lo considerano sicuro ed efficace quando appropriatamente progettato e supervisionato (Lloyd et al., 2014; Stricker et al., AAP 2020): in una revisione di 22 programmi sperimentali su bambini e preadolescenti non ha influenzato la crescita in statura e peso, con tassi di infortunio stimati tra 0,053 e 0,176 ogni 100 ore di partecipazione (Malina, 2006). L'effetto sulla forza è ampio (effect size 1,12; IC 95% 0,9-1,3) e cresce con la maturazione, senza un'impennata alla pubertà (Behringer et al., 2010).",
+    sameAs: 'https://it.wikipedia.org/wiki/Allenamento_con_i_pesi',
+  },
+  'cartilagine-di-accrescimento': {
+    name: 'Cartilagine di accrescimento (growth plate)',
+    description:
+      "La zona cartilaginea da cui l'osso lungo si allunga durante la crescita, meccanicamente più fragile dell'osso maturo e per questo al centro del timore che i pesi «blocchino la crescita». Il timore non è confermato: i protocolli supervisionati non hanno effetti negativi su crescita e maturazione (Malina, 2006). Il rischio documentato riguarda il carico senza supervisione, senza tecnica e con progressioni improvvisate.",
+    sameAs: 'https://it.wikipedia.org/wiki/Cartilagine_di_accrescimento',
+  },
   maturazione: {
     name: 'Maturazione biologica',
     description:
@@ -237,6 +249,26 @@ function imageSize(absPath: string): { w: number; h: number; type: string } | nu
 
 const ldScript = (obj: unknown) =>
   `<script type="application/ld+json">${JSON.stringify(obj)}</script>`
+
+/**
+ * Meta description tagliata alla lunghezza che i motori mostrano davvero (~160
+ * caratteri). Gli `excerpt` degli articoli sono lunghi 300-470 caratteri perché
+ * servono anche da sommario in pagina e da `description` nei dati strutturati:
+ * usarli tali e quali in <meta name="description"> significa farsi troncare la
+ * frase a metà nella SERP. Qui tagliamo all'ultimo confine di frase utile, e in
+ * mancanza di questo all'ultima parola intera. OG/Twitter/JSON-LD continuano a
+ * ricevere il testo completo.
+ */
+function metaDescription(text: string, max = 160): string {
+  const s = text.trim().replace(/\s+/g, ' ')
+  if (s.length <= max) return s
+  const head = s.slice(0, max)
+  // Preferisci chiudere su una frase compiuta, se ne finisce una oltre metà stringa.
+  const sentence = Math.max(head.lastIndexOf('. '), head.lastIndexOf('! '), head.lastIndexOf('? '))
+  if (sentence > max * 0.55) return head.slice(0, sentence + 1)
+  const word = head.lastIndexOf(' ')
+  return `${head.slice(0, word > 0 ? word : max).replace(/[,;:—-]$/, '')}…`
+}
 
 /** Breadcrumb Home › Pagina: candidabile al rich result "briciole di pane" di Google. */
 const breadcrumbLd = (route: string, label: string) => ({
@@ -375,7 +407,7 @@ function prerenderRoutes(): Plugin {
       const blogForLlms: Array<{ slug: string; title: string; excerpt: string; date: string | null; updated?: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }> }> = []
       const blogLastmod = new Map<string, string>()
       if (fs.existsSync(blogPath)) {
-        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }> }
+        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }>; html?: string }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
         const bySlug = new Map<string, Post>()
         for (const p of allPosts) {
@@ -386,13 +418,13 @@ function prerenderRoutes(): Plugin {
           const url = `${DOMAIN}/blog/${post.slug}`
           let page = baseHtml
           page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(post.title)} — BAB</title>`)
-          page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, post.excerpt)
+          page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, metaDescription(post.excerpt))
           page = replaceAttr(page, /(<meta property="og:title" content=")[^"]*(")/, post.title)
           page = replaceAttr(page, /(<meta property="og:description" content=")[^"]*(")/, post.excerpt)
           page = replaceAttr(page, /(<meta property="og:url" content=")[^"]*(")/, url)
           page = replaceAttr(page, /(<meta property="og:type" content=")[^"]*(")/, 'article')
           page = replaceAttr(page, /(<meta name="twitter:title" content=")[^"]*(")/, post.title)
-          page = replaceAttr(page, /(<meta name="twitter:description" content=")[^"]*(")/, post.excerpt)
+          page = replaceAttr(page, /(<meta name="twitter:description" content=")[^"]*(")/, metaDescription(post.excerpt, 200))
           page = replaceAttr(page, /(<link rel="canonical" href=")[^"]*(")/, url)
           const coverDim = post.cover ? imageSize(path.join(path.resolve('public'), post.cover)) : null
           if (post.cover) {
@@ -422,9 +454,30 @@ function prerenderRoutes(): Plugin {
           const faqHtml = (post.faq ?? [])
             .map((f) => `<h2>${esc(f.q)}</h2><p>${esc(f.a)}</p>`)
             .join('')
+          // "In breve" (AEO): il sommario in cima all'articolo è la parte scritta per
+          // essere citata da sola — è già indicato come Speakable, ma finora esisteva
+          // solo nell'HTML renderizzato da React. Qui lo estraiamo dal primo
+          // blockquote e lo mettiamo nel contenuto statico di #root, così un answer
+          // engine che non esegue JS trova i punti chiave insieme a titolo e FAQ.
+          const summaryHtml = (() => {
+            const bq = /<blockquote>([\s\S]*?)<\/blockquote>/.exec(post.html ?? '')
+            if (!bq) return ''
+            const items = [...bq[1].matchAll(/<li>([\s\S]*?)<\/li>/g)].map((m) =>
+              m[1]
+                .replace(/<[^>]+>/g, '')
+                // Il markdown è già HTML: decodifichiamo prima, perché esc() riescape.
+                .replace(/&(amp|lt|gt|quot|#39);/g, (_, e: string) =>
+                  ({ amp: '&', lt: '<', gt: '>', quot: '"', '#39': "'" })[e] ?? _,
+                )
+                .replace(/\s+/g, ' ')
+                .trim(),
+            )
+            if (!items.length) return ''
+            return `<ul>${items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>`
+          })()
           page = page.replace(
             /<div id="root">\s*<\/div>/,
-            `<div id="root"><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p>${faqHtml}</div>`,
+            `<div id="root"><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p>${summaryHtml}${faqHtml}</div>`,
           )
           const breadcrumb = {
             '@context': 'https://schema.org',
@@ -633,6 +686,12 @@ function prerenderRoutes(): Plugin {
         "- In un'accademia calcistica d'élite una crescita superiore a 7,2 cm/anno prima del picco si associa a un'incidenza di infortuni 1,65 e 2,38 volte maggiore rispetto a crescita moderata e lenta, e il periodo attorno al picco registra il carico più alto: 136,0 giorni persi ogni 1.000 ore (IC 95% 119,6-154,6). ATTENZIONE: popolazione di 84 giocatori MASCHI seguiti per 20 stagioni — non trasferibile alle atlete. Fonte: Monasterio et al., 2024, doi:10.5114/biolsport.2024.129472.",
         "- Nelle giovani atlete l'incidenza complessiva di infortuni è di 4,4 ogni 1.000 ore (16,5 in partita, 2,2 in allenamento); il 40% subisce almeno un infortunio con perdita di tempo, il 67% degli infortuni riguarda l'arto inferiore (caviglia 23%, ginocchio 16%) e la mediana dei giorni persi è 10. Popolazione: revisione sistematica con meta-analisi di 32 studi, 15.908 giovani atlete. Fonte: Beech et al., 2024, doi:10.1007/s40279-023-01988-w.",
         "- La «goffaggine adolescenziale» non è un fatto acquisito: non esiste una definizione condivisa né un metodo standard di misurazione, alcuni studi osservano un calo della funzione sensomotoria durante lo scatto di crescita e altri un miglioramento continuo o un'elevata variabilità; sprint e salto tendono a migliorare. Gli autori segnalano che pochissimi studi hanno analizzato questi cambiamenti nelle ragazze adolescenti. Fonte: revisione NARRATIVA, Borato et al., 2025, doi:10.1177/17479541251364101; ipotesi originaria in Quatman-Yates et al., 2012, doi:10.1136/bjsm.2010.079616.",
+        "- L'allenamento con i pesi non blocca la crescita: in una revisione basata sull'evidenza di 22 programmi sperimentali di allenamento contro resistenza in bambini e preadolescenti i programmi hanno migliorato significativamente la forza, NON hanno influenzato la crescita in statura e peso, e nei 10 studi che monitoravano sistematicamente gli infortuni ne sono stati riportati in tutto tre (tassi stimati 0,176 / 0,053 / 0,055 ogni 100 ore di partecipazione). La conclusione è condizionata: vale per protocolli CON supervisione e basso rapporto istruttore/partecipanti. I guadagni di forza si perdono con il detraining. Fonte: Malina, 2006, doi:10.1097/01.jsm.0000248843.31874.be.",
+        "- Solo il 38,51% di bambini e adolescenti rispetta la raccomandazione OMS di attività di rinforzo muscolare almeno 3 giorni a settimana (IC 95% 34,35-42,75); tra i predittori del rispetto delle raccomandazioni compare l'essere maschio. Popolazione: meta-analisi di 29 studi, 1.273.544 bambini e adolescenti di 36 Paesi, 49,40% ragazze, età media 13,40 anni. Fonte: García-Hermoso et al., 2025, doi:10.1111/apa.70315.",
+        "- L'effetto dell'allenamento contro resistenza sulla forza muscolare in bambini e adolescenti sani sotto i 18 anni ha un effect size complessivo di 1,12 (IC 95% 0,9-1,3); la maturità è un moderatore significativo e durata (r=0,28) e frequenza (r=0,26) correlano positivamente con i guadagni. La capacità di guadagnare forza cresce con età e stato maturativo, senza un'impennata alla pubertà. Fonte: Behringer et al., 2010, doi:10.1542/peds.2010-0445.",
+        "- Nei giovani atleti di 6-18 anni l'allenamento contro resistenza produce effetti moderati su forza e salto verticale (SMD 0,8-1,09) ed effetti piccoli su sprint, agilità e prestazione sport-specifica (SMD 0,58-0,75); gli effetti sono moderati dal SESSO e dal tipo di allenamento. Per massimizzare la forza: oltre 23 settimane, 5 serie, 6-8 ripetizioni, 80-89% del massimale, 3-4 minuti di recupero — parametri che descrivono contesti di ricerca supervisionati, non un punto di partenza per chi inizia. Popolazione: 43 studi con gruppo di controllo attivo. Fonte: Lesinski et al., 2016, doi:10.1136/bjsports-2015-095497.",
+        "- Il solo allenamento della forza come prevenzione primaria si associa a un rischio relativo di infortunio sportivo di 0,338 (IC 95% 0,238-0,480), con forza dell'evidenza alta, nessun bias di pubblicazione e relazione dose-risposta (+10% di volume → oltre 4 punti percentuali di riduzione del rischio). ATTENZIONE: 6 RCT, 7.738 partecipanti di 12-40 anni, risultati non scorporati per fascia d'età — non è una stima specifica per le adolescenti. Fonte: Lauersen et al., 2018, doi:10.1136/bjsports-2018-099078.",
+        "- L'allenamento della forza in età giovanile è considerato sicuro ed efficace quando appropriatamente progettato e supervisionato dalla position statement internazionale del 2014 (adattata dal documento della UK Strength and Conditioning Association e sottoscritta da organizzazioni di medicina dello sport, scienze dell'esercizio e pediatria) e dal clinical report dell'American Academy of Pediatrics, che segnala anche un declino secolare degli indici di fitness muscolare nei giovani di oggi. Fonti: Lloyd et al., 2014, doi:10.1136/bjsports-2013-092952; Stricker et al., 2020, doi:10.1542/peds.2020-1011.",
         '',
         '## Definizioni',
         ...Object.keys(GLOSSARY).map((k) => `- ${GLOSSARY[k].name}: ${GLOSSARY[k].description}`),

@@ -95,3 +95,15 @@
   Scelta del soggetto: i pioli della spalliera come tacche di altezza che salgono — il picco di crescita
   visto come una scala, non come un incidente.
   NB: scartata "Gymnastics room 2.webp" (pure CC0) perché ritrae giovani ginnaste identificabili.
+
+## cover-forza-ragazze.jpg
+- Titolo originale: "Fitness Weights"
+- Fonte: StockSnap.io — https://stocksnap.io/photo/fitness-weights-CYK8OIFEIE (reperita via Openverse)
+- Autore: Kristin Hardwick
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "le ragazze e i pesi / allenamento della forza a 13-14 anni" (IT + EN)
+- Lavorazione: rendition `960w` (originale 5556x3704), ritaglio centrato 16:9 a 960x540, JPEG q85.
+  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: due manubri leggeri appoggiati per terra, senza sala pesi e senza corpi —
+  la forza come attrezzo accessibile, non come contesto intimidatorio.
+  NB: scartate le varianti con rastrelliera di manubri perché mostrano un marchio commerciale leggibile.

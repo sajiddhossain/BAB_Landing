@@ -1,0 +1,119 @@
+---
+slug: forza-ragazze-adolescenti
+title: "Le ragazze e i pesi: l'allenamento della forza a 13-14 anni fa male alla crescita?"
+date: 2026-08-04
+updated: 2026-08-04
+author: Sajid Hossain
+excerpt: "No: nella revisione più citata sull'argomento, 22 programmi sperimentali di allenamento con i pesi in bambini e preadolescenti non hanno influenzato la crescita in statura e peso, con tassi di infortunio tra 0,053 e 0,176 ogni 100 ore di partecipazione. Eppure solo il 38,5% dei ragazzi e delle ragazze raggiunge le raccomandazioni di attività di rinforzo muscolare — ed essere maschio è uno dei fattori che predicono di riuscirci. Cosa dicono davvero i dati sulla forza nelle giovani atlete."
+cover: /fotobab/cover-forza-ragazze.jpg
+coverAlt: "Due manubri azzurri appoggiati su un pavimento di legno chiaro davanti a una parete bianca, senza persone"
+tags:
+  - allenamento-della-forza
+  - cartilagine-di-accrescimento
+  - pubertà
+  - gestione-del-carico
+faq:
+  - q: "I pesi bloccano la crescita nelle ragazze?"
+    a: "No, e questa è una delle poche domande su cui l'evidenza è abbastanza chiara. Una revisione basata sull'evidenza di 22 programmi sperimentali di allenamento con pesi e macchine in bambini e preadolescenti ha concluso che i protocolli con supervisione e basso rapporto istruttore/partecipanti sono relativamente sicuri e non influenzano negativamente crescita e maturazione: i programmi non hanno modificato la crescita in statura e peso, e nei 10 studi che monitoravano sistematicamente gli infortuni sono stati riportati in tutto tre infortuni, con tassi stimati tra 0,053 e 0,176 ogni 100 ore di partecipazione (Malina, 2006). Le due condizioni che ricorrono ovunque nella letteratura sono supervisione qualificata e tecnica prima del carico."
+  - q: "A che età una ragazza può iniziare ad allenare la forza?"
+    a: "Le dichiarazioni di consenso non fissano un'età anagrafica minima: indicano come criterio la capacità di ricevere e seguire istruzioni e di eseguire un gesto in sicurezza (Lloyd et al., 2014; Stricker et al., AAP 2020). In pratica, molto prima di quanto si creda — e ben prima del picco di crescita. Il punto pratico non è «da che età», ma con chi: la variabile che compare in tutti i documenti è la supervisione qualificata, non l'età sulla carta d'identità."
+  - q: "L'allenamento della forza rende davvero più forti le ragazze prima della pubertà?"
+    a: "Sì, ma la risposta cresce con la maturazione. Una meta-analisi su bambini e adolescenti sani sotto i 18 anni ha trovato un effect size complessivo di 1,12 (IC 95% 0,9-1,3) sulla forza muscolare, con la maturità come moderatore significativo: la capacità di guadagnare forza aumenta con l'età e lo stato maturativo, senza però una «spinta» improvvisa alla pubertà (Behringer et al., 2010). Detto altrimenti: prima del picco di crescita si guadagna soprattutto in coordinazione e capacità di reclutare i muscoli, dopo si aggiunge la componente strutturale."
+  - q: "L'allenamento della forza riduce gli infortuni?"
+    a: "È l'effetto meglio documentato, ma il dato va letto con l'età giusta in mente. Una revisione sistematica con meta-analisi di studi randomizzati sul solo allenamento della forza come prevenzione primaria ha stimato un rischio relativo di infortunio di 0,338 (IC 95% 0,238-0,480) — circa un terzo — con forza dell'evidenza giudicata alta e una relazione dose-risposta: +10% di volume di allenamento della forza si associa a oltre 4 punti percentuali di riduzione del rischio (Lauersen et al., 2018). Attenzione però: i 7.738 partecipanti hanno tra 12 e 40 anni, quindi non è una stima specifica per le tredicenni. Sulle giovani atlete l'evidenza più solida riguarda l'allenamento neuromuscolare preventivo, che della forza è un parente stretto."
+  - q: "Quante ragazze fanno davvero attività di rinforzo muscolare?"
+    a: "Meno di quante si pensi, e meno dei coetanei maschi. Una meta-analisi di 29 studi su 1.273.544 bambini e adolescenti di 36 Paesi (49,40% ragazze, età media 13,40 anni) stima che solo il 38,51% (IC 95% 34,35-42,75) rispetti le raccomandazioni OMS di attività di rinforzo muscolare almeno 3 giorni a settimana; tra i fattori che predicono il rispetto delle raccomandazioni compare l'essere maschio (García-Hermoso et al., 2025). Non è un dato sulla volontà delle ragazze: è un dato sull'offerta che ricevono."
+  - q: "Serve arrivare al massimale per allenare la forza a 14 anni?"
+    a: "No, e nessun documento di consenso lo raccomanda in età prepuberale o durante il picco di crescita: i testi convergono su supervisione qualificata, progressione graduale e tecnica prima del carico (Lloyd et al., 2014; Stricker et al., 2020). Una precisazione onesta sui numeri che circolano: la meta-analisi dose-risposta su 43 studi in giovani atleti di 6-18 anni indica che per massimizzare i guadagni di forza servono periodi lunghi (oltre 23 settimane) e intensità elevate (80-89% del massimale teorico) (Lesinski et al., 2016), ma quei parametri descrivono ciò che massimizza la prestazione in contesti supervisionati di ricerca, non un punto di partenza per chi inizia. Per un'atleta di 13-14 anni la progressione utile parte dal carico del proprio corpo e dalla qualità del movimento."
+  - q: "L'allenamento della forza fa bene anche alle ossa delle ragazze?"
+    a: "Il carico meccanico è uno degli stimoli che costruiscono osso, e l'adolescenza è la finestra in cui conta di più: il contenuto minerale osseo totale raggiunge un plateau in media 6 anni dopo il picco di velocità di crescita, cioè attorno ai 18 anni nelle ragazze (Baxter-Jones et al., 2011). Sui protocolli specifici, però, l'evidenza sperimentale più forte nelle adolescenti riguarda il carico a impatto più che i pesi: 10 minuti di salti due volte a settimana per 8 mesi hanno aumentato il contenuto minerale osseo del collo del femore del 13,9% contro il 4,9% dei controlli (Weeks et al., 2008). Forza e impatto non si escludono: si sommano."
+---
+
+Nello sport giovanile femminile la sala pesi è ancora piena di frasi che nessuno ha mai verificato. «I pesi bloccano la crescita.» «Prima aspetta di finire di crescere.» «Alle ragazze serve più che altro elasticità.» Sono affermazioni con una cosa in comune: **non le sostiene nessuno dei documenti di consenso e nessuna delle meta-analisi disponibili**. E hanno un costo misurabile, perché a rimanerne fuori sono soprattutto le ragazze.
+
+> **In breve**
+> - **22 programmi sperimentali** di allenamento con pesi in bambini e preadolescenti **non hanno influenzato la crescita in statura e peso**; tassi di infortunio stimati tra **0,053 e 0,176 ogni 100 ore** di partecipazione (Malina, 2006).
+> - Solo il **38,51%** di bambini e adolescenti rispetta le raccomandazioni OMS di rinforzo muscolare ≥3 giorni a settimana — ed **essere maschio** è tra i fattori che predicono di rispettarle (García-Hermoso et al., 2025; 1.273.544 partecipanti, età media 13,40 anni).
+> - L'effetto sulla forza è consistente: **effect size 1,12** (IC 95% 0,9-1,3) in bambini e adolescenti, con la **maturità** come moderatore (Behringer et al., 2010).
+> - Come prevenzione, il solo allenamento della forza si associa a un rischio di infortunio di **0,338** (IC 95% 0,238-0,480) — ma su partecipanti di **12-40 anni**, non solo adolescenti (Lauersen et al., 2018).
+> - Le due condizioni che ricorrono in ogni documento: **supervisione qualificata** e **tecnica prima del carico**.
+
+## I pesi bloccano la crescita? Cosa dice la revisione più citata
+
+**No.** È la risposta breve, e per una volta poggia su un lavoro fatto apposta per rispondere a questa domanda.
+
+Nel 2006 Robert Malina ha pubblicato una revisione basata sull'evidenza di **22 programmi sperimentali** di allenamento contro resistenza in bambini e preadolescenti, esaminandoli su tre piani: risposta all'allenamento, effetto su crescita e maturazione, infortuni. Le conclusioni: i programmi hanno prodotto **miglioramenti significativi della forza muscolare** durante l'infanzia e la prima adolescenza, **non hanno influenzato la crescita in statura e peso**, e le variazioni nella composizione corporea sono state piccole e variabili. Sul fronte sicurezza: solo 10 studi monitoravano sistematicamente gli infortuni, e in totale ne sono stati riportati **tre**, con tassi stimati di **0,176, 0,053 e 0,055 ogni 100 ore di partecipazione** (Malina, 2006).
+
+La conclusione dell'autore è precisa nelle sue condizioni, e vale la pena riportarla così: i protocolli con pesi e macchine **con supervisione e basso rapporto istruttore/partecipanti** sono relativamente sicuri e non impattano negativamente crescita e maturazione. Non "i pesi sono sicuri": *questi* protocolli, in *queste* condizioni.
+
+Una precisazione onesta, perché conta: quella revisione riguarda **bambini e preadolescenti**, e i programmi durano tipicamente 8-12 settimane. Non è la prova che qualsiasi cosa si faccia in sala pesi a 14 anni sia innocua — è la prova che il timore specifico ("bloccare la crescita") non trova conferma quando l'allenamento è progettato e supervisionato. Va anche detto che Malina osserva un'altra cosa scomoda: **i guadagni di forza si perdono con il detraining**. La forza non è un deposito che resta: è un adattamento che si mantiene solo se lo si continua a stimolare.
+
+## Perché la paura riguarda la cartilagine di accrescimento
+
+Il timore ha un bersaglio anatomico preciso: la **cartilagine di accrescimento**, la zona da cui l'osso lungo si allunga durante la crescita e che è meccanicamente più fragile del tessuto osseo maturo. Che quella zona sia vulnerabile è vero, ed è la ragione per cui l'adolescenza ha una patologia da carico tutta sua — dalle apofisiti al [morbo di Osgood-Schlatter](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
+
+Quello che non regge è il salto logico successivo: che quindi vada evitato il carico. Le dichiarazioni di consenso vanno nella direzione opposta. La **position statement sul youth resistance training** — nata come documento della UK Strength and Conditioning Association e poi rivista e sottoscritta da organizzazioni di medicina dello sport, scienze dell'esercizio e pediatria, con un gruppo di autori scelto tra scienze dell'esercizio pediatriche, medicina pediatrica, educazione fisica e preparazione atletica — sostiene che l'allenamento della forza in età giovanile è sicuro ed efficace **quando appropriatamente progettato e supervisionato** (Lloyd et al., 2014). Nella stessa direzione va il clinical report dell'American Academy of Pediatrics, revisione della policy del 2008 (Stricker et al., 2020), che segnala anche il rovescio della medaglia: un **declino secolare degli indici di fitness muscolare** nei ragazzi di oggi, che riguarda tanto gli atleti quanto i non atleti.
+
+Il rischio documentato non è il carico in sé: è il carico **senza supervisione, senza tecnica e con progressioni improvvisate**. Il che, tradotto in pratica, sposta la domanda da "a che età?" a "con chi?".
+
+## Quanto guadagna davvero in forza una ragazza di 13-14 anni?
+
+Abbastanza da vedersi, e in modo che cambia con la maturazione.
+
+Una meta-analisi su bambini e adolescenti sani sotto i 18 anni ha calcolato un **effect size complessivo di 1,12** (IC 95% 0,9-1,3) sulla forza muscolare. Il dettaglio interessante sta nei moderatori: la **maturità** è risultata un moderatore categoriale significativo, e ci sono correlazioni positive con la **durata** del programma (r = 0,28) e la **frequenza** (r = 0,26). La conclusione degli autori è che la capacità di guadagnare forza **aumenta con l'età e lo stato maturativo**, ma senza un incremento improvviso in corrispondenza della pubertà (Behringer et al., 2010).
+
+È un punto che vale la pena tradurre. Prima del [picco di crescita](/blog/picco-di-crescita-giovani-atlete), i guadagni arrivano soprattutto da adattamenti nervosi — il corpo impara a reclutare meglio ciò che ha. Dopo, si aggiunge la componente strutturale. Non c'è un interruttore che si accende al menarca: c'è una curva che sale.
+
+Sui giovani **atleti** in particolare, la meta-analisi di riferimento ha incluso **43 studi** con gruppo di controllo attivo, su atleti di 6-18 anni. Effetti moderati su forza muscolare e salto verticale (SMD 0,8-1,09) ed effetti piccoli su sprint lineare, agilità e prestazione sport-specifica (SMD 0,58-0,75). Gli effetti risultano **moderati dal sesso** e dal tipo di allenamento — e vale la pena notarlo, perché il sesso come moderatore è una variabile che gran parte della letteratura in scienze dello sport [non testa nemmeno](/blog/ciclo-e-performance) (Lesinski et al., 2016).
+
+Sui parametri, la stessa analisi individua ciò che massimizza i guadagni di forza: periodi superiori a **23 settimane**, 5 serie per esercizio, 6-8 ripetizioni, intensità dell'**80-89% del massimale** e 3-4 minuti di recupero. Con un'avvertenza che va detta chiaramente: quei numeri descrivono **cosa massimizza la prestazione in studi supervisionati su giovani atleti**, non un punto di partenza. Per una ragazza che inizia a 13 anni, il primo blocco di lavoro è il proprio corpo, la qualità del movimento e la costanza — e la costanza, guarda caso, è esattamente il parametro che nella meta-analisi correla con i risultati.
+
+## L'allenamento della forza previene gli infortuni?
+
+È l'effetto meglio documentato di tutti, e insieme quello su cui serve più cautela nel trasferimento d'età.
+
+Una revisione sistematica con meta-analisi ha analizzato **solo studi randomizzati controllati** in cui l'allenamento della forza era l'intervento di prevenzione primaria: 6 studi, 5 interventi diversi, **7.738 partecipanti di 12-40 anni**, 177 infortuni acuti o da sovraccarico. L'analisi intention-to-treat aggiustata per cluster stima un **rischio relativo di 0,338** (IC 95% 0,238-0,480): circa un terzo. Il risultato regge ai test di robustezza, la forza dell'evidenza è giudicata **alta**, non emerge bias di pubblicazione, e la meta-regressione mostra una **relazione dose-risposta**: un aumento del 10% del volume di allenamento della forza si associa a una riduzione del rischio di oltre 4 punti percentuali (Lauersen et al., 2018).
+
+Il limite è nell'intervallo d'età: **12-40 anni**, con risultati non scorporati per fascia. Non è una stima specifica sulle tredicenni, e presentarla come tale sarebbe scorretto. Quello che si può dire con onestà è che la direzione è netta, che l'estremo inferiore del campione include adolescenti, e che sulle giovani atlete esiste un filone parallelo e più mirato: l'**allenamento neuromuscolare preventivo**, il cui effetto sul [rischio di rottura del crociato](/blog/crociato-giovani-atlete) è tra i meglio stabiliti nella medicina dello sport femminile. Forza e allenamento neuromuscolare non sono la stessa cosa, ma condividono buona parte del contenuto.
+
+E c'è un terzo fronte, spesso dimenticato: la forza non serve solo a prevenire, serve anche a **curare**. Nel dolore femoro-rotuleo degli adolescenti — il problema di ginocchio più comune in questa fascia d'età — l'approccio con i risultati migliori non è il riposo, ma la [gestione del carico con esercizi di rinforzo](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
+
+## Perché sono soprattutto le ragazze a restarne fuori?
+
+Qui il dato è recente, enorme e poco discusso.
+
+Una meta-analisi pubblicata nel 2025 ha raccolto **29 studi su 1.273.544 bambini e adolescenti di 36 Paesi** (49,40% ragazze, età media **13,40 anni**) per stimare quanti rispettino la raccomandazione OMS di svolgere **attività di rinforzo muscolare almeno 3 giorni a settimana**. La stima complessiva è **38,51%** (IC 95% 34,35-42,75). Nelle analisi per sottogruppi, tra i predittori del rispetto delle raccomandazioni compare l'**essere maschio** (García-Hermoso et al., 2025).
+
+Sei ragazzi o ragazze su dieci non ci arrivano, e il divario non è casuale. Non è un dato sulla motivazione delle ragazze: è un dato su **cosa viene offerto a chi**. Chi decide i contenuti di un allenamento decide anche chi accede a un adattamento che protegge le ossa, riduce il rischio di infortunio e migliora la prestazione. Quando quella decisione segue un'idea non verificata — "alle ragazze serve altro" — l'effetto non è neutro.
+
+Il parallelo con il resto di questo blog è evidente. Come per [il ciclo](/blog/parlare-di-ciclo-con-allenatore), per [il reggiseno sportivo](/blog/reggiseno-sportivo-ragazze) e per [le parole dello staff](/blog/parole-allenatore-salute-atlete), la barriera non è biologica: è informativa. Ed è per questo che si può togliere.
+
+## Cinque principi che reggono alla lettura dei dati
+
+Non sono un programma di allenamento — quello lo scrive chi conosce l'atleta. Sono i punti su cui i documenti citati sopra convergono.
+
+- **La supervisione è la variabile, non l'età.** Ogni conclusione positiva sulla sicurezza è condizionata a supervisione qualificata e basso rapporto istruttore/partecipanti (Malina, 2006; Lloyd et al., 2014).
+- **Tecnica prima del carico.** Il rischio documentato riguarda i sollevamenti senza tecnica e senza progressione, non il carico in sé.
+- **Costanza sopra intensità, all'inizio.** Durata e frequenza del programma correlano con i guadagni (Behringer et al., 2010); l'intensità elevata è un punto d'arrivo, non di partenza.
+- **La forza va nutrita.** Un carico che aumenta senza energia sufficiente non costruisce: sottrae. È il territorio della [bassa disponibilità energetica](/blog/red-s-bassa-disponibilita-energetica), e in adolescenza il conto include anche la crescita.
+- **Non si sostituisce all'impatto.** Per l'osso, l'evidenza sperimentale più forte nelle adolescenti riguarda i salti: 10 minuti due volte a settimana per 8 mesi, +13,9% di contenuto minerale osseo al collo del femore contro +4,9% dei controlli (Weeks et al., 2008). La [salute ossea](/blog/salute-ossea-fratture-da-stress-giovani-atlete) si costruisce con carichi che il corpo percepisce come nuovi.
+
+## Il ruolo di BAB
+
+BAB non scrive programmi di allenamento e non sostituisce chi prepara. Fa una cosa più a monte: dà all'atleta un modo per **osservare come sta** — carico percepito, recupero, dolore, energia — e alla società **segnali aggregati e anonimi**, mai il dato di salute della singola. Perché la differenza tra un carico che costruisce e uno che rompe raramente si vede nella scheda: si vede in come sta l'atleta la settimana dopo.
+
+E perché la frase «i pesi bloccano la crescita» non dovrebbe costare a una ragazza di quattordici anni gli anni in cui costruire un corpo che regge.
+
+## Fonti
+
+- Malina R.M. **Weight training in youth-growth, maturation, and safety: an evidence-based review.** *Clinical Journal of Sport Medicine*, 2006;16(6):478-487. (revisione basata sull'evidenza di 22 programmi sperimentali in bambini e preadolescenti; nessun effetto su crescita in statura e peso; 3 infortuni riportati nei 10 studi che li monitoravano sistematicamente, tassi 0,176 / 0,053 / 0,055 per 100 ore di partecipazione) [doi:10.1097/01.jsm.0000248843.31874.be](https://doi.org/10.1097/01.jsm.0000248843.31874.be)
+- Lloyd R.S., Faigenbaum A.D., Stone M.H., et al. **Position statement on youth resistance training: the 2014 International Consensus.** *British Journal of Sports Medicine*, 2014;48(7):498-505. (documento di consenso adattato dalla position statement della UK Strength and Conditioning Association, rivisto e sottoscritto da organizzazioni di medicina dello sport, scienze dell'esercizio e pediatria) [doi:10.1136/bjsports-2013-092952](https://doi.org/10.1136/bjsports-2013-092952)
+- Stricker P.R., Faigenbaum A.D., McCambridge T.M.; AAP Council on Sports Medicine and Fitness. **Resistance Training for Children and Adolescents.** *Pediatrics*, 2020;145(6):e20201011. (clinical report dell'American Academy of Pediatrics, revisione della policy statement 2008; riconfermato nel novembre 2024) [doi:10.1542/peds.2020-1011](https://doi.org/10.1542/peds.2020-1011)
+- Behringer M., Vom Heede A., Yue Z., Mester J. **Effects of Resistance Training in Children and Adolescents: A Meta-analysis.** *Pediatrics*, 2010;126(5):e1199-e1210. (meta-analisi su bambini e adolescenti sani sotto i 18 anni; effect size complessivo 1,12, IC 95% 0,9-1,3; maturità come moderatore significativo) [doi:10.1542/peds.2010-0445](https://doi.org/10.1542/peds.2010-0445)
+- Lesinski M., Prieske O., Granacher U. **Effects and dose-response relationships of resistance training on physical performance in youth athletes: a systematic review and meta-analysis.** *British Journal of Sports Medicine*, 2016;50(13):781-795. (43 studi con gruppo di controllo attivo su atleti di 6-18 anni; effetti moderati dal sesso e dal tipo di allenamento) [doi:10.1136/bjsports-2015-095497](https://doi.org/10.1136/bjsports-2015-095497)
+- Lauersen J.B., Andersen T.E., Andersen L.B. **Strength training as superior, dose-dependent and safe prevention of acute and overuse sports injuries: a systematic review, qualitative analysis and meta-analysis.** *British Journal of Sports Medicine*, 2018;52(24):1557-1563. (6 RCT, **7.738 partecipanti di 12-40 anni** — non specifico per adolescenti; RR 0,338, IC 95% 0,238-0,480; forza dell'evidenza alta) [doi:10.1136/bjsports-2018-099078](https://doi.org/10.1136/bjsports-2018-099078)
+- García-Hermoso A., Muñoz-Pardeza J., Hormazábal-Aguayo I., Ezzatvar Y. **Estimated Prevalence of Compliance With Muscle-Strengthening Activity Recommendations in Children and Adolescents: A Meta-Analysis.** *Acta Paediatrica*, 2025;114(12):3136-3146. (29 studi, 1.273.544 partecipanti di 36 Paesi, 49,40% ragazze, età media 13,40 anni; prevalenza 38,51%, IC 95% 34,35-42,75) [doi:10.1111/apa.70315](https://doi.org/10.1111/apa.70315)
+- Weeks B.K., Young C.M., Beck B.R. **Eight months of regular in-school jumping improves indices of bone strength in adolescent boys and girls: the POWER PE study.** *Journal of Bone and Mineral Research*, 2008;23(7):1002-1011. (studio controllato randomizzato su 99 adolescenti, età media 13,8 anni; effetti sesso-specifici) [doi:10.1359/jbmr.080226](https://doi.org/10.1359/jbmr.080226)
+- Baxter-Jones A.D.G., Faulkner R.A., Forwood M.R., Mirwald R.L., Bailey D.A. **Bone Mineral Accrual from 8 to 30 Years of Age: An Estimation of Peak Bone Mass.** *Journal of Bone and Mineral Research*, 2011;26(8):1729-1739. (plateau del contenuto minerale osseo a +6 anni dal picco di crescita, ~18 anni nelle ragazze) [doi:10.1002/jbmr.412](https://doi.org/10.1002/jbmr.412)
+
+*Questo articolo ha finalità informative e non costituisce parere medico né una prescrizione di allenamento. In presenza di dolore persistente durante o dopo l'allenamento, rivolgersi a un professionista sanitario.*

@@ -2,9 +2,9 @@
 slug: reggiseno-sportivo-ragazze
 title: "Sports bras for girls: when the first one is needed, and how to get the size right"
 date: 2026-07-02
-updated: 2026-07-24
+updated: 2026-08-04
 author: Sajid Hossain
-excerpt: "A first sports bra is needed as soon as breast development begins — there is no set age. At 13-14, one girl in two says her breasts affect her participation in sport, yet only one in ten always wears one. How to get the size right, compression versus encapsulation, and what the evidence says."
+excerpt: "A first sports bra is needed as soon as breast development begins — there is no set age: the cue is the body, not the calendar. At 13-14, one girl in two says her breasts affect her participation in sport, yet only one in ten always wears one — and the girls who never wear one are more often those with smaller breasts. How to spot a wrong size, when compression beats encapsulation, how often to recheck the fit while growing, and why an education booklet in a randomised trial got 39% more athletes through a bra-fit test."
 cover: /fotobab/cover-reggiseno-sportivo.jpg
 coverAlt: "Folded sportswear — black shorts and a patterned vest — laid out on a yoga mat"
 tags:
@@ -19,6 +19,8 @@ faq:
     a: "Three practical signs: the band rides up the back during movement (too loose), the straps dig in or hurt (too tight, or carrying all the weight), the breast spills over the edges (cup too small). Through the growing years it's normal to recheck the size every 6-12 months. And education works: after a single 50-minute session with 787 girls aged 11-14, two-thirds started wearing a sports bra and half changed size (Omrani et al., 2020)."
   - q: "Is a sports bra needed even with small breasts?"
     a: "Yes — and this is the most common misconception. In the study of 2,089 British girls aged 11-18, girls with smaller breasts were more likely never to wear one (49%) than girls with larger breasts (35%) (Scurr et al., 2016). Breast tissue has no muscle of its own to support it: what matters isn't cup size but how much the breast moves during running and jumping, and the discomfort is felt at any size. The practical rule: the higher the impact of the sport, the more support is needed."
+  - q: "How often should a sports bra size be rechecked while growing?"
+    a: "Every 6-12 months while the body is changing, and any time one of the three wrong-size signs appears: the band riding up, straps digging in, the breast spilling over the edges. The reason is that the size moves with everything else: breast development happens in the same window as the growth spurt, whose estimated mean age in young female athletes is 11.18 years with a 90% credible interval from 8.62 to 12.94 years (Lima et al., 2024). A size that fits in September says nothing about March. And checking works: in a cluster-randomised trial of 115 adolescent athletes, 39% more of those given an education booklet passed the bra-fit test than controls (McGhee et al., 2010)."
   - q: "Compression or encapsulation — which is better?"
     a: "It depends on the impact of the sport and the stage of development. Compression gently flattens the breast towards the body: simple, comfortable, and well suited to first bras and low-to-medium impact activity. Encapsulation has two separate cups supporting each breast individually and gives more support: better for running, jumping and team sports, or for larger cup sizes. Many models combine both. Neither is «more correct»: choose on impact and comfort, and recheck the size every 6-12 months through the growing years."
 ---
@@ -55,7 +57,9 @@ A sports bra works on two measurements: the **band** (snug but not tight) and th
 - the **straps dig in** or hurt → they're too tight or carrying all the weight;
 - the breast **spills** over the edges → the cup is too small.
 
-Through the growing years the body changes often, so it's normal to **recheck the size every 6–12 months** and replace the bra when the elastic loosens and no longer supports.
+Through the growing years the body changes often, so it's normal to **recheck the size every 6–12 months** and replace the bra when the elastic loosens and no longer supports. This is not a maintenance detail: breast development happens in the same window as the [growth spurt](/blog/picco-di-crescita-giovani-atlete), whose estimated mean age in young female athletes is **11.18 years**, with a 90% credible interval from 8.62 to 12.94 years (Lima et al., 2024). A size that fits in September may not fit by March.
+
+And education here is not generic advice: it is a tested intervention. In a **cluster-randomised trial** of 115 adolescent athletes from four regional sporting academies (mean age 16), the group given an education booklet on bra fit and breast support by a sports physiotherapist had, at four months, improved their bra knowledge by **19% more** than controls (95% CI 14-25), and **39% more** of them passed the Bra Fit Assessment (95% CI 19-54) and **30% more** the Level of Breast Support test (95% CI 11-47). The authors are explicit on one point: baseline knowledge, fit and support were **all poor** (McGhee et al., 2010). One honest caveat: in the same trial, breast discomfort during exercise did not change significantly — the booklet improves what gets worn, not the symptom on its own.
 
 ## Compression or encapsulation — which is better?
 
@@ -88,6 +92,8 @@ BAB helps adolescent athletes get to know and listen to their changing bodies, a
 - Scurr J., Brown N., Smith J., Brasher A., Risius D., Marczyk A. **The Influence of the Breast on Sport and Exercise Participation in School Girls in the United Kingdom.** *Journal of Adolescent Health*, 2016;58(2):167-173. (n=2,089 girls, aged 11-18, UK) [doi:10.1016/j.jadohealth.2015.10.005](https://doi.org/10.1016/j.jadohealth.2015.10.005)
 - Omrani A., Wakefield-Scurr J., Smith J., Wadey R., Brown N. **Breast Education Improves Adolescent Girls' Breast Knowledge, Attitudes to Breasts and Engagement With Positive Breast Habits.** *Frontiers in Public Health*, 2020;8:591927. (n=787 girls, aged 11-14) [doi:10.3389/fpubh.2020.591927](https://doi.org/10.3389/fpubh.2020.591927)
 - Scurr J.C., White J.L., Hedger W. **Supported and unsupported breast displacement in three dimensions across treadmill activity levels.** *Journal of Sports Sciences*, 2011;29(1):55-61. (n=21 adult women, D cup) [doi:10.1080/02640414.2010.521944](https://doi.org/10.1080/02640414.2010.521944)
+- McGhee D.E., Steele J.R., Munro B.J. **Education improves bra knowledge and fit, and level of breast support in adolescent female athletes: a cluster-randomised trial.** *Journal of Physiotherapy*, 2010;56(1):19-24. (cluster-randomised trial with intention-to-treat analysis, 115 adolescent athletes from 4 regional sporting academies, mean age 16; at 4 months +19% bra knowledge, +39% passing the Bra Fit Assessment, +30% on Level of Breast Support versus controls; no difference in breast discomfort) [doi:10.1016/s1836-9553(10)70050-3](https://doi.org/10.1016/s1836-9553(10)70050-3)
+- Lima A.B., Quinaud R.T., Karasiak F.C., Galvão L.G., Gonçalves C.E., Carvalho H.M. **Longitudinal Meta-Analysis of Peak Height Velocity in Young Female Athletes.** *Cureus*, 2024;16(5):e59482. (Bayesian meta-analysis of 14 studies and 21 independent samples of young female athletes; estimated mean age at peak 11.18 years, 90% CrI 8.62-12.94) [doi:10.7759/cureus.59482](https://doi.org/10.7759/cureus.59482)
 - Gilmer G., Xu E., Franklin C., Adams N., Rizzone K. **The Impact of Breasts and Bras on Physical Activity Amongst Women and Girls: A Systematic Review and Meta-Analysis.** *Journal of Women's Sports Medicine*, 2024. (77 studies) [doi:10.53646/cdp9k364](https://doi.org/10.53646/cdp9k364)
 
 *This article is for information only and does not constitute medical advice. If breast pain persists, speak to a healthcare professional.*

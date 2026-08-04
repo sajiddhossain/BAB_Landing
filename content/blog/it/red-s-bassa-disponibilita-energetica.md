@@ -2,7 +2,7 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)"
 date: 2026-07-04
-updated: 2026-07-28
+updated: 2026-08-04
 author: Sajid Hossain
 excerpt: "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica."
 cover: /fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif
@@ -83,9 +83,11 @@ Un principio guida tutti: sono **filtri**, non verdetti. La valutazione clinica 
 
 ## Cosa può fare concretamente chi sta intorno all'atleta?
 
+**Quattro cose, divise per ruolo — e nessuna richiede di fare diagnosi.** Il filo comune è togliere all'atleta il peso di doversi spiegare da sola.
+
 - **L'atleta**: osservare i propri segnali giorno per giorno, senza giudizio. Riconoscere i propri schemi è il primo passo per parlarne.
 - **La famiglia**: rifornire senza colpevolizzare. Il cibo è carburante, non un premio o una punizione. E se la stanchezza è il sintomo dominante, vale la pena escludere anche una [carenza di ferro](/blog/ferro-atlete-adolescenti): si accerta con un esame del sangue, non si presume.
-- **Lo staff**: leggere i segnali di squadra (stanchezza diffusa, infortuni in aumento) come informazione utile, senza chiedere all'atleta di esporsi in pubblico.
+- **Lo staff**: leggere i segnali di squadra (stanchezza diffusa, infortuni in aumento) come informazione utile, senza chiedere all'atleta di esporsi in pubblico. E ricordare che il carico non è solo il volume: anche un blocco di [allenamento della forza](/blog/forza-ragazze-adolescenti) — utile e ben documentato — aggiunge una richiesta energetica che va coperta, non ignorata.
 - **Tutti**: sostituire "hai perso il ciclo perché ti alleni tanto, è normale" con "parliamone con qualcuno che se ne intende".
 
 ## Il ruolo di BAB

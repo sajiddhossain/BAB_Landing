@@ -2,7 +2,7 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: when training more does harm (and how to catch it early)"
 date: 2026-07-04
-updated: 2026-07-28
+updated: 2026-08-04
 author: Sajid Hossain
 excerpt: "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
 cover: /fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif
@@ -83,9 +83,11 @@ One principle guides them all: they are **filters, not verdicts**. Clinical asse
 
 ## What can the people around the athlete actually do?
 
+**Four things, split by role — and none of them requires making a diagnosis.** The common thread is taking away the burden of the athlete having to explain herself alone.
+
 - **The athlete**: observe your own signals day by day, without judgement. Recognising your patterns is the first step to talking about them.
 - **The family**: refuel without guilt. Food is fuel, not a reward or a punishment. And if fatigue is the dominant symptom, it's worth ruling out [iron deficiency](/blog/ferro-atlete-adolescenti) too: that's established with a blood test, not assumed.
-- **The staff**: read team-level signals (widespread fatigue, rising injuries) as useful information, without asking the athlete to expose herself in public.
+- **The staff**: read team-level signals (widespread fatigue, rising injuries) as useful information, without asking the athlete to expose herself in public. And remember that load is not only volume: a block of [strength training](/blog/forza-ragazze-adolescenti) — useful and well documented — also adds an energy demand that has to be covered, not ignored.
 - **Everyone**: replace "you lost your period because you train a lot, it's normal" with "let's talk to someone who knows".
 
 ## BAB's role

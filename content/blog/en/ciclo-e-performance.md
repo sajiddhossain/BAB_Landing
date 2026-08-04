@@ -2,7 +2,7 @@
 slug: ciclo-e-performance
 title: "The menstrual cycle and performance: what no one tells young athletes"
 date: 2026-06-20
-updated: 2026-07-28
+updated: 2026-08-04
 author: Sajid Hossain
 excerpt: "77% of elite athletes report their cycle affects their performance, and among adolescents one in four — up to six in ten — cuts back or avoids physical activity during their period. It isn't about willpower: it's a signal from the body that almost no one is taught to read. Here's the evidence, and where to start."
 cover: /fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif
@@ -24,11 +24,13 @@ faq:
     a: "On the most-studied question — anterior cruciate ligament rupture — the honest answer today is that we do not know. A systematic review of 21 studies and 68,758 participants rated the overall quality of evidence as 'very low' under GRADE: there is not enough evidence to link a cycle phase to higher risk (Herzberg et al., 2017). That does not mean the cycle is irrelevant; it means planning a girl's training around cycle phase for injury-prevention purposes has no scientific basis today. What does have one is consistency in preventive neuromuscular training."
   - q: "Is training during your period harmful?"
     a: "There is no evidence that physical activity during menstruation is harmful, and the largest meta-analysis on the topic — 78 studies and 1,193 participants — found the effect of cycle phase on performance to be «trivial», with evidence quality rated low under GRADE (McNulty et al., 2020). Two caveats: those participants are adult women aged 18-40, and equivalent data in adolescents simply do not exist. In practice the opposite of what you would expect happens: among adolescents aged 10-18, between 25.2% and 61.1% avoid or reduce physical activity during their period, often out of fear of leaking and embarrassment rather than pain (Harvey et al., 2025). If menstrual pain is severe enough to prevent normal activities, it isn't something to put up with: it should be taken to a healthcare professional."
+  - q: "Does the menstrual cycle make you lose strength?"
+    a: "Not to any meaningful degree, on the available data. The largest meta-analysis of the effect of cycle phase on performance — 78 studies, 1,193 adult women aged 18-40 — describes an effect of «trivial» magnitude, with evidence quality rated low under GRADE (McNulty et al., 2020); equivalent data in adolescents do not exist. The useful comparison is one of scale: the variation attributable to cycle phase is small, whereas resistance training in children and adolescents produces strength gains with an effect size of 1.12 (95% CI 0.9-1.3) that grows with maturation (Behringer et al., 2010). In practice, what a girl builds over months matters far more than how she feels in a single week."
   - q: "Should training be adapted to the cycle phase?"
     a: "The evidence does not currently support it, and for adolescents it simply doesn't exist. The largest meta-analysis on the effect of cycle phase on performance — 78 studies, 1,193 participants — found a «trivial» reduction in the early follicular phase compared with all other phases (ES 0.5 = -0.06; 95% CrI -0.16 to 0.04), with the quality of evidence rated low under GRADE (McNulty et al., 2020). Note the age: those participants are adult women aged 18-40. So the practical conclusion is twofold: there is no basis for periodising a 14-year-old's training around her cycle phase, but there are excellent reasons to ask how she is and adapt the individual session to what she reports."
 ---
 
-For too long, women's sport has been coached as if it were a smaller version of men's sport. But a teenage athlete's body changes — and with it, energy, recovery and mood shift across the menstrual cycle. The question isn't whether this happens: it's that almost no girl is given the tools to read it.
+The menstrual cycle does affect sporting performance: **77% of elite athletes report it**, and among adolescents up to six in ten reduce or avoid physical activity during their period. For too long, women's sport has been coached as if it were a smaller version of men's sport. But a teenage athlete's body changes — and with it, energy, recovery and mood shift across the cycle. The question isn't whether this happens: it's that almost no girl is given the tools to read it.
 
 > **In short**
 > - **77%** of elite athletes report their cycle has negatively affected performance (Jones et al., 2024) — an **adult** sample, mean age 28.
@@ -54,10 +56,12 @@ It's worth being precise about the other side too. A longitudinal study of 6,639
 
 **Because the research looked elsewhere.** The absence of simple answers is no accident. Across **5,261 sport and exercise science publications** from 2014 to 2020, Cowley and colleagues found only **6% of studies were conducted on women only**, and that female participants made up **34%** of the 12.5 million subjects overall (Cowley et al., 2021, *Invisible Sportswomen*). Female athletes don't have fewer questions: they have less research behind them.
 
-## What an athlete can do, starting today
+## What can an athlete do about her cycle, starting today?
+
+**Four things, none of which requires permission or a diagnosis:** observe your own signals over time, adapt the individual session instead of skipping it, talk to whoever coaches you, and tell what is physiological from what needs a professional.
 
 - **Observe, don't judge.** Logging energy, mood and sleep day by day helps reveal your own patterns. An off day stops being a mystery once you see it land at the same point each month.
-- **Adapt, don't stop.** Knowing your own phases lets you dose load and recovery instead of being caught off guard.
+- **Adapt, don't stop.** Knowing your own phases lets you dose load and recovery instead of being caught off guard. And keep the scale of things in mind: the variation tied to cycle phase is «trivial» in the largest meta-analysis available (McNulty et al., 2020), while what you build over months — starting with [strength training](/blog/forza-ragazze-adolescenti) — has far larger effects.
 - **Talk about it, including what embarrasses you.** Periods are not the only subject left outside the changing room: [urinary leakage during jumping](/blog/perdite-urina-giovani-atlete) affects nearly one adolescent athlete in two, and 87% would not raise it with their coach. A shared language with coaches and family turns a taboo into an advantage — and [a coach's words](/blog/parole-allenatore-salute-atlete) carry more weight than the person saying them tends to realise.
 - **Tell the physiological from what needs a closer look.** A cycle that disappears is not a sign of good training: it can be a signal of [low energy availability](/blog/red-s-bassa-disponibilita-energetica), and it deserves a professional, not an app.
 
@@ -74,6 +78,7 @@ BAB helps athletes recognise these signals privately, and gives coaches and club
 - Gallant F., Hebert J.J., Thibault V., et al. **Puberty timing and relative age as predictors of physical activity discontinuation during adolescence.** *Scientific Reports*, 2023;13:13740. (n=781, longitudinal study) [doi:10.1038/s41598-023-40882-3](https://doi.org/10.1038/s41598-023-40882-3)
 - Cowley E.S., Olenick A.A., McNulty K.L., Ross E.Z. **"Invisible Sportswomen": The Sex Data Gap in Sport and Exercise Science Research.** *Women in Sport and Physical Activity Journal*, 2021;29(2):146-151. (5,261 publications analysed) [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
 - McNulty K.L., Elliott-Sale K.J., Dolan E., Swinton P.A., Ansdell P., Goodall S., Thomas K., Hicks K.M. **The Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic Women: A Systematic Review and Meta-Analysis.** *Sports Medicine*, 2020;50(10):1813-1827. (78 studies, 1,193 participants, **adult women aged 18-40**; trivial effect size, quality of evidence rated low under GRADE) [doi:10.1007/s40279-020-01319-3](https://doi.org/10.1007/s40279-020-01319-3)
+- Behringer M., vom Heede A., Yue Z., Mester J. **Effects of Resistance Training in Children and Adolescents: A Meta-analysis.** *Pediatrics*, 2010;126(5):e1199-e1210. (meta-analysis of healthy children and adolescents under 18; overall effect size 1.12, 95% CI 0.9-1.3; maturity a significant moderator) [doi:10.1542/peds.2010-0445](https://doi.org/10.1542/peds.2010-0445)
 - Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studies, 633 adolescent athletes, mean age 16.15 years) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
 
 *This article is for information only and does not constitute medical advice. If signals persist, speak to a healthcare professional.*
