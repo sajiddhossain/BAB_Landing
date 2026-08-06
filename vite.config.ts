@@ -25,6 +25,17 @@ const PRERENDER_ROUTES: Record<string, string> = {
   '/blog': 'blog',
 }
 
+// Lingue del blog che hanno un URL proprio. L'italiano è la versione canonica e
+// vive sotto /blog; le altre lingue vivono sotto un prefisso (/en/blog/...).
+// Senza un URL dedicato una traduzione esiste solo dentro il bundle JS, cioè
+// dopo il mount di React: nessun crawler può indicizzarla, e cercarne il titolo
+// esatto su Google non restituisce nulla. Il prefisso è ciò che la rende una
+// pagina. Per ora riguarda SOLO il blog: le altre rotte restano in italiano.
+const BLOG_LOCALES: Record<string, { prefix: string; htmlLang: string; ogLocale: string; inLanguage: string; hreflang: string }> = {
+  it: { prefix: '', htmlLang: 'it', ogLocale: 'it_IT', inLanguage: 'it-IT', hreflang: 'it' },
+  en: { prefix: '/en', htmlLang: 'en', ogLocale: 'en_GB', inLanguage: 'en-GB', hreflang: 'en' },
+}
+
 // Etichette brevi per il breadcrumb (il <title> SEO è troppo lungo come nodo)
 const BREADCRUMB_LABEL: Record<string, string> = {
   '/features': 'Funzionalità',
@@ -418,180 +429,251 @@ function prerenderRoutes(): Plugin {
         fs.writeFileSync(path.join(outDir, 'index.html'), page)
       }
 
-      // --- Articoli del blog: una pagina statica per slug (canonica in IT) ---
+      // --- Blog: una pagina statica per ogni coppia (slug, lingua) ---
+      // IT canonica su /blog/{slug}, EN su /en/blog/{slug}. Le versioni si
+      // dichiarano a vicenda con hreflang, così i motori sanno che sono la stessa
+      // pagina in due lingue e non contenuto duplicato.
       const blogPath = path.resolve('src/generated/blog.json')
       const blogUrls: string[] = []
-      const blogForLlms: Array<{ slug: string; title: string; excerpt: string; date: string | null; updated?: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }> }> = []
+      const blogForLlms: Array<{ slug: string; title: string; excerpt: string; date: string | null; updated?: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }>; altUrls?: string[] }> = []
       const blogLastmod = new Map<string, string>()
       if (fs.existsSync(blogPath)) {
         type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }>; html?: string }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
-        const bySlug = new Map<string, Post>()
+        // slug → lingua → articolo (solo le lingue che hanno un URL proprio)
+        const bySlug = new Map<string, Map<string, Post>>()
         for (const p of allPosts) {
-          const cur = bySlug.get(p.slug)
-          if (!cur || (p.lang === 'it' && cur.lang !== 'it')) bySlug.set(p.slug, p)
+          if (!BLOG_LOCALES[p.lang]) continue
+          if (!bySlug.has(p.slug)) bySlug.set(p.slug, new Map())
+          bySlug.get(p.slug)!.set(p.lang, p)
         }
-        for (const post of bySlug.values()) {
-          const url = `${DOMAIN}/blog/${post.slug}`
-          let page = baseHtml
-          page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(post.title)} — BAB</title>`)
-          page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, metaDescription(post.excerpt))
-          page = replaceAttr(page, /(<meta property="og:title" content=")[^"]*(")/, post.title)
-          page = replaceAttr(page, /(<meta property="og:description" content=")[^"]*(")/, post.excerpt)
-          page = replaceAttr(page, /(<meta property="og:url" content=")[^"]*(")/, url)
-          page = replaceAttr(page, /(<meta property="og:type" content=")[^"]*(")/, 'article')
-          page = replaceAttr(page, /(<meta name="twitter:title" content=")[^"]*(")/, post.title)
-          page = replaceAttr(page, /(<meta name="twitter:description" content=")[^"]*(")/, metaDescription(post.excerpt, 200))
-          page = replaceAttr(page, /(<link rel="canonical" href=")[^"]*(")/, url)
-          const coverDim = post.cover ? imageSize(path.join(path.resolve('public'), post.cover)) : null
-          if (post.cover) {
-            page = replaceAttr(page, /(<meta property="og:image" content=")[^"]*(")/, `${DOMAIN}${post.cover}`)
-            page = replaceAttr(page, /(<meta name="twitter:image" content=")[^"]*(")/, `${DOMAIN}${post.cover}`)
-            page = replaceAttr(page, /(<meta property="og:image:alt" content=")[^"]*(")/, post.title)
-            page = replaceAttr(page, /(<meta name="twitter:image:alt" content=")[^"]*(")/, post.title)
-            if (coverDim) {
-              page = replaceAttr(page, /(<meta property="og:image:type" content=")[^"]*(")/, coverDim.type)
-              page = replaceAttr(page, /(<meta property="og:image:width" content=")[^"]*(")/, String(coverDim.w))
-              page = replaceAttr(page, /(<meta property="og:image:height" content=")[^"]*(")/, String(coverDim.h))
+        // I link interni negli articoli sono scritti come /blog/{slug}: nelle
+        // versioni tradotte vanno riscritti col prefisso, altrimenti un lettore
+        // inglese viene rimbalzato sulla versione italiana al primo link.
+        const localizeLinks = (html: string, prefix: string) =>
+          prefix ? html.replace(/href="\/blog\//g, `href="${prefix}/blog/`) : html
+
+        for (const [slug, variants] of bySlug) {
+          const alternates = [...variants.keys()].map((l) => ({
+            lang: l,
+            url: `${DOMAIN}${BLOG_LOCALES[l].prefix}/blog/${slug}`,
+          }))
+          const canonicalIt = `${DOMAIN}/blog/${slug}`
+          for (const [lang, post] of variants) {
+            const loc = BLOG_LOCALES[lang]
+            const url = `${DOMAIN}${loc.prefix}/blog/${slug}`
+            let page = baseHtml
+            page = page.replace(/<html lang="[^"]*"/, `<html lang="${loc.htmlLang}"`)
+            page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(post.title)} — BAB</title>`)
+            page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, metaDescription(post.excerpt))
+            page = replaceAttr(page, /(<meta property="og:title" content=")[^"]*(")/, post.title)
+            page = replaceAttr(page, /(<meta property="og:description" content=")[^"]*(")/, post.excerpt)
+            page = replaceAttr(page, /(<meta property="og:url" content=")[^"]*(")/, url)
+            page = replaceAttr(page, /(<meta property="og:type" content=")[^"]*(")/, 'article')
+            page = replaceAttr(page, /(<meta property="og:locale" content=")[^"]*(")/, loc.ogLocale)
+            page = replaceAttr(page, /(<meta name="twitter:title" content=")[^"]*(")/, post.title)
+            page = replaceAttr(page, /(<meta name="twitter:description" content=")[^"]*(")/, metaDescription(post.excerpt, 200))
+            page = replaceAttr(page, /(<link rel="canonical" href=")[^"]*(")/, url)
+            const coverDim = post.cover ? imageSize(path.join(path.resolve('public'), post.cover)) : null
+            if (post.cover) {
+              page = replaceAttr(page, /(<meta property="og:image" content=")[^"]*(")/, `${DOMAIN}${post.cover}`)
+              page = replaceAttr(page, /(<meta name="twitter:image" content=")[^"]*(")/, `${DOMAIN}${post.cover}`)
+              page = replaceAttr(page, /(<meta property="og:image:alt" content=")[^"]*(")/, post.title)
+              page = replaceAttr(page, /(<meta name="twitter:image:alt" content=")[^"]*(")/, post.title)
+              if (coverDim) {
+                page = replaceAttr(page, /(<meta property="og:image:type" content=")[^"]*(")/, coverDim.type)
+                page = replaceAttr(page, /(<meta property="og:image:width" content=")[^"]*(")/, String(coverDim.w))
+                page = replaceAttr(page, /(<meta property="og:image:height" content=")[^"]*(")/, String(coverDim.h))
+              }
+            }
+            // hreflang reciproci + x-default sulla versione italiana (canonica).
+            const hreflangTags = [
+              ...alternates.map((a) => `<link rel="alternate" hreflang="${BLOG_LOCALES[a.lang].hreflang}" href="${a.url}" />`),
+              `<link rel="alternate" hreflang="x-default" href="${canonicalIt}" />`,
+            ].join('\n    ')
+            // Meta OpenGraph specifiche degli articoli (article:*): non presenti nel
+            // template base, quindi iniettate qui prima di </head>.
+            const articleMeta = [
+              post.date ? `<meta property="article:published_time" content="${post.date}" />` : '',
+              post.updated || post.date ? `<meta property="article:modified_time" content="${post.updated || post.date}" />` : '',
+              post.author ? `<meta property="article:author" content="${esc(post.author)}" />` : '',
+              post.tags?.[0] ? `<meta property="article:section" content="${esc(post.tags[0])}" />` : '',
+              ...(post.tags ?? []).map((t) => `<meta property="article:tag" content="${esc(t)}" />`),
+            ].filter(Boolean).join('\n    ')
+            page = page.replace('</head>', `    ${hreflangTags}\n    ${articleMeta}\n  </head>`)
+            // Le FAQ finiscono anche nel contenuto statico di #root (React lo
+            // sostituisce al mount): così sono visibili ai crawler senza JS e
+            // combaciano con il dato strutturato FAQPage qui sotto.
+            const faqHtml = (post.faq ?? [])
+              .map((f) => `<h2>${esc(f.q)}</h2><p>${esc(f.a)}</p>`)
+              .join('')
+            // Corpo COMPLETO dell'articolo nell'HTML statico. Prima qui finivano solo
+            // titolo, excerpt, sommario e FAQ: circa il 40% del testo. Il resto
+            // arrivava solo dopo il mount di React, cioè nella seconda ondata di
+            // rendering di Google — lenta e non garantita su un dominio giovane.
+            // Ora il crawler trova l'articolo intero, fonti comprese, senza JS.
+            const bodyHtml = localizeLinks(post.html ?? '', loc.prefix)
+            page = page.replace(
+              /<div id="root">\s*<\/div>/,
+              `<div id="root"><article><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p>${bodyHtml}${faqHtml}</article></div>`,
+            )
+            const breadcrumb = {
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                { '@type': 'ListItem', position: 1, name: 'Home', item: `${DOMAIN}/` },
+                { '@type': 'ListItem', position: 2, name: 'Blog', item: `${DOMAIN}${loc.prefix}/blog` },
+                { '@type': 'ListItem', position: 3, name: post.title, item: url },
+              ],
+            }
+            const blogPosting = {
+              '@context': 'https://schema.org',
+              '@type': 'BlogPosting',
+              headline: post.title,
+              description: post.excerpt,
+              ...(post.date ? { datePublished: post.date } : {}),
+              ...(post.updated || post.date ? { dateModified: post.updated || post.date } : {}),
+              ...(post.author ? { author: { '@type': 'Person', name: post.author, url: `${DOMAIN}/about` } } : {}),
+              ...(post.cover
+                ? {
+                    image: {
+                      '@type': 'ImageObject',
+                      url: `${DOMAIN}${post.cover}`,
+                      ...(coverDim ? { width: coverDim.w, height: coverDim.h } : {}),
+                    },
+                  }
+                : {}),
+              ...(post.tags?.length ? { keywords: post.tags.join(', '), articleSection: post.tags[0] } : {}),
+              ...(post.words ? { wordCount: post.words } : {}),
+              ...(post.timeRequired ? { timeRequired: post.timeRequired } : {}),
+              isAccessibleForFree: true,
+              inLanguage: loc.inLanguage,
+              // Entità collegate (GEO): i concetti-chiave dell'articolo come DefinedTerm.
+              // Il glossario è in italiano: lo agganciamo tramite i tag della versione
+              // italiana, così anche la pagina EN punta alle stesse entità.
+              ...(() => {
+                const tagSource = variants.get('it')?.tags ?? post.tags ?? []
+                const terms = tagSource.filter((t) => GLOSSARY[t]).map(definedTerm)
+                return terms.length ? { about: terms } : {}
+              })(),
+              // Citazioni scientifiche (E-E-A-T/GEO): le stesse fonti elencate in fondo
+              // all'articolo, come dato strutturato ScholarlyArticle.
+              ...(post.sources?.length
+                ? { citation: post.sources.map((s) => ({ '@type': 'ScholarlyArticle', name: s.name, url: s.url, '@id': s.url })) }
+                : {}),
+              // Contenuto leggibile ad alta voce (AEO / voice assistant).
+              // Speakable (AEO): oltre ai titoli, indichiamo il sommario "In breve", il
+              // primo paragrafo e l'elenco puntato del sommario — cioè le parti scritte
+              // per essere lette ad alta voce come risposta autonoma da un assistente
+              // vocale. Includiamo anche il blocco FAQ, che è già in forma domanda →
+              // risposta breve e quindi il candidato migliore a una lettura vocale.
+              // `h2 + p` copre il paragrafo che segue ogni H2: negli articoli è scritto
+              // in forma "risposta prima di tutto", cioè la risposta autonoma alla
+              // domanda posta dal titolo — esattamente ciò che un answer engine cerca.
+              speakable: {
+                '@type': 'SpeakableSpecification',
+                cssSelector: [
+                  'h1',
+                  'h2',
+                  '.blog-prose > blockquote:first-of-type',
+                  '.blog-prose > blockquote:first-of-type li',
+                  '.blog-prose > p:first-of-type',
+                  '.blog-prose > h2 + p',
+                  '.blog-prose > h2 + ul > li',
+                  '.blog-faq',
+                ],
+              },
+              mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+              publisher: {
+                '@type': 'Organization',
+                name: 'BAB — Breaking All Barriers',
+                url: `${DOMAIN}/`,
+                // Google richiede il logo dell'editore per i rich result "Article".
+                logo: { '@type': 'ImageObject', url: `${DOMAIN}/icon-512.png`, width: 512, height: 512 },
+              },
+            }
+            const articleLd: unknown[] = [breadcrumb, blogPosting]
+            // FAQPage dagli stessi Q&A mostrati in pagina: pescabile dalle risposte
+            // AI (AEO/GEO) e candidabile ai rich result, senza duplicare contenuto.
+            if (post.faq?.length) {
+              articleLd.push({
+                '@context': 'https://schema.org',
+                '@type': 'FAQPage',
+                mainEntity: post.faq.map((f) => ({
+                  '@type': 'Question',
+                  name: f.q,
+                  acceptedAnswer: { '@type': 'Answer', text: f.a },
+                })),
+              })
+            }
+            page = page.replace('</head>', `    ${articleLd.map(ldScript).join('\n    ')}\n  </head>`)
+            const outDir = path.join(dist, ...loc.prefix.split('/').filter(Boolean), 'blog', slug)
+            fs.mkdirSync(outDir, { recursive: true })
+            fs.writeFileSync(path.join(outDir, 'index.html'), page)
+            blogUrls.push(url)
+            // lastmod = data dell'ultima revisione reale (updated), non della prima
+            // pubblicazione: è ciò che dice ai crawler che vale la pena ripassare.
+            const lastmod = post.updated || post.date
+            if (lastmod) blogLastmod.set(url, lastmod)
+            // llms.txt è in italiano: elenchiamo la versione IT, segnalando l'URL
+            // inglese come traduzione disponibile della stessa pagina.
+            if (lang === 'it') {
+              blogForLlms.push({
+                slug,
+                title: post.title,
+                excerpt: post.excerpt,
+                date: post.date,
+                updated: post.updated,
+                tags: post.tags,
+                sources: post.sources,
+                faq: post.faq,
+                altUrls: alternates.filter((a) => a.lang !== 'it').map((a) => a.url),
+              })
             }
           }
-          // Meta OpenGraph specifiche degli articoli (article:*): non presenti nel
-          // template base, quindi iniettate qui prima di </head>.
-          const articleMeta = [
-            post.date ? `<meta property="article:published_time" content="${post.date}" />` : '',
-            post.updated || post.date ? `<meta property="article:modified_time" content="${post.updated || post.date}" />` : '',
-            post.author ? `<meta property="article:author" content="${esc(post.author)}" />` : '',
-            post.tags?.[0] ? `<meta property="article:section" content="${esc(post.tags[0])}" />` : '',
-            ...(post.tags ?? []).map((t) => `<meta property="article:tag" content="${esc(t)}" />`),
-          ].filter(Boolean).join('\n    ')
-          if (articleMeta) page = page.replace('</head>', `    ${articleMeta}\n  </head>`)
-          // Le FAQ finiscono anche nel contenuto statico di #root (React lo
-          // sostituisce al mount): così sono visibili ai crawler senza JS e
-          // combaciano con il dato strutturato FAQPage qui sotto.
-          const faqHtml = (post.faq ?? [])
-            .map((f) => `<h2>${esc(f.q)}</h2><p>${esc(f.a)}</p>`)
+        }
+      }
+
+      // --- Pagina lista del blog in inglese (/en/blog) ---
+      // Stessa logica degli articoli: senza un URL proprio, l'indice inglese non
+      // esiste per un crawler e le pagine EN restano orfane di link interni.
+      {
+        const en = JSON.parse(fs.readFileSync(path.resolve('src/locales/en.json'), 'utf8'))
+        const s = en.seo?.blog
+        if (s) {
+          const url = `${DOMAIN}/en/blog`
+          let page = baseHtml
+          page = page.replace(/<html lang="[^"]*"/, '<html lang="en"')
+          page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(s.title)}</title>`)
+          page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, s.desc)
+          page = replaceAttr(page, /(<meta property="og:title" content=")[^"]*(")/, s.title)
+          page = replaceAttr(page, /(<meta property="og:description" content=")[^"]*(")/, s.desc)
+          page = replaceAttr(page, /(<meta property="og:url" content=")[^"]*(")/, url)
+          page = replaceAttr(page, /(<meta property="og:locale" content=")[^"]*(")/, 'en_GB')
+          page = replaceAttr(page, /(<meta name="twitter:title" content=")[^"]*(")/, s.title)
+          page = replaceAttr(page, /(<meta name="twitter:description" content=")[^"]*(")/, s.desc)
+          page = replaceAttr(page, /(<link rel="canonical" href=")[^"]*(")/, url)
+          const hreflangTags = [
+            `<link rel="alternate" hreflang="it" href="${DOMAIN}/blog" />`,
+            `<link rel="alternate" hreflang="en" href="${url}" />`,
+            `<link rel="alternate" hreflang="x-default" href="${DOMAIN}/blog" />`,
+          ].join('\n    ')
+          page = page.replace('</head>', `    ${hreflangTags}\n  </head>`)
+          // Indice statico degli articoli inglesi: dà ai crawler i link interni
+          // verso ogni /en/blog/{slug} anche senza eseguire JS.
+          const enIndex = blogUrls
+            .filter((u) => u.startsWith(`${DOMAIN}/en/blog/`))
+            .map((u) => `<li><a href="${u.replace(DOMAIN, '')}">${esc(u.split('/').pop() ?? '')}</a></li>`)
             .join('')
-          // "In breve" (AEO): il sommario in cima all'articolo è la parte scritta per
-          // essere citata da sola — è già indicato come Speakable, ma finora esisteva
-          // solo nell'HTML renderizzato da React. Qui lo estraiamo dal primo
-          // blockquote e lo mettiamo nel contenuto statico di #root, così un answer
-          // engine che non esegue JS trova i punti chiave insieme a titolo e FAQ.
-          const summaryHtml = (() => {
-            const bq = /<blockquote>([\s\S]*?)<\/blockquote>/.exec(post.html ?? '')
-            if (!bq) return ''
-            const items = [...bq[1].matchAll(/<li>([\s\S]*?)<\/li>/g)].map((m) =>
-              m[1]
-                .replace(/<[^>]+>/g, '')
-                // Il markdown è già HTML: decodifichiamo prima, perché esc() riescape.
-                .replace(/&(amp|lt|gt|quot|#39);/g, (_, e: string) =>
-                  ({ amp: '&', lt: '<', gt: '>', quot: '"', '#39': "'" })[e] ?? _,
-                )
-                .replace(/\s+/g, ' ')
-                .trim(),
-            )
-            if (!items.length) return ''
-            return `<ul>${items.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>`
-          })()
           page = page.replace(
             /<div id="root">\s*<\/div>/,
-            `<div id="root"><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p>${summaryHtml}${faqHtml}</div>`,
+            `<div id="root"><h1>${esc(s.title)}</h1><p>${esc(s.desc)}</p><ul>${enIndex}</ul></div>`,
           )
-          const breadcrumb = {
-            '@context': 'https://schema.org',
-            '@type': 'BreadcrumbList',
-            itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: `${DOMAIN}/` },
-              { '@type': 'ListItem', position: 2, name: 'Blog', item: `${DOMAIN}/blog` },
-              { '@type': 'ListItem', position: 3, name: post.title, item: url },
-            ],
-          }
-          const blogPosting = {
-            '@context': 'https://schema.org',
-            '@type': 'BlogPosting',
-            headline: post.title,
-            description: post.excerpt,
-            ...(post.date ? { datePublished: post.date } : {}),
-            ...(post.updated || post.date ? { dateModified: post.updated || post.date } : {}),
-            ...(post.author ? { author: { '@type': 'Person', name: post.author, url: `${DOMAIN}/about` } } : {}),
-            ...(post.cover
-              ? {
-                  image: {
-                    '@type': 'ImageObject',
-                    url: `${DOMAIN}${post.cover}`,
-                    ...(coverDim ? { width: coverDim.w, height: coverDim.h } : {}),
-                  },
-                }
-              : {}),
-            ...(post.tags?.length ? { keywords: post.tags.join(', '), articleSection: post.tags[0] } : {}),
-            ...(post.words ? { wordCount: post.words } : {}),
-            ...(post.timeRequired ? { timeRequired: post.timeRequired } : {}),
-            isAccessibleForFree: true,
-            inLanguage: 'it-IT',
-            // Entità collegate (GEO): i concetti-chiave dell'articolo come DefinedTerm.
-            ...(() => {
-              const terms = (post.tags ?? []).filter((t) => GLOSSARY[t]).map(definedTerm)
-              return terms.length ? { about: terms } : {}
-            })(),
-            // Citazioni scientifiche (E-E-A-T/GEO): le stesse fonti elencate in fondo
-            // all'articolo, come dato strutturato ScholarlyArticle.
-            ...(post.sources?.length
-              ? { citation: post.sources.map((s) => ({ '@type': 'ScholarlyArticle', name: s.name, url: s.url, '@id': s.url })) }
-              : {}),
-            // Contenuto leggibile ad alta voce (AEO / voice assistant).
-            // Speakable (AEO): oltre ai titoli, indichiamo il sommario "In breve", il
-            // primo paragrafo e l'elenco puntato del sommario — cioè le parti scritte
-            // per essere lette ad alta voce come risposta autonoma da un assistente
-            // vocale. Includiamo anche il blocco FAQ, che è già in forma domanda →
-            // risposta breve e quindi il candidato migliore a una lettura vocale.
-            // `h2 + p` copre il paragrafo che segue ogni H2: negli articoli è scritto
-            // in forma "risposta prima di tutto", cioè la risposta autonoma alla
-            // domanda posta dal titolo — esattamente ciò che un answer engine cerca.
-            speakable: {
-              '@type': 'SpeakableSpecification',
-              cssSelector: [
-                'h1',
-                'h2',
-                '.blog-prose > blockquote:first-of-type',
-                '.blog-prose > blockquote:first-of-type li',
-                '.blog-prose > p:first-of-type',
-                '.blog-prose > h2 + p',
-                '.blog-prose > h2 + ul > li',
-                '.blog-faq',
-              ],
-            },
-            mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-            publisher: {
-              '@type': 'Organization',
-              name: 'BAB — Breaking All Barriers',
-              url: `${DOMAIN}/`,
-              // Google richiede il logo dell'editore per i rich result "Article".
-              logo: { '@type': 'ImageObject', url: `${DOMAIN}/icon-512.png`, width: 512, height: 512 },
-            },
-          }
-          const articleLd: unknown[] = [breadcrumb, blogPosting]
-          // FAQPage dagli stessi Q&A mostrati in pagina: pescabile dalle risposte
-          // AI (AEO/GEO) e candidabile ai rich result, senza duplicare contenuto.
-          if (post.faq?.length) {
-            articleLd.push({
-              '@context': 'https://schema.org',
-              '@type': 'FAQPage',
-              mainEntity: post.faq.map((f) => ({
-                '@type': 'Question',
-                name: f.q,
-                acceptedAnswer: { '@type': 'Answer', text: f.a },
-              })),
-            })
-          }
-          page = page.replace('</head>', `    ${articleLd.map(ldScript).join('\n    ')}\n  </head>`)
-          const outDir = path.join(dist, 'blog', post.slug)
+          page = page.replace('</head>', `    ${ldScript(breadcrumbLd('/en/blog', 'Blog'))}\n  </head>`)
+          const outDir = path.join(dist, 'en', 'blog')
           fs.mkdirSync(outDir, { recursive: true })
           fs.writeFileSync(path.join(outDir, 'index.html'), page)
           blogUrls.push(url)
-          blogForLlms.push({ slug: post.slug, title: post.title, excerpt: post.excerpt, date: post.date, updated: post.updated, tags: post.tags, sources: post.sources, faq: post.faq })
-          // lastmod = data dell'ultima revisione reale (updated), non della prima
-          // pubblicazione: è ciò che dice ai crawler che vale la pena ripassare.
-          const lastmod = post.updated || post.date
-          if (lastmod) blogLastmod.set(url, lastmod)
         }
       }
 
@@ -600,10 +682,12 @@ function prerenderRoutes(): Plugin {
       if (fs.existsSync(sitemapPath)) {
         let xml = fs.readFileSync(sitemapPath, 'utf8')
         const latestBlog = [...blogLastmod.values()].sort().slice(-1)[0]
+        // Le pagine indice (IT ed EN) prendono la data dell'articolo più recente.
+        const indexPages = new Set([`${DOMAIN}/blog`, `${DOMAIN}/en/blog`])
         const entries = [`${DOMAIN}/blog`, ...blogUrls]
           .filter((u) => !xml.includes(`<loc>${u}</loc>`))
           .map((u) => {
-            const lm = u === `${DOMAIN}/blog` ? latestBlog : blogLastmod.get(u)
+            const lm = indexPages.has(u) ? latestBlog : blogLastmod.get(u)
             const lmTag = lm ? `\n    <lastmod>${lm}</lastmod>` : ''
             return `  <url>\n    <loc>${u}</loc>${lmTag}\n    <changefreq>weekly</changefreq>\n    <priority>0.6</priority>\n  </url>`
           })
@@ -637,6 +721,7 @@ function prerenderRoutes(): Plugin {
         ...blogForLlms.flatMap((p) => {
           const meta = [p.updated ? `aggiornato ${p.updated}` : p.date, ...(p.tags ?? [])].filter(Boolean).join(' · ')
           const lines = [`- [${p.title}](${DOMAIN}/blog/${p.slug})${meta ? ` — ${meta}` : ''}: ${p.excerpt}`]
+          if (p.altUrls?.length) lines.push(`  Versione inglese della stessa pagina: ${p.altUrls.join(' · ')}`)
           if (p.faq?.length) lines.push(`  Risponde a: ${p.faq.map((f) => f.q).join(' | ')}`)
           if (p.sources?.length) lines.push(`  Fonti: ${p.sources.map((s) => s.url).join(' · ')}`)
           return lines

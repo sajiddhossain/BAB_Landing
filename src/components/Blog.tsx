@@ -7,6 +7,7 @@
  * @copyright (c) 2026 Breaking All Barriers. Tutti i diritti riservati.
  */
 import { useTranslation } from 'react-i18next';
+import { blogPath } from '../lib/blogLocale';
 import blogData from '../generated/blog.json';
 import SponsorSlot from './SponsorSlot';
 
@@ -47,35 +48,43 @@ export function formatDate(date: string | null, lang: string): string {
  }
 }
 
-export default function Blog() {
+interface BlogProps {
+ /** Lingua imposta dall'URL (/blog → it, /en/blog → en). Se assente, quella dell'utente. */
+ lang?: string;
+}
+
+export default function Blog({ lang: langProp }: BlogProps = {}) {
  const { t, i18n } = useTranslation();
- const lang = (i18n.language || 'it').slice(0, 2);
+ const lang = langProp ?? (i18n.language || 'it').slice(0, 2);
+ // Quando la lingua arriva dall'URL, anche i testi della pagina devono seguirla:
+ // su /en/blog il contenuto è inglese, e cornice e articoli non possono divergere.
+ const tt = langProp ? i18n.getFixedT(langProp) : t;
  const posts = postsForLang(lang);
 
  return (
  <section className="w-full max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-20">
  <header className="mb-12 sm:mb-16">
  <span className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-4 py-1.5 font-black uppercase tracking-widest text-xs shadow-[4px_4px_0_0_#0F0F12] mb-6">
- {t('blog.kicker')}
+ {tt('blog.kicker')}
  </span>
  <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-4xl sm:text-6xl font-black tracking-tight mb-4">
- {t('blog.title')}
+ {tt('blog.title')}
  </h1>
  <p className="font-['Space_Grotesk',_sans-serif] text-lg sm:text-xl text-[#0F0F12]/75 max-w-2xl">
- {t('blog.subtitle')}
+ {tt('blog.subtitle')}
  </p>
  </header>
 
  {posts.length === 0 ? (
  <p className="font-bold text-[#0F0F12]/70 border-[3px] border-black bg-white p-6 shadow-[4px_4px_0_0_#0F0F12]">
- {t('blog.empty')}
+ {tt('blog.empty')}
  </p>
  ) : (
  <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
  {posts.map((p) => (
  <li key={p.slug}>
  <a
- href={`/blog/${p.slug}`}
+ href={blogPath(lang, p.slug)}
  className="group flex flex-col h-full bg-white border-[3px] border-black shadow-[6px_6px_0_0_#0F0F12] hover:-translate-y-1 hover:shadow-[8px_8px_0_0_#0F0F12] active:translate-y-0.5 active:shadow-[2px_2px_0_0_#0F0F12] focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all"
  >
  {p.cover && (
@@ -90,7 +99,7 @@ export default function Blog() {
  <div className="flex items-center gap-2 text-[11px] font-black uppercase tracking-wide text-[#0F0F12]/60 mb-3">
  <span>{formatDate(p.date, lang)}</span>
  <span aria-hidden="true">·</span>
- <span>{p.readingMinutes} {t('blog.reading')}</span>
+ <span>{p.readingMinutes} {tt('blog.reading')}</span>
  </div>
  <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-xl font-black leading-tight mb-2 group-hover:text-vividteal transition-colors">
  {p.title}

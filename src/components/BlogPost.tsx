@@ -6,7 +6,9 @@
  * @author Sajid Hossain <sajid.hossain2009@gmail.com>
  * @copyright (c) 2026 Breaking All Barriers. Tutti i diritti riservati.
  */
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { blogPath, localizeBlogLinks } from '../lib/blogLocale';
 import { BLOG_POSTS, formatDate, type BlogPostData } from './Blog';
 import NotFound from './NotFound';
 import SponsorSlot from './SponsorSlot';
@@ -14,6 +16,8 @@ import SponsorSlot from './SponsorSlot';
 interface BlogPostProps {
  slug: string;
  onNavigate?: (path: string) => void;
+ /** Lingua imposta dall'URL (/blog/… → it, /en/blog/… → en). Se assente, quella dell'utente. */
+ lang?: string;
 }
 
 function findPost(slug: string, lang: string): BlogPostData | undefined {
@@ -24,34 +28,47 @@ function findPost(slug: string, lang: string): BlogPostData | undefined {
  );
 }
 
-export default function BlogPost({ slug, onNavigate }: BlogPostProps) {
+export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostProps) {
  const { t, i18n } = useTranslation();
- const lang = (i18n.language || 'it').slice(0, 2);
+ const lang = langProp ?? (i18n.language || 'it').slice(0, 2);
+ // Come nella lista: se la lingua viene dall'URL, le etichette la seguono.
+ const tt = langProp ? i18n.getFixedT(langProp) : t;
  const post = findPost(slug, lang);
+
+ // Title e meta description dell'articolo: la pagina statica li ha già corretti, ma
+ // in navigazione SPA (da /blog a un articolo) nessuno li aggiornerebbe. Qui l'unica
+ // fonte di verità è il manifest, così ciò che vede l'utente — e un crawler che
+ // esegue JS — coincide sempre con l'HTML prerenderizzato.
+ useEffect(() => {
+ if (!post) return;
+ document.title = `${post.title} — BAB`;
+ const meta = document.querySelector('meta[name="description"]');
+ if (meta) meta.setAttribute('content', post.excerpt);
+ }, [post]);
 
  if (!post) return <NotFound onNavigate={onNavigate} />;
 
  return (
  <article className="w-full max-w-3xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
  <a
- href="/blog"
+ href={blogPath(lang)}
  className="inline-flex items-center gap-2 font-bold uppercase text-xs tracking-wide text-vividteal hover:underline focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] mb-8"
  >
- <span aria-hidden="true">←</span> {t('blog.back')}
+ <span aria-hidden="true">←</span> {tt('blog.back')}
  </a>
 
  <header className="mb-8">
  <div className="flex items-center gap-2 text-[11px] font-black uppercase tracking-wide text-[#0F0F12]/60 mb-4">
  <span>{formatDate(post.date, lang)}</span>
  <span aria-hidden="true">·</span>
- <span>{post.readingMinutes} {t('blog.reading')}</span>
+ <span>{post.readingMinutes} {tt('blog.reading')}</span>
  </div>
  <h1 className="font-['Bricolage_Grotesque',_sans-serif] text-3xl sm:text-5xl font-black tracking-tight leading-[1.05] mb-4">
  {post.title}
  </h1>
  {post.author && (
  <p className="text-sm font-bold uppercase tracking-wide text-[#0F0F12]/60">
- {t('blog.by')} {post.author}
+ {tt('blog.by')} {post.author}
  </p>
  )}
  </header>
@@ -66,7 +83,7 @@ export default function BlogPost({ slug, onNavigate }: BlogPostProps) {
 
  <div
  className="blog-prose font-['Space_Grotesk',_sans-serif] text-[17px] leading-relaxed text-[#0F0F12]"
- dangerouslySetInnerHTML={{ __html: post.html }}
+ dangerouslySetInnerHTML={{ __html: localizeBlogLinks(post.html, lang) }}
  />
 
  {post.faq && post.faq.length > 0 && (
