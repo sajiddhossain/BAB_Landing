@@ -2,7 +2,7 @@
 slug: ferro-atlete-adolescenti
 title: "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e che si trova con un esame)"
 date: 2026-07-16
-updated: 2026-07-26
+updated: 2026-08-06
 author: Sajid Hossain
 excerpt: "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli."
 cover: /fotobab/cover-ferro-atlete.jpg
@@ -35,9 +35,9 @@ C'è una domanda che nello sport giovanile femminile quasi nessuno fa: **com'è 
 > - Dal **2026** l'AAP raccomanda emocromo e ferritina in **tutte** le adolescenti, entro i 14 anni (AAP, 2026).
 > - **Prima l'esame, poi eventualmente il ferro.** Mai il contrario.
 
-## Cos'è la carenza di ferro, e perché l'anemia arriva dopo
+## Cos'è la carenza di ferro senza anemia, e perché l'emocromo non la vede?
 
-Il corpo usa il ferro per trasportare l'ossigeno, ma ne tiene anche una scorta. Quando la scorta si assottiglia, l'emoglobina all'inizio **regge**: il valore resta normale, l'esame di routine non segnala nulla, e intanto le riserve si stanno svuotando. È la **carenza di ferro non anemica** — e sul piano dei numeri è la regola, non l'eccezione.
+**Perché l'emoglobina è l'ultima cosa a cedere.** Il corpo usa il ferro per trasportare l'ossigeno, ma ne tiene anche una scorta. Quando la scorta si assottiglia, l'emoglobina all'inizio **regge**: il valore resta normale, l'esame di routine non segnala nulla, e intanto le riserve si stanno svuotando. È la **carenza di ferro non anemica** — e sul piano dei numeri è la regola, non l'eccezione.
 
 Lo si vede bene in uno studio israeliano su **126 atlete di 11-18 anni** che praticavano basket e calcio con almeno cinque allenamenti a settimana. La carenza **lieve** (ferritina ≤30 µg/L) riguardava il **53,2%**, quella **moderata** (≤20) il **27,8%**, quella **severa** (≤10) il **4,8%**. L'**anemia sideropenica**, cioè lo stadio finale, solo il **4%** (Nicotra et al., 2023).
 
@@ -54,9 +54,9 @@ Il messaggio non è "allora non conta". È l'opposto, ed è più forte: **le tue
 - **Un declino nel corso della stagione.** Seguendo 20 podiste liceali per 11 settimane, l'incidenza di carenza a fine stagione era del **45%**, e la ferritina era **scesa in tutte e nove** le atlete monitorate (Rowland et al., 1987). Campione piccolo e studio datato — ma è la direzione a contare.
 - **Una posta più alta.** Chi si allena paga la fatica più cara di chi non si allena.
 
-## Cosa alza davvero il rischio
+## Quali atlete adolescenti sono più a rischio di carenza di ferro?
 
-Lo studio svedese ha il pregio di misurare i fattori nell'età giusta, e restituisce due numeri che un genitore può usare subito. Tra le ragazze con **flusso mestruale abbondante** (il 52,8% del campione) la carenza riguardava il **51,9%**, contro il **26,3%** delle altre: odds **3 volte** più alte. Una **dieta che limita la carne** portava odds **3,5 volte** più alte. E le due cose insieme: **13,5 volte** (IC 95% 6,4-28,7) (Söderman et al., 2025).
+**Quelle con un flusso mestruale abbondante e quelle che limitano la carne — e le due cose insieme moltiplicano il rischio, non lo sommano.** Lo studio svedese ha il pregio di misurare i fattori nell'età giusta, e restituisce due numeri che un genitore può usare subito. Tra le ragazze con **flusso mestruale abbondante** (il 52,8% del campione) la carenza riguardava il **51,9%**, contro il **26,3%** delle altre: odds **3 volte** più alte. Una **dieta che limita la carne** portava odds **3,5 volte** più alte. E le due cose insieme: **13,5 volte** (IC 95% 6,4-28,7) (Söderman et al., 2025).
 
 Un flusso abbondante non è un dettaglio caratteriale né qualcosa da "sopportare": è la prima cosa da nominare. Ed è esattamente il tipo di informazione che [non arriva mai a chi allena](/blog/parlare-di-ciclo-con-allenatore), dove solo l'11% delle atlete parla di ciclo con il proprio allenatore.
 
@@ -66,7 +66,7 @@ Sul versante sportivo esistono meccanismi noti — l'esercizio innalza l'**epcid
 
 È la tentazione più naturale del mondo, ed è quella da evitare. **Non date integratori di ferro senza un esame del sangue.**
 
-Non è prudenza burocratica. È che, senza una carenza documentata, il ferro **non ha benefici dimostrati**, dà con frequenza effetti collaterali gastrointestinali, e soprattutto **maschera** altre cause della stanchezza — che a 14 anni possono essere [il sonno](/blog/sonno-atlete-adolescenti), il carico, la scuola, o [una disponibilità energetica troppo bassa](/blog/red-s-bassa-disponibilita-energetica).
+Non è prudenza burocratica. È che, senza una carenza documentata, il ferro **non ha benefici dimostrati**, dà con frequenza effetti collaterali gastrointestinali, e soprattutto **maschera** altre cause della stanchezza — che a 14 anni possono essere [il sonno](/blog/sonno-atlete-adolescenti), il carico, la scuola, o [una disponibilità energetica troppo bassa](/blog/red-s-bassa-disponibilita-energetica). Vale anche il rovescio: una stanchezza che si trascina può convivere con un infortunio mai chiuso davvero — la [caviglia che continua a cedere](/blog/distorsione-caviglia-giovani-atlete) è l'esempio più frequente nello sport giovanile, e nessuno dei due problemi si risolve con un integratore.
 
 E anche quando la carenza c'è, l'onestà impone di dire che i benefici sono **controversi**. Una revisione di 12 studi su 283 partecipanti ha trovato **6 studi con miglioramento della performance e 6 senza** (Rubeor et al., 2018). Gli autori notano che i sei positivi usavano tutti una soglia di trattamento di ferritina ≤20 µg/L: sotto quella soglia, integrare sembra avere più senso. L'unico trial condotto proprio su atlete adolescenti — 14 podiste con ferritina sotto 20, in doppio cieco — ha mostrato un miglioramento significativo del tempo di endurance, senza differenze nel VO2max (Rowland et al., 1988). Quattordici partecipanti, nel 1988: è la miglior evidenza sull'età giusta che abbiamo, ed è poca.
 

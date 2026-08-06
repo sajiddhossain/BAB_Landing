@@ -107,3 +107,16 @@
   Scelta del soggetto: due manubri leggeri appoggiati per terra, senza sala pesi e senza corpi —
   la forza come attrezzo accessibile, non come contesto intimidatorio.
   NB: scartate le varianti con rastrelliera di manubri perché mostrano un marchio commerciale leggibile.
+
+## cover-caviglia-giovani-atlete.jpg
+- Titolo originale: "Closeup indoor sport hall"
+- Fonte: rawpixel — https://www.rawpixel.com/image/6031925/photo-image-public-domain-green-lines (reperita via Openverse)
+- Autore: non indicato (collezione public domain di rawpixel)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria), come indicizzata da Openverse
+- Uso: cover articolo blog "distorsione di caviglia nelle giovani atlete" (IT + EN)
+- Lavorazione: rendition `editor_1024` (senza filigrana; originale 4515x3299), ritaglio 16:9 a 1024x576 con
+  offset y=116 per rendere dominanti le linee di campo, JPEG q85 progressivo.
+  NB: le rendition più grandi di rawpixel sono filigranate → usare `editor_1024`.
+  Nessuna persona ritratta e nessun marchio leggibile: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: il pavimento di una palestra polivalente con le linee dei campi sovrapposte —
+  la superficie su cui si atterra, cioè il punto esatto in cui la caviglia cede.

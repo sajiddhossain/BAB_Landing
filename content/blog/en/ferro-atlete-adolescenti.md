@@ -2,7 +2,7 @@
 slug: ferro-atlete-adolescenti
 title: "Low iron in teenage athletes: the deficiency nobody looks for (and a blood test finds)"
 date: 2026-07-16
-updated: 2026-07-26
+updated: 2026-08-06
 author: Sajid Hossain
 excerpt: "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone."
 cover: /fotobab/cover-ferro-atlete.jpg
@@ -35,9 +35,9 @@ There's a question almost nobody asks in youth women's sport: **how is your athl
 > - Since **2026** the AAP recommends a blood count and ferritin in **every** adolescent, by age 14 (AAP, 2026).
 > - **Test first, iron second.** Never the other way round.
 
-## What iron deficiency is, and why anaemia comes later
+## What is iron deficiency without anaemia, and why doesn't a full blood count show it?
 
-The body uses iron to carry oxygen, but it also keeps a reserve. As that reserve thins out, haemoglobin **holds**: the value stays normal, the routine test flags nothing, and meanwhile the stores are emptying. This is **non-anaemic iron deficiency** — and in numerical terms it's the rule, not the exception.
+**Because haemoglobin is the last thing to give way.** The body uses iron to carry oxygen, but it also keeps a reserve. As that reserve thins out, haemoglobin **holds**: the value stays normal, the routine test flags nothing, and meanwhile the stores are emptying. This is **non-anaemic iron deficiency** — and in numerical terms it's the rule, not the exception.
 
 You can see it clearly in an Israeli study of **126 female athletes aged 11-18** playing basketball and football with at least five training sessions a week. **Mild** deficiency (ferritin ≤30 µg/L) affected **53.2%**, **moderate** (≤20) **27.8%**, **severe** (≤10) **4.8%**. **Iron-deficiency anaemia** — the end stage — just **4%** (Nicotra et al., 2023).
 
@@ -54,9 +54,9 @@ The message isn't "so it doesn't matter". It's the opposite, and it's stronger: 
 - **A decline across the season.** Following 20 high-school cross-country runners for 11 weeks, the incidence of deficiency by season's end was **45%**, and ferritin had **fallen in all nine** athletes tracked (Rowland et al., 1987). Small sample, old study — but the direction is what counts.
 - **Higher stakes.** If you train, fatigue costs you more than it costs someone who doesn't.
 
-## What actually raises the risk
+## Which adolescent athletes are most at risk of iron deficiency?
 
-The Swedish study has the merit of measuring the factors at the right age, and it yields two numbers a parent can use today. Among girls with **heavy menstrual bleeding** (52.8% of the sample) deficiency affected **51.9%**, against **26.3%** of the rest: odds **3 times** higher. A **meat-restricted diet** carried odds **3.5 times** higher. And the two together: **13.5 times** (95% CI 6.4-28.7) (Söderman et al., 2025).
+**Those with heavy menstrual bleeding and those restricting meat — and the two together multiply the risk rather than adding to it.** The Swedish study has the merit of measuring the factors at the right age, and it yields two numbers a parent can use today. Among girls with **heavy menstrual bleeding** (52.8% of the sample) deficiency affected **51.9%**, against **26.3%** of the rest: odds **3 times** higher. A **meat-restricted diet** carried odds **3.5 times** higher. And the two together: **13.5 times** (95% CI 6.4-28.7) (Söderman et al., 2025).
 
 A heavy flow isn't a personality trait or something to "put up with": it's the first thing to name. And it's exactly the kind of information that [never reaches the coach](/blog/parlare-di-ciclo-con-allenatore), where only 11% of athletes discuss their cycle with the person coaching them.
 
@@ -66,7 +66,7 @@ On the sporting side there are known mechanisms — exercise raises **hepcidin**
 
 It's the most natural temptation in the world, and it's the one to resist. **Don't give iron supplements without a blood test.**
 
-This isn't box-ticking. Without documented deficiency, iron has **no demonstrated benefit**, frequently causes gastrointestinal side effects, and above all **masks** other causes of fatigue — which at 14 might be [sleep](/blog/sonno-atlete-adolescenti), training load, school, or [energy availability that's too low](/blog/red-s-bassa-disponibilita-energetica).
+This isn't box-ticking. Without documented deficiency, iron has **no demonstrated benefit**, frequently causes gastrointestinal side effects, and above all **masks** other causes of fatigue — which at 14 might be [sleep](/blog/sonno-atlete-adolescenti), training load, school, or [energy availability that's too low](/blog/red-s-bassa-disponibilita-energetica). The reverse holds too: lingering fatigue can sit alongside an injury that was never properly closed — an [ankle that keeps giving way](/blog/distorsione-caviglia-giovani-atlete) is the most common example in youth sport, and neither problem is solved by a supplement.
 
 And even where deficiency exists, honesty requires saying the benefits are **contested**. A review of 12 studies across 283 participants found **6 studies showing improved performance and 6 showing none** (Rubeor et al., 2018). The authors note that all six positive studies used a treatment threshold of ferritin ≤20 µg/L: below that line, supplementing appears to make more sense. The only trial run specifically on adolescent female athletes — 14 runners with ferritin under 20, double-blind — showed a significant improvement in treadmill endurance time, with no difference in VO2max (Rowland et al., 1988). Fourteen participants, in 1988: it's the best evidence at the right age we have, and it isn't much.
 
