@@ -17,6 +17,7 @@ import BabLogo from './components/BabLogo';
 import FlagIcon, { type FlagLang } from './components/FlagIcon';
 import { COACH_ENABLED, APP_ENABLED } from './lib/flags';
 import { SUPPORTED_LNGS } from './i18n';
+import { blogLangFromPath, blogPath } from './lib/blogLocale';
 import type { UserType } from './lib/leads';
 
 // Route Components — Home eager (LCP della landing), il resto code-split per route
@@ -36,7 +37,9 @@ const WaitlistModal = lazy(() => import('./components/WaitlistModal'));
 // delle rotte funziona anche quando l'hosting serve la pagina con trailing slash.
 const normalizePath = (p: string): string => {
   const clean = p.replace(/\/+$/, '');
-  return clean === '' ? '/' : clean;
+  if (clean === '') return '/';
+  // /en esiste solo come prefisso di lingua del blog: da solo vale il suo indice.
+  return clean === '/en' ? '/en/blog' : clean;
 };
 
 // Fallback minimale durante il caricamento del chunk di route
@@ -85,6 +88,14 @@ export default function App() {
   useEffect(() => {
     initWebAnalytics();
   }, []);
+
+  // Allinea la barra degli indirizzi quando il path è stato normalizzato (es. /en):
+  // solo replaceState, nessun cambio di stato — la rotta è già quella giusta.
+  useEffect(() => {
+    if (window.location.pathname.replace(/\/+$/, '') !== currentPath && currentPath !== '/') {
+      window.history.replaceState({}, '', currentPath);
+    }
+  }, [currentPath]);
 
   // /coach e /app temporaneamente nascosti: se qualcuno ci arriva, correggi l'URL a "/".
   useEffect(() => {
@@ -144,19 +155,29 @@ export default function App() {
       '/about': 'about', '/privacy': 'privacy', '/cookie': 'cookie', '/termini': 'termini',
       '/blog': 'blog',
     };
-    // Gli articoli (/blog/:slug) usano i meta SEO del blog lato client; il crawler
-    // riceve comunque title/desc per-articolo dalla pagina statica prerenderizzata.
-    const isBlogRoute = currentPath === '/blog' || currentPath.startsWith('/blog/');
+    const isBlogRoute = /^\/(en\/)?blog(\/|$)/.test(currentPath);
+    const isBlogArticle = /^\/(en\/)?blog\/.+/.test(currentPath);
     const isUnknown = !(currentPath in map) && !isBlogRoute;
-    const key = isBlogRoute ? 'blog' : (map[currentPath] ?? 'home');
-    document.title = isUnknown ? `${t('notFound.title')} — BAB` : t(`seo.${key}.title`);
+    // Sul blog la lingua è nell'URL: title, description e <html lang> devono seguire
+    // l'URL e non la preferenza del browser, altrimenti la pagina renderizzata
+    // contraddice il canonical e l'hreflang della versione statica.
+    const urlLang = blogLangFromPath(currentPath);
+    const tt = isBlogRoute ? i18n.getFixedT(urlLang) : t;
+    if (isBlogRoute) document.documentElement.lang = urlLang;
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement('meta');
       meta.setAttribute('name', 'description');
       document.head.appendChild(meta);
     }
-    meta.setAttribute('content', isUnknown ? t('notFound.body') : t(`seo.${key}.desc`));
+    // Gli articoli hanno title e description propri: li imposta BlogPost dal manifest,
+    // così non sovrascriviamo con quelli generici della lista quelli — molto migliori —
+    // già presenti nella pagina statica prerenderizzata.
+    if (!isBlogArticle) {
+      const key = isBlogRoute ? 'blog' : (map[currentPath] ?? 'home');
+      document.title = isUnknown ? `${t('notFound.title')} — BAB` : tt(`seo.${key}.title`);
+      meta.setAttribute('content', isUnknown ? t('notFound.body') : tt(`seo.${key}.desc`));
+    }
 
     // 404: chiedi ai crawler di non indicizzare la pagina (soft-404 pulito)
     let robots = document.querySelector('meta[name="robots"]');
@@ -170,7 +191,7 @@ export default function App() {
     } else if (robots) {
       robots.remove();
     }
-  }, [currentPath, t, i18n.language]);
+  }, [currentPath, t, i18n]);
 
   // Menu mobile fullscreen: Escape per chiudere + focus-trap + ritorno del focus
   // al pulsante hamburger alla chiusura (a11y, senso di "controllo").
@@ -263,9 +284,16 @@ export default function App() {
     { path: '/about', label: t('nav.about') },
   ].filter((l) => (COACH_ENABLED || l.path !== '/coach') && (APP_ENABLED || l.path !== '/app'));
 
-  // Blog: lista su /blog, articolo su /blog/:slug (lo slug è validato da BlogPost)
-  const isBlogList = currentPath === '/blog';
-  const blogSlug = currentPath.startsWith('/blog/') ? decodeURIComponent(currentPath.slice('/blog/'.length)) : null;
+  // Blog: lista su /blog (IT) e /en/blog (EN), articolo su <prefisso>/blog/:slug
+  // (lo slug è validato da BlogPost). È l'URL a determinare la lingua dell'articolo,
+  // non la preferenza del browser: così il contenuto renderizzato non contraddice mai
+  // il canonical della pagina statica, che è ciò che i motori indicizzano.
+  const blogLang = blogLangFromPath(currentPath);
+  const blogBase = blogPath(blogLang);
+  const isBlogList = currentPath === blogBase;
+  const blogSlug = currentPath.startsWith(`${blogBase}/`)
+    ? decodeURIComponent(currentPath.slice(blogBase.length + 1))
+    : null;
   const isBlogRoute = isBlogList || blogSlug !== null;
 
   // Route sconosciuta → pagina 404 in-brand (non un finto rendering della Home)
@@ -334,6 +362,8 @@ export default function App() {
                       key={lng}
                       onClick={() => {
                         i18n.changeLanguage(lng);
+                        // Sul blog la lingua è nell'URL: cambiarla è una navigazione.
+                        if (isBlogRoute) navigate(blogPath(lng, blogSlug ?? undefined));
                         setIsLangDropdownOpen(false);
                       }}
                       className="w-11 h-11 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 hover:scale-110 transition-transform opacity-80 hover:opacity-100 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] focus-visible:opacity-100"
@@ -418,7 +448,10 @@ export default function App() {
                     return (
                       <button
                         key={lng}
-                        onClick={() => i18n.changeLanguage(lng)}
+                        onClick={() => {
+                          i18n.changeLanguage(lng);
+                          if (isBlogRoute) navigate(blogPath(lng, blogSlug ?? undefined));
+                        }}
                         aria-label={lng.toUpperCase()}
                         aria-pressed={active}
                         className={`w-11 h-11 rounded-full overflow-hidden border-[3px] border-black active:translate-y-1 transition-transform focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#0F0F12] ${active ? 'shadow-[4px_4px_0_0_#0F0F12] scale-110' : 'opacity-60'}`}
@@ -438,8 +471,8 @@ export default function App() {
         <Suspense fallback={<RouteFallback />}>
           <AnimatePresence mode="wait">
             {isNotFound && <NotFound key="404" onNavigate={navigate} />}
-            {isBlogList && <Blog key="blog" />}
-            {blogSlug && <BlogPost key={`blog-${blogSlug}`} slug={blogSlug} onNavigate={navigate} />}
+            {isBlogList && <Blog key={`blog-${blogLang}`} lang={blogLang} />}
+            {blogSlug && <BlogPost key={`blog-${blogLang}-${blogSlug}`} slug={blogSlug} onNavigate={navigate} lang={blogLang} />}
             {activePath === '/' && <Home key="home" onOpenWaitlist={openWaitlist} onNavigate={navigate} />}
             {APP_ENABLED && activePath === '/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
             {COACH_ENABLED && activePath === '/coach' && <CoachDashboard key="coach" />}
