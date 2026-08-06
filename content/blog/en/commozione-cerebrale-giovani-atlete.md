@@ -2,9 +2,9 @@
 slug: commozione-cerebrale-giovani-atlete
 title: "Concussion in young female athletes: more common, less often spotted (and what to do in the first minutes)"
 date: 2026-07-24
-updated: 2026-07-24
+updated: 2026-08-06
 author: Sajid Hossain
-excerpt: "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22. The data, the sideline signs, and what the international guidelines actually say."
+excerpt: "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22 — and 60% of events are never reported to any adult. Neither a visible blow to the head nor loss of consciousness is required: the data, the sideline signs in the first minutes, and what the international guidelines actually say."
 cover: /fotobab/cover-commozione-cerebrale.jpg
 coverAlt: "A football resting on the touchline of an empty grass pitch, with the goal and low sun in the background"
 tags:
@@ -24,6 +24,12 @@ faq:
     a: "The honest answer is: it depends what you control for. In high school soccer, boys returned a median 2 days sooner (10 days versus 12) (Bretzin et al., 2021). But a study of 5,216 post-injury evaluations found no effect of sex on time to recovery once initial concussion severity was accounted for (HR 0.94; 95% CI 0.78-1.12) (Hannah et al., 2021), and the Amsterdam consensus reports that similar return-to-learn and return-to-sport strategies can be applied across cohorts with minimal differences in recovery time (Patricios et al., 2023). Rather than recovering worse, the data suggest girls often start from a worse position: they come off the field later."
   - q: "How long before an athlete can play again?"
     a: "The Amsterdam consensus reports an estimated pooled mean of about 19.8 days (95% CI 18.8-20.7; 57 studies) to unrestricted return to sport across children, adolescents and adults, noting that clinicians and athletes can expect a minimum of one week to complete the progression and that typical unrestricted return can take up to a month post-injury (Patricios et al., 2023). Full return to learn should be completed before unrestricted return to sport, and the final clearance is a healthcare professional's call — not the coach's and not the family's."
+  - q: "Does someone have to lose consciousness for it to be a concussion?"
+    a: "No, and this is one of the most widespread sideline misunderstandings. The Amsterdam 2022 international consensus defines concussion as a traumatic brain injury induced by biomechanical forces: it requires neither loss of consciousness nor even a visible blow to the head — the force can be transmitted to the head from an impact elsewhere in the body (Patricios et al., 2023). Waiting for an athlete to \"black out\" before taking the episode seriously means not taking most cases seriously."
+  - q: "How many concussions are never reported to anyone?"
+    a: "A very high proportion. In a preliminary study of 167 high school athletes of both sexes (mean age 15.7), 60% of the events athletes recalled had not been reported to a responsible adult; for hits perceived as minor (so-called \"bell-ringers\") the non-reporting share rose to 87% (Register-Mihalik et al., 2013). That is why a club cannot build its safety on self-reporting: an adult has to observe and decide."
+  - q: "Were the concussion guidelines built on female athletes too?"
+    a: "Only partly, and it is worth knowing. An evidence review of the research behind the three most influential consensus statements on sport-related concussion examined the 171 studies cited: samples are 80.1% male, and 40.4% of studies include no female athletes at all (D'Lauro et al., 2022). This does not mean the recommendations are wrong — it means that on differences specific to girls, the evidence is thinner than the confidence of the language suggests."
 ---
 
 Nothing in a club's calendar matters more than the thirty seconds after a blow to the head. A collision, a ball taken badly, a fall on landing: the athlete gets up, says "I'm fine", and play restarts. Far more is decided in those thirty seconds than it seems — and the data say that, for girls, that decision goes wrong more often.
@@ -128,6 +134,8 @@ None of these is a medical prescription. They are organisational decisions, at z
 - **Don't leave the decision to the athlete.** At 14, in front of a teammate, with the coach watching, "I'm fine" is not clinical data: it's a social answer.
 - **Know who to call.** Return to play is authorised by a healthcare professional. Having one lined up *before* the injury is half the work.
 - **Treat return to school as part of recovery.** Full academic load first, unrestricted play second — not the other way round.
+
+The logic is the same one that applies to injuries that are far more frequent and far less dramatic: what decides the outcome is not the severity of the hit, but whether somebody watches and writes it down. It holds for the [ACL](/blog/crociato-giovani-atlete) and it holds, almost as a mirror image, for the [ankle sprain](/blog/distorsione-caviglia-giovani-atlete) — the most common injury in youth female athletes, and the one nobody records because "it's nothing".
 
 ## Where BAB fits
 

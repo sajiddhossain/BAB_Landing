@@ -2,14 +2,15 @@
 slug: sonno-atlete-adolescenti
 title: "Sonno e atlete adolescenti: perché 8 ore non sono un lusso (e la pubertà le rende più difficili)"
 date: 2026-07-18
-updated: 2026-07-26
+updated: 2026-08-06
 author: Sajid Hossain
-excerpt: "Quante ore deve dormire un'atleta di 14 anni? Tra 8 e 10, dice la raccomandazione di consenso per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato, e con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2% — contro il 4,3%-9,1% dei ragazzi. Cosa dicono davvero i dati, cosa non dicono, e cosa può cambiare una società sportiva già da lunedì."
+excerpt: "Quante ore deve dormire un'atleta di 14 anni? Tra 8 e 10, dice la raccomandazione di consenso per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato, e con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2% — contro il 4,3%-9,1% dei ragazzi, perché l'orologio biologico slitta in avanti mentre la sveglia della scuola resta la stessa. Cosa dicono davvero i dati, cosa non dicono, e cosa può cambiare una società sportiva già da lunedì."
 cover: /fotobab/cover-sonno-atlete.jpg
-coverAlt: "Camera da letto luminosa e ordinata all'alba, con letto disfatto, lampada da comodino accesa e luce naturale dalla finestra"
+coverAlt: "Camera da letto luminosa e ordinata all'alba, con letto disfatto e coperte scomposte, lampada da comodino accesa e luce naturale che entra dalla finestra; nessuna persona inquadrata"
 tags:
   - sonno
-  - salute
+  - ritmo-circadiano
+  - tanner
   - pubertà
 faq:
   - q: "Quante ore dovrebbe dormire un'atleta di 14 anni?"
@@ -80,15 +81,27 @@ Ma quel campione è **adulto, maschile e minuscolo**. Presentare quei numeri com
 
 Vale la pena ricordare che il problema è strutturale: solo il **6% degli studi** in scienze dello sport è condotto esclusivamente su donne ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). Il sonno delle giovani atlete è uno dei tanti angoli ciechi.
 
-## Cosa si può fare, concretamente
+## Cosa può fare una società sportiva per il sonno delle atlete?
 
-Nessuna di queste è una prescrizione medica. Sono scelte organizzative che spostano le ore dove servono:
+**Spostare gli orari, non chiedere più disciplina.** Le tre leve che una società ha davvero in mano sono l'ora in cui finisce l'allenamento, la regolarità della sveglia nel weekend e il fatto che qualcuno chieda come si è dormito. Nessuna richiede un professionista sanitario; tutte agiscono sul conflitto tra biologia e calendario che i dati sopra descrivono.
+
+**Punti chiave**
+
+- Il riferimento è **8-10 ore per notte** tra i 13 e i 18 anni, atlete comprese (Paruthi et al., 2016).
+- Il bisogno di sonno **non cala** in pubertà: slitta l'orario in cui il corpo riesce ad addormentarsi (Carskadon, 2011).
+- Il divario tra ragazze e ragazzi **si apre con gli stadi puberali**, non con l'età anagrafica (Zhang et al., 2016).
+- Dormire meno di 8 ore è **associato** a più infortuni negli atleti adolescenti — associazione, non causa dimostrata (Milewski et al., 2014).
+- Le prove sul sonno che *migliora la prestazione* vengono in larga parte da **adulti maschi**: non valgono automaticamente a 14 anni (Mah et al., 2011).
+
+Nessuna delle azioni qui sotto è una prescrizione medica. Sono scelte organizzative che spostano le ore dove servono:
 
 - **La società**: guardare gli orari degli allenamenti come una variabile di salute, non solo logistica. Un allenamento che finisce alle 22:00 tre volte a settimana costruisce debito di sonno per tutta la squadra.
 - **L'allenatore/allenatrice**: chiedere "come avete dormito questa settimana?" con la stessa naturalezza con cui si chiede dei carichi. E leggere la stanchezza diffusa come informazione, non come scarso impegno.
 - **La famiglia**: proteggere la regolarità più della quantità di una singola notte. Un orario di sveglia stabile anche nel weekend riduce lo sfasamento del ritmo circadiano.
 - **L'atleta**: notare gli schemi. Non "ho dormito male ieri", ma "nelle settimane con tre allenamenti serali dormo sistematicamente meno".
 - **Tutti**: se difficoltà ad addormentarsi o sonno non ristoratore persistono per settimane, parlarne con il pediatra o il medico dello sport. Il sonno cronicamente disturbato non è un tratto caratteriale.
+
+Il sonno è anche il punto in cui questo tema incrocia gli altri: il recupero insufficiente pesa sulla [gestione del carico](/blog/specializzazione-precoce-giovani-atlete), e negli infortuni più frequenti dello sport giovanile — a partire dalla [distorsione di caviglia](/blog/distorsione-caviglia-giovani-atlete) — la costanza della prevenzione dipende da quanto una squadra riesce davvero a sostenere una routine settimanale. Sul versante opposto, ciò che si costruisce dormendo è lo stesso che si costruisce allenando [la forza](/blog/forza-ragazze-adolescenti): adattamento, non prestazione immediata.
 
 ## Il ruolo di BAB
 

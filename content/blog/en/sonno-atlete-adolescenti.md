@@ -2,14 +2,16 @@
 slug: sonno-atlete-adolescenti
 title: "Sleep and teenage athletes: why 8 hours isn't a luxury (and puberty makes them harder to get)"
 date: 2026-07-18
-updated: 2026-07-26
+updated: 2026-08-06
 author: Sajid Hossain
-excerpt: "How many hours should a 14-year-old athlete sleep? Between 8 and 10, says the consensus recommendation for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured, and through puberty insomnia symptoms in girls climb from 3.4% to 12.2% — against 4.3%-9.1% in boys. What the evidence says, what it does not, and what a club can change from Monday."
+excerpt: "How many hours should a 14-year-old athlete sleep? Between 8 and 10, says the consensus recommendation for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured, and through puberty insomnia symptoms in girls climb from 3.4% to 12.2% — against 4.3%-9.1% in boys, because the body clock shifts later while the school alarm stays put. What the evidence says, what it does not, and what a club can change from Monday."
 cover: /fotobab/cover-sonno-atlete.jpg
-coverAlt: "A bright, tidy bedroom at dawn, with an unmade bed, a lit bedside lamp and natural light from the window"
+coverAlt: "A bright, tidy bedroom at dawn, with an unmade bed and rumpled covers, a lit bedside lamp and natural light coming through the window; no people in frame"
 tags:
   - sleep
-  - health
+  - circadian-rhythm
+  - tanner-stages
+  - puberty
   - puberty
 faq:
   - q: "How many hours should a 14-year-old athlete sleep?"
@@ -80,15 +82,27 @@ But that sample is **adult, male and tiny**. Presenting those numbers as valid f
 
 It's worth remembering the problem is structural: only **6% of studies** in sport and exercise science are conducted exclusively on women ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). The sleep of young female athletes is one of many blind spots.
 
-## What can actually be done
+## What can a club actually do about athletes' sleep?
 
-None of these is medical advice. They're organisational choices that move hours to where they're needed:
+**Move the schedule, don't ask for more discipline.** The three levers a club really holds are when training ends, how stable wake times stay at weekends, and whether anyone asks how the squad has slept. None of them requires a healthcare professional; all of them act on the conflict between biology and calendar the data above describe.
+
+**Key points**
+
+- The reference figure is **8-10 hours a night** between 13 and 18, athletes included (Paruthi et al., 2016).
+- Sleep need does **not** fall at puberty: what shifts is the time the body can fall asleep (Carskadon, 2011).
+- The gap between girls and boys **opens with pubertal stage**, not chronological age (Zhang et al., 2016).
+- Sleeping under 8 hours is **associated** with more injuries in adolescent athletes — association, not demonstrated cause (Milewski et al., 2014).
+- Evidence that sleep *improves performance* comes largely from **adult males**: it does not automatically hold at 14 (Mah et al., 2011).
+
+None of the actions below is medical advice. They're organisational choices that move hours to where they're needed:
 
 - **The club**: treat training times as a health variable, not just logistics. Sessions ending at 10pm three times a week build sleep debt across the whole squad.
 - **The coach**: ask "how have you been sleeping this week?" as naturally as you'd ask about training load. And read widespread tiredness as information, not as lack of commitment.
 - **The family**: protect regularity more than the length of any single night. A stable wake time, weekends included, reduces circadian misalignment.
 - **The athlete**: notice patterns. Not "I slept badly last night", but "in weeks with three evening sessions I consistently sleep less".
 - **Everyone**: if difficulty falling asleep or unrefreshing sleep persists for weeks, raise it with a paediatrician or sports physician. Chronically disturbed sleep is not a personality trait.
+
+Sleep is also where this topic meets the others: insufficient recovery weighs on [load management](/blog/specializzazione-precoce-giovani-atlete), and in the most common youth sport injuries — starting with the [ankle sprain](/blog/distorsione-caviglia-giovani-atlete) — the consistency of prevention depends on how well a squad can actually sustain a weekly routine. On the other side, what gets built while sleeping is what gets built while training [strength](/blog/forza-ragazze-adolescenti): adaptation, not immediate performance.
 
 ## BAB's role
 
