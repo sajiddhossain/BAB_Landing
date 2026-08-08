@@ -2,7 +2,7 @@
 slug: perdite-urina-giovani-atlete
 title: "I leak when I jump: the symptom almost no young athlete talks about"
 date: 2026-07-22
-updated: 2026-07-30
+updated: 2026-08-08
 author: Sajid Hossain
 excerpt: "Leaking urine when jumping or landing affects on average 48.6% of adolescent female athletes, and 80% in trampolining. Yet 87% say they would not mention it to their coach. It is common, but common does not mean normal: what the data say about girls aged 13-17, why it is not their fault, and what a club can do without medicalising anything."
 cover: /fotobab/cover-pavimento-pelvico.jpg
@@ -47,9 +47,9 @@ An independent dataset, collected in a completely different setting, points the 
 
 Two different populations, two different methods, the same conclusion: this is not an isolated case, it is a widespread condition in an age group where nobody names it.
 
-## Why "common" does not mean "normal"
+## If it happens to nearly one in two, is it normal?
 
-This is the confusion that does the most damage, and the two ideas are worth separating.
+**No: it is common, which is a different thing. "Common in a population under a specific load" does not mean "expected physiological function".** This is the confusion that does the most damage, and the two ideas are worth separating.
 
 The pelvic floor is the group of muscles that supports the bladder and pelvic organs and takes part in the continence mechanism; when the load it receives exceeds its capacity to respond — as happens in repeated impact movements — leakage can appear. That is the picture described in the literature underlying the reviews cited here. But the fact that the phenomenon is **statistically common** among athletes does not make it an expected physiological function: it makes it a **frequent symptom in a population under a specific load**. Those are two different things, and treating them as one is exactly what leads a fourteen-year-old to conclude there is nothing to say.
 
@@ -72,9 +72,9 @@ It is the same mechanism we have seen elsewhere: a withdrawal nobody records as 
 
 These are elite athletes with technical staff around them, at an international championship. It is the same information vacuum measured on other topics of a changing body, from [iron](/blog/ferro-atlete-adolescenti) to [sleep](/blog/sonno-atlete-adolescenti). If the screening rate is 12% there, it is reasonable to expect it to be closer to zero at a local club. And as with [the menstrual cycle and the coach](/blog/parlare-di-ciclo-con-allenatore), the silence is not girls being coy: it is the absence of a context in which the subject exists at all.
 
-## What the evidence says about what to do (and what it does not say)
+## Can anything be done? What the evidence says (and what it does not)
 
-Precision matters here, because this is a health topic involving minors.
+**Yes: pelvic floor rehabilitation improved symptoms in five studies out of six — but those six studies are in adult athletes, and that has to be said rather than hidden.** Precision matters here, because this is a health topic involving minors.
 
 A systematic review analysed **six studies on 131 female athletes** who followed pelvic floor rehabilitation programmes — muscle training, biofeedback, other techniques — lasting **between 8 weeks and 4 months**. **Five of the six studies** showed symptom improvement; in one of them **64%** of the training group reported improved symptoms versus **8%** of the control group ([Demeco et al., 2024](https://doi.org/10.3390/sports12120338)).
 

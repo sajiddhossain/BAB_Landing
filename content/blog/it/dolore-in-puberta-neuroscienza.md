@@ -2,7 +2,7 @@
 slug: dolore-in-puberta-neuroscienza
 title: "Il dolore cambia in pubertà: cosa dice la neuroscienza (e perché non sono 'scuse')"
 date: 2026-07-11
-updated: 2026-07-30
+updated: 2026-08-08
 author: Sajid Hossain
 excerpt: "In pubertà il dolore clinico aumenta davvero: il dolore addominale sale a quasi il 30% nelle ragazze contro il 16% nei ragazzi, e il dolore mestruale riguarda il 71,1% delle giovani donne — il 20,1% salta scuola per questo. Non è fragilità né teatro: è una fase dello sviluppo documentata dalle neuroscienze. Cosa succede a 13-14 anni, come distinguere un dolore da osservare da uno da far vedere a un medico, e perché conta per chi allena e per chi cresce una figlia."
 cover: /fotobab/cover-dolore-puberta.jpg
@@ -20,6 +20,8 @@ faq:
     a: "Perché è proprio la finestra in cui il dolore cambia e le differenze tra i sessi si formano. Registrare intensità e ricorrenza nel tempo trasforma un sintomo isolato in uno schema leggibile — utile per capirsi e per parlarne con chi di dovere. Monitorare, però, non significa diagnosticare: uno strumento come BAB aiuta a riconoscere i segnali, non sostituisce un professionista."
   - q: "Quanto è diffuso il dolore mestruale, e quanto pesa davvero?"
     a: "Molto, e più di quanto si ammetta. Una meta-analisi di 38 studi su 21.573 giovani donne sotto i 25 anni ha stimato una prevalenza di dismenorrea del 71,1% (IC 95% 66,6-75,2), che tra le studentesse in età scolare è del 72,5%. L'impatto è misurabile: il 20,1% riferisce di aver saltato scuola o università a causa del dolore mestruale e il 40,9% dichiara che concentrazione e rendimento in classe ne risentono (Armour et al., 2019). Se toglie ore di scuola, è ragionevole aspettarsi che tolga anche allenamenti."
+  - q: "Il mal di schiena di un'atleta adolescente si spiega con la pubertà?"
+    a: "Non da solo, e questa è una distinzione importante. Il dolore alla schiena compare tra i dolori associati al menarca precoce negli studi di popolazione (Nahman-Averbuch et al., 2023), e nello sport giovanile la lombalgia è comune: prevalenza stimata del 42% negli ultimi 12 mesi tra atleti di 10-19 anni, con il sesso femminile tra i fattori di rischio riportati (Wall et al., 2022). Ma un mal di schiena che dura da settimane in un'atleta di 13-14 anni ha una causa strutturale specifica molto più spesso che in un adulto: nel confronto diretto tra 100 adolescenti sportivi e 100 adulti, la frattura da stress dell'istmo vertebrale spiegava il 47% dei casi contro il 5% (Micheli e Wood, 1995 — campione di clinica specialistica, quindi selezionato). Attribuirlo alla pubertà senza farlo guardare è la scorciatoia da evitare."
   - q: "Come si distingue un dolore da osservare da uno da far vedere a un medico?"
     a: "Non lo si distingue da soli, e questo articolo non serve a farlo. Alcuni elementi però indicano che è il momento di rivolgersi a un professionista sanitario invece di limitarsi a osservare: un dolore molto intenso, un dolore che non risponde alle misure abituali, un dolore che si ripresenta facendo saltare regolarmente scuola o allenamenti, oppure un dolore nuovo e diverso dal solito. Annotare intensità e ricorrenza serve proprio a questo: arrivare dal medico con una descrizione precisa invece che con un ricordo approssimativo."
 ---
@@ -57,6 +59,16 @@ Non è un tratto caratteriale né un dato di "fragilità": è un cambiamento del
 **Nei dati di popolazione sì: chi ha il primo ciclo prima riferisce più mal di testa, dolore addominale e dolore alla schiena, in adolescenza e da adulta.** C'è un altro filo che la review mette in evidenza, e che si parla pochissimo: il **timing del menarca**. Diversi studi di popolazione molto ampi — tra cui il norvegese HUNT e i dati HBSC su quasi **300.000 ragazze** — trovano che un **menarca precoce è associato a una maggiore prevalenza di mal di testa, dolore addominale e dolore alla schiena**, sia in adolescenza sia in età adulta.
 
 In parallelo, le **sindromi dolorose specifiche del corpo femminile** — dismenorrea, endometriosi — compaiono proprio intorno al menarca, e possono aumentare il rischio di altre sindromi dolorose croniche in seguito. Tradotto: il dolore mestruale precoce non è un episodio isolato da minimizzare, ma un segnale che vale la pena osservare nel tempo.
+
+## E il mal di schiena? Rientra in questo quadro o è un'altra cosa?
+
+**Rientra nel quadro come frequenza, ma non va spiegato solo con la pubertà: in una giovane atleta il mal di schiena può avere una causa strutturale precisa, e va guardato.** È una distinzione che conta, perché è esattamente il punto in cui "il dolore cambia in pubertà" rischia di diventare una scorciatoia per non indagare.
+
+Da un lato, il dolore alla schiena compare tra i dolori associati al menarca precoce nella stessa review sulle alterazioni del dolore in adolescenza ([Nahman-Averbuch et al., 2023](https://doi.org/10.1016/j.tins.2023.01.006)). Dall'altro, nello sport giovanile è comunque comune di per sé: in una revisione sistematica con meta-analisi di 80 studi su atleti di **10-19 anni**, la prevalenza stimata di lombalgia negli ultimi 12 mesi è del **42%** (IC 95% 29-55%), e tra i fattori di rischio riportati compare anche il **sesso femminile** ([Wall et al., 2022, *BJSM*](https://doi.org/10.1136/bjsports-2021-104749)).
+
+La differenza pratica è questa: un dolore addominale ricorrente in pubertà ha spesso una spiegazione fisiologica di sviluppo; un **mal di schiena che dura da settimane in un'atleta di 13-14 anni**, invece, ha una causa strutturale specifica molto più spesso che in un adulto — nel confronto diretto tra 100 adolescenti sportivi e 100 adulti, la frattura da stress dell'istmo vertebrale spiegava il **47% dei casi contro il 5%** ([Micheli e Wood, 1995](https://doi.org/10.1001/archpedi.1995.02170130017004)). Ne abbiamo scritto nel dettaglio, limiti dei dati compresi, nell'articolo su [mal di schiena e giovani atlete](/blog/mal-di-schiena-giovani-atlete).
+
+Il principio generale resta quello di tutto questo articolo: **prendere sul serio il dolore non significa attribuirlo automaticamente alla pubertà.** Significa registrarlo e, quando dura o cambia, farlo guardare.
 
 ## Quanto è diffuso il dolore mestruale, e quanto costa davvero?
 
@@ -99,5 +111,7 @@ Non è uno strumento diagnostico e non pretende di esserlo: serve a **riconoscer
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studi, 33 Paesi, adolescenti 10-18 anni) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
 - Findlay R.J., Macrae E.H.R., Whyte I.Y., Easton C., Forrest L.J. **How the menstrual cycle and menstruation affect sporting performance: experiences of elite female rugby players.** *British Journal of Sports Medicine*, 2020;54(18):1108-1113. (studio qualitativo su atlete **adulte** d'élite) [doi:10.1136/bjsports-2019-101486](https://doi.org/10.1136/bjsports-2019-101486)
 - Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studi, 633 atlete adolescenti, età media 16,15 anni) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
+- Wall J., Meehan W.P. III, Trompeter K., Gissane C., Mockler D., van Dyk N., Wilson F. **Incidence, prevalence and risk factors for low back pain in adolescent athletes: a systematic review and meta-analysis.** *British Journal of Sports Medicine*, 2022;56(22):1299-1306. (80 studi, atleti di 10-19 anni; prevalenza a 12 mesi 42%, IC 95% 29-55%; tra i fattori di rischio riportati compare il sesso femminile; eterogeneità I² fino al 98%) [doi:10.1136/bjsports-2021-104749](https://doi.org/10.1136/bjsports-2021-104749)
+- Micheli L.J., Wood R. **Back pain in young athletes. Significant differences from adults in causes and patterns.** *Archives of Pediatrics & Adolescent Medicine*, 1995;149(1):15-18. (100 adolescenti di 12-18 anni contro 100 adulti; spondilolisi 47% contro 5%. Studio retrospettivo su cliniche specialistiche: popolazione **selezionata**) [doi:10.1001/archpedi.1995.02170130017004](https://doi.org/10.1001/archpedi.1995.02170130017004)
 
 *Questo articolo ha finalità informative e divulgative e non costituisce parere medico. In caso di dolore intenso o persistente, rivolgiti a un professionista sanitario.*
