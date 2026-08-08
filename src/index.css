@@ -254,3 +254,33 @@ body {
   font-weight: 700;
 }
 .blog-prose blockquote p { margin: 0; color: #0F0F12; }
+/* Tabelle di confronto negli articoli. Stesso linguaggio dei blocchi "In breve":
+   bordo pieno e ombra piatta. Il wrapper scorre in orizzontale invece di far
+   scorrere la pagina, che su mobile è la differenza tra leggibile e rotto. */
+.blog-prose table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #0F0F12;
+  box-shadow: 4px 4px 0 0 #0F0F12;
+  background: #FFFFFF;
+  font-size: 0.95rem;
+}
+.blog-prose thead th {
+  background: #D2EC7C;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 800;
+  color: #0F0F12;
+  text-align: left;
+}
+.blog-prose th,
+.blog-prose td {
+  border: 1px solid rgba(15,15,18,0.25);
+  padding: 0.6em 0.8em;
+  color: rgba(15,15,18,0.85);
+  vertical-align: top;
+}
+.blog-prose tbody td:first-child { font-weight: 700; color: #0F0F12; }
+.blog-prose tbody td:not(:first-child) { text-align: right; white-space: nowrap; }
+.blog-prose thead th:not(:first-child) { text-align: right; }
