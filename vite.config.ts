@@ -239,6 +239,18 @@ const GLOSSARY: Record<string, { name: string; description: string; sameAs?: str
     description:
       "La condizione in cui, dopo una o più distorsioni, la caviglia continua a cedere e a fare male oltre la guarigione dei tessuti. Tra gli atleti di 14-18 anni la prevalenza è del 20,0%: 23,6% tra le ragazze contro il 16,3% tra i ragazzi, con funzione sportiva della caviglia (FAAM-Sport 87,0 contro 97,7) e qualità di vita percepita più basse, a parità di attività fisica svolta (Donovan et al., 2020). È l'esito che la frase «è solo una storta» rende invisibile.",
   },
+  'mal-di-schiena': {
+    name: 'Lombalgia nello sport giovanile (mal di schiena)',
+    description:
+      "Dolore nella regione lombare in atleti di 10-19 anni. È frequente: la prevalenza stimata negli ultimi 12 mesi è del 42% (IC 95% 29-55%), quella negli ultimi 3 mesi del 46% e la prevalenza puntuale del 16% (Wall et al., 2022; 80 studi, 60 sport, eterogeneità I² fino al 98% perché manca una definizione condivisa). Tra i fattori di rischio riportati compaiono volume e intensità dell'allenamento, dolore concomitante all'arto inferiore, sovrappeso, età adolescenziale più avanzata, familiarità e sesso femminile. La morfologia più frequentemente descritta in questa fascia d'età è la spondilolisi, non il disco.",
+    sameAs: 'https://it.wikipedia.org/wiki/Lombalgia',
+  },
+  spondilolisi: {
+    name: 'Spondilolisi (frattura da stress dell’istmo vertebrale)',
+    description:
+      "Frattura da stress della pars interarticularis, il ponte osseo che unisce le articolazioni posteriori di una vertebra, quasi sempre nelle ultime lombari. Nasce dal carico ripetuto della colonna in estensione e rotazione, non da un trauma singolo. È la causa che distingue la schiena adolescente da quella adulta: in un confronto diretto spiegava il 47% dei casi negli atleti di 12-18 anni contro il 5% negli adulti, mentre il disco spiegava 11 casi su 100 contro 48 (Micheli e Wood, 1995 — campione di clinica specialistica). Tra atleti adolescenti non d'élite con lombalgia la quota è del 30% (Selhorst et al., 2019). Il ritorno alla competizione è stimato al 92,2% con trattamento conservativo (Overley et al., 2018).",
+    sameAs: 'https://it.wikipedia.org/wiki/Spondilolisi',
+  },
   propriocezione: {
     name: 'Propriocezione e allenamento dell’equilibrio',
     description:
@@ -437,6 +449,11 @@ function prerenderRoutes(): Plugin {
       const blogUrls: string[] = []
       const blogForLlms: Array<{ slug: string; title: string; excerpt: string; date: string | null; updated?: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }>; altUrls?: string[] }> = []
       const blogLastmod = new Map<string, string>()
+      // Indice statico inglese: servono titolo ed excerpt reali, non lo slug.
+      const blogEnIndex: Array<{ url: string; title: string; excerpt: string }> = []
+      // url → alternate hreflang, per annotare la sitemap (Google legge gli
+      // xhtml:link nella sitemap tanto quanto quelli in <head>).
+      const blogAlternates = new Map<string, Array<{ hreflang: string; href: string }>>()
       if (fs.existsSync(blogPath)) {
         type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }>; html?: string }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
@@ -611,6 +628,11 @@ function prerenderRoutes(): Plugin {
             fs.mkdirSync(outDir, { recursive: true })
             fs.writeFileSync(path.join(outDir, 'index.html'), page)
             blogUrls.push(url)
+            if (lang === 'en') blogEnIndex.push({ url, title: post.title, excerpt: post.excerpt })
+            blogAlternates.set(url, [
+              ...alternates.map((a) => ({ hreflang: BLOG_LOCALES[a.lang].hreflang, href: a.url })),
+              { hreflang: 'x-default', href: canonicalIt },
+            ])
             // lastmod = data dell'ultima revisione reale (updated), non della prima
             // pubblicazione: è ciò che dice ai crawler che vale la pena ripassare.
             const lastmod = post.updated || post.date
@@ -660,10 +682,15 @@ function prerenderRoutes(): Plugin {
           ].join('\n    ')
           page = page.replace('</head>', `    ${hreflangTags}\n  </head>`)
           // Indice statico degli articoli inglesi: dà ai crawler i link interni
-          // verso ogni /en/blog/{slug} anche senza eseguire JS.
-          const enIndex = blogUrls
-            .filter((u) => u.startsWith(`${DOMAIN}/en/blog/`))
-            .map((u) => `<li><a href="${u.replace(DOMAIN, '')}">${esc(u.split('/').pop() ?? '')}</a></li>`)
+          // verso ogni /en/blog/{slug} anche senza eseguire JS. Il testo del link
+          // è il TITOLO inglese, non lo slug: l'anchor text è uno dei segnali più
+          // forti su cosa tratti la pagina di destinazione, e uno slug italiano
+          // ("mal-di-schiena-giovani-atlete") su un indice inglese non ne è uno.
+          const enIndex = blogEnIndex
+            .map(
+              (p) =>
+                `<li><a href="${p.url.replace(DOMAIN, '')}">${esc(p.title)}</a> — ${esc(metaDescription(p.excerpt, 180))}</li>`,
+            )
             .join('')
           page = page.replace(
             /<div id="root">\s*<\/div>/,
@@ -689,7 +716,13 @@ function prerenderRoutes(): Plugin {
           .map((u) => {
             const lm = indexPages.has(u) ? latestBlog : blogLastmod.get(u)
             const lmTag = lm ? `\n    <lastmod>${lm}</lastmod>` : ''
-            return `  <url>\n    <loc>${u}</loc>${lmTag}\n    <changefreq>weekly</changefreq>\n    <priority>0.6</priority>\n  </url>`
+            // Alternate hreflang anche nella sitemap: è il canale che Google
+            // consiglia quando le versioni linguistiche sono molte, e non
+            // dipende dal fatto che il crawler renderizzi la pagina.
+            const alt = (blogAlternates.get(u) ?? [])
+              .map((a) => `\n    <xhtml:link rel="alternate" hreflang="${a.hreflang}" href="${a.href}" />`)
+              .join('')
+            return `  <url>\n    <loc>${u}</loc>${lmTag}${alt}\n    <changefreq>weekly</changefreq>\n    <priority>0.6</priority>\n  </url>`
           })
           .join('\n')
         if (entries) xml = xml.replace('</urlset>', `${entries}\n</urlset>`)
@@ -803,6 +836,14 @@ function prerenderRoutes(): Plugin {
         "- Dopo una distorsione laterale acuta, la riabilitazione basata sull'esercizio riduce le recidive a 12 mesi rispetto alla cura abituale (OR 0,60; IC 95% 0,36-0,99). ATTENZIONE: 14 studi randomizzati su 2.182 partecipanti ADULTI — non è una stima per le atlete adolescenti. Fonte: Wagemans et al., 2022, doi:10.1371/journal.pone.0262023.",
         "- In una fotografia storica del comportamento «è solo una storta», su 84 giocatori di basket di scuola superiore il 70% aveva una storia di distorsione di caviglia, l'80% di questi ne aveva avute più di una, nel 32% dei casi l'infortunio aveva comportato oltre due settimane di stop e nel 55% dei casi non era stata cercata alcuna assistenza medica; circa il 50% riferiva sintomi residui. ATTENZIONE: campione interamente MASCHILE e studio del 1986 — non è una stima attuale né riferita alle ragazze. Fonte: Smith e Reischl, 1986, doi:10.1177/036354658601400606.",
         "- L'assunto che nei giovani una caviglia dolente senza frattura radiografica sia una frattura Salter-Harris I del perone distale è stato ridimensionato dalla risonanza magnetica: in 31 bambini con quel sospetto clinico nessuno presentava la lesione all'imaging (lesioni legamentose, contusioni ossee, versamenti articolari), come già in 18 bambini in uno studio precedente. ATTENZIONE: campioni piccoli ed età media di 9-10 anni, più bassa di quella delle atlete di 13-14 anni; la distinzione resta una valutazione clinica. Fonti: Hofsli et al., 2016, doi:10.1097/BPB.0000000000000248; Boutis et al., 2010, doi:10.1016/j.injury.2010.04.015.",
+        "- Il mal di schiena è comune nello sport giovanile: la prevalenza stimata di lombalgia negli ultimi 12 mesi è del 42% (IC 95% 29-55%), quella negli ultimi 3 mesi del 46% (IC 95% 41-52%) e la prevalenza puntuale del 16% (IC 95% 9-23%); l'incidenza è del 14% a 6 mesi, 36% a 12 mesi e 11% a 2 anni. Tra i fattori di rischio riportati compaiono partecipazione allo sport, volume e intensità dell'allenamento, dolore concomitante all'arto inferiore, sovrappeso/BMI elevato, età adolescenziale più avanzata, sesso femminile e familiarità; la morfologia più frequentemente descritta è la spondilolisi. ATTENZIONE: eterogeneità I² fino al 98%, perché non esiste una definizione condivisa di lombalgia negli atleti adolescenti. Popolazione: 80 studi, atleti di 10-19 anni di entrambi i sessi, 60 sport, 23 Paesi. Fonte: Wall et al., 2022, doi:10.1136/bjsports-2021-104749.",
+        "- La causa del mal di schiena in un'adolescente che fa sport è diversa da quella di un adulto: confrontando 100 giovani atleti di 12-18 anni con 100 adulti di 21-77 anni, la spondilolisi spiegava il 47% dei casi negli adolescenti contro il 5% negli adulti, il dolore da disco 11 casi contro 48, lo stiramento muscolo-tendineo il 6% contro il 27%, e stenosi/artrosi lo 0% contro il 10%; il 62% degli adolescenti aveva un problema degli elementi posteriori della vertebra. ATTENZIONE: studio del 1995, retrospettivo, su due cliniche specialistiche diverse — popolazione già selezionata, quindi il 47% NON è la probabilità che un mal di schiena adolescenziale sia una spondilolisi. Fonte: Micheli e Wood, 1995, doi:10.1001/archpedi.1995.02170130017004.",
+        "- In una popolazione meno selezionata la quota resta alta: su 1.025 atleti adolescenti NON d'élite arrivati in ambulatorio per lombalgia (età media 15 ± 1,8 anni), 308 — il 30% — avevano una spondilolisi. Nelle ragazze le percentuali più alte erano in ginnastica (34%), marching band (31%) e softball (30%); nei ragazzi baseball (54%), calcio (48%) e hockey (44%), con il solo baseball a mostrare un aumento di rischio statisticamente significativo. Gli autori avvertono esplicitamente di non generalizzare la classifica per sport ad altri contesti. Fonte: Selhorst et al., 2019, doi:10.1097/JSM.0000000000000546.",
+        "- Nella meta-analisi a braccio singolo su atleti con lombalgia la prevalenza aggregata di spondilolisi lombare è del 41,7% (IC 95% 28-55%). Popolazione: 9 studi, 835 atleti; gli autori segnalano campioni piccoli, eterogeneità elevata e bassa rappresentatività. Fonte: Li et al., 2023, doi:10.1097/MD.0000000000034857.",
+        "- In 100 giovani ginnaste di alto livello studiate radiograficamente, l'11% aveva un difetto dell'istmo vertebrale e il 6% una spondilolistesi: circa quattro volte la frequenza riportata per le coetanee non atlete. ATTENZIONE: studio del 1976, su atlete d'élite e su radiografie — non trasferibile a una ragazza che pratica ginnastica a livello amatoriale. Fonte: Jackson et al., 1976, doi:10.1097/00003086-197606000-00008.",
+        "- Nella spondilolisi lombare attiva dell'adolescente, iniziare subito la fisioterapia batte il riposo iniziale: nel gruppo che iniziava entro 7 giorni il miglioramento di dolore e disabilità a 1 mese era significativamente maggiore (differenza media 21,3 punti sulla Micheli Functional Scale; IC 95% 28,7-13,9; p<0,001), il ritorno allo sport avveniva 38 giorni prima (p<0,001) e le ricadute di lombalgia a 12 mesi erano il 3% contro il 29% (p=0,01), senza eventi avversi. ATTENZIONE: singolo trial randomizzato multicentrico su 64 atleti di 10-19 anni (età mediana 14,2 anni, 40% ragazze) — campione piccolo. Fonte: Selhorst et al., 2026, doi:10.1136/bjsports-2025-110606.",
+        "- Il ritorno alla competizione dopo una spondilolisi senza spondilolistesi negli atleti adolescenti è stimato al 92,2% con trattamento conservativo e al 90,3% con trattamento chirurgico. Popolazione: meta-analisi di 11 studi, 376 pazienti adolescenti. Fonte: Overley et al., 2018, doi:10.1177/2192568217734520.",
+        "- Nello sport la lombalgia degli adolescenti viene normalizzata, e questo annulla le misure di tutela: in uno studio qualitativo su atleti di 10-19 anni con lombalgia legata allo sport, i tre temi emersi sono che la cultura della normalizzazione vanifica le misure di safeguarding, che la lombalgia cambia il modo in cui l'atleta viene percepita e si percepisce, e che ha effetti ampi sul benessere. Fonte: Wall et al., 2023, doi:10.1016/j.ptsp.2023.05.005.",
         '',
         '## Definizioni',
         ...Object.keys(GLOSSARY).map((k) => `- ${GLOSSARY[k].name}: ${GLOSSARY[k].description}`),

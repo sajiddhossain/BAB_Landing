@@ -2,7 +2,7 @@
 slug: perdite-urina-giovani-atlete
 title: "Perdo urina quando salto: il sintomo di cui quasi nessuna atleta parla"
 date: 2026-07-22
-updated: 2026-07-30
+updated: 2026-08-08
 author: Sajid Hossain
 excerpt: "Perdere urina saltando o atterrando riguarda in media il 48,6% delle atlete adolescenti, e l'80% nel trampolino elastico. Eppure l'87% dice che non ne parlerebbe con il proprio allenatore. È frequente, ma frequente non vuol dire normale: cosa dicono i dati sulle ragazze di 13-17 anni, perché non è colpa loro, e cosa può fare una società senza medicalizzare nulla."
 cover: /fotobab/cover-pavimento-pelvico.jpg
@@ -47,9 +47,9 @@ Un dato indipendente, raccolto in un contesto completamente diverso, va nella st
 
 Due popolazioni diverse, due metodi diversi, la stessa conclusione: non è un caso isolato, è una condizione diffusa in una fascia d'età in cui nessuno la nomina.
 
-## Perché "frequente" non vuol dire "normale"
+## Se succede a quasi una su due, allora è normale?
 
-Questa è la confusione che fa più danni, e vale la pena separare i due concetti.
+**No: è frequente, che è una cosa diversa. "Comune in una popolazione sotto un carico specifico" non vuol dire "funzionamento fisiologico atteso".** Questa è la confusione che fa più danni, e vale la pena separare i due concetti.
 
 Il pavimento pelvico è l'insieme di muscoli che sostiene vescica e organi pelvici e partecipa al meccanismo della continenza; quando il carico che riceve supera la sua capacità di risposta — come accade nei gesti a impatto ripetuto — possono comparire perdite. È il quadro descritto dalla letteratura su cui si basano le revisioni citate qui. Che il fenomeno sia **statisticamente comune** tra le atlete, però, non lo rende un funzionamento fisiologico atteso: lo rende un **sintomo frequente in una popolazione sottoposta a un carico specifico**. Sono due cose diverse, e trattarle come se fossero la stessa è ciò che porta una quattordicenne a pensare che non ci sia niente da dire.
 
@@ -72,9 +72,9 @@ Nello stesso studio su ginnaste e cheerleader, tra chi aveva incontinenza da sfo
 
 Sono atleti d'élite, seguiti da staff tecnici, in un contesto internazionale. È lo stesso vuoto informativo che si misura su altri temi del corpo che cambia, dal [ferro](/blog/ferro-atlete-adolescenti) al [sonno](/blog/sonno-atlete-adolescenti). Se il tasso di screening è del 12% lì, è ragionevole aspettarsi che in una società sportiva di provincia sia più vicino a zero. E come con [il ciclo mestruale e l'allenatore](/blog/parlare-di-ciclo-con-allenatore), il silenzio non è pudore delle ragazze: è l'assenza di un contesto in cui il tema esista.
 
-## Cosa dice l'evidenza sul cosa fare (e cosa non dice)
+## Si può fare qualcosa? Cosa dice l'evidenza (e cosa non dice)
 
-Qui serve essere precisi, perché è un tema di salute che riguarda minori.
+**Sì: la riabilitazione del pavimento pelvico migliora i sintomi in cinque studi su sei — ma quei sei studi sono su atlete adulte, e questo va detto invece che nascosto.** Qui serve essere precisi, perché è un tema di salute che riguarda minori.
 
 Una revisione sistematica ha analizzato **sei studi su 131 atlete** che avevano seguito programmi di riabilitazione del pavimento pelvico — allenamento muscolare, biofeedback, altre tecniche — di durata compresa **tra 8 settimane e 4 mesi**. **Cinque studi su sei** hanno mostrato un miglioramento dei sintomi; in uno di essi il **64%** del gruppo che si allenava riferiva sintomi migliorati contro l'**8%** del gruppo di controllo ([Demeco et al., 2024](https://doi.org/10.3390/sports12120338)).
 

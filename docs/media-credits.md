@@ -120,3 +120,16 @@
   Nessuna persona ritratta e nessun marchio leggibile: scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: il pavimento di una palestra polivalente con le linee dei campi sovrapposte —
   la superficie su cui si atterra, cioè il punto esatto in cui la caviglia cede.
+
+## cover-mal-di-schiena-giovani-atlete.jpg
+- Titolo originale: "Vaulting horse (cropped)"
+- Fonte: Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Vaulting_horse_(cropped).jpg
+- Autore: Harry Pot per Anefo (Nationaal Archief, Paesi Bassi)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "mal di schiena nelle giovani atlete / spondilolisi" (IT + EN)
+- Lavorazione: originale 2337x1417 (bianco e nero), ritaglio 2133x1200 con offset (x=102, y=217) e
+  resample a 1200x675, JPEG q85. L'offset verticale serve a eliminare del tutto la fascia superiore
+  dell'originale, in cui si intravedono i piedi di alcuni spettatori.
+  Nessuna persona ritratta dopo il ritaglio: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: cavallo per volteggio e pedana elastica — l'attrezzo del gesto in estensione
+  ripetuta della colonna, cioè il carico che nei dati costruisce la spondilolisi.
