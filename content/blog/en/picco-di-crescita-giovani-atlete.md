@@ -29,7 +29,7 @@ faq:
 
 There is one year, for every girl, in which the body changes faster than she can get used to it. She shoots up, her shoes stop fitting, movements that were automatic feel less precise. In sport that year has a technical name — **peak height velocity** — and a whole mythology has grown around it: the year you get injured, the year you turn clumsy, the year you "just have to wait out". **Almost none of that is established in girls.** What is documented, though, is enough to change something in the gym.
 
-> **In brief**
+> **Key points**
 > - In young female athletes the mean age at peak height velocity is estimated at **11.18 years**, with a 90% credible interval from **8.62 to 12.94** (Lima et al., 2024): chronological age says nothing about where a body is.
 > - Peak **bone mineral** accrual comes roughly **six months after** peak height velocity (Bailey et al., 1999): for a period, bone is longer but not yet as dense.
 > - In girls, **evidence linking maturation and injury is limited**; evidence linking maturation and **knee risk factors** in jumping and landing is **moderate** (Zoellner and Whatman, 2026).

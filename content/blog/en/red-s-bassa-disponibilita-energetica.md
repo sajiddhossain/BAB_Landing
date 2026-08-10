@@ -2,7 +2,7 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: when training more does harm (and how to catch it early)"
 date: 2026-07-04
-updated: 2026-08-04
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
 cover: /fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif
@@ -11,6 +11,8 @@ tags:
   - health
   - energy
   - performance
+  - red-s
+  - amenorrhoea
 faq:
   - q: "What is RED-S?"
     a: "RED-S (Relative Energy Deficiency in Sport) is a syndrome caused by low energy availability: when the energy taken in through food isn't enough to cover what's spent in training and growth, the body reduces functions such as the menstrual cycle, bone health and recovery. It is described in the International Olympic Committee (IOC) consensus statement (2014, updated in 2023)."
@@ -24,11 +26,15 @@ faq:
     a: "The Triad describes three linked elements: low energy availability, menstrual dysfunction and impaired bone health (De Souza et al., 2014). In 2014 the International Olympic Committee widened the frame with RED-S, recognising that energy deficiency also affects the immune system, metabolism, mood, the cardiovascular system and performance itself (Mountjoy et al., 2014), updating it in 2023 with new risk-assessment tools. RED-S doesn't replace the Triad: it contains and extends it, and applies across sexes."
   - q: "How is RED-S risk assessed?"
     a: "With screening tools, designed to flag who merits further assessment rather than to label anyone: the LEAF-Q questionnaire, validated across gastrointestinal symptoms, menstrual function and injuries (Melin et al., 2014); the Female Athlete Triad Cumulative Risk Assessment, a points-based score; and REDs CAT2, the traffic-light tool from the 2023 IOC consensus. They are filters, not verdicts: clinical assessment belongs to doctors, dietitians and specialists — never to an app or a coach."
+  - q: "Does RED-S only affect thin athletes?"
+    a: "No, and this is one of the costliest misconceptions. Low energy availability is a mismatch between energy taken in and energy spent in training: it can occur at any body size, and very often with no intention of losing weight at all — the load goes up and eating stays the same. What stacks up in the data is not weight but context: in a prospective study of 259 active girls and young women (mean age 18.1), combining at least 12 hours of training a week, a leanness sport and dietary restriction, the proportion who had sustained a bone stress injury rose to 46.2% against 10.8% overall (Barrack et al., 2014). The signals to watch are the cycle, energy and repeated injuries — not the scales."
+  - q: "What happens if low energy availability goes on for months?"
+    a: "The best-documented bill is paid by bone. In the same prospective study of 259 active girls and young women, those with low bone density (Z-score below -1.0) training at least 12 hours a week sustained a bone stress injury in 29.7% of cases, against 10.8% overall (Barrack et al., 2014). Two necessary caveats: the mean age of that sample is 18.1, so it is not a snapshot of a 13- or 14-year-old, and it is an observational study describing associations, not demonstrated causation. The reason not to wait stands: the months in which this happens are the same months in which bone mass is built."
 ---
 
 There's a dangerous idea in youth women's sport: that training harder is always better. But an adolescent athlete's body is not an engine you can push forever. When the energy coming in isn't enough to cover what goes out — across training, school and growth itself — the body starts to **cut the functions it deems least urgent**. That is the heart of a condition science calls RED-S.
 
-> **In short**
+> **Key points**
 > - **RED-S** (Relative Energy Deficiency in Sport) stems from *low energy availability*: eating less than what training and growth require.
 > - It isn't only about eating disorders: it can happen unintentionally, simply by not refuelling enough.
 > - **Adolescents** are more exposed, because growth adds an energy cost that is often ignored.

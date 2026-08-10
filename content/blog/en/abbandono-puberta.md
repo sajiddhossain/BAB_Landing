@@ -11,6 +11,7 @@ tags:
   - drop-out
   - clubs
   - puberty
+  - menarche
 faq:
   - q: "How many girls actually drop out of sport as teenagers?"
     a: "The most-cited UK figure is 43%: in a nationally representative survey of 2,291 girls aged 11-18, 43% fall into the group who «used to love sport» and disengaged after primary school, against 24% of boys (Women in Sport, 2022 — a non-peer-reviewed report). Note what it measures: a shift in self-perception, not verified drop-out. For real drop-out you need peer-reviewed work: tracking the actual club registrations of 29,225 female athletes over seven years, among those who joined aged 10-14 only 13% participated continuously and 71% dropped out without ever returning (Eime et al., 2020)."
@@ -26,7 +27,7 @@ faq:
 
 Around puberty, women's sport loses people — and loses them quietly. The explanation you hear most often, "they lost interest", is the one the evidence supports least. The reality is less comfortable: too many athletes feel out of place at exactly the moment their body changes.
 
-> **In short**
+> **Key points**
 > - **43%** of girls aged 11-18 say they loved sport as children and have left it, against **24%** of boys (Women in Sport, 2022 — UK data, not peer-reviewed).
 > - Among those who join a club aged **10-14**, only **13%** participate continuously over seven years; **71%** drop out without returning (Eime et al., 2020).
 > - Between **25%** and **61%** of adolescent girls avoid or reduce physical activity during their period (Harvey et al., 2025).

@@ -11,6 +11,7 @@ tags:
   - drop-out
   - società
   - pubertà
+  - menarca
 faq:
   - q: "Quante ragazze abbandonano davvero lo sport da adolescenti?"
     a: "La cifra più citata nel Regno Unito è il 43%: in un sondaggio nazionale su 2.291 ragazze di 11-18 anni, il 43% rientra nel gruppo di chi «amava lo sport e si è disamorata» dopo le elementari, contro il 24% dei maschi (Women in Sport, 2022 — report non peer-reviewed). Attenzione a cosa misura: è un cambiamento di auto-percezione, non l'abbandono verificato. Per il dato reale di abbandono serve la ricerca peer-reviewed: seguendo i tesseramenti effettivi di 29.225 atlete australiane per sette anni, tra chi si era iscritta a 10-14 anni solo il 13% ha partecipato con continuità e il 71% ha abbandonato senza mai rientrare (Eime et al., 2020)."

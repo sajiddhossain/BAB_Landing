@@ -11,6 +11,7 @@ tags:
   - health
   - performance
   - cycle
+  - menarche
 faq:
   - q: "Does the menstrual cycle really affect sports performance?"
     a: "According to the large majority of athletes who live it, yes. In a longitudinal study of 128 elite British track and field athletes, 77% reported their performance had been negatively affected by their cycle at some point during the study period (Jones et al., 2024). Mind the age, though: that sample has a mean age of 28, so it describes adult elite athletes, not 13- and 14-year-olds. It is self-reported data — which is to say it captures lived experience, and lived experience is what decides whether an athlete turns up to training."
@@ -32,7 +33,7 @@ faq:
 
 The menstrual cycle does affect sporting performance: **77% of elite athletes report it**, and among adolescents up to six in ten reduce or avoid physical activity during their period. For too long, women's sport has been coached as if it were a smaller version of men's sport. But a teenage athlete's body changes — and with it, energy, recovery and mood shift across the cycle. The question isn't whether this happens: it's that almost no girl is given the tools to read it.
 
-> **In short**
+> **Key points**
 > - **77%** of elite athletes report their cycle has negatively affected performance (Jones et al., 2024) — an **adult** sample, mean age 28.
 > - Among **adolescents** (10-18), between **25%** and **61%** avoid or reduce physical activity during their period (Harvey et al., 2025).
 > - Only **6%** of sport and exercise science studies are conducted on women only (Cowley et al., 2021).

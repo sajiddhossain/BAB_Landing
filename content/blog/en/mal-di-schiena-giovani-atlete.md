@@ -34,7 +34,7 @@ faq:
 
 There is one sentence that usually ends the conversation in the gym: "her back is a bit sore, must be a muscle strain." Said of a thirty-five-year-old, it is often true. Said of a fourteen-year-old training five times a week, it is statistically the least likely explanation on the list. **An adolescent athlete's back breaks in different ways from an adult's** — and that difference is not a specialist detail: it changes what you look for, how long you wait, and how she gets back on the field.
 
-> **In brief**
+> **Key points**
 > - Low back pain in young athletes is **common**: estimated prevalence of **42% over the previous 12 months** (95% CI 29-55%) in athletes aged 10-19 (Wall et al., 2022; 80 studies, very high heterogeneity).
 > - Reported risk factors include **training volume and intensity, concurrent lower-limb pain, overweight, older adolescent age, family history** and **female sex** (Wall et al., 2022).
 > - The most frequently described cause in this age group is **spondylolysis**: a **stress fracture of the pars interarticularis**, not a disc problem and not a muscle strain.

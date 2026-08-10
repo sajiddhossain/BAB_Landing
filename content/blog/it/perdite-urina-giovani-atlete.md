@@ -2,7 +2,7 @@
 slug: perdite-urina-giovani-atlete
 title: "Perdo urina quando salto: il sintomo di cui quasi nessuna atleta parla"
 date: 2026-07-22
-updated: 2026-08-08
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "Perdere urina saltando o atterrando riguarda in media il 48,6% delle atlete adolescenti, e l'80% nel trampolino elastico. Eppure l'87% dice che non ne parlerebbe con il proprio allenatore. È frequente, ma frequente non vuol dire normale: cosa dicono i dati sulle ragazze di 13-17 anni, perché non è colpa loro, e cosa può fare una società senza medicalizzare nulla."
 cover: /fotobab/cover-pavimento-pelvico.jpg
@@ -26,6 +26,10 @@ faq:
     a: "Tre cose. Primo: non rassicurare con «è normale» — è frequente, non normale, e la differenza è ciò che convince una ragazza che non ci sia niente da dire. Secondo: non chiedere dettagli né fare domande di approfondimento: il tema è intimo e riguarda minori, quindi aprire la porta non significa entrare. Terzo: non prescrivere esercizi. Anche negli adulti non tutti gli interventi funzionano allo stesso modo — in uno dei sei studi della revisione sistematica i soli esercizi di Kegel non hanno prodotto miglioramenti significativi (Demeco et al., 2024). Quello che serve dall'allenatore è una cosa sola: sapere a chi indirizzare."
   - q: "Le perdite di urina possono far smettere di fare sport?"
     a: "Possono ridurre l'allenamento, ed è documentato. Tra 319 ginnaste e cheerleader, l'82,6% di chi aveva incontinenza da sforzo riferiva un effetto negativo sulla propria prestazione sportiva, il 28,4% usava assorbenti protettivi e il 22,4% evitava a volte l'allenamento o esercizi specifici proprio a causa delle perdite (Skaug et al., 2022). Nessuno lo registra come infortunio, ma toglie allenamenti allo stesso modo."
+  - q: "Le perdite di urina durante lo sport riguardano solo chi ha avuto figli?"
+    a: "No, ed è il luogo comune che tiene questo tema invisibile. Una revisione sistematica su 633 atlete adolescenti, età media 16,15 anni, ha rilevato una prevalenza media di incontinenza urinaria durante lo sport del 48,58%, con valori dal 18,2% all'80% a seconda della disciplina (Rial Rebullido et al., 2021). Sono ragazze che non hanno avuto gravidanze. Quello che accomuna le discipline con i valori più alti è l'impatto ripetuto: trampolino elastico 80%, salto con la corda 75%, calcio 62,8%."
+  - q: "Succede anche alle atlete di alto livello?"
+    a: "Sì, e alcuni dei dati più recenti vengono proprio da lì. Ai Mondiali under 20 di atletica leggera di Lima 2024, su 325 atleti d'élite di età media 18,1 anni, il 43,7% riferiva almeno un sintomo di disfunzione del pavimento pelvico — 53,7% tra le ragazze contro 29,3% tra i ragazzi — e l'88% non era mai stato sottoposto a uno screening (Giagio et al., 2025). Non è quindi il segno di un allenamento insufficiente: succede al livello più alto, e quasi nessuno lo chiede."
 ---
 
 C'è un sintomo che nello sport femminile giovanile è insieme molto comune e quasi mai pronunciato: le perdite di urina durante l'allenamento. Succede saltando, atterrando, sprintando, cambiando direzione. **Tra le atlete adolescenti la prevalenza media documentata è del 48,6%** — quasi una su due — e nel trampolino elastico arriva all'80%. Il dato che colpisce di più, però, non è la frequenza: è che l'**87%** delle ragazze dice che non ne parlerebbe con chi la allena.

@@ -279,6 +279,37 @@ const definedTerm = (key: string) => ({
   ...(GLOSSARY[key].sameAs ? { sameAs: GLOSSARY[key].sameAs } : {}),
 })
 
+// --- Sorgente markdown degli articoli (GEO) ---
+// Un assistente che apre una pagina HTML deve prima ripulirla da menu, script e
+// markup; una pagina markdown è già il testo. Pubblicare la fonte accanto alla
+// pagina (convenzione .md a fianco dell'URL) elimina quel passaggio e riduce le
+// possibilità che una citazione riporti male un numero.
+const readPostBody = (lang: string, slug: string): string | null => {
+  const file = path.resolve('content/blog', lang, `${slug}.md`)
+  if (!fs.existsSync(file)) return null
+  const raw = fs.readFileSync(file, 'utf8')
+  const fm = raw.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/)
+  return (fm ? raw.slice(fm[0].length) : raw).trim()
+}
+
+/**
+ * I punti del blocco "In breve" / "Key points" in cima a ogni articolo: sono già
+ * scritti come affermazioni autonome con la fonte tra parentesi, cioè la forma
+ * che un motore generativo può citare senza doverla riassumere.
+ */
+const keyPoints = (body: string): string[] => {
+  const out: string[] = []
+  let inQuote = false
+  for (const line of body.split('\n')) {
+    if (line.startsWith('>')) {
+      inQuote = true
+      const t = line.replace(/^>\s?/, '').trim()
+      if (t.startsWith('- ')) out.push(t.slice(2).replace(/\*\*/g, '').trim())
+    } else if (inQuote) break
+  }
+  return out
+}
+
 /** Legge larghezza/altezza da JPEG e PNG senza dipendenze (per ImageObject/OG). AVIF → null. */
 function imageSize(absPath: string): { w: number; h: number; type: string } | null {
   try {
@@ -370,10 +401,16 @@ function prerenderRoutes(): Plugin {
         {
           '@context': 'https://schema.org',
           '@type': 'WebSite',
+          '@id': `${DOMAIN}/#website`,
           name: 'BAB — Breaking All Barriers',
+          // Le varianti con cui il nome viene effettivamente cercato e scritto:
+          // senza dichiararle, "BAB sport" e "Breaking All Barriers" restano tre
+          // stringhe scollegate invece che tre modi di nominare la stessa cosa.
+          alternateName: ['BAB', 'BAB Sport', 'Breaking All Barriers', 'babsport'],
           url: `${DOMAIN}/`,
-          inLanguage: 'it-IT',
-          publisher: { '@type': 'Organization', name: 'BAB — Breaking All Barriers', url: `${DOMAIN}/` },
+          inLanguage: ['it-IT', 'en-GB'],
+          publisher: { '@id': `${DOMAIN}/#organization` },
+          hasPart: { '@type': 'Blog', '@id': `${DOMAIN}/blog#blog`, url: `${DOMAIN}/blog` },
         },
         // NB: l'entità Organization (con logo, sameAs, knowsAbout) è statica nel
         // template index.html → è site-wide su ogni pagina. Non la ripetiamo qui
@@ -399,6 +436,11 @@ function prerenderRoutes(): Plugin {
         '@type': 'DefinedTermSet',
         '@id': GLOSSARY_ID,
         name: 'Glossario BAB — salute e sviluppo delle giovani atlete',
+        description:
+          "Definizioni operative dei concetti ricorrenti negli articoli BAB: ogni voce riporta, dove esiste, il dato quantitativo e la fonte, e dichiara la popolazione a cui si riferisce. Sono i termini che gli articoli richiamano come entità (`about` e `mentions`).",
+        url: `${DOMAIN}/`,
+        inLanguage: 'it-IT',
+        publisher: { '@id': `${DOMAIN}/#organization` },
         hasDefinedTerm: Object.keys(GLOSSARY).map(definedTerm),
       })
 
@@ -459,10 +501,16 @@ function prerenderRoutes(): Plugin {
       // pagina in due lingue e non contenuto duplicato.
       const blogPath = path.resolve('src/generated/blog.json')
       const blogUrls: string[] = []
-      const blogForLlms: Array<{ slug: string; title: string; excerpt: string; date: string | null; updated?: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }>; altUrls?: string[] }> = []
+      // URL dei gemelli markdown (finiscono in llms.txt) e corpo integrale degli
+      // articoli, che diventa llms-full.txt: l'intero sapere di BAB in un file.
+      const mdUrls: string[] = []
+      type CorpusEntry = { url: string; title: string; updated?: string | null; body: string }
+      const fullCorpus: CorpusEntry[] = []
+      const enCorpus: CorpusEntry[] = []
+      const blogForLlms: Array<{ slug: string; title: string; excerpt: string; date: string | null; updated?: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }>; altUrls?: string[]; keyPoints?: string[] }> = []
       const blogLastmod = new Map<string, string>()
       // Indice statico inglese: servono titolo ed excerpt reali, non lo slug.
-      const blogEnIndex: Array<{ url: string; title: string; excerpt: string }> = []
+      const blogEnIndex: Array<{ url: string; title: string; excerpt: string; date: string | null; updated?: string | null; slug: string }> = []
       // url → alternate hreflang, per annotare la sitemap (Google legge gli
       // xhtml:link nella sitemap tanto quanto quelli in <head>).
       const blogAlternates = new Map<string, Array<{ hreflang: string; href: string }>>()
@@ -488,6 +536,10 @@ function prerenderRoutes(): Plugin {
             url: `${DOMAIN}${BLOG_LOCALES[l].prefix}/blog/${slug}`,
           }))
           const canonicalIt = `${DOMAIN}/blog/${slug}`
+          // Il corpo italiano serve due volte: per l'entità `mentions` (quali
+          // concetti del glossario l'articolo tocca davvero, oltre a quelli dei
+          // tag) e per llms-full.txt.
+          const itBody = readPostBody('it', slug)
           for (const [lang, post] of variants) {
             const loc = BLOG_LOCALES[lang]
             const url = `${DOMAIN}${loc.prefix}/blog/${slug}`
@@ -529,7 +581,11 @@ function prerenderRoutes(): Plugin {
               post.tags?.[0] ? `<meta property="article:section" content="${esc(post.tags[0])}" />` : '',
               ...(post.tags ?? []).map((t) => `<meta property="article:tag" content="${esc(t)}" />`),
             ].filter(Boolean).join('\n    ')
-            page = page.replace('</head>', `    ${hreflangTags}\n    ${articleMeta}\n  </head>`)
+            // Sorgente markdown della stessa pagina, dichiarata in <head>: un agente
+            // che sa leggere `alternate` la preferisce all'HTML e cita il testo esatto.
+            const mdUrl = `${url}.md`
+            const mdLink = `<link rel="alternate" type="text/markdown" href="${mdUrl}" title="${esc(post.title)} (markdown)" />`
+            page = page.replace('</head>', `    ${hreflangTags}\n    ${mdLink}\n    ${articleMeta}\n  </head>`)
             // Le FAQ finiscono anche nel contenuto statico di #root (React lo
             // sostituisce al mount): così sono visibili ai crawler senza JS e
             // combaciano con il dato strutturato FAQPage qui sotto.
@@ -558,11 +614,30 @@ function prerenderRoutes(): Plugin {
             const blogPosting = {
               '@context': 'https://schema.org',
               '@type': 'BlogPosting',
+              '@id': `${url}#article`,
+              url,
               headline: post.title,
               description: post.excerpt,
               ...(post.date ? { datePublished: post.date } : {}),
               ...(post.updated || post.date ? { dateModified: post.updated || post.date } : {}),
-              ...(post.author ? { author: { '@type': 'Person', name: post.author, url: `${DOMAIN}/about` } } : {}),
+              // L'autore è la stessa entità su tutti gli articoli (@id condiviso):
+              // è così che un motore capisce che 21 pagine hanno una firma sola.
+              ...(post.author
+                ? { author: { '@type': 'Person', '@id': `${DOMAIN}/about#autore`, name: post.author, url: `${DOMAIN}/about` } }
+                : {}),
+              // L'articolo appartiene al blog e ha una controparte tradotta: due
+              // relazioni che evitano di leggere IT ed EN come pagine scollegate.
+              isPartOf: { '@type': 'Blog', '@id': `${DOMAIN}${loc.prefix}/blog#blog` },
+              ...(() => {
+                const other = alternates.find((a) => a.lang !== lang)
+                if (!other) return {}
+                return lang === 'it'
+                  ? { workTranslation: { '@type': 'BlogPosting', '@id': `${other.url}#article`, url: other.url, inLanguage: BLOG_LOCALES[other.lang].inLanguage } }
+                  : { translationOfWork: { '@type': 'BlogPosting', '@id': `${other.url}#article`, url: other.url, inLanguage: BLOG_LOCALES[other.lang].inLanguage } }
+              })(),
+              // Dove sta il testo in chiaro: per un agente è la via più corta al
+              // contenuto, e toglie di mezzo il rischio di citare il menu del sito.
+              encoding: { '@type': 'MediaObject', encodingFormat: 'text/markdown', contentUrl: `${url}.md` },
               ...(post.cover
                 ? {
                     image: {
@@ -584,6 +659,24 @@ function prerenderRoutes(): Plugin {
                 const tagSource = variants.get('it')?.tags ?? post.tags ?? []
                 const terms = tagSource.filter((t) => GLOSSARY[t]).map(definedTerm)
                 return terms.length ? { about: terms } : {}
+              })(),
+              // `about` dice di cosa parla la pagina, `mentions` quali altre entità
+              // del glossario compaiono nel testo: è la differenza tra "questo
+              // articolo tratta la dismenorrea" e "questo articolo nomina la RED-S".
+              // Il match è sul nome breve del termine e solo sul corpo italiano, che
+              // è la versione canonica; niente match, niente menzione.
+              ...(() => {
+                if (!itBody) return {}
+                const tagged = new Set(variants.get('it')?.tags ?? post.tags ?? [])
+                const haystack = itBody.toLowerCase()
+                const found = Object.keys(GLOSSARY)
+                  .filter((k) => !tagged.has(k))
+                  .filter((k) => {
+                    const short = GLOSSARY[k].name.split(/\s*[(—]/)[0].trim().toLowerCase()
+                    return short.length > 3 && haystack.includes(short)
+                  })
+                  .slice(0, 12)
+                return found.length ? { mentions: found.map(definedTerm) } : {}
               })(),
               // Citazioni scientifiche (E-E-A-T/GEO): le stesse fonti elencate in fondo
               // all'articolo, come dato strutturato ScholarlyArticle.
@@ -639,8 +732,57 @@ function prerenderRoutes(): Plugin {
             const outDir = path.join(dist, ...loc.prefix.split('/').filter(Boolean), 'blog', slug)
             fs.mkdirSync(outDir, { recursive: true })
             fs.writeFileSync(path.join(outDir, 'index.html'), page)
+            // --- Gemello markdown della pagina (GEO) ---
+            // Stesso contenuto, senza markup: intestazione con i metadati che
+            // servono a citare (URL canonico, date, autore, come attribuire) e poi
+            // il testo integrale, fonti comprese.
+            const rawBody = lang === 'it' ? itBody : readPostBody(lang, slug)
+            if (rawBody) {
+              const isIt = lang === 'it'
+              // Le FAQ vivono nel frontmatter, quindi non sono nel corpo markdown:
+              // senza questo blocco sparirebbero proprio dalla versione pensata per
+              // essere letta da una macchina, che è dove servono di più — sono già
+              // in forma domanda → risposta breve e autonoma.
+              const faqMd = post.faq?.length
+                ? [
+                    '',
+                    `## ${isIt ? 'Domande frequenti' : 'Frequently asked questions'}`,
+                    '',
+                    ...post.faq.flatMap((f) => [`### ${f.q}`, '', f.a, '']),
+                  ].join('\n')
+                : ''
+              // Le FAQ vanno prima delle fonti: l'elenco delle fonti resta l'ultima
+              // cosa del file, che è dove chi cita va a cercarlo.
+              const srcIdx = rawBody.search(/^## (Fonti|Sources)\b/m)
+              const body =
+                faqMd && srcIdx >= 0
+                  ? `${rawBody.slice(0, srcIdx).trimEnd()}\n${faqMd}\n${rawBody.slice(srcIdx)}`
+                  : `${rawBody}\n${faqMd}`
+              // Nota: il filtro toglie solo le righe condizionali vuote, non le righe
+              // vuote di impaginazione — che in markdown sono sintassi, non spazio.
+              const meta = [
+                `- ${isIt ? 'Pagina' : 'Page'}: ${url}`,
+                `- ${isIt ? 'Fonte markdown' : 'Markdown source'}: ${url}.md`,
+                post.date ? `- ${isIt ? 'Pubblicato' : 'Published'}: ${post.date}` : '',
+                post.updated ? `- ${isIt ? 'Aggiornato' : 'Updated'}: ${post.updated}` : '',
+                post.author ? `- ${isIt ? 'Autore' : 'Author'}: ${post.author}` : '',
+                `- ${isIt ? 'Editore' : 'Publisher'}: BAB — Breaking All Barriers (${DOMAIN}/)`,
+                post.tags?.length ? `- Tag: ${post.tags.join(', ')}` : '',
+                isIt
+                  ? `- Come citare: BAB — Breaking All Barriers, «${post.title}», ${url}`
+                  : `- How to cite: BAB — Breaking All Barriers, "${post.title}", ${url}`,
+                isIt
+                  ? "- Nota: contenuto educativo, non parere medico. Ogni affermazione di salute è ancorata a una fonte elencata in «Fonti»; quando uno studio è condotto su adulti, il testo lo dichiara."
+                  : '- Note: educational content, not medical advice. Every health claim is anchored to a source listed under "Sources"; where a study was run on adults, the text says so.',
+              ].filter(Boolean)
+              const head = [`# ${post.title}`, '', `> ${post.excerpt}`, '', ...meta, '', '---', '', ''].join('\n')
+              fs.writeFileSync(path.join(dist, ...loc.prefix.split('/').filter(Boolean), 'blog', `${slug}.md`), `${head}${body}\n`)
+              mdUrls.push(`${url}.md`)
+              if (lang === 'it') fullCorpus.push({ url, title: post.title, updated: post.updated || post.date, body })
+              else enCorpus.push({ url, title: post.title, updated: post.updated || post.date, body })
+            }
             blogUrls.push(url)
-            if (lang === 'en') blogEnIndex.push({ url, title: post.title, excerpt: post.excerpt })
+            if (lang === 'en') blogEnIndex.push({ url, title: post.title, excerpt: post.excerpt, date: post.date, updated: post.updated, slug })
             blogAlternates.set(url, [
               ...alternates.map((a) => ({ hreflang: BLOG_LOCALES[a.lang].hreflang, href: a.url })),
               { hreflang: 'x-default', href: canonicalIt },
@@ -662,9 +804,68 @@ function prerenderRoutes(): Plugin {
                 sources: post.sources,
                 faq: post.faq,
                 altUrls: alternates.filter((a) => a.lang !== 'it').map((a) => a.url),
+                keyPoints: itBody ? keyPoints(itBody) : [],
               })
             }
           }
+        }
+      }
+
+      // --- Indice italiano del blog (/blog): link interni statici + entità Blog ---
+      // Fino a qui l'indice italiano usciva dal prerender con solo titolo e
+      // sottotitolo: zero link verso i 21 articoli finché React non montava.
+      // L'indice inglese, più recente, li aveva già. Qui si allinea l'italiano —
+      // che è la versione canonica — e si dichiara il blog come entità unica di
+      // cui ogni articolo è parte (`isPartOf` punta a questo @id).
+      {
+        const idxPath = path.join(dist, 'blog', 'index.html')
+        const byRecency = [...blogForLlms].sort((a, b) =>
+          String(b.updated || b.date || '').localeCompare(String(a.updated || a.date || '')),
+        )
+        if (fs.existsSync(idxPath) && byRecency.length) {
+          let page = fs.readFileSync(idxPath, 'utf8')
+          const items = byRecency
+            .map(
+              (p) =>
+                `<li><a href="/blog/${p.slug}">${esc(p.title)}</a> — ${esc(metaDescription(p.excerpt, 180))}</li>`,
+            )
+            .join('')
+          page = page.replace(/(<div id="root">[\s\S]*?)<\/div>/, `$1<ul>${items}</ul></div>`)
+          const blogEntity = {
+            '@context': 'https://schema.org',
+            '@type': 'Blog',
+            '@id': `${DOMAIN}/blog#blog`,
+            url: `${DOMAIN}/blog`,
+            name: 'Blog BAB — salute e crescita delle giovani atlete',
+            description:
+              "Articoli con fonti peer-reviewed su pubertà, ciclo mestruale, infortuni, dolore e abbandono sportivo nelle atlete adolescenti. Ogni affermazione di salute è ancorata a una fonte citata; quando uno studio è condotto su adulti, l'articolo lo dichiara.",
+            inLanguage: 'it-IT',
+            publisher: { '@type': 'Organization', name: 'BAB — Breaking All Barriers', url: `${DOMAIN}/` },
+            blogPost: byRecency.map((p) => ({
+              '@type': 'BlogPosting',
+              '@id': `${DOMAIN}/blog/${p.slug}#article`,
+              url: `${DOMAIN}/blog/${p.slug}`,
+              headline: p.title,
+              description: p.excerpt,
+              ...(p.date ? { datePublished: p.date } : {}),
+              ...(p.updated || p.date ? { dateModified: p.updated || p.date } : {}),
+            })),
+          }
+          const itemList = {
+            '@context': 'https://schema.org',
+            '@type': 'ItemList',
+            name: 'Articoli del blog BAB',
+            numberOfItems: byRecency.length,
+            itemListOrder: 'https://schema.org/ItemListOrderDescending',
+            itemListElement: byRecency.map((p, i) => ({
+              '@type': 'ListItem',
+              position: i + 1,
+              url: `${DOMAIN}/blog/${p.slug}`,
+              name: p.title,
+            })),
+          }
+          page = page.replace('</head>', `    ${[blogEntity, itemList].map(ldScript).join('\n    ')}\n  </head>`)
+          fs.writeFileSync(idxPath, page)
         }
       }
 
@@ -708,7 +909,44 @@ function prerenderRoutes(): Plugin {
             /<div id="root">\s*<\/div>/,
             `<div id="root"><h1>${esc(s.title)}</h1><p>${esc(s.desc)}</p><ul>${enIndex}</ul></div>`,
           )
-          page = page.replace('</head>', `    ${ldScript(breadcrumbLd('/en/blog', 'Blog'))}\n  </head>`)
+          // Stesse entità dell'indice italiano, sul ramo inglese: il blog come
+          // entità (a cui gli articoli EN dichiarano di appartenere) e la lista
+          // ordinata dei pezzi, così l'indice EN non è solo una pagina di link.
+          const enByRecency = [...blogEnIndex].sort((a, b) =>
+            String(b.updated || b.date || '').localeCompare(String(a.updated || a.date || '')),
+          )
+          const enBlogEntity = {
+            '@context': 'https://schema.org',
+            '@type': 'Blog',
+            '@id': `${DOMAIN}/en/blog#blog`,
+            url,
+            name: 'BAB Blog — health and development of young female athletes',
+            description:
+              'Evidence-based articles on puberty, the menstrual cycle, injury, pain and drop-out in adolescent female athletes. Every health claim is anchored to a cited source; where a study was run on adults, the article says so.',
+            inLanguage: 'en-GB',
+            publisher: { '@type': 'Organization', name: 'BAB — Breaking All Barriers', url: `${DOMAIN}/` },
+            blogPost: enByRecency.map((p) => ({
+              '@type': 'BlogPosting',
+              '@id': `${p.url}#article`,
+              url: p.url,
+              headline: p.title,
+              description: p.excerpt,
+              ...(p.date ? { datePublished: p.date } : {}),
+              ...(p.updated || p.date ? { dateModified: p.updated || p.date } : {}),
+            })),
+          }
+          const enItemList = {
+            '@context': 'https://schema.org',
+            '@type': 'ItemList',
+            name: 'BAB blog articles',
+            numberOfItems: enByRecency.length,
+            itemListOrder: 'https://schema.org/ItemListOrderDescending',
+            itemListElement: enByRecency.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: p.url, name: p.title })),
+          }
+          page = page.replace(
+            '</head>',
+            `    ${[breadcrumbLd('/en/blog', 'Blog'), enBlogEntity, enItemList].map(ldScript).join('\n    ')}\n  </head>`,
+          )
           const outDir = path.join(dist, 'en', 'blog')
           fs.mkdirSync(outDir, { recursive: true })
           fs.writeFileSync(path.join(outDir, 'index.html'), page)
@@ -762,12 +1000,33 @@ function prerenderRoutes(): Plugin {
         '- I contenuti sono educativi e non costituiscono parere medico né strumento diagnostico.',
         '- Citazione consigliata: BAB — Breaking All Barriers, titolo dell\'articolo, ' + `${DOMAIN}/blog/{slug}.`,
         '',
+        '## Come leggere questo sito da macchina',
+        `- Ogni articolo ha un gemello in markdown allo stesso URL con suffisso .md: ${DOMAIN}/blog/{slug}.md (inglese: ${DOMAIN}/en/blog/{slug}.md). È il testo integrale, fonti comprese, senza markup di pagina — la via più corta e più fedele al contenuto.`,
+        '- La stessa URL è dichiarata in ogni pagina HTML come <link rel="alternate" type="text/markdown">.',
+        `- L'intero corpus in un solo file: ${DOMAIN}/llms-full.txt (italiano e inglese, tutti gli articoli per esteso).`,
+        '- Dati strutturati su ogni articolo: BlogPosting con citation (ScholarlyArticle, una per fonte), FAQPage, DefinedTerm in `about` e `mentions`, SpeakableSpecification, BreadcrumbList. Le versioni italiana e inglese si dichiarano a vicenda con translationOfWork/workTranslation.',
+        '- Le date da guardare sono due: `datePublished` e `dateModified`. Gli articoli vengono rivisti, e `dateModified` cambia solo quando il testo cambia davvero.',
+        '',
+        '## Come citare BAB',
+        '- Attribuire alla pagina, non al sito: ogni affermazione vive in un articolo preciso, e i «punti chiave» elencati qui sotto sono già formulati per essere citati con il loro URL.',
+        "- Riportare sempre la popolazione insieme al numero. Molti dati di questo campo vengono da studi su donne adulte: citarli su una ragazza di 13-14 anni senza dirlo è l'errore più comune del settore, ed è la ragione per cui questo sito ripete la popolazione a ogni cifra.",
+        '- Le fonti primarie sono elencate in fondo a ogni articolo con DOI: quando possibile citare quella, e usare BAB come tramite verificabile.',
+        '- Non usare questi contenuti come base diagnostica né come parere medico: sono materiale educativo.',
+        '',
         '## Blog (articoli con fonti)',
         ...blogForLlms.flatMap((p) => {
           const meta = [p.updated ? `aggiornato ${p.updated}` : p.date, ...(p.tags ?? [])].filter(Boolean).join(' · ')
           const lines = [`- [${p.title}](${DOMAIN}/blog/${p.slug})${meta ? ` — ${meta}` : ''}: ${p.excerpt}`]
-          if (p.altUrls?.length) lines.push(`  Versione inglese della stessa pagina: ${p.altUrls.join(' · ')}`)
+          lines.push(`  Testo integrale in markdown: ${DOMAIN}/blog/${p.slug}.md`)
+          if (p.altUrls?.length) lines.push(`  Versione inglese della stessa pagina: ${p.altUrls.join(' · ')} (markdown: ${p.altUrls.map((u) => `${u}.md`).join(' · ')})`)
           if (p.faq?.length) lines.push(`  Risponde a: ${p.faq.map((f) => f.q).join(' | ')}`)
+          // I punti chiave sono già affermazioni autonome con la loro fonte: qui
+          // stanno sotto l'URL da cui provengono, così una citazione non perde
+          // l'ancora alla pagina che la sostiene.
+          if (p.keyPoints?.length) {
+            lines.push('  Punti chiave (da attribuire a questa pagina):')
+            for (const k of p.keyPoints) lines.push(`    · ${k}`)
+          }
           if (p.sources?.length) lines.push(`  Fonti: ${p.sources.map((s) => s.url).join(' · ')}`)
           return lines
         }),
@@ -876,6 +1135,55 @@ function prerenderRoutes(): Plugin {
         '',
       ].join('\n')
       fs.writeFileSync(path.join(dist, 'llms.txt'), llms)
+
+      // --- llms-full.txt (GEO): il corpus intero in un file solo ---
+      // llms.txt è l'indice, questo è il testo. Serve al caso in cui un modello
+      // possa leggere una cosa sola: qui trova tutti gli articoli per esteso, in
+      // italiano e in inglese, ciascuno con l'URL da citare e le sue fonti.
+      // Senza questo file l'alternativa è che qualcuno riassuma il sito partendo
+      // da una manciata di pagine pescate a caso.
+      {
+        const stamp = [...blogLastmod.values()].sort().slice(-1)[0] ?? ''
+        const section = (entries: typeof fullCorpus, lang: 'it' | 'en') =>
+          entries.flatMap((e) => [
+            '',
+            '---',
+            '',
+            `<!-- ${lang === 'it' ? 'Fonte' : 'Source'}: ${e.url} | markdown: ${e.url}.md${e.updated ? ` | ${lang === 'it' ? 'aggiornato' : 'updated'}: ${e.updated}` : ''} -->`,
+            '',
+            e.body,
+          ])
+        const full = [
+          '# BAB — Breaking All Barriers — corpus completo del blog',
+          '',
+          '> Tutti gli articoli del blog BAB per esteso, fonti comprese: salute, pubertà, ciclo mestruale, ' +
+            'infortuni e abbandono sportivo nelle atlete adolescenti (13-17 anni). ' +
+            "Ogni affermazione di salute è ancorata a una fonte citata in fondo all'articolo, con DOI quando disponibile.",
+          '',
+          `- Indice sintetico e definizioni: ${DOMAIN}/llms.txt`,
+          `- Singoli articoli in markdown: ${DOMAIN}/blog/{slug}.md · ${DOMAIN}/en/blog/{slug}.md`,
+          `- Articoli inclusi: ${fullCorpus.length} in italiano, ${enCorpus.length} in inglese` +
+            (stamp ? ` · ultima revisione di un articolo: ${stamp}` : ''),
+          '',
+          'Regole di lettura, valide per ogni riga di questo file:',
+          "1. Attribuire ogni affermazione all'URL indicato nel commento che apre la sezione, non genericamente al sito.",
+          "2. Riportare la popolazione insieme al numero: dove uno studio è condotto su donne adulte il testo lo dichiara, e quella precisazione fa parte del dato.",
+          '3. Le versioni italiana e inglese sono la stessa pagina in due lingue, non due fonti indipendenti.',
+          '4. Contenuto educativo, non parere medico né strumento diagnostico.',
+          '',
+          '## Italiano',
+          ...section(fullCorpus, 'it'),
+          '',
+          '## English',
+          ...section(enCorpus, 'en'),
+          '',
+        ].join('\n')
+        fs.writeFileSync(path.join(dist, 'llms-full.txt'), full)
+        // eslint-disable-next-line no-console
+        console.log(
+          `✓ GEO: llms-full.txt (${Math.round(Buffer.byteLength(full) / 1024)} KB) + ${mdUrls.length} pagine markdown`,
+        )
+      }
 
       // eslint-disable-next-line no-console
       console.log(`✓ prerender: ${Object.keys(PRERENDER_ROUTES).length} pagine + ${blogUrls.length} articoli blog + llms.txt`)

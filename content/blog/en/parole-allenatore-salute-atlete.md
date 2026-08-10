@@ -32,7 +32,7 @@ faq:
 
 In a locker room, a line like "you're a bit out of shape compared to last year" is never just a line. To the person saying it, it can be an offhand nudge; to a fourteen-year-old girl, it can become the starting point for weeks spent counting calories. The research puts it plainly: **what staff know and say is not a neutral backdrop to training — it's a variable that shows up, measurably, in athletes' health.** In both directions.
 
-> **In short**
+> **Key points**
 > - A coach perceived as **very knowledgeable** is associated with **3.2 RED-S symptoms** on average, versus **4.3** for one perceived as uninformed: **-36%**.
 > - **Body comments** that cause discomfort are linked to **4 times** higher odds of changing how one eats (33% vs 7%) and to **+34%** RED-S symptoms.
 > - Those who should know often don't: **fewer than 50%** of athletes knew the term RED-S, and **30%** were told by a medical professional that losing your period through physical activity is "normal".

@@ -11,6 +11,7 @@ tags:
   - educazione
   - comunicazione
   - ciclo
+  - amenorrea
 faq:
   - q: "Quante atlete parlano di ciclo con il proprio allenatore?"
     a: "In uno studio su 1.086 atlete di Svezia e Norvegia, solo l'11% affrontava tematiche mestruali con il proprio allenatore. La quota scendeva al 4% quando l'allenatore era un uomo, e saliva al 55% con un'allenatrice donna (Höök et al., 2022)."
