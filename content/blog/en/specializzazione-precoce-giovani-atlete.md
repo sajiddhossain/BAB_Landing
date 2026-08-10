@@ -2,7 +2,7 @@
 slug: specializzazione-precoce-giovani-atlete
 title: "Early specialisation: one sport all year round, and what it actually costs girls"
 date: 2026-07-26
-updated: 2026-08-02
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "Among female athletes aged 13-18, those highly specialised in a single sport are 2.93 times as likely to report an injury history. Training more hours per week than your age in years doubles the odds of a serious overuse injury. And the athletes who actually reach the top started their main sport later, not earlier. The evidence, its limits, and the three questions that tell you whether a girl is already specialised."
 cover: /fotobab/cover-specializzazione-precoce.jpg
@@ -22,6 +22,10 @@ faq:
     a: "The evidence points the other way. A meta-analysis of 51 studies, 6,096 athletes including 772 of the world's best, found that adult world-class athletes had practised more different sports as children, started their main sport later and accumulated less main-sport practice than national-class athletes — and progressed more slowly at first (Güllich et al., 2022). Athletes who excel as youngsters, by contrast, tend to have started earlier: the early advantage is real, but it is not what predicts adult level."
   - q: "My daughter does artistic gymnastics or dance, where you have to start young. Does the same apply?"
     a: "Partly. The American Academy of Pediatrics acknowledges that figure skating, artistic gymnastics, rhythmic gymnastics and diving may require earlier specialisation, because peak performance arrives before physical maturation — but adds that it is not known whether that training is safe for long-term health, and that female athletes in these sports appear more exposed to overuse injuries and to problems linked to low energy availability (Brenner and AAP, 2016). It does not mean stopping: it means that in these sports rest days, months off and energy monitoring matter more, not less."
+  - q: "How do I know if my daughter is training too much?"
+    a: "By counting, not by feel. The criterion with the most empirical support is the ratio of hours to years: athletes doing more hours of organised sport per week than their age in years have 2.07 times the odds of a serious overuse injury (95% CI 1.40-3.05), and an organised sport to free play ratio above 2:1 gives 1.87 times (Jayanthi et al., 2015). Every hour counts: club, school, representative teams, summer camps and \"optional\" sessions. Nobody adds them up, which is why nobody sees them."
+  - q: "Is the risk only about injuries?"
+    a: "No. The American Academy of Pediatrics lists burnout, anxiety and drop-out among the documented risks of early specialisation, along with social isolation from peers who do not play the same sport (Brenner and AAP, 2016). It is consensus guidance, not a trial-validated protocol, and the AAP itself writes that the exact threshold has not been clarified: it points a direction, not a numerical rule."
   - q: "How many days and months off are needed each year?"
     a: "The American Academy of Pediatrics guidance suggests at least 1-2 days a week free from the specific sport and at least 3 months a year away from it, taken in one-month blocks, while staying active in other activities (Brenner and AAP, 2016). It is consensus guidance built on limited evidence, not a validated protocol: its stated purpose is to leave room for physical and psychological recovery while the body is still growing."
 ---
@@ -47,9 +51,9 @@ Three "yes" = high specialisation. Two = moderate. One or none = low. This is th
 
 It's worth noting what it does **not** measure: not talent, not weekly hours, not whether the athlete is happy. It measures one thing — **how much variety is left in the sporting year**. And it is that variable, rather than intensity itself, that the studies have tried to link to outcomes.
 
-## What the data say about girls
+## What do the data say about early specialisation in girls?
 
-There is good news and bad news here. The good: a study exists that was run **on female athletes only**, in the right age band. The bad: there is just one, and it is small.
+**They say the risk is real, and that girl-specific evidence is thin.** There is good news and bad news here. The good: a study exists that was run **on female athletes only**, in the right age band. The bad: there is just one, and it is small.
 
 It followed **219 female athletes aged 13-18** in US high schools, classified with the 3-point scale: 41.6% low specialisation, 26.9% moderate, 31.5% high ([Okoruwa et al., 2022, *Sports Health*](https://doi.org/10.1177/19417381221123532)). Compared with the low-specialisation group:
 
@@ -63,9 +67,9 @@ A second piece comes from a longitudinal study of **579 young athletes** (mean a
 
 For the overall picture, the most solid synthesis is a meta-analysis in *Pediatrics*: **highly specialised** athletes carry an overuse injury risk **1.81 times** that of low-specialisation athletes (95% CI 1.26-2.60), and **1.18 times** that of moderately specialised ones; even moving from low to moderate specialisation brings an increase (RR 1.39; 95% CI 1.04-1.87) ([Bell et al., 2018, *Pediatrics*](https://doi.org/10.1542/peds.2018-0657)). The authors grade the strength of recommendation **B**: good, not definitive. The sample is mixed and results are not broken down by sex.
 
-## The most useful number isn't specialisation: it's volume
+## How many hours a week can a 13- or 14-year-old girl train?
 
-If one thing should survive this article, it's this. A case-control study of young athletes isolated the load variables and found two that weigh more than specialisation itself ([Jayanthi et al., 2015, *Am J Sports Med*](https://doi.org/10.1177/0363546514567298)):
+**Fewer hours than she has years: at 13, fewer than 13 hours of organised sport a week.** It is the most useful number in this article, and it is about volume rather than specialisation. A case-control study of young athletes isolated the load variables and found two that weigh more than specialisation itself ([Jayanthi et al., 2015, *Am J Sports Med*](https://doi.org/10.1177/0363546514567298)):
 
 - Athletes who play **more hours of organised sport per week than their age in years** have **2.07 times** the odds of a serious overuse injury (95% CI 1.40-3.05; p<0.001). At 13: more than 13 hours.
 - Athletes whose ratio of **organised sport to free play exceeds 2:1** have **1.87 times** those odds (95% CI 1.26-2.76; p<0.01).
@@ -76,9 +80,9 @@ Specialisation remains an independent factor even after adjusting for age and ho
 
 The second number — the 2:1 ratio — is the one nobody talks about. "Free play" is not wasted time: in the development literature it is **deliberate play**, unstructured self-chosen activity, and in these data its disappearance is a measurable risk factor.
 
-## "But if she doesn't specialise she'll fall behind"
+## Does specialising early actually help reach the top?
 
-This is the real objection, the one that drives family decisions. And it has a fairly clear empirical answer.
+**On the available data, no — and among those who reach the top as adults the opposite is often true.** This is the real objection, the one that drives family decisions. And it has a fairly clear empirical answer.
 
 A meta-analysis of **51 studies, 6,096 athletes, including 772 of the world's best** compared the practice histories of world-class and national-class athletes ([Güllich et al., 2022, *Perspect Psychol Sci*](https://doi.org/10.1177/1745691620974772)). The athletes who reached the **highest level as adults** had, relative to their national-class peers:
 
@@ -93,9 +97,9 @@ The American Academy of Pediatrics is explicit: there is no evidence that specia
 
 One exception deserves naming, because it affects many girls: **figure skating, artistic gymnastics, rhythmic gymnastics and diving** may require earlier specialisation, since peak performance arrives before physical maturation. The AAP acknowledges this — and in the same paragraph adds that it is not known whether such a load is safe for long-term health, and that female athletes in these sports appear more exposed both to overuse injuries and to problems linked to [low energy availability](/blog/red-s-bassa-disponibilita-energetica) (Brenner and AAP, 2016). The exception, then, does not cancel the risk: it makes it more important to watch.
 
-## What paediatrics recommends (and how strongly)
+## What do paediatricians recommend about sport specialisation?
 
-The American Academy of Pediatrics guidance for under-18s comes down to a few checkable points ([Brenner and AAP, 2016](https://doi.org/10.1542/peds.2016-2148)):
+**Five points, all checkable — and with a stated strength of recommendation.** The American Academy of Pediatrics guidance for under-18s comes down to these ([Brenner and AAP, 2016](https://doi.org/10.1542/peds.2016-2148)):
 
 - **Playing multiple sports at least until puberty** decreases injury, stress and burnout.
 - For most sports, **specialising later** (late adolescence, around 15-16) offers a higher chance of meeting one's athletic goals.
@@ -105,15 +109,15 @@ The American Academy of Pediatrics guidance for under-18s comes down to a few ch
 
 Two caveats. First: this is **consensus guidance**, not a trial-validated protocol; the AAP itself writes that the exact threshold for avoiding injury, burnout and attrition "has not been elucidated" and needs confirmation from longitudinal work. Second: these are US recommendations, born in a school-and-club sport system different from the European one. They are useful as an order of magnitude, not as a rulebook.
 
-## Why this intersects with drop-out
+## Does early specialisation increase drop-out?
 
-There is a point the injury numbers miss. Early specialisation is also associated with higher **burnout, anxiety and attrition**: the AAP lists these among the documented risks, alongside social isolation from peers who don't play the same sport (Brenner and AAP, 2016).
+**Yes: beyond injury, it is associated with a higher chance of quitting.** It is the part the injury numbers miss. Early specialisation is also associated with higher **burnout, anxiety and attrition**: the AAP lists these among the documented risks, alongside social isolation from peers who don't play the same sport (Brenner and AAP, 2016).
 
 And this is where it comes home. Among girls registered with a club at 10-14, 71% quit without ever returning: we covered it in our piece on [drop-out during puberty](/blog/abbandono-puberta). An athlete who at twelve has only one exit — that sport, that team, that identity — has no second door when something breaks. One who has played three sports has three. It isn't a metaphor: it is the difference between "I'll switch sports" and "I'm done".
 
-And load never acts alone. A year without breaks stacks on top of [chronically short sleep](/blog/sonno-atlete-adolescenti), [insufficient energy availability](/blog/red-s-bassa-disponibilita-energetica) and rising demands in exactly the window when the body is changing: the same ground on which [ACL injury risk](/blog/crociato-giovani-atlete) rises. These are one problem seen from different angles.
+And load never acts alone. A year without breaks stacks on top of [chronically short sleep](/blog/sonno-atlete-adolescenti), [insufficient energy availability](/blog/red-s-bassa-disponibilita-energetica), recurring pain nobody budgets for — from [low back pain](/blog/mal-di-schiena-giovani-atlete) to [period pain](/blog/dolori-mestruali-giovani-atlete), which costs sessions every month without appearing in any register — and rising demands in exactly the window when the body is changing: the same ground on which [ACL injury risk](/blog/crociato-giovani-atlete) rises. These are one problem seen from different angles.
 
-## What the people around the athlete can do
+## What can clubs, coaches and families do?
 
 - **The club**: count the hours. Not estimate them — count them, including matches, travel and "optional" sessions. And build the annual calendar with at least one real block off, announced at the start of the season rather than granted on request.
 - **The coach**: know who in your squad also plays elsewhere. An athlete's load is not what you give her: it is the sum of club, school, representative teams and summer camps. Nobody adds it up, which is why nobody sees it.
