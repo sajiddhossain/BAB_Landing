@@ -133,3 +133,16 @@
   Nessuna persona ritratta dopo il ritaglio: scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: cavallo per volteggio e pedana elastica — l'attrezzo del gesto in estensione
   ripetuta della colonna, cioè il carico che nei dati costruisce la spondilolisi.
+
+## cover-dolori-mestruali-atlete.jpg
+- Titolo originale: "Peak to Peak Charter School soccer field and running track, Lafayette, Colorado, USA - 2025"
+- Fonte: Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Peak_to_Peak_Charter_School_soccer_field_and_running_track,_Lafayette,_Colorado,_USA_-_2025.jpg
+- Autore: Mikepascoe (utente Wikimedia Commons)
+- Licenza: CC0 1.0 (rilascio in pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "dolori mestruali nelle giovani atlete / dismenorrea" (IT + EN)
+- Lavorazione: originale 5712x4284 con flag EXIF di rotazione (applicato prima del ritaglio), crop
+  (x=212, y=1156, w=5500, h=3094) e resample a 1200x675, JPEG q85 progressivo. Il ritaglio a destra
+  serve a escludere l'unica figura in lontananza lungo la recinzione.
+  Nessuna persona ritratta e nessun marchio leggibile: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: la pista e il campo di una scuola completamente vuoti — l'allenamento che salta
+  ogni mese e che nessun registro infortuni conta.
