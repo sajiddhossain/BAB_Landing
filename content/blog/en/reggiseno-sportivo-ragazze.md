@@ -2,7 +2,7 @@
 slug: reggiseno-sportivo-ragazze
 title: "Sports bras for girls: when the first one is needed, and how to get the size right"
 date: 2026-07-02
-updated: 2026-08-04
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "A first sports bra is needed as soon as breast development begins — there is no set age: the cue is the body, not the calendar. At 13-14, one girl in two says her breasts affect her participation in sport, yet only one in ten always wears one — and the girls who never wear one are more often those with smaller breasts. How to spot a wrong size, when compression beats encapsulation, how often to recheck the fit while growing, and why an education booklet in a randomised trial got 39% more athletes through a bra-fit test."
 cover: /fotobab/cover-reggiseno-sportivo.jpg
@@ -23,11 +23,15 @@ faq:
     a: "Every 6-12 months while the body is changing, and any time one of the three wrong-size signs appears: the band riding up, straps digging in, the breast spilling over the edges. The reason is that the size moves with everything else: breast development happens in the same window as the growth spurt, whose estimated mean age in young female athletes is 11.18 years with a 90% credible interval from 8.62 to 12.94 years (Lima et al., 2024). A size that fits in September says nothing about March. And checking works: in a cluster-randomised trial of 115 adolescent athletes, 39% more of those given an education booklet passed the bra-fit test than controls (McGhee et al., 2010)."
   - q: "Compression or encapsulation — which is better?"
     a: "It depends on the impact of the sport and the stage of development. Compression gently flattens the breast towards the body: simple, comfortable, and well suited to first bras and low-to-medium impact activity. Encapsulation has two separate cups supporting each breast individually and gives more support: better for running, jumping and team sports, or for larger cup sizes. Many models combine both. Neither is «more correct»: choose on impact and comfort, and recheck the size every 6-12 months through the growing years."
+  - q: "Does a larger bust stop a girl doing sport?"
+    a: "It does not stop her, but it weighs more — and that is measurable. Among 2,089 British girls aged 11-18, 46% reported that their breasts affected their participation in compulsory school sport; that rises to 51% at ages 13-14 and 63% among those with a larger cup size (Scurr et al., 2016). The practical answer is not less sport, it is the type of support: encapsulation, with two separate cups supporting each breast individually, gives more support and suits running, jumping and team sports, or a larger cup size."
+  - q: "Is a sports bra needed just for school PE?"
+    a: "Yes — and it is worth noting that the most cited figure on this topic measures precisely that: 46% of girls aged 11-18 say their breasts affect participation in compulsory school sport, that is, PE lessons — rising to 51% at ages 13-14 (Scurr et al., 2016). It is not a question of level or intensity: it is breast movement during running and jumping, which happens in a school gym too. And the obstacle is not only physical: in the same survey, embarrassment about changing was the second most common concern, reported by 34%."
 ---
 
 At puberty the body changes fast, and a growing chest is one of the changes **almost nobody talks about in sport**. Yet it's very real, and it's measurable: **at 13-14, one girl in two says her breasts affect her participation in sport** — while only one in ten always wears a sports bra. A good sports bra isn't a detail: it's what lets a girl keep playing while feeling comfortable in her own body.
 
-> **In short**
+> **Key points**
 > - **46%** of girls aged 11-18 say their breasts affect participation in compulsory sport: **51% at 13-14**, **63%** with larger cup sizes (Scurr et al., 2016).
 > - **73%** have at least one breast-specific concern in sport; the most common is **bounce** (38%).
 > - Only **10%** always wear a sports bra; **over half** never do.

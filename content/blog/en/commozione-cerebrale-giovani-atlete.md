@@ -34,7 +34,7 @@ faq:
 
 Nothing in a club's calendar matters more than the thirty seconds after a blow to the head. A collision, a ball taken badly, a fall on landing: the athlete gets up, says "I'm fine", and play restarts. Far more is decided in those thirty seconds than it seems — and the data say that, for girls, that decision goes wrong more often.
 
-> **In brief**
+> **Key points**
 > - In Michigan high school soccer, girls had **1.88 times** the concussion risk of boys (95% CI 1.69-2.09) (Bretzin et al., 2021).
 > - Across sex-comparable sports, girls were **1.26 times** more likely **not to be removed from activity** after the injury (Zynda et al., 2021).
 > - Athletes who kept playing after a concussion recovered in **44.4 days versus 22.0** for those removed immediately, and were **8.8 times** more likely to have protracted recovery (Elbin et al., 2016 — small, mixed-sex sample).

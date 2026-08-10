@@ -11,6 +11,7 @@ tags:
   - salute
   - performance
   - ciclo
+  - menarca
 faq:
   - q: "Il ciclo mestruale influenza davvero la performance sportiva?"
     a: "Secondo la larga maggioranza delle atlete che lo vivono, sì. In uno studio longitudinale su 128 atlete d'élite britanniche di atletica leggera, il 77% ha riferito che la propria performance era stata influenzata negativamente dal ciclo almeno una volta nel periodo di osservazione (Jones et al., 2024). Attenzione all'età, però: quel campione ha un'età media di 28 anni, quindi fotografa atlete adulte d'élite, non ragazze di 13-14 anni. È un dato auto-riferito, cioè racconta l'esperienza vissuta — che è comunque ciò che determina se un'atleta si presenta all'allenamento."

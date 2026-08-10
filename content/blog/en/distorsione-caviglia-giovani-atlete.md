@@ -34,7 +34,7 @@ faq:
 
 In a club's calendar, the ankle sprain is the injury that never makes news. It doesn't end a season like an ACL tear, it has no written protocol like concussion, it doesn't frighten parents like a fracture. It gets described in five words — "it's just a twisted ankle" — and filed away with an ice pack. Then you look at the numbers on what happens to those athletes in the years that follow, and those five words turn out to be one of the worst bets in youth sport.
 
-> **In brief**
+> **Key points**
 > - In youth female athletes the **ankle is the most affected location: 23%** of all injuries, ahead of the knee (16%) and thigh (13%); 67% of injuries involve the lower limb (Beech et al., 2024; 32 studies, 15,908 athletes aged ≤19).
 > - Ankle sprain incidence is **higher in females** (13.6 versus 6.94 per 1,000 exposures) and **higher in the young** (Doherty et al., 2014; 181 prospective studies, highly heterogeneous values).
 > - Among athletes aged **14-18, 20.0% have chronic ankle instability**: **23.6% among girls**, 16.3% among boys — with lower sport function and lower perceived quality of life (Donovan et al., 2020; 1,002 athletes).

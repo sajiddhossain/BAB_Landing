@@ -2,7 +2,7 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)"
 date: 2026-07-04
-updated: 2026-08-04
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica."
 cover: /fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif
@@ -11,6 +11,8 @@ tags:
   - salute
   - energia
   - performance
+  - red-s
+  - amenorrea
 faq:
   - q: "Che cos'è la RED-S?"
     a: "RED-S (Relative Energy Deficiency in Sport) è una sindrome causata dalla bassa disponibilità energetica: quando l'energia introdotta con il cibo non basta a coprire quella spesa in allenamento e nella crescita, il corpo riduce funzioni come il ciclo mestruale, la salute ossea e il recupero. È descritta nel consensus del Comitato Olimpico Internazionale (IOC, 2014, aggiornato nel 2023)."
@@ -24,6 +26,10 @@ faq:
     a: "La Triade descrive tre elementi collegati: bassa disponibilità energetica, disfunzione mestruale e riduzione della salute ossea (De Souza et al., 2014). Nel 2014 il Comitato Olimpico Internazionale ha ampliato il quadro con la RED-S, riconoscendo che la carenza di energia colpisce anche sistema immunitario, metabolismo, umore, apparato cardiovascolare e la prestazione stessa (Mountjoy et al., 2014), aggiornandolo nel 2023 con nuovi strumenti di valutazione del rischio. La RED-S non sostituisce la Triade: la contiene e la allarga, e si applica a tutti i sessi."
   - q: "Come si valuta il rischio di RED-S?"
     a: "Con strumenti di screening, che servono a individuare chi merita un approfondimento e non a etichettare: il questionario LEAF-Q, validato su sintomi gastrointestinali, funzione mestruale e infortuni (Melin et al., 2014); il Female Athlete Triad Cumulative Risk Assessment, a punteggio; e il REDs CAT2, lo strumento a semaforo del consensus IOC 2023. Sono filtri, non verdetti: la valutazione clinica spetta a medici, dietisti e specialisti — mai a un'app o a un allenatore."
+  - q: "La RED-S riguarda solo le atlete magre?"
+    a: "No, ed è uno degli equivoci più costosi. La bassa disponibilità energetica è uno squilibrio tra l'energia introdotta e quella spesa nell'allenamento: può presentarsi a qualsiasi corporatura, e molto spesso senza alcuna intenzione di dimagrire — basta che il carico cresca e l'alimentazione resti quella di prima. Quello che nei dati si somma non è il peso ma il contesto: in uno studio prospettico su 259 ragazze e giovani donne attive (età media 18,1 anni), mettendo insieme almeno 12 ore di allenamento a settimana, uno sport «di magrezza» e la restrizione alimentare, la quota di chi aveva subito una lesione ossea da stress saliva al 46,2% contro un 10,8% complessivo (Barrack et al., 2014). I segnali da guardare sono ciclo, energia e infortuni che si ripetono, non la bilancia."
+  - q: "Cosa succede se la bassa disponibilità energetica va avanti per mesi?"
+    a: "Il conto più documentato lo paga l'osso. Nello stesso studio prospettico su 259 ragazze e giovani donne attive, chi aveva densità ossea bassa (Z-score sotto -1,0) e si allenava almeno 12 ore a settimana ha subito una lesione ossea da stress nel 29,7% dei casi, contro un 10,8% complessivo (Barrack et al., 2014). Due precisazioni doverose: l'età media di quel campione è 18,1 anni, quindi non fotografa una ragazza di 13-14 anni, ed è uno studio osservazionale, che descrive associazioni e non causalità dimostrata. La ragione per non aspettare resta: i mesi in cui questo accade sono gli stessi in cui si costruisce la massa ossea."
 ---
 
 Nello sport femminile giovanile esiste un'idea pericolosa: che allenarsi sempre di più sia sempre meglio. Ma il corpo di un'atleta adolescente non è un motore che si spinge all'infinito. Quando l'energia che entra non basta a coprire quella che esce — tra allenamento, scuola e la crescita stessa — il corpo inizia a **tagliare le funzioni che ritiene meno urgenti**. È il cuore di una condizione che la scienza chiama RED-S.

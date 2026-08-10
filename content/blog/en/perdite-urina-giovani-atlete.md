@@ -2,7 +2,7 @@
 slug: perdite-urina-giovani-atlete
 title: "I leak when I jump: the symptom almost no young athlete talks about"
 date: 2026-07-22
-updated: 2026-08-08
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "Leaking urine when jumping or landing affects on average 48.6% of adolescent female athletes, and 80% in trampolining. Yet 87% say they would not mention it to their coach. It is common, but common does not mean normal: what the data say about girls aged 13-17, why it is not their fault, and what a club can do without medicalising anything."
 cover: /fotobab/cover-pavimento-pelvico.jpg
@@ -26,11 +26,15 @@ faq:
     a: "Three things. First: do not reassure with 'that is normal' — it is common, not normal, and that difference is exactly what convinces a girl there is nothing to say. Second: do not ask for details or follow-up questions: the topic is intimate and involves minors, so opening the door does not mean walking through it. Third: do not prescribe exercises. Even in adults not every intervention works equally well — in one of the six studies in the systematic review, Kegel exercises alone produced no significant improvement (Demeco et al., 2024). Only one thing is needed from a coach: knowing who to refer her to."
   - q: "Can urinary leakage make a girl stop playing sport?"
     a: "It can reduce her training, and that is documented. Among 319 gymnasts and cheerleaders, 82.6% of those with stress urinary incontinence reported a negative effect on their sporting performance, 28.4% used protective pads, and 22.4% sometimes avoided training or specific exercises because of leakage (Skaug et al., 2022). Nobody records it as an injury, but it removes training sessions all the same."
+  - q: "Is urinary leakage in sport only an issue for women who have had children?"
+    a: "No, and that assumption is what keeps the topic invisible. A systematic review of 633 adolescent female athletes, mean age 16.15, found a mean prevalence of urinary incontinence during sport of 48.58%, ranging from 18.2% to 80% depending on the discipline (Rial Rebullido et al., 2021). These are girls who have had no pregnancies. What the highest-rate disciplines share is repeated impact: trampolining 80%, rope skipping 75%, football 62.8%."
+  - q: "Does it happen to elite athletes too?"
+    a: "Yes — and some of the most recent data comes from exactly there. At the 2024 U20 World Athletics Championships in Lima, among 325 elite athletes with a mean age of 18.1, 43.7% reported at least one pelvic floor dysfunction symptom — 53.7% among the girls against 29.3% among the boys — and 88% had never been screened (Giagio et al., 2025). So it is not a sign of insufficient training: it happens at the highest level, and almost nobody asks."
 ---
 
 There is a symptom in youth women's sport that is both very common and almost never said out loud: urinary leakage during training. It happens when jumping, landing, sprinting, changing direction. **Among adolescent female athletes the documented mean prevalence is 48.6%** — nearly one in two — rising to 80% in trampolining. The most striking figure, though, is not the frequency: it is that **87%** of girls say they would not mention it to the person who coaches them.
 
-> **In brief**
+> **Key points**
 > - Across **633 adolescent female athletes** (mean age 16.15 years), urinary incontinence prevalence ranges from **18.2% to 80%**, with a mean of **48.58%** (Rial Rebullido et al., 2021).
 > - Jump-heavy sports lead the table: **trampolining 80%**, rope skipping **75%**, soccer **62.8%**.
 > - **87%** of adolescent athletes would not mention it to their coach; **69% to 90%** had never heard of pelvic floor muscle training.

@@ -11,6 +11,8 @@ tags:
   - coach
   - società
   - pubertà
+  - prevenzione
+  - gestione-del-carico
 faq:
   - q: "Quante atlete adolescenti perde davvero una società?"
     a: "Molte più di quante ne registri. Seguendo per sette anni i tesseramenti effettivi di 29.225 atlete, tra chi era entrata a 10-14 anni solo il 13% ha partecipato con continuità e il 71% ha abbandonato senza mai rientrare (Eime et al., 2020). Nel Regno Unito, il 43% delle ragazze di 11-18 anni dice di aver amato lo sport da bambina e di averlo lasciato, contro il 24% dei maschi (Women in Sport, 2022 — report non peer-reviewed)."

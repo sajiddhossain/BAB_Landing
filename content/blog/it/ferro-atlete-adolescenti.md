@@ -2,7 +2,7 @@
 slug: ferro-atlete-adolescenti
 title: "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e che si trova con un esame)"
 date: 2026-07-16
-updated: 2026-08-06
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli."
 cover: /fotobab/cover-ferro-atlete.jpg
@@ -11,6 +11,7 @@ tags:
   - ferro
   - salute
   - pubertà
+  - energia
 faq:
   - q: "Quante atlete adolescenti hanno il ferro basso?"
     a: "Più di una su due. In uno studio su 126 atlete di 11-18 anni che praticavano basket e calcio, il 53,2% aveva una carenza di ferro lieve (ferritina ≤30 µg/L), il 27,8% moderata (≤20) e il 4,8% severa (≤10); l'anemia sideropenica vera e propria riguardava il 4% (Nicotra et al., 2023). Il punto è proprio questo: la carenza è molto più comune dell'anemia, e arriva molto prima."
@@ -24,6 +25,10 @@ faq:
     a: "Sì, ed è un dato misurato nell'età giusta. In uno studio su 394 studentesse post-menarca di circa 16 anni, una dieta che limita la carne si associava a odds di carenza 3,5 volte più alte; un flusso mestruale abbondante a 3 volte più alte; le due cose insieme a 13,5 volte (IC 95% 6,4-28,7) (Söderman et al., 2025). Non è un argomento contro le diete vegetariane: è un argomento a favore del controllo. Una dieta senza carne ben pianificata non è un problema in sé — è un motivo in più per misurare la ferritina invece di presumerla."
   - q: "Quando andrebbe fatto il controllo?"
     a: "Dal 2026 il clinical report dell'American Academy of Pediatrics raccomanda uno screening universale con emocromo e ferritina sierica in tutte le adolescenti, ad almeno un anno dal menarca e comunque non oltre i 14 anni, con ferritina ≤30 ng/mL come soglia di carenza (AAP, 2026). Un gruppo di ematologi ed esperti di medicina dello sport propone in modo indipendente uno screening intorno ai 14-15 anni, da ripetere ogni cinque (Revel-Vilk et al., 2025). In Italia non esiste una raccomandazione di screening universale equivalente: la decisione spetta al pediatra o al medico dello sport."
+  - q: "L'emocromo è normale ma il ferro è basso: com'è possibile?"
+    a: "Perché misurano due cose diverse. L'emocromo guarda l'emoglobina, cioè l'ultimo stadio: quando cala, la carenza è già arrivata all'anemia. La ferritina misura le riserve, e si svuota molto prima. È la ragione per cui la forma più diffusa nelle atlete adolescenti è la carenza senza anemia: con ferritina ≤30 µg/L riguarda il 53,2% delle ragazze di 11-18 anni, mentre l'anemia sideropenica ne riguarda il 4% (Nicotra et al., 2023). Un emocromo normale, da solo, non esclude nulla — e quale esame chiedere lo decide un medico."
+  - q: "Il ferro basso fa calare la prestazione anche senza anemia?"
+    a: "Le prove sono contrastanti, ed è corretto riportarle così. Una revisione di 12 studi su 283 partecipanti ha trovato 6 studi con miglioramento della performance dopo supplementazione e 6 senza (Rubeor et al., 2018). L'unico trial condotto proprio su atlete adolescenti — 14 podiste con ferritina bassa, in doppio cieco — ha mostrato un miglioramento significativo del tempo di endurance ma nessuna differenza nel VO2max (Rowland et al., 1988): quattordici partecipanti sono troppo poche per concludere. Quello che si può dire senza forzare è che la carenza va cercata e trattata perché è una questione di salute, non perché garantisca un guadagno di prestazione."
 ---
 
 C'è una domanda che nello sport giovanile femminile quasi nessuno fa: **com'è il ferro delle tue atlete?** Non l'emoglobina — quella si guarda quando ormai c'è l'anemia. Il ferro di scorta, la ferritina. È un numero che si ottiene con un prelievo banale, che quasi nessuna ha fatto, e che in più di un caso su due risulta basso.

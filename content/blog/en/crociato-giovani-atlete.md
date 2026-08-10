@@ -2,7 +2,7 @@
 slug: crociato-giovani-atlete
 title: "ACL injuries in young female athletes: why the risk is higher, and the 20 minutes that halve it"
 date: 2026-07-21
-updated: 2026-08-02
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "In high-school sport, girls tear their ACL 1.4 times as often as boys — and over four times as often in basketball. A neuromuscular warm-up cuts that risk by roughly 60% in 13-19 year-old athletes, costs twenty minutes twice a week, and almost no team actually does it. The evidence, and what changes on Monday."
 cover: /fotobab/cover-crociato-atlete.jpg
@@ -24,11 +24,15 @@ faq:
     a: "Early, and before the growth spurt if possible. In the meta-analysis of 27,231 female athletes the protective effect is strongest in the youngest band: among 13-19 year-olds the odds ratio is 0.38 (95% CI 0.24-0.60), roughly 60% less risk, versus 0.65 in athletes aged 19-24 (Petushek et al., 2019). The physiological reason is that the biomechanical gap opens with puberty: after peak growth, girls land with significantly greater dynamic knee valgus than male peers (-9.3° versus -3.6°; p<0.001), while in boys the value does not change over the years (Ford et al., 2010). The window in which risk rises is the same one in which training pays off most: waiting for the senior squad means losing the age at which the programme works best."
   - q: "Does the menstrual cycle increase ACL injury risk?"
     a: "The hypothesis exists; the evidence does not currently support it. A systematic review with meta-analysis of 21 studies and 68,758 participants rated the overall quality of evidence «very low» under GRADE criteria — meaning very little confidence in the effect estimate (Herzberg et al., 2017). A later review of neuromuscular and biomechanical risk surrogates reaches the same conclusion: it is not possible to say which cycle phase carries more risk, and the quality of evidence is low to very low (Dos'Santos et al., 2023). The practical consequence is clear: there is no basis for adjusting training, selection or screening around the cycle phase of a 14-year-old. What is proven to work is neuromuscular training, done every week of the month."
+  - q: "In which sports do girls tear their ACL most often?"
+    a: "The gap with male peers depends almost entirely on the sport. In US high school sport the overall ratio is 1.40 (95% CI 1.25-1.57), but in basketball it rises to 4.14 (95% CI 2.98-5.76); the highest absolute rate of all, however, is in girls' football, at 0.166 tears per 1,000 exposures (Bram et al., 2021). In plain terms: basketball is where the difference between girls and boys is starkest, girls' football is where it happens most often in absolute terms. In both cases the lever is the same — a neuromuscular warm-up done consistently."
+  - q: "After an ACL reconstruction, how high is the risk of a second injury?"
+    a: "High enough to change how the return is managed: among athletes under 25 who return to sport after a reconstruction, 23% sustain a second ACL injury (Wiggins et al., 2016 — athletes of both sexes). That is why going back on the pitch is not decided by the calendar, and not by the athlete on her own: timing and criteria belong to the clinician treating her. It is also why prevention matters earlier — the second injury is far easier to avoid by not having the first."
 ---
 
 The anterior cruciate ligament is the single injury most likely to change a girl's sporting trajectory: months out, surgery in most cases, and a return that is never guaranteed. The part that gets told least is that **the risk is neither randomly distributed nor fixed**: there is a warm-up with solid evidence behind it that cuts risk by roughly 60% in teenage athletes, costs twenty minutes twice a week, and almost no team actually does it.
 
-> **In short**
+> **Key points**
 > - In high-school sport, girls sustain **1.40 times** the ACL injuries of their male peers (95% CI 1.25-1.57); in **basketball** the ratio rises to **4.14** (Bram et al., 2021).
 > - The gap **opens with puberty**: after the growth spurt girls land with significantly greater knee valgus than boys, whose landing does not change (Ford et al., 2010).
 > - **Neuromuscular training** lowers risk from 1 in 54 to 1 in 111 (OR 0.51); among **13-19 year-olds** the effect is stronger (OR 0.38) (Petushek et al., 2019).

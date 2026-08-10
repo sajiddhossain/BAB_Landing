@@ -32,7 +32,7 @@ faq:
 
 In girls' youth sport the question almost nobody asks is not "how much does she train", but **how many months has it been since she did anything else**. One sport, twelve months a year, three or four sessions a week plus matches, from the age of nine or ten. In most countries this isn't called early specialisation: it's called taking sport seriously. And yet it is precisely the participation model on which paediatric medicine has stacked up the most warning signals — and for girls, there are now some numbers.
 
-> **In short**
+> **Key points**
 > - Among **219 female athletes aged 13-18**, the highly specialised were **2.93 times** as likely to report an injury history (Okoruwa et al., 2022).
 > - Training **more hours per week than your age in years** is associated with **2.07 times** the odds of a serious overuse injury (Jayanthi et al., 2015).
 > - In a longitudinal study of 579 young athletes, **girls** had **1.43 times** the odds of an overuse injury (Jayanthi et al., 2020).

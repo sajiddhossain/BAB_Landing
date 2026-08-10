@@ -31,5 +31,9 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Guida sintetica per gli assistenti AI: /llms.txt
+# Corpus completo del blog in un solo file: /llms-full.txt
+# Ogni articolo ha una sorgente in markdown allo stesso URL con suffisso .md
+# (es. /blog/dolori-mestruali-giovani-atlete.md), dichiarata in pagina come
+# <link rel="alternate" type="text/markdown">.
 # TODO al go-live: confermare il dominio definitivo
 Sitemap: https://www.babsport.com/sitemap.xml

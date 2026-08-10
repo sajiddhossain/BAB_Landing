@@ -28,7 +28,7 @@ faq:
 
 During puberty a girl's clinical pain genuinely increases, and neuroscience has measured it. "Her stomach hurts", "she always has a headache", "she says she can't manage today": in youth sport these lines are often filed under low grit or a bit of drama. Research tells a different story: **pain in this phase genuinely changes** — not in the mind of the person feeling it, but in the mechanisms that generate it. And it changes precisely in the 13-14 age range, when a girl is most often asked to "grit her teeth".
 
-> **In short**
+> **Key points**
 > - At puberty, **experimental** pain (to controlled stimuli) tends to **decrease**, but **clinical** pain — headaches, abdominal pain, dysmenorrhoea — **increases**.
 > - The **differences between girls and boys** in pain **emerge in adolescence, not before**: at 9-11 there are none; later, girls show lower thresholds.
 > - Abdominal pain after puberty rises to nearly **30% in girls** versus **16% in boys**; migraine increases more in girls.

@@ -2,7 +2,7 @@
 slug: ferro-atlete-adolescenti
 title: "Low iron in teenage athletes: the deficiency nobody looks for (and a blood test finds)"
 date: 2026-07-16
-updated: 2026-08-06
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone."
 cover: /fotobab/cover-ferro-atlete.jpg
@@ -11,6 +11,7 @@ tags:
   - iron
   - health
   - puberty
+  - energy-availability
 faq:
   - q: "How many teenage athletes have low iron?"
     a: "More than one in two. In a study of 126 female athletes aged 11-18 playing basketball and football, 53.2% had mild iron deficiency (ferritin ≤30 µg/L), 27.8% moderate (≤20) and 4.8% severe (≤10); outright iron-deficiency anaemia affected 4% (Nicotra et al., 2023). That's the whole point: deficiency is far more common than anaemia, and it arrives much earlier."
@@ -24,11 +25,15 @@ faq:
     a: "Yes, and it has been measured in the right age band. In a study of 394 post-menarcheal students of around 16, a diet limiting meat was associated with 3.5 times higher odds of deficiency; heavy menstrual bleeding with 3 times higher odds; the two combined with 13.5 times (95% CI 6.4-28.7) (Söderman et al., 2025). This is not an argument against vegetarian diets: it is an argument for testing. A well-planned meat-free diet is not a problem in itself — it is one more reason to measure ferritin instead of assuming it."
   - q: "When should the check happen?"
     a: "Since 2026 the American Academy of Pediatrics clinical report recommends universal laboratory screening with a complete blood count and serum ferritin in all adolescents, at least one year post-menarche and no later than age 14, with ferritin ≤30 ng/mL as the threshold for deficiency (AAP, 2026). Independently, a group of haematologists and sports medicine experts proposes screening around ages 14-15, repeated every five years (Revel-Vilk et al., 2025). Guidance varies by country — the decision rests with your paediatrician or sports physician."
+  - q: "The full blood count is normal but iron is low: how?"
+    a: "Because they measure different things. A full blood count looks at haemoglobin, the final stage: by the time it drops, the deficiency has already reached anaemia. Ferritin measures the stores, and they empty far earlier. That is why the most common form in adolescent female athletes is deficiency without anaemia: at ferritin ≤30 µg/L it affects 53.2% of girls aged 11-18, while iron deficiency anaemia affects 4% (Nicotra et al., 2023). A normal blood count on its own rules nothing out — and which test to order is a doctor's call."
+  - q: "Does low iron hurt performance even without anaemia?"
+    a: "The evidence is mixed, and it is only right to report it that way. A review of 12 studies in 283 participants found 6 studies with improved performance after supplementation and 6 without (Rubeor et al., 2018). The only trial run specifically on adolescent female athletes — 14 high school runners with low ferritin, double-blind — showed a significant improvement in endurance time but no difference in VO2max (Rowland et al., 1988): fourteen participants are far too few to conclude. What can be said without overreaching is that deficiency should be looked for and treated because it is a health matter, not because it guarantees a performance gain."
 ---
 
 There's a question almost nobody asks in youth women's sport: **how is your athletes' iron?** Not haemoglobin — that's what you look at once anaemia has already arrived. Stored iron. Ferritin. It's a number you get from an unremarkable blood test, one almost no girl has had, and in more than half of cases it comes back low.
 
-> **In short**
+> **Key points**
 > - **53.2%** of teenage athletes (11-18) have mild iron deficiency (ferritin ≤30 µg/L); only **4%** have iron-deficiency anaemia (Nicotra et al., 2023).
 > - **Sport isn't** the dominant factor: among adolescents, athletes and non-athletes don't differ significantly (Rowland et al., 1991).
 > - Risk multiplies with **heavy periods + a meat-restricted diet**: odds **13.5 times** higher (Söderman et al., 2025).

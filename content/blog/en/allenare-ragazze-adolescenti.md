@@ -11,6 +11,8 @@ tags:
   - coach
   - clubs
   - puberty
+  - prevention
+  - load-management
 faq:
   - q: "How many teenage athletes does a club actually lose?"
     a: "Far more than it records. Tracking the actual registrations of 29,225 female athletes over seven years, among those who joined aged 10-14 only 13% participated continuously and 71% dropped out without ever returning (Eime et al., 2020). In the UK, 43% of girls aged 11-18 say they loved sport as children and have left it, against 24% of boys (Women in Sport, 2022 — not peer-reviewed)."
@@ -34,7 +36,7 @@ faq:
 
 Among girls who join a sports club aged **10-14, 71% drop out without ever returning** (Eime et al., 2020). For a club that's not just a social statistic: it's talent walking out the door and a squad thinning out in exactly the years it should be growing. The good news? Much of what keeps an athlete in the game runs through the hands of the person coaching her.
 
-> **In short**
+> **Key points**
 > - Among those who join aged **10-14**, only **13%** participate continuously over seven years; **71%** drop out without returning (Eime et al., 2020).
 > - A coach perceived as **very well-informed** is associated with **36% fewer** RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample).
 > - Between **25%** and **61%** of adolescent girls avoid or reduce physical activity during their period (Harvey et al., 2025).

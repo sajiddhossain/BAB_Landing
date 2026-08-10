@@ -2,7 +2,7 @@
 slug: sonno-atlete-adolescenti
 title: "Sleep and teenage athletes: why 8 hours isn't a luxury (and puberty makes them harder to get)"
 date: 2026-07-18
-updated: 2026-08-06
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "How many hours should a 14-year-old athlete sleep? Between 8 and 10, says the consensus recommendation for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured, and through puberty insomnia symptoms in girls climb from 3.4% to 12.2% — against 4.3%-9.1% in boys, because the body clock shifts later while the school alarm stays put. What the evidence says, what it does not, and what a club can change from Monday."
 cover: /fotobab/cover-sonno-atlete.jpg
@@ -24,11 +24,15 @@ faq:
     a: "Because the gap opens up with puberty itself. In a study of 7,507 children and adolescents aged 6-17, insomnia symptoms rose from 3.4% to 12.2% in girls between Tanner stage 1 and stage 5 (a 3.6-fold rise), versus 4.3% to 9.1% in boys (2.1-fold), with the female excess emerging at Tanner stage 4 (Zhang et al., 2016). The finding held after controlling for age, family income and school start time."
   - q: "Does sleeping more improve sports performance?"
     a: "For teenage female athletes there is no solid evidence, and it's only fair to say so. The most-cited sleep-extension study involved 11 male collegiate basketball players, mean age 19.4, with no control group (Mah et al., 2011): it does not transfer to a 14-year-old girl. What can be said honestly is that adequate sleep is recommended for health at this age, and that insufficient sleep is associated with more injuries in adolescent athletes."
+  - q: "What time should a 14-year-old athlete go to bed if she wakes at 6:45?"
+    a: "This is subtraction, not opinion: the consensus recommendation for ages 13-18 is 8-10 hours per night (Paruthi et al., 2016), so with a 6:45 alarm the consistent bedtime falls between 20:45 and 22:45 — and the time it takes to fall asleep belongs inside that window, not outside it. The practical point is that you do not get there by asking a girl to sleep more: at puberty the internal sleep signal arrives later (Carskadon, 2011). You get there by moving what comes before — the end of training, dinner, homework."
+  - q: "Does training late in the evening wreck sleep?"
+    a: "Evening training is one of the things that push sleep onset later, alongside the circadian shift typical of puberty (Carskadon, 2011) and everything that follows it: dinner, homework, phone. There is no number to cite for the isolated effect of evening training in adolescent girls, and that is worth saying rather than inventing one. What is measured is the end result — hours actually slept: among adolescent athletes, sleeping less than 8 hours a night is associated with being injured 1.7 times more often (95% CI 1.0-3.0; Milewski et al., 2014 — 112 athletes of both sexes, an association, not demonstrated causation). The lever a club can actually pull is the time training ends."
 ---
 
 In youth sport, sleep is the variable nobody discusses and the first one to get cut. Evening training, homework after dinner, a phone in bed, an alarm at 6:45: the hours disappear one at a time, and nobody counts them. Yet for a 14-year-old body **sleep isn't optional recovery: it's part of growing**. And there's a detail almost nobody tells girls — through puberty, sleeping well becomes objectively harder for them.
 
-> **In short**
+> **Key points**
 > - The consensus recommendation for **ages 13-18** is **8-10 hours** of sleep per night (Paruthi et al., 2016).
 > - Among adolescent athletes, sleeping **under 8 hours** is associated with being injured **1.7 times** more often — a borderline-significant finding, in a mixed-sex sample (Milewski et al., 2014).
 > - Through puberty **the body clock shifts later**: sleep need doesn't fall, the time the body can fall asleep moves (Carskadon, 2011).

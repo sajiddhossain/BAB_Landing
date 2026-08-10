@@ -2,7 +2,7 @@
 slug: sonno-atlete-adolescenti
 title: "Sonno e atlete adolescenti: perché 8 ore non sono un lusso (e la pubertà le rende più difficili)"
 date: 2026-07-18
-updated: 2026-08-06
+updated: 2026-08-10
 author: Sajid Hossain
 excerpt: "Quante ore deve dormire un'atleta di 14 anni? Tra 8 e 10, dice la raccomandazione di consenso per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato, e con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2% — contro il 4,3%-9,1% dei ragazzi, perché l'orologio biologico slitta in avanti mentre la sveglia della scuola resta la stessa. Cosa dicono davvero i dati, cosa non dicono, e cosa può cambiare una società sportiva già da lunedì."
 cover: /fotobab/cover-sonno-atlete.jpg
@@ -23,6 +23,10 @@ faq:
     a: "Perché il divario si apre proprio con la pubertà. In uno studio su 7.507 bambini e adolescenti di 6-17 anni, i sintomi di insonnia sono passati dal 3,4% al 12,2% nelle ragazze tra lo stadio 1 e lo stadio 5 di Tanner (3,6 volte), contro il 4,3%-9,1% nei ragazzi (2,1 volte), con la differenza tra sessi che emerge allo stadio 4 (Zhang et al., 2016). Il dato resta anche tenendo conto di età, reddito familiare e orario di inizio della scuola."
   - q: "Dormire di più migliora la prestazione sportiva?"
     a: "Sulle atlete adolescenti non esistono prove solide, ed è corretto dirlo. Lo studio più citato sull'estensione del sonno riguarda 11 cestisti universitari maschi, di età media 19,4 anni, senza gruppo di controllo (Mah et al., 2011): non è trasferibile a una ragazza di 14 anni. Quello che si può dire con onestà è che dormire abbastanza è raccomandato per la salute in questa età, e che il sonno insufficiente è associato a più infortuni negli atleti adolescenti."
+  - q: "A che ora dovrebbe andare a letto un'atleta di 14 anni che si sveglia alle 6:45?"
+    a: "È una sottrazione, non un'opinione: la raccomandazione di consenso per i 13-18 anni è di 8-10 ore per notte (Paruthi et al., 2016), quindi con la sveglia alle 6:45 l'orario di addormentamento coerente sta tra le 20:45 e le 22:45 — e il tempo che serve per addormentarsi va contato dentro quella finestra, non fuori. Il punto pratico è che quell'orario non si ottiene chiedendo a una ragazza di dormire di più: con la pubertà il segnale interno di sonno arriva più tardi (Carskadon, 2011). Si ottiene spostando ciò che viene prima — fine allenamento, cena, compiti."
+  - q: "Allenarsi la sera tardi rovina il sonno?"
+    a: "L'allenamento serale è uno dei vettori che spostano in avanti l'addormentamento, insieme allo slittamento dell'orologio biologico tipico della pubertà (Carskadon, 2011) e a tutto ciò che arriva dopo: cena, compiti, telefono. Sull'effetto isolato dell'allenamento serale nelle adolescenti non esiste un numero da citare, e va detto invece di inventarlo. Quello che è misurato è il risultato finale, cioè le ore effettivamente dormite: tra gli atleti adolescenti, dormire meno di 8 ore per notte si associa a essere infortunati 1,7 volte più spesso (IC 95% 1,0-3,0; Milewski et al., 2014 — 112 atleti di entrambi i sessi, associazione e non causa dimostrata). La leva su cui una società può agire davvero è l'orario in cui l'allenamento finisce."
 ---
 
 Nello sport giovanile il sonno è la variabile di cui si parla meno e che si taglia per prima. Allenamento la sera, compiti dopo cena, telefono a letto, sveglia alle 6:45: le ore spariscono una alla volta, e nessuno le conta. Eppure per un corpo di 14 anni **il sonno non è recupero opzionale: è parte della crescita**. E c'è un dettaglio che quasi nessuno racconta alle ragazze — con la pubertà, dormire diventa oggettivamente più difficile per loro.

@@ -11,6 +11,7 @@ tags:
   - education
   - communication
   - cycle
+  - amenorrhoea
 faq:
   - q: "How many athletes talk about their cycle with their coach?"
     a: "In a study of 1,086 athletes from Sweden and Norway, only 11% discussed menstrual topics with their coach. The share dropped to 4% when the coach was a man and rose to 55% with a female coach (Höök et al., 2022)."
@@ -34,7 +35,7 @@ faq:
 
 Here is a figure that should make anyone who coaches girls stop and think: when the coach is a man, **only 4% of athletes talk to him about the menstrual cycle**. Not because the cycle doesn't matter — it matters a great deal — but because there's no simple, safe, non-embarrassing way to do it. The problem in youth women's sport is often not the athletes' motivation. It's the **silence**.
 
-> **In short**
+> **Key points**
 > - Only **11%** of athletes talk about their cycle with their coach; **4%** if he's a man, **55%** if she's a woman.
 > - **88%** learned these things **on their own**: formal education is almost absent.
 > - The gap **does not depend on competitive level**: it affects everyone, not just the youngest or amateurs.
