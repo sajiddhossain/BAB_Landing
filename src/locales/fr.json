@@ -6,7 +6,9 @@
     "features": "Fonctionnalités",
     "about": "À propos",
     "waitlist": "Rejoins la liste d’attente",
-    "blog": "Blog"
+    "blog": "Blog",
+    "faq": "Questions et réponses",
+    "glossary": "Glossaire"
   },
   "footer": {
     "tagline": "La première plateforme de soutien pour les adolescentes dans le sport",
@@ -681,6 +683,14 @@
     "blog": {
       "title": "Blog BAB — Sport, croissance et santé des athlètes",
       "desc": "Histoires, données et conseils sur le sport féminin, le cycle, le décrochage et la croissance des jeunes athlètes."
+    },
+    "glossario": {
+      "title": "Glossaire de la santé des jeunes athlètes | BAB",
+      "desc": "RED-S, dysménorrhée, pic de croissance, spondylolyse, GIRD : 42 définitions avec le chiffre, la population mesurée et la source. Le glossaire de BAB."
+    },
+    "faq": {
+      "title": "Questions et réponses sur les jeunes athlètes | BAB",
+      "desc": "Toutes les questions auxquelles BAB répond, avec une source pour chaque chiffre : cycle et performance, blessures, sommeil, fer, douleur, abandon sportif."
     }
   },
   "a11y": {

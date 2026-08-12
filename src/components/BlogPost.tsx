@@ -81,6 +81,34 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  />
  )}
 
+ {/* Sommario: le stesse ancore (#id) generate al build sui titoli dell'articolo.
+ Serve al lettore per orientarsi e ai motori per capire — e citare — la sezione
+ esatta che risponde a una domanda, invece della pagina intera. */}
+ {post.headings && post.headings.filter((h) => h.level === 2).length >= 3 && (
+ <nav
+ className="blog-toc mb-10 border-[3px] border-black bg-white p-5 shadow-[6px_6px_0_0_#0F0F12]"
+ aria-labelledby="toc-heading"
+ >
+ <h2 id="toc-heading" className="font-black uppercase text-xs tracking-widest mb-3">
+ {lang === 'en' ? 'In this article' : 'In questo articolo'}
+ </h2>
+ <ol className="flex flex-col gap-1.5 list-none">
+ {post.headings
+ .filter((h) => h.level === 2)
+ .map((h) => (
+ <li key={h.id}>
+ <a
+ href={`#${h.id}`}
+ className="text-[15px] text-vividteal font-bold hover:underline focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+ >
+ {h.text}
+ </a>
+ </li>
+ ))}
+ </ol>
+ </nav>
+ )}
+
  <div
  className="blog-prose font-['Space_Grotesk',_sans-serif] text-[17px] leading-relaxed text-[#0F0F12]"
  dangerouslySetInnerHTML={{ __html: localizeBlogLinks(post.html, lang) }}
@@ -97,12 +125,23 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  </h2>
  <dl className="flex flex-col gap-6">
  {post.faq.map((f, i) => (
- <div key={i}>
- <dt className="font-['Space_Grotesk',_sans-serif] font-bold text-[17px] text-[#0F0F12] mb-1.5">
+ // `id` = ancora della singola risposta: /blog/{slug}#faq-… è l'URL che un
+ // answer engine può citare per QUESTA risposta, non per l'articolo intero.
+ <div key={f.id ?? i} id={f.id}>
+ <dt className="font-['Space_Grotesk',_sans-serif] font-bold text-[17px] text-[#0F0F12] mb-1.5 scroll-mt-24">
  {f.q}
  </dt>
  <dd className="font-['Space_Grotesk',_sans-serif] text-[#0F0F12]/80 leading-relaxed">
  {f.a}
+ {f.id && (
+ <a
+ href={`#${f.id}`}
+ aria-label={lang === 'en' ? 'Link to this answer' : 'Link a questa risposta'}
+ className="ml-2 text-vividteal font-black no-underline hover:underline focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+ >
+ #
+ </a>
+ )}
  </dd>
  </div>
  ))}

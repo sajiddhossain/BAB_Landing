@@ -22,7 +22,10 @@ export interface BlogPostData {
  /** Testo alternativo della copertina; se assente si ricade sul titolo. */
  coverAlt?: string;
  tags: string[];
- faq?: { q: string; a: string }[];
+ /** Ogni FAQ ha un'ancora propria (`id`), così la singola risposta ha un URL citabile. */
+ faq?: { q: string; a: string; id?: string }[];
+ /** Titoli dell'articolo con le rispettive ancore: alimenta il sommario in cima. */
+ headings?: { level: number; text: string; id: string }[];
  readingMinutes: number;
  html: string;
 }
@@ -72,6 +75,23 @@ export default function Blog({ lang: langProp }: BlogProps = {}) {
  </h1>
  <p className="font-['Space_Grotesk',_sans-serif] text-lg sm:text-xl text-[#0F0F12]/75 max-w-2xl">
  {tt('blog.subtitle')}
+ </p>
+ {/* Due scorciatoie verso le pagine-risposta: chi arriva con una domanda precisa
+ non deve aprire dodici articoli per trovarla. Sono anche i link interni che
+ tengono glossario e FAQ dentro il grafo del sito invece che ai suoi margini. */}
+ <p className="mt-6 flex flex-wrap gap-3">
+ <a
+ href={lang === 'en' ? '/en/faq' : '/faq'}
+ className="inline-block bg-white border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-xs shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-0.5 transition-transform focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+ >
+ {lang === 'en' ? 'All questions →' : 'Tutte le domande →'}
+ </a>
+ <a
+ href={lang === 'en' ? '/en/glossario' : '/glossario'}
+ className="inline-block bg-white border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-xs shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-0.5 transition-transform focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+ >
+ {lang === 'en' ? 'Glossary →' : 'Glossario →'}
+ </a>
  </p>
  </header>
 

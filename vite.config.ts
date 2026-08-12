@@ -11,6 +11,8 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import fs from 'node:fs'
 import path from 'node:path'
+import { GLOSSARY } from './src/data/glossary'
+import { FAQ_BAB } from './src/data/faqBab'
 
 const DOMAIN = 'https://www.babsport.com'
 
@@ -50,252 +52,21 @@ const BREADCRUMB_LABEL: Record<string, string> = {
 const esc = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 
-// --- Glossario BAB (GEO): concetti-chiave come entità DefinedTerm, ancorati a
-// voci enciclopediche (sameAs). Il set completo è pubblicato in home; ogni
-// articolo referenzia i termini pertinenti via `about`, aiutando i motori
-// generativi a collegare i contenuti a entità note (entity/answer grounding). ---
-const GLOSSARY_ID = `${DOMAIN}/#glossario`
-const GLOSSARY: Record<string, { name: string; description: string; sameAs?: string }> = {
-  'red-s': {
-    name: 'RED-S (Relative Energy Deficiency in Sport)',
-    description:
-      "Sindrome da bassa disponibilità di energia nello sport: quando l'apporto energetico non copre la spesa dell'allenamento, con effetti su ciclo, ossa, sistema immunitario e umore.",
-    sameAs: 'https://en.wikipedia.org/wiki/Relative_energy_deficiency_in_sport',
-  },
-  ciclo: {
-    name: 'Ciclo mestruale',
-    description: 'Il ciclo ormonale femminile; nello sport giovanile è un segnale di salute da riconoscere, non un dato clinico da diagnosticare.',
-    sameAs: 'https://it.wikipedia.org/wiki/Ciclo_mestruale',
-  },
-  dismenorrea: {
-    name: 'Dismenorrea (dolore mestruale)',
-    description:
-      "Dolore associato alle mestruazioni. È la forma di dolore ricorrente più diffusa tra le ragazze in età scolare: la prevalenza stimata tra le giovani donne sotto i 25 anni è del 71,1%, con il 20,1% che riferisce assenze da scuola o università e il 40,9% un impatto su concentrazione e rendimento (Armour et al., 2019). Tra le atlete è il disturbo del ciclo più frequente, con prevalenza del 32,3% e un intervallo molto ampio tra studi, 7,8-85,6% (Taim et al., 2023). Si distingue in primaria (senza patologia pelvica sottostante, la forma di gran lunga più comune nelle adolescenti) e secondaria.",
-    sameAs: 'https://it.wikipedia.org/wiki/Dismenorrea',
-  },
-  endometriosi: {
-    name: 'Endometriosi',
-    description:
-      "Presenza di tessuto simile all'endometrio fuori dalla cavità uterina; è la principale causa di dismenorrea secondaria nelle adolescenti. Il riferimento clinico dedicato a questa fascia d'età indica di indagare le cause secondarie quando il dolore mestruale non migliora entro 3-6 mesi dall'inizio della terapia (ACOG Committee Opinion No. 760, 2018). Nel contesto sportivo il punto non è diagnosticare, ma non normalizzare un dolore che continua a far saltare allenamenti e scuola.",
-    sameAs: 'https://it.wikipedia.org/wiki/Endometriosi',
-  },
-  'pubertà': {
-    name: 'Pubertà',
-    description: 'La fase di sviluppo in cui il corpo matura; finestra in cui emergono molti dei cambiamenti fisiologici rilevanti per le giovani atlete.',
-    sameAs: 'https://it.wikipedia.org/wiki/Pubert%C3%A0',
-  },
-  dolore: {
-    name: 'Dolore',
-    description: "Esperienza sensoriale ed emotiva che durante la pubertà cambia nei suoi meccanismi; il dolore clinico tende ad aumentare in questa fascia d'età.",
-    sameAs: 'https://it.wikipedia.org/wiki/Dolore',
-  },
-  amenorrea: {
-    name: 'Amenorrea',
-    description: "Assenza di mestruazioni; nello sport non è un effetto collaterale innocuo dell'allenamento ma un possibile segnale d'allarme.",
-    sameAs: 'https://it.wikipedia.org/wiki/Amenorrea',
-  },
-  menarca: {
-    name: 'Menarca',
-    description: 'La prima mestruazione; il suo timing è associato a diversi esiti di salute in adolescenza e in età adulta.',
-    sameAs: 'https://it.wikipedia.org/wiki/Menarca',
-  },
-  'drop-out': {
-    name: 'Drop-out sportivo femminile',
-    description:
-      "L'abbandono dello sport in adolescenza: tra le ragazze tesserate a 10-14 anni il 71% smette senza mai rientrare (Eime et al., 2020). Non è un calo di motivazione, ma l'esito di un ambiente che smette di funzionare quando il corpo cambia.",
-  },
-  'reggiseno-sportivo': {
-    name: 'Reggiseno sportivo',
-    description:
-      'Indumento di sostegno per il seno durante il movimento. Il tessuto mammario non ha muscoli propri che lo sostengano: a 13-14 anni il 51% delle ragazze dice che il seno influenza la partecipazione allo sport, ma solo il 10% ne indossa sempre uno (Scurr et al., 2016).',
-    sameAs: 'https://it.wikipedia.org/wiki/Reggiseno_sportivo',
-  },
-  ferro: {
-    name: 'Carenza di ferro',
-    description:
-      "Riserve di ferro insufficienti, misurate con la ferritina; può esserci anche senza anemia. Nelle atlete adolescenti la prevalenza di carenza lieve (ferritina ≤30 µg/L) è del 53% (Nicotra et al., 2023). Si accerta con un esame del sangue, non si presume.",
-    sameAs: 'https://it.wikipedia.org/wiki/Carenza_di_ferro',
-  },
-  energia: {
-    name: 'Disponibilità energetica',
-    description:
-      "L'energia che resta al corpo per le sue funzioni vitali dopo aver coperto la spesa dell'allenamento. Quando è troppo bassa il corpo riduce funzioni come ciclo mestruale, salute ossea e recupero: è il meccanismo alla base della RED-S.",
-  },
-  sonno: {
-    name: 'Sonno in adolescenza',
-    description:
-      "Il riposo notturno nella fascia 13-18 anni, per cui la raccomandazione di consenso è di 8-10 ore per notte (Paruthi et al., 2016). Negli atleti adolescenti dormire meno di 8 ore è associato a essere infortunati 1,7 volte più spesso (Milewski et al., 2014). Non è recupero opzionale: è parte della crescita.",
-    sameAs: 'https://it.wikipedia.org/wiki/Sonno',
-  },
-  'ritmo-circadiano': {
-    name: 'Ritmo circadiano',
-    description:
-      "L'orologio biologico interno che regola sonno e veglia. Con la pubertà la sua temporizzazione slitta in avanti: il bisogno di sonno non diminuisce, cambia l'orario in cui il corpo riesce ad addormentarsi, e questo entra in conflitto con gli orari scolastici (Carskadon, 2011).",
-    sameAs: 'https://it.wikipedia.org/wiki/Ritmo_circadiano',
-  },
-  crociato: {
-    name: 'Legamento crociato anteriore (LCA)',
-    description:
-      "Legamento che stabilizza il ginocchio; la sua rottura è l'infortunio che più spesso interrompe la carriera sportiva di una ragazza. Nello sport scolastico le atlete subiscono 1,40 volte le rotture dei coetanei maschi (0,084 contro 0,060 per 1.000 esposizioni), con il divario più ampio nel basket (RR 4,14) (Bram et al., 2021).",
-    sameAs: 'https://it.wikipedia.org/wiki/Legamento_crociato_anteriore',
-  },
-  prevenzione: {
-    name: 'Allenamento neuromuscolare preventivo',
-    description:
-      "Riscaldamento strutturato con stabilizzazione all'atterraggio, forza e controllo del bacino. Riduce il rischio di rottura del crociato da circa 1 su 54 a 1 su 111 (OR 0,51), con effetto più forte tra le atlete di 13-19 anni (OR 0,38) (Petushek et al., 2019). Funziona solo sopra il ~66% di aderenza (Sugimoto et al., 2012).",
-  },
-  'pavimento-pelvico': {
-    name: 'Pavimento pelvico',
-    description:
-      "Il gruppo di muscoli che sostiene vescica e organi pelvici e partecipa al meccanismo della continenza. Nello sport a impatto ripetuto è sollecitato a ogni salto e atterraggio: tra le atlete adolescenti la prevalenza media di incontinenza urinaria è del 48,58% (Rial Rebullido et al., 2021).",
-    sameAs: 'https://it.wikipedia.org/wiki/Pavimento_pelvico',
-  },
-  incontinenza: {
-    name: 'Incontinenza urinaria nello sport',
-    description:
-      "Perdite involontarie di urina durante l'attività fisica, tipicamente in salti, sprint e cambi di direzione. È frequente ma non fisiologica: l'87% delle atlete adolescenti dichiara che non ne parlerebbe con l'allenatore e fino al 90% non ha mai sentito nominare l'allenamento del pavimento pelvico (Rial Rebullido et al., 2021).",
-    sameAs: 'https://it.wikipedia.org/wiki/Incontinenza_urinaria',
-  },
-  'commozione-cerebrale': {
-    name: 'Commozione cerebrale nello sport',
-    description:
-      "Trauma cranico funzionale indotto da forze biomeccaniche: non richiede né un colpo visibile alla testa né la perdita di coscienza. Nel calcio scolastico le atlete ne subiscono 1,88 volte quelle dei coetanei maschi (IC 95% 1,69-2,09) e il meccanismo prevalente è il contatto con un oggetto (41,9%) anziché con un altro giocatore (Bretzin et al., 2021). In caso di sospetto l'atleta va rimossa immediatamente dall'attività.",
-    sameAs: 'https://it.wikipedia.org/wiki/Commozione_cerebrale',
-  },
-  'ritorno-al-gioco': {
-    name: 'Ritorno al gioco (return-to-sport)',
-    description:
-      "Il percorso graduale che riporta un'atleta all'attività dopo un infortunio. Dopo una commozione cerebrale il consenso internazionale di Amsterdam 2022 prevede 24-48 ore di riposo relativo (non assoluto), 4 tappe di ritorno a scuola e 6 tappe di ritorno allo sport di almeno 24 ore ciascuna, con il rientro scolastico completo prima di quello sportivo senza restrizioni e l'autorizzazione finale affidata a un professionista sanitario (Patricios et al., 2023).",
-  },
-  'specializzazione-precoce': {
-    name: 'Specializzazione sportiva precoce',
-    description:
-      "Praticare un solo sport per più di 8 mesi all'anno, sceglierlo come sport principale e abbandonare gli altri: tre criteri che definiscono l'alta specializzazione sulla scala a 3 punti usata in letteratura. Tra le atlete di 13-18 anni le altamente specializzate riferiscono una storia di infortuni 2,93 volte più spesso delle poco specializzate (Okoruwa et al., 2022); l'American Academy of Pediatrics raccomanda di praticare più sport almeno fino alla pubertà (Brenner e AAP, 2016).",
-  },
-  sovraccarico: {
-    name: 'Infortunio da sovraccarico (overuse)',
-    description:
-      "Danno da carico ripetuto senza un trauma singolo identificabile: si accumula nel tempo e per questo viene notato tardi. Negli atleti molto specializzati il rischio è 1,81 volte quello dei poco specializzati (Bell et al., 2018), e chi si allena più ore a settimana dei propri anni d'età ha 2,07 volte le probabilità di un infortunio grave da sovraccarico (Jayanthi et al., 2015).",
-  },
-  'gioco-libero': {
-    name: 'Gioco libero (deliberate play)',
-    description:
-      "Attività fisica non strutturata, scelta e regolata dai ragazzi stessi, distinta dall'allenamento organizzato. Non è tempo perso: quando il rapporto tra sport organizzato e gioco libero supera 2:1 ore a settimana, le probabilità di un infortunio grave da sovraccarico salgono a 1,87 volte (Jayanthi et al., 2015).",
-  },
-  ossa: {
-    name: 'Salute ossea e picco di massa ossea',
-    description:
-      "Il patrimonio osseo che si accumula durante la crescita. Il contenuto minerale osseo totale raggiunge un plateau in media 6 anni dopo il picco di velocità di crescita staturale, cioè intorno ai 18 anni nelle ragazze (Baxter-Jones et al., 2011); i fattori di stile di vita — attività fisica, alimentazione, calcio, vitamina D — ne influenzano il 20-40% (Weaver et al., 2016). È una finestra che si chiude: l'osso si costruisce in adolescenza, non dopo.",
-    sameAs: 'https://it.wikipedia.org/wiki/Osso',
-  },
-  'frattura-da-stress': {
-    name: 'Frattura da stress (lesione ossea da stress)',
-    description:
-      "Danno osseo da carico ripetuto senza un trauma singolo: si manifesta come dolore localizzato in un punto preciso, che compare sotto carico e nel tempo arriva sempre prima nella seduta. Nello sport delle scuole superiori le atlete ne subiscono 2,22 ogni 100.000 esposizioni contro 1,27 dei coetanei maschi (rapporto 1,75) e rappresentano il 63,3% di tutti i casi (Changstrom et al., 2015); le recidive negli atleti adolescenti arrivano al 21% (Beck e Drysdale, 2021).",
-    sameAs: 'https://it.wikipedia.org/wiki/Frattura_da_stress',
-  },
-  'dolore-femoro-rotuleo': {
-    name: 'Dolore femoro-rotuleo (patellofemoral pain)',
-    description:
-      "Dolore diffuso attorno o dietro la rotula, provocato dal carico del ginocchio in flessione: scale, accosciate, salti, corsa e lo stare seduta a lungo. Non è un dolore puntiforme sull'osso e non nasce da un trauma singolo: nella coorte danese il 68,3% dei dolori al ginocchio degli adolescenti aveva esordio insidioso (Rathleff et al., 2013). La prevalenza annuale stimata negli adolescenti è del 28,9% (Smith et al., 2018) e non è autolimitante: a 2 anni il 55,9% ha ancora dolore (Rathleff et al., 2016), a 5 anni il 40,5%, con il 60% di questi che ha smesso o ridotto lo sport (Rathleff et al., 2019).",
-    sameAs: 'https://it.wikipedia.org/wiki/Sindrome_femoro-rotulea',
-  },
-  'osgood-schlatter': {
-    name: 'Morbo di Osgood-Schlatter',
-    description:
-      "Dolore localizzato sulla tuberosità tibiale, dove il tendine rotuleo si inserisce appena sotto la rotula; tipico dell'adolescenza in crescita. Non richiede solo attesa: in una coorte prospettica su 51 adolescenti di 10-14 anni (51% ragazze) una scala di progressione del carico con esercizi di rinforzo ha prodotto l'80% di esiti positivi a 12 settimane e il 90% a 12 mesi, pur senza gruppo di controllo (Rathleff et al., 2020).",
-    sameAs: 'https://it.wikipedia.org/wiki/Morbo_di_Osgood-Schlatter',
-  },
-  'gestione-del-carico': {
-    name: 'Gestione del carico (load management)',
-    description:
-      "Dosare progressivamente il carico di allenamento invece di alternare stop totale e ripresa piena. Nel dolore femoro-rotuleo degli adolescenti è l'approccio con i risultati migliori: 12 settimane di modifica dell'attività, rinforzo e ritorno graduale allo sport hanno prodotto l'86% di esiti positivi a 12 settimane e l'81% a 12 mesi in 151 ragazzi e ragazze di 10-14 anni (Rathleff et al., 2019); aggiungere esercizio supervisionato all'educazione raddoppia le probabilità di guarigione a 24 mesi (OR 2,52; Rathleff et al., 2015).",
-  },
-  tanner: {
-    name: 'Stadi di Tanner',
-    description:
-      'La scala clinica che descrive le tappe dello sviluppo puberale. È utile perché molti fenomeni si legano allo stadio puberale più che allo stadio anagrafico: i sintomi di insonnia nelle ragazze, per esempio, salgono dal 3,4% al 12,2% tra lo stadio 1 e lo stadio 5 (Zhang et al., 2016).',
-    sameAs: 'https://it.wikipedia.org/wiki/Scala_di_Tanner',
-  },
-  'picco-di-crescita': {
-    name: 'Picco di velocità di crescita (peak height velocity, PHV)',
-    description:
-      "Il momento in cui la statura aumenta alla velocità massima durante la pubertà. Nelle giovani atlete l'età media stimata è di 11,18 anni, ma con un intervallo di credibilità al 90% che va da 8,62 a 12,94 anni (Lima et al., 2024): due atlete della stessa categoria possono essere biologicamente distanti anni. Il picco di accumulo di minerale osseo arriva circa 6 mesi dopo (Bailey et al., 1999), quindi per un periodo l'osso è più lungo ma non ancora altrettanto denso.",
-    sameAs: 'https://en.wikipedia.org/wiki/Adolescent_growth_spurt',
-  },
-  'allenamento-della-forza': {
-    name: 'Allenamento della forza in età giovanile (youth resistance training)',
-    description:
-      "L'allenamento contro resistenza svolto prima della maturità scheletrica. Le dichiarazioni di consenso lo considerano sicuro ed efficace quando appropriatamente progettato e supervisionato (Lloyd et al., 2014; Stricker et al., AAP 2020): in una revisione di 22 programmi sperimentali su bambini e preadolescenti non ha influenzato la crescita in statura e peso, con tassi di infortunio stimati tra 0,053 e 0,176 ogni 100 ore di partecipazione (Malina, 2006). L'effetto sulla forza è ampio (effect size 1,12; IC 95% 0,9-1,3) e cresce con la maturazione, senza un'impennata alla pubertà (Behringer et al., 2010).",
-    sameAs: 'https://it.wikipedia.org/wiki/Allenamento_con_i_pesi',
-  },
-  'cartilagine-di-accrescimento': {
-    name: 'Cartilagine di accrescimento (growth plate)',
-    description:
-      "La zona cartilaginea da cui l'osso lungo si allunga durante la crescita, meccanicamente più fragile dell'osso maturo e per questo al centro del timore che i pesi «blocchino la crescita». Il timore non è confermato: i protocolli supervisionati non hanno effetti negativi su crescita e maturazione (Malina, 2006). Il rischio documentato riguarda il carico senza supervisione, senza tecnica e con progressioni improvvisate.",
-    sameAs: 'https://it.wikipedia.org/wiki/Cartilagine_di_accrescimento',
-  },
-  maturazione: {
-    name: 'Maturazione biologica',
-    description:
-      "Il punto a cui è arrivato lo sviluppo di un corpo, distinto dall'età anagrafica. Nelle giovani atlete l'evidenza che lega lo stato di maturazione agli infortuni è limitata, mentre è moderata quella che lo lega a fattori di rischio del ginocchio in salto e atterraggio (Zoellner e Whatman, 2026). Si stima con misurazioni ripetute della statura ed equazioni di maturity offset (Moore et al., 2015): sono stime con margini d'errore ampi, utili a programmare il carico, non a etichettare un'atleta.",
-  },
-  caviglia: {
-    name: 'Distorsione di caviglia',
-    description:
-      "Lesione dei legamenti della caviglia, tipicamente del compartimento laterale, causata da un movimento che eccede l'escursione articolare. È l'infortunio più frequente nello sport femminile giovanile: la caviglia è la sede del 23% di tutti gli infortuni, davanti a ginocchio (16%) e coscia (13%) (Beech et al., 2024). L'incidenza è più alta nelle femmine che nei maschi (13,6 contro 6,94 ogni 1.000 esposizioni) e più alta nei più giovani (Doherty et al., 2014).",
-    sameAs: 'https://it.wikipedia.org/wiki/Distorsione_(medicina)',
-  },
-  'instabilità-di-caviglia': {
-    name: 'Instabilità cronica di caviglia',
-    description:
-      "La condizione in cui, dopo una o più distorsioni, la caviglia continua a cedere e a fare male oltre la guarigione dei tessuti. Tra gli atleti di 14-18 anni la prevalenza è del 20,0%: 23,6% tra le ragazze contro il 16,3% tra i ragazzi, con funzione sportiva della caviglia (FAAM-Sport 87,0 contro 97,7) e qualità di vita percepita più basse, a parità di attività fisica svolta (Donovan et al., 2020). È l'esito che la frase «è solo una storta» rende invisibile.",
-  },
-  'mal-di-schiena': {
-    name: 'Lombalgia nello sport giovanile (mal di schiena)',
-    description:
-      "Dolore nella regione lombare in atleti di 10-19 anni. È frequente: la prevalenza stimata negli ultimi 12 mesi è del 42% (IC 95% 29-55%), quella negli ultimi 3 mesi del 46% e la prevalenza puntuale del 16% (Wall et al., 2022; 80 studi, 60 sport, eterogeneità I² fino al 98% perché manca una definizione condivisa). Tra i fattori di rischio riportati compaiono volume e intensità dell'allenamento, dolore concomitante all'arto inferiore, sovrappeso, età adolescenziale più avanzata, familiarità e sesso femminile. La morfologia più frequentemente descritta in questa fascia d'età è la spondilolisi, non il disco.",
-    sameAs: 'https://it.wikipedia.org/wiki/Lombalgia',
-  },
-  spondilolisi: {
-    name: 'Spondilolisi (frattura da stress dell’istmo vertebrale)',
-    description:
-      "Frattura da stress della pars interarticularis, il ponte osseo che unisce le articolazioni posteriori di una vertebra, quasi sempre nelle ultime lombari. Nasce dal carico ripetuto della colonna in estensione e rotazione, non da un trauma singolo. È la causa che distingue la schiena adolescente da quella adulta: in un confronto diretto spiegava il 47% dei casi negli atleti di 12-18 anni contro il 5% negli adulti, mentre il disco spiegava 11 casi su 100 contro 48 (Micheli e Wood, 1995 — campione di clinica specialistica). Tra atleti adolescenti non d'élite con lombalgia la quota è del 30% (Selhorst et al., 2019). Il ritorno alla competizione è stimato al 92,2% con trattamento conservativo (Overley et al., 2018).",
-    sameAs: 'https://it.wikipedia.org/wiki/Spondilolisi',
-  },
-  propriocezione: {
-    name: 'Propriocezione e allenamento dell’equilibrio',
-    description:
-      "La capacità di percepire la posizione e il movimento del proprio corpo nello spazio, allenabile con esercizi di equilibrio e controllo monopodalico. Nello sport giovanile i programmi che la includono riducono gli infortuni di caviglia di circa il 26% (IRR 0,74; IC 95% 0,60-0,91) con 15-20 minuti due volte a settimana per 3-6 mesi (Berkey et al., 2024); in uno studio randomizzato su 765 atleti di scuola superiore, 523 dei quali ragazze, il gruppo con allenamento dell'equilibrio ha registrato 1,13 distorsioni ogni 1.000 esposizioni contro 1,87 (McGuine e Keene, 2006).",
-    sameAs: 'https://it.wikipedia.org/wiki/Propriocezione',
-  },
-  spalla: {
-    name: 'Dolore di spalla nello sport giovanile',
-    description:
-      "Dolore e problemi funzionali dell'articolazione della spalla legati al gesto ripetuto sopra la testa. In uno studio prospettico su 471 atleti di pallamano d'élite di 15-18 anni monitorati ogni settimana, il 23% ha riferito problemi di spalla sostanziali in una stagione e il 43% di questi per almeno 3 settimane consecutive; la prevalenza era 1,46 volte più alta nelle ragazze (IC 95% 1,04-2,06) (Asker et al., 2018). Nel nuoto la fascia 15-17 anni riporta il tasso di dolore di spalla più alto di tutte le età considerate, il 91,3% (prevalenza auto-riferita; Feijen et al., 2020).",
-    sameAs: 'https://it.wikipedia.org/wiki/Spalla',
-  },
-  'sport-overhead': {
-    name: 'Sport overhead (gesto sopra la testa)',
-    description:
-      "Discipline il cui gesto principale si compie sopra la testa — pallavolo, nuoto, pallamano, tennis, badminton. Il carico si concentra su una spalla che nell'adolescente non ha finito di crescere: la cartilagine di accrescimento dell'omero prossimale fornisce circa l'80% della crescita in lunghezza dell'omero e si chiude tra i 18 e i 21 anni (Casadei e Kiel, StatPearls). La revisione sistematica sui fattori di rischio in questi sport conclude che l'evidenza è ancora limitata o contrastante (Asker et al., 2018).",
-  },
-  'discinesia-scapolare': {
-    name: 'Discinesia scapolare',
-    description:
-      "Alterazione del movimento della scapola durante l'elevazione del braccio, spesso proposta come test di screening per la spalla. Il suo valore predittivo è contestato: una meta-analisi su 5 studi e 419 atleti stima un rischio di dolore di spalla maggiore del 43% (RR 1,43; IC 95% 1,05-1,93) (Hickey et al., 2018), mentre una più ampia su 7 studi e 923 atleti non trova alcuna associazione statisticamente significativa (RR 1,07; IC 95% 0,85-1,34; p=0,59) (Hogan et al., 2021). Da sola non identifica chi si farà male.",
-  },
-  gird: {
-    name: 'GIRD (deficit di rotazione interna gleno-omerale)',
-    description:
-      "Perdita di rotazione interna della spalla dominante rispetto alla controlaterale, adattamento tipico di chi lavora sopra la testa. In uno studio caso-controllo su 123 pallavolisti di scuola superiore (età media 15,8 anni) il 38,2% presentava GIRD, ma nello stesso campione non è emersa alcuna relazione con la storia di infortunio di spalla; i maschi tendevano all'ipomobilità e le femmine all'ipermobilità (Mizoguchi et al., 2022).",
-  },
-}
-const definedTerm = (key: string) => ({
+// --- Glossario BAB (GEO/AEO): i concetti-chiave come entità DefinedTerm, ancorate a
+// voci enciclopediche (sameAs) e a una pagina pubblica per termine (/glossario#chiave).
+// L'unica fonte di verità è src/data/glossary.ts, condivisa con la pagina React: così
+// la definizione che legge un umano e quella che legge un motore sono lo stesso testo. ---
+const GLOSSARY_ID = `${DOMAIN}/glossario#glossario`
+const GLOSSARY_URL: Record<string, string> = { it: `${DOMAIN}/glossario`, en: `${DOMAIN}/en/glossario` }
+
+// Ogni termine è un'entità con un URL proprio: `${DOMAIN}/glossario#chiave` è una
+// destinazione reale, citabile da un answer engine insieme alla definizione.
+const definedTerm = (key: string, lang: string = 'it') => ({
   '@type': 'DefinedTerm',
   '@id': `${DOMAIN}/#term-${key}`,
-  name: GLOSSARY[key].name,
-  description: GLOSSARY[key].description,
+  name: lang === 'en' ? GLOSSARY[key].nameEn : GLOSSARY[key].name,
+  description: lang === 'en' ? GLOSSARY[key].descriptionEn : GLOSSARY[key].description,
+  url: `${GLOSSARY_URL[lang] ?? GLOSSARY_URL.it}#${key}`,
   inDefinedTermSet: GLOSSARY_ID,
   ...(GLOSSARY[key].sameAs ? { sameAs: GLOSSARY[key].sameAs } : {}),
 })
@@ -459,10 +230,10 @@ function prerenderRoutes(): Plugin {
         name: 'Glossario BAB — salute e sviluppo delle giovani atlete',
         description:
           "Definizioni operative dei concetti ricorrenti negli articoli BAB: ogni voce riporta, dove esiste, il dato quantitativo e la fonte, e dichiara la popolazione a cui si riferisce. Sono i termini che gli articoli richiamano come entità (`about` e `mentions`).",
-        url: `${DOMAIN}/`,
+        url: `${DOMAIN}/glossario`,
         inLanguage: 'it-IT',
         publisher: { '@id': `${DOMAIN}/#organization` },
-        hasDefinedTerm: Object.keys(GLOSSARY).map(definedTerm),
+        hasDefinedTerm: Object.keys(GLOSSARY).map((k) => definedTerm(k)),
       })
 
       const homeTags = homeLd.map(ldScript).join('\n    ')
@@ -536,7 +307,7 @@ function prerenderRoutes(): Plugin {
       // xhtml:link nella sitemap tanto quanto quelli in <head>).
       const blogAlternates = new Map<string, Array<{ hreflang: string; href: string }>>()
       if (fs.existsSync(blogPath)) {
-        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }>; html?: string }
+        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string; id?: string }>; headings?: Array<{ level: number; text: string; id: string }>; html?: string }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
         // slug → lingua → articolo (solo le lingue che hanno un URL proprio)
         const bySlug = new Map<string, Map<string, Post>>()
@@ -611,8 +382,16 @@ function prerenderRoutes(): Plugin {
             // sostituisce al mount): così sono visibili ai crawler senza JS e
             // combaciano con il dato strutturato FAQPage qui sotto.
             const faqHtml = (post.faq ?? [])
-              .map((f) => `<h2>${esc(f.q)}</h2><p>${esc(f.a)}</p>`)
+              .map((f) => `<h2${f.id ? ` id="${f.id}"` : ''}>${esc(f.q)}</h2><p>${esc(f.a)}</p>`)
               .join('')
+            // Sommario con le ancore dei titoli: nell'HTML statico è un blocco di link
+            // interni che dichiara al crawler quali domande copre la pagina e dove.
+            const tocHtml = (post.headings ?? []).filter((h) => h.level === 2).length >= 3
+              ? `<nav aria-label="${lang === 'en' ? 'In this article' : 'In questo articolo'}"><ol>${(post.headings ?? [])
+                  .filter((h) => h.level === 2)
+                  .map((h) => `<li><a href="#${h.id}">${esc(h.text)}</a></li>`)
+                  .join('')}</ol></nav>`
+              : ''
             // Corpo COMPLETO dell'articolo nell'HTML statico. Prima qui finivano solo
             // titolo, excerpt, sommario e FAQ: circa il 40% del testo. Il resto
             // arrivava solo dopo il mount di React, cioè nella seconda ondata di
@@ -621,7 +400,7 @@ function prerenderRoutes(): Plugin {
             const bodyHtml = localizeLinks(post.html ?? '', loc.prefix)
             page = page.replace(
               /<div id="root">\s*<\/div>/,
-              `<div id="root"><article><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p>${bodyHtml}${faqHtml}</article></div>`,
+              `<div id="root"><article><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p>${tocHtml}${bodyHtml}${faqHtml}</article></div>`,
             )
             const breadcrumb = {
               '@context': 'https://schema.org',
@@ -678,7 +457,7 @@ function prerenderRoutes(): Plugin {
               // italiana, così anche la pagina EN punta alle stesse entità.
               ...(() => {
                 const tagSource = variants.get('it')?.tags ?? post.tags ?? []
-                const terms = tagSource.filter((t) => GLOSSARY[t]).map(definedTerm)
+                const terms = tagSource.filter((t) => GLOSSARY[t]).map((t) => definedTerm(t, lang))
                 return terms.length ? { about: terms } : {}
               })(),
               // `about` dice di cosa parla la pagina, `mentions` quali altre entità
@@ -697,7 +476,7 @@ function prerenderRoutes(): Plugin {
                     return short.length > 3 && haystack.includes(short)
                   })
                   .slice(0, 12)
-                return found.length ? { mentions: found.map(definedTerm) } : {}
+                return found.length ? { mentions: found.map((k) => definedTerm(k, lang)) } : {}
               })(),
               // Citazioni scientifiche (E-E-A-T/GEO): le stesse fonti elencate in fondo
               // all'articolo, come dato strutturato ScholarlyArticle.
@@ -742,10 +521,19 @@ function prerenderRoutes(): Plugin {
               articleLd.push({
                 '@context': 'https://schema.org',
                 '@type': 'FAQPage',
+                // Ogni domanda ha un'ancora in pagina: dandole `@id` e `url` la
+                // singola risposta diventa una risorsa citabile per conto suo — è
+                // ciò che permette a un answer engine di linkare LA risposta, non
+                // solo l'articolo che la contiene.
                 mainEntity: post.faq.map((f) => ({
                   '@type': 'Question',
+                  ...(f.id ? { '@id': `${url}#${f.id}`, url: `${url}#${f.id}` } : {}),
                   name: f.q,
-                  acceptedAnswer: { '@type': 'Answer', text: f.a },
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: f.a,
+                    ...(f.id ? { url: `${url}#${f.id}` } : {}),
+                  },
                 })),
               })
             }
@@ -851,7 +639,10 @@ function prerenderRoutes(): Plugin {
                 `<li><a href="/blog/${p.slug}">${esc(p.title)}</a> — ${esc(metaDescription(p.excerpt, 180))}</li>`,
             )
             .join('')
-          page = page.replace(/(<div id="root">[\s\S]*?)<\/div>/, `$1<ul>${items}</ul></div>`)
+          // Link alle pagine-risposta anche nell'HTML statico: nella SPA li mostra
+          // il componente Blog, ma un crawler che non esegue JS non li vedrebbe.
+          const answerLinks = `<p><a href="/faq">Tutte le domande</a> · <a href="/glossario">Glossario</a></p>`
+          page = page.replace(/(<div id="root">[\s\S]*?)<\/div>/, `$1${answerLinks}<ul>${items}</ul></div>`)
           const blogEntity = {
             '@context': 'https://schema.org',
             '@type': 'Blog',
@@ -928,7 +719,7 @@ function prerenderRoutes(): Plugin {
             .join('')
           page = page.replace(
             /<div id="root">\s*<\/div>/,
-            `<div id="root"><h1>${esc(s.title)}</h1><p>${esc(s.desc)}</p><ul>${enIndex}</ul></div>`,
+            `<div id="root"><h1>${esc(s.title)}</h1><p>${esc(s.desc)}</p><p><a href="/en/faq">All questions</a> · <a href="/en/glossario">Glossary</a></p><ul>${enIndex}</ul></div>`,
           )
           // Stesse entità dell'indice italiano, sul ramo inglese: il blog come
           // entità (a cui gli articoli EN dichiarano di appartenere) e la lista
@@ -975,6 +766,154 @@ function prerenderRoutes(): Plugin {
         }
       }
 
+      // --- Pagine-risposta bilingui: /glossario e /faq (+ /en/…) ---
+      // Sono le due pagine costruite per essere CITATE: il glossario dà a ogni
+      // concetto una definizione autonoma a un URL proprio (/glossario#chiave, lo
+      // stesso dichiarato nei DefinedTerm degli articoli), la pagina FAQ raccoglie
+      // tutte le domande del sito e le manda all'ancora esatta della loro risposta.
+      // Il contenuto è scritto qui in statico: un answer engine che non esegue JS
+      // deve trovare le definizioni e le domande, non un contenitore vuoto.
+      const bilingualUrls: string[] = []
+      {
+        const localeSeo: Record<string, Record<string, { title: string; desc: string }>> = {
+          it: it.seo,
+          en: JSON.parse(fs.readFileSync(path.resolve('src/locales/en.json'), 'utf8')).seo,
+        }
+        type FaqPost = { slug: string; lang: string; title: string; faq?: Array<{ q: string; a: string; id?: string }> }
+        const faqPosts: FaqPost[] = fs.existsSync(blogPath)
+          ? (JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? [])
+          : []
+        // Un articolo per slug nella lingua richiesta, con fallback all'italiano.
+        const postsIn = (lang: string): FaqPost[] => {
+          const bySlug = new Map<string, FaqPost>()
+          for (const p of faqPosts) {
+            const cur = bySlug.get(p.slug)
+            if (!cur || (p.lang === lang && cur.lang !== lang)) bySlug.set(p.slug, p)
+          }
+          return [...bySlug.values()].filter((p) => (p.faq?.length ?? 0) > 0)
+        }
+
+        for (const route of ['/glossario', '/faq'] as const) {
+          for (const lang of Object.keys(BLOG_LOCALES)) {
+            const loc = BLOG_LOCALES[lang]
+            const key = route === '/glossario' ? 'glossario' : 'faq'
+            const s2 = localeSeo[lang]?.[key] ?? localeSeo.it[key]
+            if (!s2) continue
+            const url = `${DOMAIN}${loc.prefix}${route}`
+            const isEn = lang === 'en'
+            let page = baseHtml
+            page = page.replace(/<html lang="[^"]*"/, `<html lang="${loc.htmlLang}"`)
+            page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(s2.title)}</title>`)
+            page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, s2.desc)
+            page = replaceAttr(page, /(<meta property="og:title" content=")[^"]*(")/, s2.title)
+            page = replaceAttr(page, /(<meta property="og:description" content=")[^"]*(")/, s2.desc)
+            page = replaceAttr(page, /(<meta property="og:url" content=")[^"]*(")/, url)
+            page = replaceAttr(page, /(<meta property="og:locale" content=")[^"]*(")/, loc.ogLocale)
+            page = replaceAttr(page, /(<meta name="twitter:title" content=")[^"]*(")/, s2.title)
+            page = replaceAttr(page, /(<meta name="twitter:description" content=")[^"]*(")/, s2.desc)
+            page = replaceAttr(page, /(<link rel="canonical" href=")[^"]*(")/, url)
+            const hreflangTags = Object.keys(BLOG_LOCALES)
+              .map((l) => `<link rel="alternate" hreflang="${BLOG_LOCALES[l].hreflang}" href="${DOMAIN}${BLOG_LOCALES[l].prefix}${route}" />`)
+              .concat(`<link rel="alternate" hreflang="x-default" href="${DOMAIN}${route}" />`)
+              .join('\n    ')
+
+            const routeLd: unknown[] = [
+              {
+                '@context': 'https://schema.org',
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: `${DOMAIN}/` },
+                  { '@type': 'ListItem', position: 2, name: s2.title, item: url },
+                ],
+              },
+            ]
+
+            let rootHtml: string
+            if (route === '/glossario') {
+              const keys = Object.keys(GLOSSARY).sort((a, b) =>
+                (isEn ? GLOSSARY[a].nameEn : GLOSSARY[a].name).localeCompare(isEn ? GLOSSARY[b].nameEn : GLOSSARY[b].name, lang),
+              )
+              const index = keys.map((k) => `<li><a href="#${k}">${esc(isEn ? GLOSSARY[k].nameEn : GLOSSARY[k].name)}</a></li>`).join('')
+              const defs = keys
+                .map(
+                  (k) =>
+                    `<dt id="${k}">${esc(isEn ? GLOSSARY[k].nameEn : GLOSSARY[k].name)}</dt><dd>${esc(
+                      isEn ? GLOSSARY[k].descriptionEn : GLOSSARY[k].description,
+                    )}</dd>`,
+                )
+                .join('')
+              rootHtml = `<h1>${esc(s2.title)}</h1><p>${esc(s2.desc)}</p><nav><ul>${index}</ul></nav><dl>${defs}</dl>`
+              // Il set completo dei termini, con l'URL della voce: è la pagina che
+              // gli articoli indicano come casa delle loro entità `about`.
+              routeLd.push({
+                '@context': 'https://schema.org',
+                '@type': 'DefinedTermSet',
+                '@id': GLOSSARY_ID,
+                name: s2.title,
+                description: s2.desc,
+                url,
+                inLanguage: loc.inLanguage,
+                publisher: { '@id': `${DOMAIN}/#organization` },
+                hasDefinedTerm: keys.map((k) => definedTerm(k, lang)),
+              })
+            } else {
+              const babQa = FAQ_BAB.map((f) => ({ id: f.id, q: isEn ? f.qEn : f.q, a: isEn ? f.aEn : f.a }))
+              const babHtml = babQa.map((f) => `<h2 id="${f.id}">${esc(f.q)}</h2><p>${esc(f.a)}</p>`).join('')
+              // Le domande degli articoli NON vengono ripetute con la risposta: si
+              // linka l'ancora della risposta originale, così esiste un solo
+              // indirizzo canonico per ciascuna e la pagina non duplica il blog.
+              const groups = postsIn(lang)
+                .map((p) => {
+                  const items = (p.faq ?? [])
+                    .map(
+                      (f) =>
+                        `<li><a href="${loc.prefix}/blog/${p.slug}${f.id ? `#${f.id}` : ''}">${esc(f.q)}</a></li>`,
+                    )
+                    .join('')
+                  return `<h3><a href="${loc.prefix}/blog/${p.slug}">${esc(p.title)}</a></h3><ul>${items}</ul>`
+                })
+                .join('')
+              const totalQ = postsIn(lang).reduce((n, p) => n + (p.faq?.length ?? 0), 0) + babQa.length
+              rootHtml =
+                `<h1>${esc(s2.title)}</h1><p>${esc(s2.desc)}</p>` +
+                `<h2>${isEn ? 'About BAB' : 'Su BAB'}</h2>${babHtml}` +
+                `<h2>${isEn ? `Every question, by topic (${totalQ})` : `Tutte le domande, per argomento (${totalQ})`}</h2>${groups}`
+              // FAQPage con le sole domande su BAB: le altre hanno già il loro
+              // FAQPage nella pagina dell'articolo, e dichiararle due volte
+              // significherebbe rivendicare la stessa risposta a due URL.
+              routeLd.push({
+                '@context': 'https://schema.org',
+                '@type': 'FAQPage',
+                '@id': `${url}#faq`,
+                url,
+                inLanguage: loc.inLanguage,
+                mainEntity: babQa.map((f) => ({
+                  '@type': 'Question',
+                  '@id': `${url}#${f.id}`,
+                  url: `${url}#${f.id}`,
+                  name: f.q,
+                  acceptedAnswer: { '@type': 'Answer', text: f.a, url: `${url}#${f.id}` },
+                })),
+              })
+            }
+
+            page = page.replace('</head>', `    ${hreflangTags}\n    ${routeLd.map(ldScript).join('\n    ')}\n  </head>`)
+            page = page.replace(/<div id="root">\s*<\/div>/, `<div id="root">${rootHtml}</div>`)
+            const outDir = path.join(dist, ...loc.prefix.split('/').filter(Boolean), route.replace(/^\//, ''))
+            fs.mkdirSync(outDir, { recursive: true })
+            fs.writeFileSync(path.join(outDir, 'index.html'), page)
+            bilingualUrls.push(url)
+            blogAlternates.set(
+              url,
+              Object.keys(BLOG_LOCALES)
+                .map((l) => ({ hreflang: BLOG_LOCALES[l].hreflang, href: `${DOMAIN}${BLOG_LOCALES[l].prefix}${route}` }))
+                .concat({ hreflang: 'x-default', href: `${DOMAIN}${route}` }),
+            )
+          }
+        }
+        console.log(`✓ AEO: ${bilingualUrls.length} pagine-risposta (glossario + FAQ, IT/EN)`)
+      }
+
       // --- Sitemap: inserisce le URL del blog (lista + articoli) prima di </urlset> ---
       const sitemapPath = path.join(dist, 'sitemap.xml')
       if (fs.existsSync(sitemapPath)) {
@@ -982,7 +921,7 @@ function prerenderRoutes(): Plugin {
         const latestBlog = [...blogLastmod.values()].sort().slice(-1)[0]
         // Le pagine indice (IT ed EN) prendono la data dell'articolo più recente.
         const indexPages = new Set([`${DOMAIN}/blog`, `${DOMAIN}/en/blog`])
-        const entries = [`${DOMAIN}/blog`, ...blogUrls]
+        const entries = [`${DOMAIN}/blog`, ...blogUrls, ...bilingualUrls]
           .filter((u) => !xml.includes(`<loc>${u}</loc>`))
           .map((u) => {
             const lm = indexPages.has(u) ? latestBlog : blogLastmod.get(u)
@@ -1024,6 +963,9 @@ function prerenderRoutes(): Plugin {
         '## Come leggere questo sito da macchina',
         `- Ogni articolo ha un gemello in markdown allo stesso URL con suffisso .md: ${DOMAIN}/blog/{slug}.md (inglese: ${DOMAIN}/en/blog/{slug}.md). È il testo integrale, fonti comprese, senza markup di pagina — la via più corta e più fedele al contenuto.`,
         '- La stessa URL è dichiarata in ogni pagina HTML come <link rel="alternate" type="text/markdown">.',
+        `- Tutte le domande e risposte del sito in un file solo, ognuna con l'URL della sua ancora: ${DOMAIN}/faq.txt.`,
+        `- Ogni risposta FAQ ha un'ancora propria in pagina (${DOMAIN}/blog/{slug}#faq-…) e ogni sezione di articolo ha l'ancora del suo titolo: si può citare la riga, non solo la pagina.`,
+        `- Indice navigabile delle domande: ${DOMAIN}/faq (IT) e ${DOMAIN}/en/faq (EN). Definizioni dei termini: ${DOMAIN}/glossario e ${DOMAIN}/en/glossario, con un'ancora per termine (#chiave).`,
         `- L'intero corpus in un solo file: ${DOMAIN}/llms-full.txt (italiano e inglese, tutti gli articoli per esteso).`,
         '- Dati strutturati su ogni articolo: BlogPosting con citation (ScholarlyArticle, una per fonte), FAQPage, DefinedTerm in `about` e `mentions`, SpeakableSpecification, BreadcrumbList. Le versioni italiana e inglese si dichiarano a vicenda con translationOfWork/workTranslation.',
         '- Le date da guardare sono due: `datePublished` e `dateModified`. Gli articoli vengono rivisti, e `dateModified` cambia solo quando il testo cambia davvero.',
@@ -1153,6 +1095,8 @@ function prerenderRoutes(): Plugin {
         '',
         '## Pagine principali',
         `- [Blog](${DOMAIN}/blog)`,
+        `- [Domande e risposte](${DOMAIN}/faq) — tutte le domande del sito, ognuna con il link alla risposta e alla sua fonte`,
+        `- [Glossario](${DOMAIN}/glossario) — ${Object.keys(GLOSSARY).length} definizioni autonome, una per voce, con dato, popolazione e fonte`,
         `- [Funzionalità](${DOMAIN}/features)`,
         `- [Chi siamo](${DOMAIN}/about)`,
         `- [Privacy](${DOMAIN}/privacy)`,
@@ -1160,6 +1104,52 @@ function prerenderRoutes(): Plugin {
         `Sitemap: ${DOMAIN}/sitemap.xml`,
         '',
       ].join('\n')
+      // --- faq.txt (AEO): ogni domanda del sito con l'URL della sua risposta ---
+      // llms.txt è l'indice e llms-full.txt il corpus; questo è il formato che serve
+      // a un answer engine: coppie domanda → risposta già isolate, ciascuna con
+      // l'indirizzo esatto da citare. Nessuna navigazione, nessun markup da ripulire.
+      {
+        type FaqPost = { slug: string; lang: string; title: string; faq?: Array<{ q: string; a: string; id?: string }> }
+        const allFaqPosts: FaqPost[] = fs.existsSync(blogPath)
+          ? (JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? [])
+          : []
+        const lines: string[] = [
+          '# BAB — Domande e risposte / Questions and answers',
+          '',
+          "> Tutte le domande a cui rispondono il sito e il blog di BAB (babsport.com), con l'URL esatto di ogni risposta.",
+          "> Ogni affermazione di salute è ancorata a una fonte citata nell'articolo di provenienza, e la popolazione studiata è dichiarata insieme al dato.",
+          '> Citare la riga «URL:» della singola risposta, non solo il dominio.',
+          '> Contenuto educativo, non parere medico.',
+          '',
+          `Pagina indice: ${DOMAIN}/faq (italiano) · ${DOMAIN}/en/faq (English)`,
+          `Glossario dei termini: ${DOMAIN}/glossario · ${DOMAIN}/en/glossario`,
+          `Corpus completo: ${DOMAIN}/llms-full.txt · Indice: ${DOMAIN}/llms.txt`,
+          '',
+          '## Su BAB / About BAB',
+          '',
+        ]
+        for (const f of FAQ_BAB) {
+          lines.push(`### ${f.q}`, `URL: ${DOMAIN}/faq#${f.id}`, f.a, '')
+          lines.push(`### ${f.qEn}`, `URL: ${DOMAIN}/en/faq#${f.id}`, f.aEn, '')
+        }
+        for (const lang of Object.keys(BLOG_LOCALES)) {
+          const loc = BLOG_LOCALES[lang]
+          const posts = allFaqPosts.filter((p) => p.lang === lang && (p.faq?.length ?? 0) > 0)
+          if (!posts.length) continue
+          lines.push(`## Blog — ${lang === 'en' ? 'English' : 'italiano'}`, '')
+          for (const p of posts) {
+            const postUrl = `${DOMAIN}${loc.prefix}/blog/${p.slug}`
+            lines.push(`### ${p.title}`, `Articolo / Article: ${postUrl} (markdown: ${postUrl}.md)`, '')
+            for (const f of p.faq ?? []) {
+              lines.push(`Q: ${f.q}`, `URL: ${postUrl}${f.id ? `#${f.id}` : ''}`, `A: ${f.a}`, '')
+            }
+          }
+        }
+        const faqTxt = lines.join('\n')
+        fs.writeFileSync(path.join(dist, 'faq.txt'), faqTxt)
+        console.log(`✓ AEO: faq.txt (${Math.round(Buffer.byteLength(faqTxt) / 1024)} KB)`)
+      }
+
       fs.writeFileSync(path.join(dist, 'llms.txt'), llms)
 
       // --- llms-full.txt (GEO): il corpus intero in un file solo ---
