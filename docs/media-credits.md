@@ -146,3 +146,16 @@
   Nessuna persona ritratta e nessun marchio leggibile: scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: la pista e il campo di una scuola completamente vuoti — l'allenamento che salta
   ogni mese e che nessun registro infortuni conta.
+
+## cover-spalla-giovani-atlete.jpg
+- Titolo originale: "Beach volleyball net close up"
+- Fonte: rawpixel — https://www.rawpixel.com/image/5927362/photo-image-public-domain-ocean-nature (reperita via Openverse)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "dolore alla spalla nelle giovani atlete / sport overhead" (IT + EN)
+- Lavorazione: rendition `editor_1024` (senza filigrana; l'originale è 5184x3456), ritaglio 16:9 a
+  1024x576 con offset verticale al 45% dell'altezza residua, JPEG q85.
+  NB: come per le altre immagini rawpixel, la rendition `image_1300` è filigranata → non usare.
+  Nessuna persona riconoscibile: sullo sfondo restano solo figure minuscole e completamente sfocate
+  sulla linea dell'orizzonte — scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: la rete vista dal basso come immagine del gesto sopra la testa, il carico
+  ripetuto che nei dati costruisce il problema di spalla.
