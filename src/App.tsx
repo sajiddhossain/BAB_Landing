@@ -31,6 +31,8 @@ const About = lazy(() => import('./components/About'));
 const LegalPage = lazy(() => import('./components/LegalPage'));
 const Blog = lazy(() => import('./components/Blog'));
 const BlogPost = lazy(() => import('./components/BlogPost'));
+const Glossary = lazy(() => import('./components/Glossary'));
+const FaqHub = lazy(() => import('./components/FaqHub'));
 const WaitlistModal = lazy(() => import('./components/WaitlistModal'));
 
 // Normalizza il path: rimuove lo slash finale (/coach/ → /coach), così il match
@@ -38,8 +40,27 @@ const WaitlistModal = lazy(() => import('./components/WaitlistModal'));
 const normalizePath = (p: string): string => {
   const clean = p.replace(/\/+$/, '');
   if (clean === '') return '/';
-  // /en esiste solo come prefisso di lingua del blog: da solo vale il suo indice.
+  // /en è solo un prefisso di lingua: da solo vale l'indice del blog inglese.
   return clean === '/en' ? '/en/blog' : clean;
+};
+
+// Rotte che, come il blog, esistono in due lingue con l'inglese sotto /en.
+// Sono pagine-risposta (glossario e FAQ): la lingua deve stare nell'URL, altrimenti
+// la versione inglese non è indicizzabile e non ha un indirizzo da citare.
+const BILINGUAL_ROUTES = ['/glossario', '/faq'] as const;
+type BilingualRoute = (typeof BILINGUAL_ROUTES)[number];
+
+/** Path della rotta bilingue nella lingua data: /faq oppure /en/faq. */
+const bilingualPath = (route: BilingualRoute, lang: string): string =>
+  lang === 'en' ? `/en${route}` : route;
+
+/** Rotta bilingue corrispondente a un path, con la lingua che l'URL dichiara. */
+const matchBilingual = (path: string): { route: BilingualRoute; lang: 'it' | 'en' } | null => {
+  for (const route of BILINGUAL_ROUTES) {
+    if (path === route) return { route, lang: 'it' };
+    if (path === `/en${route}`) return { route, lang: 'en' };
+  }
+  return null;
 };
 
 // Fallback minimale durante il caricamento del chunk di route
@@ -55,6 +76,14 @@ function RouteFallback() {
 export default function App() {
   const { t, i18n } = useTranslation();
   const [currentPath, setCurrentPath] = useState<string>(normalizePath(window.location.pathname));
+  // Ancora (#id) ancora da raggiungere. Serve in due casi: un link verso un'ancora di
+  // un'ALTRA pagina (dalla pagina FAQ alla risposta dentro un articolo) e l'arrivo
+  // diretto su un URL con hash — dove il browser scrolla sull'HTML prerenderizzato,
+  // che un istante dopo React sostituisce. In entrambi i casi l'elemento esiste solo
+  // dopo il mount del chunk di route: lo si aspetta invece di darlo per presente.
+  const [pendingHash, setPendingHash] = useState<string>(() =>
+    typeof window !== 'undefined' ? decodeURIComponent(window.location.hash.slice(1)) : '',
+  );
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
   const [waitlistMounted, setWaitlistMounted] = useState(false); // carica il chunk solo al 1° open, poi resta montato per animare la chiusura
@@ -153,17 +182,20 @@ export default function App() {
     const map: Record<string, string> = {
       '/': 'home', '/app': 'app', '/coach': 'coach', '/features': 'features',
       '/about': 'about', '/privacy': 'privacy', '/cookie': 'cookie', '/termini': 'termini',
-      '/blog': 'blog',
+      '/blog': 'blog', '/glossario': 'glossario', '/faq': 'faq',
+      '/en/glossario': 'glossario', '/en/faq': 'faq',
     };
+    const bilingual = matchBilingual(currentPath);
     const isBlogRoute = /^\/(en\/)?blog(\/|$)/.test(currentPath);
     const isBlogArticle = /^\/(en\/)?blog\/.+/.test(currentPath);
     const isUnknown = !(currentPath in map) && !isBlogRoute;
     // Sul blog la lingua è nell'URL: title, description e <html lang> devono seguire
     // l'URL e non la preferenza del browser, altrimenti la pagina renderizzata
     // contraddice il canonical e l'hreflang della versione statica.
-    const urlLang = blogLangFromPath(currentPath);
-    const tt = isBlogRoute ? i18n.getFixedT(urlLang) : t;
-    if (isBlogRoute) document.documentElement.lang = urlLang;
+    const urlLang = bilingual ? bilingual.lang : blogLangFromPath(currentPath);
+    const followsUrlLang = isBlogRoute || Boolean(bilingual);
+    const tt = followsUrlLang ? i18n.getFixedT(urlLang) : t;
+    if (followsUrlLang) document.documentElement.lang = urlLang;
     let meta = document.querySelector('meta[name="description"]');
     if (!meta) {
       meta = document.createElement('meta');
@@ -230,6 +262,27 @@ export default function App() {
     };
   }, [isMenuOpen]);
 
+  // Raggiunge l'ancora appena l'elemento compare nel DOM (il contenuto di una rotta
+  // arriva dopo il caricamento del suo chunk). Dopo ~2s rinuncia, per non restare
+  // appeso a un id che non esiste.
+  useEffect(() => {
+    if (!pendingHash) return;
+    let attempts = 0;
+    let raf = 0;
+    const tryScroll = () => {
+      const el = document.getElementById(pendingHash);
+      if (el) {
+        el.scrollIntoView({ block: 'start' });
+        setPendingHash('');
+        return;
+      }
+      if (attempts++ < 120) raf = requestAnimationFrame(tryScroll);
+      else setPendingHash('');
+    };
+    raf = requestAnimationFrame(tryScroll);
+    return () => cancelAnimationFrame(raf);
+  }, [pendingHash, currentPath]);
+
   // Routing con URL puliti (History API), no hash. Vercel serve index.html su ogni path.
   useEffect(() => {
     // Intercetta i click sui link interni "/..." → navigazione SPA senza ricaricare
@@ -238,22 +291,34 @@ export default function App() {
       const anchor = (e.target as HTMLElement).closest('a');
       if (!anchor) return;
       const href = anchor.getAttribute('href');
-      // solo link interni assoluti; esclude #ancore, mailto/http esterni, target=_blank
+      // solo link interni assoluti; esclude #ancore pure, mailto/http esterni, target=_blank
       if (!href || !href.startsWith('/') || anchor.getAttribute('target') === '_blank') return;
       e.preventDefault();
-      if (href !== window.location.pathname) {
+      // Un link interno può puntare a un'ancora precisa (/blog/{slug}#faq-…): il path
+      // decide la rotta, l'hash decide dove atterrare. Tenerli insieme manderebbe la
+      // rotta in 404, perché nessun path del router contiene un '#'.
+      const [rawPath, hash] = href.split('#');
+      const nextPath = normalizePath(rawPath || window.location.pathname);
+      if (nextPath !== normalizePath(window.location.pathname)) {
         window.history.pushState({}, '', href);
-        setCurrentPath(href);
-        window.scrollTo(0, 0);
-        trackPageview(href);
+        setCurrentPath(nextPath);
+        if (hash) setPendingHash(decodeURIComponent(hash));
+        else window.scrollTo(0, 0);
+        trackPageview(nextPath);
+      } else if (hash) {
+        // Stessa pagina: cambia solo il punto in cui ci si trova.
+        window.history.replaceState({}, '', href);
+        setPendingHash(decodeURIComponent(hash));
       }
       setIsMenuOpen(false);
     };
     // Avanti/Indietro del browser
     const onPop = () => {
       const p = normalizePath(window.location.pathname);
+      const hash = decodeURIComponent(window.location.hash.slice(1));
       setCurrentPath(p);
-      window.scrollTo(0, 0);
+      if (hash) setPendingHash(hash);
+      else window.scrollTo(0, 0);
       setIsMenuOpen(false);
       trackPageview(p);
     };
@@ -297,7 +362,11 @@ export default function App() {
   const isBlogRoute = isBlogList || blogSlug !== null;
 
   // Route sconosciuta → pagina 404 in-brand (non un finto rendering della Home)
-  const knownPaths = ['/', '/app', '/coach', '/features', '/about', '/privacy', '/cookie', '/termini', '/blog'];
+  const bilingualRoute = matchBilingual(currentPath);
+  const knownPaths = [
+    '/', '/app', '/coach', '/features', '/about', '/privacy', '/cookie', '/termini', '/blog',
+    ...BILINGUAL_ROUTES, ...BILINGUAL_ROUTES.map((r) => `/en${r}`),
+  ];
   const isNotFound = !knownPaths.includes(currentPath) && !isBlogRoute;
   // /coach e /app temporaneamente nascosti → renderizza la Home (l'URL viene corretto a "/" dall'effetto)
   const activePath = ((!COACH_ENABLED && currentPath === '/coach') || (!APP_ENABLED && currentPath === '/app')) ? '/' : currentPath;
@@ -362,8 +431,10 @@ export default function App() {
                       key={lng}
                       onClick={() => {
                         i18n.changeLanguage(lng);
-                        // Sul blog la lingua è nell'URL: cambiarla è una navigazione.
+                        // Dove la lingua sta nell'URL (blog, glossario, FAQ) cambiarla
+                        // è una navigazione, non solo un cambio di stringhe.
                         if (isBlogRoute) navigate(blogPath(lng, blogSlug ?? undefined));
+                        else if (bilingualRoute) navigate(bilingualPath(bilingualRoute.route, lng));
                         setIsLangDropdownOpen(false);
                       }}
                       className="w-11 h-11 rounded-full overflow-hidden border-[2px] border-black hover:-translate-y-1 hover:scale-110 transition-transform opacity-80 hover:opacity-100 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] focus-visible:opacity-100"
@@ -451,6 +522,7 @@ export default function App() {
                         onClick={() => {
                           i18n.changeLanguage(lng);
                           if (isBlogRoute) navigate(blogPath(lng, blogSlug ?? undefined));
+                          else if (bilingualRoute) navigate(bilingualPath(bilingualRoute.route, lng));
                         }}
                         aria-label={lng.toUpperCase()}
                         aria-pressed={active}
@@ -476,6 +548,12 @@ export default function App() {
             {activePath === '/' && <Home key="home" onOpenWaitlist={openWaitlist} onNavigate={navigate} />}
             {APP_ENABLED && activePath === '/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
             {COACH_ENABLED && activePath === '/coach' && <CoachDashboard key="coach" />}
+            {bilingualRoute?.route === '/glossario' && (
+              <Glossary key={`glossario-${bilingualRoute.lang}`} lang={bilingualRoute.lang} />
+            )}
+            {bilingualRoute?.route === '/faq' && (
+              <FaqHub key={`faq-${bilingualRoute.lang}`} lang={bilingualRoute.lang} />
+            )}
             {activePath === '/features' && <Features key="features" />}
             {activePath === '/about' && <About key="about" />}
             {activePath === '/privacy' && <LegalPage key="privacy" page="privacy" />}

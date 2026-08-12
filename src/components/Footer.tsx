@@ -21,6 +21,10 @@ const NAV_LINKS = [
  { path: '/features', key: 'nav.features' },
  { path: '/about', key: 'nav.about' },
  { path: '/blog', key: 'nav.blog' },
+ // Le due pagine-risposta: senza un link nel footer resterebbero raggiungibili
+ // solo dai dati strutturati, cioè orfane per un crawler e invisibili a un lettore.
+ { path: '/faq', key: 'nav.faq' },
+ { path: '/glossario', key: 'nav.glossary' },
 ].filter((l) => (COACH_ENABLED || l.path !== '/coach') && (APP_ENABLED || l.path !== '/app'));
 
 const SOCIALS = [

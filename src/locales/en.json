@@ -6,7 +6,9 @@
     "features": "Features",
     "about": "About",
     "waitlist": "Join the waitlist",
-    "blog": "Blog"
+    "blog": "Blog",
+    "faq": "Questions & answers",
+    "glossary": "Glossary"
   },
   "footer": {
     "tagline": "The first support platform for teenage girls in sport",
@@ -681,6 +683,14 @@
     "blog": {
       "title": "BAB Blog — Sport, growth and athlete health",
       "desc": "Stories, data and advice on women's sport, the cycle, drop-out and the growth of young athletes."
+    },
+    "glossario": {
+      "title": "Glossary of young female athletes’ health | BAB",
+      "desc": "RED-S, dysmenorrhoea, peak height velocity, spondylolysis, GIRD: 42 definitions with the figure, the population it was measured in and the source. BAB’s glossary."
+    },
+    "faq": {
+      "title": "Questions and answers about young female athletes | BAB",
+      "desc": "Every question BAB answers, with a source for every number: cycle and performance, injuries, sleep, iron, pain, drop-out. Plus the questions about the project."
     }
   },
   "a11y": {
