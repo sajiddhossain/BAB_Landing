@@ -159,3 +159,14 @@
   sulla linea dell'orizzonte — scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: la rete vista dal basso come immagine del gesto sopra la testa, il carico
   ripetuto che nei dati costruisce il problema di spalla.
+
+## cover-ciclo-sport-pratica.jpg
+- Titolo originale: "Changing rooms at Brastad arena 1"
+- Fonte: Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Changing_rooms_at_Brastad_arena_1.jpg (reperita via Openverse)
+- Autore: W.carter (opera propria, 19 agosto 2018, Brastad, comune di Lysekil, Svezia)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "fare sport con il ciclo: come si gestisce in pratica" (IT + EN)
+- Lavorazione: originale 4925x2873, ritaglio centrato 16:9 (4925x2770) e resample a 1200x675, JPEG q85 progressivo.
+  Nessuna persona ritratta: scelta deliberata per un tema intimo che riguarda minori.
+  Scelta del soggetto: la fila di porte degli spogliatoi — il luogo in cui, secondo le fonti citate
+  nell'articolo, il problema diventa un allenamento saltato (privacy nel cambiarsi, disponibilità del kit).
