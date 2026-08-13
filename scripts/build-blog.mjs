@@ -127,6 +127,9 @@ function collect() {
         updated: data.updated ? new Date(data.updated).toISOString().slice(0, 10) : null,
         author: data.author || null,
         excerpt: data.excerpt || '',
+        // Risposta secca alla domanda del titolo, 40-60 parole: è il blocco che un
+        // answer engine può citare da solo, e diventa `abstract` nei dati strutturati.
+        answer: data.answer || '',
         cover: data.cover || null,
         coverAlt: data.coverAlt || '',
         tags: Array.isArray(data.tags) ? data.tags : [],

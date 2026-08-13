@@ -2,9 +2,10 @@
 slug: reggiseno-sportivo-ragazze
 title: "Reggiseno sportivo per ragazze: quando serve il primo, come scegliere la taglia"
 date: 2026-07-02
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Il primo reggiseno sportivo serve appena inizia lo sviluppo del seno, non a un'età precisa: il segnale è il corpo, non il calendario. A 13-14 anni una ragazza su due dice che il seno influenza la sua partecipazione allo sport, ma solo una su dieci ne indossa sempre uno — e a non usarlo mai sono più spesso quelle con il seno piccolo. Come capire se la taglia è sbagliata, quando serve la compressione e quando l'incapsulamento, ogni quanto ricontrollare la misura durante la crescita, e perché un opuscolo di educazione in un trial randomizzato ha fatto passare il test di vestibilità al 39% in più delle atlete."
+answer: "Appena inizia lo sviluppo del seno: il segnale è il corpo, non l'età. A 13-14 anni il 51% delle ragazze dice che il seno influenza la partecipazione allo sport, ma solo il 10% ne indossa sempre uno, e a non usarlo mai sono più spesso quelle con il seno piccolo (Scurr et al., 2016). Durante la crescita la taglia va ricontrollata ogni 6-12 mesi."
 cover: /fotobab/cover-reggiseno-sportivo.jpg
 coverAlt: "Abbigliamento sportivo piegato, pantaloncini neri e canotta a fantasia, appoggiato su un tappetino da yoga"
 tags:

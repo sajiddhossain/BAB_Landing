@@ -301,7 +301,7 @@ function prerenderRoutes(): Plugin {
       type CorpusEntry = { url: string; title: string; updated?: string | null; body: string }
       const fullCorpus: CorpusEntry[] = []
       const enCorpus: CorpusEntry[] = []
-      const blogForLlms: Array<{ slug: string; title: string; excerpt: string; date: string | null; updated?: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }>; altUrls?: string[]; keyPoints?: string[] }> = []
+      const blogForLlms: Array<{ slug: string; title: string; excerpt: string; answer?: string; date: string | null; updated?: string | null; tags?: string[]; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string }>; altUrls?: string[]; keyPoints?: string[] }> = []
       const blogLastmod = new Map<string, string>()
       // Indice statico inglese: servono titolo ed excerpt reali, non lo slug.
       const blogEnIndex: Array<{ url: string; title: string; excerpt: string; date: string | null; updated?: string | null; slug: string }> = []
@@ -309,7 +309,7 @@ function prerenderRoutes(): Plugin {
       // xhtml:link nella sitemap tanto quanto quelli in <head>).
       const blogAlternates = new Map<string, Array<{ hreflang: string; href: string }>>()
       if (fs.existsSync(blogPath)) {
-        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string; id?: string }>; headings?: Array<{ level: number; text: string; id: string }>; html?: string }
+        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; answer?: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string; id?: string }>; headings?: Array<{ level: number; text: string; id: string }>; html?: string }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
         // slug → lingua → articolo (solo le lingue che hanno un URL proprio)
         const bySlug = new Map<string, Map<string, Post>>()
@@ -402,7 +402,9 @@ function prerenderRoutes(): Plugin {
             const bodyHtml = autolinkGlossary(localizeLinks(post.html ?? '', loc.prefix), lang)
             page = page.replace(
               /<div id="root">\s*<\/div>/,
-              `<div id="root"><article><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p>${tocHtml}${bodyHtml}${faqHtml}</article></div>`,
+              `<div id="root"><article><h1>${esc(post.title)}</h1>${
+                post.answer ? `<p class="answer-capsule">${esc(post.answer)}</p>` : ''
+              }<p>${esc(post.excerpt)}</p>${tocHtml}${bodyHtml}${faqHtml}</article></div>`,
             )
             const breadcrumb = {
               '@context': 'https://schema.org',
@@ -420,6 +422,9 @@ function prerenderRoutes(): Plugin {
               url,
               headline: post.title,
               description: post.excerpt,
+              // `abstract` è la risposta in tre righe alla domanda del titolo: più corta
+              // della description e scritta per essere citata così com'è.
+              ...(post.answer ? { abstract: post.answer } : {}),
               ...(post.date ? { datePublished: post.date } : {}),
               ...(post.updated || post.date ? { dateModified: post.updated || post.date } : {}),
               // L'autore è la stessa entità su tutti gli articoli (@id condiviso):
@@ -498,6 +503,7 @@ function prerenderRoutes(): Plugin {
                 '@type': 'SpeakableSpecification',
                 cssSelector: [
                   'h1',
+                  '.answer-capsule',
                   'h2',
                   '.blog-prose > blockquote:first-of-type',
                   '.blog-prose > blockquote:first-of-type li',
@@ -586,7 +592,12 @@ function prerenderRoutes(): Plugin {
                   ? "- Nota: contenuto educativo, non parere medico. Ogni affermazione di salute è ancorata a una fonte elencata in «Fonti»; quando uno studio è condotto su adulti, il testo lo dichiara."
                   : '- Note: educational content, not medical advice. Every health claim is anchored to a source listed under "Sources"; where a study was run on adults, the text says so.',
               ].filter(Boolean)
-              const head = [`# ${post.title}`, '', `> ${post.excerpt}`, '', ...meta, '', '---', '', ''].join('\n')
+              // La risposta in breve apre il file: chi legge con una macchina trova la
+              // risposta prima dei metadati, e può citarla senza scorrere l'articolo.
+              const answerMd = post.answer
+                ? [`**${isIt ? 'Risposta in breve' : 'In short'}:** ${post.answer}`, '']
+                : []
+              const head = [`# ${post.title}`, '', `> ${post.excerpt}`, '', ...answerMd, ...meta, '', '---', '', ''].join('\n')
               fs.writeFileSync(path.join(dist, ...loc.prefix.split('/').filter(Boolean), 'blog', `${slug}.md`), `${head}${body}\n`)
               mdUrls.push(`${url}.md`)
               if (lang === 'it') fullCorpus.push({ url, title: post.title, updated: post.updated || post.date, body })
@@ -609,6 +620,7 @@ function prerenderRoutes(): Plugin {
                 slug,
                 title: post.title,
                 excerpt: post.excerpt,
+                answer: post.answer,
                 date: post.date,
                 updated: post.updated,
                 tags: post.tags,
@@ -1028,6 +1040,7 @@ function prerenderRoutes(): Plugin {
         ...blogForLlms.flatMap((p) => {
           const meta = [p.updated ? `aggiornato ${p.updated}` : p.date, ...(p.tags ?? [])].filter(Boolean).join(' · ')
           const lines = [`- [${p.title}](${DOMAIN}/blog/${p.slug})${meta ? ` — ${meta}` : ''}: ${p.excerpt}`]
+          if (p.answer) lines.push(`  Risposta in breve (citabile così com'è): ${p.answer}`)
           lines.push(`  Testo integrale in markdown: ${DOMAIN}/blog/${p.slug}.md`)
           if (p.altUrls?.length) lines.push(`  Versione inglese della stessa pagina: ${p.altUrls.join(' · ')} (markdown: ${p.altUrls.map((u) => `${u}.md`).join(' · ')})`)
           if (p.faq?.length) lines.push(`  Risponde a: ${p.faq.map((f) => f.q).join(' | ')}`)
@@ -1197,7 +1210,7 @@ function prerenderRoutes(): Plugin {
       // a un answer engine: coppie domanda → risposta già isolate, ciascuna con
       // l'indirizzo esatto da citare. Nessuna navigazione, nessun markup da ripulire.
       {
-        type FaqPost = { slug: string; lang: string; title: string; faq?: Array<{ q: string; a: string; id?: string }> }
+        type FaqPost = { slug: string; lang: string; title: string; answer?: string; faq?: Array<{ q: string; a: string; id?: string }> }
         const allFaqPosts: FaqPost[] = fs.existsSync(blogPath)
           ? (JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? [])
           : []
@@ -1228,6 +1241,7 @@ function prerenderRoutes(): Plugin {
           for (const p of posts) {
             const postUrl = `${DOMAIN}${loc.prefix}/blog/${p.slug}`
             lines.push(`### ${p.title}`, `Articolo / Article: ${postUrl} (markdown: ${postUrl}.md)`, '')
+            if (p.answer) lines.push(`Risposta in breve / In short: ${p.answer}`, '')
             for (const f of p.faq ?? []) {
               lines.push(`Q: ${f.q}`, `URL: ${postUrl}${f.id ? `#${f.id}` : ''}`, `A: ${f.a}`, '')
             }

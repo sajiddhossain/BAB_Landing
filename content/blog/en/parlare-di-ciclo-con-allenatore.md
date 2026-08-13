@@ -2,9 +2,10 @@
 slug: parlare-di-ciclo-con-allenatore
 title: "Talking about periods with your coach: why only 11% of athletes do (and how to change it)"
 date: 2026-07-03
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Only 11% of athletes talk about their menstrual cycle with their coach: 4% if he's a man, 55% if she's a woman. And 88% learned these things on their own. It isn't disinterest: it is the absence of a safe channel. What data from 1,086 athletes across 57 sports show, what coaches can actually say, what to answer when an athlete mentions pain, and how to open the channel without forcing anyone to expose herself."
+answer: "Because almost nobody has made it possible: only 11% of athletes discuss their cycle with the person coaching them — 4% if that person is a man, 55% if a woman — and 88% learned about it on their own (Höök et al., 2022). This is not shyness: it is the absence of a shared channel and language, and it changes from the staff's side."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
 coverAlt: "A smiling girl sitting at her desk at home, headphones round her neck, writing in a notebook"
 tags:

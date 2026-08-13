@@ -18,6 +18,8 @@ export interface BlogPostData {
  date: string | null;
  author: string | null;
  excerpt: string;
+ /** Risposta sintetica alla domanda del titolo (40-60 parole), citabile da sola. */
+ answer?: string;
  cover: string | null;
  /** Testo alternativo della copertina; se assente si ricade sul titolo. */
  coverAlt?: string;

@@ -2,9 +2,10 @@
 slug: reggiseno-sportivo-ragazze
 title: "Sports bras for girls: when the first one is needed, and how to get the size right"
 date: 2026-07-02
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "A first sports bra is needed as soon as breast development begins — there is no set age: the cue is the body, not the calendar. At 13-14, one girl in two says her breasts affect her participation in sport, yet only one in ten always wears one — and the girls who never wear one are more often those with smaller breasts. How to spot a wrong size, when compression beats encapsulation, how often to recheck the fit while growing, and why an education booklet in a randomised trial got 39% more athletes through a bra-fit test."
+answer: "As soon as breast development begins: the cue is the body, not the calendar. At 13-14, 51% of girls say their breasts affect their participation in sport, yet only 10% always wear one — and the girls who never do are more often those with smaller breasts (Scurr et al., 2016). Through the growing years the size should be rechecked every 6-12 months."
 cover: /fotobab/cover-reggiseno-sportivo.jpg
 coverAlt: "Folded sportswear — black shorts and a patterned vest — laid out on a yoga mat"
 tags:

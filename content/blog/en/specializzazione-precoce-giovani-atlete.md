@@ -2,9 +2,10 @@
 slug: specializzazione-precoce-giovani-atlete
 title: "Early specialisation: one sport all year round, and what it actually costs girls"
 date: 2026-07-26
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Among female athletes aged 13-18, those highly specialised in a single sport are 2.93 times as likely to report an injury history. Training more hours per week than your age in years doubles the odds of a serious overuse injury. And the athletes who actually reach the top started their main sport later, not earlier. The evidence, its limits, and the three questions that tell you whether a girl is already specialised."
+answer: "It costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised reported a history of injury 2.93 times as often as low-specialisation peers (Okoruwa et al., 2022), and training more hours a week than your age in years doubles the odds of a serious overuse injury (Jayanthi et al., 2015)."
 cover: /fotobab/cover-specializzazione-precoce.jpg
 coverAlt: "An outdoor multi-use court seen from above: a green basketball court with hoops and, at the far end, football goals"
 tags:

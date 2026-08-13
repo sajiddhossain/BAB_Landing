@@ -2,9 +2,10 @@
 slug: abbandono-puberta
 title: "Perché le ragazze smettono di fare sport in adolescenza: i dati sull'abbandono a 10-14 anni"
 date: 2026-06-22
-updated: 2026-08-12
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Tra le ragazze che si tesserano a 10-14 anni, il 71% abbandona lo sport senza mai rientrare e solo il 13% partecipa con continuità per sette anni. Non è un calo di motivazione: l'abbandono segue lo sviluppo del corpo — una pubertà precoce aumenta significativamente la probabilità di smettere (HR 1,68). I dati veri, quelli gonfiati da cui diffidare, e le quattro leve che una società ha davvero in mano."
+answer: "Non perché perdono interesse, ma perché l'ambiente smette di funzionare quando il corpo cambia. Tra le ragazze tesserate a 10-14 anni il 71% abbandona lo sport senza mai rientrare (Eime et al., 2020), e una pubertà precoce aumenta significativamente la probabilità di smettere (HR 1,68; Gallant et al., 2023)."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
 coverAlt: "Adolescente sorridente con le cuffie al collo, seduta alla scrivania di camera sua mentre scrive su un quaderno: il tempo libero che nell'adolescenza compete con lo sport"
 tags:

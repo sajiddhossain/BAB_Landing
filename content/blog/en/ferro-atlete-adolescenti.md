@@ -2,9 +2,10 @@
 slug: ferro-atlete-adolescenti
 title: "Low iron in teenage athletes: the deficiency nobody looks for (and a blood test finds)"
 date: 2026-07-16
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone."
+answer: "With a blood test, not by intuition: 53.2% of adolescent female athletes have mild iron deficiency (ferritin ≤30 µg/L), while iron-deficiency anaemia affects only 4% (Nicotra et al., 2023). Sport is not the dominant factor — among adolescents, athletes and non-athletes do not differ significantly — and supplementing without measuring first is not a good idea."
 cover: /fotobab/cover-ferro-atlete.jpg
 coverAlt: "Three varieties of lentils — green, red and black — laid out in stripes on a grey surface: pulses among the dietary sources of iron"
 tags:

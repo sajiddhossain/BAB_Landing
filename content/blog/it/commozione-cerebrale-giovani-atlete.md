@@ -2,9 +2,10 @@
 slug: commozione-cerebrale-giovani-atlete
 title: "Commozione cerebrale nelle giovani atlete: più frequente, meno riconosciuta (e cosa fare nei primi minuti)"
 date: 2026-07-24
-updated: 2026-08-06
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Nel calcio scolastico americano le ragazze subiscono commozioni cerebrali 1,88 volte più dei coetanei maschi, e hanno 1,26 volte la probabilità di non essere tolte dall'attività dopo il colpo. Chi continua a giocare recupera in 44 giorni invece di 22 — e il 60% degli episodi non viene riferito a nessun adulto. Non serve né un colpo visibile alla testa né la perdita di coscienza: i dati, i segnali da riconoscere a bordo campo nei primi minuti e cosa dicono davvero le linee guida internazionali."
+answer: "Le atlete la subiscono più spesso e la riferiscono meno: nel calcio scolastico il rischio è 1,88 volte quello dei coetanei maschi (Bretzin et al., 2021) e il 60% degli episodi non era stato riferito ad alcun adulto (Register-Mihalik et al., 2013). Al sospetto l'atleta va tolta subito dal gioco: chi resta in campo recupera in 44,4 giorni contro 22,0 (Elbin et al., 2016)."
 cover: /fotobab/cover-commozione-cerebrale.jpg
 coverAlt: "Pallone da calcio fermo sulla linea laterale di un campo in erba vuoto, con la porta e il sole basso sullo sfondo"
 tags:

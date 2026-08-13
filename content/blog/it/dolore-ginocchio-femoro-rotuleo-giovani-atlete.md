@@ -2,9 +2,10 @@
 slug: dolore-ginocchio-femoro-rotuleo-giovani-atlete
 title: "Il ginocchio che fa male da mesi: perché non è «dolore di crescita»"
 date: 2026-07-30
-updated: 2026-08-12
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze, la durata mediana del dolore è di 24 mesi e cinque anni dopo il 40,5% ha ancora male — con il 60% che ha smesso o ridotto lo sport. Il dolore femoro-rotuleo non passa «crescendo»: passa quando qualcuno lo prende sul serio e dosa il carico. I dati, e cosa cambia in palestra."
+answer: "Nella maggior parte dei casi non passa crescendo: cinque anni dopo, il 40,5% degli adolescenti con dolore al ginocchio ne ha ancora, e il 60% di questi ha smesso o ridotto lo sport a causa del ginocchio (Rathleff et al., 2019). Quello che funziona non è il riposo totale ma il carico dosato per settimane, insieme al rinforzo di anca e ginocchio."
 cover: /fotobab/cover-dolore-ginocchio.jpg
 coverAlt: "Scala metallica esterna di uno stadio sportivo vuoto, gradini in lamiera e ringhiere, senza persone"
 tags:

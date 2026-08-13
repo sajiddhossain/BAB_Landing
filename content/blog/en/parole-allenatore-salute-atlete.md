@@ -2,9 +2,10 @@
 slug: parole-allenatore-salute-atlete
 title: "A coach's words: how staff knowledge and language change athletes' health"
 date: 2026-07-09
-updated: 2026-08-08
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "What a coach of adolescent girls should know — and what is better never said. Athletes who perceive their coach as very knowledgeable report 36% fewer RED-S symptoms; those who have received comments about their body are four times more likely to change how they eat (33% vs 7%). Staff language is not a neutral backdrop to training: it is a measurable health variable. The data, the limits, and what to do with it tomorrow in the gym."
+answer: "More than it seems, and it is measurable: a coach perceived as very well-informed is associated with 3.2 RED-S symptoms on average against 4.3 — 36% fewer — while comments about the body that make athletes uncomfortable are associated with four times the odds of changing their eating (Female Athlete Health Report, 2023 — adult sample, not peer-reviewed)."
 cover: /fotobab/Lk1n229r5pBnV0VjfyxuaNksAM8.avif
 coverAlt: "A team of young female footballers in match kit, arms around each other's shoulders in a tight huddle, celebrating together on a grass pitch"
 tags:

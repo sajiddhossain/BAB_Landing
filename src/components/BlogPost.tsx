@@ -82,6 +82,16 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  />
  )}
 
+ {/* Risposta in breve: due frasi che rispondono alla domanda del titolo, con il
+ dato e la fonte. È il primo blocco di testo dopo il titolo — quello che un
+ answer engine estrae quando deve rispondere in tre righe — ed è dichiarato
+ come `abstract` nei dati strutturati e nei selettori Speakable. */}
+ {post.answer && (
+ <p className="answer-capsule mb-10 border-[3px] border-black bg-[#D2EC7C] p-5 text-[17px] leading-relaxed font-bold text-[#0F0F12] shadow-[6px_6px_0_0_#0F0F12]">
+ {post.answer}
+ </p>
+ )}
+
  {/* Sommario: le stesse ancore (#id) generate al build sui titoli dell'articolo.
  Serve al lettore per orientarsi e ai motori per capire — e citare — la sezione
  esatta che risponde a una domanda, invece della pagina intera. */}

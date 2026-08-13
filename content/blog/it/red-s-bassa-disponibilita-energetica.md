@@ -2,9 +2,10 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)"
 date: 2026-07-04
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica."
+answer: "Quando l'energia introdotta non copre quella spesa tra allenamento e crescita: è la bassa disponibilità energetica alla base della RED-S. Non serve un disturbo alimentare, può accadere senza intenzione, e i primi segnali sono un ciclo che si dirada, infortuni ripetuti, sonno e umore peggiori — eppure il 44% delle atlete adolescenti crede che perdere il ciclo sia normale (Armento et al., 2021)."
 cover: /fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif
 coverAlt: "Giovane atleta con felpa bianca e fascia tra i capelli che si allunga le braccia sopra la testa su una pista di atletica"
 tags:

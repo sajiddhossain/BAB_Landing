@@ -5,6 +5,7 @@ date: 2026-08-02
 updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Nelle giovani atlete il picco di velocità di crescita arriva in media intorno agli 11,2 anni, ma con una variabilità enorme: in una squadra di tredicenni convivono corpi a stadi di maturazione diversi di anni. Nel frattempo l'osso si mineralizza circa sei mesi dopo che si è allungato. Cosa dicono davvero i dati — e perché sulle ragazze l'evidenza che lega la crescita agli infortuni è ancora limitata."
+answer: "Cambiano leve, coordinazione e struttura ossea, non l'impegno. Nelle giovani atlete l'età media al picco di crescita è 11,18 anni, ma con un intervallo di credibilità al 90% da 8,62 a 12,94 (Lima et al., 2024): nella stessa categoria convivono atlete biologicamente distanti anni. Il picco di minerale osseo arriva circa sei mesi dopo (Bailey et al., 1999)."
 cover: /fotobab/cover-picco-di-crescita.jpg
 coverAlt: "Dettaglio di una spalliera da palestra: tre pioli di legno chiaro montati su un telaio nero contro un muro di mattoni bianchi, come tacche di altezza che salgono"
 tags:

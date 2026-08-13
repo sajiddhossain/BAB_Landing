@@ -2,9 +2,10 @@
 slug: dolore-spalla-giovani-atlete
 title: "Shoulder pain in young female athletes: volleyball, swimming and the load nobody counts"
 date: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "In elite youth handball, almost one athlete in four (23%) had substantial shoulder problems over a single season, and girls had a prevalence 1.46 times higher than boys. Among adolescent swimmers the available review reports the highest shoulder-pain rate of any age group (91.3%), against 17 hours a week in the pool. The shoulder is the one joint that works overhead every day in girls' sport — and the one nobody keeps count of."
+answer: "Because the overhead movement loads a shoulder that has not finished growing, every day. In elite handball at 15-18, 23% have substantial shoulder problems in one season, with prevalence 1.46 times higher in girls (Asker et al., 2018); in swimming, the 15-17 band reports the highest pain rate of any age (91.3%; Feijen et al., 2020)."
 cover: /fotobab/cover-spalla-giovani-atlete.jpg
 coverAlt: "Close-up of a yellow and black volleyball net against a blue sky, with a blurred beach behind it; no identifiable people"
 tags:

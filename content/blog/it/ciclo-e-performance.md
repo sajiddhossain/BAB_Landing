@@ -2,9 +2,10 @@
 slug: ciclo-e-performance
 title: "Ciclo mestruale e performance sportiva: cosa dicono i dati (e cosa non dicono)"
 date: 2026-06-20
-updated: 2026-08-12
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Il 77% delle atlete d'élite riferisce che il ciclo ha influenzato negativamente la performance — ma quel campione ha 28 anni di età media. Tra le adolescenti di 10-18 anni, dal 25% al 61% riduce o evita l'attività fisica durante le mestruazioni. E periodizzare l'allenamento sulla fase del ciclo? Su una ragazza di 14 anni non esiste evidenza che lo sostenga. Cosa dicono i dati, cosa non dicono, e da dove partire davvero."
+answer: "Sì, ma meno di quanto si creda e non in modo prevedibile: nella meta-analisi più ampia l'effetto della fase del ciclo sulla prestazione è di entità «banale», e misurato su donne adulte (McNulty et al., 2020). Pesa di più ciò che l'atleta vive: il 77% delle atlete d'élite riferisce che il ciclo ha influenzato la performance (Jones et al., 2024 — età media 28 anni)."
 cover: /fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif
 coverAlt: "Giovane atleta in canotta nera in mezzo alle compagne di squadra su una pista di atletica, lo sguardo dritto in camera"
 tags:

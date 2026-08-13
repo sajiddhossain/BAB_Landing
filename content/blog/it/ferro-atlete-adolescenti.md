@@ -2,9 +2,10 @@
 slug: ferro-atlete-adolescenti
 title: "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e che si trova con un esame)"
 date: 2026-07-16
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli."
+answer: "Con un esame del sangue, non a intuito: il 53,2% delle atlete adolescenti ha una carenza di ferro lieve (ferritina ≤30 µg/L), mentre l'anemia sideropenica riguarda solo il 4% (Nicotra et al., 2023). Lo sport non è il fattore dominante — tra le adolescenti, atlete e non atlete non differiscono in modo significativo — e integrare senza aver misurato non è una buona idea."
 cover: /fotobab/cover-ferro-atlete.jpg
 coverAlt: "Tre varietà di lenticchie — verdi, rosse e nere — disposte in strisce affiancate su un piano grigio: legumi tra le fonti alimentari di ferro"
 tags:

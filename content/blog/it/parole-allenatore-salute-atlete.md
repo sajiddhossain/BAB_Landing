@@ -2,9 +2,10 @@
 slug: parole-allenatore-salute-atlete
 title: "Le parole dell'allenatore: come la cultura e il linguaggio dello staff cambiano la salute delle atlete"
 date: 2026-07-09
-updated: 2026-08-08
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Cosa dovrebbe sapere — e cosa è meglio non dire mai — chi allena ragazze adolescenti. Le atlete che percepiscono il proprio allenatore come molto informato riportano il 36% di sintomi di RED-S in meno; chi ha ricevuto commenti sul proprio corpo è quattro volte più propensa a modificare l'alimentazione (33% contro 7%). Il linguaggio dello staff non è un contorno neutro dell'allenamento: è una variabile di salute misurabile. I dati, i limiti, e cosa farne domani in palestra."
+answer: "Più di quanto sembri, e si misura: un allenatore percepito come molto informato si associa a 3,2 sintomi di RED-S in media contro 4,3, cioè il 36% in meno, mentre i commenti sul corpo che mettono a disagio si associano a quattro volte più probabilità di modificare l'alimentazione (Female Athlete Health Report, 2023 — campione adulto, non peer-reviewed)."
 cover: /fotobab/Lk1n229r5pBnV0VjfyxuaNksAM8.avif
 coverAlt: "Squadra di giovani calciatrici in tenuta da gara, strette in cerchio e abbracciate per le spalle, che esultano insieme su un campo in erba"
 tags:
