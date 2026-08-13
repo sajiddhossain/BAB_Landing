@@ -8,7 +8,8 @@
     "waitlist": "Entra in lista d’attesa",
     "blog": "Blog",
     "faq": "Domande e risposte",
-    "glossary": "Glossario"
+    "glossary": "Glossario",
+    "facts": "I numeri"
   },
   "footer": {
     "tagline": "La prima piattaforma di supporto per le adolescenti nello sport",
@@ -691,6 +692,10 @@
     "faq": {
       "title": "Domande e risposte sulle giovani atlete | BAB",
       "desc": "Tutte le domande a cui BAB risponde, con la fonte per ogni numero: ciclo e performance, infortuni, sonno, ferro, dolore, abbandono sportivo. E le domande sul progetto."
+    },
+    "dati": {
+      "title": "I numeri sulla salute delle giovani atlete | BAB",
+      "desc": "49 dati con la popolazione in cui sono stati misurati e la fonte con DOI: abbandono sportivo, ciclo, infortuni, sonno, ferro, dolore. Un numero senza popolazione non è un dato."
     }
   },
   "a11y": {

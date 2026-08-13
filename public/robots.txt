@@ -35,6 +35,8 @@ Allow: /
 # Tutte le domande e risposte del sito, ognuna con l'URL della sua ancora: /faq.txt
 # Indice navigabile delle domande: /faq (IT) e /en/faq (EN)
 # Glossario dei termini, un'ancora per voce: /glossario e /en/glossario
+# I dati citabili, uno per ancora, con popolazione e DOI: /dati e /en/dati
+# Feed degli articoli nuovi: /feed.xml
 # Ogni articolo ha una sorgente in markdown allo stesso URL con suffisso .md
 # (es. /blog/dolori-mestruali-giovani-atlete.md), dichiarata in pagina come
 # <link rel="alternate" type="text/markdown">.

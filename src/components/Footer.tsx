@@ -25,6 +25,7 @@ const NAV_LINKS = [
  // solo dai dati strutturati, cioè orfane per un crawler e invisibili a un lettore.
  { path: '/faq', key: 'nav.faq' },
  { path: '/glossario', key: 'nav.glossary' },
+ { path: '/dati', key: 'nav.facts' },
 ].filter((l) => (COACH_ENABLED || l.path !== '/coach') && (APP_ENABLED || l.path !== '/app'));
 
 const SOCIALS = [

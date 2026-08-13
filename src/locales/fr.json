@@ -8,7 +8,8 @@
     "waitlist": "Rejoins la liste d’attente",
     "blog": "Blog",
     "faq": "Questions et réponses",
-    "glossary": "Glossaire"
+    "glossary": "Glossaire",
+    "facts": "Les chiffres"
   },
   "footer": {
     "tagline": "La première plateforme de soutien pour les adolescentes dans le sport",
@@ -691,6 +692,10 @@
     "faq": {
       "title": "Questions et réponses sur les jeunes athlètes | BAB",
       "desc": "Toutes les questions auxquelles BAB répond, avec une source pour chaque chiffre : cycle et performance, blessures, sommeil, fer, douleur, abandon sportif."
+    },
+    "dati": {
+      "title": "Les chiffres sur la santé des jeunes athlètes | BAB",
+      "desc": "49 données avec la population mesurée et la source avec DOI : abandon sportif, cycle, blessures, sommeil, fer, douleur. Un chiffre sans population n’est pas une donnée."
     }
   },
   "a11y": {

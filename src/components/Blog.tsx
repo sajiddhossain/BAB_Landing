@@ -92,6 +92,12 @@ export default function Blog({ lang: langProp }: BlogProps = {}) {
  >
  {lang === 'en' ? 'Glossary →' : 'Glossario →'}
  </a>
+ <a
+ href={lang === 'en' ? '/en/dati' : '/dati'}
+ className="inline-block bg-white border-[3px] border-black px-4 py-2 font-black uppercase tracking-widest text-xs shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-0.5 transition-transform focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+ >
+ {lang === 'en' ? 'The numbers →' : 'I numeri →'}
+ </a>
  </p>
  </header>
 

@@ -33,6 +33,7 @@ const Blog = lazy(() => import('./components/Blog'));
 const BlogPost = lazy(() => import('./components/BlogPost'));
 const Glossary = lazy(() => import('./components/Glossary'));
 const FaqHub = lazy(() => import('./components/FaqHub'));
+const Facts = lazy(() => import('./components/Facts'));
 const WaitlistModal = lazy(() => import('./components/WaitlistModal'));
 
 // Normalizza il path: rimuove lo slash finale (/coach/ → /coach), così il match
@@ -47,7 +48,7 @@ const normalizePath = (p: string): string => {
 // Rotte che, come il blog, esistono in due lingue con l'inglese sotto /en.
 // Sono pagine-risposta (glossario e FAQ): la lingua deve stare nell'URL, altrimenti
 // la versione inglese non è indicizzabile e non ha un indirizzo da citare.
-const BILINGUAL_ROUTES = ['/glossario', '/faq'] as const;
+const BILINGUAL_ROUTES = ['/glossario', '/faq', '/dati'] as const;
 type BilingualRoute = (typeof BILINGUAL_ROUTES)[number];
 
 /** Path della rotta bilingue nella lingua data: /faq oppure /en/faq. */
@@ -182,8 +183,8 @@ export default function App() {
     const map: Record<string, string> = {
       '/': 'home', '/app': 'app', '/coach': 'coach', '/features': 'features',
       '/about': 'about', '/privacy': 'privacy', '/cookie': 'cookie', '/termini': 'termini',
-      '/blog': 'blog', '/glossario': 'glossario', '/faq': 'faq',
-      '/en/glossario': 'glossario', '/en/faq': 'faq',
+      '/blog': 'blog', '/glossario': 'glossario', '/faq': 'faq', '/dati': 'dati',
+      '/en/glossario': 'glossario', '/en/faq': 'faq', '/en/dati': 'dati',
     };
     const bilingual = matchBilingual(currentPath);
     const isBlogRoute = /^\/(en\/)?blog(\/|$)/.test(currentPath);
@@ -553,6 +554,9 @@ export default function App() {
             )}
             {bilingualRoute?.route === '/faq' && (
               <FaqHub key={`faq-${bilingualRoute.lang}`} lang={bilingualRoute.lang} />
+            )}
+            {bilingualRoute?.route === '/dati' && (
+              <Facts key={`dati-${bilingualRoute.lang}`} lang={bilingualRoute.lang} />
             )}
             {activePath === '/features' && <Features key="features" />}
             {activePath === '/about' && <About key="about" />}
