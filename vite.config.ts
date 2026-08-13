@@ -13,6 +13,8 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { GLOSSARY } from './src/data/glossary'
 import { FAQ_BAB } from './src/data/faqBab'
+import { FACTS } from './src/data/facts'
+import { autolinkGlossary } from './src/lib/autolink'
 
 const DOMAIN = 'https://www.babsport.com'
 
@@ -397,7 +399,7 @@ function prerenderRoutes(): Plugin {
             // arrivava solo dopo il mount di React, cioè nella seconda ondata di
             // rendering di Google — lenta e non garantita su un dominio giovane.
             // Ora il crawler trova l'articolo intero, fonti comprese, senza JS.
-            const bodyHtml = localizeLinks(post.html ?? '', loc.prefix)
+            const bodyHtml = autolinkGlossary(localizeLinks(post.html ?? '', loc.prefix), lang)
             page = page.replace(
               /<div id="root">\s*<\/div>/,
               `<div id="root"><article><h1>${esc(post.title)}</h1><p>${esc(post.excerpt)}</p>${tocHtml}${bodyHtml}${faqHtml}</article></div>`,
@@ -641,7 +643,7 @@ function prerenderRoutes(): Plugin {
             .join('')
           // Link alle pagine-risposta anche nell'HTML statico: nella SPA li mostra
           // il componente Blog, ma un crawler che non esegue JS non li vedrebbe.
-          const answerLinks = `<p><a href="/faq">Tutte le domande</a> · <a href="/glossario">Glossario</a></p>`
+          const answerLinks = `<p><a href="/faq">Tutte le domande</a> · <a href="/glossario">Glossario</a> · <a href="/dati">I numeri</a></p>`
           page = page.replace(/(<div id="root">[\s\S]*?)<\/div>/, `$1${answerLinks}<ul>${items}</ul></div>`)
           const blogEntity = {
             '@context': 'https://schema.org',
@@ -719,7 +721,7 @@ function prerenderRoutes(): Plugin {
             .join('')
           page = page.replace(
             /<div id="root">\s*<\/div>/,
-            `<div id="root"><h1>${esc(s.title)}</h1><p>${esc(s.desc)}</p><p><a href="/en/faq">All questions</a> · <a href="/en/glossario">Glossary</a></p><ul>${enIndex}</ul></div>`,
+            `<div id="root"><h1>${esc(s.title)}</h1><p>${esc(s.desc)}</p><p><a href="/en/faq">All questions</a> · <a href="/en/glossario">Glossary</a> · <a href="/en/dati">The numbers</a></p><ul>${enIndex}</ul></div>`,
           )
           // Stesse entità dell'indice italiano, sul ramo inglese: il blog come
           // entità (a cui gli articoli EN dichiarano di appartenere) e la lista
@@ -793,10 +795,10 @@ function prerenderRoutes(): Plugin {
           return [...bySlug.values()].filter((p) => (p.faq?.length ?? 0) > 0)
         }
 
-        for (const route of ['/glossario', '/faq'] as const) {
+        for (const route of ['/glossario', '/faq', '/dati'] as const) {
           for (const lang of Object.keys(BLOG_LOCALES)) {
             const loc = BLOG_LOCALES[lang]
-            const key = route === '/glossario' ? 'glossario' : 'faq'
+            const key = route === '/glossario' ? 'glossario' : route === '/faq' ? 'faq' : 'dati'
             const s2 = localeSeo[lang]?.[key] ?? localeSeo.it[key]
             if (!s2) continue
             const url = `${DOMAIN}${loc.prefix}${route}`
@@ -856,6 +858,50 @@ function prerenderRoutes(): Plugin {
                 publisher: { '@id': `${DOMAIN}/#organization` },
                 hasDefinedTerm: keys.map((k) => definedTerm(k, lang)),
               })
+            } else if (route === '/dati') {
+              // Una statistica per riga, con la sua ancora e la sua fonte: è la forma
+              // che un motore può citare senza staccare il numero dalla popolazione.
+              const items = FACTS.map(
+                (f) =>
+                  `<li id="${f.id}"><p>${esc(isEn ? f.claimEn : f.claim)}</p><p>${isEn ? 'Source' : 'Fonte'}: ${
+                    f.doi ? `<a href="https://doi.org/${f.doi}" rel="nofollow">${esc(f.source)}</a>` : esc(f.source)
+                  }</p></li>`,
+              ).join('')
+              rootHtml = `<h1>${esc(s2.title)}</h1><p>${esc(s2.desc)}</p><ul>${items}</ul>`
+              routeLd.push({
+                '@context': 'https://schema.org',
+                '@type': 'ItemList',
+                '@id': `${url}#dati`,
+                name: s2.title,
+                description: s2.desc,
+                url,
+                inLanguage: loc.inLanguage,
+                numberOfItems: FACTS.length,
+                itemListElement: FACTS.map((f, i) => ({
+                  '@type': 'ListItem',
+                  position: i + 1,
+                  url: `${url}#${f.id}`,
+                  name: isEn ? f.claimEn : f.claim,
+                })),
+              })
+              // Le fonti primarie della pagina come entità: 49 dati, altrettanti DOI.
+              const cited = [...new Map(FACTS.filter((f) => f.doi).map((f) => [f.doi, f])).values()]
+              routeLd.push({
+                '@context': 'https://schema.org',
+                '@type': 'WebPage',
+                '@id': `${url}#page`,
+                url,
+                name: s2.title,
+                description: s2.desc,
+                inLanguage: loc.inLanguage,
+                isPartOf: { '@id': `${DOMAIN}/#website` },
+                citation: cited.map((f) => ({
+                  '@type': 'ScholarlyArticle',
+                  name: f.source,
+                  url: `https://doi.org/${f.doi}`,
+                  '@id': `https://doi.org/${f.doi}`,
+                })),
+              })
             } else {
               const babQa = FAQ_BAB.map((f) => ({ id: f.id, q: isEn ? f.qEn : f.q, a: isEn ? f.aEn : f.a }))
               const babHtml = babQa.map((f) => `<h2 id="${f.id}">${esc(f.q)}</h2><p>${esc(f.a)}</p>`).join('')
@@ -911,7 +957,7 @@ function prerenderRoutes(): Plugin {
             )
           }
         }
-        console.log(`✓ AEO: ${bilingualUrls.length} pagine-risposta (glossario + FAQ, IT/EN)`)
+        console.log(`✓ AEO: ${bilingualUrls.length} pagine-risposta (glossario + FAQ + dati, IT/EN)`)
       }
 
       // --- Sitemap: inserisce le URL del blog (lista + articoli) prima di </urlset> ---
@@ -966,6 +1012,8 @@ function prerenderRoutes(): Plugin {
         `- Tutte le domande e risposte del sito in un file solo, ognuna con l'URL della sua ancora: ${DOMAIN}/faq.txt.`,
         `- Ogni risposta FAQ ha un'ancora propria in pagina (${DOMAIN}/blog/{slug}#faq-…) e ogni sezione di articolo ha l'ancora del suo titolo: si può citare la riga, non solo la pagina.`,
         `- Indice navigabile delle domande: ${DOMAIN}/faq (IT) e ${DOMAIN}/en/faq (EN). Definizioni dei termini: ${DOMAIN}/glossario e ${DOMAIN}/en/glossario, con un'ancora per termine (#chiave).`,
+        `- Statistiche con ancora propria (#id), popolazione dichiarata e DOI: ${DOMAIN}/dati e ${DOMAIN}/en/dati.`,
+        `- Feed RSS degli articoli nuovi: ${DOMAIN}/feed.xml.`,
         `- L'intero corpus in un solo file: ${DOMAIN}/llms-full.txt (italiano e inglese, tutti gli articoli per esteso).`,
         '- Dati strutturati su ogni articolo: BlogPosting con citation (ScholarlyArticle, una per fonte), FAQPage, DefinedTerm in `about` e `mentions`, SpeakableSpecification, BreadcrumbList. Le versioni italiana e inglese si dichiarano a vicenda con translationOfWork/workTranslation.',
         '- Le date da guardare sono due: `datePublished` e `dateModified`. Gli articoli vengono rivisti, e `dateModified` cambia solo quando il testo cambia davvero.',
@@ -1097,6 +1145,7 @@ function prerenderRoutes(): Plugin {
         `- [Blog](${DOMAIN}/blog)`,
         `- [Domande e risposte](${DOMAIN}/faq) — tutte le domande del sito, ognuna con il link alla risposta e alla sua fonte`,
         `- [Glossario](${DOMAIN}/glossario) — ${Object.keys(GLOSSARY).length} definizioni autonome, una per voce, con dato, popolazione e fonte`,
+        `- [I numeri](${DOMAIN}/dati) — ${FACTS.length} dati citabili, ognuno con la popolazione in cui è stato misurato e il DOI della fonte`,
         `- [Funzionalità](${DOMAIN}/features)`,
         `- [Chi siamo](${DOMAIN}/about)`,
         `- [Privacy](${DOMAIN}/privacy)`,
@@ -1104,6 +1153,45 @@ function prerenderRoutes(): Plugin {
         `Sitemap: ${DOMAIN}/sitemap.xml`,
         '',
       ].join('\n')
+      // --- feed.xml (RSS 2.0): il canale di scoperta degli articoli nuovi ---
+      // La sitemap dice cosa esiste, il feed dice cosa è appena cambiato: è il modo
+      // in cui aggregatori, lettori e crawler AI si accorgono di un articolo nuovo
+      // senza aspettare la ri-scansione del sito.
+      {
+        const items = [...blogForLlms]
+          .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
+          .slice(0, 30)
+          .map((p) => {
+            const link = `${DOMAIN}/blog/${p.slug}`
+            const pub = p.date ? new Date(`${p.date}T09:00:00Z`).toUTCString() : ''
+            return [
+              '    <item>',
+              `      <title>${esc(p.title)}</title>`,
+              `      <link>${link}</link>`,
+              `      <guid isPermaLink="true">${link}</guid>`,
+              pub ? `      <pubDate>${pub}</pubDate>` : '',
+              `      <description>${esc(p.excerpt)}</description>`,
+              ...(p.tags ?? []).map((t) => `      <category>${esc(t)}</category>`),
+              '    </item>',
+            ].filter(Boolean).join('\n')
+          })
+          .join('\n')
+        const feed = [
+          '<?xml version="1.0" encoding="UTF-8"?>',
+          '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+          '  <channel>',
+          '    <title>BAB — Breaking All Barriers</title>',
+          `    <link>${DOMAIN}/blog</link>`,
+          '    <description>Articoli con fonti peer-reviewed su salute, crescita e performance delle giovani atlete. Ogni affermazione è ancorata a una fonte citata; quando uno studio è condotto su adulti, l\'articolo lo dichiara.</description>',
+          '    <language>it-IT</language>',
+          `    <atom:link href="${DOMAIN}/feed.xml" rel="self" type="application/rss+xml" />`,
+          items,
+          '  </channel>',
+          '</rss>',
+        ].join('\n')
+        fs.writeFileSync(path.join(dist, 'feed.xml'), feed)
+      }
+
       // --- faq.txt (AEO): ogni domanda del sito con l'URL della sua risposta ---
       // llms.txt è l'indice e llms-full.txt il corpus; questo è il formato che serve
       // a un answer engine: coppie domanda → risposta già isolate, ciascuna con

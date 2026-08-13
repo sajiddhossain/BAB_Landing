@@ -9,6 +9,7 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { blogPath, localizeBlogLinks } from '../lib/blogLocale';
+import { autolinkGlossary } from '../lib/autolink';
 import { BLOG_POSTS, formatDate, type BlogPostData } from './Blog';
 import NotFound from './NotFound';
 import SponsorSlot from './SponsorSlot';
@@ -111,7 +112,7 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
 
  <div
  className="blog-prose font-['Space_Grotesk',_sans-serif] text-[17px] leading-relaxed text-[#0F0F12]"
- dangerouslySetInnerHTML={{ __html: localizeBlogLinks(post.html, lang) }}
+ dangerouslySetInnerHTML={{ __html: autolinkGlossary(localizeBlogLinks(post.html, lang), lang) }}
  />
 
  {post.faq && post.faq.length > 0 && (

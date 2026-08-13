@@ -8,7 +8,8 @@
     "waitlist": "Join the waitlist",
     "blog": "Blog",
     "faq": "Questions & answers",
-    "glossary": "Glossary"
+    "glossary": "Glossary",
+    "facts": "The numbers"
   },
   "footer": {
     "tagline": "The first support platform for teenage girls in sport",
@@ -691,6 +692,10 @@
     "faq": {
       "title": "Questions and answers about young female athletes | BAB",
       "desc": "Every question BAB answers, with a source for every number: cycle and performance, injuries, sleep, iron, pain, drop-out. Plus the questions about the project."
+    },
+    "dati": {
+      "title": "The numbers on young female athletes’ health | BAB",
+      "desc": "49 figures, each with the population it was measured in and the source with DOI: drop-out, menstrual cycle, injuries, sleep, iron, pain. A number without its population is not a fact."
     }
   },
   "a11y": {
