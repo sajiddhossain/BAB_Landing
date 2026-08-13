@@ -87,9 +87,15 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  answer engine estrae quando deve rispondere in tre righe — ed è dichiarato
  come `abstract` nei dati strutturati e nei selettori Speakable. */}
  {post.answer && (
- <p className="answer-capsule mb-10 border-[3px] border-black bg-[#D2EC7C] p-5 text-[17px] leading-relaxed font-bold text-[#0F0F12] shadow-[6px_6px_0_0_#0F0F12]">
- {post.answer}
- </p>
+ // Trattamento leggero: una barra lime e un'etichetta, non una scatola. Sopra il
+ // sommario — che è già riquadrato — due blocchi con bordo e ombra si sarebbero
+ // fatti concorrenza, e la prima cosa che si legge dev'essere il testo.
+ <div className="mb-8 border-l-[6px] border-[#D2EC7C] pl-4 sm:pl-5">
+ <span className="block font-black uppercase text-[11px] tracking-widest text-[#0F0F12]/55 mb-1.5">
+ {lang === 'en' ? 'In short' : 'In breve'}
+ </span>
+ <p className="answer-capsule text-[18px] leading-relaxed text-[#0F0F12]/90">{post.answer}</p>
+ </div>
  )}
 
  {/* Sommario: le stesse ancore (#id) generate al build sui titoli dell'articolo.
