@@ -383,6 +383,14 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'Altered movement of the shoulder blade during arm elevation, often proposed as a shoulder screening test. Its predictive value is contested: a meta-analysis of 5 studies and 419 athletes estimates a 43% greater risk of shoulder pain (RR 1.43; 95% CI 1.05-1.93) (Hickey et al., 2018), while a larger one of 7 studies and 923 athletes finds no statistically significant association (RR 1.07; 95% CI 0.85-1.34; p=0.59) (Hogan et al., 2021). On its own it does not identify who will get injured.',
   },
+  'salute-mestruale': {
+    name: 'Salute mestruale nello sport (gestione pratica)',
+    description:
+      "L'insieme delle condizioni che permettono di allenarsi durante le mestruazioni: prodotti adatti al gesto, abbigliamento che non aumenti la paura delle perdite, disponibilità di un kit e una prassi dichiarata sulle assenze. Non è un tema fisiologico ma organizzativo: tra le adolescenti di 10-18 anni dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, con la paura delle perdite tra le barriere ricorrenti e carenze informative in 24 studi su 42 (Harvey et al., 2025).",
+    nameEn: 'Menstrual health in sport (practical management)',
+    descriptionEn:
+      'The set of conditions that make training during menstruation possible: products suited to the movement, clothing that does not add to the fear of leaking, an available supply kit and a stated practice on absences. It is not a physiological topic but an organisational one: among adolescents aged 10-18, between 25.2% and 61.1% avoid or reduce physical activity during their period, with fear of leaking among the recurring barriers and informational gaps in 24 of 42 studies (Harvey et al., 2025).',
+  },
   gird: {
     name: 'GIRD (deficit di rotazione interna gleno-omerale)',
     description:

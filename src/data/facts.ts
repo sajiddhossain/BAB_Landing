@@ -115,6 +115,26 @@ export const FACTS: Fact[] = [
     doi: '10.4085/624-20',
   },
   {
+    id: 'gestire-ciclo-nello-sport-1',
+    article: 'gestire-ciclo-nello-sport',
+    claim:
+      "Le carenze informative sono una barriera documentata quanto i sintomi: nella revisione globale su 86 studi in 33 Paesi compaiono in 24 studi su 42 (57,1%), con scarsa alfabetizzazione mestruale tra le ragazze e formazione inadeguata di chi insegna educazione fisica. Popolazione: adolescenti di 10-18 anni.",
+    claimEn:
+      'Informational gaps are as documented a barrier as symptoms: in the global review of 86 studies across 33 countries they appear in 24 of 42 studies (57.1%), with poor menstrual health literacy among girls and inadequate training among PE staff. Population: adolescents aged 10-18.',
+    source: 'Harvey et al., 2025',
+    doi: '10.1186/s12905-025-03825-w',
+  },
+  {
+    id: 'gestire-ciclo-nello-sport-2',
+    article: 'gestire-ciclo-nello-sport',
+    claim:
+      "Le coppette mestruali risultano sicure e con perdite simili o inferiori ad assorbenti e tamponi: nei 4 studi che hanno confrontato direttamente i prodotti (293 partecipanti) tre non hanno trovato differenze e uno ha riportato perdite significativamente minori. Gli autori segnalano una necessaria fase di familiarizzazione ed eventi avversi rari (5 casi di sindrome da shock tossico, 47 difficoltà di rimozione, 13 dislocazioni di IUD). ATTENZIONE: 43 studi e 3.319 partecipanti, senza analisi per fascia d'età — non è una raccomandazione specifica per le adolescenti.",
+    claimEn:
+      'Menstrual cups are found to be safe, with leakage similar to or lower than pads and tampons: of the 4 studies directly comparing products (293 participants), three found no difference and one reported significantly less leakage. The authors note a necessary familiarisation phase and rare adverse events (5 cases of toxic shock syndrome, 47 removal difficulties, 13 IUD dislodgements). CAUTION: 43 studies and 3,319 participants, with no breakdown by age — not a recommendation specific to adolescents.',
+    source: 'van Eijk et al., 2019',
+    doi: '10.1016/S2468-2667(19)30111-2',
+  },
+  {
     id: 'ferro-atlete-adolescenti-1',
     article: 'ferro-atlete-adolescenti',
     claim:
