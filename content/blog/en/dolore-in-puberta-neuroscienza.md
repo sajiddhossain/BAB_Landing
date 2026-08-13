@@ -5,6 +5,7 @@ date: 2026-07-11
 updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "During puberty clinical pain genuinely increases: abdominal pain rises to nearly 30% in girls versus 16% in boys, and period pain affects 71.1% of young women — 20.1% miss school because of it. It isn't fragility or theatre: it's a developmental stage documented by neuroscience. What happens at 13-14, how to tell pain worth watching from pain that needs a doctor, and why it matters for coaches and parents."
+answer: "Because pain mechanisms reorganise during puberty: experimental pain tends to decrease while clinical pain — headache, abdominal pain, dysmenorrhoea — increases (Nahman-Averbuch et al., 2023). Differences between girls and boys emerge in adolescence and not before: this is physiology, not character, and it should be treated as information."
 cover: /fotobab/cover-dolore-puberta.jpg
 coverAlt: "Close-up of the white lane lines on an empty red athletics track"
 tags:

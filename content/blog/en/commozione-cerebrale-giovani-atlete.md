@@ -2,9 +2,10 @@
 slug: commozione-cerebrale-giovani-atlete
 title: "Concussion in young female athletes: more common, less often spotted (and what to do in the first minutes)"
 date: 2026-07-24
-updated: 2026-08-06
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22 — and 60% of events are never reported to any adult. Neither a visible blow to the head nor loss of consciousness is required: the data, the sideline signs in the first minutes, and what the international guidelines actually say."
+answer: "Female athletes sustain more concussions and report fewer: in high-school football (soccer) the risk is 1.88 times that of male peers (Bretzin et al., 2021), and 60% of events had not been reported to any adult (Register-Mihalik et al., 2013). On suspicion the athlete must come off immediately: those who stay on recover in 44.4 days against 22.0 (Elbin et al., 2016)."
 cover: /fotobab/cover-commozione-cerebrale.jpg
 coverAlt: "A football resting on the touchline of an empty grass pitch, with the goal and low sun in the background"
 tags:

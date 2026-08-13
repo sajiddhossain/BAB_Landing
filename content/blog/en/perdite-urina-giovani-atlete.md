@@ -2,9 +2,10 @@
 slug: perdite-urina-giovani-atlete
 title: "I leak when I jump: the symptom almost no young athlete talks about"
 date: 2026-07-22
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Leaking urine when jumping or landing affects on average 48.6% of adolescent female athletes, and 80% in trampolining. Yet 87% say they would not mention it to their coach. It is common, but common does not mean normal: what the data say about girls aged 13-17, why it is not their fault, and what a club can do without medicalising anything."
+answer: "It is common but not physiological, and almost nobody talks about it: among adolescent female athletes the mean prevalence is 48.58%, rising to 80% in trampolining, and 87% would not mention it to their coach (Rial Rebullido et al., 2021). It is not something to endure: it is a pelvic floor symptom, with documented rehabilitation pathways (in adult populations)."
 cover: /fotobab/cover-pavimento-pelvico.jpg
 coverAlt: "Empty indoor sports hall seen from above: green floor with painted game lines, light wooden stands along one side, no people present"
 tags:

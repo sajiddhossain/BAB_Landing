@@ -2,9 +2,10 @@
 slug: perdite-urina-giovani-atlete
 title: "Perdo urina quando salto: il sintomo di cui quasi nessuna atleta parla"
 date: 2026-07-22
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Perdere urina saltando o atterrando riguarda in media il 48,6% delle atlete adolescenti, e l'80% nel trampolino elastico. Eppure l'87% dice che non ne parlerebbe con il proprio allenatore. È frequente, ma frequente non vuol dire normale: cosa dicono i dati sulle ragazze di 13-17 anni, perché non è colpa loro, e cosa può fare una società senza medicalizzare nulla."
+answer: "È frequente ma non fisiologico, e quasi nessuna ne parla: tra le atlete adolescenti la prevalenza media è del 48,58%, fino all'80% nel trampolino elastico, e l'87% non ne parlerebbe con l'allenatore (Rial Rebullido et al., 2021). Non è qualcosa da sopportare: è un sintomo del pavimento pelvico, con percorsi di riabilitazione documentati (su popolazione adulta)."
 cover: /fotobab/cover-pavimento-pelvico.jpg
 coverAlt: "Palestra sportiva al coperto vuota vista dall'alto: pavimento verde con linee di gioco, tribune in legno chiaro lungo un lato, nessuna persona presente"
 tags:

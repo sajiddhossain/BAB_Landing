@@ -5,6 +5,7 @@ date: 2026-08-02
 updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "In young female athletes peak height velocity arrives at a mean age of about 11.2 years — but the individual range is enormous: a squad of thirteen-year-olds contains bodies years apart in maturation. Meanwhile bone mineralises roughly six months after it has lengthened. What the data actually say — and why, in girls, the evidence linking growth to injury is still limited."
+answer: "What changes is levers, coordination and bone structure — not commitment. In young female athletes the mean age at peak height velocity is 11.18 years, with a 90% credible interval from 8.62 to 12.94 (Lima et al., 2024): one age category holds athletes years apart biologically. Peak bone mineral accrual arrives roughly six months later (Bailey et al., 1999)."
 cover: /fotobab/cover-picco-di-crescita.jpg
 coverAlt: "Close-up of gym wall bars: three pale wooden rungs on a black frame against a white brick wall, like height marks climbing upwards"
 tags:

@@ -2,9 +2,10 @@
 slug: salute-ossea-fratture-da-stress-giovani-atlete
 title: "Stress fractures in young female athletes: why bone is built now, not later"
 date: 2026-07-28
-updated: 2026-08-12
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "In US high school sport, girls sustain stress fractures 1.75 times as often as boys and account for 63% of all cases. That is not bad luck: it is a skeleton still under construction, inside a window that closes around age 18. What the data say, which signs to watch, and what actually builds bone."
+answer: "Because bone is built now and the window closes towards age 18. In high-school sport, girls sustain stress fractures 1.75 times as often as male peers and account for 63.3% of cases (Changstrom et al., 2015); the multiplier is not load on its own, but load without enough energy to cover it."
 cover: /fotobab/cover-salute-ossea.jpg
 coverAlt: "A brightly painted hopscotch grid on a schoolyard tarmac, numbered squares seen from above"
 tags:

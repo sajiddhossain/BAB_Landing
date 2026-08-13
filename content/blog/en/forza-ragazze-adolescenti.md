@@ -5,6 +5,7 @@ date: 2026-08-04
 updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "No. In the most cited review on the question, 22 experimental weight-training programmes in children and pre-adolescents did not influence growth in height or weight, with estimated injury rates between 0.053 and 0.176 per 100 participant-hours. Yet only 38.5% of children and adolescents meet muscle-strengthening recommendations — and being a boy is one of the factors that predicts meeting them. What the data actually say about strength in young female athletes."
+answer: "No: in a review of 22 experimental programmes in children and preadolescents, resistance training improved strength and did NOT affect growth in height or weight (Malina, 2006). The condition is supervision, with technique before load: the documented risk concerns improvised loading, not weights themselves."
 cover: /fotobab/cover-forza-ragazze.jpg
 coverAlt: "Two blue dumbbells resting on a light wooden floor against a white wall, no people in the frame"
 tags:

@@ -2,9 +2,10 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: when training more does harm (and how to catch it early)"
 date: 2026-07-04
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
+answer: "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021)."
 cover: /fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif
 coverAlt: "A young athlete in a white sweatshirt and headband stretching her arms overhead on an athletics track"
 tags:

@@ -2,9 +2,10 @@
 slug: parlare-di-ciclo-con-allenatore
 title: "Parlare di ciclo con l'allenatore: perché lo fa solo l'11% delle atlete (e come cambiarlo)"
 date: 2026-07-03
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: il 4% se è un uomo, il 55% se è una donna. E l'88% ha imparato queste cose da sola. Non è disinteresse: è l'assenza di un canale sicuro. Cosa dicono i dati raccolti su 1.086 atlete in 57 sport, cosa può dire davvero chi allena, cosa rispondere quando un'atleta parla di dolore, e come si apre il canale senza obbligare nessuna a esporsi."
+answer: "Perché quasi nessuno lo ha reso possibile: solo l'11% delle atlete parla di ciclo con chi la allena — 4% se è un uomo, 55% se è una donna — e l'88% ha imparato queste cose da sola (Höök et al., 2022). Non è timidezza: è l'assenza di un canale e di un linguaggio condivisi, e si cambia dal lato dello staff."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
 coverAlt: "Ragazza sorridente seduta alla scrivania di camera sua, con cuffie al collo, mentre scrive su un quaderno"
 tags:

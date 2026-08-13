@@ -2,9 +2,10 @@
 slug: dolori-mestruali-giovani-atlete
 title: "Period pain and sport: how much pain is normal, and what actually works"
 date: 2026-08-10
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "71% of young women under 25 have period pain, and one in five has already missed school because of it. Among athletes, dysmenorrhoea is the most common menstrual cycle disorder. Yet almost nobody tells a 14-year-old two simple things: that period pain has treatments with evidence behind them — exercise, heat, medication — and that pain which keeps making her miss training is not something to endure, it is something to have assessed."
+answer: "Pain that costs school days or training sessions is not normal, however common it is: dysmenorrhoea affects 71.1% of young women under 25, and 20.1% have missed school because of it (Armour et al., 2019). Exercise (SMD -1.86) and heat have a measured effect, with low-quality evidence; if it does not improve within 3-6 months, a secondary cause should be investigated."
 cover: /fotobab/cover-dolori-mestruali-atlete.jpg
 coverAlt: "An empty red eight-lane running track around a school's synthetic turf football pitch on a sunny day, with nobody in frame"
 tags:

@@ -5,6 +5,7 @@ date: 2026-07-11
 updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "In pubertà il dolore clinico aumenta davvero: il dolore addominale sale a quasi il 30% nelle ragazze contro il 16% nei ragazzi, e il dolore mestruale riguarda il 71,1% delle giovani donne — il 20,1% salta scuola per questo. Non è fragilità né teatro: è una fase dello sviluppo documentata dalle neuroscienze. Cosa succede a 13-14 anni, come distinguere un dolore da osservare da uno da far vedere a un medico, e perché conta per chi allena e per chi cresce una figlia."
+answer: "Perché in pubertà i meccanismi del dolore si riorganizzano: il dolore sperimentale tende a diminuire mentre quello clinico — mal di testa, dolore addominale, dismenorrea — aumenta (Nahman-Averbuch et al., 2023). Le differenze tra ragazze e ragazzi emergono in adolescenza e non prima: è fisiologia, non carattere, e va trattata come informazione."
 cover: /fotobab/cover-dolore-puberta.jpg
 coverAlt: "Primo piano delle corsie bianche di una pista di atletica rossa, vuota"
 tags:

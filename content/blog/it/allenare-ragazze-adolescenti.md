@@ -2,9 +2,10 @@
 slug: allenare-ragazze-adolescenti
 title: "Come allenare ragazze adolescenti: 4 leve concrete per coach e società sportive"
 date: 2026-07-02
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Allenarle bene significa quattro cose concrete e senza budget: parlare del corpo che cambia, adattare il carico invece di sanzionare il calo, usare solo segnali di squadra anonimi, garantire spazi e continuità. Ecco i dati che sostengono ciascuna leva — e cosa fare quando un'atleta si presenta con dolore."
+answer: "Agendo sull'ambiente, non sulla motivazione della singola: linguaggio non giudicante, segnali di squadra aggregati e anonimi, condizioni pratiche e prevenzione degli infortuni. Un allenatore percepito come molto informato si associa al 36% di sintomi di RED-S in meno nelle sue atlete (Female Athlete Health Report, 2023 — campione adulto, report non peer-reviewed)."
 cover: /fotobab/cover-allenare-ragazze.jpg
 coverAlt: "Campo in erba sintetica con una fila di coni colorati in primo piano e due porte da allenamento sullo sfondo"
 tags:

@@ -5,6 +5,7 @@ date: 2026-08-04
 updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "No: nella revisione più citata sull'argomento, 22 programmi sperimentali di allenamento con i pesi in bambini e preadolescenti non hanno influenzato la crescita in statura e peso, con tassi di infortunio tra 0,053 e 0,176 ogni 100 ore di partecipazione. Eppure solo il 38,5% dei ragazzi e delle ragazze raggiunge le raccomandazioni di attività di rinforzo muscolare — ed essere maschio è uno dei fattori che predicono di riuscirci. Cosa dicono davvero i dati sulla forza nelle giovani atlete."
+answer: "No: in una revisione di 22 programmi sperimentali su bambini e preadolescenti l'allenamento contro resistenza ha migliorato la forza e NON ha influenzato la crescita in statura e peso (Malina, 2006). La condizione è la supervisione, con la tecnica prima del carico: il rischio documentato riguarda il carico improvvisato, non i pesi in sé."
 cover: /fotobab/cover-forza-ragazze.jpg
 coverAlt: "Due manubri azzurri appoggiati su un pavimento di legno chiaro davanti a una parete bianca, senza persone"
 tags:

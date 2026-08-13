@@ -5,6 +5,7 @@ date: 2026-07-18
 updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Quante ore deve dormire un'atleta di 14 anni? Tra 8 e 10, dice la raccomandazione di consenso per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato, e con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2% — contro il 4,3%-9,1% dei ragazzi, perché l'orologio biologico slitta in avanti mentre la sveglia della scuola resta la stessa. Cosa dicono davvero i dati, cosa non dicono, e cosa può cambiare una società sportiva già da lunedì."
+answer: "Perché a 13-18 anni ne servono 8-10 per notte (Paruthi et al., 2016) e dormirne meno di 8 si associa a essere infortunati 1,7 volte più spesso (Milewski et al., 2014). Con la pubertà l'orologio biologico slitta in avanti: il bisogno di sonno non cala, cambia l'ora in cui il corpo riesce ad addormentarsi."
 cover: /fotobab/cover-sonno-atlete.jpg
 coverAlt: "Camera da letto luminosa e ordinata all'alba, con letto disfatto e coperte scomposte, lampada da comodino accesa e luce naturale che entra dalla finestra; nessuna persona inquadrata"
 tags:

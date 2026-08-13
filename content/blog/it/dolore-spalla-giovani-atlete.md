@@ -2,9 +2,10 @@
 slug: dolore-spalla-giovani-atlete
 title: "Dolore alla spalla nelle giovani atlete: pallavolo, nuoto e il carico che nessuno conta"
 date: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Nella pallamano d'élite giovanile quasi una atleta su quattro (23%) ha avuto problemi di spalla rilevanti in una stagione, e le ragazze hanno una prevalenza 1,46 volte più alta dei coetanei maschi. Tra le nuotatrici e i nuotatori adolescenti la revisione disponibile riporta il tasso di dolore di spalla più alto di tutte le fasce d'età (91,3%), a fronte di 17 ore di vasca a settimana. La spalla è l'unica articolazione che nello sport femminile italiano lavora ogni giorno sopra la testa — ed è quella di cui nessuno tiene il conto."
+answer: "Perché il gesto sopra la testa carica ogni giorno una spalla che non ha finito di crescere. Nella pallamano d'élite di 15-18 anni il 23% ha problemi di spalla sostanziali in una stagione, con prevalenza 1,46 volte più alta nelle ragazze (Asker et al., 2018); nel nuoto la fascia 15-17 anni riporta il tasso di dolore più alto di tutte le età (91,3%; Feijen et al., 2020)."
 cover: /fotobab/cover-spalla-giovani-atlete.jpg
 coverAlt: "Primo piano di una rete da pallavolo gialla e nera tesa contro il cielo, con la spiaggia sfocata sullo sfondo; nessuna persona riconoscibile"
 tags:

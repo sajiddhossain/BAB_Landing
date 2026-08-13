@@ -2,9 +2,10 @@
 slug: abbandono-puberta
 title: "Why girls stop playing sport as teenagers: the data on drop-out at 10-14"
 date: 2026-06-22
-updated: 2026-08-12
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Among girls who join a club aged 10-14, 71% drop out without ever returning and only 13% take part continuously over seven years. It isn't a dip in motivation: drop-out follows the developing body — girls who go through puberty earlier are significantly more likely to stop (HR 1.68). The real figures, the inflated ones to be wary of, and the four levers a club actually holds."
+answer: "Not because they lose interest, but because the environment stops working when the body changes. Among girls registered with a club at 10-14, 71% drop out of sport without ever returning (Eime et al., 2020), and earlier puberty significantly raises the probability of stopping (HR 1.68; Gallant et al., 2023)."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
 coverAlt: "A smiling teenage girl with headphones round her neck, sitting at her bedroom desk writing in a notebook: the free time that competes with sport in adolescence"
 tags:

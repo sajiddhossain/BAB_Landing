@@ -2,9 +2,10 @@
 slug: mal-di-schiena-giovani-atlete
 title: "Mal di schiena a 14 anni: perché in una giovane atleta non è quello di un adulto"
 date: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Il 42% delle atlete e degli atleti di 10-19 anni riferisce mal di schiena nell'arco di dodici mesi, e il sesso femminile compare tra i fattori di rischio. La differenza che quasi nessuno conosce sta nella causa: in adolescenza la lombalgia da sport è molto più spesso una frattura da stress della colonna e molto più raramente un problema di disco o una contrattura. I dati, i limiti dei dati, e perché oggi la fisioterapia immediata batte il riposo."
+answer: "Perché in una giovane atleta la causa più descritta è la spondilolisi, una frattura da stress della vertebra, mentre nell'adulto è il disco: in un confronto diretto spiegava il 47% dei casi negli adolescenti contro il 5% negli adulti (Micheli e Wood, 1995 — campione di clinica specialistica). Un mal di schiena che dura oltre due o tre settimane va valutato, non normalizzato."
 cover: /fotobab/cover-mal-di-schiena-giovani-atlete.jpg
 coverAlt: "Cavallo per volteggio con la pedana elastica davanti, su un pavimento di palestra vuoto, in bianco e nero; nessuna persona inquadrata"
 tags:

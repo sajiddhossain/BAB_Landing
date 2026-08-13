@@ -2,9 +2,10 @@
 slug: dolore-ginocchio-femoro-rotuleo-giovani-atlete
 title: "The knee that has hurt for months: why it is not 'growing pains'"
 date: 2026-07-30
-updated: 2026-08-12
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Among adolescents with recurrent knee pain, 72% are girls, the median duration of pain is 24 months, and five years later 40.5% still hurt — with 60% of those having stopped or cut back on sport. Patellofemoral pain does not go away by 'growing out of it': it goes away when someone takes it seriously and doses the load. The data, and what changes in the gym."
+answer: "In most cases it does not go away with growth: five years on, 40.5% of adolescents with knee pain still have it, and 60% of those have stopped or cut back on sport because of the knee (Rathleff et al., 2019). What works is not complete rest but dosed load over weeks, together with hip and knee strengthening."
 cover: /fotobab/cover-dolore-ginocchio.jpg
 coverAlt: "External metal staircase at an empty sports stadium, sheet-metal treads and handrails, no people"
 tags:

@@ -2,9 +2,10 @@
 slug: dolori-mestruali-giovani-atlete
 title: "Dolori mestruali e sport: quanto dolore è normale e cosa funziona davvero"
 date: 2026-08-10
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Il 71% delle giovani donne under 25 ha dolori mestruali e una su cinque salta la scuola per questo. Tra le atlete la dismenorrea è il disturbo del ciclo più frequente. Eppure quasi nessuno spiega a una ragazza di 14 anni due cose semplici: che il dolore ha trattamenti con prove alle spalle — esercizio, calore, farmaci — e che un dolore che continua a farle saltare gli allenamenti non è qualcosa da sopportare, è qualcosa da far valutare."
+answer: "Un dolore che fa saltare scuola o allenamenti non è normale, per quanto sia comune: la dismenorrea riguarda il 71,1% delle giovani donne under 25 e il 20,1% ha saltato la scuola per questo (Armour et al., 2019). Hanno effetto misurato l'esercizio fisico (SMD -1,86) e il calore, con qualità delle prove bassa; se non migliora entro 3-6 mesi va indagata una causa secondaria."
 cover: /fotobab/cover-dolori-mestruali-atlete.jpg
 coverAlt: "Pista di atletica rossa a otto corsie attorno a un campo da calcio in erba sintetica di una scuola, completamente vuoto, in una giornata di sole"
 tags:

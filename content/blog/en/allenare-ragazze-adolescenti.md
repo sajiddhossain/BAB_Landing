@@ -2,9 +2,10 @@
 slug: allenare-ragazze-adolescenti
 title: "How to coach teenage girls: 4 concrete levers for coaches and sports clubs"
 date: 2026-07-02
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Among girls who join a club aged 10-14, 71% drop out without ever returning, and it is almost never about motivation. Coaching them well means four concrete, budget-free things: talking about the changing body, adjusting the load instead of penalising a dip, using only anonymous team signals, and guaranteeing space and continuity. Here is the evidence behind each lever — and what to do when an athlete turns up in pain."
+answer: "By acting on the environment, not on the individual girl's motivation: non-judgemental language, aggregated and anonymous team signals, practical conditions and injury prevention. A coach perceived as very well-informed is associated with 36% fewer RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample, non-peer-reviewed report)."
 cover: /fotobab/cover-allenare-ragazze.jpg
 coverAlt: "An artificial-turf pitch with a row of coloured cones in the foreground and two training goals behind"
 tags:

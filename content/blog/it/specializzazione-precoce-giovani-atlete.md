@@ -2,9 +2,10 @@
 slug: specializzazione-precoce-giovani-atlete
 title: "Specializzazione precoce: un solo sport tutto l'anno, e cosa costa davvero alle ragazze"
 date: 2026-07-26
-updated: 2026-08-10
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Tra le atlete di 13-18 anni, chi è altamente specializzata in un solo sport ha 2,93 volte le probabilità di aver avuto un infortunio. Allenarsi più ore a settimana dei propri anni d'età raddoppia il rischio di infortunio grave da sovraccarico. E gli atleti che arrivano davvero in cima hanno iniziato il loro sport principale più tardi, non prima. I dati, i limiti dei dati, e le tre domande che dicono se una ragazza è già specializzata."
+answer: "Costa infortuni, non vantaggio competitivo: tra 219 atlete di 13-18 anni le altamente specializzate riferivano una storia di infortuni 2,93 volte più spesso delle poco specializzate (Okoruwa et al., 2022), e allenarsi più ore a settimana dei propri anni d'età raddoppia le probabilità di un infortunio grave da sovraccarico (Jayanthi et al., 2015)."
 cover: /fotobab/cover-specializzazione-precoce.jpg
 coverAlt: "Campetto polivalente all'aperto visto dall'alto: un campo da basket verde con canestri e, sul fondo, porte da calcio"
 tags:

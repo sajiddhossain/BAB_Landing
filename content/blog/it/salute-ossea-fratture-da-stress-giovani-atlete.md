@@ -2,9 +2,10 @@
 slug: salute-ossea-fratture-da-stress-giovani-atlete
 title: "Fratture da stress nelle giovani atlete: perché l'osso si costruisce adesso"
 date: 2026-07-28
-updated: 2026-08-12
+updated: 2026-08-13
 author: Sajid Hossain
 excerpt: "Nelle scuole superiori americane le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi, e sono il 63% di tutti i casi. Non è sfortuna: è un osso che si sta ancora costruendo, in una finestra che si chiude verso i 18 anni. Cosa dicono i dati, quali segnali guardare e cosa costruisce osso davvero."
+answer: "Perché l'osso si costruisce adesso e la finestra si chiude verso i 18 anni. Nelle scuole superiori le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi e rappresentano il 63,3% dei casi (Changstrom et al., 2015); il moltiplicatore non è il carico da solo, ma il carico senza abbastanza energia a coprirlo."
 cover: /fotobab/cover-salute-ossea.jpg
 coverAlt: "Gioco della campana dipinto a colori vivaci sull'asfalto di un cortile, caselle numerate viste dall'alto"
 tags:
