@@ -26,8 +26,8 @@ articoli, pagine-risposta, KB di `llms-full.txt`): sono la verifica rapida che n
 | `content/blog/{it,en}/*.md` | Gli articoli. Una coppia IT+EN per slug, stesso nome file. |
 | `scripts/build-blog.mjs` | Legge i markdown → `src/generated/blog.json` (frontmatter + HTML + ancore). |
 | `vite.config.ts` | Plugin di prerender: pagine statiche, JSON-LD, sitemap, llms.txt, faq.txt, feed.xml. |
-| `src/data/glossary.ts` | Glossario bilingue: 42 termini, fonte unica per DefinedTerm e `/glossario`. |
-| `src/data/facts.ts` | 49 statistiche citabili, bilingui, con fonte e DOI → `/dati`. |
+| `src/data/glossary.ts` | Glossario bilingue: 44 termini, fonte unica per DefinedTerm e `/glossario`. |
+| `src/data/facts.ts` | 56 statistiche citabili, bilingui, con fonte e DOI → `/dati`. |
 | `src/data/faqBab.ts` | 14 domande sul progetto (non sui contenuti) → `/faq`. |
 | `src/lib/autolink.ts` | Collega i termini tecnici degli articoli al glossario. |
 | `docs/media-credits.md` | Provenienza e licenza di ogni immagine. Obbligatorio per ogni cover nuova. |
@@ -44,10 +44,10 @@ cui il dato è stato misurato.
 
 | Superficie | URL | Quantità |
 | --- | --- | --- |
-| Risposta in breve (capsule) | in cima a ogni articolo | 22 × 2 lingue |
-| FAQ degli articoli | `/blog/{slug}#faq-{domanda}` | ~190 per lingua |
-| Definizioni | `/glossario#{chiave}` · `/en/glossario` | 42 × 2 |
-| Statistiche | `/dati#{id}` · `/en/dati` | 49 × 2 |
+| Risposta in breve (capsule) | in cima a ogni articolo | 24 × 2 lingue |
+| FAQ degli articoli | `/blog/{slug}#faq-{domanda}` | ~212 per lingua |
+| Definizioni | `/glossario#{chiave}` · `/en/glossario` | 44 × 2 |
+| Statistiche | `/dati#{id}` · `/en/dati` | 56 × 2 |
 | Domande sul progetto | `/faq#{id}` · `/en/faq` | 14 × 2 |
 | Sezioni di articolo | `/blog/{slug}#{titolo-slugificato}` | tutti gli H2/H3 |
 | Testo integrale per macchine | `/blog/{slug}.md`, `/llms.txt`, `/llms-full.txt`, `/faq.txt` | — |

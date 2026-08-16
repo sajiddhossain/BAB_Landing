@@ -2,7 +2,7 @@
 slug: parlare-di-ciclo-con-allenatore
 title: "Parlare di ciclo con l'allenatore: perché lo fa solo l'11% delle atlete (e come cambiarlo)"
 date: 2026-07-03
-updated: 2026-08-13
+updated: 2026-08-16
 author: Sajid Hossain
 excerpt: "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: il 4% se è un uomo, il 55% se è una donna. E l'88% ha imparato queste cose da sola. Non è disinteresse: è l'assenza di un canale sicuro. Cosa dicono i dati raccolti su 1.086 atlete in 57 sport, cosa può dire davvero chi allena, cosa rispondere quando un'atleta parla di dolore, e come si apre il canale senza obbligare nessuna a esporsi."
 answer: "Perché quasi nessuno lo ha reso possibile: solo l'11% delle atlete parla di ciclo con chi la allena — 4% se è un uomo, 55% se è una donna — e l'88% ha imparato queste cose da sola (Höök et al., 2022). Non è timidezza: è l'assenza di un canale e di un linguaggio condivisi, e si cambia dal lato dello staff."
@@ -73,7 +73,11 @@ Lavorando sui due lati insieme: **cultura di base per lo staff, privacy garantit
 
 Questo secondo punto è decisivo proprio per il dato "4% con un allenatore uomo": una dashboard **anonima** dà allo staff un segnale utile *senza* mettere la ragazza nella conversazione imbarazzante che oggi, semplicemente, non avviene.
 
-## Cosa può fare ciascuno, da domani
+## Cosa può fare un allenatore, da domani, senza sbagliare?
+
+**Una frase detta una volta e mantenuta nei fatti — «qui se ne può parlare, e nessuno ti valuta per questo» — e nessuna domanda personale.** È il minimo che apre il canale, ed è anche il massimo che si può chiedere a chi allena senza sconfinare in un ruolo clinico che non gli appartiene. Il resto è coerenza: non commentare i corpi, non trattare la stanchezza come una scusa, non chiedere date né dettagli. Nello studio su 1.086 atlete il 53% giudicava scarsa la conoscenza del proprio allenatore sulla salute dell'atleta donna ([Höök et al., 2022](https://doi.org/10.3390/ijerph191911932)): colmare quel vuoto è responsabilità dello staff, non delle ragazze.
+
+Nel dettaglio, per ruolo:
 
 - **L'allenatore/allenatrice**: normalizzare il tema con poche parole ("qui se ne può parlare, e nessuno ti valuta per questo"), senza chiedere dettagli personali.
 - **La società**: offrire allo staff una formazione minima e strumenti che rispettino la privacy delle atlete.

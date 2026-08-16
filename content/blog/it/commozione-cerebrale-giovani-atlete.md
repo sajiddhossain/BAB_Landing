@@ -2,7 +2,7 @@
 slug: commozione-cerebrale-giovani-atlete
 title: "Commozione cerebrale nelle giovani atlete: più frequente, meno riconosciuta (e cosa fare nei primi minuti)"
 date: 2026-07-24
-updated: 2026-08-13
+updated: 2026-08-16
 author: Sajid Hossain
 excerpt: "Nel calcio scolastico americano le ragazze subiscono commozioni cerebrali 1,88 volte più dei coetanei maschi, e hanno 1,26 volte la probabilità di non essere tolte dall'attività dopo il colpo. Chi continua a giocare recupera in 44 giorni invece di 22 — e il 60% degli episodi non viene riferito a nessun adulto. Non serve né un colpo visibile alla testa né la perdita di coscienza: i dati, i segnali da riconoscere a bordo campo nei primi minuti e cosa dicono davvero le linee guida internazionali."
 answer: "Le atlete la subiscono più spesso e la riferiscono meno: nel calcio scolastico il rischio è 1,88 volte quello dei coetanei maschi (Bretzin et al., 2021) e il 60% degli episodi non era stato riferito ad alcun adulto (Register-Mihalik et al., 2013). Al sospetto l'atleta va tolta subito dal gioco: chi resta in campo recupera in 44,4 giorni contro 22,0 (Elbin et al., 2016)."
@@ -104,6 +104,8 @@ Qui il consenso di Amsterdam ha ribaltato una convinzione diffusa. Testualmente:
 - Si parla di **sintomi persistenti** quando durano **oltre 4 settimane**: a quel punto serve una valutazione multimodale e, se indicato, una riabilitazione mirata.
 
 L'autorizzazione finale al ritorno alle attività a rischio di contatto **spetta a un professionista sanitario**, per iscritto dove le norme locali lo prevedono. Non all'allenatore, non alla famiglia, non all'atleta.
+
+Un chiarimento che evita confusioni: **questo protocollo vale per la commozione cerebrale e non si applica agli infortuni articolari.** Dopo una distorsione o una ricostruzione del crociato non esistono sei tappe da 24 ore: il rientro si valuta su criteri funzionali e su tempi molto più lunghi, ed è una decisione condivisa tra atleta, clinici e staff — ne abbiamo scritto in [tornare a giocare dopo un infortunio](/blog/ritorno-allo-sport-dopo-infortunio). Ciò che i due percorsi hanno in comune è il principio: si avanza per tappe verificate, non per giorni sul calendario.
 
 ## Le atlete recuperano più lentamente?
 
