@@ -529,6 +529,56 @@ export const FACTS: Fact[] = [
       'In a still-growing athlete the shoulder has an anatomical weak point: the proximal humeral growth plate provides roughly 80% of the humerus’s growth in length, closes between 18 and 21, and while open is largely cartilaginous, hence mechanically weaker than the surrounding ligaments and tendons. CAUTION: a CLINICAL reference text (StatPearls), not a primary study, with original literature mostly on MALE youth baseball.',
     source: 'Casadei e Kiel, StatPearls, 2023',
   },
+  {
+    id: 'ritorno-allo-sport-dopo-infortunio-1',
+    article: 'ritorno-allo-sport-dopo-infortunio',
+    claim:
+      "Dopo la ricostruzione del legamento crociato anteriore l'81% torna a fare sport in qualche forma, il 65% al livello che aveva prima dell'infortunio e il 55% a livello competitivo. Popolazione: meta-analisi di 69 studi e 7.556 partecipanti, campione IN PREVALENZA ADULTO — non è una stima misurata sulle atlete adolescenti.",
+    claimEn:
+      'After anterior cruciate ligament reconstruction, 81% return to sport in some form, 65% to their preinjury level and 55% to competitive level. Population: meta-analysis of 69 studies and 7,556 participants, a MOSTLY ADULT sample — not an estimate measured in adolescent athletes.',
+    source: 'Ardern et al., 2014',
+    doi: '10.1136/bjsports-2013-093398',
+  },
+  {
+    id: 'ritorno-allo-sport-dopo-infortunio-2',
+    article: 'ritorno-allo-sport-dopo-infortunio',
+    claim:
+      'Il tasso di reinfortunio si riduceva del 51% per ogni mese di rientro rinviato fino al nono mese dopo la ricostruzione del crociato; oltre i 9 mesi non si osservava alcuna ulteriore riduzione del rischio. Chi tornava a sport di livello I aveva un tasso di reinfortunio 4,32 volte più alto (p = 0,048). Popolazione: coorte prospettica Delaware-Oslo, 106 pazienti operati praticanti sport di pivot, seguiti 2 anni.',
+    claimEn:
+      'The reinjury rate fell by 51% for each month return to sport was delayed up to nine months after ACL reconstruction; beyond nine months no further risk reduction was seen. Those returning to level I sports had a 4.32 times higher reinjury rate (P = .048). Population: Delaware-Oslo prospective cohort, 106 patients after reconstruction playing pivoting sports, followed for 2 years.',
+    source: 'Grindem et al., 2016',
+    doi: '10.1136/bjsports-2016-096031',
+  },
+  {
+    id: 'ritorno-allo-sport-dopo-infortunio-3',
+    article: 'ritorno-allo-sport-dopo-infortunio',
+    claim:
+      "Tra chi ha meno di 25 anni ed è tornata allo sport, il tasso di secondo infortunio al crociato è del 23% — quasi una su quattro. Il tasso complessivo della meta-analisi è del 15% (7% sullo stesso ginocchio, 8% sul controlaterale) e sale al 21% sotto i 25 anni. ATTENZIONE: campioni misti per sesso, età media al primo intervento 24,4 anni negli studi inclusi.",
+    claimEn:
+      'Among those under 25 who return to sport, the second ACL injury rate is 23% — nearly one in four. The overall rate in the meta-analysis is 15% (7% ipsilateral, 8% contralateral), rising to 21% under 25. CAUTION: mixed-sex samples, mean age at primary reconstruction 24.4 years across the included studies.',
+    source: 'Wiggins et al., 2016',
+    doi: '10.1177/0363546515621554',
+  },
+  {
+    id: 'ritorno-allo-sport-dopo-infortunio-4',
+    article: 'ritorno-allo-sport-dopo-infortunio',
+    claim:
+      'Il 29,5% degli atleti operati di crociato ha subito un secondo infortunio entro 24 mesi dal ritorno allo sport: 20,5% al ginocchio controlaterale e 9,0% sul ginocchio operato. Per le ragazze operate il tasso era 4,51 volte quello delle coetanee mai infortunate (IC 95% 1,5-18,2). Popolazione: 78 atleti di età media 17,1 anni e 47 controlli — campione piccolo, da leggere come ordine di grandezza.',
+    claimEn:
+      'Of athletes after ACL reconstruction, 29.5% sustained a second injury within 24 months of returning to sport: 20.5% to the contralateral knee and 9.0% to the reconstructed one. For the girls, the rate was 4.51 times that of never-injured female controls (95% CI 1.5-18.2). Population: 78 athletes with a mean age of 17.1 and 47 controls — a small sample, to be read as an order of magnitude.',
+    source: 'Paterno et al., 2014',
+    doi: '10.1177/0363546514530088',
+  },
+  {
+    id: 'ritorno-allo-sport-dopo-infortunio-5',
+    article: 'ritorno-allo-sport-dopo-infortunio',
+    claim:
+      "Tra gli atleti under 20 tornati allo sport dopo la ricostruzione del crociato, chi ha poi subito un secondo infortunio aveva a 12 mesi una prontezza psicologica significativamente più bassa (ACL-RSI 60,8 contro 71,5 punti; p = 0,02); nei pazienti più grandi la differenza non compariva. Popolazione: 329 pazienti tornati allo sport, 52 secondi infortuni. È un'associazione osservata in uno studio di coorte, non un test per decidere chi può giocare.",
+    claimEn:
+      'Among under-20 athletes who returned to sport after ACL reconstruction, those who went on to sustain a second injury had significantly lower psychological readiness at 12 months (ACL-RSI 60.8 vs 71.5 points; P = .02); in older patients no such difference appeared. Population: 329 patients who returned to sport, 52 second injuries. This is an association observed in a cohort study, not a test for deciding who can play.',
+    source: 'McPherson et al., 2019',
+    doi: '10.1177/0363546518825258',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

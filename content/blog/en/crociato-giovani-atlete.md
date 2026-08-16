@@ -2,7 +2,7 @@
 slug: crociato-giovani-atlete
 title: "ACL injuries in young female athletes: why the risk is higher, and the 20 minutes that halve it"
 date: 2026-07-21
-updated: 2026-08-13
+updated: 2026-08-16
 author: Sajid Hossain
 excerpt: "In high-school sport, girls tear their ACL 1.4 times as often as boys — and over four times as often in basketball. A neuromuscular warm-up cuts that risk by roughly 60% in 13-19 year-old athletes, costs twenty minutes twice a week, and almost no team actually does it. The evidence, and what changes on Monday."
 answer: "Because the gap opens with puberty, not with playing level: in high-school sport girls sustain 1.40 times the ACL ruptures of male peers, and up to 4.14 times in basketball (Bram et al., 2021). Twenty minutes of neuromuscular training twice a week cuts the risk by roughly 60% among athletes aged 13-19 (Petushek et al., 2019)."
@@ -90,6 +90,8 @@ One figure that should weigh more than it does: after ACL reconstruction, **23% 
 
 Put differently: **prevention does not end with the first injury.** If anything, the moment neuromuscular work counts most is the return to play — and the decision about *when* to return belongs to the clinical pathway following the athlete, not to the coach.
 
+Then there is the part no medical report measures. After reconstruction **81%** go back to playing sport, but only **55%** return to competitive level (Ardern et al., 2014; mostly adult sample), and among under-20s lower psychological readiness at 12 months is associated with the risk of a second injury (McPherson et al., 2019). We have gathered the numbers, and the language for talking about them, in [going back after an injury](/en/blog/ritorno-allo-sport-dopo-infortunio): the knee usually heals before the head does.
+
 ## Not every painful knee is an ACL
 
 **The ACL is the most dramatic knee injury, not the most frequent one.** Worth saying, because the attention the ACL has earned — deservedly — has a side effect: it lets the knee that has hurt for months, with nothing ever having happened, go unnoticed.
@@ -126,6 +128,8 @@ BAB does not train knees and does not diagnose. It does something different and 
 - Herzberg S.D., Motu'apuaka M.L., Lambert W., Fu R., Brady J., Guise J.M. **The Effect of Menstrual Cycle and Contraceptives on ACL Injuries and Laxity: A Systematic Review and Meta-analysis.** *Orthopaedic Journal of Sports Medicine*, 2017;5(7):2325967117718781. (21 studies, 68,758 participants; quality of evidence rated «very low» under GRADE) [doi:10.1177/2325967117718781](https://doi.org/10.1177/2325967117718781)
 - Dos'Santos T., Stebbings G.K., Morse C., Shashidharan M., Daniels K.A.J., Sanderson A. **Effects of the menstrual cycle phase on anterior cruciate ligament neuromuscular and biomechanical injury risk surrogates in eumenorrheic and naturally menstruating women: A systematic review.** *PLOS ONE*, 2023;18(1):e0280800. (systematic review in **adult women** with natural cycles; quality of evidence low to very low under GRADE) [doi:10.1371/journal.pone.0280800](https://doi.org/10.1371/journal.pone.0280800)
 - Wiggins A.J., Grandhi R.K., Schneider D.K., Stanfield D., Webster K.E., Myer G.D. **Risk of Secondary Injury in Younger Athletes After Anterior Cruciate Ligament Reconstruction: A Systematic Review and Meta-analysis.** *The American Journal of Sports Medicine*, 2016;44(7):1861-1876. (athletes of both sexes; under-25 subgroup returning to sport) [doi:10.1177/0363546515621554](https://doi.org/10.1177/0363546515621554)
+- Ardern C.L., Taylor N.F., Feller J.A., Webster K.E. **Fifty-five per cent return to competitive sport following anterior cruciate ligament reconstruction surgery: an updated systematic review and meta-analysis.** *British Journal of Sports Medicine*, 2014;48(21):1543-1552. (69 studies, 7,556 participants; **mostly adult** sample) [doi:10.1136/bjsports-2013-093398](https://doi.org/10.1136/bjsports-2013-093398)
+- McPherson A.L., Feller J.A., Hewett T.E., Webster K.E. **Psychological Readiness to Return to Sport Is Associated With Second Anterior Cruciate Ligament Injuries.** *The American Journal of Sports Medicine*, 2019;47(4):857-862. (329 patients; in under-20s ACL-RSI 60.8 vs 71.5 points at 12 months, P = .02) [doi:10.1177/0363546518825258](https://doi.org/10.1177/0363546518825258)
 - Rathleff M.S., Skuldbøl S.K., Rasch M.N.B., Roos E.M., Rasmussen S., Olesen J.L. **Care-seeking behaviour of adolescents with knee pain: a population-based study among 504 adolescents.** *BMC Musculoskeletal Disorders*, 2013;14:225. (504 Danish adolescents aged 15-19 of both sexes with at least monthly knee pain; 68.3% insidious onset, median duration 24 months) [doi:10.1186/1471-2474-14-225](https://doi.org/10.1186/1471-2474-14-225)
 - Rathleff M.S., Holden S., Straszek C.L., Olesen J.L., Jensen M.B., Roos E.M. **Five-year prognosis and impact of adolescent knee pain: a prospective population-based cohort study of 504 adolescents in Denmark.** *BMJ Open*, 2019;9(5):e024113. (5-year follow-up; 40.5% still in pain, of whom 60% stopped or reduced sport; Danish adolescents of both sexes, not registered athletes) [doi:10.1136/bmjopen-2018-024113](https://doi.org/10.1136/bmjopen-2018-024113)
 

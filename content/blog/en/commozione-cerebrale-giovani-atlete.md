@@ -2,7 +2,7 @@
 slug: commozione-cerebrale-giovani-atlete
 title: "Concussion in young female athletes: more common, less often spotted (and what to do in the first minutes)"
 date: 2026-07-24
-updated: 2026-08-13
+updated: 2026-08-16
 author: Sajid Hossain
 excerpt: "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22 — and 60% of events are never reported to any adult. Neither a visible blow to the head nor loss of consciousness is required: the data, the sideline signs in the first minutes, and what the international guidelines actually say."
 answer: "Female athletes sustain more concussions and report fewer: in high-school football (soccer) the risk is 1.88 times that of male peers (Bretzin et al., 2021), and 60% of events had not been reported to any adult (Register-Mihalik et al., 2013). On suspicion the athlete must come off immediately: those who stay on recover in 44.4 days against 22.0 (Elbin et al., 2016)."
@@ -104,6 +104,8 @@ Here the Amsterdam consensus overturned a widespread belief. In its own terms: t
 - **Persisting symptoms** are those lasting **more than 4 weeks**: at that point a multimodal evaluation and, where indicated, targeted rehabilitation are recommended.
 
 Final clearance to return to activities at risk of contact **is a healthcare professional's decision**, in writing where local rules require it. Not the coach's, not the family's, not the athlete's.
+
+One clarification that avoids a common confusion: **this protocol is for concussion and does not apply to joint injuries.** After an ankle sprain or an ACL reconstruction there are no six 24-hour steps: return is judged on functional criteria and over far longer timescales, and it is a decision shared between athlete, clinicians and staff — we have written about it in [going back after an injury](/en/blog/ritorno-allo-sport-dopo-infortunio). What the two pathways share is the principle: you progress through verified steps, not through days on a calendar.
 
 ## Do female athletes recover more slowly?
 

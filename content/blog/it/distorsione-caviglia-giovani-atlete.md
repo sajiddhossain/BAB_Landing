@@ -2,7 +2,7 @@
 slug: distorsione-caviglia-giovani-atlete
 title: "«È solo una storta»: la caviglia è l'infortunio più frequente delle giovani atlete"
 date: 2026-08-06
-updated: 2026-08-13
+updated: 2026-08-16
 author: Sajid Hossain
 excerpt: "La caviglia è la sede del 23% degli infortuni nelle giovani atlete — più del ginocchio (16%). Eppure è l'infortunio che si racconta con la frase «è solo una storta»: tra gli atleti di 14-18 anni il 20% convive con un'instabilità cronica di caviglia, e tra le ragazze la quota sale al 23,6%. Nello sport giovanile i programmi di prevenzione riducono gli infortuni di caviglia del 26%. I dati, i limiti dei dati, e cosa cambia in venti minuti a settimana."
 answer: "È l'infortunio più frequente delle giovani atlete: la caviglia è la sede del 23% di tutti gli infortuni, davanti a ginocchio (16%) e coscia (13%) (Beech et al., 2024). E non è banale: tra i 14 e i 18 anni il 20,0% degli atleti convive con un'instabilità cronica di caviglia, il 23,6% tra le ragazze (Donovan et al., 2020)."
@@ -101,6 +101,8 @@ Una revisione sistematica con meta-analisi di **14 studi randomizzati e 2.182 pa
 
 **Attenzione all'età**: quei partecipanti sono **adulti**. Sulle atlete adolescenti in modo specifico l'evidenza è più sottile, e presentare un risultato su adulti come se valesse per una quattordicenne sarebbe esattamente il tipo di scorciatoia che questo blog cerca di evitare. Ciò che si può dire onestamente è: nella popolazione dove è stata studiata, la riabilitazione con esercizio riduce le recidive rispetto al lasciar passare; e nello sport giovanile, dove la prevenzione con esercizio funziona (Berkey et al., 2024), la direzione è coerente.
 
+E resta la domanda che le atlete fanno per prima: **quando si torna a giocare?** Anche qui la risposta non è una data. Il consenso internazionale descrive il rientro come un percorso in tre tappe — tornare ad allenarsi, tornare al proprio sport, tornare al proprio livello — e come una decisione condivisa tra atleta, clinici e staff (Ardern et al., 2016). Che cosa cambia in pratica, e perché la parte psicologica pesa più di quanto si creda, l'abbiamo raccolto in [tornare a giocare dopo un infortunio](/blog/ritorno-allo-sport-dopo-infortunio).
+
 ## Una precisazione pediatrica che è stata rivista
 
 Per anni, in un ragazzo o una ragazza ancora in crescita, una caviglia dolente sul versante esterno senza frattura visibile alla radiografia veniva gestita come una **frattura di tipo Salter-Harris I del perone distale** — cioè una lesione della cartilagine di accrescimento — sulla base del fatto che, in un osso immaturo, la cartilagine di accrescimento è meccanicamente più fragile del legamento.
@@ -139,5 +141,6 @@ Perché il vero problema descritto da questi studi non è che le atlete si disto
 - Smith R.W., Reischl S.F. **Treatment of ankle sprains in young athletes.** *The American Journal of Sports Medicine*, 1986;14(6):465-471. (84 giocatori di basket di scuola superiore, campione interamente **MASCHILE**, studio del **1986**; 70% con storia di distorsione, 80% di questi con distorsioni multiple, 32% con oltre due settimane di stop, 55% senza alcuna assistenza medica cercata, circa 50% con sintomi residui, 15% con prestazione compromessa) [doi:10.1177/036354658601400606](https://doi.org/10.1177/036354658601400606)
 - Hofsli M., Torfing T., Al-Aubaidi Z. **The proportion of distal fibula Salter-Harris type I epiphyseal fracture in the paediatric population with acute ankle injury: a prospective MRI study.** *Journal of Pediatric Orthopaedics B*, 2016. (31 pazienti inclusi, età media 10 ± 2,86 anni; nessuna frattura Salter-Harris I del perone distale confermata alla risonanza magnetica: lesioni legamentose, contusioni ossee e versamenti articolari) [doi:10.1097/BPB.0000000000000248](https://doi.org/10.1097/BPB.0000000000000248)
 - Boutis K., Narayanan U.G., Dong F.F.T., et al. **Magnetic resonance imaging of clinically suspected Salter-Harris I fracture of the distal fibula.** *Injury*, 2010;41(8):852-856. (18 pazienti, età media 8,7 ± 2,0 anni; nessuna evidenza di lesione della cartilagine di accrescimento del perone alla risonanza magnetica) [doi:10.1016/j.injury.2010.04.015](https://doi.org/10.1016/j.injury.2010.04.015)
+- Ardern C.L., Glasgow P., Schneiders A., et al. **2016 Consensus statement on return to sport from the First World Congress in Sports Physical Therapy, Bern.** *British Journal of Sports Medicine*, 2016;50(14):853-864. (documento di consenso di 17 clinici esperti; continuum in tre tappe e decisione condivisa) [doi:10.1136/bjsports-2016-096278](https://doi.org/10.1136/bjsports-2016-096278)
 
 *Questo articolo ha finalità informative e non costituisce parere medico né una valutazione clinica. Dopo una distorsione di caviglia — soprattutto se il dolore non migliora, se il gonfiore è importante, se non si riesce a caricare il peso o se la caviglia continua a cedere — rivolgersi a un professionista sanitario.*

@@ -2,7 +2,7 @@
 slug: reggiseno-sportivo-ragazze
 title: "Sports bras for girls: when the first one is needed, and how to get the size right"
 date: 2026-07-02
-updated: 2026-08-13
+updated: 2026-08-16
 author: Sajid Hossain
 excerpt: "A first sports bra is needed as soon as breast development begins — there is no set age: the cue is the body, not the calendar. At 13-14, one girl in two says her breasts affect her participation in sport, yet only one in ten always wears one — and the girls who never wear one are more often those with smaller breasts. How to spot a wrong size, when compression beats encapsulation, how often to recheck the fit while growing, and why an education booklet in a randomised trial got 39% more athletes through a bra-fit test."
 answer: "As soon as breast development begins: the cue is the body, not the calendar. At 13-14, 51% of girls say their breasts affect their participation in sport, yet only 10% always wear one — and the girls who never do are more often those with smaller breasts (Scurr et al., 2016). Through the growing years the size should be rechecked every 6-12 months."
@@ -26,6 +26,10 @@ faq:
     a: "It depends on the impact of the sport and the stage of development. Compression gently flattens the breast towards the body: simple, comfortable, and well suited to first bras and low-to-medium impact activity. Encapsulation has two separate cups supporting each breast individually and gives more support: better for running, jumping and team sports, or for larger cup sizes. Many models combine both. Neither is «more correct»: choose on impact and comfort, and recheck the size every 6-12 months through the growing years."
   - q: "Does a larger bust stop a girl doing sport?"
     a: "It does not stop her, but it weighs more — and that is measurable. Among 2,089 British girls aged 11-18, 46% reported that their breasts affected their participation in compulsory school sport; that rises to 51% at ages 13-14 and 63% among those with a larger cup size (Scurr et al., 2016). The practical answer is not less sport, it is the type of support: encapsulation, with two separate cups supporting each breast individually, gives more support and suits running, jumping and team sports, or a larger cup size."
+  - q: "Does a sports bra actually reduce breast pain during activity?"
+    a: "Compared with a standard bra, yes, and the finding comes from a meta-analysis: across 323 articles screened and 77 included, sports bras were associated with less breast pain during physical activity, and those with larger breasts reported more exercise-induced pain and showed greater mediolateral breast velocity and anterior/posterior acceleration during movement (Gilmer et al., 2024). The limit, stated by the authors themselves, matters: most of those studies involve women aged 20-29, white, Western, non-athletes, measured while running. The direction of the finding is solid; the precise estimate for a 14-year-old playing volleyball is one nobody has measured yet."
+  - q: "How often should a sports bra be replaced?"
+    a: "When it stops supporting, not on a fixed schedule. The signs are concrete: the band elastic loosens and rides up, the straps no longer hold tension, the cup no longer contains as it did. During the growing years there is a second reason that has nothing to do with wear: the size changes. Breasts develop in the same window as peak height velocity, whose estimated mean age in young female athletes is 11.18 years with a 90% credible interval from 8.62 to 12.94 (Lima et al., 2024). Hence the rule of thumb: recheck the fit every 6-12 months, and replace whenever one of the three wrong-size signs appears — band riding up, straps digging in, breast tissue spilling over the edges."
   - q: "Is a sports bra needed just for school PE?"
     a: "Yes — and it is worth noting that the most cited figure on this topic measures precisely that: 46% of girls aged 11-18 say their breasts affect participation in compulsory school sport, that is, PE lessons — rising to 51% at ages 13-14 (Scurr et al., 2016). It is not a question of level or intensity: it is breast movement during running and jumping, which happens in a school gym too. And the obstacle is not only physical: in the same survey, embarrassment about changing was the second most common concern, reported by 34%."
 ---
@@ -68,12 +72,22 @@ And education here is not generic advice: it is a tested intervention. In a **cl
 
 ## Compression or encapsulation — which is better?
 
+**It depends on the impact of the sport and the stage of development: compression works for first bras and low-to-medium impact, encapsulation is what you need for running, jumping or a larger cup size.** Neither is "more correct".
+
 These are the two main types:
 
 - **Compression** — gently holds the breasts against the body. Comfortable and simple, ideal for low-to-medium-impact activity and for first bras.
 - **Encapsulation** — has two separate cups that support each breast individually. It gives more support: suited to high-impact activity (running, jumping, team sports) and to larger cup sizes.
 
 Many modern designs combine the two. The rule of thumb: **the higher the impact of the sport, the more support you need.**
+
+## Does a sports bra actually reduce breast pain?
+
+**Compared with a standard bra, yes — that is the finding of a meta-analysis. But the research behind it was not done on adolescents.** The distinction is worth keeping.
+
+A systematic review with meta-analysis screened **323 articles and included 77**: sports bras were associated with **less breast pain during physical activity** than standard bras, and women and girls with larger breasts reported more exercise-induced breast pain and showed greater mediolateral breast velocity and anterior/posterior acceleration during movement ([Gilmer et al., 2024](https://doi.org/10.53646/cdp9k364)).
+
+The authors are explicit about the limits of that literature, and those limits are close to home: most studies looked at **women aged 20-29**, white, in Western countries, **non-athletes**, while running. Girls of 13-14, minority groups, sports other than running: almost absent. So the direction of the finding is solid, but the precise estimate for a 14-year-old playing volleyball is one **nobody has measured yet**. It is the same research gap we meet everywhere: only **6%** of sport and exercise science studies are conducted exclusively on women ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)).
 
 ## What can coaches and parents do?
 
@@ -99,6 +113,7 @@ BAB helps adolescent athletes get to know and listen to their changing bodies, a
 - Scurr J.C., White J.L., Hedger W. **Supported and unsupported breast displacement in three dimensions across treadmill activity levels.** *Journal of Sports Sciences*, 2011;29(1):55-61. (n=21 adult women, D cup) [doi:10.1080/02640414.2010.521944](https://doi.org/10.1080/02640414.2010.521944)
 - McGhee D.E., Steele J.R., Munro B.J. **Education improves bra knowledge and fit, and level of breast support in adolescent female athletes: a cluster-randomised trial.** *Journal of Physiotherapy*, 2010;56(1):19-24. (cluster-randomised trial with intention-to-treat analysis, 115 adolescent athletes from 4 regional sporting academies, mean age 16; at 4 months +19% bra knowledge, +39% passing the Bra Fit Assessment, +30% on Level of Breast Support versus controls; no difference in breast discomfort) [doi:10.1016/s1836-9553(10)70050-3](https://doi.org/10.1016/s1836-9553(10)70050-3)
 - Lima A.B., Quinaud R.T., Karasiak F.C., Galvão L.G., Gonçalves C.E., Carvalho H.M. **Longitudinal Meta-Analysis of Peak Height Velocity in Young Female Athletes.** *Cureus*, 2024;16(5):e59482. (Bayesian meta-analysis of 14 studies and 21 independent samples of young female athletes; estimated mean age at peak 11.18 years, 90% CrI 8.62-12.94) [doi:10.7759/cureus.59482](https://doi.org/10.7759/cureus.59482)
-- Gilmer G., Xu E., Franklin C., Adams N., Rizzone K. **The Impact of Breasts and Bras on Physical Activity Amongst Women and Girls: A Systematic Review and Meta-Analysis.** *Journal of Women's Sports Medicine*, 2024. (77 studies) [doi:10.53646/cdp9k364](https://doi.org/10.53646/cdp9k364)
+- Gilmer G., Xu E., Franklin C., Adams N., Rizzone K. **The Impact of Breasts and Bras on Physical Activity Amongst Women and Girls: A Systematic Review and Meta-Analysis.** *Journal of Women's Sports Medicine*, 2024. (323 articles screened, 77 included; sports bras associated with less breast pain than standard bras. **Limit stated by the authors**: most studies involve women aged 20-29, white, Western, non-athletes, while running) [doi:10.53646/cdp9k364](https://doi.org/10.53646/cdp9k364)
+- Cowley E.S., Olenick A.A., McNulty K.L., Ross E.Z. **"Invisible Sportswomen": the sex data gap in sport and exercise science research.** *Women in Sport and Physical Activity Journal*, 2021;29(2):146-151. (only 6% of studies are conducted exclusively on women) [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
 
 *This article is for information only and does not constitute medical advice. If breast pain persists, speak to a healthcare professional.*

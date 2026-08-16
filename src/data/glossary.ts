@@ -202,6 +202,30 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'The graded pathway bringing an athlete back to activity after injury. After a concussion, the Amsterdam 2022 international consensus sets out 24-48 hours of relative (not absolute) rest, 4 return-to-learn steps and 6 return-to-sport steps of at least 24 hours each, with full return to school preceding unrestricted return to sport and final clearance resting with a healthcare professional (Patricios et al., 2023).',
   },
+  'continuum-del-rientro': {
+    name: 'Continuum del rientro (return to participation, sport, performance)',
+    description:
+      "Il ritorno allo sport non è un interruttore ma un percorso in tre tappe distinte, definite dal consenso internazionale di Berna 2016: ritorno alla partecipazione (l'atleta si allena ma non è pronta a competere), ritorno allo sport (è tornata al proprio sport, non necessariamente al livello desiderato), ritorno alla performance (è tornata al proprio livello o oltre). La decisione è condivisa tra atleta, staff sanitario e chi allena, e tiene insieme stato dei tessuti, rischio del gesto sportivo e contesto (Ardern et al., 2016).",
+    nameEn: 'Return-to-sport continuum (participation, sport, performance)',
+    descriptionEn:
+      'Return to sport is not a switch but a pathway with three distinct steps, defined by the Bern 2016 international consensus: return to participation (the athlete trains but is not ready to compete), return to sport (back in her sport, not necessarily at the desired level), return to performance (back at or beyond her previous level). The decision is shared between athlete, medical staff and coaches, and weighs tissue status, the risk of the sporting movement and the context (Ardern et al., 2016).',
+  },
+  'prontezza-psicologica': {
+    name: 'Prontezza psicologica al rientro (ACL-RSI)',
+    description:
+      "La disponibilità psicologica a tornare a giocare dopo un infortunio, misurata con la scala validata ACL-RSI su tre dimensioni: emozioni, fiducia nella prestazione e valutazione del rischio di rifarsi male. In 329 pazienti tornati allo sport dopo ricostruzione del crociato, tra gli under 20 chi ha subito un secondo infortunio aveva a 12 mesi punteggi significativamente più bassi (60,8 contro 71,5; p = 0,02), differenza assente nei pazienti più grandi (McPherson et al., 2019). È un'associazione osservata e uno strumento clinico, non un test che decide chi può giocare.",
+    nameEn: 'Psychological readiness to return (ACL-RSI)',
+    descriptionEn:
+      'Psychological readiness to return to play after injury, measured with the validated ACL-RSI scale across three dimensions: emotions, confidence in performance and appraisal of reinjury risk. In 329 patients who returned to sport after ACL reconstruction, under-20s who sustained a second injury had significantly lower scores at 12 months (60.8 vs 71.5; P = .02), a difference absent in older patients (McPherson et al., 2019). It is an observed association and a clinical tool, not a test that decides who plays.',
+  },
+  'secondo-infortunio': {
+    name: 'Secondo infortunio (reinfortunio dopo il rientro)',
+    description:
+      "Un nuovo infortunio al crociato dopo la ricostruzione e il ritorno allo sport, sullo stesso ginocchio o sul controlaterale. In meta-analisi il tasso complessivo è del 15%, sale al 21% sotto i 25 anni e al 23% tra chi ha meno di 25 anni ed è tornata allo sport (Wiggins et al., 2016). In una coorte di 78 atleti operati di età media 17,1 anni il 29,5% ha subito un secondo infortunio entro 24 mesi dal rientro, con il ginocchio controlaterale più colpito nelle ragazze — tendenza riportata dagli autori come non significativa (Paterno et al., 2014).",
+    nameEn: 'Second injury (reinjury after return to sport)',
+    descriptionEn:
+      'A further ACL injury after reconstruction and return to sport, either to the same knee or the contralateral one. Meta-analysis puts the overall rate at 15%, rising to 21% under 25 and 23% among those under 25 who return to sport (Wiggins et al., 2016). In a cohort of 78 athletes after reconstruction with a mean age of 17.1, 29.5% sustained a second injury within 24 months of returning, with the contralateral knee more affected in girls — a trend the authors report as non-significant (Paterno et al., 2014).',
+  },
   'specializzazione-precoce': {
     name: 'Specializzazione sportiva precoce',
     description:

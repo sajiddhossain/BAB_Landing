@@ -2,7 +2,7 @@
 slug: parlare-di-ciclo-con-allenatore
 title: "Talking about periods with your coach: why only 11% of athletes do (and how to change it)"
 date: 2026-07-03
-updated: 2026-08-13
+updated: 2026-08-16
 author: Sajid Hossain
 excerpt: "Only 11% of athletes talk about their menstrual cycle with their coach: 4% if he's a man, 55% if she's a woman. And 88% learned these things on their own. It isn't disinterest: it is the absence of a safe channel. What data from 1,086 athletes across 57 sports show, what coaches can actually say, what to answer when an athlete mentions pain, and how to open the channel without forcing anyone to expose herself."
 answer: "Because almost nobody has made it possible: only 11% of athletes discuss their cycle with the person coaching them — 4% if that person is a man, 55% if a woman — and 88% learned about it on their own (Höök et al., 2022). This is not shyness: it is the absence of a shared channel and language, and it changes from the staff's side."
@@ -73,7 +73,11 @@ By working on both sides at once: **baseline literacy for the staff, guaranteed 
 
 This second point is decisive precisely because of the "4% with a male coach" figure: an **anonymous** dashboard gives staff a useful signal *without* placing the girl in the embarrassing conversation that today simply doesn't happen.
 
-## What each person can do, starting tomorrow
+## What can a coach do tomorrow without getting it wrong?
+
+**One sentence said once and backed up in practice — "you can talk about this here, and nobody is judged for it" — and no personal questions.** That is the minimum that opens the channel, and it is also the most you can ask of a coach without pushing them into a clinical role that is not theirs. The rest is consistency: don't comment on bodies, don't treat tiredness as an excuse, don't ask for dates or details. In the study of 1,086 athletes, 53% rated their coach's knowledge of female athlete health as poor ([Höök et al., 2022](https://doi.org/10.3390/ijerph191911932)): closing that gap is the staff's responsibility, not the girls'.
+
+Role by role:
 
 - **The coach**: normalise the topic in a few words ("you can talk about this here, and no one judges you for it"), without asking for personal details.
 - **The club**: give staff a minimum of training and tools that respect athletes' privacy.

@@ -2,7 +2,7 @@
 slug: distorsione-caviglia-giovani-atlete
 title: "\"It's just a twisted ankle\": the ankle is the most common injury in youth female athletes"
 date: 2026-08-06
-updated: 2026-08-13
+updated: 2026-08-16
 author: Sajid Hossain
 excerpt: "The ankle accounts for 23% of injuries in youth female athletes — more than the knee (16%). Yet it is the injury we describe with a shrug: among athletes aged 14-18, 20% live with chronic ankle instability, and among girls that figure rises to 23.6%. In youth sport, prevention programmes cut ankle injuries by about 26%. The data, the limits of the data, and what changes in twenty minutes a week."
 answer: "It is the most frequent injury in young female athletes: the ankle accounts for 23% of all injuries, ahead of the knee (16%) and thigh (13%) (Beech et al., 2024). And it is not trivial: between 14 and 18, 20.0% of athletes live with chronic ankle instability — 23.6% among girls (Donovan et al., 2020)."
@@ -101,6 +101,8 @@ A systematic review and meta-analysis of **14 randomised trials with 2,182 parti
 
 **Mind the age**: those participants are **adults**. For adolescent female athletes specifically the evidence is thinner, and presenting an adult result as if it held for a fourteen-year-old would be exactly the shortcut this blog tries to avoid. What can honestly be said is this: in the population where it has been studied, exercise-based rehabilitation reduces recurrence compared with letting it pass; and in youth sport, where exercise-based prevention works (Berkey et al., 2024), the direction is consistent.
 
+And there remains the question athletes ask first: **when can I play again?** Here too the answer is not a date. The international consensus describes return as a three-step pathway — back to training, back to your sport, back to your level — and as a decision shared between athlete, clinicians and staff (Ardern et al., 2016). What that changes in practice, and why the psychological side weighs more than people think, we have gathered in [going back after an injury](/en/blog/ritorno-allo-sport-dopo-infortunio).
+
 ## A paediatric assumption that has been revised
 
 For years, in a child or adolescent still growing, a painful lateral ankle with no fracture visible on X-ray was managed as a **Salter-Harris type I fracture of the distal fibula** — an injury to the growth plate — on the basis that, in an immature skeleton, the growth plate is mechanically weaker than the ligament.
@@ -139,5 +141,6 @@ Because the real problem these studies describe isn't that athletes sprain their
 - Smith R.W., Reischl S.F. **Treatment of ankle sprains in young athletes.** *The American Journal of Sports Medicine*, 1986;14(6):465-471. (84 high school basketball players, entirely **MALE** sample, study from **1986**; 70% with a history of sprain, 80% of those with multiple sprains, 32% with more than two weeks out, 55% with no medical attention sought, around 50% with residual symptoms, 15% with compromised performance) [doi:10.1177/036354658601400606](https://doi.org/10.1177/036354658601400606)
 - Hofsli M., Torfing T., Al-Aubaidi Z. **The proportion of distal fibula Salter-Harris type I epiphyseal fracture in the paediatric population with acute ankle injury: a prospective MRI study.** *Journal of Pediatric Orthopaedics B*, 2016. (31 patients included, mean age 10 ± 2.86 years; no Salter-Harris I distal fibula fracture confirmed on MRI: ligament injuries, bone contusions and joint effusions instead) [doi:10.1097/BPB.0000000000000248](https://doi.org/10.1097/BPB.0000000000000248)
 - Boutis K., Narayanan U.G., Dong F.F.T., et al. **Magnetic resonance imaging of clinically suspected Salter-Harris I fracture of the distal fibula.** *Injury*, 2010;41(8):852-856. (18 patients, mean age 8.7 ± 2.0 years; no evidence of fibular growth plate injury on MRI) [doi:10.1016/j.injury.2010.04.015](https://doi.org/10.1016/j.injury.2010.04.015)
+- Ardern C.L., Glasgow P., Schneiders A., et al. **2016 Consensus statement on return to sport from the First World Congress in Sports Physical Therapy, Bern.** *British Journal of Sports Medicine*, 2016;50(14):853-864. (consensus statement by 17 expert clinicians; three-step continuum and shared decision-making) [doi:10.1136/bjsports-2016-096278](https://doi.org/10.1136/bjsports-2016-096278)
 
 *This article is for information only and is not medical advice or a clinical assessment. After an ankle sprain — especially if pain does not improve, if swelling is significant, if weight-bearing is not possible, or if the ankle keeps giving way — consult a healthcare professional.*

@@ -170,3 +170,16 @@
   Nessuna persona ritratta: scelta deliberata per un tema intimo che riguarda minori.
   Scelta del soggetto: la fila di porte degli spogliatoi — il luogo in cui, secondo le fonti citate
   nell'articolo, il problema diventa un allenamento saltato (privacy nel cambiarsi, disponibilità del kit).
+
+## cover-ritorno-dopo-infortunio.jpg
+- Titolo originale: "Closeup red stadium seats"
+- Fonte: rawpixel — https://www.rawpixel.com/image/6031755/photo-image-public-domain-plastic-red (reperita via Openverse, record 8ac7410c-215e-4753-8b9a-4c5435c10855)
+- Autore: non indicato dalla fonte (nessuna attribuzione richiesta)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "tornare a giocare dopo un infortunio / prontezza psicologica al rientro" (IT + EN)
+- Lavorazione: rendition `editor_1024` (senza filigrana; l'originale è 4928x3264), ritaglio 16:9 a
+  1024x576 con offset verticale di 51 px, JPEG q85.
+  NB: come per le altre immagini rawpixel, la rendition `image_1300` è filigranata → non usare.
+  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: la tribuna vuota — il posto da cui si guarda giocare gli altri nei mesi in cui
+  si è ferme, che è il vero contenuto dell'articolo.
