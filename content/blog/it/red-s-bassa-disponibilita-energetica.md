@@ -2,7 +2,7 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)"
 date: 2026-07-04
-updated: 2026-08-16
+updated: 2026-08-19
 author: Sajid Hossain
 excerpt: "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica."
 answer: "Quando l'energia introdotta non copre quella spesa tra allenamento e crescita: è la bassa disponibilità energetica alla base della RED-S. Non serve un disturbo alimentare, può accadere senza intenzione, e i primi segnali sono un ciclo che si dirada, infortuni ripetuti, sonno e umore peggiori — eppure il 44% delle atlete adolescenti crede che perdere il ciclo sia normale (Armento et al., 2021)."
@@ -35,6 +35,8 @@ faq:
     a: "Perché la ricerca in scienze dello sport misura poco le donne, e ancora meno le ragazze: solo il 6% degli studi è condotto esclusivamente su donne (Cowley et al., 2021). La conseguenza pratica è che gran parte di ciò che sappiamo sulla bassa disponibilità energetica viene da atlete adulte, e la trasferibilità a un corpo di 13-14 anni — che sta ancora costruendo ossa e tessuti, e quindi ha un costo energetico in più — è limitata. Non è una ragione per ignorare il tema: è una ragione per osservare la singola atleta invece di applicarle una media di popolazione."
   - q: "Cosa succede se la bassa disponibilità energetica va avanti per mesi?"
     a: "Il conto più documentato lo paga l'osso. Nello stesso studio prospettico su 259 ragazze e giovani donne attive, chi aveva densità ossea bassa (Z-score sotto -1,0) e si allenava almeno 12 ore a settimana ha subito una lesione ossea da stress nel 29,7% dei casi, contro un 10,8% complessivo (Barrack et al., 2014). Due precisazioni doverose: l'età media di quel campione è 18,1 anni, quindi non fotografa una ragazza di 13-14 anni, ed è uno studio osservazionale, che descrive associazioni e non causalità dimostrata. La ragione per non aspettare resta: i mesi in cui questo accade sono gli stessi in cui si costruisce la massa ossea."
+  - q: "La RED-S influisce anche sulla tolleranza al caldo?"
+    a: "La termoregolazione è tra le funzioni fisiologiche che il consenso del Comitato Olimpico Internazionale elenca esplicitamente come sostenute dall'energia disponibile dopo l'allenamento, insieme a crescita ossea, funzione riproduttiva e sistema immunitario (Mountjoy et al., 2014). Non esiste, a oggi, un numero specifico su quanto questo pesi nelle adolescenti che si allenano al caldo: è una ragione in più — non l'unica — per non trattare separatamente alimentazione e [acclimatazione al caldo](/blog/allenarsi-al-caldo-giovani-atlete), non un dato da citare con una cifra precisa."
 ---
 
 Nello sport femminile giovanile esiste un'idea pericolosa: che allenarsi sempre di più sia sempre meglio. Ma il corpo di un'atleta adolescente non è un motore che si spinge all'infinito. Quando l'energia che entra non basta a coprire quella che esce — tra allenamento, scuola e la crescita stessa — il corpo inizia a **tagliare le funzioni che ritiene meno urgenti**. È il cuore di una condizione che la scienza chiama RED-S.
@@ -52,7 +54,7 @@ Nello sport femminile giovanile esiste un'idea pericolosa: che allenarsi sempre 
 
 Per anni si è parlato di **Triade dell'atleta femminile**: la combinazione di bassa disponibilità energetica, disfunzione mestruale e riduzione della salute ossea (De Souza et al., [Female Athlete Triad Coalition, 2014](https://doi.org/10.1136/bjsports-2013-093218)).
 
-Nel 2014 il Comitato Olimpico Internazionale ha ampliato il quadro con il concetto di **RED-S**, riconoscendo che la carenza di energia non colpisce solo ossa e ciclo, ma anche sistema immunitario, metabolismo, umore, cardiovascolare e — sì — la performance ([Mountjoy et al., 2014](https://doi.org/10.1136/bjsports-2014-093502)). Nel 2023 il consensus è stato aggiornato con nuovi strumenti di valutazione del rischio ([Mountjoy et al., 2023](https://doi.org/10.1136/bjsports-2023-106994)).
+Nel 2014 il Comitato Olimpico Internazionale ha ampliato il quadro con il concetto di **RED-S**, riconoscendo che la carenza di energia non colpisce solo ossa e ciclo, ma anche sistema immunitario, metabolismo, umore, cardiovascolare, **termoregolazione** e — sì — la performance ([Mountjoy et al., 2014](https://doi.org/10.1136/bjsports-2014-093502)). Nel 2023 il consensus è stato aggiornato con nuovi strumenti di valutazione del rischio ([Mountjoy et al., 2023](https://doi.org/10.1136/bjsports-2023-106994)). La termoregolazione compare nell'elenco perché l'energia disponibile dopo l'allenamento serve anche a quella: un motivo in più per non trattare separatamente l'alimentazione e [l'acclimatazione al caldo](/blog/allenarsi-al-caldo-giovani-atlete) di un'atleta.
 
 Il messaggio di fondo è controintuitivo ma cruciale: **la carenza di energia può ridurre la prestazione**, non aumentarla. L'idea "mangio meno, peso meno, vado più forte" è, alla lunga, un vicolo cieco.
 

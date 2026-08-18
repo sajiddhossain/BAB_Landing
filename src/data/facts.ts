@@ -579,6 +579,26 @@ export const FACTS: Fact[] = [
     source: 'McPherson et al., 2019',
     doi: '10.1177/0363546518825258',
   },
+  {
+    id: 'allenarsi-al-caldo-giovani-atlete-1',
+    article: 'allenarsi-al-caldo-giovani-atlete',
+    claim:
+      "Nella sorveglianza sugli sport liceali statunitensi (2005-2011) l'87,7% dei colpi di calore da sforzo ha colpito ragazzi, ma togliendo il football americano — che da solo ha un tasso 11,4 volte quello di tutti gli altri sport combinati — la quota scende al 50,9%: il divario riflette l'esposizione allo sport a rischio più alto, non una differenza di sesso nella tolleranza al caldo.",
+    claimEn:
+      "In U.S. high school sports surveillance (2005-2011), 87.7% of exertional heat illness events involved boys, but excluding American football — which alone has a rate 11.4 times that of all other sports combined — the share drops to 50.9%: the gap reflects exposure to the highest-risk sport, not a sex difference in heat tolerance.",
+    source: 'Kerr et al., 2013',
+    doi: '10.1016/j.amepre.2012.09.058',
+  },
+  {
+    id: 'allenarsi-al-caldo-giovani-atlete-2',
+    article: 'allenarsi-al-caldo-giovani-atlete',
+    claim:
+      "Un colpo di calore da sforzo su tre (33,6%) nella sorveglianza sugli sport liceali statunitensi è avvenuto quando nessun professionista sanitario era presente sul campo — un vuoto organizzativo prima che medico.",
+    claimEn:
+      'One in three exertional heat illness events (33.6%) in U.S. high school sports surveillance occurred when no medical professional was on site — an organizational gap before it is a medical one.',
+    source: 'Kerr et al., 2013',
+    doi: '10.1016/j.amepre.2012.09.058',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

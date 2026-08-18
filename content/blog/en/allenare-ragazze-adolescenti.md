@@ -2,7 +2,7 @@
 slug: allenare-ragazze-adolescenti
 title: "How to coach teenage girls: 4 concrete levers for coaches and sports clubs"
 date: 2026-07-02
-updated: 2026-08-13
+updated: 2026-08-19
 author: Sajid Hossain
 excerpt: "Among girls who join a club aged 10-14, 71% drop out without ever returning, and it is almost never about motivation. Coaching them well means four concrete, budget-free things: talking about the changing body, adjusting the load instead of penalising a dip, using only anonymous team signals, and guaranteeing space and continuity. Here is the evidence behind each lever — and what to do when an athlete turns up in pain."
 answer: "By acting on the environment, not on the individual girl's motivation: non-judgemental language, aggregated and anonymous team signals, practical conditions and injury prevention. A coach perceived as very well-informed is associated with 36% fewer RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample, non-peer-reviewed report)."
@@ -33,6 +33,8 @@ faq:
     a: "When it stops being an episode and becomes a pattern: pain that costs training sessions or school days every month, or that does not improve within 3-6 months of starting treatment, is the point at which the clinical reference written for adolescents says secondary causes should be investigated (ACOG, 2018). A coach does not diagnose and does not ask for details: they notice that the pattern exists and tell the family, who will decide whether to take it to a healthcare professional."
   - q: "How do you prevent serious injuries in teenage female athletes?"
     a: "Through the warm-up, done in a specific way and consistently. A meta-analysis of 27,231 female athletes estimated that preventive neuromuscular training reduces ACL injury risk from about 1 in 54 to 1 in 111 (OR 0.51; 95% CI 0.37-0.69), and the effect is strongest in the 13-19 band (OR 0.38; 95% CI 0.24-0.60), roughly 60% less risk (Petushek et al., 2019). The average dose across effective programmes is about 24 minutes per session, 2.5 times a week. The decisive variable isn't which exercises you pick, but consistency: below ~66% overall compliance the benefit does not appear (Sugimoto et al., 2012)."
+  - q: "How do you prepare a team for the first summer preseason session?"
+    a: "By starting slower than feels natural. Guidelines for the start of the season recommend building heat acclimatization over 1-2 weeks, gradually increasing session duration and intensity instead of starting at full load on day one (Casa and Csillan, 2009). It's a load adjustment about the calendar, not any single athlete, and it's the week when — according to surveillance data — risk is highest for everyone, regardless of sex: [more on that here](/blog/allenarsi-al-caldo-giovani-atlete)."
 ---
 
 Among girls who join a sports club aged **10-14, 71% drop out without ever returning** (Eime et al., 2020). For a club that's not just a social statistic: it's talent walking out the door and a squad thinning out in exactly the years it should be growing. The good news? Much of what keeps an athlete in the game runs through the hands of the person coaching her.
@@ -64,6 +66,8 @@ And there is one load adjustment worth more than all the others, because it has 
 There is one moment when adjusting the load matters more than any other, and you spot it with a wall measure: the quarter in which an athlete grows fast. Peak bone mineral accrual comes **roughly six months after** peak height velocity (Bailey et al., 1999): for a period, bone is already longer but not yet as dense. That doesn't mean stopping — it means holding volume steady and working on technique and control, as we explain in [the growth spurt in young female athletes](/blog/picco-di-crescita-giovani-atlete).
 
 Then there is the load adjustment decided in thirty seconds rather than over a week: what happens after a blow to the head. Across sex-comparable sports, **female athletes are 1.26 times more likely not to be removed from activity** after a concussion (95% CI 1.09-1.45) (Zynda et al., 2021) — and those who stay on the field recover in 44 days instead of 22 (Elbin et al., 2016). There is one rule, and [it is worth writing it down before you need it](/blog/commozione-cerebrale-giovani-atlete): if a concussion is suspected, the athlete comes off and does not return that day.
+
+Finally there is an adjustment that concerns the calendar, not any single athlete: the first week of summer preseason. That's when heat acclimatization is built — 1-2 weeks of progressively longer and more intense sessions instead of starting at full load (Casa and Csillan, 2009) — and it's the week when, according to U.S. high school surveillance data, heat illness risk is highest for everyone, [not because of sex but because of exposure](/blog/allenarsi-al-caldo-giovani-atlete).
 
 ## 3. Use team signals, never individual data
 

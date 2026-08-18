@@ -2,7 +2,7 @@
 slug: commozione-cerebrale-giovani-atlete
 title: "Concussion in young female athletes: more common, less often spotted (and what to do in the first minutes)"
 date: 2026-07-24
-updated: 2026-08-16
+updated: 2026-08-19
 author: Sajid Hossain
 excerpt: "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22 — and 60% of events are never reported to any adult. Neither a visible blow to the head nor loss of consciousness is required: the data, the sideline signs in the first minutes, and what the international guidelines actually say."
 answer: "Female athletes sustain more concussions and report fewer: in high-school football (soccer) the risk is 1.88 times that of male peers (Bretzin et al., 2021), and 60% of events had not been reported to any adult (Register-Mihalik et al., 2013). On suspicion the athlete must come off immediately: those who stay on recover in 44.4 days against 22.0 (Elbin et al., 2016)."
@@ -31,6 +31,8 @@ faq:
     a: "A very high proportion. In a preliminary study of 167 high school athletes of both sexes (mean age 15.7), 60% of the events athletes recalled had not been reported to a responsible adult; for hits perceived as minor (so-called \"bell-ringers\") the non-reporting share rose to 87% (Register-Mihalik et al., 2013). That is why a club cannot build its safety on self-reporting: an adult has to observe and decide."
   - q: "Were the concussion guidelines built on female athletes too?"
     a: "Only partly, and it is worth knowing. An evidence review of the research behind the three most influential consensus statements on sport-related concussion examined the 171 studies cited: samples are 80.1% male, and 40.4% of studies include no female athletes at all (D'Lauro et al., 2022). This does not mean the recommendations are wrong — it means that on differences specific to girls, the evidence is thinner than the confidence of the language suggests."
+  - q: "Does an athlete who's confused after training in the heat necessarily have a head injury?"
+    a: "No, and telling them apart matters because the immediate response differs. Confusion, uncoordinated movement or bizarre behaviour can show up both after a head injury and in exertional heat stroke, defined by a core body temperature typically above 40°C with signs of central nervous system dysfunction (Morris and Patel, StatPearls). Either way, the athlete comes off immediately and needs an adult who can recognise the emergency; the distinguishing detail — an identifiable blow to the head versus intense exertion in hot conditions without acclimatization — steers the first response, cooling in one case, immobilisation and neurological observation in the other. More on this in [training in the heat for young female athletes](/blog/allenarsi-al-caldo-giovani-atlete)."
 ---
 
 Nothing in a club's calendar matters more than the thirty seconds after a blow to the head. A collision, a ball taken badly, a fall on landing: the athlete gets up, says "I'm fine", and play restarts. Far more is decided in those thirty seconds than it seems — and the data say that, for girls, that decision goes wrong more often.
@@ -137,6 +139,7 @@ None of these is a medical prescription. They are organisational decisions, at z
 - **Don't leave the decision to the athlete.** At 14, in front of a teammate, with the coach watching, "I'm fine" is not clinical data: it's a social answer.
 - **Know who to call.** Return to play is authorised by a healthcare professional. Having one lined up *before* the injury is half the work.
 - **Treat return to school as part of recovery.** Full academic load first, unrestricted play second — not the other way round.
+- **At summer tournaments and preseason camps, the same "who's watching" applies to heat too.** Confusion or uncoordinated movement in an athlete who has been training in the sun deserves the same seriousness as a blow to the head: [there too, exposure matters more than sex or age](/blog/allenarsi-al-caldo-giovani-atlete).
 
 The logic is the same one that applies to injuries that are far more frequent and far less dramatic: what decides the outcome is not the severity of the hit, but whether somebody watches and writes it down. It holds for the [ACL](/blog/crociato-giovani-atlete) and it holds, almost as a mirror image, for the [ankle sprain](/blog/distorsione-caviglia-giovani-atlete) — the most common injury in youth female athletes, and the one nobody records because "it's nothing".
 

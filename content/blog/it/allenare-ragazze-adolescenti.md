@@ -2,7 +2,7 @@
 slug: allenare-ragazze-adolescenti
 title: "Come allenare ragazze adolescenti: 4 leve concrete per coach e società sportive"
 date: 2026-07-02
-updated: 2026-08-13
+updated: 2026-08-19
 author: Sajid Hossain
 excerpt: "Tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Allenarle bene significa quattro cose concrete e senza budget: parlare del corpo che cambia, adattare il carico invece di sanzionare il calo, usare solo segnali di squadra anonimi, garantire spazi e continuità. Ecco i dati che sostengono ciascuna leva — e cosa fare quando un'atleta si presenta con dolore."
 answer: "Agendo sull'ambiente, non sulla motivazione della singola: linguaggio non giudicante, segnali di squadra aggregati e anonimi, condizioni pratiche e prevenzione degli infortuni. Un allenatore percepito come molto informato si associa al 36% di sintomi di RED-S in meno nelle sue atlete (Female Athlete Health Report, 2023 — campione adulto, report non peer-reviewed)."
@@ -33,6 +33,8 @@ faq:
     a: "Quando smette di essere un episodio e diventa un pattern: un dolore che ogni mese fa saltare allenamenti o scuola, o che non migliora entro 3-6 mesi dall'inizio di un trattamento, è il momento in cui il riferimento clinico dedicato alle adolescenti indica di indagare le cause secondarie (ACOG, 2018). Chi allena non diagnostica e non chiede dettagli: nota che il pattern esiste e lo dice alla famiglia, che deciderà se portarlo a un professionista sanitario."
   - q: "Come si prevengono gli infortuni gravi nelle atlete adolescenti?"
     a: "Con il riscaldamento, fatto in un modo preciso e con costanza. Una meta-analisi su 27.231 atlete ha stimato che l'allenamento neuromuscolare preventivo riduce il rischio di rottura del crociato da circa 1 su 54 a 1 su 111 (OR 0,51; IC 95% 0,37-0,69), e l'effetto è più forte proprio nella fascia 13-19 anni (OR 0,38; IC 95% 0,24-0,60), cioè circa il 60% di rischio in meno (Petushek et al., 2019). Il dosaggio medio degli studi efficaci è di circa 24 minuti a sessione, 2,5 volte a settimana. La variabile decisiva non è quali esercizi si scelgono, ma la costanza: sotto il ~66% di aderenza complessiva il beneficio non si vede (Sugimoto et al., 2012)."
+  - q: "Come si prepara una squadra al primo allenamento del ritiro estivo?"
+    a: "Partendo più piano di quanto verrebbe naturale. Le linee guida di riferimento per l'avvio della stagione raccomandano di costruire l'acclimatazione al caldo nell'arco di 1-2 settimane, aumentando gradualmente durata e intensità delle sedute invece di partire a pieno regime dal primo giorno (Casa e Csillan, 2009). È un adattamento del carico che riguarda il calendario, non la singola atleta, ed è la settimana in cui — secondo i dati di sorveglianza — il rischio è più alto per tutti, a prescindere dal sesso: [ne scriviamo qui](/blog/allenarsi-al-caldo-giovani-atlete)."
 ---
 
 Tra le ragazze che entrano in una società sportiva a **10-14 anni, il 71% abbandona senza mai rientrare** (Eime et al., 2020). Per un club non è solo un dato sociale: è talento che se ne va e una rosa che si assottiglia proprio negli anni in cui dovrebbe crescere. La buona notizia? Gran parte di ciò che trattiene un'atleta passa dalle mani di chi la allena.
@@ -64,6 +66,8 @@ E c'è un adattamento del carico che vale più di tutti gli altri, perché è mi
 C'è un momento in cui adattare il carico conta più che in ogni altro, e si riconosce con un metro a muro: il trimestre in cui un'atleta cresce in fretta. Il picco di accumulo di minerale osseo arriva **circa sei mesi dopo** il picco di velocità di crescita (Bailey et al., 1999): per un periodo l'osso è già più lungo ma non ancora altrettanto denso. Non significa fermarsi — significa tenere stabile il volume e lavorare su tecnica e controllo, come spieghiamo in [picco di crescita nelle giovani atlete](/blog/picco-di-crescita-giovani-atlete).
 
 C'è poi un adattamento del carico che si decide in trenta secondi, non in una settimana: cosa si fa dopo un colpo alla testa. Negli sport confrontabili tra i due sessi, **le atlete hanno 1,26 volte la probabilità di non essere tolte dall'attività** dopo una commozione cerebrale (IC 95% 1,09-1,45) (Zynda et al., 2021) — e chi resta in campo recupera in 44 giorni invece di 22 (Elbin et al., 2016). La regola è una sola, e [vale la pena scriverla prima che serva](/blog/commozione-cerebrale-giovani-atlete): in caso di sospetto, l'atleta esce e non rientra quel giorno.
+
+C'è infine un adattamento che riguarda il calendario, non la singola atleta: la prima settimana di ritiro estivo. È lì che si costruisce l'acclimatazione al caldo — 1-2 settimane di sedute progressivamente più lunghe e intense invece di partire a pieno regime (Casa e Csillan, 2009) — ed è la settimana in cui, secondo i dati di sorveglianza sugli sport liceali USA, il rischio di colpo di calore è più alto per tutte, [non per una questione di sesso ma di esposizione](/blog/allenarsi-al-caldo-giovani-atlete).
 
 ## 3. Usa segnali di squadra, mai dati individuali
 

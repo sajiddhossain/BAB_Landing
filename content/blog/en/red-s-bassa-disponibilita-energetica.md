@@ -2,7 +2,7 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: when training more does harm (and how to catch it early)"
 date: 2026-07-04
-updated: 2026-08-16
+updated: 2026-08-19
 author: Sajid Hossain
 excerpt: "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
 answer: "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021)."
@@ -35,6 +35,8 @@ faq:
     a: "Because sport and exercise science measures women rarely and girls even less: only 6% of studies are conducted exclusively on women (Cowley et al., 2021). The practical consequence is that most of what we know about low energy availability comes from adult athletes, and transferability to a 13-14 year old body — still building bone and tissue, and therefore carrying an extra energy cost — is limited. That is not a reason to ignore the topic: it is a reason to observe the individual athlete rather than apply a population average to her."
   - q: "What happens if low energy availability goes on for months?"
     a: "The best-documented bill is paid by bone. In the same prospective study of 259 active girls and young women, those with low bone density (Z-score below -1.0) training at least 12 hours a week sustained a bone stress injury in 29.7% of cases, against 10.8% overall (Barrack et al., 2014). Two necessary caveats: the mean age of that sample is 18.1, so it is not a snapshot of a 13- or 14-year-old, and it is an observational study describing associations, not demonstrated causation. The reason not to wait stands: the months in which this happens are the same months in which bone mass is built."
+  - q: "Does RED-S also affect heat tolerance?"
+    a: "Thermoregulation is among the physiological functions the International Olympic Committee consensus explicitly lists as supported by the energy left over after training, alongside bone growth, reproductive function and the immune system (Mountjoy et al., 2014). There is no specific figure today for how much this matters in adolescents training in heat: it's one more reason — not the only one — not to treat fuelling and [heat acclimatization](/blog/allenarsi-al-caldo-giovani-atlete) as separate topics, not a claim to cite with a precise number."
 ---
 
 There's a dangerous idea in youth women's sport: that training harder is always better. But an adolescent athlete's body is not an engine you can push forever. When the energy coming in isn't enough to cover what goes out — across training, school and growth itself — the body starts to **cut the functions it deems least urgent**. That is the heart of a condition science calls RED-S.
@@ -52,7 +54,7 @@ There's a dangerous idea in youth women's sport: that training harder is always 
 
 For years the focus was the **Female Athlete Triad**: the combination of low energy availability, menstrual dysfunction and reduced bone health (De Souza et al., [Female Athlete Triad Coalition, 2014](https://doi.org/10.1136/bjsports-2013-093218)).
 
-In 2014 the International Olympic Committee broadened the picture with **RED-S**, recognising that energy shortfall affects not only bones and the cycle but also the immune system, metabolism, mood, cardiovascular health and — yes — performance ([Mountjoy et al., 2014](https://doi.org/10.1136/bjsports-2014-093502)). In 2023 the consensus was updated with new risk-assessment tools ([Mountjoy et al., 2023](https://doi.org/10.1136/bjsports-2023-106994)).
+In 2014 the International Olympic Committee broadened the picture with **RED-S**, recognising that energy shortfall affects not only bones and the cycle but also the immune system, metabolism, mood, cardiovascular health, **thermoregulation** and — yes — performance ([Mountjoy et al., 2014](https://doi.org/10.1136/bjsports-2014-093502)). In 2023 the consensus was updated with new risk-assessment tools ([Mountjoy et al., 2023](https://doi.org/10.1136/bjsports-2023-106994)). Thermoregulation is on that list because the energy left over after training is what the body also draws on for it — one more reason not to treat fuelling and [heat acclimatization](/blog/allenarsi-al-caldo-giovani-atlete) as separate topics for an athlete.
 
 The underlying message is counter-intuitive but crucial: **energy shortfall can reduce performance**, not raise it. The idea "eat less, weigh less, go faster" is, in the long run, a dead end.
 
