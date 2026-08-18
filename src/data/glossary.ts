@@ -423,6 +423,22 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'Loss of internal rotation in the dominant shoulder compared with the other side, a typical adaptation in those who work overhead. In a case-control study of 123 high-school volleyball players (mean age 15.8), 38.2% had GIRD, but in that same sample no relationship emerged with history of shoulder injury; males tended towards hypomobility and females towards hypermobility (Mizoguchi et al., 2022).',
   },
+  'colpo-di-calore': {
+    name: 'Colpo di calore da sforzo',
+    description:
+      "Innalzamento severo della temperatura corporea centrale — tipicamente sopra i 40°C — con segni di disfunzione del sistema nervoso centrale (incoordinazione motoria, delirio, convulsioni), causato da sforzo intenso in condizioni calde e umide (Morris e Patel, StatPearls). Nella sorveglianza sugli sport liceali USA colpisce per l'87,7% ragazzi, ma la quota scende al 50,9% togliendo il football americano: il divario riflette l'esposizione allo sport a rischio più alto, non una differenza di sesso nella tolleranza al caldo (Kerr et al., 2013).",
+    nameEn: 'Exertional heat stroke',
+    descriptionEn:
+      'A severe rise in core body temperature — typically above 40°C — with signs of central nervous system dysfunction (uncoordinated movement, delirium, seizures), caused by intense exertion in hot, humid conditions (Morris and Patel, StatPearls). In U.S. high school sports surveillance it affects boys in 87.7% of cases, but that share drops to 50.9% once American football is excluded: the gap reflects exposure to the highest-risk sport, not a sex difference in heat tolerance (Kerr et al., 2013).',
+  },
+  'acclimatazione-al-caldo': {
+    name: 'Acclimatazione al caldo',
+    description:
+      "Processo fisiologico e comportamentale con cui il corpo si adatta a fare sforzo in condizioni calde: aumenta il volume plasmatico, la risposta sudorale diventa più efficiente, la frequenza cardiaca scende a parità di carico. Le linee guida di riferimento per le scuole superiori la raccomandano nell'arco di 1-2 settimane a inizio stagione, con introduzione graduale di durata, intensità ed equipaggiamento (Casa e Csillan, 2009).",
+    nameEn: 'Heat acclimatization',
+    descriptionEn:
+      'The physiological and behavioural process by which the body adapts to exercising in heat: plasma volume increases, the sweat response becomes more efficient, heart rate drops at a given workload. Guidelines for U.S. secondary schools recommend building it over 1-2 weeks at the start of the season, gradually introducing duration, intensity and equipment (Casa and Csillan, 2009).',
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;

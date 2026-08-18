@@ -183,3 +183,19 @@
   Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: la tribuna vuota — il posto da cui si guarda giocare gli altri nei mesi in cui
   si è ferme, che è il vero contenuto dell'articolo.
+
+## cover-caldo-giovani-atlete.jpg
+- Titolo originale: "Track Field"
+- Fonte: StockSnap.io — https://stocksnap.io/photo/track-field-RRPLZNV2QC (reperita via Openverse,
+  record 66cbbd0f-82ae-4075-8e7f-e2f8a25202b1)
+- Autore: Matt Moloney
+- Licenza: CC0 1.0 (dedicata al pubblico dominio, uso libero anche commerciale; attribuzione non
+  obbligatoria)
+- Uso: cover articolo blog "allenarsi al caldo nelle giovani atlete" (IT + EN)
+- Lavorazione: originale 960x540 (unica rendition disponibile su StockSnap per questo file). Ritaglio
+  dei 150px superiori (contenevano una figura adulta minuscola e sfocata sullo sfondo, vicino alle
+  tribune) per eliminare ogni persona dall'inquadratura, poi ritaglio 16:9 centrato (693x390) e
+  resample a 960x540, JPEG q88.
+  Nessuna persona nell'inquadratura finale: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: la corsia centrale della pista vista dal basso — l'immagine astratta
+  dell'allenamento all'aperto, senza legarla a uno sport specifico.
