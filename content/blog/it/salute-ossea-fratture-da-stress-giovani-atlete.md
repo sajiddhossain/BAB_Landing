@@ -13,6 +13,7 @@ tags:
   - frattura-da-stress
   - energia
   - pubertà
+  - triade-atleta
 faq:
   - q: "Le ragazze subiscono più fratture da stress dei ragazzi?"
     a: "Sì, e il divario è misurato. Nella sorveglianza degli infortuni delle scuole superiori statunitensi (389 fratture da stress su 51.773 infortuni complessivi, stagioni 2005-2006 → 2012-2013), negli sport confrontabili tra i due sessi le ragazze hanno subito 2,22 fratture da stress ogni 100.000 esposizioni contro 1,27 dei ragazzi: un rapporto di 1,75 (IC 95% 1,38-2,23). Le ragazze rappresentavano il 63,3% di tutte le fratture da stress registrate (Changstrom et al., 2015). I tassi più alti erano nella corsa campestre femminile (10,62 per 100.000 esposizioni) e nella ginnastica femminile (7,43)."

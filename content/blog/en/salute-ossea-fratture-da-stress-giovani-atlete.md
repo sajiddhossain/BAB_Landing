@@ -13,6 +13,7 @@ tags:
   - stress-fracture
   - energy
   - puberty
+  - triade-atleta
 faq:
   - q: "Do girls get more stress fractures than boys?"
     a: "Yes, and the gap is measured. In US high school injury surveillance (389 stress fractures out of 51,773 total injuries, 2005-2006 through 2012-2013 seasons), in sex-comparable sports girls sustained 2.22 stress fractures per 100,000 athlete-exposures versus 1.27 in boys — a rate ratio of 1.75 (95% CI 1.38-2.23). Girls accounted for 63.3% of all stress fractures recorded (Changstrom et al., 2015). The highest rates were in girls' cross country (10.62 per 100,000 athlete-exposures) and girls' gymnastics (7.43)."

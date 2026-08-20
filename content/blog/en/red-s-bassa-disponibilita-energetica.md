@@ -15,6 +15,7 @@ tags:
   - performance
   - red-s
   - amenorrhoea
+  - triade-atleta
 faq:
   - q: "What is RED-S?"
     a: "RED-S (Relative Energy Deficiency in Sport) is a syndrome caused by low energy availability: when the energy taken in through food isn't enough to cover what's spent in training and growth, the body reduces functions such as the menstrual cycle, bone health and recovery. It is described in the International Olympic Committee (IOC) consensus statement (2014, updated in 2023)."
