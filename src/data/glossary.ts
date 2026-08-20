@@ -44,6 +44,23 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
       'A clinical picture linking three elements: low energy availability, menstrual dysfunction and reduced bone health (De Souza et al., 2014). In 2014 the International Olympic Committee broadened it into RED-S, which adds effects on the immune system, metabolism, mood and performance and applies to all sexes (Mountjoy et al., 2014): RED-S does not replace the Triad, it contains it. In a prospective study of 259 active girls and young women, bone stress injury incidence rose with accumulating Triad risk factors, up to 46.2% (Barrack et al., 2014).',
     sameAs: 'https://en.wikipedia.org/wiki/Female_athlete_triad',
   },
+  ferritina: {
+    name: 'Ferritina',
+    description:
+      "La proteina che immagazzina il ferro: la ferritina sierica \u00e8 il marcatore delle riserve, ed \u00e8 l'esame che vede la carenza quando l'emocromo \u00e8 ancora normale. Nel clinical report 2026 l'American Academy of Pediatrics indica ferritina \u226430 ng/mL come soglia di carenza negli adolescenti e nelle persone mestruate; quella soglia ha una sensibilit\u00e0 del 92%, contro il 25% della vecchia soglia a 12 \u00b5g/L (Revel-Vilk et al., 2025). Sale con l'infiammazione: va letta nel contesto clinico, non da sola.",
+    nameEn: 'Ferritin',
+    descriptionEn:
+      "The iron-storage protein: serum ferritin is the marker of iron stores, and the test that reveals deficiency while the full blood count is still normal. In its 2026 clinical report the American Academy of Pediatrics identifies ferritin \u226430 ng/mL as the deficiency threshold in adolescents and menstruating people; that threshold has 92% sensitivity, against 25% for the older 12 \u00b5g/L cut-off (Revel-Vilk et al., 2025). It rises with inflammation: it must be read in clinical context, not on its own.",
+    sameAs: 'https://en.wikipedia.org/wiki/Ferritin',
+  },
+  'instabilita-di-caviglia': {
+    name: 'Instabilit\u00e0 cronica di caviglia',
+    description:
+      "La condizione in cui, dopo una o pi\u00f9 distorsioni, la caviglia continua a cedere o a dare episodi di cedimento percepito. In uno studio su 1.002 atleti di scuola superiore di 14-18 anni la prevalenza era del 20,0%, con il 23,6% tra le ragazze contro il 16,3% tra i ragazzi, e si associava a funzione sportiva e qualit\u00e0 di vita percepita pi\u00f9 basse (Donovan et al., 2020).",
+    nameEn: 'Chronic ankle instability',
+    descriptionEn:
+      'The condition in which, after one or more sprains, the ankle keeps giving way or producing episodes of perceived giving-way. In a study of 1,002 high-school athletes aged 14-18, prevalence was 20.0% \u2014 23.6% among girls versus 16.3% among boys \u2014 and it was associated with lower sports function and perceived quality of life (Donovan et al., 2020).',
+  },
   ciclo: {
     name: 'Ciclo mestruale',
     description:

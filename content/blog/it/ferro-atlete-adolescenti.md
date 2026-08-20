@@ -11,6 +11,7 @@ cover: /fotobab/cover-ferro-atlete.jpg
 coverAlt: "Tre varietà di lenticchie — verdi, rosse e nere — disposte in strisce affiancate su un piano grigio: legumi tra le fonti alimentari di ferro"
 tags:
   - ferro
+  - ferritina
   - salute
   - pubertà
   - energia
