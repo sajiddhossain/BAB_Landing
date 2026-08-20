@@ -2,7 +2,7 @@
 slug: dolore-spalla-giovani-atlete
 title: "Dolore alla spalla nelle giovani atlete: pallavolo, nuoto e il carico che nessuno conta"
 date: 2026-08-12
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "Nella pallamano d'élite giovanile quasi una atleta su quattro (23%) ha avuto problemi di spalla rilevanti in una stagione, e le ragazze hanno una prevalenza 1,46 volte più alta dei coetanei maschi. Tra le nuotatrici e i nuotatori adolescenti la revisione disponibile riporta il tasso di dolore di spalla più alto di tutte le fasce d'età (91,3%), a fronte di 17 ore di vasca a settimana. La spalla è l'unica articolazione che nello sport femminile italiano lavora ogni giorno sopra la testa — ed è quella di cui nessuno tiene il conto."
 answer: "Perché il gesto sopra la testa carica ogni giorno una spalla che non ha finito di crescere. Nella pallamano d'élite di 15-18 anni il 23% ha problemi di spalla sostanziali in una stagione, con prevalenza 1,46 volte più alta nelle ragazze (Asker et al., 2018); nel nuoto la fascia 15-17 anni riporta il tasso di dolore più alto di tutte le età (91,3%; Feijen et al., 2020)."
@@ -69,9 +69,9 @@ Da qui il quadro descritto in letteratura clinica come **epifisiolisi omerale pr
 
 Il punto pratico non è la diagnosi, che non si fa a bordo campo e non si fa in questo articolo. È il rovesciamento della frase più comune: in un'atleta ancora in crescita, un dolore di spalla che dura settimane **non è «la crescita»** — è una ragione per farla vedere.
 
-## Il volume: la variabile che nessuno somma
+## Quanto volume di lanci e bracciate è troppo per una spalla che cresce?
 
-Nei nuotatori adolescenti la revisione riporta **17,27 ± 5,25 ore di vasca a settimana**: il volume più alto della carriera fino a quel momento, superato solo dagli adulti. Nello stesso lavoro, tra gli adolescenti il volume settimanale e gli anni di attività agonistica **correlavano con lo spessore del tendine del sovraspinato**, e tutti i nuotatori con ispessimento tendineo riferivano dolore (Feijen et al., 2020).
+**Una soglia dimostrata non esiste: i dati descrivono associazioni tra volumi alti e problemi di spalla, con evidenza sul carico esterno ancora limitata (Asker et al., 2018).** Nei nuotatori adolescenti la revisione riporta **17,27 ± 5,25 ore di vasca a settimana**: il volume più alto della carriera fino a quel momento, superato solo dagli adulti. Nello stesso lavoro, tra gli adolescenti il volume settimanale e gli anni di attività agonistica **correlavano con lo spessore del tendine del sovraspinato**, e tutti i nuotatori con ispessimento tendineo riferivano dolore (Feijen et al., 2020).
 
 Sono associazioni, non prove di causa, e la revisione sugli sport overhead classifica il carico esterno tra i fattori con evidenza ancora limitata (Asker et al., 2018, BJSM). Ma nello sport giovanile italiano c'è un problema più elementare del dosaggio: **nessuno somma**. Un'atleta di 14 anni può fare pallavolo in società quattro volte a settimana, l'ora di educazione fisica, il torneo scolastico e un raduno di selezione territoriale — e ognuno di quei contesti vede solo la propria fetta. È lo stesso meccanismo della [specializzazione precoce](/blog/specializzazione-precoce-giovani-atlete): il carico non è alto in nessuno dei calendari; è alto solo nella somma, che non sta scritta da nessuna parte.
 
@@ -101,7 +101,7 @@ Due precisazioni che cambiano come va usato questo numero:
 
 Onestà intellettuale, qui, significa dire che venti minuti di lavoro scapolare a settimana sono una buona scommessa, non una garanzia — e che la scommessa migliore resta non arrivare a fine stagione con un'atleta che ha male da nove settimane senza che nessuno lo abbia scritto.
 
-## Perché il dolore di spalla non arriva quasi mai allo staff
+## Perché le atlete non dicono che la spalla fa male?
 
 Perché non impedisce niente. Una caviglia gonfia si vede, una commozione cerebrale ha un protocollo, un ginocchio che cede fa fermare l'azione. Una spalla che fa male, invece, permette di allenarsi lo stesso: si tira un po' meno forte, si cambia leggermente l'angolo, si fa una serie in meno. Nello studio settimanale su 15-18 anni la quota di problemi che diventavano **sostanziali** era alta proprio perché il monitoraggio chiedeva della *riduzione di partecipazione e prestazione*, non della presenza di dolore: la spalla, in quel gruppo, aveva già cambiato il modo di giocare del 6% delle atlete in una settimana qualsiasi (Asker et al., 2018).
 

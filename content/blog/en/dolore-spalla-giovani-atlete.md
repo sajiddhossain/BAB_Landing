@@ -2,7 +2,7 @@
 slug: dolore-spalla-giovani-atlete
 title: "Shoulder pain in young female athletes: volleyball, swimming and the load nobody counts"
 date: 2026-08-12
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "In elite youth handball, almost one athlete in four (23%) had substantial shoulder problems over a single season, and girls had a prevalence 1.46 times higher than boys. Among adolescent swimmers the available review reports the highest shoulder-pain rate of any age group (91.3%), against 17 hours a week in the pool. The shoulder is the one joint that works overhead every day in girls' sport — and the one nobody keeps count of."
 answer: "Because the overhead movement loads a shoulder that has not finished growing, every day. In elite handball at 15-18, 23% have substantial shoulder problems in one season, with prevalence 1.46 times higher in girls (Asker et al., 2018); in swimming, the 15-17 band reports the highest pain rate of any age (91.3%; Feijen et al., 2020)."
@@ -69,9 +69,9 @@ Hence the picture described in clinical literature as **proximal humeral epiphys
 
 The practical point is not the diagnosis, which is not made courtside and is not made in this article. It is the reversal of the most common phrase: in a still-growing athlete, shoulder pain that lasts weeks **is not «growth»** — it is a reason to have it looked at.
 
-## Volume: the variable nobody adds up
+## How much throwing and swimming volume is too much for a growing shoulder?
 
-In adolescent swimmers the review reports **17.27 ± 5.25 hours in the pool per week**: the highest volume of their career so far, exceeded only by adults. In the same work, among adolescents, weekly volume and years of competitive swimming **correlated with supraspinatus tendon thickness**, and every swimmer with tendon thickening reported pain (Feijen et al., 2020).
+**A proven threshold doesn't exist: the data describe associations between high volumes and shoulder problems, with evidence on external load still limited (Asker et al., 2018).** In adolescent swimmers the review reports **17.27 ± 5.25 hours in the pool per week**: the highest volume of their career so far, exceeded only by adults. In the same work, among adolescents, weekly volume and years of competitive swimming **correlated with supraspinatus tendon thickness**, and every swimmer with tendon thickening reported pain (Feijen et al., 2020).
 
 These are associations, not proof of causation, and the overhead-sports review classifies external workload among the factors where evidence is still limited (Asker et al., 2018, BJSM). But in youth sport there is a more basic problem than dosage: **nobody adds up**. A 14-year-old can play club volleyball four times a week, plus PE, plus a school tournament, plus a regional selection camp — and each of those settings sees only its own slice. It is the same mechanism as [early specialisation](/blog/specializzazione-precoce-giovani-atlete): the load is not high on any single calendar; it is high only in the sum, which is written down nowhere.
 
@@ -101,7 +101,7 @@ Two caveats that change how this number should be used:
 
 Intellectual honesty here means saying that twenty minutes of scapular work a week is a good bet, not a guarantee — and that the better bet is not reaching the end of the season with an athlete who has been in pain for nine weeks without anyone writing it down.
 
-## Why shoulder pain almost never reaches the staff
+## Why don't athletes say their shoulder hurts?
 
 Because it prevents nothing. A swollen ankle is visible, a concussion has a protocol, a knee that gives way stops play. A painful shoulder, by contrast, still allows training: hit a bit softer, change the angle slightly, do one set fewer. In the weekly study of 15- to 18-year-olds, the share of problems that became **substantial** was high precisely because the monitoring asked about *reduced participation and performance*, not about the presence of pain: in that group the shoulder had already changed how 6% of athletes played in any given week (Asker et al., 2018).
 

@@ -2,7 +2,7 @@
 slug: mal-di-schiena-giovani-atlete
 title: "Low back pain at 14: why in a young athlete it is not what it is in an adult"
 date: 2026-08-08
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "42% of athletes aged 10-19 report low back pain over twelve months, and female sex appears among the reported risk factors. The difference almost nobody knows about is the cause: in adolescence, sport-related low back pain is far more often a stress fracture of the spine and far more rarely a disc problem or a muscle strain. The data, the limits of the data, and why immediate physiotherapy now beats rest."
 answer: "Because in a young athlete the most described cause is spondylolysis, a stress fracture of the vertebra, whereas in adults it is the disc: in a direct comparison it explained 47% of cases in adolescents against 5% in adults (Micheli and Wood, 1995 — a specialist-clinic sample). Back pain lasting more than two or three weeks should be assessed, not normalised."
@@ -65,7 +65,7 @@ This needs reading precisely: the authors call them *potential risk factors* and
 
 One distinction is worth adding, because it often gets lost. *Having low back pain* and *having spondylolysis* are not the same thing and do not necessarily follow the same profile by sex: in the non-elite case series, the highest proportions of spondylolysis among those presenting with low back pain were found both in male sports such as baseball (54%) and in female sports such as gymnastics (34%) (Selhorst et al., 2019). On this we prefer to say less and get it right: the robust point is that **low back pain in a young athlete deserves to be taken seriously**, not that a well-quantified hierarchy of risk by sex exists.
 
-## Why a fourteen-year-old's back pain is not an adult's
+## Why is a fourteen-year-old's back pain not an adult's?
 
 **Because in the adolescent the pain far more often comes from the back of the vertebra, and in the adult far more often from the disc.**
 
@@ -86,7 +86,7 @@ What happens if you look at a less selected population? The number falls, but st
 
 Three estimates, three different populations, a range running from 30% to 47%. The message is not the figure: it is that **a cause that is a rarity in adults is, in this age group, among the first to consider**.
 
-## What spondylolysis is, in plain terms
+## What is spondylolysis, in plain terms?
 
 **It is a stress fracture of the spine.** The pars interarticularis is a thin bony bridge connecting the posterior joints of a vertebra, almost always involved in the lower lumbar levels. When the back arches backwards and rotates, that bridge takes repeated compression. If load accumulates faster than the bone can repair it, first a stress reaction and then a true defect develops.
 
@@ -134,7 +134,7 @@ The stated limits: it is **one trial** with a **small** sample (64 participants,
 
 Two readings, both useful. The reassuring one: spondylolysis is not the end of sport for a fourteen-year-old. The less comfortable one: that 92% is the outcome of a pathway — diagnosis, load modification, rehabilitation, graded return. It is not what happens to someone who lives with the pain, calling it a muscle strain, for two seasons.
 
-## "Back pain is part of sport"
+## Is back pain just "part of sport"?
 
 The missing piece is not clinical. It is cultural, and it has been studied directly.
 

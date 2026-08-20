@@ -3,7 +3,7 @@ slug: commozione-cerebrale-giovani-atlete
 title: "Concussion in young female athletes: more common, less often spotted (and what to do in the first minutes)"
 seoTitle: "Concussion in young female athletes: what to do"
 date: 2026-07-24
-updated: 2026-08-19
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22 — and 60% of events are never reported to any adult. Neither a visible blow to the head nor loss of consciousness is required: the data, the sideline signs in the first minutes, and what the international guidelines actually say."
 answer: "Female athletes sustain more concussions and report fewer: in high-school football (soccer) the risk is 1.88 times that of male peers (Bretzin et al., 2021), and 60% of events had not been reported to any adult (Register-Mihalik et al., 2013). On suspicion the athlete must come off immediately: those who stay on recover in 44.4 days against 22.0 (Elbin et al., 2016)."
@@ -53,15 +53,15 @@ It isn't an isolated finding. In a different population — **3,465 males and 1,
 
 Two honest caveats. First: this is **US school sport**, with dense injury surveillance and certified athletic trainers on the sideline — a context that simply doesn't exist in most of Europe, which makes the absolute numbers non-transferable. Second, and more important: **why this difference exists is not explained**. Several biomechanical and hormonal hypotheses circulate; none is currently established enough to be presented as fact. What can be said with confidence is that the difference is measured, repeated, and worth taking seriously.
 
-## Where the hit comes from, and why it changes everything
+## Where does the hit that concusses girls come from?
 
 One detail in the Michigan data is worth more than a lot of discussion. The **mechanism** of injury differs by sex: among boys the most common cause is **contact with another player (48.4%)**, among girls **contact with an object — ball, goalpost, playing surface — (41.9%)** (Bretzin et al., 2021).
 
 Why does that matter? Because a body-to-body collision is **visible**: the referee whistles, the bench sees it, someone steps in. A ball taken badly on the head while play continues is not. The consequence shows up in the same data: **boys were 1.54 times more likely to be removed from play immediately** (95% CI 1.15-2.06; P = .004). Not because they were more careful — because their injury was easier to see.
 
-## The bigger problem isn't the hit: it's staying on the field
+## What happens if she keeps playing after a blow to the head?
 
-This is the part a club can change tomorrow, without buying anything.
+**Staying on the field doubles the timeline: 22 days of recovery for those removed immediately, 44 for those who kept playing (Elbin et al., 2016).** This is the part a club can change tomorrow, without buying anything.
 
 A study of the same Michigan records analysed **4,418 concussions** (2,773 in girls, 1,645 in boys) across **22 sex-comparable sports** between 2016 and 2019. The result: **515 girls and 243 boys were not removed from activity** at the time of the injury event — an incidence of **0.19** versus **0.15**. Overall, **girls were 1.26 times as likely not to be removed** (95% CI 1.09-1.45), with the clearest value in soccer: 1.37 (95% CI 1.09-1.72) ([Zynda et al., 2021, *Am J Sports Med*](https://doi.org/10.1177/03635465211020007)). In fairness, in the other sports analysed individually — basketball, baseball/softball, lacrosse — the confidence intervals cross 1: the difference is clear in aggregate, not in every discipline.
 
@@ -79,7 +79,7 @@ In a study of **167 high school athletes** (mean age 15.7; American football, so
 
 It is the same mechanism we have seen with [urinary leakage](/blog/perdite-urina-giovani-atlete) and with [periods](/blog/parlare-di-ciclo-con-allenatore): the symptom never reaches the person who has to decide what happens next. With one substantial difference — here the information that fails to travel concerns the brain, and the useful window is measured in minutes.
 
-## Recognising it on the sideline
+## How do you recognise a concussion on the sideline?
 
 You don't need a visible blow to the head, and you **don't need loss of consciousness**: in most concussions it doesn't happen. The Amsterdam 2022 international consensus lists the signs that warrant **immediate removal** from play ([Patricios et al., 2023](https://doi.org/10.1136/bjsports-2023-106898)):
 
@@ -95,7 +95,7 @@ The operating rule admits no nuance: **if a concussion is suspected, the athlete
 
 One detail that often gets missed: symptoms aren't only physical. Confusion, irritability, trouble concentrating, disturbed sleep. On sleep specifically, the consensus notes that **sleep disturbance in the 10 days after a concussion is associated with an increased risk of persisting symptoms** — another reason [a teenage athlete's sleep](/blog/sonno-atlete-adolescenti) isn't a detail.
 
-## What comes next: relative rest, not a dark room
+## How much rest does a concussion need?
 
 Here the Amsterdam consensus overturned a widespread belief. In its own terms: the best available evidence shows that **recommending strict rest until complete symptom resolution is not beneficial**. What it advises instead is ([Patricios et al., 2023](https://doi.org/10.1136/bjsports-2023-106898)):
 
