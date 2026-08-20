@@ -164,5 +164,39 @@ function collect() {
 const posts = collect();
 fs.mkdirSync(OUT_DIR, { recursive: true });
 fs.writeFileSync(OUT_FILE, JSON.stringify({ posts }, null, 2) + '\n');
+
+// --- Split per il client (CWV) ---
+// blog.json intero serve solo al prerender (vite.config.ts lo legge da file):
+// impacchettarlo nel bundle significava spedire ~1,5 MB di JS a ogni visita.
+// Il client riceve tre cose separate:
+//   1. blog-index.json  — i metadati di tutti gli articoli (lista, TOC, capsule);
+//   2. posts/{lang}--{slug}.json — corpo html + faq del singolo articolo,
+//      caricato on demand dalla pagina articolo;
+//   3. blog-faq.json — solo domanda+ancora per la pagina /faq.
+// `sources` resta fuori dal client: lo usa solo il prerender.
+const POSTS_DIR = path.join(OUT_DIR, 'posts');
+fs.rmSync(POSTS_DIR, { recursive: true, force: true });
+fs.mkdirSync(POSTS_DIR, { recursive: true });
+const index = [];
+const faqIndex = [];
+for (const post of posts) {
+  const { html, sources, faq, ...meta } = post;
+  index.push(meta);
+  fs.writeFileSync(
+    path.join(POSTS_DIR, `${post.lang}--${post.slug}.json`),
+    JSON.stringify({ html, faq }) + '\n'
+  );
+  if (faq?.length) {
+    faqIndex.push({
+      slug: post.slug,
+      lang: post.lang,
+      title: post.title,
+      date: post.date,
+      questions: faq.map((f) => ({ q: f.q, id: f.id })),
+    });
+  }
+}
+fs.writeFileSync(path.join(OUT_DIR, 'blog-index.json'), JSON.stringify({ posts: index }, null, 2) + '\n');
+fs.writeFileSync(path.join(OUT_DIR, 'blog-faq.json'), JSON.stringify({ posts: faqIndex }, null, 2) + '\n');
 // eslint-disable-next-line no-console
-console.log(`✓ blog: ${posts.length} articoli → src/generated/blog.json`);
+console.log(`✓ blog: ${posts.length} articoli → src/generated/blog.json (+ index, faq, ${posts.length} corpi)`);
