@@ -2,6 +2,7 @@
 slug: parole-allenatore-salute-atlete
 title: "A coach's words: how staff knowledge and language change athletes' health"
 seoTitle: "A coach's words and young athletes' health"
+seoDescription: "A coach's words change athletes' health: what to know and what never to say, from data on 1,086 athletes across 57 sports."
 date: 2026-07-09
 updated: 2026-08-20
 author: Sajid Hossain

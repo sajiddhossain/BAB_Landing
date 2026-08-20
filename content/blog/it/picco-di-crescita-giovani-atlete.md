@@ -2,6 +2,7 @@
 slug: picco-di-crescita-giovani-atlete
 title: "Picco di crescita nelle giovani atlete: cosa cambia davvero (e cosa non è colpa loro)"
 seoTitle: "Picco di crescita nelle giovani atlete: cosa cambia"
+seoDescription: "Il picco di crescita arriva in media a 11,2 anni, con enorme variabilità. Cosa cambia per infortuni e coordinazione, e come adattare il carico."
 date: 2026-08-02
 updated: 2026-08-13
 author: Sajid Hossain

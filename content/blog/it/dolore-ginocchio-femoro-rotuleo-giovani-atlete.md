@@ -2,6 +2,7 @@
 slug: dolore-ginocchio-femoro-rotuleo-giovani-atlete
 title: "Il ginocchio che fa male da mesi: perché non è «dolore di crescita»"
 seoTitle: "Dolore al ginocchio negli adolescenti: cosa fare"
+seoDescription: "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze e la durata mediana è di 24 mesi. Perché non è «dolore di crescita» e cosa fare."
 date: 2026-07-30
 updated: 2026-08-13
 author: Sajid Hossain

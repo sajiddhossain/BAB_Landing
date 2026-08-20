@@ -2,6 +2,7 @@
 slug: picco-di-crescita-giovani-atlete
 title: "The growth spurt in young female athletes: what actually changes (and what is not their fault)"
 seoTitle: "The growth spurt in young female athletes"
+seoDescription: "The growth spurt peaks at 11.2 years on average, with huge variability. What changes for injuries and coordination, and how to adapt training load."
 date: 2026-08-02
 updated: 2026-08-13
 author: Sajid Hossain

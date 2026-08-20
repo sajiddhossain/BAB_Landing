@@ -2,6 +2,7 @@
 slug: dolore-ginocchio-femoro-rotuleo-giovani-atlete
 title: "The knee that has hurt for months: why it is not 'growing pains'"
 seoTitle: "Knee pain in teenage athletes: what to do"
+seoDescription: "Among adolescents with recurrent knee pain, 72% are girls and the median duration is 24 months. Why it is not growing pains, and what to do."
 date: 2026-07-30
 updated: 2026-08-13
 author: Sajid Hossain

@@ -2,6 +2,7 @@
 slug: forza-ragazze-adolescenti
 title: "Girls and weights: does strength training at 13-14 stunt growth?"
 seoTitle: "Girls and weights: does strength stunt growth?"
+seoDescription: "Weights don't stunt growth: what the evidence says about strength training at 13-14, how much girls actually gain, and how to set it up safely."
 date: 2026-08-04
 updated: 2026-08-20
 author: Sajid Hossain
