@@ -2,7 +2,7 @@
 slug: abbandono-puberta
 title: "Why girls stop playing sport as teenagers: the data on drop-out at 10-14"
 date: 2026-06-22
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "Among girls who join a club aged 10-14, 71% drop out without ever returning and only 13% take part continuously over seven years. It isn't a dip in motivation: drop-out follows the developing body — girls who go through puberty earlier are significantly more likely to stop (HR 1.68). The real figures, the inflated ones to be wary of, and the four levers a club actually holds."
 answer: "Not because they lose interest, but because the environment stops working when the body changes. Among girls registered with a club at 10-14, 71% drop out of sport without ever returning (Eime et al., 2020), and earlier puberty significantly raises the probability of stopping (HR 1.68; Gallant et al., 2023)."
@@ -73,6 +73,7 @@ When an environment won't talk about periods, energy and a changing body, the at
 - The wrong [sports bra](/blog/reggiseno-sportivo-ragazze), or none at all: at 13-14, 51% of girls say their breasts affect their participation in sport (Scurr et al., 2016).
 - Overuse pain that does not swell and does not make anyone limp: [the shoulder in overhead sports](/blog/dolore-spalla-giovani-atlete), where 23% of athletes aged 15-18 have substantial problems in a single season (Asker et al., 2018); [low back pain](/blog/mal-di-schiena-giovani-atlete); [the ankle that keeps giving way](/blog/distorsione-caviglia-giovani-atlete) after a sprain filed away as «just a twist».
 - [Low energy availability](/blog/red-s-bassa-disponibilita-energetica), which takes the performance first and the period second — and which almost no 14-year-old recognises as a problem.
+- [Breathlessness during exercise](/blog/fiato-corto-giovani-atlete): 14% of adolescents report it, girls more often, and 61% of them have no asthma diagnosis at all (Johansson et al., 2014) — a symptom usually filed away as poor fitness.
 
 None of these enters a drop-out statistic. Together they explain why a girl «is there less» months before she is not there at all.
 
@@ -108,5 +109,6 @@ BAB gives clubs the tools to read the team's aggregated, anonymous signals, and 
 - Petushek E.J., Sugimoto D., Stoolmiller M., Smith G., Myer G.D. **Evidence-Based Best-Practice Guidelines for Preventing Anterior Cruciate Ligament Injuries in Young Female Athletes: A Systematic Review and Meta-analysis.** *The American Journal of Sports Medicine*, 2019;47(7):1744-1753. (n=27,231 female athletes, aged 13-24; 13-19 subgroup reported separately) [doi:10.1177/0363546518782460](https://doi.org/10.1177/0363546518782460)
 - Scurr J., Brown N., Smith J., Brasher A., Risius D., Marczyk A. **The Influence of the Breast on Sport and Exercise Participation in School Girls in the United Kingdom.** *Journal of Adolescent Health*, 2016;58(2):167-173. (n=2,089 girls, aged 11-18, UK) [doi:10.1016/j.jadohealth.2015.10.005](https://doi.org/10.1016/j.jadohealth.2015.10.005)
 - Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studies, 633 adolescent athletes, mean age 16.15 years) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
+- Johansson H., Norlander K., Hedenström H., Janson C., Nordang L., Nordvall L., Emtner M. **Exercise-induced dyspnea is a problem among the general adolescent population.** *Respiratory Medicine*, 2014;108(6):852-858. (**cross-sectional population study**, 2,309 Swedish adolescents aged 12-13; exercise-induced dyspnoea reported by 14%, female sex independently associated; 61% of those reporting it had no asthma diagnosis) [doi:10.1016/j.rmed.2014.03.010](https://doi.org/10.1016/j.rmed.2014.03.010)
 
 *This article is for information only and does not constitute medical advice. If signals persist, speak to a healthcare professional.*

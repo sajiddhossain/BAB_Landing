@@ -1,6 +1,7 @@
 ---
 slug: distorsione-caviglia-giovani-atlete
 title: "\"It's just a twisted ankle\": the ankle is the most common injury in youth female athletes"
+seoTitle: "Ankle sprains in young female athletes"
 date: 2026-08-06
 updated: 2026-08-16
 author: Sajid Hossain
