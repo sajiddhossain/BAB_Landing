@@ -3,7 +3,7 @@ slug: gestire-ciclo-nello-sport
 title: "Playing sport on your period: how it actually works (leaks, products, kit)"
 seoTitle: "Playing sport on your period: a practical guide"
 date: 2026-08-13
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "Fear of leaking is one of the reasons girls skip training sessions and PE lessons — and among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period. Almost every article on the subject stops at saying it is a problem. This one tries to answer the practical question nobody addresses: what do you actually do on the day it happens."
 answer: "With three things that depend on organisation rather than on the athlete: a menstrual product suited to the movement, kit that does not add to the fear of leaking, and supplies available at the gym. Among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period, and fear of leaking is a recurring barrier (Harvey et al., 2025)."
@@ -69,13 +69,13 @@ Two caveats that matter more than the conclusion:
 
 And above all: **that review reports no breakdown by age.** It is therefore not a recommendation specific to a thirteen-year-old, and that is exactly the kind of leap this site tries not to make. The honest practical rule: choose the product for comfort in movement, try it at home first, and if in doubt ask a healthcare professional.
 
-## Kit: how much what you wear weighs
+## How much do uniforms matter when you play on your period?
 
-Here the evidence is qualitative and needs reporting precisely, because it is easy to make it say more than it does. In a study of **44 girls aged 12-13** across six English secondary schools, with interviews with PE staff too, **uncomfortable or unisex-cut** uniforms increased self-consciousness about their bodies and reduced participation; **communal changing rooms** also discouraged engagement, especially among less confident girls. Among the authors' recommendations: offering a **choice of bottoms**, allowing extra layers, avoiding **white tops** because they are see-through (Porter et al., 2025).
+**Enough to cost training sessions, according to the athletes themselves.** Here the evidence is qualitative and needs reporting precisely, because it is easy to make it say more than it does. In a study of **44 girls aged 12-13** across six English secondary schools, with interviews with PE staff too, **uncomfortable or unisex-cut** uniforms increased self-consciousness about their bodies and reduced participation; **communal changing rooms** also discouraged engagement, especially among less confident girls. Among the authors' recommendations: offering a **choice of bottoms**, allowing extra layers, avoiding **white tops** because they are see-through (Porter et al., 2025).
 
 **To be clear: that study is about body image and participation, not about menstruation.** The link between what is worn and fear of leaking comes from another source — the global review that lists that fear among recurring barriers (Harvey et al., 2025). Together the two suggest a cautious but useful conclusion: **kit you can choose, with the option of something dark underneath, removes a problem without asking anything of anyone.**
 
-## The kit at the gym: the simplest measure there is
+## What should a gym keep on hand for managing periods?
 
 If there is one thing a club can do this week, it is this. A container anyone can reach — not in the manager's office, not in the coach's bag — holding:
 
