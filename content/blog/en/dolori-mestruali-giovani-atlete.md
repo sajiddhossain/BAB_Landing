@@ -1,6 +1,7 @@
 ---
 slug: dolori-mestruali-giovani-atlete
 title: "Period pain and sport: how much pain is normal, and what actually works"
+seoTitle: "Period pain and sport: what actually works"
 date: 2026-08-10
 updated: 2026-08-20
 author: Sajid Hossain

@@ -1,6 +1,7 @@
 ---
 slug: perdite-urina-giovani-atlete
 title: "I leak when I jump: the symptom almost no young athlete talks about"
+seoTitle: "Urinary leakage in sport: how common it is"
 date: 2026-07-22
 updated: 2026-08-13
 author: Sajid Hossain

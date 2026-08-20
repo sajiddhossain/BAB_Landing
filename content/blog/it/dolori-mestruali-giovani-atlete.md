@@ -1,6 +1,7 @@
 ---
 slug: dolori-mestruali-giovani-atlete
 title: "Dolori mestruali e sport: quanto dolore è normale e cosa funziona davvero"
+seoTitle: "Dolori mestruali e sport: cosa funziona davvero"
 date: 2026-08-10
 updated: 2026-08-20
 author: Sajid Hossain

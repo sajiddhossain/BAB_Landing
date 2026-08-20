@@ -1,6 +1,7 @@
 ---
 slug: mal-di-schiena-giovani-atlete
 title: "Mal di schiena a 14 anni: perché in una giovane atleta non è quello di un adulto"
+seoTitle: "Mal di schiena nelle giovani atlete: cause e segnali"
 date: 2026-08-08
 updated: 2026-08-20
 author: Sajid Hossain

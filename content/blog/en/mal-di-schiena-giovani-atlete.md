@@ -1,6 +1,7 @@
 ---
 slug: mal-di-schiena-giovani-atlete
 title: "Low back pain at 14: why in a young athlete it is not what it is in an adult"
+seoTitle: "Low back pain in young athletes: causes and signs"
 date: 2026-08-08
 updated: 2026-08-20
 author: Sajid Hossain

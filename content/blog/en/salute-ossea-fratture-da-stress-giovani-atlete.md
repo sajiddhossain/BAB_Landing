@@ -1,6 +1,7 @@
 ---
 slug: salute-ossea-fratture-da-stress-giovani-atlete
 title: "Stress fractures in young female athletes: why bone is built now, not later"
+seoTitle: "Stress fractures in young female athletes"
 date: 2026-07-28
 updated: 2026-08-20
 author: Sajid Hossain

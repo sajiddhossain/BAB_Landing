@@ -1,6 +1,7 @@
 ---
 slug: ritorno-allo-sport-dopo-infortunio
 title: "Tornare a giocare dopo un infortunio: il ginocchio guarisce prima della testa"
+seoTitle: "Tornare allo sport dopo un infortunio: quando è ora"
 date: 2026-08-16
 updated: 2026-08-16
 author: Sajid Hossain

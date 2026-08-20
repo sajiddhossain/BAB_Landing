@@ -1,6 +1,7 @@
 ---
 slug: perdite-urina-giovani-atlete
 title: "Perdo urina quando salto: il sintomo di cui quasi nessuna atleta parla"
+seoTitle: "Perdite di urina nello sport: quanto è comune"
 date: 2026-07-22
 updated: 2026-08-13
 author: Sajid Hossain

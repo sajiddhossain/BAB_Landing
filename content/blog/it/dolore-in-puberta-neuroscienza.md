@@ -1,6 +1,7 @@
 ---
 slug: dolore-in-puberta-neuroscienza
 title: "Il dolore cambia in pubertà: cosa dice la neuroscienza (e perché non sono 'scuse')"
+seoTitle: "Il dolore in pubertà: cosa dice la neuroscienza"
 date: 2026-07-11
 updated: 2026-08-13
 author: Sajid Hossain

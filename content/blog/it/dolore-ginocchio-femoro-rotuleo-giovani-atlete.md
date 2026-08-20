@@ -1,6 +1,7 @@
 ---
 slug: dolore-ginocchio-femoro-rotuleo-giovani-atlete
 title: "Il ginocchio che fa male da mesi: perché non è «dolore di crescita»"
+seoTitle: "Dolore al ginocchio negli adolescenti: cosa fare"
 date: 2026-07-30
 updated: 2026-08-13
 author: Sajid Hossain

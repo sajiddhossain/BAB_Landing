@@ -1,6 +1,7 @@
 ---
 slug: allenare-ragazze-adolescenti
 title: "How to coach teenage girls: 4 concrete levers for coaches and sports clubs"
+seoTitle: "How to coach teenage girls: 4 concrete levers"
 date: 2026-07-02
 updated: 2026-08-19
 author: Sajid Hossain

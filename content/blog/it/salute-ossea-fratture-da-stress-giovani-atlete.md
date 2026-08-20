@@ -1,6 +1,7 @@
 ---
 slug: salute-ossea-fratture-da-stress-giovani-atlete
 title: "Fratture da stress nelle giovani atlete: perché l'osso si costruisce adesso"
+seoTitle: "Fratture da stress nelle giovani atlete: prevenzione"
 date: 2026-07-28
 updated: 2026-08-20
 author: Sajid Hossain

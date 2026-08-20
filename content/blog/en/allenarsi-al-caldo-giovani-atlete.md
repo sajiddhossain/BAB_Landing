@@ -1,6 +1,7 @@
 ---
 slug: allenarsi-al-caldo-giovani-atlete
 title: "Training in the heat: for young athletes, the risk isn't (only) about sex"
+seoTitle: "Training in the heat: risks for young athletes"
 date: 2026-08-19
 updated: 2026-08-19
 author: Sajid Hossain

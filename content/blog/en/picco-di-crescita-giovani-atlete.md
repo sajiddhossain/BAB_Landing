@@ -1,6 +1,7 @@
 ---
 slug: picco-di-crescita-giovani-atlete
 title: "The growth spurt in young female athletes: what actually changes (and what is not their fault)"
+seoTitle: "The growth spurt in young female athletes"
 date: 2026-08-02
 updated: 2026-08-13
 author: Sajid Hossain
