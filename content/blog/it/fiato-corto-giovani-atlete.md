@@ -2,6 +2,7 @@
 slug: fiato-corto-giovani-atlete
 title: "Fiato corto durante lo sforzo: nel 61% dei casi non c'è nessuna diagnosi di asma"
 seoTitle: "Fiato corto durante lo sforzo: quando non è asma"
+seoDescription: "Il 14% degli adolescenti ha fiato corto sotto sforzo e il 61% non ha alcuna diagnosi di asma. EIB, EILO e perché serve un test oggettivo, non un'etichetta."
 date: 2026-08-20
 updated: 2026-08-20
 author: Sajid Hossain

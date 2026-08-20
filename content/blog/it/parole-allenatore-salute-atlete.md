@@ -2,6 +2,7 @@
 slug: parole-allenatore-salute-atlete
 title: "Le parole dell'allenatore: come la cultura e il linguaggio dello staff cambiano la salute delle atlete"
 seoTitle: "Le parole dell'allenatore e la salute delle atlete"
+seoDescription: "Le parole dell'allenatore cambiano la salute delle atlete: cosa sapere e cosa non dire mai, dai dati su 1.086 atlete in 57 sport."
 date: 2026-07-09
 updated: 2026-08-20
 author: Sajid Hossain

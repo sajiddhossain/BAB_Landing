@@ -2,6 +2,7 @@
 slug: fiato-corto-giovani-atlete
 title: "Breathlessness during exercise: 61% of the teenagers who report it have no asthma diagnosis"
 seoTitle: "Breathlessness in sport: when it is not asthma"
+seoDescription: "14% of adolescents get breathless during exercise and 61% have no asthma diagnosis. EIB, EILO, and why it takes an objective test, not a label."
 date: 2026-08-20
 updated: 2026-08-20
 author: Sajid Hossain

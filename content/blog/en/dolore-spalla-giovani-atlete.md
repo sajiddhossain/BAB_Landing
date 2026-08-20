@@ -2,6 +2,7 @@
 slug: dolore-spalla-giovani-atlete
 title: "Shoulder pain in young female athletes: volleyball, swimming and the load nobody counts"
 seoTitle: "Shoulder pain in young female athletes"
+seoDescription: "In elite youth handball, 23% of female athletes have substantial shoulder problems in one season. The causes in overhead sports and the signals to catch."
 date: 2026-08-12
 updated: 2026-08-20
 author: Sajid Hossain

@@ -2,6 +2,7 @@
 slug: gestire-ciclo-nello-sport
 title: "Fare sport con il ciclo: come si gestisce in pratica (perdite, prodotti, divise)"
 seoTitle: "Fare sport con il ciclo: la gestione pratica"
+seoDescription: "Dal 25% al 61% delle adolescenti evita lo sport durante le mestruazioni. Prodotti, divise e kit in palestra: la gestione pratica del ciclo, senza tabù."
 date: 2026-08-13
 updated: 2026-08-20
 author: Sajid Hossain

@@ -309,7 +309,7 @@ function prerenderRoutes(): Plugin {
       // xhtml:link nella sitemap tanto quanto quelli in <head>).
       const blogAlternates = new Map<string, Array<{ hreflang: string; href: string }>>()
       if (fs.existsSync(blogPath)) {
-        type Post = { slug: string; lang: string; title: string; seoTitle?: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; answer?: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string; id?: string }>; headings?: Array<{ level: number; text: string; id: string }>; html?: string }
+        type Post = { slug: string; lang: string; title: string; seoTitle?: string; seoDescription?: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; answer?: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string; id?: string }>; headings?: Array<{ level: number; text: string; id: string }>; html?: string }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
         // slug → lingua → articolo (solo le lingue che hanno un URL proprio)
         const bySlug = new Map<string, Map<string, Post>>()
@@ -343,7 +343,9 @@ function prerenderRoutes(): Plugin {
             // e un titolo editoriale lungo perde proprio la parte che qualifica.
             const seoTitle = post.seoTitle || post.title
             page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(seoTitle)} — BAB</title>`)
-            page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, metaDescription(post.excerpt))
+            // Come per seoTitle: la description dedicata vince sul taglio
+            // automatico dell'excerpt; OG/JSON-LD restano sul testo completo.
+            page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, post.seoDescription || metaDescription(post.excerpt))
             page = replaceAttr(page, /(<meta property="og:title" content=")[^"]*(")/, post.title)
             page = replaceAttr(page, /(<meta property="og:description" content=")[^"]*(")/, post.excerpt)
             page = replaceAttr(page, /(<meta property="og:url" content=")[^"]*(")/, url)

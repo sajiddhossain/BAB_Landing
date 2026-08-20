@@ -2,6 +2,7 @@
 slug: dolore-in-puberta-neuroscienza
 title: "Il dolore cambia in pubertà: cosa dice la neuroscienza (e perché non sono 'scuse')"
 seoTitle: "Il dolore in pubertà: cosa dice la neuroscienza"
+seoDescription: "In pubertà il dolore clinico aumenta davvero, soprattutto nelle ragazze. Cosa dice la neuroscienza e perché «sta esagerando» è la risposta sbagliata."
 date: 2026-07-11
 updated: 2026-08-13
 author: Sajid Hossain

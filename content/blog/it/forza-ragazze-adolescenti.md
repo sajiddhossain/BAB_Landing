@@ -2,6 +2,7 @@
 slug: forza-ragazze-adolescenti
 title: "Le ragazze e i pesi: l'allenamento della forza a 13-14 anni fa male alla crescita?"
 seoTitle: "Pesi e adolescenti: la forza fa male alla crescita?"
+seoDescription: "I pesi non bloccano la crescita: cosa dice l'evidenza sull'allenamento della forza a 13-14 anni, quanto si guadagna davvero e come impostarlo in sicurezza."
 date: 2026-08-04
 updated: 2026-08-20
 author: Sajid Hossain

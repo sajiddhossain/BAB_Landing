@@ -2,6 +2,7 @@
 slug: ritorno-allo-sport-dopo-infortunio
 title: "Going back after an injury: the knee heals before the head does"
 seoTitle: "Return to sport after injury: when it's time"
+seoDescription: "After ACL reconstruction 81% return to sport but only 55% to competitive level. Psychological readiness matters as much as the knee."
 date: 2026-08-16
 updated: 2026-08-16
 author: Sajid Hossain

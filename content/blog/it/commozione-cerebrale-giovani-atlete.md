@@ -2,6 +2,7 @@
 slug: commozione-cerebrale-giovani-atlete
 title: "Commozione cerebrale nelle giovani atlete: più frequente, meno riconosciuta (e cosa fare nei primi minuti)"
 seoTitle: "Commozione cerebrale nelle giovani atlete: cosa fare"
+seoDescription: "Nel calcio scolastico le ragazze subiscono 1,88 volte le commozioni cerebrali dei coetanei maschi. Come riconoscerle a bordo campo e cosa fare nei primi minuti."
 date: 2026-07-24
 updated: 2026-08-20
 author: Sajid Hossain

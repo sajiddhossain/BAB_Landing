@@ -2,6 +2,7 @@
 slug: ritorno-allo-sport-dopo-infortunio
 title: "Tornare a giocare dopo un infortunio: il ginocchio guarisce prima della testa"
 seoTitle: "Tornare allo sport dopo un infortunio: quando è ora"
+seoDescription: "Dopo un crociato l'81% torna allo sport ma solo il 55% al livello competitivo. La prontezza psicologica conta quanto il ginocchio."
 date: 2026-08-16
 updated: 2026-08-16
 author: Sajid Hossain

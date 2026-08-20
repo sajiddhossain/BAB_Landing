@@ -2,6 +2,7 @@
 slug: dolore-in-puberta-neuroscienza
 title: "Pain changes at puberty: what neuroscience says (and why it isn't 'being dramatic')"
 seoTitle: "Pain at puberty: what neuroscience says"
+seoDescription: "Clinical pain really does increase at puberty, especially in girls. What neuroscience says, and why 'she's being dramatic' is the wrong answer."
 date: 2026-07-11
 updated: 2026-08-13
 author: Sajid Hossain

@@ -2,6 +2,7 @@
 slug: commozione-cerebrale-giovani-atlete
 title: "Concussion in young female athletes: more common, less often spotted (and what to do in the first minutes)"
 seoTitle: "Concussion in young female athletes: what to do"
+seoDescription: "In school soccer, girls sustain 1.88 times the concussions of boys. How to recognise one on the sideline and what to do in the first minutes."
 date: 2026-07-24
 updated: 2026-08-20
 author: Sajid Hossain

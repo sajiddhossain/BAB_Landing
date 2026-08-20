@@ -2,6 +2,7 @@
 slug: gestire-ciclo-nello-sport
 title: "Playing sport on your period: how it actually works (leaks, products, kit)"
 seoTitle: "Playing sport on your period: a practical guide"
+seoDescription: "Between 25% and 61% of adolescent girls avoid sport during their period. Products, kit and what to keep at the gym: the practical side, without taboos."
 date: 2026-08-13
 updated: 2026-08-20
 author: Sajid Hossain

@@ -127,6 +127,9 @@ function collect() {
         // caratteri utili in SERP: H1, og:title e dati strutturati restano
         // sul titolo per esteso, dove lo spazio non è un problema.
         seoTitle: data.seoTitle || '',
+        // Meta description dedicata quando la prima frase dell'excerpt supera i
+        // ~160 caratteri e il taglio automatico chiuderebbe a metà pensiero.
+        seoDescription: data.seoDescription || '',
         date: data.date ? new Date(data.date).toISOString().slice(0, 10) : null,
         updated: data.updated ? new Date(data.updated).toISOString().slice(0, 10) : null,
         author: data.author || null,
