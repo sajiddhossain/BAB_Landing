@@ -80,7 +80,7 @@ None of these enters a drop-out statistic. Together they explain why a girl «is
 
 ## How do you keep an adolescent athlete? Four concrete levers
 
-**By acting on the environment, not on the individual girl's motivation.** None of the four levers below requires a doctor on site or a dedicated budget: they are culture, aggregated data, practical conditions and injury prevention. They are also, in that order, the ones with the best cost-to-return ratio for a club.
+**By acting on the environment, not on the individual girl's motivation.** It is the same principle as [the practical guide for coaching adolescent girls](/blog/allenare-ragazze-adolescenti): none of the four levers below requires a doctor on site or a dedicated budget: they are culture, aggregated data, practical conditions and injury prevention. They are also, in that order, the ones with the best cost-to-return ratio for a club.
 
 1. **Culture.** Normalise the topic with plain, non-judgemental language. This isn't rhetoric: in the Female Athlete Health Report 2023, athletes who perceived their coach as very well-informed reported on average 3.2 RED-S symptoms against 4.3, i.e. roughly **36% fewer** (Woolven et al., 2023 — a survey of 769 athletes with a mean age of 32, so an **adult sample**, and a **non-peer-reviewed** report: read it as an indication, not as an estimate for adolescents). [A coach's words](/blog/parole-allenatore-salute-atlete) are a health variable.
 2. **Team signals, not individual data.** Understanding when the group is struggling lets you act before overload — without ever breaching an individual's privacy. Privacy is what makes trust possible, not the other way round.

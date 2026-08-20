@@ -78,7 +78,7 @@ Nessuno di questi entra in una statistica di abbandono. Tutti insieme spiegano p
 
 ## Come si trattiene un'atleta adolescente? Quattro leve concrete
 
-**Agendo sull'ambiente, non sulla motivazione della singola.** Nessuna delle quattro leve qui sotto richiede un medico in sede o un budget dedicato: sono cultura, dati aggregati, condizioni pratiche e prevenzione degli infortuni. Sono anche, nell'ordine, quelle con il miglior rapporto tra costo e ritorno per una società sportiva.
+**Agendo sull'ambiente, non sulla motivazione della singola.** È lo stesso principio della [guida pratica per chi allena ragazze adolescenti](/blog/allenare-ragazze-adolescenti): nessuna delle quattro leve qui sotto richiede un medico in sede o un budget dedicato: sono cultura, dati aggregati, condizioni pratiche e prevenzione degli infortuni. Sono anche, nell'ordine, quelle con il miglior rapporto tra costo e ritorno per una società sportiva.
 
 1. **Cultura.** Normalizzare il tema con un linguaggio semplice e non giudicante. Non è retorica: nel Female Athlete Health Report 2023, le atlete che percepivano il proprio allenatore come molto informato riportavano in media 3,2 sintomi di RED-S contro 4,3, cioè circa il **36% in meno** (Woolven et al., 2023 — survey su 769 atlete di età media 32 anni, quindi **campione adulto**, e report **non peer-reviewed**: va letto come indizio, non come stima sulle adolescenti). [Le parole di chi allena](/blog/parole-allenatore-salute-atlete) sono una variabile di salute.
 2. **Dati di squadra, non individuali.** Capire quando il gruppo fatica permette di intervenire prima del sovraccarico — senza mai violare la privacy della singola. È la privacy a rendere possibile la fiducia, non il contrario.
