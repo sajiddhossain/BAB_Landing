@@ -1,8 +1,9 @@
 ---
 slug: ferro-atlete-adolescenti
 title: "Low iron in teenage athletes: the deficiency nobody looks for (and a blood test finds)"
+seoTitle: "Low iron in teenage athletes: how it is found"
 date: 2026-07-16
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone."
 answer: "With a blood test, not by intuition: 53.2% of adolescent female athletes have mild iron deficiency (ferritin ≤30 µg/L), while iron-deficiency anaemia affects only 4% (Nicotra et al., 2023). Sport is not the dominant factor — among adolescents, athletes and non-athletes do not differ significantly — and supplementing without measuring first is not a good idea."
@@ -30,6 +31,10 @@ faq:
     a: "Because they measure different things. A full blood count looks at haemoglobin, the final stage: by the time it drops, the deficiency has already reached anaemia. Ferritin measures the stores, and they empty far earlier. That is why the most common form in adolescent female athletes is deficiency without anaemia: at ferritin ≤30 µg/L it affects 53.2% of girls aged 11-18, while iron deficiency anaemia affects 4% (Nicotra et al., 2023). A normal blood count on its own rules nothing out — and which test to order is a doctor's call."
   - q: "Does low iron hurt performance even without anaemia?"
     a: "The evidence is mixed, and it is only right to report it that way. A review of 12 studies in 283 participants found 6 studies with improved performance after supplementation and 6 without (Rubeor et al., 2018). The only trial run specifically on adolescent female athletes — 14 high school runners with low ferritin, double-blind — showed a significant improvement in endurance time but no difference in VO2max (Rowland et al., 1988): fourteen participants are far too few to conclude. What can be said without overreaching is that deficiency should be looked for and treated because it is a health matter, not because it guarantees a performance gain."
+  - q: "Is there iron screening for adolescent athletes outside the United States?"
+    a: "Often not, and it's worth saying plainly: in Italy, for example, there is no national universal screening recommendation equivalent to the American one. In 2026 the American Academy of Pediatrics updated its clinical report recommending a full blood count plus serum ferritin in all adolescent girls, at least one year after menarche and no later than age 14 (AAP, 2026); an independent group of haematologists and sports medicine experts proposes the same test around ages 14-15, repeated every five years (Revel-Vilk et al., 2025) — but that is an expert proposal, not a scientific society guideline. Elsewhere the decision sits with the paediatrician or sports physician: what has changed is that the question now has a literature behind it."
+  - q: "Which ferritin value indicates deficiency in an adolescent?"
+    a: "The threshold has moved up from the one many lab reports are still calibrated to. The American Academy of Pediatrics identifies ferritin ≤30 ng/mL as the deficiency threshold in adolescents and menstruating people (AAP, 2026), and the independent proposal by Revel-Vilk and colleagues uses the same 30 µg/L cut-off, which has 92% sensitivity against 25% for the older 12 µg/L threshold (Revel-Vilk et al., 2025). One practical consequence follows: a ferritin of 20, read against the old reference, can look 'normal' while describing depleted stores. Interpretation belongs to a clinician — not least because ferritin rises with inflammation and has to be read in clinical context, not on its own."
 ---
 
 There's a question almost nobody asks in youth women's sport: **how is your athletes' iron?** Not haemoglobin — that's what you look at once anaemia has already arrived. Stored iron. Ferritin. It's a number you get from an unremarkable blood test, one almost no girl has had, and in more than half of cases it comes back low.
@@ -49,9 +54,9 @@ You can see it clearly in an Israeli study of **126 female athletes aged 11-18**
 
 Translated: if you wait for anaemia to notice, you miss roughly 90% of the problem.
 
-## Is sport to blame? No — and that matters
+## Does sport cause iron deficiency in adolescent girls?
 
-The convenient story here would be: *training drains your athletes' iron*. The adolescent data doesn't support it, and it's worth being honest before someone else is.
+**Not in the adolescent data: the deficiency is widespread among girls who don't play sport too.** The convenient story here would be: *training drains your athletes' iron*. The adolescent data doesn't support it, and it's worth being honest before someone else is.
 
 One study directly compared, at the start of a season, **swimmers (46.7%), runners (40%) and non-athletes (26.7%)** below the 12 ng/ml threshold: the differences were **not statistically significant**, and mean ferritin levels didn't differ between groups (Rowland et al., 1991). And in Sweden, among **394 post-menarche students around age 16 — non-athletes —** **73.6% had ferritin below 30 µg/L** and 40% below 15 (Söderman et al., 2025).
 
@@ -68,17 +73,17 @@ A heavy flow isn't a personality trait or something to "put up with": it's the f
 
 On the sporting side there are known mechanisms — exercise raises **hepcidin**, the hormone that reduces iron absorption, for roughly 3-6 hours after activity ends (Badenhorst et al., 2022) — but take them for what they are: documented in **adult women**, not adolescents. For this age group, that data simply doesn't exist.
 
-## "She's always tired": test first, iron second
+## "She's always tired": when is tiredness low iron, and when is it something else?
 
 It's the most natural temptation in the world, and it's the one to resist. **Don't give iron supplements without a blood test.**
 
-This isn't box-ticking. Without documented deficiency, iron has **no demonstrated benefit**, frequently causes gastrointestinal side effects, and above all **masks** other causes of fatigue — which at 14 might be [sleep](/blog/sonno-atlete-adolescenti), training load, school, or [energy availability that's too low](/blog/red-s-bassa-disponibilita-energetica). The reverse holds too: lingering fatigue can sit alongside an injury that was never properly closed — an [ankle that keeps giving way](/blog/distorsione-caviglia-giovani-atlete) is the most common example in youth sport, and neither problem is solved by a supplement.
+This isn't box-ticking. Without documented deficiency, iron has **no demonstrated benefit**, frequently causes gastrointestinal side effects, and above all **masks** other causes of fatigue — which at 14 might be [sleep](/blog/sonno-atlete-adolescenti), training load, school, or [energy availability that's too low](/blog/red-s-bassa-disponibilita-energetica). When breathlessness on exertion sits on top of the tiredness, the list grows again: [exercise-induced breathlessness has a differential diagnosis of its own](/blog/fiato-corto-giovani-atlete), and in the adolescent population 61% of those who report it have no asthma diagnosis at all. The reverse holds too: lingering fatigue can sit alongside an injury that was never properly closed — an [ankle that keeps giving way](/blog/distorsione-caviglia-giovani-atlete) is the most common example in youth sport, and neither problem is solved by a supplement.
 
 And even where deficiency exists, honesty requires saying the benefits are **contested**. A review of 12 studies across 283 participants found **6 studies showing improved performance and 6 showing none** (Rubeor et al., 2018). The authors note that all six positive studies used a treatment threshold of ferritin ≤20 µg/L: below that line, supplementing appears to make more sense. The only trial run specifically on adolescent female athletes — 14 runners with ferritin under 20, double-blind — showed a significant improvement in treadmill endurance time, with no difference in VO2max (Rowland et al., 1988). Fourteen participants, in 1988: it's the best evidence at the right age we have, and it isn't much.
 
 One temptation worth killing while we're here: **iron is not a study aid.** A systematic review of 50 studies in adolescents aged 10-19 concludes that supplementation does **not** improve memory and recall, and finds no evidence of an effect on intelligence, attention or concentration — with low quality of evidence throughout (Samson et al., 2022).
 
-## What the guidelines say (and this changed recently)
+## What do the guidelines now recommend about iron screening?
 
 This is the solid part. In **2026** the American Academy of Pediatrics updated its clinical report on iron deficiency, replacing the 2010 version, and recommends **universal laboratory screening — a complete blood count plus serum ferritin — in all adolescents, at least one year post-menarche and no later than age 14**, setting **ferritin ≤30 ng/mL** as the deficiency threshold in adolescents and menstruating people (AAP, 2026).
 
@@ -86,7 +91,7 @@ In parallel, a group of haematologists and sports medicine experts independently
 
 Two caveats. First: Revel-Vilk and colleagues offer an **expert proposal**, not a professional-body guideline. Second: **national guidance varies**, and many countries have no equivalent universal screening recommendation. The decision rests with a paediatrician or sports physician — but the question is now a legitimate one, with a literature behind it.
 
-## What the people around the athlete can do
+## What can the people around the athlete do, starting Monday?
 
 - **The athlete**: notice and name. Tiredness that rest doesn't fix, a flow that seems heavier than usual, breathlessness on efforts that used to be easy. These aren't diagnoses: they're things to tell an adult.
 - **The family**: take the question to the paediatrician — "does it make sense to check her blood count and ferritin?" — instead of buying a supplement. And know that a meat-free diet isn't a problem in itself: it's one more reason to **check**, not to blame.

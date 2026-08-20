@@ -1,6 +1,7 @@
 ---
 slug: commozione-cerebrale-giovani-atlete
 title: "Concussion in young female athletes: more common, less often spotted (and what to do in the first minutes)"
+seoTitle: "Concussion in young female athletes: what to do"
 date: 2026-07-24
 updated: 2026-08-19
 author: Sajid Hossain

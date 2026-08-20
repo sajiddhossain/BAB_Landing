@@ -123,6 +123,10 @@ function collect() {
         slug,
         lang,
         title: data.title || slug,
+        // Titolo per il solo <title> quando quello editoriale supera i ~60
+        // caratteri utili in SERP: H1, og:title e dati strutturati restano
+        // sul titolo per esteso, dove lo spazio non è un problema.
+        seoTitle: data.seoTitle || '',
         date: data.date ? new Date(data.date).toISOString().slice(0, 10) : null,
         updated: data.updated ? new Date(data.updated).toISOString().slice(0, 10) : null,
         author: data.author || null,

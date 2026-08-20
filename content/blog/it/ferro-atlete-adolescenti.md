@@ -1,8 +1,9 @@
 ---
 slug: ferro-atlete-adolescenti
 title: "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e che si trova con un esame)"
+seoTitle: "Ferro basso nelle atlete adolescenti: come si trova"
 date: 2026-07-16
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli."
 answer: "Con un esame del sangue, non a intuito: il 53,2% delle atlete adolescenti ha una carenza di ferro lieve (ferritina ≤30 µg/L), mentre l'anemia sideropenica riguarda solo il 4% (Nicotra et al., 2023). Lo sport non è il fattore dominante — tra le adolescenti, atlete e non atlete non differiscono in modo significativo — e integrare senza aver misurato non è una buona idea."
@@ -30,6 +31,10 @@ faq:
     a: "Perché misurano due cose diverse. L'emocromo guarda l'emoglobina, cioè l'ultimo stadio: quando cala, la carenza è già arrivata all'anemia. La ferritina misura le riserve, e si svuota molto prima. È la ragione per cui la forma più diffusa nelle atlete adolescenti è la carenza senza anemia: con ferritina ≤30 µg/L riguarda il 53,2% delle ragazze di 11-18 anni, mentre l'anemia sideropenica ne riguarda il 4% (Nicotra et al., 2023). Un emocromo normale, da solo, non esclude nulla — e quale esame chiedere lo decide un medico."
   - q: "Il ferro basso fa calare la prestazione anche senza anemia?"
     a: "Le prove sono contrastanti, ed è corretto riportarle così. Una revisione di 12 studi su 283 partecipanti ha trovato 6 studi con miglioramento della performance dopo supplementazione e 6 senza (Rubeor et al., 2018). L'unico trial condotto proprio su atlete adolescenti — 14 podiste con ferritina bassa, in doppio cieco — ha mostrato un miglioramento significativo del tempo di endurance ma nessuna differenza nel VO2max (Rowland et al., 1988): quattordici partecipanti sono troppo poche per concludere. Quello che si può dire senza forzare è che la carenza va cercata e trattata perché è una questione di salute, non perché garantisca un guadagno di prestazione."
+  - q: "In Italia esiste uno screening del ferro per le adolescenti che fanno sport?"
+    a: "No, e vale la pena dirlo con chiarezza: non esiste una raccomandazione nazionale italiana di screening universale equivalente a quella statunitense. Nel 2026 l'American Academy of Pediatrics ha aggiornato il proprio clinical report raccomandando emocromo più ferritina sierica in tutte le adolescenti, ad almeno un anno dal menarca e comunque entro i 14 anni (AAP, 2026); un gruppo indipendente di ematologi ed esperti di medicina dello sport propone lo stesso esame intorno ai 14-15 anni, da ripetere ogni cinque anni (Revel-Vilk et al., 2025) — ma quella è una proposta di esperti, non una linea guida di società scientifica. In Italia la decisione resta al pediatra o al medico dello sport: la differenza è che oggi la domanda ha una letteratura alle spalle."
+  - q: "Quale valore di ferritina indica una carenza in un'adolescente?"
+    a: "La soglia si è alzata rispetto a quella con cui molti referti sono ancora tarati. L'American Academy of Pediatrics indica ferritina ≤30 ng/mL come soglia di carenza negli adolescenti e nelle persone mestruate (AAP, 2026), e la proposta indipendente di Revel-Vilk e colleghi usa la stessa soglia di 30 µg/L, che ha una sensibilità del 92% contro il 25% della vecchia soglia a 12 µg/L (Revel-Vilk et al., 2025). Ne discende una conseguenza pratica: una ferritina di 20, letta con il vecchio riferimento, può risultare «nella norma» pur descrivendo riserve esaurite. L'interpretazione spetta al medico — anche perché la ferritina sale con l'infiammazione e va letta nel contesto clinico, non da sola."
 ---
 
 C'è una domanda che nello sport giovanile femminile quasi nessuno fa: **com'è il ferro delle tue atlete?** Non l'emoglobina — quella si guarda quando ormai c'è l'anemia. Il ferro di scorta, la ferritina. È un numero che si ottiene con un prelievo banale, che quasi nessuna ha fatto, e che in più di un caso su due risulta basso.
@@ -49,9 +54,9 @@ Lo si vede bene in uno studio israeliano su **126 atlete di 11-18 anni** che pra
 
 Tradotto: se aspetti l'anemia per accorgertene, ti sfugge circa il 90% del problema.
 
-## È colpa dello sport? No — ed è importante dirlo
+## È lo sport a causare la carenza di ferro nelle adolescenti?
 
-Qui la narrazione comoda sarebbe: *l'allenamento prosciuga il ferro delle tue atlete*. I dati sulle adolescenti non la sostengono, e vale la pena essere onesti prima che lo sia qualcun altro.
+**Non nei dati sulle adolescenti: la carenza è diffusa anche fra chi non fa sport.** Qui la narrazione comoda sarebbe: *l'allenamento prosciuga il ferro delle tue atlete*. I dati sulle adolescenti non la sostengono, e vale la pena essere onesti prima che lo sia qualcun altro.
 
 Uno studio ha confrontato direttamente, a inizio stagione, **nuotatrici (46,7%), podiste (40%) e non atlete (26,7%)** sotto la soglia dei 12 ng/ml: le differenze **non erano statisticamente significative**, e i livelli medi di ferritina non differivano tra i gruppi (Rowland et al., 1991). E in Svezia, su **394 studentesse post-menarca di circa 16 anni — non atlete —** il **73,6% aveva ferritina sotto 30 µg/L** e il 40% sotto 15 (Söderman et al., 2025).
 
@@ -68,17 +73,17 @@ Un flusso abbondante non è un dettaglio caratteriale né qualcosa da "sopportar
 
 Sul versante sportivo esistono meccanismi noti — l'esercizio innalza l'**epcidina**, l'ormone che riduce l'assorbimento del ferro, per circa 3-6 ore dopo la fine dell'attività (Badenhorst et al., 2022) — ma vanno presi per quello che sono: documentati su **donne adulte**, non su adolescenti. Su questa fascia d'età quei dati semplicemente non esistono.
 
-## "È sempre stanca": prima l'esame, poi il ferro
+## «È sempre stanca»: quando la stanchezza è ferro basso e quando è altro?
 
 È la tentazione più naturale del mondo, ed è quella da evitare. **Non date integratori di ferro senza un esame del sangue.**
 
-Non è prudenza burocratica. È che, senza una carenza documentata, il ferro **non ha benefici dimostrati**, dà con frequenza effetti collaterali gastrointestinali, e soprattutto **maschera** altre cause della stanchezza — che a 14 anni possono essere [il sonno](/blog/sonno-atlete-adolescenti), il carico, la scuola, o [una disponibilità energetica troppo bassa](/blog/red-s-bassa-disponibilita-energetica). Vale anche il rovescio: una stanchezza che si trascina può convivere con un infortunio mai chiuso davvero — la [caviglia che continua a cedere](/blog/distorsione-caviglia-giovani-atlete) è l'esempio più frequente nello sport giovanile, e nessuno dei due problemi si risolve con un integratore.
+Non è prudenza burocratica. È che, senza una carenza documentata, il ferro **non ha benefici dimostrati**, dà con frequenza effetti collaterali gastrointestinali, e soprattutto **maschera** altre cause della stanchezza — che a 14 anni possono essere [il sonno](/blog/sonno-atlete-adolescenti), il carico, la scuola, o [una disponibilità energetica troppo bassa](/blog/red-s-bassa-disponibilita-energetica). Quando alla stanchezza si aggiunge l'affanno durante lo sforzo, la lista si allunga ancora: [il fiato corto sotto sforzo ha una diagnosi differenziale propria](/blog/fiato-corto-giovani-atlete), e nella popolazione adolescente il 61% di chi lo riferisce non ha nemmeno una diagnosi di asma. Vale anche il rovescio: una stanchezza che si trascina può convivere con un infortunio mai chiuso davvero — la [caviglia che continua a cedere](/blog/distorsione-caviglia-giovani-atlete) è l'esempio più frequente nello sport giovanile, e nessuno dei due problemi si risolve con un integratore.
 
 E anche quando la carenza c'è, l'onestà impone di dire che i benefici sono **controversi**. Una revisione di 12 studi su 283 partecipanti ha trovato **6 studi con miglioramento della performance e 6 senza** (Rubeor et al., 2018). Gli autori notano che i sei positivi usavano tutti una soglia di trattamento di ferritina ≤20 µg/L: sotto quella soglia, integrare sembra avere più senso. L'unico trial condotto proprio su atlete adolescenti — 14 podiste con ferritina sotto 20, in doppio cieco — ha mostrato un miglioramento significativo del tempo di endurance, senza differenze nel VO2max (Rowland et al., 1988). Quattordici partecipanti, nel 1988: è la miglior evidenza sull'età giusta che abbiamo, ed è poca.
 
 Una tentazione da spegnere subito, già che ci siamo: **il ferro non è un integratore per andare meglio a scuola.** Una revisione sistematica di 50 studi su adolescenti di 10-19 anni conclude che la supplementazione **non** migliora memoria e richiamo, e non trova evidenze di un effetto su intelligenza, attenzione e concentrazione — con qualità dell'evidenza bassa (Samson et al., 2022).
 
-## Cosa dicono le linee guida (ed è cambiato da poco)
+## Cosa raccomandano oggi le linee guida sullo screening del ferro?
 
 Questa è la parte solida. Nel **2026** l'American Academy of Pediatrics ha aggiornato il proprio clinical report sulla carenza di ferro, sostituendo quello del 2010, e raccomanda uno **screening universale di laboratorio — emocromo più ferritina sierica — in tutte le adolescenti, ad almeno un anno dal menarca e comunque non oltre i 14 anni**, indicando **ferritina ≤30 ng/mL** come soglia di carenza negli adolescenti e nelle persone mestruate (AAP, 2026).
 
@@ -86,7 +91,7 @@ In parallelo, un gruppo di ematologi ed esperti di medicina dello sport propone 
 
 Due precisazioni. La prima: quella di Revel-Vilk è una **proposta di esperti**, non una linea guida di società scientifica. La seconda, per chi legge dall'Italia: **non esiste una raccomandazione nazionale di screening universale equivalente**. La decisione spetta al pediatra o al medico dello sport — ma la domanda ora è legittima, e ha una letteratura alle spalle.
 
-## Cosa può fare, concretamente, chi sta intorno all'atleta
+## Cosa può fare chi sta intorno all'atleta, da lunedì?
 
 - **L'atleta**: notare e nominare. Una stanchezza che non passa con il riposo, un flusso che sembra più abbondante del normale, il fiato corto su sforzi che prima erano facili. Non sono diagnosi: sono cose da dire a un adulto.
 - **La famiglia**: portare la domanda al pediatra — "ha senso controllare emocromo e ferritina?" — invece di comprare un integratore. E sapere che una dieta senza carne non è un problema in sé: è un motivo in più per **controllare**, non per colpevolizzare.

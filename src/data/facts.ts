@@ -599,6 +599,36 @@ export const FACTS: Fact[] = [
     source: 'Kerr et al., 2013',
     doi: '10.1016/j.amepre.2012.09.058',
   },
+  {
+    id: 'fiato-corto-giovani-atlete-1',
+    article: 'fiato-corto-giovani-atlete',
+    claim:
+      "In un campione svedese di 2.309 adolescenti di 12-13 anni, il 14% riferisce episodi di respiro corto dopo attivit\u00e0 fisica intensa e il sesso femminile \u00e8 associato in modo indipendente a un rischio pi\u00f9 alto; il 61% di chi riferisce il sintomo non ha alcuna diagnosi di asma.",
+    claimEn:
+      'In a Swedish sample of 2,309 adolescents aged 12-13, 14% report attacks of breathlessness after strenuous physical activity and female sex is independently associated with higher risk; 61% of those reporting the symptom have no asthma diagnosis at all.',
+    source: 'Johansson et al., 2014',
+    doi: '10.1016/j.rmed.2014.03.010',
+  },
+  {
+    id: 'fiato-corto-giovani-atlete-2',
+    article: 'fiato-corto-giovani-atlete',
+    claim:
+      "Testando con prova da sforzo e laringoscopia continua una popolazione adolescente svedese (3.838 questionari, 146 testati), la prevalenza stimata \u00e8 del 19,2% per la broncocostrizione indotta da esercizio e del 5,7% per l'ostruzione laringea indotta da esercizio, che possono coesistere nella stessa persona; nel campione testato non emergono differenze significative fra ragazze e ragazzi.",
+    claimEn:
+      'Testing a Swedish adolescent population with exercise challenge and continuous laryngoscopy (3,838 questionnaires, 146 tested), estimated prevalence is 19.2% for exercise-induced bronchoconstriction and 5.7% for exercise-induced laryngeal obstruction, which can coexist in the same person; no significant differences between girls and boys emerged in the tested sample.',
+    source: 'Johansson et al., 2015',
+    doi: '10.1136/thoraxjnl-2014-205738',
+  },
+  {
+    id: 'fiato-corto-giovani-atlete-3',
+    article: 'fiato-corto-giovani-atlete',
+    claim:
+      "La diagnosi di broncocostrizione indotta da esercizio richiede un test oggettivo con un calo del FEV1 pari o superiore al 10% rispetto al basale: fuori dai casi con asma gi\u00e0 diagnosticata e sintomi tipici, la diagnosi clinica basata sui soli sintomi ha sensibilit\u00e0 e specificit\u00e0 basse.",
+    claimEn:
+      'Diagnosing exercise-induced bronchoconstriction requires objective testing with a fall in FEV1 of 10% or more from baseline: outside patients with established asthma and typical symptoms, a clinical diagnosis based on symptoms alone has low sensitivity and specificity.',
+    source: 'Parsons et al., 2013; Goldin e Bruner, StatPearls, 2025',
+    doi: '10.1164/rccm.201303-0437ST',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

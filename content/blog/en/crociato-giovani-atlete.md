@@ -1,6 +1,7 @@
 ---
 slug: crociato-giovani-atlete
 title: "ACL injuries in young female athletes: why the risk is higher, and the 20 minutes that halve it"
+seoTitle: "ACL injuries in young female athletes"
 date: 2026-07-21
 updated: 2026-08-16
 author: Sajid Hossain

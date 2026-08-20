@@ -1,6 +1,7 @@
 ---
 slug: commozione-cerebrale-giovani-atlete
 title: "Commozione cerebrale nelle giovani atlete: più frequente, meno riconosciuta (e cosa fare nei primi minuti)"
+seoTitle: "Commozione cerebrale nelle giovani atlete: cosa fare"
 date: 2026-07-24
 updated: 2026-08-19
 author: Sajid Hossain

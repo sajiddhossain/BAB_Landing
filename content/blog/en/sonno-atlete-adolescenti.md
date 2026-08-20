@@ -1,6 +1,7 @@
 ---
 slug: sonno-atlete-adolescenti
 title: "Sleep and teenage athletes: why 8 hours isn't a luxury (and puberty makes them harder to get)"
+seoTitle: "Sleep and teenage athletes: how many hours"
 date: 2026-07-18
 updated: 2026-08-13
 author: Sajid Hossain

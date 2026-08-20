@@ -309,7 +309,7 @@ function prerenderRoutes(): Plugin {
       // xhtml:link nella sitemap tanto quanto quelli in <head>).
       const blogAlternates = new Map<string, Array<{ hreflang: string; href: string }>>()
       if (fs.existsSync(blogPath)) {
-        type Post = { slug: string; lang: string; title: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; answer?: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string; id?: string }>; headings?: Array<{ level: number; text: string; id: string }>; html?: string }
+        type Post = { slug: string; lang: string; title: string; seoTitle?: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; answer?: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string; id?: string }>; headings?: Array<{ level: number; text: string; id: string }>; html?: string }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
         // slug → lingua → articolo (solo le lingue che hanno un URL proprio)
         const bySlug = new Map<string, Map<string, Post>>()
@@ -339,7 +339,10 @@ function prerenderRoutes(): Plugin {
             const url = `${DOMAIN}${loc.prefix}/blog/${slug}`
             let page = baseHtml
             page = page.replace(/<html lang="[^"]*"/, `<html lang="${loc.htmlLang}"`)
-            page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(post.title)} — BAB</title>`)
+            // Il <title> può divergere dall'H1: oltre ~60 caratteri la SERP tronca,
+            // e un titolo editoriale lungo perde proprio la parte che qualifica.
+            const seoTitle = post.seoTitle || post.title
+            page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(seoTitle)} — BAB</title>`)
             page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, metaDescription(post.excerpt))
             page = replaceAttr(page, /(<meta property="og:title" content=")[^"]*(")/, post.title)
             page = replaceAttr(page, /(<meta property="og:description" content=")[^"]*(")/, post.excerpt)
@@ -553,7 +556,13 @@ function prerenderRoutes(): Plugin {
             // Stesso contenuto, senza markup: intestazione con i metadati che
             // servono a citare (URL canonico, date, autore, come attribuire) e poi
             // il testo integrale, fonti comprese.
-            const rawBody = lang === 'it' ? itBody : readPostBody(lang, slug)
+            // Stessa ragione di localizeLinks per l'HTML: nel markdown i link
+            // interni sono scritti come ](/blog/{slug}), e senza prefisso il
+            // gemello inglese rimanda una macchina alle pagine italiane.
+            const localizeMdLinks = (md: string, prefix: string) =>
+              prefix ? md.replace(/\]\(\/blog\//g, `](${prefix}/blog/`) : md
+            const sourceBody = lang === 'it' ? itBody : readPostBody(lang, slug)
+            const rawBody = sourceBody ? localizeMdLinks(sourceBody, loc.prefix) : sourceBody
             if (rawBody) {
               const isIt = lang === 'it'
               // Le FAQ vivono nel frontmatter, quindi non sono nel corpo markdown:

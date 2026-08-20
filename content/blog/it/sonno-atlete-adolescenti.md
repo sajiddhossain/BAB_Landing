@@ -1,6 +1,7 @@
 ---
 slug: sonno-atlete-adolescenti
 title: "Sonno e atlete adolescenti: perché 8 ore non sono un lusso (e la pubertà le rende più difficili)"
+seoTitle: "Sonno e atlete adolescenti: quante ore servono"
 date: 2026-07-18
 updated: 2026-08-13
 author: Sajid Hossain

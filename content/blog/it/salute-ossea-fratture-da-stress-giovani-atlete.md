@@ -2,7 +2,7 @@
 slug: salute-ossea-fratture-da-stress-giovani-atlete
 title: "Fratture da stress nelle giovani atlete: perché l'osso si costruisce adesso"
 date: 2026-07-28
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "Nelle scuole superiori americane le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi, e sono il 63% di tutti i casi. Non è sfortuna: è un osso che si sta ancora costruendo, in una finestra che si chiude verso i 18 anni. Cosa dicono i dati, quali segnali guardare e cosa costruisce osso davvero."
 answer: "Perché l'osso si costruisce adesso e la finestra si chiude verso i 18 anni. Nelle scuole superiori le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi e rappresentano il 63,3% dei casi (Changstrom et al., 2015); il moltiplicatore non è il carico da solo, ma il carico senza abbastanza energia a coprirlo."
@@ -30,6 +30,10 @@ faq:
     a: "Con una frequenza che giustifica di prenderle sul serio la prima volta. Nella revisione narrativa sulle lesioni ossee da stress negli atleti adolescenti l'incidenza stimata è del 3,9-19% e le recidive arrivano fino al 21% (Beck e Drysdale, 2021 — revisione NARRATIVA, quindi non sistematica: gli intervalli sono ampi perché aggregano popolazioni e definizioni diverse). Nella sorveglianza delle scuole superiori statunitensi le ragazze sono il 63% di tutti i casi e ne subiscono 1,75 volte più dei coetanei maschi (Changstrom et al., 2015). Il rientro dopo una frattura da stress non è una questione di calendario ma di causa rimossa: se restano il deficit di energia e il volume che l'hanno prodotta, l'osso ritrova le stesse condizioni."
   - q: "Quali sono i segnali d'allarme da non ignorare?"
     a: "Quattro, e nessuno richiede competenze mediche per essere notato: un dolore osseo puntiforme che ritorna sempre nello stesso punto e sempre prima nella seduta; un ciclo mestruale che si dirada o scompare; un calo di peso o una restrizione alimentare in corso; una storia di fratture da stress precedenti. Nelle atlete adolescenti la combinazione conta più del singolo elemento: all'aumentare dei fattori di rischio legati alla triade dell'atleta l'incidenza di lesioni ossee da stress cresce in modo netto (Barrack et al., 2014). E in uno studio prospettico su 748 corridori di scuola superiore, tra le ragazze un indice di massa corporea basso, un menarca tardivo e una precedente pratica di ginnastica o danza erano associati alle fratture da stress (Tenforde et al., 2013). Nessuno di questi segnali è una diagnosi: sono motivi per parlarne con un medico dello sport o con il pediatra."
+  - q: "Quanto della massa ossea dipende dallo stile di vita e quanto dalla genetica?"
+    a: "La quota modificabile è minoritaria ma decisiva. La revisione sistematica della National Osteoporosis Foundation stima che i fattori di stile di vita — attività fisica, alimentazione, calcio, vitamina D — influenzino il 20-40% della massa ossea di picco dell'adulto (Weaver et al., 2016). Il resto è genetica, e nessun programma di allenamento la cambia. Ma quel 20-40% si costruisce quasi interamente prima dei 18 anni: è la ragione per cui una società sportiva che si occupa di ragazze di 13-17 anni sta lavorando, che lo sappia o no, sulla densità ossea che avranno a quarant'anni."
+  - q: "Il picco di massa ossea arriva insieme al picco di crescita?"
+    a: "No, arriva dopo — ed è proprio quello lo scarto che espone l'osso. Il picco di accumulo di minerale osseo si colloca circa sei mesi dopo il picco di velocità di crescita staturale (Bailey et al., 1999), quindi per alcuni mesi l'osso è già più lungo ma non ancora altrettanto denso. Il contenuto minerale osseo totale raggiunge poi un plateau in media sei anni dopo il picco di crescita, che nelle ragazze corrisponde grosso modo ai 18 anni (Baxter-Jones et al., 2011). Tradotto in pratica: l'anno in cui una ragazza cresce più in fretta non è l'anno in cui aumentarle il carico."
 ---
 
 Tra gli infortuni che tolgono mesi a un'atleta adolescente ce n'è uno che non fa rumore: **la frattura da stress**. Non c'è un contrasto, non c'è un urlo, non c'è nessuno che entra in campo. C'è un dolore che compare durante il carico, si attenua col riposo e per settimane viene scambiato per stanchezza. E nelle scuole superiori statunitensi le ragazze lo subiscono **1,75 volte più spesso dei coetanei maschi** (Changstrom et al., 2015).
@@ -57,9 +61,9 @@ Un secondo tassello, prospettico e ancora più mirato: **748 corridori di scuola
 
 Una precisazione onesta sulle stime di prevalenza che circolano: la revisione narrativa più citata sugli atleti adolescenti indica un'incidenza compresa tra il **3,9% e il 19%**, con **recidive fino al 21%** ([Beck e Drysdale, 2021, *Sports*](https://doi.org/10.3390/sports9040052)). È un intervallo larghissimo, e il motivo è che dipende moltissimo dallo sport, dal metodo diagnostico e da chi viene contato. Il numero da portarsi a casa non è la percentuale esatta: è che **una frattura da stress su cinque si ripresenta**.
 
-## Perché l'osso di un'atleta adolescente è più esposto
+## Perché l'osso di un'atleta adolescente è più esposto alle fratture da stress?
 
-Qui serve distinguere due cose che spesso vengono confuse. La prima è che l'osso di una ragazza in pubertà **non è un osso adulto più piccolo**: è un cantiere aperto. La seconda è che ciò che lo mette in crisi non è quasi mai il singolo allenamento, ma la somma di carico e carburante.
+**Perché è un osso ancora in costruzione, sottoposto a un carico da adulti.** Qui serve distinguere due cose che spesso vengono confuse. La prima è che l'osso di una ragazza in pubertà **non è un osso adulto più piccolo**: è un cantiere aperto. La seconda è che ciò che lo mette in crisi non è quasi mai il singolo allenamento, ma la somma di carico e carburante.
 
 C'è anche una questione di sincronia, non solo di durata: il picco di accumulo di minerale osseo arriva **circa sei mesi dopo** il picco di velocità di crescita staturale (Bailey et al., 1999), quindi per un periodo l'osso è già più lungo ma non ancora altrettanto denso — è una delle ragioni per cui vale la pena non aumentare il carico proprio nel trimestre in cui [un'atleta cresce in fretta](/blog/picco-di-crescita-giovani-atlete).
 
@@ -69,7 +73,7 @@ E quanto di quel deposito dipende da ciò che si fa, e non dalla genetica? La re
 
 C'è poi una finestra dentro la finestra. Nel periodo di crescita più rapida l'osso si allunga prima di consolidarsi in densità: è uno dei motivi per cui, nella letteratura sugli adolescenti, la velocità di crescita viene elencata tra i fattori che modulano il rischio di lesione ossea da stress (Beck e Drysdale, 2021). Detto in modo pratico: **l'anno in cui una ragazza cresce di più non è l'anno in cui aumentarle il carico**.
 
-## Il moltiplicatore vero: il carico senza carburante
+## Cosa pesa di più sul rischio di frattura da stress: il carico o l'energia che manca?
 
 Se c'è un numero da ricordare di questo articolo, è questo. Uno studio **prospettico multicentrico** ha seguito **259 ragazze e giovani donne fisicamente attive** (età media 18,1 anni) misurando i fattori di rischio legati alla triade dell'atleta femminile — bassa disponibilità energetica, disfunzione mestruale, bassa densità ossea. Nel periodo di osservazione il **10,8%** ha subito una lesione ossea da stress. Ma il rischio non era distribuito a caso ([Barrack et al., 2014, *Am J Sports Med*](https://doi.org/10.1177/0363546513520295)):
 
@@ -84,7 +88,7 @@ Due precisazioni doverose, perché contano. La prima: l'età media di quel campi
 
 Lo studio prospettico sui corridori adolescenti dà la versione specifica per l'età: tra le ragazze, **un indice di massa corporea basso, un menarca tardivo e una precedente pratica di ginnastica o danza** erano associati alle fratture da stress (Tenforde et al., 2013). Nei ragazzi il quadro era diverso — la pratica del basket risultava protettiva. Non sono gli stessi fattori di rischio, e non ha senso applicare alle atlete i modelli costruiti sui maschi.
 
-## Come si riconosce, e cosa non è
+## Come si riconosce il dolore di una frattura da stress, e cosa non lo è?
 
 Il dolore da frattura da stress ha una **firma riconoscibile**, e si distingue da un normale indolenzimento:
 
@@ -97,9 +101,9 @@ Cosa non è: non è il dolore diffuso e simmetrico del muscolo dopo una seduta d
 
 C'è un motivo pratico per non aspettare. Le recidive nei giovani atleti arrivano al **21%** (Beck e Drysdale, 2021): una frattura da stress mal gestita non è un episodio, è l'inizio di una serie. È lo stesso meccanismo che vale per [il crociato](/blog/crociato-giovani-atlete) e per [la commozione cerebrale](/blog/commozione-cerebrale-giovani-atlete) — il costo vero non è l'infortunio, è il rientro fatto male.
 
-## Cosa costruisce osso, davvero
+## Cosa costruisce davvero massa ossea in adolescenza?
 
-La buona notizia è che l'intervento con l'evidenza migliore è anche il più economico: **saltare**.
+**Il carico a impatto, l'energia sufficiente e il tempo: in quest'ordine.** La buona notizia è che l'intervento con l'evidenza migliore è anche il più economico: **saltare**.
 
 Uno studio **controllato randomizzato** su 99 adolescenti (46 ragazzi e 53 ragazze, età media **13,8 anni**) ha sostituito il riscaldamento dell'ora di educazione fisica con **10 minuti di salti, due volte a settimana per 8 mesi**. Nelle ragazze del gruppo di intervento il contenuto minerale osseo del **collo del femore è aumentato del 13,9%**, contro il **4,9%** delle controlli; la densità minerale ossea apparente della colonna lombare è cresciuta del **5,2%** contro l'1,5% ([Weeks et al., 2008, *J Bone Miner Res*](https://doi.org/10.1359/jbmr.080226)). Gli autori segnalano che l'effetto è **sesso-specifico**: nei ragazzi i guadagni si concentravano su altri distretti.
 
@@ -112,7 +116,7 @@ Il resto delle leve, in ordine di evidenza secondo la revisione della National O
 - **Energia sufficiente, prima di tutto.** Nessun protocollo di salti compensa un deficit energetico cronico. Come per [il ferro](/blog/ferro-atlete-adolescenti), il presupposto è che ci sia abbastanza in entrata.
 - **Sonno.** La crescita e il rimodellamento osseo avvengono in gran parte di notte; [il sonno cronicamente corto](/blog/sonno-atlete-adolescenti) è un fattore che si somma a tutti gli altri.
 
-## Cosa può fare, concretamente, chi sta intorno all'atleta
+## Cosa può fare chi sta intorno all'atleta, da lunedì?
 
 - **La società sportiva**: mettere 8-10 minuti di salti strutturati nel riscaldamento, per tutte, tutto l'anno. È lo stesso spazio già occupato dal [riscaldamento neuromuscolare che protegge il crociato](/blog/crociato-giovani-atlete) — non serve trovare tempo nuovo, serve usare meglio quello che c'è. E contare le ore reali: 12 ore a settimana è la soglia oltre la quale, nei dati, il rischio cambia scala.
 - **L'allenatore/allenatrice**: prendere sul serio il dolore puntiforme. La domanda giusta non è «quanto ti fa male?» ma «**me lo indichi con un dito?**». Se la risposta è un punto preciso sull'osso, e torna sempre lì, non è un problema di sopportazione.

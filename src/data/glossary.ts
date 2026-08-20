@@ -439,6 +439,32 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'The physiological and behavioural process by which the body adapts to exercising in heat: plasma volume increases, the sweat response becomes more efficient, heart rate drops at a given workload. Guidelines for U.S. secondary schools recommend building it over 1-2 weeks at the start of the season, gradually introducing duration, intensity and equipment (Casa and Csillan, 2009).',
   },
+  'dispnea-da-sforzo': {
+    name: 'Dispnea da sforzo (fiato corto durante l\u2019attivit\u00e0)',
+    description:
+      "Sensazione di respiro corto o difficolt\u00e0 a respirare che compare durante o dopo l'attivit\u00e0 fisica intensa. In un campione svedese di 2.309 adolescenti di 12-13 anni la riferisce il 14%, con il sesso femminile associato in modo indipendente a un rischio pi\u00f9 alto; il 61% di chi la riferisce non ha alcuna diagnosi di asma (Johansson et al., 2014). \u00c8 un sintomo, non una diagnosi: sotto ci possono essere broncocostrizione da sforzo, ostruzione laringea da sforzo, respirazione disfunzionale, carenza di ferro o decondizionamento.",
+    nameEn: 'Exercise-induced dyspnoea (breathlessness on exertion)',
+    descriptionEn:
+      "Shortness of breath or difficulty breathing appearing during or after strenuous physical activity. In a Swedish sample of 2,309 adolescents aged 12-13, 14% report it, with female sex independently associated with higher risk; 61% of those reporting it have no asthma diagnosis at all (Johansson et al., 2014). It is a symptom, not a diagnosis: underlying causes include exercise-induced bronchoconstriction, exercise-induced laryngeal obstruction, dysfunctional breathing, iron deficiency or deconditioning.",
+    sameAs: 'https://en.wikipedia.org/wiki/Shortness_of_breath',
+  },
+  'broncocostrizione-da-sforzo': {
+    name: 'Broncocostrizione indotta da esercizio (EIB)',
+    description:
+      "Restringimento transitorio delle vie aeree inferiori provocato dallo sforzo: il picco arriva tipicamente entro 10-15 minuti dalla fine dell'esercizio e si risolve in 30-90 minuti, seguito da un periodo refrattario di 1-3 ore. La diagnosi richiede un test oggettivo con un calo del FEV1 pari o superiore al 10% rispetto al basale, non i soli sintomi (linea guida ATS, Parsons et al., 2013; Goldin e Bruner, StatPearls, 2025). Prevalenza stimata del 19,2% in una popolazione adolescente svedese testata (Johansson et al., 2015).",
+    nameEn: 'Exercise-induced bronchoconstriction (EIB)',
+    descriptionEn:
+      'Transient narrowing of the lower airways triggered by exertion: it typically peaks within 10-15 minutes of stopping and resolves in 30-90 minutes, followed by a refractory period of 1-3 hours. Diagnosis requires objective testing with a fall in FEV1 of 10% or more from baseline, not symptoms alone (ATS guideline, Parsons et al., 2013; Goldin and Bruner, StatPearls, 2025). Estimated prevalence 19.2% in a tested Swedish adolescent population (Johansson et al., 2015).',
+    sameAs: 'https://en.wikipedia.org/wiki/Exercise-induced_bronchoconstriction',
+  },
+  eilo: {
+    name: 'Ostruzione laringea indotta da esercizio (EILO)',
+    description:
+      "Restringimento transitorio e reversibile della laringe durante lo sforzo: compare tipicamente al culmine dell'esercizio e si risolve rapidamente fermandosi, il contrario di quanto accade nella broncocostrizione da sforzo. Prevalenza stimata del 5,7% in una popolazione adolescente testata, dove pu\u00f2 coesistere con l'EIB (Johansson et al., 2015). Lo standard diagnostico \u00e8 la laringoscopia eseguita durante l'episodio sintomatico; algoritmi terapeutici validati non sono ancora stabiliti (statement congiunto ERS/ELS, Halvorsen et al., 2017).",
+    nameEn: 'Exercise-induced laryngeal obstruction (EILO)',
+    descriptionEn:
+      'Transient, reversible narrowing of the larynx during exertion: it typically appears at peak exercise and resolves quickly on stopping — the opposite pattern to exercise-induced bronchoconstriction. Estimated prevalence 5.7% in a tested adolescent population, where it can coexist with EIB (Johansson et al., 2015). The diagnostic standard is laryngoscopy performed during the symptomatic episode; validated treatment algorithms are not yet established (joint ERS/ELS statement, Halvorsen et al., 2017).',
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;

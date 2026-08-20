@@ -199,3 +199,16 @@
   Nessuna persona nell'inquadratura finale: scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: la corsia centrale della pista vista dal basso — l'immagine astratta
   dell'allenamento all'aperto, senza legarla a uno sport specifico.
+
+## cover-fiato-corto-giovani-atlete.jpg
+- Titolo originale: "An empty indoor basketball court with polished wooden flooring, blue and white
+  bleachers on one side, a scoreboard displaying the score, and basketball hoops on either end."
+- Fonte: WordPress Photo Directory — https://wordpress.org/photos/photo/9296797cc2/ (reperita via
+  Openverse, record 32c9130b-eb71-4584-bd6b-b60896d80552)
+- Autore: mdburnette
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "fiato corto durante lo sforzo / dispnea da sforzo, EIB ed EILO" (IT + EN)
+- Lavorazione: originale 2048x1536, ritaglio 16:9 centrato (2048x1152) e resample a 1024x576, JPEG q88.
+  Nessuna persona nell'inquadratura: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: la palestra vuota vista dal centro del campo — il punto in cui un'atleta si
+  ferma senza fiato mentre le altre continuano, che è la scena di apertura dell'articolo.

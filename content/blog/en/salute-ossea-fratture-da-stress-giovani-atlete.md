@@ -2,7 +2,7 @@
 slug: salute-ossea-fratture-da-stress-giovani-atlete
 title: "Stress fractures in young female athletes: why bone is built now, not later"
 date: 2026-07-28
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "In US high school sport, girls sustain stress fractures 1.75 times as often as boys and account for 63% of all cases. That is not bad luck: it is a skeleton still under construction, inside a window that closes around age 18. What the data say, which signs to watch, and what actually builds bone."
 answer: "Because bone is built now and the window closes towards age 18. In high-school sport, girls sustain stress fractures 1.75 times as often as male peers and account for 63.3% of cases (Changstrom et al., 2015); the multiplier is not load on its own, but load without enough energy to cover it."
@@ -30,6 +30,10 @@ faq:
     a: "Often enough to justify taking the first one seriously. In the narrative review of bone stress injuries in adolescent athletes, estimated incidence is 3.9-19% and recurrence runs as high as 21% (Beck and Drysdale, 2021 — a NARRATIVE review, so not systematic: the ranges are wide because they aggregate different populations and definitions). In US high-school surveillance, girls account for 63% of all cases and sustain 1.75 times as many as their male peers (Changstrom et al., 2015). Returning after a stress fracture is not a matter of the calendar but of whether the cause has been removed: if the energy deficit and the volume that produced it are still there, the bone meets the same conditions again."
   - q: "Which warning signs should never be ignored?"
     a: "Four, and none of them requires medical training to notice: pinpoint bone pain that keeps returning to the same spot and arrives earlier in each session; periods becoming irregular or stopping; weight loss or ongoing dietary restriction; a history of previous stress fractures. In adolescent athletes the combination matters more than any single item: as female athlete triad-related risk factors accumulate, the incidence of bone stress injuries rises sharply (Barrack et al., 2014). And in a prospective study of 748 high school runners, low body mass index, late menarche and previous participation in gymnastics or dance were associated with stress fractures in girls (Tenforde et al., 2013). None of these signs is a diagnosis: they are reasons to talk to a sports physician or paediatrician."
+  - q: "How much of bone mass depends on lifestyle and how much on genetics?"
+    a: "The modifiable share is a minority, but a decisive one. The National Osteoporosis Foundation systematic review estimates that lifestyle factors — physical activity, nutrition, calcium, vitamin D — influence 20-40% of adult peak bone mass (Weaver et al., 2016). The rest is genetics, and no training programme changes that. But that 20-40% is built almost entirely before age 18: which is why a club working with girls aged 13-17 is working, knowingly or not, on the bone density they will have at forty."
+  - q: "Does peak bone mass arrive at the same time as the growth spurt?"
+    a: "No, it comes later — and that lag is exactly what exposes the bone. Peak bone mineral accrual occurs roughly six months after peak height velocity (Bailey et al., 1999), so for some months the bone is already longer but not yet as dense. Total bone mineral content then plateaus on average six years after peak height velocity, which in girls corresponds roughly to age 18 (Baxter-Jones et al., 2011). In practice: the year a girl grows fastest is not the year to increase her load."
 ---
 
 Among the injuries that cost an adolescent athlete months, one makes no noise at all: **the stress fracture**. There is no collision, no cry, nobody running onto the pitch. There is pain that appears under load, fades with rest, and gets mistaken for tiredness for weeks. And in US high school sport, girls sustain it **1.75 times as often as boys** (Changstrom et al., 2015).
@@ -57,9 +61,9 @@ A second piece, prospective and more targeted still: **748 high school runners**
 
 One honest caveat about the prevalence figures in circulation: the most-cited narrative review on adolescent athletes reports an incidence between **3.9% and 19%**, with **recurrence as high as 21%** ([Beck and Drysdale, 2021, *Sports*](https://doi.org/10.3390/sports9040052)). That is an extremely wide range, because it depends heavily on the sport, the diagnostic method and who gets counted. The number to take away is not the exact percentage: it is that **roughly one stress fracture in five comes back**.
 
-## Why an adolescent athlete's bone is more exposed
+## Why is an adolescent athlete's bone more exposed to stress fractures?
 
-Two things get confused here. First, a girl's bone in puberty **is not a smaller adult bone**: it is an open building site. Second, what pushes it over the edge is almost never a single session, but the sum of load and fuel.
+**Because it is a bone still under construction, carrying an adult training load.** Two things get confused here. First, a girl's bone in puberty **is not a smaller adult bone**: it is an open building site. Second, what pushes it over the edge is almost never a single session, but the sum of load and fuel.
 
 There is also a question of synchrony, not just duration: peak bone mineral accrual arrives **roughly six months after** peak height velocity (Bailey et al., 1999), so for a period bone is already longer but not yet as dense — one reason not to raise the load in exactly the quarter [an athlete is growing fast](/blog/picco-di-crescita-giovani-atlete).
 
@@ -69,7 +73,7 @@ And how much of that deposit depends on what you do rather than on genetics? The
 
 There is also a window inside the window. During the fastest growth period bone lengthens before it consolidates in density, which is one reason growth velocity is listed among the factors modulating bone stress injury risk in the adolescent literature (Beck and Drysdale, 2021). Put practically: **the year a girl grows the most is not the year to increase her load**.
 
-## The real multiplier: load without fuel
+## What weighs more on stress fracture risk: the load, or the missing energy?
 
 If one number should stick from this article, it is this one. A **prospective multisite study** followed **259 physically active girls and young women** (mean age 18.1 years), measuring risk factors related to the female athlete triad — low energy availability, menstrual dysfunction, low bone mineral density. Over the observation period, **10.8%** sustained a bone stress injury. But the risk was not evenly spread ([Barrack et al., 2014, *Am J Sports Med*](https://doi.org/10.1177/0363546513520295)):
 
@@ -84,7 +88,7 @@ It is the same logic of load accumulating on a tissue that is still being built:
 
 The prospective study on adolescent runners gives the age-specific version: in girls, **low body mass index, late menarche and previous participation in gymnastics or dance** were associated with stress fractures (Tenforde et al., 2013). In boys the picture differed — playing basketball appeared protective. These are not the same risk factors, and it makes no sense to apply male-derived models to female athletes.
 
-## How to recognise it, and what it is not
+## How do you recognise stress fracture pain, and what is it not?
 
 Stress fracture pain has a **recognisable signature**, distinct from ordinary soreness:
 
@@ -97,9 +101,9 @@ What it is not: it is not the diffuse, symmetrical ache of muscle after a hard s
 
 There is a practical reason not to wait. Recurrence in young athletes reaches **21%** (Beck and Drysdale, 2021): a badly managed stress fracture is not an episode, it is the start of a series. It is the same mechanism at work with [the ACL](/blog/crociato-giovani-atlete) and with [concussion](/blog/commozione-cerebrale-giovani-atlete) — the real cost is not the injury, it is the botched return.
 
-## What actually builds bone
+## What actually builds bone mass in adolescence?
 
-The good news is that the intervention with the best evidence is also the cheapest: **jumping**.
+**Impact loading, enough energy, and time — in that order.** The good news is that the intervention with the best evidence is also the cheapest: **jumping**.
 
 A **randomised controlled trial** of 99 adolescents (46 boys and 53 girls, mean age **13.8 years**) replaced the PE lesson warm-up with **10 minutes of jumping, twice a week for 8 months**. In the intervention girls, **femoral neck bone mineral content rose by 13.9%**, versus **4.9%** in controls; lumbar spine apparent bone mineral density rose **5.2%** versus 1.5% ([Weeks et al., 2008, *J Bone Miner Res*](https://doi.org/10.1359/jbmr.080226)). The authors note the effect is **sex-specific**: in boys the gains showed up at other sites.
 
@@ -112,7 +116,7 @@ The remaining levers, in order of evidence according to the National Osteoporosi
 - **Enough energy, first of all.** No jumping protocol offsets a chronic energy deficit. As with [iron](/blog/ferro-atlete-adolescenti), the precondition is that enough is coming in.
 - **Sleep.** Growth and bone remodelling happen largely at night; [chronically short sleep](/blog/sonno-atlete-adolescenti) compounds everything else.
 
-## What the people around the athlete can actually do
+## What can the people around the athlete do, starting Monday?
 
 - **The club**: put 8-10 minutes of structured jumping into the warm-up, for everyone, all year. It is the same slot already occupied by the [neuromuscular warm-up that protects the ACL](/blog/crociato-giovani-atlete) — you do not need new time, you need better use of the time you have. And count the real hours: 12 a week is the threshold beyond which, in the data, risk changes scale.
 - **The coach**: take pinpoint pain seriously. The right question is not "how much does it hurt?" but "**can you point to it with one finger?**". If the answer is a precise spot on the bone, and it keeps coming back there, this is not about toughness.
