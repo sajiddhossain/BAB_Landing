@@ -11,7 +11,7 @@ cover: /fotobab/cover-caviglia-giovani-atlete.jpg
 coverAlt: "Pavimento di una palestra polivalente ripreso da vicino, con le linee dei campi di gioco di colori diversi che si incrociano; nessuna persona inquadrata"
 tags:
   - caviglia
-  - instabilità-di-caviglia
+  - instabilita-di-caviglia
   - propriocezione
   - prevenzione
   - sovraccarico
