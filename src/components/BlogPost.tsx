@@ -6,11 +6,11 @@
  * @author Sajid Hossain <sajid.hossain2009@gmail.com>
  * @copyright (c) 2026 Breaking All Barriers. Tutti i diritti riservati.
  */
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { blogPath, localizeBlogLinks } from '../lib/blogLocale';
 import { autolinkGlossary } from '../lib/autolink';
-import { BLOG_POSTS, formatDate, type BlogPostData } from './Blog';
+import { BLOG_POSTS, formatDate, type BlogPostData, type BlogPostContent } from './Blog';
 import NotFound from './NotFound';
 import SponsorSlot from './SponsorSlot';
 
@@ -19,6 +19,34 @@ interface BlogPostProps {
  onNavigate?: (path: string) => void;
  /** Lingua imposta dall'URL (/blog/… → it, /en/blog/… → en). Se assente, quella dell'utente. */
  lang?: string;
+}
+
+/**
+ * Corpi degli articoli come chunk separati: il manifest nel bundle porta solo i
+ * metadati, e l'HTML (+FAQ) del singolo articolo arriva quando serve. È il
+ * taglio che ha tolto ~1,4 MB dal chunk del blog.
+ */
+const contentModules = import.meta.glob('../generated/posts/*.json');
+const contentCache = new Map<string, BlogPostContent>();
+
+function loadContent(lang: string, slug: string): Promise<BlogPostContent | null> {
+ const key = `${lang}--${slug}`;
+ const cached = contentCache.get(key);
+ if (cached) return Promise.resolve(cached);
+ const loader = contentModules[`../generated/posts/${key}.json`];
+ if (!loader) return Promise.resolve(null);
+ return loader().then((m) => {
+ const content = (m as { default: BlogPostContent }).default;
+ contentCache.set(key, content);
+ return content;
+ });
+}
+
+// All'arrivo diretto su /blog/{slug} il caricamento del corpo parte insieme
+// alla valutazione di questo chunk, senza aspettare il primo render di React.
+if (typeof window !== 'undefined') {
+ const m = window.location.pathname.match(/^(\/en)?\/blog\/([^/#?]+)/);
+ if (m && m[2]) void loadContent(m[1] ? 'en' : 'it', decodeURIComponent(m[2]));
 }
 
 function findPost(slug: string, lang: string): BlogPostData | undefined {
@@ -35,6 +63,23 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  // Come nella lista: se la lingua viene dall'URL, le etichette la seguono.
  const tt = langProp ? i18n.getFixedT(langProp) : t;
  const post = findPost(slug, lang);
+
+ // Corpo dell'articolo: sincrono se già in cache (navigazioni successive),
+ // altrimenti arriva con il chunk del singolo articolo.
+ const contentKey = post ? `${post.lang}--${post.slug}` : null;
+ const cachedContent = contentKey ? contentCache.get(contentKey) : undefined;
+ const [loaded, setLoaded] = useState<{ key: string; content: BlogPostContent } | null>(null);
+ useEffect(() => {
+ if (!post || cachedContent) return;
+ let alive = true;
+ void loadContent(post.lang, post.slug).then((content) => {
+ if (alive && content) setLoaded({ key: `${post.lang}--${post.slug}`, content });
+ });
+ return () => {
+ alive = false;
+ };
+ }, [post, cachedContent]);
+ const content = cachedContent ?? (loaded && loaded.key === contentKey ? loaded.content : null);
 
  // Title e meta description dell'articolo: la pagina statica li ha già corretti, ma
  // in navigazione SPA (da /blog a un articolo) nessuno li aggiornerebbe. Qui l'unica
@@ -126,12 +171,18 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  </nav>
  )}
 
+ {content ? (
  <div
  className="blog-prose font-['Space_Grotesk',_sans-serif] text-[17px] leading-relaxed text-[#0F0F12]"
- dangerouslySetInnerHTML={{ __html: autolinkGlossary(localizeBlogLinks(post.html, lang), lang) }}
+ dangerouslySetInnerHTML={{ __html: autolinkGlossary(localizeBlogLinks(content.html, lang), lang) }}
  />
+ ) : (
+ // Riserva lo spazio del corpo mentre il chunk dell'articolo arriva:
+ // limita il layout shift e non cancella la pagina sotto i piedi al lettore.
+ <div className="blog-prose min-h-[60vh]" aria-busy="true" />
+ )}
 
- {post.faq && post.faq.length > 0 && (
+ {content?.faq && content.faq.length > 0 && (
  // `blog-faq`: aggancio stabile per il selettore Speakable dichiarato nel JSON-LD (vite.config.ts).
  <section className="blog-faq mt-14 border-t-[3px] border-black pt-8" aria-labelledby="faq-heading">
  <h2
@@ -141,7 +192,7 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  {lang === 'en' ? 'Frequently asked questions' : 'Domande frequenti'}
  </h2>
  <dl className="flex flex-col gap-6">
- {post.faq.map((f, i) => (
+ {content.faq.map((f, i) => (
  // `id` = ancora della singola risposta: /blog/{slug}#faq-… è l'URL che un
  // answer engine può citare per QUESTA risposta, non per l'articolo intero.
  <div key={f.id ?? i} id={f.id}>

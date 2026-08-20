@@ -1,0 +1,3498 @@
+{
+  "posts": [
+    {
+      "slug": "fiato-corto-giovani-atlete",
+      "lang": "it",
+      "title": "Fiato corto durante lo sforzo: nel 61% dei casi non c'è nessuna diagnosi di asma",
+      "seoTitle": "Fiato corto durante lo sforzo: quando non è asma",
+      "seoDescription": "Il 14% degli adolescenti ha fiato corto sotto sforzo e il 61% non ha alcuna diagnosi di asma. EIB, EILO e perché serve un test oggettivo, non un'etichetta.",
+      "date": "2026-08-20",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Il 14% degli adolescenti riferisce episodi di respiro corto dopo attività intensa, e il rischio è più alto nelle ragazze: ma il 61% di loro non ha alcuna diagnosi di asma (Johansson et al., 2014). Quando si va a misurare, sotto quel sintomo ci sono almeno due condizioni diverse — una nei bronchi, una nella laringe — che si curano in modi opposti. Cosa dice l'evidenza, e perché «è solo che non è allenata» è la conclusione più costosa.",
+      "answer": "Il fiato corto sotto sforzo riguarda il 14% degli adolescenti di 12-13 anni, con rischio più alto nelle ragazze, e il 61% di chi lo riferisce non ha una diagnosi di asma (Johansson et al., 2014, campione svedese). Testando la popolazione adolescente, la prevalenza stimata è 19,2% per la broncocostrizione da sforzo e 5,7% per l'ostruzione laringea da sforzo (Johansson et al., 2015). Il sintomo da solo non distingue le due: serve un test oggettivo.",
+      "cover": "/fotobab/cover-fiato-corto-giovani-atlete.jpg",
+      "coverAlt": "Palestra scolastica vuota vista dal centro del campo: parquet lucido, gradinate blu sulla sinistra, tabellone segnapunti spento sulla parete di fondo; nessuna persona nell'inquadratura",
+      "tags": [
+        "dispnea-da-sforzo",
+        "broncocostrizione-da-sforzo",
+        "eilo",
+        "diagnosi",
+        "educazione"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quanto è comune il fiato corto durante lo sforzo nelle adolescenti?",
+          "id": "quanto-e-comune-il-fiato-corto-durante-lo-sforzo-nelle"
+        },
+        {
+          "level": 2,
+          "text": "Se non è asma, cos'altro può essere?",
+          "id": "se-non-e-asma-cosaltro-puo-essere"
+        },
+        {
+          "level": 2,
+          "text": "Perché tante ragazze finiscono con la diagnosi sbagliata?",
+          "id": "perche-tante-ragazze-finiscono-con-la-diagnosi-sbagliata"
+        },
+        {
+          "level": 2,
+          "text": "Come si arriva a una diagnosi vera?",
+          "id": "come-si-arriva-a-una-diagnosi-vera"
+        },
+        {
+          "level": 2,
+          "text": "Cosa si può fare quando la diagnosi è EILO?",
+          "id": "cosa-si-puo-fare-quando-la-diagnosi-e-eilo"
+        },
+        {
+          "level": 2,
+          "text": "Quando è davvero solo condizione fisica?",
+          "id": "quando-e-davvero-solo-condizione-fisica"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una società, da lunedì",
+          "id": "cosa-puo-fare-una-societa-da-lunedi"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2564,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
+    },
+    {
+      "slug": "fiato-corto-giovani-atlete",
+      "lang": "en",
+      "title": "Breathlessness during exercise: 61% of the teenagers who report it have no asthma diagnosis",
+      "seoTitle": "Breathlessness in sport: when it is not asthma",
+      "seoDescription": "14% of adolescents get breathless during exercise and 61% have no asthma diagnosis. EIB, EILO, and why it takes an objective test, not a label.",
+      "date": "2026-08-20",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "14% of adolescents report attacks of breathlessness after strenuous activity, and the risk is higher in girls — yet 61% of them have no asthma diagnosis at all (Johansson et al., 2014). When you actually measure, that single symptom splits into at least two different conditions — one in the bronchi, one in the larynx — treated in opposite ways. Here's what the evidence says, and why 'she's just unfit' is the most expensive conclusion available.",
+      "answer": "Breathlessness during exercise affects 14% of 12-13 year-olds, with higher risk in girls, and 61% of those reporting it have no asthma diagnosis (Johansson et al., 2014, Swedish sample). When adolescents are objectively tested, estimated prevalence is 19.2% for exercise-induced bronchoconstriction and 5.7% for exercise-induced laryngeal obstruction (Johansson et al., 2015). Symptoms alone can't tell the two apart: that takes an objective test.",
+      "cover": "/fotobab/cover-fiato-corto-giovani-atlete.jpg",
+      "coverAlt": "Empty school gymnasium seen from the center of the court: polished wooden floor, blue bleachers on the left, a dark scoreboard on the far wall; no person in frame",
+      "tags": [
+        "exercise-induced-dyspnoea",
+        "exercise-induced-bronchoconstriction",
+        "eilo",
+        "diagnosis",
+        "education"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How common is exercise-induced breathlessness in adolescent girls?",
+          "id": "how-common-is-exercise-induced-breathlessness-in-adolescent"
+        },
+        {
+          "level": 2,
+          "text": "If it isn't asthma, what else can it be?",
+          "id": "if-it-isnt-asthma-what-else-can-it-be"
+        },
+        {
+          "level": 2,
+          "text": "Why do so many girls end up with the wrong diagnosis?",
+          "id": "why-do-so-many-girls-end-up-with-the-wrong-diagnosis"
+        },
+        {
+          "level": 2,
+          "text": "How do you get to a real diagnosis?",
+          "id": "how-do-you-get-to-a-real-diagnosis"
+        },
+        {
+          "level": 2,
+          "text": "What can be done when the diagnosis is EILO?",
+          "id": "what-can-be-done-when-the-diagnosis-is-eilo"
+        },
+        {
+          "level": 2,
+          "text": "When is it genuinely just fitness?",
+          "id": "when-is-it-genuinely-just-fitness"
+        },
+        {
+          "level": 2,
+          "text": "What a club can do, starting Monday",
+          "id": "what-a-club-can-do-starting-monday"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2361,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
+      "slug": "allenarsi-al-caldo-giovani-atlete",
+      "lang": "it",
+      "title": "Allenarsi al caldo: nelle giovani atlete il rischio non è (solo) questione di sesso",
+      "seoTitle": "Allenarsi al caldo: rischi per le giovani atlete",
+      "seoDescription": "",
+      "date": "2026-08-19",
+      "updated": "2026-08-19",
+      "author": "Sajid Hossain",
+      "excerpt": "Nei licei americani il colpo di calore da sforzo è per l'87,7% maschile — ma togliendo il football scende al 50,9%, quasi la parità (Kerr et al., 2013). Non sono i ragazzi a reggere meglio il caldo: sono i ragazzi a giocare di più a football, nella stagione più calda. Cosa dice davvero la fisiologia sulle adolescenti che si allenano d'estate, cosa non dice ancora, e cosa cambia nella prima settimana di ritiro — quella in cui succede quasi tutto.",
+      "answer": "Non è una questione di sesso ma di esposizione: nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma scende al 50,9% togliendo il football americano (Kerr et al., 2013). Sulla fisiologia, l'evidenza diretta sulle differenze fra ragazze e ragazzi in pubertà resta scarsa (Topham et al., 2022). Il fattore che conta davvero è l'acclimatazione nelle prime due settimane (Casa et al., 2009).",
+      "cover": "/fotobab/cover-caldo-giovani-atlete.jpg",
+      "coverAlt": "Primo piano della corsia centrale di una pista di atletica in tartan rosso, vista dal basso, con la linea bianca che si allontana verso l'orizzonte; nessuna persona nell'inquadratura",
+      "tags": [
+        "colpo-di-calore",
+        "acclimatazione-al-caldo",
+        "idratazione",
+        "prevenzione"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Il colpo di calore è un problema di football americano, o riguarda anche le ragazze?",
+          "id": "il-colpo-di-calore-e-un-problema-di-football-americano-o"
+        },
+        {
+          "level": 2,
+          "text": "Le adolescenti tollerano il caldo peggio degli adulti?",
+          "id": "le-adolescenti-tollerano-il-caldo-peggio-degli-adulti"
+        },
+        {
+          "level": 2,
+          "text": "È vero che le ragazze sudano meno dei ragazzi in pubertà?",
+          "id": "e-vero-che-le-ragazze-sudano-meno-dei-ragazzi-in-puberta"
+        },
+        {
+          "level": 2,
+          "text": "Come si costruisce l'acclimatazione al caldo, e perché conta più di tutto il resto",
+          "id": "come-si-costruisce-lacclimatazione-al-caldo-e-perche-conta"
+        },
+        {
+          "level": 2,
+          "text": "Come si riconosce un colpo di calore da sforzo",
+          "id": "come-si-riconosce-un-colpo-di-calore-da-sforzo"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una società, da lunedì",
+          "id": "cosa-puo-fare-una-societa-da-lunedi"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2000,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "allenarsi-al-caldo-giovani-atlete",
+      "lang": "en",
+      "title": "Training in the heat: for young athletes, the risk isn't (only) about sex",
+      "seoTitle": "Training in the heat: risks for young athletes",
+      "seoDescription": "",
+      "date": "2026-08-19",
+      "updated": "2026-08-19",
+      "author": "Sajid Hossain",
+      "excerpt": "In U.S. high schools, exertional heat illness is 87.7% male — but strip out American football and it drops to 50.9%, close to parity (Kerr et al., 2013). Boys aren't better at handling heat: boys play more football, in the hottest season of the year. Here's what the physiology actually says about adolescent girls training in summer, what it doesn't say yet, and what changes in the first week of preseason — the week when almost everything happens.",
+      "answer": "It isn't about sex, it's about exposure: in U.S. high schools exertional heat illness is 87.7% male, but that drops to 50.9% once American football is excluded (Kerr et al., 2013). On physiology, direct evidence on sex differences during puberty is still scarce (Topham et al., 2022). What actually matters is acclimatization over the first two weeks (Casa et al., 2009).",
+      "cover": "/fotobab/cover-caldo-giovani-atlete.jpg",
+      "coverAlt": "Close-up of the center lane on a red tartan running track, shot low, with the white line stretching toward the horizon; no person in frame",
+      "tags": [
+        "exertional-heat-illness",
+        "heat-acclimatization",
+        "hydration",
+        "prevention"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Is heat illness an American-football problem, or does it affect girls too?",
+          "id": "is-heat-illness-an-american-football-problem-or-does-it"
+        },
+        {
+          "level": 2,
+          "text": "Do adolescent girls tolerate heat worse than adults?",
+          "id": "do-adolescent-girls-tolerate-heat-worse-than-adults"
+        },
+        {
+          "level": 2,
+          "text": "Is it true that girls sweat less than boys during puberty?",
+          "id": "is-it-true-that-girls-sweat-less-than-boys-during-puberty"
+        },
+        {
+          "level": 2,
+          "text": "How heat acclimatization is built, and why it outweighs everything else",
+          "id": "how-heat-acclimatization-is-built-and-why-it-outweighs"
+        },
+        {
+          "level": 2,
+          "text": "How to recognize exertional heat stroke",
+          "id": "how-to-recognize-exertional-heat-stroke"
+        },
+        {
+          "level": 2,
+          "text": "What a club can do, starting Monday",
+          "id": "what-a-club-can-do-starting-monday"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 1850,
+      "readingMinutes": 9,
+      "timeRequired": "PT9M"
+    },
+    {
+      "slug": "ritorno-allo-sport-dopo-infortunio",
+      "lang": "it",
+      "title": "Tornare a giocare dopo un infortunio: il ginocchio guarisce prima della testa",
+      "seoTitle": "Tornare allo sport dopo un infortunio: quando è ora",
+      "seoDescription": "Dopo un crociato l'81% torna allo sport ma solo il 55% al livello competitivo. La prontezza psicologica conta quanto il ginocchio.",
+      "date": "2026-08-16",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Dopo una ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo — e chi non torna, spesso, ha un ginocchio che funziona. La prontezza psicologica si misura, predice il rientro e, negli under 20, è associata al rischio di un secondo infortunio. Cosa dicono i numeri sul calendario, sui criteri e sulle ragazze, e cosa può dire davvero chi allena il giorno del rientro.",
+      "answer": "Perché il tessuto guarisce prima della fiducia: dopo la ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo, e tra chi non rientra la paura di rifarsi male è una delle ragioni più frequenti (Ardern et al., 2014, meta-analisi su 7.556 partecipanti in prevalenza adulti).",
+      "cover": "/fotobab/cover-ritorno-dopo-infortunio.jpg",
+      "coverAlt": "File di seggiolini rossi vuoti di una tribuna, viste dall'alto, senza nessuno seduto",
+      "tags": [
+        "ritorno-al-gioco",
+        "prontezza-psicologica",
+        "crociato",
+        "secondo-infortunio",
+        "prevenzione"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quante atlete tornano davvero al livello di prima?",
+          "id": "quante-atlete-tornano-davvero-al-livello-di-prima"
+        },
+        {
+          "level": 2,
+          "text": "Perché chi è guarito non torna?",
+          "id": "perche-chi-e-guarito-non-torna"
+        },
+        {
+          "level": 2,
+          "text": "Si può misurare la prontezza psicologica?",
+          "id": "si-puo-misurare-la-prontezza-psicologica"
+        },
+        {
+          "level": 2,
+          "text": "Quando si torna: il calendario o i criteri?",
+          "id": "quando-si-torna-il-calendario-o-i-criteri"
+        },
+        {
+          "level": 2,
+          "text": "Quanto è alto il rischio di un secondo infortunio nelle giovani atlete?",
+          "id": "quanto-e-alto-il-rischio-di-un-secondo-infortunio-nelle"
+        },
+        {
+          "level": 2,
+          "text": "Cosa dice il consenso internazionale sul ritorno allo sport?",
+          "id": "cosa-dice-il-consenso-internazionale-sul-ritorno-allo-sport"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare chi sta intorno all'atleta",
+          "id": "cosa-puo-fare-chi-sta-intorno-allatleta"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2390,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
+      "slug": "ritorno-allo-sport-dopo-infortunio",
+      "lang": "en",
+      "title": "Going back after an injury: the knee heals before the head does",
+      "seoTitle": "Return to sport after injury: when it's time",
+      "seoDescription": "After ACL reconstruction 81% return to sport but only 55% to competitive level. Psychological readiness matters as much as the knee.",
+      "date": "2026-08-16",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "After ACL reconstruction 81% go back to playing sport, but only 55% go back to competitive level — and many of those who never return have a knee that works fine. Psychological readiness can be measured, it predicts return, and in under-20s it is associated with the risk of a second injury. What the numbers say about the calendar, about criteria and about girls, and what a coach can actually say on the day someone comes back.",
+      "answer": "Because tissue heals faster than confidence: after ACL reconstruction 81% go back to playing sport but only 55% return to competitive level, and among those who do not return, fear of reinjury is one of the most common reasons (Ardern et al., 2014, a meta-analysis of 7,556 participants, mostly adults).",
+      "cover": "/fotobab/cover-ritorno-dopo-infortunio.jpg",
+      "coverAlt": "Rows of empty red stadium seats seen from above, with nobody sitting in them",
+      "tags": [
+        "return to sport",
+        "psychological readiness",
+        "ACL",
+        "second injury",
+        "prevention"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How many athletes really return to their previous level?",
+          "id": "how-many-athletes-really-return-to-their-previous-level"
+        },
+        {
+          "level": 2,
+          "text": "Why do people who have healed not go back?",
+          "id": "why-do-people-who-have-healed-not-go-back"
+        },
+        {
+          "level": 2,
+          "text": "Can psychological readiness be measured?",
+          "id": "can-psychological-readiness-be-measured"
+        },
+        {
+          "level": 2,
+          "text": "Coming back: the calendar or the criteria?",
+          "id": "coming-back-the-calendar-or-the-criteria"
+        },
+        {
+          "level": 2,
+          "text": "How high is the risk of a second injury in young athletes?",
+          "id": "how-high-is-the-risk-of-a-second-injury-in-young-athletes"
+        },
+        {
+          "level": 2,
+          "text": "What does the international consensus say about return to sport?",
+          "id": "what-does-the-international-consensus-say-about-return-to"
+        },
+        {
+          "level": 2,
+          "text": "What the people around the athlete can do",
+          "id": "what-the-people-around-the-athlete-can-do"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2305,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
+      "slug": "gestire-ciclo-nello-sport",
+      "lang": "it",
+      "title": "Fare sport con il ciclo: come si gestisce in pratica (perdite, prodotti, divise)",
+      "seoTitle": "Fare sport con il ciclo: la gestione pratica",
+      "seoDescription": "Dal 25% al 61% delle adolescenti evita lo sport durante le mestruazioni. Prodotti, divise e kit in palestra: la gestione pratica del ciclo, senza tabù.",
+      "date": "2026-08-13",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "La paura delle perdite è una delle ragioni per cui le ragazze saltano allenamenti e ore di educazione fisica — e tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni. Quasi tutti i contenuti si fermano a dire che è un problema. Questo prova a rispondere alla domanda pratica che nessuno affronta: cosa si fa, concretamente, il giorno in cui capita.",
+      "answer": "Con tre cose che dipendono più dall'organizzazione che dall'atleta: un prodotto mestruale adatto al gesto sportivo, una divisa che non aumenti la paura delle perdite e un kit disponibile in palestra. Tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, e la paura delle perdite è una barriera ricorrente (Harvey et al., 2025).",
+      "cover": "/fotobab/cover-ciclo-sport-pratica.jpg",
+      "coverAlt": "File di porte rosse degli spogliatoi di un impianto sportivo visti dall'esterno, con la pedana in legno davanti; nessuna persona inquadrata",
+      "tags": [
+        "ciclo",
+        "educazione",
+        "società",
+        "drop-out"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Si può fare sport con il ciclo?",
+          "id": "si-puo-fare-sport-con-il-ciclo"
+        },
+        {
+          "level": 2,
+          "text": "Che prodotto mestruale si usa facendo sport?",
+          "id": "che-prodotto-mestruale-si-usa-facendo-sport"
+        },
+        {
+          "level": 2,
+          "text": "Quanto contano le divise per chi gioca con il ciclo?",
+          "id": "quanto-contano-le-divise-per-chi-gioca-con-il-ciclo"
+        },
+        {
+          "level": 2,
+          "text": "Cosa serve tenere in palestra per gestire il ciclo?",
+          "id": "cosa-serve-tenere-in-palestra-per-gestire-il-ciclo"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare un allenatore uomo (senza conversazioni imbarazzanti)",
+          "id": "cosa-puo-fare-un-allenatore-uomo-senza-conversazioni"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una famiglia, prima che serva",
+          "id": "cosa-puo-fare-una-famiglia-prima-che-serva"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2212,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
+    },
+    {
+      "slug": "gestire-ciclo-nello-sport",
+      "lang": "en",
+      "title": "Playing sport on your period: how it actually works (leaks, products, kit)",
+      "seoTitle": "Playing sport on your period: a practical guide",
+      "seoDescription": "Between 25% and 61% of adolescent girls avoid sport during their period. Products, kit and what to keep at the gym: the practical side, without taboos.",
+      "date": "2026-08-13",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Fear of leaking is one of the reasons girls skip training sessions and PE lessons — and among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period. Almost every article on the subject stops at saying it is a problem. This one tries to answer the practical question nobody addresses: what do you actually do on the day it happens.",
+      "answer": "With three things that depend on organisation rather than on the athlete: a menstrual product suited to the movement, kit that does not add to the fear of leaking, and supplies available at the gym. Among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period, and fear of leaking is a recurring barrier (Harvey et al., 2025).",
+      "cover": "/fotobab/cover-ciclo-sport-pratica.jpg",
+      "coverAlt": "A row of red changing-room doors at a sports facility seen from outside, with a wooden deck in front; no people in shot",
+      "tags": [
+        "cycle",
+        "education",
+        "clubs",
+        "drop-out"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Can you play sport on your period?",
+          "id": "can-you-play-sport-on-your-period"
+        },
+        {
+          "level": 2,
+          "text": "Which menstrual product do you use for sport?",
+          "id": "which-menstrual-product-do-you-use-for-sport"
+        },
+        {
+          "level": 2,
+          "text": "How much do uniforms matter when you play on your period?",
+          "id": "how-much-do-uniforms-matter-when-you-play-on-your-period"
+        },
+        {
+          "level": 2,
+          "text": "What should a gym keep on hand for managing periods?",
+          "id": "what-should-a-gym-keep-on-hand-for-managing-periods"
+        },
+        {
+          "level": 2,
+          "text": "What a male coach can do (without awkward conversations)",
+          "id": "what-a-male-coach-can-do-without-awkward-conversations"
+        },
+        {
+          "level": 2,
+          "text": "What a family can do, before it is needed",
+          "id": "what-a-family-can-do-before-it-is-needed"
+        },
+        {
+          "level": 2,
+          "text": "Where BAB fits",
+          "id": "where-bab-fits"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2169,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
+    },
+    {
+      "slug": "dolore-spalla-giovani-atlete",
+      "lang": "it",
+      "title": "Dolore alla spalla nelle giovani atlete: pallavolo, nuoto e il carico che nessuno conta",
+      "seoTitle": "Dolore alla spalla nelle giovani atlete: cause",
+      "seoDescription": "Nella pallamano giovanile d'élite il 23% delle atlete ha problemi di spalla rilevanti in una stagione. Le cause negli sport overhead e i segnali da cogliere.",
+      "date": "2026-08-12",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Nella pallamano d'élite giovanile quasi una atleta su quattro (23%) ha avuto problemi di spalla rilevanti in una stagione, e le ragazze hanno una prevalenza 1,46 volte più alta dei coetanei maschi. Tra le nuotatrici e i nuotatori adolescenti la revisione disponibile riporta il tasso di dolore di spalla più alto di tutte le fasce d'età (91,3%), a fronte di 17 ore di vasca a settimana. La spalla è l'unica articolazione che nello sport femminile italiano lavora ogni giorno sopra la testa — ed è quella di cui nessuno tiene il conto.",
+      "answer": "Perché il gesto sopra la testa carica ogni giorno una spalla che non ha finito di crescere. Nella pallamano d'élite di 15-18 anni il 23% ha problemi di spalla sostanziali in una stagione, con prevalenza 1,46 volte più alta nelle ragazze (Asker et al., 2018); nel nuoto la fascia 15-17 anni riporta il tasso di dolore più alto di tutte le età (91,3%; Feijen et al., 2020).",
+      "cover": "/fotobab/cover-spalla-giovani-atlete.jpg",
+      "coverAlt": "Primo piano di una rete da pallavolo gialla e nera tesa contro il cielo, con la spiaggia sfocata sullo sfondo; nessuna persona riconoscibile",
+      "tags": [
+        "spalla",
+        "sport-overhead",
+        "sovraccarico",
+        "gestione-del-carico",
+        "prevenzione"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quanto è diffuso il dolore alla spalla nelle giovani atlete?",
+          "id": "quanto-e-diffuso-il-dolore-alla-spalla-nelle-giovani-atlete"
+        },
+        {
+          "level": 2,
+          "text": "Le ragazze hanno più problemi di spalla dei ragazzi?",
+          "id": "le-ragazze-hanno-piu-problemi-di-spalla-dei-ragazzi"
+        },
+        {
+          "level": 2,
+          "text": "Perché proprio la spalla, e perché proprio adesso?",
+          "id": "perche-proprio-la-spalla-e-perche-proprio-adesso"
+        },
+        {
+          "level": 2,
+          "text": "Quanto volume di lanci e bracciate è troppo per una spalla che cresce?",
+          "id": "quanto-volume-di-lanci-e-bracciate-e-troppo-per-una-spalla"
+        },
+        {
+          "level": 2,
+          "text": "Si può prevedere quale spalla si farà male?",
+          "id": "si-puo-prevedere-quale-spalla-si-fara-male"
+        },
+        {
+          "level": 2,
+          "text": "La prevenzione funziona? Sì, ma l'evidenza è sugli adulti",
+          "id": "la-prevenzione-funziona-si-ma-levidenza-e-sugli-adulti"
+        },
+        {
+          "level": 2,
+          "text": "Perché le atlete non dicono che la spalla fa male?",
+          "id": "perche-le-atlete-non-dicono-che-la-spalla-fa-male"
+        },
+        {
+          "level": 2,
+          "text": "Cosa cambia in palestra e in vasca, concretamente",
+          "id": "cosa-cambia-in-palestra-e-in-vasca-concretamente"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 3101,
+      "readingMinutes": 16,
+      "timeRequired": "PT16M"
+    },
+    {
+      "slug": "dolore-spalla-giovani-atlete",
+      "lang": "en",
+      "title": "Shoulder pain in young female athletes: volleyball, swimming and the load nobody counts",
+      "seoTitle": "Shoulder pain in young female athletes",
+      "seoDescription": "In elite youth handball, 23% of female athletes have substantial shoulder problems in one season. The causes in overhead sports and the signals to catch.",
+      "date": "2026-08-12",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "In elite youth handball, almost one athlete in four (23%) had substantial shoulder problems over a single season, and girls had a prevalence 1.46 times higher than boys. Among adolescent swimmers the available review reports the highest shoulder-pain rate of any age group (91.3%), against 17 hours a week in the pool. The shoulder is the one joint that works overhead every day in girls' sport — and the one nobody keeps count of.",
+      "answer": "Because the overhead movement loads a shoulder that has not finished growing, every day. In elite handball at 15-18, 23% have substantial shoulder problems in one season, with prevalence 1.46 times higher in girls (Asker et al., 2018); in swimming, the 15-17 band reports the highest pain rate of any age (91.3%; Feijen et al., 2020).",
+      "cover": "/fotobab/cover-spalla-giovani-atlete.jpg",
+      "coverAlt": "Close-up of a yellow and black volleyball net against a blue sky, with a blurred beach behind it; no identifiable people",
+      "tags": [
+        "shoulder",
+        "overhead-sports",
+        "overuse",
+        "load-management",
+        "prevention"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How common is shoulder pain in young female athletes?",
+          "id": "how-common-is-shoulder-pain-in-young-female-athletes"
+        },
+        {
+          "level": 2,
+          "text": "Do girls have more shoulder problems than boys?",
+          "id": "do-girls-have-more-shoulder-problems-than-boys"
+        },
+        {
+          "level": 2,
+          "text": "Why the shoulder, and why now?",
+          "id": "why-the-shoulder-and-why-now"
+        },
+        {
+          "level": 2,
+          "text": "How much throwing and swimming volume is too much for a growing shoulder?",
+          "id": "how-much-throwing-and-swimming-volume-is-too-much-for-a"
+        },
+        {
+          "level": 2,
+          "text": "Can you predict which shoulder will break down?",
+          "id": "can-you-predict-which-shoulder-will-break-down"
+        },
+        {
+          "level": 2,
+          "text": "Does prevention work? Yes — but the evidence is on adults",
+          "id": "does-prevention-work-yes-but-the-evidence-is-on-adults"
+        },
+        {
+          "level": 2,
+          "text": "Why don't athletes say their shoulder hurts?",
+          "id": "why-dont-athletes-say-their-shoulder-hurts"
+        },
+        {
+          "level": 2,
+          "text": "What changes in the gym and in the pool",
+          "id": "what-changes-in-the-gym-and-in-the-pool"
+        },
+        {
+          "level": 2,
+          "text": "Where BAB fits",
+          "id": "where-bab-fits"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2946,
+      "readingMinutes": 15,
+      "timeRequired": "PT15M"
+    },
+    {
+      "slug": "dolori-mestruali-giovani-atlete",
+      "lang": "it",
+      "title": "Dolori mestruali e sport: quanto dolore è normale e cosa funziona davvero",
+      "seoTitle": "Dolori mestruali e sport: cosa funziona davvero",
+      "seoDescription": "",
+      "date": "2026-08-10",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Il 71% delle giovani donne under 25 ha dolori mestruali e una su cinque salta la scuola per questo. Tra le atlete la dismenorrea è il disturbo del ciclo più frequente. Eppure quasi nessuno spiega a una ragazza di 14 anni due cose semplici: che il dolore ha trattamenti con prove alle spalle — esercizio, calore, farmaci — e che un dolore che continua a farle saltare gli allenamenti non è qualcosa da sopportare, è qualcosa da far valutare.",
+      "answer": "Un dolore che fa saltare scuola o allenamenti non è normale, per quanto sia comune: la dismenorrea riguarda il 71,1% delle giovani donne under 25 e il 20,1% ha saltato la scuola per questo (Armour et al., 2019). Hanno effetto misurato l'esercizio fisico (SMD -1,86) e il calore, con qualità delle prove bassa; se non migliora entro 3-6 mesi va indagata una causa secondaria.",
+      "cover": "/fotobab/cover-dolori-mestruali-atlete.jpg",
+      "coverAlt": "Pista di atletica rossa a otto corsie attorno a un campo da calcio in erba sintetica di una scuola, completamente vuoto, in una giornata di sole",
+      "tags": [
+        "dismenorrea",
+        "ciclo",
+        "dolore",
+        "educazione"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quante ragazze hanno davvero dolori mestruali?",
+          "id": "quante-ragazze-hanno-davvero-dolori-mestruali"
+        },
+        {
+          "level": 2,
+          "text": "Il dolore mestruale è un problema anche nello sport?",
+          "id": "il-dolore-mestruale-e-un-problema-anche-nello-sport"
+        },
+        {
+          "level": 2,
+          "text": "Quanto dolore mestruale è &quot;normale&quot;?",
+          "id": "quanto-dolore-mestruale-e-quot-normale-quot"
+        },
+        {
+          "level": 2,
+          "text": "Cosa funziona davvero contro i dolori mestruali?",
+          "id": "cosa-funziona-davvero-contro-i-dolori-mestruali"
+        },
+        {
+          "level": 2,
+          "text": "Allenarsi con i dolori mestruali fa male?",
+          "id": "allenarsi-con-i-dolori-mestruali-fa-male"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare chi allena?",
+          "id": "cosa-puo-fare-chi-allena"
+        },
+        {
+          "level": 2,
+          "text": "Quando parlare con un medico",
+          "id": "quando-parlare-con-un-medico"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2423,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
+      "slug": "dolori-mestruali-giovani-atlete",
+      "lang": "en",
+      "title": "Period pain and sport: how much pain is normal, and what actually works",
+      "seoTitle": "Period pain and sport: what actually works",
+      "seoDescription": "",
+      "date": "2026-08-10",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "71% of young women under 25 have period pain, and one in five has already missed school because of it. Among athletes, dysmenorrhoea is the most common menstrual cycle disorder. Yet almost nobody tells a 14-year-old two simple things: that period pain has treatments with evidence behind them — exercise, heat, medication — and that pain which keeps making her miss training is not something to endure, it is something to have assessed.",
+      "answer": "Pain that costs school days or training sessions is not normal, however common it is: dysmenorrhoea affects 71.1% of young women under 25, and 20.1% have missed school because of it (Armour et al., 2019). Exercise (SMD -1.86) and heat have a measured effect, with low-quality evidence; if it does not improve within 3-6 months, a secondary cause should be investigated.",
+      "cover": "/fotobab/cover-dolori-mestruali-atlete.jpg",
+      "coverAlt": "An empty red eight-lane running track around a school's synthetic turf football pitch on a sunny day, with nobody in frame",
+      "tags": [
+        "dysmenorrhoea",
+        "menstrual-cycle",
+        "pain",
+        "education"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How many girls actually have period pain?",
+          "id": "how-many-girls-actually-have-period-pain"
+        },
+        {
+          "level": 2,
+          "text": "Is period pain a problem in sport too?",
+          "id": "is-period-pain-a-problem-in-sport-too"
+        },
+        {
+          "level": 2,
+          "text": "How much period pain is &quot;normal&quot;?",
+          "id": "how-much-period-pain-is-quot-normal-quot"
+        },
+        {
+          "level": 2,
+          "text": "What actually works for period pain?",
+          "id": "what-actually-works-for-period-pain"
+        },
+        {
+          "level": 2,
+          "text": "Is training with period pain bad for you?",
+          "id": "is-training-with-period-pain-bad-for-you"
+        },
+        {
+          "level": 2,
+          "text": "What can a coach do?",
+          "id": "what-can-a-coach-do"
+        },
+        {
+          "level": 2,
+          "text": "When to speak to a doctor",
+          "id": "when-to-speak-to-a-doctor"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2367,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
+      "slug": "mal-di-schiena-giovani-atlete",
+      "lang": "it",
+      "title": "Mal di schiena a 14 anni: perché in una giovane atleta non è quello di un adulto",
+      "seoTitle": "Mal di schiena nelle giovani atlete: cause e segnali",
+      "seoDescription": "",
+      "date": "2026-08-08",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Il 42% delle atlete e degli atleti di 10-19 anni riferisce mal di schiena nell'arco di dodici mesi, e il sesso femminile compare tra i fattori di rischio. La differenza che quasi nessuno conosce sta nella causa: in adolescenza la lombalgia da sport è molto più spesso una frattura da stress della colonna e molto più raramente un problema di disco o una contrattura. I dati, i limiti dei dati, e perché oggi la fisioterapia immediata batte il riposo.",
+      "answer": "Perché in una giovane atleta la causa più descritta è la spondilolisi, una frattura da stress della vertebra, mentre nell'adulto è il disco: in un confronto diretto spiegava il 47% dei casi negli adolescenti contro il 5% negli adulti (Micheli e Wood, 1995 — campione di clinica specialistica). Un mal di schiena che dura oltre due o tre settimane va valutato, non normalizzato.",
+      "cover": "/fotobab/cover-mal-di-schiena-giovani-atlete.jpg",
+      "coverAlt": "Cavallo per volteggio con la pedana elastica davanti, su un pavimento di palestra vuoto, in bianco e nero; nessuna persona inquadrata",
+      "tags": [
+        "mal-di-schiena",
+        "spondilolisi",
+        "sovraccarico",
+        "gestione-del-carico",
+        "frattura-da-stress"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quanto è diffuso il mal di schiena nelle giovani atlete?",
+          "id": "quanto-e-diffuso-il-mal-di-schiena-nelle-giovani-atlete"
+        },
+        {
+          "level": 2,
+          "text": "Le ragazze sono più a rischio?",
+          "id": "le-ragazze-sono-piu-a-rischio"
+        },
+        {
+          "level": 2,
+          "text": "Perché il mal di schiena di una quattordicenne non è quello di un adulto?",
+          "id": "perche-il-mal-di-schiena-di-una-quattordicenne-non-e-quello"
+        },
+        {
+          "level": 2,
+          "text": "Cos'è la spondilolisi, in parole semplici?",
+          "id": "cose-la-spondilolisi-in-parole-semplici"
+        },
+        {
+          "level": 2,
+          "text": "Quando conviene far valutare un mal di schiena, e perché non aspettare",
+          "id": "quando-conviene-far-valutare-un-mal-di-schiena-e-perche-non"
+        },
+        {
+          "level": 2,
+          "text": "Riposo o fisioterapia subito? L'evidenza è cambiata",
+          "id": "riposo-o-fisioterapia-subito-levidenza-e-cambiata"
+        },
+        {
+          "level": 2,
+          "text": "E poi si torna a giocare?",
+          "id": "e-poi-si-torna-a-giocare"
+        },
+        {
+          "level": 2,
+          "text": "Il mal di schiena «fa parte dello sport»?",
+          "id": "il-mal-di-schiena-fa-parte-dello-sport"
+        },
+        {
+          "level": 2,
+          "text": "Cosa cambia in palestra, concretamente",
+          "id": "cosa-cambia-in-palestra-concretamente"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 3505,
+      "readingMinutes": 18,
+      "timeRequired": "PT18M"
+    },
+    {
+      "slug": "mal-di-schiena-giovani-atlete",
+      "lang": "en",
+      "title": "Low back pain at 14: why in a young athlete it is not what it is in an adult",
+      "seoTitle": "Low back pain in young athletes: causes and signs",
+      "seoDescription": "",
+      "date": "2026-08-08",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "42% of athletes aged 10-19 report low back pain over twelve months, and female sex appears among the reported risk factors. The difference almost nobody knows about is the cause: in adolescence, sport-related low back pain is far more often a stress fracture of the spine and far more rarely a disc problem or a muscle strain. The data, the limits of the data, and why immediate physiotherapy now beats rest.",
+      "answer": "Because in a young athlete the most described cause is spondylolysis, a stress fracture of the vertebra, whereas in adults it is the disc: in a direct comparison it explained 47% of cases in adolescents against 5% in adults (Micheli and Wood, 1995 — a specialist-clinic sample). Back pain lasting more than two or three weeks should be assessed, not normalised.",
+      "cover": "/fotobab/cover-mal-di-schiena-giovani-atlete.jpg",
+      "coverAlt": "A vaulting horse with a springboard in front of it, on an empty gym floor, in black and white; no people in frame",
+      "tags": [
+        "low-back-pain",
+        "spondylolysis",
+        "overuse",
+        "load-management",
+        "bone-stress-injury"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How common is low back pain in young athletes?",
+          "id": "how-common-is-low-back-pain-in-young-athletes"
+        },
+        {
+          "level": 2,
+          "text": "Are girls more at risk?",
+          "id": "are-girls-more-at-risk"
+        },
+        {
+          "level": 2,
+          "text": "Why is a fourteen-year-old's back pain not an adult's?",
+          "id": "why-is-a-fourteen-year-olds-back-pain-not-an-adults"
+        },
+        {
+          "level": 2,
+          "text": "What is spondylolysis, in plain terms?",
+          "id": "what-is-spondylolysis-in-plain-terms"
+        },
+        {
+          "level": 2,
+          "text": "When to have back pain assessed, and why not to wait",
+          "id": "when-to-have-back-pain-assessed-and-why-not-to-wait"
+        },
+        {
+          "level": 2,
+          "text": "Rest, or physiotherapy straight away? The evidence has moved",
+          "id": "rest-or-physiotherapy-straight-away-the-evidence-has-moved"
+        },
+        {
+          "level": 2,
+          "text": "And does she play again?",
+          "id": "and-does-she-play-again"
+        },
+        {
+          "level": 2,
+          "text": "Is back pain just &quot;part of sport&quot;?",
+          "id": "is-back-pain-just-quot-part-of-sport-quot"
+        },
+        {
+          "level": 2,
+          "text": "What changes in the gym, concretely",
+          "id": "what-changes-in-the-gym-concretely"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 3391,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
+      "slug": "distorsione-caviglia-giovani-atlete",
+      "lang": "it",
+      "title": "«È solo una storta»: la caviglia è l'infortunio più frequente delle giovani atlete",
+      "seoTitle": "Distorsione di caviglia nelle giovani atlete",
+      "seoDescription": "",
+      "date": "2026-08-06",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "La caviglia è la sede del 23% degli infortuni nelle giovani atlete — più del ginocchio (16%). Eppure è l'infortunio che si racconta con la frase «è solo una storta»: tra gli atleti di 14-18 anni il 20% convive con un'instabilità cronica di caviglia, e tra le ragazze la quota sale al 23,6%. Nello sport giovanile i programmi di prevenzione riducono gli infortuni di caviglia del 26%. I dati, i limiti dei dati, e cosa cambia in venti minuti a settimana.",
+      "answer": "È l'infortunio più frequente delle giovani atlete: la caviglia è la sede del 23% di tutti gli infortuni, davanti a ginocchio (16%) e coscia (13%) (Beech et al., 2024). E non è banale: tra i 14 e i 18 anni il 20,0% degli atleti convive con un'instabilità cronica di caviglia, il 23,6% tra le ragazze (Donovan et al., 2020).",
+      "cover": "/fotobab/cover-caviglia-giovani-atlete.jpg",
+      "coverAlt": "Pavimento di una palestra polivalente ripreso da vicino, con le linee dei campi di gioco di colori diversi che si incrociano; nessuna persona inquadrata",
+      "tags": [
+        "caviglia",
+        "instabilita-di-caviglia",
+        "propriocezione",
+        "prevenzione",
+        "sovraccarico"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Qual è davvero l'infortunio più frequente nelle giovani atlete?",
+          "id": "qual-e-davvero-linfortunio-piu-frequente-nelle-giovani"
+        },
+        {
+          "level": 2,
+          "text": "Le ragazze si distorcono la caviglia più dei ragazzi?",
+          "id": "le-ragazze-si-distorcono-la-caviglia-piu-dei-ragazzi"
+        },
+        {
+          "level": 2,
+          "text": "Cosa succede dopo una distorsione non curata?",
+          "id": "cosa-succede-dopo-una-distorsione-non-curata"
+        },
+        {
+          "level": 2,
+          "text": "«È solo una storta»: perché il passaggio dal professionista salta così spesso",
+          "id": "e-solo-una-storta-perche-il-passaggio-dal-professionista"
+        },
+        {
+          "level": 2,
+          "text": "La prevenzione funziona? Sì, e sui giovani esiste evidenza specifica",
+          "id": "la-prevenzione-funziona-si-e-sui-giovani-esiste-evidenza"
+        },
+        {
+          "level": 2,
+          "text": "E dopo? La riabilitazione che riduce le recidive (con una precisazione sull'età)",
+          "id": "e-dopo-la-riabilitazione-che-riduce-le-recidive-con-una"
+        },
+        {
+          "level": 2,
+          "text": "Nei bambini si rompe l'osso e non il legamento: è ancora vero?",
+          "id": "nei-bambini-si-rompe-losso-e-non-il-legamento-e-ancora-vero"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una società per prevenire le distorsioni, da lunedì?",
+          "id": "cosa-puo-fare-una-societa-per-prevenire-le-distorsioni-da"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 3393,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
+      "slug": "distorsione-caviglia-giovani-atlete",
+      "lang": "en",
+      "title": "\"It's just a twisted ankle\": the ankle is the most common injury in youth female athletes",
+      "seoTitle": "Ankle sprains in young female athletes",
+      "seoDescription": "",
+      "date": "2026-08-06",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "The ankle accounts for 23% of injuries in youth female athletes — more than the knee (16%). Yet it is the injury we describe with a shrug: among athletes aged 14-18, 20% live with chronic ankle instability, and among girls that figure rises to 23.6%. In youth sport, prevention programmes cut ankle injuries by about 26%. The data, the limits of the data, and what changes in twenty minutes a week.",
+      "answer": "It is the most frequent injury in young female athletes: the ankle accounts for 23% of all injuries, ahead of the knee (16%) and thigh (13%) (Beech et al., 2024). And it is not trivial: between 14 and 18, 20.0% of athletes live with chronic ankle instability — 23.6% among girls (Donovan et al., 2020).",
+      "cover": "/fotobab/cover-caviglia-giovani-atlete.jpg",
+      "coverAlt": "Close-up of a multi-purpose sports hall floor, with court lines in different colours crossing each other; no people in frame",
+      "tags": [
+        "ankle-sprain",
+        "chronic-ankle-instability",
+        "proprioception",
+        "injury-prevention",
+        "overuse"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What really is the most common injury in youth female athletes?",
+          "id": "what-really-is-the-most-common-injury-in-youth-female"
+        },
+        {
+          "level": 2,
+          "text": "Do girls sprain their ankles more than boys?",
+          "id": "do-girls-sprain-their-ankles-more-than-boys"
+        },
+        {
+          "level": 2,
+          "text": "What happens after an untreated ankle sprain?",
+          "id": "what-happens-after-an-untreated-ankle-sprain"
+        },
+        {
+          "level": 2,
+          "text": "&quot;It's just a twisted ankle&quot;: why the clinician step gets skipped",
+          "id": "quot-its-just-a-twisted-ankle-quot-why-the-clinician-step"
+        },
+        {
+          "level": 2,
+          "text": "Does prevention work? Yes — and there is youth-specific evidence",
+          "id": "does-prevention-work-yes-and-there-is-youth-specific"
+        },
+        {
+          "level": 2,
+          "text": "And afterwards? The rehab that reduces recurrence (with an age caveat)",
+          "id": "and-afterwards-the-rehab-that-reduces-recurrence-with-an"
+        },
+        {
+          "level": 2,
+          "text": "Do children break the bone rather than tear the ligament — is that still true?",
+          "id": "do-children-break-the-bone-rather-than-tear-the-ligament-is"
+        },
+        {
+          "level": 2,
+          "text": "What can a club do to prevent ankle sprains, starting Monday?",
+          "id": "what-can-a-club-do-to-prevent-ankle-sprains-starting-monday"
+        },
+        {
+          "level": 2,
+          "text": "Where BAB fits",
+          "id": "where-bab-fits"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 3251,
+      "readingMinutes": 16,
+      "timeRequired": "PT16M"
+    },
+    {
+      "slug": "forza-ragazze-adolescenti",
+      "lang": "it",
+      "title": "Le ragazze e i pesi: l'allenamento della forza a 13-14 anni fa male alla crescita?",
+      "seoTitle": "Pesi e adolescenti: la forza fa male alla crescita?",
+      "seoDescription": "I pesi non bloccano la crescita: cosa dice l'evidenza sull'allenamento della forza a 13-14 anni, quanto si guadagna davvero e come impostarlo in sicurezza.",
+      "date": "2026-08-04",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "No: nella revisione più citata sull'argomento, 22 programmi sperimentali di allenamento con i pesi in bambini e preadolescenti non hanno influenzato la crescita in statura e peso, con tassi di infortunio tra 0,053 e 0,176 ogni 100 ore di partecipazione. Eppure solo il 38,5% dei ragazzi e delle ragazze raggiunge le raccomandazioni di attività di rinforzo muscolare — ed essere maschio è uno dei fattori che predicono di riuscirci. Cosa dicono davvero i dati sulla forza nelle giovani atlete.",
+      "answer": "No: in una revisione di 22 programmi sperimentali su bambini e preadolescenti l'allenamento contro resistenza ha migliorato la forza e NON ha influenzato la crescita in statura e peso (Malina, 2006). La condizione è la supervisione, con la tecnica prima del carico: il rischio documentato riguarda il carico improvvisato, non i pesi in sé.",
+      "cover": "/fotobab/cover-forza-ragazze.jpg",
+      "coverAlt": "Due manubri azzurri appoggiati su un pavimento di legno chiaro davanti a una parete bianca, senza persone",
+      "tags": [
+        "allenamento-della-forza",
+        "cartilagine-di-accrescimento",
+        "pubertà",
+        "gestione-del-carico"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "I pesi bloccano la crescita? Cosa dice la revisione più citata",
+          "id": "i-pesi-bloccano-la-crescita-cosa-dice-la-revisione-piu"
+        },
+        {
+          "level": 2,
+          "text": "L'allenamento con i pesi danneggia la cartilagine di accrescimento?",
+          "id": "lallenamento-con-i-pesi-danneggia-la-cartilagine-di"
+        },
+        {
+          "level": 2,
+          "text": "Quanto guadagna davvero in forza una ragazza di 13-14 anni?",
+          "id": "quanto-guadagna-davvero-in-forza-una-ragazza-di-13-14-anni"
+        },
+        {
+          "level": 2,
+          "text": "L'allenamento della forza previene gli infortuni?",
+          "id": "lallenamento-della-forza-previene-gli-infortuni"
+        },
+        {
+          "level": 2,
+          "text": "Perché sono soprattutto le ragazze a restarne fuori?",
+          "id": "perche-sono-soprattutto-le-ragazze-a-restarne-fuori"
+        },
+        {
+          "level": 2,
+          "text": "Come si imposta l'allenamento della forza a 13-14 anni?",
+          "id": "come-si-imposta-lallenamento-della-forza-a-13-14-anni"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2371,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
+      "slug": "forza-ragazze-adolescenti",
+      "lang": "en",
+      "title": "Girls and weights: does strength training at 13-14 stunt growth?",
+      "seoTitle": "Girls and weights: does strength stunt growth?",
+      "seoDescription": "Weights don't stunt growth: what the evidence says about strength training at 13-14, how much girls actually gain, and how to set it up safely.",
+      "date": "2026-08-04",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "No. In the most cited review on the question, 22 experimental weight-training programmes in children and pre-adolescents did not influence growth in height or weight, with estimated injury rates between 0.053 and 0.176 per 100 participant-hours. Yet only 38.5% of children and adolescents meet muscle-strengthening recommendations — and being a boy is one of the factors that predicts meeting them. What the data actually say about strength in young female athletes.",
+      "answer": "No: in a review of 22 experimental programmes in children and preadolescents, resistance training improved strength and did NOT affect growth in height or weight (Malina, 2006). The condition is supervision, with technique before load: the documented risk concerns improvised loading, not weights themselves.",
+      "cover": "/fotobab/cover-forza-ragazze.jpg",
+      "coverAlt": "Two blue dumbbells resting on a light wooden floor against a white wall, no people in the frame",
+      "tags": [
+        "allenamento-della-forza",
+        "cartilagine-di-accrescimento",
+        "pubertà",
+        "gestione-del-carico"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Do weights stunt growth? What the most cited review says",
+          "id": "do-weights-stunt-growth-what-the-most-cited-review-says"
+        },
+        {
+          "level": 2,
+          "text": "Does strength training damage the growth plate?",
+          "id": "does-strength-training-damage-the-growth-plate"
+        },
+        {
+          "level": 2,
+          "text": "How much strength does a 13-14-year-old girl actually gain?",
+          "id": "how-much-strength-does-a-13-14-year-old-girl-actually-gain"
+        },
+        {
+          "level": 2,
+          "text": "Does strength training prevent injuries?",
+          "id": "does-strength-training-prevent-injuries"
+        },
+        {
+          "level": 2,
+          "text": "Why is it mostly girls who are left out?",
+          "id": "why-is-it-mostly-girls-who-are-left-out"
+        },
+        {
+          "level": 2,
+          "text": "How do you set up strength training at 13-14?",
+          "id": "how-do-you-set-up-strength-training-at-13-14"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2234,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
+    },
+    {
+      "slug": "picco-di-crescita-giovani-atlete",
+      "lang": "it",
+      "title": "Picco di crescita nelle giovani atlete: cosa cambia davvero (e cosa non è colpa loro)",
+      "seoTitle": "Picco di crescita nelle giovani atlete: cosa cambia",
+      "seoDescription": "Il picco di crescita arriva in media a 11,2 anni, con enorme variabilità. Cosa cambia per infortuni e coordinazione, e come adattare il carico.",
+      "date": "2026-08-02",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Nelle giovani atlete il picco di velocità di crescita arriva in media intorno agli 11,2 anni, ma con una variabilità enorme: in una squadra di tredicenni convivono corpi a stadi di maturazione diversi di anni. Nel frattempo l'osso si mineralizza circa sei mesi dopo che si è allungato. Cosa dicono davvero i dati — e perché sulle ragazze l'evidenza che lega la crescita agli infortuni è ancora limitata.",
+      "answer": "Cambiano leve, coordinazione e struttura ossea, non l'impegno. Nelle giovani atlete l'età media al picco di crescita è 11,18 anni, ma con un intervallo di credibilità al 90% da 8,62 a 12,94 (Lima et al., 2024): nella stessa categoria convivono atlete biologicamente distanti anni. Il picco di minerale osseo arriva circa sei mesi dopo (Bailey et al., 1999).",
+      "cover": "/fotobab/cover-picco-di-crescita.jpg",
+      "coverAlt": "Dettaglio di una spalliera da palestra: tre pioli di legno chiaro montati su un telaio nero contro un muro di mattoni bianchi, come tacche di altezza che salgono",
+      "tags": [
+        "picco-di-crescita",
+        "maturazione",
+        "pubertà",
+        "gestione-del-carico"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "A che età arriva il picco di crescita in una ragazza?",
+          "id": "a-che-eta-arriva-il-picco-di-crescita-in-una-ragazza"
+        },
+        {
+          "level": 2,
+          "text": "È vero che durante il picco di crescita ci si infortuna di più?",
+          "id": "e-vero-che-durante-il-picco-di-crescita-ci-si-infortuna-di"
+        },
+        {
+          "level": 2,
+          "text": "Cosa cambia nel corpo durante il picco di crescita?",
+          "id": "cosa-cambia-nel-corpo-durante-il-picco-di-crescita"
+        },
+        {
+          "level": 2,
+          "text": "La &quot;goffaggine adolescenziale&quot; esiste?",
+          "id": "la-quot-goffaggine-adolescenziale-quot-esiste"
+        },
+        {
+          "level": 2,
+          "text": "Come si capisce a che punto è la crescita di un'atleta?",
+          "id": "come-si-capisce-a-che-punto-e-la-crescita-di-unatleta"
+        },
+        {
+          "level": 2,
+          "text": "Cosa cambia lunedì in palestra",
+          "id": "cosa-cambia-lunedi-in-palestra"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2347,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
+      "slug": "picco-di-crescita-giovani-atlete",
+      "lang": "en",
+      "title": "The growth spurt in young female athletes: what actually changes (and what is not their fault)",
+      "seoTitle": "The growth spurt in young female athletes",
+      "seoDescription": "The growth spurt peaks at 11.2 years on average, with huge variability. What changes for injuries and coordination, and how to adapt training load.",
+      "date": "2026-08-02",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "In young female athletes peak height velocity arrives at a mean age of about 11.2 years — but the individual range is enormous: a squad of thirteen-year-olds contains bodies years apart in maturation. Meanwhile bone mineralises roughly six months after it has lengthened. What the data actually say — and why, in girls, the evidence linking growth to injury is still limited.",
+      "answer": "What changes is levers, coordination and bone structure — not commitment. In young female athletes the mean age at peak height velocity is 11.18 years, with a 90% credible interval from 8.62 to 12.94 (Lima et al., 2024): one age category holds athletes years apart biologically. Peak bone mineral accrual arrives roughly six months later (Bailey et al., 1999).",
+      "cover": "/fotobab/cover-picco-di-crescita.jpg",
+      "coverAlt": "Close-up of gym wall bars: three pale wooden rungs on a black frame against a white brick wall, like height marks climbing upwards",
+      "tags": [
+        "growth-spurt",
+        "maturation",
+        "puberty",
+        "load-management"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "At what age does the growth spurt happen in girls?",
+          "id": "at-what-age-does-the-growth-spurt-happen-in-girls"
+        },
+        {
+          "level": 2,
+          "text": "Is it true that injuries increase during the growth spurt?",
+          "id": "is-it-true-that-injuries-increase-during-the-growth-spurt"
+        },
+        {
+          "level": 2,
+          "text": "What changes in the body during the growth spurt?",
+          "id": "what-changes-in-the-body-during-the-growth-spurt"
+        },
+        {
+          "level": 2,
+          "text": "Is &quot;adolescent awkwardness&quot; real?",
+          "id": "is-quot-adolescent-awkwardness-quot-real"
+        },
+        {
+          "level": 2,
+          "text": "How do you tell where an athlete is in her growth?",
+          "id": "how-do-you-tell-where-an-athlete-is-in-her-growth"
+        },
+        {
+          "level": 2,
+          "text": "What changes on Monday",
+          "id": "what-changes-on-monday"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2265,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
+    },
+    {
+      "slug": "dolore-ginocchio-femoro-rotuleo-giovani-atlete",
+      "lang": "it",
+      "title": "Il ginocchio che fa male da mesi: perché non è «dolore di crescita»",
+      "seoTitle": "Dolore al ginocchio negli adolescenti: cosa fare",
+      "seoDescription": "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze e la durata mediana è di 24 mesi. Perché non è «dolore di crescita» e cosa fare.",
+      "date": "2026-07-30",
+      "updated": "2026-08-13",
+      "author": "Sajid Hossain",
+      "excerpt": "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze, la durata mediana del dolore è di 24 mesi e cinque anni dopo il 40,5% ha ancora male — con il 60% che ha smesso o ridotto lo sport. Il dolore femoro-rotuleo non passa «crescendo»: passa quando qualcuno lo prende sul serio e dosa il carico. I dati, e cosa cambia in palestra.",
+      "answer": "Nella maggior parte dei casi non passa crescendo: cinque anni dopo, il 40,5% degli adolescenti con dolore al ginocchio ne ha ancora, e il 60% di questi ha smesso o ridotto lo sport a causa del ginocchio (Rathleff et al., 2019). Quello che funziona non è il riposo totale ma il carico dosato per settimane, insieme al rinforzo di anca e ginocchio.",
+      "cover": "/fotobab/cover-dolore-ginocchio.jpg",
+      "coverAlt": "Scala metallica esterna di uno stadio sportivo vuoto, gradini in lamiera e ringhiere, senza persone",
+      "tags": [
+        "dolore-femoro-rotuleo",
+        "osgood-schlatter",
+        "gestione-del-carico",
+        "dolore"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quanto è diffuso il dolore al ginocchio nelle giovani atlete?",
+          "id": "quanto-e-diffuso-il-dolore-al-ginocchio-nelle-giovani-atlete"
+        },
+        {
+          "level": 2,
+          "text": "Che cos'è il dolore femoro-rotuleo, e cosa non è",
+          "id": "che-cose-il-dolore-femoro-rotuleo-e-cosa-non-e"
+        },
+        {
+          "level": 2,
+          "text": "Il dolore al ginocchio in adolescenza passa da solo?",
+          "id": "il-dolore-al-ginocchio-in-adolescenza-passa-da-solo"
+        },
+        {
+          "level": 2,
+          "text": "Perché quasi nessuno lo porta da un medico",
+          "id": "perche-quasi-nessuno-lo-porta-da-un-medico"
+        },
+        {
+          "level": 2,
+          "text": "Cosa funziona: non il riposo, il carico dosato",
+          "id": "cosa-funziona-non-il-riposo-il-carico-dosato"
+        },
+        {
+          "level": 2,
+          "text": "E il ginocchio che fa male sotto la rotula (Osgood-Schlatter)?",
+          "id": "e-il-ginocchio-che-fa-male-sotto-la-rotula-osgood-schlatter"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una società, da lunedì",
+          "id": "cosa-puo-fare-una-societa-da-lunedi"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2797,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
+    },
+    {
+      "slug": "dolore-ginocchio-femoro-rotuleo-giovani-atlete",
+      "lang": "en",
+      "title": "The knee that has hurt for months: why it is not 'growing pains'",
+      "seoTitle": "Knee pain in teenage athletes: what to do",
+      "seoDescription": "Among adolescents with recurrent knee pain, 72% are girls and the median duration is 24 months. Why it is not growing pains, and what to do.",
+      "date": "2026-07-30",
+      "updated": "2026-08-13",
+      "author": "Sajid Hossain",
+      "excerpt": "Among adolescents with recurrent knee pain, 72% are girls, the median duration of pain is 24 months, and five years later 40.5% still hurt — with 60% of those having stopped or cut back on sport. Patellofemoral pain does not go away by 'growing out of it': it goes away when someone takes it seriously and doses the load. The data, and what changes in the gym.",
+      "answer": "In most cases it does not go away with growth: five years on, 40.5% of adolescents with knee pain still have it, and 60% of those have stopped or cut back on sport because of the knee (Rathleff et al., 2019). What works is not complete rest but dosed load over weeks, together with hip and knee strengthening.",
+      "cover": "/fotobab/cover-dolore-ginocchio.jpg",
+      "coverAlt": "External metal staircase at an empty sports stadium, sheet-metal treads and handrails, no people",
+      "tags": [
+        "patellofemoral-pain",
+        "osgood-schlatter",
+        "load-management",
+        "pain"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How common is knee pain in young female athletes?",
+          "id": "how-common-is-knee-pain-in-young-female-athletes"
+        },
+        {
+          "level": 2,
+          "text": "What patellofemoral pain is, and what it is not",
+          "id": "what-patellofemoral-pain-is-and-what-it-is-not"
+        },
+        {
+          "level": 2,
+          "text": "Does adolescent knee pain go away on its own?",
+          "id": "does-adolescent-knee-pain-go-away-on-its-own"
+        },
+        {
+          "level": 2,
+          "text": "Why almost nobody takes it to a doctor",
+          "id": "why-almost-nobody-takes-it-to-a-doctor"
+        },
+        {
+          "level": 2,
+          "text": "What works: not rest, but measured load",
+          "id": "what-works-not-rest-but-measured-load"
+        },
+        {
+          "level": 2,
+          "text": "And the knee that hurts below the kneecap (Osgood-Schlatter)?",
+          "id": "and-the-knee-that-hurts-below-the-kneecap-osgood-schlatter"
+        },
+        {
+          "level": 2,
+          "text": "What a club can do, starting Monday",
+          "id": "what-a-club-can-do-starting-monday"
+        },
+        {
+          "level": 2,
+          "text": "Where BAB fits",
+          "id": "where-bab-fits"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2636,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
+    },
+    {
+      "slug": "salute-ossea-fratture-da-stress-giovani-atlete",
+      "lang": "it",
+      "title": "Fratture da stress nelle giovani atlete: perché l'osso si costruisce adesso",
+      "seoTitle": "Fratture da stress nelle giovani atlete: prevenzione",
+      "seoDescription": "",
+      "date": "2026-07-28",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Nelle scuole superiori americane le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi, e sono il 63% di tutti i casi. Non è sfortuna: è un osso che si sta ancora costruendo, in una finestra che si chiude verso i 18 anni. Cosa dicono i dati, quali segnali guardare e cosa costruisce osso davvero.",
+      "answer": "Perché l'osso si costruisce adesso e la finestra si chiude verso i 18 anni. Nelle scuole superiori le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi e rappresentano il 63,3% dei casi (Changstrom et al., 2015); il moltiplicatore non è il carico da solo, ma il carico senza abbastanza energia a coprirlo.",
+      "cover": "/fotobab/cover-salute-ossea.jpg",
+      "coverAlt": "Gioco della campana dipinto a colori vivaci sull'asfalto di un cortile, caselle numerate viste dall'alto",
+      "tags": [
+        "ossa",
+        "frattura-da-stress",
+        "energia",
+        "pubertà",
+        "triade-atleta"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quante fratture da stress subiscono davvero le giovani atlete?",
+          "id": "quante-fratture-da-stress-subiscono-davvero-le-giovani"
+        },
+        {
+          "level": 2,
+          "text": "Perché l'osso di un'atleta adolescente è più esposto alle fratture da stress?",
+          "id": "perche-losso-di-unatleta-adolescente-e-piu-esposto-alle"
+        },
+        {
+          "level": 2,
+          "text": "Cosa pesa di più sul rischio di frattura da stress: il carico o l'energia che manca?",
+          "id": "cosa-pesa-di-piu-sul-rischio-di-frattura-da-stress-il"
+        },
+        {
+          "level": 2,
+          "text": "Come si riconosce il dolore di una frattura da stress, e cosa non lo è?",
+          "id": "come-si-riconosce-il-dolore-di-una-frattura-da-stress-e"
+        },
+        {
+          "level": 2,
+          "text": "Cosa costruisce davvero massa ossea in adolescenza?",
+          "id": "cosa-costruisce-davvero-massa-ossea-in-adolescenza"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare chi sta intorno all'atleta, da lunedì?",
+          "id": "cosa-puo-fare-chi-sta-intorno-allatleta-da-lunedi"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2588,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
+    },
+    {
+      "slug": "salute-ossea-fratture-da-stress-giovani-atlete",
+      "lang": "en",
+      "title": "Stress fractures in young female athletes: why bone is built now, not later",
+      "seoTitle": "Stress fractures in young female athletes",
+      "seoDescription": "",
+      "date": "2026-07-28",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "In US high school sport, girls sustain stress fractures 1.75 times as often as boys and account for 63% of all cases. That is not bad luck: it is a skeleton still under construction, inside a window that closes around age 18. What the data say, which signs to watch, and what actually builds bone.",
+      "answer": "Because bone is built now and the window closes towards age 18. In high-school sport, girls sustain stress fractures 1.75 times as often as male peers and account for 63.3% of cases (Changstrom et al., 2015); the multiplier is not load on its own, but load without enough energy to cover it.",
+      "cover": "/fotobab/cover-salute-ossea.jpg",
+      "coverAlt": "A brightly painted hopscotch grid on a schoolyard tarmac, numbered squares seen from above",
+      "tags": [
+        "bone-health",
+        "stress-fracture",
+        "energy",
+        "puberty",
+        "triade-atleta"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How many stress fractures do young female athletes actually get?",
+          "id": "how-many-stress-fractures-do-young-female-athletes-actually"
+        },
+        {
+          "level": 2,
+          "text": "Why is an adolescent athlete's bone more exposed to stress fractures?",
+          "id": "why-is-an-adolescent-athletes-bone-more-exposed-to-stress"
+        },
+        {
+          "level": 2,
+          "text": "What weighs more on stress fracture risk: the load, or the missing energy?",
+          "id": "what-weighs-more-on-stress-fracture-risk-the-load-or-the"
+        },
+        {
+          "level": 2,
+          "text": "How do you recognise stress fracture pain, and what is it not?",
+          "id": "how-do-you-recognise-stress-fracture-pain-and-what-is-it-not"
+        },
+        {
+          "level": 2,
+          "text": "What actually builds bone mass in adolescence?",
+          "id": "what-actually-builds-bone-mass-in-adolescence"
+        },
+        {
+          "level": 2,
+          "text": "What can the people around the athlete do, starting Monday?",
+          "id": "what-can-the-people-around-the-athlete-do-starting-monday"
+        },
+        {
+          "level": 2,
+          "text": "The role of BAB",
+          "id": "the-role-of-bab"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2406,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
+      "slug": "specializzazione-precoce-giovani-atlete",
+      "lang": "it",
+      "title": "Specializzazione precoce: un solo sport tutto l'anno, e cosa costa davvero alle ragazze",
+      "seoTitle": "Specializzazione precoce nello sport: i costi reali",
+      "seoDescription": "",
+      "date": "2026-07-26",
+      "updated": "2026-08-13",
+      "author": "Sajid Hossain",
+      "excerpt": "Tra le atlete di 13-18 anni, chi è altamente specializzata in un solo sport ha 2,93 volte le probabilità di aver avuto un infortunio. Allenarsi più ore a settimana dei propri anni d'età raddoppia il rischio di infortunio grave da sovraccarico. E gli atleti che arrivano davvero in cima hanno iniziato il loro sport principale più tardi, non prima. I dati, i limiti dei dati, e le tre domande che dicono se una ragazza è già specializzata.",
+      "answer": "Costa infortuni, non vantaggio competitivo: tra 219 atlete di 13-18 anni le altamente specializzate riferivano una storia di infortuni 2,93 volte più spesso delle poco specializzate (Okoruwa et al., 2022), e allenarsi più ore a settimana dei propri anni d'età raddoppia le probabilità di un infortunio grave da sovraccarico (Jayanthi et al., 2015).",
+      "cover": "/fotobab/cover-specializzazione-precoce.jpg",
+      "coverAlt": "Campetto polivalente all'aperto visto dall'alto: un campo da basket verde con canestri e, sul fondo, porte da calcio",
+      "tags": [
+        "specializzazione-precoce",
+        "sovraccarico",
+        "drop-out"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Che cos'è, esattamente, la &quot;specializzazione precoce&quot;?",
+          "id": "che-cose-esattamente-la-quot-specializzazione-precoce-quot"
+        },
+        {
+          "level": 2,
+          "text": "Cosa dicono i dati sulla specializzazione precoce nelle ragazze?",
+          "id": "cosa-dicono-i-dati-sulla-specializzazione-precoce-nelle"
+        },
+        {
+          "level": 2,
+          "text": "Quante ore a settimana può allenarsi una ragazza di 13-14 anni?",
+          "id": "quante-ore-a-settimana-puo-allenarsi-una-ragazza-di-13-14"
+        },
+        {
+          "level": 2,
+          "text": "Specializzarsi presto serve davvero per arrivare a livelli alti?",
+          "id": "specializzarsi-presto-serve-davvero-per-arrivare-a-livelli"
+        },
+        {
+          "level": 2,
+          "text": "Cosa raccomandano i pediatri sulla specializzazione sportiva?",
+          "id": "cosa-raccomandano-i-pediatri-sulla-specializzazione-sportiva"
+        },
+        {
+          "level": 2,
+          "text": "La specializzazione precoce aumenta l'abbandono sportivo?",
+          "id": "la-specializzazione-precoce-aumenta-labbandono-sportivo"
+        },
+        {
+          "level": 2,
+          "text": "Cosa possono fare società, allenatori e famiglie?",
+          "id": "cosa-possono-fare-societa-allenatori-e-famiglie"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2485,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
+      "slug": "specializzazione-precoce-giovani-atlete",
+      "lang": "en",
+      "title": "Early specialisation: one sport all year round, and what it actually costs girls",
+      "seoTitle": "Early sport specialisation: the real costs",
+      "seoDescription": "",
+      "date": "2026-07-26",
+      "updated": "2026-08-13",
+      "author": "Sajid Hossain",
+      "excerpt": "Among female athletes aged 13-18, those highly specialised in a single sport are 2.93 times as likely to report an injury history. Training more hours per week than your age in years doubles the odds of a serious overuse injury. And the athletes who actually reach the top started their main sport later, not earlier. The evidence, its limits, and the three questions that tell you whether a girl is already specialised.",
+      "answer": "It costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised reported a history of injury 2.93 times as often as low-specialisation peers (Okoruwa et al., 2022), and training more hours a week than your age in years doubles the odds of a serious overuse injury (Jayanthi et al., 2015).",
+      "cover": "/fotobab/cover-specializzazione-precoce.jpg",
+      "coverAlt": "An outdoor multi-use court seen from above: a green basketball court with hoops and, at the far end, football goals",
+      "tags": [
+        "early-specialisation",
+        "overuse",
+        "drop-out"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What exactly is &quot;early specialisation&quot;?",
+          "id": "what-exactly-is-quot-early-specialisation-quot"
+        },
+        {
+          "level": 2,
+          "text": "What do the data say about early specialisation in girls?",
+          "id": "what-do-the-data-say-about-early-specialisation-in-girls"
+        },
+        {
+          "level": 2,
+          "text": "How many hours a week can a 13- or 14-year-old girl train?",
+          "id": "how-many-hours-a-week-can-a-13-or-14-year-old-girl-train"
+        },
+        {
+          "level": 2,
+          "text": "Does specialising early actually help reach the top?",
+          "id": "does-specialising-early-actually-help-reach-the-top"
+        },
+        {
+          "level": 2,
+          "text": "What do paediatricians recommend about sport specialisation?",
+          "id": "what-do-paediatricians-recommend-about-sport-specialisation"
+        },
+        {
+          "level": 2,
+          "text": "Does early specialisation increase drop-out?",
+          "id": "does-early-specialisation-increase-drop-out"
+        },
+        {
+          "level": 2,
+          "text": "What can clubs, coaches and families do?",
+          "id": "what-can-clubs-coaches-and-families-do"
+        },
+        {
+          "level": 2,
+          "text": "The role of BAB",
+          "id": "the-role-of-bab"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2374,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
+      "slug": "commozione-cerebrale-giovani-atlete",
+      "lang": "it",
+      "title": "Commozione cerebrale nelle giovani atlete: più frequente, meno riconosciuta (e cosa fare nei primi minuti)",
+      "seoTitle": "Commozione cerebrale nelle giovani atlete: cosa fare",
+      "seoDescription": "Nel calcio scolastico le ragazze subiscono 1,88 volte le commozioni cerebrali dei coetanei maschi. Come riconoscerle a bordo campo e cosa fare nei primi minuti.",
+      "date": "2026-07-24",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Nel calcio scolastico americano le ragazze subiscono commozioni cerebrali 1,88 volte più dei coetanei maschi, e hanno 1,26 volte la probabilità di non essere tolte dall'attività dopo il colpo. Chi continua a giocare recupera in 44 giorni invece di 22 — e il 60% degli episodi non viene riferito a nessun adulto. Non serve né un colpo visibile alla testa né la perdita di coscienza: i dati, i segnali da riconoscere a bordo campo nei primi minuti e cosa dicono davvero le linee guida internazionali.",
+      "answer": "Le atlete la subiscono più spesso e la riferiscono meno: nel calcio scolastico il rischio è 1,88 volte quello dei coetanei maschi (Bretzin et al., 2021) e il 60% degli episodi non era stato riferito ad alcun adulto (Register-Mihalik et al., 2013). Al sospetto l'atleta va tolta subito dal gioco: chi resta in campo recupera in 44,4 giorni contro 22,0 (Elbin et al., 2016).",
+      "cover": "/fotobab/cover-commozione-cerebrale.jpg",
+      "coverAlt": "Pallone da calcio fermo sulla linea laterale di un campo in erba vuoto, con la porta e il sole basso sullo sfondo",
+      "tags": [
+        "commozione-cerebrale",
+        "ritorno-al-gioco",
+        "prevenzione"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Le ragazze subiscono più commozioni cerebrali dei ragazzi?",
+          "id": "le-ragazze-subiscono-piu-commozioni-cerebrali-dei-ragazzi"
+        },
+        {
+          "level": 2,
+          "text": "Da dove arriva il colpo che causa la commozione nelle ragazze?",
+          "id": "da-dove-arriva-il-colpo-che-causa-la-commozione-nelle"
+        },
+        {
+          "level": 2,
+          "text": "Cosa succede se si continua a giocare dopo un colpo alla testa?",
+          "id": "cosa-succede-se-si-continua-a-giocare-dopo-un-colpo-alla"
+        },
+        {
+          "level": 2,
+          "text": "Quante volte non lo sa nessuno?",
+          "id": "quante-volte-non-lo-sa-nessuno"
+        },
+        {
+          "level": 2,
+          "text": "Come si riconosce una commozione cerebrale a bordo campo?",
+          "id": "come-si-riconosce-una-commozione-cerebrale-a-bordo-campo"
+        },
+        {
+          "level": 2,
+          "text": "Quanto riposo serve dopo una commozione cerebrale?",
+          "id": "quanto-riposo-serve-dopo-una-commozione-cerebrale"
+        },
+        {
+          "level": 2,
+          "text": "Le atlete recuperano più lentamente?",
+          "id": "le-atlete-recuperano-piu-lentamente"
+        },
+        {
+          "level": 2,
+          "text": "L'angolo cieco: linee guida costruite all'80% su maschi",
+          "id": "langolo-cieco-linee-guida-costruite-all80-su-maschi"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una società, da lunedì",
+          "id": "cosa-puo-fare-una-societa-da-lunedi"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2821,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
+    },
+    {
+      "slug": "commozione-cerebrale-giovani-atlete",
+      "lang": "en",
+      "title": "Concussion in young female athletes: more common, less often spotted (and what to do in the first minutes)",
+      "seoTitle": "Concussion in young female athletes: what to do",
+      "seoDescription": "In school soccer, girls sustain 1.88 times the concussions of boys. How to recognise one on the sideline and what to do in the first minutes.",
+      "date": "2026-07-24",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22 — and 60% of events are never reported to any adult. Neither a visible blow to the head nor loss of consciousness is required: the data, the sideline signs in the first minutes, and what the international guidelines actually say.",
+      "answer": "Female athletes sustain more concussions and report fewer: in high-school football (soccer) the risk is 1.88 times that of male peers (Bretzin et al., 2021), and 60% of events had not been reported to any adult (Register-Mihalik et al., 2013). On suspicion the athlete must come off immediately: those who stay on recover in 44.4 days against 22.0 (Elbin et al., 2016).",
+      "cover": "/fotobab/cover-commozione-cerebrale.jpg",
+      "coverAlt": "A football resting on the touchline of an empty grass pitch, with the goal and low sun in the background",
+      "tags": [
+        "concussion",
+        "return-to-play",
+        "prevention"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Do girls sustain more concussions than boys?",
+          "id": "do-girls-sustain-more-concussions-than-boys"
+        },
+        {
+          "level": 2,
+          "text": "Where does the hit that concusses girls come from?",
+          "id": "where-does-the-hit-that-concusses-girls-come-from"
+        },
+        {
+          "level": 2,
+          "text": "What happens if she keeps playing after a blow to the head?",
+          "id": "what-happens-if-she-keeps-playing-after-a-blow-to-the-head"
+        },
+        {
+          "level": 2,
+          "text": "How often does nobody find out?",
+          "id": "how-often-does-nobody-find-out"
+        },
+        {
+          "level": 2,
+          "text": "How do you recognise a concussion on the sideline?",
+          "id": "how-do-you-recognise-a-concussion-on-the-sideline"
+        },
+        {
+          "level": 2,
+          "text": "How much rest does a concussion need?",
+          "id": "how-much-rest-does-a-concussion-need"
+        },
+        {
+          "level": 2,
+          "text": "Do female athletes recover more slowly?",
+          "id": "do-female-athletes-recover-more-slowly"
+        },
+        {
+          "level": 2,
+          "text": "The blind spot: guidelines built 80% on males",
+          "id": "the-blind-spot-guidelines-built-80-on-males"
+        },
+        {
+          "level": 2,
+          "text": "What a club can do, starting Monday",
+          "id": "what-a-club-can-do-starting-monday"
+        },
+        {
+          "level": 2,
+          "text": "Where BAB fits",
+          "id": "where-bab-fits"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2687,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
+    },
+    {
+      "slug": "perdite-urina-giovani-atlete",
+      "lang": "it",
+      "title": "Perdo urina quando salto: il sintomo di cui quasi nessuna atleta parla",
+      "seoTitle": "Perdite di urina nello sport: quanto è comune",
+      "seoDescription": "",
+      "date": "2026-07-22",
+      "updated": "2026-08-13",
+      "author": "Sajid Hossain",
+      "excerpt": "Perdere urina saltando o atterrando riguarda in media il 48,6% delle atlete adolescenti, e l'80% nel trampolino elastico. Eppure l'87% dice che non ne parlerebbe con il proprio allenatore. È frequente, ma frequente non vuol dire normale: cosa dicono i dati sulle ragazze di 13-17 anni, perché non è colpa loro, e cosa può fare una società senza medicalizzare nulla.",
+      "answer": "È frequente ma non fisiologico, e quasi nessuna ne parla: tra le atlete adolescenti la prevalenza media è del 48,58%, fino all'80% nel trampolino elastico, e l'87% non ne parlerebbe con l'allenatore (Rial Rebullido et al., 2021). Non è qualcosa da sopportare: è un sintomo del pavimento pelvico, con percorsi di riabilitazione documentati (su popolazione adulta).",
+      "cover": "/fotobab/cover-pavimento-pelvico.jpg",
+      "coverAlt": "Palestra sportiva al coperto vuota vista dall'alto: pavimento verde con linee di gioco, tribune in legno chiaro lungo un lato, nessuna persona presente",
+      "tags": [
+        "pavimento-pelvico",
+        "incontinenza",
+        "drop-out"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quante giovani atlete perdono urina durante lo sport?",
+          "id": "quante-giovani-atlete-perdono-urina-durante-lo-sport"
+        },
+        {
+          "level": 2,
+          "text": "Se succede a quasi una su due, allora è normale?",
+          "id": "se-succede-a-quasi-una-su-due-allora-e-normale"
+        },
+        {
+          "level": 2,
+          "text": "Quanto costa davvero, in allenamenti?",
+          "id": "quanto-costa-davvero-in-allenamenti"
+        },
+        {
+          "level": 2,
+          "text": "Quante ragazze ne parlano con qualcuno?",
+          "id": "quante-ragazze-ne-parlano-con-qualcuno"
+        },
+        {
+          "level": 2,
+          "text": "Si può fare qualcosa? Cosa dice l'evidenza (e cosa non dice)",
+          "id": "si-puo-fare-qualcosa-cosa-dice-levidenza-e-cosa-non-dice"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una società sportiva, senza medicalizzare nulla",
+          "id": "cosa-puo-fare-una-societa-sportiva-senza-medicalizzare-nulla"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 1926,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "perdite-urina-giovani-atlete",
+      "lang": "en",
+      "title": "I leak when I jump: the symptom almost no young athlete talks about",
+      "seoTitle": "Urinary leakage in sport: how common it is",
+      "seoDescription": "",
+      "date": "2026-07-22",
+      "updated": "2026-08-13",
+      "author": "Sajid Hossain",
+      "excerpt": "Leaking urine when jumping or landing affects on average 48.6% of adolescent female athletes, and 80% in trampolining. Yet 87% say they would not mention it to their coach. It is common, but common does not mean normal: what the data say about girls aged 13-17, why it is not their fault, and what a club can do without medicalising anything.",
+      "answer": "It is common but not physiological, and almost nobody talks about it: among adolescent female athletes the mean prevalence is 48.58%, rising to 80% in trampolining, and 87% would not mention it to their coach (Rial Rebullido et al., 2021). It is not something to endure: it is a pelvic floor symptom, with documented rehabilitation pathways (in adult populations).",
+      "cover": "/fotobab/cover-pavimento-pelvico.jpg",
+      "coverAlt": "Empty indoor sports hall seen from above: green floor with painted game lines, light wooden stands along one side, no people present",
+      "tags": [
+        "pavimento-pelvico",
+        "incontinenza",
+        "drop-out"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How many young female athletes leak urine during sport?",
+          "id": "how-many-young-female-athletes-leak-urine-during-sport"
+        },
+        {
+          "level": 2,
+          "text": "If it happens to nearly one in two, is it normal?",
+          "id": "if-it-happens-to-nearly-one-in-two-is-it-normal"
+        },
+        {
+          "level": 2,
+          "text": "What does it actually cost, in training sessions?",
+          "id": "what-does-it-actually-cost-in-training-sessions"
+        },
+        {
+          "level": 2,
+          "text": "How many girls talk to anyone about it?",
+          "id": "how-many-girls-talk-to-anyone-about-it"
+        },
+        {
+          "level": 2,
+          "text": "Can anything be done? What the evidence says (and what it does not)",
+          "id": "can-anything-be-done-what-the-evidence-says-and-what-it"
+        },
+        {
+          "level": 2,
+          "text": "What a club can do, without medicalising anything",
+          "id": "what-a-club-can-do-without-medicalising-anything"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 1899,
+      "readingMinutes": 9,
+      "timeRequired": "PT9M"
+    },
+    {
+      "slug": "crociato-giovani-atlete",
+      "lang": "it",
+      "title": "Crociato e giovani atlete: perché il rischio è più alto, e i 20 minuti che lo dimezzano",
+      "seoTitle": "Crociato nelle giovani atlete: rischio e prevenzione",
+      "seoDescription": "",
+      "date": "2026-07-21",
+      "updated": "2026-08-16",
+      "author": "Sajid Hossain",
+      "excerpt": "Nello sport scolastico le ragazze si rompono il crociato 1,4 volte più dei coetanei maschi — a basket oltre quattro volte tanto. Esiste un riscaldamento neuromuscolare che nelle atlete di 13-19 anni riduce il rischio di circa il 60%, costa venti minuti due volte a settimana e quasi nessuna squadra lo fa davvero. I dati, e cosa cambia lunedì in palestra.",
+      "answer": "Perché il divario si apre con la pubertà, non con il livello: nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei maschi, fino a 4,14 volte nel basket (Bram et al., 2021). Venti minuti di allenamento neuromuscolare due volte a settimana riducono il rischio di circa il 60% tra le atlete di 13-19 anni (Petushek et al., 2019).",
+      "cover": "/fotobab/cover-crociato-atlete.jpg",
+      "coverAlt": "Palestra vuota con parquet da basket, tribune blu e canestri alle due estremità",
+      "tags": [
+        "crociato",
+        "prevenzione",
+        "pubertà"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Le ragazze si rompono il crociato più dei ragazzi?",
+          "id": "le-ragazze-si-rompono-il-crociato-piu-dei-ragazzi"
+        },
+        {
+          "level": 2,
+          "text": "Perché il divario si apre proprio in pubertà",
+          "id": "perche-il-divario-si-apre-proprio-in-puberta"
+        },
+        {
+          "level": 2,
+          "text": "Si può davvero prevenire? Cosa dicono i numeri",
+          "id": "si-puo-davvero-prevenire-cosa-dicono-i-numeri"
+        },
+        {
+          "level": 2,
+          "text": "Quanti minuti servono davvero?",
+          "id": "quanti-minuti-servono-davvero"
+        },
+        {
+          "level": 2,
+          "text": "Se funziona così bene, perché quasi nessuno lo fa?",
+          "id": "se-funziona-cosi-bene-perche-quasi-nessuno-lo-fa"
+        },
+        {
+          "level": 2,
+          "text": "Il ciclo mestruale c'entra qualcosa?",
+          "id": "il-ciclo-mestruale-centra-qualcosa"
+        },
+        {
+          "level": 2,
+          "text": "Cosa succede dopo, a 15 anni",
+          "id": "cosa-succede-dopo-a-15-anni"
+        },
+        {
+          "level": 2,
+          "text": "Non tutti i ginocchi che fanno male sono crociati",
+          "id": "non-tutti-i-ginocchi-che-fanno-male-sono-crociati"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una società, da lunedì",
+          "id": "cosa-puo-fare-una-societa-da-lunedi"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2846,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
+    },
+    {
+      "slug": "crociato-giovani-atlete",
+      "lang": "en",
+      "title": "ACL injuries in young female athletes: why the risk is higher, and the 20 minutes that halve it",
+      "seoTitle": "ACL injuries in young female athletes",
+      "seoDescription": "",
+      "date": "2026-07-21",
+      "updated": "2026-08-16",
+      "author": "Sajid Hossain",
+      "excerpt": "In high-school sport, girls tear their ACL 1.4 times as often as boys — and over four times as often in basketball. A neuromuscular warm-up cuts that risk by roughly 60% in 13-19 year-old athletes, costs twenty minutes twice a week, and almost no team actually does it. The evidence, and what changes on Monday.",
+      "answer": "Because the gap opens with puberty, not with playing level: in high-school sport girls sustain 1.40 times the ACL ruptures of male peers, and up to 4.14 times in basketball (Bram et al., 2021). Twenty minutes of neuromuscular training twice a week cuts the risk by roughly 60% among athletes aged 13-19 (Petushek et al., 2019).",
+      "cover": "/fotobab/cover-crociato-atlete.jpg",
+      "coverAlt": "An empty indoor gymnasium with a polished wooden basketball court, blue bleachers and hoops at both ends",
+      "tags": [
+        "acl",
+        "prevention",
+        "puberty"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Do girls tear their ACL more often than boys?",
+          "id": "do-girls-tear-their-acl-more-often-than-boys"
+        },
+        {
+          "level": 2,
+          "text": "Why the gap opens at puberty",
+          "id": "why-the-gap-opens-at-puberty"
+        },
+        {
+          "level": 2,
+          "text": "Can it really be prevented? What the numbers say",
+          "id": "can-it-really-be-prevented-what-the-numbers-say"
+        },
+        {
+          "level": 2,
+          "text": "How many minutes does it actually take?",
+          "id": "how-many-minutes-does-it-actually-take"
+        },
+        {
+          "level": 2,
+          "text": "If it works this well, why does almost nobody do it?",
+          "id": "if-it-works-this-well-why-does-almost-nobody-do-it"
+        },
+        {
+          "level": 2,
+          "text": "Does the menstrual cycle have anything to do with it?",
+          "id": "does-the-menstrual-cycle-have-anything-to-do-with-it"
+        },
+        {
+          "level": 2,
+          "text": "What happens afterwards, at 15",
+          "id": "what-happens-afterwards-at-15"
+        },
+        {
+          "level": 2,
+          "text": "Not every painful knee is an ACL",
+          "id": "not-every-painful-knee-is-an-acl"
+        },
+        {
+          "level": 2,
+          "text": "What a club can do, starting Monday",
+          "id": "what-a-club-can-do-starting-monday"
+        },
+        {
+          "level": 2,
+          "text": "Where BAB fits",
+          "id": "where-bab-fits"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2720,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
+    },
+    {
+      "slug": "sonno-atlete-adolescenti",
+      "lang": "it",
+      "title": "Sonno e atlete adolescenti: perché 8 ore non sono un lusso (e la pubertà le rende più difficili)",
+      "seoTitle": "Sonno e atlete adolescenti: quante ore servono",
+      "seoDescription": "",
+      "date": "2026-07-18",
+      "updated": "2026-08-13",
+      "author": "Sajid Hossain",
+      "excerpt": "Quante ore deve dormire un'atleta di 14 anni? Tra 8 e 10, dice la raccomandazione di consenso per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato, e con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2% — contro il 4,3%-9,1% dei ragazzi, perché l'orologio biologico slitta in avanti mentre la sveglia della scuola resta la stessa. Cosa dicono davvero i dati, cosa non dicono, e cosa può cambiare una società sportiva già da lunedì.",
+      "answer": "Perché a 13-18 anni ne servono 8-10 per notte (Paruthi et al., 2016) e dormirne meno di 8 si associa a essere infortunati 1,7 volte più spesso (Milewski et al., 2014). Con la pubertà l'orologio biologico slitta in avanti: il bisogno di sonno non cala, cambia l'ora in cui il corpo riesce ad addormentarsi.",
+      "cover": "/fotobab/cover-sonno-atlete.jpg",
+      "coverAlt": "Camera da letto luminosa e ordinata all'alba, con letto disfatto e coperte scomposte, lampada da comodino accesa e luce naturale che entra dalla finestra; nessuna persona inquadrata",
+      "tags": [
+        "sonno",
+        "ritmo-circadiano",
+        "tanner",
+        "pubertà"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quante ore servono davvero a 13-18 anni?",
+          "id": "quante-ore-servono-davvero-a-13-18-anni"
+        },
+        {
+          "level": 2,
+          "text": "Dormire poco fa infortunare di più?",
+          "id": "dormire-poco-fa-infortunare-di-piu"
+        },
+        {
+          "level": 2,
+          "text": "Perché in pubertà diventa più difficile addormentarsi presto?",
+          "id": "perche-in-puberta-diventa-piu-difficile-addormentarsi-presto"
+        },
+        {
+          "level": 2,
+          "text": "Il divario che si apre tra ragazze e ragazzi",
+          "id": "il-divario-che-si-apre-tra-ragazze-e-ragazzi"
+        },
+        {
+          "level": 2,
+          "text": "Dormire di più migliora davvero la prestazione sportiva?",
+          "id": "dormire-di-piu-migliora-davvero-la-prestazione-sportiva"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una società sportiva per il sonno delle atlete?",
+          "id": "cosa-puo-fare-una-societa-sportiva-per-il-sonno-delle-atlete"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2042,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "sonno-atlete-adolescenti",
+      "lang": "en",
+      "title": "Sleep and teenage athletes: why 8 hours isn't a luxury (and puberty makes them harder to get)",
+      "seoTitle": "Sleep and teenage athletes: how many hours",
+      "seoDescription": "",
+      "date": "2026-07-18",
+      "updated": "2026-08-13",
+      "author": "Sajid Hossain",
+      "excerpt": "How many hours should a 14-year-old athlete sleep? Between 8 and 10, says the consensus recommendation for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured, and through puberty insomnia symptoms in girls climb from 3.4% to 12.2% — against 4.3%-9.1% in boys, because the body clock shifts later while the school alarm stays put. What the evidence says, what it does not, and what a club can change from Monday.",
+      "answer": "Because at 13-18 you need 8-10 hours a night (Paruthi et al., 2016), and sleeping fewer than 8 is associated with being injured 1.7 times as often (Milewski et al., 2014). With puberty the biological clock shifts later: the need for sleep does not fall, what changes is the hour at which the body can fall asleep.",
+      "cover": "/fotobab/cover-sonno-atlete.jpg",
+      "coverAlt": "A bright, tidy bedroom at dawn, with an unmade bed and rumpled covers, a lit bedside lamp and natural light coming through the window; no people in frame",
+      "tags": [
+        "sleep",
+        "circadian-rhythm",
+        "tanner-stages",
+        "puberty",
+        "puberty"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How many hours are actually needed at 13-18?",
+          "id": "how-many-hours-are-actually-needed-at-13-18"
+        },
+        {
+          "level": 2,
+          "text": "Does short sleep really cause more injuries?",
+          "id": "does-short-sleep-really-cause-more-injuries"
+        },
+        {
+          "level": 2,
+          "text": "Why does falling asleep early get harder at puberty?",
+          "id": "why-does-falling-asleep-early-get-harder-at-puberty"
+        },
+        {
+          "level": 2,
+          "text": "The gap that opens between girls and boys",
+          "id": "the-gap-that-opens-between-girls-and-boys"
+        },
+        {
+          "level": 2,
+          "text": "Does sleeping more actually improve sporting performance?",
+          "id": "does-sleeping-more-actually-improve-sporting-performance"
+        },
+        {
+          "level": 2,
+          "text": "What can a club actually do about athletes' sleep?",
+          "id": "what-can-a-club-actually-do-about-athletes-sleep"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 1938,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "ferro-atlete-adolescenti",
+      "lang": "it",
+      "title": "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e che si trova con un esame)",
+      "seoTitle": "Ferro basso nelle atlete adolescenti: come si trova",
+      "seoDescription": "",
+      "date": "2026-07-16",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli.",
+      "answer": "Con un esame del sangue, non a intuito: il 53,2% delle atlete adolescenti ha una carenza di ferro lieve (ferritina ≤30 µg/L), mentre l'anemia sideropenica riguarda solo il 4% (Nicotra et al., 2023). Lo sport non è il fattore dominante — tra le adolescenti, atlete e non atlete non differiscono in modo significativo — e integrare senza aver misurato non è una buona idea.",
+      "cover": "/fotobab/cover-ferro-atlete.jpg",
+      "coverAlt": "Tre varietà di lenticchie — verdi, rosse e nere — disposte in strisce affiancate su un piano grigio: legumi tra le fonti alimentari di ferro",
+      "tags": [
+        "ferro",
+        "ferritina",
+        "salute",
+        "pubertà",
+        "energia"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Cos'è la carenza di ferro senza anemia, e perché l'emocromo non la vede?",
+          "id": "cose-la-carenza-di-ferro-senza-anemia-e-perche-lemocromo"
+        },
+        {
+          "level": 2,
+          "text": "È lo sport a causare la carenza di ferro nelle adolescenti?",
+          "id": "e-lo-sport-a-causare-la-carenza-di-ferro-nelle-adolescenti"
+        },
+        {
+          "level": 2,
+          "text": "Quali atlete adolescenti sono più a rischio di carenza di ferro?",
+          "id": "quali-atlete-adolescenti-sono-piu-a-rischio-di-carenza-di"
+        },
+        {
+          "level": 2,
+          "text": "«È sempre stanca»: quando la stanchezza è ferro basso e quando è altro?",
+          "id": "e-sempre-stanca-quando-la-stanchezza-e-ferro-basso-e-quando"
+        },
+        {
+          "level": 2,
+          "text": "Cosa raccomandano oggi le linee guida sullo screening del ferro?",
+          "id": "cosa-raccomandano-oggi-le-linee-guida-sullo-screening-del"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare chi sta intorno all'atleta, da lunedì?",
+          "id": "cosa-puo-fare-chi-sta-intorno-allatleta-da-lunedi"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 1953,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "ferro-atlete-adolescenti",
+      "lang": "en",
+      "title": "Low iron in teenage athletes: the deficiency nobody looks for (and a blood test finds)",
+      "seoTitle": "Low iron in teenage athletes: how it is found",
+      "seoDescription": "",
+      "date": "2026-07-16",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone.",
+      "answer": "With a blood test, not by intuition: 53.2% of adolescent female athletes have mild iron deficiency (ferritin ≤30 µg/L), while iron-deficiency anaemia affects only 4% (Nicotra et al., 2023). Sport is not the dominant factor — among adolescents, athletes and non-athletes do not differ significantly — and supplementing without measuring first is not a good idea.",
+      "cover": "/fotobab/cover-ferro-atlete.jpg",
+      "coverAlt": "Three varieties of lentils — green, red and black — laid out in stripes on a grey surface: pulses among the dietary sources of iron",
+      "tags": [
+        "iron",
+        "health",
+        "puberty",
+        "energy-availability"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is iron deficiency without anaemia, and why doesn't a full blood count show it?",
+          "id": "what-is-iron-deficiency-without-anaemia-and-why-doesnt-a"
+        },
+        {
+          "level": 2,
+          "text": "Does sport cause iron deficiency in adolescent girls?",
+          "id": "does-sport-cause-iron-deficiency-in-adolescent-girls"
+        },
+        {
+          "level": 2,
+          "text": "Which adolescent athletes are most at risk of iron deficiency?",
+          "id": "which-adolescent-athletes-are-most-at-risk-of-iron"
+        },
+        {
+          "level": 2,
+          "text": "&quot;She's always tired&quot;: when is tiredness low iron, and when is it something else?",
+          "id": "quot-shes-always-tired-quot-when-is-tiredness-low-iron-and"
+        },
+        {
+          "level": 2,
+          "text": "What do the guidelines now recommend about iron screening?",
+          "id": "what-do-the-guidelines-now-recommend-about-iron-screening"
+        },
+        {
+          "level": 2,
+          "text": "What can the people around the athlete do, starting Monday?",
+          "id": "what-can-the-people-around-the-athlete-do-starting-monday"
+        },
+        {
+          "level": 2,
+          "text": "Where BAB fits",
+          "id": "where-bab-fits"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 1842,
+      "readingMinutes": 9,
+      "timeRequired": "PT9M"
+    },
+    {
+      "slug": "dolore-in-puberta-neuroscienza",
+      "lang": "it",
+      "title": "Il dolore cambia in pubertà: cosa dice la neuroscienza (e perché non sono 'scuse')",
+      "seoTitle": "Il dolore in pubertà: cosa dice la neuroscienza",
+      "seoDescription": "In pubertà il dolore clinico aumenta davvero, soprattutto nelle ragazze. Cosa dice la neuroscienza e perché «sta esagerando» è la risposta sbagliata.",
+      "date": "2026-07-11",
+      "updated": "2026-08-13",
+      "author": "Sajid Hossain",
+      "excerpt": "In pubertà il dolore clinico aumenta davvero: il dolore addominale sale a quasi il 30% nelle ragazze contro il 16% nei ragazzi, e il dolore mestruale riguarda il 71,1% delle giovani donne — il 20,1% salta scuola per questo. Non è fragilità né teatro: è una fase dello sviluppo documentata dalle neuroscienze. Cosa succede a 13-14 anni, come distinguere un dolore da osservare da uno da far vedere a un medico, e perché conta per chi allena e per chi cresce una figlia.",
+      "answer": "Perché in pubertà i meccanismi del dolore si riorganizzano: il dolore sperimentale tende a diminuire mentre quello clinico — mal di testa, dolore addominale, dismenorrea — aumenta (Nahman-Averbuch et al., 2023). Le differenze tra ragazze e ragazzi emergono in adolescenza e non prima: è fisiologia, non carattere, e va trattata come informazione.",
+      "cover": "/fotobab/cover-dolore-puberta.jpg",
+      "coverAlt": "Primo piano delle corsie bianche di una pista di atletica rossa, vuota",
+      "tags": [
+        "dolore",
+        "pubertà",
+        "fisiologia"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Se la tolleranza al dolore migliora, perché una ragazza ha più mal di pancia?",
+          "id": "se-la-tolleranza-al-dolore-migliora-perche-una-ragazza-ha"
+        },
+        {
+          "level": 2,
+          "text": "Le ragazze sentono più dolore dei ragazzi?",
+          "id": "le-ragazze-sentono-piu-dolore-dei-ragazzi"
+        },
+        {
+          "level": 2,
+          "text": "Il menarca precoce lascia un'impronta sul dolore?",
+          "id": "il-menarca-precoce-lascia-unimpronta-sul-dolore"
+        },
+        {
+          "level": 2,
+          "text": "E il mal di schiena? Rientra in questo quadro o è un'altra cosa?",
+          "id": "e-il-mal-di-schiena-rientra-in-questo-quadro-o-e-unaltra"
+        },
+        {
+          "level": 2,
+          "text": "Quanto è diffuso il dolore mestruale, e quanto costa davvero?",
+          "id": "quanto-e-diffuso-il-dolore-mestruale-e-quanto-costa-davvero"
+        },
+        {
+          "level": 2,
+          "text": "Se c'entrano anche fattori psicologici, allora &quot;è nella sua testa&quot;?",
+          "id": "se-centrano-anche-fattori-psicologici-allora-quot-e-nella"
+        },
+        {
+          "level": 2,
+          "text": "Cosa cambia per chi allena e per chi cresce una figlia",
+          "id": "cosa-cambia-per-chi-allena-e-per-chi-cresce-una-figlia"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2183,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
+    },
+    {
+      "slug": "dolore-in-puberta-neuroscienza",
+      "lang": "en",
+      "title": "Pain changes at puberty: what neuroscience says (and why it isn't 'being dramatic')",
+      "seoTitle": "Pain at puberty: what neuroscience says",
+      "seoDescription": "Clinical pain really does increase at puberty, especially in girls. What neuroscience says, and why 'she's being dramatic' is the wrong answer.",
+      "date": "2026-07-11",
+      "updated": "2026-08-13",
+      "author": "Sajid Hossain",
+      "excerpt": "During puberty clinical pain genuinely increases: abdominal pain rises to nearly 30% in girls versus 16% in boys, and period pain affects 71.1% of young women — 20.1% miss school because of it. It isn't fragility or theatre: it's a developmental stage documented by neuroscience. What happens at 13-14, how to tell pain worth watching from pain that needs a doctor, and why it matters for coaches and parents.",
+      "answer": "Because pain mechanisms reorganise during puberty: experimental pain tends to decrease while clinical pain — headache, abdominal pain, dysmenorrhoea — increases (Nahman-Averbuch et al., 2023). Differences between girls and boys emerge in adolescence and not before: this is physiology, not character, and it should be treated as information.",
+      "cover": "/fotobab/cover-dolore-puberta.jpg",
+      "coverAlt": "Close-up of the white lane lines on an empty red athletics track",
+      "tags": [
+        "pain",
+        "puberty",
+        "physiology"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "If pain tolerance improves, why does a girl get more stomach aches?",
+          "id": "if-pain-tolerance-improves-why-does-a-girl-get-more-stomach"
+        },
+        {
+          "level": 2,
+          "text": "Do girls feel more pain than boys?",
+          "id": "do-girls-feel-more-pain-than-boys"
+        },
+        {
+          "level": 2,
+          "text": "Does early menarche leave a mark on pain?",
+          "id": "does-early-menarche-leave-a-mark-on-pain"
+        },
+        {
+          "level": 2,
+          "text": "What about back pain? Does it fit this picture, or is it something else?",
+          "id": "what-about-back-pain-does-it-fit-this-picture-or-is-it"
+        },
+        {
+          "level": 2,
+          "text": "How common is period pain, and what does it actually cost?",
+          "id": "how-common-is-period-pain-and-what-does-it-actually-cost"
+        },
+        {
+          "level": 2,
+          "text": "If psychological factors are involved, does that mean it is &quot;in her head&quot;?",
+          "id": "if-psychological-factors-are-involved-does-that-mean-it-is"
+        },
+        {
+          "level": 2,
+          "text": "What changes for coaches and parents",
+          "id": "what-changes-for-coaches-and-parents"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2094,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "parole-allenatore-salute-atlete",
+      "lang": "it",
+      "title": "Le parole dell'allenatore: come la cultura e il linguaggio dello staff cambiano la salute delle atlete",
+      "seoTitle": "Le parole dell'allenatore e la salute delle atlete",
+      "seoDescription": "Le parole dell'allenatore cambiano la salute delle atlete: cosa sapere e cosa non dire mai, dai dati su 1.086 atlete in 57 sport.",
+      "date": "2026-07-09",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Cosa dovrebbe sapere — e cosa è meglio non dire mai — chi allena ragazze adolescenti. Le atlete che percepiscono il proprio allenatore come molto informato riportano il 36% di sintomi di RED-S in meno; chi ha ricevuto commenti sul proprio corpo è quattro volte più propensa a modificare l'alimentazione (33% contro 7%). Il linguaggio dello staff non è un contorno neutro dell'allenamento: è una variabile di salute misurabile. I dati, i limiti, e cosa farne domani in palestra.",
+      "answer": "Più di quanto sembri, e si misura: un allenatore percepito come molto informato si associa a 3,2 sintomi di RED-S in media contro 4,3, cioè il 36% in meno, mentre i commenti sul corpo che mettono a disagio si associano a quattro volte più probabilità di modificare l'alimentazione (Female Athlete Health Report, 2023 — campione adulto, non peer-reviewed).",
+      "cover": "/fotobab/Lk1n229r5pBnV0VjfyxuaNksAM8.avif",
+      "coverAlt": "Squadra di giovani calciatrici in tenuta da gara, strette in cerchio e abbracciate per le spalle, che esultano insieme su un campo in erba",
+      "tags": [
+        "coach",
+        "educazione",
+        "red-s"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quanto conta davvero quello che un allenatore sa?",
+          "id": "quanto-conta-davvero-quello-che-un-allenatore-sa"
+        },
+        {
+          "level": 2,
+          "text": "Un commento sul corpo può cambiare come mangia un'atleta?",
+          "id": "un-commento-sul-corpo-puo-cambiare-come-mangia-unatleta"
+        },
+        {
+          "level": 2,
+          "text": "Il paradosso: chi dovrebbe sapere, spesso non sa",
+          "id": "il-paradosso-chi-dovrebbe-sapere-spesso-non-sa"
+        },
+        {
+          "level": 2,
+          "text": "Vale anche a 13-14 anni?",
+          "id": "vale-anche-a-13-14-anni"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare lo staff, concretamente",
+          "id": "cosa-puo-fare-lo-staff-concretamente"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2004,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "parole-allenatore-salute-atlete",
+      "lang": "en",
+      "title": "A coach's words: how staff knowledge and language change athletes' health",
+      "seoTitle": "A coach's words and young athletes' health",
+      "seoDescription": "A coach's words change athletes' health: what to know and what never to say, from data on 1,086 athletes across 57 sports.",
+      "date": "2026-07-09",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "What a coach of adolescent girls should know — and what is better never said. Athletes who perceive their coach as very knowledgeable report 36% fewer RED-S symptoms; those who have received comments about their body are four times more likely to change how they eat (33% vs 7%). Staff language is not a neutral backdrop to training: it is a measurable health variable. The data, the limits, and what to do with it tomorrow in the gym.",
+      "answer": "More than it seems, and it is measurable: a coach perceived as very well-informed is associated with 3.2 RED-S symptoms on average against 4.3 — 36% fewer — while comments about the body that make athletes uncomfortable are associated with four times the odds of changing their eating (Female Athlete Health Report, 2023 — adult sample, not peer-reviewed).",
+      "cover": "/fotobab/Lk1n229r5pBnV0VjfyxuaNksAM8.avif",
+      "coverAlt": "A team of young female footballers in match kit, arms around each other's shoulders in a tight huddle, celebrating together on a grass pitch",
+      "tags": [
+        "coaching",
+        "education",
+        "red-s"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How much does what a coach knows actually matter?",
+          "id": "how-much-does-what-a-coach-knows-actually-matter"
+        },
+        {
+          "level": 2,
+          "text": "Can a comment about an athlete's body change how she eats?",
+          "id": "can-a-comment-about-an-athletes-body-change-how-she-eats"
+        },
+        {
+          "level": 2,
+          "text": "The paradox: those who should know, often don't",
+          "id": "the-paradox-those-who-should-know-often-dont"
+        },
+        {
+          "level": 2,
+          "text": "Does it also apply at 13-14?",
+          "id": "does-it-also-apply-at-13-14"
+        },
+        {
+          "level": 2,
+          "text": "What staff can do, concretely",
+          "id": "what-staff-can-do-concretely"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 1946,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "red-s-bassa-disponibilita-energetica",
+      "lang": "it",
+      "title": "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)",
+      "seoTitle": "RED-S nelle atlete: cos'è, sintomi e primi segnali",
+      "seoDescription": "RED-S: quando l'energia non copre allenamento e crescita. Sintomi, primi segnali e perché un ciclo che sparisce non è mai un buon segno.",
+      "date": "2026-07-04",
+      "updated": "2026-08-19",
+      "author": "Sajid Hossain",
+      "excerpt": "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica.",
+      "answer": "Quando l'energia introdotta non copre quella spesa tra allenamento e crescita: è la bassa disponibilità energetica alla base della RED-S. Non serve un disturbo alimentare, può accadere senza intenzione, e i primi segnali sono un ciclo che si dirada, infortuni ripetuti, sonno e umore peggiori — eppure il 44% delle atlete adolescenti crede che perdere il ciclo sia normale (Armento et al., 2021).",
+      "cover": "/fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif",
+      "coverAlt": "Giovane atleta con felpa bianca e fascia tra i capelli che si allunga le braccia sopra la testa su una pista di atletica",
+      "tags": [
+        "salute",
+        "energia",
+        "performance",
+        "red-s",
+        "amenorrea",
+        "triade-atleta"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Che differenza c'è tra Triade dell'atleta femminile e RED-S?",
+          "id": "che-differenza-ce-tra-triade-dellatleta-femminile-e-red-s"
+        },
+        {
+          "level": 2,
+          "text": "Cosa significa &quot;bassa disponibilità energetica&quot;?",
+          "id": "cosa-significa-quot-bassa-disponibilita-energetica-quot"
+        },
+        {
+          "level": 2,
+          "text": "Perché le atlete adolescenti sono più esposte alla RED-S?",
+          "id": "perche-le-atlete-adolescenti-sono-piu-esposte-alla-red-s"
+        },
+        {
+          "level": 2,
+          "text": "Quali sono i segnali della RED-S da conoscere?",
+          "id": "quali-sono-i-segnali-della-red-s-da-conoscere"
+        },
+        {
+          "level": 2,
+          "text": "Come si valuta il rischio di RED-S, e chi lo fa?",
+          "id": "come-si-valuta-il-rischio-di-red-s-e-chi-lo-fa"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare concretamente chi sta intorno all'atleta?",
+          "id": "cosa-puo-fare-concretamente-chi-sta-intorno-allatleta"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 1506,
+      "readingMinutes": 8,
+      "timeRequired": "PT8M"
+    },
+    {
+      "slug": "red-s-bassa-disponibilita-energetica",
+      "lang": "en",
+      "title": "RED-S: when training more does harm (and how to catch it early)",
+      "seoTitle": "RED-S in female athletes: signs and symptoms",
+      "seoDescription": "RED-S: when energy intake doesn't cover training and growth. Symptoms, early signs, and why a disappearing period is never a good sign.",
+      "date": "2026-07-04",
+      "updated": "2026-08-19",
+      "author": "Sajid Hossain",
+      "excerpt": "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed.",
+      "answer": "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021).",
+      "cover": "/fotobab/XydzloXdRL8J9FrMqXFFS5kLMs.avif",
+      "coverAlt": "A young athlete in a white sweatshirt and headband stretching her arms overhead on an athletics track",
+      "tags": [
+        "health",
+        "energy",
+        "performance",
+        "red-s",
+        "amenorrhoea",
+        "triade-atleta"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is the difference between the Female Athlete Triad and RED-S?",
+          "id": "what-is-the-difference-between-the-female-athlete-triad-and"
+        },
+        {
+          "level": 2,
+          "text": "What does &quot;low energy availability&quot; mean?",
+          "id": "what-does-quot-low-energy-availability-quot-mean"
+        },
+        {
+          "level": 2,
+          "text": "Why are teenage female athletes more exposed to RED-S?",
+          "id": "why-are-teenage-female-athletes-more-exposed-to-red-s"
+        },
+        {
+          "level": 2,
+          "text": "What are the signs of RED-S to know?",
+          "id": "what-are-the-signs-of-red-s-to-know"
+        },
+        {
+          "level": 2,
+          "text": "How is RED-S risk assessed, and by whom?",
+          "id": "how-is-red-s-risk-assessed-and-by-whom"
+        },
+        {
+          "level": 2,
+          "text": "What can the people around the athlete actually do?",
+          "id": "what-can-the-people-around-the-athlete-actually-do"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 1458,
+      "readingMinutes": 7,
+      "timeRequired": "PT7M"
+    },
+    {
+      "slug": "parlare-di-ciclo-con-allenatore",
+      "lang": "it",
+      "title": "Parlare di ciclo con l'allenatore: perché lo fa solo l'11% delle atlete (e come cambiarlo)",
+      "seoTitle": "Parlare del ciclo con l'allenatore: come farlo",
+      "seoDescription": "",
+      "date": "2026-07-03",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: il 4% se è un uomo, il 55% se è una donna. E l'88% ha imparato queste cose da sola. Non è disinteresse: è l'assenza di un canale sicuro. Cosa dicono i dati raccolti su 1.086 atlete in 57 sport, cosa può dire davvero chi allena, cosa rispondere quando un'atleta parla di dolore, e come si apre il canale senza obbligare nessuna a esporsi.",
+      "answer": "Perché quasi nessuno lo ha reso possibile: solo l'11% delle atlete parla di ciclo con chi la allena — 4% se è un uomo, 55% se è una donna — e l'88% ha imparato queste cose da sola (Höök et al., 2022). Non è timidezza: è l'assenza di un canale e di un linguaggio condivisi, e si cambia dal lato dello staff.",
+      "cover": "/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif",
+      "coverAlt": "Ragazza sorridente seduta alla scrivania di camera sua, con cuffie al collo, mentre scrive su un quaderno",
+      "tags": [
+        "educazione",
+        "comunicazione",
+        "ciclo",
+        "amenorrea"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quante atlete parlano di ciclo con il proprio allenatore?",
+          "id": "quante-atlete-parlano-di-ciclo-con-il-proprio-allenatore"
+        },
+        {
+          "level": 2,
+          "text": "Perché un'atleta non parla del ciclo con l'allenatore?",
+          "id": "perche-unatleta-non-parla-del-ciclo-con-lallenatore"
+        },
+        {
+          "level": 2,
+          "text": "Come si apre il canale senza obbligare nessuna a esporsi?",
+          "id": "come-si-apre-il-canale-senza-obbligare-nessuna-a-esporsi"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare un allenatore, da domani, senza sbagliare?",
+          "id": "cosa-puo-fare-un-allenatore-da-domani-senza-sbagliare"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 1440,
+      "readingMinutes": 7,
+      "timeRequired": "PT7M"
+    },
+    {
+      "slug": "parlare-di-ciclo-con-allenatore",
+      "lang": "en",
+      "title": "Talking about periods with your coach: why only 11% of athletes do (and how to change it)",
+      "seoTitle": "Talking about periods with your coach",
+      "seoDescription": "",
+      "date": "2026-07-03",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Only 11% of athletes talk about their menstrual cycle with their coach: 4% if he's a man, 55% if she's a woman. And 88% learned these things on their own. It isn't disinterest: it is the absence of a safe channel. What data from 1,086 athletes across 57 sports show, what coaches can actually say, what to answer when an athlete mentions pain, and how to open the channel without forcing anyone to expose herself.",
+      "answer": "Because almost nobody has made it possible: only 11% of athletes discuss their cycle with the person coaching them — 4% if that person is a man, 55% if a woman — and 88% learned about it on their own (Höök et al., 2022). This is not shyness: it is the absence of a shared channel and language, and it changes from the staff's side.",
+      "cover": "/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif",
+      "coverAlt": "A smiling girl sitting at her desk at home, headphones round her neck, writing in a notebook",
+      "tags": [
+        "education",
+        "communication",
+        "cycle",
+        "amenorrhoea"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How many athletes talk about their cycle with their coach?",
+          "id": "how-many-athletes-talk-about-their-cycle-with-their-coach"
+        },
+        {
+          "level": 2,
+          "text": "Why doesn't an athlete talk about her cycle with her coach?",
+          "id": "why-doesnt-an-athlete-talk-about-her-cycle-with-her-coach"
+        },
+        {
+          "level": 2,
+          "text": "How do you open the channel without forcing anyone to expose herself?",
+          "id": "how-do-you-open-the-channel-without-forcing-anyone-to"
+        },
+        {
+          "level": 2,
+          "text": "What can a coach do tomorrow without getting it wrong?",
+          "id": "what-can-a-coach-do-tomorrow-without-getting-it-wrong"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 1479,
+      "readingMinutes": 7,
+      "timeRequired": "PT7M"
+    },
+    {
+      "slug": "allenare-ragazze-adolescenti",
+      "lang": "it",
+      "title": "Come allenare ragazze adolescenti: 4 leve concrete per coach e società sportive",
+      "seoTitle": "Come allenare ragazze adolescenti: 4 leve concrete",
+      "seoDescription": "",
+      "date": "2026-07-02",
+      "updated": "2026-08-19",
+      "author": "Sajid Hossain",
+      "excerpt": "Tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Allenarle bene significa quattro cose concrete e senza budget: parlare del corpo che cambia, adattare il carico invece di sanzionare il calo, usare solo segnali di squadra anonimi, garantire spazi e continuità. Ecco i dati che sostengono ciascuna leva — e cosa fare quando un'atleta si presenta con dolore.",
+      "answer": "Agendo sull'ambiente, non sulla motivazione della singola: linguaggio non giudicante, segnali di squadra aggregati e anonimi, condizioni pratiche e prevenzione degli infortuni. Un allenatore percepito come molto informato si associa al 36% di sintomi di RED-S in meno nelle sue atlete (Female Athlete Health Report, 2023 — campione adulto, report non peer-reviewed).",
+      "cover": "/fotobab/cover-allenare-ragazze.jpg",
+      "coverAlt": "Campo in erba sintetica con una fila di coni colorati in primo piano e due porte da allenamento sullo sfondo",
+      "tags": [
+        "coach",
+        "società",
+        "pubertà",
+        "prevenzione",
+        "gestione-del-carico"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Perché un'atleta adolescente smette di venire agli allenamenti?",
+          "id": "perche-unatleta-adolescente-smette-di-venire-agli"
+        },
+        {
+          "level": 2,
+          "text": "1. Parla del corpo che cambia (senza imbarazzo)",
+          "id": "1-parla-del-corpo-che-cambia-senza-imbarazzo"
+        },
+        {
+          "level": 2,
+          "text": "2. Adatta il carico, non giudicare il calo",
+          "id": "2-adatta-il-carico-non-giudicare-il-calo"
+        },
+        {
+          "level": 2,
+          "text": "3. Usa segnali di squadra, mai dati individuali",
+          "id": "3-usa-segnali-di-squadra-mai-dati-individuali"
+        },
+        {
+          "level": 2,
+          "text": "4. Crea spazi e continuità",
+          "id": "4-crea-spazi-e-continuita"
+        },
+        {
+          "level": 2,
+          "text": "Un'atleta con dolori mestruali deve saltare l'allenamento?",
+          "id": "unatleta-con-dolori-mestruali-deve-saltare-lallenamento"
+        },
+        {
+          "level": 2,
+          "text": "Perché trattenere le atlete conviene anche alla società?",
+          "id": "perche-trattenere-le-atlete-conviene-anche-alla-societa"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2091,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "reggiseno-sportivo-ragazze",
+      "lang": "it",
+      "title": "Reggiseno sportivo per ragazze: quando serve il primo, come scegliere la taglia",
+      "seoTitle": "Reggiseno sportivo per ragazze: taglia e quando serve",
+      "seoDescription": "",
+      "date": "2026-07-02",
+      "updated": "2026-08-16",
+      "author": "Sajid Hossain",
+      "excerpt": "Il primo reggiseno sportivo serve appena inizia lo sviluppo del seno, non a un'età precisa: il segnale è il corpo, non il calendario. A 13-14 anni una ragazza su due dice che il seno influenza la sua partecipazione allo sport, ma solo una su dieci ne indossa sempre uno — e a non usarlo mai sono più spesso quelle con il seno piccolo. Come capire se la taglia è sbagliata, quando serve la compressione e quando l'incapsulamento, ogni quanto ricontrollare la misura durante la crescita, e perché un opuscolo di educazione in un trial randomizzato ha fatto passare il test di vestibilità al 39% in più delle atlete.",
+      "answer": "Appena inizia lo sviluppo del seno: il segnale è il corpo, non l'età. A 13-14 anni il 51% delle ragazze dice che il seno influenza la partecipazione allo sport, ma solo il 10% ne indossa sempre uno, e a non usarlo mai sono più spesso quelle con il seno piccolo (Scurr et al., 2016). Durante la crescita la taglia va ricontrollata ogni 6-12 mesi.",
+      "cover": "/fotobab/cover-reggiseno-sportivo.jpg",
+      "coverAlt": "Abbigliamento sportivo piegato, pantaloncini neri e canotta a fantasia, appoggiato su un tappetino da yoga",
+      "tags": [
+        "reggiseno-sportivo",
+        "pubertà"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Perché il reggiseno sportivo conta più di quanto sembri?",
+          "id": "perche-il-reggiseno-sportivo-conta-piu-di-quanto-sembri"
+        },
+        {
+          "level": 2,
+          "text": "A che età serve il primo reggiseno sportivo?",
+          "id": "a-che-eta-serve-il-primo-reggiseno-sportivo"
+        },
+        {
+          "level": 2,
+          "text": "Come si capisce se la taglia è giusta?",
+          "id": "come-si-capisce-se-la-taglia-e-giusta"
+        },
+        {
+          "level": 2,
+          "text": "Meglio compressione o incapsulamento?",
+          "id": "meglio-compressione-o-incapsulamento"
+        },
+        {
+          "level": 2,
+          "text": "Il reggiseno sportivo riduce davvero il dolore al seno?",
+          "id": "il-reggiseno-sportivo-riduce-davvero-il-dolore-al-seno"
+        },
+        {
+          "level": 2,
+          "text": "Cosa possono fare allenatori e genitori?",
+          "id": "cosa-possono-fare-allenatori-e-genitori"
+        },
+        {
+          "level": 2,
+          "text": "Basta parlarne per cambiare le abitudini?",
+          "id": "basta-parlarne-per-cambiare-le-abitudini"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 1859,
+      "readingMinutes": 9,
+      "timeRequired": "PT9M"
+    },
+    {
+      "slug": "allenare-ragazze-adolescenti",
+      "lang": "en",
+      "title": "How to coach teenage girls: 4 concrete levers for coaches and sports clubs",
+      "seoTitle": "How to coach teenage girls: 4 concrete levers",
+      "seoDescription": "",
+      "date": "2026-07-02",
+      "updated": "2026-08-19",
+      "author": "Sajid Hossain",
+      "excerpt": "Among girls who join a club aged 10-14, 71% drop out without ever returning, and it is almost never about motivation. Coaching them well means four concrete, budget-free things: talking about the changing body, adjusting the load instead of penalising a dip, using only anonymous team signals, and guaranteeing space and continuity. Here is the evidence behind each lever — and what to do when an athlete turns up in pain.",
+      "answer": "By acting on the environment, not on the individual girl's motivation: non-judgemental language, aggregated and anonymous team signals, practical conditions and injury prevention. A coach perceived as very well-informed is associated with 36% fewer RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample, non-peer-reviewed report).",
+      "cover": "/fotobab/cover-allenare-ragazze.jpg",
+      "coverAlt": "An artificial-turf pitch with a row of coloured cones in the foreground and two training goals behind",
+      "tags": [
+        "coach",
+        "clubs",
+        "puberty",
+        "prevention",
+        "load-management"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why does a teenage athlete stop turning up to training?",
+          "id": "why-does-a-teenage-athlete-stop-turning-up-to-training"
+        },
+        {
+          "level": 2,
+          "text": "1. Talk about the changing body (without embarrassment)",
+          "id": "1-talk-about-the-changing-body-without-embarrassment"
+        },
+        {
+          "level": 2,
+          "text": "2. Adjust the load, don't judge the dip",
+          "id": "2-adjust-the-load-dont-judge-the-dip"
+        },
+        {
+          "level": 2,
+          "text": "3. Use team signals, never individual data",
+          "id": "3-use-team-signals-never-individual-data"
+        },
+        {
+          "level": 2,
+          "text": "4. Create space and continuity",
+          "id": "4-create-space-and-continuity"
+        },
+        {
+          "level": 2,
+          "text": "Should an athlete with period pain skip training?",
+          "id": "should-an-athlete-with-period-pain-skip-training"
+        },
+        {
+          "level": 2,
+          "text": "Why does retaining athletes pay off for the club too?",
+          "id": "why-does-retaining-athletes-pay-off-for-the-club-too"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2031,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "reggiseno-sportivo-ragazze",
+      "lang": "en",
+      "title": "Sports bras for girls: when the first one is needed, and how to get the size right",
+      "seoTitle": "Sports bras for girls: sizing and when to start",
+      "seoDescription": "",
+      "date": "2026-07-02",
+      "updated": "2026-08-16",
+      "author": "Sajid Hossain",
+      "excerpt": "A first sports bra is needed as soon as breast development begins — there is no set age: the cue is the body, not the calendar. At 13-14, one girl in two says her breasts affect her participation in sport, yet only one in ten always wears one — and the girls who never wear one are more often those with smaller breasts. How to spot a wrong size, when compression beats encapsulation, how often to recheck the fit while growing, and why an education booklet in a randomised trial got 39% more athletes through a bra-fit test.",
+      "answer": "As soon as breast development begins: the cue is the body, not the calendar. At 13-14, 51% of girls say their breasts affect their participation in sport, yet only 10% always wear one — and the girls who never do are more often those with smaller breasts (Scurr et al., 2016). Through the growing years the size should be rechecked every 6-12 months.",
+      "cover": "/fotobab/cover-reggiseno-sportivo.jpg",
+      "coverAlt": "Folded sportswear — black shorts and a patterned vest — laid out on a yoga mat",
+      "tags": [
+        "sports-bra",
+        "puberty"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Why does a sports bra matter more than it seems?",
+          "id": "why-does-a-sports-bra-matter-more-than-it-seems"
+        },
+        {
+          "level": 2,
+          "text": "At what age is a first sports bra needed?",
+          "id": "at-what-age-is-a-first-sports-bra-needed"
+        },
+        {
+          "level": 2,
+          "text": "How do you know if the size is right?",
+          "id": "how-do-you-know-if-the-size-is-right"
+        },
+        {
+          "level": 2,
+          "text": "Compression or encapsulation — which is better?",
+          "id": "compression-or-encapsulation-which-is-better"
+        },
+        {
+          "level": 2,
+          "text": "Does a sports bra actually reduce breast pain?",
+          "id": "does-a-sports-bra-actually-reduce-breast-pain"
+        },
+        {
+          "level": 2,
+          "text": "What can coaches and parents do?",
+          "id": "what-can-coaches-and-parents-do"
+        },
+        {
+          "level": 2,
+          "text": "Is talking about it enough to change habits?",
+          "id": "is-talking-about-it-enough-to-change-habits"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 1762,
+      "readingMinutes": 9,
+      "timeRequired": "PT9M"
+    },
+    {
+      "slug": "abbandono-puberta",
+      "lang": "it",
+      "title": "Perché le ragazze smettono di fare sport in adolescenza: i dati sull'abbandono a 10-14 anni",
+      "seoTitle": "Perché le ragazze smettono di fare sport in pubertà",
+      "seoDescription": "",
+      "date": "2026-06-22",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Tra le ragazze che si tesserano a 10-14 anni, il 71% abbandona lo sport senza mai rientrare e solo il 13% partecipa con continuità per sette anni. Non è un calo di motivazione: l'abbandono segue lo sviluppo del corpo — una pubertà precoce aumenta significativamente la probabilità di smettere (HR 1,68). I dati veri, quelli gonfiati da cui diffidare, e le quattro leve che una società ha davvero in mano.",
+      "answer": "Non perché perdono interesse, ma perché l'ambiente smette di funzionare quando il corpo cambia. Tra le ragazze tesserate a 10-14 anni il 71% abbandona lo sport senza mai rientrare (Eime et al., 2020), e una pubertà precoce aumenta significativamente la probabilità di smettere (HR 1,68; Gallant et al., 2023).",
+      "cover": "/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif",
+      "coverAlt": "Adolescente sorridente con le cuffie al collo, seduta alla scrivania di camera sua mentre scrive su un quaderno: il tempo libero che nell'adolescenza compete con lo sport",
+      "tags": [
+        "drop-out",
+        "società",
+        "pubertà",
+        "menarca"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quante ragazze lasciano davvero lo sport?",
+          "id": "quante-ragazze-lasciano-davvero-lo-sport"
+        },
+        {
+          "level": 2,
+          "text": "Perché le ragazze smettono proprio in pubertà?",
+          "id": "perche-le-ragazze-smettono-proprio-in-puberta"
+        },
+        {
+          "level": 2,
+          "text": "Quali sintomi tolgono allenamenti senza finire in nessun registro?",
+          "id": "quali-sintomi-tolgono-allenamenti-senza-finire-in-nessun"
+        },
+        {
+          "level": 2,
+          "text": "Come si trattiene un'atleta adolescente? Quattro leve concrete",
+          "id": "come-si-trattiene-unatleta-adolescente-quattro-leve-concrete"
+        },
+        {
+          "level": 2,
+          "text": "Perché trattenere le atlete conviene anche al club?",
+          "id": "perche-trattenere-le-atlete-conviene-anche-al-club"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2053,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "abbandono-puberta",
+      "lang": "en",
+      "title": "Why girls stop playing sport as teenagers: the data on drop-out at 10-14",
+      "seoTitle": "Why teenage girls drop out of sport: the data",
+      "seoDescription": "",
+      "date": "2026-06-22",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Among girls who join a club aged 10-14, 71% drop out without ever returning and only 13% take part continuously over seven years. It isn't a dip in motivation: drop-out follows the developing body — girls who go through puberty earlier are significantly more likely to stop (HR 1.68). The real figures, the inflated ones to be wary of, and the four levers a club actually holds.",
+      "answer": "Not because they lose interest, but because the environment stops working when the body changes. Among girls registered with a club at 10-14, 71% drop out of sport without ever returning (Eime et al., 2020), and earlier puberty significantly raises the probability of stopping (HR 1.68; Gallant et al., 2023).",
+      "cover": "/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif",
+      "coverAlt": "A smiling teenage girl with headphones round her neck, sitting at her bedroom desk writing in a notebook: the free time that competes with sport in adolescence",
+      "tags": [
+        "drop-out",
+        "clubs",
+        "puberty",
+        "menarche"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How many girls really leave sport?",
+          "id": "how-many-girls-really-leave-sport"
+        },
+        {
+          "level": 2,
+          "text": "Why do girls stop precisely during puberty?",
+          "id": "why-do-girls-stop-precisely-during-puberty"
+        },
+        {
+          "level": 2,
+          "text": "Which symptoms remove training sessions without appearing in any record?",
+          "id": "which-symptoms-remove-training-sessions-without-appearing"
+        },
+        {
+          "level": 2,
+          "text": "How do you keep an adolescent athlete? Four concrete levers",
+          "id": "how-do-you-keep-an-adolescent-athlete-four-concrete-levers"
+        },
+        {
+          "level": 2,
+          "text": "Why does retaining athletes pay off for the club too?",
+          "id": "why-does-retaining-athletes-pay-off-for-the-club-too"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 1984,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
+    },
+    {
+      "slug": "ciclo-e-performance",
+      "lang": "it",
+      "title": "Ciclo mestruale e performance sportiva: cosa dicono i dati (e cosa non dicono)",
+      "seoTitle": "Ciclo mestruale e sport: cosa dicono i dati",
+      "seoDescription": "",
+      "date": "2026-06-20",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "Il 77% delle atlete d'élite riferisce che il ciclo ha influenzato negativamente la performance — ma quel campione ha 28 anni di età media. Tra le adolescenti di 10-18 anni, dal 25% al 61% riduce o evita l'attività fisica durante le mestruazioni. E periodizzare l'allenamento sulla fase del ciclo? Su una ragazza di 14 anni non esiste evidenza che lo sostenga. Cosa dicono i dati, cosa non dicono, e da dove partire davvero.",
+      "answer": "Sì, ma meno di quanto si creda e non in modo prevedibile: nella meta-analisi più ampia l'effetto della fase del ciclo sulla prestazione è di entità «banale», e misurato su donne adulte (McNulty et al., 2020). Pesa di più ciò che l'atleta vive: il 77% delle atlete d'élite riferisce che il ciclo ha influenzato la performance (Jones et al., 2024 — età media 28 anni).",
+      "cover": "/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif",
+      "coverAlt": "Giovane atleta in canotta nera in mezzo alle compagne di squadra su una pista di atletica, lo sguardo dritto in camera",
+      "tags": [
+        "salute",
+        "performance",
+        "ciclo",
+        "menarca"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Il ciclo influenza la performance? Cosa dicono davvero i dati",
+          "id": "il-ciclo-influenza-la-performance-cosa-dicono-davvero-i-dati"
+        },
+        {
+          "level": 2,
+          "text": "E alle ragazze di 13-14 anni cosa succede con il ciclo?",
+          "id": "e-alle-ragazze-di-13-14-anni-cosa-succede-con-il-ciclo"
+        },
+        {
+          "level": 2,
+          "text": "Si può saltare l'allenamento quando si hanno le mestruazioni?",
+          "id": "si-puo-saltare-lallenamento-quando-si-hanno-le-mestruazioni"
+        },
+        {
+          "level": 2,
+          "text": "Perché si sa così poco di ciclo mestruale e sport?",
+          "id": "perche-si-sa-cosi-poco-di-ciclo-mestruale-e-sport"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare un'atleta con il ciclo, da subito?",
+          "id": "cosa-puo-fare-unatleta-con-il-ciclo-da-subito"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 1734,
+      "readingMinutes": 9,
+      "timeRequired": "PT9M"
+    },
+    {
+      "slug": "ciclo-e-performance",
+      "lang": "en",
+      "title": "Menstrual cycle and sports performance: what the data says (and what it doesn't)",
+      "seoTitle": "Menstrual cycle and sport: what the data says",
+      "seoDescription": "",
+      "date": "2026-06-20",
+      "updated": "2026-08-20",
+      "author": "Sajid Hossain",
+      "excerpt": "77% of elite athletes report their cycle has negatively affected their performance — but that sample has a mean age of 28. Among adolescents aged 10-18, between 25% and 61% cut back or avoid physical activity during their period. And periodising training around cycle phase? For a 14-year-old there is no evidence supporting it. What the data says, what it doesn't, and where to actually start.",
+      "answer": "Yes, but less than is commonly believed and not predictably: in the largest meta-analysis the effect of cycle phase on performance is of «trivial» magnitude, and measured in adult women (McNulty et al., 2020). What the athlete actually experiences weighs more: 77% of elite athletes report their cycle has affected their performance (Jones et al., 2024 — mean age 28).",
+      "cover": "/fotobab/HY2jAVYB5JU8HdxplxBzkh8TQo.avif",
+      "coverAlt": "A young athlete in a black vest among her teammates on an athletics track, looking straight at the camera",
+      "tags": [
+        "health",
+        "performance",
+        "cycle",
+        "menarche"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Does the cycle affect performance? What the data actually says",
+          "id": "does-the-cycle-affect-performance-what-the-data-actually"
+        },
+        {
+          "level": 2,
+          "text": "So what happens to 13- and 14-year-olds and their periods?",
+          "id": "so-what-happens-to-13-and-14-year-olds-and-their-periods"
+        },
+        {
+          "level": 2,
+          "text": "Should you skip training during your period?",
+          "id": "should-you-skip-training-during-your-period"
+        },
+        {
+          "level": 2,
+          "text": "Why do we know so little about periods and sport?",
+          "id": "why-do-we-know-so-little-about-periods-and-sport"
+        },
+        {
+          "level": 2,
+          "text": "What can an athlete do about her cycle, starting today?",
+          "id": "what-can-an-athlete-do-about-her-cycle-starting-today"
+        },
+        {
+          "level": 2,
+          "text": "Where BAB fits",
+          "id": "where-bab-fits"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 1685,
+      "readingMinutes": 8,
+      "timeRequired": "PT8M"
+    }
+  ]
+}

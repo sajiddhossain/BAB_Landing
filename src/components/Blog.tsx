@@ -8,7 +8,7 @@
  */
 import { useTranslation } from 'react-i18next';
 import { blogPath } from '../lib/blogLocale';
-import blogData from '../generated/blog.json';
+import blogData from '../generated/blog-index.json';
 import SponsorSlot from './SponsorSlot';
 
 export interface BlogPostData {
@@ -29,7 +29,15 @@ export interface BlogPostData {
  /** Titoli dell'articolo con le rispettive ancore: alimenta il sommario in cima. */
  headings?: { level: number; text: string; id: string }[];
  readingMinutes: number;
+}
+
+/**
+ * Corpo dell'articolo, caricato on demand da posts/{lang}--{slug}.json:
+ * tenerlo fuori dal manifest evita di spedire ~1,5 MB di JS a ogni visita.
+ */
+export interface BlogPostContent {
  html: string;
+ faq?: { q: string; a: string; id?: string }[];
 }
 
 export const BLOG_POSTS = (blogData as { posts: BlogPostData[] }).posts;

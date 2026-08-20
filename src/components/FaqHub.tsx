@@ -11,22 +11,37 @@
  */
 import { FAQ_BAB } from '../data/faqBab';
 import { blogPath } from '../lib/blogLocale';
-import { postsForLang } from './Blog';
+import faqData from '../generated/blog-faq.json';
 
 interface FaqHubProps {
   /** Lingua imposta dall'URL (/faq → it, /en/faq → en). */
   lang?: string;
 }
 
-/** Domande del blog raggruppate per articolo, nella lingua richiesta. */
+interface FaqEntry {
+  slug: string;
+  lang: string;
+  title: string;
+  date: string | null;
+  questions: { q: string; id?: string }[];
+}
+
+/**
+ * Domande del blog raggruppate per articolo, nella lingua richiesta.
+ * Legge blog-faq.json (solo domanda + ancora, mai le risposte): questa pagina
+ * è una mappa, e così non trascina nel bundle i corpi degli articoli.
+ * Stessa semantica di postsForLang: lingua preferita con fallback IT,
+ * ordinamento per data decrescente.
+ */
 function blogQuestions(lang: string) {
-  return postsForLang(lang)
-    .filter((p) => (p.faq?.length ?? 0) > 0)
-    .map((p) => ({
-      slug: p.slug,
-      title: p.title,
-      questions: (p.faq ?? []).map((f) => ({ q: f.q, id: f.id })),
-    }));
+  const bySlug = new Map<string, FaqEntry>();
+  for (const p of (faqData as { posts: FaqEntry[] }).posts) {
+    const cur = bySlug.get(p.slug);
+    if (!cur || (p.lang === lang && cur.lang !== lang)) bySlug.set(p.slug, p);
+  }
+  return [...bySlug.values()]
+    .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+    .map((p) => ({ slug: p.slug, title: p.title, questions: p.questions }));
 }
 
 export default function FaqHub({ lang: langProp }: FaqHubProps = {}) {

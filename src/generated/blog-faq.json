@@ -1,0 +1,2308 @@
+{
+  "posts": [
+    {
+      "slug": "fiato-corto-giovani-atlete",
+      "lang": "it",
+      "title": "Fiato corto durante lo sforzo: nel 61% dei casi non c'è nessuna diagnosi di asma",
+      "date": "2026-08-20",
+      "questions": [
+        {
+          "q": "Quante ragazze hanno il fiato corto durante l'allenamento?",
+          "id": "faq-quante-ragazze-hanno-il-fiato-corto-durante-lallenamento"
+        },
+        {
+          "q": "Il fiato corto durante lo sport è sempre asma?",
+          "id": "faq-il-fiato-corto-durante-lo-sport-e-sempre-asma"
+        },
+        {
+          "q": "Che differenza c'è tra asma da sforzo (EIB) ed EILO?",
+          "id": "faq-che-differenza-ce-tra-asma-da-sforzo-eib-ed-eilo"
+        },
+        {
+          "q": "Perché l'inalatore a volte non funziona?",
+          "id": "faq-perche-linalatore-a-volte-non-funziona"
+        },
+        {
+          "q": "Come si diagnosticano davvero l'asma da sforzo e l'EILO?",
+          "id": "faq-come-si-diagnosticano-davvero-lasma-da-sforzo-e-leilo"
+        },
+        {
+          "q": "L'EILO è più comune nelle ragazze?",
+          "id": "faq-leilo-e-piu-comune-nelle-ragazze"
+        },
+        {
+          "q": "Cosa si può fare se è un'ostruzione laringea da sforzo?",
+          "id": "faq-cosa-si-puo-fare-se-e-unostruzione-laringea-da-sforzo"
+        },
+        {
+          "q": "E se invece fosse solo scarso allenamento?",
+          "id": "faq-e-se-invece-fosse-solo-scarso-allenamento"
+        },
+        {
+          "q": "Un allenatore cosa dovrebbe fare quando un'atleta si ferma senza fiato?",
+          "id": "faq-un-allenatore-cosa-dovrebbe-fare-quando-unatleta-si"
+        }
+      ]
+    },
+    {
+      "slug": "fiato-corto-giovani-atlete",
+      "lang": "en",
+      "title": "Breathlessness during exercise: 61% of the teenagers who report it have no asthma diagnosis",
+      "date": "2026-08-20",
+      "questions": [
+        {
+          "q": "How many girls experience breathlessness during training?",
+          "id": "faq-how-many-girls-experience-breathlessness-during-training"
+        },
+        {
+          "q": "Is breathlessness during sport always asthma?",
+          "id": "faq-is-breathlessness-during-sport-always-asthma"
+        },
+        {
+          "q": "What's the difference between exercise-induced asthma (EIB) and EILO?",
+          "id": "faq-whats-the-difference-between-exercise-induced-asthma"
+        },
+        {
+          "q": "Why does the inhaler sometimes not work?",
+          "id": "faq-why-does-the-inhaler-sometimes-not-work"
+        },
+        {
+          "q": "How are exercise-induced asthma and EILO actually diagnosed?",
+          "id": "faq-how-are-exercise-induced-asthma-and-eilo-actually"
+        },
+        {
+          "q": "Is EILO more common in girls?",
+          "id": "faq-is-eilo-more-common-in-girls"
+        },
+        {
+          "q": "What can be done if it is exercise-induced laryngeal obstruction?",
+          "id": "faq-what-can-be-done-if-it-is-exercise-induced-laryngeal"
+        },
+        {
+          "q": "What if she really is just unfit?",
+          "id": "faq-what-if-she-really-is-just-unfit"
+        },
+        {
+          "q": "What should a coach do when an athlete stops, out of breath?",
+          "id": "faq-what-should-a-coach-do-when-an-athlete-stops-out-of"
+        }
+      ]
+    },
+    {
+      "slug": "allenarsi-al-caldo-giovani-atlete",
+      "lang": "it",
+      "title": "Allenarsi al caldo: nelle giovani atlete il rischio non è (solo) questione di sesso",
+      "date": "2026-08-19",
+      "questions": [
+        {
+          "q": "Le ragazze rischiano più colpi di calore dei ragazzi quando si allenano?",
+          "id": "faq-le-ragazze-rischiano-piu-colpi-di-calore-dei-ragazzi"
+        },
+        {
+          "q": "Gli adolescenti tollerano il caldo peggio degli adulti?",
+          "id": "faq-gli-adolescenti-tollerano-il-caldo-peggio-degli-adulti"
+        },
+        {
+          "q": "È vero che le ragazze sudano meno dei ragazzi durante la pubertà?",
+          "id": "faq-e-vero-che-le-ragazze-sudano-meno-dei-ragazzi-durante"
+        },
+        {
+          "q": "Cos'è l'acclimatazione al caldo e perché conta più del sesso o dell'età?",
+          "id": "faq-cose-lacclimatazione-al-caldo-e-perche-conta-piu-del"
+        },
+        {
+          "q": "Come si riconosce un colpo di calore da sforzo?",
+          "id": "faq-come-si-riconosce-un-colpo-di-calore-da-sforzo"
+        },
+        {
+          "q": "Cosa può controllare davvero una società sportiva sul rischio di caldo?",
+          "id": "faq-cosa-puo-controllare-davvero-una-societa-sportiva-sul"
+        },
+        {
+          "q": "Basta bere di più per essere al sicuro dal caldo?",
+          "id": "faq-basta-bere-di-piu-per-essere-al-sicuro-dal-caldo"
+        },
+        {
+          "q": "Perché la maggior parte dei dati su questo tema riguarda il football americano?",
+          "id": "faq-perche-la-maggior-parte-dei-dati-su-questo-tema"
+        }
+      ]
+    },
+    {
+      "slug": "allenarsi-al-caldo-giovani-atlete",
+      "lang": "en",
+      "title": "Training in the heat: for young athletes, the risk isn't (only) about sex",
+      "date": "2026-08-19",
+      "questions": [
+        {
+          "q": "Are girls at higher risk of heat illness than boys when they train?",
+          "id": "faq-are-girls-at-higher-risk-of-heat-illness-than-boys-when"
+        },
+        {
+          "q": "Do adolescents tolerate heat worse than adults?",
+          "id": "faq-do-adolescents-tolerate-heat-worse-than-adults"
+        },
+        {
+          "q": "Is it true that girls sweat less than boys during puberty?",
+          "id": "faq-is-it-true-that-girls-sweat-less-than-boys-during"
+        },
+        {
+          "q": "What is heat acclimatization, and why does it matter more than sex or age?",
+          "id": "faq-what-is-heat-acclimatization-and-why-does-it-matter"
+        },
+        {
+          "q": "How do you recognize exertional heat stroke?",
+          "id": "faq-how-do-you-recognize-exertional-heat-stroke"
+        },
+        {
+          "q": "What can a sports club actually control about heat risk?",
+          "id": "faq-what-can-a-sports-club-actually-control-about-heat-risk"
+        },
+        {
+          "q": "Is drinking more water enough to stay safe in the heat?",
+          "id": "faq-is-drinking-more-water-enough-to-stay-safe-in-the-heat"
+        },
+        {
+          "q": "Why is so much of this data about American football specifically?",
+          "id": "faq-why-is-so-much-of-this-data-about-american-football"
+        }
+      ]
+    },
+    {
+      "slug": "ritorno-allo-sport-dopo-infortunio",
+      "lang": "it",
+      "title": "Tornare a giocare dopo un infortunio: il ginocchio guarisce prima della testa",
+      "date": "2026-08-16",
+      "questions": [
+        {
+          "q": "Quante atlete tornano davvero al livello di prima dopo un infortunio grave?",
+          "id": "faq-quante-atlete-tornano-davvero-al-livello-di-prima-dopo"
+        },
+        {
+          "q": "Perché si ha paura di rifarsi male anche quando il ginocchio è guarito?",
+          "id": "faq-perche-si-ha-paura-di-rifarsi-male-anche-quando-il"
+        },
+        {
+          "q": "Si può misurare se un'atleta è pronta anche con la testa?",
+          "id": "faq-si-puo-misurare-se-unatleta-e-pronta-anche-con-la-testa"
+        },
+        {
+          "q": "Dopo quanti mesi si può tornare a giocare?",
+          "id": "faq-dopo-quanti-mesi-si-puo-tornare-a-giocare"
+        },
+        {
+          "q": "Quanto è alto il rischio di rifarsi male in una ragazza di 15-17 anni?",
+          "id": "faq-quanto-e-alto-il-rischio-di-rifarsi-male-in-una-ragazza"
+        },
+        {
+          "q": "Cosa può dire chi allena a un'atleta che rientra?",
+          "id": "faq-cosa-puo-dire-chi-allena-a-unatleta-che-rientra"
+        },
+        {
+          "q": "Che differenza c'è tra tornare ad allenarsi e tornare a giocare?",
+          "id": "faq-che-differenza-ce-tra-tornare-ad-allenarsi-e-tornare-a"
+        },
+        {
+          "q": "Il rientro dopo una commozione cerebrale segue le stesse regole?",
+          "id": "faq-il-rientro-dopo-una-commozione-cerebrale-segue-le"
+        },
+        {
+          "q": "Superare i test fisici basta per rientrare in sicurezza?",
+          "id": "faq-superare-i-test-fisici-basta-per-rientrare-in-sicurezza"
+        }
+      ]
+    },
+    {
+      "slug": "ritorno-allo-sport-dopo-infortunio",
+      "lang": "en",
+      "title": "Going back after an injury: the knee heals before the head does",
+      "date": "2026-08-16",
+      "questions": [
+        {
+          "q": "How many athletes actually return to their previous level after a serious injury?",
+          "id": "faq-how-many-athletes-actually-return-to-their-previous"
+        },
+        {
+          "q": "Why is there still fear of reinjury when the knee has healed?",
+          "id": "faq-why-is-there-still-fear-of-reinjury-when-the-knee-has"
+        },
+        {
+          "q": "Can psychological readiness be measured?",
+          "id": "faq-can-psychological-readiness-be-measured"
+        },
+        {
+          "q": "How many months before you can play again?",
+          "id": "faq-how-many-months-before-you-can-play-again"
+        },
+        {
+          "q": "How high is the risk of a second injury for a 15-17 year old girl?",
+          "id": "faq-how-high-is-the-risk-of-a-second-injury-for-a-15-17"
+        },
+        {
+          "q": "What can a coach say to an athlete who is coming back?",
+          "id": "faq-what-can-a-coach-say-to-an-athlete-who-is-coming-back"
+        },
+        {
+          "q": "What is the difference between returning to training and returning to play?",
+          "id": "faq-what-is-the-difference-between-returning-to-training"
+        },
+        {
+          "q": "Does returning after a concussion follow the same rules?",
+          "id": "faq-does-returning-after-a-concussion-follow-the-same-rules"
+        },
+        {
+          "q": "Is passing the physical tests enough to return safely?",
+          "id": "faq-is-passing-the-physical-tests-enough-to-return-safely"
+        }
+      ]
+    },
+    {
+      "slug": "gestire-ciclo-nello-sport",
+      "lang": "it",
+      "title": "Fare sport con il ciclo: come si gestisce in pratica (perdite, prodotti, divise)",
+      "date": "2026-08-13",
+      "questions": [
+        {
+          "q": "Si può fare sport durante le mestruazioni?",
+          "id": "faq-si-puo-fare-sport-durante-le-mestruazioni"
+        },
+        {
+          "q": "Come si evita la paura di macchiarsi durante l'allenamento?",
+          "id": "faq-come-si-evita-la-paura-di-macchiarsi-durante"
+        },
+        {
+          "q": "Si può usare la coppetta mestruale facendo sport?",
+          "id": "faq-si-puo-usare-la-coppetta-mestruale-facendo-sport"
+        },
+        {
+          "q": "Il colore della divisa può davvero influire sulla partecipazione?",
+          "id": "faq-il-colore-della-divisa-puo-davvero-influire-sulla"
+        },
+        {
+          "q": "Cosa mettere nel «kit mestruale» di una società sportiva?",
+          "id": "faq-cosa-mettere-nel-kit-mestruale-di-una-societa-sportiva"
+        },
+        {
+          "q": "Un allenatore uomo può occuparsi di questo tema?",
+          "id": "faq-un-allenatore-uomo-puo-occuparsi-di-questo-tema"
+        },
+        {
+          "q": "Serve una regola per le assenze legate al ciclo?",
+          "id": "faq-serve-una-regola-per-le-assenze-legate-al-ciclo"
+        },
+        {
+          "q": "Cosa può fare una famiglia prima che il problema si presenti?",
+          "id": "faq-cosa-puo-fare-una-famiglia-prima-che-il-problema-si"
+        },
+        {
+          "q": "Le perdite durante lo sport sono sempre legate al ciclo?",
+          "id": "faq-le-perdite-durante-lo-sport-sono-sempre-legate-al-ciclo"
+        }
+      ]
+    },
+    {
+      "slug": "gestire-ciclo-nello-sport",
+      "lang": "en",
+      "title": "Playing sport on your period: how it actually works (leaks, products, kit)",
+      "date": "2026-08-13",
+      "questions": [
+        {
+          "q": "Can you play sport during your period?",
+          "id": "faq-can-you-play-sport-during-your-period"
+        },
+        {
+          "q": "How do you avoid the fear of staining during training?",
+          "id": "faq-how-do-you-avoid-the-fear-of-staining-during-training"
+        },
+        {
+          "q": "Can you use a menstrual cup while playing sport?",
+          "id": "faq-can-you-use-a-menstrual-cup-while-playing-sport"
+        },
+        {
+          "q": "Can the colour of the kit really affect participation?",
+          "id": "faq-can-the-colour-of-the-kit-really-affect-participation"
+        },
+        {
+          "q": "What goes in a club's «period kit»?",
+          "id": "faq-what-goes-in-a-clubs-period-kit"
+        },
+        {
+          "q": "Can a male coach deal with this topic?",
+          "id": "faq-can-a-male-coach-deal-with-this-topic"
+        },
+        {
+          "q": "Should there be a rule for period-related absences?",
+          "id": "faq-should-there-be-a-rule-for-period-related-absences"
+        },
+        {
+          "q": "What can a family do before the problem arises?",
+          "id": "faq-what-can-a-family-do-before-the-problem-arises"
+        },
+        {
+          "q": "Is leaking during sport always about periods?",
+          "id": "faq-is-leaking-during-sport-always-about-periods"
+        }
+      ]
+    },
+    {
+      "slug": "dolore-spalla-giovani-atlete",
+      "lang": "it",
+      "title": "Dolore alla spalla nelle giovani atlete: pallavolo, nuoto e il carico che nessuno conta",
+      "date": "2026-08-12",
+      "questions": [
+        {
+          "q": "Quanto è comune il dolore alla spalla nelle giovani atlete?",
+          "id": "faq-quanto-e-comune-il-dolore-alla-spalla-nelle-giovani"
+        },
+        {
+          "q": "Le ragazze hanno più problemi di spalla dei ragazzi?",
+          "id": "faq-le-ragazze-hanno-piu-problemi-di-spalla-dei-ragazzi"
+        },
+        {
+          "q": "Perché la spalla di un'adolescente è più fragile?",
+          "id": "faq-perche-la-spalla-di-unadolescente-e-piu-fragile"
+        },
+        {
+          "q": "Il dolore alla spalla nel nuoto è normale?",
+          "id": "faq-il-dolore-alla-spalla-nel-nuoto-e-normale"
+        },
+        {
+          "q": "Si può capire in anticipo quale atleta si farà male alla spalla?",
+          "id": "faq-si-puo-capire-in-anticipo-quale-atleta-si-fara-male"
+        },
+        {
+          "q": "Gli esercizi di prevenzione per la spalla funzionano?",
+          "id": "faq-gli-esercizi-di-prevenzione-per-la-spalla-funzionano"
+        },
+        {
+          "q": "Quante ore sopra la testa sono troppe per un'adolescente?",
+          "id": "faq-quante-ore-sopra-la-testa-sono-troppe-per-unadolescente"
+        },
+        {
+          "q": "Cos'è il GIRD e quanto è diffuso nelle pallavoliste adolescenti?",
+          "id": "faq-cose-il-gird-e-quanto-e-diffuso-nelle-pallavoliste"
+        },
+        {
+          "q": "Quando un dolore di spalla va fatto vedere a un professionista sanitario?",
+          "id": "faq-quando-un-dolore-di-spalla-va-fatto-vedere-a-un"
+        }
+      ]
+    },
+    {
+      "slug": "dolore-spalla-giovani-atlete",
+      "lang": "en",
+      "title": "Shoulder pain in young female athletes: volleyball, swimming and the load nobody counts",
+      "date": "2026-08-12",
+      "questions": [
+        {
+          "q": "How common is shoulder pain in young female athletes?",
+          "id": "faq-how-common-is-shoulder-pain-in-young-female-athletes"
+        },
+        {
+          "q": "Do girls have more shoulder problems than boys?",
+          "id": "faq-do-girls-have-more-shoulder-problems-than-boys"
+        },
+        {
+          "q": "Why is an adolescent's shoulder more vulnerable?",
+          "id": "faq-why-is-an-adolescents-shoulder-more-vulnerable"
+        },
+        {
+          "q": "Is shoulder pain normal in swimming?",
+          "id": "faq-is-shoulder-pain-normal-in-swimming"
+        },
+        {
+          "q": "Can you tell in advance which athlete's shoulder will break down?",
+          "id": "faq-can-you-tell-in-advance-which-athletes-shoulder-will"
+        },
+        {
+          "q": "Do shoulder prevention exercises work?",
+          "id": "faq-do-shoulder-prevention-exercises-work"
+        },
+        {
+          "q": "How many overhead hours are too many for an adolescent?",
+          "id": "faq-how-many-overhead-hours-are-too-many-for-an-adolescent"
+        },
+        {
+          "q": "What is GIRD, and how common is it in adolescent volleyball players?",
+          "id": "faq-what-is-gird-and-how-common-is-it-in-adolescent"
+        },
+        {
+          "q": "When should shoulder pain be seen by a healthcare professional?",
+          "id": "faq-when-should-shoulder-pain-be-seen-by-a-healthcare"
+        }
+      ]
+    },
+    {
+      "slug": "dolori-mestruali-giovani-atlete",
+      "lang": "it",
+      "title": "Dolori mestruali e sport: quanto dolore è normale e cosa funziona davvero",
+      "date": "2026-08-10",
+      "questions": [
+        {
+          "q": "Quante ragazze hanno dolori mestruali?",
+          "id": "faq-quante-ragazze-hanno-dolori-mestruali"
+        },
+        {
+          "q": "È normale avere dolori mestruali così forti da saltare l'allenamento?",
+          "id": "faq-e-normale-avere-dolori-mestruali-cosi-forti-da-saltare"
+        },
+        {
+          "q": "Fare sport aiuta contro i dolori mestruali?",
+          "id": "faq-fare-sport-aiuta-contro-i-dolori-mestruali"
+        },
+        {
+          "q": "Il calore funziona davvero contro i crampi mestruali?",
+          "id": "faq-il-calore-funziona-davvero-contro-i-crampi-mestruali"
+        },
+        {
+          "q": "Si può prendere un antidolorifico prima dell'allenamento?",
+          "id": "faq-si-puo-prendere-un-antidolorifico-prima-dellallenamento"
+        },
+        {
+          "q": "Quando i dolori mestruali vanno portati a un medico?",
+          "id": "faq-quando-i-dolori-mestruali-vanno-portati-a-un-medico"
+        },
+        {
+          "q": "Il dolore mestruale è comune anche tra le atlete?",
+          "id": "faq-il-dolore-mestruale-e-comune-anche-tra-le-atlete"
+        },
+        {
+          "q": "Cosa può fare un allenatore quando un'atleta ha dolori mestruali?",
+          "id": "faq-cosa-puo-fare-un-allenatore-quando-unatleta-ha-dolori"
+        }
+      ]
+    },
+    {
+      "slug": "dolori-mestruali-giovani-atlete",
+      "lang": "en",
+      "title": "Period pain and sport: how much pain is normal, and what actually works",
+      "date": "2026-08-10",
+      "questions": [
+        {
+          "q": "How many girls have period pain?",
+          "id": "faq-how-many-girls-have-period-pain"
+        },
+        {
+          "q": "Is it normal to have period pain bad enough to miss training?",
+          "id": "faq-is-it-normal-to-have-period-pain-bad-enough-to-miss"
+        },
+        {
+          "q": "Does exercise help with period pain?",
+          "id": "faq-does-exercise-help-with-period-pain"
+        },
+        {
+          "q": "Does heat really work for menstrual cramps?",
+          "id": "faq-does-heat-really-work-for-menstrual-cramps"
+        },
+        {
+          "q": "Can a girl take a painkiller before training?",
+          "id": "faq-can-a-girl-take-a-painkiller-before-training"
+        },
+        {
+          "q": "When should period pain be taken to a doctor?",
+          "id": "faq-when-should-period-pain-be-taken-to-a-doctor"
+        },
+        {
+          "q": "Is period pain common among athletes too?",
+          "id": "faq-is-period-pain-common-among-athletes-too"
+        },
+        {
+          "q": "What can a coach do when an athlete has period pain?",
+          "id": "faq-what-can-a-coach-do-when-an-athlete-has-period-pain"
+        }
+      ]
+    },
+    {
+      "slug": "mal-di-schiena-giovani-atlete",
+      "lang": "it",
+      "title": "Mal di schiena a 14 anni: perché in una giovane atleta non è quello di un adulto",
+      "date": "2026-08-08",
+      "questions": [
+        {
+          "q": "Quanto è comune il mal di schiena nelle giovani atlete?",
+          "id": "faq-quanto-e-comune-il-mal-di-schiena-nelle-giovani-atlete"
+        },
+        {
+          "q": "Il mal di schiena di un'adolescente è diverso da quello di un adulto?",
+          "id": "faq-il-mal-di-schiena-di-unadolescente-e-diverso-da-quello"
+        },
+        {
+          "q": "Cos'è la spondilolisi?",
+          "id": "faq-cose-la-spondilolisi"
+        },
+        {
+          "q": "In quali sport è più frequente nelle ragazze?",
+          "id": "faq-in-quali-sport-e-piu-frequente-nelle-ragazze"
+        },
+        {
+          "q": "Quando il mal di schiena di una ragazza va fatto valutare da un professionista?",
+          "id": "faq-quando-il-mal-di-schiena-di-una-ragazza-va-fatto"
+        },
+        {
+          "q": "Dopo la diagnosi di spondilolisi bisogna stare fermi?",
+          "id": "faq-dopo-la-diagnosi-di-spondilolisi-bisogna-stare-fermi"
+        },
+        {
+          "q": "Una ragazza con spondilolisi può tornare a fare sport?",
+          "id": "faq-una-ragazza-con-spondilolisi-puo-tornare-a-fare-sport"
+        },
+        {
+          "q": "Perché tante ragazze non dicono di avere mal di schiena?",
+          "id": "faq-perche-tante-ragazze-non-dicono-di-avere-mal-di-schiena"
+        }
+      ]
+    },
+    {
+      "slug": "mal-di-schiena-giovani-atlete",
+      "lang": "en",
+      "title": "Low back pain at 14: why in a young athlete it is not what it is in an adult",
+      "date": "2026-08-08",
+      "questions": [
+        {
+          "q": "How common is low back pain in young female athletes?",
+          "id": "faq-how-common-is-low-back-pain-in-young-female-athletes"
+        },
+        {
+          "q": "Is an adolescent's back pain different from an adult's?",
+          "id": "faq-is-an-adolescents-back-pain-different-from-an-adults"
+        },
+        {
+          "q": "What is spondylolysis?",
+          "id": "faq-what-is-spondylolysis"
+        },
+        {
+          "q": "Which sports carry the highest rates in girls?",
+          "id": "faq-which-sports-carry-the-highest-rates-in-girls"
+        },
+        {
+          "q": "When should a girl's back pain be assessed by a professional?",
+          "id": "faq-when-should-a-girls-back-pain-be-assessed-by-a"
+        },
+        {
+          "q": "After a diagnosis of spondylolysis, is rest required?",
+          "id": "faq-after-a-diagnosis-of-spondylolysis-is-rest-required"
+        },
+        {
+          "q": "Can a girl with spondylolysis go back to sport?",
+          "id": "faq-can-a-girl-with-spondylolysis-go-back-to-sport"
+        },
+        {
+          "q": "Why do so many girls not mention back pain?",
+          "id": "faq-why-do-so-many-girls-not-mention-back-pain"
+        }
+      ]
+    },
+    {
+      "slug": "distorsione-caviglia-giovani-atlete",
+      "lang": "it",
+      "title": "«È solo una storta»: la caviglia è l'infortunio più frequente delle giovani atlete",
+      "date": "2026-08-06",
+      "questions": [
+        {
+          "q": "Qual è l'infortunio più frequente nelle giovani atlete?",
+          "id": "faq-qual-e-linfortunio-piu-frequente-nelle-giovani-atlete"
+        },
+        {
+          "q": "Le ragazze si distorcono la caviglia più dei ragazzi?",
+          "id": "faq-le-ragazze-si-distorcono-la-caviglia-piu-dei-ragazzi"
+        },
+        {
+          "q": "Cos'è l'instabilità cronica di caviglia?",
+          "id": "faq-cose-linstabilita-cronica-di-caviglia"
+        },
+        {
+          "q": "Dopo una distorsione di caviglia bisogna andare da un medico?",
+          "id": "faq-dopo-una-distorsione-di-caviglia-bisogna-andare-da-un"
+        },
+        {
+          "q": "La distorsione di caviglia si può prevenire?",
+          "id": "faq-la-distorsione-di-caviglia-si-puo-prevenire"
+        },
+        {
+          "q": "Quanto deve durare un programma di equilibrio per fare effetto?",
+          "id": "faq-quanto-deve-durare-un-programma-di-equilibrio-per-fare"
+        },
+        {
+          "q": "Dopo una distorsione la riabilitazione riduce davvero le recidive?",
+          "id": "faq-dopo-una-distorsione-la-riabilitazione-riduce-davvero"
+        },
+        {
+          "q": "Nelle ragazze che stanno crescendo, una caviglia gonfia è sempre una frattura della cartilagine di accrescimento?",
+          "id": "faq-nelle-ragazze-che-stanno-crescendo-una-caviglia-gonfia"
+        }
+      ]
+    },
+    {
+      "slug": "distorsione-caviglia-giovani-atlete",
+      "lang": "en",
+      "title": "\"It's just a twisted ankle\": the ankle is the most common injury in youth female athletes",
+      "date": "2026-08-06",
+      "questions": [
+        {
+          "q": "What is the most common injury in youth female athletes?",
+          "id": "faq-what-is-the-most-common-injury-in-youth-female-athletes"
+        },
+        {
+          "q": "Do girls sprain their ankles more often than boys?",
+          "id": "faq-do-girls-sprain-their-ankles-more-often-than-boys"
+        },
+        {
+          "q": "What is chronic ankle instability?",
+          "id": "faq-what-is-chronic-ankle-instability"
+        },
+        {
+          "q": "Should you see a clinician after an ankle sprain?",
+          "id": "faq-should-you-see-a-clinician-after-an-ankle-sprain"
+        },
+        {
+          "q": "Can ankle sprains be prevented?",
+          "id": "faq-can-ankle-sprains-be-prevented"
+        },
+        {
+          "q": "How long does a balance programme need to run to work?",
+          "id": "faq-how-long-does-a-balance-programme-need-to-run-to-work"
+        },
+        {
+          "q": "Does rehabilitation after a sprain actually reduce recurrence?",
+          "id": "faq-does-rehabilitation-after-a-sprain-actually-reduce"
+        },
+        {
+          "q": "In a growing girl, is a swollen ankle always a growth plate fracture?",
+          "id": "faq-in-a-growing-girl-is-a-swollen-ankle-always-a-growth"
+        }
+      ]
+    },
+    {
+      "slug": "forza-ragazze-adolescenti",
+      "lang": "it",
+      "title": "Le ragazze e i pesi: l'allenamento della forza a 13-14 anni fa male alla crescita?",
+      "date": "2026-08-04",
+      "questions": [
+        {
+          "q": "I pesi bloccano la crescita nelle ragazze?",
+          "id": "faq-i-pesi-bloccano-la-crescita-nelle-ragazze"
+        },
+        {
+          "q": "A che età una ragazza può iniziare ad allenare la forza?",
+          "id": "faq-a-che-eta-una-ragazza-puo-iniziare-ad-allenare-la-forza"
+        },
+        {
+          "q": "L'allenamento della forza rende davvero più forti le ragazze prima della pubertà?",
+          "id": "faq-lallenamento-della-forza-rende-davvero-piu-forti-le"
+        },
+        {
+          "q": "L'allenamento della forza riduce gli infortuni?",
+          "id": "faq-lallenamento-della-forza-riduce-gli-infortuni"
+        },
+        {
+          "q": "Quante ragazze fanno davvero attività di rinforzo muscolare?",
+          "id": "faq-quante-ragazze-fanno-davvero-attivita-di-rinforzo"
+        },
+        {
+          "q": "Serve arrivare al massimale per allenare la forza a 14 anni?",
+          "id": "faq-serve-arrivare-al-massimale-per-allenare-la-forza-a-14"
+        },
+        {
+          "q": "Da che età una ragazza può iniziare ad allenare la forza?",
+          "id": "faq-da-che-eta-una-ragazza-puo-iniziare-ad-allenare-la-forza"
+        },
+        {
+          "q": "Quante volte a settimana dovrebbe allenare la forza un’atleta adolescente?",
+          "id": "faq-quante-volte-a-settimana-dovrebbe-allenare-la-forza"
+        },
+        {
+          "q": "L’allenamento della forza previene davvero gli infortuni nelle ragazze?",
+          "id": "faq-lallenamento-della-forza-previene-davvero-gli-infortuni"
+        },
+        {
+          "q": "L'allenamento della forza fa bene anche alle ossa delle ragazze?",
+          "id": "faq-lallenamento-della-forza-fa-bene-anche-alle-ossa-delle"
+        }
+      ]
+    },
+    {
+      "slug": "forza-ragazze-adolescenti",
+      "lang": "en",
+      "title": "Girls and weights: does strength training at 13-14 stunt growth?",
+      "date": "2026-08-04",
+      "questions": [
+        {
+          "q": "Do weights stunt growth in girls?",
+          "id": "faq-do-weights-stunt-growth-in-girls"
+        },
+        {
+          "q": "At what age can a girl start strength training?",
+          "id": "faq-at-what-age-can-a-girl-start-strength-training"
+        },
+        {
+          "q": "Does strength training actually make girls stronger before puberty?",
+          "id": "faq-does-strength-training-actually-make-girls-stronger"
+        },
+        {
+          "q": "Does strength training reduce injuries?",
+          "id": "faq-does-strength-training-reduce-injuries"
+        },
+        {
+          "q": "How many girls actually do muscle-strengthening activity?",
+          "id": "faq-how-many-girls-actually-do-muscle-strengthening-activity"
+        },
+        {
+          "q": "Do you need to lift maximal loads to train strength at 14?",
+          "id": "faq-do-you-need-to-lift-maximal-loads-to-train-strength-at"
+        },
+        {
+          "q": "From what age can a girl start strength training?",
+          "id": "faq-from-what-age-can-a-girl-start-strength-training"
+        },
+        {
+          "q": "How often a week should an adolescent athlete train strength?",
+          "id": "faq-how-often-a-week-should-an-adolescent-athlete-train"
+        },
+        {
+          "q": "Does strength training actually prevent injuries in girls?",
+          "id": "faq-does-strength-training-actually-prevent-injuries-in"
+        },
+        {
+          "q": "Is strength training good for girls' bones too?",
+          "id": "faq-is-strength-training-good-for-girls-bones-too"
+        }
+      ]
+    },
+    {
+      "slug": "picco-di-crescita-giovani-atlete",
+      "lang": "it",
+      "title": "Picco di crescita nelle giovani atlete: cosa cambia davvero (e cosa non è colpa loro)",
+      "date": "2026-08-02",
+      "questions": [
+        {
+          "q": "A che età arriva il picco di crescita in una ragazza?",
+          "id": "faq-a-che-eta-arriva-il-picco-di-crescita-in-una-ragazza"
+        },
+        {
+          "q": "È vero che nell'anno del picco di crescita ci si infortuna di più?",
+          "id": "faq-e-vero-che-nellanno-del-picco-di-crescita-ci-si"
+        },
+        {
+          "q": "La «goffaggine adolescenziale» esiste davvero?",
+          "id": "faq-la-goffaggine-adolescenziale-esiste-davvero"
+        },
+        {
+          "q": "Come si capisce a che punto della crescita è un'atleta, senza esami medici?",
+          "id": "faq-come-si-capisce-a-che-punto-della-crescita-e-unatleta"
+        },
+        {
+          "q": "Perché l'osso è più vulnerabile proprio quando si cresce?",
+          "id": "faq-perche-losso-e-piu-vulnerabile-proprio-quando-si-cresce"
+        },
+        {
+          "q": "Due atlete della stessa età possono essere a punti di crescita diversi?",
+          "id": "faq-due-atlete-della-stessa-eta-possono-essere-a-punti-di"
+        },
+        {
+          "q": "Bisogna ridurre l’allenamento durante il picco di crescita?",
+          "id": "faq-bisogna-ridurre-lallenamento-durante-il-picco-di"
+        },
+        {
+          "q": "Perché nel periodo del picco di crescita si parla tanto di ossa?",
+          "id": "faq-perche-nel-periodo-del-picco-di-crescita-si-parla-tanto"
+        },
+        {
+          "q": "Cosa può fare concretamente una società sportiva?",
+          "id": "faq-cosa-puo-fare-concretamente-una-societa-sportiva"
+        }
+      ]
+    },
+    {
+      "slug": "picco-di-crescita-giovani-atlete",
+      "lang": "en",
+      "title": "The growth spurt in young female athletes: what actually changes (and what is not their fault)",
+      "date": "2026-08-02",
+      "questions": [
+        {
+          "q": "At what age does the growth spurt happen in girls?",
+          "id": "faq-at-what-age-does-the-growth-spurt-happen-in-girls"
+        },
+        {
+          "q": "Is it true that injuries increase during the growth spurt?",
+          "id": "faq-is-it-true-that-injuries-increase-during-the-growth"
+        },
+        {
+          "q": "Is 'adolescent awkwardness' real?",
+          "id": "faq-is-adolescent-awkwardness-real"
+        },
+        {
+          "q": "How do you tell where an athlete is in her growth, without medical tests?",
+          "id": "faq-how-do-you-tell-where-an-athlete-is-in-her-growth"
+        },
+        {
+          "q": "Why is bone more vulnerable exactly when a girl is growing?",
+          "id": "faq-why-is-bone-more-vulnerable-exactly-when-a-girl-is"
+        },
+        {
+          "q": "Can two athletes of the same age be at different points of growth?",
+          "id": "faq-can-two-athletes-of-the-same-age-be-at-different-points"
+        },
+        {
+          "q": "Should training be reduced during the growth spurt?",
+          "id": "faq-should-training-be-reduced-during-the-growth-spurt"
+        },
+        {
+          "q": "Why is bone talked about so much around the growth spurt?",
+          "id": "faq-why-is-bone-talked-about-so-much-around-the-growth-spurt"
+        },
+        {
+          "q": "What can a club actually do?",
+          "id": "faq-what-can-a-club-actually-do"
+        }
+      ]
+    },
+    {
+      "slug": "dolore-ginocchio-femoro-rotuleo-giovani-atlete",
+      "lang": "it",
+      "title": "Il ginocchio che fa male da mesi: perché non è «dolore di crescita»",
+      "date": "2026-07-30",
+      "questions": [
+        {
+          "q": "Il dolore al ginocchio in adolescenza passa da solo con la crescita?",
+          "id": "faq-il-dolore-al-ginocchio-in-adolescenza-passa-da-solo-con"
+        },
+        {
+          "q": "Che cos'è il dolore femoro-rotuleo e come si riconosce?",
+          "id": "faq-che-cose-il-dolore-femoro-rotuleo-e-come-si-riconosce"
+        },
+        {
+          "q": "Riposare è la cura?",
+          "id": "faq-riposare-e-la-cura"
+        },
+        {
+          "q": "Perché il dolore al ginocchio sembra riguardare più le ragazze?",
+          "id": "faq-perche-il-dolore-al-ginocchio-sembra-riguardare-piu-le"
+        },
+        {
+          "q": "Il dolore femoro-rotuleo e l'Osgood-Schlatter sono la stessa cosa?",
+          "id": "faq-il-dolore-femoro-rotuleo-e-losgood-schlatter-sono-la"
+        },
+        {
+          "q": "Quanto ci mette a passare un dolore femoro-rotuleo in un'adolescente?",
+          "id": "faq-quanto-ci-mette-a-passare-un-dolore-femoro-rotuleo-in"
+        },
+        {
+          "q": "Un'atleta con dolore al ginocchio deve smettere di allenarsi?",
+          "id": "faq-unatleta-con-dolore-al-ginocchio-deve-smettere-di"
+        },
+        {
+          "q": "Quando bisogna portarla da un medico?",
+          "id": "faq-quando-bisogna-portarla-da-un-medico"
+        }
+      ]
+    },
+    {
+      "slug": "dolore-ginocchio-femoro-rotuleo-giovani-atlete",
+      "lang": "en",
+      "title": "The knee that has hurt for months: why it is not 'growing pains'",
+      "date": "2026-07-30",
+      "questions": [
+        {
+          "q": "Does adolescent knee pain go away on its own with growth?",
+          "id": "faq-does-adolescent-knee-pain-go-away-on-its-own-with-growth"
+        },
+        {
+          "q": "What is patellofemoral pain and how do you recognise it?",
+          "id": "faq-what-is-patellofemoral-pain-and-how-do-you-recognise-it"
+        },
+        {
+          "q": "Is rest the treatment?",
+          "id": "faq-is-rest-the-treatment"
+        },
+        {
+          "q": "Why does knee pain seem to affect girls more?",
+          "id": "faq-why-does-knee-pain-seem-to-affect-girls-more"
+        },
+        {
+          "q": "Are patellofemoral pain and Osgood-Schlatter the same thing?",
+          "id": "faq-are-patellofemoral-pain-and-osgood-schlatter-the-same"
+        },
+        {
+          "q": "How long does patellofemoral pain take to resolve in an adolescent?",
+          "id": "faq-how-long-does-patellofemoral-pain-take-to-resolve-in-an"
+        },
+        {
+          "q": "Does an athlete with knee pain have to stop training?",
+          "id": "faq-does-an-athlete-with-knee-pain-have-to-stop-training"
+        },
+        {
+          "q": "When should she see a doctor?",
+          "id": "faq-when-should-she-see-a-doctor"
+        }
+      ]
+    },
+    {
+      "slug": "salute-ossea-fratture-da-stress-giovani-atlete",
+      "lang": "it",
+      "title": "Fratture da stress nelle giovani atlete: perché l'osso si costruisce adesso",
+      "date": "2026-07-28",
+      "questions": [
+        {
+          "q": "Le ragazze subiscono più fratture da stress dei ragazzi?",
+          "id": "faq-le-ragazze-subiscono-piu-fratture-da-stress-dei-ragazzi"
+        },
+        {
+          "q": "Come si riconosce una frattura da stress in un'atleta adolescente?",
+          "id": "faq-come-si-riconosce-una-frattura-da-stress-in-unatleta"
+        },
+        {
+          "q": "Perché gli anni tra i 12 e i 18 contano tanto per le ossa?",
+          "id": "faq-perche-gli-anni-tra-i-12-e-i-18-contano-tanto-per-le"
+        },
+        {
+          "q": "Allenarsi tanto fa bene o male alle ossa?",
+          "id": "faq-allenarsi-tanto-fa-bene-o-male-alle-ossa"
+        },
+        {
+          "q": "Quante ore di allenamento a settimana sono associate alle lesioni ossee da stress?",
+          "id": "faq-quante-ore-di-allenamento-a-settimana-sono-associate"
+        },
+        {
+          "q": "Perché le atlete di ginnastica e danza hanno più fratture da stress?",
+          "id": "faq-perche-le-atlete-di-ginnastica-e-danza-hanno-piu"
+        },
+        {
+          "q": "Le fratture da stress si ripresentano?",
+          "id": "faq-le-fratture-da-stress-si-ripresentano"
+        },
+        {
+          "q": "Quali sono i segnali d'allarme da non ignorare?",
+          "id": "faq-quali-sono-i-segnali-dallarme-da-non-ignorare"
+        },
+        {
+          "q": "Quanto della massa ossea dipende dallo stile di vita e quanto dalla genetica?",
+          "id": "faq-quanto-della-massa-ossea-dipende-dallo-stile-di-vita-e"
+        },
+        {
+          "q": "Il picco di massa ossea arriva insieme al picco di crescita?",
+          "id": "faq-il-picco-di-massa-ossea-arriva-insieme-al-picco-di"
+        }
+      ]
+    },
+    {
+      "slug": "salute-ossea-fratture-da-stress-giovani-atlete",
+      "lang": "en",
+      "title": "Stress fractures in young female athletes: why bone is built now, not later",
+      "date": "2026-07-28",
+      "questions": [
+        {
+          "q": "Do girls get more stress fractures than boys?",
+          "id": "faq-do-girls-get-more-stress-fractures-than-boys"
+        },
+        {
+          "q": "How do you recognise a stress fracture in an adolescent athlete?",
+          "id": "faq-how-do-you-recognise-a-stress-fracture-in-an-adolescent"
+        },
+        {
+          "q": "Why do the years between 12 and 18 matter so much for bone?",
+          "id": "faq-why-do-the-years-between-12-and-18-matter-so-much-for"
+        },
+        {
+          "q": "Is heavy training good or bad for bone?",
+          "id": "faq-is-heavy-training-good-or-bad-for-bone"
+        },
+        {
+          "q": "How many training hours a week are associated with bone stress injuries?",
+          "id": "faq-how-many-training-hours-a-week-are-associated-with-bone"
+        },
+        {
+          "q": "Why do gymnasts and dancers get more stress fractures?",
+          "id": "faq-why-do-gymnasts-and-dancers-get-more-stress-fractures"
+        },
+        {
+          "q": "Do stress fractures come back?",
+          "id": "faq-do-stress-fractures-come-back"
+        },
+        {
+          "q": "Which warning signs should never be ignored?",
+          "id": "faq-which-warning-signs-should-never-be-ignored"
+        },
+        {
+          "q": "How much of bone mass depends on lifestyle and how much on genetics?",
+          "id": "faq-how-much-of-bone-mass-depends-on-lifestyle-and-how-much"
+        },
+        {
+          "q": "Does peak bone mass arrive at the same time as the growth spurt?",
+          "id": "faq-does-peak-bone-mass-arrive-at-the-same-time-as-the"
+        }
+      ]
+    },
+    {
+      "slug": "specializzazione-precoce-giovani-atlete",
+      "lang": "it",
+      "title": "Specializzazione precoce: un solo sport tutto l'anno, e cosa costa davvero alle ragazze",
+      "date": "2026-07-26",
+      "questions": [
+        {
+          "q": "Che cos'è la specializzazione sportiva precoce?",
+          "id": "faq-che-cose-la-specializzazione-sportiva-precoce"
+        },
+        {
+          "q": "Specializzarsi in un solo sport aumenta il rischio di infortunio nelle ragazze?",
+          "id": "faq-specializzarsi-in-un-solo-sport-aumenta-il-rischio-di"
+        },
+        {
+          "q": "Quante ore a settimana sono troppe per un'atleta di 13-14 anni?",
+          "id": "faq-quante-ore-a-settimana-sono-troppe-per-unatleta-di-13"
+        },
+        {
+          "q": "Serve specializzarsi presto per arrivare a livelli alti?",
+          "id": "faq-serve-specializzarsi-presto-per-arrivare-a-livelli-alti"
+        },
+        {
+          "q": "Mia figlia fa ginnastica artistica o danza: lì bisogna iniziare da piccole. Vale lo stesso discorso?",
+          "id": "faq-mia-figlia-fa-ginnastica-artistica-o-danza-li-bisogna"
+        },
+        {
+          "q": "Come faccio a sapere se mia figlia si sta allenando troppo?",
+          "id": "faq-come-faccio-a-sapere-se-mia-figlia-si-sta-allenando"
+        },
+        {
+          "q": "Il rischio riguarda solo gli infortuni?",
+          "id": "faq-il-rischio-riguarda-solo-gli-infortuni"
+        },
+        {
+          "q": "Quanti giorni e quanti mesi di pausa servono in un anno?",
+          "id": "faq-quanti-giorni-e-quanti-mesi-di-pausa-servono-in-un-anno"
+        }
+      ]
+    },
+    {
+      "slug": "specializzazione-precoce-giovani-atlete",
+      "lang": "en",
+      "title": "Early specialisation: one sport all year round, and what it actually costs girls",
+      "date": "2026-07-26",
+      "questions": [
+        {
+          "q": "What is early sport specialisation?",
+          "id": "faq-what-is-early-sport-specialisation"
+        },
+        {
+          "q": "Does specialising in one sport raise injury risk in girls?",
+          "id": "faq-does-specialising-in-one-sport-raise-injury-risk-in"
+        },
+        {
+          "q": "How many hours a week are too many for a 13-14 year-old athlete?",
+          "id": "faq-how-many-hours-a-week-are-too-many-for-a-13-14-year-old"
+        },
+        {
+          "q": "Do you need to specialise early to reach a high level?",
+          "id": "faq-do-you-need-to-specialise-early-to-reach-a-high-level"
+        },
+        {
+          "q": "My daughter does artistic gymnastics or dance, where you have to start young. Does the same apply?",
+          "id": "faq-my-daughter-does-artistic-gymnastics-or-dance-where-you"
+        },
+        {
+          "q": "How do I know if my daughter is training too much?",
+          "id": "faq-how-do-i-know-if-my-daughter-is-training-too-much"
+        },
+        {
+          "q": "Is the risk only about injuries?",
+          "id": "faq-is-the-risk-only-about-injuries"
+        },
+        {
+          "q": "How many days and months off are needed each year?",
+          "id": "faq-how-many-days-and-months-off-are-needed-each-year"
+        }
+      ]
+    },
+    {
+      "slug": "commozione-cerebrale-giovani-atlete",
+      "lang": "it",
+      "title": "Commozione cerebrale nelle giovani atlete: più frequente, meno riconosciuta (e cosa fare nei primi minuti)",
+      "date": "2026-07-24",
+      "questions": [
+        {
+          "q": "Le ragazze rischiano più dei ragazzi la commozione cerebrale?",
+          "id": "faq-le-ragazze-rischiano-piu-dei-ragazzi-la-commozione"
+        },
+        {
+          "q": "Come si riconosce una commozione cerebrale a bordo campo?",
+          "id": "faq-come-si-riconosce-una-commozione-cerebrale-a-bordo-campo"
+        },
+        {
+          "q": "Perché è così importante uscire subito dal campo?",
+          "id": "faq-perche-e-cosi-importante-uscire-subito-dal-campo"
+        },
+        {
+          "q": "Dopo una commozione cerebrale bisogna stare al buio e fermi per giorni?",
+          "id": "faq-dopo-una-commozione-cerebrale-bisogna-stare-al-buio-e"
+        },
+        {
+          "q": "Le atlete recuperano più lentamente dei maschi?",
+          "id": "faq-le-atlete-recuperano-piu-lentamente-dei-maschi"
+        },
+        {
+          "q": "Quanto tempo serve per tornare a giocare?",
+          "id": "faq-quanto-tempo-serve-per-tornare-a-giocare"
+        },
+        {
+          "q": "Serve perdere conoscenza perché sia una commozione cerebrale?",
+          "id": "faq-serve-perdere-conoscenza-perche-sia-una-commozione"
+        },
+        {
+          "q": "Quante commozioni cerebrali non vengono segnalate a nessuno?",
+          "id": "faq-quante-commozioni-cerebrali-non-vengono-segnalate-a"
+        },
+        {
+          "q": "Le linee guida sulla commozione cerebrale sono state costruite anche su atlete?",
+          "id": "faq-le-linee-guida-sulla-commozione-cerebrale-sono-state"
+        },
+        {
+          "q": "Un'atleta confusa dopo un allenamento al caldo ha per forza preso un colpo alla testa?",
+          "id": "faq-unatleta-confusa-dopo-un-allenamento-al-caldo-ha-per"
+        }
+      ]
+    },
+    {
+      "slug": "commozione-cerebrale-giovani-atlete",
+      "lang": "en",
+      "title": "Concussion in young female athletes: more common, less often spotted (and what to do in the first minutes)",
+      "date": "2026-07-24",
+      "questions": [
+        {
+          "q": "Are girls at higher risk of concussion than boys?",
+          "id": "faq-are-girls-at-higher-risk-of-concussion-than-boys"
+        },
+        {
+          "q": "How do you recognise a concussion on the sideline?",
+          "id": "faq-how-do-you-recognise-a-concussion-on-the-sideline"
+        },
+        {
+          "q": "Why does coming off immediately matter so much?",
+          "id": "faq-why-does-coming-off-immediately-matter-so-much"
+        },
+        {
+          "q": "After a concussion, should the athlete stay in a dark room and do nothing?",
+          "id": "faq-after-a-concussion-should-the-athlete-stay-in-a-dark"
+        },
+        {
+          "q": "Do female athletes recover more slowly?",
+          "id": "faq-do-female-athletes-recover-more-slowly"
+        },
+        {
+          "q": "How long before an athlete can play again?",
+          "id": "faq-how-long-before-an-athlete-can-play-again"
+        },
+        {
+          "q": "Does someone have to lose consciousness for it to be a concussion?",
+          "id": "faq-does-someone-have-to-lose-consciousness-for-it-to-be-a"
+        },
+        {
+          "q": "How many concussions are never reported to anyone?",
+          "id": "faq-how-many-concussions-are-never-reported-to-anyone"
+        },
+        {
+          "q": "Were the concussion guidelines built on female athletes too?",
+          "id": "faq-were-the-concussion-guidelines-built-on-female-athletes"
+        },
+        {
+          "q": "Does an athlete who's confused after training in the heat necessarily have a head injury?",
+          "id": "faq-does-an-athlete-whos-confused-after-training-in-the"
+        }
+      ]
+    },
+    {
+      "slug": "perdite-urina-giovani-atlete",
+      "lang": "it",
+      "title": "Perdo urina quando salto: il sintomo di cui quasi nessuna atleta parla",
+      "date": "2026-07-22",
+      "questions": [
+        {
+          "q": "Perdere qualche goccia di urina quando salto è normale per un'atleta?",
+          "id": "faq-perdere-qualche-goccia-di-urina-quando-salto-e-normale"
+        },
+        {
+          "q": "In quali sport succede di più?",
+          "id": "faq-in-quali-sport-succede-di-piu"
+        },
+        {
+          "q": "Quante ragazze ne parlano con l'allenatore o con un medico?",
+          "id": "faq-quante-ragazze-ne-parlano-con-lallenatore-o-con-un"
+        },
+        {
+          "q": "Si può fare qualcosa? E vale anche per le adolescenti?",
+          "id": "faq-si-puo-fare-qualcosa-e-vale-anche-per-le-adolescenti"
+        },
+        {
+          "q": "Le perdite di urina saltando passano da sole crescendo?",
+          "id": "faq-le-perdite-di-urina-saltando-passano-da-sole-crescendo"
+        },
+        {
+          "q": "Cosa NON deve fare un allenatore quando un'atleta ne parla?",
+          "id": "faq-cosa-non-deve-fare-un-allenatore-quando-unatleta-ne"
+        },
+        {
+          "q": "Le perdite di urina possono far smettere di fare sport?",
+          "id": "faq-le-perdite-di-urina-possono-far-smettere-di-fare-sport"
+        },
+        {
+          "q": "Le perdite di urina durante lo sport riguardano solo chi ha avuto figli?",
+          "id": "faq-le-perdite-di-urina-durante-lo-sport-riguardano-solo"
+        },
+        {
+          "q": "Succede anche alle atlete di alto livello?",
+          "id": "faq-succede-anche-alle-atlete-di-alto-livello"
+        }
+      ]
+    },
+    {
+      "slug": "perdite-urina-giovani-atlete",
+      "lang": "en",
+      "title": "I leak when I jump: the symptom almost no young athlete talks about",
+      "date": "2026-07-22",
+      "questions": [
+        {
+          "q": "Is leaking a little urine when I jump normal for an athlete?",
+          "id": "faq-is-leaking-a-little-urine-when-i-jump-normal-for-an"
+        },
+        {
+          "q": "Which sports does it happen in most?",
+          "id": "faq-which-sports-does-it-happen-in-most"
+        },
+        {
+          "q": "How many girls tell their coach or a clinician?",
+          "id": "faq-how-many-girls-tell-their-coach-or-a-clinician"
+        },
+        {
+          "q": "Can anything be done? And does it apply to adolescents?",
+          "id": "faq-can-anything-be-done-and-does-it-apply-to-adolescents"
+        },
+        {
+          "q": "Does leaking when jumping go away on its own with age?",
+          "id": "faq-does-leaking-when-jumping-go-away-on-its-own-with-age"
+        },
+        {
+          "q": "What should a coach NOT do when an athlete brings it up?",
+          "id": "faq-what-should-a-coach-not-do-when-an-athlete-brings-it-up"
+        },
+        {
+          "q": "Can urinary leakage make a girl stop playing sport?",
+          "id": "faq-can-urinary-leakage-make-a-girl-stop-playing-sport"
+        },
+        {
+          "q": "Is urinary leakage in sport only an issue for women who have had children?",
+          "id": "faq-is-urinary-leakage-in-sport-only-an-issue-for-women-who"
+        },
+        {
+          "q": "Does it happen to elite athletes too?",
+          "id": "faq-does-it-happen-to-elite-athletes-too"
+        }
+      ]
+    },
+    {
+      "slug": "crociato-giovani-atlete",
+      "lang": "it",
+      "title": "Crociato e giovani atlete: perché il rischio è più alto, e i 20 minuti che lo dimezzano",
+      "date": "2026-07-21",
+      "questions": [
+        {
+          "q": "Le ragazze si rompono il crociato più dei ragazzi?",
+          "id": "faq-le-ragazze-si-rompono-il-crociato-piu-dei-ragazzi"
+        },
+        {
+          "q": "Si può davvero prevenire la rottura del crociato?",
+          "id": "faq-si-puo-davvero-prevenire-la-rottura-del-crociato"
+        },
+        {
+          "q": "Quanto spesso va fatto perché funzioni?",
+          "id": "faq-quanto-spesso-va-fatto-perche-funzioni"
+        },
+        {
+          "q": "Come si distingue una rottura del crociato da un dolore al ginocchio che dura da mesi?",
+          "id": "faq-come-si-distingue-una-rottura-del-crociato-da-un-dolore"
+        },
+        {
+          "q": "Da che età conviene iniziare il riscaldamento neuromuscolare preventivo?",
+          "id": "faq-da-che-eta-conviene-iniziare-il-riscaldamento"
+        },
+        {
+          "q": "Il ciclo mestruale aumenta il rischio di rompersi il crociato?",
+          "id": "faq-il-ciclo-mestruale-aumenta-il-rischio-di-rompersi-il"
+        },
+        {
+          "q": "In quali sport le ragazze si rompono più spesso il crociato?",
+          "id": "faq-in-quali-sport-le-ragazze-si-rompono-piu-spesso-il"
+        },
+        {
+          "q": "Dopo una ricostruzione del crociato, quanto è alto il rischio di rifarsi male?",
+          "id": "faq-dopo-una-ricostruzione-del-crociato-quanto-e-alto-il"
+        }
+      ]
+    },
+    {
+      "slug": "crociato-giovani-atlete",
+      "lang": "en",
+      "title": "ACL injuries in young female athletes: why the risk is higher, and the 20 minutes that halve it",
+      "date": "2026-07-21",
+      "questions": [
+        {
+          "q": "Do girls tear their ACL more often than boys?",
+          "id": "faq-do-girls-tear-their-acl-more-often-than-boys"
+        },
+        {
+          "q": "Can ACL injuries actually be prevented?",
+          "id": "faq-can-acl-injuries-actually-be-prevented"
+        },
+        {
+          "q": "How often does it have to be done to work?",
+          "id": "faq-how-often-does-it-have-to-be-done-to-work"
+        },
+        {
+          "q": "How do you tell an ACL rupture from knee pain that has lasted for months?",
+          "id": "faq-how-do-you-tell-an-acl-rupture-from-knee-pain-that-has"
+        },
+        {
+          "q": "At what age should preventive neuromuscular warm-ups start?",
+          "id": "faq-at-what-age-should-preventive-neuromuscular-warm-ups"
+        },
+        {
+          "q": "Does the menstrual cycle increase ACL injury risk?",
+          "id": "faq-does-the-menstrual-cycle-increase-acl-injury-risk"
+        },
+        {
+          "q": "In which sports do girls tear their ACL most often?",
+          "id": "faq-in-which-sports-do-girls-tear-their-acl-most-often"
+        },
+        {
+          "q": "After an ACL reconstruction, how high is the risk of a second injury?",
+          "id": "faq-after-an-acl-reconstruction-how-high-is-the-risk-of-a"
+        }
+      ]
+    },
+    {
+      "slug": "sonno-atlete-adolescenti",
+      "lang": "it",
+      "title": "Sonno e atlete adolescenti: perché 8 ore non sono un lusso (e la pubertà le rende più difficili)",
+      "date": "2026-07-18",
+      "questions": [
+        {
+          "q": "Quante ore dovrebbe dormire un'atleta di 14 anni?",
+          "id": "faq-quante-ore-dovrebbe-dormire-unatleta-di-14-anni"
+        },
+        {
+          "q": "Dormire poco aumenta davvero il rischio di infortunio?",
+          "id": "faq-dormire-poco-aumenta-davvero-il-rischio-di-infortunio"
+        },
+        {
+          "q": "Mia figlia si addormenta tardi: è pigrizia o svogliatezza?",
+          "id": "faq-mia-figlia-si-addormenta-tardi-e-pigrizia-o-svogliatezza"
+        },
+        {
+          "q": "Perché le ragazze sembrano dormire peggio dei ragazzi?",
+          "id": "faq-perche-le-ragazze-sembrano-dormire-peggio-dei-ragazzi"
+        },
+        {
+          "q": "Dormire di più migliora la prestazione sportiva?",
+          "id": "faq-dormire-di-piu-migliora-la-prestazione-sportiva"
+        },
+        {
+          "q": "A che ora dovrebbe andare a letto un'atleta di 14 anni che si sveglia alle 6:45?",
+          "id": "faq-a-che-ora-dovrebbe-andare-a-letto-unatleta-di-14-anni"
+        },
+        {
+          "q": "Quante ore deve dormire un’atleta adolescente?",
+          "id": "faq-quante-ore-deve-dormire-unatleta-adolescente"
+        },
+        {
+          "q": "Perché un’adolescente non riesce ad addormentarsi presto anche quando ci prova?",
+          "id": "faq-perche-unadolescente-non-riesce-ad-addormentarsi-presto"
+        },
+        {
+          "q": "Dormire di più fa vincere di più?",
+          "id": "faq-dormire-di-piu-fa-vincere-di-piu"
+        },
+        {
+          "q": "Allenarsi la sera tardi rovina il sonno?",
+          "id": "faq-allenarsi-la-sera-tardi-rovina-il-sonno"
+        }
+      ]
+    },
+    {
+      "slug": "sonno-atlete-adolescenti",
+      "lang": "en",
+      "title": "Sleep and teenage athletes: why 8 hours isn't a luxury (and puberty makes them harder to get)",
+      "date": "2026-07-18",
+      "questions": [
+        {
+          "q": "How many hours should a 14-year-old athlete sleep?",
+          "id": "faq-how-many-hours-should-a-14-year-old-athlete-sleep"
+        },
+        {
+          "q": "Does short sleep really increase injury risk?",
+          "id": "faq-does-short-sleep-really-increase-injury-risk"
+        },
+        {
+          "q": "My daughter falls asleep late — is that laziness?",
+          "id": "faq-my-daughter-falls-asleep-late-is-that-laziness"
+        },
+        {
+          "q": "Why do girls seem to sleep worse than boys?",
+          "id": "faq-why-do-girls-seem-to-sleep-worse-than-boys"
+        },
+        {
+          "q": "Does sleeping more improve sports performance?",
+          "id": "faq-does-sleeping-more-improve-sports-performance"
+        },
+        {
+          "q": "What time should a 14-year-old athlete go to bed if she wakes at 6:45?",
+          "id": "faq-what-time-should-a-14-year-old-athlete-go-to-bed-if-she"
+        },
+        {
+          "q": "How many hours should an adolescent athlete sleep?",
+          "id": "faq-how-many-hours-should-an-adolescent-athlete-sleep"
+        },
+        {
+          "q": "Why can’t an adolescent fall asleep early even when she tries?",
+          "id": "faq-why-cant-an-adolescent-fall-asleep-early-even-when-she"
+        },
+        {
+          "q": "Does sleeping more mean winning more?",
+          "id": "faq-does-sleeping-more-mean-winning-more"
+        },
+        {
+          "q": "Does training late in the evening wreck sleep?",
+          "id": "faq-does-training-late-in-the-evening-wreck-sleep"
+        }
+      ]
+    },
+    {
+      "slug": "ferro-atlete-adolescenti",
+      "lang": "it",
+      "title": "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e che si trova con un esame)",
+      "date": "2026-07-16",
+      "questions": [
+        {
+          "q": "Quante atlete adolescenti hanno il ferro basso?",
+          "id": "faq-quante-atlete-adolescenti-hanno-il-ferro-basso"
+        },
+        {
+          "q": "È lo sport a causare la carenza di ferro?",
+          "id": "faq-e-lo-sport-a-causare-la-carenza-di-ferro"
+        },
+        {
+          "q": "Posso dare un integratore di ferro a mia figlia se è sempre stanca?",
+          "id": "faq-posso-dare-un-integratore-di-ferro-a-mia-figlia-se-e"
+        },
+        {
+          "q": "La carenza di ferro dà sintomi riconoscibili?",
+          "id": "faq-la-carenza-di-ferro-da-sintomi-riconoscibili"
+        },
+        {
+          "q": "Una dieta vegetariana o povera di carne aumenta il rischio?",
+          "id": "faq-una-dieta-vegetariana-o-povera-di-carne-aumenta-il"
+        },
+        {
+          "q": "Quando andrebbe fatto il controllo?",
+          "id": "faq-quando-andrebbe-fatto-il-controllo"
+        },
+        {
+          "q": "L'emocromo è normale ma il ferro è basso: com'è possibile?",
+          "id": "faq-lemocromo-e-normale-ma-il-ferro-e-basso-come-possibile"
+        },
+        {
+          "q": "Il ferro basso fa calare la prestazione anche senza anemia?",
+          "id": "faq-il-ferro-basso-fa-calare-la-prestazione-anche-senza"
+        },
+        {
+          "q": "In Italia esiste uno screening del ferro per le adolescenti che fanno sport?",
+          "id": "faq-in-italia-esiste-uno-screening-del-ferro-per-le"
+        },
+        {
+          "q": "Quale valore di ferritina indica una carenza in un'adolescente?",
+          "id": "faq-quale-valore-di-ferritina-indica-una-carenza-in"
+        }
+      ]
+    },
+    {
+      "slug": "ferro-atlete-adolescenti",
+      "lang": "en",
+      "title": "Low iron in teenage athletes: the deficiency nobody looks for (and a blood test finds)",
+      "date": "2026-07-16",
+      "questions": [
+        {
+          "q": "How many teenage athletes have low iron?",
+          "id": "faq-how-many-teenage-athletes-have-low-iron"
+        },
+        {
+          "q": "Does sport cause iron deficiency?",
+          "id": "faq-does-sport-cause-iron-deficiency"
+        },
+        {
+          "q": "Can I give my daughter an iron supplement if she's always tired?",
+          "id": "faq-can-i-give-my-daughter-an-iron-supplement-if-shes"
+        },
+        {
+          "q": "Does iron deficiency give recognisable symptoms?",
+          "id": "faq-does-iron-deficiency-give-recognisable-symptoms"
+        },
+        {
+          "q": "Does a vegetarian or low-meat diet increase the risk?",
+          "id": "faq-does-a-vegetarian-or-low-meat-diet-increase-the-risk"
+        },
+        {
+          "q": "When should the check happen?",
+          "id": "faq-when-should-the-check-happen"
+        },
+        {
+          "q": "The full blood count is normal but iron is low: how?",
+          "id": "faq-the-full-blood-count-is-normal-but-iron-is-low-how"
+        },
+        {
+          "q": "Does low iron hurt performance even without anaemia?",
+          "id": "faq-does-low-iron-hurt-performance-even-without-anaemia"
+        },
+        {
+          "q": "Is there iron screening for adolescent athletes outside the United States?",
+          "id": "faq-is-there-iron-screening-for-adolescent-athletes-outside"
+        },
+        {
+          "q": "Which ferritin value indicates deficiency in an adolescent?",
+          "id": "faq-which-ferritin-value-indicates-deficiency-in-an"
+        }
+      ]
+    },
+    {
+      "slug": "dolore-in-puberta-neuroscienza",
+      "lang": "it",
+      "title": "Il dolore cambia in pubertà: cosa dice la neuroscienza (e perché non sono 'scuse')",
+      "date": "2026-07-11",
+      "questions": [
+        {
+          "q": "A quattordici anni ha più mal di pancia e mal di testa: è normale?",
+          "id": "faq-a-quattordici-anni-ha-piu-mal-di-pancia-e-mal-di-testa"
+        },
+        {
+          "q": "Le ragazze 'sentono' più dolore dei ragazzi?",
+          "id": "faq-le-ragazze-sentono-piu-dolore-dei-ragazzi"
+        },
+        {
+          "q": "Perché ha senso tracciare il dolore per un'atleta di 13-14 anni?",
+          "id": "faq-perche-ha-senso-tracciare-il-dolore-per-unatleta-di-13"
+        },
+        {
+          "q": "Quanto è diffuso il dolore mestruale, e quanto pesa davvero?",
+          "id": "faq-quanto-e-diffuso-il-dolore-mestruale-e-quanto-pesa"
+        },
+        {
+          "q": "Il mal di schiena di un'atleta adolescente si spiega con la pubertà?",
+          "id": "faq-il-mal-di-schiena-di-unatleta-adolescente-si-spiega-con"
+        },
+        {
+          "q": "Perché il dolore aumenta proprio in adolescenza?",
+          "id": "faq-perche-il-dolore-aumenta-proprio-in-adolescenza"
+        },
+        {
+          "q": "Le differenze di dolore tra ragazze e ragazzi ci sono già da bambini?",
+          "id": "faq-le-differenze-di-dolore-tra-ragazze-e-ragazzi-ci-sono"
+        },
+        {
+          "q": "Come si parla di dolore con un’atleta di 13-14 anni senza drammatizzarlo?",
+          "id": "faq-come-si-parla-di-dolore-con-unatleta-di-13-14-anni"
+        },
+        {
+          "q": "Come si distingue un dolore da osservare da uno da far vedere a un medico?",
+          "id": "faq-come-si-distingue-un-dolore-da-osservare-da-uno-da-far"
+        }
+      ]
+    },
+    {
+      "slug": "dolore-in-puberta-neuroscienza",
+      "lang": "en",
+      "title": "Pain changes at puberty: what neuroscience says (and why it isn't 'being dramatic')",
+      "date": "2026-07-11",
+      "questions": [
+        {
+          "q": "At fourteen she has more stomach aches and headaches: is that normal?",
+          "id": "faq-at-fourteen-she-has-more-stomach-aches-and-headaches-is"
+        },
+        {
+          "q": "Do girls 'feel' more pain than boys?",
+          "id": "faq-do-girls-feel-more-pain-than-boys"
+        },
+        {
+          "q": "Why does tracking pain make sense for a 13-14-year-old athlete?",
+          "id": "faq-why-does-tracking-pain-make-sense-for-a-13-14-year-old"
+        },
+        {
+          "q": "How common is period pain, and how much does it really cost?",
+          "id": "faq-how-common-is-period-pain-and-how-much-does-it-really"
+        },
+        {
+          "q": "Is an adolescent athlete's back pain explained by puberty?",
+          "id": "faq-is-an-adolescent-athletes-back-pain-explained-by-puberty"
+        },
+        {
+          "q": "Why does pain increase precisely in adolescence?",
+          "id": "faq-why-does-pain-increase-precisely-in-adolescence"
+        },
+        {
+          "q": "Are pain differences between girls and boys already there in childhood?",
+          "id": "faq-are-pain-differences-between-girls-and-boys-already"
+        },
+        {
+          "q": "How do you talk about pain with a 13- or 14-year-old without dramatising it?",
+          "id": "faq-how-do-you-talk-about-pain-with-a-13-or-14-year-old"
+        },
+        {
+          "q": "How do you tell pain to observe from pain that needs a doctor?",
+          "id": "faq-how-do-you-tell-pain-to-observe-from-pain-that-needs-a"
+        }
+      ]
+    },
+    {
+      "slug": "parole-allenatore-salute-atlete",
+      "lang": "it",
+      "title": "Le parole dell'allenatore: come la cultura e il linguaggio dello staff cambiano la salute delle atlete",
+      "date": "2026-07-09",
+      "questions": [
+        {
+          "q": "Un allenatore deve diventare un esperto di ciclo e RED-S?",
+          "id": "faq-un-allenatore-deve-diventare-un-esperto-di-ciclo-e-red-s"
+        },
+        {
+          "q": "Perché un commento sul corpo è un problema, se lo dico 'per motivare'?",
+          "id": "faq-perche-un-commento-sul-corpo-e-un-problema-se-lo-dico"
+        },
+        {
+          "q": "Cosa NON dovrebbe mai dire un allenatore a un'atleta adolescente?",
+          "id": "faq-cosa-non-dovrebbe-mai-dire-un-allenatore-a-unatleta"
+        },
+        {
+          "q": "Come si apre il discorso senza invadere la privacy di una ragazza?",
+          "id": "faq-come-si-apre-il-discorso-senza-invadere-la-privacy-di"
+        },
+        {
+          "q": "Un'atleta dice che ha male: come dovrebbe rispondere un allenatore?",
+          "id": "faq-unatleta-dice-che-ha-male-come-dovrebbe-rispondere-un"
+        },
+        {
+          "q": "Chi dovrebbe formare gli allenatori sulla salute delle atlete?",
+          "id": "faq-chi-dovrebbe-formare-gli-allenatori-sulla-salute-delle"
+        },
+        {
+          "q": "Serve un allenatore donna perché una ragazza parli del proprio corpo?",
+          "id": "faq-serve-un-allenatore-donna-perche-una-ragazza-parli-del"
+        },
+        {
+          "q": "Questi dati valgono anche per le atlete di 13-14 anni?",
+          "id": "faq-questi-dati-valgono-anche-per-le-atlete-di-13-14-anni"
+        }
+      ]
+    },
+    {
+      "slug": "parole-allenatore-salute-atlete",
+      "lang": "en",
+      "title": "A coach's words: how staff knowledge and language change athletes' health",
+      "date": "2026-07-09",
+      "questions": [
+        {
+          "q": "Does a coach have to become an expert in the menstrual cycle and RED-S?",
+          "id": "faq-does-a-coach-have-to-become-an-expert-in-the-menstrual"
+        },
+        {
+          "q": "Why is a comment about the body a problem if I say it 'to motivate'?",
+          "id": "faq-why-is-a-comment-about-the-body-a-problem-if-i-say-it"
+        },
+        {
+          "q": "What should a coach never say to an adolescent athlete?",
+          "id": "faq-what-should-a-coach-never-say-to-an-adolescent-athlete"
+        },
+        {
+          "q": "How do you open the conversation without invading a girl's privacy?",
+          "id": "faq-how-do-you-open-the-conversation-without-invading-a"
+        },
+        {
+          "q": "An athlete says she is in pain: how should a coach respond?",
+          "id": "faq-an-athlete-says-she-is-in-pain-how-should-a-coach"
+        },
+        {
+          "q": "Who should be training coaches on female athlete health?",
+          "id": "faq-who-should-be-training-coaches-on-female-athlete-health"
+        },
+        {
+          "q": "Does a girl need a female coach in order to talk about her body?",
+          "id": "faq-does-a-girl-need-a-female-coach-in-order-to-talk-about"
+        },
+        {
+          "q": "Do these figures also apply to 13-14-year-old athletes?",
+          "id": "faq-do-these-figures-also-apply-to-13-14-year-old-athletes"
+        }
+      ]
+    },
+    {
+      "slug": "red-s-bassa-disponibilita-energetica",
+      "lang": "it",
+      "title": "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)",
+      "date": "2026-07-04",
+      "questions": [
+        {
+          "q": "Che cos'è la RED-S?",
+          "id": "faq-che-cose-la-red-s"
+        },
+        {
+          "q": "Perdere il ciclo perché ci si allena tanto è normale?",
+          "id": "faq-perdere-il-ciclo-perche-ci-si-allena-tanto-e-normale"
+        },
+        {
+          "q": "Un'app può diagnosticare la RED-S?",
+          "id": "faq-unapp-puo-diagnosticare-la-red-s"
+        },
+        {
+          "q": "Quali sono i primi segnali di RED-S in un'atleta adolescente?",
+          "id": "faq-quali-sono-i-primi-segnali-di-red-s-in-unatleta"
+        },
+        {
+          "q": "Che differenza c'è tra Triade dell'atleta femminile e RED-S?",
+          "id": "faq-che-differenza-ce-tra-triade-dellatleta-femminile-e-red"
+        },
+        {
+          "q": "Come si valuta il rischio di RED-S?",
+          "id": "faq-come-si-valuta-il-rischio-di-red-s"
+        },
+        {
+          "q": "La RED-S riguarda solo le atlete magre?",
+          "id": "faq-la-red-s-riguarda-solo-le-atlete-magre"
+        },
+        {
+          "q": "La RED-S riguarda solo le ragazze?",
+          "id": "faq-la-red-s-riguarda-solo-le-ragazze"
+        },
+        {
+          "q": "Perché ci sono così pochi dati sulla RED-S nelle atlete adolescenti?",
+          "id": "faq-perche-ci-sono-cosi-pochi-dati-sulla-red-s-nelle-atlete"
+        },
+        {
+          "q": "Cosa succede se la bassa disponibilità energetica va avanti per mesi?",
+          "id": "faq-cosa-succede-se-la-bassa-disponibilita-energetica-va"
+        },
+        {
+          "q": "La RED-S influisce anche sulla tolleranza al caldo?",
+          "id": "faq-la-red-s-influisce-anche-sulla-tolleranza-al-caldo"
+        }
+      ]
+    },
+    {
+      "slug": "red-s-bassa-disponibilita-energetica",
+      "lang": "en",
+      "title": "RED-S: when training more does harm (and how to catch it early)",
+      "date": "2026-07-04",
+      "questions": [
+        {
+          "q": "What is RED-S?",
+          "id": "faq-what-is-red-s"
+        },
+        {
+          "q": "Is losing your period because you train hard normal?",
+          "id": "faq-is-losing-your-period-because-you-train-hard-normal"
+        },
+        {
+          "q": "Can an app diagnose RED-S?",
+          "id": "faq-can-an-app-diagnose-red-s"
+        },
+        {
+          "q": "What are the early signs of RED-S in a teenage athlete?",
+          "id": "faq-what-are-the-early-signs-of-red-s-in-a-teenage-athlete"
+        },
+        {
+          "q": "What's the difference between the Female Athlete Triad and RED-S?",
+          "id": "faq-whats-the-difference-between-the-female-athlete-triad"
+        },
+        {
+          "q": "How is RED-S risk assessed?",
+          "id": "faq-how-is-red-s-risk-assessed"
+        },
+        {
+          "q": "Does RED-S only affect thin athletes?",
+          "id": "faq-does-red-s-only-affect-thin-athletes"
+        },
+        {
+          "q": "Does RED-S only affect girls?",
+          "id": "faq-does-red-s-only-affect-girls"
+        },
+        {
+          "q": "Why is there so little data on RED-S in adolescent athletes?",
+          "id": "faq-why-is-there-so-little-data-on-red-s-in-adolescent"
+        },
+        {
+          "q": "What happens if low energy availability goes on for months?",
+          "id": "faq-what-happens-if-low-energy-availability-goes-on-for"
+        },
+        {
+          "q": "Does RED-S also affect heat tolerance?",
+          "id": "faq-does-red-s-also-affect-heat-tolerance"
+        }
+      ]
+    },
+    {
+      "slug": "parlare-di-ciclo-con-allenatore",
+      "lang": "it",
+      "title": "Parlare di ciclo con l'allenatore: perché lo fa solo l'11% delle atlete (e come cambiarlo)",
+      "date": "2026-07-03",
+      "questions": [
+        {
+          "q": "Quante atlete parlano di ciclo con il proprio allenatore?",
+          "id": "faq-quante-atlete-parlano-di-ciclo-con-il-proprio-allenatore"
+        },
+        {
+          "q": "Un allenatore uomo deve conoscere il ciclo delle sue atlete?",
+          "id": "faq-un-allenatore-uomo-deve-conoscere-il-ciclo-delle-sue"
+        },
+        {
+          "q": "Perché così poche atlete ne parlano?",
+          "id": "faq-perche-cosi-poche-atlete-ne-parlano"
+        },
+        {
+          "q": "Come faccio a parlare di ciclo con il mio allenatore senza imbarazzo?",
+          "id": "faq-come-faccio-a-parlare-di-ciclo-con-il-mio-allenatore"
+        },
+        {
+          "q": "Cosa rispondere a un'atleta che dice di avere dolori mestruali?",
+          "id": "faq-cosa-rispondere-a-unatleta-che-dice-di-avere-dolori"
+        },
+        {
+          "q": "Di che cosa ha davvero bisogno un allenatore per programmare la seduta?",
+          "id": "faq-di-che-cosa-ha-davvero-bisogno-un-allenatore-per"
+        },
+        {
+          "q": "Serve un'allenatrice donna perché le atlete ne parlino?",
+          "id": "faq-serve-unallenatrice-donna-perche-le-atlete-ne-parlino"
+        },
+        {
+          "q": "Di quali altri temi le atlete non parlano con chi le allena?",
+          "id": "faq-di-quali-altri-temi-le-atlete-non-parlano-con-chi-le"
+        },
+        {
+          "q": "Cosa può dire un allenatore per rendere il tema meno tabù?",
+          "id": "faq-cosa-puo-dire-un-allenatore-per-rendere-il-tema-meno"
+        }
+      ]
+    },
+    {
+      "slug": "parlare-di-ciclo-con-allenatore",
+      "lang": "en",
+      "title": "Talking about periods with your coach: why only 11% of athletes do (and how to change it)",
+      "date": "2026-07-03",
+      "questions": [
+        {
+          "q": "How many athletes talk about their cycle with their coach?",
+          "id": "faq-how-many-athletes-talk-about-their-cycle-with-their"
+        },
+        {
+          "q": "Should a male coach know about his athletes' cycles?",
+          "id": "faq-should-a-male-coach-know-about-his-athletes-cycles"
+        },
+        {
+          "q": "Why do so few athletes talk about it?",
+          "id": "faq-why-do-so-few-athletes-talk-about-it"
+        },
+        {
+          "q": "How can I talk to my coach about my period without feeling embarrassed?",
+          "id": "faq-how-can-i-talk-to-my-coach-about-my-period-without"
+        },
+        {
+          "q": "What should you say to an athlete who mentions period pain?",
+          "id": "faq-what-should-you-say-to-an-athlete-who-mentions-period"
+        },
+        {
+          "q": "What does a coach actually need in order to plan the session?",
+          "id": "faq-what-does-a-coach-actually-need-in-order-to-plan-the"
+        },
+        {
+          "q": "Do you need a female coach for athletes to talk about it?",
+          "id": "faq-do-you-need-a-female-coach-for-athletes-to-talk-about-it"
+        },
+        {
+          "q": "What else do athletes not talk about with their coaches?",
+          "id": "faq-what-else-do-athletes-not-talk-about-with-their-coaches"
+        },
+        {
+          "q": "What can a coach say to make the topic less taboo?",
+          "id": "faq-what-can-a-coach-say-to-make-the-topic-less-taboo"
+        }
+      ]
+    },
+    {
+      "slug": "allenare-ragazze-adolescenti",
+      "lang": "it",
+      "title": "Come allenare ragazze adolescenti: 4 leve concrete per coach e società sportive",
+      "date": "2026-07-02",
+      "questions": [
+        {
+          "q": "Quante atlete adolescenti perde davvero una società?",
+          "id": "faq-quante-atlete-adolescenti-perde-davvero-una-societa"
+        },
+        {
+          "q": "Un allenatore deve diventare esperto di ciclo mestruale e RED-S?",
+          "id": "faq-un-allenatore-deve-diventare-esperto-di-ciclo-mestruale"
+        },
+        {
+          "q": "Perché non dovrei guardare i dati di salute delle singole atlete?",
+          "id": "faq-perche-non-dovrei-guardare-i-dati-di-salute-delle"
+        },
+        {
+          "q": "Quali sono le leve concrete per allenare bene ragazze adolescenti?",
+          "id": "faq-quali-sono-le-leve-concrete-per-allenare-bene-ragazze"
+        },
+        {
+          "q": "Come si adatta il carico a un'atleta che sta crescendo in fretta?",
+          "id": "faq-come-si-adatta-il-carico-a-unatleta-che-sta-crescendo"
+        },
+        {
+          "q": "Un'atleta con dolori mestruali deve saltare l'allenamento?",
+          "id": "faq-unatleta-con-dolori-mestruali-deve-saltare-lallenamento"
+        },
+        {
+          "q": "Quanto è frequente il dolore mestruale tra le atlete?",
+          "id": "faq-quanto-e-frequente-il-dolore-mestruale-tra-le-atlete"
+        },
+        {
+          "q": "Quando un dolore mestruale va segnalato alla famiglia?",
+          "id": "faq-quando-un-dolore-mestruale-va-segnalato-alla-famiglia"
+        },
+        {
+          "q": "Come si prevengono gli infortuni gravi nelle atlete adolescenti?",
+          "id": "faq-come-si-prevengono-gli-infortuni-gravi-nelle-atlete"
+        },
+        {
+          "q": "Come si prepara una squadra al primo allenamento del ritiro estivo?",
+          "id": "faq-come-si-prepara-una-squadra-al-primo-allenamento-del"
+        }
+      ]
+    },
+    {
+      "slug": "reggiseno-sportivo-ragazze",
+      "lang": "it",
+      "title": "Reggiseno sportivo per ragazze: quando serve il primo, come scegliere la taglia",
+      "date": "2026-07-02",
+      "questions": [
+        {
+          "q": "A che età serve il primo reggiseno sportivo?",
+          "id": "faq-a-che-eta-serve-il-primo-reggiseno-sportivo"
+        },
+        {
+          "q": "Il seno può davvero far smettere una ragazza di fare sport?",
+          "id": "faq-il-seno-puo-davvero-far-smettere-una-ragazza-di-fare"
+        },
+        {
+          "q": "Come si capisce se la taglia è sbagliata?",
+          "id": "faq-come-si-capisce-se-la-taglia-e-sbagliata"
+        },
+        {
+          "q": "Serve il reggiseno sportivo anche se il seno è piccolo?",
+          "id": "faq-serve-il-reggiseno-sportivo-anche-se-il-seno-e-piccolo"
+        },
+        {
+          "q": "Ogni quanto va ricontrollata la taglia del reggiseno sportivo durante la crescita?",
+          "id": "faq-ogni-quanto-va-ricontrollata-la-taglia-del-reggiseno"
+        },
+        {
+          "q": "Meglio un reggiseno a compressione o a incapsulamento?",
+          "id": "faq-meglio-un-reggiseno-a-compressione-o-a-incapsulamento"
+        },
+        {
+          "q": "Il seno più abbondante impedisce di fare sport?",
+          "id": "faq-il-seno-piu-abbondante-impedisce-di-fare-sport"
+        },
+        {
+          "q": "Il reggiseno sportivo riduce davvero il dolore al seno durante l'attività?",
+          "id": "faq-il-reggiseno-sportivo-riduce-davvero-il-dolore-al-seno"
+        },
+        {
+          "q": "Ogni quanto va sostituito un reggiseno sportivo?",
+          "id": "faq-ogni-quanto-va-sostituito-un-reggiseno-sportivo"
+        },
+        {
+          "q": "Serve il reggiseno sportivo anche solo per l'ora di educazione fisica?",
+          "id": "faq-serve-il-reggiseno-sportivo-anche-solo-per-lora-di"
+        }
+      ]
+    },
+    {
+      "slug": "allenare-ragazze-adolescenti",
+      "lang": "en",
+      "title": "How to coach teenage girls: 4 concrete levers for coaches and sports clubs",
+      "date": "2026-07-02",
+      "questions": [
+        {
+          "q": "How many teenage athletes does a club actually lose?",
+          "id": "faq-how-many-teenage-athletes-does-a-club-actually-lose"
+        },
+        {
+          "q": "Does a coach need to become an expert on the menstrual cycle and RED-S?",
+          "id": "faq-does-a-coach-need-to-become-an-expert-on-the-menstrual"
+        },
+        {
+          "q": "Why shouldn't I look at individual athletes' health data?",
+          "id": "faq-why-shouldnt-i-look-at-individual-athletes-health-data"
+        },
+        {
+          "q": "What are the concrete levers for coaching teenage girls well?",
+          "id": "faq-what-are-the-concrete-levers-for-coaching-teenage-girls"
+        },
+        {
+          "q": "How do you adjust the load for an athlete who is growing fast?",
+          "id": "faq-how-do-you-adjust-the-load-for-an-athlete-who-is"
+        },
+        {
+          "q": "Should an athlete with period pain skip training?",
+          "id": "faq-should-an-athlete-with-period-pain-skip-training"
+        },
+        {
+          "q": "How common is period pain among athletes?",
+          "id": "faq-how-common-is-period-pain-among-athletes"
+        },
+        {
+          "q": "When should period pain be flagged to the family?",
+          "id": "faq-when-should-period-pain-be-flagged-to-the-family"
+        },
+        {
+          "q": "How do you prevent serious injuries in teenage female athletes?",
+          "id": "faq-how-do-you-prevent-serious-injuries-in-teenage-female"
+        },
+        {
+          "q": "How do you prepare a team for the first summer preseason session?",
+          "id": "faq-how-do-you-prepare-a-team-for-the-first-summer"
+        }
+      ]
+    },
+    {
+      "slug": "reggiseno-sportivo-ragazze",
+      "lang": "en",
+      "title": "Sports bras for girls: when the first one is needed, and how to get the size right",
+      "date": "2026-07-02",
+      "questions": [
+        {
+          "q": "At what age is a first sports bra needed?",
+          "id": "faq-at-what-age-is-a-first-sports-bra-needed"
+        },
+        {
+          "q": "Can breasts really make a girl stop playing sport?",
+          "id": "faq-can-breasts-really-make-a-girl-stop-playing-sport"
+        },
+        {
+          "q": "How do you know if the size is wrong?",
+          "id": "faq-how-do-you-know-if-the-size-is-wrong"
+        },
+        {
+          "q": "Is a sports bra needed even with small breasts?",
+          "id": "faq-is-a-sports-bra-needed-even-with-small-breasts"
+        },
+        {
+          "q": "How often should a sports bra size be rechecked while growing?",
+          "id": "faq-how-often-should-a-sports-bra-size-be-rechecked-while"
+        },
+        {
+          "q": "Compression or encapsulation — which is better?",
+          "id": "faq-compression-or-encapsulation-which-is-better"
+        },
+        {
+          "q": "Does a larger bust stop a girl doing sport?",
+          "id": "faq-does-a-larger-bust-stop-a-girl-doing-sport"
+        },
+        {
+          "q": "Does a sports bra actually reduce breast pain during activity?",
+          "id": "faq-does-a-sports-bra-actually-reduce-breast-pain-during"
+        },
+        {
+          "q": "How often should a sports bra be replaced?",
+          "id": "faq-how-often-should-a-sports-bra-be-replaced"
+        },
+        {
+          "q": "Is a sports bra needed just for school PE?",
+          "id": "faq-is-a-sports-bra-needed-just-for-school-pe"
+        }
+      ]
+    },
+    {
+      "slug": "abbandono-puberta",
+      "lang": "it",
+      "title": "Perché le ragazze smettono di fare sport in adolescenza: i dati sull'abbandono a 10-14 anni",
+      "date": "2026-06-22",
+      "questions": [
+        {
+          "q": "Quante ragazze abbandonano davvero lo sport da adolescenti?",
+          "id": "faq-quante-ragazze-abbandonano-davvero-lo-sport-da"
+        },
+        {
+          "q": "Le ragazze lasciano lo sport perché perdono interesse?",
+          "id": "faq-le-ragazze-lasciano-lo-sport-perche-perdono-interesse"
+        },
+        {
+          "q": "Che ruolo hanno i sintomi di cui non si parla?",
+          "id": "faq-che-ruolo-hanno-i-sintomi-di-cui-non-si-parla"
+        },
+        {
+          "q": "A che età si perde il maggior numero di ragazze?",
+          "id": "faq-a-che-eta-si-perde-il-maggior-numero-di-ragazze"
+        },
+        {
+          "q": "Cosa può fare concretamente una società sportiva?",
+          "id": "faq-cosa-puo-fare-concretamente-una-societa-sportiva"
+        },
+        {
+          "q": "L'abbandono sportivo delle ragazze è più alto di quello dei ragazzi?",
+          "id": "faq-labbandono-sportivo-delle-ragazze-e-piu-alto-di-quello"
+        },
+        {
+          "q": "In quali anni conviene concentrare gli sforzi per non perdere le atlete?",
+          "id": "faq-in-quali-anni-conviene-concentrare-gli-sforzi-per-non"
+        },
+        {
+          "q": "Che c'entrano gli infortuni con l'abbandono sportivo femminile?",
+          "id": "faq-che-centrano-gli-infortuni-con-labbandono-sportivo"
+        },
+        {
+          "q": "Cosa NON funziona per trattenere le ragazze nello sport?",
+          "id": "faq-cosa-non-funziona-per-trattenere-le-ragazze-nello-sport"
+        }
+      ]
+    },
+    {
+      "slug": "abbandono-puberta",
+      "lang": "en",
+      "title": "Why girls stop playing sport as teenagers: the data on drop-out at 10-14",
+      "date": "2026-06-22",
+      "questions": [
+        {
+          "q": "How many girls actually drop out of sport as teenagers?",
+          "id": "faq-how-many-girls-actually-drop-out-of-sport-as-teenagers"
+        },
+        {
+          "q": "Do girls leave sport because they lose interest?",
+          "id": "faq-do-girls-leave-sport-because-they-lose-interest"
+        },
+        {
+          "q": "What part do the symptoms nobody talks about play?",
+          "id": "faq-what-part-do-the-symptoms-nobody-talks-about-play"
+        },
+        {
+          "q": "At what age are most girls lost to sport?",
+          "id": "faq-at-what-age-are-most-girls-lost-to-sport"
+        },
+        {
+          "q": "What can a sports club concretely do?",
+          "id": "faq-what-can-a-sports-club-concretely-do"
+        },
+        {
+          "q": "Is drop-out higher among girls than among boys?",
+          "id": "faq-is-drop-out-higher-among-girls-than-among-boys"
+        },
+        {
+          "q": "Which years should a club focus on to avoid losing its athletes?",
+          "id": "faq-which-years-should-a-club-focus-on-to-avoid-losing-its"
+        },
+        {
+          "q": "What do injuries have to do with girls dropping out of sport?",
+          "id": "faq-what-do-injuries-have-to-do-with-girls-dropping-out-of"
+        },
+        {
+          "q": "What does NOT work for keeping girls in sport?",
+          "id": "faq-what-does-not-work-for-keeping-girls-in-sport"
+        }
+      ]
+    },
+    {
+      "slug": "ciclo-e-performance",
+      "lang": "it",
+      "title": "Ciclo mestruale e performance sportiva: cosa dicono i dati (e cosa non dicono)",
+      "date": "2026-06-20",
+      "questions": [
+        {
+          "q": "Il ciclo mestruale influenza davvero la performance sportiva?",
+          "id": "faq-il-ciclo-mestruale-influenza-davvero-la-performance"
+        },
+        {
+          "q": "Quante ragazze evitano lo sport quando hanno il ciclo?",
+          "id": "faq-quante-ragazze-evitano-lo-sport-quando-hanno-il-ciclo"
+        },
+        {
+          "q": "Perché si sa così poco di ciclo e sport?",
+          "id": "faq-perche-si-sa-cosi-poco-di-ciclo-e-sport"
+        },
+        {
+          "q": "Il menarca cambia la partecipazione allo sport?",
+          "id": "faq-il-menarca-cambia-la-partecipazione-allo-sport"
+        },
+        {
+          "q": "Il ciclo mestruale aumenta il rischio di infortunio?",
+          "id": "faq-il-ciclo-mestruale-aumenta-il-rischio-di-infortunio"
+        },
+        {
+          "q": "Allenarsi durante le mestruazioni fa male?",
+          "id": "faq-allenarsi-durante-le-mestruazioni-fa-male"
+        },
+        {
+          "q": "Il ciclo mestruale fa perdere forza?",
+          "id": "faq-il-ciclo-mestruale-fa-perdere-forza"
+        },
+        {
+          "q": "Conviene saltare l'allenamento quando si hanno le mestruazioni?",
+          "id": "faq-conviene-saltare-lallenamento-quando-si-hanno-le"
+        },
+        {
+          "q": "Quanto pesa davvero la fase del ciclo sulla prestazione, in concreto?",
+          "id": "faq-quanto-pesa-davvero-la-fase-del-ciclo-sulla-prestazione"
+        },
+        {
+          "q": "Bisogna adattare l'allenamento alla fase del ciclo?",
+          "id": "faq-bisogna-adattare-lallenamento-alla-fase-del-ciclo"
+        }
+      ]
+    },
+    {
+      "slug": "ciclo-e-performance",
+      "lang": "en",
+      "title": "Menstrual cycle and sports performance: what the data says (and what it doesn't)",
+      "date": "2026-06-20",
+      "questions": [
+        {
+          "q": "Does the menstrual cycle really affect sports performance?",
+          "id": "faq-does-the-menstrual-cycle-really-affect-sports"
+        },
+        {
+          "q": "How many girls avoid sport when they have their period?",
+          "id": "faq-how-many-girls-avoid-sport-when-they-have-their-period"
+        },
+        {
+          "q": "Why do we know so little about the cycle and sport?",
+          "id": "faq-why-do-we-know-so-little-about-the-cycle-and-sport"
+        },
+        {
+          "q": "Does menarche change participation in sport?",
+          "id": "faq-does-menarche-change-participation-in-sport"
+        },
+        {
+          "q": "Does the menstrual cycle increase injury risk?",
+          "id": "faq-does-the-menstrual-cycle-increase-injury-risk"
+        },
+        {
+          "q": "Is training during your period harmful?",
+          "id": "faq-is-training-during-your-period-harmful"
+        },
+        {
+          "q": "Does the menstrual cycle make you lose strength?",
+          "id": "faq-does-the-menstrual-cycle-make-you-lose-strength"
+        },
+        {
+          "q": "Is it better to skip training during your period?",
+          "id": "faq-is-it-better-to-skip-training-during-your-period"
+        },
+        {
+          "q": "How much does cycle phase actually affect performance, in practice?",
+          "id": "faq-how-much-does-cycle-phase-actually-affect-performance"
+        },
+        {
+          "q": "Should training be adapted to the cycle phase?",
+          "id": "faq-should-training-be-adapted-to-the-cycle-phase"
+        }
+      ]
+    }
+  ]
+}
