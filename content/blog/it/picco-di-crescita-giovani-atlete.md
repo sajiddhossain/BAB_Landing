@@ -4,7 +4,7 @@ title: "Picco di crescita nelle giovani atlete: cosa cambia davvero (e cosa non 
 seoTitle: "Picco di crescita nelle giovani atlete: cosa cambia"
 seoDescription: "Il picco di crescita arriva in media a 11,2 anni, con enorme variabilità. Cosa cambia per infortuni e coordinazione, e come adattare il carico."
 date: 2026-08-02
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "Nelle giovani atlete il picco di velocità di crescita arriva in media intorno agli 11,2 anni, ma con una variabilità enorme: in una squadra di tredicenni convivono corpi a stadi di maturazione diversi di anni. Nel frattempo l'osso si mineralizza circa sei mesi dopo che si è allungato. Cosa dicono davvero i dati — e perché sulle ragazze l'evidenza che lega la crescita agli infortuni è ancora limitata."
 answer: "Cambiano leve, coordinazione e struttura ossea, non l'impegno. Nelle giovani atlete l'età media al picco di crescita è 11,18 anni, ma con un intervallo di credibilità al 90% da 8,62 a 12,94 (Lima et al., 2024): nella stessa categoria convivono atlete biologicamente distanti anni. Il picco di minerale osseo arriva circa sei mesi dopo (Bailey et al., 1999)."
@@ -61,7 +61,7 @@ I numeri più netti su crescita rapida e infortuni esistono, ma vengono da un'al
 
 Per dare una scala del problema reale: nelle giovani atlete l'incidenza complessiva di infortuni è di **4,4 ogni 1.000 ore** (16,5 in partita contro 2,2 in allenamento), il **40%** subisce almeno un infortunio con perdita di tempo, il 67% degli infortuni riguarda l'arto inferiore — caviglia 23%, ginocchio 16% — e la media di giorni persi è **10** (Beech et al., 2024). È su questo sfondo che va letta la crescita: non come la causa, ma come uno dei fattori che rendono un periodo più delicato.
 
-## Cosa cambia davvero nel corpo che cresce in fretta
+## Cosa cambia nel corpo durante il picco di crescita?
 
 Tre cose sono documentate, e sono sufficienti a giustificare prudenza.
 
@@ -79,7 +79,7 @@ L'ipotesi nasce da una revisione sistematica di 33 studi che ha documentato come
 
 Detto in pratica: se un'atleta sembra meno precisa in un periodo di crescita rapida, l'ipotesi "sta cambiando il suo corpo" è più utile e più corretta di "è diventata imbranata". La prima porta ad adattare il lavoro; la seconda porta una ragazza a pensare di non essere più brava — che è uno dei modi in cui inizia [l'abbandono](/blog/abbandono-puberta).
 
-## Come si stima a che punto è la crescita, senza medicalizzare nulla
+## Come si capisce a che punto è la crescita di un'atleta?
 
 Il metodo più utile è anche il più semplice: **misurare l'altezza ogni tre mesi**, sempre nelle stesse condizioni (stesso momento della giornata, senza scarpe, schiena al muro), e guardare la **velocità** — quanti centimetri in quanto tempo — non il valore assoluto. Chi cresce in fretta si vede da questo, non dall'aspetto.
 

@@ -4,7 +4,7 @@ title: "Going back after an injury: the knee heals before the head does"
 seoTitle: "Return to sport after injury: when it's time"
 seoDescription: "After ACL reconstruction 81% return to sport but only 55% to competitive level. Psychological readiness matters as much as the knee."
 date: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "After ACL reconstruction 81% go back to playing sport, but only 55% go back to competitive level — and many of those who never return have a knee that works fine. Psychological readiness can be measured, it predicts return, and in under-20s it is associated with the risk of a second injury. What the numbers say about the calendar, about criteria and about girls, and what a coach can actually say on the day someone comes back."
 answer: "Because tissue heals faster than confidence: after ACL reconstruction 81% go back to playing sport but only 55% return to competitive level, and among those who do not return, fear of reinjury is one of the most common reasons (Ardern et al., 2014, a meta-analysis of 7,556 participants, mostly adults)."
@@ -104,7 +104,7 @@ The figure closest to our athletes comes from a prospective cohort of **78 athle
 
 Two honest caveats. The sample is small, so these numbers are an order of magnitude rather than any individual athlete's personal probability. And the practical consequence is not to stop: it is that the [neuromuscular work that prevents the first injury](/en/blog/crociato-giovani-atlete) should not be filed away once rehabilitation ends — it is exactly what is still needed, and it concerns **both** knees, not one.
 
-## What the international consensus says about returning
+## What does the international consensus say about return to sport?
 
 The reference document is the **Bern 2016** consensus statement, and it contains two ideas that change how the conversation goes ([Ardern et al., 2016](https://doi.org/10.1136/bjsports-2016-096278)).
 
