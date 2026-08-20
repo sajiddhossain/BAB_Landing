@@ -629,6 +629,36 @@ export const FACTS: Fact[] = [
     source: 'Parsons et al., 2013; Goldin e Bruner, StatPearls, 2025',
     doi: '10.1164/rccm.201303-0437ST',
   },
+  {
+    id: 'commozione-cerebrale-giovani-atlete-3',
+    article: 'commozione-cerebrale-giovani-atlete',
+    claim:
+      "Su 4.418 commozioni cerebrali in 22 sport liceali confrontabili tra i sessi (Michigan, 2016-2019), le ragazze avevano 1,26 volte la probabilit\u00e0 di non essere rimosse dall'attivit\u00e0 al momento dell'evento rispetto ai ragazzi (IC 95% 1,09-1,45), con il valore pi\u00f9 alto nel calcio (1,37).",
+    claimEn:
+      'Across 4,418 concussions in 22 sex-comparable U.S. high school sports (Michigan, 2016-2019), girls were 1.26 times as likely as boys not to be removed from play at the time of the event (95% CI 1.09-1.45), with the highest value in soccer (1.37).',
+    source: 'Zynda et al., 2021',
+    doi: '10.1177/03635465211020007',
+  },
+  {
+    id: 'abbandono-puberta-2',
+    article: 'abbandono-puberta',
+    claim:
+      "In uno studio longitudinale su 781 adolescenti, una pubert\u00e0 pi\u00f9 precoce dei pari si associa a una probabilit\u00e0 significativamente pi\u00f9 alta di interrompere l'attivit\u00e0 fisica durante l'adolescenza (hazard ratio 1,68).",
+    claimEn:
+      'In a longitudinal study of 781 adolescents, earlier pubertal timing than peers is associated with a significantly higher probability of discontinuing physical activity during adolescence (hazard ratio 1.68).',
+    source: 'Gallant et al., 2023',
+    doi: '10.1038/s41598-023-40882-3',
+  },
+  {
+    id: 'ferro-atlete-adolescenti-2',
+    article: 'ferro-atlete-adolescenti',
+    claim:
+      "Tra 394 studentesse svedesi post-menarca di circa 16 anni \u2014 non atlete \u2014 il 73,6% aveva ferritina sotto 30 \u00b5g/L: la carenza di ferro in adolescenza \u00e8 diffusa anche fuori dallo sport.",
+    claimEn:
+      'Among 394 Swedish post-menarche students aged around 16 \u2014 not athletes \u2014 73.6% had ferritin below 30 \u00b5g/L: iron deficiency in adolescence is widespread outside sport too.',
+    source: 'S\u00f6derman et al., 2025',
+    doi: '10.1371/journal.pone.0336688',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */
