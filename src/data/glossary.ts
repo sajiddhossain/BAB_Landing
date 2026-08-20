@@ -35,6 +35,15 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
       'A syndrome of low energy availability in sport: when energy intake does not cover the cost of training, with effects on the menstrual cycle, bone, the immune system and mood.',
     sameAs: 'https://en.wikipedia.org/wiki/Relative_energy_deficiency_in_sport',
   },
+  'triade-atleta': {
+    name: "Triade dell'atleta femminile",
+    description:
+      "Quadro clinico che collega tre elementi: bassa disponibilità energetica, disfunzione mestruale e riduzione della salute ossea (De Souza et al., 2014). Nel 2014 il Comitato Olimpico Internazionale l'ha ampliata nella RED-S, che aggiunge effetti su sistema immunitario, metabolismo, umore e prestazione e si applica a tutti i sessi (Mountjoy et al., 2014): la RED-S non sostituisce la Triade, la contiene. In uno studio prospettico su 259 ragazze e giovani donne attive, all'aumentare dei fattori di rischio della Triade l'incidenza di lesioni ossee da stress cresceva fino al 46,2% (Barrack et al., 2014).",
+    nameEn: 'Female athlete triad',
+    descriptionEn:
+      'A clinical picture linking three elements: low energy availability, menstrual dysfunction and reduced bone health (De Souza et al., 2014). In 2014 the International Olympic Committee broadened it into RED-S, which adds effects on the immune system, metabolism, mood and performance and applies to all sexes (Mountjoy et al., 2014): RED-S does not replace the Triad, it contains it. In a prospective study of 259 active girls and young women, bone stress injury incidence rose with accumulating Triad risk factors, up to 46.2% (Barrack et al., 2014).',
+    sameAs: 'https://en.wikipedia.org/wiki/Female_athlete_triad',
+  },
   ciclo: {
     name: 'Ciclo mestruale',
     description:
