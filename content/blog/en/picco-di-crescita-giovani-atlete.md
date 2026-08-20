@@ -4,7 +4,7 @@ title: "The growth spurt in young female athletes: what actually changes (and wh
 seoTitle: "The growth spurt in young female athletes"
 seoDescription: "The growth spurt peaks at 11.2 years on average, with huge variability. What changes for injuries and coordination, and how to adapt training load."
 date: 2026-08-02
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "In young female athletes peak height velocity arrives at a mean age of about 11.2 years — but the individual range is enormous: a squad of thirteen-year-olds contains bodies years apart in maturation. Meanwhile bone mineralises roughly six months after it has lengthened. What the data actually say — and why, in girls, the evidence linking growth to injury is still limited."
 answer: "What changes is levers, coordination and bone structure — not commitment. In young female athletes the mean age at peak height velocity is 11.18 years, with a 90% credible interval from 8.62 to 12.94 (Lima et al., 2024): one age category holds athletes years apart biologically. Peak bone mineral accrual arrives roughly six months later (Bailey et al., 1999)."
@@ -61,7 +61,7 @@ The clearest numbers on rapid growth and injury do exist, but they come from ano
 
 For a sense of the real scale of the problem: in young female athletes overall injury incidence is **4.4 per 1,000 hours** (16.5 in matches against 2.2 in training), **40%** sustain at least one time-loss injury, 67% of injuries are to the lower limb — ankle 23%, knee 16% — and the mean days lost is **10** (Beech et al., 2024). That is the backdrop against which growth should be read: not as the cause, but as one of the things that make a period more delicate.
 
-## What actually changes in a fast-growing body
+## What changes in the body during the growth spurt?
 
 Three things are documented, and they are enough to justify caution.
 
@@ -79,7 +79,7 @@ The hypothesis comes from a systematic review of 33 studies documenting that sev
 
 In practice: if an athlete seems less precise during a period of rapid growth, "her body is changing" is a more useful and more accurate hypothesis than "she has got clumsy". The first leads to adapting the work; the second leads a girl to think she is no longer any good — one of the ways [drop-out](/blog/abbandono-puberta) begins.
 
-## How to tell where growth is, without medicalising anything
+## How do you tell where an athlete is in her growth?
 
 The most useful method is also the simplest: **measure height every three months**, always in the same conditions (same time of day, no shoes, back to the wall), and look at **velocity** — how many centimetres in how much time — not at the absolute value. Fast growers show up this way, not by how they look.
 

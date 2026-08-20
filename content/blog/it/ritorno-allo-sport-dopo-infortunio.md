@@ -4,7 +4,7 @@ title: "Tornare a giocare dopo un infortunio: il ginocchio guarisce prima della 
 seoTitle: "Tornare allo sport dopo un infortunio: quando è ora"
 seoDescription: "Dopo un crociato l'81% torna allo sport ma solo il 55% al livello competitivo. La prontezza psicologica conta quanto il ginocchio."
 date: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "Dopo una ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo — e chi non torna, spesso, ha un ginocchio che funziona. La prontezza psicologica si misura, predice il rientro e, negli under 20, è associata al rischio di un secondo infortunio. Cosa dicono i numeri sul calendario, sui criteri e sulle ragazze, e cosa può dire davvero chi allena il giorno del rientro."
 answer: "Perché il tessuto guarisce prima della fiducia: dopo la ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo, e tra chi non rientra la paura di rifarsi male è una delle ragioni più frequenti (Ardern et al., 2014, meta-analisi su 7.556 partecipanti in prevalenza adulti)."
@@ -104,7 +104,7 @@ Il dato più vicino alle nostre atlete viene da una coorte prospettica su **78 a
 
 Due avvertenze oneste. Il campione è piccolo, quindi questi numeri vanno letti come ordine di grandezza e non come la probabilità personale di una singola atleta. E la conseguenza pratica non è smettere: è che il [lavoro neuromuscolare che previene il primo infortunio](/blog/crociato-giovani-atlete) non va archiviato dopo la riabilitazione — è esattamente ciò che continua a servire, e riguarda **due** ginocchia, non uno.
 
-## Cosa dice il consenso internazionale sul rientro
+## Cosa dice il consenso internazionale sul ritorno allo sport?
 
 Il documento di riferimento è il consensus di **Berna 2016**, e contiene due idee che cambiano il modo di parlarne ([Ardern et al., 2016](https://doi.org/10.1136/bjsports-2016-096278)).
 
