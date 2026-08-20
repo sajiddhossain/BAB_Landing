@@ -2,7 +2,7 @@
 slug: dolori-mestruali-giovani-atlete
 title: "Period pain and sport: how much pain is normal, and what actually works"
 date: 2026-08-10
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "71% of young women under 25 have period pain, and one in five has already missed school because of it. Among athletes, dysmenorrhoea is the most common menstrual cycle disorder. Yet almost nobody tells a 14-year-old two simple things: that period pain has treatments with evidence behind them — exercise, heat, medication — and that pain which keeps making her miss training is not something to endure, it is something to have assessed."
 answer: "Pain that costs school days or training sessions is not normal, however common it is: dysmenorrhoea affects 71.1% of young women under 25, and 20.1% have missed school because of it (Armour et al., 2019). Exercise (SMD -1.86) and heat have a measured effect, with low-quality evidence; if it does not improve within 3-6 months, a secondary cause should be investigated."
@@ -92,7 +92,7 @@ One last caveat, for completeness: if menstrual pain is severe enough to prevent
 Nothing clinical. Three practical things, all free:
 
 - **Make the topic sayable.** Today only **11%** of athletes discuss the menstrual cycle with their coach — **4%** if the coach is a man ([Höök et al., 2022](https://doi.org/10.3390/ijerph191911932)). A few words said once and honoured in practice are enough: "this can be talked about here, and nobody is judged for it". We wrote about it at length in [talking about periods with your coach](/blog/parlare-di-ciclo-con-allenatore).
-- **Guarantee the practical conditions.** Toilet access, menstrual products available in the changing room, privacy when changing, and the option to adapt a single session without having to justify it in front of the group.
+- **Guarantee the practical conditions.** Toilet access, menstrual products available in the changing room, privacy when changing, and the option to adapt a single session without having to justify it in front of the group — [the practical management of periods in sport](/blog/gestire-ciclo-nello-sport) is made of these organisational choices, not protocols.
 - **Never turn pain into a judgement.** "That's an excuse", "you're all like this", "in my day" are sentences that cost athletes. [A coach's words](/blog/parole-allenatore-salute-atlete) stay with a girl far longer than a missed session.
 
 And one thing **not** to do: ask for diagnoses, details or dates. Staff do not need an individual athlete's clinical data — they need to know how to dose today's session.

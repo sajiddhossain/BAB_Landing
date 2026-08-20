@@ -2,7 +2,7 @@
 slug: dolori-mestruali-giovani-atlete
 title: "Dolori mestruali e sport: quanto dolore è normale e cosa funziona davvero"
 date: 2026-08-10
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "Il 71% delle giovani donne under 25 ha dolori mestruali e una su cinque salta la scuola per questo. Tra le atlete la dismenorrea è il disturbo del ciclo più frequente. Eppure quasi nessuno spiega a una ragazza di 14 anni due cose semplici: che il dolore ha trattamenti con prove alle spalle — esercizio, calore, farmaci — e che un dolore che continua a farle saltare gli allenamenti non è qualcosa da sopportare, è qualcosa da far valutare."
 answer: "Un dolore che fa saltare scuola o allenamenti non è normale, per quanto sia comune: la dismenorrea riguarda il 71,1% delle giovani donne under 25 e il 20,1% ha saltato la scuola per questo (Armour et al., 2019). Hanno effetto misurato l'esercizio fisico (SMD -1,86) e il calore, con qualità delle prove bassa; se non migliora entro 3-6 mesi va indagata una causa secondaria."
@@ -92,7 +92,7 @@ Un'ultima avvertenza, per completezza: se il dolore mestruale è forte al punto 
 Niente di clinico. Tre cose pratiche, tutte a costo zero:
 
 - **Rendere dicibile il tema.** Oggi solo l'**11%** delle atlete parla di ciclo con chi la allena — il **4%** se è un uomo ([Höök et al., 2022](https://doi.org/10.3390/ijerph191911932)). Bastano poche parole dette una volta e mantenute nei fatti: "qui se ne può parlare, e nessuno viene valutato per questo". Ne abbiamo scritto per esteso in [parlare di ciclo con l'allenatore](/blog/parlare-di-ciclo-con-allenatore).
-- **Garantire le condizioni pratiche.** Accesso al bagno, prodotti mestruali disponibili nello spogliatoio, privacy nei momenti di cambio, e la possibilità di adattare la singola seduta senza doversi giustificare davanti al gruppo.
+- **Garantire le condizioni pratiche.** Accesso al bagno, prodotti mestruali disponibili nello spogliatoio, privacy nei momenti di cambio, e la possibilità di adattare la singola seduta senza doversi giustificare davanti al gruppo — [la gestione pratica del ciclo in palestra](/blog/gestire-ciclo-nello-sport) è fatta di queste scelte organizzative, non di protocolli.
 - **Non trasformare il dolore in un giudizio.** "È una scusa", "siete tutte così", "ai miei tempi" sono frasi che costano atlete. [Le parole di chi allena](/blog/parole-allenatore-salute-atlete) restano addosso molto più a lungo di una seduta saltata.
 
 E una cosa da **non** fare: chiedere diagnosi, dettagli o date. Allo staff non serve il dato clinico della singola atleta — serve sapere come dosare la seduta di oggi.

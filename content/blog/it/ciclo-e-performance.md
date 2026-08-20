@@ -3,7 +3,7 @@ slug: ciclo-e-performance
 title: "Ciclo mestruale e performance sportiva: cosa dicono i dati (e cosa non dicono)"
 seoTitle: "Ciclo mestruale e sport: cosa dicono i dati"
 date: 2026-06-20
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "Il 77% delle atlete d'élite riferisce che il ciclo ha influenzato negativamente la performance — ma quel campione ha 28 anni di età media. Tra le adolescenti di 10-18 anni, dal 25% al 61% riduce o evita l'attività fisica durante le mestruazioni. E periodizzare l'allenamento sulla fase del ciclo? Su una ragazza di 14 anni non esiste evidenza che lo sostenga. Cosa dicono i dati, cosa non dicono, e da dove partire davvero."
 answer: "Sì, ma meno di quanto si creda e non in modo prevedibile: nella meta-analisi più ampia l'effetto della fase del ciclo sulla prestazione è di entità «banale», e misurato su donne adulte (McNulty et al., 2020). Pesa di più ciò che l'atleta vive: il 77% delle atlete d'élite riferisce che il ciclo ha influenzato la performance (Jones et al., 2024 — età media 28 anni)."
@@ -55,7 +55,7 @@ Due precisazioni oneste, perché contano. La prima: quel campione ha un'**età m
 
 Qui l'evidenza è più recente e parla la lingua giusta. Una revisione di **86 studi in 33 Paesi su adolescenti di 10-18 anni** ha rilevato che la quota di ragazze che **evita o riduce l'attività fisica durante le mestruazioni va dal 25,2% al 61,1%**, a seconda della popolazione (Harvey et al., 2025). In uno degli studi inclusi, l'**80,4%** delle ragazze con flusso abbondante aveva saltato l'ora di educazione fisica.
 
-E il motivo non è solo il dolore. La stessa revisione segnala che la **paura delle perdite** è una preoccupazione ricorrente, e che in più studi le ragazze **preferiscono restare fuori dall'attività pur di evitare l'imbarazzo**. È una rinuncia che nessuno registra come "infortunio", ma che toglie allenamenti esattamente come un infortunio.
+E il motivo non è solo il dolore. La stessa revisione segnala che la **paura delle perdite** è una preoccupazione ricorrente, e che in più studi le ragazze **preferiscono restare fuori dall'attività pur di evitare l'imbarazzo**. È una rinuncia che nessuno registra come "infortunio", ma che toglie allenamenti esattamente come un infortunio — ed è esattamente il problema che si affronta con [la gestione pratica del ciclo nello sport](/blog/gestire-ciclo-nello-sport): prodotti, divise, kit in palestra.
 
 Vale la pena essere precisi anche sul rovescio della medaglia. Uno studio longitudinale su 6.639 adolescenti australiani ha trovato che il menarca si associa a una minore probabilità di praticare **sport individuali** (OR 0,74), ma **non** ha un effetto significativo sugli sport di squadra o sull'attività fisica moderata-vigorosa (Gopalan et al., 2025). Il ciclo, da solo, non spegne un'atleta. È il ciclo **vissuto in un ambiente che non ne parla** a farlo — un meccanismo che abbiamo raccontato nel dettaglio parlando del [silenzio tra atleta e allenatore](/blog/parlare-di-ciclo-con-allenatore).
 

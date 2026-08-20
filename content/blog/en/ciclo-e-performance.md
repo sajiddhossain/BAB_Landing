@@ -3,7 +3,7 @@ slug: ciclo-e-performance
 title: "Menstrual cycle and sports performance: what the data says (and what it doesn't)"
 seoTitle: "Menstrual cycle and sport: what the data says"
 date: 2026-06-20
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "77% of elite athletes report their cycle has negatively affected their performance — but that sample has a mean age of 28. Among adolescents aged 10-18, between 25% and 61% cut back or avoid physical activity during their period. And periodising training around cycle phase? For a 14-year-old there is no evidence supporting it. What the data says, what it doesn't, and where to actually start."
 answer: "Yes, but less than is commonly believed and not predictably: in the largest meta-analysis the effect of cycle phase on performance is of «trivial» magnitude, and measured in adult women (McNulty et al., 2020). What the athlete actually experiences weighs more: 77% of elite athletes report their cycle has affected their performance (Jones et al., 2024 — mean age 28)."
@@ -55,7 +55,7 @@ Two honest caveats, because they matter. First: that sample has a **mean age of 
 
 Here the evidence is newer and speaks the right language. A review of **86 studies across 33 countries in adolescents aged 10-18** found that the share of girls who **avoid or reduce physical activity during menstruation ranges from 25.2% to 61.1%**, depending on the population (Harvey et al., 2025). In one included study, **80.4%** of girls with heavy bleeding had skipped PE.
 
-And pain isn't the only reason. The same review notes that **fear of leaking** is a recurring concern, and that across several studies girls would **rather sit out of an activity than risk embarrassment**. It's a withdrawal nobody logs as an "injury", yet it costs training sessions exactly like one.
+And pain isn't the only reason. The same review notes that **fear of leaking** is a recurring concern, and that across several studies girls would **rather sit out of an activity than risk embarrassment**. It's a withdrawal nobody logs as an "injury", yet it costs training sessions exactly like one — and it is exactly the problem addressed by [the practical management of periods in sport](/blog/gestire-ciclo-nello-sport): products, kit, what to keep at the gym.
 
 It's worth being precise about the other side too. A longitudinal study of 6,639 Australian adolescents found that menarche is associated with lower odds of taking part in **individual sports** (OR 0.74), but has **no** significant effect on team sports or moderate-to-vigorous physical activity (Gopalan et al., 2025). The cycle alone doesn't switch an athlete off. What does is the cycle **lived in an environment that won't talk about it** — a mechanism we covered in detail when writing about [the silence between athlete and coach](/blog/parlare-di-ciclo-con-allenatore).
 
