@@ -1,6 +1,7 @@
 ---
 slug: allenare-ragazze-adolescenti
 title: "Come allenare ragazze adolescenti: 4 leve concrete per coach e società sportive"
+seoTitle: "Come allenare ragazze adolescenti: 4 leve concrete"
 date: 2026-07-02
 updated: 2026-08-19
 author: Sajid Hossain

@@ -1,6 +1,7 @@
 ---
 slug: allenarsi-al-caldo-giovani-atlete
 title: "Allenarsi al caldo: nelle giovani atlete il rischio non è (solo) questione di sesso"
+seoTitle: "Allenarsi al caldo: rischi per le giovani atlete"
 date: 2026-08-19
 updated: 2026-08-19
 author: Sajid Hossain

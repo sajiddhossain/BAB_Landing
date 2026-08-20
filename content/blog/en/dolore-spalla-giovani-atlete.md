@@ -1,6 +1,7 @@
 ---
 slug: dolore-spalla-giovani-atlete
 title: "Shoulder pain in young female athletes: volleyball, swimming and the load nobody counts"
+seoTitle: "Shoulder pain in young female athletes"
 date: 2026-08-12
 updated: 2026-08-20
 author: Sajid Hossain

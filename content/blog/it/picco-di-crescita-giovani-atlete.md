@@ -1,6 +1,7 @@
 ---
 slug: picco-di-crescita-giovani-atlete
 title: "Picco di crescita nelle giovani atlete: cosa cambia davvero (e cosa non è colpa loro)"
+seoTitle: "Picco di crescita nelle giovani atlete: cosa cambia"
 date: 2026-08-02
 updated: 2026-08-13
 author: Sajid Hossain

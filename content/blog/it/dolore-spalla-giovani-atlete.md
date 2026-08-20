@@ -1,6 +1,7 @@
 ---
 slug: dolore-spalla-giovani-atlete
 title: "Dolore alla spalla nelle giovani atlete: pallavolo, nuoto e il carico che nessuno conta"
+seoTitle: "Dolore alla spalla nelle giovani atlete: cause"
 date: 2026-08-12
 updated: 2026-08-20
 author: Sajid Hossain
