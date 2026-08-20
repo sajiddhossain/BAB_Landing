@@ -1,6 +1,7 @@
 ---
 slug: specializzazione-precoce-giovani-atlete
 title: "Early specialisation: one sport all year round, and what it actually costs girls"
+seoTitle: "Early sport specialisation: the real costs"
 date: 2026-07-26
 updated: 2026-08-13
 author: Sajid Hossain

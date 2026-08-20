@@ -1,6 +1,7 @@
 ---
 slug: ciclo-e-performance
 title: "Menstrual cycle and sports performance: what the data says (and what it doesn't)"
+seoTitle: "Menstrual cycle and sport: what the data says"
 date: 2026-06-20
 updated: 2026-08-13
 author: Sajid Hossain

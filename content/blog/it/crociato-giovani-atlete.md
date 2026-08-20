@@ -1,6 +1,7 @@
 ---
 slug: crociato-giovani-atlete
 title: "Crociato e giovani atlete: perché il rischio è più alto, e i 20 minuti che lo dimezzano"
+seoTitle: "Crociato nelle giovani atlete: rischio e prevenzione"
 date: 2026-07-21
 updated: 2026-08-16
 author: Sajid Hossain

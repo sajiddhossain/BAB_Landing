@@ -1,6 +1,7 @@
 ---
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)"
+seoTitle: "RED-S nelle atlete: cos'è, sintomi e primi segnali"
 date: 2026-07-04
 updated: 2026-08-19
 author: Sajid Hossain

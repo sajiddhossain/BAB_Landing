@@ -1,6 +1,7 @@
 ---
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: when training more does harm (and how to catch it early)"
+seoTitle: "RED-S in female athletes: signs and symptoms"
 date: 2026-07-04
 updated: 2026-08-19
 author: Sajid Hossain
