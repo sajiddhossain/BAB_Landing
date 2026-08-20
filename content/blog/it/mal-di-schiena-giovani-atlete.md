@@ -2,7 +2,7 @@
 slug: mal-di-schiena-giovani-atlete
 title: "Mal di schiena a 14 anni: perché in una giovane atleta non è quello di un adulto"
 date: 2026-08-08
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "Il 42% delle atlete e degli atleti di 10-19 anni riferisce mal di schiena nell'arco di dodici mesi, e il sesso femminile compare tra i fattori di rischio. La differenza che quasi nessuno conosce sta nella causa: in adolescenza la lombalgia da sport è molto più spesso una frattura da stress della colonna e molto più raramente un problema di disco o una contrattura. I dati, i limiti dei dati, e perché oggi la fisioterapia immediata batte il riposo."
 answer: "Perché in una giovane atleta la causa più descritta è la spondilolisi, una frattura da stress della vertebra, mentre nell'adulto è il disco: in un confronto diretto spiegava il 47% dei casi negli adolescenti contro il 5% negli adulti (Micheli e Wood, 1995 — campione di clinica specialistica). Un mal di schiena che dura oltre due o tre settimane va valutato, non normalizzato."
@@ -65,7 +65,7 @@ Va letta con precisione: gli autori li chiamano *potential risk factors* e li el
 
 Vale la pena aggiungere una distinzione che spesso si perde. *Avere mal di schiena* e *avere una spondilolisi* non sono la stessa cosa e non seguono necessariamente lo stesso profilo per sesso: nella casistica su atleti non d'élite, le percentuali più alte di spondilolisi tra chi arrivava con lombalgia si trovavano in sport maschili come il baseball (54%) e in sport femminili come la ginnastica (34%) (Selhorst et al., 2019). Su questo preferiamo dire meno e dirlo giusto: il dato robusto è che **il mal di schiena in una giovane atleta merita di essere preso sul serio**, non che esista una gerarchia di rischio per sesso ben quantificata.
 
-## Perché il mal di schiena di una quattordicenne non è quello di un adulto
+## Perché il mal di schiena di una quattordicenne non è quello di un adulto?
 
 **Perché nell'adolescente il dolore nasce molto più spesso dalla parte posteriore della vertebra, e nell'adulto molto più spesso dal disco.**
 
@@ -86,7 +86,7 @@ Cosa succede se si guarda una popolazione meno selezionata? Il numero scende, ma
 
 Tre stime, tre popolazioni diverse, un intervallo che va dal 30% al 47%. Il messaggio non è la cifra: è che **una causa che negli adulti è una rarità, in questa fascia d'età è tra le prime a essere considerate**.
 
-## Cos'è la spondilolisi, in parole semplici
+## Cos'è la spondilolisi, in parole semplici?
 
 **È una frattura da stress della colonna.** L'istmo vertebrale — la *pars interarticularis* — è un ponte osseo sottile che collega le articolazioni posteriori di una vertebra, quasi sempre coinvolto nelle ultime lombari. Quando la schiena si inarca all'indietro e ruota, quel ponte lavora in compressione ripetuta. Se il carico si accumula più in fretta di quanto l'osso riesca a ripararsi, si crea prima una reazione da stress e poi un vero e proprio difetto.
 
@@ -134,7 +134,7 @@ I limiti, dichiarati: è **un solo trial** e il campione è **piccolo** (64 part
 
 Due letture, entrambe utili. La prima, rassicurante: una spondilolisi non è la fine dello sport per una ragazza di quattordici anni. La seconda, meno comoda: quel 92% è il risultato di un percorso — diagnosi, modifica del carico, riabilitazione, rientro graduale. Non è ciò che accade a chi convive con il dolore chiamandolo contrattura per due stagioni.
 
-## «Il mal di schiena fa parte dello sport»
+## Il mal di schiena «fa parte dello sport»?
 
 Il pezzo mancante non è clinico. È culturale, ed è stato studiato direttamente.
 
