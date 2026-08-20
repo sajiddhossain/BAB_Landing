@@ -2,7 +2,7 @@
 slug: distorsione-caviglia-giovani-atlete
 title: "«È solo una storta»: la caviglia è l'infortunio più frequente delle giovani atlete"
 date: 2026-08-06
-updated: 2026-08-16
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "La caviglia è la sede del 23% degli infortuni nelle giovani atlete — più del ginocchio (16%). Eppure è l'infortunio che si racconta con la frase «è solo una storta»: tra gli atleti di 14-18 anni il 20% convive con un'instabilità cronica di caviglia, e tra le ragazze la quota sale al 23,6%. Nello sport giovanile i programmi di prevenzione riducono gli infortuni di caviglia del 26%. I dati, i limiti dei dati, e cosa cambia in venti minuti a settimana."
 answer: "È l'infortunio più frequente delle giovani atlete: la caviglia è la sede del 23% di tutti gli infortuni, davanti a ginocchio (16%) e coscia (13%) (Beech et al., 2024). E non è banale: tra i 14 e i 18 anni il 20,0% degli atleti convive con un'instabilità cronica di caviglia, il 23,6% tra le ragazze (Donovan et al., 2020)."
@@ -58,9 +58,9 @@ Due cose vanno dette subito. La prima: i valori assoluti non sono confrontabili 
 
 Su questo preferiamo essere espliciti anziché plausibili. Sul crociato esiste evidenza longitudinale che dopo la pubertà le ragazze atterrano con un valgismo dinamico maggiore dei coetanei maschi (Ford et al., 2010, citato nel nostro articolo sul [crociato](/blog/crociato-giovani-atlete)); ipotizzare che lo stesso cambiamento del controllo dell'atterraggio pesi anche sulla caviglia è ragionevole, ma resta un'ipotesi, non un risultato. Il dato solido, quello su cui si può agire, è un altro: la fascia d'età in cui la distorsione è più frequente è **proprio quella dello sport giovanile**.
 
-## Cosa succede dopo: il 20% che convive con una caviglia che cede
+## Cosa succede dopo una distorsione non curata?
 
-Qui c'è il numero che dovrebbe cambiare il modo in cui si guarda a «una storta».
+**In circa un caso su cinque, la caviglia continua a cedere.** Qui c'è il numero che dovrebbe cambiare il modo in cui si guarda a «una storta».
 
 Uno studio su **1.002 atleti di scuola superiore di 14-18 anni** (età media 15,6 anni, 50,4% ragazze) ha misurato la prevalenza di **instabilità cronica di caviglia** — la condizione in cui, dopo una o più distorsioni, la caviglia continua a cedere, a fare male o a dare insicurezza ben oltre la guarigione dei tessuti. Il risultato: **20,0% complessivo, 23,6% tra le ragazze contro il 16,3% tra i ragazzi**. Quasi una atleta su quattro (Donovan et al., 2020).
 
@@ -103,15 +103,15 @@ Una revisione sistematica con meta-analisi di **14 studi randomizzati e 2.182 pa
 
 E resta la domanda che le atlete fanno per prima: **quando si torna a giocare?** Anche qui la risposta non è una data. Il consenso internazionale descrive il rientro come un percorso in tre tappe — tornare ad allenarsi, tornare al proprio sport, tornare al proprio livello — e come una decisione condivisa tra atleta, clinici e staff (Ardern et al., 2016). Che cosa cambia in pratica, e perché la parte psicologica pesa più di quanto si creda, l'abbiamo raccolto in [tornare a giocare dopo un infortunio](/blog/ritorno-allo-sport-dopo-infortunio).
 
-## Una precisazione pediatrica che è stata rivista
+## Nei bambini si rompe l'osso e non il legamento: è ancora vero?
 
-Per anni, in un ragazzo o una ragazza ancora in crescita, una caviglia dolente sul versante esterno senza frattura visibile alla radiografia veniva gestita come una **frattura di tipo Salter-Harris I del perone distale** — cioè una lesione della cartilagine di accrescimento — sulla base del fatto che, in un osso immaturo, la cartilagine di accrescimento è meccanicamente più fragile del legamento.
+**Molto meno spesso di quanto si sia insegnato per decenni.** Per anni, in un ragazzo o una ragazza ancora in crescita, una caviglia dolente sul versante esterno senza frattura visibile alla radiografia veniva gestita come una **frattura di tipo Salter-Harris I del perone distale** — cioè una lesione della cartilagine di accrescimento — sulla base del fatto che, in un osso immaturo, la cartilagine di accrescimento è meccanicamente più fragile del legamento.
 
 La risonanza magnetica ha ridimensionato quell'assunto. In uno studio prospettico su **31 bambini** con sospetto clinico di quella lesione, **nessuno** la presentava all'imaging: c'erano lesioni legamentose, contusioni ossee e versamenti articolari (Hofsli et al., 2016). Lo stesso risultato era emerso in uno studio precedente su 18 bambini (Boutis et al., 2010).
 
 Due limiti da tenere presenti, entrambi importanti. I campioni sono **piccoli** (31 e 18 pazienti). E l'**età media è di circa 9-10 anni**, quindi più bassa di quella delle atlete di cui parliamo qui: in una tredicenne o quattordicenne lo stadio di maturazione scheletrica è diverso, e con esso l'equilibrio tra la resistenza dell'osso in crescita e quella dei legamenti — un tema che tocchiamo anche parlando del [picco di crescita](/blog/picco-di-crescita-giovani-atlete). Quello che questo filone di ricerca dice a chi allena non è quindi "non è una frattura": è che **cosa sia esattamente quella caviglia lo stabilisce un professionista sanitario**, e che l'idea che nei giovani sia "sempre l'osso" non regge più come regola automatica.
 
-## Cosa cambia in palestra, concretamente
+## Cosa può fare una società per prevenire le distorsioni, da lunedì?
 
 Non è un protocollo clinico — quello lo scrive chi valuta l'atleta. Sono i punti su cui le fonti citate sopra convergono.
 

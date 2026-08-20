@@ -2,7 +2,7 @@
 slug: forza-ragazze-adolescenti
 title: "Le ragazze e i pesi: l'allenamento della forza a 13-14 anni fa male alla crescita?"
 date: 2026-08-04
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "No: nella revisione più citata sull'argomento, 22 programmi sperimentali di allenamento con i pesi in bambini e preadolescenti non hanno influenzato la crescita in statura e peso, con tassi di infortunio tra 0,053 e 0,176 ogni 100 ore di partecipazione. Eppure solo il 38,5% dei ragazzi e delle ragazze raggiunge le raccomandazioni di attività di rinforzo muscolare — ed essere maschio è uno dei fattori che predicono di riuscirci. Cosa dicono davvero i dati sulla forza nelle giovani atlete."
 answer: "No: in una revisione di 22 programmi sperimentali su bambini e preadolescenti l'allenamento contro resistenza ha migliorato la forza e NON ha influenzato la crescita in statura e peso (Malina, 2006). La condizione è la supervisione, con la tecnica prima del carico: il rischio documentato riguarda il carico improvvisato, non i pesi in sé."
@@ -55,9 +55,9 @@ La conclusione dell'autore è precisa nelle sue condizioni, e vale la pena ripor
 
 Una precisazione onesta, perché conta: quella revisione riguarda **bambini e preadolescenti**, e i programmi durano tipicamente 8-12 settimane. Non è la prova che qualsiasi cosa si faccia in sala pesi a 14 anni sia innocua — è la prova che il timore specifico ("bloccare la crescita") non trova conferma quando l'allenamento è progettato e supervisionato. Va anche detto che Malina osserva un'altra cosa scomoda: **i guadagni di forza si perdono con il detraining**. La forza non è un deposito che resta: è un adattamento che si mantiene solo se lo si continua a stimolare.
 
-## Perché la paura riguarda la cartilagine di accrescimento
+## L'allenamento con i pesi danneggia la cartilagine di accrescimento?
 
-Il timore ha un bersaglio anatomico preciso: la **cartilagine di accrescimento**, la zona da cui l'osso lungo si allunga durante la crescita e che è meccanicamente più fragile del tessuto osseo maturo. Che quella zona sia vulnerabile è vero, ed è la ragione per cui l'adolescenza ha una patologia da carico tutta sua — dalle apofisiti al [morbo di Osgood-Schlatter](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
+**Non secondo le dichiarazioni di consenso: con progettazione e supervisione adeguate, l'allenamento della forza in età giovanile è sicuro (Lloyd et al., 2014).** Il timore ha un bersaglio anatomico preciso: la **cartilagine di accrescimento**, la zona da cui l'osso lungo si allunga durante la crescita e che è meccanicamente più fragile del tessuto osseo maturo. Che quella zona sia vulnerabile è vero, ed è la ragione per cui l'adolescenza ha una patologia da carico tutta sua — dalle apofisiti al [morbo di Osgood-Schlatter](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
 
 Quello che non regge è il salto logico successivo: che quindi vada evitato il carico. Le dichiarazioni di consenso vanno nella direzione opposta. La **position statement sul youth resistance training** — nata come documento della UK Strength and Conditioning Association e poi rivista e sottoscritta da organizzazioni di medicina dello sport, scienze dell'esercizio e pediatria, con un gruppo di autori scelto tra scienze dell'esercizio pediatriche, medicina pediatrica, educazione fisica e preparazione atletica — sostiene che l'allenamento della forza in età giovanile è sicuro ed efficace **quando appropriatamente progettato e supervisionato** (Lloyd et al., 2014). Nella stessa direzione va il clinical report dell'American Academy of Pediatrics, revisione della policy del 2008 (Stricker et al., 2020), che segnala anche il rovescio della medaglia: un **declino secolare degli indici di fitness muscolare** nei ragazzi di oggi, che riguarda tanto gli atleti quanto i non atleti.
 
@@ -95,7 +95,7 @@ Sei ragazzi o ragazze su dieci non ci arrivano, e il divario non è casuale. Non
 
 Il parallelo con il resto di questo blog è evidente. Come per [il ciclo](/blog/parlare-di-ciclo-con-allenatore), per [il reggiseno sportivo](/blog/reggiseno-sportivo-ragazze) e per [le parole dello staff](/blog/parole-allenatore-salute-atlete), la barriera non è biologica: è informativa. Ed è per questo che si può togliere.
 
-## Cinque principi che reggono alla lettura dei dati
+## Come si imposta l'allenamento della forza a 13-14 anni?
 
 Non sono un programma di allenamento — quello lo scrive chi conosce l'atleta. Sono i punti su cui i documenti citati sopra convergono.
 

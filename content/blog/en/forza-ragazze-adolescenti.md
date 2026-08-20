@@ -2,7 +2,7 @@
 slug: forza-ragazze-adolescenti
 title: "Girls and weights: does strength training at 13-14 stunt growth?"
 date: 2026-08-04
-updated: 2026-08-13
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "No. In the most cited review on the question, 22 experimental weight-training programmes in children and pre-adolescents did not influence growth in height or weight, with estimated injury rates between 0.053 and 0.176 per 100 participant-hours. Yet only 38.5% of children and adolescents meet muscle-strengthening recommendations — and being a boy is one of the factors that predicts meeting them. What the data actually say about strength in young female athletes."
 answer: "No: in a review of 22 experimental programmes in children and preadolescents, resistance training improved strength and did NOT affect growth in height or weight (Malina, 2006). The condition is supervision, with technique before load: the documented risk concerns improvised loading, not weights themselves."
@@ -55,9 +55,9 @@ The author's conclusion is precise about its conditions, and worth quoting in th
 
 One honest caveat, because it matters: that review covers **children and pre-adolescents**, and the programmes typically ran 8-12 weeks. It is not proof that anything done in a weights room at 14 is harmless — it is proof that the specific fear ("stunting growth") is not supported when training is designed and supervised. Malina also notes something less comfortable: **strength gains were lost during detraining**. Strength is not a deposit that stays: it is an adaptation that persists only while it keeps being stimulated.
 
-## Why the fear is about the growth plate
+## Does strength training damage the growth plate?
 
-The fear has a precise anatomical target: the **growth plate**, the zone from which long bones lengthen during growth and which is mechanically weaker than mature bone. That this zone is vulnerable is true, and it is why adolescence has load-related conditions of its own — from apophysitis to [Osgood-Schlatter disease](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
+**Not according to the consensus statements: with appropriate design and supervision, youth strength training is safe (Lloyd et al., 2014).** The fear has a precise anatomical target: the **growth plate**, the zone from which long bones lengthen during growth and which is mechanically weaker than mature bone. That this zone is vulnerable is true, and it is why adolescence has load-related conditions of its own — from apophysitis to [Osgood-Schlatter disease](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
 
 What does not hold is the next logical step: that load should therefore be avoided. Consensus statements go the other way. The **position statement on youth resistance training** — adapted from the official statement of the UK Strength and Conditioning Association, then reviewed and endorsed by leading organisations in sports medicine, exercise science and paediatrics, with an author team drawn from paediatric exercise science, paediatric medicine, physical education, strength and conditioning and sports medicine — holds that youth resistance training is safe and effective **when appropriately designed and supervised** (Lloyd et al., 2014). The clinical report of the American Academy of Pediatrics, a revision of the 2008 policy statement (Stricker et al., 2020), points the same way, and flags the other side of the coin: a **secular decline in measures of muscular fitness** in modern-day youth, affecting athletes and non-athletes alike.
 
@@ -95,7 +95,7 @@ Six in ten do not get there, and the gap is not random. This is not a statement 
 
 The parallel with the rest of this blog is obvious. As with [the menstrual cycle](/blog/parlare-di-ciclo-con-allenatore), with [sports bras](/blog/reggiseno-sportivo-ragazze) and with [the words coaching staff use](/blog/parole-allenatore-salute-atlete), the barrier is not biological: it is informational. Which is precisely why it can be removed.
 
-## Five principles that survive a reading of the data
+## How do you set up strength training at 13-14?
 
 These are not a training programme — that is written by whoever knows the athlete. They are the points on which the documents cited above converge.
 

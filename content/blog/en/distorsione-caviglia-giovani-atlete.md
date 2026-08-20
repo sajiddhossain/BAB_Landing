@@ -3,7 +3,7 @@ slug: distorsione-caviglia-giovani-atlete
 title: "\"It's just a twisted ankle\": the ankle is the most common injury in youth female athletes"
 seoTitle: "Ankle sprains in young female athletes"
 date: 2026-08-06
-updated: 2026-08-16
+updated: 2026-08-20
 author: Sajid Hossain
 excerpt: "The ankle accounts for 23% of injuries in youth female athletes — more than the knee (16%). Yet it is the injury we describe with a shrug: among athletes aged 14-18, 20% live with chronic ankle instability, and among girls that figure rises to 23.6%. In youth sport, prevention programmes cut ankle injuries by about 26%. The data, the limits of the data, and what changes in twenty minutes a week."
 answer: "It is the most frequent injury in young female athletes: the ankle accounts for 23% of all injuries, ahead of the knee (16%) and thigh (13%) (Beech et al., 2024). And it is not trivial: between 14 and 18, 20.0% of athletes live with chronic ankle instability — 23.6% among girls (Donovan et al., 2020)."
@@ -59,9 +59,9 @@ Two things need saying immediately. First: the absolute values are not comparabl
 
 We would rather be explicit here than plausible. For the ACL there is longitudinal evidence that after puberty girls land with greater dynamic knee valgus than boys (Ford et al., 2010, cited in our article on the [ACL](/blog/crociato-giovani-atlete)); hypothesising that the same change in landing control also loads the ankle is reasonable, but it stays a hypothesis, not a finding. The solid, actionable fact is a different one: the age band where sprains are most frequent is **exactly the age band of youth sport**.
 
-## What happens next: the 20% living with an ankle that gives way
+## What happens after an untreated ankle sprain?
 
-Here is the number that should change how "just a twisted ankle" is heard.
+**In roughly one case in five, the ankle keeps giving way.** Here is the number that should change how "just a twisted ankle" is heard.
 
 A study of **1,002 high school athletes aged 14-18** (mean age 15.6, 50.4% girls) measured the prevalence of **chronic ankle instability** — the condition in which, after one or more sprains, the ankle keeps giving way, hurting or feeling unreliable well beyond tissue healing. The result: **20.0% overall, 23.6% among girls versus 16.3% among boys**. Almost one girl in four (Donovan et al., 2020).
 
@@ -104,15 +104,15 @@ A systematic review and meta-analysis of **14 randomised trials with 2,182 parti
 
 And there remains the question athletes ask first: **when can I play again?** Here too the answer is not a date. The international consensus describes return as a three-step pathway — back to training, back to your sport, back to your level — and as a decision shared between athlete, clinicians and staff (Ardern et al., 2016). What that changes in practice, and why the psychological side weighs more than people think, we have gathered in [going back after an injury](/en/blog/ritorno-allo-sport-dopo-infortunio).
 
-## A paediatric assumption that has been revised
+## Do children break the bone rather than tear the ligament — is that still true?
 
-For years, in a child or adolescent still growing, a painful lateral ankle with no fracture visible on X-ray was managed as a **Salter-Harris type I fracture of the distal fibula** — an injury to the growth plate — on the basis that, in an immature skeleton, the growth plate is mechanically weaker than the ligament.
+**Far less often than was taught for decades.** For years, in a child or adolescent still growing, a painful lateral ankle with no fracture visible on X-ray was managed as a **Salter-Harris type I fracture of the distal fibula** — an injury to the growth plate — on the basis that, in an immature skeleton, the growth plate is mechanically weaker than the ligament.
 
 MRI has cut that assumption down to size. In a prospective study of **31 children** with clinical suspicion of that lesion, **none** had it on imaging: what they had were ligament injuries, bone contusions and joint effusions (Hofsli et al., 2016). The same result emerged in an earlier study of 18 children (Boutis et al., 2010).
 
 Two limits are worth keeping in view, both important. The samples are **small** (31 and 18 patients). And **mean age is around 9-10 years**, lower than the athletes discussed here: in a thirteen- or fourteen-year-old, skeletal maturity is different, and with it the balance between the strength of growing bone and that of ligaments — a theme we also touch on when writing about the [growth spurt](/blog/picco-di-crescita-giovani-atlete). So what this line of research tells a coach is not "it isn't a fracture": it is that **what exactly that ankle is, is for a healthcare professional to establish**, and that the idea that in young athletes "it's always the bone" no longer holds as an automatic rule.
 
-## What changes in the gym, concretely
+## What can a club do to prevent ankle sprains, starting Monday?
 
 This is not a clinical protocol — that is written by whoever assesses the athlete. These are the points on which the sources above converge.
 
