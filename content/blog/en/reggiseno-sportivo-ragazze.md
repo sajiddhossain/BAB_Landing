@@ -1,6 +1,7 @@
 ---
 slug: reggiseno-sportivo-ragazze
 title: "Sports bras for girls: when the first one is needed, and how to get the size right"
+seoTitle: "Sports bras for girls: sizing and when to start"
 date: 2026-07-02
 updated: 2026-08-16
 author: Sajid Hossain

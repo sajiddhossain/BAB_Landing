@@ -1,6 +1,7 @@
 ---
 slug: parlare-di-ciclo-con-allenatore
 title: "Talking about periods with your coach: why only 11% of athletes do (and how to change it)"
+seoTitle: "Talking about periods with your coach"
 date: 2026-07-03
 updated: 2026-08-16
 author: Sajid Hossain

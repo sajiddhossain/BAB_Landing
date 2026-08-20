@@ -1,6 +1,7 @@
 ---
 slug: reggiseno-sportivo-ragazze
 title: "Reggiseno sportivo per ragazze: quando serve il primo, come scegliere la taglia"
+seoTitle: "Reggiseno sportivo per ragazze: taglia e quando serve"
 date: 2026-07-02
 updated: 2026-08-16
 author: Sajid Hossain

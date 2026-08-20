@@ -1,6 +1,7 @@
 ---
 slug: gestire-ciclo-nello-sport
 title: "Fare sport con il ciclo: come si gestisce in pratica (perdite, prodotti, divise)"
+seoTitle: "Fare sport con il ciclo: la gestione pratica"
 date: 2026-08-13
 updated: 2026-08-13
 author: Sajid Hossain

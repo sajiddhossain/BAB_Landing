@@ -1,6 +1,7 @@
 ---
 slug: gestire-ciclo-nello-sport
 title: "Playing sport on your period: how it actually works (leaks, products, kit)"
+seoTitle: "Playing sport on your period: a practical guide"
 date: 2026-08-13
 updated: 2026-08-13
 author: Sajid Hossain

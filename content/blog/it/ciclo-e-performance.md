@@ -1,6 +1,7 @@
 ---
 slug: ciclo-e-performance
 title: "Ciclo mestruale e performance sportiva: cosa dicono i dati (e cosa non dicono)"
+seoTitle: "Ciclo mestruale e sport: cosa dicono i dati"
 date: 2026-06-20
 updated: 2026-08-13
 author: Sajid Hossain
