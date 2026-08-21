@@ -2,8 +2,9 @@
 slug: mal-di-schiena-giovani-atlete
 title: "Low back pain at 14: why in a young athlete it is not what it is in an adult"
 seoTitle: "Low back pain in young athletes: causes and signs"
+seoDescription: "In a young athlete the most described cause is spondylolysis, not a muscle strain — in adults it is the reverse. Signs, timing and the evidence."
 date: 2026-08-08
-updated: 2026-08-20
+updated: 2026-08-21
 author: Sajid Hossain
 excerpt: "42% of athletes aged 10-19 report low back pain over twelve months, and female sex appears among the reported risk factors. The difference almost nobody knows about is the cause: in adolescence, sport-related low back pain is far more often a stress fracture of the spine and far more rarely a disc problem or a muscle strain. The data, the limits of the data, and why immediate physiotherapy now beats rest."
 answer: "Because in a young athlete the most described cause is spondylolysis, a stress fracture of the vertebra, whereas in adults it is the disc: in a direct comparison it explained 47% of cases in adolescents against 5% in adults (Micheli and Wood, 1995 — a specialist-clinic sample). Back pain lasting more than two or three weeks should be assessed, not normalised."
@@ -86,6 +87,8 @@ In the adolescent group, **62%** had a derangement of the **posterior elements**
 What happens if you look at a less selected population? The number falls, but stays large. In **1,025 non-elite adolescent athletes** (mean age 15 ± 1.8) presenting to a hospital sports medicine clinic with low back pain, **308 — 30%** — were diagnosed with spondylolysis (Selhorst et al., 2019). And in a single-arm meta-analysis of 9 studies and 835 athletes with low back pain, the pooled estimate was **41.7%** (95% CI 28-55%), with the authors flagging small samples and low representativeness (Li et al., 2023).
 
 Three estimates, three different populations, a range running from 30% to 47%. The message is not the figure: it is that **a cause that is a rarity in adults is, in this age group, among the first to consider**.
+
+The same reversal holds a few centimetres lower down. Low pain, over the pelvis or under the buttock, makes an adult think hamstrings; in a growing body the weak link is the apophysis, and the ischial tuberosity is the third commonest site of adolescent pelvic avulsions (14%) ([Di Maria et al., 2022](https://doi.org/10.3389/fped.2022.947463)). The same rule applies: [at this age the adult model describes what happens rather badly](/blog/dolore-inguine-giovani-atlete).
 
 ## What is spondylolysis, in plain terms?
 
@@ -175,5 +178,6 @@ Because the point of this article is exactly that: in a fourteen-year-old's back
 - Selhorst M., Sweeney E., Martin L.C., Yang J., Benedict J., Brna M., Spondylolysis Physician Group, Fischer A.N. **Immediate physical therapy is beneficial for adolescent athletes with active lumbar spondylolysis: a multicentre randomised trial.** *British Journal of Sports Medicine*, 2026;60(2):125-132. (multicentre randomised trial in 64 athletes aged 10-19 with active spondylolysis, median age 14.2, 40% girls; immediate physiotherapy within 7 days versus rest before physiotherapy; at 1 month mean difference of 21.3 points on the Micheli Functional Scale, 95% CI 28.7-13.9, p<0.001; return to sport 38 days sooner, p<0.001; recurrence at 12 months 3% versus 29%, p=0.01; no adverse events. **Small sample, single trial**) [doi:10.1136/bjsports-2025-110606](https://doi.org/10.1136/bjsports-2025-110606)
 - Overley S.C., McAnany S.J., Andelman S., Kim J., Merrill R.K., Cho S.K., Qureshi S.A., Hecht A.C. **Return to Play in Adolescent Athletes With Symptomatic Spondylolysis Without Listhesis: A Meta-Analysis.** *Global Spine Journal*, 2018;8(2):190-197. (11 studies, 376 adolescent patients with a pars defect without spondylolisthesis; return to competition 92.2% with conservative treatment and 90.3% with surgery) [doi:10.1177/2192568217734520](https://doi.org/10.1177/2192568217734520)
 - Wall J., McGowan E., Meehan W., Wilson F. **"Back pain is part of sport … I'm just gonna have to live with it": Exploring the lived experience of sport-related low back pain in adolescent athletes.** *Physical Therapy in Sport*, 2023;62:71-78. (qualitative interview study in athletes aged 10-19 with sport-related low back pain in the previous year; three themes: the culture of normalisation negates safeguarding, low back pain changes self-perception and how others perceive the athlete, broad effects on well-being) [doi:10.1016/j.ptsp.2023.05.005](https://doi.org/10.1016/j.ptsp.2023.05.005)
+- Di Maria F., Testa G., Sammartino F., Sorrentino M., Petrantoni V., Pavone V. **Treatment of avulsion fractures of the pelvis in adolescent athletes: a scoping literature review.** *Frontiers in Pediatrics*, 2022;10:947463. (**scoping** review, 18 studies, 453 adolescent patients, **82% male**; ischial tuberosity 14% of sites, after anterior superior iliac spine 37% and anterior inferior iliac spine 31%) [doi:10.3389/fped.2022.947463](https://doi.org/10.3389/fped.2022.947463)
 
 *This article is for information only and is not medical advice or a clinical assessment. Back pain lasting weeks in an adolescent athlete, pain that worsens on arching backwards, night pain, or pain with pins and needles or loss of strength in the legs should be assessed by a healthcare professional.*

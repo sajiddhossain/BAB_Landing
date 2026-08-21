@@ -2,6 +2,7 @@
 slug: ciclo-e-performance
 title: "Ciclo mestruale e performance sportiva: cosa dicono i dati (e cosa non dicono)"
 seoTitle: "Ciclo mestruale e sport: cosa dicono i dati"
+seoDescription: "L'effetto della fase del ciclo sulla performance è di entità banale nella meta-analisi più ampia, e su donne adulte. Cosa dicono i dati e cosa no."
 date: 2026-06-20
 updated: 2026-08-20
 author: Sajid Hossain

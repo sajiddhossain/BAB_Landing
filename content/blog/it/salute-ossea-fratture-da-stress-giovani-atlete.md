@@ -2,6 +2,7 @@
 slug: salute-ossea-fratture-da-stress-giovani-atlete
 title: "Fratture da stress nelle giovani atlete: perché l'osso si costruisce adesso"
 seoTitle: "Fratture da stress nelle giovani atlete: prevenzione"
+seoDescription: "Le ragazze subiscono fratture da stress 1,75 volte più dei coetanei, e l'osso si costruisce entro i 18 anni. Energia, ciclo e carico: cosa dice l'evidenza."
 date: 2026-07-28
 updated: 2026-08-20
 author: Sajid Hossain

@@ -2,6 +2,7 @@
 slug: parlare-di-ciclo-con-allenatore
 title: "Talking about periods with your coach: why only 11% of athletes do (and how to change it)"
 seoTitle: "Talking about periods with your coach"
+seoDescription: "Only 11% of athletes discuss their cycle with their coach — 4% if he is a man. Why that happens and what actually breaks the silence."
 date: 2026-07-03
 updated: 2026-08-20
 author: Sajid Hossain

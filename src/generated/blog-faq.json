@@ -1,6 +1,102 @@
 {
   "posts": [
     {
+      "slug": "dolore-inguine-giovani-atlete",
+      "lang": "it",
+      "title": "Dolore all'inguine a 14 anni: perché quasi mai è «uno stiramento»",
+      "date": "2026-08-21",
+      "questions": [
+        {
+          "q": "Un dolore all'inguine in una ragazza di 14 anni è uno stiramento?",
+          "id": "faq-un-dolore-allinguine-in-una-ragazza-di-14-anni-e-uno"
+        },
+        {
+          "q": "Quante giovani atlete hanno dolore all'anca o all'inguine?",
+          "id": "faq-quante-giovani-atlete-hanno-dolore-allanca-o-allinguine"
+        },
+        {
+          "q": "Perché il dolore all'inguine non compare quasi mai nelle statistiche degli infortuni?",
+          "id": "faq-perche-il-dolore-allinguine-non-compare-quasi-mai-nelle"
+        },
+        {
+          "q": "Le ragazze hanno più dolore all'inguine dei ragazzi?",
+          "id": "faq-le-ragazze-hanno-piu-dolore-allinguine-dei-ragazzi"
+        },
+        {
+          "q": "Cos'è un'avulsione apofisaria del bacino?",
+          "id": "faq-cose-unavulsione-apofisaria-del-bacino"
+        },
+        {
+          "q": "Un'avulsione apofisaria richiede l'intervento chirurgico?",
+          "id": "faq-unavulsione-apofisaria-richiede-lintervento-chirurgico"
+        },
+        {
+          "q": "Il dolore al ginocchio può venire dall'anca?",
+          "id": "faq-il-dolore-al-ginocchio-puo-venire-dallanca"
+        },
+        {
+          "q": "Il dolore all'inguine si può prevenire con gli esercizi per gli adduttori?",
+          "id": "faq-il-dolore-allinguine-si-puo-prevenire-con-gli-esercizi"
+        },
+        {
+          "q": "Cosa dovrebbe fare un allenatore se un'atleta riferisce dolore all'inguine?",
+          "id": "faq-cosa-dovrebbe-fare-un-allenatore-se-unatleta-riferisce"
+        },
+        {
+          "q": "Quanto tempo ci vuole per tornare a giocare?",
+          "id": "faq-quanto-tempo-ci-vuole-per-tornare-a-giocare"
+        }
+      ]
+    },
+    {
+      "slug": "dolore-inguine-giovani-atlete",
+      "lang": "en",
+      "title": "Groin pain at 14: why it is almost never «a pulled muscle»",
+      "date": "2026-08-21",
+      "questions": [
+        {
+          "q": "Is groin pain in a 14-year-old girl a pulled muscle?",
+          "id": "faq-is-groin-pain-in-a-14-year-old-girl-a-pulled-muscle"
+        },
+        {
+          "q": "How many young female athletes get hip or groin pain?",
+          "id": "faq-how-many-young-female-athletes-get-hip-or-groin-pain"
+        },
+        {
+          "q": "Why does groin pain almost never show up in injury statistics?",
+          "id": "faq-why-does-groin-pain-almost-never-show-up-in-injury"
+        },
+        {
+          "q": "Do girls get more groin pain than boys?",
+          "id": "faq-do-girls-get-more-groin-pain-than-boys"
+        },
+        {
+          "q": "What is a pelvic apophyseal avulsion?",
+          "id": "faq-what-is-a-pelvic-apophyseal-avulsion"
+        },
+        {
+          "q": "Does an apophyseal avulsion need surgery?",
+          "id": "faq-does-an-apophyseal-avulsion-need-surgery"
+        },
+        {
+          "q": "Can knee pain come from the hip?",
+          "id": "faq-can-knee-pain-come-from-the-hip"
+        },
+        {
+          "q": "Can groin pain be prevented with adductor exercises?",
+          "id": "faq-can-groin-pain-be-prevented-with-adductor-exercises"
+        },
+        {
+          "q": "What should a coach do if an athlete reports groin pain?",
+          "id": "faq-what-should-a-coach-do-if-an-athlete-reports-groin-pain"
+        },
+        {
+          "q": "How long does it take to get back on the pitch?",
+          "id": "faq-how-long-does-it-take-to-get-back-on-the-pitch"
+        }
+      ]
+    },
+    {
       "slug": "fiato-corto-giovani-atlete",
       "lang": "it",
       "title": "Fiato corto durante lo sforzo: nel 61% dei casi non c'è nessuna diagnosi di asma",

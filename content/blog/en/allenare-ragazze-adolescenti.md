@@ -2,8 +2,9 @@
 slug: allenare-ragazze-adolescenti
 title: "How to coach teenage girls: 4 concrete levers for coaches and sports clubs"
 seoTitle: "How to coach teenage girls: 4 concrete levers"
+seoDescription: "Four concrete levers for coaches and clubs: non-judgemental language, adjusted load, anonymous team signals, space and continuity — with the data."
 date: 2026-07-02
-updated: 2026-08-19
+updated: 2026-08-21
 author: Sajid Hossain
 excerpt: "Among girls who join a club aged 10-14, 71% drop out without ever returning, and it is almost never about motivation. Coaching them well means four concrete, budget-free things: talking about the changing body, adjusting the load instead of penalising a dip, using only anonymous team signals, and guaranteeing space and continuity. Here is the evidence behind each lever — and what to do when an athlete turns up in pain."
 answer: "By acting on the environment, not on the individual girl's motivation: non-judgemental language, aggregated and anonymous team signals, practical conditions and injury prevention. A coach perceived as very well-informed is associated with 36% fewer RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample, non-peer-reviewed report)."
@@ -52,13 +53,15 @@ Almost never because she has lost interest: far more often because **the context
 
 This isn't an impression. A longitudinal study of 781 Canadian adolescents found that **girls who started puberty earlier were significantly more likely to discontinue organised activities** (HR 1.68) than peers with average pubertal timing (Gallant et al., 2023). And between **25% and 61%** of adolescent girls avoid or reduce physical activity during their period — for pain, but also for fear of leaking and embarrassment (Harvey et al., 2025). Coaching teenage girls well means, first of all, building a context where staying is easier than leaving. [Female drop-out](/blog/abbandono-puberta) isn't fate: it's an outcome.
 
-## 1. Talk about the changing body (without embarrassment)
+## 1. How do you talk about the changing body without embarrassment?
 
-You don't need to be a doctor. You need to **normalise** it: name the cycle, the tiredness, the body changes in plain, non-judgemental language. When the coach shows it's a topic you can talk about, the athlete stops hiding it — and stops hiding herself.
+**By naming it first, in plain words and without judgement: it is the adult's embarrassment that teaches an athlete to hide.** You don't need to be a doctor. You need to **normalise** it: name the cycle, the tiredness, the body changes in plain, non-judgemental language. When the coach shows it's a topic you can talk about, the athlete stops hiding it — and stops hiding herself.
 
 There's a number here too. In the Female Athlete Health Report 2023, athletes who perceived their coach as **very well-informed** reported on average **3.2 RED-S symptoms against 4.3** among those who perceived their coach as uninformed: **36% fewer**. The report's mean age is 32 — it describes the adult athletic population, not thirteen-year-olds — but the direction is clear, and we dig into it in [a coach's words](/blog/parole-allenatore-salute-atlete).
 
-## 2. Adjust the load, don't judge the dip
+## 2. How do you adjust the load when an athlete dips?
+
+**By treating the dip as information rather than as an attitude: you lower the volume, not the expectation.**
 
 An adolescent athlete's energy isn't constant, and that's fine. An "amber" day isn't laziness: it's a body working on many fronts at once. **Adjusting the load** — instead of always demanding the maximum or penalising the dip — is what keeps a girl on the field longer. The message that matters: *listening to yourself isn't weakness, it's strategy.*
 
@@ -70,11 +73,13 @@ Then there is the load adjustment decided in thirty seconds rather than over a w
 
 Finally there is an adjustment that concerns the calendar, not any single athlete: the first week of summer preseason. That's when heat acclimatization is built — 1-2 weeks of progressively longer and more intense sessions instead of starting at full load (Casa and Csillan, 2009) — and it's the week when, according to U.S. high school surveillance data, heat illness risk is highest for everyone, [not because of sex but because of exposure](/blog/allenarsi-al-caldo-giovani-atlete).
 
-## 3. Use team signals, never individual data
+## 3. Which data can you use with a squad of minors?
 
-Understanding how the team is doing lets you act before overload — schedule a deload, change the tone of a heavy week. But this must be done with **aggregated, anonymous signals**: never expose an individual athlete's data. Privacy isn't red tape, it's the condition for girls to trust you and open up. The moment an athlete fears her cycle or her mood could end up on display in front of everyone, she stops telling you the truth.
+**Only aggregated, anonymous ones: an individual athlete's data must never be exposed, because that is the condition for her to keep telling you the truth.** Understanding how the team is doing lets you act before overload — schedule a deload, change the tone of a heavy week. But this must be done with **aggregated, anonymous signals**: never expose an individual athlete's data. Privacy isn't red tape, it's the condition for girls to trust you and open up. The moment an athlete fears her cycle or her mood could end up on display in front of everyone, she stops telling you the truth.
 
-## 4. Create space and continuity
+## 4. How do you build the continuity that keeps athletes in the squad?
+
+**With the material things nobody minutes: changing rooms with privacy, period products available, the same familiar faces all season.**
 
 Small things make a big difference: **privacy** in changing rooms, period products available, continuity in the people they look up to. A girl who feels seen and safe doesn't need to "disappear" when her body tests her.
 

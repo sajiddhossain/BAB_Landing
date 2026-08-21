@@ -659,6 +659,46 @@ export const FACTS: Fact[] = [
     source: 'S\u00f6derman et al., 2025',
     doi: '10.1371/journal.pone.0336688',
   },
+  {
+    id: 'dolore-inguine-giovani-atlete-1',
+    article: 'dolore-inguine-giovani-atlete',
+    claim:
+      "Su 105 giovani calciatori d'élite di 11-15 anni (58 maschi e 47 femmine, età media 12,7), il 21,9% ha riferito almeno un episodio di dolore d'anca o inguine in una stagione. Nello stesso studio il sesso MASCHILE era associato al dolore (OR 5,71): al contrario di crociato e caviglia, qui il rischio più alto non è quello femminile.",
+    claimEn:
+      "Among 105 elite youth football players aged 11-15 (58 boys and 47 girls, mean age 12.7), 21.9% reported at least one episode of hip or groin pain over a season. In the same study MALE sex was associated with pain (OR 5.71): unlike ACL and ankle injuries, the higher risk here is not the female one.",
+    source: 'Schoffl et al., 2021',
+    doi: '10.1186/s40798-021-00392-w',
+  },
+  {
+    id: 'dolore-inguine-giovani-atlete-2',
+    article: 'dolore-inguine-giovani-atlete',
+    claim:
+      "Nelle calciatrici la prevalenza stagionale di problemi d'anca e inguine è del 60,7%, ma solo l'11,1% degli episodi comporta la perdita di tempo di allenamento: contando solo chi si ferma, la gran parte del problema resta invisibile. Popolazione: 61 calciatrici ADULTE di Super League svizzera.",
+    claimEn:
+      'In women footballers the seasonal prevalence of hip and groin problems is 60.7%, but only 11.1% of episodes involve any training time loss: counting only those who stop leaves most of the problem invisible. Population: 61 ADULT Swiss Super League players.',
+    source: 'Reichmann et al., 2025',
+    doi: '10.1016/j.smhs.2025.04.005',
+  },
+  {
+    id: 'dolore-inguine-giovani-atlete-3',
+    article: 'dolore-inguine-giovani-atlete',
+    claim:
+      "Nelle avulsioni apofisarie del bacino negli atleti adolescenti l'età media dei campioni va da 13,6 a 16,8 anni e le sedi più colpite sono la spina iliaca antero-superiore (37%), la antero-inferiore (31%) e la tuberosità ischiatica (14%): nel corpo in crescita cede l'attacco osseo, non il muscolo. Popolazione: 453 pazienti, 82% MASCHI.",
+    claimEn:
+      'In pelvic apophyseal avulsions in adolescent athletes, sample mean ages run from 13.6 to 16.8 years and the commonest sites are the anterior superior iliac spine (37%), the anterior inferior iliac spine (31%) and the ischial tuberosity (14%): in a growing body it is the bony attachment that gives way, not the muscle. Population: 453 patients, 82% MALE.',
+    source: 'Di Maria et al., 2022',
+    doi: '10.3389/fped.2022.947463',
+  },
+  {
+    id: 'dolore-inguine-giovani-atlete-4',
+    article: 'dolore-inguine-giovani-atlete',
+    claim:
+      "Nell'epifisiolisi della testa del femore il dolore è riferito al ginocchio nel 26,2% dei casi e all'inguine nel 13,9%, e il 49% dei pazienti ha più di una visita prima della diagnosi: in un corpo in crescita un dolore al ginocchio può venire dall'anca. Popolazione: 107 pazienti operati, ENTRAMBI I SESSI; la condizione è più frequente nei maschi.",
+    claimEn:
+      'In slipped capital femoral epiphysis the pain is referred to the knee in 26.2% of cases and to the groin in 13.9%, and 49% of patients have more than one visit before diagnosis: in a growing body, knee pain can come from the hip. Population: 107 operated patients, BOTH SEXES; the condition is more common in boys.',
+    source: 'Uvodich et al., 2019',
+    doi: '10.1016/j.jpeds.2018.10.050',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

@@ -2,6 +2,7 @@
 slug: perdite-urina-giovani-atlete
 title: "I leak when I jump: the symptom almost no young athlete talks about"
 seoTitle: "Urinary leakage in sport: how common it is"
+seoDescription: "Leaking urine when jumping affects on average 48.6% of adolescent athletes, yet 87% would not tell their coach. Common does not mean normal."
 date: 2026-07-22
 updated: 2026-08-13
 author: Sajid Hossain

@@ -491,6 +491,40 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'Transient, reversible narrowing of the larynx during exertion: it typically appears at peak exercise and resolves quickly on stopping — the opposite pattern to exercise-induced bronchoconstriction. Estimated prevalence 5.7% in a tested adolescent population, where it can coexist with EIB (Johansson et al., 2015). The diagnostic standard is laryngoscopy performed during the symptomatic episode; validated treatment algorithms are not yet established (joint ERS/ELS statement, Halvorsen et al., 2017).',
   },
+  apofisi: {
+    name: 'Apofisi',
+    description:
+      "Nucleo di accrescimento dell'osso su cui si inserisce un tendine: finché non è fuso resta cartilagineo, ed è il punto meno resistente della catena muscolo-tendine-osso. È la ragione per cui in un corpo in crescita un gesto esplosivo tende a danneggiare l'attacco osseo invece del ventre muscolare: nelle serie di avulsioni pelviche in atleti adolescenti l'età media dei campioni va da 13,6 a 16,8 anni (Di Maria et al., 2022; campione all'82% maschile).",
+    nameEn: 'Apophysis',
+    descriptionEn:
+      'A bone growth centre where a tendon inserts: until it fuses it stays cartilaginous, and it is the least resistant point in the muscle-tendon-bone chain. This is why, in a growing body, an explosive movement tends to damage the bony attachment rather than the muscle belly: across pelvic avulsion series in adolescent athletes, sample mean ages run from 13.6 to 16.8 years (Di Maria et al., 2022; sample 82% male).',
+  },
+  'avulsione-apofisaria': {
+    name: 'Avulsione apofisaria',
+    description:
+      "Distacco di un frammento osseo nel punto in cui un tendine si inserisce su un'apofisi non ancora fusa, tipicamente in un singolo gesto esplosivo — uno scatto, un calcio, una spaccata — e non per accumulo. Su 453 pazienti adolescenti le sedi più colpite sono la spina iliaca antero-superiore (37%), la antero-inferiore (31%) e la tuberosità ischiatica (14%), con ritorno al livello precedente nel 79% dei trattamenti conservativi (Di Maria et al., 2022). In una serie di 242 casi il calcio è lo sport più frequente e la corsa o lo sprint il meccanismo più comune; le femmine hanno più spesso avulsioni della cresta iliaca (Moeller e Galasso, 2022).",
+    nameEn: 'Apophyseal avulsion',
+    descriptionEn:
+      'Separation of a bone fragment where a tendon inserts onto an unfused apophysis, typically in a single explosive movement — a sprint start, a kick, a split — rather than through accumulation. Across 453 adolescent patients the commonest sites are the anterior superior iliac spine (37%), the anterior inferior iliac spine (31%) and the ischial tuberosity (14%), with return to previous level in 79% of conservatively treated cases (Di Maria et al., 2022). In a series of 242 cases football is the commonest sport and running or sprinting the commonest mechanism; girls more often have iliac crest avulsions (Moeller and Galasso, 2022).',
+    sameAs: 'https://en.wikipedia.org/wiki/Avulsion_fracture',
+  },
+  epifisiolisi: {
+    name: 'Epifisiolisi della testa del femore',
+    description:
+      "Scivolamento del nucleo di accrescimento della testa del femore rispetto al collo, tipico dell'età puberale; è più frequente nei maschi e in presenza di peso corporeo elevato. Il dolore si presenta spesso lontano dall'anca: in uno studio prospettico su 107 pazienti (122 anche) era riferito al ginocchio nel 26,2% dei casi e all'inguine nel 13,9%, e il 49% aveva avuto più di una visita prima della diagnosi (Uvodich et al., 2019).",
+    nameEn: 'Slipped capital femoral epiphysis (SCFE)',
+    descriptionEn:
+      "Slipping of the femoral head growth plate relative to the neck, typical of puberty; it is more common in boys and with higher body weight. Pain often presents away from the hip: in a prospective study of 107 patients (122 hips) it was reported in the knee in 26.2% of cases and in the groin in 13.9%, and 49% had more than one visit before diagnosis (Uvodich et al., 2019).",
+    sameAs: 'https://en.wikipedia.org/wiki/Slipped_capital_femoral_epiphysis',
+  },
+  'dolore-inguinale': {
+    name: "Dolore inguinale dell'atleta",
+    description:
+      "Dolore della regione inguinale legato allo sport. L'accordo di Doha, siglato da 24 esperti di 14 Paesi, lo classifica in tre gruppi: entità cliniche definite (dolore correlato ad adduttori, ileopsoas, regione inguinale e regione pubica), dolore correlato all'anca e altre cause (Weir et al., 2015). È il problema che raramente ferma chi ne soffre: nelle calciatrici adulte di Super League svizzera la prevalenza stagionale di problemi d'anca e inguine è del 60,7%, ma solo l'11,1% degli episodi comporta perdita di tempo di allenamento (Reichmann et al., 2025).",
+    nameEn: "Groin pain in athletes",
+    descriptionEn:
+      'Sport-related pain in the groin region. The Doha agreement, signed by 24 experts from 14 countries, classifies it into three groups: defined clinical entities (adductor-, iliopsoas-, inguinal- and pubic-related groin pain), hip-related groin pain, and other causes (Weir et al., 2015). It is the problem that rarely stops the athlete who has it: in adult Swiss Super League women footballers, seasonal prevalence of hip and groin problems is 60.7%, but only 11.1% of episodes involve any training time loss (Reichmann et al., 2025).',
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;

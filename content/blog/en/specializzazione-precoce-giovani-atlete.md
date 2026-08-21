@@ -2,6 +2,7 @@
 slug: specializzazione-precoce-giovani-atlete
 title: "Early specialisation: one sport all year round, and what it actually costs girls"
 seoTitle: "Early sport specialisation: the real costs"
+seoDescription: "One sport all year costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised got hurt more often."
 date: 2026-07-26
 updated: 2026-08-13
 author: Sajid Hossain

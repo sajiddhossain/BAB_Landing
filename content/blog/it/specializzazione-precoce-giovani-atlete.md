@@ -2,6 +2,7 @@
 slug: specializzazione-precoce-giovani-atlete
 title: "Specializzazione precoce: un solo sport tutto l'anno, e cosa costa davvero alle ragazze"
 seoTitle: "Specializzazione precoce nello sport: i costi reali"
+seoDescription: "Un solo sport tutto l'anno costa infortuni, non vantaggio competitivo: fra 219 atlete di 13-18 anni le altamente specializzate si infortunano di più."
 date: 2026-07-26
 updated: 2026-08-13
 author: Sajid Hossain

@@ -4,7 +4,7 @@ title: "Le parole dell'allenatore: come la cultura e il linguaggio dello staff c
 seoTitle: "Le parole dell'allenatore e la salute delle atlete"
 seoDescription: "Le parole dell'allenatore cambiano la salute delle atlete: cosa sapere e cosa non dire mai, dai dati su 1.086 atlete in 57 sport."
 date: 2026-07-09
-updated: 2026-08-20
+updated: 2026-08-21
 author: Sajid Hossain
 excerpt: "Cosa dovrebbe sapere — e cosa è meglio non dire mai — chi allena ragazze adolescenti. Le atlete che percepiscono il proprio allenatore come molto informato riportano il 36% di sintomi di RED-S in meno; chi ha ricevuto commenti sul proprio corpo è quattro volte più propensa a modificare l'alimentazione (33% contro 7%). Il linguaggio dello staff non è un contorno neutro dell'allenamento: è una variabile di salute misurabile. I dati, i limiti, e cosa farne domani in palestra."
 answer: "Più di quanto sembri, e si misura: un allenatore percepito come molto informato si associa a 3,2 sintomi di RED-S in media contro 4,3, cioè il 36% in meno, mentre i commenti sul corpo che mettono a disagio si associano a quattro volte più probabilità di modificare l'alimentazione (Female Athlete Health Report, 2023 — campione adulto, non peer-reviewed)."
@@ -57,9 +57,9 @@ Una precisazione doverosa: questo non è uno studio randomizzato e non dimostra 
 
 Il punto è che conta l'effetto, non l'intenzione. "Dovresti scaricare un po'", "quest'anno sei più pesante", persino un complimento sbagliato: nella testa di un'adolescente possono trasformarsi in una regola alimentare. E il terreno è già fragile — il **74%** delle atlete si è sentita, a un certo punto, "come se non sembrasse un'atleta", e il **91%** si è preoccupata di quante calorie assumeva. In questo contesto, il commento dell'allenatore non cade nel vuoto: cade su una preoccupazione che spesso è già lì.
 
-## Il paradosso: chi dovrebbe sapere, spesso non sa
+## Quanti allenatori e medici sanno riconoscere i segnali?
 
-Verrebbe da pensare che almeno i professionisti abbiano le idee chiare. Non sempre. Nel report UK, **il 30%** delle atlete si è sentito dire **da un professionista sanitario** che perdere o ritardare il ciclo con l'attività fisica è normale — un'informazione errata, perché l'amenorrea non è un effetto collaterale innocuo dell'allenamento ma un segnale di allarme. E una sintesi delle linee guida cliniche nota che **meno della metà** di medici, allenatori, fisioterapisti e preparatori è in grado di riconoscere tutte e tre le componenti della Triade dell'atleta donna ([Romano & Sass, 2025, *NASPAG Clinical Opinion*](https://doi.org/10.1016/j.jpag.2024.11.008)).
+**Meno della metà: una sintesi delle linee guida cliniche rileva che meno del 50% di medici, allenatori, fisioterapisti e preparatori riconosce tutte e tre le componenti della Triade dell'atleta donna (Romano e Sass, 2025).** Verrebbe da pensare che almeno i professionisti abbiano le idee chiare. Non sempre. Nel report UK, **il 30%** delle atlete si è sentito dire **da un professionista sanitario** che perdere o ritardare il ciclo con l'attività fisica è normale — un'informazione errata, perché l'amenorrea non è un effetto collaterale innocuo dell'allenamento ma un segnale di allarme. E una sintesi delle linee guida cliniche nota che **meno della metà** di medici, allenatori, fisioterapisti e preparatori è in grado di riconoscere tutte e tre le componenti della Triade dell'atleta donna ([Romano & Sass, 2025, *NASPAG Clinical Opinion*](https://doi.org/10.1016/j.jpag.2024.11.008)).
 
 Il vuoto formativo si vede anche da dove arrivano le informazioni. Sempre nel report UK, il supporto specifico sulla salute dell'atleta donna era arrivato per il **49%** da internet e social media, per il **16%** dal medico di base, per il **4%** da una federazione sportiva nazionale e per lo **0,12%** dalla scuola. Tradotto: l'istituzione che dovrebbe accompagnare le ragazze — la società, la federazione, la scuola — è quasi assente, e il vuoto lo riempie il feed di un telefono.
 
@@ -74,9 +74,9 @@ Due elementi, però, indicano che l'adolescenza è proprio la finestra in cui qu
 
 Il pattern degli adulti, insomma, non è un destino: è ciò che accade quando la cultura non viene costruita nel momento giusto. E il momento giusto è adesso.
 
-## Cosa può fare lo staff, concretamente
+## Cosa può fare lo staff da subito, senza competenze cliniche?
 
-Nulla di tutto questo chiede all'allenatore di diventare un medico. Chiede poche abitudini, sostenibili:
+**Tre abitudini che non richiedono un titolo sanitario: normalizzare senza indagare, trattare i sintomi come informazioni invece che come scuse, e sapere a chi indirizzare.** Nulla di tutto questo chiede all'allenatore di diventare un medico. Chiede poche abitudini, sostenibili:
 
 - **Normalizzare senza indagare.** Una frase come "qui se ne può parlare, e nessuno ti valuta per questo" apre la porta senza chiedere dettagli privati.
 - **Trattare stanchezza, dolore o cali di energia come informazione, non come scuse.** Possono avere una spiegazione fisiologica: liquidarli insegna alla ragazza a nasconderli. E in questa fascia d'età i dolori "banali" spesso non lo sono: il [dolore al ginocchio degli adolescenti](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) ha una durata mediana di 24 mesi ([Rathleff et al., 2013, *BMC Musculoskelet Disord*](https://doi.org/10.1186/1471-2474-14-225)), e un [mal di schiena che dura da settimane](/blog/mal-di-schiena-giovani-atlete) in un'atleta di 13-14 anni è molto più spesso una frattura da stress della colonna che una contrattura ([Micheli e Wood, 1995](https://doi.org/10.1001/archpedi.1995.02170130017004)). Vale anche per il respiro: [«non ha fiato» è una conclusione, non un'osservazione](/blog/fiato-corto-giovani-atlete), e nel 61% dei casi il sintomo non è mai stato indagato (Johansson et al., 2014).

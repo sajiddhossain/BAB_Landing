@@ -2,6 +2,7 @@
 slug: abbandono-puberta
 title: "Why girls stop playing sport as teenagers: the data on drop-out at 10-14"
 seoTitle: "Why teenage girls drop out of sport: the data"
+seoDescription: "Girls do not stop because they lose interest: they stop when the environment stops working. The drop-out data at 10-14, and what reverses it."
 date: 2026-06-22
 updated: 2026-08-20
 author: Sajid Hossain

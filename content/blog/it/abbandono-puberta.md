@@ -2,6 +2,7 @@
 slug: abbandono-puberta
 title: "Perché le ragazze smettono di fare sport in adolescenza: i dati sull'abbandono a 10-14 anni"
 seoTitle: "Perché le ragazze smettono di fare sport in pubertà"
+seoDescription: "Le ragazze non smettono perché perdono interesse: smettono quando l'ambiente non funziona più. I dati sull'abbandono a 10-14 anni e cosa lo inverte."
 date: 2026-06-22
 updated: 2026-08-20
 author: Sajid Hossain

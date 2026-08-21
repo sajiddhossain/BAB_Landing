@@ -2,6 +2,7 @@
 slug: salute-ossea-fratture-da-stress-giovani-atlete
 title: "Stress fractures in young female athletes: why bone is built now, not later"
 seoTitle: "Stress fractures in young female athletes"
+seoDescription: "Girls sustain stress fractures 1.75 times as often as male peers, and bone is built before 18. Energy, periods and load: what the evidence says."
 date: 2026-07-28
 updated: 2026-08-20
 author: Sajid Hossain
