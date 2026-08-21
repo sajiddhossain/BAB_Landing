@@ -2,6 +2,7 @@
 slug: distorsione-caviglia-giovani-atlete
 title: "«È solo una storta»: la caviglia è l'infortunio più frequente delle giovani atlete"
 seoTitle: "Distorsione di caviglia nelle giovani atlete"
+seoDescription: "La caviglia è la sede del 23% degli infortuni nelle giovani atlete, e il 23,6% delle ragazze convive con un'instabilità cronica. Perché non è «solo una storta»."
 date: 2026-08-06
 updated: 2026-08-20
 author: Sajid Hossain

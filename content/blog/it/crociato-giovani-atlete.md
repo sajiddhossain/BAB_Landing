@@ -2,6 +2,7 @@
 slug: crociato-giovani-atlete
 title: "Crociato e giovani atlete: perché il rischio è più alto, e i 20 minuti che lo dimezzano"
 seoTitle: "Crociato nelle giovani atlete: rischio e prevenzione"
+seoDescription: "Nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei. Cosa cambia con la pubertà e i 20 minuti che riducono il rischio."
 date: 2026-07-21
 updated: 2026-08-16
 author: Sajid Hossain

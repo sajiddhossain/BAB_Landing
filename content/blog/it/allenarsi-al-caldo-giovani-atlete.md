@@ -2,8 +2,9 @@
 slug: allenarsi-al-caldo-giovani-atlete
 title: "Allenarsi al caldo: nelle giovani atlete il rischio non è (solo) questione di sesso"
 seoTitle: "Allenarsi al caldo: rischi per le giovani atlete"
+seoDescription: "Nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma è una questione di esposizione, non di sesso. Acclimatazione, segnali e cosa fare subito."
 date: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-21
 author: Sajid Hossain
 excerpt: "Nei licei americani il colpo di calore da sforzo è per l'87,7% maschile — ma togliendo il football scende al 50,9%, quasi la parità (Kerr et al., 2013). Non sono i ragazzi a reggere meglio il caldo: sono i ragazzi a giocare di più a football, nella stagione più calda. Cosa dice davvero la fisiologia sulle adolescenti che si allenano d'estate, cosa non dice ancora, e cosa cambia nella prima settimana di ritiro — quella in cui succede quasi tutto."
 answer: "Non è una questione di sesso ma di esposizione: nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma scende al 50,9% togliendo il football americano (Kerr et al., 2013). Sulla fisiologia, l'evidenza diretta sulle differenze fra ragazze e ragazzi in pubertà resta scarsa (Topham et al., 2022). Il fattore che conta davvero è l'acclimatazione nelle prime due settimane (Casa et al., 2009)."
@@ -60,21 +61,21 @@ Il dettaglio "a parità di intensità relativa" non è tecnicismo: un bambino ch
 
 La revisione che ha posto esplicitamente la domanda — le ragazze sono svantaggiate? — conclude che l'evidenza diretta è ancora insufficiente per rispondere con certezza. È lo stesso tipo di vuoto che attraversa buona parte della medicina dello sport femminile: mancano i confronti diretti, non le ipotesi. Fino a quando quei dati non arriveranno, la prudenza corretta è trattare l'acclimatazione e le condizioni ambientali come le leve che contano davvero — per tutti, a prescindere dal sesso — invece di costruire protocolli diversi su una differenza che non è ancora dimostrata.
 
-## Come si costruisce l'acclimatazione al caldo, e perché conta più di tutto il resto
+## Quanto tempo serve per acclimatarsi al caldo?
 
-**È un adattamento che si costruisce, non una dote che si ha o non si ha.** L'acclimatazione al caldo è il processo, fisiologico e comportamentale, con cui il corpo impara a fare sforzo in condizioni calde: aumenta il volume plasmatico, la risposta sudorale diventa più efficiente e più precoce, la frequenza cardiaca scende a parità di carico. Le linee guida di riferimento per l'avvio della stagione nelle scuole superiori raccomandano di costruirla nell'arco di **una-due settimane**, introducendo gradualmente durata, intensità ed equipaggiamento delle sedute invece di partire a pieno regime dal primo giorno ([Casa e Csillan, 2009, *J Athl Train*](https://doi.org/10.4085/1062-6050-44.3.332)).
+**Una-due settimane di sedute progressive: è un adattamento che si costruisce, non una dote che si ha o non si ha.** L'acclimatazione al caldo è il processo, fisiologico e comportamentale, con cui il corpo impara a fare sforzo in condizioni calde: aumenta il volume plasmatico, la risposta sudorale diventa più efficiente e più precoce, la frequenza cardiaca scende a parità di carico. Le linee guida di riferimento per l'avvio della stagione nelle scuole superiori raccomandano di costruirla nell'arco di **una-due settimane**, introducendo gradualmente durata, intensità ed equipaggiamento delle sedute invece di partire a pieno regime dal primo giorno ([Casa e Csillan, 2009, *J Athl Train*](https://doi.org/10.4085/1062-6050-44.3.332)).
 
 È un principio, non un protocollo rigido pensato per un contesto diverso dal nostro: la traduzione pratica per una società italiana è che la prima settimana di ritiro estivo — quella in cui l'entusiasmo spinge a fare tutto subito — è anche la settimana in cui il margine di errore è più basso. Costruire gradualmente il carico in quei giorni non è prudenza eccessiva: è la variabile che, secondo i dati disponibili, pesa più del sesso o dell'età dell'atleta.
 
-## Come si riconosce un colpo di calore da sforzo
+## Come si riconosce un colpo di calore da sforzo?
 
 **Il segno che separa un'emergenza da un malessere passeggero è neurologico, non quanto si suda.** Il colpo di calore da sforzo si definisce clinicamente come un innalzamento severo della temperatura corporea centrale — tipicamente ma non sempre sopra i 40°C — accompagnato da segni di disfunzione del sistema nervoso centrale: incoordinazione motoria, comportamento confuso o bizzarro, delirio, convulsioni ([Morris e Patel, *Heat Stroke*, StatPearls, 2023](https://www.ncbi.nlm.nih.gov/books/NBK537135/)). Colpisce tipicamente persone giovani e sane che fanno sforzo intenso in condizioni calde e umide — il profilo esatto di un'adolescente in allenamento, non quello di un anziano fragile.
 
 Se un'atleta che si è allenata al caldo cammina in modo scoordinato, risponde in modo incoerente o appare confusa, non è "stanchezza da caldo" da far passare a bordo campo: è un'emergenza medica che richiede raffreddamento immediato e soccorso qualificato. Le raccomandazioni di settore insistono su questo punto proprio perché il confine tra un malessere che si risolve con ombra e acqua e un'emergenza che richiede l'ambulanza è stretto, e sbagliarlo per eccesso di ottimismo è il rischio più comune ([Casa et al., 2015, *J Athl Train*](https://doi.org/10.4085/1062-6050-50.9.07)).
 
-## Cosa può fare una società, da lunedì
+## Cosa può fare una società da lunedì?
 
-Nessuna di queste è una prescrizione medica. Sono scelte organizzative, e quasi tutte a costo zero:
+**Sette scelte organizzative, quasi tutte a costo zero: nessuna richiede una competenza sanitaria, e la più importante riguarda il calendario della prima settimana.** Nessuna di queste è una prescrizione medica. Sono scelte organizzative, e quasi tutte a costo zero:
 
 - **Costruire, non presumere, l'acclimatazione.** Nella prima settimana di ritiro estivo, sedute più brevi e meno intense di quelle di regime, con un aumento graduale giorno dopo giorno.
 - **Un piano scritto per il caldo, non solo per gli infortuni articolari.** Chi riconosce i segnali, chi chiama il 118, dove sta l'ombra, dove sta l'acqua: deciso prima che serva, non improvvisato mentre serve.

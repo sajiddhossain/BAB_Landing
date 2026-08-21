@@ -2,6 +2,7 @@
 slug: sonno-atlete-adolescenti
 title: "Sleep and teenage athletes: why 8 hours isn't a luxury (and puberty makes them harder to get)"
 seoTitle: "Sleep and teenage athletes: how many hours"
+seoDescription: "At 13-18 you need 8-10 hours a night: sleeping fewer than 8 is linked to 1.7 times more injuries. Why puberty shifts the body clock later."
 date: 2026-07-18
 updated: 2026-08-13
 author: Sajid Hossain

@@ -2,6 +2,7 @@
 slug: reggiseno-sportivo-ragazze
 title: "Sports bras for girls: when the first one is needed, and how to get the size right"
 seoTitle: "Sports bras for girls: sizing and when to start"
+seoDescription: "The first one is needed as soon as breast development starts, not at a set age. At 13-14, 51% say breasts affect their sport; only 10% wear one."
 date: 2026-07-02
 updated: 2026-08-16
 author: Sajid Hossain

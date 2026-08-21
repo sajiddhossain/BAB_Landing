@@ -2,6 +2,7 @@
 slug: parlare-di-ciclo-con-allenatore
 title: "Parlare di ciclo con l'allenatore: perché lo fa solo l'11% delle atlete (e come cambiarlo)"
 seoTitle: "Parlare del ciclo con l'allenatore: come farlo"
+seoDescription: "Solo l'11% delle atlete parla di ciclo con chi la allena, il 4% se è un uomo. Perché succede e cosa cambia il silenzio in una società sportiva."
 date: 2026-07-03
 updated: 2026-08-20
 author: Sajid Hossain

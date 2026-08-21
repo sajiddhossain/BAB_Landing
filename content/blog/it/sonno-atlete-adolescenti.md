@@ -2,6 +2,7 @@
 slug: sonno-atlete-adolescenti
 title: "Sonno e atlete adolescenti: perché 8 ore non sono un lusso (e la pubertà le rende più difficili)"
 seoTitle: "Sonno e atlete adolescenti: quante ore servono"
+seoDescription: "A 13-18 anni servono 8-10 ore per notte: dormirne meno di 8 si associa a infortuni 1,7 volte più frequenti. Perché la pubertà sposta l'orologio interno."
 date: 2026-07-18
 updated: 2026-08-13
 author: Sajid Hossain

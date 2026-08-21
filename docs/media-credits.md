@@ -212,3 +212,20 @@
   Nessuna persona nell'inquadratura: scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: la palestra vuota vista dal centro del campo — il punto in cui un'atleta si
   ferma senza fiato mentre le altre continuano, che è la scena di apertura dell'articolo.
+
+## cover-inguine-giovani-atlete.jpg
+- Titolo originale: "Nets line empty soccer field"
+- Fonte: rawpixel — https://www.rawpixel.com/image/3288178/free-photo-image-football-pitch-architecture-barbed-wire
+  (reperita via Openverse, record c511b1c5-81a0-44f8-8def-b6d68b4c1ec3)
+- Autore: non indicato dalla fonte (nessuna attribuzione richiesta)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "dolore all'inguine e all'anca nelle giovani atlete / avulsioni apofisarie" (IT + EN)
+- Lavorazione: rendition `editor_1024` (senza filigrana; l'originale è 3264x2448), convertita da WebP a JPEG,
+  poi ritaglio 752x423 con offset verticale di 150 px — il taglio a destra serve a escludere una macchia
+  chiara e sfocata sullo sfondo fra gli alberi, di pochi pixel e non identificabile, per rispettare la
+  regola «nessuna persona nell'inquadratura». Resample a 1024x576, JPEG q88.
+  NB: come per le altre immagini rawpixel, la rendition `image_1300` è filigranata → non usare.
+  Nessuna persona nell'inquadratura finale: scelta deliberata per un tema che riguarda minori.
+  Scelta del soggetto: il campo di allenamento deserto d'inverno, con la zona di terra battuta consumata
+  al centro — il punto dove si scatta, che è il meccanismo più comune delle avulsioni apofisarie descritte
+  nell'articolo.

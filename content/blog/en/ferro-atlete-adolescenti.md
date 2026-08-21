@@ -2,6 +2,7 @@
 slug: ferro-atlete-adolescenti
 title: "Low iron in teenage athletes: the deficiency nobody looks for (and a blood test finds)"
 seoTitle: "Low iron in teenage athletes: how it is found"
+seoDescription: "53.2% of adolescent athletes have mild iron deficiency, but a full blood count alone misses it: ferritin is the test. Symptoms and what to ask for."
 date: 2026-07-16
 updated: 2026-08-20
 author: Sajid Hossain

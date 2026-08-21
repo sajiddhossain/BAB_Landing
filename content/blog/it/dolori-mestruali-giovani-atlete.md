@@ -2,6 +2,7 @@
 slug: dolori-mestruali-giovani-atlete
 title: "Dolori mestruali e sport: quanto dolore è normale e cosa funziona davvero"
 seoTitle: "Dolori mestruali e sport: cosa funziona davvero"
+seoDescription: "La dismenorrea riguarda il 71,1% delle giovani. Cosa funziona davvero (calore, esercizio, FANS) e quando un dolore che ferma la vita va fatto valutare."
 date: 2026-08-10
 updated: 2026-08-20
 author: Sajid Hossain

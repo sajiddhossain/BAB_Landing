@@ -4,7 +4,7 @@ title: "A coach's words: how staff knowledge and language change athletes' healt
 seoTitle: "A coach's words and young athletes' health"
 seoDescription: "A coach's words change athletes' health: what to know and what never to say, from data on 1,086 athletes across 57 sports."
 date: 2026-07-09
-updated: 2026-08-20
+updated: 2026-08-21
 author: Sajid Hossain
 excerpt: "What a coach of adolescent girls should know — and what is better never said. Athletes who perceive their coach as very knowledgeable report 36% fewer RED-S symptoms; those who have received comments about their body are four times more likely to change how they eat (33% vs 7%). Staff language is not a neutral backdrop to training: it is a measurable health variable. The data, the limits, and what to do with it tomorrow in the gym."
 answer: "More than it seems, and it is measurable: a coach perceived as very well-informed is associated with 3.2 RED-S symptoms on average against 4.3 — 36% fewer — while comments about the body that make athletes uncomfortable are associated with four times the odds of changing their eating (Female Athlete Health Report, 2023 — adult sample, not peer-reviewed)."
@@ -57,9 +57,9 @@ One necessary caveat: this is not a randomised study and does not prove cause an
 
 The point is that the effect matters, not the intention. "You should lean out a bit", "you're heavier this year", even a clumsy compliment: in an adolescent's mind these can turn into a dietary rule. And the ground is already fragile — **74%** of athletes had, at some point, felt "like they didn't look like an athlete", and **91%** had worried about how many calories they were eating. In that context, a coach's comment doesn't land in a vacuum: it lands on a worry that is often already there.
 
-## The paradox: those who should know, often don't
+## How many coaches and clinicians can recognise the signs?
 
-You'd think the professionals, at least, would have it straight. Not always. In the UK report, **30%** of athletes were told **by a healthcare professional** that losing or delaying your period through physical activity is normal — which is wrong, because amenorrhoea is not a harmless side effect of training but a warning sign. And a synthesis of the clinical guidelines notes that **fewer than half** of doctors, coaches, physiotherapists and athletic trainers can identify all three components of the Female Athlete Triad ([Romano & Sass, 2025, *NASPAG Clinical Opinion*](https://doi.org/10.1016/j.jpag.2024.11.008)).
+**Fewer than half: a synthesis of the clinical guidelines finds that under 50% of doctors, coaches, physiotherapists and athletic trainers can identify all three components of the Female Athlete Triad (Romano and Sass, 2025).** You'd think the professionals, at least, would have it straight. Not always. In the UK report, **30%** of athletes were told **by a healthcare professional** that losing or delaying your period through physical activity is normal — which is wrong, because amenorrhoea is not a harmless side effect of training but a warning sign. And a synthesis of the clinical guidelines notes that **fewer than half** of doctors, coaches, physiotherapists and athletic trainers can identify all three components of the Female Athlete Triad ([Romano & Sass, 2025, *NASPAG Clinical Opinion*](https://doi.org/10.1016/j.jpag.2024.11.008)).
 
 The training gap also shows in where information comes from. In the same UK report, specific support on female athlete health had come for **49%** from the internet and social media, for **16%** from a GP, for **4%** from a national sports federation and for **0.12%** from school. Translated: the institution that should be guiding these girls — the club, the federation, the school — is almost absent, and a phone feed fills the void.
 
@@ -74,9 +74,9 @@ Two elements, though, indicate that adolescence is exactly the window in which t
 
 The adult pattern, in other words, is not destiny: it's what happens when the culture isn't built at the right moment. And the right moment is now.
 
-## What staff can do, concretely
+## What can staff do straight away, with no clinical training?
 
-None of this asks a coach to become a doctor. It asks for a few sustainable habits:
+**Three habits that need no medical qualification: normalise without probing, treat symptoms as information rather than excuses, and know who to refer to.** None of this asks a coach to become a doctor. It asks for a few sustainable habits:
 
 - **Normalise without probing.** A line like "you can talk about it here, and no one judges you for it" opens the door without asking for private details.
 - **Treat fatigue, pain or drops in energy as information, not excuses.** They can have a physiological explanation; dismissing them teaches a girl to hide them. And in this age group "trivial" pains often are not: [adolescent knee pain](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) has a median duration of 24 months ([Rathleff et al., 2013, *BMC Musculoskelet Disord*](https://doi.org/10.1186/1471-2474-14-225)), and [back pain lasting weeks](/blog/mal-di-schiena-giovani-atlete) in a 13-14-year-old athlete is far more often a stress fracture of the spine than a muscle strain ([Micheli and Wood, 1995](https://doi.org/10.1001/archpedi.1995.02170130017004)). The same holds for breathing: ["she's just unfit" is a conclusion, not an observation](/blog/fiato-corto-giovani-atlete), and 61% of the time the symptom has never been investigated (Johansson et al., 2014).

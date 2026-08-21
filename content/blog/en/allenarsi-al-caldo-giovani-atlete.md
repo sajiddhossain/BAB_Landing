@@ -2,8 +2,9 @@
 slug: allenarsi-al-caldo-giovani-atlete
 title: "Training in the heat: for young athletes, the risk isn't (only) about sex"
 seoTitle: "Training in the heat: risks for young athletes"
+seoDescription: "In U.S. high schools exertional heat illness is 87.7% male — but that is exposure, not sex. Acclimatization, warning signs and what to do first."
 date: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-21
 author: Sajid Hossain
 excerpt: "In U.S. high schools, exertional heat illness is 87.7% male — but strip out American football and it drops to 50.9%, close to parity (Kerr et al., 2013). Boys aren't better at handling heat: boys play more football, in the hottest season of the year. Here's what the physiology actually says about adolescent girls training in summer, what it doesn't say yet, and what changes in the first week of preseason — the week when almost everything happens."
 answer: "It isn't about sex, it's about exposure: in U.S. high schools exertional heat illness is 87.7% male, but that drops to 50.9% once American football is excluded (Kerr et al., 2013). On physiology, direct evidence on sex differences during puberty is still scarce (Topham et al., 2022). What actually matters is acclimatization over the first two weeks (Casa et al., 2009)."
@@ -60,21 +61,21 @@ The "matched relative intensity" detail isn't a technicality: a child running at
 
 The review that explicitly asked the question — are girls disadvantaged? — concludes the direct evidence still isn't sufficient to answer with confidence. It's the same kind of gap that runs through much of women's sports medicine: what's missing is the direct comparisons, not the hypotheses. Until that data arrives, the sound approach is to treat acclimatization and environmental conditions as the levers that actually matter — for everyone, regardless of sex — rather than building separate protocols on a difference that isn't yet demonstrated.
 
-## How heat acclimatization is built, and why it outweighs everything else
+## How long does it take to acclimatize to heat?
 
-**It's an adaptation you build, not a trait you either have or don't.** Heat acclimatization is the physiological and behavioral process by which the body learns to exercise in hot conditions: plasma volume increases, the sweat response becomes more efficient and starts earlier, heart rate drops at a given workload. Guidelines for the start of the season in U.S. secondary schools recommend building it over **one to two weeks**, gradually introducing session duration, intensity, and equipment instead of starting at full load on day one ([Casa and Csillan, 2009, *J Athl Train*](https://doi.org/10.4085/1062-6050-44.3.332)).
+**One to two weeks of progressive sessions: it's an adaptation you build, not a trait you either have or don't.** Heat acclimatization is the physiological and behavioral process by which the body learns to exercise in hot conditions: plasma volume increases, the sweat response becomes more efficient and starts earlier, heart rate drops at a given workload. Guidelines for the start of the season in U.S. secondary schools recommend building it over **one to two weeks**, gradually introducing session duration, intensity, and equipment instead of starting at full load on day one ([Casa and Csillan, 2009, *J Athl Train*](https://doi.org/10.4085/1062-6050-44.3.332)).
 
 It's a principle, not a rigid protocol built for a different context: the practical translation for an Italian club is that the first week of summer preseason — the week when enthusiasm pushes everyone to do everything at once — is also the week with the smallest margin for error. Building up load gradually in those days isn't excessive caution: it's the variable that, according to the available data, outweighs an athlete's sex or age.
 
-## How to recognize exertional heat stroke
+## How do you recognize exertional heat stroke?
 
 **The sign that separates an emergency from passing discomfort is neurological, not how much someone is sweating.** Exertional heat stroke is clinically defined as a severe rise in core body temperature — typically but not always above 40°C — accompanied by signs of central nervous system dysfunction: ataxia, confused or bizarre behavior, delirium, seizures ([Morris and Patel, *Heat Stroke*, StatPearls, 2023](https://www.ncbi.nlm.nih.gov/books/NBK537135/)). It typically affects young, healthy people exercising intensely in hot, humid conditions — exactly the profile of a training adolescent, not a frail older adult.
 
 If an athlete who has been training in heat is walking in an uncoordinated way, responding incoherently, or appears confused, that isn't "heat tiredness" to wait out on the sideline: it's a medical emergency requiring immediate cooling and qualified help. Sector guidance emphasizes this precisely because the line between discomfort that resolves with shade and water and an emergency requiring an ambulance is thin, and erring on the side of optimism is the most common mistake ([Casa et al., 2015, *J Athl Train*](https://doi.org/10.4085/1062-6050-50.9.07)).
 
-## What a club can do, starting Monday
+## What can a club do starting Monday?
 
-None of these is a medical prescription. They're organizational choices, nearly all of them free:
+**Seven organizational choices, nearly all free: none requires clinical expertise, and the most important one concerns the calendar of the very first week.** None of these is a medical prescription. They're organizational choices, nearly all of them free:
 
 - **Build acclimatization, don't assume it.** In the first week of summer preseason, shorter and less intense sessions than regular-season ones, increasing gradually day by day.
 - **A written heat plan, not just one for joint injuries.** Who recognizes the signs, who calls emergency services, where the shade is, where the water is — decided before it's needed, not improvised while it's needed.

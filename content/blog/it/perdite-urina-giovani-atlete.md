@@ -2,6 +2,7 @@
 slug: perdite-urina-giovani-atlete
 title: "Perdo urina quando salto: il sintomo di cui quasi nessuna atleta parla"
 seoTitle: "Perdite di urina nello sport: quanto è comune"
+seoDescription: "Perdere urina saltando riguarda in media il 48,6% delle atlete adolescenti, ma l'87% non ne parlerebbe con l'allenatore. Frequente non vuol dire normale."
 date: 2026-07-22
 updated: 2026-08-13
 author: Sajid Hossain

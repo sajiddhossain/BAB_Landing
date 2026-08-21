@@ -2,6 +2,7 @@
 slug: ferro-atlete-adolescenti
 title: "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e che si trova con un esame)"
 seoTitle: "Ferro basso nelle atlete adolescenti: come si trova"
+seoDescription: "Il 53,2% delle atlete adolescenti ha una carenza di ferro lieve, ma l'emocromo da solo non la vede: serve la ferritina. Sintomi, esami e cosa chiedere."
 date: 2026-07-16
 updated: 2026-08-20
 author: Sajid Hossain

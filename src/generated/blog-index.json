@@ -1,6 +1,140 @@
 {
   "posts": [
     {
+      "slug": "dolore-inguine-giovani-atlete",
+      "lang": "it",
+      "title": "Dolore all'inguine a 14 anni: perché quasi mai è «uno stiramento»",
+      "seoTitle": "Dolore all'inguine nelle giovani atlete",
+      "seoDescription": "Nel corpo che cresce l'anello debole dell'inguine non è il muscolo ma l'apofisi: età media 13,6-16,8 anni. Cosa dicono i dati e quando far vedere.",
+      "date": "2026-08-21",
+      "updated": "2026-08-21",
+      "author": "Sajid Hossain",
+      "excerpt": "Nelle calciatrici il dolore all'anca e all'inguine tocca il 60,7% in una stagione, ma solo l'11,1% dei casi fa saltare un allenamento: è l'infortunio che non entra in nessun registro perché nessuna si ferma. E nel corpo che cresce non si rompe dove si romperebbe in un'adulta: fra i 13 e i 17 anni l'anello debole non è il muscolo, è l'apofisi. I dati, i limiti dei dati, e i due segnali che non vanno aspettati.",
+      "answer": "Nel corpo che cresce il punto debole dell'inguine non è il ventre muscolare ma l'apofisi, il nucleo di accrescimento su cui il tendine si attacca: nelle serie di avulsioni pelviche l'età media va da 13,6 a 16,8 anni e le sedi più colpite sono spina iliaca antero-superiore (37%), antero-inferiore (31%) e tuberosità ischiatica (14%) (Di Maria et al., 2022; campione all'82% maschile). È per questo che il modello «stiramento dell'adduttore» dell'adulta descrive male quello che succede a 14 anni.",
+      "cover": "/fotobab/cover-inguine-giovani-atlete.jpg",
+      "coverAlt": "Campo sportivo all'aperto deserto in una mattina d'inverno: erba brinata, una zona di terra battuta consumata al centro, una rete di recinzione alta sulla destra e alberi spogli sullo sfondo; nessuna persona nell'inquadratura",
+      "tags": [
+        "dolore-inguinale",
+        "apofisi",
+        "avulsione-apofisaria",
+        "epifisiolisi",
+        "sovraccarico",
+        "gestione-del-carico"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Quante giovani atlete hanno male all'inguine?",
+          "id": "quante-giovani-atlete-hanno-male-allinguine"
+        },
+        {
+          "level": 2,
+          "text": "Perché il dolore all'inguine non compare nella lista degli infortuni?",
+          "id": "perche-il-dolore-allinguine-non-compare-nella-lista-degli"
+        },
+        {
+          "level": 2,
+          "text": "Perché a 14 anni non è quasi mai «uno stiramento»?",
+          "id": "perche-a-14-anni-non-e-quasi-mai-uno-stiramento"
+        },
+        {
+          "level": 2,
+          "text": "Le ragazze hanno più dolore all'inguine dei ragazzi?",
+          "id": "le-ragazze-hanno-piu-dolore-allinguine-dei-ragazzi"
+        },
+        {
+          "level": 2,
+          "text": "Quali sono i due segnali che non vanno aspettati?",
+          "id": "quali-sono-i-due-segnali-che-non-vanno-aspettati"
+        },
+        {
+          "level": 2,
+          "text": "Si può prevenire?",
+          "id": "si-puo-prevenire"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare chi allena, senza medicalizzare nulla?",
+          "id": "cosa-puo-fare-chi-allena-senza-medicalizzare-nulla"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2555,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
+    },
+    {
+      "slug": "dolore-inguine-giovani-atlete",
+      "lang": "en",
+      "title": "Groin pain at 14: why it is almost never «a pulled muscle»",
+      "seoTitle": "Groin pain in young female athletes",
+      "seoDescription": "In a growing body the weak link in the groin is the apophysis, not the muscle: mean ages 13.6-16.8. What the data say and when to get it looked at.",
+      "date": "2026-08-21",
+      "updated": "2026-08-21",
+      "author": "Sajid Hossain",
+      "excerpt": "In women's football, hip and groin problems reach a 60.7% seasonal prevalence — yet only 11.1% of them cost a single training session. It is the injury that never makes it into the records, because almost nobody stops. And in a growing body the chain does not break where it would break in an adult: between 13 and 17 the weak link is not the muscle, it is the apophysis. The data, the limits of the data, and the two signals not worth waiting on.",
+      "answer": "In a growing body the weak link in the groin is not the muscle belly but the apophysis, the growth centre the tendon attaches to: across pelvic avulsion series mean ages run from 13.6 to 16.8 years, and the commonest sites are the anterior superior iliac spine (37%), the anterior inferior iliac spine (31%) and the ischial tuberosity (14%) (Di Maria et al., 2022; sample 82% male). That is why the adult 'adductor strain' model describes what happens at 14 rather badly.",
+      "cover": "/fotobab/cover-inguine-giovani-atlete.jpg",
+      "coverAlt": "Empty outdoor sports pitch on a winter morning: frosted grass, a worn patch of bare earth in the middle, a tall chain-link fence on the right and bare trees behind; no person in frame",
+      "tags": [
+        "groin-pain",
+        "apophysis",
+        "apophyseal-avulsion",
+        "scfe",
+        "overuse",
+        "load-management"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "How many young female athletes have groin pain?",
+          "id": "how-many-young-female-athletes-have-groin-pain"
+        },
+        {
+          "level": 2,
+          "text": "Why doesn't groin pain show up in the injury list?",
+          "id": "why-doesnt-groin-pain-show-up-in-the-injury-list"
+        },
+        {
+          "level": 2,
+          "text": "Why is it almost never «a pulled muscle» at 14?",
+          "id": "why-is-it-almost-never-a-pulled-muscle-at-14"
+        },
+        {
+          "level": 2,
+          "text": "Do girls get more groin pain than boys?",
+          "id": "do-girls-get-more-groin-pain-than-boys"
+        },
+        {
+          "level": 2,
+          "text": "Which two signals are not worth waiting on?",
+          "id": "which-two-signals-are-not-worth-waiting-on"
+        },
+        {
+          "level": 2,
+          "text": "Can it be prevented?",
+          "id": "can-it-be-prevented"
+        },
+        {
+          "level": 2,
+          "text": "What can a coach do without medicalising anything?",
+          "id": "what-can-a-coach-do-without-medicalising-anything"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2491,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
+    },
+    {
       "slug": "fiato-corto-giovani-atlete",
       "lang": "it",
       "title": "Fiato corto durante lo sforzo: nel 61% dei casi non c'è nessuna diagnosi di asma",
@@ -147,9 +281,9 @@
       "lang": "it",
       "title": "Allenarsi al caldo: nelle giovani atlete il rischio non è (solo) questione di sesso",
       "seoTitle": "Allenarsi al caldo: rischi per le giovani atlete",
-      "seoDescription": "",
+      "seoDescription": "Nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma è una questione di esposizione, non di sesso. Acclimatazione, segnali e cosa fare subito.",
       "date": "2026-08-19",
-      "updated": "2026-08-19",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "Nei licei americani il colpo di calore da sforzo è per l'87,7% maschile — ma togliendo il football scende al 50,9%, quasi la parità (Kerr et al., 2013). Non sono i ragazzi a reggere meglio il caldo: sono i ragazzi a giocare di più a football, nella stagione più calda. Cosa dice davvero la fisiologia sulle adolescenti che si allenano d'estate, cosa non dice ancora, e cosa cambia nella prima settimana di ritiro — quella in cui succede quasi tutto.",
       "answer": "Non è una questione di sesso ma di esposizione: nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma scende al 50,9% togliendo il football americano (Kerr et al., 2013). Sulla fisiologia, l'evidenza diretta sulle differenze fra ragazze e ragazzi in pubertà resta scarsa (Topham et al., 2022). Il fattore che conta davvero è l'acclimatazione nelle prime due settimane (Casa et al., 2009).",
@@ -179,17 +313,17 @@
         },
         {
           "level": 2,
-          "text": "Come si costruisce l'acclimatazione al caldo, e perché conta più di tutto il resto",
-          "id": "come-si-costruisce-lacclimatazione-al-caldo-e-perche-conta"
+          "text": "Quanto tempo serve per acclimatarsi al caldo?",
+          "id": "quanto-tempo-serve-per-acclimatarsi-al-caldo"
         },
         {
           "level": 2,
-          "text": "Come si riconosce un colpo di calore da sforzo",
+          "text": "Come si riconosce un colpo di calore da sforzo?",
           "id": "come-si-riconosce-un-colpo-di-calore-da-sforzo"
         },
         {
           "level": 2,
-          "text": "Cosa può fare una società, da lunedì",
+          "text": "Cosa può fare una società da lunedì?",
           "id": "cosa-puo-fare-una-societa-da-lunedi"
         },
         {
@@ -203,7 +337,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2000,
+      "words": 2021,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -212,9 +346,9 @@
       "lang": "en",
       "title": "Training in the heat: for young athletes, the risk isn't (only) about sex",
       "seoTitle": "Training in the heat: risks for young athletes",
-      "seoDescription": "",
+      "seoDescription": "In U.S. high schools exertional heat illness is 87.7% male — but that is exposure, not sex. Acclimatization, warning signs and what to do first.",
       "date": "2026-08-19",
-      "updated": "2026-08-19",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "In U.S. high schools, exertional heat illness is 87.7% male — but strip out American football and it drops to 50.9%, close to parity (Kerr et al., 2013). Boys aren't better at handling heat: boys play more football, in the hottest season of the year. Here's what the physiology actually says about adolescent girls training in summer, what it doesn't say yet, and what changes in the first week of preseason — the week when almost everything happens.",
       "answer": "It isn't about sex, it's about exposure: in U.S. high schools exertional heat illness is 87.7% male, but that drops to 50.9% once American football is excluded (Kerr et al., 2013). On physiology, direct evidence on sex differences during puberty is still scarce (Topham et al., 2022). What actually matters is acclimatization over the first two weeks (Casa et al., 2009).",
@@ -244,18 +378,18 @@
         },
         {
           "level": 2,
-          "text": "How heat acclimatization is built, and why it outweighs everything else",
-          "id": "how-heat-acclimatization-is-built-and-why-it-outweighs"
+          "text": "How long does it take to acclimatize to heat?",
+          "id": "how-long-does-it-take-to-acclimatize-to-heat"
         },
         {
           "level": 2,
-          "text": "How to recognize exertional heat stroke",
-          "id": "how-to-recognize-exertional-heat-stroke"
+          "text": "How do you recognize exertional heat stroke?",
+          "id": "how-do-you-recognize-exertional-heat-stroke"
         },
         {
           "level": 2,
-          "text": "What a club can do, starting Monday",
-          "id": "what-a-club-can-do-starting-monday"
+          "text": "What can a club do starting Monday?",
+          "id": "what-can-a-club-do-starting-monday"
         },
         {
           "level": 2,
@@ -268,7 +402,7 @@
           "id": "sources"
         }
       ],
-      "words": 1850,
+      "words": 1879,
       "readingMinutes": 9,
       "timeRequired": "PT9M"
     },
@@ -701,7 +835,7 @@
       "lang": "it",
       "title": "Dolori mestruali e sport: quanto dolore è normale e cosa funziona davvero",
       "seoTitle": "Dolori mestruali e sport: cosa funziona davvero",
-      "seoDescription": "",
+      "seoDescription": "La dismenorrea riguarda il 71,1% delle giovani. Cosa funziona davvero (calore, esercizio, FANS) e quando un dolore che ferma la vita va fatto valutare.",
       "date": "2026-08-10",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -766,7 +900,7 @@
       "lang": "en",
       "title": "Period pain and sport: how much pain is normal, and what actually works",
       "seoTitle": "Period pain and sport: what actually works",
-      "seoDescription": "",
+      "seoDescription": "Dysmenorrhoea affects 71.1% of young women. What actually works (heat, exercise, NSAIDs) and when pain that stops life needs assessing.",
       "date": "2026-08-10",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -831,9 +965,9 @@
       "lang": "it",
       "title": "Mal di schiena a 14 anni: perché in una giovane atleta non è quello di un adulto",
       "seoTitle": "Mal di schiena nelle giovani atlete: cause e segnali",
-      "seoDescription": "",
+      "seoDescription": "In una giovane atleta la causa più descritta è la spondilolisi, non la contrattura: negli adulti è il contrario. Segnali, tempi e cosa dice l'evidenza.",
       "date": "2026-08-08",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "Il 42% delle atlete e degli atleti di 10-19 anni riferisce mal di schiena nell'arco di dodici mesi, e il sesso femminile compare tra i fattori di rischio. La differenza che quasi nessuno conosce sta nella causa: in adolescenza la lombalgia da sport è molto più spesso una frattura da stress della colonna e molto più raramente un problema di disco o una contrattura. I dati, i limiti dei dati, e perché oggi la fisioterapia immediata batte il riposo.",
       "answer": "Perché in una giovane atleta la causa più descritta è la spondilolisi, una frattura da stress della vertebra, mentre nell'adulto è il disco: in un confronto diretto spiegava il 47% dei casi negli adolescenti contro il 5% negli adulti (Micheli e Wood, 1995 — campione di clinica specialistica). Un mal di schiena che dura oltre due o tre settimane va valutato, non normalizzato.",
@@ -903,7 +1037,7 @@
           "id": "fonti"
         }
       ],
-      "words": 3505,
+      "words": 3629,
       "readingMinutes": 18,
       "timeRequired": "PT18M"
     },
@@ -912,9 +1046,9 @@
       "lang": "en",
       "title": "Low back pain at 14: why in a young athlete it is not what it is in an adult",
       "seoTitle": "Low back pain in young athletes: causes and signs",
-      "seoDescription": "",
+      "seoDescription": "In a young athlete the most described cause is spondylolysis, not a muscle strain — in adults it is the reverse. Signs, timing and the evidence.",
       "date": "2026-08-08",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "42% of athletes aged 10-19 report low back pain over twelve months, and female sex appears among the reported risk factors. The difference almost nobody knows about is the cause: in adolescence, sport-related low back pain is far more often a stress fracture of the spine and far more rarely a disc problem or a muscle strain. The data, the limits of the data, and why immediate physiotherapy now beats rest.",
       "answer": "Because in a young athlete the most described cause is spondylolysis, a stress fracture of the vertebra, whereas in adults it is the disc: in a direct comparison it explained 47% of cases in adolescents against 5% in adults (Micheli and Wood, 1995 — a specialist-clinic sample). Back pain lasting more than two or three weeks should be assessed, not normalised.",
@@ -984,16 +1118,16 @@
           "id": "sources"
         }
       ],
-      "words": 3391,
-      "readingMinutes": 17,
-      "timeRequired": "PT17M"
+      "words": 3517,
+      "readingMinutes": 18,
+      "timeRequired": "PT18M"
     },
     {
       "slug": "distorsione-caviglia-giovani-atlete",
       "lang": "it",
       "title": "«È solo una storta»: la caviglia è l'infortunio più frequente delle giovani atlete",
       "seoTitle": "Distorsione di caviglia nelle giovani atlete",
-      "seoDescription": "",
+      "seoDescription": "La caviglia è la sede del 23% degli infortuni nelle giovani atlete, e il 23,6% delle ragazze convive con un'instabilità cronica. Perché non è «solo una storta».",
       "date": "2026-08-06",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -1069,7 +1203,7 @@
       "lang": "en",
       "title": "\"It's just a twisted ankle\": the ankle is the most common injury in youth female athletes",
       "seoTitle": "Ankle sprains in young female athletes",
-      "seoDescription": "",
+      "seoDescription": "The ankle accounts for 23% of injuries in young female athletes, and 23.6% of girls live with chronic instability. Why it is not «just a twist».",
       "date": "2026-08-06",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -1277,7 +1411,7 @@
       "seoTitle": "Picco di crescita nelle giovani atlete: cosa cambia",
       "seoDescription": "Il picco di crescita arriva in media a 11,2 anni, con enorme variabilità. Cosa cambia per infortuni e coordinazione, e come adattare il carico.",
       "date": "2026-08-02",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "Nelle giovani atlete il picco di velocità di crescita arriva in media intorno agli 11,2 anni, ma con una variabilità enorme: in una squadra di tredicenni convivono corpi a stadi di maturazione diversi di anni. Nel frattempo l'osso si mineralizza circa sei mesi dopo che si è allungato. Cosa dicono davvero i dati — e perché sulle ragazze l'evidenza che lega la crescita agli infortuni è ancora limitata.",
       "answer": "Cambiano leve, coordinazione e struttura ossea, non l'impegno. Nelle giovani atlete l'età media al picco di crescita è 11,18 anni, ma con un intervallo di credibilità al 90% da 8,62 a 12,94 (Lima et al., 2024): nella stessa categoria convivono atlete biologicamente distanti anni. Il picco di minerale osseo arriva circa sei mesi dopo (Bailey et al., 1999).",
@@ -1326,7 +1460,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2347,
+      "words": 2480,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -1337,7 +1471,7 @@
       "seoTitle": "The growth spurt in young female athletes",
       "seoDescription": "The growth spurt peaks at 11.2 years on average, with huge variability. What changes for injuries and coordination, and how to adapt training load.",
       "date": "2026-08-02",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "In young female athletes peak height velocity arrives at a mean age of about 11.2 years — but the individual range is enormous: a squad of thirteen-year-olds contains bodies years apart in maturation. Meanwhile bone mineralises roughly six months after it has lengthened. What the data actually say — and why, in girls, the evidence linking growth to injury is still limited.",
       "answer": "What changes is levers, coordination and bone structure — not commitment. In young female athletes the mean age at peak height velocity is 11.18 years, with a 90% credible interval from 8.62 to 12.94 (Lima et al., 2024): one age category holds athletes years apart biologically. Peak bone mineral accrual arrives roughly six months later (Bailey et al., 1999).",
@@ -1386,9 +1520,9 @@
           "id": "sources"
         }
       ],
-      "words": 2265,
-      "readingMinutes": 11,
-      "timeRequired": "PT11M"
+      "words": 2399,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
     },
     {
       "slug": "dolore-ginocchio-femoro-rotuleo-giovani-atlete",
@@ -1397,7 +1531,7 @@
       "seoTitle": "Dolore al ginocchio negli adolescenti: cosa fare",
       "seoDescription": "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze e la durata mediana è di 24 mesi. Perché non è «dolore di crescita» e cosa fare.",
       "date": "2026-07-30",
-      "updated": "2026-08-13",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze, la durata mediana del dolore è di 24 mesi e cinque anni dopo il 40,5% ha ancora male — con il 60% che ha smesso o ridotto lo sport. Il dolore femoro-rotuleo non passa «crescendo»: passa quando qualcuno lo prende sul serio e dosa il carico. I dati, e cosa cambia in palestra.",
       "answer": "Nella maggior parte dei casi non passa crescendo: cinque anni dopo, il 40,5% degli adolescenti con dolore al ginocchio ne ha ancora, e il 60% di questi ha smesso o ridotto lo sport a causa del ginocchio (Rathleff et al., 2019). Quello che funziona non è il riposo totale ma il carico dosato per settimane, insieme al rinforzo di anca e ginocchio.",
@@ -1456,9 +1590,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2797,
-      "readingMinutes": 14,
-      "timeRequired": "PT14M"
+      "words": 2995,
+      "readingMinutes": 15,
+      "timeRequired": "PT15M"
     },
     {
       "slug": "dolore-ginocchio-femoro-rotuleo-giovani-atlete",
@@ -1467,7 +1601,7 @@
       "seoTitle": "Knee pain in teenage athletes: what to do",
       "seoDescription": "Among adolescents with recurrent knee pain, 72% are girls and the median duration is 24 months. Why it is not growing pains, and what to do.",
       "date": "2026-07-30",
-      "updated": "2026-08-13",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "Among adolescents with recurrent knee pain, 72% are girls, the median duration of pain is 24 months, and five years later 40.5% still hurt — with 60% of those having stopped or cut back on sport. Patellofemoral pain does not go away by 'growing out of it': it goes away when someone takes it seriously and doses the load. The data, and what changes in the gym.",
       "answer": "In most cases it does not go away with growth: five years on, 40.5% of adolescents with knee pain still have it, and 60% of those have stopped or cut back on sport because of the knee (Rathleff et al., 2019). What works is not complete rest but dosed load over weeks, together with hip and knee strengthening.",
@@ -1526,16 +1660,16 @@
           "id": "sources"
         }
       ],
-      "words": 2636,
-      "readingMinutes": 13,
-      "timeRequired": "PT13M"
+      "words": 2838,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
     },
     {
       "slug": "salute-ossea-fratture-da-stress-giovani-atlete",
       "lang": "it",
       "title": "Fratture da stress nelle giovani atlete: perché l'osso si costruisce adesso",
       "seoTitle": "Fratture da stress nelle giovani atlete: prevenzione",
-      "seoDescription": "",
+      "seoDescription": "Le ragazze subiscono fratture da stress 1,75 volte più dei coetanei, e l'osso si costruisce entro i 18 anni. Energia, ciclo e carico: cosa dice l'evidenza.",
       "date": "2026-07-28",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -1601,7 +1735,7 @@
       "lang": "en",
       "title": "Stress fractures in young female athletes: why bone is built now, not later",
       "seoTitle": "Stress fractures in young female athletes",
-      "seoDescription": "",
+      "seoDescription": "Girls sustain stress fractures 1.75 times as often as male peers, and bone is built before 18. Energy, periods and load: what the evidence says.",
       "date": "2026-07-28",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -1667,7 +1801,7 @@
       "lang": "it",
       "title": "Specializzazione precoce: un solo sport tutto l'anno, e cosa costa davvero alle ragazze",
       "seoTitle": "Specializzazione precoce nello sport: i costi reali",
-      "seoDescription": "",
+      "seoDescription": "Un solo sport tutto l'anno costa infortuni, non vantaggio competitivo: fra 219 atlete di 13-18 anni le altamente specializzate si infortunano di più.",
       "date": "2026-07-26",
       "updated": "2026-08-13",
       "author": "Sajid Hossain",
@@ -1736,7 +1870,7 @@
       "lang": "en",
       "title": "Early specialisation: one sport all year round, and what it actually costs girls",
       "seoTitle": "Early sport specialisation: the real costs",
-      "seoDescription": "",
+      "seoDescription": "One sport all year costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised got hurt more often.",
       "date": "2026-07-26",
       "updated": "2026-08-13",
       "author": "Sajid Hossain",
@@ -1963,7 +2097,7 @@
       "lang": "it",
       "title": "Perdo urina quando salto: il sintomo di cui quasi nessuna atleta parla",
       "seoTitle": "Perdite di urina nello sport: quanto è comune",
-      "seoDescription": "",
+      "seoDescription": "Perdere urina saltando riguarda in media il 48,6% delle atlete adolescenti, ma l'87% non ne parlerebbe con l'allenatore. Frequente non vuol dire normale.",
       "date": "2026-07-22",
       "updated": "2026-08-13",
       "author": "Sajid Hossain",
@@ -2027,7 +2161,7 @@
       "lang": "en",
       "title": "I leak when I jump: the symptom almost no young athlete talks about",
       "seoTitle": "Urinary leakage in sport: how common it is",
-      "seoDescription": "",
+      "seoDescription": "Leaking urine when jumping affects on average 48.6% of adolescent athletes, yet 87% would not tell their coach. Common does not mean normal.",
       "date": "2026-07-22",
       "updated": "2026-08-13",
       "author": "Sajid Hossain",
@@ -2091,7 +2225,7 @@
       "lang": "it",
       "title": "Crociato e giovani atlete: perché il rischio è più alto, e i 20 minuti che lo dimezzano",
       "seoTitle": "Crociato nelle giovani atlete: rischio e prevenzione",
-      "seoDescription": "",
+      "seoDescription": "Nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei. Cosa cambia con la pubertà e i 20 minuti che riducono il rischio.",
       "date": "2026-07-21",
       "updated": "2026-08-16",
       "author": "Sajid Hossain",
@@ -2170,7 +2304,7 @@
       "lang": "en",
       "title": "ACL injuries in young female athletes: why the risk is higher, and the 20 minutes that halve it",
       "seoTitle": "ACL injuries in young female athletes",
-      "seoDescription": "",
+      "seoDescription": "In high-school sport girls sustain 1.40 times the ACL ruptures of male peers. What puberty changes, and the 20 minutes that cut the risk.",
       "date": "2026-07-21",
       "updated": "2026-08-16",
       "author": "Sajid Hossain",
@@ -2249,7 +2383,7 @@
       "lang": "it",
       "title": "Sonno e atlete adolescenti: perché 8 ore non sono un lusso (e la pubertà le rende più difficili)",
       "seoTitle": "Sonno e atlete adolescenti: quante ore servono",
-      "seoDescription": "",
+      "seoDescription": "A 13-18 anni servono 8-10 ore per notte: dormirne meno di 8 si associa a infortuni 1,7 volte più frequenti. Perché la pubertà sposta l'orologio interno.",
       "date": "2026-07-18",
       "updated": "2026-08-13",
       "author": "Sajid Hossain",
@@ -2314,7 +2448,7 @@
       "lang": "en",
       "title": "Sleep and teenage athletes: why 8 hours isn't a luxury (and puberty makes them harder to get)",
       "seoTitle": "Sleep and teenage athletes: how many hours",
-      "seoDescription": "",
+      "seoDescription": "At 13-18 you need 8-10 hours a night: sleeping fewer than 8 is linked to 1.7 times more injuries. Why puberty shifts the body clock later.",
       "date": "2026-07-18",
       "updated": "2026-08-13",
       "author": "Sajid Hossain",
@@ -2380,7 +2514,7 @@
       "lang": "it",
       "title": "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e che si trova con un esame)",
       "seoTitle": "Ferro basso nelle atlete adolescenti: come si trova",
-      "seoDescription": "",
+      "seoDescription": "Il 53,2% delle atlete adolescenti ha una carenza di ferro lieve, ma l'emocromo da solo non la vede: serve la ferritina. Sintomi, esami e cosa chiedere.",
       "date": "2026-07-16",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -2446,7 +2580,7 @@
       "lang": "en",
       "title": "Low iron in teenage athletes: the deficiency nobody looks for (and a blood test finds)",
       "seoTitle": "Low iron in teenage athletes: how it is found",
-      "seoDescription": "",
+      "seoDescription": "53.2% of adolescent athletes have mild iron deficiency, but a full blood count alone misses it: ferritin is the test. Symptoms and what to ask for.",
       "date": "2026-07-16",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -2651,7 +2785,7 @@
       "seoTitle": "Le parole dell'allenatore e la salute delle atlete",
       "seoDescription": "Le parole dell'allenatore cambiano la salute delle atlete: cosa sapere e cosa non dire mai, dai dati su 1.086 atlete in 57 sport.",
       "date": "2026-07-09",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "Cosa dovrebbe sapere — e cosa è meglio non dire mai — chi allena ragazze adolescenti. Le atlete che percepiscono il proprio allenatore come molto informato riportano il 36% di sintomi di RED-S in meno; chi ha ricevuto commenti sul proprio corpo è quattro volte più propensa a modificare l'alimentazione (33% contro 7%). Il linguaggio dello staff non è un contorno neutro dell'allenamento: è una variabile di salute misurabile. I dati, i limiti, e cosa farne domani in palestra.",
       "answer": "Più di quanto sembri, e si misura: un allenatore percepito come molto informato si associa a 3,2 sintomi di RED-S in media contro 4,3, cioè il 36% in meno, mentre i commenti sul corpo che mettono a disagio si associano a quattro volte più probabilità di modificare l'alimentazione (Female Athlete Health Report, 2023 — campione adulto, non peer-reviewed).",
@@ -2675,8 +2809,8 @@
         },
         {
           "level": 2,
-          "text": "Il paradosso: chi dovrebbe sapere, spesso non sa",
-          "id": "il-paradosso-chi-dovrebbe-sapere-spesso-non-sa"
+          "text": "Quanti allenatori e medici sanno riconoscere i segnali?",
+          "id": "quanti-allenatori-e-medici-sanno-riconoscere-i-segnali"
         },
         {
           "level": 2,
@@ -2685,8 +2819,8 @@
         },
         {
           "level": 2,
-          "text": "Cosa può fare lo staff, concretamente",
-          "id": "cosa-puo-fare-lo-staff-concretamente"
+          "text": "Cosa può fare lo staff da subito, senza competenze cliniche?",
+          "id": "cosa-puo-fare-lo-staff-da-subito-senza-competenze-cliniche"
         },
         {
           "level": 2,
@@ -2699,7 +2833,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2004,
+      "words": 2067,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -2710,7 +2844,7 @@
       "seoTitle": "A coach's words and young athletes' health",
       "seoDescription": "A coach's words change athletes' health: what to know and what never to say, from data on 1,086 athletes across 57 sports.",
       "date": "2026-07-09",
-      "updated": "2026-08-20",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "What a coach of adolescent girls should know — and what is better never said. Athletes who perceive their coach as very knowledgeable report 36% fewer RED-S symptoms; those who have received comments about their body are four times more likely to change how they eat (33% vs 7%). Staff language is not a neutral backdrop to training: it is a measurable health variable. The data, the limits, and what to do with it tomorrow in the gym.",
       "answer": "More than it seems, and it is measurable: a coach perceived as very well-informed is associated with 3.2 RED-S symptoms on average against 4.3 — 36% fewer — while comments about the body that make athletes uncomfortable are associated with four times the odds of changing their eating (Female Athlete Health Report, 2023 — adult sample, not peer-reviewed).",
@@ -2734,8 +2868,8 @@
         },
         {
           "level": 2,
-          "text": "The paradox: those who should know, often don't",
-          "id": "the-paradox-those-who-should-know-often-dont"
+          "text": "How many coaches and clinicians can recognise the signs?",
+          "id": "how-many-coaches-and-clinicians-can-recognise-the-signs"
         },
         {
           "level": 2,
@@ -2744,8 +2878,8 @@
         },
         {
           "level": 2,
-          "text": "What staff can do, concretely",
-          "id": "what-staff-can-do-concretely"
+          "text": "What can staff do straight away, with no clinical training?",
+          "id": "what-can-staff-do-straight-away-with-no-clinical-training"
         },
         {
           "level": 2,
@@ -2758,7 +2892,7 @@
           "id": "sources"
         }
       ],
-      "words": 1946,
+      "words": 2009,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -2901,7 +3035,7 @@
       "lang": "it",
       "title": "Parlare di ciclo con l'allenatore: perché lo fa solo l'11% delle atlete (e come cambiarlo)",
       "seoTitle": "Parlare del ciclo con l'allenatore: come farlo",
-      "seoDescription": "",
+      "seoDescription": "Solo l'11% delle atlete parla di ciclo con chi la allena, il 4% se è un uomo. Perché succede e cosa cambia il silenzio in una società sportiva.",
       "date": "2026-07-03",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -2956,7 +3090,7 @@
       "lang": "en",
       "title": "Talking about periods with your coach: why only 11% of athletes do (and how to change it)",
       "seoTitle": "Talking about periods with your coach",
-      "seoDescription": "",
+      "seoDescription": "Only 11% of athletes discuss their cycle with their coach — 4% if he is a man. Why that happens and what actually breaks the silence.",
       "date": "2026-07-03",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -3011,9 +3145,9 @@
       "lang": "it",
       "title": "Come allenare ragazze adolescenti: 4 leve concrete per coach e società sportive",
       "seoTitle": "Come allenare ragazze adolescenti: 4 leve concrete",
-      "seoDescription": "",
+      "seoDescription": "Quattro leve concrete per coach e società: linguaggio non giudicante, carico adattato, segnali di squadra anonimi, spazi e continuità. Con i dati dietro.",
       "date": "2026-07-02",
-      "updated": "2026-08-19",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "Tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Allenarle bene significa quattro cose concrete e senza budget: parlare del corpo che cambia, adattare il carico invece di sanzionare il calo, usare solo segnali di squadra anonimi, garantire spazi e continuità. Ecco i dati che sostengono ciascuna leva — e cosa fare quando un'atleta si presenta con dolore.",
       "answer": "Agendo sull'ambiente, non sulla motivazione della singola: linguaggio non giudicante, segnali di squadra aggregati e anonimi, condizioni pratiche e prevenzione degli infortuni. Un allenatore percepito come molto informato si associa al 36% di sintomi di RED-S in meno nelle sue atlete (Female Athlete Health Report, 2023 — campione adulto, report non peer-reviewed).",
@@ -3034,23 +3168,23 @@
         },
         {
           "level": 2,
-          "text": "1. Parla del corpo che cambia (senza imbarazzo)",
-          "id": "1-parla-del-corpo-che-cambia-senza-imbarazzo"
+          "text": "1. Come si parla del corpo che cambia senza imbarazzo?",
+          "id": "1-come-si-parla-del-corpo-che-cambia-senza-imbarazzo"
         },
         {
           "level": 2,
-          "text": "2. Adatta il carico, non giudicare il calo",
-          "id": "2-adatta-il-carico-non-giudicare-il-calo"
+          "text": "2. Come si adatta il carico quando un'atleta cala?",
+          "id": "2-come-si-adatta-il-carico-quando-unatleta-cala"
         },
         {
           "level": 2,
-          "text": "3. Usa segnali di squadra, mai dati individuali",
-          "id": "3-usa-segnali-di-squadra-mai-dati-individuali"
+          "text": "3. Quali dati si possono usare con una squadra di minorenni?",
+          "id": "3-quali-dati-si-possono-usare-con-una-squadra-di-minorenni"
         },
         {
           "level": 2,
-          "text": "4. Crea spazi e continuità",
-          "id": "4-crea-spazi-e-continuita"
+          "text": "4. Come si crea la continuità che tiene le atlete in squadra?",
+          "id": "4-come-si-crea-la-continuita-che-tiene-le-atlete-in-squadra"
         },
         {
           "level": 2,
@@ -3068,16 +3202,16 @@
           "id": "fonti"
         }
       ],
-      "words": 2091,
-      "readingMinutes": 10,
-      "timeRequired": "PT10M"
+      "words": 2186,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
     },
     {
       "slug": "reggiseno-sportivo-ragazze",
       "lang": "it",
       "title": "Reggiseno sportivo per ragazze: quando serve il primo, come scegliere la taglia",
       "seoTitle": "Reggiseno sportivo per ragazze: taglia e quando serve",
-      "seoDescription": "",
+      "seoDescription": "Il primo serve appena inizia lo sviluppo, non a un'età fissa. A 13-14 anni il 51% dice che il seno influenza lo sport, ma solo il 10% ne indossa uno.",
       "date": "2026-07-02",
       "updated": "2026-08-16",
       "author": "Sajid Hossain",
@@ -3140,9 +3274,9 @@
       "lang": "en",
       "title": "How to coach teenage girls: 4 concrete levers for coaches and sports clubs",
       "seoTitle": "How to coach teenage girls: 4 concrete levers",
-      "seoDescription": "",
+      "seoDescription": "Four concrete levers for coaches and clubs: non-judgemental language, adjusted load, anonymous team signals, space and continuity — with the data.",
       "date": "2026-07-02",
-      "updated": "2026-08-19",
+      "updated": "2026-08-21",
       "author": "Sajid Hossain",
       "excerpt": "Among girls who join a club aged 10-14, 71% drop out without ever returning, and it is almost never about motivation. Coaching them well means four concrete, budget-free things: talking about the changing body, adjusting the load instead of penalising a dip, using only anonymous team signals, and guaranteeing space and continuity. Here is the evidence behind each lever — and what to do when an athlete turns up in pain.",
       "answer": "By acting on the environment, not on the individual girl's motivation: non-judgemental language, aggregated and anonymous team signals, practical conditions and injury prevention. A coach perceived as very well-informed is associated with 36% fewer RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample, non-peer-reviewed report).",
@@ -3163,23 +3297,23 @@
         },
         {
           "level": 2,
-          "text": "1. Talk about the changing body (without embarrassment)",
-          "id": "1-talk-about-the-changing-body-without-embarrassment"
+          "text": "1. How do you talk about the changing body without embarrassment?",
+          "id": "1-how-do-you-talk-about-the-changing-body-without"
         },
         {
           "level": 2,
-          "text": "2. Adjust the load, don't judge the dip",
-          "id": "2-adjust-the-load-dont-judge-the-dip"
+          "text": "2. How do you adjust the load when an athlete dips?",
+          "id": "2-how-do-you-adjust-the-load-when-an-athlete-dips"
         },
         {
           "level": 2,
-          "text": "3. Use team signals, never individual data",
-          "id": "3-use-team-signals-never-individual-data"
+          "text": "3. Which data can you use with a squad of minors?",
+          "id": "3-which-data-can-you-use-with-a-squad-of-minors"
         },
         {
           "level": 2,
-          "text": "4. Create space and continuity",
-          "id": "4-create-space-and-continuity"
+          "text": "4. How do you build the continuity that keeps athletes in the squad?",
+          "id": "4-how-do-you-build-the-continuity-that-keeps-athletes-in"
         },
         {
           "level": 2,
@@ -3197,16 +3331,16 @@
           "id": "sources"
         }
       ],
-      "words": 2031,
-      "readingMinutes": 10,
-      "timeRequired": "PT10M"
+      "words": 2132,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
     },
     {
       "slug": "reggiseno-sportivo-ragazze",
       "lang": "en",
       "title": "Sports bras for girls: when the first one is needed, and how to get the size right",
       "seoTitle": "Sports bras for girls: sizing and when to start",
-      "seoDescription": "",
+      "seoDescription": "The first one is needed as soon as breast development starts, not at a set age. At 13-14, 51% say breasts affect their sport; only 10% wear one.",
       "date": "2026-07-02",
       "updated": "2026-08-16",
       "author": "Sajid Hossain",
@@ -3269,7 +3403,7 @@
       "lang": "it",
       "title": "Perché le ragazze smettono di fare sport in adolescenza: i dati sull'abbandono a 10-14 anni",
       "seoTitle": "Perché le ragazze smettono di fare sport in pubertà",
-      "seoDescription": "",
+      "seoDescription": "Le ragazze non smettono perché perdono interesse: smettono quando l'ambiente non funziona più. I dati sull'abbandono a 10-14 anni e cosa lo inverte.",
       "date": "2026-06-22",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -3324,7 +3458,7 @@
       "lang": "en",
       "title": "Why girls stop playing sport as teenagers: the data on drop-out at 10-14",
       "seoTitle": "Why teenage girls drop out of sport: the data",
-      "seoDescription": "",
+      "seoDescription": "Girls do not stop because they lose interest: they stop when the environment stops working. The drop-out data at 10-14, and what reverses it.",
       "date": "2026-06-22",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -3379,7 +3513,7 @@
       "lang": "it",
       "title": "Ciclo mestruale e performance sportiva: cosa dicono i dati (e cosa non dicono)",
       "seoTitle": "Ciclo mestruale e sport: cosa dicono i dati",
-      "seoDescription": "",
+      "seoDescription": "L'effetto della fase del ciclo sulla performance è di entità banale nella meta-analisi più ampia, e su donne adulte. Cosa dicono i dati e cosa no.",
       "date": "2026-06-20",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
@@ -3439,7 +3573,7 @@
       "lang": "en",
       "title": "Menstrual cycle and sports performance: what the data says (and what it doesn't)",
       "seoTitle": "Menstrual cycle and sport: what the data says",
-      "seoDescription": "",
+      "seoDescription": "The effect of cycle phase on performance is trivial in the largest meta-analysis — and it was measured in adult women. What the data do and do not say.",
       "date": "2026-06-20",
       "updated": "2026-08-20",
       "author": "Sajid Hossain",
