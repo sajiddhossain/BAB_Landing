@@ -229,3 +229,17 @@
   Scelta del soggetto: il campo di allenamento deserto d'inverno, con la zona di terra battuta consumata
   al centro — il punto dove si scatta, che è il meccanismo più comune delle avulsioni apofisarie descritte
   nell'articolo.
+
+## cover-ipermobilita-articolare.jpg
+- Titolo originale: "Close-up view of ballerina's feet in pointe shoes during practice inside a ballet studio"
+- Fonte: Pexels — https://www.pexels.com/photo/a-woman-wearing-ballet-shoes-8463090/
+- Autore: MART PRODUCTION (https://www.pexels.com/@mart-production/)
+- Licenza: Pexels License (uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "ipermobilità articolare nelle giovani atlete / punteggio di Beighton" (IT + EN)
+- Lavorazione: originale 1600x1067, ritaglio 16:9 centrato (1600x900) e resample a 1024x576, JPEG q88.
+  Nessun volto e nessun tratto identificabile nell'inquadratura: l'immagine si ferma sotto il ginocchio.
+  La persona ritratta è adulta — vale la regola «nessun minore identificabile» per un tema che riguarda
+  ragazze di 13-17 anni.
+  Scelta del soggetto: le scarpette da punta in sala di danza, perché la danza è la disciplina in cui
+  l'ipermobilità è più frequente — 68,2% delle ballerine contro il 13,2% delle giocatrici di pallamano
+  nello studio su 132 atleti adolescenti d'élite citato nell'articolo (Schmidt et al., 2017).

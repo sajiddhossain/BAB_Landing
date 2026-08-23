@@ -90,11 +90,11 @@ The practical point is a single one: if the pain appeared suddenly, during a spr
 
 ## Do girls get more groin pain than boys?
 
-**No — and it is worth saying so precisely here, where BAB could comfortably say the opposite.** In the study of 11-15 year-olds, of the 23 players with in-season pain **18 were boys and 5 were girls**; in the multivariate model **male sex** was associated with pain at an odds ratio of **5.71**, and **higher BMI** at an OR of 1.32 ([Schoffl et al., 2021](https://doi.org/10.1186/s40798-021-00392-w)). That is the reverse of what happens with the [ACL](/blog/crociato-giovani-atlete) and the [ankle](/blog/distorsione-caviglia-giovani-atlete), where the risk is higher in girls.
+**No — and it is worth saying so precisely here, where BAB could comfortably say the opposite.** In the study of 11-15 year-olds, of the 23 players with in-season pain **18 were boys and 5 were girls**; in the multivariate model **male sex** was associated with pain at an odds ratio of **5.71**, and **higher BMI** at an OR of 1.32 ([Schoffl et al., 2021](https://doi.org/10.1186/s40798-021-00392-w)). That is the reverse of what happens with the [ACL](/en/blog/crociato-giovani-atlete) and the [ankle](/en/blog/distorsione-caviglia-giovani-atlete), where the risk is higher in girls.
 
 The limitation deserves as much weight as the result: one study, one academy, 105 participants, one sport. It is not a law of nature.
 
-And the operating conclusion does not change at all. If a 14-year-old girl has groin pain, the statistic does not explain her case — if anything it makes it less expected, and therefore easier to wave away. It is the mechanism this site meets in every article: [the symptom that doesn't fit the script](/blog/dolore-in-puberta-neuroscienza) is the one at risk of being heard least.
+And the operating conclusion does not change at all. If a 14-year-old girl has groin pain, the statistic does not explain her case — if anything it makes it less expected, and therefore easier to wave away. It is the mechanism this site meets in every article: [the symptom that doesn't fit the script](/en/blog/dolore-in-puberta-neuroscienza) is the one at risk of being heard least.
 
 ## Which two signals are not worth waiting on?
 
@@ -110,7 +110,7 @@ Two necessary qualifications, because the number alone isn't enough: SCFE is **m
 
 Pulling the other way is the datum closest to girls: in the study of 11-15 year-olds, **preseason adductor and abductor strength did not predict** the following season's hip and groin pain, and neither did HAGOS questionnaire scores ([Schoffl et al., 2021](https://doi.org/10.1186/s40798-021-00392-w)).
 
-The honest summary is this: strengthening the adductors is low-risk, consistent with what we know about [progressive loading during the growing years](/blog/forza-ragazze-adolescenti), and has solid proof in a population other than the one we are discussing. It is not a guarantee, and nobody should sell it as one.
+The honest summary is this: strengthening the adductors is low-risk, consistent with what we know about [progressive loading during the growing years](/en/blog/forza-ragazze-adolescenti), and has solid proof in a population other than the one we are discussing. It is not a guarantee, and nobody should sell it as one.
 
 ## What can a coach do without medicalising anything?
 
@@ -122,7 +122,7 @@ Three things, none of which requires clinical skills.
 
 **Don't use one label as a container.** The **Doha agreement**, signed by 24 experts from 14 countries, tidied up the terminology into three groups: the defined clinical entities (**adductor-**, **iliopsoas-**, **inguinal-** and **pubic-related** groin pain), **hip-related** groin pain, and other causes ([Weir et al., 2015](https://doi.org/10.1136/bjsports-2015-094869)). Different names mean different pathways: calling them all the same thing is the first step towards treating them all the same way, which is to say badly.
 
-And a fourth, which holds all season: during the weeks of the [growth spurt](/blog/picco-di-crescita-giovani-atlete) the pelvic apophyses are an open building site. That is not the moment to add maximal sprints and new loads all at once.
+And a fourth, which holds all season: during the weeks of the [growth spurt](/en/blog/picco-di-crescita-giovani-atlete) the pelvic apophyses are an open building site. That is not the moment to add maximal sprints and new loads all at once.
 
 ## Sources
 

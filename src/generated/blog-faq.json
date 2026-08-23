@@ -1,6 +1,94 @@
 {
   "posts": [
     {
+      "slug": "ipermobilita-articolare-giovani-atlete",
+      "lang": "it",
+      "title": "Ipermobilità articolare: essere «elastiche» è un talento o un rischio?",
+      "date": "2026-08-23",
+      "questions": [
+        {
+          "q": "Che cos'è l'ipermobilità articolare?",
+          "id": "faq-che-cose-lipermobilita-articolare"
+        },
+        {
+          "q": "Quante ragazze sono ipermobili?",
+          "id": "faq-quante-ragazze-sono-ipermobili"
+        },
+        {
+          "q": "A 13 anni la soglia del punteggio di Beighton è la stessa di un'adulta?",
+          "id": "faq-a-13-anni-la-soglia-del-punteggio-di-beighton-e-la"
+        },
+        {
+          "q": "L'ipermobilità causa dolore?",
+          "id": "faq-lipermobilita-causa-dolore"
+        },
+        {
+          "q": "L'ipermobilità aumenta il rischio di infortunio nello sport?",
+          "id": "faq-lipermobilita-aumenta-il-rischio-di-infortunio-nello"
+        },
+        {
+          "q": "Perché nella danza e nella ginnastica ci sono più atlete ipermobili?",
+          "id": "faq-perche-nella-danza-e-nella-ginnastica-ci-sono-piu"
+        },
+        {
+          "q": "Una ragazza ipermobile è più debole?",
+          "id": "faq-una-ragazza-ipermobile-e-piu-debole"
+        },
+        {
+          "q": "Che cosa cambia in allenamento se un'atleta è ipermobile?",
+          "id": "faq-che-cosa-cambia-in-allenamento-se-unatleta-e-ipermobile"
+        },
+        {
+          "q": "Quando è il caso di far valutare un'atleta ipermobile?",
+          "id": "faq-quando-e-il-caso-di-far-valutare-unatleta-ipermobile"
+        }
+      ]
+    },
+    {
+      "slug": "ipermobilita-articolare-giovani-atlete",
+      "lang": "en",
+      "title": "Joint hypermobility: is being «bendy» a gift or a risk?",
+      "date": "2026-08-23",
+      "questions": [
+        {
+          "q": "What is joint hypermobility?",
+          "id": "faq-what-is-joint-hypermobility"
+        },
+        {
+          "q": "How many girls are hypermobile?",
+          "id": "faq-how-many-girls-are-hypermobile"
+        },
+        {
+          "q": "At 13, is the Beighton cut-off the same as an adult's?",
+          "id": "faq-at-13-is-the-beighton-cut-off-the-same-as-an-adults"
+        },
+        {
+          "q": "Does hypermobility cause pain?",
+          "id": "faq-does-hypermobility-cause-pain"
+        },
+        {
+          "q": "Does hypermobility increase injury risk in sport?",
+          "id": "faq-does-hypermobility-increase-injury-risk-in-sport"
+        },
+        {
+          "q": "Why are there more hypermobile athletes in dance and gymnastics?",
+          "id": "faq-why-are-there-more-hypermobile-athletes-in-dance-and"
+        },
+        {
+          "q": "Is a hypermobile girl weaker?",
+          "id": "faq-is-a-hypermobile-girl-weaker"
+        },
+        {
+          "q": "What changes in training if an athlete is hypermobile?",
+          "id": "faq-what-changes-in-training-if-an-athlete-is-hypermobile"
+        },
+        {
+          "q": "When should a hypermobile athlete be assessed?",
+          "id": "faq-when-should-a-hypermobile-athlete-be-assessed"
+        }
+      ]
+    },
+    {
       "slug": "dolore-inguine-giovani-atlete",
       "lang": "it",
       "title": "Dolore all'inguine a 14 anni: perché quasi mai è «uno stiramento»",
@@ -481,6 +569,10 @@
         {
           "q": "Quando un dolore di spalla va fatto vedere a un professionista sanitario?",
           "id": "faq-quando-un-dolore-di-spalla-va-fatto-vedere-a-un"
+        },
+        {
+          "q": "L'ipermobilità predice il dolore alla spalla?",
+          "id": "faq-lipermobilita-predice-il-dolore-alla-spalla"
         }
       ]
     },
@@ -525,6 +617,10 @@
         {
           "q": "When should shoulder pain be seen by a healthcare professional?",
           "id": "faq-when-should-shoulder-pain-be-seen-by-a-healthcare"
+        },
+        {
+          "q": "Does hypermobility predict shoulder pain?",
+          "id": "faq-does-hypermobility-predict-shoulder-pain"
         }
       ]
     },
@@ -725,6 +821,10 @@
         {
           "q": "Nelle ragazze che stanno crescendo, una caviglia gonfia è sempre una frattura della cartilagine di accrescimento?",
           "id": "faq-nelle-ragazze-che-stanno-crescendo-una-caviglia-gonfia"
+        },
+        {
+          "q": "Le atlete più elastiche si distorcono di più la caviglia?",
+          "id": "faq-le-atlete-piu-elastiche-si-distorcono-di-piu-la-caviglia"
         }
       ]
     },
@@ -765,6 +865,10 @@
         {
           "q": "In a growing girl, is a swollen ankle always a growth plate fracture?",
           "id": "faq-in-a-growing-girl-is-a-swollen-ankle-always-a-growth"
+        },
+        {
+          "q": "Do bendier athletes sprain their ankles more?",
+          "id": "faq-do-bendier-athletes-sprain-their-ankles-more"
         }
       ]
     },
@@ -813,6 +917,10 @@
         {
           "q": "L'allenamento della forza fa bene anche alle ossa delle ragazze?",
           "id": "faq-lallenamento-della-forza-fa-bene-anche-alle-ossa-delle"
+        },
+        {
+          "q": "Un'atleta ipermobile deve evitare i pesi?",
+          "id": "faq-unatleta-ipermobile-deve-evitare-i-pesi"
         }
       ]
     },
@@ -861,6 +969,10 @@
         {
           "q": "Is strength training good for girls' bones too?",
           "id": "faq-is-strength-training-good-for-girls-bones-too"
+        },
+        {
+          "q": "Should a hypermobile athlete avoid weights?",
+          "id": "faq-should-a-hypermobile-athlete-avoid-weights"
         }
       ]
     },
@@ -1429,6 +1541,10 @@
         {
           "q": "Dopo una ricostruzione del crociato, quanto è alto il rischio di rifarsi male?",
           "id": "faq-dopo-una-ricostruzione-del-crociato-quanto-e-alto-il"
+        },
+        {
+          "q": "Un'atleta molto elastica ha più rischio di rompersi il crociato?",
+          "id": "faq-unatleta-molto-elastica-ha-piu-rischio-di-rompersi-il"
         }
       ]
     },
@@ -1469,6 +1585,10 @@
         {
           "q": "After an ACL reconstruction, how high is the risk of a second injury?",
           "id": "faq-after-an-acl-reconstruction-how-high-is-the-risk-of-a"
+        },
+        {
+          "q": "Is a very bendy athlete at higher risk of an ACL tear?",
+          "id": "faq-is-a-very-bendy-athlete-at-higher-risk-of-an-acl-tear"
         }
       ]
     },

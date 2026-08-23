@@ -4,7 +4,7 @@ title: "Come allenare ragazze adolescenti: 4 leve concrete per coach e società 
 seoTitle: "Come allenare ragazze adolescenti: 4 leve concrete"
 seoDescription: "Quattro leve concrete per coach e società: linguaggio non giudicante, carico adattato, segnali di squadra anonimi, spazi e continuità. Con i dati dietro."
 date: 2026-07-02
-updated: 2026-08-21
+updated: 2026-08-23
 author: Sajid Hossain
 excerpt: "Tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Allenarle bene significa quattro cose concrete e senza budget: parlare del corpo che cambia, adattare il carico invece di sanzionare il calo, usare solo segnali di squadra anonimi, garantire spazi e continuità. Ecco i dati che sostengono ciascuna leva — e cosa fare quando un'atleta si presenta con dolore."
 answer: "Agendo sull'ambiente, non sulla motivazione della singola: linguaggio non giudicante, segnali di squadra aggregati e anonimi, condizioni pratiche e prevenzione degli infortuni. Un allenatore percepito come molto informato si associa al 36% di sintomi di RED-S in meno nelle sue atlete (Female Athlete Health Report, 2023 — campione adulto, report non peer-reviewed)."
@@ -66,6 +66,8 @@ Anche qui c'è un numero. Nel Female Athlete Health Report 2023, le atlete che p
 E c'è un adattamento del carico che vale più di tutti gli altri, perché è misurato: **venti minuti di riscaldamento neuromuscolare, due volte a settimana**, riducono il rischio di rottura del crociato di circa il **60%** nelle atlete di 13-19 anni (Petushek et al., 2019). Non è un'aggiunta al programma: prende il posto del riscaldamento che già si fa, e [funziona solo se lo si fa davvero](/blog/crociato-giovani-atlete) — sotto il ~66% di aderenza il beneficio sparisce (Sugimoto et al., 2012).
 
 C'è un momento in cui adattare il carico conta più che in ogni altro, e si riconosce con un metro a muro: il trimestre in cui un'atleta cresce in fretta. Il picco di accumulo di minerale osseo arriva **circa sei mesi dopo** il picco di velocità di crescita (Bailey et al., 1999): per un periodo l'osso è già più lungo ma non ancora altrettanto denso. Non significa fermarsi — significa tenere stabile il volume e lavorare su tecnica e controllo, come spieghiamo in [picco di crescita nelle giovani atlete](/blog/picco-di-crescita-giovani-atlete).
+
+Negli sport overhead — pallavolo, nuoto, pallamano — l'adattamento del carico ha un'unità di misura propria, e non è il tempo di allenamento: è il numero di gesti sopra la testa. È l'unica variabile su cui si può davvero agire, perché lo screening di inizio stagione non predice quale [spalla si farà male](/blog/dolore-spalla-giovani-atlete): serve che qualcuno registri il volume, non che qualcuno misuri i gradi a settembre.
 
 C'è poi un adattamento del carico che si decide in trenta secondi, non in una settimana: cosa si fa dopo un colpo alla testa. Negli sport confrontabili tra i due sessi, **le atlete hanno 1,26 volte la probabilità di non essere tolte dall'attività** dopo una commozione cerebrale (IC 95% 1,09-1,45) (Zynda et al., 2021) — e chi resta in campo recupera in 44 giorni invece di 22 (Elbin et al., 2016). La regola è una sola, e [vale la pena scriverla prima che serva](/blog/commozione-cerebrale-giovani-atlete): in caso di sospetto, l'atleta esce e non rientra quel giorno.
 

@@ -33,7 +33,7 @@ faq:
   - q: "What can a family do before the problem arises?"
     a: "Set up the conditions when there is no urgency — that is, before the first away trip or competition. Three concrete things: keep a small permanent kit in the sports bag (two absorbencies, wipes, opaque bag, a spare), try the product intended for training at home rather than on the day — the menstrual cup review explicitly notes a necessary familiarisation phase (van Eijk et al., 2019) — and agree together on a ready-made sentence for the coach that requires no explanation. The global review identifies informational gaps as one of the recurring knots, reported in 24 of 42 studies (Harvey et al., 2025)."
   - q: "Is leaking during sport always about periods?"
-    a: "No, and it is worth untangling because the confusion leads to the wrong solutions. Loss of urine during jumps, sprints and changes of direction is a distinct and very common phenomenon: among adolescent female athletes the mean prevalence is 48.58%, and 87% say they would not mention it to their coach (Rial Rebullido et al., 2021). It concerns the pelvic floor, not the menstrual cycle, and is addressed differently — the topic is covered in full in [I leak urine when I jump](/blog/perdite-urina-giovani-atlete)."
+    a: "No, and it is worth untangling because the confusion leads to the wrong solutions. Loss of urine during jumps, sprints and changes of direction is a distinct and very common phenomenon: among adolescent female athletes the mean prevalence is 48.58%, and 87% say they would not mention it to their coach (Rial Rebullido et al., 2021). It concerns the pelvic floor, not the menstrual cycle, and is addressed differently — the topic is covered in full in [I leak urine when I jump](/en/blog/perdite-urina-giovani-atlete)."
 ---
 
 Almost everything written about periods and sport stays at the level of principle: that it is normal, that there is nothing to be ashamed of, that physical activity is fine during menstruation. All true. But none of it answers the question a thirteen-year-old actually asks herself on a Tuesday afternoon before training: **what do I do, concretely, today.**
@@ -49,13 +49,13 @@ This article tries to stay at that level: products, kit, bag, changing room. It 
 
 ## Can you play sport on your period?
 
-**Yes, and in most cases there is no reason to stop.** There is no evidence that physical activity during menstruation is harmful; on the contrary, exercise is among the treatments with a measured effect on period pain — a large reduction in intensity compared with doing nothing (SMD -1.86; 95% CI -2.06 to -1.66), at a dose of 45-60 minutes at least three times a week, with evidence quality rated low (Armour et al., 2019). The topic is covered in full in the article on [period pain](/blog/dolori-mestruali-giovani-atlete).
+**Yes, and in most cases there is no reason to stop.** There is no evidence that physical activity during menstruation is harmful; on the contrary, exercise is among the treatments with a measured effect on period pain — a large reduction in intensity compared with doing nothing (SMD -1.86; 95% CI -2.06 to -1.66), at a dose of 45-60 minutes at least three times a week, with evidence quality rated low (Armour et al., 2019). The topic is covered in full in the article on [period pain](/en/blog/dolori-mestruali-giovani-atlete).
 
 And yet the opposite happens. In the global review of **86 studies across 33 countries**, among adolescents aged 10-18, **between 25.2% and 61.1% avoid or reduce physical activity during their period** (Harvey et al., 2025). And the reason is not only pain: the same review lists **fear of leaking** and embarrassment among the recurring barriers, to the point that in several studies girls would rather stay out than risk it.
 
 This is the point that changes everything: **part of the problem is not physiological, it is logistical.** And what is logistical can be solved.
 
-One useful distinction before going further: not every leak feared during sport is about periods. **Urinary incontinence** during jumps and changes of direction is a different and equally widespread phenomenon — it concerns the **pelvic floor** and is addressed differently ([I leak urine when I jump](/blog/perdite-urina-giovani-atlete)). Confusing the two leads to the wrong solutions: a menstrual product does not fix a urinary leak, and vice versa.
+One useful distinction before going further: not every leak feared during sport is about periods. **Urinary incontinence** during jumps and changes of direction is a different and equally widespread phenomenon — it concerns the **pelvic floor** and is addressed differently ([I leak urine when I jump](/en/blog/perdite-urina-giovani-atlete)). Confusing the two leads to the wrong solutions: a menstrual product does not fix a urinary leak, and vice versa.
 
 ## Which menstrual product do you use for sport?
 
@@ -85,7 +85,7 @@ If there is one thing a club can do this week, it is this. A container anyone ca
 - **spare underwear** and a pair of **dark shorts**;
 - a written note of where it is.
 
-It costs a few tens of euros. And the point is not the contents, it is **the location**: if getting the kit means asking the coach, for many athletes that is the same as not having one. The figure that explains it best is the one on communication: **only 11% of athletes discuss their cycle with the person coaching them, dropping to 4% when the coach is a man** (Höök et al., 2022). Waiting for the question means never answering it — the same mechanism described in [talking about periods with your coach](/blog/parlare-di-ciclo-con-allenatore).
+It costs a few tens of euros. And the point is not the contents, it is **the location**: if getting the kit means asking the coach, for many athletes that is the same as not having one. The figure that explains it best is the one on communication: **only 11% of athletes discuss their cycle with the person coaching them, dropping to 4% when the coach is a man** (Höök et al., 2022). Waiting for the question means never answering it — the same mechanism described in [talking about periods with your coach](/en/blog/parlare-di-ciclo-con-allenatore).
 
 ## What a male coach can do (without awkward conversations)
 
@@ -95,7 +95,7 @@ Three actions, none of which requires a private conversation:
 2. **Do not mandate light colours** in the training kit, and allow a second layer.
 3. **State the practice**: whoever is not up to it says «not today» without explanation, and the session is **adapted rather than skipped** — reduced load, technique, floor work.
 
-The third point protects most, because it replaces the binary choice of «in or out» with a third option. It is the same logic that applies to [pain that lasts](/blog/dolore-in-puberta-neuroscienza) and to overuse injuries: stopping altogether also removes the training that does good.
+The third point protects most, because it replaces the binary choice of «in or out» with a third option. It is the same logic that applies to [pain that lasts](/en/blog/dolore-in-puberta-neuroscienza) and to overuse injuries: stopping altogether also removes the training that does good.
 
 One necessary caveat: **none of this applies to pain that prevents training every month.** That is not an organisational problem. In the review of 21,573 young women under 25, 20.1% reported absence from school or university because of period pain (Armour et al., 2019): if it happens every cycle, it belongs with a healthcare professional, not with a supply box.
 

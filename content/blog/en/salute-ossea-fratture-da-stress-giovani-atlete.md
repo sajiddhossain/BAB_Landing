@@ -68,7 +68,7 @@ One honest caveat about the prevalence figures in circulation: the most-cited na
 
 **Because it is a bone still under construction, carrying an adult training load.** Two things get confused here. First, a girl's bone in puberty **is not a smaller adult bone**: it is an open building site. Second, what pushes it over the edge is almost never a single session, but the sum of load and fuel.
 
-There is also a question of synchrony, not just duration: peak bone mineral accrual arrives **roughly six months after** peak height velocity (Bailey et al., 1999), so for a period bone is already longer but not yet as dense — one reason not to raise the load in exactly the quarter [an athlete is growing fast](/blog/picco-di-crescita-giovani-atlete).
+There is also a question of synchrony, not just duration: peak bone mineral accrual arrives **roughly six months after** peak height velocity (Bailey et al., 1999), so for a period bone is already longer but not yet as dense — one reason not to raise the load in exactly the quarter [an athlete is growing fast](/en/blog/picco-di-crescita-giovani-atlete).
 
 On the first point, the evidence on timing is clear. A longitudinal study of bone mineral accrual from age 8 to 30 estimated that **total body bone mineral content plateaus on average 6 years after peak height velocity**, which in girls corresponds roughly to age **18** ([Baxter-Jones et al., 2011, *J Bone Miner Res*](https://doi.org/10.1002/jbmr.412)). Before that point bone is deposited fast; afterwards, far less so.
 
@@ -87,7 +87,7 @@ Almost one in two. And note what is missing from that list: not "contact sport",
 
 Two necessary caveats. First, the mean age of that sample is **18.1 years** — these are girls and young women, not thirteen-year-olds; the direction is informative, the exact prevalence is not transferable to an under-14. Second, it is an observational study, so it describes **associations**, not demonstrated cause and effect.
 
-It is the same logic of load accumulating on a tissue that is still being built: it applies to the spine in [low back pain](/blog/mal-di-schiena-giovani-atlete) and to the humeral growth plate in [shoulder pain in overhead sports](/blog/dolore-spalla-giovani-atlete). The mechanism, though, is the one we described writing about [low energy availability and RED-S](/blog/red-s-bassa-disponibilita-energetica): when energy runs short, the body downregulates the functions it can afford to postpone — and bone building is near the top of that list. It is also why **periods becoming irregular or stopping is not a gynaecological detail**: in the same literature it is a marker of bone risk.
+It is the same logic of load accumulating on a tissue that is still being built: it applies to the spine in [low back pain](/en/blog/mal-di-schiena-giovani-atlete) and to the humeral growth plate in [shoulder pain in overhead sports](/en/blog/dolore-spalla-giovani-atlete). The mechanism, though, is the one we described writing about [low energy availability and RED-S](/en/blog/red-s-bassa-disponibilita-energetica): when energy runs short, the body downregulates the functions it can afford to postpone — and bone building is near the top of that list. It is also why **periods becoming irregular or stopping is not a gynaecological detail**: in the same literature it is a marker of bone risk.
 
 The prospective study on adolescent runners gives the age-specific version: in girls, **low body mass index, late menarche and previous participation in gymnastics or dance** were associated with stress fractures (Tenforde et al., 2013). In boys the picture differed — playing basketball appeared protective. These are not the same risk factors, and it makes no sense to apply male-derived models to female athletes.
 
@@ -102,7 +102,7 @@ Stress fracture pain has a **recognisable signature**, distinct from ordinary so
 
 What it is not: it is not the diffuse, symmetrical ache of muscle after a hard session, which clears in two or three days. And it is not something to diagnose on the touchline. Diagnosis is **clinical and imaging-based**, and belongs to a doctor: bone pain lasting more than two weeks, or appearing while walking, goes to the paediatrician or sports physician — not to a painkiller before training.
 
-There is a practical reason not to wait. Recurrence in young athletes reaches **21%** (Beck and Drysdale, 2021): a badly managed stress fracture is not an episode, it is the start of a series. It is the same mechanism at work with [the ACL](/blog/crociato-giovani-atlete) and with [concussion](/blog/commozione-cerebrale-giovani-atlete) — the real cost is not the injury, it is the botched return.
+There is a practical reason not to wait. Recurrence in young athletes reaches **21%** (Beck and Drysdale, 2021): a badly managed stress fracture is not an episode, it is the start of a series. It is the same mechanism at work with [the ACL](/en/blog/crociato-giovani-atlete) and with [concussion](/en/blog/commozione-cerebrale-giovani-atlete) — the real cost is not the injury, it is the botched return.
 
 ## What actually builds bone mass in adolescence?
 
@@ -114,14 +114,14 @@ Ten minutes. Twice a week. Inside a lesson that already exists.
 
 The remaining levers, in order of evidence according to the National Osteoporosis Foundation review (Weaver et al., 2016):
 
-- **Impact and multidirectional loading.** The load that builds bone is the load that surprises it: jumps, changes of direction, running. Swimming and cycling have many virtues, but they do not load bone the same way — one more argument for [sporting variety over early specialisation](/blog/specializzazione-precoce-giovani-atlete).
+- **Impact and multidirectional loading.** The load that builds bone is the load that surprises it: jumps, changes of direction, running. Swimming and cycling have many virtues, but they do not load bone the same way — one more argument for [sporting variety over early specialisation](/en/blog/specializzazione-precoce-giovani-atlete).
 - **Adequate calcium and vitamin D.** This is the nutritional chapter with the best evidence, alongside dairy intake. Random supplementation is not the point: meeting requirements is.
-- **Enough energy, first of all.** No jumping protocol offsets a chronic energy deficit. As with [iron](/blog/ferro-atlete-adolescenti), the precondition is that enough is coming in.
-- **Sleep.** Growth and bone remodelling happen largely at night; [chronically short sleep](/blog/sonno-atlete-adolescenti) compounds everything else.
+- **Enough energy, first of all.** No jumping protocol offsets a chronic energy deficit. As with [iron](/en/blog/ferro-atlete-adolescenti), the precondition is that enough is coming in.
+- **Sleep.** Growth and bone remodelling happen largely at night; [chronically short sleep](/en/blog/sonno-atlete-adolescenti) compounds everything else.
 
 ## What can the people around the athlete do, starting Monday?
 
-- **The club**: put 8-10 minutes of structured jumping into the warm-up, for everyone, all year. It is the same slot already occupied by the [neuromuscular warm-up that protects the ACL](/blog/crociato-giovani-atlete) — you do not need new time, you need better use of the time you have. And count the real hours: 12 a week is the threshold beyond which, in the data, risk changes scale.
+- **The club**: put 8-10 minutes of structured jumping into the warm-up, for everyone, all year. It is the same slot already occupied by the [neuromuscular warm-up that protects the ACL](/en/blog/crociato-giovani-atlete) — you do not need new time, you need better use of the time you have. And count the real hours: 12 a week is the threshold beyond which, in the data, risk changes scale.
 - **The coach**: take pinpoint pain seriously. The right question is not "how much does it hurt?" but "**can you point to it with one finger?**". If the answer is a precise spot on the bone, and it keeps coming back there, this is not about toughness.
 - **The family**: look at the combination, not the single sign. Less food + more hours + periods thinning out is a picture, not three coincidences. And get a medical opinion before it becomes a month on crutches.
 - **The athlete**: know that the bone you are building now is the bone you will live with. That is not a threat — it is why these years are worth more than they look.

@@ -699,6 +699,36 @@ export const FACTS: Fact[] = [
     source: 'Uvodich et al., 2019',
     doi: '10.1016/j.jpeds.2018.10.050',
   },
+  {
+    id: 'ipermobilita-articolare-giovani-atlete-1',
+    article: 'ipermobilita-articolare-giovani-atlete',
+    claim:
+      "L'ipermobilità articolare riguarda il 34,1% di bambini e adolescenti (IC 95% 33,3-34,8), con il 32,5% nelle femmine contro il 18,1% nei maschi, e la prevalenza scende al crescere dell'età. Popolazione: meta-analisi di 20 studi e 21.145 partecipanti di 3-19 anni; gli autori dichiarano ETEROGENEITÀ ELEVATA e bias di pubblicazione statisticamente significativo.",
+    claimEn:
+      'Joint hypermobility affects 34.1% of children and adolescents (95% CI 33.3-34.8), with 32.5% in girls against 18.1% in boys, and prevalence falls as age rises. Population: meta-analysis of 20 studies and 21,145 participants aged 3-19; the authors declare HIGH HETEROGENEITY and statistically significant publication bias.',
+    source: 'Sobhani-Eraghi et al., 2020',
+    doi: '10.4103/jrms.JRMS_983_19',
+  },
+  {
+    id: 'ipermobilita-articolare-giovani-atlete-2',
+    article: 'ipermobilita-articolare-giovani-atlete',
+    claim:
+      "Nello sport l'ipermobilità articolare aumenta il rischio di lesione al ginocchio negli sport di contatto — odds ratio combinato 4,69 (IC 95% 1,33-16,52; p=0,02) — e non aumenta il rischio alla caviglia. Popolazione: revisione sistematica con meta-analisi, 4.841 studi esaminati e 18 inclusi, ETÀ E SESSI MISTI; l'intervallo di confidenza è molto ampio, la direzione è chiara ma la grandezza dell'effetto resta incerta.",
+    claimEn:
+      'In sport, joint hypermobility increases the risk of knee injury in contact sports — pooled odds ratio 4.69 (95% CI 1.33-16.52; p=0.02) — and does not increase risk at the ankle. Population: systematic review with meta-analysis, 4,841 studies screened and 18 included, MIXED AGES AND SEXES; the confidence interval is very wide, so the direction is clear but the size of the effect remains uncertain.',
+    source: 'Pacey et al., 2010',
+    doi: '10.1177/0363546510364838',
+  },
+  {
+    id: 'ipermobilita-articolare-giovani-atlete-3',
+    article: 'ipermobilita-articolare-giovani-atlete',
+    claim:
+      "Fra atlete e atleti adolescenti d'élite l'ipermobilità articolare (soglia Beighton ≥4) è al 68,2% fra i ballerini e al 24,6% fra i ginnasti di TeamGym, contro il 13,2% fra i giocatori di pallamano: la disciplina seleziona la caratteristica. Popolazione: 132 atleti d'élite, 96 RAGAZZE e 36 ragazzi, età media 14,0 anni; studio TRASVERSALE, non dice se sia la danza a rendere ipermobili o l'ipermobilità a portare in danza.",
+    claimEn:
+      'Among elite adolescent athletes, joint hypermobility (Beighton cut-off ≥4) reaches 68.2% in ballet dancers and 24.6% in TeamGym gymnasts, against 13.2% in handball players: the discipline selects for the characteristic. Population: 132 elite athletes, 96 GIRLS and 36 boys, mean age 14.0; CROSS-SECTIONAL study, so it cannot say whether dance makes people hypermobile or hypermobility leads into dance.',
+    source: 'Schmidt et al., 2017',
+    doi: '10.2519/jospt.2017.7682',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

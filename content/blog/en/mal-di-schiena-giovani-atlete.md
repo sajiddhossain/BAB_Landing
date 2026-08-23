@@ -63,7 +63,7 @@ On sport profiles, the review could not run a discipline-by-discipline meta-anal
 
 **Female sex appears on the list of risk factors — but it is a list, not a risk estimate.** In the same review, the risk factors reported by the included studies are: sport participation itself, **training volume and intensity**, **concurrent lower-limb pain**, **overweight or high BMI**, **older adolescent age**, **female sex** and a **family history** of low back pain (Wall et al., 2022).
 
-This needs reading precisely: the authors call them *potential risk factors* and list them from the primary studies rather than pooling them into a single relative risk. In other words, the signal is there, and it is consistent with what is seen in the general adolescent population — where recurrent musculoskeletal pain is more common in girls, as we described when writing about [how pain changes at puberty](/blog/dolore-in-puberta-neuroscienza) — but there is currently no clean number of the form "girls have X times the risk".
+This needs reading precisely: the authors call them *potential risk factors* and list them from the primary studies rather than pooling them into a single relative risk. In other words, the signal is there, and it is consistent with what is seen in the general adolescent population — where recurrent musculoskeletal pain is more common in girls, as we described when writing about [how pain changes at puberty](/en/blog/dolore-in-puberta-neuroscienza) — but there is currently no clean number of the form "girls have X times the risk".
 
 One distinction is worth adding, because it often gets lost. *Having low back pain* and *having spondylolysis* are not the same thing and do not necessarily follow the same profile by sex: in the non-elite case series, the highest proportions of spondylolysis among those presenting with low back pain were found both in male sports such as baseball (54%) and in female sports such as gymnastics (34%) (Selhorst et al., 2019). On this we prefer to say less and get it right: the robust point is that **low back pain in a young athlete deserves to be taken seriously**, not that a well-quantified hierarchy of risk by sex exists.
 
@@ -88,13 +88,13 @@ What happens if you look at a less selected population? The number falls, but st
 
 Three estimates, three different populations, a range running from 30% to 47%. The message is not the figure: it is that **a cause that is a rarity in adults is, in this age group, among the first to consider**.
 
-The same reversal holds a few centimetres lower down. Low pain, over the pelvis or under the buttock, makes an adult think hamstrings; in a growing body the weak link is the apophysis, and the ischial tuberosity is the third commonest site of adolescent pelvic avulsions (14%) ([Di Maria et al., 2022](https://doi.org/10.3389/fped.2022.947463)). The same rule applies: [at this age the adult model describes what happens rather badly](/blog/dolore-inguine-giovani-atlete).
+The same reversal holds a few centimetres lower down. Low pain, over the pelvis or under the buttock, makes an adult think hamstrings; in a growing body the weak link is the apophysis, and the ischial tuberosity is the third commonest site of adolescent pelvic avulsions (14%) ([Di Maria et al., 2022](https://doi.org/10.3389/fped.2022.947463)). The same rule applies: [at this age the adult model describes what happens rather badly](/en/blog/dolore-inguine-giovani-atlete).
 
 ## What is spondylolysis, in plain terms?
 
 **It is a stress fracture of the spine.** The pars interarticularis is a thin bony bridge connecting the posterior joints of a vertebra, almost always involved in the lower lumbar levels. When the back arches backwards and rotates, that bridge takes repeated compression. If load accumulates faster than the bone can repair it, first a stress reaction and then a true defect develops.
 
-It is exactly the same logic as [stress fractures of the leg and foot](/blog/salute-ossea-fratture-da-stress-giovani-atlete), applied to a bone almost nobody associates with stress fractures. And like those, it shares three features that make it hard to spot on the sideline:
+It is exactly the same logic as [stress fractures of the leg and foot](/en/blog/salute-ossea-fratture-da-stress-giovani-atlete), applied to a bone almost nobody associates with stress fractures. And like those, it shares three features that make it hard to spot on the sideline:
 
 - **there is no single trauma** to point to: nobody remembers "the" moment;
 - pain **appears under load** and, over time, comes earlier and earlier in the session;
@@ -130,7 +130,7 @@ The design: **64 adolescent athletes aged 10-19** with **active** lumbar spondyl
 - **recurrence of low back pain over 12 months**: **3% versus 29%** (p=0.01);
 - **no adverse events**.
 
-The stated limits: it is **one trial** with a **small** sample (64 participants, 40% of them girls — around 26 female athletes). That is not enough to rewrite a guideline on its own. But the direction is consistent with what is seen in other adolescent musculoskeletal pain, where **[load management](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) beats complete rest**: stopping everything is rarely the best strategy, dosing almost always is. And, as ever, the treatment decision belongs to the clinician caring for the athlete, not to an article.
+The stated limits: it is **one trial** with a **small** sample (64 participants, 40% of them girls — around 26 female athletes). That is not enough to rewrite a guideline on its own. But the direction is consistent with what is seen in other adolescent musculoskeletal pain, where **[load management](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) beats complete rest**: stopping everything is rarely the best strategy, dosing almost always is. And, as ever, the treatment decision belongs to the clinician caring for the athlete, not to an article.
 
 ## And does she play again?
 
@@ -148,7 +148,7 @@ A qualitative study interviewed athletes aged **10-19** who had had an episode o
 2. Low back pain **changes how athletes are perceived by others and how they perceive themselves**.
 3. It has **broad effects on well-being**, physical and psychological.
 
-The study's title is a participant's own quote — *"back pain is part of sport… I'm just gonna have to live with it"* — and it captures the mechanism better than any statistic. It is the same pattern we found in [ankle sprains](/blog/distorsione-caviglia-giovani-atlete), in [knee pain that lasts months](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) and in [urinary leakage during jumps](/blog/perdite-urina-giovani-atlete): a symptom so frequent it looks normal, and for exactly that reason never reported. With one aggravating factor here: when the frequent symptom is hiding a stress fracture, time works against you.
+The study's title is a participant's own quote — *"back pain is part of sport… I'm just gonna have to live with it"* — and it captures the mechanism better than any statistic. It is the same pattern we found in [ankle sprains](/en/blog/distorsione-caviglia-giovani-atlete), in [knee pain that lasts months](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) and in [urinary leakage during jumps](/en/blog/perdite-urina-giovani-atlete): a symptom so frequent it looks normal, and for exactly that reason never reported. With one aggravating factor here: when the frequent symptom is hiding a stress fracture, time works against you.
 
 ## What changes in the gym, concretely
 
@@ -158,7 +158,7 @@ This is not a clinical protocol. These are the points the sources cited above co
 - **Count weeks, not days.** Back pain lasting weeks in a 13-14-year-old athlete is a reason for an assessment, not a massage. The cost of having a back looked at that turns out to be fine is low; the opposite cost is not.
 - **Watch extension.** If pain flares on arching backwards and is concentrated at one spot on one side, that is precisely the picture that warrants an assessment — not because it can be diagnosed on the sideline, but because it is what the clinician needs to know.
 - **Monitor repeated extension-and-rotation movements.** Backbends, arches, landings, serves, spikes, throwing rotations: they are the load that builds the problem. Reducing their volume during a symptomatic phase is a lever a club has immediately.
-- **Treat volume as a health variable.** Training volume and intensity appear among the risk factors (Wall et al., 2022): it is the same ground as [early specialisation](/blog/specializzazione-precoce-giovani-atlete) and [overuse injury](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
+- **Treat volume as a health variable.** Training volume and intensity appear among the risk factors (Wall et al., 2022): it is the same ground as [early specialisation](/en/blog/specializzazione-precoce-giovani-atlete) and [overuse injury](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
 - **Do not let "it doesn't hurt any more" mean "she has healed".** This holds for the back as it does for the ankle. Return is decided by a healthcare professional, on function, not on the fixture list.
 - **Ask. And ask in a way that can be answered.** If the dominant culture is that back pain is part of sport (Wall et al., 2023), the question "does your back hurt?" in front of the whole squad will never produce an honest answer.
 

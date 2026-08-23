@@ -1,6 +1,156 @@
 {
   "posts": [
     {
+      "slug": "ipermobilita-articolare-giovani-atlete",
+      "lang": "it",
+      "title": "Ipermobilità articolare: essere «elastiche» è un talento o un rischio?",
+      "seoTitle": "Ipermobilità articolare nelle giovani atlete",
+      "seoDescription": "Il pollice che tocca l'avambraccio non è un talento né una diagnosi. A 14 anni la soglia del Beighton è più alta che nell'adulta: cosa dicono davvero i dati.",
+      "date": "2026-08-23",
+      "updated": "2026-08-23",
+      "author": "Sajid Hossain",
+      "excerpt": "Nella danza e nella ginnastica l'articolazione che va «oltre» viene letta come dote; in palestra, come fragilità. I dati non danno ragione a nessuna delle due letture. Il punteggio di Beighton misura una caratteristica diffusa — nelle ragazze quasi il doppio che nei ragazzi — la cui soglia cambia con l'età, e il cui legame con dolore e infortuni è reale ma molto più stretto e specifico di quanto si racconti a bordo campo. Che cosa aumenta davvero il rischio, che cosa non lo aumenta affatto, e perché «elastica» non vuol dire «debole».",
+      "answer": "Né l'uno né l'altro di per sé: è una caratteristica diffusa. In una meta-analisi su 21.145 bambini e adolescenti la prevalenza è del 34,1%, e nelle ragazze è quasi il doppio che nei ragazzi (32,5% contro 18,1%; Sobhani-Eraghi et al., 2020). Il rischio in più è specifico — il ginocchio negli sport di contatto — non generale (Pacey et al., 2010).",
+      "cover": "/fotobab/cover-ipermobilita-articolare.jpg",
+      "coverAlt": "Gambe e scarpette da punta di una ballerina in una sala di danza luminosa, inquadrate dal ginocchio in giù",
+      "tags": [
+        "ipermobilità-articolare",
+        "beighton",
+        "prevenzione",
+        "pubertà"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Che cos'è l'ipermobilità articolare e come si misura?",
+          "id": "che-cose-lipermobilita-articolare-e-come-si-misura"
+        },
+        {
+          "level": 2,
+          "text": "Quante ragazze sono ipermobili?",
+          "id": "quante-ragazze-sono-ipermobili"
+        },
+        {
+          "level": 2,
+          "text": "Perché a 13 anni la soglia è diversa da quella di un'adulta?",
+          "id": "perche-a-13-anni-la-soglia-e-diversa-da-quella-di-unadulta"
+        },
+        {
+          "level": 2,
+          "text": "L'ipermobilità fa venire dolore?",
+          "id": "lipermobilita-fa-venire-dolore"
+        },
+        {
+          "level": 2,
+          "text": "L'ipermobilità aumenta il rischio di infortunio?",
+          "id": "lipermobilita-aumenta-il-rischio-di-infortunio"
+        },
+        {
+          "level": 2,
+          "text": "Perché nella danza e nella ginnastica ci sono più atlete ipermobili?",
+          "id": "perche-nella-danza-e-nella-ginnastica-ci-sono-piu-atlete"
+        },
+        {
+          "level": 2,
+          "text": "Una ragazza ipermobile è più debole?",
+          "id": "una-ragazza-ipermobile-e-piu-debole"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa cambia davvero in allenamento?",
+          "id": "che-cosa-cambia-davvero-in-allenamento"
+        },
+        {
+          "level": 2,
+          "text": "Quando è il caso di far valutare un'atleta?",
+          "id": "quando-e-il-caso-di-far-valutare-unatleta"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2920,
+      "readingMinutes": 15,
+      "timeRequired": "PT15M"
+    },
+    {
+      "slug": "ipermobilita-articolare-giovani-atlete",
+      "lang": "en",
+      "title": "Joint hypermobility: is being «bendy» a gift or a risk?",
+      "seoTitle": "Joint hypermobility in young female athletes",
+      "seoDescription": "A thumb that touches the forearm is neither a talent nor a diagnosis. At 14 the Beighton cut-off is higher than an adult's — here is what the data actually say.",
+      "date": "2026-08-23",
+      "updated": "2026-08-23",
+      "author": "Sajid Hossain",
+      "excerpt": "In dance and gymnastics a joint that goes «beyond» is read as a gift; in the gym, as fragility. The data back neither reading. The Beighton score measures a common characteristic — almost twice as common in girls as in boys — whose cut-off changes with age, and whose link with pain and injury is real but far narrower and more specific than the sideline version of it. What actually raises the risk, what does not raise it at all, and why «bendy» does not mean «weak».",
+      "answer": "Neither, in itself: it is a common characteristic. In a meta-analysis of 21,145 children and adolescents the prevalence is 34.1%, and in girls it is almost double that in boys (32.5% vs 18.1%; Sobhani-Eraghi et al., 2020). The added risk is specific — the knee in contact sports — not general (Pacey et al., 2010).",
+      "cover": "/fotobab/cover-ipermobilita-articolare.jpg",
+      "coverAlt": "A ballet dancer's legs and pointe shoes in a bright dance studio, framed from the knee down",
+      "tags": [
+        "joint-hypermobility",
+        "beighton",
+        "prevention",
+        "puberty"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is joint hypermobility and how is it measured?",
+          "id": "what-is-joint-hypermobility-and-how-is-it-measured"
+        },
+        {
+          "level": 2,
+          "text": "How many girls are hypermobile?",
+          "id": "how-many-girls-are-hypermobile"
+        },
+        {
+          "level": 2,
+          "text": "Why is the cut-off at 13 different from an adult's?",
+          "id": "why-is-the-cut-off-at-13-different-from-an-adults"
+        },
+        {
+          "level": 2,
+          "text": "Does hypermobility cause pain?",
+          "id": "does-hypermobility-cause-pain"
+        },
+        {
+          "level": 2,
+          "text": "Does hypermobility increase injury risk?",
+          "id": "does-hypermobility-increase-injury-risk"
+        },
+        {
+          "level": 2,
+          "text": "Why are there more hypermobile athletes in dance and gymnastics?",
+          "id": "why-are-there-more-hypermobile-athletes-in-dance-and"
+        },
+        {
+          "level": 2,
+          "text": "Is a hypermobile girl weaker?",
+          "id": "is-a-hypermobile-girl-weaker"
+        },
+        {
+          "level": 2,
+          "text": "What actually changes in training?",
+          "id": "what-actually-changes-in-training"
+        },
+        {
+          "level": 2,
+          "text": "When should an athlete be assessed?",
+          "id": "when-should-an-athlete-be-assessed"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2833,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
+    },
+    {
       "slug": "dolore-inguine-giovani-atlete",
       "lang": "it",
       "title": "Dolore all'inguine a 14 anni: perché quasi mai è «uno stiramento»",
@@ -685,7 +835,7 @@
       "seoTitle": "Dolore alla spalla nelle giovani atlete: cause",
       "seoDescription": "Nella pallamano giovanile d'élite il 23% delle atlete ha problemi di spalla rilevanti in una stagione. Le cause negli sport overhead e i segnali da cogliere.",
       "date": "2026-08-12",
-      "updated": "2026-08-20",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "Nella pallamano d'élite giovanile quasi una atleta su quattro (23%) ha avuto problemi di spalla rilevanti in una stagione, e le ragazze hanno una prevalenza 1,46 volte più alta dei coetanei maschi. Tra le nuotatrici e i nuotatori adolescenti la revisione disponibile riporta il tasso di dolore di spalla più alto di tutte le fasce d'età (91,3%), a fronte di 17 ore di vasca a settimana. La spalla è l'unica articolazione che nello sport femminile italiano lavora ogni giorno sopra la testa — ed è quella di cui nessuno tiene il conto.",
       "answer": "Perché il gesto sopra la testa carica ogni giorno una spalla che non ha finito di crescere. Nella pallamano d'élite di 15-18 anni il 23% ha problemi di spalla sostanziali in una stagione, con prevalenza 1,46 volte più alta nelle ragazze (Asker et al., 2018); nel nuoto la fascia 15-17 anni riporta il tasso di dolore più alto di tutte le età (91,3%; Feijen et al., 2020).",
@@ -750,7 +900,7 @@
           "id": "fonti"
         }
       ],
-      "words": 3101,
+      "words": 3258,
       "readingMinutes": 16,
       "timeRequired": "PT16M"
     },
@@ -761,7 +911,7 @@
       "seoTitle": "Shoulder pain in young female athletes",
       "seoDescription": "In elite youth handball, 23% of female athletes have substantial shoulder problems in one season. The causes in overhead sports and the signals to catch.",
       "date": "2026-08-12",
-      "updated": "2026-08-20",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "In elite youth handball, almost one athlete in four (23%) had substantial shoulder problems over a single season, and girls had a prevalence 1.46 times higher than boys. Among adolescent swimmers the available review reports the highest shoulder-pain rate of any age group (91.3%), against 17 hours a week in the pool. The shoulder is the one joint that works overhead every day in girls' sport — and the one nobody keeps count of.",
       "answer": "Because the overhead movement loads a shoulder that has not finished growing, every day. In elite handball at 15-18, 23% have substantial shoulder problems in one season, with prevalence 1.46 times higher in girls (Asker et al., 2018); in swimming, the 15-17 band reports the highest pain rate of any age (91.3%; Feijen et al., 2020).",
@@ -826,9 +976,9 @@
           "id": "sources"
         }
       ],
-      "words": 2946,
-      "readingMinutes": 15,
-      "timeRequired": "PT15M"
+      "words": 3102,
+      "readingMinutes": 16,
+      "timeRequired": "PT16M"
     },
     {
       "slug": "dolori-mestruali-giovani-atlete",
@@ -1129,7 +1279,7 @@
       "seoTitle": "Distorsione di caviglia nelle giovani atlete",
       "seoDescription": "La caviglia è la sede del 23% degli infortuni nelle giovani atlete, e il 23,6% delle ragazze convive con un'instabilità cronica. Perché non è «solo una storta».",
       "date": "2026-08-06",
-      "updated": "2026-08-20",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "La caviglia è la sede del 23% degli infortuni nelle giovani atlete — più del ginocchio (16%). Eppure è l'infortunio che si racconta con la frase «è solo una storta»: tra gli atleti di 14-18 anni il 20% convive con un'instabilità cronica di caviglia, e tra le ragazze la quota sale al 23,6%. Nello sport giovanile i programmi di prevenzione riducono gli infortuni di caviglia del 26%. I dati, i limiti dei dati, e cosa cambia in venti minuti a settimana.",
       "answer": "È l'infortunio più frequente delle giovani atlete: la caviglia è la sede del 23% di tutti gli infortuni, davanti a ginocchio (16%) e coscia (13%) (Beech et al., 2024). E non è banale: tra i 14 e i 18 anni il 20,0% degli atleti convive con un'instabilità cronica di caviglia, il 23,6% tra le ragazze (Donovan et al., 2020).",
@@ -1194,9 +1344,9 @@
           "id": "fonti"
         }
       ],
-      "words": 3393,
-      "readingMinutes": 17,
-      "timeRequired": "PT17M"
+      "words": 3549,
+      "readingMinutes": 18,
+      "timeRequired": "PT18M"
     },
     {
       "slug": "distorsione-caviglia-giovani-atlete",
@@ -1205,7 +1355,7 @@
       "seoTitle": "Ankle sprains in young female athletes",
       "seoDescription": "The ankle accounts for 23% of injuries in young female athletes, and 23.6% of girls live with chronic instability. Why it is not «just a twist».",
       "date": "2026-08-06",
-      "updated": "2026-08-20",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "The ankle accounts for 23% of injuries in youth female athletes — more than the knee (16%). Yet it is the injury we describe with a shrug: among athletes aged 14-18, 20% live with chronic ankle instability, and among girls that figure rises to 23.6%. In youth sport, prevention programmes cut ankle injuries by about 26%. The data, the limits of the data, and what changes in twenty minutes a week.",
       "answer": "It is the most frequent injury in young female athletes: the ankle accounts for 23% of all injuries, ahead of the knee (16%) and thigh (13%) (Beech et al., 2024). And it is not trivial: between 14 and 18, 20.0% of athletes live with chronic ankle instability — 23.6% among girls (Donovan et al., 2020).",
@@ -1270,9 +1420,9 @@
           "id": "sources"
         }
       ],
-      "words": 3251,
-      "readingMinutes": 16,
-      "timeRequired": "PT16M"
+      "words": 3403,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
     },
     {
       "slug": "forza-ragazze-adolescenti",
@@ -1281,7 +1431,7 @@
       "seoTitle": "Pesi e adolescenti: la forza fa male alla crescita?",
       "seoDescription": "I pesi non bloccano la crescita: cosa dice l'evidenza sull'allenamento della forza a 13-14 anni, quanto si guadagna davvero e come impostarlo in sicurezza.",
       "date": "2026-08-04",
-      "updated": "2026-08-20",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "No: nella revisione più citata sull'argomento, 22 programmi sperimentali di allenamento con i pesi in bambini e preadolescenti non hanno influenzato la crescita in statura e peso, con tassi di infortunio tra 0,053 e 0,176 ogni 100 ore di partecipazione. Eppure solo il 38,5% dei ragazzi e delle ragazze raggiunge le raccomandazioni di attività di rinforzo muscolare — ed essere maschio è uno dei fattori che predicono di riuscirci. Cosa dicono davvero i dati sulla forza nelle giovani atlete.",
       "answer": "No: in una revisione di 22 programmi sperimentali su bambini e preadolescenti l'allenamento contro resistenza ha migliorato la forza e NON ha influenzato la crescita in statura e peso (Malina, 2006). La condizione è la supervisione, con la tecnica prima del carico: il rischio documentato riguarda il carico improvvisato, non i pesi in sé.",
@@ -1335,9 +1485,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2371,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2530,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "forza-ragazze-adolescenti",
@@ -1346,7 +1496,7 @@
       "seoTitle": "Girls and weights: does strength stunt growth?",
       "seoDescription": "Weights don't stunt growth: what the evidence says about strength training at 13-14, how much girls actually gain, and how to set it up safely.",
       "date": "2026-08-04",
-      "updated": "2026-08-20",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "No. In the most cited review on the question, 22 experimental weight-training programmes in children and pre-adolescents did not influence growth in height or weight, with estimated injury rates between 0.053 and 0.176 per 100 participant-hours. Yet only 38.5% of children and adolescents meet muscle-strengthening recommendations — and being a boy is one of the factors that predicts meeting them. What the data actually say about strength in young female athletes.",
       "answer": "No: in a review of 22 experimental programmes in children and preadolescents, resistance training improved strength and did NOT affect growth in height or weight (Malina, 2006). The condition is supervision, with technique before load: the documented risk concerns improvised loading, not weights themselves.",
@@ -1400,9 +1550,9 @@
           "id": "sources"
         }
       ],
-      "words": 2234,
-      "readingMinutes": 11,
-      "timeRequired": "PT11M"
+      "words": 2395,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
     },
     {
       "slug": "picco-di-crescita-giovani-atlete",
@@ -1803,7 +1953,7 @@
       "seoTitle": "Specializzazione precoce nello sport: i costi reali",
       "seoDescription": "Un solo sport tutto l'anno costa infortuni, non vantaggio competitivo: fra 219 atlete di 13-18 anni le altamente specializzate si infortunano di più.",
       "date": "2026-07-26",
-      "updated": "2026-08-13",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "Tra le atlete di 13-18 anni, chi è altamente specializzata in un solo sport ha 2,93 volte le probabilità di aver avuto un infortunio. Allenarsi più ore a settimana dei propri anni d'età raddoppia il rischio di infortunio grave da sovraccarico. E gli atleti che arrivano davvero in cima hanno iniziato il loro sport principale più tardi, non prima. I dati, i limiti dei dati, e le tre domande che dicono se una ragazza è già specializzata.",
       "answer": "Costa infortuni, non vantaggio competitivo: tra 219 atlete di 13-18 anni le altamente specializzate riferivano una storia di infortuni 2,93 volte più spesso delle poco specializzate (Okoruwa et al., 2022), e allenarsi più ore a settimana dei propri anni d'età raddoppia le probabilità di un infortunio grave da sovraccarico (Jayanthi et al., 2015).",
@@ -1861,9 +2011,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2485,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2561,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "specializzazione-precoce-giovani-atlete",
@@ -1872,7 +2022,7 @@
       "seoTitle": "Early sport specialisation: the real costs",
       "seoDescription": "One sport all year costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised got hurt more often.",
       "date": "2026-07-26",
-      "updated": "2026-08-13",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "Among female athletes aged 13-18, those highly specialised in a single sport are 2.93 times as likely to report an injury history. Training more hours per week than your age in years doubles the odds of a serious overuse injury. And the athletes who actually reach the top started their main sport later, not earlier. The evidence, its limits, and the three questions that tell you whether a girl is already specialised.",
       "answer": "It costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised reported a history of injury 2.93 times as often as low-specialisation peers (Okoruwa et al., 2022), and training more hours a week than your age in years doubles the odds of a serious overuse injury (Jayanthi et al., 2015).",
@@ -1930,7 +2080,7 @@
           "id": "sources"
         }
       ],
-      "words": 2374,
+      "words": 2446,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -2227,7 +2377,7 @@
       "seoTitle": "Crociato nelle giovani atlete: rischio e prevenzione",
       "seoDescription": "Nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei. Cosa cambia con la pubertà e i 20 minuti che riducono il rischio.",
       "date": "2026-07-21",
-      "updated": "2026-08-16",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "Nello sport scolastico le ragazze si rompono il crociato 1,4 volte più dei coetanei maschi — a basket oltre quattro volte tanto. Esiste un riscaldamento neuromuscolare che nelle atlete di 13-19 anni riduce il rischio di circa il 60%, costa venti minuti due volte a settimana e quasi nessuna squadra lo fa davvero. I dati, e cosa cambia lunedì in palestra.",
       "answer": "Perché il divario si apre con la pubertà, non con il livello: nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei maschi, fino a 4,14 volte nel basket (Bram et al., 2021). Venti minuti di allenamento neuromuscolare due volte a settimana riducono il rischio di circa il 60% tra le atlete di 13-19 anni (Petushek et al., 2019).",
@@ -2295,9 +2445,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2846,
-      "readingMinutes": 14,
-      "timeRequired": "PT14M"
+      "words": 3034,
+      "readingMinutes": 15,
+      "timeRequired": "PT15M"
     },
     {
       "slug": "crociato-giovani-atlete",
@@ -2306,7 +2456,7 @@
       "seoTitle": "ACL injuries in young female athletes",
       "seoDescription": "In high-school sport girls sustain 1.40 times the ACL ruptures of male peers. What puberty changes, and the 20 minutes that cut the risk.",
       "date": "2026-07-21",
-      "updated": "2026-08-16",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "In high-school sport, girls tear their ACL 1.4 times as often as boys — and over four times as often in basketball. A neuromuscular warm-up cuts that risk by roughly 60% in 13-19 year-old athletes, costs twenty minutes twice a week, and almost no team actually does it. The evidence, and what changes on Monday.",
       "answer": "Because the gap opens with puberty, not with playing level: in high-school sport girls sustain 1.40 times the ACL ruptures of male peers, and up to 4.14 times in basketball (Bram et al., 2021). Twenty minutes of neuromuscular training twice a week cuts the risk by roughly 60% among athletes aged 13-19 (Petushek et al., 2019).",
@@ -2374,9 +2524,9 @@
           "id": "sources"
         }
       ],
-      "words": 2720,
-      "readingMinutes": 14,
-      "timeRequired": "PT14M"
+      "words": 2905,
+      "readingMinutes": 15,
+      "timeRequired": "PT15M"
     },
     {
       "slug": "sonno-atlete-adolescenti",
@@ -3147,7 +3297,7 @@
       "seoTitle": "Come allenare ragazze adolescenti: 4 leve concrete",
       "seoDescription": "Quattro leve concrete per coach e società: linguaggio non giudicante, carico adattato, segnali di squadra anonimi, spazi e continuità. Con i dati dietro.",
       "date": "2026-07-02",
-      "updated": "2026-08-21",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "Tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Allenarle bene significa quattro cose concrete e senza budget: parlare del corpo che cambia, adattare il carico invece di sanzionare il calo, usare solo segnali di squadra anonimi, garantire spazi e continuità. Ecco i dati che sostengono ciascuna leva — e cosa fare quando un'atleta si presenta con dolore.",
       "answer": "Agendo sull'ambiente, non sulla motivazione della singola: linguaggio non giudicante, segnali di squadra aggregati e anonimi, condizioni pratiche e prevenzione degli infortuni. Un allenatore percepito come molto informato si associa al 36% di sintomi di RED-S in meno nelle sue atlete (Female Athlete Health Report, 2023 — campione adulto, report non peer-reviewed).",
@@ -3202,7 +3352,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2186,
+      "words": 2253,
       "readingMinutes": 11,
       "timeRequired": "PT11M"
     },
@@ -3276,7 +3426,7 @@
       "seoTitle": "How to coach teenage girls: 4 concrete levers",
       "seoDescription": "Four concrete levers for coaches and clubs: non-judgemental language, adjusted load, anonymous team signals, space and continuity — with the data.",
       "date": "2026-07-02",
-      "updated": "2026-08-21",
+      "updated": "2026-08-23",
       "author": "Sajid Hossain",
       "excerpt": "Among girls who join a club aged 10-14, 71% drop out without ever returning, and it is almost never about motivation. Coaching them well means four concrete, budget-free things: talking about the changing body, adjusting the load instead of penalising a dip, using only anonymous team signals, and guaranteeing space and continuity. Here is the evidence behind each lever — and what to do when an athlete turns up in pain.",
       "answer": "By acting on the environment, not on the individual girl's motivation: non-judgemental language, aggregated and anonymous team signals, practical conditions and injury prevention. A coach perceived as very well-informed is associated with 36% fewer RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample, non-peer-reviewed report).",
@@ -3331,7 +3481,7 @@
           "id": "sources"
         }
       ],
-      "words": 2132,
+      "words": 2195,
       "readingMinutes": 11,
       "timeRequired": "PT11M"
     },

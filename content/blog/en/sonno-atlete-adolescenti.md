@@ -72,7 +72,7 @@ That said, the direction is consistent with the broader athlete literature: long
 
 In physiological terms, puberty **changes circadian timing**. Sleep need stays high, but the window in which the body can actually fall asleep moves forward — and collides with school timetables that don't move ([Carskadon, 2011, *Pediatr Clin North Am*](https://doi.org/10.1016/j.pcl.2011.03.003)). The result is what Carskadon calls the "perfect storm": biology and calendar pulling in opposite directions, with the adolescent caught in between.
 
-For an athlete there's a third vector: **evening training**. Finishing at 9:30pm, eating, winding down and falling asleep by 10:30pm to get eight hours is, quite simply, an unrealistic ask. The debt doesn't come from a bad choice: it comes from a scheduling clash. And the clash tightens when the sporting year has no breaks: it is one of the least visible costs of [early specialisation in a single sport](/blog/specializzazione-precoce-giovani-atlete).
+For an athlete there's a third vector: **evening training**. Finishing at 9:30pm, eating, winding down and falling asleep by 10:30pm to get eight hours is, quite simply, an unrealistic ask. The debt doesn't come from a bad choice: it comes from a scheduling clash. And the clash tightens when the sporting year has no breaks: it is one of the least visible costs of [early specialisation in a single sport](/en/blog/specializzazione-precoce-giovani-atlete).
 
 ## The gap that opens between girls and boys
 
@@ -85,7 +85,7 @@ A study of **7,507 children and adolescents aged 6-17** (48.5% female, 31 school
 - The sex × pubertal stage interaction is statistically significant (p<0.001), and the higher female prevalence **emerges at Tanner stage 4**.
 - The result holds after controlling for age, family income and school start time.
 
-This reframes the picture. The sleep gap between girls and boys **isn't about age, it's about puberty**: it appears when the body changes. The same window in which many girls [drop out of sport](/blog/abbandono-puberta), in which [pain becomes more frequent](/blog/dolore-in-puberta-neuroscienza), in which [the ACL injury gap with male peers opens up](/blog/crociato-giovani-atlete), in which the first questions about periods arrive. These aren't separate problems: they're the same passage, seen from different angles.
+This reframes the picture. The sleep gap between girls and boys **isn't about age, it's about puberty**: it appears when the body changes. The same window in which many girls [drop out of sport](/en/blog/abbandono-puberta), in which [pain becomes more frequent](/en/blog/dolore-in-puberta-neuroscienza), in which [the ACL injury gap with male peers opens up](/en/blog/crociato-giovani-atlete), in which the first questions about periods arrive. These aren't separate problems: they're the same passage, seen from different angles.
 
 ## Does sleeping more actually improve sporting performance?
 
@@ -115,7 +115,7 @@ None of the actions below is medical advice. They're organisational choices that
 - **The athlete**: notice patterns. Not "I slept badly last night", but "in weeks with three evening sessions I consistently sleep less".
 - **Everyone**: if difficulty falling asleep or unrefreshing sleep persists for weeks, raise it with a paediatrician or sports physician. Chronically disturbed sleep is not a personality trait.
 
-Sleep is also where this topic meets the others: insufficient recovery weighs on [load management](/blog/specializzazione-precoce-giovani-atlete), and in the most common youth sport injuries — starting with the [ankle sprain](/blog/distorsione-caviglia-giovani-atlete) — the consistency of prevention depends on how well a squad can actually sustain a weekly routine. On the other side, what gets built while sleeping is what gets built while training [strength](/blog/forza-ragazze-adolescenti): adaptation, not immediate performance.
+Sleep is also where this topic meets the others: insufficient recovery weighs on [load management](/en/blog/specializzazione-precoce-giovani-atlete), and in the most common youth sport injuries — starting with the [ankle sprain](/en/blog/distorsione-caviglia-giovani-atlete) — the consistency of prevention depends on how well a squad can actually sustain a weekly routine. On the other side, what gets built while sleeping is what gets built while training [strength](/en/blog/forza-ragazze-adolescenti): adaptation, not immediate performance.
 
 ## BAB's role
 

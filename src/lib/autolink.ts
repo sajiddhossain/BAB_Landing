@@ -49,6 +49,14 @@ export const AUTOLINK_TERMS: Record<string, { it: string[]; en: string[] }> = {
   energia: { it: ['disponibilità energetica'], en: ['energy availability'] },
   maturazione: { it: ['maturazione biologica'], en: ['biological maturation'] },
   'commozione-cerebrale': { it: ['commozione cerebrale'], en: ['concussion'] },
+  'ipermobilità-articolare': {
+    it: ['ipermobilità articolare generalizzata', 'ipermobilità articolare', 'ipermobilità'],
+    en: ['generalised joint hypermobility', 'joint hypermobility'],
+  },
+  beighton: {
+    it: ['punteggio di Beighton'],
+    en: ['Beighton score'],
+  },
 };
 
 /** Oltre questa soglia i link al glossario smettono di aiutare e iniziano a distrarre. */

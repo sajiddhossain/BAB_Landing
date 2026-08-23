@@ -75,7 +75,7 @@ The difference isn't specialist trivia. **A bronchodilator acts on the bronchi: 
 
 On EILO, reviews describe it as more frequent in females and in adolescence, with a prevalence around 5% in the athletic population rising to as high as 35% among athletes referred for dyspnoea evaluation (Smoliga et al., 2016). Precision matters here: in the Swedish population study that objectively tested adolescents from the general population, **no significant differences emerged between girls and boys** for either EIB or EILO (Johansson et al., 2015). What is documented more robustly is that girls **report** the symptom more often (Johansson et al., 2014).
 
-It's a distinction worth holding onto, because it usually gets used backwards. That girls report breathlessness more often isn't evidence that they're more fragile: it's the reason their symptom deserves the same seriousness, instead of being filed under emotion — [the same mechanism that leads to minimising female athletes' pain](/blog/dolore-in-puberta-neuroscienza).
+It's a distinction worth holding onto, because it usually gets used backwards. That girls report breathlessness more often isn't evidence that they're more fragile: it's the reason their symptom deserves the same seriousness, instead of being filed under emotion — [the same mechanism that leads to minimising female athletes' pain](/en/blog/dolore-in-puberta-neuroscienza).
 
 ## How do you get to a real diagnosis?
 
@@ -97,9 +97,9 @@ Two caveats, both important. First: the study had no control group and no random
 
 ## When is it genuinely just fitness?
 
-**It can be. But that's a conclusion, not a starting point.** The differential diagnosis of exercise-induced breathlessness in athletes includes, beyond EIB and EILO, dysfunctional breathing, exercise-induced hyperventilation, lung disease other than asthma, cardiac causes and deconditioning (Smoliga et al., 2016). There's also a frequent and population-specific cause that presents as tiredness and breathlessness rather than wheeze: [iron deficiency in adolescent female athletes](/blog/ferro-atlete-adolescenti).
+**It can be. But that's a conclusion, not a starting point.** The differential diagnosis of exercise-induced breathlessness in athletes includes, beyond EIB and EILO, dysfunctional breathing, exercise-induced hyperventilation, lung disease other than asthma, cardiac causes and deconditioning (Smoliga et al., 2016). There's also a frequent and population-specific cause that presents as tiredness and breathlessness rather than wheeze: [iron deficiency in adolescent female athletes](/en/blog/ferro-atlete-adolescenti).
 
-The problem with starting from 'she's unfit' is that it's a self-confirming explanation: the athlete trains harder, feels worse, concludes she isn't cut out for it, and stops. It's one of the quiet routes to [dropping out of sport during puberty](/blog/abbandono-puberta) — not a dramatic event, but a run of sessions in which a girl decides, on her own, that this sport isn't for her.
+The problem with starting from 'she's unfit' is that it's a self-confirming explanation: the athlete trains harder, feels worse, concludes she isn't cut out for it, and stops. It's one of the quiet routes to [dropping out of sport during puberty](/en/blog/abbandono-puberta) — not a dramatic event, but a run of sessions in which a girl decides, on her own, that this sport isn't for her.
 
 ## What a club can do, starting Monday
 
@@ -109,7 +109,7 @@ None of these is a clinical procedure. They're observations and organisational c
 - **Treat an inhaler that doesn't work as information.** If an athlete uses a bronchodilator and stays breathless, that belongs back with whoever made the diagnosis: reviews flag precisely these cases of treated athletes who later test negative (Smoliga et al., 2016).
 - **Don't close the subject with a single word.** 'Anxiety' and 'poor fitness' are conclusions, not observations. In the adolescent population, a far from negligible share of that symptom is a condition a test can document.
 - **Ask whether the diagnosis was measured.** It isn't a challenge to the clinician: it's the question the guidelines themselves pose, because diagnosing EIB requires an objective test (Parsons et al., 2013).
-- **Remember the symptom is private before it is clinical.** A fourteen-year-old who stops, breathless, in front of twenty teammates will rarely say so out loud next time — [she'll say she's tired, or say nothing](/blog/parole-allenatore-salute-atlete).
+- **Remember the symptom is private before it is clinical.** A fourteen-year-old who stops, breathless, in front of twenty teammates will rarely say so out loud next time — [she'll say she's tired, or say nothing](/en/blog/parole-allenatore-salute-atlete).
 
 ## BAB's role
 

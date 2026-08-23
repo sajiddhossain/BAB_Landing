@@ -29,7 +29,7 @@ faq:
   - q: "How long does patellofemoral pain take to resolve in an adolescent?"
     a: "Longer than anyone expects, which is exactly why it should be addressed early. In the Danish cohort the median duration of knee pain was already 24 months at first assessment, 55.9% of those affected still had it two years later, and at five years 40.5% still had pain against 13.2% of those without pain at baseline (Rathleff et al., 2016; 2019). In structured programmes, improvement is measured in months: in the study of 151 adolescents aged 10-14 the programme ran for 12 weeks, with activity modification followed by progressive strengthening (Rathleff et al., 2018). «A few days off» is not a unit of measurement suited to this problem."
   - q: "Does an athlete with knee pain have to stop training?"
-    a: "In most cases no: what worked in the studies was modifying load, not removing it. The practical point is having a middle option — reduced-load training, without jumping or running, with strength work maintained — instead of the single «in or out» choice. It is the same logic that applies to the other overuse pains of young female athletes, from [low back pain](/blog/mal-di-schiena-giovani-atlete) to [the shoulder in overhead sports](/blog/dolore-spalla-giovani-atlete): stopping completely also removes the training that protects, and starting again from zero is what restarts the pain cycle. What to remove, and for how long, is a decision for a healthcare professional."
+    a: "In most cases no: what worked in the studies was modifying load, not removing it. The practical point is having a middle option — reduced-load training, without jumping or running, with strength work maintained — instead of the single «in or out» choice. It is the same logic that applies to the other overuse pains of young female athletes, from [low back pain](/en/blog/mal-di-schiena-giovani-atlete) to [the shoulder in overhead sports](/en/blog/dolore-spalla-giovani-atlete): stopping completely also removes the training that protects, and starting again from zero is what restarts the pain cycle. What to remove, and for how long, is a decision for a healthcare professional."
   - q: "When should she see a doctor?"
     a: "Knee pain lasting more than two or three weeks, returning at every session, making her avoid stairs, squats or jumps, or costing her training sessions, should be assessed by a healthcare professional: a paediatrician, sports physician or physiotherapist. Some signs warrant assessment without waiting: swelling, the knee giving way or locking, pain after trauma, night pain, or pain that can be pointed to with one finger on a precise spot of bone. The reason not to wait is not alarmism, it is statistics: the median duration of pain in adolescents who eventually seek help is 24 months, and only 59% had sought care at all (Rathleff et al., 2013). Time is not an ally here."
 ---
@@ -59,8 +59,8 @@ This is exactly the kind of pain that enters no statistic in youth sport: no epi
 
 It needs to be told apart from two things we have already covered, because management differs:
 
-- It is not **[an ACL rupture](/blog/crociato-giovani-atlete)**, which is a single event, almost always with a precise moment and a knee giving way.
-- It is not **[a stress fracture](/blog/salute-ossea-fratture-da-stress-giovani-atlete)**, whose hallmark is *pinpoint* bone pain, indicated with one finger, always at the same spot.
+- It is not **[an ACL rupture](/en/blog/crociato-giovani-atlete)**, which is a single event, almost always with a precise moment and a knee giving way.
+- It is not **[a stress fracture](/en/blog/salute-ossea-fratture-da-stress-giovani-atlete)**, whose hallmark is *pinpoint* bone pain, indicated with one finger, always at the same spot.
 
 One thing to say plainly: **this article is not a diagnostic tool.** Knee pain in an adolescent girl has several possible causes — some trivial, some not — and the distinction is made by a healthcare professional. What matters here is something else: that this kind of pain **is not a reason to wait**.
 
@@ -77,7 +77,7 @@ At five years the picture had not straightened out ([Rathleff et al., 2019, *BMJ
 
 It is worth being precise about the population: these are **Danish adolescents aged 15-19 of both sexes**, recruited from the school population rather than from registered athletes. They are not 13-year-olds in an Italian club, and the numbers do not transfer one to one. But the direction — pain that over time takes away the sport rather than itself — is measured, not assumed.
 
-There is a second finding, this one specific to girls, that makes waiting even harder to defend: **female adolescents with patellofemoral pain** have **lower pressure pain thresholds** than pain-free peers, including at body sites far from the knee ([Rathleff et al., 2013, *JOSPT*](https://doi.org/10.2519/jospt.2013.4383)). In other words, pain lasting months does not stay a local problem — **it changes how the nervous system processes stimuli**, as we described in [how pain changes during puberty](/blog/dolore-in-puberta-neuroscienza).
+There is a second finding, this one specific to girls, that makes waiting even harder to defend: **female adolescents with patellofemoral pain** have **lower pressure pain thresholds** than pain-free peers, including at body sites far from the knee ([Rathleff et al., 2013, *JOSPT*](https://doi.org/10.2519/jospt.2013.4383)). In other words, pain lasting months does not stay a local problem — **it changes how the nervous system processes stimuli**, as we described in [how pain changes during puberty](/en/blog/dolore-in-puberta-neuroscienza).
 
 ## Why almost nobody takes it to a doctor
 
@@ -85,7 +85,7 @@ There is a second finding, this one specific to girls, that makes waiting even h
 
 The most instructive detail, though, is another. Among **girls**, those with **traumatic-onset** pain sought help in **80%** of cases; those with **insidious-onset** pain in only **55.7%**. In boys the difference between onset types was minimal (47.9% versus 49.5%).
 
-Put bluntly: **an accident seems to be needed before it feels allowed to ask.** It is the same dynamic that keeps [urine leakage during jumping](/blog/perdite-urina-giovani-atlete) and [menstruation in front of a coach](/blog/parlare-di-ciclo-con-allenatore) unspoken — a symptom without an event to justify it does not feel serious enough to name. And pain that is never named is pain nobody can dose.
+Put bluntly: **an accident seems to be needed before it feels allowed to ask.** It is the same dynamic that keeps [urine leakage during jumping](/en/blog/perdite-urina-giovani-atlete) and [menstruation in front of a coach](/en/blog/parlare-di-ciclo-con-allenatore) unspoken — a symptom without an event to justify it does not feel serious enough to name. And pain that is never named is pain nobody can dose.
 
 ## What works: not rest, but measured load
 
@@ -97,7 +97,7 @@ A limit to state up front: that study has **no control group**, so on its own it
 
 On the *type* of work, the international consensus statement is clear: **exercise therapy** is recommended, in particular the **combination of hip-focused and knee-focused exercise**; joint mobilisations in isolation and electrophysical agents (ultrasound, electrical currents and the like) are **not** recommended ([Collins et al., 2018, *Br J Sports Med*](https://doi.org/10.1136/bjsports-2018-099397)). One honest note: that consensus concerns the general patellofemoral pain population, largely adult — in adolescents the evidence is the studies above.
 
-The practical point that holds it all together: **a knee does not heal by staying still, it heals by getting the right dose.** It is the same principle behind [early specialisation and overuse](/blog/specializzazione-precoce-giovani-atlete): load is not the enemy, unmanaged load is.
+The practical point that holds it all together: **a knee does not heal by staying still, it heals by getting the right dose.** It is the same principle behind [early specialisation and overuse](/en/blog/specializzazione-precoce-giovani-atlete): load is not the enemy, unmanaged load is.
 
 ## And the knee that hurts below the kneecap (Osgood-Schlatter)?
 
@@ -105,17 +105,17 @@ The practical point that holds it all together: **a knee does not heal by stayin
 
 This too is a study **without a control group** and in a small sample: not proof of efficacy, but a consistent signal. And the message is the same, worth repeating: **load progression is an intervention; waiting is not.**
 
-There is one knee, though, that should not be treated as a knee: the one that hurts **with no injury and no local signs**, where you find neither swelling nor a precise tender spot. In a growing body that pain can come from the hip. In slipped capital femoral epiphysis, in a prospective study of 107 patients (122 hips), pain was reported **in the knee in 26.2% of cases** and in the groin in 13.9%, and **49%** had more than one visit before diagnosis ([Uvodich et al., 2019, *J Pediatr*](https://doi.org/10.1016/j.jpeds.2018.10.050)). It is a condition that is more common in boys and with higher body weight, but the practical rule holds for everyone: if the knee hurts and there is nothing wrong with the knee, [someone needs to look at the hip](/blog/dolore-inguine-giovani-atlete).
+There is one knee, though, that should not be treated as a knee: the one that hurts **with no injury and no local signs**, where you find neither swelling nor a precise tender spot. In a growing body that pain can come from the hip. In slipped capital femoral epiphysis, in a prospective study of 107 patients (122 hips), pain was reported **in the knee in 26.2% of cases** and in the groin in 13.9%, and **49%** had more than one visit before diagnosis ([Uvodich et al., 2019, *J Pediatr*](https://doi.org/10.1016/j.jpeds.2018.10.050)). It is a condition that is more common in boys and with higher body weight, but the practical rule holds for everyone: if the knee hurts and there is nothing wrong with the knee, [someone needs to look at the hip](/en/blog/dolore-inguine-giovani-atlete).
 
 ## What a club can do, starting Monday
 
 None of these is a medical prescription. They are organisational and language choices, within reach of anyone who coaches:
 
 - **Ask "how long?", not "how much does it hurt?".** Today's intensity says little; duration says almost everything. Beyond two or three weeks, pain belongs with a healthcare professional, not with pitch-side management.
-- **Ask "can you point to it?".** A whole hand around the kneecap is one picture; one finger on a precise spot of bone is another, with a different urgency ([stress fractures](/blog/salute-ossea-fratture-da-stress-giovani-atlete)).
+- **Ask "can you point to it?".** A whole hand around the kneecap is one picture; one finger on a precise spot of bone is another, with a different urgency ([stress fractures](/en/blog/salute-ossea-fratture-da-stress-giovani-atlete)).
 - **Do not wait for an accident to grant permission.** In the data, girls with non-traumatic pain ask for help far less often. Saying it out loud once a year — "pain that keeps coming back does not need an injury to be worth mentioning" — costs thirty seconds.
-- **Have a "reduced-load" mode, not just "in or out".** An athlete with knee pain who can do half a session stays in the group; one sent home to rest completely disappears, and often does not come back. That is precisely the mechanism feeding [drop-out during puberty](/blog/abbandono-puberta).
-- **Put hip and knee strength in everyone's programme, not just for those in pain.** It is the content the consensus recommends, and in practice it occupies the same slot as [the neuromuscular warm-up that protects the ACL](/blog/crociato-giovani-atlete).
+- **Have a "reduced-load" mode, not just "in or out".** An athlete with knee pain who can do half a session stays in the group; one sent home to rest completely disappears, and often does not come back. That is precisely the mechanism feeding [drop-out during puberty](/en/blog/abbandono-puberta).
+- **Put hip and knee strength in everyone's programme, not just for those in pain.** It is the content the consensus recommends, and in practice it occupies the same slot as [the neuromuscular warm-up that protects the ACL](/en/blog/crociato-giovani-atlete).
 
 ## Where BAB fits
 
