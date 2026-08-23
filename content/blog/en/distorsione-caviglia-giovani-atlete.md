@@ -4,7 +4,7 @@ title: "\"It's just a twisted ankle\": the ankle is the most common injury in yo
 seoTitle: "Ankle sprains in young female athletes"
 seoDescription: "The ankle accounts for 23% of injuries in young female athletes, and 23.6% of girls live with chronic instability. Why it is not «just a twist»."
 date: 2026-08-06
-updated: 2026-08-20
+updated: 2026-08-23
 author: Sajid Hossain
 excerpt: "The ankle accounts for 23% of injuries in youth female athletes — more than the knee (16%). Yet it is the injury we describe with a shrug: among athletes aged 14-18, 20% live with chronic ankle instability, and among girls that figure rises to 23.6%. In youth sport, prevention programmes cut ankle injuries by about 26%. The data, the limits of the data, and what changes in twenty minutes a week."
 answer: "It is the most frequent injury in young female athletes: the ankle accounts for 23% of all injuries, ahead of the knee (16%) and thigh (13%) (Beech et al., 2024). And it is not trivial: between 14 and 18, 20.0% of athletes live with chronic ankle instability — 23.6% among girls (Donovan et al., 2020)."
@@ -33,6 +33,8 @@ faq:
     a: "The evidence points that way, but the population studied is not thirteen-year-olds. A systematic review and meta-analysis of 14 randomised trials with 2,182 ADULT participants found that exercise-based rehabilitation reduced re-injury at 12 months compared with usual care (OR 0.60; 95% CI 0.36-0.99) (Wagemans et al., 2022). For adolescent female athletes specifically the data are thinner: the bridge is reasonable, but it should be declared as one."
   - q: "In a growing girl, is a swollen ankle always a growth plate fracture?"
     a: "That used to be the assumption, and it has been revised. In a prospective MRI study of 31 children with a clinical suspicion of Salter-Harris type I distal fibula fracture, none had that lesion on imaging: what they had were ligament injuries, bone contusions or joint effusions (Hofsli et al., 2016); the same result had emerged in 18 children in an earlier study (Boutis et al., 2010). Two important caveats: the samples are small and mean age is 9-10 years, lower than the 13-14-year-old athletes discussed here, and the distinction remains a clinical assessment — not something decided pitch-side."
+  - q: "Do bendier athletes sprain their ankles more?"
+    a: "No, and here the literature is unusually clear. The reference meta-analysis on joint hypermobility in sport, 18 studies selected out of 4,841 screened, found an increased risk of knee injury in contact sports and no increased risk at the ankle (Pacey et al., 2010; populations mixed for age and sex). The idea that it is the bendy ones who sprain is a convenient explanation the data do not support. The best-documented risk factor for the ankle remains a far more mundane one: having already sprained it once without completing rehabilitation."
 ---
 
 In a club's calendar, the ankle sprain is the injury that never makes news. It doesn't end a season like an ACL tear, it has no written protocol like concussion, it doesn't frighten parents like a fracture. It gets described in five words — "it's just a twisted ankle" — and filed away with an ice pack. Then you look at the numbers on what happens to those athletes in the years that follow, and those five words turn out to be one of the worst bets in youth sport.
@@ -48,7 +50,7 @@ In a club's calendar, the ankle sprain is the injury that never makes news. It d
 
 **The ankle, and it isn't close.** The largest systematic review and meta-analysis of the injury profile in youth female sport pooled **32 studies and 15,908 athletes aged 19 and under**. The result is clear: overall incidence is **4.4 injuries per 1,000 hours** (95% CI 3.3-5.9), **40% of athletes** sustain at least one time-loss injury, and the anatomical distribution puts **67% of injuries in the lower limb**, with the **ankle at 23%**, the knee at 16% and the thigh at 13% (Beech et al., 2024).
 
-That comparison is worth pausing on, because it inverts the usual order of concern. The [ACL](/blog/crociato-giovani-atlete) is the injury we talk about — rightly, because it is the one most likely to end a career. But statistically the ankle is hit **almost one and a half times as often as the knee**, and receives a fraction of the attention. The same goes for [stress fractures](/blog/salute-ossea-fratture-da-stress-giovani-atlete) and [patellofemoral pain](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete): those topics have a name, while the ankle only gets a shrug.
+That comparison is worth pausing on, because it inverts the usual order of concern. The [ACL](/en/blog/crociato-giovani-atlete) is the injury we talk about — rightly, because it is the one most likely to end a career. But statistically the ankle is hit **almost one and a half times as often as the knee**, and receives a fraction of the attention. The same goes for [stress fractures](/en/blog/salute-ossea-fratture-da-stress-giovani-atlete) and [patellofemoral pain](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete): those topics have a name, while the ankle only gets a shrug.
 
 One honesty note on the figure: the authors themselves flag that each anatomical category rests on a variable number of studies (three to 15) and that injury definitions differ across sources. The 23% is an estimate, not a constant.
 
@@ -58,7 +60,9 @@ One honesty note on the figure: the authors themselves flag that each anatomical
 
 Two things need saying immediately. First: the absolute values are not comparable across subgroups, because they come from different sets of studies with different sports, definitions and denominators — the literature here is notoriously heterogeneous. Second, and more important: **what is documented is the direction, not the mechanism**. *Why* female athletes sprain their ankles more often has no settled explanation of the kind that exists for the knee.
 
-We would rather be explicit here than plausible. For the ACL there is longitudinal evidence that after puberty girls land with greater dynamic knee valgus than boys (Ford et al., 2010, cited in our article on the [ACL](/blog/crociato-giovani-atlete)); hypothesising that the same change in landing control also loads the ankle is reasonable, but it stays a hypothesis, not a finding. The solid, actionable fact is a different one: the age band where sprains are most frequent is **exactly the age band of youth sport**.
+One hypothesis can, however, be ruled out — the one most often floated on the sideline, that it is "the bendy ones" who sprain. The reference meta-analysis on [joint hypermobility](/en/blog/ipermobilita-articolare-giovani-atlete) in sport, 18 studies selected out of 4,841 screened, found an increased risk of knee injury in contact sports but **no increased risk at the ankle** (Pacey et al., 2010; populations mixed for age and sex). Hypermobility is not the explanation being looked for here.
+
+We would rather be explicit here than plausible. For the ACL there is longitudinal evidence that after puberty girls land with greater dynamic knee valgus than boys (Ford et al., 2010, cited in our article on the [ACL](/en/blog/crociato-giovani-atlete)); hypothesising that the same change in landing control also loads the ankle is reasonable, but it stays a hypothesis, not a finding. The solid, actionable fact is a different one: the age band where sprains are most frequent is **exactly the age band of youth sport**.
 
 ## What happens after an untreated ankle sprain?
 
@@ -80,7 +84,7 @@ This must be said plainly: that sample was **entirely male** and the study dates
 
 The thing is, that self-management isn't irrational. A sprained ankle stops hurting quickly enough to look healed. The problem is that "it doesn't hurt any more" and "it works again" are not the same thing, and the gap between them only becomes visible months later — in the proportion of 15-year-olds living with an ankle that gives way.
 
-The dynamic closely resembles what we described for [urinary leakage](/blog/perdite-urina-giovani-atlete) and for [knee pain that lasts months](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete): a very common symptom which, precisely because it is common, gets mistaken for normal, and which nobody discusses enough because it never seems serious enough to deserve it.
+The dynamic closely resembles what we described for [urinary leakage](/en/blog/perdite-urina-giovani-atlete) and for [knee pain that lasts months](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete): a very common symptom which, precisely because it is common, gets mistaken for normal, and which nobody discusses enough because it never seems serious enough to deserve it.
 
 ## Does prevention work? Yes — and there is youth-specific evidence
 
@@ -93,7 +97,7 @@ Those numbers sit alongside two more specific reference points:
 - In the randomised controlled trial of **765 high school soccer and basketball athletes — 523 girls and 242 boys** — the balance training group recorded **1.13 sprains per 1,000 exposures versus 1.87** in the control group (6.1% versus 9.9% of athletes; p=.04) (McGuine and Keene, 2006).
 - In the **SHRed Injuries Basketball** neuromuscular warm-up programme — 10 minutes, 13 exercises across aerobic, agility, strength and balance, in players aged **11-18** — the rate of **ankle and knee** injuries was **36% lower** (IRR 0.64; 95% CI 0.51-0.79), with essentially identical results for supervised and unsupervised delivery (Emery, Owoeye et al., 2022). Note: that figure aggregates ankle and knee rather than separating them.
 
-The practical message is the same one we found writing about [neuromuscular prevention training](/blog/crociato-giovani-atlete): protection doesn't come from a piece of equipment or an isolated drill, but from a structured warm-up done **for months**. And, as with the ACL, the variable that collapses the effect is adherence — not intensity.
+The practical message is the same one we found writing about [neuromuscular prevention training](/en/blog/crociato-giovani-atlete): protection doesn't come from a piece of equipment or an isolated drill, but from a structured warm-up done **for months**. And, as with the ACL, the variable that collapses the effect is adherence — not intensity.
 
 ## And afterwards? The rehab that reduces recurrence (with an age caveat)
 
@@ -111,7 +115,7 @@ And there remains the question athletes ask first: **when can I play again?** He
 
 MRI has cut that assumption down to size. In a prospective study of **31 children** with clinical suspicion of that lesion, **none** had it on imaging: what they had were ligament injuries, bone contusions and joint effusions (Hofsli et al., 2016). The same result emerged in an earlier study of 18 children (Boutis et al., 2010).
 
-Two limits are worth keeping in view, both important. The samples are **small** (31 and 18 patients). And **mean age is around 9-10 years**, lower than the athletes discussed here: in a thirteen- or fourteen-year-old, skeletal maturity is different, and with it the balance between the strength of growing bone and that of ligaments — a theme we also touch on when writing about the [growth spurt](/blog/picco-di-crescita-giovani-atlete). So what this line of research tells a coach is not "it isn't a fracture": it is that **what exactly that ankle is, is for a healthcare professional to establish**, and that the idea that in young athletes "it's always the bone" no longer holds as an automatic rule.
+Two limits are worth keeping in view, both important. The samples are **small** (31 and 18 patients). And **mean age is around 9-10 years**, lower than the athletes discussed here: in a thirteen- or fourteen-year-old, skeletal maturity is different, and with it the balance between the strength of growing bone and that of ligaments — a theme we also touch on when writing about the [growth spurt](/en/blog/picco-di-crescita-giovani-atlete). So what this line of research tells a coach is not "it isn't a fracture": it is that **what exactly that ankle is, is for a healthcare professional to establish**, and that the idea that in young athletes "it's always the bone" no longer holds as an automatic rule.
 
 ## What can a club do to prevent ankle sprains, starting Monday?
 
@@ -122,7 +126,7 @@ This is not a clinical protocol — that is written by whoever assesses the athl
 - **Record sprains, including the ones that are "nothing".** The gap between the 26.1% who remember a sprain and the 20.0% who have an unstable ankle (Donovan et al., 2020) exists because nobody writes anything down when the athlete is back on court five minutes later.
 - **Ask about the ankle months later, not just on the day.** The useful question isn't "does it hurt?" but "does it give way? do you trust it on one leg? are you afraid when you land?" That is where chronic instability shows up — not in the swelling.
 - **Don't make return depend on the absence of pain.** Pain from a sprain resolves before function does: that is precisely why the same ankle sprains again. The return decision belongs to a healthcare professional, not to the fixture list.
-- **Remember that load matters.** An ankle coming back into a 12-hour training week doesn't face the same odds as one returning into managed load — the territory of [early specialisation](/blog/specializzazione-precoce-giovani-atlete) and [overuse](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
+- **Remember that load matters.** An ankle coming back into a 12-hour training week doesn't face the same odds as one returning into managed load — the territory of [early specialisation](/en/blog/specializzazione-precoce-giovani-atlete) and [overuse](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
 
 ## Where BAB fits
 
@@ -144,5 +148,6 @@ Because the real problem these studies describe isn't that athletes sprain their
 - Hofsli M., Torfing T., Al-Aubaidi Z. **The proportion of distal fibula Salter-Harris type I epiphyseal fracture in the paediatric population with acute ankle injury: a prospective MRI study.** *Journal of Pediatric Orthopaedics B*, 2016. (31 patients included, mean age 10 ± 2.86 years; no Salter-Harris I distal fibula fracture confirmed on MRI: ligament injuries, bone contusions and joint effusions instead) [doi:10.1097/BPB.0000000000000248](https://doi.org/10.1097/BPB.0000000000000248)
 - Boutis K., Narayanan U.G., Dong F.F.T., et al. **Magnetic resonance imaging of clinically suspected Salter-Harris I fracture of the distal fibula.** *Injury*, 2010;41(8):852-856. (18 patients, mean age 8.7 ± 2.0 years; no evidence of fibular growth plate injury on MRI) [doi:10.1016/j.injury.2010.04.015](https://doi.org/10.1016/j.injury.2010.04.015)
 - Ardern C.L., Glasgow P., Schneiders A., et al. **2016 Consensus statement on return to sport from the First World Congress in Sports Physical Therapy, Bern.** *British Journal of Sports Medicine*, 2016;50(14):853-864. (consensus statement by 17 expert clinicians; three-step continuum and shared decision-making) [doi:10.1136/bjsports-2016-096278](https://doi.org/10.1136/bjsports-2016-096278)
+- Pacey V., Nicholson L.L., Adams R.D., Munn J., Munns C.F. **Generalized joint hypermobility and risk of lower limb joint injury during sport: a systematic review with meta-analysis.** *American Journal of Sports Medicine*, 2010;38(7):1487-1497. (systematic review with meta-analysis: 4,841 studies screened, 18 included; increased risk of knee injury in **contact sports**, pooled odds ratio 4.69, 95% CI 1.33-16.52, p=0.02 — **very wide confidence interval**; **no increased risk at the ankle**; populations mixed for age and sex) [doi:10.1177/0363546510364838](https://doi.org/10.1177/0363546510364838)
 
 *This article is for information only and is not medical advice or a clinical assessment. After an ankle sprain — especially if pain does not improve, if swelling is significant, if weight-bearing is not possible, or if the ankle keeps giving way — consult a healthcare professional.*

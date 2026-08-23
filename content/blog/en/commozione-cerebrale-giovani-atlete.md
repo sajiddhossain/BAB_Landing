@@ -34,7 +34,7 @@ faq:
   - q: "Were the concussion guidelines built on female athletes too?"
     a: "Only partly, and it is worth knowing. An evidence review of the research behind the three most influential consensus statements on sport-related concussion examined the 171 studies cited: samples are 80.1% male, and 40.4% of studies include no female athletes at all (D'Lauro et al., 2022). This does not mean the recommendations are wrong — it means that on differences specific to girls, the evidence is thinner than the confidence of the language suggests."
   - q: "Does an athlete who's confused after training in the heat necessarily have a head injury?"
-    a: "No, and telling them apart matters because the immediate response differs. Confusion, uncoordinated movement or bizarre behaviour can show up both after a head injury and in exertional heat stroke, defined by a core body temperature typically above 40°C with signs of central nervous system dysfunction (Morris and Patel, StatPearls). Either way, the athlete comes off immediately and needs an adult who can recognise the emergency; the distinguishing detail — an identifiable blow to the head versus intense exertion in hot conditions without acclimatization — steers the first response, cooling in one case, immobilisation and neurological observation in the other. More on this in [training in the heat for young female athletes](/blog/allenarsi-al-caldo-giovani-atlete)."
+    a: "No, and telling them apart matters because the immediate response differs. Confusion, uncoordinated movement or bizarre behaviour can show up both after a head injury and in exertional heat stroke, defined by a core body temperature typically above 40°C with signs of central nervous system dysfunction (Morris and Patel, StatPearls). Either way, the athlete comes off immediately and needs an adult who can recognise the emergency; the distinguishing detail — an identifiable blow to the head versus intense exertion in hot conditions without acclimatization — steers the first response, cooling in one case, immobilisation and neurological observation in the other. More on this in [training in the heat for young female athletes](/en/blog/allenarsi-al-caldo-giovani-atlete)."
 ---
 
 Nothing in a club's calendar matters more than the thirty seconds after a blow to the head. A collision, a ball taken badly, a fall on landing: the athlete gets up, says "I'm fine", and play restarts. Far more is decided in those thirty seconds than it seems — and the data say that, for girls, that decision goes wrong more often.
@@ -78,7 +78,7 @@ There is one last layer, and no reporting system catches it: the events the athl
 
 In a study of **167 high school athletes** (mean age 15.7; American football, soccer, lacrosse, cheerleading), **60% of recalled concussion events had not been disclosed** to a supervising adult. For so-called "bell-ringers" — the hits that leave you dazed for a few seconds and get waved off — non-disclosure rose to **87%** ([Register-Mihalik et al., 2013, *J Athl Train*](https://doi.org/10.4085/1062-6050-48.3.20)). It is a preliminary study on a small mixed-sex sample, but the direction matches the wider literature.
 
-It is the same mechanism we have seen with [urinary leakage](/blog/perdite-urina-giovani-atlete) and with [periods](/blog/parlare-di-ciclo-con-allenatore): the symptom never reaches the person who has to decide what happens next. With one substantial difference — here the information that fails to travel concerns the brain, and the useful window is measured in minutes.
+It is the same mechanism we have seen with [urinary leakage](/en/blog/perdite-urina-giovani-atlete) and with [periods](/en/blog/parlare-di-ciclo-con-allenatore): the symptom never reaches the person who has to decide what happens next. With one substantial difference — here the information that fails to travel concerns the brain, and the useful window is measured in minutes.
 
 ## How do you recognise a concussion on the sideline?
 
@@ -94,7 +94,7 @@ You don't need a visible blow to the head, and you **don't need loss of consciou
 
 The operating rule admits no nuance: **if a concussion is suspected, the athlete comes off**. Anyone showing one of those signs **does not return that day**, unless acutely evaluated by an experienced healthcare professional. The consensus also notes that symptoms may evolve over **minutes, hours or days**: an athlete who seems fine at full time still needs re-evaluation in the hours that follow.
 
-One detail that often gets missed: symptoms aren't only physical. Confusion, irritability, trouble concentrating, disturbed sleep. On sleep specifically, the consensus notes that **sleep disturbance in the 10 days after a concussion is associated with an increased risk of persisting symptoms** — another reason [a teenage athlete's sleep](/blog/sonno-atlete-adolescenti) isn't a detail.
+One detail that often gets missed: symptoms aren't only physical. Confusion, irritability, trouble concentrating, disturbed sleep. On sleep specifically, the consensus notes that **sleep disturbance in the 10 days after a concussion is associated with an increased risk of persisting symptoms** — another reason [a teenage athlete's sleep](/en/blog/sonno-atlete-adolescenti) isn't a detail.
 
 ## How much rest does a concussion need?
 
@@ -129,7 +129,7 @@ One analysis examined the **171 studies** cited by the three most influential co
 
 The Amsterdam consensus acknowledges it too: in its prevention section it notes that neuromuscular warm-up programmes are recommended **based on research in rugby**, and that **more research is needed in female athletes** and in other team sports to identify which components actually reduce concussion rates. It also notes that empirical data are limited for preadolescent, female and para athletes.
 
-It is the same gap that runs through all of women's sports medicine: only **6% of sport and exercise science studies** are conducted exclusively on women ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). We have already told that story for the ACL: [protocols that work do exist](/blog/crociato-giovani-atlete), and they are the very warm-up the consensus refers to.
+It is the same gap that runs through all of women's sports medicine: only **6% of sport and exercise science studies** are conducted exclusively on women ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). We have already told that story for the ACL: [protocols that work do exist](/en/blog/crociato-giovani-atlete), and they are the very warm-up the consensus refers to.
 
 ## What a club can do, starting Monday
 
@@ -141,9 +141,9 @@ None of these is a medical prescription. They are organisational decisions, at z
 - **Don't leave the decision to the athlete.** At 14, in front of a teammate, with the coach watching, "I'm fine" is not clinical data: it's a social answer.
 - **Know who to call.** Return to play is authorised by a healthcare professional. Having one lined up *before* the injury is half the work.
 - **Treat return to school as part of recovery.** Full academic load first, unrestricted play second — not the other way round.
-- **At summer tournaments and preseason camps, the same "who's watching" applies to heat too.** Confusion or uncoordinated movement in an athlete who has been training in the sun deserves the same seriousness as a blow to the head: [there too, exposure matters more than sex or age](/blog/allenarsi-al-caldo-giovani-atlete).
+- **At summer tournaments and preseason camps, the same "who's watching" applies to heat too.** Confusion or uncoordinated movement in an athlete who has been training in the sun deserves the same seriousness as a blow to the head: [there too, exposure matters more than sex or age](/en/blog/allenarsi-al-caldo-giovani-atlete).
 
-The logic is the same one that applies to injuries that are far more frequent and far less dramatic: what decides the outcome is not the severity of the hit, but whether somebody watches and writes it down. It holds for the [ACL](/blog/crociato-giovani-atlete) and it holds, almost as a mirror image, for the [ankle sprain](/blog/distorsione-caviglia-giovani-atlete) — the most common injury in youth female athletes, and the one nobody records because "it's nothing".
+The logic is the same one that applies to injuries that are far more frequent and far less dramatic: what decides the outcome is not the severity of the hit, but whether somebody watches and writes it down. It holds for the [ACL](/en/blog/crociato-giovani-atlete) and it holds, almost as a mirror image, for the [ankle sprain](/en/blog/distorsione-caviglia-giovani-atlete) — the most common injury in youth female athletes, and the one nobody records because "it's nothing".
 
 ## Where BAB fits
 

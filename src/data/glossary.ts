@@ -517,6 +517,23 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
       "Slipping of the femoral head growth plate relative to the neck, typical of puberty; it is more common in boys and with higher body weight. Pain often presents away from the hip: in a prospective study of 107 patients (122 hips) it was reported in the knee in 26.2% of cases and in the groin in 13.9%, and 49% had more than one visit before diagnosis (Uvodich et al., 2019).",
     sameAs: 'https://en.wikipedia.org/wiki/Slipped_capital_femoral_epiphysis',
   },
+  'ipermobilità-articolare': {
+    name: 'Ipermobilità articolare generalizzata',
+    description:
+      "Escursione articolare superiore alla norma in più articolazioni del corpo, misurata con il punteggio di Beighton. Non è una malattia né una diagnosi: è una caratteristica diffusa, e nelle ragazze più che nei ragazzi. In una meta-analisi di 20 studi e 21.145 partecipanti di 3-19 anni la prevalenza è del 34,1%, con il 32,5% nelle femmine contro il 18,1% nei maschi e valori in calo con l'età (Sobhani-Eraghi et al., 2020; eterogeneità elevata dichiarata dagli autori). Il rischio in più nello sport è specifico, non generale: lesione al ginocchio negli sport di contatto, odds ratio combinato 4,69 (IC 95% 1,33-16,52), nessun rischio aumentato alla caviglia (Pacey et al., 2010).",
+    nameEn: 'Generalised joint hypermobility',
+    descriptionEn:
+      'A greater-than-normal range of motion across several joints, measured with the Beighton score. It is neither a disease nor a diagnosis: it is a common characteristic, and more common in girls than in boys. In a meta-analysis of 20 studies and 21,145 participants aged 3-19 the prevalence is 34.1%, with 32.5% in girls against 18.1% in boys and figures declining with age (Sobhani-Eraghi et al., 2020; high heterogeneity declared by the authors). The extra risk in sport is specific, not general: knee injury in contact sports, pooled odds ratio 4.69 (95% CI 1.33-16.52), with no increased risk at the ankle (Pacey et al., 2010).',
+    sameAs: 'https://en.wikipedia.org/wiki/Hypermobility_(joints)',
+  },
+  beighton: {
+    name: 'Punteggio di Beighton',
+    description:
+      "Il test standard per l'ipermobilità articolare generalizzata: nove punti assegnati per mignolo iperesteso oltre 90°, pollice che si appoggia all'avambraccio, gomito e ginocchio oltre i 10° di iperestensione (un punto per lato) e flessione del tronco con i palmi a terra a ginocchia estese (Beighton et al., 1973). La soglia cambia con l'età: la classificazione internazionale 2017 delle sindromi di Ehlers-Danlos indica ≥6 su 9 nei prepuberi, ≥5 nei puberi e negli adulti fino a 50 anni, ≥4 oltre i 50 (Malfait et al., 2017). Misura l'escursione, non il dolore né la stabilità sotto carico: da solo non è una diagnosi.",
+    nameEn: 'Beighton score',
+    descriptionEn:
+      'The standard test for generalised joint hypermobility: nine points awarded for a little finger extending beyond 90°, a thumb resting against the forearm, an elbow and a knee past 10° of hyperextension (one point per side) and trunk flexion with the palms on the floor and knees straight (Beighton et al., 1973). The cut-off changes with age: the 2017 international classification of the Ehlers-Danlos syndromes sets ≥6 out of 9 in prepubertal children, ≥5 in pubertal people and adults up to 50, and ≥4 over 50 (Malfait et al., 2017). It measures range of motion, not pain or stability under load: on its own it is not a diagnosis.',
+  },
   'dolore-inguinale': {
     name: "Dolore inguinale dell'atleta",
     description:

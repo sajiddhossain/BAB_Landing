@@ -4,7 +4,7 @@ title: "Early specialisation: one sport all year round, and what it actually cos
 seoTitle: "Early sport specialisation: the real costs"
 seoDescription: "One sport all year costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised got hurt more often."
 date: 2026-07-26
-updated: 2026-08-13
+updated: 2026-08-23
 author: Sajid Hossain
 excerpt: "Among female athletes aged 13-18, those highly specialised in a single sport are 2.93 times as likely to report an injury history. Training more hours per week than your age in years doubles the odds of a serious overuse injury. And the athletes who actually reach the top started their main sport later, not earlier. The evidence, its limits, and the three questions that tell you whether a girl is already specialised."
 answer: "It costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised reported a history of injury 2.93 times as often as low-specialisation peers (Okoruwa et al., 2022), and training more hours a week than your age in years doubles the odds of a serious overuse injury (Jayanthi et al., 2015)."
@@ -64,7 +64,7 @@ It followed **219 female athletes aged 13-18** in US high schools, classified wi
 - The **moderately specialised** were **3.62 times** as likely to report a **stress fracture** (95% CI 1.27-10.26; p=0.02).
 - The highly specialised more often reported a **concussion** history: 5.00 times (95% CI 1.86-13.42; p<0.01).
 
-That last number needs honesty, because it is the one that jumps out and also the most fragile. Specialising does not make a brain more vulnerable: the plausible explanation is **exposure** — more hours, more seasons, more matches in the same sport, and in sports where contact happens. It is an association, measured on retrospective recall, with a very wide confidence interval. [Concussion in young female athletes](/blog/commozione-cerebrale-giovani-atlete) remains a separate topic with dynamics of its own.
+That last number needs honesty, because it is the one that jumps out and also the most fragile. Specialising does not make a brain more vulnerable: the plausible explanation is **exposure** — more hours, more seasons, more matches in the same sport, and in sports where contact happens. It is an association, measured on retrospective recall, with a very wide confidence interval. [Concussion in young female athletes](/en/blog/commozione-cerebrale-giovani-atlete) remains a separate topic with dynamics of its own.
 
 A second piece comes from a longitudinal study of **579 young athletes** (mean age 14.1, 53% female) followed for six months through sports medicine clinics: the highly specialised had **1.41 times** the odds of injury compared with the low-specialisation group (95% CI 1.06-1.87), and — the figure that concerns us — **female athletes had 1.43 times the odds of an overuse injury** (95% CI 1.05-1.96; p=0.02) ([Jayanthi et al., 2020, *Orthop J Sports Med*](https://doi.org/10.1177/2325967120922764)). The sample is clinical, therefore selected towards those already seeing a doctor: it is not the general population.
 
@@ -77,7 +77,9 @@ For the overall picture, the most solid synthesis is a meta-analysis in *Pediatr
 - Athletes who play **more hours of organised sport per week than their age in years** have **2.07 times** the odds of a serious overuse injury (95% CI 1.40-3.05; p<0.001). At 13: more than 13 hours.
 - Athletes whose ratio of **organised sport to free play exceeds 2:1** have **1.87 times** those odds (95% CI 1.26-2.76; p<0.01).
 
-There is a moment when that calendar deserves a fresh look, and it is the quarter in which an athlete is growing fast: adding hours exactly while the body changes fastest is the least sensible combination there is, as we explain in [the growth spurt in young female athletes](/blog/picco-di-crescita-giovani-atlete).
+Where that volume lands depends on the discipline, and in two cases the literature is precise enough to say so: in overhead sports — volleyball, swimming, handball — the bill arrives at [the growing shoulder](/en/blog/dolore-spalla-giovani-atlete), and in sprint and change-of-direction sports at [the groin and the pelvic apophyses](/en/blog/dolore-inguine-giovani-atlete). These are the two sites where "one sport all year" stops being an organisational choice and becomes a load repeated on the same point.
+
+There is a moment when that calendar deserves a fresh look, and it is the quarter in which an athlete is growing fast: adding hours exactly while the body changes fastest is the least sensible combination there is, as we explain in [the growth spurt in young female athletes](/en/blog/picco-di-crescita-giovani-atlete).
 
 Specialisation remains an independent factor even after adjusting for age and hours (OR 1.27; 95% CI 1.07-1.52 for injury; OR 1.36 for serious overuse injury), but the effect is smaller. Put practically: **the calendar matters more than the label**. A girl doing one sport for ten hours a week with two months off is in a different situation from one doing the same sport for twenty hours, twelve months a year, with zero unstructured play.
 
@@ -98,7 +100,7 @@ Among **youth** athletes the picture flips: those who were better as youngsters 
 
 The American Academy of Pediatrics is explicit: there is no evidence that specialising before puberty is necessary to reach elite status, and for most sports **late specialisation with early diversification** is the more likely route there ([Brenner and AAP, 2016, *Pediatrics*](https://doi.org/10.1542/peds.2016-2148)).
 
-One exception deserves naming, because it affects many girls: **figure skating, artistic gymnastics, rhythmic gymnastics and diving** may require earlier specialisation, since peak performance arrives before physical maturation. The AAP acknowledges this — and in the same paragraph adds that it is not known whether such a load is safe for long-term health, and that female athletes in these sports appear more exposed both to overuse injuries and to problems linked to [low energy availability](/blog/red-s-bassa-disponibilita-energetica) (Brenner and AAP, 2016). The exception, then, does not cancel the risk: it makes it more important to watch.
+One exception deserves naming, because it affects many girls: **figure skating, artistic gymnastics, rhythmic gymnastics and diving** may require earlier specialisation, since peak performance arrives before physical maturation. The AAP acknowledges this — and in the same paragraph adds that it is not known whether such a load is safe for long-term health, and that female athletes in these sports appear more exposed both to overuse injuries and to problems linked to [low energy availability](/en/blog/red-s-bassa-disponibilita-energetica) (Brenner and AAP, 2016). The exception, then, does not cancel the risk: it makes it more important to watch.
 
 ## What do paediatricians recommend about sport specialisation?
 
@@ -116,9 +118,9 @@ Two caveats. First: this is **consensus guidance**, not a trial-validated protoc
 
 **Yes: beyond injury, it is associated with a higher chance of quitting.** It is the part the injury numbers miss. Early specialisation is also associated with higher **burnout, anxiety and attrition**: the AAP lists these among the documented risks, alongside social isolation from peers who don't play the same sport (Brenner and AAP, 2016).
 
-And this is where it comes home. Among girls registered with a club at 10-14, 71% quit without ever returning: we covered it in our piece on [drop-out during puberty](/blog/abbandono-puberta). An athlete who at twelve has only one exit — that sport, that team, that identity — has no second door when something breaks. One who has played three sports has three. It isn't a metaphor: it is the difference between "I'll switch sports" and "I'm done".
+And this is where it comes home. Among girls registered with a club at 10-14, 71% quit without ever returning: we covered it in our piece on [drop-out during puberty](/en/blog/abbandono-puberta). An athlete who at twelve has only one exit — that sport, that team, that identity — has no second door when something breaks. One who has played three sports has three. It isn't a metaphor: it is the difference between "I'll switch sports" and "I'm done".
 
-And load never acts alone. A year without breaks stacks on top of [chronically short sleep](/blog/sonno-atlete-adolescenti), [insufficient energy availability](/blog/red-s-bassa-disponibilita-energetica), recurring pain nobody budgets for — from [low back pain](/blog/mal-di-schiena-giovani-atlete) to [period pain](/blog/dolori-mestruali-giovani-atlete), which costs sessions every month without appearing in any register — and rising demands in exactly the window when the body is changing: the same ground on which [ACL injury risk](/blog/crociato-giovani-atlete) rises. These are one problem seen from different angles.
+And load never acts alone. A year without breaks stacks on top of [chronically short sleep](/en/blog/sonno-atlete-adolescenti), [insufficient energy availability](/en/blog/red-s-bassa-disponibilita-energetica), recurring pain nobody budgets for — from [low back pain](/en/blog/mal-di-schiena-giovani-atlete) to [period pain](/en/blog/dolori-mestruali-giovani-atlete), which costs sessions every month without appearing in any register — and rising demands in exactly the window when the body is changing: the same ground on which [ACL injury risk](/en/blog/crociato-giovani-atlete) rises. These are one problem seen from different angles.
 
 ## What can clubs, coaches and families do?
 

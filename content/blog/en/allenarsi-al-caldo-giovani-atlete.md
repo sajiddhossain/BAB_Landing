@@ -79,7 +79,7 @@ If an athlete who has been training in heat is walking in an uncoordinated way, 
 
 - **Build acclimatization, don't assume it.** In the first week of summer preseason, shorter and less intense sessions than regular-season ones, increasing gradually day by day.
 - **A written heat plan, not just one for joint injuries.** Who recognizes the signs, who calls emergency services, where the shade is, where the water is — decided before it's needed, not improvised while it's needed.
-- **One adult responsible for "watching."** One in three heat illness events in surveillance data happened with no medical professional present: you don't need a doctor at every session, you need someone who can recognize confusion or uncoordinated movement and act immediately — the same principle behind [watching the sideline after a blow to the head](/blog/commozione-cerebrale-giovani-atlete).
+- **One adult responsible for "watching."** One in three heat illness events in surveillance data happened with no medical professional present: you don't need a doctor at every session, you need someone who can recognize confusion or uncoordinated movement and act immediately — the same principle behind [watching the sideline after a blow to the head](/en/blog/commozione-cerebrale-giovani-atlete).
 - **Watch the athletes coming off the couch, not just the new ones.** The highest risk is in the first days of intense exertion in heat, regardless of an athlete's prior sporting experience.
 - **Shade and water always visible, never on request.** An adolescent rarely asks for a break when everyone else keeps going: the break needs to be scheduled, not offered.
 

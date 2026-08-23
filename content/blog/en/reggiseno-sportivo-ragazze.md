@@ -50,9 +50,9 @@ Breast tissue **has no muscle holding it in place**: internal support is weak, s
 
 One necessary caveat: those centimetres are measured on **adult women**, not adolescents. No equivalent biomechanical data exists for 13- and 14-year-olds, and extrapolating would be wrong. The figure that speaks directly about them is different — self-reported, but large. Among **2,089 British girls aged 11-18**, **46%** reported their breasts had some effect on their participation in compulsory sport — **51% at exactly 13-14**, **63%** among those with larger cup sizes. **73%** reported at least one breast-specific concern in sport: the most common was **bounce** (38%), followed by embarrassment when changing (34%) (Scurr et al., 2016).
 
-Without proper support there's discomfort, and there's — just as important — **self-consciousness**: the fear of being watched leads many girls to cover up, avoid certain exercises, hang back. The silence around this topic doesn't protect anyone: it pushes girls away, exactly as it does with [the menstrual cycle](/blog/parlare-di-ciclo-con-allenatore).
+Without proper support there's discomfort, and there's — just as important — **self-consciousness**: the fear of being watched leads many girls to cover up, avoid certain exercises, hang back. The silence around this topic doesn't protect anyone: it pushes girls away, exactly as it does with [the menstrual cycle](/en/blog/parlare-di-ciclo-con-allenatore).
 
-The good news is that among the reasons [a girl leaves sport](/blog/abbandono-puberta), this is by far the easiest one to take off the table.
+The good news is that among the reasons [a girl leaves sport](/en/blog/abbandono-puberta), this is by far the easiest one to take off the table.
 
 ## At what age is a first sports bra needed?
 
@@ -68,7 +68,7 @@ A sports bra works on two measurements: the **band** (snug but not tight) and th
 - the **straps dig in** or hurt → they're too tight or carrying all the weight;
 - the breast **spills** over the edges → the cup is too small.
 
-Through the growing years the body changes often, so it's normal to **recheck the size every 6–12 months** and replace the bra when the elastic loosens and no longer supports. This is not a maintenance detail: breast development happens in the same window as the [growth spurt](/blog/picco-di-crescita-giovani-atlete), whose estimated mean age in young female athletes is **11.18 years**, with a 90% credible interval from 8.62 to 12.94 years (Lima et al., 2024). A size that fits in September may not fit by March.
+Through the growing years the body changes often, so it's normal to **recheck the size every 6–12 months** and replace the bra when the elastic loosens and no longer supports. This is not a maintenance detail: breast development happens in the same window as the [growth spurt](/en/blog/picco-di-crescita-giovani-atlete), whose estimated mean age in young female athletes is **11.18 years**, with a 90% credible interval from 8.62 to 12.94 years (Lima et al., 2024). A size that fits in September may not fit by March.
 
 And education here is not generic advice: it is a tested intervention. In a **cluster-randomised trial** of 115 adolescent athletes from four regional sporting academies (mean age 16), the group given an education booklet on bra fit and breast support by a sports physiotherapist had, at four months, improved their bra knowledge by **19% more** than controls (95% CI 14-25), and **39% more** of them passed the Bra Fit Assessment (95% CI 19-54) and **30% more** the Level of Breast Support test (95% CI 11-47). The authors are explicit on one point: baseline knowledge, fit and support were **all poor** (McGhee et al., 2010). One honest caveat: in the same trial, breast discomfort during exercise did not change significantly — the booklet improves what gets worn, not the symptom on its own.
 
@@ -104,7 +104,7 @@ It's rare to be able to say this so plainly. In a study of **787 girls aged 11-1
 
 The demand is there. It's the supply that's missing — and it's free.
 
-A changing chest should never be a reason to leave sport. With the right information and an environment that talks about it without judgement, it stays what it is: a piece of equipment. Which is, in the end, the point of [a coach's words](/blog/parole-allenatore-salute-atlete): naming something matter-of-factly is already half the work.
+A changing chest should never be a reason to leave sport. With the right information and an environment that talks about it without judgement, it stays what it is: a piece of equipment. Which is, in the end, the point of [a coach's words](/en/blog/parole-allenatore-salute-atlete): naming something matter-of-factly is already half the work.
 
 BAB helps adolescent athletes get to know and listen to their changing bodies, and gives parents and clubs the tools to support them the right way. So that no girl stops playing because she feels out of place.
 

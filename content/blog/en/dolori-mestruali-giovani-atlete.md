@@ -53,7 +53,7 @@ The usual caveat on age applies: that sample is made up of **young women under 2
 
 **Yes, and it is the most frequent menstrual cycle disorder among athletes.** A systematic review of **60 studies and 6,380 athletes** not using hormonal contraception found a dysmenorrhoea prevalence of **32.3%**, the highest of all the cycle disorders surveyed ([Taim et al., 2023, *Sports Medicine*](https://doi.org/10.1007/s40279-023-01871-8)). The range across individual studies is enormous — from 7.8% to 85.6% — and that is the most honest number to report: change the definition, change the questionnaire, change the sport, and the figure moves by a factor of ten. What the range does not allow you to say is that this is rare.
 
-Then there is the part nobody counts, because it leaves no trace in any injury register. Among **adolescents aged 10-18**, between **25.2% and 61.1%** avoid or reduce physical activity during menstruation, and the recurring reasons are not only pain: fear of leaks and embarrassment are in there too ([Harvey et al., 2025, *BMC Women's Health*](https://doi.org/10.1186/s12905-025-03825-w)). Those are lost training sessions that appear nowhere — the same silent mechanism we described writing about [the menstrual cycle and performance](/blog/ciclo-e-performance) and [why girls quit sport in adolescence](/blog/abbandono-puberta).
+Then there is the part nobody counts, because it leaves no trace in any injury register. Among **adolescents aged 10-18**, between **25.2% and 61.1%** avoid or reduce physical activity during menstruation, and the recurring reasons are not only pain: fear of leaks and embarrassment are in there too ([Harvey et al., 2025, *BMC Women's Health*](https://doi.org/10.1186/s12905-025-03825-w)). Those are lost training sessions that appear nowhere — the same silent mechanism we described writing about [the menstrual cycle and performance](/en/blog/ciclo-e-performance) and [why girls quit sport in adolescence](/en/blog/abbandono-puberta).
 
 ## How much period pain is "normal"?
 
@@ -61,7 +61,7 @@ The right question is not how much pain is normal, but **how much the pain is ta
 
 Medicine distinguishes two situations. In **primary dysmenorrhoea** — by far the most common form in adolescents — the pain arises from the physiology of menstruation itself, with no underlying pelvic pathology. In **secondary dysmenorrhoea** there is an identifiable cause, and in this age group the leading one is **endometriosis**. The American College of Obstetricians and Gynecologists document written specifically for adolescents sets a clear operational threshold: **when pain does not improve clinically within 3-6 months of starting therapy**, secondary causes should be investigated and adherence to treatment checked ([ACOG Committee Opinion No. 760, 2018](https://doi.org/10.1097/AOG.0000000000002978)).
 
-Why that threshold matters more than it looks: the sentence "it's just period pain, it passes" is exactly what turns a treatable symptom into years of living with it. It is the same normalisation mechanism that makes [low back pain](/blog/mal-di-schiena-giovani-atlete) and [knee pain](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) invisible in young female athletes — and it is worth remembering that in adolescence [pain is not simply "less serious" because the body is young](/blog/dolore-in-puberta-neuroscienza).
+Why that threshold matters more than it looks: the sentence "it's just period pain, it passes" is exactly what turns a treatable symptom into years of living with it. It is the same normalisation mechanism that makes [low back pain](/en/blog/mal-di-schiena-giovani-atlete) and [knee pain](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) invisible in young female athletes — and it is worth remembering that in adolescence [pain is not simply "less serious" because the body is young](/en/blog/dolore-in-puberta-neuroscienza).
 
 A necessary point of method: this article is not here to tell one form from the other. That is a clinician's job. It is here so that the distinction is known, and so that there is a moment at which waiting stops.
 
@@ -85,7 +85,7 @@ On **NSAIDs**, the Cochrane review of **80 randomised trials and 5,820 women** s
 
 **No — and the available evidence points the other way**: exercise sits among the studied treatments for menstrual pain, not among its risk factors. That does not mean a girl in pain must train regardless. It means the correct message is not "rest until it passes", but "moving, if you feel up to it, is probably part of the solution".
 
-The difference between those two sentences is enormous in practice. The first authorises skipping, and at 13-14 skipping repeatedly is often not a pause: it is the start of an exit, in a window when [girls leave sport more than their male peers do](/blog/abbandono-puberta). The second leaves the choice with the athlete, but removes the idea that her body, on those days, is out of order.
+The difference between those two sentences is enormous in practice. The first authorises skipping, and at 13-14 skipping repeatedly is often not a pause: it is the start of an exit, in a window when [girls leave sport more than their male peers do](/en/blog/abbandono-puberta). The second leaves the choice with the athlete, but removes the idea that her body, on those days, is out of order.
 
 One last caveat, for completeness: if menstrual pain is severe enough to prevent normal activities, the answer is neither "grit your teeth" nor "just rest" — it is to have it assessed.
 
@@ -93,9 +93,9 @@ One last caveat, for completeness: if menstrual pain is severe enough to prevent
 
 Nothing clinical. Three practical things, all free:
 
-- **Make the topic sayable.** Today only **11%** of athletes discuss the menstrual cycle with their coach — **4%** if the coach is a man ([Höök et al., 2022](https://doi.org/10.3390/ijerph191911932)). A few words said once and honoured in practice are enough: "this can be talked about here, and nobody is judged for it". We wrote about it at length in [talking about periods with your coach](/blog/parlare-di-ciclo-con-allenatore).
-- **Guarantee the practical conditions.** Toilet access, menstrual products available in the changing room, privacy when changing, and the option to adapt a single session without having to justify it in front of the group — [the practical management of periods in sport](/blog/gestire-ciclo-nello-sport) is made of these organisational choices, not protocols.
-- **Never turn pain into a judgement.** "That's an excuse", "you're all like this", "in my day" are sentences that cost athletes. [A coach's words](/blog/parole-allenatore-salute-atlete) stay with a girl far longer than a missed session.
+- **Make the topic sayable.** Today only **11%** of athletes discuss the menstrual cycle with their coach — **4%** if the coach is a man ([Höök et al., 2022](https://doi.org/10.3390/ijerph191911932)). A few words said once and honoured in practice are enough: "this can be talked about here, and nobody is judged for it". We wrote about it at length in [talking about periods with your coach](/en/blog/parlare-di-ciclo-con-allenatore).
+- **Guarantee the practical conditions.** Toilet access, menstrual products available in the changing room, privacy when changing, and the option to adapt a single session without having to justify it in front of the group — [the practical management of periods in sport](/en/blog/gestire-ciclo-nello-sport) is made of these organisational choices, not protocols.
+- **Never turn pain into a judgement.** "That's an excuse", "you're all like this", "in my day" are sentences that cost athletes. [A coach's words](/en/blog/parole-allenatore-salute-atlete) stay with a girl far longer than a missed session.
 
 And one thing **not** to do: ask for diagnoses, details or dates. Staff do not need an individual athlete's clinical data — they need to know how to dose today's session.
 

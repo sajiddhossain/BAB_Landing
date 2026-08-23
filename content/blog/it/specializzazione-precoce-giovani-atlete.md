@@ -4,7 +4,7 @@ title: "Specializzazione precoce: un solo sport tutto l'anno, e cosa costa davve
 seoTitle: "Specializzazione precoce nello sport: i costi reali"
 seoDescription: "Un solo sport tutto l'anno costa infortuni, non vantaggio competitivo: fra 219 atlete di 13-18 anni le altamente specializzate si infortunano di più."
 date: 2026-07-26
-updated: 2026-08-13
+updated: 2026-08-23
 author: Sajid Hossain
 excerpt: "Tra le atlete di 13-18 anni, chi è altamente specializzata in un solo sport ha 2,93 volte le probabilità di aver avuto un infortunio. Allenarsi più ore a settimana dei propri anni d'età raddoppia il rischio di infortunio grave da sovraccarico. E gli atleti che arrivano davvero in cima hanno iniziato il loro sport principale più tardi, non prima. I dati, i limiti dei dati, e le tre domande che dicono se una ragazza è già specializzata."
 answer: "Costa infortuni, non vantaggio competitivo: tra 219 atlete di 13-18 anni le altamente specializzate riferivano una storia di infortuni 2,93 volte più spesso delle poco specializzate (Okoruwa et al., 2022), e allenarsi più ore a settimana dei propri anni d'età raddoppia le probabilità di un infortunio grave da sovraccarico (Jayanthi et al., 2015)."
@@ -76,6 +76,8 @@ Sul quadro complessivo, la sintesi più solida è una meta-analisi pubblicata su
 
 - Chi pratica **più ore di sport organizzato a settimana dei propri anni d'età** ha **2,07 volte** le probabilità di un infortunio grave da sovraccarico (IC 95% 1,40-3,05; p<0,001). A 13 anni: più di 13 ore.
 - Chi ha un rapporto **sport organizzato : gioco libero superiore a 2:1** ha **1,87 volte** quelle probabilità (IC 95% 1,26-2,76; p<0,01).
+
+Dove quel volume si scarica dipende dalla disciplina, e in due casi la letteratura è abbastanza precisa da poterlo dire: negli sport overhead — pallavolo, nuoto, pallamano — il conto arriva sulla [spalla che cresce](/blog/dolore-spalla-giovani-atlete), e negli sport di scatto e cambio di direzione sull'[inguine e sulle apofisi del bacino](/blog/dolore-inguine-giovani-atlete). Sono le due sedi in cui «un solo sport tutto l'anno» smette di essere una scelta organizzativa e diventa un carico ripetuto sempre sullo stesso punto.
 
 C'è un momento in cui quel calendario andrebbe riletto da capo, ed è il trimestre in cui un'atleta cresce in fretta: aggiungere ore proprio mentre il corpo cambia più rapidamente è la combinazione meno sensata che ci sia, come spieghiamo in [picco di crescita nelle giovani atlete](/blog/picco-di-crescita-giovani-atlete).
 

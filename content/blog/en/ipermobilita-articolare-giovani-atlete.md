@@ -1,0 +1,142 @@
+---
+slug: ipermobilita-articolare-giovani-atlete
+title: "Joint hypermobility: is being «bendy» a gift or a risk?"
+seoTitle: "Joint hypermobility in young female athletes"
+seoDescription: "A thumb that touches the forearm is neither a talent nor a diagnosis. At 14 the Beighton cut-off is higher than an adult's — here is what the data actually say."
+date: 2026-08-23
+updated: 2026-08-23
+author: Sajid Hossain
+excerpt: "In dance and gymnastics a joint that goes «beyond» is read as a gift; in the gym, as fragility. The data back neither reading. The Beighton score measures a common characteristic — almost twice as common in girls as in boys — whose cut-off changes with age, and whose link with pain and injury is real but far narrower and more specific than the sideline version of it. What actually raises the risk, what does not raise it at all, and why «bendy» does not mean «weak»."
+answer: "Neither, in itself: it is a common characteristic. In a meta-analysis of 21,145 children and adolescents the prevalence is 34.1%, and in girls it is almost double that in boys (32.5% vs 18.1%; Sobhani-Eraghi et al., 2020). The added risk is specific — the knee in contact sports — not general (Pacey et al., 2010)."
+cover: /fotobab/cover-ipermobilita-articolare.jpg
+coverAlt: "A ballet dancer's legs and pointe shoes in a bright dance studio, framed from the knee down"
+tags:
+  - joint-hypermobility
+  - beighton
+  - prevention
+  - puberty
+faq:
+  - q: "What is joint hypermobility?"
+    a: "It is the ability of some joints to move beyond the range considered normal. When it involves several joints across the body it is called generalised joint hypermobility, and it is measured with the Beighton score: nine points in total, awarded for a little finger that extends beyond 90°, a thumb that rests against the forearm, an elbow and a knee that go past 10° of hyperextension (one point per side) and a trunk that bends with the palms flat on the floor and knees straight (Beighton et al., 1973). It is not a disease and not a diagnosis: it is a characteristic, which in some people comes with symptoms and in most does not."
+  - q: "How many girls are hypermobile?"
+    a: "More than you would expect, and more than boys. A meta-analysis of 20 studies and 21,145 participants aged 3-19 estimates an overall prevalence of 34.1% (95% CI 33.3-34.8), with 32.5% in girls against 18.1% in boys, and figures that fall with age (Sobhani-Eraghi et al., 2020). The authors declare high heterogeneity between studies: the number describes an order of magnitude, not a precise measurement. In the UK ALSPAC cohort, among 6,022 fourteen-year-olds assessed, hypermobility at a threshold of more than 4 points involved 27.5% of the girls and 10.6% of the boys (Clinch et al., 2011)."
+  - q: "At 13, is the Beighton cut-off the same as an adult's?"
+    a: "No, and this is the commonest mistake. The 2017 international classification of the Ehlers-Danlos syndromes sets age-specific cut-offs: ≥6 out of 9 in prepubertal children, ≥5 in pubertal people and adults up to 50, ≥4 after 50 (Malfait et al., 2017). The reason is that joint mobility is physiologically greater in childhood and decreases with growth: applying an adult's cut-off to a thirteen-year-old means labelling as «hypermobile» girls who are entirely normal for their age. In a study of 551 Dutch children aged 6-12, more than 35% scored above 5 out of 9 and 9.1% reached 7 or more (Smits-Engelsman et al., 2011)."
+  - q: "Does hypermobility cause pain?"
+    a: "It raises the probability of some pains, slightly, and in specific sites. In the strongest prospective study in this age band — 2,901 boys and girls from the ALSPAC cohort, hypermobility assessed at 13.8 years and pain recorded at 17.8 — those who were hypermobile at 14 were more likely at 18 to report shoulder pain (OR 1.68; 95% CI 1.04-2.72), knee pain (OR 1.83; 95% CI 1.10-3.02) and ankle or foot pain (OR 1.82; 95% CI 1.05-3.16), but not back or neck pain (Tobias et al., 2013). These are modest increases on an already low baseline risk: most hypermobile girls will not develop those pains."
+  - q: "Does hypermobility increase injury risk in sport?"
+    a: "Only in one specific situation. The reference meta-analysis, 18 studies selected out of 4,841 screened, found an increased risk of knee injury in contact sports — pooled odds ratio 4.69 (95% CI 1.33-16.52) — and no increased risk at the ankle (Pacey et al., 2010). The confidence interval is very wide: the direction is clear, the size of the effect is not. And in other settings the association is not found at all: in a prospective study of 185 pre-professional contemporary dancers followed for an academic year, hypermobility and injuries were both very frequent but not associated with each other (van Rijn and Stubbe, 2021)."
+  - q: "Why are there more hypermobile athletes in dance and gymnastics?"
+    a: "Because those sports select for it, not because they create it — at least as far as the available cross-sectional data can say. In 132 elite adolescent athletes (96 girls, mean age 14.0) the prevalence of hypermobility at a ≥4 cut-off was 27.3% overall, but rose to 68.2% in the ballet dancers and 24.6% in the TeamGym gymnasts against 13.2% in the handball players (Schmidt et al., 2017). A joint that goes beyond makes the aesthetics of the movement easier: it is plausible that those who have it stay, and those who do not move to other sports."
+  - q: "Is a hypermobile girl weaker?"
+    a: "No, and the data run against the assumption. In a study of 62 healthy adolescents aged 12-21 (mean age 16.8), those with asymptomatic generalised hypermobility showed greater knee extensor strength than their non-hypermobile peers, with no differences in the other indicators of physical function or in activity level (Van Meulenbroek et al., 2021). The sample is small and cross-sectional: it does not prove hypermobility makes you stronger, but it dismantles the idea that «bendy» automatically means fragile or hard to train."
+  - q: "What changes in training if an athlete is hypermobile?"
+    a: "What changes is where the attention goes, not how much she is allowed to train. The practical implications follow the risk picture: the only robust association concerns the knee in contact sports (Pacey et al., 2010), so it makes sense to work on knee control in landing and change of direction — the same neuromuscular work done for anterior cruciate ligament prevention, which has its own evidence in young female athletes. What makes little sense is removing load or excusing her from strength training: in the only study that measured it, asymptomatic hypermobile adolescents were not weaker (Van Meulenbroek et al., 2021)."
+  - q: "When should a hypermobile athlete be assessed?"
+    a: "When hypermobility stops being just a characteristic and starts bringing symptoms with it: joint pain that recurs in several sites, repeated episodes of giving way, subluxation or sprain, fatigue out of proportion to the training load, or difficulty holding a working posture without pain. These are the pictures the 2017 international classification groups under hypermobility spectrum disorders and hypermobile Ehlers-Danlos syndrome, whose diagnosis requires specific criteria and a healthcare professional (Malfait et al., 2017). A high Beighton score with no symptoms is not, on its own, a diagnosis and requires nothing."
+---
+
+There are two sentences you hear on the sidelines, and they say the same thing in opposite ways. The first is "look how bendy she is, she's a natural." The second is "she's too lax, she'll get hurt." Both start from the same observation — a joint that goes past the point where other people's stop — and end in two different fates: a promotion or a label.
+
+The data support neither reading. They support something more useful and more boring: that joint hypermobility is **very common**, that in girls it is **almost twice** as common as in boys, and that the extra risk it carries is **specific**, not general.
+
+> **Key points**
+> - In a meta-analysis of 20 studies and **21,145** participants aged 3-19 the prevalence of hypermobility is **34.1%**: **32.5%** in girls against **18.1%** in boys (Sobhani-Eraghi et al., 2020; **high heterogeneity declared by the authors**).
+> - The Beighton cut-off **changes with age**: **≥6** in prepubertal children, **≥5** in pubertal people and adults up to 50, **≥4** after 50 (Malfait et al., 2017).
+> - In the ALSPAC cohort, hypermobility at 13.8 years and pain at 17.8 years in **2,901** participants: more pain at the **shoulder** (OR 1.68), **knee** (OR 1.83) and **ankle/foot** (OR 1.82), **not** at the back or neck (Tobias et al., 2013).
+> - In sport the increased risk concerns the **knee in contact sports** (pooled OR **4.69**, 95% CI 1.33-16.52) and **not** the ankle (Pacey et al., 2010; **very wide confidence interval**).
+> - Among **132 elite athletes aged 14**, hypermobility (≥4 cut-off) reaches **68.2%** in ballet dancers against **13.2%** in handball players (Schmidt et al., 2017).
+> - Adolescents with **asymptomatic** hypermobility are not weaker: they had greater knee extensor strength than non-hypermobile peers (Van Meulenbroek et al., 2021; **62 participants, cross-sectional study**).
+
+## What is joint hypermobility and how is it measured?
+
+**It is a greater-than-normal range of motion across several joints, and it is measured with nine points.** The Beighton score comes from a 1973 study of **1,081 Tswana people** in South Africa, which already found greater mobility in females and a decline with age ([Beighton et al., 1973](https://doi.org/10.1136/ard.32.5.413)). It went on to become the standard tool, and its simplicity is why it has survived fifty years:
+
+| Manoeuvre | Points |
+| --- | --- |
+| Little finger extending beyond 90° | 1 per side |
+| Thumb resting against the forearm | 1 per side |
+| Elbow hyperextending beyond 10° | 1 per side |
+| Knee hyperextending beyond 10° | 1 per side |
+| Trunk bending with palms on the floor, knees straight | 1 |
+
+Nine points in total. What the score does **not** say matters just as much: it does not measure pain, it does not measure stability under load, it does not measure strength, and it does not distinguish a joint that is mobile and well controlled from one that is mobile and uncontrolled. It is a range-of-motion test, and it should be read as one.
+
+## How many girls are hypermobile?
+
+**Roughly one in three, and almost twice as many as boys the same age.** The broadest estimate available is a meta-analysis of **20 studies and 21,145 participants** aged 3-19: overall prevalence **34.1%** (95% CI 33.3-34.8), **32.5%** in girls (95% CI 31.4-33.7) and **18.1%** in boys (95% CI 17.2-19.1), with lower figures as age rises ([Sobhani-Eraghi et al., 2020](https://doi.org/10.4103/jrms.JRMS_983_19)). The authors declare high heterogeneity and statistically significant publication bias: the figure should be read as an order of magnitude.
+
+Confirmation in the age band that matters here comes from a UK population study of **6,022 fourteen-year-olds** in the ALSPAC cohort: with a threshold above 4 points out of 9, hypermobility involved **27.5%** of the girls and **10.6%** of the boys ([Clinch et al., 2011](https://doi.org/10.1002/art.30435)).
+
+The first practical message is already here. If in a squad of fifteen girls four or five have a thumb that touches the forearm, **that is not an anomaly in the squad**: it is the normal distribution of that characteristic at that age.
+
+## Why is the cut-off at 13 different from an adult's?
+
+**Because joint mobility is physiologically greater in childhood and decreases with growth — and the cut-off has been adjusted accordingly.** The 2017 international classification of the Ehlers-Danlos syndromes, the current reference document, sets different cut-offs by life stage: **≥6 out of 9 in prepubertal children**, **≥5 in pubertal people and adults up to 50**, **≥4 over 50** ([Malfait et al., 2017](https://doi.org/10.1002/ajmg.c.31552)).
+
+How much this distinction matters is shown well by a Dutch study of **551 children aged 6-12** assessed with a goniometer by physiotherapists: **more than 35%** scored above 5 out of 9, and **9.1%** reached 7 or more ([Smits-Engelsman et al., 2011](https://doi.org/10.1016/j.jpeds.2010.07.021)). With an adult cut-off, a third of those children would have been classified as "hypermobile". With the cut-off for their age, the share collapses.
+
+This is why a number read without an age beside it means nothing. It holds here exactly as it holds for [maturation stages around the growth spurt](/en/blog/picco-di-crescita-giovani-atlete): the same measurement, in two bodies of different ages, does not describe the same thing.
+
+## Does hypermobility cause pain?
+
+**It raises the probability of some pains, slightly, and in specific sites.** The best study on this question is prospective rather than cross-sectional, and that changes the weight of the answer: in the ALSPAC cohort hypermobility was measured at **13.8 years** and pain was recorded **four years later**, at 17.8, in **2,901 participants** (1,634 girls and 1,267 boys). Those hypermobile at 14 more often reported, at 18, pain at the **shoulder** (OR 1.68; 95% CI 1.04-2.72), the **knee** (OR 1.83; 95% CI 1.10-3.02) and the **ankle or foot** (OR 1.82; 95% CI 1.05-3.16) — while for [back pain](/en/blog/mal-di-schiena-giovani-atlete) and the neck there was no association ([Tobias et al., 2013](https://doi.org/10.1002/art.37836)).
+
+Two clarifications keep the number from being overstated. First: these are **odds ratios below 2** on a modest baseline risk — knee pain at 17.8 concerned 8.8% of the sample — so the vast majority of hypermobile girls will not develop those pains. Second: in the same study the association with knee pain was far stronger in **obese** participants (OR 11.01) than in non-obese ones (OR 1.57), with a statistically significant interaction (p=0.037). It is not hypermobility on its own: it is hypermobility **plus the load that joint has to carry**.
+
+## Does hypermobility increase injury risk?
+
+**Yes, but in a single documented scenario: the knee in contact sports.** The reference meta-analysis screened **4,841 studies** and included **18**: in hypermobile participants the risk of **knee** injury in contact sports was increased, with a pooled odds ratio of **4.69** (95% CI 1.33-16.52; p=0.02), while for the **ankle there was no increased risk** ([Pacey et al., 2010](https://doi.org/10.1177/0363546510364838)).
+
+That confidence interval — from 1.33 to 16.52 — deserves to be looked at squarely: it says the effect exists, and that its true size remains very uncertain. Anyone quoting "five times the risk" is picking one point inside an interval that runs from "a little" to "a great deal".
+
+And there is the other side, which deserves the same billing. A prospective study of **185 pre-professional contemporary dancers** (mean age 19.1), followed with monthly questionnaires for a full academic year, found very high injury incidence — **67.6%** for all reported injuries, **54.6%** for time-loss injuries — and no association between hypermobility and injury ([van Rijn and Stubbe, 2021](https://doi.org/10.3390/jcm10051007)). These are **young adults**, not thirteen-year-olds, but the methodological message holds: in a population where everyone gets injured, hypermobility is not what separates those who do from those who don't.
+
+The defensible summary is therefore narrow: **the knee in contact**, and beyond that no evidence of generalised fragility. Which is very different from how "she's too lax" gets used on the sideline.
+
+## Why are there more hypermobile athletes in dance and gymnastics?
+
+**Because those sports select for it.** In a study of **132 elite adolescent athletes** — 96 girls and 36 boys, mean age **14.0** — split across 22 ballet dancers, 57 TeamGym gymnasts and 53 handball players, the overall prevalence of hypermobility was **27.3%** at a ≥4 cut-off, **15.9%** at ≥5 and **6.8%** at ≥6. But the distribution across disciplines was anything but uniform: **68.2%** in the ballet dancers and **24.6%** in the gymnasts, against **13.2%** in the handball players ([Schmidt et al., 2017](https://doi.org/10.2519/jospt.2017.7682)).
+
+The study is cross-sectional, so it cannot say whether dance makes people hypermobile or hypermobile people end up in dance. The simpler hypothesis is the second: a wide range of motion makes the positions that discipline demands easier, and at eleven or twelve those who reach them effortlessly get encouragement, stay, and are selected.
+
+This has a concrete consequence for coaches. In a dance class, a "≥4" cut-off does not single out a particular subgroup: **it singles out two-thirds of the room**. Using hypermobility as an alarm criterion where it is the norm signals nothing; what deserves attention instead are the **symptoms**, which are a different measurement.
+
+## Is a hypermobile girl weaker?
+
+**In the only study that measured it directly, no: she was stronger.** Among **62 healthy adolescents aged 12-21** (mean age 16.8), those with **asymptomatic** generalised hypermobility had **greater knee extensor strength** than non-hypermobile peers, with no differences in the other indicators of physical function — single-leg hop performance, accelerometer-measured physical activity — and no stronger impact of perceived harmfulness of movement ([Van Meulenbroek et al., 2021](https://doi.org/10.1080/09593985.2019.1709231)).
+
+The sample is small and the design cross-sectional: this is not proof that hypermobility makes you strong. It is enough, though, to dismantle the automatic inference you hear most often — that a mobile joint must be a fragile joint, to be protected by taking work away. In practice that does the opposite of what is needed: it removes precisely the [strength work](/en/blog/forza-ragazze-adolescenti) that builds control around that range of motion.
+
+## What actually changes in training?
+
+Three implications, all read directly off the data — and none requiring clinical expertise.
+
+**Watch the knee, not the whole body.** The only robust association concerns the knee in contact sports ([Pacey et al., 2010](https://doi.org/10.1177/0363546510364838)), and the ALSPAC cohort finds it again as a site of pain four years later ([Tobias et al., 2013](https://doi.org/10.1002/art.37836)). It is the same target as the neuromuscular work done for [anterior cruciate ligament prevention](/en/blog/crociato-giovani-atlete): landing control, change of direction, posterior chain strength. A hypermobile athlete does not need a new programme; she needs you not to skip the one you would run anyway.
+
+**Do not take strength away.** Adolescents with asymptomatic hypermobility are not less strong ([Van Meulenbroek et al., 2021](https://doi.org/10.1080/09593985.2019.1709231)), and a wide range of motion without active control is exactly the combination worth avoiding. Excusing an athlete from strength work "because she's lax" removes the useful part and leaves the problematic one intact.
+
+**Separate the characteristic from the symptoms.** A high Beighton score in a girl who feels fine requires nothing: no test, no monitoring, no note in the club's file. Recurring pain, giving way, repeated sprains or fatigue out of proportion to the load are another story, and belong with a healthcare professional.
+
+One note on language is worth adding, because it recurs across this site: "too lax" is a phrase that describes a body as defective. [The words used to name a growing body](/en/blog/parole-allenatore-salute-atlete) are not neutral — and here they would also be inaccurate.
+
+## When should an athlete be assessed?
+
+When hypermobility **brings symptoms with it**. The 2017 international classification groups those pictures under **hypermobility spectrum disorders** and **hypermobile Ehlers-Danlos syndrome**, whose diagnosis requires precise criteria and does not stop at the Beighton score ([Malfait et al., 2017](https://doi.org/10.1002/ajmg.c.31552)).
+
+The signals that warrant an assessment, without alarm: recurring joint pain in several sites, repeated episodes of giving way, subluxation or [sprain](/en/blog/distorsione-caviglia-giovani-atlete), fatigue out of proportion to the training load, persistent difficulty holding a posture without pain. None of these is a diagnosis on its own. Together they are a good reason for someone to look at that athlete's whole story, rather than at nine points on a scale.
+
+## Sources
+
+- Beighton P., Solomon L., Soskolne C.L. **Articular mobility in an African population.** *Annals of the Rheumatic Diseases*, 1973;32(5):413-418. (population study of 1,081 Tswana people in South Africa; **non-athletic adult and paediatric population**; describes the nine-point system that became the standard; greater mobility in females and declining with age) [doi:10.1136/ard.32.5.413](https://doi.org/10.1136/ard.32.5.413)
+- Malfait F., Francomano C., Byers P., Belmont J., Berglund B., Black J., et al. **The 2017 international classification of the Ehlers-Danlos syndromes.** *American Journal of Medical Genetics Part C: Seminars in Medical Genetics*, 2017;175(1):8-26. (**international consensus document**, not a study: 13 recognised subtypes; age-differentiated Beighton cut-offs for generalised joint hypermobility — ≥6 in prepubertal children, ≥5 in pubertal people and adults up to 50, ≥4 over 50) [doi:10.1002/ajmg.c.31552](https://doi.org/10.1002/ajmg.c.31552)
+- Sobhani-Eraghi A., Motalebi M., Sarreshtehdari S., Molazem-Sanandaji B., Hasanlu Z. **Prevalence of joint hypermobility in children and adolescents: A systematic review and meta-analysis.** *Journal of Research in Medical Sciences*, 2020;25:104. (meta-analysis of 20 studies and **21,145 participants** aged 3-19; overall prevalence 34.1%, 95% CI 33.3-34.8; girls 32.5%, 95% CI 31.4-33.7; boys 18.1%, 95% CI 17.2-19.1; prevalence declining with age; **high heterogeneity and statistically significant publication bias declared by the authors**) [doi:10.4103/jrms.JRMS_983_19](https://doi.org/10.4103/jrms.JRMS_983_19)
+- Clinch J., Deere K., Sayers A., Palmer S., Riddoch C., Tobias J.H., Clark E.M. **Epidemiology of generalized joint laxity (hypermobility) in fourteen-year-old children from the UK: a population-based evaluation.** *Arthritis & Rheumatism*, 2011;63(9):2819-2827. (population study in the ALSPAC cohort, **6,022 fourteen-year-olds**, mean age 13.8; at a threshold above 4 points out of 9, hypermobility involved 27.5% of girls and 10.6% of boys) [doi:10.1002/art.30435](https://doi.org/10.1002/art.30435)
+- Tobias J.H., Deere K., Palmer S., Clark E.M., Clinch J. **Joint hypermobility is a risk factor for musculoskeletal pain during adolescence: findings of a prospective cohort study.** *Arthritis & Rheumatism*, 2013;65(4):1107-1115. (**prospective** ALSPAC cohort, 2,901 participants — 1,634 girls and 1,267 boys; hypermobility measured at 13.8 years, present in 4.6%; pain recorded at 17.8 years; associations with shoulder pain OR 1.68, 95% CI 1.04-2.72, knee OR 1.83, 95% CI 1.10-3.02, ankle/foot OR 1.82, 95% CI 1.05-3.16; **no association with back and neck**; interaction with obesity for knee pain — OR 11.01 in obese vs 1.57 in non-obese, p=0.037; pain prevalence at 17.8: lower back 16.1%, shoulder 9.5%, upper back 8.9%, knee 8.8%, neck 8.6%, ankle/foot 6.8%) [doi:10.1002/art.37836](https://doi.org/10.1002/art.37836)
+- Pacey V., Nicholson L.L., Adams R.D., Munn J., Munns C.F. **Generalized joint hypermobility and risk of lower limb joint injury during sport: a systematic review with meta-analysis.** *American Journal of Sports Medicine*, 2010;38(7):1487-1497. (systematic review with meta-analysis: 4,841 studies screened, **18 included**, methodological quality from 1/6 to 5/6; increased risk of knee injury in **contact sports**, pooled odds ratio 4.69, 95% CI 1.33-16.52, p=0.02 — **very wide confidence interval**; **no increased risk at the ankle**; populations mixed for age and sex) [doi:10.1177/0363546510364838](https://doi.org/10.1177/0363546510364838)
+- Schmidt H., Pedersen T.L., Junge T., Engelbert R., Juul-Kristensen B. **Hypermobility in adolescent athletes: pain, functional ability, quality of life, and musculoskeletal injuries.** *Journal of Orthopaedic & Sports Physical Therapy*, 2017;47(10):774-782. (**cross-sectional** study of 132 elite adolescent athletes — 96 girls and 36 boys, mean age 14.0 ± 0.9; 22 ballet dancers, 57 TeamGym gymnasts, 53 handball players; hypermobility prevalence 27.3% at ≥4, 15.9% at ≥5, 6.8% at ≥6; by discipline: ballet dancers 68.2%, gymnasts 24.6%, handball 13.2%) [doi:10.2519/jospt.2017.7682](https://doi.org/10.2519/jospt.2017.7682)
+- Smits-Engelsman B., Klerks M., Kirby A. **Beighton score: a valid measure for generalized hypermobility in children.** *The Journal of Pediatrics*, 2011;158(1):119-123. (551 Dutch primary school children, **aged 6-12**, 47% boys and 53% girls, assessed with goniometry by physiotherapists; more than 35% scored above 5 out of 9 and 9.1% reached 7 or more; the score is valid for measuring generalised joint mobility in this age band) [doi:10.1016/j.jpeds.2010.07.021](https://doi.org/10.1016/j.jpeds.2010.07.021)
+- van Rijn R.M., Stubbe J.H. **Generalized joint hypermobility and injuries: a prospective cohort study of 185 pre-professional contemporary dancers.** *Journal of Clinical Medicine*, 2021;10(5):1007. (**prospective** cohort of 185 pre-professional contemporary dancers, mean age **19.1 ± 1.3 — YOUNG ADULTS, not adolescents**; monthly OSTRC questionnaires over an academic year; one-year injury incidence proportion 67.6% for all reported injuries, 43.2% for substantial injuries, 54.6% for time-loss injuries; **hypermobility and injuries not associated** at any Beighton cut-off tested) [doi:10.3390/jcm10051007](https://doi.org/10.3390/jcm10051007)
+- Van Meulenbroek T., Huijnen I., Stappers N., Engelbert R., Verbunt J. **Generalized joint hypermobility and perceived harmfulness in healthy adolescents; impact on muscle strength, motor performance and physical activity level.** *Physiotherapy Theory and Practice*, 2021;37(12):1438-1447. (**cross-sectional** study of 62 healthy adolescents aged 12-21, mean age 16.8; hypermobility by Beighton score, strength by dynamometry, motor performance by single-leg hop for distance, physical activity by accelerometry; those with **asymptomatic** hypermobility showed **greater** knee extensor strength than controls, with no other differences in physical function; **small sample, cross-sectional design**) [doi:10.1080/09593985.2019.1709231](https://doi.org/10.1080/09593985.2019.1709231)
+
+*This article is for information only and does not constitute medical advice or a clinical assessment. A high Beighton score is not a diagnosis. Joint pain that recurs in several sites, repeated episodes of giving way or subluxation, repeated sprains, or fatigue out of proportion to the training load should be assessed by a healthcare professional.*

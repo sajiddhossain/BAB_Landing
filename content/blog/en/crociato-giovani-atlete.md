@@ -4,7 +4,7 @@ title: "ACL injuries in young female athletes: why the risk is higher, and the 2
 seoTitle: "ACL injuries in young female athletes"
 seoDescription: "In high-school sport girls sustain 1.40 times the ACL ruptures of male peers. What puberty changes, and the 20 minutes that cut the risk."
 date: 2026-07-21
-updated: 2026-08-16
+updated: 2026-08-23
 author: Sajid Hossain
 excerpt: "In high-school sport, girls tear their ACL 1.4 times as often as boys — and over four times as often in basketball. A neuromuscular warm-up cuts that risk by roughly 60% in 13-19 year-old athletes, costs twenty minutes twice a week, and almost no team actually does it. The evidence, and what changes on Monday."
 answer: "Because the gap opens with puberty, not with playing level: in high-school sport girls sustain 1.40 times the ACL ruptures of male peers, and up to 4.14 times in basketball (Bram et al., 2021). Twenty minutes of neuromuscular training twice a week cuts the risk by roughly 60% among athletes aged 13-19 (Petushek et al., 2019)."
@@ -31,6 +31,8 @@ faq:
     a: "The gap with male peers depends almost entirely on the sport. In US high school sport the overall ratio is 1.40 (95% CI 1.25-1.57), but in basketball it rises to 4.14 (95% CI 2.98-5.76); the highest absolute rate of all, however, is in girls' football, at 0.166 tears per 1,000 exposures (Bram et al., 2021). In plain terms: basketball is where the difference between girls and boys is starkest, girls' football is where it happens most often in absolute terms. In both cases the lever is the same — a neuromuscular warm-up done consistently."
   - q: "After an ACL reconstruction, how high is the risk of a second injury?"
     a: "High enough to change how the return is managed: among athletes under 25 who return to sport after a reconstruction, 23% sustain a second ACL injury (Wiggins et al., 2016 — athletes of both sexes). That is why going back on the pitch is not decided by the calendar, and not by the athlete on her own: timing and criteria belong to the clinician treating her. It is also why prevention matters earlier — the second injury is far easier to avoid by not having the first."
+  - q: "Is a very bendy athlete at higher risk of an ACL tear?"
+    a: "There is an added risk, it concerns the knee, and it concerns contact sports — but its size remains uncertain. In the reference meta-analysis on joint hypermobility — 4,841 studies screened, 18 included — hypermobile participants had an increased risk of knee injury in contact sports, with a pooled odds ratio of 4.69 and a 95% confidence interval running from 1.33 to 16.52 (Pacey et al., 2010). That interval says the effect exists and could be small or very large; the included populations are also mixed for age and sex. The practical consequence does not change: landing and change-of-direction control work should be done, not suspended."
 ---
 
 The anterior cruciate ligament is the single injury most likely to change a girl's sporting trajectory: months out, surgery in most cases, and a return that is never guaranteed. The part that gets told least is that **the risk is neither randomly distributed nor fixed**: there is a warm-up with solid evidence behind it that cuts risk by roughly 60% in teenage athletes, costs twenty minutes twice a week, and almost no team actually does it.
@@ -52,11 +54,13 @@ An average, though, hides more than it shows. The same work finds the gap is alm
 
 Here the common explanation — "it's female anatomy" — is not enough, because the anatomy is there at 8 too, when the gap is not. What changes in between is puberty.
 
-That puberty, though, is not a date: it is a phase with a speed of its own, and the moment the body changes fastest has a name — [peak height velocity](/blog/picco-di-crescita-giovani-atlete). That is when levers lengthen and landing changes, and it is the reason the neuromuscular warm-up should not be dropped in exactly the years an athlete grows most.
+That puberty, though, is not a date: it is a phase with a speed of its own, and the moment the body changes fastest has a name — [peak height velocity](/en/blog/picco-di-crescita-giovani-atlete). That is when levers lengthen and landing changes, and it is the reason the neuromuscular warm-up should not be dropped in exactly the years an athlete grows most.
 
 A longitudinal study of **315 young athletes**, retested a year apart, measured how they land from a jump: in the pubertal group **girls increased their peak knee abduction** (the inward collapse known as dynamic valgus) from one year to the next (p<0.001), while their male peers did not change at all (p=0.90). After puberty the distance is stark: **-9.3° in girls versus -3.6° in boys** (p<0.001), with abduction moments nearly double (-21.9 Nm vs -13.0 Nm; p=0.017) (Ford et al., 2010).
 
-The physiological reading is the one that runs through nearly every topic on these pages: **the body grows faster than neuromuscular control can adapt.** It is the same reason [pain changes in nature during this phase](/blog/dolore-in-puberta-neuroscienza) and why [load should follow pubertal stage, not the date on an ID card](/blog/allenare-ragazze-adolescenti). With one important difference: here the window of risk is also the window in which training works best.
+There is also a characteristic that adds to this, and that gets read backwards on the sideline. In the reference meta-analysis on [joint hypermobility](/en/blog/ipermobilita-articolare-giovani-atlete) — 18 studies selected out of 4,841 screened — the risk of **knee injury in contact sports** was increased in hypermobile participants, with a pooled odds ratio of **4.69** (95% CI 1.33-16.52), while at the ankle there was no added risk at all (Pacey et al., 2010; **very wide confidence interval, populations mixed for age and sex**). A joint that goes beyond is neither a talent to reward nor a fragility to excuse: it is one more reason not to skip the landing-control work.
+
+The physiological reading is the one that runs through nearly every topic on these pages: **the body grows faster than neuromuscular control can adapt.** It is the same reason [pain changes in nature during this phase](/en/blog/dolore-in-puberta-neuroscienza) and why [load should follow pubertal stage, not the date on an ID card](/en/blog/allenare-ragazze-adolescenti). With one important difference: here the window of risk is also the window in which training works best.
 
 ## Can it really be prevented? What the numbers say
 
@@ -78,13 +82,13 @@ Because the obstacle isn't scientific, it's organisational — and that too has 
 
 To be precise: that sample covers **German amateur football, largely male youth and adult teams**, so it does not describe Italian women's sport. It doesn't quantify our problem; it shows that even where a programme is famous and free, **the distance between "it exists" and "it happens twice a week" is enormous**. The recurring barriers are always the same: too little time, too little belief in its effectiveness, nobody keeping count.
 
-Which is exactly why ACL prevention is, at bottom, a question of **coaching culture** before it is a question of exercises — the same lever that weighs on [the words used with athletes](/blog/parole-allenatore-salute-atlete) and on [how many girls stay in a club](/blog/abbandono-puberta).
+Which is exactly why ACL prevention is, at bottom, a question of **coaching culture** before it is a question of exercises — the same lever that weighs on [the words used with athletes](/en/blog/parole-allenatore-salute-atlete) and on [how many girls stay in a club](/en/blog/abbandono-puberta).
 
 ## Does the menstrual cycle have anything to do with it?
 
 It's the question that always comes, and it deserves an honest answer rather than a suggestive one. **The hormonal hypothesis exists, but the evidence does not currently support it.** A systematic review with meta-analysis of **21 studies and 68,758 participants** classified the overall quality of evidence as **«very low»** under GRADE criteria (Herzberg et al., 2017). A later review of neuromuscular and biomechanical risk surrogates concludes the same way: it is not possible to establish which cycle phase carries more risk, and it explicitly urges caution before adjusting preparation and screening on that basis (Dos'Santos et al., 2023).
 
-The practical consequence is clear, and runs opposite to what people expect: **there is no basis for adapting load, selection or screening to the cycle phase of a 14-year-old.** The cycle should be known, listened to and made speakable — [and it is still taboo](/blog/parlare-di-ciclo-con-allenatore) — but it is not an ACL prevention lever. What is proven to work is neuromuscular training, done in every week of the month.
+The practical consequence is clear, and runs opposite to what people expect: **there is no basis for adapting load, selection or screening to the cycle phase of a 14-year-old.** The cycle should be known, listened to and made speakable — [and it is still taboo](/en/blog/parlare-di-ciclo-con-allenatore) — but it is not an ACL prevention lever. What is proven to work is neuromuscular training, done in every week of the month.
 
 ## What happens afterwards, at 15
 
@@ -102,7 +106,7 @@ The difference is in the onset. An ACL rupture has a precise moment: a cut, a la
 
 And it is not a minor problem just because it makes no noise: **five years** later, **40.5%** of those adolescents still had pain, and among them **60%** had **stopped or reduced sport** because of the knee ([Rathleff et al., 2019, *BMJ Open*](https://doi.org/10.1136/bmjopen-2018-024113)). None of those withdrawals enters an injury statistic.
 
-The practical part: if an athlete says her knee has been hurting "a bit for a while", the useful question is not how much, it is **how long** — and the answer belongs with a healthcare professional, not with pitch-side management. We covered it at length in [the knee that has hurt for months](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
+The practical part: if an athlete says her knee has been hurting "a bit for a while", the useful question is not how much, it is **how long** — and the answer belongs with a healthcare professional, not with pitch-side management. We covered it at length in [the knee that has hurt for months](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
 
 ## What a club can do, starting Monday
 
@@ -134,5 +138,6 @@ BAB does not train knees and does not diagnose. It does something different and 
 - McPherson A.L., Feller J.A., Hewett T.E., Webster K.E. **Psychological Readiness to Return to Sport Is Associated With Second Anterior Cruciate Ligament Injuries.** *The American Journal of Sports Medicine*, 2019;47(4):857-862. (329 patients; in under-20s ACL-RSI 60.8 vs 71.5 points at 12 months, P = .02) [doi:10.1177/0363546518825258](https://doi.org/10.1177/0363546518825258)
 - Rathleff M.S., Skuldbøl S.K., Rasch M.N.B., Roos E.M., Rasmussen S., Olesen J.L. **Care-seeking behaviour of adolescents with knee pain: a population-based study among 504 adolescents.** *BMC Musculoskeletal Disorders*, 2013;14:225. (504 Danish adolescents aged 15-19 of both sexes with at least monthly knee pain; 68.3% insidious onset, median duration 24 months) [doi:10.1186/1471-2474-14-225](https://doi.org/10.1186/1471-2474-14-225)
 - Rathleff M.S., Holden S., Straszek C.L., Olesen J.L., Jensen M.B., Roos E.M. **Five-year prognosis and impact of adolescent knee pain: a prospective population-based cohort study of 504 adolescents in Denmark.** *BMJ Open*, 2019;9(5):e024113. (5-year follow-up; 40.5% still in pain, of whom 60% stopped or reduced sport; Danish adolescents of both sexes, not registered athletes) [doi:10.1136/bmjopen-2018-024113](https://doi.org/10.1136/bmjopen-2018-024113)
+- Pacey V., Nicholson L.L., Adams R.D., Munn J., Munns C.F. **Generalized joint hypermobility and risk of lower limb joint injury during sport: a systematic review with meta-analysis.** *American Journal of Sports Medicine*, 2010;38(7):1487-1497. (systematic review with meta-analysis: 4,841 studies screened, 18 included; increased risk of knee injury in **contact sports**, pooled odds ratio 4.69, 95% CI 1.33-16.52, p=0.02 — **very wide confidence interval**; **no increased risk at the ankle**; populations mixed for age and sex) [doi:10.1177/0363546510364838](https://doi.org/10.1177/0363546510364838)
 
 *This article is for information only and does not constitute medical advice or a diagnostic tool. A prevention programme does not eliminate injury risk. In case of knee pain, giving way, or after a trauma, consult a sports physician or orthopaedic specialist: the decision about return to activity belongs to the clinicians treating the athlete.*
