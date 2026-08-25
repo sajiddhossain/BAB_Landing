@@ -542,6 +542,33 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'Sport-related pain in the groin region. The Doha agreement, signed by 24 experts from 14 countries, classifies it into three groups: defined clinical entities (adductor-, iliopsoas-, inguinal- and pubic-related groin pain), hip-related groin pain, and other causes (Weir et al., 2015). It is the problem that rarely stops the athlete who has it: in adult Swiss Super League women footballers, seasonal prevalence of hip and groin problems is 60.7%, but only 11.1% of episodes involve any training time loss (Reichmann et al., 2025).',
   },
+  'integratore-alimentare': {
+    name: 'Integratore alimentare',
+    description:
+      "Prodotto assunto in aggiunta alla dieta abituale per fornire nutrienti o composti, distinto sia dallo sport drink sia dall'energy drink. Il consensus del CIO riconosce buone evidenze di beneficio sulla prestazione soltanto a pochi prodotti — caffeina, creatina, specifici agenti tampone e nitrato — e lo fa riferendosi all'atleta d'élite ADULTO, raccomandando una valutazione nutrizionale completa prima di ogni decisione d'uso (Maughan et al., 2018). In età pediatrica il documento dell'American Academy of Pediatrics conclude che nella maggior parte dei giovani atleti l'uso non produce guadagni significativi rispetto a quelli della pubertà e di allenamento e alimentazione adeguati (LaBotz e Griesemer, 2016).",
+    nameEn: 'Dietary supplement',
+    descriptionEn:
+      "A product taken in addition to the usual diet to supply nutrients or compounds, distinct from both a sports drink and an energy drink. The IOC consensus statement recognises good evidence of performance benefit for only a few products — caffeine, creatine, specific buffering agents and nitrate — and does so for the ADULT elite athlete, recommending a complete nutritional assessment before any decision on use (Maughan et al., 2018). In paediatric age, the American Academy of Pediatrics report concludes that in most young athletes use does not produce significant gains over those of puberty and appropriate training and nutrition (LaBotz and Griesemer, 2016).",
+    sameAs: 'https://en.wikipedia.org/wiki/Dietary_supplement',
+  },
+  caffeina: {
+    name: 'Caffeina',
+    description:
+      "Stimolante del sistema nervoso centrale presente in caffè, tè, cola ed energy drink. Sulla prestazione la position stand dell'International Society of Sports Nutrition riporta benefici da piccoli a moderati a dosi di 3-6 mg per kg di peso corporeo, con effetti collaterali frequenti e nessun beneficio aggiuntivo a 9 mg/kg — su una letteratura costruita in larghissima parte su ADULTI (Guest et al., 2021). Sulla sicurezza in età evolutiva l'EFSA dichiara che per bambini e adolescenti le informazioni disponibili non bastano a derivare un'assunzione sicura, indicando il valore adulto di 3 mg/kg come possibile base (EFSA, 2015); le raccomandazioni pediatriche esistenti si fondano su dati vecchi di decenni raccolti esclusivamente su adulti (Temple, 2019).",
+    nameEn: 'Caffeine',
+    descriptionEn:
+      'A central nervous system stimulant found in coffee, tea, cola and energy drinks. On performance, the International Society of Sports Nutrition position stand reports small to moderate benefits at doses of 3-6 mg per kg of body weight, with frequent side effects and no additional benefit at 9 mg/kg — on a literature built overwhelmingly on ADULTS (Guest et al., 2021). On safety in developmental age, EFSA states that for children and adolescents the available information is insufficient to derive a safe intake, indicating the adult value of 3 mg/kg as a possible basis (EFSA, 2015); existing paediatric recommendations rest on decades-old data collected exclusively in adults (Temple, 2019).',
+    sameAs: 'https://en.wikipedia.org/wiki/Caffeine',
+  },
+  'energy-drink': {
+    name: 'Energy drink',
+    description:
+      "Bevanda contenente caffeina e altre sostanze stimolanti, spesso con molto zucchero: è un prodotto diverso dallo sport drink, che contiene invece acqua, carboidrati ed elettroliti, e il documento clinico dell'American Academy of Pediatrics chiede esplicitamente di non usare i due termini come sinonimi. Quello stesso documento conclude che caffeina e altre sostanze stimolanti degli energy drink non hanno alcun posto nella dieta di bambini e adolescenti, e che l'assunzione frequente o eccessiva di sport drink calorici può aumentare in modo sostanziale il rischio di sovrappeso e obesità in età pediatrica (Schneider e Benjamin, 2011; documento di una società scientifica pediatrica, non uno studio sperimentale).",
+    nameEn: 'Energy drink',
+    descriptionEn:
+      'A beverage containing caffeine and other stimulant substances, often with a great deal of sugar: it is a different product from a sports drink, which contains water, carbohydrate and electrolytes, and the American Academy of Pediatrics clinical report explicitly asks that the two terms not be used interchangeably. That same report concludes that caffeine and the other stimulant substances in energy drinks have no place in the diet of children and adolescents, and that frequent or excessive intake of caloric sports drinks can substantially increase the risk of overweight and obesity in paediatric age (Schneider and Benjamin, 2011; report of a paediatric scientific society, not an experimental study).',
+    sameAs: 'https://en.wikipedia.org/wiki/Energy_drink',
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;

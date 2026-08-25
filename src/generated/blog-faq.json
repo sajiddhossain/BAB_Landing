@@ -1,6 +1,94 @@
 {
   "posts": [
     {
+      "slug": "integratori-energy-drink-giovani-atlete",
+      "lang": "it",
+      "title": "Integratori ed energy drink: a 14 anni servono davvero?",
+      "date": "2026-08-25",
+      "questions": [
+        {
+          "q": "Che differenza c'è tra sport drink ed energy drink?",
+          "id": "faq-che-differenza-ce-tra-sport-drink-ed-energy-drink"
+        },
+        {
+          "q": "Un integratore fa correre più forte una ragazza di 14 anni?",
+          "id": "faq-un-integratore-fa-correre-piu-forte-una-ragazza-di-14"
+        },
+        {
+          "q": "Quanto è concreto il rischio di contaminazione degli integratori?",
+          "id": "faq-quanto-e-concreto-il-rischio-di-contaminazione-degli"
+        },
+        {
+          "q": "Quanta caffeina è sicura per un'adolescente?",
+          "id": "faq-quanta-caffeina-e-sicura-per-unadolescente"
+        },
+        {
+          "q": "Gli energy drink sono adatti a chi fa sport a 13-17 anni?",
+          "id": "faq-gli-energy-drink-sono-adatti-a-chi-fa-sport-a-13-17-anni"
+        },
+        {
+          "q": "La caffeina migliora la prestazione anche nelle atlete adolescenti?",
+          "id": "faq-la-caffeina-migliora-la-prestazione-anche-nelle-atlete"
+        },
+        {
+          "q": "Che cosa manca davvero nella dieta di un'atleta adolescente?",
+          "id": "faq-che-cosa-manca-davvero-nella-dieta-di-unatleta"
+        },
+        {
+          "q": "Chi dovrebbe decidere se un'atleta prende un integratore?",
+          "id": "faq-chi-dovrebbe-decidere-se-unatleta-prende-un-integratore"
+        },
+        {
+          "q": "Perché le atlete usano integratori più di quanto ci si aspetti?",
+          "id": "faq-perche-le-atlete-usano-integratori-piu-di-quanto-ci-si"
+        }
+      ]
+    },
+    {
+      "slug": "integratori-energy-drink-giovani-atlete",
+      "lang": "en",
+      "title": "Supplements and energy drinks: does a 14-year-old actually need them?",
+      "date": "2026-08-25",
+      "questions": [
+        {
+          "q": "What is the difference between a sports drink and an energy drink?",
+          "id": "faq-what-is-the-difference-between-a-sports-drink-and-an"
+        },
+        {
+          "q": "Does a supplement make a 14-year-old girl run faster?",
+          "id": "faq-does-a-supplement-make-a-14-year-old-girl-run-faster"
+        },
+        {
+          "q": "How real is the risk of supplement contamination?",
+          "id": "faq-how-real-is-the-risk-of-supplement-contamination"
+        },
+        {
+          "q": "How much caffeine is safe for an adolescent?",
+          "id": "faq-how-much-caffeine-is-safe-for-an-adolescent"
+        },
+        {
+          "q": "Are energy drinks appropriate for athletes aged 13-17?",
+          "id": "faq-are-energy-drinks-appropriate-for-athletes-aged-13-17"
+        },
+        {
+          "q": "Does caffeine improve performance in adolescent athletes too?",
+          "id": "faq-does-caffeine-improve-performance-in-adolescent"
+        },
+        {
+          "q": "What is actually missing from an adolescent athlete's diet?",
+          "id": "faq-what-is-actually-missing-from-an-adolescent-athletes"
+        },
+        {
+          "q": "Who should decide whether an athlete takes a supplement?",
+          "id": "faq-who-should-decide-whether-an-athlete-takes-a-supplement"
+        },
+        {
+          "q": "Why do athletes use supplements more than you would expect?",
+          "id": "faq-why-do-athletes-use-supplements-more-than-you-would"
+        }
+      ]
+    },
+    {
       "slug": "ipermobilita-articolare-giovani-atlete",
       "lang": "it",
       "title": "Ipermobilità articolare: essere «elastiche» è un talento o un rischio?",
@@ -2095,6 +2183,18 @@
           "id": "faq-di-quali-altri-temi-le-atlete-non-parlano-con-chi-le"
         },
         {
+          "q": "Quante ragazze saltano o riducono l'allenamento durante il ciclo?",
+          "id": "faq-quante-ragazze-saltano-o-riducono-lallenamento-durante"
+        },
+        {
+          "q": "Un'atleta ha accesso a un ginecologo attraverso la sua società sportiva?",
+          "id": "faq-unatleta-ha-accesso-a-un-ginecologo-attraverso-la-sua"
+        },
+        {
+          "q": "Quante atlete hanno avuto un ciclo che sparisce, e con chi ne parlano?",
+          "id": "faq-quante-atlete-hanno-avuto-un-ciclo-che-sparisce-e-con"
+        },
+        {
           "q": "Cosa può dire un allenatore per rendere il tema meno tabù?",
           "id": "faq-cosa-puo-dire-un-allenatore-per-rendere-il-tema-meno"
         }
@@ -2137,6 +2237,18 @@
         {
           "q": "What else do athletes not talk about with their coaches?",
           "id": "faq-what-else-do-athletes-not-talk-about-with-their-coaches"
+        },
+        {
+          "q": "How many girls skip or cut back training during their period?",
+          "id": "faq-how-many-girls-skip-or-cut-back-training-during-their"
+        },
+        {
+          "q": "Does an athlete have access to a gynaecologist through her club?",
+          "id": "faq-does-an-athlete-have-access-to-a-gynaecologist-through"
+        },
+        {
+          "q": "How many athletes have had their period stop, and who do they tell?",
+          "id": "faq-how-many-athletes-have-had-their-period-stop-and-who-do"
         },
         {
           "q": "What can a coach say to make the topic less taboo?",

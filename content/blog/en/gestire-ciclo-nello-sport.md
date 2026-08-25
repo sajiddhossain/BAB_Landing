@@ -4,7 +4,7 @@ title: "Playing sport on your period: how it actually works (leaks, products, ki
 seoTitle: "Playing sport on your period: a practical guide"
 seoDescription: "Between 25% and 61% of adolescent girls avoid sport during their period. Products, kit and what to keep at the gym: the practical side, without taboos."
 date: 2026-08-13
-updated: 2026-08-20
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "Fear of leaking is one of the reasons girls skip training sessions and PE lessons — and among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period. Almost every article on the subject stops at saying it is a problem. This one tries to answer the practical question nobody addresses: what do you actually do on the day it happens."
 answer: "With three things that depend on organisation rather than on the athlete: a menstrual product suited to the movement, kit that does not add to the fear of leaking, and supplies available at the gym. Among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period, and fear of leaking is a recurring barrier (Harvey et al., 2025)."
@@ -87,9 +87,9 @@ If there is one thing a club can do this week, it is this. A container anyone ca
 
 It costs a few tens of euros. And the point is not the contents, it is **the location**: if getting the kit means asking the coach, for many athletes that is the same as not having one. The figure that explains it best is the one on communication: **only 11% of athletes discuss their cycle with the person coaching them, dropping to 4% when the coach is a man** (Höök et al., 2022). Waiting for the question means never answering it — the same mechanism described in [talking about periods with your coach](/en/blog/parlare-di-ciclo-con-allenatore).
 
-## What a male coach can do (without awkward conversations)
+## What can a male coach do without awkward conversations?
 
-Three actions, none of which requires a private conversation:
+**Three public actions, said once at the start of the season: none of them requires a private conversation with any athlete.** This is usually what stops male coaches — the belief that helping means having to talk about periods one-to-one with a fourteen-year-old. It does not:
 
 1. **Make the kit available** and say so once, at the start of the season, in front of the whole squad: where it is, that it is there for anyone, that nobody has to ask.
 2. **Do not mandate light colours** in the training kit, and allow a second layer.
@@ -99,9 +99,9 @@ The third point protects most, because it replaces the binary choice of «in or 
 
 One necessary caveat: **none of this applies to pain that prevents training every month.** That is not an organisational problem. In the review of 21,573 young women under 25, 20.1% reported absence from school or university because of period pain (Armour et al., 2019): if it happens every cycle, it belongs with a healthcare professional, not with a supply box.
 
-## What a family can do, before it is needed
+## What can a family do before it is needed?
 
-The right moment to set up the conditions is when there is no urgency — that is, before the first away trip.
+**Set up the conditions when there is no urgency: that is, before the first away trip, not during it.** Three things, all doable at home in an afternoon:
 
 - **A permanent kit in the sports bag**, not one to assemble each time: two absorbencies, wipes, opaque bag, a spare.
 - **Try at home** the product intended for training. It applies to any product, and it is explicit in the menstrual cup review (van Eijk et al., 2019).

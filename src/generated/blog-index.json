@@ -1,6 +1,166 @@
 {
   "posts": [
     {
+      "slug": "integratori-energy-drink-giovani-atlete",
+      "lang": "it",
+      "title": "Integratori ed energy drink: a 14 anni servono davvero?",
+      "seoTitle": "Integratori ed energy drink per giovani atlete",
+      "seoDescription": "Il 14,8% di 634 integratori analizzati in 13 Paesi conteneva steroidi non dichiarati. E sotto i 18 anni, per la caffeina, EFSA dice che i dati non bastano.",
+      "date": "2026-08-25",
+      "updated": "2026-08-25",
+      "author": "Sajid Hossain",
+      "excerpt": "Sullo scaffale ci sono barattoli con la scritta «recupero», lattine con la scritta «energia» e bustine con nomi che sembrano molecole. Nello spogliatoio c'è una compagna che ne beve una prima di ogni partita. In mezzo c'è una ragazza di quattordici anni a cui nessuno ha spiegato tre cose: che quei prodotti non sono la stessa cosa, che l'evidenza a suo favore è quasi tutta raccolta su adulti, e che una parte di quei barattoli contiene qualcosa che in etichetta non c'è. Che cosa dicono davvero i dati — e che cosa manca, invece, nel piatto.",
+      "answer": "Quasi mai. Il documento dell'American Academy of Pediatrics conclude che nei giovani atleti queste sostanze non producono guadagni significativi oltre a quelli della pubertà e di allenamento e alimentazione adeguati (LaBotz e Griesemer, 2016). E il 14,8% di 634 integratori analizzati in 13 Paesi conteneva steroidi anabolizzanti non dichiarati in etichetta (Geyer et al., 2004).",
+      "cover": "/fotobab/cover-integratori-energy-drink.jpg",
+      "coverAlt": "Il bordo superiore di una lattina rossa senza marchio su fondo grigio, inquadrata dal basso",
+      "tags": [
+        "integratore-alimentare",
+        "caffeina",
+        "energy-drink",
+        "ferro"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Sport drink, energy drink e integratore: che differenza c'è?",
+          "id": "sport-drink-energy-drink-e-integratore-che-differenza-ce"
+        },
+        {
+          "level": 2,
+          "text": "Un integratore fa davvero correre più forte a 14 anni?",
+          "id": "un-integratore-fa-davvero-correre-piu-forte-a-14-anni"
+        },
+        {
+          "level": 2,
+          "text": "Quanto è concreto il rischio di prendere qualcosa che in etichetta non c'è?",
+          "id": "quanto-e-concreto-il-rischio-di-prendere-qualcosa-che-in"
+        },
+        {
+          "level": 2,
+          "text": "La caffeina funziona anche sulle ragazze di 14 anni?",
+          "id": "la-caffeina-funziona-anche-sulle-ragazze-di-14-anni"
+        },
+        {
+          "level": 2,
+          "text": "Quanta caffeina è troppa sotto i 18 anni?",
+          "id": "quanta-caffeina-e-troppa-sotto-i-18-anni"
+        },
+        {
+          "level": 2,
+          "text": "Gli energy drink hanno un posto nello sport giovanile?",
+          "id": "gli-energy-drink-hanno-un-posto-nello-sport-giovanile"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa manca davvero nel piatto di un'atleta di 14 anni?",
+          "id": "che-cosa-manca-davvero-nel-piatto-di-unatleta-di-14-anni"
+        },
+        {
+          "level": 2,
+          "text": "Quando un integratore ha senso, e chi lo decide?",
+          "id": "quando-un-integratore-ha-senso-e-chi-lo-decide"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa può fare concretamente una società sportiva?",
+          "id": "che-cosa-puo-fare-concretamente-una-societa-sportiva"
+        },
+        {
+          "level": 2,
+          "text": "Quando rivolgersi a un professionista?",
+          "id": "quando-rivolgersi-a-un-professionista"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 3603,
+      "readingMinutes": 18,
+      "timeRequired": "PT18M"
+    },
+    {
+      "slug": "integratori-energy-drink-giovani-atlete",
+      "lang": "en",
+      "title": "Supplements and energy drinks: does a 14-year-old actually need them?",
+      "seoTitle": "Supplements and energy drinks for young female athletes",
+      "seoDescription": "14.8% of 634 supplements analysed across 13 countries contained undeclared steroids. And under 18, for caffeine, EFSA says the data are not enough.",
+      "date": "2026-08-25",
+      "updated": "2026-08-25",
+      "author": "Sajid Hossain",
+      "excerpt": "On the shelf there are tubs labelled «recovery», cans labelled «energy» and sachets with names that sound like molecules. In the changing room there is a teammate who drinks one before every match. In between there is a fourteen-year-old girl nobody has told three things: that those products are not the same thing, that the evidence behind them was collected almost entirely on adults, and that a measurable share of those tubs contains something the label does not mention. What the data actually say — and what is missing from the plate instead.",
+      "answer": "Almost never. The American Academy of Pediatrics report concludes that in young athletes these substances do not produce significant gains over those seen with the onset of puberty and adherence to an appropriate nutrition and training programme (LaBotz and Griesemer, 2016). And 14.8% of 634 supplements analysed across 13 countries contained anabolic steroids not declared on the label (Geyer et al., 2004).",
+      "cover": "/fotobab/cover-integratori-energy-drink.jpg",
+      "coverAlt": "The top rim of an unbranded red can against a grey background, framed from below",
+      "tags": [
+        "dietary-supplement",
+        "caffeine",
+        "energy-drink",
+        "iron"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Sports drink, energy drink, supplement: what is the difference?",
+          "id": "sports-drink-energy-drink-supplement-what-is-the-difference"
+        },
+        {
+          "level": 2,
+          "text": "Does a supplement actually make you faster at 14?",
+          "id": "does-a-supplement-actually-make-you-faster-at-14"
+        },
+        {
+          "level": 2,
+          "text": "How real is the risk of taking something the label does not mention?",
+          "id": "how-real-is-the-risk-of-taking-something-the-label-does-not"
+        },
+        {
+          "level": 2,
+          "text": "Does caffeine work in 14-year-old girls too?",
+          "id": "does-caffeine-work-in-14-year-old-girls-too"
+        },
+        {
+          "level": 2,
+          "text": "How much caffeine is too much under 18?",
+          "id": "how-much-caffeine-is-too-much-under-18"
+        },
+        {
+          "level": 2,
+          "text": "Do energy drinks have a place in youth sport?",
+          "id": "do-energy-drinks-have-a-place-in-youth-sport"
+        },
+        {
+          "level": 2,
+          "text": "What is actually missing from a 14-year-old athlete's plate?",
+          "id": "what-is-actually-missing-from-a-14-year-old-athletes-plate"
+        },
+        {
+          "level": 2,
+          "text": "When does a supplement make sense, and who decides?",
+          "id": "when-does-a-supplement-make-sense-and-who-decides"
+        },
+        {
+          "level": 2,
+          "text": "What can a club actually do?",
+          "id": "what-can-a-club-actually-do"
+        },
+        {
+          "level": 2,
+          "text": "When should you see a professional?",
+          "id": "when-should-you-see-a-professional"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 3481,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
       "slug": "ipermobilita-articolare-giovani-atlete",
       "lang": "it",
       "title": "Ipermobilità articolare: essere «elastiche» è un talento o un rischio?",
@@ -705,7 +865,7 @@
       "seoTitle": "Fare sport con il ciclo: la gestione pratica",
       "seoDescription": "Dal 25% al 61% delle adolescenti evita lo sport durante le mestruazioni. Prodotti, divise e kit in palestra: la gestione pratica del ciclo, senza tabù.",
       "date": "2026-08-13",
-      "updated": "2026-08-20",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "La paura delle perdite è una delle ragioni per cui le ragazze saltano allenamenti e ore di educazione fisica — e tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni. Quasi tutti i contenuti si fermano a dire che è un problema. Questo prova a rispondere alla domanda pratica che nessuno affronta: cosa si fa, concretamente, il giorno in cui capita.",
       "answer": "Con tre cose che dipendono più dall'organizzazione che dall'atleta: un prodotto mestruale adatto al gesto sportivo, una divisa che non aumenti la paura delle perdite e un kit disponibile in palestra. Tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, e la paura delle perdite è una barriera ricorrente (Harvey et al., 2025).",
@@ -740,13 +900,13 @@
         },
         {
           "level": 2,
-          "text": "Cosa può fare un allenatore uomo (senza conversazioni imbarazzanti)",
-          "id": "cosa-puo-fare-un-allenatore-uomo-senza-conversazioni"
+          "text": "Che cosa può fare un allenatore uomo senza conversazioni imbarazzanti?",
+          "id": "che-cosa-puo-fare-un-allenatore-uomo-senza-conversazioni"
         },
         {
           "level": 2,
-          "text": "Cosa può fare una famiglia, prima che serva",
-          "id": "cosa-puo-fare-una-famiglia-prima-che-serva"
+          "text": "Che cosa può fare una famiglia prima che serva?",
+          "id": "che-cosa-puo-fare-una-famiglia-prima-che-serva"
         },
         {
           "level": 2,
@@ -759,7 +919,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2212,
+      "words": 2258,
       "readingMinutes": 11,
       "timeRequired": "PT11M"
     },
@@ -770,7 +930,7 @@
       "seoTitle": "Playing sport on your period: a practical guide",
       "seoDescription": "Between 25% and 61% of adolescent girls avoid sport during their period. Products, kit and what to keep at the gym: the practical side, without taboos.",
       "date": "2026-08-13",
-      "updated": "2026-08-20",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "Fear of leaking is one of the reasons girls skip training sessions and PE lessons — and among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period. Almost every article on the subject stops at saying it is a problem. This one tries to answer the practical question nobody addresses: what do you actually do on the day it happens.",
       "answer": "With three things that depend on organisation rather than on the athlete: a menstrual product suited to the movement, kit that does not add to the fear of leaking, and supplies available at the gym. Among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period, and fear of leaking is a recurring barrier (Harvey et al., 2025).",
@@ -805,13 +965,13 @@
         },
         {
           "level": 2,
-          "text": "What a male coach can do (without awkward conversations)",
-          "id": "what-a-male-coach-can-do-without-awkward-conversations"
+          "text": "What can a male coach do without awkward conversations?",
+          "id": "what-can-a-male-coach-do-without-awkward-conversations"
         },
         {
           "level": 2,
-          "text": "What a family can do, before it is needed",
-          "id": "what-a-family-can-do-before-it-is-needed"
+          "text": "What can a family do before it is needed?",
+          "id": "what-can-a-family-do-before-it-is-needed"
         },
         {
           "level": 2,
@@ -824,7 +984,7 @@
           "id": "sources"
         }
       ],
-      "words": 2169,
+      "words": 2212,
       "readingMinutes": 11,
       "timeRequired": "PT11M"
     },
@@ -1279,7 +1439,7 @@
       "seoTitle": "Distorsione di caviglia nelle giovani atlete",
       "seoDescription": "La caviglia è la sede del 23% degli infortuni nelle giovani atlete, e il 23,6% delle ragazze convive con un'instabilità cronica. Perché non è «solo una storta».",
       "date": "2026-08-06",
-      "updated": "2026-08-23",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "La caviglia è la sede del 23% degli infortuni nelle giovani atlete — più del ginocchio (16%). Eppure è l'infortunio che si racconta con la frase «è solo una storta»: tra gli atleti di 14-18 anni il 20% convive con un'instabilità cronica di caviglia, e tra le ragazze la quota sale al 23,6%. Nello sport giovanile i programmi di prevenzione riducono gli infortuni di caviglia del 26%. I dati, i limiti dei dati, e cosa cambia in venti minuti a settimana.",
       "answer": "È l'infortunio più frequente delle giovani atlete: la caviglia è la sede del 23% di tutti gli infortuni, davanti a ginocchio (16%) e coscia (13%) (Beech et al., 2024). E non è banale: tra i 14 e i 18 anni il 20,0% degli atleti convive con un'instabilità cronica di caviglia, il 23,6% tra le ragazze (Donovan et al., 2020).",
@@ -1344,7 +1504,7 @@
           "id": "fonti"
         }
       ],
-      "words": 3549,
+      "words": 3565,
       "readingMinutes": 18,
       "timeRequired": "PT18M"
     },
@@ -1355,7 +1515,7 @@
       "seoTitle": "Ankle sprains in young female athletes",
       "seoDescription": "The ankle accounts for 23% of injuries in young female athletes, and 23.6% of girls live with chronic instability. Why it is not «just a twist».",
       "date": "2026-08-06",
-      "updated": "2026-08-23",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "The ankle accounts for 23% of injuries in youth female athletes — more than the knee (16%). Yet it is the injury we describe with a shrug: among athletes aged 14-18, 20% live with chronic ankle instability, and among girls that figure rises to 23.6%. In youth sport, prevention programmes cut ankle injuries by about 26%. The data, the limits of the data, and what changes in twenty minutes a week.",
       "answer": "It is the most frequent injury in young female athletes: the ankle accounts for 23% of all injuries, ahead of the knee (16%) and thigh (13%) (Beech et al., 2024). And it is not trivial: between 14 and 18, 20.0% of athletes live with chronic ankle instability — 23.6% among girls (Donovan et al., 2020).",
@@ -1420,7 +1580,7 @@
           "id": "sources"
         }
       ],
-      "words": 3403,
+      "words": 3424,
       "readingMinutes": 17,
       "timeRequired": "PT17M"
     },
@@ -2535,7 +2695,7 @@
       "seoTitle": "Sonno e atlete adolescenti: quante ore servono",
       "seoDescription": "A 13-18 anni servono 8-10 ore per notte: dormirne meno di 8 si associa a infortuni 1,7 volte più frequenti. Perché la pubertà sposta l'orologio interno.",
       "date": "2026-07-18",
-      "updated": "2026-08-13",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "Quante ore deve dormire un'atleta di 14 anni? Tra 8 e 10, dice la raccomandazione di consenso per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato, e con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2% — contro il 4,3%-9,1% dei ragazzi, perché l'orologio biologico slitta in avanti mentre la sveglia della scuola resta la stessa. Cosa dicono davvero i dati, cosa non dicono, e cosa può cambiare una società sportiva già da lunedì.",
       "answer": "Perché a 13-18 anni ne servono 8-10 per notte (Paruthi et al., 2016) e dormirne meno di 8 si associa a essere infortunati 1,7 volte più spesso (Milewski et al., 2014). Con la pubertà l'orologio biologico slitta in avanti: il bisogno di sonno non cala, cambia l'ora in cui il corpo riesce ad addormentarsi.",
@@ -2565,8 +2725,8 @@
         },
         {
           "level": 2,
-          "text": "Il divario che si apre tra ragazze e ragazzi",
-          "id": "il-divario-che-si-apre-tra-ragazze-e-ragazzi"
+          "text": "Perché le ragazze dormono peggio dei ragazzi in pubertà?",
+          "id": "perche-le-ragazze-dormono-peggio-dei-ragazzi-in-puberta"
         },
         {
           "level": 2,
@@ -2589,9 +2749,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2042,
-      "readingMinutes": 10,
-      "timeRequired": "PT10M"
+      "words": 2142,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
     },
     {
       "slug": "sonno-atlete-adolescenti",
@@ -2600,7 +2760,7 @@
       "seoTitle": "Sleep and teenage athletes: how many hours",
       "seoDescription": "At 13-18 you need 8-10 hours a night: sleeping fewer than 8 is linked to 1.7 times more injuries. Why puberty shifts the body clock later.",
       "date": "2026-07-18",
-      "updated": "2026-08-13",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "How many hours should a 14-year-old athlete sleep? Between 8 and 10, says the consensus recommendation for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured, and through puberty insomnia symptoms in girls climb from 3.4% to 12.2% — against 4.3%-9.1% in boys, because the body clock shifts later while the school alarm stays put. What the evidence says, what it does not, and what a club can change from Monday.",
       "answer": "Because at 13-18 you need 8-10 hours a night (Paruthi et al., 2016), and sleeping fewer than 8 is associated with being injured 1.7 times as often (Milewski et al., 2014). With puberty the biological clock shifts later: the need for sleep does not fall, what changes is the hour at which the body can fall asleep.",
@@ -2631,8 +2791,8 @@
         },
         {
           "level": 2,
-          "text": "The gap that opens between girls and boys",
-          "id": "the-gap-that-opens-between-girls-and-boys"
+          "text": "Why do girls sleep worse than boys at puberty?",
+          "id": "why-do-girls-sleep-worse-than-boys-at-puberty"
         },
         {
           "level": 2,
@@ -2655,7 +2815,7 @@
           "id": "sources"
         }
       ],
-      "words": 1938,
+      "words": 2030,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -2666,7 +2826,7 @@
       "seoTitle": "Ferro basso nelle atlete adolescenti: come si trova",
       "seoDescription": "Il 53,2% delle atlete adolescenti ha una carenza di ferro lieve, ma l'emocromo da solo non la vede: serve la ferritina. Sintomi, esami e cosa chiedere.",
       "date": "2026-07-16",
-      "updated": "2026-08-20",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli.",
       "answer": "Con un esame del sangue, non a intuito: il 53,2% delle atlete adolescenti ha una carenza di ferro lieve (ferritina ≤30 µg/L), mentre l'anemia sideropenica riguarda solo il 4% (Nicotra et al., 2023). Lo sport non è il fattore dominante — tra le adolescenti, atlete e non atlete non differiscono in modo significativo — e integrare senza aver misurato non è una buona idea.",
@@ -2721,7 +2881,7 @@
           "id": "fonti"
         }
       ],
-      "words": 1953,
+      "words": 1982,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -2732,7 +2892,7 @@
       "seoTitle": "Low iron in teenage athletes: how it is found",
       "seoDescription": "53.2% of adolescent athletes have mild iron deficiency, but a full blood count alone misses it: ferritin is the test. Symptoms and what to ask for.",
       "date": "2026-07-16",
-      "updated": "2026-08-20",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone.",
       "answer": "With a blood test, not by intuition: 53.2% of adolescent female athletes have mild iron deficiency (ferritin ≤30 µg/L), while iron-deficiency anaemia affects only 4% (Nicotra et al., 2023). Sport is not the dominant factor — among adolescents, athletes and non-athletes do not differ significantly — and supplementing without measuring first is not a good idea.",
@@ -2786,7 +2946,7 @@
           "id": "sources"
         }
       ],
-      "words": 1842,
+      "words": 1871,
       "readingMinutes": 9,
       "timeRequired": "PT9M"
     },
@@ -3053,7 +3213,7 @@
       "seoTitle": "RED-S nelle atlete: cos'è, sintomi e primi segnali",
       "seoDescription": "RED-S: quando l'energia non copre allenamento e crescita. Sintomi, primi segnali e perché un ciclo che sparisce non è mai un buon segno.",
       "date": "2026-07-04",
-      "updated": "2026-08-19",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica.",
       "answer": "Quando l'energia introdotta non copre quella spesa tra allenamento e crescita: è la bassa disponibilità energetica alla base della RED-S. Non serve un disturbo alimentare, può accadere senza intenzione, e i primi segnali sono un ciclo che si dirada, infortuni ripetuti, sonno e umore peggiori — eppure il 44% delle atlete adolescenti crede che perdere il ciclo sia normale (Armento et al., 2021).",
@@ -3109,7 +3269,7 @@
           "id": "fonti"
         }
       ],
-      "words": 1506,
+      "words": 1571,
       "readingMinutes": 8,
       "timeRequired": "PT8M"
     },
@@ -3120,7 +3280,7 @@
       "seoTitle": "RED-S in female athletes: signs and symptoms",
       "seoDescription": "RED-S: when energy intake doesn't cover training and growth. Symptoms, early signs, and why a disappearing period is never a good sign.",
       "date": "2026-07-04",
-      "updated": "2026-08-19",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed.",
       "answer": "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021).",
@@ -3176,9 +3336,9 @@
           "id": "sources"
         }
       ],
-      "words": 1458,
-      "readingMinutes": 7,
-      "timeRequired": "PT7M"
+      "words": 1524,
+      "readingMinutes": 8,
+      "timeRequired": "PT8M"
     },
     {
       "slug": "parlare-di-ciclo-con-allenatore",
@@ -3187,7 +3347,7 @@
       "seoTitle": "Parlare del ciclo con l'allenatore: come farlo",
       "seoDescription": "Solo l'11% delle atlete parla di ciclo con chi la allena, il 4% se è un uomo. Perché succede e cosa cambia il silenzio in una società sportiva.",
       "date": "2026-07-03",
-      "updated": "2026-08-20",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: il 4% se è un uomo, il 55% se è una donna. E l'88% ha imparato queste cose da sola. Non è disinteresse: è l'assenza di un canale sicuro. Cosa dicono i dati raccolti su 1.086 atlete in 57 sport, cosa può dire davvero chi allena, cosa rispondere quando un'atleta parla di dolore, e come si apre il canale senza obbligare nessuna a esporsi.",
       "answer": "Perché quasi nessuno lo ha reso possibile: solo l'11% delle atlete parla di ciclo con chi la allena — 4% se è un uomo, 55% se è una donna — e l'88% ha imparato queste cose da sola (Höök et al., 2022). Non è timidezza: è l'assenza di un canale e di un linguaggio condivisi, e si cambia dal lato dello staff.",
@@ -3242,7 +3402,7 @@
       "seoTitle": "Talking about periods with your coach",
       "seoDescription": "Only 11% of athletes discuss their cycle with their coach — 4% if he is a man. Why that happens and what actually breaks the silence.",
       "date": "2026-07-03",
-      "updated": "2026-08-20",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "Only 11% of athletes talk about their menstrual cycle with their coach: 4% if he's a man, 55% if she's a woman. And 88% learned these things on their own. It isn't disinterest: it is the absence of a safe channel. What data from 1,086 athletes across 57 sports show, what coaches can actually say, what to answer when an athlete mentions pain, and how to open the channel without forcing anyone to expose herself.",
       "answer": "Because almost nobody has made it possible: only 11% of athletes discuss their cycle with the person coaching them — 4% if that person is a man, 55% if a woman — and 88% learned about it on their own (Höök et al., 2022). This is not shyness: it is the absence of a shared channel and language, and it changes from the staff's side.",
@@ -3297,7 +3457,7 @@
       "seoTitle": "Come allenare ragazze adolescenti: 4 leve concrete",
       "seoDescription": "Quattro leve concrete per coach e società: linguaggio non giudicante, carico adattato, segnali di squadra anonimi, spazi e continuità. Con i dati dietro.",
       "date": "2026-07-02",
-      "updated": "2026-08-23",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "Tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Allenarle bene significa quattro cose concrete e senza budget: parlare del corpo che cambia, adattare il carico invece di sanzionare il calo, usare solo segnali di squadra anonimi, garantire spazi e continuità. Ecco i dati che sostengono ciascuna leva — e cosa fare quando un'atleta si presenta con dolore.",
       "answer": "Agendo sull'ambiente, non sulla motivazione della singola: linguaggio non giudicante, segnali di squadra aggregati e anonimi, condizioni pratiche e prevenzione degli infortuni. Un allenatore percepito come molto informato si associa al 36% di sintomi di RED-S in meno nelle sue atlete (Female Athlete Health Report, 2023 — campione adulto, report non peer-reviewed).",
@@ -3343,6 +3503,11 @@
         },
         {
           "level": 2,
+          "text": "Un allenatore può consigliare un integratore a un'atleta minorenne?",
+          "id": "un-allenatore-puo-consigliare-un-integratore-a-unatleta"
+        },
+        {
+          "level": 2,
           "text": "Perché trattenere le atlete conviene anche alla società?",
           "id": "perche-trattenere-le-atlete-conviene-anche-alla-societa"
         },
@@ -3352,9 +3517,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2253,
-      "readingMinutes": 11,
-      "timeRequired": "PT11M"
+      "words": 2481,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
     },
     {
       "slug": "reggiseno-sportivo-ragazze",
@@ -3426,7 +3591,7 @@
       "seoTitle": "How to coach teenage girls: 4 concrete levers",
       "seoDescription": "Four concrete levers for coaches and clubs: non-judgemental language, adjusted load, anonymous team signals, space and continuity — with the data.",
       "date": "2026-07-02",
-      "updated": "2026-08-23",
+      "updated": "2026-08-25",
       "author": "Sajid Hossain",
       "excerpt": "Among girls who join a club aged 10-14, 71% drop out without ever returning, and it is almost never about motivation. Coaching them well means four concrete, budget-free things: talking about the changing body, adjusting the load instead of penalising a dip, using only anonymous team signals, and guaranteeing space and continuity. Here is the evidence behind each lever — and what to do when an athlete turns up in pain.",
       "answer": "By acting on the environment, not on the individual girl's motivation: non-judgemental language, aggregated and anonymous team signals, practical conditions and injury prevention. A coach perceived as very well-informed is associated with 36% fewer RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample, non-peer-reviewed report).",
@@ -3472,6 +3637,11 @@
         },
         {
           "level": 2,
+          "text": "Can a coach recommend a supplement to an athlete who is a minor?",
+          "id": "can-a-coach-recommend-a-supplement-to-an-athlete-who-is-a"
+        },
+        {
+          "level": 2,
           "text": "Why does retaining athletes pay off for the club too?",
           "id": "why-does-retaining-athletes-pay-off-for-the-club-too"
         },
@@ -3481,9 +3651,9 @@
           "id": "sources"
         }
       ],
-      "words": 2195,
-      "readingMinutes": 11,
-      "timeRequired": "PT11M"
+      "words": 2418,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
     },
     {
       "slug": "reggiseno-sportivo-ragazze",

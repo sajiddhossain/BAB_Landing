@@ -4,7 +4,7 @@ title: "Fare sport con il ciclo: come si gestisce in pratica (perdite, prodotti,
 seoTitle: "Fare sport con il ciclo: la gestione pratica"
 seoDescription: "Dal 25% al 61% delle adolescenti evita lo sport durante le mestruazioni. Prodotti, divise e kit in palestra: la gestione pratica del ciclo, senza tabù."
 date: 2026-08-13
-updated: 2026-08-20
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "La paura delle perdite è una delle ragioni per cui le ragazze saltano allenamenti e ore di educazione fisica — e tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni. Quasi tutti i contenuti si fermano a dire che è un problema. Questo prova a rispondere alla domanda pratica che nessuno affronta: cosa si fa, concretamente, il giorno in cui capita."
 answer: "Con tre cose che dipendono più dall'organizzazione che dall'atleta: un prodotto mestruale adatto al gesto sportivo, una divisa che non aumenti la paura delle perdite e un kit disponibile in palestra. Tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, e la paura delle perdite è una barriera ricorrente (Harvey et al., 2025)."
@@ -87,9 +87,9 @@ Se c'è una cosa che una società può fare questa settimana, è questa. Un cont
 
 Costa poche decine di euro. E il punto non è il contenuto, è **la posizione**: se per avere il kit bisogna chiedere all'allenatore, per molte atlete equivale a non averlo. Il dato che lo spiega meglio è quello sulla comunicazione: **solo l'11% delle atlete parla di ciclo con chi la allena, e la quota scende al 4% quando l'allenatore è un uomo** (Höök et al., 2022). Aspettare la domanda significa non rispondere mai — è lo stesso meccanismo raccontato in [parlare di ciclo con l'allenatore](/blog/parlare-di-ciclo-con-allenatore).
 
-## Cosa può fare un allenatore uomo (senza conversazioni imbarazzanti)
+## Che cosa può fare un allenatore uomo senza conversazioni imbarazzanti?
 
-Tre azioni, nessuna delle quali richiede un colloquio privato:
+**Tre azioni pubbliche e una sola volta, all'inizio della stagione: nessuna richiede un colloquio privato con nessuna atleta.** È il punto che di solito blocca gli allenatori uomini — la convinzione che aiutare significhi dover parlare del ciclo a quattr'occhi con una quattordicenne. Non è così:
 
 1. **Rendere disponibile il kit** e dirlo una volta sola, all'inizio della stagione, davanti a tutta la squadra: dove sta, che è lì per chiunque, che non si chiede niente a nessuno.
 2. **Non imporre colori chiari** nella divisa da allenamento e consentire un secondo strato.
@@ -99,9 +99,9 @@ Il terzo punto è quello che protegge di più, perché sostituisce la scelta bin
 
 Una precisazione doverosa: **niente di tutto questo riguarda il dolore che impedisce di allenarsi ogni mese.** Quello non è un problema di organizzazione. Nella revisione su 21.573 giovani donne sotto i 25 anni, il 20,1% riferiva assenze da scuola o università per il dolore mestruale (Armour et al., 2019): se succede ogni ciclo, va portato a un professionista sanitario, non gestito con un kit.
 
-## Cosa può fare una famiglia, prima che serva
+## Che cosa può fare una famiglia prima che serva?
 
-Il momento giusto per preparare le condizioni è quando non c'è urgenza — cioè prima del primo episodio in trasferta.
+**Preparare le condizioni quando non c'è urgenza: cioè prima del primo episodio in trasferta, non durante.** Tre cose, tutte da fare a casa e in un pomeriggio:
 
 - **Un kit permanente nella borsa sportiva**, non da preparare ogni volta: prodotti di due assorbenze, salviette, sacchetto opaco, un ricambio.
 - **Provare a casa** il prodotto che si intende usare in allenamento. Vale per qualsiasi prodotto, ed è esplicito nella revisione sulle coppette (van Eijk et al., 2019).

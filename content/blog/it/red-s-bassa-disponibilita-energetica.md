@@ -4,7 +4,7 @@ title: "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)"
 seoTitle: "RED-S nelle atlete: cos'è, sintomi e primi segnali"
 seoDescription: "RED-S: quando l'energia non copre allenamento e crescita. Sintomi, primi segnali e perché un ciclo che sparisce non è mai un buon segno."
 date: 2026-07-04
-updated: 2026-08-19
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica."
 answer: "Quando l'energia introdotta non copre quella spesa tra allenamento e crescita: è la bassa disponibilità energetica alla base della RED-S. Non serve un disturbo alimentare, può accadere senza intenzione, e i primi segnali sono un ciclo che si dirada, infortuni ripetuti, sonno e umore peggiori — eppure il 44% delle atlete adolescenti crede che perdere il ciclo sia normale (Armento et al., 2021)."
@@ -102,7 +102,7 @@ Un principio guida tutti: sono **filtri**, non verdetti. La valutazione clinica 
 **Quattro cose, divise per ruolo — e nessuna richiede di fare diagnosi.** Il filo comune è togliere all'atleta il peso di doversi spiegare da sola.
 
 - **L'atleta**: osservare i propri segnali giorno per giorno, senza giudizio. Riconoscere i propri schemi è il primo passo per parlarne.
-- **La famiglia**: rifornire senza colpevolizzare. Il cibo è carburante, non un premio o una punizione. E se la stanchezza è il sintomo dominante, vale la pena escludere anche una [carenza di ferro](/blog/ferro-atlete-adolescenti): si accerta con un esame del sangue, non si presume.
+- **La famiglia**: rifornire senza colpevolizzare. Il cibo è carburante, non un premio o una punizione. Il problema, quando c'è, è quasi sempre che si mangia troppo poco o troppo poco vario — non che manchi una polvere: nelle atlete di 14-18 anni gli apporti mediani risultano sotto la razione raccomandata per ferro, folati e calcio, e la conclusione degli autori è che [l'integrazione è in genere non necessaria](/blog/integratori-energy-drink-giovani-atlete) (Parnell et al., 2016; 187 atleti canadesi di 11-18 anni, studio trasversale). E se la stanchezza è il sintomo dominante, vale la pena escludere anche una [carenza di ferro](/blog/ferro-atlete-adolescenti): si accerta con un esame del sangue, non si presume.
 - **Lo staff**: leggere i segnali di squadra (stanchezza diffusa, infortuni in aumento) come informazione utile, senza chiedere all'atleta di esporsi in pubblico. E ricordare che il carico non è solo il volume: anche un blocco di [allenamento della forza](/blog/forza-ragazze-adolescenti) — utile e ben documentato — aggiunge una richiesta energetica che va coperta, non ignorata.
 - **Tutti**: sostituire "hai perso il ciclo perché ti alleni tanto, è normale" con "parliamone con qualcuno che se ne intende".
 

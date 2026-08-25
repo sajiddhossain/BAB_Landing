@@ -243,3 +243,20 @@
   Scelta del soggetto: le scarpette da punta in sala di danza, perché la danza è la disciplina in cui
   l'ipermobilità è più frequente — 68,2% delle ballerine contro il 13,2% delle giocatrici di pallamano
   nello studio su 132 atleti adolescenti d'élite citato nell'articolo (Schmidt et al., 2017).
+
+## cover-integratori-energy-drink.jpg
+- Titolo originale: "Free red soda can grey background image" (lattina rossa anonima su fondo grigio)
+- Fonte: rawpixel — https://www.rawpixel.com/image/5920258/photo-image-background-public-domain-free
+  (reperita via Openverse, filtro licenza cc0/pdm)
+- Autore: non indicato dalla fonte (nessuna attribuzione richiesta)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "integratori, caffeina ed energy drink nelle giovani atlete" (IT + EN)
+- Lavorazione: rendition `editor_1024` (senza filigrana; l'originale è 3202x3202), da WebP a JPEG,
+  ritaglio della banda 16:9 inferiore (1024x576) — la lattina entra dal fondo e lascia in alto lo
+  spazio negativo grigio. Nessun resample oltre il ritaglio, JPEG q88.
+  NB: come per le altre immagini rawpixel, la rendition `image_1300` è filigranata → non usare.
+  Nessuna persona nell'inquadratura e NESSUN MARCHIO VISIBILE: scelta deliberata, perché l'articolo
+  parla di una categoria di prodotti e non deve indicare né promuovere una marca specifica.
+  Scartate in fase di selezione: le foto Wikimedia di lattine di marca (Red Bull, Fanta) per la
+  regola «niente foto da Wikipedia» e per la presenza di marchi registrati, e uno scaffale di
+  supermercato rawpixel perché i marchi erano leggibili in etichetta.

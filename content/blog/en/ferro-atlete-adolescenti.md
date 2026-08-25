@@ -4,7 +4,7 @@ title: "Low iron in teenage athletes: the deficiency nobody looks for (and a blo
 seoTitle: "Low iron in teenage athletes: how it is found"
 seoDescription: "53.2% of adolescent athletes have mild iron deficiency, but a full blood count alone misses it: ferritin is the test. Symptoms and what to ask for."
 date: 2026-07-16
-updated: 2026-08-20
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone."
 answer: "With a blood test, not by intuition: 53.2% of adolescent female athletes have mild iron deficiency (ferritin ≤30 µg/L), while iron-deficiency anaemia affects only 4% (Nicotra et al., 2023). Sport is not the dominant factor — among adolescents, athletes and non-athletes do not differ significantly — and supplementing without measuring first is not a good idea."
@@ -95,7 +95,7 @@ Two caveats. First: Revel-Vilk and colleagues offer an **expert proposal**, not 
 ## What can the people around the athlete do, starting Monday?
 
 - **The athlete**: notice and name. Tiredness that rest doesn't fix, a flow that seems heavier than usual, breathlessness on efforts that used to be easy. These aren't diagnoses: they're things to tell an adult.
-- **The family**: take the question to the paediatrician — "does it make sense to check her blood count and ferritin?" — instead of buying a supplement. And know that a meat-free diet isn't a problem in itself: it's one more reason to **check**, not to blame.
+- **The family**: take the question to the paediatrician — "does it make sense to check her blood count and ferritin?" — instead of [buying a supplement](/en/blog/integratori-energy-drink-giovani-atlete). Iron deficiency is measured with a test, it is not inferred from tiredness, and the IOC consensus statement asks for a complete nutritional assessment **before** any decision on use. And know that a meat-free diet isn't a problem in itself: it's one more reason to **check**, not to blame.
 - **The staff**: don't request tests, don't look at clinical data, don't play doctor. But know that a broad dip in sharpness can have something measurable behind it — and that [the words used to name it](/en/blog/parole-allenatore-salute-atlete) decide whether an athlete talks about it or hides it.
 - **Everyone**: replace "she's lazy" with "tired since when?".
 

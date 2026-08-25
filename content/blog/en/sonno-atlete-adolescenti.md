@@ -4,7 +4,7 @@ title: "Sleep and teenage athletes: why 8 hours isn't a luxury (and puberty make
 seoTitle: "Sleep and teenage athletes: how many hours"
 seoDescription: "At 13-18 you need 8-10 hours a night: sleeping fewer than 8 is linked to 1.7 times more injuries. Why puberty shifts the body clock later."
 date: 2026-07-18
-updated: 2026-08-13
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "How many hours should a 14-year-old athlete sleep? Between 8 and 10, says the consensus recommendation for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured, and through puberty insomnia symptoms in girls climb from 3.4% to 12.2% — against 4.3%-9.1% in boys, because the body clock shifts later while the school alarm stays put. What the evidence says, what it does not, and what a club can change from Monday."
 answer: "Because at 13-18 you need 8-10 hours a night (Paruthi et al., 2016), and sleeping fewer than 8 is associated with being injured 1.7 times as often (Milewski et al., 2014). With puberty the biological clock shifts later: the need for sleep does not fall, what changes is the hour at which the body can fall asleep."
@@ -74,9 +74,9 @@ In physiological terms, puberty **changes circadian timing**. Sleep need stays h
 
 For an athlete there's a third vector: **evening training**. Finishing at 9:30pm, eating, winding down and falling asleep by 10:30pm to get eight hours is, quite simply, an unrealistic ask. The debt doesn't come from a bad choice: it comes from a scheduling clash. And the clash tightens when the sporting year has no breaks: it is one of the least visible costs of [early specialisation in a single sport](/en/blog/specializzazione-precoce-giovani-atlete).
 
-## The gap that opens between girls and boys
+## Why do girls sleep worse than boys at puberty?
 
-This is the piece almost always missing from conversations about adolescent sleep — and it is specific to girls.
+**Because the gap opens with pubertal stage, not with age: in girls, insomnia symptoms multiply by 3.6 between Tanner stage 1 and stage 5, against a factor of 2.1 in boys.** This is the piece almost always missing from conversations about adolescent sleep — and it is specific to girls.
 
 A study of **7,507 children and adolescents aged 6-17** (48.5% female, 31 schools) measured insomnia symptoms across Tanner stages of pubertal development ([Zhang et al., 2016, *Sleep*](https://doi.org/10.5665/sleep.6022)). The findings:
 
@@ -114,6 +114,7 @@ None of the actions below is medical advice. They're organisational choices that
 - **The family**: protect regularity more than the length of any single night. A stable wake time, weekends included, reduces circadian misalignment.
 - **The athlete**: notice patterns. Not "I slept badly last night", but "in weeks with three evening sessions I consistently sleep less".
 - **Everyone**: if difficulty falling asleep or unrefreshing sleep persists for weeks, raise it with a paediatrician or sports physician. Chronically disturbed sleep is not a personality trait.
+- **Before hunting for complicated causes, look at what is being drunk.** In an athlete who habitually consumes [energy drinks or other caffeinated beverages](/en/blog/integratori-energy-drink-giovani-atlete), difficulty falling asleep often has a simple explanation: for children and adolescents EFSA declares the data insufficient to derive a safe caffeine intake, and the ISSN position stand lists sleep disruption among the expected individual responses.
 
 Sleep is also where this topic meets the others: insufficient recovery weighs on [load management](/en/blog/specializzazione-precoce-giovani-atlete), and in the most common youth sport injuries — starting with the [ankle sprain](/en/blog/distorsione-caviglia-giovani-atlete) — the consistency of prevention depends on how well a squad can actually sustain a weekly routine. On the other side, what gets built while sleeping is what gets built while training [strength](/en/blog/forza-ragazze-adolescenti): adaptation, not immediate performance.
 
