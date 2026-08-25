@@ -4,7 +4,7 @@ title: "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e ch
 seoTitle: "Ferro basso nelle atlete adolescenti: come si trova"
 seoDescription: "Il 53,2% delle atlete adolescenti ha una carenza di ferro lieve, ma l'emocromo da solo non la vede: serve la ferritina. Sintomi, esami e cosa chiedere."
 date: 2026-07-16
-updated: 2026-08-20
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli."
 answer: "Con un esame del sangue, non a intuito: il 53,2% delle atlete adolescenti ha una carenza di ferro lieve (ferritina ≤30 µg/L), mentre l'anemia sideropenica riguarda solo il 4% (Nicotra et al., 2023). Lo sport non è il fattore dominante — tra le adolescenti, atlete e non atlete non differiscono in modo significativo — e integrare senza aver misurato non è una buona idea."
@@ -96,7 +96,7 @@ Due precisazioni. La prima: quella di Revel-Vilk è una **proposta di esperti**,
 ## Cosa può fare chi sta intorno all'atleta, da lunedì?
 
 - **L'atleta**: notare e nominare. Una stanchezza che non passa con il riposo, un flusso che sembra più abbondante del normale, il fiato corto su sforzi che prima erano facili. Non sono diagnosi: sono cose da dire a un adulto.
-- **La famiglia**: portare la domanda al pediatra — "ha senso controllare emocromo e ferritina?" — invece di comprare un integratore. E sapere che una dieta senza carne non è un problema in sé: è un motivo in più per **controllare**, non per colpevolizzare.
+- **La famiglia**: portare la domanda al pediatra — "ha senso controllare emocromo e ferritina?" — invece di [comprare un integratore](/blog/integratori-energy-drink-giovani-atlete). La carenza di ferro si misura con un esame, non si deduce dalla stanchezza, e il consensus del CIO chiede una valutazione nutrizionale completa **prima** di ogni decisione d'uso. E sapere che una dieta senza carne non è un problema in sé: è un motivo in più per **controllare**, non per colpevolizzare.
 - **Lo staff**: non chiedere esami, non guardare dati clinici, non fare da medico. Ma sapere che dietro un calo diffuso di brillantezza può esserci qualcosa di misurabile — e che [le parole con cui lo si nomina](/blog/parole-allenatore-salute-atlete) determinano se l'atleta ne parlerà o lo nasconderà.
 - **Tutti**: sostituire "è pigra" con "è stanca da quanto?".
 

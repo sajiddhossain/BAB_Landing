@@ -729,6 +729,46 @@ export const FACTS: Fact[] = [
     source: 'Schmidt et al., 2017',
     doi: '10.2519/jospt.2017.7682',
   },
+  {
+    id: 'integratori-energy-drink-giovani-atlete-1',
+    article: 'integratori-energy-drink-giovani-atlete',
+    claim:
+      "Su 634 integratori alimentari non ormonali acquistati in 13 Paesi da 215 fornitori diversi, il 14,8% conteneva steroidi anabolizzanti androgeni non dichiarati in etichetta: la quota saliva al 21,1% fra i prodotti di aziende che vendono anche proormoni e restava al 9,6% fra quelle che non li vendono. Popolazione: CAMPIONAMENTO DI MERCATO condotto fra ottobre 2000 e novembre 2001, non uno studio su atlete; una revisione successiva di 23 studi pubblicati fino al 2017 riporta tassi di contaminazione fra il 12% e il 58% (Martínez-Sanz et al., 2017).",
+    claimEn:
+      'Of 634 non-hormonal dietary supplements purchased in 13 countries from 215 different suppliers, 14.8% contained anabolic androgenic steroids not declared on the label: the share rose to 21.1% among products from companies that also sell prohormones and stayed at 9.6% among those that do not. Population: MARKET SAMPLING carried out between October 2000 and November 2001, not a study in athletes; a later review of 23 studies published up to 2017 reports contamination rates between 12% and 58% (Martínez-Sanz et al., 2017).',
+    source: 'Geyer et al., 2004',
+    doi: '10.1055/s-2004-819955',
+  },
+  {
+    id: 'integratori-energy-drink-giovani-atlete-2',
+    article: 'integratori-energy-drink-giovani-atlete',
+    claim:
+      "Per bambini e adolescenti le informazioni disponibili non sono sufficienti a derivare un'assunzione sicura di caffeina: il valore adulto di 3 mg per kg di peso corporeo è indicato come possibile base di partenza, non come soglia misurata. Popolazione: parere scientifico di un'agenzia europea, non uno studio; per gli ADULTI non in gravidanza il parere indica dosi singole fino a 200 mg e un consumo abituale fino a 400 mg al giorno come privi di rischi per la sicurezza.",
+    claimEn:
+      'For children and adolescents the available information is insufficient to derive a safe caffeine intake: the adult value of 3 mg per kg of body weight is indicated as a possible starting basis, not as a measured threshold. Population: scientific opinion of a European agency, not a study; for non-pregnant ADULTS the opinion indicates single doses up to 200 mg and habitual consumption up to 400 mg a day as giving rise to no safety concerns.',
+    source: 'EFSA, 2015',
+    doi: '10.2903/j.efsa.2015.4102',
+  },
+  {
+    id: 'integratori-energy-drink-giovani-atlete-3',
+    article: 'integratori-energy-drink-giovani-atlete',
+    claim:
+      "Nelle atlete di 14-18 anni gli apporti mediani risultano sotto la razione raccomandata per ferro (91% della RDA), folati (89%) e calcio (84%), mentre la vitamina D è sotto la RDA e il potassio sotto l'assunzione adeguata in tutti i gruppi di atleti. Popolazione: 187 atlete e atleti CANADESI di 11-18 anni; studio TRASVERSALE basato su un solo richiamo alimentare di 24 ore per partecipante. Gli autori concludono che, con l'eccezione della vitamina D e dei carboidrati durante sessioni prolungate, l'integrazione è in genere non necessaria.",
+    claimEn:
+      'In female athletes aged 14-18, median intakes fall below the recommended dietary allowance for iron (91% of the RDA), folate (89%) and calcium (84%), while vitamin D is below the RDA and potassium below the adequate intake in every athlete group. Population: 187 CANADIAN athletes aged 11-18; CROSS-SECTIONAL study based on a single 24-hour dietary recall per participant. The authors conclude that, with the exceptions of vitamin D and carbohydrate during long sessions, supplementation is generally unnecessary.',
+    source: 'Parnell et al., 2016',
+    doi: '10.3390/nu8090526',
+  },
+  {
+    id: 'integratori-energy-drink-giovani-atlete-4',
+    article: 'integratori-energy-drink-giovani-atlete',
+    claim:
+      "Nella maggior parte dei giovani atleti l'uso di sostanze che migliorano la prestazione non produce guadagni significativi rispetto a quelli ottenuti con l'inizio della pubertà e con l'aderenza a un programma adeguato di nutrizione e allenamento. Popolazione: documento clinico di una società scientifica pediatrica riferito all'ETÀ PEDIATRICA, non uno studio sperimentale; fra le preoccupazioni indicate ci sono gli alti tassi di contaminazione dei prodotti e la correlazione con l'uso futuro di steroidi anabolizzanti androgeni.",
+    claimEn:
+      'In most young athletes, the use of performance-enhancing substances does not produce significant gains over those obtained with the onset of puberty and adherence to an appropriate nutrition and training programme. Population: clinical report of a paediatric scientific society addressing the PAEDIATRIC AGE, not an experimental study; the concerns it lists include high rates of product contamination and correlation with future use of anabolic androgenic steroids.',
+    source: 'LaBotz e Griesemer, 2016',
+    doi: '10.1542/peds.2016-1300',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

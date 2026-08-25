@@ -4,7 +4,7 @@ title: "Sonno e atlete adolescenti: perché 8 ore non sono un lusso (e la pubert
 seoTitle: "Sonno e atlete adolescenti: quante ore servono"
 seoDescription: "A 13-18 anni servono 8-10 ore per notte: dormirne meno di 8 si associa a infortuni 1,7 volte più frequenti. Perché la pubertà sposta l'orologio interno."
 date: 2026-07-18
-updated: 2026-08-13
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "Quante ore deve dormire un'atleta di 14 anni? Tra 8 e 10, dice la raccomandazione di consenso per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato, e con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2% — contro il 4,3%-9,1% dei ragazzi, perché l'orologio biologico slitta in avanti mentre la sveglia della scuola resta la stessa. Cosa dicono davvero i dati, cosa non dicono, e cosa può cambiare una società sportiva già da lunedì."
 answer: "Perché a 13-18 anni ne servono 8-10 per notte (Paruthi et al., 2016) e dormirne meno di 8 si associa a essere infortunati 1,7 volte più spesso (Milewski et al., 2014). Con la pubertà l'orologio biologico slitta in avanti: il bisogno di sonno non cala, cambia l'ora in cui il corpo riesce ad addormentarsi."
@@ -73,9 +73,9 @@ In termini fisiologici, con la pubertà **cambia la temporizzazione circadiana**
 
 Per un'atleta si aggiunge un terzo vettore: **l'allenamento serale**. Finire alle 21:30, cenare, scaricare l'attivazione e addormentarsi entro le 22:30 per fare otto ore è, semplicemente, una richiesta poco realistica. Il debito non nasce da una scelta sbagliata: nasce da un incastro. E l'incastro si stringe quando l'anno sportivo non ha pause: è uno dei costi meno visibili della [specializzazione precoce in un solo sport](/blog/specializzazione-precoce-giovani-atlete).
 
-## Il divario che si apre tra ragazze e ragazzi
+## Perché le ragazze dormono peggio dei ragazzi in pubertà?
 
-Questo è il pezzo che manca quasi sempre nelle conversazioni sul sonno degli adolescenti — ed è specifico per le ragazze.
+**Perché il divario non si apre con l'età, ma con lo stadio puberale: nelle ragazze i sintomi di insonnia si moltiplicano per 3,6 fra lo stadio 1 e lo stadio 5 di Tanner, contro un fattore 2,1 nei ragazzi.** È il pezzo che manca quasi sempre nelle conversazioni sul sonno degli adolescenti — ed è specifico per le ragazze.
 
 Uno studio su **7.507 bambini e adolescenti di 6-17 anni** (48,5% femmine, 31 scuole) ha misurato i sintomi di insonnia lungo gli stadi di sviluppo puberale di Tanner ([Zhang et al., 2016, *Sleep*](https://doi.org/10.5665/sleep.6022)). Il risultato:
 
@@ -113,6 +113,7 @@ Nessuna delle azioni qui sotto è una prescrizione medica. Sono scelte organizza
 - **La famiglia**: proteggere la regolarità più della quantità di una singola notte. Un orario di sveglia stabile anche nel weekend riduce lo sfasamento del ritmo circadiano.
 - **L'atleta**: notare gli schemi. Non "ho dormito male ieri", ma "nelle settimane con tre allenamenti serali dormo sistematicamente meno".
 - **Tutti**: se difficoltà ad addormentarsi o sonno non ristoratore persistono per settimane, parlarne con il pediatra o il medico dello sport. Il sonno cronicamente disturbato non è un tratto caratteriale.
+- **Prima di cercare cause complicate, guardare che cosa si beve.** In un'atleta che consuma abitualmente [energy drink o altre bevande contenenti caffeina](/blog/integratori-energy-drink-giovani-atlete) la fatica ad addormentarsi ha spesso una spiegazione semplice: per bambini e adolescenti l'EFSA dichiara insufficienti i dati per derivare un'assunzione sicura di caffeina, e la position stand dell'ISSN elenca il disturbo del sonno fra le risposte individuali attese.
 
 Il sonno è anche il punto in cui questo tema incrocia gli altri: il recupero insufficiente pesa sulla [gestione del carico](/blog/specializzazione-precoce-giovani-atlete), e negli infortuni più frequenti dello sport giovanile — a partire dalla [distorsione di caviglia](/blog/distorsione-caviglia-giovani-atlete) — la costanza della prevenzione dipende da quanto una squadra riesce davvero a sostenere una routine settimanale. Sul versante opposto, ciò che si costruisce dormendo è lo stesso che si costruisce allenando [la forza](/blog/forza-ragazze-adolescenti): adattamento, non prestazione immediata.
 

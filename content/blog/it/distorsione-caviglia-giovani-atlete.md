@@ -4,7 +4,7 @@ title: "«È solo una storta»: la caviglia è l'infortunio più frequente delle
 seoTitle: "Distorsione di caviglia nelle giovani atlete"
 seoDescription: "La caviglia è la sede del 23% degli infortuni nelle giovani atlete, e il 23,6% delle ragazze convive con un'instabilità cronica. Perché non è «solo una storta»."
 date: 2026-08-06
-updated: 2026-08-23
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "La caviglia è la sede del 23% degli infortuni nelle giovani atlete — più del ginocchio (16%). Eppure è l'infortunio che si racconta con la frase «è solo una storta»: tra gli atleti di 14-18 anni il 20% convive con un'instabilità cronica di caviglia, e tra le ragazze la quota sale al 23,6%. Nello sport giovanile i programmi di prevenzione riducono gli infortuni di caviglia del 26%. I dati, i limiti dei dati, e cosa cambia in venti minuti a settimana."
 answer: "È l'infortunio più frequente delle giovani atlete: la caviglia è la sede del 23% di tutti gli infortuni, davanti a ginocchio (16%) e coscia (13%) (Beech et al., 2024). E non è banale: tra i 14 e i 18 anni il 20,0% degli atleti convive con un'instabilità cronica di caviglia, il 23,6% tra le ragazze (Donovan et al., 2020)."
@@ -37,7 +37,7 @@ faq:
     a: "No, e su questo la letteratura è insolitamente netta. La meta-analisi di riferimento sull'ipermobilità articolare nello sport, 18 studi selezionati su 4.841 esaminati, ha trovato un rischio aumentato di lesione al ginocchio negli sport di contatto e nessun rischio aumentato alla caviglia (Pacey et al., 2010; popolazioni miste per età e sesso). L'idea che a distorcersi siano «le più lasse» è una spiegazione comoda che i dati non sostengono. Il fattore di rischio meglio documentato per la caviglia resta un altro, e molto più banale: essersi già distorte una volta senza aver completato la riabilitazione."
 ---
 
-Nel calendario di una società sportiva la distorsione di caviglia è l'infortunio che non fa notizia. Non ferma la stagione come il crociato, non ha un protocollo scritto come la commozione cerebrale, non spaventa i genitori come una frattura. Si racconta con quattro parole — «è solo una storta» — e si archivia con del ghiaccio. Poi però, quando si guardano i numeri di quello che succede alle atlete negli anni successivi, quelle quattro parole risultano una delle scommesse peggiori dello sport giovanile.
+Nelle giovani atlete la caviglia è la sede più colpita di tutte — **il 23% degli infortuni**, una volta e mezza il ginocchio — ed è anche l'infortunio che non fa notizia. Non ferma la stagione come il crociato, non ha un protocollo scritto come la commozione cerebrale, non spaventa i genitori come una frattura. Si racconta con quattro parole — «è solo una storta» — e si archivia con del ghiaccio. Poi però, quando si guardano i numeri di quello che succede alle atlete negli anni successivi, quelle quattro parole risultano una delle scommesse peggiori dello sport giovanile.
 
 > **In breve**
 > - Nelle giovani atlete la **caviglia è la sede più colpita: il 23%** di tutti gli infortuni, davanti a ginocchio (16%) e coscia (13%); il 67% degli infortuni riguarda l'arto inferiore (Beech et al., 2024; 32 studi, 15.908 atlete under 19).

@@ -4,7 +4,7 @@ title: "How to coach teenage girls: 4 concrete levers for coaches and sports clu
 seoTitle: "How to coach teenage girls: 4 concrete levers"
 seoDescription: "Four concrete levers for coaches and clubs: non-judgemental language, adjusted load, anonymous team signals, space and continuity — with the data."
 date: 2026-07-02
-updated: 2026-08-23
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "Among girls who join a club aged 10-14, 71% drop out without ever returning, and it is almost never about motivation. Coaching them well means four concrete, budget-free things: talking about the changing body, adjusting the load instead of penalising a dip, using only anonymous team signals, and guaranteeing space and continuity. Here is the evidence behind each lever — and what to do when an athlete turns up in pain."
 answer: "By acting on the environment, not on the individual girl's motivation: non-judgemental language, aggregated and anonymous team signals, practical conditions and injury prevention. A coach perceived as very well-informed is associated with 36% fewer RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample, non-peer-reviewed report)."
@@ -94,6 +94,14 @@ And watch what looks like a kit detail: among girls aged 11-18, **46% say their 
 This is not a hypothetical. Among athletes, dysmenorrhoea is the **most frequent** menstrual cycle disorder: 32.3% across 60 studies and 6,380 athletes, with a huge range between studies (7.8-85.6%) that speaks to the uncertainty, not to rarity (Taim et al., 2023). And between **25.2% and 61.1%** of adolescents avoid or reduce physical activity during menstruation (Harvey et al., 2025): lost sessions that no injury register counts.
 
 Staff need nothing beyond three practical conditions — toilet access, menstrual products available, the option to adapt the session without justifying it in front of the group — and **one threshold to know**: if pain does not improve within **3-6 months** of starting treatment, the clinical reference written for adolescents says secondary causes should be investigated (ACOG, 2018). That is not a coach's job to do: it is a coach's job to notice the pattern and tell the family. The full picture, with what actually works, is in [period pain and sport](/en/blog/dolori-mestruali-giovani-atlete).
+
+## Can a coach recommend a supplement to an athlete who is a minor?
+
+**No — and it is not a matter of formal caution: the assessment that decision requires is missing.** The IOC consensus statement on supplements asks for a complete nutritional assessment **before** any decision on use, and strongly advises expert professional opinion (Maughan et al., 2018 — **a document addressed to the adult elite athlete**). A coach who recommends a product is making a health decision for a minor without either that assessment or the responsibility it carries.
+
+The fact that the product is legally on sale changes nothing: of 634 non-hormonal supplements purchased in 13 countries, **14.8%** contained anabolic androgenic steroids not declared on the label (Geyer et al., 2004 — **market sampling from 2000-2001**). And on the expected benefit, the paediatric report is blunt: in most young athletes use does not produce significant gains over those that arrive with puberty and with appropriate training and nutrition (LaBotz and Griesemer, 2016).
+
+What a club can do without overstepping: know what athletes drink before matches, not let cans circulate on the bench as though they were needed, and keep water and real food available. The full picture — sports drinks, energy drinks, caffeine and what is actually missing from the plate — is in [supplements and energy drinks at 14](/en/blog/integratori-energy-drink-giovani-atlete).
 
 ## Why does retaining athletes pay off for the club too?
 

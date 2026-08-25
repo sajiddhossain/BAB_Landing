@@ -4,7 +4,7 @@ title: "Come allenare ragazze adolescenti: 4 leve concrete per coach e società 
 seoTitle: "Come allenare ragazze adolescenti: 4 leve concrete"
 seoDescription: "Quattro leve concrete per coach e società: linguaggio non giudicante, carico adattato, segnali di squadra anonimi, spazi e continuità. Con i dati dietro."
 date: 2026-07-02
-updated: 2026-08-23
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "Tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Allenarle bene significa quattro cose concrete e senza budget: parlare del corpo che cambia, adattare il carico invece di sanzionare il calo, usare solo segnali di squadra anonimi, garantire spazi e continuità. Ecco i dati che sostengono ciascuna leva — e cosa fare quando un'atleta si presenta con dolore."
 answer: "Agendo sull'ambiente, non sulla motivazione della singola: linguaggio non giudicante, segnali di squadra aggregati e anonimi, condizioni pratiche e prevenzione degli infortuni. Un allenatore percepito come molto informato si associa al 36% di sintomi di RED-S in meno nelle sue atlete (Female Athlete Health Report, 2023 — campione adulto, report non peer-reviewed)."
@@ -90,6 +90,14 @@ E attenzione a ciò che sembra un dettaglio dell'attrezzatura: tra le ragazze di
 Non è un caso di scuola. Tra le atlete la dismenorrea è il **disturbo del ciclo più frequente**: 32,3% su 60 studi e 6.380 atlete, con un intervallo enorme tra studi (7,8-85,6%) che ne dice l'incertezza ma non la rarità (Taim et al., 2023). E dal **25,2% al 61,1%** delle adolescenti evita o riduce l'attività fisica durante le mestruazioni (Harvey et al., 2025): allenamenti persi che nessun registro infortuni conta.
 
 Allo staff non serve altro che tre condizioni pratiche — bagno accessibile, prodotti mestruali disponibili, possibilità di adattare la seduta senza doversi giustificare davanti al gruppo — e **una soglia da conoscere**: se il dolore non migliora entro **3-6 mesi** dall'inizio di un trattamento, il riferimento clinico dedicato alle adolescenti indica di indagare le cause secondarie (ACOG, 2018). Non tocca a chi allena farlo: tocca notare il pattern e dirlo alla famiglia. Il quadro completo, con ciò che funziona davvero, è in [dolori mestruali e sport](/blog/dolori-mestruali-giovani-atlete).
+
+## Un allenatore può consigliare un integratore a un'atleta minorenne?
+
+**No, e non è una questione di prudenza formale: è che manca la valutazione che quella decisione richiede.** Il consensus del CIO sugli integratori chiede una valutazione nutrizionale completa **prima** di ogni decisione d'uso, e raccomanda con forza il parere di un professionista esperto (Maughan et al., 2018 — **documento riferito all'atleta d'élite adulto**). Un allenatore che consiglia un prodotto sta prendendo una decisione sanitaria per una minorenne senza avere né quella valutazione né la responsabilità che comporta.
+
+Il fatto che il prodotto sia legalmente in vendita non cambia nulla: su 634 integratori non ormonali acquistati in 13 Paesi, il **14,8%** conteneva steroidi anabolizzanti androgeni non dichiarati in etichetta (Geyer et al., 2004 — **campionamento di mercato del 2000-2001**). E sul beneficio atteso, il documento pediatrico è netto: nella maggior parte dei giovani atleti l'uso non produce guadagni significativi rispetto a quelli che arrivano con la pubertà e con allenamento e alimentazione adeguati (LaBotz e Griesemer, 2016).
+
+Quello che una società può fare senza sconfinare: sapere che cosa bevono le atlete prima delle partite, non lasciare che le lattine circolino in panchina come se servissero, e tenere disponibili acqua e cibo vero. Il quadro completo — sport drink, energy drink, caffeina e che cosa manca davvero nel piatto — è in [integratori ed energy drink a 14 anni](/blog/integratori-energy-drink-giovani-atlete).
 
 ## Perché trattenere le atlete conviene anche alla società?
 

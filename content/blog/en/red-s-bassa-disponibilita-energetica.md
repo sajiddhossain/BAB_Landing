@@ -4,7 +4,7 @@ title: "RED-S: when training more does harm (and how to catch it early)"
 seoTitle: "RED-S in female athletes: signs and symptoms"
 seoDescription: "RED-S: when energy intake doesn't cover training and growth. Symptoms, early signs, and why a disappearing period is never a good sign."
 date: 2026-07-04
-updated: 2026-08-19
+updated: 2026-08-25
 author: Sajid Hossain
 excerpt: "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
 answer: "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021)."
@@ -102,7 +102,7 @@ One principle guides them all: they are **filters, not verdicts**. Clinical asse
 **Four things, split by role — and none of them requires making a diagnosis.** The common thread is taking away the burden of the athlete having to explain herself alone.
 
 - **The athlete**: observe your own signals day by day, without judgement. Recognising your patterns is the first step to talking about them.
-- **The family**: refuel without guilt. Food is fuel, not a reward or a punishment. And if fatigue is the dominant symptom, it's worth ruling out [iron deficiency](/en/blog/ferro-atlete-adolescenti) too: that's established with a blood test, not assumed.
+- **The family**: refuel without guilt. Food is fuel, not a reward or a punishment. The problem, when there is one, is almost always that too little or too narrow a range of food is being eaten — not that a powder is missing: in female athletes aged 14-18, median intakes fall below the recommended allowance for iron, folate and calcium, and the authors conclude that [supplementation is generally unnecessary](/en/blog/integratori-energy-drink-giovani-atlete) (Parnell et al., 2016; 187 Canadian athletes aged 11-18, cross-sectional study). And if fatigue is the dominant symptom, it's worth ruling out [iron deficiency](/en/blog/ferro-atlete-adolescenti) too: that's established with a blood test, not assumed.
 - **The staff**: read team-level signals (widespread fatigue, rising injuries) as useful information, without asking the athlete to expose herself in public. And remember that load is not only volume: a block of [strength training](/en/blog/forza-ragazze-adolescenti) — useful and well documented — also adds an energy demand that has to be covered, not ignored.
 - **Everyone**: replace "you lost your period because you train a lot, it's normal" with "let's talk to someone who knows".
 
