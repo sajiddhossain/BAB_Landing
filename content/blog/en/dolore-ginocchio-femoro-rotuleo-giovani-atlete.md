@@ -4,7 +4,7 @@ title: "The knee that has hurt for months: why it is not 'growing pains'"
 seoTitle: "Knee pain in teenage athletes: what to do"
 seoDescription: "Among adolescents with recurrent knee pain, 72% are girls and the median duration is 24 months. Why it is not growing pains, and what to do."
 date: 2026-07-30
-updated: 2026-08-21
+updated: 2026-08-28
 author: Sajid Hossain
 excerpt: "Among adolescents with recurrent knee pain, 72% are girls, the median duration of pain is 24 months, and five years later 40.5% still hurt — with 60% of those having stopped or cut back on sport. Patellofemoral pain does not go away by 'growing out of it': it goes away when someone takes it seriously and doses the load. The data, and what changes in the gym."
 answer: "In most cases it does not go away with growth: five years on, 40.5% of adolescents with knee pain still have it, and 60% of those have stopped or cut back on sport because of the knee (Rathleff et al., 2019). What works is not complete rest but dosed load over weeks, together with hip and knee strengthening."
@@ -29,7 +29,11 @@ faq:
   - q: "How long does patellofemoral pain take to resolve in an adolescent?"
     a: "Longer than anyone expects, which is exactly why it should be addressed early. In the Danish cohort the median duration of knee pain was already 24 months at first assessment, 55.9% of those affected still had it two years later, and at five years 40.5% still had pain against 13.2% of those without pain at baseline (Rathleff et al., 2016; 2019). In structured programmes, improvement is measured in months: in the study of 151 adolescents aged 10-14 the programme ran for 12 weeks, with activity modification followed by progressive strengthening (Rathleff et al., 2018). «A few days off» is not a unit of measurement suited to this problem."
   - q: "Does an athlete with knee pain have to stop training?"
-    a: "In most cases no: what worked in the studies was modifying load, not removing it. The practical point is having a middle option — reduced-load training, without jumping or running, with strength work maintained — instead of the single «in or out» choice. It is the same logic that applies to the other overuse pains of young female athletes, from [low back pain](/en/blog/mal-di-schiena-giovani-atlete) to [the shoulder in overhead sports](/en/blog/dolore-spalla-giovani-atlete): stopping completely also removes the training that protects, and starting again from zero is what restarts the pain cycle. What to remove, and for how long, is a decision for a healthcare professional."
+    a: "In most cases no: what worked in the studies was modifying load, not removing it. The practical point is having a middle option — reduced-load training, without jumping or running, with strength work maintained — instead of the single «in or out» choice. It is the same logic that applies to the other overuse pains of young female athletes, from low back pain to the shoulder in overhead sports: stopping completely also removes the training that protects, and starting again from zero is what restarts the pain cycle. What to remove, and for how long, is a decision for a healthcare professional."
+  - q: "What happens if adolescent knee pain is left untreated?"
+    a: "In most cases it does not resolve on its own, and the cost shows up years later. In the prospective cohort of 504 Danish adolescents aged 15-19, at five years 40.5% of those who had pain at baseline still had it (95% CI 35.4-45.6), against 13.2% of those who did not; among those still in pain, 60% had stopped or reduced sport because of the knee and 15% said the pain had influenced their choice of job or career (Rathleff et al., 2019). The sample is Danish adolescents of both sexes recruited from the school population, not registered athletes: the numbers do not transfer one-to-one to a 13-year-old, but the direction — pain that takes the sport away rather than going away itself — is measured, not assumed."
+  - q: "Are physiotherapy sessions needed, or are home exercises enough?"
+    a: "In the study closest to this age group, most of the work was done at home with very little supervision. One hundred and fifty-one adolescents aged 10-14 with patellofemoral pain followed a 12-week programme — activity modification in weeks 1-4, home exercises from 5 to 8, gradual return to sport from 9 to 12 — with only four supervised sessions, which a parent also had to attend: outcomes reported as successful in 86% at 12 weeks, 77% at 6 months and 81% at 12 months, with hip and knee strength up 20-33% (Rathleff et al., 2019). It is not a randomised controlled trial, so it does not prove the protocol superior to an alternative: what it does say is that the critical factor is not the number of sessions but consistency and family involvement."
   - q: "When should she see a doctor?"
     a: "Knee pain lasting more than two or three weeks, returning at every session, making her avoid stairs, squats or jumps, or costing her training sessions, should be assessed by a healthcare professional: a paediatrician, sports physician or physiotherapist. Some signs warrant assessment without waiting: swelling, the knee giving way or locking, pain after trauma, night pain, or pain that can be pointed to with one finger on a precise spot of bone. The reason not to wait is not alarmism, it is statistics: the median duration of pain in adolescents who eventually seek help is 24 months, and only 59% had sought care at all (Rathleff et al., 2013). Time is not an ally here."
 ---
@@ -53,7 +57,7 @@ And when you look only at those with recurrent knee pain, the imbalance becomes 
 
 This is exactly the kind of pain that enters no statistic in youth sport: no episode, no collision, no day on which it started.
 
-## What patellofemoral pain is, and what it is not
+## What is patellofemoral pain, and how is it told apart from other knee pain?
 
 **It is diffuse pain around or behind the kneecap, triggered by loading the knee in flexion**: stairs, squats, jumps, running, and — the detail that often gives it away — sitting for long periods with the knees bent. Whoever has it cannot point to it with one finger: she points with a whole hand, "around here".
 
@@ -79,7 +83,7 @@ It is worth being precise about the population: these are **Danish adolescents a
 
 There is a second finding, this one specific to girls, that makes waiting even harder to defend: **female adolescents with patellofemoral pain** have **lower pressure pain thresholds** than pain-free peers, including at body sites far from the knee ([Rathleff et al., 2013, *JOSPT*](https://doi.org/10.2519/jospt.2013.4383)). In other words, pain lasting months does not stay a local problem — **it changes how the nervous system processes stimuli**, as we described in [how pain changes during puberty](/en/blog/dolore-in-puberta-neuroscienza).
 
-## Why almost nobody takes it to a doctor
+## Why does almost nobody take adolescent knee pain to a doctor?
 
 **Because it feels too small to bother anyone with, and too normal to be a problem.** In the cohort of 504 adolescents with at least monthly knee pain, the **median duration** of pain was **24 months** and only **59%** had sought healthcare; **18%** were under treatment at the time of the questionnaire ([Rathleff et al., 2013, *BMC Musculoskeletal Disorders*](https://doi.org/10.1186/1471-2474-14-225)).
 
@@ -87,7 +91,7 @@ The most instructive detail, though, is another. Among **girls**, those with **t
 
 Put bluntly: **an accident seems to be needed before it feels allowed to ask.** It is the same dynamic that keeps [urine leakage during jumping](/en/blog/perdite-urina-giovani-atlete) and [menstruation in front of a coach](/en/blog/parlare-di-ciclo-con-allenatore) unspoken — a symptom without an event to justify it does not feel serious enough to name. And pain that is never named is pain nobody can dose.
 
-## What works: not rest, but measured load
+## Does rest make patellofemoral pain go away?
 
 **In the studies, stopping was not what worked: modifying the load and then strengthening was.** This is the counter-intuitive part, and the most useful one in the gym.
 
@@ -107,7 +111,7 @@ This too is a study **without a control group** and in a small sample: not proof
 
 There is one knee, though, that should not be treated as a knee: the one that hurts **with no injury and no local signs**, where you find neither swelling nor a precise tender spot. In a growing body that pain can come from the hip. In slipped capital femoral epiphysis, in a prospective study of 107 patients (122 hips), pain was reported **in the knee in 26.2% of cases** and in the groin in 13.9%, and **49%** had more than one visit before diagnosis ([Uvodich et al., 2019, *J Pediatr*](https://doi.org/10.1016/j.jpeds.2018.10.050)). It is a condition that is more common in boys and with higher body weight, but the practical rule holds for everyone: if the knee hurts and there is nothing wrong with the knee, [someone needs to look at the hip](/en/blog/dolore-inguine-giovani-atlete).
 
-## What a club can do, starting Monday
+## What can a club do, starting Monday?
 
 None of these is a medical prescription. They are organisational and language choices, within reach of anyone who coaches:
 

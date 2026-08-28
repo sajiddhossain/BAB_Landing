@@ -4,7 +4,7 @@ title: "RED-S: when training more does harm (and how to catch it early)"
 seoTitle: "RED-S in female athletes: signs and symptoms"
 seoDescription: "RED-S: when energy intake doesn't cover training and growth. Symptoms, early signs, and why a disappearing period is never a good sign."
 date: 2026-07-04
-updated: 2026-08-25
+updated: 2026-08-28
 author: Sajid Hossain
 excerpt: "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
 answer: "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021)."
@@ -39,7 +39,7 @@ faq:
   - q: "What happens if low energy availability goes on for months?"
     a: "The best-documented bill is paid by bone. In the same prospective study of 259 active girls and young women, those with low bone density (Z-score below -1.0) training at least 12 hours a week sustained a bone stress injury in 29.7% of cases, against 10.8% overall (Barrack et al., 2014). Two necessary caveats: the mean age of that sample is 18.1, so it is not a snapshot of a 13- or 14-year-old, and it is an observational study describing associations, not demonstrated causation. The reason not to wait stands: the months in which this happens are the same months in which bone mass is built."
   - q: "Does RED-S also affect heat tolerance?"
-    a: "Thermoregulation is among the physiological functions the International Olympic Committee consensus explicitly lists as supported by the energy left over after training, alongside bone growth, reproductive function and the immune system (Mountjoy et al., 2014). There is no specific figure today for how much this matters in adolescents training in heat: it's one more reason — not the only one — not to treat fuelling and [heat acclimatization](/en/blog/allenarsi-al-caldo-giovani-atlete) as separate topics, not a claim to cite with a precise number."
+    a: "Thermoregulation is among the physiological functions the International Olympic Committee consensus explicitly lists as supported by the energy left over after training, alongside bone growth, reproductive function and the immune system (Mountjoy et al., 2014). There is no specific figure today for how much this matters in adolescents training in heat: it's one more reason — not the only one — not to treat fuelling and heat acclimatization as separate topics, not a claim to cite with a precise number."
 ---
 
 There's a dangerous idea in youth women's sport: that training harder is always better. But an adolescent athlete's body is not an engine you can push forever. When the energy coming in isn't enough to cover what goes out — across training, school and growth itself — the body starts to **cut the functions it deems least urgent**. That is the heart of a condition science calls RED-S.
@@ -96,6 +96,8 @@ There are tools designed to **flag who needs a closer look**, not to label. The 
 - **REDs CAT2** — the updated traffic-light tool from the 2023 IOC consensus, used to stratify risk.
 
 One principle guides them all: they are **filters, not verdicts**. Clinical assessment belongs to doctors, dietitians and specialists — never to an app or a coach.
+
+It is worth knowing where these tools do **not** reach on their own, though. None of the three is part of the tests required by the [sports eligibility exam](/en/blog/visita-idoneita-sportiva-giovani-atlete), which in Italy number five and cover the heart, the lungs and urine: if energy availability is not raised by somebody, no routine test will surface it.
 
 ## What can the people around the athlete actually do?
 

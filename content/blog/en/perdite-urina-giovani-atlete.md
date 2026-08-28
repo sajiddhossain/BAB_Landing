@@ -4,7 +4,7 @@ title: "I leak when I jump: the symptom almost no young athlete talks about"
 seoTitle: "Urinary leakage in sport: how common it is"
 seoDescription: "Leaking urine when jumping affects on average 48.6% of adolescent athletes, yet 87% would not tell their coach. Common does not mean normal."
 date: 2026-07-22
-updated: 2026-08-13
+updated: 2026-08-28
 author: Sajid Hossain
 excerpt: "Leaking urine when jumping or landing affects on average 48.6% of adolescent female athletes, and 80% in trampolining. Yet 87% say they would not mention it to their coach. It is common, but common does not mean normal: what the data say about girls aged 13-17, why it is not their fault, and what a club can do without medicalising anything."
 answer: "It is common but not physiological, and almost nobody talks about it: among adolescent female athletes the mean prevalence is 48.58%, rising to 80% in trampolining, and 87% would not mention it to their coach (Rial Rebullido et al., 2021). It is not something to endure: it is a pelvic floor symptom, with documented rehabilitation pathways (in adult populations)."
@@ -31,6 +31,8 @@ faq:
     a: "It can reduce her training, and that is documented. Among 319 gymnasts and cheerleaders, 82.6% of those with stress urinary incontinence reported a negative effect on their sporting performance, 28.4% used protective pads, and 22.4% sometimes avoided training or specific exercises because of leakage (Skaug et al., 2022). Nobody records it as an injury, but it removes training sessions all the same."
   - q: "Is urinary leakage in sport only an issue for women who have had children?"
     a: "No, and that assumption is what keeps the topic invisible. A systematic review of 633 adolescent female athletes, mean age 16.15, found a mean prevalence of urinary incontinence during sport of 48.58%, ranging from 18.2% to 80% depending on the discipline (Rial Rebullido et al., 2021). These are girls who have had no pregnancies. What the highest-rate disciplines share is repeated impact: trampolining 80%, rope skipping 75%, football 62.8%."
+  - q: "Should urine leakage be mentioned to the sports doctor?"
+    a: "Yes, and it is the simplest place to mention it, because that conversation is private and recurring. One thing is worth knowing, though: the pelvic floor is not among the tests required by the sports eligibility exam, which in Italy number five and cover the heart, the lungs and urine. No test on the list surfaces the symptom: if it is not named, it stays invisible. And silence is the norm — among adolescent athletes 87% say they would not discuss it with their coach, and between 69% and 90% have never heard of pelvic floor training (Rial Rebullido et al., 2021)."
   - q: "Does it happen to elite athletes too?"
     a: "Yes — and some of the most recent data comes from exactly there. At the 2024 U20 World Athletics Championships in Lima, among 325 elite athletes with a mean age of 18.1, 43.7% reported at least one pelvic floor dysfunction symptom — 53.7% among the girls against 29.3% among the boys — and 88% had never been screened (Giagio et al., 2025). So it is not a sign of insufficient training: it happens at the highest level, and almost nobody asks."
 ---
@@ -62,7 +64,7 @@ The pelvic floor is the group of muscles that supports the bladder and pelvic or
 
 There is also an association with training load. In a cross-sectional study of **319 artistic gymnasts, team gymnasts and cheerleaders aged 12-36** (mean 17.4), urinary incontinence prevalence was **67.4%**, and training **four or more days a week** was significantly associated with stress urinary incontinence, alongside being 16-17 years old and the type of sport practised ([Skaug et al., 2022](https://doi.org/10.1007/s00192-021-04696-z)).
 
-## What does it actually cost, in training sessions?
+## How many training sessions does stress incontinence cost?
 
 **The symptom on its own would be manageable: it is the withdrawal that grows around it that is expensive — and it affects more than one girl in five.**
 
@@ -79,7 +81,7 @@ It is the same mechanism we have seen elsewhere: a withdrawal nobody records as 
 
 These are elite athletes with technical staff around them, at an international championship. It is the same information vacuum measured on other topics of a changing body, from [iron](/en/blog/ferro-atlete-adolescenti) to [sleep](/en/blog/sonno-atlete-adolescenti). If the screening rate is 12% there, it is reasonable to expect it to be closer to zero at a local club. And as with [the menstrual cycle and the coach](/en/blog/parlare-di-ciclo-con-allenatore), the silence is not girls being coy: it is the absence of a context in which the subject exists at all.
 
-## Can anything be done? What the evidence says (and what it does not)
+## Can urine leakage in sport be treated?
 
 **Yes: pelvic floor rehabilitation improved symptoms in five studies out of six — but those six studies are in adult athletes, and that has to be said rather than hidden.** Precision matters here, because this is a health topic involving minors.
 
@@ -93,7 +95,7 @@ Now the limitations, which matter as much as the results:
 
 So the honest conclusion is twofold. **A documented therapeutic direction exists in adults**, and the first step — telling someone — needs no evidence base at all. But **assessment belongs to a healthcare professional**: not the coach, not an article, not an app.
 
-## What a club can do, without medicalising anything
+## What can a club do, without medicalising anything?
 
 Three things, none of which require clinical staff on site.
 

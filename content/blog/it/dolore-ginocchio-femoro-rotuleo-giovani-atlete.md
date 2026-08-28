@@ -4,7 +4,7 @@ title: "Il ginocchio che fa male da mesi: perché non è «dolore di crescita»"
 seoTitle: "Dolore al ginocchio negli adolescenti: cosa fare"
 seoDescription: "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze e la durata mediana è di 24 mesi. Perché non è «dolore di crescita» e cosa fare."
 date: 2026-07-30
-updated: 2026-08-21
+updated: 2026-08-28
 author: Sajid Hossain
 excerpt: "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze, la durata mediana del dolore è di 24 mesi e cinque anni dopo il 40,5% ha ancora male — con il 60% che ha smesso o ridotto lo sport. Il dolore femoro-rotuleo non passa «crescendo»: passa quando qualcuno lo prende sul serio e dosa il carico. I dati, e cosa cambia in palestra."
 answer: "Nella maggior parte dei casi non passa crescendo: cinque anni dopo, il 40,5% degli adolescenti con dolore al ginocchio ne ha ancora, e il 60% di questi ha smesso o ridotto lo sport a causa del ginocchio (Rathleff et al., 2019). Quello che funziona non è il riposo totale ma il carico dosato per settimane, insieme al rinforzo di anca e ginocchio."
@@ -29,7 +29,11 @@ faq:
   - q: "Quanto ci mette a passare un dolore femoro-rotuleo in un'adolescente?"
     a: "Più di quanto chiunque si aspetti, ed è il motivo per cui va preso presto. Nella coorte danese la durata mediana del dolore al ginocchio era di 24 mesi già al momento della prima rilevazione, il 55,9% di chi ne soffriva ne soffriva ancora due anni dopo, e a cinque anni il 40,5% aveva ancora dolore contro il 13,2% di chi non ne aveva all'inizio (Rathleff et al., 2016; 2019). Nei percorsi strutturati i miglioramenti si misurano in mesi: nello studio su 151 adolescenti di 10-14 anni il programma durava 12 settimane, con modifica dell'attività seguita da rinforzo progressivo (Rathleff et al., 2018). «Qualche giorno di riposo» non è un'unità di misura adatta a questo problema."
   - q: "Un'atleta con dolore al ginocchio deve smettere di allenarsi?"
-    a: "Nella maggior parte dei casi no: quello che negli studi ha funzionato è modificare il carico, non azzerarlo. Il punto pratico è avere una modalità intermedia — allenamento a carico ridotto, senza salti e senza corsa, con il lavoro di forza mantenuto — invece della sola alternativa «dentro o fuori». È la stessa logica che vale per gli altri dolori da sovraccarico delle giovani atlete, dal [mal di schiena](/blog/mal-di-schiena-giovani-atlete) alla [spalla negli sport sopra la testa](/blog/dolore-spalla-giovani-atlete): fermarsi del tutto toglie anche l'allenamento che protegge, e ricominciare da zero è ciò che fa ripartire il ciclo del dolore. La decisione su cosa togliere e per quanto spetta a un professionista sanitario."
+    a: "Nella maggior parte dei casi no: quello che negli studi ha funzionato è modificare il carico, non azzerarlo. Il punto pratico è avere una modalità intermedia — allenamento a carico ridotto, senza salti e senza corsa, con il lavoro di forza mantenuto — invece della sola alternativa «dentro o fuori». È la stessa logica che vale per gli altri dolori da sovraccarico delle giovani atlete, dal mal di schiena alla spalla negli sport sopra la testa: fermarsi del tutto toglie anche l'allenamento che protegge, e ricominciare da zero è ciò che fa ripartire il ciclo del dolore. La decisione su cosa togliere e per quanto spetta a un professionista sanitario."
+  - q: "Cosa succede se un dolore al ginocchio in adolescenza non viene trattato?"
+    a: "Nella maggior parte dei casi non si risolve da solo, e il costo si vede a distanza di anni. Nella coorte prospettica di 504 adolescenti danesi di 15-19 anni, a cinque anni il 40,5% di chi aveva dolore all'inizio ne aveva ancora (IC 95% 35,4-45,6), contro il 13,2% di chi non ne aveva; fra chi aveva ancora dolore, il 60% aveva smesso o ridotto lo sport a causa del ginocchio e il 15% dichiarava che il dolore aveva influenzato la scelta del lavoro o della carriera (Rathleff et al., 2019). Il campione è di adolescenti danesi di entrambi i sessi reclutati nella popolazione scolastica, non di atlete tesserate: i numeri non si trasferiscono uno a uno a una tredicenne italiana, ma la direzione — un dolore che si porta via lo sport invece di andarsene — è misurata."
+  - q: "Servono sedute di fisioterapia o bastano gli esercizi a casa?"
+    a: "Nello studio più vicino a questa età il grosso del lavoro è stato fatto a casa, con pochissima supervisione. Centocinquantuno adolescenti di 10-14 anni con dolore femoro-rotuleo hanno seguito un percorso di 12 settimane — modifica dell'attività nelle settimane 1-4, esercizi a casa dalla 5 alla 8, ritorno graduale allo sport dalla 9 alla 12 — con quattro sole sedute supervisionate, a cui doveva partecipare anche un genitore: esiti riferiti come positivi nell'86% a 12 settimane, 77% a 6 mesi e 81% a 12 mesi, con forza di anca e ginocchio aumentata del 20-33% (Rathleff et al., 2019). Non è uno studio controllato randomizzato, quindi non dimostra la superiorità del protocollo su un'alternativa: dice però che il fattore critico non è il numero di sedute, ma la costanza e il coinvolgimento della famiglia."
   - q: "Quando bisogna portarla da un medico?"
     a: "Un dolore al ginocchio che dura da più di due o tre settimane, che si ripresenta a ogni allenamento, che le fa evitare scale, accosciate o salti, o che le fa saltare sedute, va valutato da un professionista sanitario: pediatra, medico dello sport o fisioterapista. Ci sono poi segnali che richiedono una valutazione senza aspettare: gonfiore, cedimenti o blocchi dell'articolazione, dolore dopo un trauma, dolore notturno o localizzabile con un dito su un punto preciso dell'osso. Il motivo per non aspettare non è allarmismo, è statistica: la durata mediana del dolore negli adolescenti che poi cercano aiuto è di 24 mesi, e solo il 59% aveva cercato assistenza (Rathleff et al., 2013). Il tempo, qui, non è un alleato."
 ---
@@ -53,7 +57,7 @@ E quando si guarda solo a chi ha dolore al ginocchio ricorrente, lo squilibrio d
 
 È esattamente il tipo di dolore che nello sport giovanile non entra in nessuna statistica: non c'è un episodio, non c'è un contrasto, non c'è un giorno in cui è iniziato.
 
-## Che cos'è il dolore femoro-rotuleo, e cosa non è
+## Che cos'è il dolore femoro-rotuleo, e come si distingue dagli altri dolori al ginocchio?
 
 **È un dolore diffuso attorno o dietro la rotula che si accende con il carico in flessione del ginocchio**: scale, accosciate, salti, corsa, e — dettaglio che tradisce spesso l'origine — anche lo stare seduta a lungo con le ginocchia piegate. Chi lo prova non riesce a indicarlo con un dito: lo indica con la mano, «qui intorno».
 
@@ -79,7 +83,7 @@ Va detto con precisione quale popolazione stiamo guardando: sono **adolescenti d
 
 C'è un secondo dato, questo sì specifico sulle ragazze, che rende l'attesa ancora meno difendibile: le **adolescenti femmine con dolore femoro-rotuleo** hanno **soglie di dolore alla pressione più basse** delle coetanee senza dolore, anche in punti del corpo lontani dal ginocchio ([Rathleff et al., 2013, *JOSPT*](https://doi.org/10.2519/jospt.2013.4383)). Tradotto: un dolore che dura mesi non resta un problema locale — **cambia il modo in cui il sistema nervoso elabora gli stimoli**, come già raccontato parlando di [come il dolore cambia in pubertà](/blog/dolore-in-puberta-neuroscienza).
 
-## Perché quasi nessuno lo porta da un medico
+## Perché quasi nessuna porta il dolore al ginocchio da un medico?
 
 **Perché sembra troppo poco per disturbare, e troppo normale per essere un problema.** Nella coorte dei 504 adolescenti con dolore al ginocchio almeno mensile, la **durata mediana** del dolore era di **24 mesi** e solo il **59%** aveva cercato assistenza sanitaria; il **18%** era in trattamento al momento del questionario ([Rathleff et al., 2013, *BMC Musculoskeletal Disorders*](https://doi.org/10.1186/1471-2474-14-225)).
 
@@ -87,7 +91,7 @@ Il dettaglio più istruttivo dello studio, però, è un altro. Tra le **ragazze*
 
 Detto in modo diretto: **serve un incidente per sentirsi autorizzate a chiedere.** È la stessa dinamica che tiene in silenzio [le perdite di urina durante i salti](/blog/perdite-urina-giovani-atlete) e [il ciclo mestruale davanti all'allenatore](/blog/parlare-di-ciclo-con-allenatore) — un sintomo senza evento che lo giustifichi non sembra abbastanza serio da nominare. E un dolore che non viene nominato è un dolore che nessuno può dosare.
 
-## Cosa funziona: non il riposo, il carico dosato
+## Il riposo fa passare il dolore femoro-rotuleo?
 
 **Negli studi non ha funzionato lo stop: ha funzionato modificare il carico e poi rinforzare.** È la parte controintuitiva e la più utile in palestra.
 
@@ -107,7 +111,7 @@ Anche questo è uno studio **senza gruppo di controllo** e su un campione piccol
 
 C'è però un ginocchio che non va trattato come un ginocchio: quello che fa male **senza alcun trauma e senza segni locali**, in cui non si trovano né gonfiore né un punto dolente preciso. In un corpo in crescita quel dolore può arrivare dall'anca. Nell'epifisiolisi della testa del femore, in uno studio prospettico su 107 pazienti (122 anche), il dolore era riferito **al ginocchio nel 26,2% dei casi** e all'inguine nel 13,9%, e il **49%** aveva avuto più di una visita prima della diagnosi ([Uvodich et al., 2019, *J Pediatr*](https://doi.org/10.1016/j.jpeds.2018.10.050)). È una condizione più frequente nei maschi e in presenza di peso corporeo elevato, ma la regola pratica vale per tutti: se il ginocchio fa male e il ginocchio non ha niente, [qualcuno deve guardare l'anca](/blog/dolore-inguine-giovani-atlete).
 
-## Cosa può fare una società, da lunedì
+## Cosa può fare una società sportiva, da lunedì?
 
 Nessuna di queste è una prescrizione medica. Sono scelte organizzative e di linguaggio, alla portata di chiunque alleni:
 

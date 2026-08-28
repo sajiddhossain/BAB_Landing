@@ -4,7 +4,7 @@ title: "Perdo urina quando salto: il sintomo di cui quasi nessuna atleta parla"
 seoTitle: "Perdite di urina nello sport: quanto è comune"
 seoDescription: "Perdere urina saltando riguarda in media il 48,6% delle atlete adolescenti, ma l'87% non ne parlerebbe con l'allenatore. Frequente non vuol dire normale."
 date: 2026-07-22
-updated: 2026-08-13
+updated: 2026-08-28
 author: Sajid Hossain
 excerpt: "Perdere urina saltando o atterrando riguarda in media il 48,6% delle atlete adolescenti, e l'80% nel trampolino elastico. Eppure l'87% dice che non ne parlerebbe con il proprio allenatore. È frequente, ma frequente non vuol dire normale: cosa dicono i dati sulle ragazze di 13-17 anni, perché non è colpa loro, e cosa può fare una società senza medicalizzare nulla."
 answer: "È frequente ma non fisiologico, e quasi nessuna ne parla: tra le atlete adolescenti la prevalenza media è del 48,58%, fino all'80% nel trampolino elastico, e l'87% non ne parlerebbe con l'allenatore (Rial Rebullido et al., 2021). Non è qualcosa da sopportare: è un sintomo del pavimento pelvico, con percorsi di riabilitazione documentati (su popolazione adulta)."
@@ -31,6 +31,8 @@ faq:
     a: "Possono ridurre l'allenamento, ed è documentato. Tra 319 ginnaste e cheerleader, l'82,6% di chi aveva incontinenza da sforzo riferiva un effetto negativo sulla propria prestazione sportiva, il 28,4% usava assorbenti protettivi e il 22,4% evitava a volte l'allenamento o esercizi specifici proprio a causa delle perdite (Skaug et al., 2022). Nessuno lo registra come infortunio, ma toglie allenamenti allo stesso modo."
   - q: "Le perdite di urina durante lo sport riguardano solo chi ha avuto figli?"
     a: "No, ed è il luogo comune che tiene questo tema invisibile. Una revisione sistematica su 633 atlete adolescenti, età media 16,15 anni, ha rilevato una prevalenza media di incontinenza urinaria durante lo sport del 48,58%, con valori dal 18,2% all'80% a seconda della disciplina (Rial Rebullido et al., 2021). Sono ragazze che non hanno avuto gravidanze. Quello che accomuna le discipline con i valori più alti è l'impatto ripetuto: trampolino elastico 80%, salto con la corda 75%, calcio 62,8%."
+  - q: "Le perdite di urina vanno dette al medico dello sport?"
+    a: "Sì, ed è il posto più semplice in cui dirle, perché è una conversazione privata e ricorrente. Va sapendo però una cosa: il pavimento pelvico non è fra gli accertamenti previsti dalla visita di idoneità agonistica, che in Italia sono cinque e riguardano cuore, respiro e urine. Nessun esame della lista fa emergere il sintomo: se non lo si nomina, resta invisibile. E il silenzio è la norma — fra le atlete adolescenti l'87% dichiara che non ne parlerebbe con il proprio allenatore, e dal 69% al 90% non ha mai sentito nominare l'allenamento del pavimento pelvico (Rial Rebullido et al., 2021)."
   - q: "Succede anche alle atlete di alto livello?"
     a: "Sì, e alcuni dei dati più recenti vengono proprio da lì. Ai Mondiali under 20 di atletica leggera di Lima 2024, su 325 atleti d'élite di età media 18,1 anni, il 43,7% riferiva almeno un sintomo di disfunzione del pavimento pelvico — 53,7% tra le ragazze contro 29,3% tra i ragazzi — e l'88% non era mai stato sottoposto a uno screening (Giagio et al., 2025). Non è quindi il segno di un allenamento insufficiente: succede al livello più alto, e quasi nessuno lo chiede."
 ---
@@ -62,7 +64,7 @@ Il pavimento pelvico è l'insieme di muscoli che sostiene vescica e organi pelvi
 
 C'è anche un'associazione con il carico di allenamento. In uno studio trasversale su **319 tra ginnaste artistiche, ginnaste di squadra e cheerleader di 12-36 anni** (età media 17,4), la prevalenza di incontinenza urinaria era del **67,4%**, e allenarsi **quattro o più giorni a settimana** risultava significativamente associato all'incontinenza da sforzo, insieme all'età di 16-17 anni e al tipo di sport praticato ([Skaug et al., 2022](https://doi.org/10.1007/s00192-021-04696-z)).
 
-## Quanto costa davvero, in allenamenti?
+## Quanti allenamenti fa perdere l'incontinenza da sforzo?
 
 **Il sintomo, da solo, sarebbe gestibile: è la rinuncia che ci cresce intorno a costare caro — e riguarda più di una ragazza su cinque.**
 
@@ -79,7 +81,7 @@ Nello stesso studio su ginnaste e cheerleader, tra chi aveva incontinenza da sfo
 
 Sono atleti d'élite, seguiti da staff tecnici, in un contesto internazionale. È lo stesso vuoto informativo che si misura su altri temi del corpo che cambia, dal [ferro](/blog/ferro-atlete-adolescenti) al [sonno](/blog/sonno-atlete-adolescenti). Se il tasso di screening è del 12% lì, è ragionevole aspettarsi che in una società sportiva di provincia sia più vicino a zero. E come con [il ciclo mestruale e l'allenatore](/blog/parlare-di-ciclo-con-allenatore), il silenzio non è pudore delle ragazze: è l'assenza di un contesto in cui il tema esista.
 
-## Si può fare qualcosa? Cosa dice l'evidenza (e cosa non dice)
+## Le perdite di urina nello sport si possono curare?
 
 **Sì: la riabilitazione del pavimento pelvico migliora i sintomi in cinque studi su sei — ma quei sei studi sono su atlete adulte, e questo va detto invece che nascosto.** Qui serve essere precisi, perché è un tema di salute che riguarda minori.
 
@@ -93,7 +95,7 @@ E ora i limiti, che contano quanto i risultati:
 
 La conclusione onesta è quindi doppia. **Esiste una direzione terapeutica documentata negli adulti** e il primo passo — dirlo a qualcuno — non richiede alcuna evidenza per essere fatto. Ma **la valutazione spetta a un professionista sanitario**: non all'allenatore, non a un articolo, non a un'app.
 
-## Cosa può fare una società sportiva, senza medicalizzare nulla
+## Cosa può fare una società sportiva, senza medicalizzare nulla?
 
 Tre cose, nessuna delle quali richiede personale sanitario in sede.
 

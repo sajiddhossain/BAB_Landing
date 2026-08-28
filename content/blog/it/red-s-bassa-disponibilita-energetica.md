@@ -4,7 +4,7 @@ title: "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)"
 seoTitle: "RED-S nelle atlete: cos'è, sintomi e primi segnali"
 seoDescription: "RED-S: quando l'energia non copre allenamento e crescita. Sintomi, primi segnali e perché un ciclo che sparisce non è mai un buon segno."
 date: 2026-07-04
-updated: 2026-08-25
+updated: 2026-08-28
 author: Sajid Hossain
 excerpt: "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica."
 answer: "Quando l'energia introdotta non copre quella spesa tra allenamento e crescita: è la bassa disponibilità energetica alla base della RED-S. Non serve un disturbo alimentare, può accadere senza intenzione, e i primi segnali sono un ciclo che si dirada, infortuni ripetuti, sonno e umore peggiori — eppure il 44% delle atlete adolescenti crede che perdere il ciclo sia normale (Armento et al., 2021)."
@@ -39,7 +39,7 @@ faq:
   - q: "Cosa succede se la bassa disponibilità energetica va avanti per mesi?"
     a: "Il conto più documentato lo paga l'osso. Nello stesso studio prospettico su 259 ragazze e giovani donne attive, chi aveva densità ossea bassa (Z-score sotto -1,0) e si allenava almeno 12 ore a settimana ha subito una lesione ossea da stress nel 29,7% dei casi, contro un 10,8% complessivo (Barrack et al., 2014). Due precisazioni doverose: l'età media di quel campione è 18,1 anni, quindi non fotografa una ragazza di 13-14 anni, ed è uno studio osservazionale, che descrive associazioni e non causalità dimostrata. La ragione per non aspettare resta: i mesi in cui questo accade sono gli stessi in cui si costruisce la massa ossea."
   - q: "La RED-S influisce anche sulla tolleranza al caldo?"
-    a: "La termoregolazione è tra le funzioni fisiologiche che il consenso del Comitato Olimpico Internazionale elenca esplicitamente come sostenute dall'energia disponibile dopo l'allenamento, insieme a crescita ossea, funzione riproduttiva e sistema immunitario (Mountjoy et al., 2014). Non esiste, a oggi, un numero specifico su quanto questo pesi nelle adolescenti che si allenano al caldo: è una ragione in più — non l'unica — per non trattare separatamente alimentazione e [acclimatazione al caldo](/blog/allenarsi-al-caldo-giovani-atlete), non un dato da citare con una cifra precisa."
+    a: "La termoregolazione è tra le funzioni fisiologiche che il consenso del Comitato Olimpico Internazionale elenca esplicitamente come sostenute dall'energia disponibile dopo l'allenamento, insieme a crescita ossea, funzione riproduttiva e sistema immunitario (Mountjoy et al., 2014). Non esiste, a oggi, un numero specifico su quanto questo pesi nelle adolescenti che si allenano al caldo: è una ragione in più — non l'unica — per non trattare separatamente alimentazione e acclimatazione al caldo, non un dato da citare con una cifra precisa."
 ---
 
 Nello sport femminile giovanile esiste un'idea pericolosa: che allenarsi sempre di più sia sempre meglio. Ma il corpo di un'atleta adolescente non è un motore che si spinge all'infinito. Quando l'energia che entra non basta a coprire quella che esce — tra allenamento, scuola e la crescita stessa — il corpo inizia a **tagliare le funzioni che ritiene meno urgenti**. È il cuore di una condizione che la scienza chiama RED-S.
@@ -96,6 +96,8 @@ Esistono strumenti pensati per **individuare chi merita un approfondimento**, no
 - **REDs CAT2** — lo strumento aggiornato del consensus IOC 2023, a semaforo, per stratificare il rischio.
 
 Un principio guida tutti: sono **filtri**, non verdetti. La valutazione clinica spetta a medici, dietisti e specialisti — mai a un'app o a un allenatore.
+
+Vale però la pena sapere dove questi strumenti **non** arrivano da soli. Nessuno dei tre fa parte degli accertamenti previsti dalla [visita di idoneità agonistica](/blog/visita-idoneita-sportiva-giovani-atlete), che in Italia sono cinque e riguardano cuore, respiro e urine: se la disponibilità energetica non viene nominata da qualcuno, non c'è un esame di routine che la faccia emergere.
 
 ## Cosa può fare concretamente chi sta intorno all'atleta?
 

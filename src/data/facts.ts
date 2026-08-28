@@ -769,6 +769,45 @@ export const FACTS: Fact[] = [
     source: 'LaBotz e Griesemer, 2016',
     doi: '10.1542/peds.2016-1300',
   },
+  {
+    id: 'visita-idoneita-1',
+    article: 'visita-idoneita-sportiva-giovani-atlete',
+    claim:
+      "In Italia gli accertamenti obbligatori per l'idoneità sportiva agonistica sono cinque — visita medica, esame completo delle urine, elettrocardiogramma a riposo, elettrocardiogramma dopo sforzo e spirografia — e nessuno di essi riguarda il ciclo mestruale, la disponibilità energetica, il ferro o la salute ossea. Popolazione: FONTE NORMATIVA PRIMARIA, non uno studio; esami e periodicità variano per disciplina secondo le tabelle allegate, e il medico visitatore ha facoltà di richiedere ulteriori esami su motivato sospetto clinico.",
+    claimEn:
+      'In Italy the mandatory tests for competitive sports eligibility number five — medical examination, full urinalysis, ECG at rest, ECG after exercise and spirography — and none of them covers the menstrual cycle, energy availability, iron or bone health. Population: PRIMARY LEGAL SOURCE, not a study; tests and intervals vary by discipline according to the annexed tables, and the examining doctor may request further tests on reasoned clinical suspicion.',
+    source: 'DM 18 febbraio 1982',
+  },
+  {
+    id: 'visita-idoneita-2',
+    article: 'visita-idoneita-sportiva-giovani-atlete',
+    claim:
+      "Nel Veneto l'incidenza di morte cardiovascolare improvvisa negli atleti sottoposti a screening è passata da 4,19 a 0,87 per 100.000 anni-persona fra il 1979 e il 2004 (calo dell'89%), mentre nei non atleti non sottoposti a screening è rimasta stabile (0,77, 0,79, 0,81). Popolazione: studio OSSERVAZIONALE su trend temporali, non randomizzato, età 12-35 anni; dei 55 decessi registrati fra gli atleti 50 erano MASCHI e 5 femmine, con età media 23,3 anni — il beneficio è stato misurato su una popolazione in larghissima parte maschile e adulta.",
+    claimEn:
+      'In the Veneto region the incidence of sudden cardiovascular death in screened athletes fell from 4.19 to 0.87 per 100,000 person-years between 1979 and 2004 (an 89% decline), while in unscreened non-athletes it stayed flat (0.77, 0.79, 0.81). Population: OBSERVATIONAL trends-over-time study, not randomised, ages 12-35; of the 55 deaths recorded among athletes 50 were MALE and 5 female, mean age 23.3 years — the benefit was measured in an overwhelmingly male and adult population.',
+    source: 'Corrado et al., 2006',
+    doi: '10.1001/jama.296.13.1593',
+  },
+  {
+    id: 'visita-idoneita-3',
+    article: 'visita-idoneita-sportiva-giovani-atlete',
+    claim:
+      "Su 287 moduli di valutazione pre-partecipazione raccolti da 257 università NCAA di Divisione I, solo il 9% conteneva almeno 9 dei 12 quesiti raccomandati per lo screening della Triade dell'atleta femminile e il 44% ne conteneva 4 o meno; fra le domande omesse in più del 40% dei moduli c'era il numero di cicli negli ultimi 12 mesi. Popolazione: atlete UNIVERSITARIE statunitensi, quindi in prevalenza ADULTE, e sistema di screening diverso da quello italiano.",
+    claimEn:
+      'Across 287 preparticipation evaluation forms collected from 257 NCAA Division I universities, only 9% contained at least 9 of the 12 questions recommended for Female Athlete Triad screening and 44% contained 4 or fewer; among the items omitted from more than 40% of forms was the number of menses in the past 12 months. Population: US COLLEGE athletes, therefore predominantly ADULTS, and a screening system different from the Italian one.',
+    source: 'Mencias et al., 2012',
+    doi: '10.1097/JSM.0b013e3182425aee',
+  },
+  {
+    id: 'visita-idoneita-4',
+    article: 'visita-idoneita-sportiva-giovani-atlete',
+    claim:
+      "Nei moduli di valutazione pre-partecipazione di 207 atlete di scuola superiore dell'Ohio, la disfunzione mestruale rilevata dal questionario risultava del 7%: gli autori attribuiscono il tasso più basso rispetto alla letteratura ai limiti del modulo, non a una prevalenza realmente inferiore. Popolazione: atlete ADOLESCENTI di scuola superiore; età media al menarca 11,94 anni e 11,51 cicli l'anno.",
+    claimEn:
+      'In the preparticipation evaluation forms of 207 Ohio high school athletes, menstrual dysfunction detected by the questionnaire was 7%: the authors attribute the lower rate compared with the literature to the limitations of the form, not to a genuinely lower prevalence. Population: ADOLESCENT high school athletes; mean age at menarche 11.94 years and 11.51 menses per year.',
+    source: 'Fischer e Young, 2014',
+    doi: '10.3928/19425864-20141008-01',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

@@ -4,7 +4,7 @@ title: "Low iron in teenage athletes: the deficiency nobody looks for (and a blo
 seoTitle: "Low iron in teenage athletes: how it is found"
 seoDescription: "53.2% of adolescent athletes have mild iron deficiency, but a full blood count alone misses it: ferritin is the test. Symptoms and what to ask for."
 date: 2026-07-16
-updated: 2026-08-25
+updated: 2026-08-28
 author: Sajid Hossain
 excerpt: "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone."
 answer: "With a blood test, not by intuition: 53.2% of adolescent female athletes have mild iron deficiency (ferritin ≤30 µg/L), while iron-deficiency anaemia affects only 4% (Nicotra et al., 2023). Sport is not the dominant factor — among adolescents, athletes and non-athletes do not differ significantly — and supplementing without measuring first is not a good idea."
@@ -90,7 +90,7 @@ This is the solid part. In **2026** the American Academy of Pediatrics updated i
 
 In parallel, a group of haematologists and sports medicine experts independently proposes screening with haemoglobin and ferritin **around ages 14-15** (roughly three years post-menarche), **repeated every five years**, using the same 30 µg/L threshold — which has a sensitivity of **92%**, against **25%** for the old 12 µg/L cut-off (Revel-Vilk et al., 2025). The two recommendations don't agree on timing, but they converge on what matters: **test, and test with ferritin.**
 
-Two caveats. First: Revel-Vilk and colleagues offer an **expert proposal**, not a professional-body guideline. Second: **national guidance varies**, and many countries have no equivalent universal screening recommendation. The decision rests with a paediatrician or sports physician — but the question is now a legitimate one, with a literature behind it.
+Two caveats. First: Revel-Vilk and colleagues offer an **expert proposal**, not a professional-body guideline. Second: **national guidance varies**, and many countries have no equivalent universal screening recommendation. The decision rests with a paediatrician or sports physician — but the question is now a legitimate one, with a literature behind it. For a competitive athlete the moment to raise it is almost always the same: the [sports eligibility exam](/en/blog/visita-idoneita-sportiva-giovani-atlete), where a blood count and ferritin are not among the mandatory tests but the doctor may request them on reasoned clinical suspicion.
 
 ## What can the people around the athlete do, starting Monday?
 
