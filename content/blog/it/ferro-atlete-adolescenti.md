@@ -4,7 +4,7 @@ title: "Ferro basso nelle atlete adolescenti: la carenza che nessuno cerca (e ch
 seoTitle: "Ferro basso nelle atlete adolescenti: come si trova"
 seoDescription: "Il 53,2% delle atlete adolescenti ha una carenza di ferro lieve, ma l'emocromo da solo non la vede: serve la ferritina. Sintomi, esami e cosa chiedere."
 date: 2026-07-16
-updated: 2026-08-25
+updated: 2026-08-28
 author: Sajid Hossain
 excerpt: "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli."
 answer: "Con un esame del sangue, non a intuito: il 53,2% delle atlete adolescenti ha una carenza di ferro lieve (ferritina ≤30 µg/L), mentre l'anemia sideropenica riguarda solo il 4% (Nicotra et al., 2023). Lo sport non è il fattore dominante — tra le adolescenti, atlete e non atlete non differiscono in modo significativo — e integrare senza aver misurato non è una buona idea."
@@ -91,7 +91,7 @@ Questa è la parte solida. Nel **2026** l'American Academy of Pediatrics ha aggi
 
 In parallelo, un gruppo di ematologi ed esperti di medicina dello sport propone in modo indipendente uno screening con emoglobina e ferritina **intorno ai 14-15 anni** (circa tre anni dopo il menarca), da **ripetere ogni cinque anni**, con la stessa soglia di 30 µg/L — che ha una sensibilità del **92%**, contro il **25%** della vecchia soglia a 12 µg/L (Revel-Vilk et al., 2025). Le due raccomandazioni non coincidono nella tempistica, ma convergono su ciò che conta: **testare, e testare con la ferritina.**
 
-Due precisazioni. La prima: quella di Revel-Vilk è una **proposta di esperti**, non una linea guida di società scientifica. La seconda, per chi legge dall'Italia: **non esiste una raccomandazione nazionale di screening universale equivalente**. La decisione spetta al pediatra o al medico dello sport — ma la domanda ora è legittima, e ha una letteratura alle spalle.
+Due precisazioni. La prima: quella di Revel-Vilk è una **proposta di esperti**, non una linea guida di società scientifica. La seconda, per chi legge dall'Italia: **non esiste una raccomandazione nazionale di screening universale equivalente**. La decisione spetta al pediatra o al medico dello sport — ma la domanda ora è legittima, e ha una letteratura alle spalle. Il momento in cui porla, per un'atleta agonista, è quasi sempre lo stesso: la [visita di idoneità agonistica](/blog/visita-idoneita-sportiva-giovani-atlete), dove emocromo e ferritina non sono fra gli accertamenti obbligatori ma il medico ha facoltà di richiederli su motivato sospetto clinico.
 
 ## Cosa può fare chi sta intorno all'atleta, da lunedì?
 

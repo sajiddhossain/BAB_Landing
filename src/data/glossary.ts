@@ -109,10 +109,10 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
   amenorrea: {
     name: 'Amenorrea',
     description:
-      "Assenza di mestruazioni; nello sport non è un effetto collaterale innocuo dell'allenamento ma un possibile segnale d'allarme.",
+      "Assenza del ciclo mestruale: primaria quando le mestruazioni non sono mai comparse entro i quindici anni, secondaria quando scompaiono per tre mesi o più in chi le aveva già. Nello sport non è un effetto collaterale innocuo dell'allenamento: può accompagnare una condizione di bassa disponibilità energetica ed è uno dei tre elementi della Triade dell'atleta femminile, insieme alla ridotta salute ossea. Nello studio su 1.086 atlete di Svezia e Norvegia il 22% riferiva un episodio di amenorrea e circa una su cinque non aveva nessuno con cui parlarne in ambito sportivo (Höök et al., 2022; campione misto per età, atlete adulte e adolescenti insieme). Non è fra gli accertamenti previsti dallo screening di idoneità agonistica in Italia.",
     nameEn: 'Amenorrhoea',
     descriptionEn:
-      'The absence of menstruation; in sport it is not a harmless side effect of training but a possible warning signal.',
+      'The absence of menstruation: primary when periods have never appeared by age fifteen, secondary when they disappear for three months or more in someone who previously had them. In sport it is not a harmless side effect of training: it can accompany low energy availability and is one of the three components of the Female Athlete Triad, alongside reduced bone health. In the study of 1,086 Swedish and Norwegian athletes, 22% reported an episode of amenorrhoea and roughly one in five had nobody in their sporting environment to discuss it with (Höök et al., 2022; mixed-age sample, adult and adolescent athletes together). It is not among the tests required by competitive sports eligibility screening in Italy.',
     sameAs: 'https://it.wikipedia.org/wiki/Amenorrea',
   },
   menarca: {
@@ -568,6 +568,22 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'A beverage containing caffeine and other stimulant substances, often with a great deal of sugar: it is a different product from a sports drink, which contains water, carbohydrate and electrolytes, and the American Academy of Pediatrics clinical report explicitly asks that the two terms not be used interchangeably. That same report concludes that caffeine and the other stimulant substances in energy drinks have no place in the diet of children and adolescents, and that frequent or excessive intake of caloric sports drinks can substantially increase the risk of overweight and obesity in paediatric age (Schneider and Benjamin, 2011; report of a paediatric scientific society, not an experimental study).',
     sameAs: 'https://en.wikipedia.org/wiki/Energy_drink',
+  },
+  'idoneita-agonistica': {
+    name: 'Idoneità sportiva agonistica',
+    description:
+      "Giudizio medico che attesta l'assenza di controindicazioni alla pratica di uno sport specifico in forma agonistica. In Italia gli accertamenti sono fissati dal Decreto del Ministero della Sanità del 18 febbraio 1982 e sono cinque: visita medica, esame completo delle urine, elettrocardiogramma a riposo, elettrocardiogramma dopo sforzo e spirografia, con esami e periodicità variabili per disciplina secondo le tabelle allegate. Il medico visitatore ha facoltà di richiedere ulteriori esami specialistici e strumentali su motivato sospetto clinico: la lista è un minimo obbligatorio, non un tetto. Nessuno dei cinque accertamenti riguarda ciclo mestruale, disponibilità energetica, ferro o salute ossea.",
+    nameEn: 'Competitive sports eligibility (Italy)',
+    descriptionEn:
+      "A medical judgement certifying the absence of contraindications to practising a specific sport competitively. In Italy the required tests are set out in the Ministry of Health decree of 18 February 1982 and number five: medical examination, full urinalysis, ECG at rest, ECG after exercise and spirography, with tests and intervals varying by discipline according to the annexed tables. The examining doctor has the power to request further specialist and instrumental tests on reasoned clinical suspicion: the list is a mandatory minimum, not a ceiling. None of the five tests covers the menstrual cycle, energy availability, iron or bone health.",
+  },
+  'screening-pre-partecipazione': {
+    name: 'Screening pre-partecipazione',
+    description:
+      "Valutazione sanitaria che precede l'ammissione all'attività sportiva, con l'obiettivo dichiarato di intercettare condizioni che la rendono rischiosa. Il modello italiano, obbligatorio per legge dal 1982 e basato su una visita in presenza con elettrocardiogramma, ha come bersaglio principale le cardiopatie che causano morte improvvisa: nel Veneto l'incidenza di morte cardiovascolare improvvisa negli atleti sottoposti a screening è passata da 4,19 a 0,87 per 100.000 anni-persona fra il 1979 e il 2004, un calo dell'89%, mentre nei non atleti non sottoposti a screening è rimasta stabile (Corrado et al., 2006; studio osservazionale su trend temporali, non randomizzato; dei 55 decessi fra gli atleti 50 erano maschi, età media 23,3 anni — popolazione in larghissima parte maschile e adulta). Il modello statunitense ruota invece attorno a un modulo compilato, la cui copertura della salute dell'atleta femminile risulta scarsa: su 287 moduli di università NCAA di Divisione I, solo il 9% conteneva almeno 9 dei 12 quesiti raccomandati per la Triade dell'atleta femminile e il 44% ne conteneva 4 o meno (Mencias et al., 2012; atlete universitarie, in prevalenza adulte).",
+    nameEn: 'Preparticipation screening',
+    descriptionEn:
+      "A health evaluation preceding admission to sport, with the declared aim of detecting conditions that make participation risky. The Italian model, mandatory by law since 1982 and based on an in-person examination including an ECG, primarily targets the cardiac conditions that cause sudden death: in the Veneto region the incidence of sudden cardiovascular death in screened athletes fell from 4.19 to 0.87 per 100,000 person-years between 1979 and 2004, an 89% decline, while in unscreened non-athletes it stayed flat (Corrado et al., 2006; observational trends-over-time study, not randomised; of the 55 deaths among athletes 50 were male, mean age 23.3 years — an overwhelmingly male and adult population). The US model instead revolves around a completed form, whose coverage of female athlete health is poor: across 287 forms from NCAA Division I universities, only 9% contained at least 9 of the 12 questions recommended for the Female Athlete Triad and 44% contained 4 or fewer (Mencias et al., 2012; college athletes, predominantly adults).",
   },
 };
 

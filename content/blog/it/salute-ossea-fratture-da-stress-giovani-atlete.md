@@ -4,7 +4,7 @@ title: "Fratture da stress nelle giovani atlete: perché l'osso si costruisce ad
 seoTitle: "Fratture da stress nelle giovani atlete: prevenzione"
 seoDescription: "Le ragazze subiscono fratture da stress 1,75 volte più dei coetanei, e l'osso si costruisce entro i 18 anni. Energia, ciclo e carico: cosa dice l'evidenza."
 date: 2026-07-28
-updated: 2026-08-20
+updated: 2026-08-28
 author: Sajid Hossain
 excerpt: "Nelle scuole superiori americane le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi, e sono il 63% di tutti i casi. Non è sfortuna: è un osso che si sta ancora costruendo, in una finestra che si chiude verso i 18 anni. Cosa dicono i dati, quali segnali guardare e cosa costruisce osso davvero."
 answer: "Perché l'osso si costruisce adesso e la finestra si chiude verso i 18 anni. Nelle scuole superiori le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi e rappresentano il 63,3% dei casi (Changstrom et al., 2015); il moltiplicatore non è il carico da solo, ma il carico senza abbastanza energia a coprirlo."
@@ -123,7 +123,7 @@ Il resto delle leve, in ordine di evidenza secondo la revisione della National O
 
 - **La società sportiva**: mettere 8-10 minuti di salti strutturati nel riscaldamento, per tutte, tutto l'anno. È lo stesso spazio già occupato dal [riscaldamento neuromuscolare che protegge il crociato](/blog/crociato-giovani-atlete) — non serve trovare tempo nuovo, serve usare meglio quello che c'è. E contare le ore reali: 12 ore a settimana è la soglia oltre la quale, nei dati, il rischio cambia scala.
 - **L'allenatore/allenatrice**: prendere sul serio il dolore puntiforme. La domanda giusta non è «quanto ti fa male?» ma «**me lo indichi con un dito?**». Se la risposta è un punto preciso sull'osso, e torna sempre lì, non è un problema di sopportazione.
-- **La famiglia**: guardare la combinazione, non il singolo segnale. Meno cibo + più ore + ciclo che si dirada è un quadro, non tre coincidenze. E chiedere un parere medico prima che diventi un mese di stampelle.
+- **La famiglia**: guardare la combinazione, non il singolo segnale. Meno cibo + più ore + ciclo che si dirada è un quadro, non tre coincidenze. E chiedere un parere medico prima che diventi un mese di stampelle: se la [visita di idoneità agonistica](/blog/visita-idoneita-sportiva-giovani-atlete) è vicina, quel quadro è esattamente l'informazione da portarci, perché nessuno dei cinque accertamenti obbligatori guarda l'osso o il ciclo.
 - **L'atleta**: sapere che l'osso che stai costruendo adesso è quello con cui vivrai. Non è una minaccia: è la ragione per cui questi anni valgono più di quanto sembri.
 
 ## Il ruolo di BAB

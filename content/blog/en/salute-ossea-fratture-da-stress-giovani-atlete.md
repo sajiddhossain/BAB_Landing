@@ -4,7 +4,7 @@ title: "Stress fractures in young female athletes: why bone is built now, not la
 seoTitle: "Stress fractures in young female athletes"
 seoDescription: "Girls sustain stress fractures 1.75 times as often as male peers, and bone is built before 18. Energy, periods and load: what the evidence says."
 date: 2026-07-28
-updated: 2026-08-20
+updated: 2026-08-28
 author: Sajid Hossain
 excerpt: "In US high school sport, girls sustain stress fractures 1.75 times as often as boys and account for 63% of all cases. That is not bad luck: it is a skeleton still under construction, inside a window that closes around age 18. What the data say, which signs to watch, and what actually builds bone."
 answer: "Because bone is built now and the window closes towards age 18. In high-school sport, girls sustain stress fractures 1.75 times as often as male peers and account for 63.3% of cases (Changstrom et al., 2015); the multiplier is not load on its own, but load without enough energy to cover it."
@@ -123,7 +123,7 @@ The remaining levers, in order of evidence according to the National Osteoporosi
 
 - **The club**: put 8-10 minutes of structured jumping into the warm-up, for everyone, all year. It is the same slot already occupied by the [neuromuscular warm-up that protects the ACL](/en/blog/crociato-giovani-atlete) — you do not need new time, you need better use of the time you have. And count the real hours: 12 a week is the threshold beyond which, in the data, risk changes scale.
 - **The coach**: take pinpoint pain seriously. The right question is not "how much does it hurt?" but "**can you point to it with one finger?**". If the answer is a precise spot on the bone, and it keeps coming back there, this is not about toughness.
-- **The family**: look at the combination, not the single sign. Less food + more hours + periods thinning out is a picture, not three coincidences. And get a medical opinion before it becomes a month on crutches.
+- **The family**: look at the combination, not the single sign. Less food + more hours + periods thinning out is a picture, not three coincidences. And get a medical opinion before it becomes a month on crutches: if the [sports eligibility exam](/en/blog/visita-idoneita-sportiva-giovani-atlete) is coming up, that picture is exactly what to bring to it, because none of the five mandatory tests looks at bone or at the menstrual cycle.
 - **The athlete**: know that the bone you are building now is the bone you will live with. That is not a threat — it is why these years are worth more than they look.
 
 ## The role of BAB

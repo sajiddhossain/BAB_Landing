@@ -260,3 +260,18 @@
   Scartate in fase di selezione: le foto Wikimedia di lattine di marca (Red Bull, Fanta) per la
   regola «niente foto da Wikipedia» e per la presenza di marchi registrati, e uno scaffale di
   supermercato rawpixel perché i marchi erano leggibili in etichetta.
+
+## cover-visita-idoneita.jpg
+- Titolo originale: "Free hospital's examination room image" (ambulatorio vuoto)
+- Fonte: rawpixel — https://www.rawpixel.com/image/5905562/photo-image-public-domain-medicine-free
+  (reperita via Openverse, filtro licenza cc0)
+- Autore: non indicato dalla fonte (nessuna attribuzione richiesta)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "la visita di idoneità agonistica: cosa vede e cosa non vede" (IT + EN)
+- Lavorazione: rendition `editor_1024` (senza filigrana; l'originale è 2397x1599), ritaglio della
+  banda 16:9 con offset 80px dall'alto (1024x576) — taglia parte del soffitto e tiene il lettino da
+  visita al centro. Nessun resample oltre il ritaglio, JPEG q88.
+  NB: come per le altre immagini rawpixel, la rendition `image_1300` è filigranata → non usare.
+  Nessuna persona nell'inquadratura, quindi nessun minore identificabile, e nessun marchio leggibile:
+  scartata la seconda candidata rawpixel (image/5925079, sala visita statunitense) proprio perché il
+  marchio del lettino era leggibile in primo piano.

@@ -1,6 +1,102 @@
 {
   "posts": [
     {
+      "slug": "visita-idoneita-sportiva-giovani-atlete",
+      "lang": "it",
+      "title": "La visita di idoneità agonistica: cosa vede, e cosa non vede in un'atleta adolescente",
+      "date": "2026-08-28",
+      "questions": [
+        {
+          "q": "Cosa prevede esattamente la visita di idoneità sportiva agonistica in Italia?",
+          "id": "faq-cosa-prevede-esattamente-la-visita-di-idoneita-sportiva"
+        },
+        {
+          "q": "Perché in Italia c'è l'elettrocardiogramma nella visita sportiva?",
+          "id": "faq-perche-in-italia-ce-lelettrocardiogramma-nella-visita"
+        },
+        {
+          "q": "La visita di idoneità controlla il ciclo mestruale di un'atleta?",
+          "id": "faq-la-visita-di-idoneita-controlla-il-ciclo-mestruale-di"
+        },
+        {
+          "q": "Un certificato di idoneità significa che l'atleta sta bene?",
+          "id": "faq-un-certificato-di-idoneita-significa-che-latleta-sta"
+        },
+        {
+          "q": "I moduli di screening chiedono davvero del ciclo alle atlete adolescenti?",
+          "id": "faq-i-moduli-di-screening-chiedono-davvero-del-ciclo-alle"
+        },
+        {
+          "q": "Cosa può chiedere un genitore alla visita di idoneità sportiva?",
+          "id": "faq-cosa-puo-chiedere-un-genitore-alla-visita-di-idoneita"
+        },
+        {
+          "q": "Il certificato di idoneità agonistica quanto dura e a che età serve?",
+          "id": "faq-il-certificato-di-idoneita-agonistica-quanto-dura-e-a"
+        },
+        {
+          "q": "Un ciclo che sparisce va segnalato al medico dello sport?",
+          "id": "faq-un-ciclo-che-sparisce-va-segnalato-al-medico-dello-sport"
+        },
+        {
+          "q": "La visita di idoneità sostituisce il pediatra o il medico di famiglia?",
+          "id": "faq-la-visita-di-idoneita-sostituisce-il-pediatra-o-il"
+        },
+        {
+          "q": "Perché il ferro non è nella lista degli esami obbligatori?",
+          "id": "faq-perche-il-ferro-non-e-nella-lista-degli-esami"
+        }
+      ]
+    },
+    {
+      "slug": "visita-idoneita-sportiva-giovani-atlete",
+      "lang": "en",
+      "title": "The sports eligibility exam: what it looks for, and what it misses in a teenage athlete",
+      "date": "2026-08-28",
+      "questions": [
+        {
+          "q": "What exactly does the Italian competitive sports eligibility exam involve?",
+          "id": "faq-what-exactly-does-the-italian-competitive-sports"
+        },
+        {
+          "q": "Why does the Italian sports exam include an ECG?",
+          "id": "faq-why-does-the-italian-sports-exam-include-an-ecg"
+        },
+        {
+          "q": "Does the eligibility exam check an athlete's menstrual cycle?",
+          "id": "faq-does-the-eligibility-exam-check-an-athletes-menstrual"
+        },
+        {
+          "q": "Does an eligibility certificate mean the athlete is healthy?",
+          "id": "faq-does-an-eligibility-certificate-mean-the-athlete-is"
+        },
+        {
+          "q": "Do screening forms actually ask teenage athletes about their periods?",
+          "id": "faq-do-screening-forms-actually-ask-teenage-athletes-about"
+        },
+        {
+          "q": "What can a parent ask at the sports eligibility exam?",
+          "id": "faq-what-can-a-parent-ask-at-the-sports-eligibility-exam"
+        },
+        {
+          "q": "How long does the eligibility certificate last, and at what age is it needed?",
+          "id": "faq-how-long-does-the-eligibility-certificate-last-and-at"
+        },
+        {
+          "q": "Should a cycle that disappears be reported to the sports doctor?",
+          "id": "faq-should-a-cycle-that-disappears-be-reported-to-the"
+        },
+        {
+          "q": "Does the eligibility exam replace the paediatrician or family doctor?",
+          "id": "faq-does-the-eligibility-exam-replace-the-paediatrician-or"
+        },
+        {
+          "q": "Why is iron not on the list of mandatory tests?",
+          "id": "faq-why-is-iron-not-on-the-list-of-mandatory-tests"
+        }
+      ]
+    },
+    {
       "slug": "integratori-energy-drink-giovani-atlete",
       "lang": "it",
       "title": "Integratori ed energy drink: a 14 anni servono davvero?",
@@ -1187,6 +1283,14 @@
           "id": "faq-unatleta-con-dolore-al-ginocchio-deve-smettere-di"
         },
         {
+          "q": "Cosa succede se un dolore al ginocchio in adolescenza non viene trattato?",
+          "id": "faq-cosa-succede-se-un-dolore-al-ginocchio-in-adolescenza"
+        },
+        {
+          "q": "Servono sedute di fisioterapia o bastano gli esercizi a casa?",
+          "id": "faq-servono-sedute-di-fisioterapia-o-bastano-gli-esercizi-a"
+        },
+        {
           "q": "Quando bisogna portarla da un medico?",
           "id": "faq-quando-bisogna-portarla-da-un-medico"
         }
@@ -1225,6 +1329,14 @@
         {
           "q": "Does an athlete with knee pain have to stop training?",
           "id": "faq-does-an-athlete-with-knee-pain-have-to-stop-training"
+        },
+        {
+          "q": "What happens if adolescent knee pain is left untreated?",
+          "id": "faq-what-happens-if-adolescent-knee-pain-is-left-untreated"
+        },
+        {
+          "q": "Are physiotherapy sessions needed, or are home exercises enough?",
+          "id": "faq-are-physiotherapy-sessions-needed-or-are-home-exercises"
         },
         {
           "q": "When should she see a doctor?",
@@ -1543,6 +1655,10 @@
           "id": "faq-le-perdite-di-urina-durante-lo-sport-riguardano-solo"
         },
         {
+          "q": "Le perdite di urina vanno dette al medico dello sport?",
+          "id": "faq-le-perdite-di-urina-vanno-dette-al-medico-dello-sport"
+        },
+        {
           "q": "Succede anche alle atlete di alto livello?",
           "id": "faq-succede-anche-alle-atlete-di-alto-livello"
         }
@@ -1585,6 +1701,10 @@
         {
           "q": "Is urinary leakage in sport only an issue for women who have had children?",
           "id": "faq-is-urinary-leakage-in-sport-only-an-issue-for-women-who"
+        },
+        {
+          "q": "Should urine leakage be mentioned to the sports doctor?",
+          "id": "faq-should-urine-leakage-be-mentioned-to-the-sports-doctor"
         },
         {
           "q": "Does it happen to elite athletes too?",

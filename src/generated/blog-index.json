@@ -1,6 +1,158 @@
 {
   "posts": [
     {
+      "slug": "visita-idoneita-sportiva-giovani-atlete",
+      "lang": "it",
+      "title": "La visita di idoneità agonistica: cosa vede, e cosa non vede in un'atleta adolescente",
+      "seoTitle": "Visita di idoneità agonistica: cosa controlla davvero",
+      "seoDescription": "Cinque accertamenti previsti per legge dal 1982: visita, urine, ECG a riposo e dopo sforzo, spirografia. Nessuno riguarda ciclo, ferro o salute ossea.",
+      "date": "2026-08-28",
+      "updated": "2026-08-28",
+      "author": "Sajid Hossain",
+      "excerpt": "Ogni anno, prima di poter giocare, un'atleta passa da un ambulatorio e ne esce con un certificato. Gli accertamenti che la legge italiana prevede dal 1982 sono cinque — visita medica, esame completo delle urine, elettrocardiogramma a riposo e dopo sforzo, spirografia — e sono nati per intercettare un problema preciso: le cardiopatie che causano morte improvvisa. Su quel fronte i dati del Veneto mostrano un calo dell'89% dell'incidenza. Ma nessuno dei cinque riguarda il ciclo mestruale, la disponibilità energetica, il ferro o la salute ossea: cioè le cose che, statisticamente, fermano di più una ragazza di 14 anni. Cosa copre il certificato, cosa non copre, e quali domande vale la pena portarsi in ambulatorio.",
+      "answer": "Prevede cinque accertamenti fissati dal DM 18 febbraio 1982: visita medica, esame completo delle urine, elettrocardiogramma a riposo e dopo sforzo, spirografia. È uno screening cardiologico, e sul suo bersaglio funziona — nel Veneto l'incidenza di morte cardiovascolare improvvisa negli atleti sottoposti a screening è scesa dell'89% (Corrado et al., 2006; 55 decessi, di cui 50 maschi, età media 23,3 anni). Non è invece uno screening della salute dell'atleta adolescente: ciclo, disponibilità energetica, ferro e salute ossea non sono nella lista.",
+      "cover": "/fotobab/cover-visita-idoneita.jpg",
+      "coverAlt": "Ambulatorio medico vuoto e luminoso: lettino da visita bianco, lavandino sul piano lungo la parete, finestra schermata; nessuna persona inquadrata",
+      "tags": [
+        "idoneita-agonistica",
+        "screening-pre-partecipazione",
+        "amenorrea",
+        "red-s",
+        "ferro"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Cosa prevede, per legge, la visita di idoneità agonistica?",
+          "id": "cosa-prevede-per-legge-la-visita-di-idoneita-agonistica"
+        },
+        {
+          "level": 2,
+          "text": "Lo screening italiano funziona?",
+          "id": "lo-screening-italiano-funziona"
+        },
+        {
+          "level": 2,
+          "text": "Cosa non guarda la visita in un'atleta adolescente?",
+          "id": "cosa-non-guarda-la-visita-in-unatleta-adolescente"
+        },
+        {
+          "level": 2,
+          "text": "Il modulo chiede del ciclo mestruale?",
+          "id": "il-modulo-chiede-del-ciclo-mestruale"
+        },
+        {
+          "level": 2,
+          "text": "Perché il ciclo dovrebbe interessare a chi firma un certificato?",
+          "id": "perche-il-ciclo-dovrebbe-interessare-a-chi-firma-un"
+        },
+        {
+          "level": 2,
+          "text": "Cosa portarsi alla visita di idoneità?",
+          "id": "cosa-portarsi-alla-visita-di-idoneita"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una società sportiva?",
+          "id": "cosa-puo-fare-una-societa-sportiva"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Quando è il caso di rivolgersi a un professionista",
+          "id": "quando-e-il-caso-di-rivolgersi-a-un-professionista"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 3311,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
+      "slug": "visita-idoneita-sportiva-giovani-atlete",
+      "lang": "en",
+      "title": "The sports eligibility exam: what it looks for, and what it misses in a teenage athlete",
+      "seoTitle": "Sports eligibility exam: what it actually checks",
+      "seoDescription": "Five tests required by Italian law since 1982: exam, urinalysis, ECG at rest and after exercise, spirography. None of them covers periods, iron or bone health.",
+      "date": "2026-08-28",
+      "updated": "2026-08-28",
+      "author": "Sajid Hossain",
+      "excerpt": "Every year, before she can play, an athlete visits a clinic and leaves with a certificate. Italian law has required five tests since 1982 — medical examination, full urinalysis, ECG at rest and after exercise, spirography — and they were designed to catch one thing: the cardiac conditions that cause sudden death. On that target the Veneto data show an 89% drop in incidence. But none of the five covers the menstrual cycle, energy availability, iron or bone health: the things that, statistically, are far more likely to stop a 14-year-old. What the certificate covers, what it does not, and which questions are worth bringing into the room.",
+      "answer": "It requires five tests set out in the Italian ministerial decree of 18 February 1982: medical examination, full urinalysis, ECG at rest, ECG after exercise, and spirography. It is a cardiac screening programme, and on its own target it works — in the Veneto region the incidence of sudden cardiovascular death in screened athletes fell by 89% (Corrado et al., 2006; 55 deaths, 50 of them male, mean age 23.3 years). It is not a screening of adolescent athlete health: cycle, energy availability, iron and bone are not on the list.",
+      "cover": "/fotobab/cover-visita-idoneita.jpg",
+      "coverAlt": "Empty, brightly lit medical examination room: white examination couch, sink along the wall counter, screened window; no people in frame",
+      "tags": [
+        "sports-eligibility",
+        "preparticipation-screening",
+        "red-s",
+        "amenorrhoea",
+        "iron"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What does Italian law require the eligibility exam to include?",
+          "id": "what-does-italian-law-require-the-eligibility-exam-to"
+        },
+        {
+          "level": 2,
+          "text": "Does the Italian screening programme work?",
+          "id": "does-the-italian-screening-programme-work"
+        },
+        {
+          "level": 2,
+          "text": "What does the exam miss in a teenage athlete?",
+          "id": "what-does-the-exam-miss-in-a-teenage-athlete"
+        },
+        {
+          "level": 2,
+          "text": "Does the form ask about periods?",
+          "id": "does-the-form-ask-about-periods"
+        },
+        {
+          "level": 2,
+          "text": "Why should a cycle matter to whoever signs a certificate?",
+          "id": "why-should-a-cycle-matter-to-whoever-signs-a-certificate"
+        },
+        {
+          "level": 2,
+          "text": "What should you bring to the eligibility exam?",
+          "id": "what-should-you-bring-to-the-eligibility-exam"
+        },
+        {
+          "level": 2,
+          "text": "What can a club do?",
+          "id": "what-can-a-club-do"
+        },
+        {
+          "level": 2,
+          "text": "What BAB does here",
+          "id": "what-bab-does-here"
+        },
+        {
+          "level": 2,
+          "text": "When to see a professional",
+          "id": "when-to-see-a-professional"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 3344,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
       "slug": "integratori-energy-drink-giovani-atlete",
       "lang": "it",
       "title": "Integratori ed energy drink: a 14 anni servono davvero?",
@@ -1841,7 +1993,7 @@
       "seoTitle": "Dolore al ginocchio negli adolescenti: cosa fare",
       "seoDescription": "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze e la durata mediana è di 24 mesi. Perché non è «dolore di crescita» e cosa fare.",
       "date": "2026-07-30",
-      "updated": "2026-08-21",
+      "updated": "2026-08-28",
       "author": "Sajid Hossain",
       "excerpt": "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze, la durata mediana del dolore è di 24 mesi e cinque anni dopo il 40,5% ha ancora male — con il 60% che ha smesso o ridotto lo sport. Il dolore femoro-rotuleo non passa «crescendo»: passa quando qualcuno lo prende sul serio e dosa il carico. I dati, e cosa cambia in palestra.",
       "answer": "Nella maggior parte dei casi non passa crescendo: cinque anni dopo, il 40,5% degli adolescenti con dolore al ginocchio ne ha ancora, e il 60% di questi ha smesso o ridotto lo sport a causa del ginocchio (Rathleff et al., 2019). Quello che funziona non è il riposo totale ma il carico dosato per settimane, insieme al rinforzo di anca e ginocchio.",
@@ -1861,8 +2013,8 @@
         },
         {
           "level": 2,
-          "text": "Che cos'è il dolore femoro-rotuleo, e cosa non è",
-          "id": "che-cose-il-dolore-femoro-rotuleo-e-cosa-non-e"
+          "text": "Che cos'è il dolore femoro-rotuleo, e come si distingue dagli altri dolori al ginocchio?",
+          "id": "che-cose-il-dolore-femoro-rotuleo-e-come-si-distingue-dagli"
         },
         {
           "level": 2,
@@ -1871,13 +2023,13 @@
         },
         {
           "level": 2,
-          "text": "Perché quasi nessuno lo porta da un medico",
-          "id": "perche-quasi-nessuno-lo-porta-da-un-medico"
+          "text": "Perché quasi nessuna porta il dolore al ginocchio da un medico?",
+          "id": "perche-quasi-nessuna-porta-il-dolore-al-ginocchio-da-un"
         },
         {
           "level": 2,
-          "text": "Cosa funziona: non il riposo, il carico dosato",
-          "id": "cosa-funziona-non-il-riposo-il-carico-dosato"
+          "text": "Il riposo fa passare il dolore femoro-rotuleo?",
+          "id": "il-riposo-fa-passare-il-dolore-femoro-rotuleo"
         },
         {
           "level": 2,
@@ -1886,8 +2038,8 @@
         },
         {
           "level": 2,
-          "text": "Cosa può fare una società, da lunedì",
-          "id": "cosa-puo-fare-una-societa-da-lunedi"
+          "text": "Cosa può fare una società sportiva, da lunedì?",
+          "id": "cosa-puo-fare-una-societa-sportiva-da-lunedi"
         },
         {
           "level": 2,
@@ -1900,7 +2052,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2995,
+      "words": 3003,
       "readingMinutes": 15,
       "timeRequired": "PT15M"
     },
@@ -1911,7 +2063,7 @@
       "seoTitle": "Knee pain in teenage athletes: what to do",
       "seoDescription": "Among adolescents with recurrent knee pain, 72% are girls and the median duration is 24 months. Why it is not growing pains, and what to do.",
       "date": "2026-07-30",
-      "updated": "2026-08-21",
+      "updated": "2026-08-28",
       "author": "Sajid Hossain",
       "excerpt": "Among adolescents with recurrent knee pain, 72% are girls, the median duration of pain is 24 months, and five years later 40.5% still hurt — with 60% of those having stopped or cut back on sport. Patellofemoral pain does not go away by 'growing out of it': it goes away when someone takes it seriously and doses the load. The data, and what changes in the gym.",
       "answer": "In most cases it does not go away with growth: five years on, 40.5% of adolescents with knee pain still have it, and 60% of those have stopped or cut back on sport because of the knee (Rathleff et al., 2019). What works is not complete rest but dosed load over weeks, together with hip and knee strengthening.",
@@ -1931,8 +2083,8 @@
         },
         {
           "level": 2,
-          "text": "What patellofemoral pain is, and what it is not",
-          "id": "what-patellofemoral-pain-is-and-what-it-is-not"
+          "text": "What is patellofemoral pain, and how is it told apart from other knee pain?",
+          "id": "what-is-patellofemoral-pain-and-how-is-it-told-apart-from"
         },
         {
           "level": 2,
@@ -1941,13 +2093,13 @@
         },
         {
           "level": 2,
-          "text": "Why almost nobody takes it to a doctor",
-          "id": "why-almost-nobody-takes-it-to-a-doctor"
+          "text": "Why does almost nobody take adolescent knee pain to a doctor?",
+          "id": "why-does-almost-nobody-take-adolescent-knee-pain-to-a-doctor"
         },
         {
           "level": 2,
-          "text": "What works: not rest, but measured load",
-          "id": "what-works-not-rest-but-measured-load"
+          "text": "Does rest make patellofemoral pain go away?",
+          "id": "does-rest-make-patellofemoral-pain-go-away"
         },
         {
           "level": 2,
@@ -1956,8 +2108,8 @@
         },
         {
           "level": 2,
-          "text": "What a club can do, starting Monday",
-          "id": "what-a-club-can-do-starting-monday"
+          "text": "What can a club do, starting Monday?",
+          "id": "what-can-a-club-do-starting-monday"
         },
         {
           "level": 2,
@@ -1970,7 +2122,7 @@
           "id": "sources"
         }
       ],
-      "words": 2838,
+      "words": 2846,
       "readingMinutes": 14,
       "timeRequired": "PT14M"
     },
@@ -1981,7 +2133,7 @@
       "seoTitle": "Fratture da stress nelle giovani atlete: prevenzione",
       "seoDescription": "Le ragazze subiscono fratture da stress 1,75 volte più dei coetanei, e l'osso si costruisce entro i 18 anni. Energia, ciclo e carico: cosa dice l'evidenza.",
       "date": "2026-07-28",
-      "updated": "2026-08-20",
+      "updated": "2026-08-28",
       "author": "Sajid Hossain",
       "excerpt": "Nelle scuole superiori americane le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi, e sono il 63% di tutti i casi. Non è sfortuna: è un osso che si sta ancora costruendo, in una finestra che si chiude verso i 18 anni. Cosa dicono i dati, quali segnali guardare e cosa costruisce osso davvero.",
       "answer": "Perché l'osso si costruisce adesso e la finestra si chiude verso i 18 anni. Nelle scuole superiori le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi e rappresentano il 63,3% dei casi (Changstrom et al., 2015); il moltiplicatore non è il carico da solo, ma il carico senza abbastanza energia a coprirlo.",
@@ -2036,7 +2188,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2588,
+      "words": 2614,
       "readingMinutes": 13,
       "timeRequired": "PT13M"
     },
@@ -2047,7 +2199,7 @@
       "seoTitle": "Stress fractures in young female athletes",
       "seoDescription": "Girls sustain stress fractures 1.75 times as often as male peers, and bone is built before 18. Energy, periods and load: what the evidence says.",
       "date": "2026-07-28",
-      "updated": "2026-08-20",
+      "updated": "2026-08-28",
       "author": "Sajid Hossain",
       "excerpt": "In US high school sport, girls sustain stress fractures 1.75 times as often as boys and account for 63% of all cases. That is not bad luck: it is a skeleton still under construction, inside a window that closes around age 18. What the data say, which signs to watch, and what actually builds bone.",
       "answer": "Because bone is built now and the window closes towards age 18. In high-school sport, girls sustain stress fractures 1.75 times as often as male peers and account for 63.3% of cases (Changstrom et al., 2015); the multiplier is not load on its own, but load without enough energy to cover it.",
@@ -2102,7 +2254,7 @@
           "id": "sources"
         }
       ],
-      "words": 2406,
+      "words": 2438,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -2409,7 +2561,7 @@
       "seoTitle": "Perdite di urina nello sport: quanto è comune",
       "seoDescription": "Perdere urina saltando riguarda in media il 48,6% delle atlete adolescenti, ma l'87% non ne parlerebbe con l'allenatore. Frequente non vuol dire normale.",
       "date": "2026-07-22",
-      "updated": "2026-08-13",
+      "updated": "2026-08-28",
       "author": "Sajid Hossain",
       "excerpt": "Perdere urina saltando o atterrando riguarda in media il 48,6% delle atlete adolescenti, e l'80% nel trampolino elastico. Eppure l'87% dice che non ne parlerebbe con il proprio allenatore. È frequente, ma frequente non vuol dire normale: cosa dicono i dati sulle ragazze di 13-17 anni, perché non è colpa loro, e cosa può fare una società senza medicalizzare nulla.",
       "answer": "È frequente ma non fisiologico, e quasi nessuna ne parla: tra le atlete adolescenti la prevalenza media è del 48,58%, fino all'80% nel trampolino elastico, e l'87% non ne parlerebbe con l'allenatore (Rial Rebullido et al., 2021). Non è qualcosa da sopportare: è un sintomo del pavimento pelvico, con percorsi di riabilitazione documentati (su popolazione adulta).",
@@ -2433,8 +2585,8 @@
         },
         {
           "level": 2,
-          "text": "Quanto costa davvero, in allenamenti?",
-          "id": "quanto-costa-davvero-in-allenamenti"
+          "text": "Quanti allenamenti fa perdere l'incontinenza da sforzo?",
+          "id": "quanti-allenamenti-fa-perdere-lincontinenza-da-sforzo"
         },
         {
           "level": 2,
@@ -2443,12 +2595,12 @@
         },
         {
           "level": 2,
-          "text": "Si può fare qualcosa? Cosa dice l'evidenza (e cosa non dice)",
-          "id": "si-puo-fare-qualcosa-cosa-dice-levidenza-e-cosa-non-dice"
+          "text": "Le perdite di urina nello sport si possono curare?",
+          "id": "le-perdite-di-urina-nello-sport-si-possono-curare"
         },
         {
           "level": 2,
-          "text": "Cosa può fare una società sportiva, senza medicalizzare nulla",
+          "text": "Cosa può fare una società sportiva, senza medicalizzare nulla?",
           "id": "cosa-puo-fare-una-societa-sportiva-senza-medicalizzare-nulla"
         },
         {
@@ -2473,7 +2625,7 @@
       "seoTitle": "Urinary leakage in sport: how common it is",
       "seoDescription": "Leaking urine when jumping affects on average 48.6% of adolescent athletes, yet 87% would not tell their coach. Common does not mean normal.",
       "date": "2026-07-22",
-      "updated": "2026-08-13",
+      "updated": "2026-08-28",
       "author": "Sajid Hossain",
       "excerpt": "Leaking urine when jumping or landing affects on average 48.6% of adolescent female athletes, and 80% in trampolining. Yet 87% say they would not mention it to their coach. It is common, but common does not mean normal: what the data say about girls aged 13-17, why it is not their fault, and what a club can do without medicalising anything.",
       "answer": "It is common but not physiological, and almost nobody talks about it: among adolescent female athletes the mean prevalence is 48.58%, rising to 80% in trampolining, and 87% would not mention it to their coach (Rial Rebullido et al., 2021). It is not something to endure: it is a pelvic floor symptom, with documented rehabilitation pathways (in adult populations).",
@@ -2497,8 +2649,8 @@
         },
         {
           "level": 2,
-          "text": "What does it actually cost, in training sessions?",
-          "id": "what-does-it-actually-cost-in-training-sessions"
+          "text": "How many training sessions does stress incontinence cost?",
+          "id": "how-many-training-sessions-does-stress-incontinence-cost"
         },
         {
           "level": 2,
@@ -2507,13 +2659,13 @@
         },
         {
           "level": 2,
-          "text": "Can anything be done? What the evidence says (and what it does not)",
-          "id": "can-anything-be-done-what-the-evidence-says-and-what-it"
+          "text": "Can urine leakage in sport be treated?",
+          "id": "can-urine-leakage-in-sport-be-treated"
         },
         {
           "level": 2,
-          "text": "What a club can do, without medicalising anything",
-          "id": "what-a-club-can-do-without-medicalising-anything"
+          "text": "What can a club do, without medicalising anything?",
+          "id": "what-can-a-club-do-without-medicalising-anything"
         },
         {
           "level": 2,
@@ -2526,7 +2678,7 @@
           "id": "sources"
         }
       ],
-      "words": 1899,
+      "words": 1893,
       "readingMinutes": 9,
       "timeRequired": "PT9M"
     },
@@ -2826,7 +2978,7 @@
       "seoTitle": "Ferro basso nelle atlete adolescenti: come si trova",
       "seoDescription": "Il 53,2% delle atlete adolescenti ha una carenza di ferro lieve, ma l'emocromo da solo non la vede: serve la ferritina. Sintomi, esami e cosa chiedere.",
       "date": "2026-07-16",
-      "updated": "2026-08-25",
+      "updated": "2026-08-28",
       "author": "Sajid Hossain",
       "excerpt": "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli.",
       "answer": "Con un esame del sangue, non a intuito: il 53,2% delle atlete adolescenti ha una carenza di ferro lieve (ferritina ≤30 µg/L), mentre l'anemia sideropenica riguarda solo il 4% (Nicotra et al., 2023). Lo sport non è il fattore dominante — tra le adolescenti, atlete e non atlete non differiscono in modo significativo — e integrare senza aver misurato non è una buona idea.",
@@ -2881,7 +3033,7 @@
           "id": "fonti"
         }
       ],
-      "words": 1982,
+      "words": 2021,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -2892,7 +3044,7 @@
       "seoTitle": "Low iron in teenage athletes: how it is found",
       "seoDescription": "53.2% of adolescent athletes have mild iron deficiency, but a full blood count alone misses it: ferritin is the test. Symptoms and what to ask for.",
       "date": "2026-07-16",
-      "updated": "2026-08-25",
+      "updated": "2026-08-28",
       "author": "Sajid Hossain",
       "excerpt": "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone.",
       "answer": "With a blood test, not by intuition: 53.2% of adolescent female athletes have mild iron deficiency (ferritin ≤30 µg/L), while iron-deficiency anaemia affects only 4% (Nicotra et al., 2023). Sport is not the dominant factor — among adolescents, athletes and non-athletes do not differ significantly — and supplementing without measuring first is not a good idea.",
@@ -2946,9 +3098,9 @@
           "id": "sources"
         }
       ],
-      "words": 1871,
-      "readingMinutes": 9,
-      "timeRequired": "PT9M"
+      "words": 1911,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
     },
     {
       "slug": "dolore-in-puberta-neuroscienza",
@@ -3213,7 +3365,7 @@
       "seoTitle": "RED-S nelle atlete: cos'è, sintomi e primi segnali",
       "seoDescription": "RED-S: quando l'energia non copre allenamento e crescita. Sintomi, primi segnali e perché un ciclo che sparisce non è mai un buon segno.",
       "date": "2026-07-04",
-      "updated": "2026-08-25",
+      "updated": "2026-08-28",
       "author": "Sajid Hossain",
       "excerpt": "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica.",
       "answer": "Quando l'energia introdotta non copre quella spesa tra allenamento e crescita: è la bassa disponibilità energetica alla base della RED-S. Non serve un disturbo alimentare, può accadere senza intenzione, e i primi segnali sono un ciclo che si dirada, infortuni ripetuti, sonno e umore peggiori — eppure il 44% delle atlete adolescenti crede che perdere il ciclo sia normale (Armento et al., 2021).",
@@ -3269,7 +3421,7 @@
           "id": "fonti"
         }
       ],
-      "words": 1571,
+      "words": 1626,
       "readingMinutes": 8,
       "timeRequired": "PT8M"
     },
@@ -3280,7 +3432,7 @@
       "seoTitle": "RED-S in female athletes: signs and symptoms",
       "seoDescription": "RED-S: when energy intake doesn't cover training and growth. Symptoms, early signs, and why a disappearing period is never a good sign.",
       "date": "2026-07-04",
-      "updated": "2026-08-25",
+      "updated": "2026-08-28",
       "author": "Sajid Hossain",
       "excerpt": "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed.",
       "answer": "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021).",
@@ -3336,7 +3488,7 @@
           "id": "sources"
         }
       ],
-      "words": 1524,
+      "words": 1580,
       "readingMinutes": 8,
       "timeRequired": "PT8M"
     },
