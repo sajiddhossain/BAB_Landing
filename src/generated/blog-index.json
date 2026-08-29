@@ -1,6 +1,168 @@
 {
   "posts": [
     {
+      "slug": "ansia-prestazione-burnout-giovani-atlete",
+      "lang": "it",
+      "title": "Ansia da prestazione e burnout: quando a fermarsi è la testa, non il ginocchio",
+      "seoTitle": "Ansia da prestazione e burnout nelle giovani atlete",
+      "seoDescription": "L'ansia competitiva ha tre componenti misurabili e la paura di fare male è più alta nelle ragazze. Il burnout sportivo esiste già in adolescenza: cosa guardare.",
+      "date": "2026-08-29",
+      "updated": "2026-08-29",
+      "author": "Sajid Hossain",
+      "excerpt": "Un infortunio si vede, si mette il ghiaccio, si prende un appuntamento. Una ragazza che dorme male la notte prima della partita, che si sente svuotata dopo tre mesi di stagione e che ha smesso di divertirsi non lascia nessun referto — e viene archiviata come «una che si agita» o «una che non ha più fame». La ricerca però l'ha misurata: l'ansia competitiva ha tre componenti distinte, il burnout sportivo ha tre dimensioni e una prevalenza stimata anche fra gli adolescenti. Cosa dicono i dati, cosa cambia fra ragazze e ragazzi, e come si distingue una brutta settimana da un segnale da portare a un professionista.",
+      "answer": "L'ansia competitiva non è un tratto unico: si misura in tre componenti separate — ansia somatica, preoccupazione di fare male, disturbo della concentrazione — e in 1.038 atleti di 9-14 anni la preoccupazione di fare male era più alta nelle ragazze, con differenze descritte dagli autori come modeste (Grossbard et al., 2009). Il burnout sportivo, definito come esaurimento più svalutazione dello sport, è stato rilevato con punteggi elevati nell'1-9% di 980 atleti adolescenti (Gustafsson et al., 2007).",
+      "cover": "/fotobab/cover-ansia-burnout-atlete.jpg",
+      "coverAlt": "Parete di armadietti da spogliatoio arancioni con lucchetti, un'anta verde lime al centro; nessuna persona nell'inquadratura",
+      "tags": [
+        "salute-mentale-atleta",
+        "burnout-sportivo",
+        "ansia-competitiva",
+        "specializzazione-precoce",
+        "drop-out"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Che cos'è davvero l'ansia da prestazione, e perché «è una che si agita» non basta?",
+          "id": "che-cose-davvero-lansia-da-prestazione-e-perche-e-una-che"
+        },
+        {
+          "level": 2,
+          "text": "Le ragazze hanno più ansia da prestazione dei ragazzi?",
+          "id": "le-ragazze-hanno-piu-ansia-da-prestazione-dei-ragazzi"
+        },
+        {
+          "level": 2,
+          "text": "Il burnout sportivo esiste davvero a 14 anni?",
+          "id": "il-burnout-sportivo-esiste-davvero-a-14-anni"
+        },
+        {
+          "level": 2,
+          "text": "Un solo sport tutto l'anno aumenta il rischio?",
+          "id": "un-solo-sport-tutto-lanno-aumenta-il-rischio"
+        },
+        {
+          "level": 2,
+          "text": "Le atlete hanno più sintomi di ansia e depressione degli atleti?",
+          "id": "le-atlete-hanno-piu-sintomi-di-ansia-e-depressione-degli"
+        },
+        {
+          "level": 2,
+          "text": "Quali fattori di rischio si possono davvero cambiare?",
+          "id": "quali-fattori-di-rischio-si-possono-davvero-cambiare"
+        },
+        {
+          "level": 2,
+          "text": "Come si distingue una brutta settimana da qualcosa di più serio?",
+          "id": "come-si-distingue-una-brutta-settimana-da-qualcosa-di-piu"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa può fare concretamente una società sportiva?",
+          "id": "che-cosa-puo-fare-concretamente-una-societa-sportiva"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Quando rivolgersi a un professionista",
+          "id": "quando-rivolgersi-a-un-professionista"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 2695,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
+    },
+    {
+      "slug": "ansia-prestazione-burnout-giovani-atlete",
+      "lang": "en",
+      "title": "Performance anxiety and burnout: when it is the head that stops, not the knee",
+      "seoTitle": "Performance anxiety and burnout in young female athletes",
+      "seoDescription": "Competitive anxiety has three measurable components, and worry about performing poorly is highest in girls. Sport burnout already exists in adolescence: what to watch.",
+      "date": "2026-08-29",
+      "updated": "2026-08-29",
+      "author": "Sajid Hossain",
+      "excerpt": "An injury is visible: you ice it, you book an appointment. A girl who cannot sleep the night before a match, who feels hollowed out three months into the season and has stopped enjoying any of it leaves no medical record — and gets filed away as «the anxious one» or «the one who lost her hunger». Research has measured both. Competitive anxiety breaks down into three distinct components, sport burnout has three dimensions and a prevalence estimate in adolescents. What the data say, what differs between girls and boys, and how to tell a bad week from a signal worth taking to a professional.",
+      "answer": "Competitive anxiety is not one trait: it is measured as three separate components — somatic anxiety, worry about performing poorly, and concentration disruption — and in 1,038 athletes aged 9-14 worry was highest in girls, with differences the authors themselves describe as modest (Grossbard et al., 2009). Sport burnout, defined as exhaustion plus sport devaluation, was detected at elevated scores in 1-9% of 980 adolescent athletes (Gustafsson et al., 2007).",
+      "cover": "/fotobab/cover-ansia-burnout-atlete.jpg",
+      "coverAlt": "A wall of orange locker-room lockers with padlocks and a single lime-green door at the centre; no people in frame",
+      "tags": [
+        "athlete-mental-health",
+        "athlete-burnout",
+        "competitive-anxiety",
+        "early-specialisation",
+        "drop-out"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is performance anxiety really, and why is «she's the anxious one» not enough?",
+          "id": "what-is-performance-anxiety-really-and-why-is-shes-the"
+        },
+        {
+          "level": 2,
+          "text": "Do girls have more performance anxiety than boys?",
+          "id": "do-girls-have-more-performance-anxiety-than-boys"
+        },
+        {
+          "level": 2,
+          "text": "Does sport burnout really exist at 14?",
+          "id": "does-sport-burnout-really-exist-at-14"
+        },
+        {
+          "level": 2,
+          "text": "Does playing one sport all year round raise the risk?",
+          "id": "does-playing-one-sport-all-year-round-raise-the-risk"
+        },
+        {
+          "level": 2,
+          "text": "Do female athletes report more anxiety and depression than male athletes?",
+          "id": "do-female-athletes-report-more-anxiety-and-depression-than"
+        },
+        {
+          "level": 2,
+          "text": "Which risk factors can actually be changed?",
+          "id": "which-risk-factors-can-actually-be-changed"
+        },
+        {
+          "level": 2,
+          "text": "How do you tell a bad week from something more serious?",
+          "id": "how-do-you-tell-a-bad-week-from-something-more-serious"
+        },
+        {
+          "level": 2,
+          "text": "What can a club do concretely?",
+          "id": "what-can-a-club-do-concretely"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "When to see a professional",
+          "id": "when-to-see-a-professional"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2546,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
+    },
+    {
       "slug": "visita-idoneita-sportiva-giovani-atlete",
       "lang": "it",
       "title": "La visita di idoneità agonistica: cosa vede, e cosa non vede in un'atleta adolescente",
@@ -875,7 +1037,7 @@
       "seoTitle": "Tornare allo sport dopo un infortunio: quando è ora",
       "seoDescription": "Dopo un crociato l'81% torna allo sport ma solo il 55% al livello competitivo. La prontezza psicologica conta quanto il ginocchio.",
       "date": "2026-08-16",
-      "updated": "2026-08-20",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "Dopo una ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo — e chi non torna, spesso, ha un ginocchio che funziona. La prontezza psicologica si misura, predice il rientro e, negli under 20, è associata al rischio di un secondo infortunio. Cosa dicono i numeri sul calendario, sui criteri e sulle ragazze, e cosa può dire davvero chi allena il giorno del rientro.",
       "answer": "Perché il tessuto guarisce prima della fiducia: dopo la ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo, e tra chi non rientra la paura di rifarsi male è una delle ragioni più frequenti (Ardern et al., 2014, meta-analisi su 7.556 partecipanti in prevalenza adulti).",
@@ -935,7 +1097,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2390,
+      "words": 2490,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -946,7 +1108,7 @@
       "seoTitle": "Return to sport after injury: when it's time",
       "seoDescription": "After ACL reconstruction 81% return to sport but only 55% to competitive level. Psychological readiness matters as much as the knee.",
       "date": "2026-08-16",
-      "updated": "2026-08-20",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "After ACL reconstruction 81% go back to playing sport, but only 55% go back to competitive level — and many of those who never return have a knee that works fine. Psychological readiness can be measured, it predicts return, and in under-20s it is associated with the risk of a second injury. What the numbers say about the calendar, about criteria and about girls, and what a coach can actually say on the day someone comes back.",
       "answer": "Because tissue heals faster than confidence: after ACL reconstruction 81% go back to playing sport but only 55% return to competitive level, and among those who do not return, fear of reinjury is one of the most common reasons (Ardern et al., 2014, a meta-analysis of 7,556 participants, mostly adults).",
@@ -1006,7 +1168,7 @@
           "id": "sources"
         }
       ],
-      "words": 2305,
+      "words": 2397,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -1429,7 +1591,7 @@
       "seoTitle": "Mal di schiena nelle giovani atlete: cause e segnali",
       "seoDescription": "In una giovane atleta la causa più descritta è la spondilolisi, non la contrattura: negli adulti è il contrario. Segnali, tempi e cosa dice l'evidenza.",
       "date": "2026-08-08",
-      "updated": "2026-08-21",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "Il 42% delle atlete e degli atleti di 10-19 anni riferisce mal di schiena nell'arco di dodici mesi, e il sesso femminile compare tra i fattori di rischio. La differenza che quasi nessuno conosce sta nella causa: in adolescenza la lombalgia da sport è molto più spesso una frattura da stress della colonna e molto più raramente un problema di disco o una contrattura. I dati, i limiti dei dati, e perché oggi la fisioterapia immediata batte il riposo.",
       "answer": "Perché in una giovane atleta la causa più descritta è la spondilolisi, una frattura da stress della vertebra, mentre nell'adulto è il disco: in un confronto diretto spiegava il 47% dei casi negli adolescenti contro il 5% negli adulti (Micheli e Wood, 1995 — campione di clinica specialistica). Un mal di schiena che dura oltre due o tre settimane va valutato, non normalizzato.",
@@ -1465,13 +1627,13 @@
         },
         {
           "level": 2,
-          "text": "Quando conviene far valutare un mal di schiena, e perché non aspettare",
-          "id": "quando-conviene-far-valutare-un-mal-di-schiena-e-perche-non"
+          "text": "Dopo quanto tempo un mal di schiena va fatto valutare da un medico?",
+          "id": "dopo-quanto-tempo-un-mal-di-schiena-va-fatto-valutare-da-un"
         },
         {
           "level": 2,
-          "text": "Riposo o fisioterapia subito? L'evidenza è cambiata",
-          "id": "riposo-o-fisioterapia-subito-levidenza-e-cambiata"
+          "text": "Meglio riposo o fisioterapia subito per una spondilolisi?",
+          "id": "meglio-riposo-o-fisioterapia-subito-per-una-spondilolisi"
         },
         {
           "level": 2,
@@ -1485,8 +1647,8 @@
         },
         {
           "level": 2,
-          "text": "Cosa cambia in palestra, concretamente",
-          "id": "cosa-cambia-in-palestra-concretamente"
+          "text": "Che cosa cambia in palestra, concretamente?",
+          "id": "che-cosa-cambia-in-palestra-concretamente"
         },
         {
           "level": 2,
@@ -1499,7 +1661,7 @@
           "id": "fonti"
         }
       ],
-      "words": 3629,
+      "words": 3672,
       "readingMinutes": 18,
       "timeRequired": "PT18M"
     },
@@ -1510,7 +1672,7 @@
       "seoTitle": "Low back pain in young athletes: causes and signs",
       "seoDescription": "In a young athlete the most described cause is spondylolysis, not a muscle strain — in adults it is the reverse. Signs, timing and the evidence.",
       "date": "2026-08-08",
-      "updated": "2026-08-21",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "42% of athletes aged 10-19 report low back pain over twelve months, and female sex appears among the reported risk factors. The difference almost nobody knows about is the cause: in adolescence, sport-related low back pain is far more often a stress fracture of the spine and far more rarely a disc problem or a muscle strain. The data, the limits of the data, and why immediate physiotherapy now beats rest.",
       "answer": "Because in a young athlete the most described cause is spondylolysis, a stress fracture of the vertebra, whereas in adults it is the disc: in a direct comparison it explained 47% of cases in adolescents against 5% in adults (Micheli and Wood, 1995 — a specialist-clinic sample). Back pain lasting more than two or three weeks should be assessed, not normalised.",
@@ -1546,13 +1708,13 @@
         },
         {
           "level": 2,
-          "text": "When to have back pain assessed, and why not to wait",
-          "id": "when-to-have-back-pain-assessed-and-why-not-to-wait"
+          "text": "After how long should back pain be assessed by a doctor?",
+          "id": "after-how-long-should-back-pain-be-assessed-by-a-doctor"
         },
         {
           "level": 2,
-          "text": "Rest, or physiotherapy straight away? The evidence has moved",
-          "id": "rest-or-physiotherapy-straight-away-the-evidence-has-moved"
+          "text": "Rest or physiotherapy straight away for spondylolysis?",
+          "id": "rest-or-physiotherapy-straight-away-for-spondylolysis"
         },
         {
           "level": 2,
@@ -1566,7 +1728,7 @@
         },
         {
           "level": 2,
-          "text": "What changes in the gym, concretely",
+          "text": "What changes in the gym, concretely?",
           "id": "what-changes-in-the-gym-concretely"
         },
         {
@@ -1580,7 +1742,7 @@
           "id": "sources"
         }
       ],
-      "words": 3517,
+      "words": 3515,
       "readingMinutes": 18,
       "timeRequired": "PT18M"
     },
@@ -2265,7 +2427,7 @@
       "seoTitle": "Specializzazione precoce nello sport: i costi reali",
       "seoDescription": "Un solo sport tutto l'anno costa infortuni, non vantaggio competitivo: fra 219 atlete di 13-18 anni le altamente specializzate si infortunano di più.",
       "date": "2026-07-26",
-      "updated": "2026-08-23",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "Tra le atlete di 13-18 anni, chi è altamente specializzata in un solo sport ha 2,93 volte le probabilità di aver avuto un infortunio. Allenarsi più ore a settimana dei propri anni d'età raddoppia il rischio di infortunio grave da sovraccarico. E gli atleti che arrivano davvero in cima hanno iniziato il loro sport principale più tardi, non prima. I dati, i limiti dei dati, e le tre domande che dicono se una ragazza è già specializzata.",
       "answer": "Costa infortuni, non vantaggio competitivo: tra 219 atlete di 13-18 anni le altamente specializzate riferivano una storia di infortuni 2,93 volte più spesso delle poco specializzate (Okoruwa et al., 2022), e allenarsi più ore a settimana dei propri anni d'età raddoppia le probabilità di un infortunio grave da sovraccarico (Jayanthi et al., 2015).",
@@ -2323,7 +2485,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2561,
+      "words": 2670,
       "readingMinutes": 13,
       "timeRequired": "PT13M"
     },
@@ -2334,7 +2496,7 @@
       "seoTitle": "Early sport specialisation: the real costs",
       "seoDescription": "One sport all year costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised got hurt more often.",
       "date": "2026-07-26",
-      "updated": "2026-08-23",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "Among female athletes aged 13-18, those highly specialised in a single sport are 2.93 times as likely to report an injury history. Training more hours per week than your age in years doubles the odds of a serious overuse injury. And the athletes who actually reach the top started their main sport later, not earlier. The evidence, its limits, and the three questions that tell you whether a girl is already specialised.",
       "answer": "It costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised reported a history of injury 2.93 times as often as low-specialisation peers (Okoruwa et al., 2022), and training more hours a week than your age in years doubles the odds of a serious overuse injury (Jayanthi et al., 2015).",
@@ -2392,9 +2554,9 @@
           "id": "sources"
         }
       ],
-      "words": 2446,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2544,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "commozione-cerebrale-giovani-atlete",
@@ -2689,7 +2851,7 @@
       "seoTitle": "Crociato nelle giovani atlete: rischio e prevenzione",
       "seoDescription": "Nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei. Cosa cambia con la pubertà e i 20 minuti che riducono il rischio.",
       "date": "2026-07-21",
-      "updated": "2026-08-23",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "Nello sport scolastico le ragazze si rompono il crociato 1,4 volte più dei coetanei maschi — a basket oltre quattro volte tanto. Esiste un riscaldamento neuromuscolare che nelle atlete di 13-19 anni riduce il rischio di circa il 60%, costa venti minuti due volte a settimana e quasi nessuna squadra lo fa davvero. I dati, e cosa cambia lunedì in palestra.",
       "answer": "Perché il divario si apre con la pubertà, non con il livello: nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei maschi, fino a 4,14 volte nel basket (Bram et al., 2021). Venti minuti di allenamento neuromuscolare due volte a settimana riducono il rischio di circa il 60% tra le atlete di 13-19 anni (Petushek et al., 2019).",
@@ -2708,8 +2870,8 @@
         },
         {
           "level": 2,
-          "text": "Perché il divario si apre proprio in pubertà",
-          "id": "perche-il-divario-si-apre-proprio-in-puberta"
+          "text": "Perché il rischio di rompersi il crociato cresce proprio in pubertà?",
+          "id": "perche-il-rischio-di-rompersi-il-crociato-cresce-proprio-in"
         },
         {
           "level": 2,
@@ -2733,18 +2895,18 @@
         },
         {
           "level": 2,
-          "text": "Cosa succede dopo, a 15 anni",
-          "id": "cosa-succede-dopo-a-15-anni"
+          "text": "Che cosa succede dopo la ricostruzione, a 15 anni?",
+          "id": "che-cosa-succede-dopo-la-ricostruzione-a-15-anni"
         },
         {
           "level": 2,
-          "text": "Non tutti i ginocchi che fanno male sono crociati",
-          "id": "non-tutti-i-ginocchi-che-fanno-male-sono-crociati"
+          "text": "Ogni ginocchio che fa male è un sospetto crociato?",
+          "id": "ogni-ginocchio-che-fa-male-e-un-sospetto-crociato"
         },
         {
           "level": 2,
-          "text": "Cosa può fare una società, da lunedì",
-          "id": "cosa-puo-fare-una-societa-da-lunedi"
+          "text": "Che cosa può fare una società da lunedì, in concreto?",
+          "id": "che-cosa-puo-fare-una-societa-da-lunedi-in-concreto"
         },
         {
           "level": 2,
@@ -2757,7 +2919,7 @@
           "id": "fonti"
         }
       ],
-      "words": 3034,
+      "words": 3092,
       "readingMinutes": 15,
       "timeRequired": "PT15M"
     },
@@ -2768,7 +2930,7 @@
       "seoTitle": "ACL injuries in young female athletes",
       "seoDescription": "In high-school sport girls sustain 1.40 times the ACL ruptures of male peers. What puberty changes, and the 20 minutes that cut the risk.",
       "date": "2026-07-21",
-      "updated": "2026-08-23",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "In high-school sport, girls tear their ACL 1.4 times as often as boys — and over four times as often in basketball. A neuromuscular warm-up cuts that risk by roughly 60% in 13-19 year-old athletes, costs twenty minutes twice a week, and almost no team actually does it. The evidence, and what changes on Monday.",
       "answer": "Because the gap opens with puberty, not with playing level: in high-school sport girls sustain 1.40 times the ACL ruptures of male peers, and up to 4.14 times in basketball (Bram et al., 2021). Twenty minutes of neuromuscular training twice a week cuts the risk by roughly 60% among athletes aged 13-19 (Petushek et al., 2019).",
@@ -2787,8 +2949,8 @@
         },
         {
           "level": 2,
-          "text": "Why the gap opens at puberty",
-          "id": "why-the-gap-opens-at-puberty"
+          "text": "Why does ACL risk rise precisely at puberty?",
+          "id": "why-does-acl-risk-rise-precisely-at-puberty"
         },
         {
           "level": 2,
@@ -2812,18 +2974,18 @@
         },
         {
           "level": 2,
-          "text": "What happens afterwards, at 15",
-          "id": "what-happens-afterwards-at-15"
+          "text": "What happens after reconstruction, at 15?",
+          "id": "what-happens-after-reconstruction-at-15"
         },
         {
           "level": 2,
-          "text": "Not every painful knee is an ACL",
-          "id": "not-every-painful-knee-is-an-acl"
+          "text": "Is every painful knee a suspected ACL?",
+          "id": "is-every-painful-knee-a-suspected-acl"
         },
         {
           "level": 2,
-          "text": "What a club can do, starting Monday",
-          "id": "what-a-club-can-do-starting-monday"
+          "text": "What can a club actually do, starting Monday?",
+          "id": "what-can-a-club-actually-do-starting-monday"
         },
         {
           "level": 2,
@@ -2836,7 +2998,7 @@
           "id": "sources"
         }
       ],
-      "words": 2905,
+      "words": 2959,
       "readingMinutes": 15,
       "timeRequired": "PT15M"
     },
@@ -3245,9 +3407,9 @@
       "lang": "it",
       "title": "Le parole dell'allenatore: come la cultura e il linguaggio dello staff cambiano la salute delle atlete",
       "seoTitle": "Le parole dell'allenatore e la salute delle atlete",
-      "seoDescription": "Le parole dell'allenatore cambiano la salute delle atlete: cosa sapere e cosa non dire mai, dai dati su 1.086 atlete in 57 sport.",
+      "seoDescription": "Con un'allenatrice donna parla di ciclo il 55% delle atlete, con un allenatore uomo il 4%. Cosa dire, cosa non dire mai e come aprire un canale.",
       "date": "2026-07-09",
-      "updated": "2026-08-21",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "Cosa dovrebbe sapere — e cosa è meglio non dire mai — chi allena ragazze adolescenti. Le atlete che percepiscono il proprio allenatore come molto informato riportano il 36% di sintomi di RED-S in meno; chi ha ricevuto commenti sul proprio corpo è quattro volte più propensa a modificare l'alimentazione (33% contro 7%). Il linguaggio dello staff non è un contorno neutro dell'allenamento: è una variabile di salute misurabile. I dati, i limiti, e cosa farne domani in palestra.",
       "answer": "Più di quanto sembri, e si misura: un allenatore percepito come molto informato si associa a 3,2 sintomi di RED-S in media contro 4,3, cioè il 36% in meno, mentre i commenti sul corpo che mettono a disagio si associano a quattro volte più probabilità di modificare l'alimentazione (Female Athlete Health Report, 2023 — campione adulto, non peer-reviewed).",
@@ -3295,18 +3457,18 @@
           "id": "fonti"
         }
       ],
-      "words": 2067,
-      "readingMinutes": 10,
-      "timeRequired": "PT10M"
+      "words": 2186,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
     },
     {
       "slug": "parole-allenatore-salute-atlete",
       "lang": "en",
       "title": "A coach's words: how staff knowledge and language change athletes' health",
       "seoTitle": "A coach's words and young athletes' health",
-      "seoDescription": "A coach's words change athletes' health: what to know and what never to say, from data on 1,086 athletes across 57 sports.",
+      "seoDescription": "With a female coach, 55% of athletes discuss their cycle; with a male coach, 4%. What to say, what never to say, and how to open a channel.",
       "date": "2026-07-09",
-      "updated": "2026-08-21",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "What a coach of adolescent girls should know — and what is better never said. Athletes who perceive their coach as very knowledgeable report 36% fewer RED-S symptoms; those who have received comments about their body are four times more likely to change how they eat (33% vs 7%). Staff language is not a neutral backdrop to training: it is a measurable health variable. The data, the limits, and what to do with it tomorrow in the gym.",
       "answer": "More than it seems, and it is measurable: a coach perceived as very well-informed is associated with 3.2 RED-S symptoms on average against 4.3 — 36% fewer — while comments about the body that make athletes uncomfortable are associated with four times the odds of changing their eating (Female Athlete Health Report, 2023 — adult sample, not peer-reviewed).",
@@ -3354,9 +3516,9 @@
           "id": "sources"
         }
       ],
-      "words": 2009,
-      "readingMinutes": 10,
-      "timeRequired": "PT10M"
+      "words": 2125,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
     },
     {
       "slug": "red-s-bassa-disponibilita-energetica",
@@ -3877,7 +4039,7 @@
       "seoTitle": "Perché le ragazze smettono di fare sport in pubertà",
       "seoDescription": "Le ragazze non smettono perché perdono interesse: smettono quando l'ambiente non funziona più. I dati sull'abbandono a 10-14 anni e cosa lo inverte.",
       "date": "2026-06-22",
-      "updated": "2026-08-20",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "Tra le ragazze che si tesserano a 10-14 anni, il 71% abbandona lo sport senza mai rientrare e solo il 13% partecipa con continuità per sette anni. Non è un calo di motivazione: l'abbandono segue lo sviluppo del corpo — una pubertà precoce aumenta significativamente la probabilità di smettere (HR 1,68). I dati veri, quelli gonfiati da cui diffidare, e le quattro leve che una società ha davvero in mano.",
       "answer": "Non perché perdono interesse, ma perché l'ambiente smette di funzionare quando il corpo cambia. Tra le ragazze tesserate a 10-14 anni il 71% abbandona lo sport senza mai rientrare (Eime et al., 2020), e una pubertà precoce aumenta significativamente la probabilità di smettere (HR 1,68; Gallant et al., 2023).",
@@ -3921,9 +4083,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2053,
-      "readingMinutes": 10,
-      "timeRequired": "PT10M"
+      "words": 2237,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
     },
     {
       "slug": "abbandono-puberta",
@@ -3932,7 +4094,7 @@
       "seoTitle": "Why teenage girls drop out of sport: the data",
       "seoDescription": "Girls do not stop because they lose interest: they stop when the environment stops working. The drop-out data at 10-14, and what reverses it.",
       "date": "2026-06-22",
-      "updated": "2026-08-20",
+      "updated": "2026-08-29",
       "author": "Sajid Hossain",
       "excerpt": "Among girls who join a club aged 10-14, 71% drop out without ever returning and only 13% take part continuously over seven years. It isn't a dip in motivation: drop-out follows the developing body — girls who go through puberty earlier are significantly more likely to stop (HR 1.68). The real figures, the inflated ones to be wary of, and the four levers a club actually holds.",
       "answer": "Not because they lose interest, but because the environment stops working when the body changes. Among girls registered with a club at 10-14, 71% drop out of sport without ever returning (Eime et al., 2020), and earlier puberty significantly raises the probability of stopping (HR 1.68; Gallant et al., 2023).",
@@ -3976,9 +4138,9 @@
           "id": "sources"
         }
       ],
-      "words": 1984,
-      "readingMinutes": 10,
-      "timeRequired": "PT10M"
+      "words": 2169,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
     },
     {
       "slug": "ciclo-e-performance",

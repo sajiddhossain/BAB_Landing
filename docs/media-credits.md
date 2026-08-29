@@ -275,3 +275,21 @@
   Nessuna persona nell'inquadratura, quindi nessun minore identificabile, e nessun marchio leggibile:
   scartata la seconda candidata rawpixel (image/5925079, sala visita statunitense) proprio perché il
   marchio del lettino era leggibile in primo piano.
+
+## cover-ansia-burnout-atlete.jpg
+- Titolo originale: "Free school lockers image" (parete di armadietti arancioni con un solo anta verde lime)
+- Fonte: rawpixel — https://www.rawpixel.com/image/5914049/photo-image-background-public-domain-orange
+  (reperita via Openverse, filtro licenza cc0/pdm, source=rawpixel)
+- Autore: non indicato dalla fonte (nessuna attribuzione richiesta)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "ansia da prestazione e burnout nelle giovani atlete" (IT + EN)
+- Lavorazione: rendition `editor_1024` (senza filigrana; l'originale è 5760x3840), da WebP a JPEG,
+  ritaglio della banda 16:9 con offset 80px dall'alto (1024x576) — l'anta verde lime resta intera al
+  centro dell'inquadratura. Nessun resample oltre il ritaglio, JPEG q88.
+  NB: come per le altre immagini rawpixel, la rendition `image_1300` è filigranata → non usare.
+  Nessuna persona nell'inquadratura, quindi nessun minore identificabile; le etichette sugli
+  armadietti sono codici a barre illeggibili e non c'è nessun marchio riconoscibile. Scelta
+  deliberata di uno spogliatoio vuoto: l'articolo parla di salute mentale di adolescenti e
+  qualunque volto avrebbe attribuito un disagio a una persona reale.
+  Scartata in fase di selezione la rawpixel image/3303403 ("Small locker units change room") perché
+  il nome file della fonte la dichiara derivata da Wikimedia → regola «niente foto da Wikipedia».

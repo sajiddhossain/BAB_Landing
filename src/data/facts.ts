@@ -808,6 +808,46 @@ export const FACTS: Fact[] = [
     source: 'Fischer e Young, 2014',
     doi: '10.3928/19425864-20141008-01',
   },
+  {
+    id: 'ansia-burnout-1',
+    article: 'ansia-prestazione-burnout-giovani-atlete',
+    claim:
+      "In un inventario di burnout somministrato a 980 atleti adolescenti svedesi (402 femmine e 578 maschi) in 29 sport diversi, fra l'1% e il 9% mostrava punteggi elevati nelle sottoscale. Popolazione: atleti ADOLESCENTI competitivi; strumento di screening, non diagnosi cliniche. L'ipotesi di una maggiore prevalenza negli sport individuali non è stata confermata.",
+    claimEn:
+      'In a burnout inventory administered to 980 Swedish adolescent athletes (402 female, 578 male) across 29 different sports, between 1% and 9% showed elevated scores on the subscales. Population: competitive ADOLESCENT athletes; a screening instrument, not clinical diagnoses. The hypothesis of higher prevalence in individual sports was not supported.',
+    source: 'Gustafsson et al., 2007',
+    doi: '10.1123/tsp.21.1.21',
+  },
+  {
+    id: 'ansia-burnout-2',
+    article: 'ansia-prestazione-burnout-giovani-atlete',
+    claim:
+      "In un'analisi fattoriale confermativa su 1.038 atleti di 9-14 anni, l'ansia competitiva si scompone in tre componenti distinte — ansia somatica, preoccupazione di fare male e disturbo della concentrazione — e il modello a tre fattori regge sia fra i 9-11enni sia fra i 12-14enni, sia nei maschi sia nelle femmine. La preoccupazione di fare male era più alta nelle ragazze e negli atleti più grandi, mentre i maschi riportavano più disturbo della concentrazione; gli autori descrivono l'associazione di sesso ed età con i punteggi come modesta. Popolazione: giovani atleti di 9-14 anni.",
+    claimEn:
+      'In a confirmatory factor analysis of 1,038 athletes aged 9-14, competitive anxiety separates into three distinct components — somatic anxiety, worry about performing poorly and concentration disruption — and the three-factor model holds for 9-11 and 12-14 year olds alike, and for boys and girls alike. Worry was highest in girls and in older athletes, while boys reported more concentration disruption; the authors describe gender and age as modestly related to anxiety scores. Population: young athletes aged 9-14.',
+    source: 'Grossbard et al., 2009',
+    doi: '10.1080/10615800802020643',
+  },
+  {
+    id: 'ansia-burnout-3',
+    article: 'ansia-prestazione-burnout-giovani-atlete',
+    claim:
+      "In una meta-analisi di 8 studi su 1.429 atleti adolescenti (età media 15,59 anni, intervallo 12,5-17,2), chi si specializza in un solo sport riportava punteggi di burnout più alti in tutte e tre le dimensioni, con una differenza fra le medie di 0,87 (IC 95% 0,67-1,08) sul ridotto senso di realizzazione. Limite dichiarato: 1.371 atleti su 1.429 (95,9%) erano specializzati e solo 58 (4,1%) praticavano più sport, quindi il gruppo di confronto è molto piccolo. Popolazione: atleti ADOLESCENTI.",
+    claimEn:
+      'In a meta-analysis of 8 studies covering 1,429 adolescent athletes (mean age 15.59 years, range 12.5-17.2), those specialising in a single sport reported higher burnout scores on all three dimensions, with a difference of means of 0.87 (95% CI 0.67-1.08) on reduced sense of accomplishment. Stated limitation: 1,371 of 1,429 athletes (95.9%) were specialisers and only 58 (4.1%) were samplers, so the comparison group is very small. Population: ADOLESCENT athletes.',
+    source: 'Giusti et al., 2020',
+    doi: '10.1177/2325967120907579',
+  },
+  {
+    id: 'ansia-burnout-4',
+    article: 'ansia-prestazione-burnout-giovani-atlete',
+    claim:
+      "In una revisione sistematica con meta-analisi di 60 studi su atleti d'élite, le atlete riportavano tassi più alti degli atleti di ansia (rapporto fra tassi 1,17; IC 95% 1,08-1,27), depressione (1,42; 1,31-1,54), distress (1,98; 1,40-2,81) e disturbi del comportamento alimentare (2,19; 1,58-3,02); i disturbi del sonno risultavano simili nei due sessi (1,13; 0,98-1,30, differenza non significativa). Popolazione: atleti d'élite, in larga parte ADULTI, non adolescenti.",
+    claimEn:
+      'In a systematic review and meta-analysis of 60 studies in elite athletes, female athletes reported higher rates than male athletes of anxiety (rate ratio 1.17; 95% CI 1.08-1.27), depression (1.42; 1.31-1.54), distress (1.98; 1.40-2.81) and disordered eating (2.19; 1.58-3.02); sleep disturbance was similar in both sexes (1.13; 0.98-1.30, not significant). Population: elite athletes, largely ADULTS, not adolescents.',
+    source: 'Kew et al., 2024',
+    doi: '10.1177/19417381241264491',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

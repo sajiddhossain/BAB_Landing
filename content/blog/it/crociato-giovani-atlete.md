@@ -4,7 +4,7 @@ title: "Crociato e giovani atlete: perché il rischio è più alto, e i 20 minut
 seoTitle: "Crociato nelle giovani atlete: rischio e prevenzione"
 seoDescription: "Nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei. Cosa cambia con la pubertà e i 20 minuti che riducono il rischio."
 date: 2026-07-21
-updated: 2026-08-23
+updated: 2026-08-29
 author: Sajid Hossain
 excerpt: "Nello sport scolastico le ragazze si rompono il crociato 1,4 volte più dei coetanei maschi — a basket oltre quattro volte tanto. Esiste un riscaldamento neuromuscolare che nelle atlete di 13-19 anni riduce il rischio di circa il 60%, costa venti minuti due volte a settimana e quasi nessuna squadra lo fa davvero. I dati, e cosa cambia lunedì in palestra."
 answer: "Perché il divario si apre con la pubertà, non con il livello: nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei maschi, fino a 4,14 volte nel basket (Bram et al., 2021). Venti minuti di allenamento neuromuscolare due volte a settimana riducono il rischio di circa il 60% tra le atlete di 13-19 anni (Petushek et al., 2019)."
@@ -50,9 +50,9 @@ Sì, e conviene usare i numeri giusti invece di quelli che circolano. La cifra "
 
 Una media, però, nasconde più di quanto mostri. Lo stesso lavoro trova che il divario dipende quasi tutto dallo sport praticato: nel **basket** le ragazze hanno un rischio **4,14 volte** quello dei maschi (IC 95% 2,98-5,76), mentre il tasso assoluto più alto in assoluto è nel **calcio femminile** (0,166 per 1.000 esposizioni). Detto in modo utile a chi allena: non esiste "il rischio delle ragazze", esiste il rischio di *quella* ragazza in *quello* sport, e negli sport con cambi di direzione e atterraggi è dove serve intervenire per primi.
 
-## Perché il divario si apre proprio in pubertà
+## Perché il rischio di rompersi il crociato cresce proprio in pubertà?
 
-Qui la spiegazione più diffusa — "è l'anatomia femminile" — è insufficiente, perché l'anatomia c'è anche a 8 anni, quando il divario non c'è. Ciò che cambia in mezzo è la pubertà.
+**Perché a cambiare non è l'anatomia, che c'era già, ma il modo in cui un corpo cresciuto in fretta controlla l'atterraggio.** Qui la spiegazione più diffusa — "è l'anatomia femminile" — è insufficiente, perché l'anatomia c'è anche a 8 anni, quando il divario non c'è. Ciò che cambia in mezzo è la pubertà.
 
 Quella pubertà, però, non è una data: è una fase con una velocità propria, e il momento in cui il corpo cambia più in fretta ha un nome — il [picco di velocità di crescita](/blog/picco-di-crescita-giovani-atlete). È lì che le leve si allungano e l'atterraggio cambia, ed è la ragione per cui il riscaldamento neuromuscolare non va tolto proprio negli anni in cui un'atleta cresce di più.
 
@@ -90,17 +90,17 @@ Ed è esattamente per questo che la prevenzione del crociato è, in fondo, un pr
 
 La conseguenza pratica è chiara, e va nella direzione opposta a quella che ci si aspetta: **non ha senso adattare carichi, convocazioni o screening alla fase del ciclo di una ragazza di 14 anni.** Il ciclo va conosciuto, ascoltato e reso dicibile — [ed è ancora un tabù](/blog/parlare-di-ciclo-con-allenatore) — ma non è una leva di prevenzione del crociato. Ciò che è dimostrato funzionare è il lavoro neuromuscolare, che si fa in tutte le settimane del mese.
 
-## Cosa succede dopo, a 15 anni
+## Che cosa succede dopo la ricostruzione, a 15 anni?
 
-Un dato che dovrebbe pesare più di quanto pesa: dopo una ricostruzione del crociato, tra gli **atleti under 25 che tornano allo sport il 23% subisce un secondo infortunio al crociato** — sulla stessa gamba o sull'altra (Wiggins et al., 2016). Nella stessa revisione il tasso complessivo è del 15% (7% ipsilaterale, 8% controlaterale): la giovane età e il ritorno ad attività ad alta intensità sono i due fattori che lo alzano.
+**Che il rischio non finisce con l'intervento: quasi un'atleta under 25 su quattro che torna a giocare si rifà male al crociato.** Un dato che dovrebbe pesare più di quanto pesa: dopo una ricostruzione del crociato, tra gli **atleti under 25 che tornano allo sport il 23% subisce un secondo infortunio al crociato** — sulla stessa gamba o sull'altra (Wiggins et al., 2016). Nella stessa revisione il tasso complessivo è del 15% (7% ipsilaterale, 8% controlaterale): la giovane età e il ritorno ad attività ad alta intensità sono i due fattori che lo alzano.
 
 Detto altrimenti: **la prevenzione non finisce con il primo infortunio.** Anzi, il momento in cui il lavoro neuromuscolare conta di più è proprio il ritorno in campo — e la decisione su *quando* tornare non è dell'allenatore, è del percorso clinico che segue l'atleta.
 
 C'è poi la parte che nessun referto misura. Dopo una ricostruzione l'**81%** torna a fare sport, ma solo il **55%** torna a livello competitivo (Ardern et al., 2014; campione in prevalenza adulto), e tra gli under 20 una prontezza psicologica più bassa a 12 mesi è associata al rischio di un secondo infortunio (McPherson et al., 2019). Abbiamo raccolto i numeri e il modo di parlarne in [tornare a giocare dopo un infortunio](/blog/ritorno-allo-sport-dopo-infortunio): il ginocchio, di solito, guarisce prima della testa.
 
-## Non tutti i ginocchi che fanno male sono crociati
+## Ogni ginocchio che fa male è un sospetto crociato?
 
-**Il crociato è l'infortunio più drammatico del ginocchio, non il più frequente.** Vale la pena dirlo perché l'attenzione che il crociato si è guadagnata — meritatamente — ha un effetto collaterale: fa passare inosservato il ginocchio che fa male da mesi senza che sia mai successo niente.
+**No, e il rischio è l'opposto: il crociato è l'infortunio più drammatico del ginocchio, non il più frequente.** Vale la pena dirlo perché l'attenzione che il crociato si è guadagnata — meritatamente — ha un effetto collaterale: fa passare inosservato il ginocchio che fa male da mesi senza che sia mai successo niente.
 
 La differenza sta nell'esordio. La rottura del crociato ha un momento preciso: un cambio di direzione, un atterraggio, un ginocchio che cede. Il **dolore femoro-rotuleo** non ha un giorno di inizio: si accende sulle scale, in accosciata, nei salti e stando seduta a lungo. Nella coorte danese sugli adolescenti con dolore al ginocchio, il **68,3%** dei casi aveva un **esordio insidioso**, senza alcun trauma, e la durata **mediana** del dolore era di **24 mesi** ([Rathleff et al., 2013, *BMC Musculoskeletal Disorders*](https://doi.org/10.1186/1471-2474-14-225)).
 
@@ -108,7 +108,7 @@ E non è un problema minore perché non fa rumore: a **cinque anni** di distanza
 
 Il pratico: se un'atleta dice che il ginocchio le fa male «un po' da un po'», la domanda utile non è quanto, è **da quanto** — e la risposta va portata a un professionista sanitario, non gestita a bordo campo. Ne abbiamo scritto per esteso in [il ginocchio che fa male da mesi](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
 
-## Cosa può fare una società, da lunedì
+## Che cosa può fare una società da lunedì, in concreto?
 
 Nessuna di queste è una prescrizione medica. Sono scelte organizzative alla portata di qualsiasi società:
 

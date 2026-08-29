@@ -57,6 +57,14 @@ export const AUTOLINK_TERMS: Record<string, { it: string[]; en: string[] }> = {
     it: ['punteggio di Beighton'],
     en: ['Beighton score'],
   },
+  'ansia-competitiva': {
+    it: ['ansia competitiva'],
+    en: ['competitive anxiety'],
+  },
+  'burnout-sportivo': {
+    it: ["burnout dell'atleta", 'burnout sportivo'],
+    en: ['athlete burnout', 'sport burnout'],
+  },
 };
 
 /** Oltre questa soglia i link al glossario smettono di aiutare e iniziano a distrarre. */

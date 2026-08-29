@@ -4,7 +4,7 @@ title: "Early specialisation: one sport all year round, and what it actually cos
 seoTitle: "Early sport specialisation: the real costs"
 seoDescription: "One sport all year costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised got hurt more often."
 date: 2026-07-26
-updated: 2026-08-23
+updated: 2026-08-29
 author: Sajid Hossain
 excerpt: "Among female athletes aged 13-18, those highly specialised in a single sport are 2.93 times as likely to report an injury history. Training more hours per week than your age in years doubles the odds of a serious overuse injury. And the athletes who actually reach the top started their main sport later, not earlier. The evidence, its limits, and the three questions that tell you whether a girl is already specialised."
 answer: "It costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised reported a history of injury 2.93 times as often as low-specialisation peers (Okoruwa et al., 2022), and training more hours a week than your age in years doubles the odds of a serious overuse injury (Jayanthi et al., 2015)."
@@ -116,7 +116,7 @@ Two caveats. First: this is **consensus guidance**, not a trial-validated protoc
 
 ## Does early specialisation increase drop-out?
 
-**Yes: beyond injury, it is associated with a higher chance of quitting.** It is the part the injury numbers miss. Early specialisation is also associated with higher **burnout, anxiety and attrition**: the AAP lists these among the documented risks, alongside social isolation from peers who don't play the same sport (Brenner and AAP, 2016).
+**Yes: beyond injury, it is associated with a higher chance of quitting.** It is the part the injury numbers miss. Early specialisation is also associated with higher **burnout, anxiety and attrition**: the AAP lists these among the documented risks, alongside social isolation from peers who don't play the same sport (Brenner and AAP, 2016). The figure that quantifies that link comes from a later meta-analysis: across 1,429 adolescent athletes, specialisers reported higher burnout scores on all three dimensions (Giusti et al., 2020) — [what athlete burnout actually is, and how to tell it from a bad week, is covered here](/en/blog/ansia-prestazione-burnout-giovani-atlete).
 
 And this is where it comes home. Among girls registered with a club at 10-14, 71% quit without ever returning: we covered it in our piece on [drop-out during puberty](/en/blog/abbandono-puberta). An athlete who at twelve has only one exit — that sport, that team, that identity — has no second door when something breaks. One who has played three sports has three. It isn't a metaphor: it is the difference between "I'll switch sports" and "I'm done".
 
@@ -139,6 +139,7 @@ Because the problem with early specialisation is not one session too many. It is
 ## Sources
 
 - Okoruwa E.T., Abbott A., Stamm M., Mulcahey M.K. **Sport Specialization Classification and Injury Risk in Female Athletes.** *Sports Health*, 2022;14(6):797-804. (n=219 **female athletes** aged 13-18; cross-sectional questionnaire study, wide confidence intervals) [doi:10.1177/19417381221123532](https://doi.org/10.1177/19417381221123532)
+- Giusti N.E., Carder S.L., Vopat L., Baker J., Tarakemeh A., Vopat B., Mulcahey M.K. **Comparing Burnout in Sport-Specializing Versus Sport-Sampling Adolescent Athletes: A Systematic Review and Meta-analysis.** *Orthopaedic Journal of Sports Medicine*, 2020;8(3). (8 studies, 1,429 adolescent athletes, mean age 15.59 years; **highly unbalanced groups**: 1,371 specialisers vs 58 samplers) [doi:10.1177/2325967120907579](https://doi.org/10.1177/2325967120907579)
 - Bell D.R., Post E.G., Biese K., Bay C., Valovich McLeod T. **Sport Specialization and Risk of Overuse Injuries: A Systematic Review With Meta-analysis.** *Pediatrics*, 2018;142(3):e20180657. (systematic review with meta-analysis; athletes of both sexes, results not broken down by sex; strength of recommendation grade B) [doi:10.1542/peds.2018-0657](https://doi.org/10.1542/peds.2018-0657)
 - Jayanthi N.A., LaBella C.R., Fischer D., Pasulka J., Dugas L.R. **Sports-Specialized Intensive Training and the Risk of Injury in Young Athletes: A Clinical Case-Control Study.** *The American Journal of Sports Medicine*, 2015;43(4):794-801. (case-control study in young athletes of both sexes) [doi:10.1177/0363546514567298](https://doi.org/10.1177/0363546514567298)
 - Jayanthi N., Kleithermes S., Dugas L., Pasulka J., Iqbal S., LaBella C. **Risk of Injuries Associated With Sport Specialization and Intense Training Patterns in Young Athletes: A Longitudinal Clinical Case-Control Study.** *Orthopaedic Journal of Sports Medicine*, 2020;8(6):2325967120922764. (n=579, mean age 14.1, 53% female; clinical and therefore selected sample) [doi:10.1177/2325967120922764](https://doi.org/10.1177/2325967120922764)

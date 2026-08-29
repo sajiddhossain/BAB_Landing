@@ -1,6 +1,94 @@
 {
   "posts": [
     {
+      "slug": "ansia-prestazione-burnout-giovani-atlete",
+      "lang": "it",
+      "title": "Ansia da prestazione e burnout: quando a fermarsi è la testa, non il ginocchio",
+      "date": "2026-08-29",
+      "questions": [
+        {
+          "q": "Che cos'è l'ansia da prestazione in una giovane atleta?",
+          "id": "faq-che-cose-lansia-da-prestazione-in-una-giovane-atleta"
+        },
+        {
+          "q": "Le ragazze hanno più ansia da prestazione dei ragazzi?",
+          "id": "faq-le-ragazze-hanno-piu-ansia-da-prestazione-dei-ragazzi"
+        },
+        {
+          "q": "Il burnout sportivo esiste davvero a 14 anni?",
+          "id": "faq-il-burnout-sportivo-esiste-davvero-a-14-anni"
+        },
+        {
+          "q": "Fare un solo sport tutto l'anno aumenta il rischio di burnout?",
+          "id": "faq-fare-un-solo-sport-tutto-lanno-aumenta-il-rischio-di"
+        },
+        {
+          "q": "Le atlete hanno più sintomi di ansia e depressione degli atleti?",
+          "id": "faq-le-atlete-hanno-piu-sintomi-di-ansia-e-depressione"
+        },
+        {
+          "q": "Quali fattori si possono davvero cambiare?",
+          "id": "faq-quali-fattori-si-possono-davvero-cambiare"
+        },
+        {
+          "q": "Come distinguo una brutta settimana da qualcosa di più serio?",
+          "id": "faq-come-distinguo-una-brutta-settimana-da-qualcosa-di-piu"
+        },
+        {
+          "q": "Che cosa può fare concretamente chi allena?",
+          "id": "faq-che-cosa-puo-fare-concretamente-chi-allena"
+        },
+        {
+          "q": "Dire a un'atleta che è «un problema di testa» aiuta o peggiora?",
+          "id": "faq-dire-a-unatleta-che-e-un-problema-di-testa-aiuta-o"
+        }
+      ]
+    },
+    {
+      "slug": "ansia-prestazione-burnout-giovani-atlete",
+      "lang": "en",
+      "title": "Performance anxiety and burnout: when it is the head that stops, not the knee",
+      "date": "2026-08-29",
+      "questions": [
+        {
+          "q": "What is performance anxiety in a young athlete?",
+          "id": "faq-what-is-performance-anxiety-in-a-young-athlete"
+        },
+        {
+          "q": "Do girls have more performance anxiety than boys?",
+          "id": "faq-do-girls-have-more-performance-anxiety-than-boys"
+        },
+        {
+          "q": "Does sport burnout really exist at 14?",
+          "id": "faq-does-sport-burnout-really-exist-at-14"
+        },
+        {
+          "q": "Does playing one sport all year round raise the risk of burnout?",
+          "id": "faq-does-playing-one-sport-all-year-round-raise-the-risk-of"
+        },
+        {
+          "q": "Do female athletes report more anxiety and depression than male athletes?",
+          "id": "faq-do-female-athletes-report-more-anxiety-and-depression"
+        },
+        {
+          "q": "Which risk factors can actually be changed?",
+          "id": "faq-which-risk-factors-can-actually-be-changed"
+        },
+        {
+          "q": "How do I tell a bad week from something more serious?",
+          "id": "faq-how-do-i-tell-a-bad-week-from-something-more-serious"
+        },
+        {
+          "q": "What can a coach do concretely?",
+          "id": "faq-what-can-a-coach-do-concretely"
+        },
+        {
+          "q": "Does telling an athlete it is «all in her head» help or hurt?",
+          "id": "faq-does-telling-an-athlete-it-is-all-in-her-head-help-or"
+        }
+      ]
+    },
+    {
       "slug": "visita-idoneita-sportiva-giovani-atlete",
       "lang": "it",
       "title": "La visita di idoneità agonistica: cosa vede, e cosa non vede in un'atleta adolescente",
@@ -2117,6 +2205,14 @@
         {
           "q": "Questi dati valgono anche per le atlete di 13-14 anni?",
           "id": "faq-questi-dati-valgono-anche-per-le-atlete-di-13-14-anni"
+        },
+        {
+          "q": "Come incide il linguaggio dello staff sull'ansia da prestazione di un'atleta?",
+          "id": "faq-come-incide-il-linguaggio-dello-staff-sullansia-da"
+        },
+        {
+          "q": "Che differenza c'è tra un'atleta demotivata e un'atleta in burnout?",
+          "id": "faq-che-differenza-ce-tra-unatleta-demotivata-e-unatleta-in"
         }
       ]
     },
@@ -2157,6 +2253,14 @@
         {
           "q": "Do these figures also apply to 13-14-year-old athletes?",
           "id": "faq-do-these-figures-also-apply-to-13-14-year-old-athletes"
+        },
+        {
+          "q": "How does staff language affect an athlete's performance anxiety?",
+          "id": "faq-how-does-staff-language-affect-an-athletes-performance"
+        },
+        {
+          "q": "What is the difference between an unmotivated athlete and one in burnout?",
+          "id": "faq-what-is-the-difference-between-an-unmotivated-athlete"
         }
       ]
     },
