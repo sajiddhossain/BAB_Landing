@@ -4,7 +4,7 @@ title: "Low back pain at 14: why in a young athlete it is not what it is in an a
 seoTitle: "Low back pain in young athletes: causes and signs"
 seoDescription: "In a young athlete the most described cause is spondylolysis, not a muscle strain — in adults it is the reverse. Signs, timing and the evidence."
 date: 2026-08-08
-updated: 2026-08-21
+updated: 2026-08-29
 author: Sajid Hossain
 excerpt: "42% of athletes aged 10-19 report low back pain over twelve months, and female sex appears among the reported risk factors. The difference almost nobody knows about is the cause: in adolescence, sport-related low back pain is far more often a stress fracture of the spine and far more rarely a disc problem or a muscle strain. The data, the limits of the data, and why immediate physiotherapy now beats rest."
 answer: "Because in a young athlete the most described cause is spondylolysis, a stress fracture of the vertebra, whereas in adults it is the disc: in a direct comparison it explained 47% of cases in adolescents against 5% in adults (Micheli and Wood, 1995 — a specialist-clinic sample). Back pain lasting more than two or three weeks should be assessed, not normalised."
@@ -104,7 +104,7 @@ The typical movement behind it is no mystery: the backbend, the artistic gymnast
 
 The historical gymnastics figure conveys the order of magnitude: in **100 young high-level gymnasts** studied radiographically, **11%** had a pars defect and **6%** a spondylolisthesis — around **four times** the rate reported in their non-athletic peers (Jackson et al., 1976). It is a 1976 study, radiographic, in elite athletes: it is not an estimate you can transfer to a girl doing gymnastics twice a week at a local club. But it is why, even then, the authors wrote that **low back pain in a young gymnast should be treated as a warning sign**.
 
-## When to have back pain assessed, and why not to wait
+## After how long should back pain be assessed by a doctor?
 
 A clear premise is needed here: **nothing that follows allows a diagnosis**, and that is not the intent. Telling spondylolysis from muscular pain is clinical work, involving an examination and, if indicated, imaging. What can be said is **when to stop waiting**.
 
@@ -119,7 +119,7 @@ These are good reasons to ask a healthcare professional for an assessment:
 
 The practical reason not to wait is about bone, not bureaucracy: as with all bone stress injuries, **an injury caught early follows a different path from one dragged out for months**. And there is a side effect of slowness that is easily overlooked: the longer pain goes without a name, the more "normal" it becomes — and at that point it stops being mentioned at all.
 
-## Rest, or physiotherapy straight away? The evidence has moved
+## Rest or physiotherapy straight away for spondylolysis?
 
 **The most recent data say: physiotherapy immediately, not rest first.** For years the standard approach to active adolescent spondylolysis was to stop, wait for symptoms to settle, then rehabilitate. A **multicentre randomised trial** published in 2026 tested that sequence.
 
@@ -150,7 +150,7 @@ A qualitative study interviewed athletes aged **10-19** who had had an episode o
 
 The study's title is a participant's own quote — *"back pain is part of sport… I'm just gonna have to live with it"* — and it captures the mechanism better than any statistic. It is the same pattern we found in [ankle sprains](/en/blog/distorsione-caviglia-giovani-atlete), in [knee pain that lasts months](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete) and in [urinary leakage during jumps](/en/blog/perdite-urina-giovani-atlete): a symptom so frequent it looks normal, and for exactly that reason never reported. With one aggravating factor here: when the frequent symptom is hiding a stress fracture, time works against you.
 
-## What changes in the gym, concretely
+## What changes in the gym, concretely?
 
 This is not a clinical protocol. These are the points the sources cited above converge on, translated into decisions a club can take.
 

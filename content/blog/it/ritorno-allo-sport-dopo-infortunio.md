@@ -4,7 +4,7 @@ title: "Tornare a giocare dopo un infortunio: il ginocchio guarisce prima della 
 seoTitle: "Tornare allo sport dopo un infortunio: quando è ora"
 seoDescription: "Dopo un crociato l'81% torna allo sport ma solo il 55% al livello competitivo. La prontezza psicologica conta quanto il ginocchio."
 date: 2026-08-16
-updated: 2026-08-20
+updated: 2026-08-29
 author: Sajid Hossain
 excerpt: "Dopo una ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo — e chi non torna, spesso, ha un ginocchio che funziona. La prontezza psicologica si misura, predice il rientro e, negli under 20, è associata al rischio di un secondo infortunio. Cosa dicono i numeri sul calendario, sui criteri e sulle ragazze, e cosa può dire davvero chi allena il giorno del rientro."
 answer: "Perché il tessuto guarisce prima della fiducia: dopo la ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo, e tra chi non rientra la paura di rifarsi male è una delle ragioni più frequenti (Ardern et al., 2014, meta-analisi su 7.556 partecipanti in prevalenza adulti)."
@@ -61,7 +61,7 @@ Una precisazione che va fatta subito, perché cambia come si legge il numero: qu
 
 Vale la pena dirlo con chiarezza a chi allena e a chi è genitore: **quella paura non è irrazionale**. Come si vede più avanti, il rischio di un secondo infortunio in una giovane atleta che rientra è tutt'altro che trascurabile. Il compito degli adulti non è convincere una ragazza che non c'è nulla da temere — è ridurre il rischio davvero, e nel frattempo non lasciarla sola a gestirlo.
 
-È lo stesso meccanismo che abbiamo raccontato parlando di [come il dolore cambia in adolescenza](/blog/dolore-in-puberta-neuroscienza): un segnale che viene liquidato come «testa» è quasi sempre un segnale che nessuno ha ancora misurato.
+È lo stesso meccanismo che abbiamo raccontato parlando di [come il dolore cambia in adolescenza](/blog/dolore-in-puberta-neuroscienza): un segnale che viene liquidato come «testa» è quasi sempre un segnale che nessuno ha ancora misurato. Vale anche in senso più ampio: l'infortunio compare fra i determinanti dei sintomi di ansia e depressione nelle atlete, accanto alla qualità del sonno e al supporto percepito (Beisecker et al., 2024 — studentesse-atlete universitarie, quindi adulte), ed è uno dei fili che abbiamo seguito nell'articolo su [ansia da prestazione e burnout](/blog/ansia-prestazione-burnout-giovani-atlete).
 
 ## Si può misurare la prontezza psicologica?
 
@@ -137,6 +137,7 @@ BAB non decide chi può rientrare e non sostituisce nessun professionista. Aiuta
 
 ## Fonti
 
+- Beisecker L., Harrison P., Josephson M., DeFreese J.D. **Depression, anxiety and stress among female student-athletes: a systematic review and meta-analysis.** *British Journal of Sports Medicine*, 2024;58(5):278-285. (52 studi, 13.849 **studentesse-atlete universitarie NCAA**, quindi adulte; fra i 17 determinanti identificati compaiono gli infortuni, comprese le commozioni cerebrali) [doi:10.1136/bjsports-2023-107328](https://doi.org/10.1136/bjsports-2023-107328)
 - Ardern C.L., Taylor N.F., Feller J.A., Webster K.E. **Fifty-five per cent return to competitive sport following anterior cruciate ligament reconstruction surgery: an updated systematic review and meta-analysis including aspects of physical functioning and contextual factors.** *British Journal of Sports Medicine*, 2014;48(21):1543-1552. (69 studi, 7.556 partecipanti; 81% ritorno a qualsiasi sport, 65% al livello pre-infortunio, 55% al livello competitivo; campione **in prevalenza adulto**) [doi:10.1136/bjsports-2013-093398](https://doi.org/10.1136/bjsports-2013-093398)
 - Ardern C.L., Taylor N.F., Feller J.A., Webster K.E. **A systematic review of the psychological factors associated with returning to sport following injury.** *British Journal of Sports Medicine*, 2013;47(17):1120-1126. (revisione sistematica; le risposte psicologiche positive si associano al rientro, la paura resta prominente al momento del ritorno) [doi:10.1136/bjsports-2012-091203](https://doi.org/10.1136/bjsports-2012-091203)
 - Ardern C.L., Taylor N.F., Feller J.A., Whitehead T.S., Webster K.E. **Psychological responses matter in returning to preinjury level of sport after anterior cruciate ligament reconstruction surgery.** *The American Journal of Sports Medicine*, 2013;41(7):1549-1558. (i punteggi ACL-RSI preoperatorio e a 4 mesi predicono il ritorno al livello pre-infortunio a 12 mesi) [doi:10.1177/0363546513489284](https://doi.org/10.1177/0363546513489284)

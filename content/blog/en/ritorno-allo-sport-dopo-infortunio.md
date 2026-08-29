@@ -4,7 +4,7 @@ title: "Going back after an injury: the knee heals before the head does"
 seoTitle: "Return to sport after injury: when it's time"
 seoDescription: "After ACL reconstruction 81% return to sport but only 55% to competitive level. Psychological readiness matters as much as the knee."
 date: 2026-08-16
-updated: 2026-08-20
+updated: 2026-08-29
 author: Sajid Hossain
 excerpt: "After ACL reconstruction 81% go back to playing sport, but only 55% go back to competitive level — and many of those who never return have a knee that works fine. Psychological readiness can be measured, it predicts return, and in under-20s it is associated with the risk of a second injury. What the numbers say about the calendar, about criteria and about girls, and what a coach can actually say on the day someone comes back."
 answer: "Because tissue heals faster than confidence: after ACL reconstruction 81% go back to playing sport but only 55% return to competitive level, and among those who do not return, fear of reinjury is one of the most common reasons (Ardern et al., 2014, a meta-analysis of 7,556 participants, mostly adults)."
@@ -61,7 +61,7 @@ One caveat has to come immediately, because it changes how the number should be 
 
 It is worth saying plainly to coaches and parents: **that fear is not irrational**. As the figures below show, the risk of a second injury in a young athlete who returns is far from negligible. The adults' job is not to convince a girl there is nothing to fear — it is to genuinely reduce the risk, and in the meantime not to leave her to manage it alone.
 
-It is the same mechanism we described in [how pain changes during puberty](/en/blog/dolore-in-puberta-neuroscienza): a signal dismissed as "in the head" is almost always a signal nobody has measured yet.
+It is the same mechanism we described in [how pain changes during puberty](/en/blog/dolore-in-puberta-neuroscienza): a signal dismissed as "in the head" is almost always a signal nobody has measured yet. It holds more broadly too: injury appears among the determinants of anxiety and depression symptoms in female athletes, alongside sleep quality and perceived support (Beisecker et al., 2024 — collegiate student-athletes, therefore adults), one of the threads we followed in the article on [performance anxiety and burnout](/en/blog/ansia-prestazione-burnout-giovani-atlete).
 
 ## Can psychological readiness be measured?
 
@@ -137,6 +137,7 @@ BAB does not decide who can return and does not replace any professional. It hel
 
 ## Sources
 
+- Beisecker L., Harrison P., Josephson M., DeFreese J.D. **Depression, anxiety and stress among female student-athletes: a systematic review and meta-analysis.** *British Journal of Sports Medicine*, 2024;58(5):278-285. (52 studies, 13,849 **NCAA female student-athletes**, therefore adults; injury, including concussion, is among the 17 determinants identified) [doi:10.1136/bjsports-2023-107328](https://doi.org/10.1136/bjsports-2023-107328)
 - Ardern C.L., Taylor N.F., Feller J.A., Webster K.E. **Fifty-five per cent return to competitive sport following anterior cruciate ligament reconstruction surgery: an updated systematic review and meta-analysis including aspects of physical functioning and contextual factors.** *British Journal of Sports Medicine*, 2014;48(21):1543-1552. (69 studies, 7,556 participants; 81% returned to any sport, 65% to preinjury level, 55% to competitive level; **mostly adult** sample) [doi:10.1136/bjsports-2013-093398](https://doi.org/10.1136/bjsports-2013-093398)
 - Ardern C.L., Taylor N.F., Feller J.A., Webster K.E. **A systematic review of the psychological factors associated with returning to sport following injury.** *British Journal of Sports Medicine*, 2013;47(17):1120-1126. (systematic review; positive psychological responses are associated with returning, fear remains prominent at the point of return) [doi:10.1136/bjsports-2012-091203](https://doi.org/10.1136/bjsports-2012-091203)
 - Ardern C.L., Taylor N.F., Feller J.A., Whitehead T.S., Webster K.E. **Psychological responses matter in returning to preinjury level of sport after anterior cruciate ligament reconstruction surgery.** *The American Journal of Sports Medicine*, 2013;41(7):1549-1558. (preoperative and 4-month ACL-RSI scores predict return to preinjury level at 12 months) [doi:10.1177/0363546513489284](https://doi.org/10.1177/0363546513489284)

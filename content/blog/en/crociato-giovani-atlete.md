@@ -4,7 +4,7 @@ title: "ACL injuries in young female athletes: why the risk is higher, and the 2
 seoTitle: "ACL injuries in young female athletes"
 seoDescription: "In high-school sport girls sustain 1.40 times the ACL ruptures of male peers. What puberty changes, and the 20 minutes that cut the risk."
 date: 2026-07-21
-updated: 2026-08-23
+updated: 2026-08-29
 author: Sajid Hossain
 excerpt: "In high-school sport, girls tear their ACL 1.4 times as often as boys — and over four times as often in basketball. A neuromuscular warm-up cuts that risk by roughly 60% in 13-19 year-old athletes, costs twenty minutes twice a week, and almost no team actually does it. The evidence, and what changes on Monday."
 answer: "Because the gap opens with puberty, not with playing level: in high-school sport girls sustain 1.40 times the ACL ruptures of male peers, and up to 4.14 times in basketball (Bram et al., 2021). Twenty minutes of neuromuscular training twice a week cuts the risk by roughly 60% among athletes aged 13-19 (Petushek et al., 2019)."
@@ -50,9 +50,9 @@ Yes — and it's worth using the right numbers rather than the ones in circulati
 
 An average, though, hides more than it shows. The same work finds the gap is almost entirely driven by the sport: in **basketball** girls carry **4.14 times** the risk of boys (95% CI 2.98-5.76), while the highest absolute rate of all is in **girls' soccer** (0.166 per 1,000 exposures). Put usefully for a coach: there is no such thing as "girls' risk" — there is the risk of *this* girl in *this* sport, and cutting-and-landing sports are where to start.
 
-## Why the gap opens at puberty
+## Why does ACL risk rise precisely at puberty?
 
-Here the common explanation — "it's female anatomy" — is not enough, because the anatomy is there at 8 too, when the gap is not. What changes in between is puberty.
+**Because what changes is not the anatomy, which was already there, but how a fast-grown body controls a landing.** Here the common explanation — "it's female anatomy" — is not enough, because the anatomy is there at 8 too, when the gap is not. What changes in between is puberty.
 
 That puberty, though, is not a date: it is a phase with a speed of its own, and the moment the body changes fastest has a name — [peak height velocity](/en/blog/picco-di-crescita-giovani-atlete). That is when levers lengthen and landing changes, and it is the reason the neuromuscular warm-up should not be dropped in exactly the years an athlete grows most.
 
@@ -90,17 +90,17 @@ It's the question that always comes, and it deserves an honest answer rather tha
 
 The practical consequence is clear, and runs opposite to what people expect: **there is no basis for adapting load, selection or screening to the cycle phase of a 14-year-old.** The cycle should be known, listened to and made speakable — [and it is still taboo](/en/blog/parlare-di-ciclo-con-allenatore) — but it is not an ACL prevention lever. What is proven to work is neuromuscular training, done in every week of the month.
 
-## What happens afterwards, at 15
+## What happens after reconstruction, at 15?
 
-One figure that should weigh more than it does: after ACL reconstruction, **23% of athletes under 25 who return to sport sustain a second ACL injury** — on the same leg or the other one (Wiggins et al., 2016). In the same review the overall rate is 15% (7% ipsilateral, 8% contralateral): young age and a return to high-intensity activity are the two factors that raise it.
+**The risk does not end with surgery: almost one athlete under 25 in four who returns to play tears an ACL again.** One figure that should weigh more than it does: after ACL reconstruction, **23% of athletes under 25 who return to sport sustain a second ACL injury** — on the same leg or the other one (Wiggins et al., 2016). In the same review the overall rate is 15% (7% ipsilateral, 8% contralateral): young age and a return to high-intensity activity are the two factors that raise it.
 
 Put differently: **prevention does not end with the first injury.** If anything, the moment neuromuscular work counts most is the return to play — and the decision about *when* to return belongs to the clinical pathway following the athlete, not to the coach.
 
 Then there is the part no medical report measures. After reconstruction **81%** go back to playing sport, but only **55%** return to competitive level (Ardern et al., 2014; mostly adult sample), and among under-20s lower psychological readiness at 12 months is associated with the risk of a second injury (McPherson et al., 2019). We have gathered the numbers, and the language for talking about them, in [going back after an injury](/en/blog/ritorno-allo-sport-dopo-infortunio): the knee usually heals before the head does.
 
-## Not every painful knee is an ACL
+## Is every painful knee a suspected ACL?
 
-**The ACL is the most dramatic knee injury, not the most frequent one.** Worth saying, because the attention the ACL has earned — deservedly — has a side effect: it lets the knee that has hurt for months, with nothing ever having happened, go unnoticed.
+**No — and the risk runs the other way: the ACL is the most dramatic knee injury, not the most frequent one.** Worth saying, because the attention the ACL has earned — deservedly — has a side effect: it lets the knee that has hurt for months, with nothing ever having happened, go unnoticed.
 
 The difference is in the onset. An ACL rupture has a precise moment: a cut, a landing, a knee giving way. **Patellofemoral pain** has no start date: it flares on stairs, in squats, in jumps and when sitting for long periods. In the Danish cohort of adolescents with knee pain, **68.3%** of cases had an **insidious onset**, with no trauma at all, and the **median** duration of pain was **24 months** ([Rathleff et al., 2013, *BMC Musculoskeletal Disorders*](https://doi.org/10.1186/1471-2474-14-225)).
 
@@ -108,7 +108,7 @@ And it is not a minor problem just because it makes no noise: **five years** lat
 
 The practical part: if an athlete says her knee has been hurting "a bit for a while", the useful question is not how much, it is **how long** — and the answer belongs with a healthcare professional, not with pitch-side management. We covered it at length in [the knee that has hurt for months](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete).
 
-## What a club can do, starting Monday
+## What can a club actually do, starting Monday?
 
 None of these is a medical prescription. They are organisational choices within reach of any club:
 

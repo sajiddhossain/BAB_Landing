@@ -585,6 +585,30 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       "A health evaluation preceding admission to sport, with the declared aim of detecting conditions that make participation risky. The Italian model, mandatory by law since 1982 and based on an in-person examination including an ECG, primarily targets the cardiac conditions that cause sudden death: in the Veneto region the incidence of sudden cardiovascular death in screened athletes fell from 4.19 to 0.87 per 100,000 person-years between 1979 and 2004, an 89% decline, while in unscreened non-athletes it stayed flat (Corrado et al., 2006; observational trends-over-time study, not randomised; of the 55 deaths among athletes 50 were male, mean age 23.3 years — an overwhelmingly male and adult population). The US model instead revolves around a completed form, whose coverage of female athlete health is poor: across 287 forms from NCAA Division I universities, only 9% contained at least 9 of the 12 questions recommended for the Female Athlete Triad and 44% contained 4 or fewer (Mencias et al., 2012; college athletes, predominantly adults).",
   },
+  'ansia-competitiva': {
+    name: 'Ansia competitiva (ansia da prestazione)',
+    description:
+      "Ansia legata alla situazione di gara, che non è un tratto unico ma si misura in tre componenti distinte: ansia somatica (la reazione del corpo), preoccupazione di fare male (worry) e disturbo della concentrazione. L'analisi fattoriale confermativa su 1.038 atleti di 9-14 anni mostra che il modello a tre fattori regge sia fra i 9-11enni sia fra i 12-14enni, e sia nei maschi sia nelle femmine; in quel campione la preoccupazione di fare male era più alta nelle ragazze e negli atleti più grandi, mentre i maschi riportavano più disturbo della concentrazione — con associazioni di sesso ed età descritte dagli autori come modeste (Grossbard et al., 2009).",
+    nameEn: 'Competitive anxiety (performance anxiety)',
+    descriptionEn:
+      'Anxiety tied to the competitive situation, which is not a single trait but is measured as three distinct components: somatic anxiety (the body reacting), worry about performing poorly, and concentration disruption. A confirmatory factor analysis in 1,038 athletes aged 9-14 shows the three-factor model holds for 9-11 and 12-14 year olds alike and for both boys and girls; in that sample worry was highest in girls and in older athletes, while boys reported more concentration disruption — with gender and age described by the authors as modestly related to scores (Grossbard et al., 2009).',
+  },
+  'burnout-sportivo': {
+    name: "Burnout dell'atleta",
+    description:
+      "Condizione definita da tre elementi: esaurimento fisico o mentale, ridotto senso di realizzazione e conseguente svalutazione dello sport — cioè il momento in cui un'attività che contava smette di contare. Il report clinico dell'American Academy of Pediatrics lo indica come una delle ragioni principali di abbandono nello sport giovanile (Brenner et al., 2024). Sulla frequenza in adolescenza, un inventario di burnout somministrato a 980 atleti adolescenti svedesi (402 femmine e 578 maschi) in 29 sport ha rilevato punteggi elevati nell'1-9% del campione; si tratta di uno strumento di screening, non di diagnosi cliniche, e l'ipotesi di maggiore prevalenza negli sport individuali non è stata confermata (Gustafsson et al., 2007).",
+    nameEn: 'Athlete burnout',
+    descriptionEn:
+      'A condition defined by three elements: physical or mental exhaustion, a reduced sense of accomplishment, and the resulting devaluation of the sport — the point at which something that mattered stops mattering. The American Academy of Pediatrics clinical report names it as one of the primary reasons for attrition in youth sports (Brenner et al., 2024). On frequency in adolescence, a burnout inventory administered to 980 Swedish adolescent athletes (402 female, 578 male) across 29 sports found elevated scores in 1-9% of the sample; this is a screening instrument, not clinical diagnosis, and the hypothesis of higher prevalence in individual sports was not supported (Gustafsson et al., 2007).',
+  },
+  'salute-mentale-atleta': {
+    name: "Salute mentale nell'atleta",
+    description:
+      "Dominio di salute che il consensus statement del Comitato Olimpico Internazionale chiede di riconoscere e gestire come qualunque altra questione di salute, con professionisti competenti (Reardon et al., 2019; documento su atleti d'élite, in larga parte adulti). Nei dati d'élite le atlete riportano tassi più alti degli atleti di ansia (rapporto fra tassi 1,17; IC 95% 1,08-1,27), depressione (1,42; 1,31-1,54), distress (1,98; 1,40-2,81) e disturbi del comportamento alimentare (2,19; 1,58-3,02), mentre i disturbi del sonno risultano simili nei due sessi (1,13; 0,98-1,30, non significativo) (Kew et al., 2024; 60 studi su atleti d'élite in larga parte ADULTI, non adolescenti).",
+    nameEn: 'Athlete mental health',
+    descriptionEn:
+      'A health domain that the International Olympic Committee consensus statement asks to be recognised and managed like any other health issue, by competent professionals (Reardon et al., 2019; a document on elite athletes, largely adults). In elite data, female athletes report higher rates than male athletes of anxiety (rate ratio 1.17; 95% CI 1.08-1.27), depression (1.42; 1.31-1.54), distress (1.98; 1.40-2.81) and disordered eating (2.19; 1.58-3.02), while sleep disturbance is similar in both sexes (1.13; 0.98-1.30, not significant) (Kew et al., 2024; 60 studies in elite athletes, largely ADULTS, not adolescents).',
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;
