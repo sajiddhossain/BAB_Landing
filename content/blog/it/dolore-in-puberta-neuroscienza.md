@@ -4,7 +4,7 @@ title: "Il dolore cambia in pubertà: cosa dice la neuroscienza (e perché non s
 seoTitle: "Il dolore in pubertà: cosa dice la neuroscienza"
 seoDescription: "In pubertà il dolore clinico aumenta davvero, soprattutto nelle ragazze. Cosa dice la neuroscienza e perché «sta esagerando» è la risposta sbagliata."
 date: 2026-07-11
-updated: 2026-08-13
+updated: 2026-08-31
 author: Sajid Hossain
 excerpt: "In pubertà il dolore clinico aumenta davvero: il dolore addominale sale a quasi il 30% nelle ragazze contro il 16% nei ragazzi, e il dolore mestruale riguarda il 71,1% delle giovani donne — il 20,1% salta scuola per questo. Non è fragilità né teatro: è una fase dello sviluppo documentata dalle neuroscienze. Cosa succede a 13-14 anni, come distinguere un dolore da osservare da uno da far vedere a un medico, e perché conta per chi allena e per chi cresce una figlia."
 answer: "Perché in pubertà i meccanismi del dolore si riorganizzano: il dolore sperimentale tende a diminuire mentre quello clinico — mal di testa, dolore addominale, dismenorrea — aumenta (Nahman-Averbuch et al., 2023). Le differenze tra ragazze e ragazzi emergono in adolescenza e non prima: è fisiologia, non carattere, e va trattata come informazione."
@@ -97,7 +97,9 @@ Una precisazione sulla popolazione, perché conta: il campione comprende giovani
 
 Il punto è delicato e va detto con onestà: dire che ci sono anche fattori psicosociali **non** vuol dire "è tutto nella sua testa". Vuol dire il contrario — che il dolore dell'adolescenza è reale *e* multifattoriale, e liquidarlo come capriccio ignora una biologia che sta cambiando sul serio.
 
-## Cosa cambia per chi allena e per chi cresce una figlia
+## Come dovrebbe rispondere un adulto a un'adolescente che dice di avere male?
+
+**Trattando la frase come un'informazione da registrare, non come una posizione da negoziare** — e sapendo che la risposta utile quasi mai si decide nel singolo episodio, ma in quello che si fa con il terzo episodio uguale. Le tre indicazioni qui sotto derivano tutte dallo stesso dato di fondo: nella fascia d'età in cui la soglia sperimentale al dolore si alza, il dolore clinico riferito aumenta invece di diminuire, e nelle ragazze aumenta di più.
 
 Una precisazione doverosa: questa è letteratura di neuroscienze e pediatria, **non di scienze dello sport**. Riguarda gli adolescenti in generale, non le atlete nello specifico, e va presa come contesto scientifico di base — non come dato su performance o allenamento. Con questo limite in chiaro, tre indicazioni tengono:
 

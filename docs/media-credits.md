@@ -293,3 +293,20 @@
   qualunque volto avrebbe attribuito un disagio a una persona reale.
   Scartata in fase di selezione la rawpixel image/3303403 ("Small locker units change room") perché
   il nome file della fonte la dichiara derivata da Wikimedia → regola «niente foto da Wikipedia».
+
+## cover-genitori-bordo-campo.jpg
+- Titolo originale: "Closeup red stadium seats" (file rawpixel `frsports_baseball_america_boston_2`)
+- Fonte: rawpixel — https://www.rawpixel.com/image/6031755/photo-image-public-domain-plastic-red
+  (reperita via Openverse, filtro licenza cc0/pdm, source=rawpixel)
+- Autore: non indicato dalla fonte (nessuna attribuzione richiesta)
+- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "genitori a bordo campo: cosa chiedono le atlete" (IT + EN)
+- Lavorazione: rendition `editor_1024` (senza filigrana; l'originale è 4928x3264), da WebP a JPEG,
+  ritaglio della banda 16:9 con offset 60px dall'alto (1024x576). Nessun resample oltre il ritaglio,
+  JPEG q88.
+  NB: come per le altre immagini rawpixel, la rendition `image_1300` è filigranata → non usare.
+  Nessuna persona nell'inquadratura, quindi nessun minore identificabile; l'unico testo leggibile è
+  un cartellino generico di settore ("LOGE BOX") e i numeri di fila stampati sui seggiolini, nessun
+  marchio riconoscibile. Scelta deliberata di una gradinata vuota: l'articolo parla del comportamento
+  dei genitori in tribuna e qualunque volto adulto o minorile avrebbe attribuito a persone reali un
+  comportamento che l'articolo descrive come problematico.

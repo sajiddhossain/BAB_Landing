@@ -4,7 +4,7 @@ title: "Training in the heat: for young athletes, the risk isn't (only) about se
 seoTitle: "Training in the heat: risks for young athletes"
 seoDescription: "In U.S. high schools exertional heat illness is 87.7% male — but that is exposure, not sex. Acclimatization, warning signs and what to do first."
 date: 2026-08-19
-updated: 2026-08-21
+updated: 2026-08-31
 author: Sajid Hossain
 excerpt: "In U.S. high schools, exertional heat illness is 87.7% male — but strip out American football and it drops to 50.9%, close to parity (Kerr et al., 2013). Boys aren't better at handling heat: boys play more football, in the hottest season of the year. Here's what the physiology actually says about adolescent girls training in summer, what it doesn't say yet, and what changes in the first week of preseason — the week when almost everything happens."
 answer: "It isn't about sex, it's about exposure: in U.S. high schools exertional heat illness is 87.7% male, but that drops to 50.9% once American football is excluded (Kerr et al., 2013). On physiology, direct evidence on sex differences during puberty is still scarce (Topham et al., 2022). What actually matters is acclimatization over the first two weeks (Casa et al., 2009)."
@@ -53,13 +53,13 @@ The lesson isn't about football itself — irrelevant to Italian soccer, volleyb
 
 **The old certainties don't hold up under direct comparison.** For decades, exercise physiology attributed a set of heat disadvantages to children: lower exercise economy, a higher body-surface-area-to-mass ratio, reduced sweating capacity, lower cardiac output at a given workload. These are real traits, but a review that directly compared children and adults — at matched **relative intensity** of effort, not absolute workload — found no group differences in heat dissipation capacity ([Rowland, 2008, *J Appl Physiol*](https://doi.org/10.1152/japplphysiol.01196.2007)).
 
-The "matched relative intensity" detail isn't a technicality: a child running at the same absolute pace as an adult is working at a higher relative intensity, and that's exactly where older comparisons distorted the picture. Corrected for this, adults' "natural" heat advantage shrinks considerably. That doesn't mean an adolescent is as safe as a trained, acclimatized adult — it means chronological age alone doesn't explain the risk, and treating it as if it did is a mistake.
+The "matched relative intensity" detail isn't a technicality: a child running at the same absolute pace as an adult is working at a higher relative intensity, and that's exactly where older comparisons distorted the picture. Corrected for this, adults' "natural" heat advantage shrinks considerably. That doesn't mean an adolescent is as safe as a trained, acclimatized adult — it means chronological age alone doesn't explain the risk, and treating it as if it did is a mistake — the same holds for [load management during the growth spurt](/en/blog/picco-di-crescita-giovani-atlete), where what counts is biological maturation, not year of birth.
 
 ## Is it true that girls sweat less than boys during puberty?
 
 **Here the honest answer is: we don't know with the certainty it's often presented with.** It's a common belief that adult women, and children in general, have lower maximal sweating capacity than adult men, with potentially reduced evaporative heat loss. But isolating the specific effect of **sex** from that of **pubertal maturation** — and separating both from overlapping factors like body mass and metabolic heat production during exercise — is methodologically difficult, and studies directly comparing sudomotor activity between adolescent girls and boys remain scarce ([Topham et al., 2022, *Am J Physiol Regul Integr Comp Physiol*](https://doi.org/10.1152/ajpregu.00328.2021)).
 
-The review that explicitly asked the question — are girls disadvantaged? — concludes the direct evidence still isn't sufficient to answer with confidence. It's the same kind of gap that runs through much of women's sports medicine: what's missing is the direct comparisons, not the hypotheses. Until that data arrives, the sound approach is to treat acclimatization and environmental conditions as the levers that actually matter — for everyone, regardless of sex — rather than building separate protocols on a difference that isn't yet demonstrated.
+The review that explicitly asked the question — are girls disadvantaged? — concludes the direct evidence still isn't sufficient to answer with confidence. It's the same kind of gap that runs through much of women's sports medicine — the same one that leaves most claims about [the menstrual cycle and performance](/en/blog/ciclo-e-performance) uncertain: what's missing is the direct comparisons, not the hypotheses. Until that data arrives, the sound approach is to treat acclimatization and environmental conditions as the levers that actually matter — for everyone, regardless of sex — rather than building separate protocols on a difference that isn't yet demonstrated.
 
 ## How long does it take to acclimatize to heat?
 
@@ -81,7 +81,7 @@ If an athlete who has been training in heat is walking in an uncoordinated way, 
 - **A written heat plan, not just one for joint injuries.** Who recognizes the signs, who calls emergency services, where the shade is, where the water is — decided before it's needed, not improvised while it's needed.
 - **One adult responsible for "watching."** One in three heat illness events in surveillance data happened with no medical professional present: you don't need a doctor at every session, you need someone who can recognize confusion or uncoordinated movement and act immediately — the same principle behind [watching the sideline after a blow to the head](/en/blog/commozione-cerebrale-giovani-atlete).
 - **Watch the athletes coming off the couch, not just the new ones.** The highest risk is in the first days of intense exertion in heat, regardless of an athlete's prior sporting experience.
-- **Shade and water always visible, never on request.** An adolescent rarely asks for a break when everyone else keeps going: the break needs to be scheduled, not offered.
+- **Shade and water always visible, never on request.** Water is enough: [sports drinks and energy drinks](/en/blog/integratori-energy-drink-giovani-atlete) are not the same thing, and a youth training session needs neither. An adolescent rarely asks for a break when everyone else keeps going, and [the language the staff uses](/en/blog/parole-allenatore-salute-atlete) decides whether asking is possible at all: the break needs to be scheduled, not offered.
 
 ## BAB's role
 

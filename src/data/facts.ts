@@ -848,6 +848,36 @@ export const FACTS: Fact[] = [
     source: 'Kew et al., 2024',
     doi: '10.1177/19417381241264491',
   },
+  {
+    id: 'genitori-bordo-campo-1',
+    article: 'genitori-a-bordo-campo-giovani-atlete',
+    claim:
+      "In interviste individuali a 36 atlete di 12-15 anni (età media 13,5) impegnate in sport di squadra, tre preferenze sono state riportate da tutte e 36: che i genitori incoraggino la squadra intera e non solo la propria figlia, che guardino all'impegno invece che al risultato, e che mantengano il controllo delle proprie emozioni. Popolazione: 36 ATLETE ADOLESCENTI canadesi reclutate in camp estivi; studio QUALITATIVO che descrive preferenze, non effetti misurati su prestazione o salute.",
+    claimEn:
+      'In individual interviews with 36 team-sport athletes aged 12-15 (mean age 13.5), three preferences were reported by all 36: that parents encourage the whole team rather than only their own daughter, that they focus on effort rather than the result, and that they keep their own emotions under control. Population: 36 Canadian ADOLESCENT FEMALE ATHLETES recruited at summer camps; a QUALITATIVE study describing preferences, not measured effects on performance or health.',
+    source: 'Knight, Neely e Holt, 2011',
+    doi: '10.1080/10413200.2010.525589',
+  },
+  {
+    id: 'genitori-bordo-campo-2',
+    article: 'genitori-a-bordo-campo-giovani-atlete',
+    claim:
+      "Nello stesso gruppo di 36 atlete di 12-15 anni, i comportamenti genitoriali respinti più spesso durante la gara erano: non discutere con gli arbitri (31 atlete su 36), non dare indicazioni tecniche da bordo campo (29 su 36) e non attirare l'attenzione su di sé o sulla figlia (28 su 36). Popolazione: 36 ATLETE ADOLESCENTI di sport di squadra; studio QUALITATIVO.",
+    claimEn:
+      'In the same group of 36 athletes aged 12-15, the parental behaviours most often rejected during competition were: do not argue with officials (31 of 36 athletes), do not give technical instructions from the sideline (29 of 36) and do not draw attention to yourself or your daughter (28 of 36). Population: 36 ADOLESCENT FEMALE team-sport athletes; QUALITATIVE study.',
+    source: 'Knight, Neely e Holt, 2011',
+    doi: '10.1080/10413200.2010.525589',
+  },
+  {
+    id: 'genitori-bordo-campo-3',
+    article: 'genitori-a-bordo-campo-giovani-atlete',
+    claim:
+      "In 341 giovani atleti e atlete francesi (201 di basket, 140 di tennis) valutati prima di una gara ufficiale, la presenza di entrambi i genitori si associava a un'ansia pre-competitiva più alta in tutti i sottogruppi tranne i tennisti maschi, ma l'assenza di entrambi non si associava a un'ansia minore; comportamenti direttivi e pressione erano associati a più ansia, lodi e comprensione a meno ansia nelle sole tenniste. Popolazione: giovani atleti e atlete di due sport, MASCHI E FEMMINE; studio TRASVERSALE, quindi associazioni e non nessi causali.",
+    claimEn:
+      'In 341 young French athletes (201 basketball, 140 tennis) surveyed before an official competition, the presence of both parents was associated with higher pre-competitive anxiety in every subgroup except male tennis players, but the absence of both was not associated with lower anxiety; directive behaviours and pressure were associated with more anxiety, praise and understanding with less anxiety in female tennis players only. Population: young athletes in two sports, BOTH SEXES; CROSS-SECTIONAL study, so associations rather than causal links.',
+    source: 'Bois, Lalanne e Delforge, 2009',
+    doi: '10.1080/02640410903062001',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

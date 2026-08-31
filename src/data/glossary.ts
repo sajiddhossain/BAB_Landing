@@ -609,6 +609,30 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'A health domain that the International Olympic Committee consensus statement asks to be recognised and managed like any other health issue, by competent professionals (Reardon et al., 2019; a document on elite athletes, largely adults). In elite data, female athletes report higher rates than male athletes of anxiety (rate ratio 1.17; 95% CI 1.08-1.27), depression (1.42; 1.31-1.54), distress (1.98; 1.40-2.81) and disordered eating (2.19; 1.58-3.02), while sleep disturbance is similar in both sexes (1.13; 0.98-1.30, not significant) (Kew et al., 2024; 60 studies in elite athletes, largely ADULTS, not adolescents).',
   },
+  'genitorialita-sportiva': {
+    name: 'Genitorialità sportiva',
+    description:
+      "L'insieme dei comportamenti con cui un genitore accompagna la pratica sportiva di una figlia: preparazione pratica, presenza in tribuna, linguaggio durante la gara e conversazione dopo. In interviste individuali a 36 atlete di 12-15 anni (età media 13,5) impegnate in sport di squadra, tre preferenze sono state espresse da tutte e 36 — incoraggiare la squadra intera e non solo la propria figlia, guardare all'impegno invece che al risultato, mantenere il controllo delle proprie emozioni — mentre 29 su 36 chiedevano di non dare indicazioni tecniche da bordo campo e 31 su 36 di non discutere con gli arbitri (Knight, Neely e Holt, 2011; studio qualitativo canadese che descrive preferenze, non effetti misurati).",
+    nameEn: 'Sport parenting',
+    descriptionEn:
+      "The set of behaviours through which a parent supports a daughter's sport: practical preparation, presence in the stands, language during competition and the conversation afterwards. In individual interviews with 36 team-sport athletes aged 12-15 (mean age 13.5), three preferences were expressed by all 36 — encourage the whole team rather than only their own daughter, focus on effort rather than the result, keep their own emotions under control — while 29 of 36 asked parents not to give technical instructions from the sideline and 31 of 36 not to argue with officials (Knight, Neely and Holt, 2011; a Canadian qualitative study describing preferences, not measured effects).",
+  },
+  'debriefing-post-gara': {
+    name: 'Debriefing post-gara',
+    description:
+      "La conversazione sulla prestazione che avviene subito dopo la competizione, all'uscita dal campo e sulla strada di casa. Una ricerca qualitativa su 86 fra genitori e figli nel football australiano giovanile lo ha studiato come momento a sé, osservando che è largamente ignorato dalla ricerca pur essendo centrale nell'esperienza di chi gioca (Elliott e Drummond, 2017; campione prevalentemente maschile). Fra 36 atlete di 12-15 anni, 33 hanno descritto le proprie preferenze sul feedback post-gara: positivo ma onesto, nella sequenza cose riuscite, punti da migliorare e di nuovo cose riuscite, con la possibilità di rimandare la conversazione e di stare prima con la squadra (Knight, Neely e Holt, 2011).",
+    nameEn: 'Post-game debrief',
+    descriptionEn:
+      'The conversation about performance that takes place immediately after competition, on leaving the venue and on the way home. Qualitative research with 86 parents and children in junior Australian football studied it as a distinct moment, noting that it is largely ignored by research despite being central to the experience of those playing (Elliott and Drummond, 2017; a predominantly male sample). Among 36 athletes aged 12-15, 33 described their preferences for post-game feedback: positive but honest, in the sequence of what went well, things to work on and something positive again, with the option to postpone the conversation and to spend time with the team first (Knight, Neely and Holt, 2011).',
+  },
+  'pressione-genitoriale': {
+    name: 'Pressione genitoriale percepita',
+    description:
+      "La misura in cui un'atleta percepisce che l'approvazione dei genitori dipende dal risultato sportivo. In 341 giovani atleti e atlete francesi (201 di basket, 140 di tennis) valutati prima di una gara ufficiale, comportamenti direttivi e pressione erano associati a un'ansia pre-competitiva più alta, mentre lodi e comprensione erano associate a un'ansia minore nelle tenniste; nello stesso studio la presenza di entrambi i genitori si associava a più ansia in quasi tutti i sottogruppi, ma l'assenza di entrambi non si associava a meno ansia (Bois, Lalanne e Delforge, 2009; studio trasversale, quindi associazioni e non nessi causali).",
+    nameEn: 'Perceived parental pressure',
+    descriptionEn:
+      'The extent to which an athlete perceives that parental approval depends on sporting results. In 341 young French athletes (201 basketball, 140 tennis) surveyed before an official competition, directive behaviours and pressure were associated with higher pre-competitive anxiety, while praise and understanding were associated with lower anxiety among female tennis players; in the same study the presence of both parents was associated with more anxiety in almost every subgroup, but the absence of both was not associated with less (Bois, Lalanne and Delforge, 2009; cross-sectional, so associations rather than causal links).',
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;

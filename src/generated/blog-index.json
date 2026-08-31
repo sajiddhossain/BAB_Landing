@@ -1,6 +1,180 @@
 {
   "posts": [
     {
+      "slug": "genitori-a-bordo-campo-giovani-atlete",
+      "lang": "it",
+      "title": "Genitori a bordo campo: cosa chiedono davvero le atlete prima, durante e dopo la partita",
+      "seoTitle": "Genitori a bordo campo: cosa vogliono le giovani atlete",
+      "seoDescription": "Interrogate una per una, 36 atlete di 13,5 anni in media chiedono tutte lo stesso: tifare per tutta la squadra, guardare all'impegno, non allenare da fuori.",
+      "date": "2026-08-31",
+      "updated": "2026-08-31",
+      "author": "Sajid Hossain",
+      "excerpt": "Nessuno insegna a un genitore come stare a bordo campo, e quasi tutti scoprono da soli che qualcosa non funziona — di solito in macchina, sulla strada di casa. La ricerca però lo ha chiesto direttamente alle ragazze: 36 atlete di 12-15 anni hanno descritto cosa vogliono dai genitori prima, durante e dopo la partita, e su tre comportamenti la risposta è stata unanime, 36 su 36. Non è un galateo: è una mappa di cosa arriva davvero dall'altra parte del campo.",
+      "answer": "In interviste individuali a 36 atlete di 12-15 anni (età media 13,5) di sport di squadra, tre preferenze sono state riportate da tutte e 36: che i genitori incoraggino la squadra intera e non solo la propria figlia, che guardino all'impegno invece che al risultato, e che tengano sotto controllo le proprie emozioni. I comportamenti meno graditi erano dare indicazioni tecniche da fuori (29 atlete su 36) e discutere con gli arbitri (31 su 36) (Knight, Neely e Holt, 2011 — studio qualitativo su 36 atlete canadesi, descrive preferenze e non effetti misurati).",
+      "cover": "/fotobab/cover-genitori-bordo-campo.jpg",
+      "coverAlt": "File di seggiolini rossi vuoti su una gradinata da stadio, viste dall'alto in diagonale; nessuna persona nell'inquadratura",
+      "tags": [
+        "genitorialita-sportiva",
+        "debriefing-post-gara",
+        "pressione-genitoriale",
+        "ansia-competitiva",
+        "drop-out",
+        "educazione"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Che cosa succede quando lo si chiede direttamente alle atlete?",
+          "id": "che-cosa-succede-quando-lo-si-chiede-direttamente-alle"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa chiedono tutte, senza eccezioni?",
+          "id": "che-cosa-chiedono-tutte-senza-eccezioni"
+        },
+        {
+          "level": 2,
+          "text": "Perché «dare indicazioni da fuori» è il consiglio che funziona meno?",
+          "id": "perche-dare-indicazioni-da-fuori-e-il-consiglio-che"
+        },
+        {
+          "level": 2,
+          "text": "Discutere con l'arbitro difende davvero una ragazza?",
+          "id": "discutere-con-larbitro-difende-davvero-una-ragazza"
+        },
+        {
+          "level": 2,
+          "text": "Quanto rumore c'è davvero a bordo campo?",
+          "id": "quanto-rumore-ce-davvero-a-bordo-campo"
+        },
+        {
+          "level": 2,
+          "text": "Andare a vedere le partite aumenta l'ansia?",
+          "id": "andare-a-vedere-le-partite-aumenta-lansia"
+        },
+        {
+          "level": 2,
+          "text": "Dopo la partita: qual è il momento giusto per parlarne?",
+          "id": "dopo-la-partita-qual-e-il-momento-giusto-per-parlarne"
+        },
+        {
+          "level": 2,
+          "text": "Perché «divertirsi» non è una parola vaga",
+          "id": "perche-divertirsi-non-e-una-parola-vaga"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare un genitore da domenica prossima",
+          "id": "cosa-puo-fare-un-genitore-da-domenica-prossima"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Quando rivolgersi a un professionista",
+          "id": "quando-rivolgersi-a-un-professionista"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 3383,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
+      "slug": "genitori-a-bordo-campo-giovani-atlete",
+      "lang": "en",
+      "title": "Parents on the sideline: what girls actually want before, during and after the game",
+      "seoTitle": "Parents on the sideline: what young female athletes want",
+      "seoDescription": "Interviewed one by one, 36 athletes averaging 13.5 years asked for the same three things: cheer the whole team, watch the effort, never coach from the stands.",
+      "date": "2026-08-31",
+      "updated": "2026-08-31",
+      "author": "Sajid Hossain",
+      "excerpt": "Nobody teaches a parent how to behave on the sideline, and most work out on their own that something is off — usually in the car, on the way home. Research has asked the girls directly: 36 athletes aged 12-15 described what they want from parents before, during and after competition, and on three behaviours the answer was unanimous, 36 out of 36. This is not etiquette. It is a map of what actually lands on the other side of the touchline.",
+      "answer": "In individual interviews with 36 team-sport athletes aged 12-15 (mean age 13.5), three preferences were reported by all 36: that parents encourage the entire team rather than only their own daughter, that they focus on effort rather than the outcome, and that they keep their own emotions under control. The least welcome behaviours were coaching from the sideline (29 of 36 athletes) and arguing with officials (31 of 36) (Knight, Neely and Holt, 2011 — a qualitative study of 36 Canadian athletes, describing preferences rather than measured effects).",
+      "cover": "/fotobab/cover-genitori-bordo-campo.jpg",
+      "coverAlt": "Rows of empty red stadium seats on a grandstand, seen from above at an angle; no people in frame",
+      "tags": [
+        "sport-parenting",
+        "post-game-debrief",
+        "parental-pressure",
+        "competitive-anxiety",
+        "drop-out",
+        "education"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What happens when you ask the athletes directly?",
+          "id": "what-happens-when-you-ask-the-athletes-directly"
+        },
+        {
+          "level": 2,
+          "text": "What do all of them ask for, without exception?",
+          "id": "what-do-all-of-them-ask-for-without-exception"
+        },
+        {
+          "level": 2,
+          "text": "Why is «giving instructions from the sideline» the advice that works least?",
+          "id": "why-is-giving-instructions-from-the-sideline-the-advice"
+        },
+        {
+          "level": 2,
+          "text": "Does arguing with the referee actually protect a girl?",
+          "id": "does-arguing-with-the-referee-actually-protect-a-girl"
+        },
+        {
+          "level": 2,
+          "text": "How much noise is there really on the sideline?",
+          "id": "how-much-noise-is-there-really-on-the-sideline"
+        },
+        {
+          "level": 2,
+          "text": "Does attending games increase anxiety?",
+          "id": "does-attending-games-increase-anxiety"
+        },
+        {
+          "level": 2,
+          "text": "After the game: when is the right moment to talk?",
+          "id": "after-the-game-when-is-the-right-moment-to-talk"
+        },
+        {
+          "level": 2,
+          "text": "Why «having fun» is not a vague word",
+          "id": "why-having-fun-is-not-a-vague-word"
+        },
+        {
+          "level": 2,
+          "text": "What a parent can do from next Sunday",
+          "id": "what-a-parent-can-do-from-next-sunday"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "When to consult a professional",
+          "id": "when-to-consult-a-professional"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 3339,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
       "slug": "ansia-prestazione-burnout-giovani-atlete",
       "lang": "it",
       "title": "Ansia da prestazione e burnout: quando a fermarsi è la testa, non il ginocchio",
@@ -86,7 +260,7 @@
       "lang": "en",
       "title": "Performance anxiety and burnout: when it is the head that stops, not the knee",
       "seoTitle": "Performance anxiety and burnout in young female athletes",
-      "seoDescription": "Competitive anxiety has three measurable components, and worry about performing poorly is highest in girls. Sport burnout already exists in adolescence: what to watch.",
+      "seoDescription": "Competitive anxiety has three measurable components, and worry is highest in girls. Sport burnout already exists in adolescence: what to watch for, and when.",
       "date": "2026-08-29",
       "updated": "2026-08-29",
       "author": "Sajid Hossain",
@@ -907,7 +1081,7 @@
       "seoTitle": "Allenarsi al caldo: rischi per le giovani atlete",
       "seoDescription": "Nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma è una questione di esposizione, non di sesso. Acclimatazione, segnali e cosa fare subito.",
       "date": "2026-08-19",
-      "updated": "2026-08-21",
+      "updated": "2026-08-31",
       "author": "Sajid Hossain",
       "excerpt": "Nei licei americani il colpo di calore da sforzo è per l'87,7% maschile — ma togliendo il football scende al 50,9%, quasi la parità (Kerr et al., 2013). Non sono i ragazzi a reggere meglio il caldo: sono i ragazzi a giocare di più a football, nella stagione più calda. Cosa dice davvero la fisiologia sulle adolescenti che si allenano d'estate, cosa non dice ancora, e cosa cambia nella prima settimana di ritiro — quella in cui succede quasi tutto.",
       "answer": "Non è una questione di sesso ma di esposizione: nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma scende al 50,9% togliendo il football americano (Kerr et al., 2013). Sulla fisiologia, l'evidenza diretta sulle differenze fra ragazze e ragazzi in pubertà resta scarsa (Topham et al., 2022). Il fattore che conta davvero è l'acclimatazione nelle prime due settimane (Casa et al., 2009).",
@@ -961,7 +1135,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2021,
+      "words": 2095,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -972,7 +1146,7 @@
       "seoTitle": "Training in the heat: risks for young athletes",
       "seoDescription": "In U.S. high schools exertional heat illness is 87.7% male — but that is exposure, not sex. Acclimatization, warning signs and what to do first.",
       "date": "2026-08-19",
-      "updated": "2026-08-21",
+      "updated": "2026-08-31",
       "author": "Sajid Hossain",
       "excerpt": "In U.S. high schools, exertional heat illness is 87.7% male — but strip out American football and it drops to 50.9%, close to parity (Kerr et al., 2013). Boys aren't better at handling heat: boys play more football, in the hottest season of the year. Here's what the physiology actually says about adolescent girls training in summer, what it doesn't say yet, and what changes in the first week of preseason — the week when almost everything happens.",
       "answer": "It isn't about sex, it's about exposure: in U.S. high schools exertional heat illness is 87.7% male, but that drops to 50.9% once American football is excluded (Kerr et al., 2013). On physiology, direct evidence on sex differences during puberty is still scarce (Topham et al., 2022). What actually matters is acclimatization over the first two weeks (Casa et al., 2009).",
@@ -1026,9 +1200,9 @@
           "id": "sources"
         }
       ],
-      "words": 1879,
-      "readingMinutes": 9,
-      "timeRequired": "PT9M"
+      "words": 1948,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
     },
     {
       "slug": "ritorno-allo-sport-dopo-infortunio",
@@ -1179,7 +1353,7 @@
       "seoTitle": "Fare sport con il ciclo: la gestione pratica",
       "seoDescription": "Dal 25% al 61% delle adolescenti evita lo sport durante le mestruazioni. Prodotti, divise e kit in palestra: la gestione pratica del ciclo, senza tabù.",
       "date": "2026-08-13",
-      "updated": "2026-08-25",
+      "updated": "2026-08-31",
       "author": "Sajid Hossain",
       "excerpt": "La paura delle perdite è una delle ragioni per cui le ragazze saltano allenamenti e ore di educazione fisica — e tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni. Quasi tutti i contenuti si fermano a dire che è un problema. Questo prova a rispondere alla domanda pratica che nessuno affronta: cosa si fa, concretamente, il giorno in cui capita.",
       "answer": "Con tre cose che dipendono più dall'organizzazione che dall'atleta: un prodotto mestruale adatto al gesto sportivo, una divisa che non aumenti la paura delle perdite e un kit disponibile in palestra. Tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, e la paura delle perdite è una barriera ricorrente (Harvey et al., 2025).",
@@ -1233,9 +1407,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2258,
-      "readingMinutes": 11,
-      "timeRequired": "PT11M"
+      "words": 2324,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
     },
     {
       "slug": "gestire-ciclo-nello-sport",
@@ -1244,7 +1418,7 @@
       "seoTitle": "Playing sport on your period: a practical guide",
       "seoDescription": "Between 25% and 61% of adolescent girls avoid sport during their period. Products, kit and what to keep at the gym: the practical side, without taboos.",
       "date": "2026-08-13",
-      "updated": "2026-08-25",
+      "updated": "2026-08-31",
       "author": "Sajid Hossain",
       "excerpt": "Fear of leaking is one of the reasons girls skip training sessions and PE lessons — and among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period. Almost every article on the subject stops at saying it is a problem. This one tries to answer the practical question nobody addresses: what do you actually do on the day it happens.",
       "answer": "With three things that depend on organisation rather than on the athlete: a menstrual product suited to the movement, kit that does not add to the fear of leaking, and supplies available at the gym. Among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period, and fear of leaking is a recurring barrier (Harvey et al., 2025).",
@@ -1298,7 +1472,7 @@
           "id": "sources"
         }
       ],
-      "words": 2212,
+      "words": 2275,
       "readingMinutes": 11,
       "timeRequired": "PT11M"
     },
@@ -3009,7 +3183,7 @@
       "seoTitle": "Sonno e atlete adolescenti: quante ore servono",
       "seoDescription": "A 13-18 anni servono 8-10 ore per notte: dormirne meno di 8 si associa a infortuni 1,7 volte più frequenti. Perché la pubertà sposta l'orologio interno.",
       "date": "2026-07-18",
-      "updated": "2026-08-25",
+      "updated": "2026-08-31",
       "author": "Sajid Hossain",
       "excerpt": "Quante ore deve dormire un'atleta di 14 anni? Tra 8 e 10, dice la raccomandazione di consenso per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato, e con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2% — contro il 4,3%-9,1% dei ragazzi, perché l'orologio biologico slitta in avanti mentre la sveglia della scuola resta la stessa. Cosa dicono davvero i dati, cosa non dicono, e cosa può cambiare una società sportiva già da lunedì.",
       "answer": "Perché a 13-18 anni ne servono 8-10 per notte (Paruthi et al., 2016) e dormirne meno di 8 si associa a essere infortunati 1,7 volte più spesso (Milewski et al., 2014). Con la pubertà l'orologio biologico slitta in avanti: il bisogno di sonno non cala, cambia l'ora in cui il corpo riesce ad addormentarsi.",
@@ -3074,7 +3248,7 @@
       "seoTitle": "Sleep and teenage athletes: how many hours",
       "seoDescription": "At 13-18 you need 8-10 hours a night: sleeping fewer than 8 is linked to 1.7 times more injuries. Why puberty shifts the body clock later.",
       "date": "2026-07-18",
-      "updated": "2026-08-25",
+      "updated": "2026-08-31",
       "author": "Sajid Hossain",
       "excerpt": "How many hours should a 14-year-old athlete sleep? Between 8 and 10, says the consensus recommendation for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured, and through puberty insomnia symptoms in girls climb from 3.4% to 12.2% — against 4.3%-9.1% in boys, because the body clock shifts later while the school alarm stays put. What the evidence says, what it does not, and what a club can change from Monday.",
       "answer": "Because at 13-18 you need 8-10 hours a night (Paruthi et al., 2016), and sleeping fewer than 8 is associated with being injured 1.7 times as often (Milewski et al., 2014). With puberty the biological clock shifts later: the need for sleep does not fall, what changes is the hour at which the body can fall asleep.",
@@ -3271,7 +3445,7 @@
       "seoTitle": "Il dolore in pubertà: cosa dice la neuroscienza",
       "seoDescription": "In pubertà il dolore clinico aumenta davvero, soprattutto nelle ragazze. Cosa dice la neuroscienza e perché «sta esagerando» è la risposta sbagliata.",
       "date": "2026-07-11",
-      "updated": "2026-08-13",
+      "updated": "2026-08-31",
       "author": "Sajid Hossain",
       "excerpt": "In pubertà il dolore clinico aumenta davvero: il dolore addominale sale a quasi il 30% nelle ragazze contro il 16% nei ragazzi, e il dolore mestruale riguarda il 71,1% delle giovani donne — il 20,1% salta scuola per questo. Non è fragilità né teatro: è una fase dello sviluppo documentata dalle neuroscienze. Cosa succede a 13-14 anni, come distinguere un dolore da osservare da uno da far vedere a un medico, e perché conta per chi allena e per chi cresce una figlia.",
       "answer": "Perché in pubertà i meccanismi del dolore si riorganizzano: il dolore sperimentale tende a diminuire mentre quello clinico — mal di testa, dolore addominale, dismenorrea — aumenta (Nahman-Averbuch et al., 2023). Le differenze tra ragazze e ragazzi emergono in adolescenza e non prima: è fisiologia, non carattere, e va trattata come informazione.",
@@ -3315,8 +3489,8 @@
         },
         {
           "level": 2,
-          "text": "Cosa cambia per chi allena e per chi cresce una figlia",
-          "id": "cosa-cambia-per-chi-allena-e-per-chi-cresce-una-figlia"
+          "text": "Come dovrebbe rispondere un adulto a un'adolescente che dice di avere male?",
+          "id": "come-dovrebbe-rispondere-un-adulto-a-unadolescente-che-dice"
         },
         {
           "level": 2,
@@ -3329,7 +3503,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2183,
+      "words": 2260,
       "readingMinutes": 11,
       "timeRequired": "PT11M"
     },
@@ -3340,7 +3514,7 @@
       "seoTitle": "Pain at puberty: what neuroscience says",
       "seoDescription": "Clinical pain really does increase at puberty, especially in girls. What neuroscience says, and why 'she's being dramatic' is the wrong answer.",
       "date": "2026-07-11",
-      "updated": "2026-08-13",
+      "updated": "2026-08-31",
       "author": "Sajid Hossain",
       "excerpt": "During puberty clinical pain genuinely increases: abdominal pain rises to nearly 30% in girls versus 16% in boys, and period pain affects 71.1% of young women — 20.1% miss school because of it. It isn't fragility or theatre: it's a developmental stage documented by neuroscience. What happens at 13-14, how to tell pain worth watching from pain that needs a doctor, and why it matters for coaches and parents.",
       "answer": "Because pain mechanisms reorganise during puberty: experimental pain tends to decrease while clinical pain — headache, abdominal pain, dysmenorrhoea — increases (Nahman-Averbuch et al., 2023). Differences between girls and boys emerge in adolescence and not before: this is physiology, not character, and it should be treated as information.",
@@ -3384,8 +3558,8 @@
         },
         {
           "level": 2,
-          "text": "What changes for coaches and parents",
-          "id": "what-changes-for-coaches-and-parents"
+          "text": "How should an adult respond when a teenage girl says she is in pain?",
+          "id": "how-should-an-adult-respond-when-a-teenage-girl-says-she-is"
         },
         {
           "level": 2,
@@ -3398,9 +3572,9 @@
           "id": "sources"
         }
       ],
-      "words": 2094,
-      "readingMinutes": 10,
-      "timeRequired": "PT10M"
+      "words": 2176,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
     },
     {
       "slug": "parole-allenatore-salute-atlete",
@@ -3842,7 +4016,7 @@
       "seoTitle": "Reggiseno sportivo per ragazze: taglia e quando serve",
       "seoDescription": "Il primo serve appena inizia lo sviluppo, non a un'età fissa. A 13-14 anni il 51% dice che il seno influenza lo sport, ma solo il 10% ne indossa uno.",
       "date": "2026-07-02",
-      "updated": "2026-08-16",
+      "updated": "2026-08-31",
       "author": "Sajid Hossain",
       "excerpt": "Il primo reggiseno sportivo serve appena inizia lo sviluppo del seno, non a un'età precisa: il segnale è il corpo, non il calendario. A 13-14 anni una ragazza su due dice che il seno influenza la sua partecipazione allo sport, ma solo una su dieci ne indossa sempre uno — e a non usarlo mai sono più spesso quelle con il seno piccolo. Come capire se la taglia è sbagliata, quando serve la compressione e quando l'incapsulamento, ogni quanto ricontrollare la misura durante la crescita, e perché un opuscolo di educazione in un trial randomizzato ha fatto passare il test di vestibilità al 39% in più delle atlete.",
       "answer": "Appena inizia lo sviluppo del seno: il segnale è il corpo, non l'età. A 13-14 anni il 51% delle ragazze dice che il seno influenza la partecipazione allo sport, ma solo il 10% ne indossa sempre uno, e a non usarlo mai sono più spesso quelle con il seno piccolo (Scurr et al., 2016). Durante la crescita la taglia va ricontrollata ogni 6-12 mesi.",
@@ -3894,9 +4068,9 @@
           "id": "fonti"
         }
       ],
-      "words": 1859,
-      "readingMinutes": 9,
-      "timeRequired": "PT9M"
+      "words": 1932,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
     },
     {
       "slug": "allenare-ragazze-adolescenti",
@@ -3976,7 +4150,7 @@
       "seoTitle": "Sports bras for girls: sizing and when to start",
       "seoDescription": "The first one is needed as soon as breast development starts, not at a set age. At 13-14, 51% say breasts affect their sport; only 10% wear one.",
       "date": "2026-07-02",
-      "updated": "2026-08-16",
+      "updated": "2026-08-31",
       "author": "Sajid Hossain",
       "excerpt": "A first sports bra is needed as soon as breast development begins — there is no set age: the cue is the body, not the calendar. At 13-14, one girl in two says her breasts affect her participation in sport, yet only one in ten always wears one — and the girls who never wear one are more often those with smaller breasts. How to spot a wrong size, when compression beats encapsulation, how often to recheck the fit while growing, and why an education booklet in a randomised trial got 39% more athletes through a bra-fit test.",
       "answer": "As soon as breast development begins: the cue is the body, not the calendar. At 13-14, 51% of girls say their breasts affect their participation in sport, yet only 10% always wear one — and the girls who never do are more often those with smaller breasts (Scurr et al., 2016). Through the growing years the size should be rechecked every 6-12 months.",
@@ -4028,7 +4202,7 @@
           "id": "sources"
         }
       ],
-      "words": 1762,
+      "words": 1838,
       "readingMinutes": 9,
       "timeRequired": "PT9M"
     },

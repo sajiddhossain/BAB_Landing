@@ -1,6 +1,94 @@
 {
   "posts": [
     {
+      "slug": "genitori-a-bordo-campo-giovani-atlete",
+      "lang": "it",
+      "title": "Genitori a bordo campo: cosa chiedono davvero le atlete prima, durante e dopo la partita",
+      "date": "2026-08-31",
+      "questions": [
+        {
+          "q": "Cosa vogliono davvero le giovani atlete dai genitori durante la partita?",
+          "id": "faq-cosa-vogliono-davvero-le-giovani-atlete-dai-genitori"
+        },
+        {
+          "q": "Dare consigli tecnici dal bordo campo aiuta mia figlia?",
+          "id": "faq-dare-consigli-tecnici-dal-bordo-campo-aiuta-mia-figlia"
+        },
+        {
+          "q": "Discutere con l'arbitro «per difenderla» che effetto ha?",
+          "id": "faq-discutere-con-larbitro-per-difenderla-che-effetto-ha"
+        },
+        {
+          "q": "È meglio non andare a vedere le partite, allora?",
+          "id": "faq-e-meglio-non-andare-a-vedere-le-partite-allora"
+        },
+        {
+          "q": "Quando è il momento giusto per parlare della partita con mia figlia?",
+          "id": "faq-quando-e-il-momento-giusto-per-parlare-della-partita"
+        },
+        {
+          "q": "Perché mia figlia si irrita se la incoraggio, e le altre no?",
+          "id": "faq-perche-mia-figlia-si-irrita-se-la-incoraggio-e-le-altre"
+        },
+        {
+          "q": "«Dai, puoi fare di meglio» è un incoraggiamento o una critica?",
+          "id": "faq-dai-puoi-fare-di-meglio-e-un-incoraggiamento-o-una"
+        },
+        {
+          "q": "Cosa può fare concretamente un genitore prima della partita?",
+          "id": "faq-cosa-puo-fare-concretamente-un-genitore-prima-della"
+        },
+        {
+          "q": "Quanti commenti arrivano davvero dagli spalti in una partita?",
+          "id": "faq-quanti-commenti-arrivano-davvero-dagli-spalti-in-una"
+        }
+      ]
+    },
+    {
+      "slug": "genitori-a-bordo-campo-giovani-atlete",
+      "lang": "en",
+      "title": "Parents on the sideline: what girls actually want before, during and after the game",
+      "date": "2026-08-31",
+      "questions": [
+        {
+          "q": "What do young female athletes actually want from parents during a game?",
+          "id": "faq-what-do-young-female-athletes-actually-want-from"
+        },
+        {
+          "q": "Does shouting technical instructions from the sideline help my daughter?",
+          "id": "faq-does-shouting-technical-instructions-from-the-sideline"
+        },
+        {
+          "q": "What effect does arguing with the referee «to defend her» have?",
+          "id": "faq-what-effect-does-arguing-with-the-referee-to-defend-her"
+        },
+        {
+          "q": "Should I just stop coming to games, then?",
+          "id": "faq-should-i-just-stop-coming-to-games-then"
+        },
+        {
+          "q": "When is the right moment to talk about the game with my daughter?",
+          "id": "faq-when-is-the-right-moment-to-talk-about-the-game-with-my"
+        },
+        {
+          "q": "Why does my daughter get annoyed when I cheer, when other girls do not?",
+          "id": "faq-why-does-my-daughter-get-annoyed-when-i-cheer-when"
+        },
+        {
+          "q": "Is «come on, you can do better» encouragement or criticism?",
+          "id": "faq-is-come-on-you-can-do-better-encouragement-or-criticism"
+        },
+        {
+          "q": "What can a parent usefully do before the game?",
+          "id": "faq-what-can-a-parent-usefully-do-before-the-game"
+        },
+        {
+          "q": "How many comments actually come from the stands during a game?",
+          "id": "faq-how-many-comments-actually-come-from-the-stands-during"
+        }
+      ]
+    },
+    {
       "slug": "ansia-prestazione-burnout-giovani-atlete",
       "lang": "it",
       "title": "Ansia da prestazione e burnout: quando a fermarsi è la testa, non il ginocchio",
@@ -1931,6 +2019,14 @@
           "id": "faq-dormire-di-piu-fa-vincere-di-piu"
         },
         {
+          "q": "Dormire di più il sabato recupera le ore perse in settimana?",
+          "id": "faq-dormire-di-piu-il-sabato-recupera-le-ore-perse-in"
+        },
+        {
+          "q": "Come faccio a capire se mia figlia atleta sta dormendo abbastanza?",
+          "id": "faq-come-faccio-a-capire-se-mia-figlia-atleta-sta-dormendo"
+        },
+        {
           "q": "Allenarsi la sera tardi rovina il sonno?",
           "id": "faq-allenarsi-la-sera-tardi-rovina-il-sonno"
         }
@@ -1977,6 +2073,14 @@
         {
           "q": "Does sleeping more mean winning more?",
           "id": "faq-does-sleeping-more-mean-winning-more"
+        },
+        {
+          "q": "Does sleeping in on Saturday make up for the hours lost during the week?",
+          "id": "faq-does-sleeping-in-on-saturday-make-up-for-the-hours-lost"
+        },
+        {
+          "q": "How can I tell whether my daughter is getting enough sleep?",
+          "id": "faq-how-can-i-tell-whether-my-daughter-is-getting-enough"
         },
         {
           "q": "Does training late in the evening wreck sleep?",
@@ -2571,6 +2675,14 @@
           "id": "faq-ogni-quanto-va-sostituito-un-reggiseno-sportivo"
         },
         {
+          "q": "Come si dice a una figlia che le serve un reggiseno sportivo, senza metterla in imbarazzo?",
+          "id": "faq-come-si-dice-a-una-figlia-che-le-serve-un-reggiseno"
+        },
+        {
+          "q": "Chi dovrebbe comprare il reggiseno sportivo di una ragazza che gioca in una squadra?",
+          "id": "faq-chi-dovrebbe-comprare-il-reggiseno-sportivo-di-una"
+        },
+        {
           "q": "Serve il reggiseno sportivo anche solo per l'ora di educazione fisica?",
           "id": "faq-serve-il-reggiseno-sportivo-anche-solo-per-lora-di"
         }
@@ -2665,6 +2777,14 @@
         {
           "q": "How often should a sports bra be replaced?",
           "id": "faq-how-often-should-a-sports-bra-be-replaced"
+        },
+        {
+          "q": "How do you tell a daughter she needs a sports bra without embarrassing her?",
+          "id": "faq-how-do-you-tell-a-daughter-she-needs-a-sports-bra"
+        },
+        {
+          "q": "Who should buy the sports bra for a girl playing in a club team?",
+          "id": "faq-who-should-buy-the-sports-bra-for-a-girl-playing-in-a"
         },
         {
           "q": "Is a sports bra needed just for school PE?",
