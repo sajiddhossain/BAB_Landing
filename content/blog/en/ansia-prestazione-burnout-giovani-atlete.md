@@ -2,7 +2,7 @@
 slug: ansia-prestazione-burnout-giovani-atlete
 title: "Performance anxiety and burnout: when it is the head that stops, not the knee"
 seoTitle: "Performance anxiety and burnout in young female athletes"
-seoDescription: "Competitive anxiety has three measurable components, and worry about performing poorly is highest in girls. Sport burnout already exists in adolescence: what to watch."
+seoDescription: "Competitive anxiety has three measurable components, and worry is highest in girls. Sport burnout already exists in adolescence: what to watch for, and when."
 date: 2026-08-29
 updated: 2026-08-29
 author: Sajid Hossain

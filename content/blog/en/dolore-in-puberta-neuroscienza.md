@@ -4,7 +4,7 @@ title: "Pain changes at puberty: what neuroscience says (and why it isn't 'being
 seoTitle: "Pain at puberty: what neuroscience says"
 seoDescription: "Clinical pain really does increase at puberty, especially in girls. What neuroscience says, and why 'she's being dramatic' is the wrong answer."
 date: 2026-07-11
-updated: 2026-08-13
+updated: 2026-08-31
 author: Sajid Hossain
 excerpt: "During puberty clinical pain genuinely increases: abdominal pain rises to nearly 30% in girls versus 16% in boys, and period pain affects 71.1% of young women — 20.1% miss school because of it. It isn't fragility or theatre: it's a developmental stage documented by neuroscience. What happens at 13-14, how to tell pain worth watching from pain that needs a doctor, and why it matters for coaches and parents."
 answer: "Because pain mechanisms reorganise during puberty: experimental pain tends to decrease while clinical pain — headache, abdominal pain, dysmenorrhoea — increases (Nahman-Averbuch et al., 2023). Differences between girls and boys emerge in adolescence and not before: this is physiology, not character, and it should be treated as information."
@@ -97,7 +97,9 @@ A note on the population, because it matters: the sample includes young women **
 
 The point is delicate and worth stating honestly: saying there are also psychosocial factors does **not** mean "it's all in her head". It means the opposite — that adolescent pain is real *and* multifactorial, and dismissing it as a whim ignores a biology that is genuinely changing.
 
-## What changes for coaches and parents
+## How should an adult respond when a teenage girl says she is in pain?
+
+**By treating the sentence as information to record, not as a position to negotiate** — and by knowing that the useful response is almost never decided in the single episode, but in what gets done about the third identical one. The three points below all follow from the same underlying finding: in the age band where the experimental pain threshold rises, reported clinical pain increases rather than falling, and in girls it increases more.
 
 One necessary caveat: this is neuroscience and paediatrics literature, **not sport science**. It concerns adolescents in general, not athletes specifically, and should be taken as basic scientific context — not as data on performance or training. With that limit clear, three takeaways hold:
 
