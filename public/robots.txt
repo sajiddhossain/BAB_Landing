@@ -1,8 +1,27 @@
+# ══════════════════════════════════════════════════════════════════════════════
+#  ✦ BAB Architecture designed & coded by Sajid Hossain (2026) ✦
+#  Breaking All Barriers — salute e performance delle giovani atlete
+#  https://www.babsport.com
+# ══════════════════════════════════════════════════════════════════════════════
+#
+#  Formato: Robots Exclusion Protocol (RFC 9309).
+#  Regola della casa: tutto è pubblico e tutto è citabile. Qui non si chiude
+#  niente — si dichiara dove sono le cose e in che formato.
+#
+# ──────────────────────────────────────────────────────────────────────────────
+#  1. CRAWLER DI RICERCA
+# ──────────────────────────────────────────────────────────────────────────────
+
 User-agent: *
 Allow: /
 
-# Assistenti AI e answer engine: esplicitamente benvenuti (AEO/GEO).
-# BAB vuole essere una fonte citabile su salute e sport delle giovani atlete.
+# ──────────────────────────────────────────────────────────────────────────────
+#  2. ASSISTENTI AI E ANSWER ENGINE — esplicitamente benvenuti (AEO/GEO)
+#     BAB vuole essere una fonte citabile su salute e sport delle giovani atlete.
+#     Ogni affermazione del sito porta con sé popolazione e fonte: se un modello
+#     la cita, deve poter citare anche il limite.
+# ──────────────────────────────────────────────────────────────────────────────
+
 User-agent: GPTBot
 Allow: /
 
@@ -30,15 +49,38 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-# Guida sintetica per gli assistenti AI: /llms.txt
-# Corpus completo del blog in un solo file: /llms-full.txt
-# Tutte le domande e risposte del sito, ognuna con l'URL della sua ancora: /faq.txt
-# Indice navigabile delle domande: /faq (IT) e /en/faq (EN)
-# Glossario dei termini, un'ancora per voce: /glossario e /en/glossario
-# I dati citabili, uno per ancora, con popolazione e DOI: /dati e /en/dati
-# Feed degli articoli nuovi: /feed.xml
-# Ogni articolo ha una sorgente in markdown allo stesso URL con suffisso .md
-# (es. /blog/dolori-mestruali-giovani-atlete.md), dichiarata in pagina come
-# <link rel="alternate" type="text/markdown">.
-# TODO al go-live: confermare il dominio definitivo
+# ──────────────────────────────────────────────────────────────────────────────
+#  3. MAPPA DEL SITO
+#     Un solo file da dichiarare: l'indice. Le quattro sezioni sono elencate lì
+#     dentro, ognuna con la data dell'ultima modifica reale al suo interno.
+# ──────────────────────────────────────────────────────────────────────────────
+
 Sitemap: https://www.babsport.com/sitemap.xml
+
+#  ┌────────────────────────────┬──────────────────────────────────────────────┐
+#  │ /sitemap.xml               │ indice delle sezioni (sitemapindex)          │
+#  │ /sitemap-pages.xml         │ pagine del sito + indici del blog            │
+#  │ /sitemap-blog-it.xml       │ articoli in italiano (canonici)              │
+#  │ /sitemap-blog-en.xml       │ articoli in inglese (/en)                    │
+#  │ /sitemap-answers.xml       │ glossario, FAQ e dati, IT ed EN              │
+#  │ /sitemap.xsl               │ foglio di stile: rende leggibili le sitemap  │
+#  └────────────────────────────┴──────────────────────────────────────────────┘
+
+# ──────────────────────────────────────────────────────────────────────────────
+#  4. FORMATI PER LE MACCHINE
+#     Ogni risposta ha un indirizzo: si cita la riga, non "il sito".
+# ──────────────────────────────────────────────────────────────────────────────
+#
+#  ┌────────────────────────────┬──────────────────────────────────────────────┐
+#  │ /llms.txt                  │ guida sintetica per assistenti AI            │
+#  │ /llms-full.txt             │ corpus completo del blog in un file solo     │
+#  │ /faq.txt                   │ ogni domanda con l'URL della sua risposta    │
+#  │ /faq · /en/faq             │ indice navigabile delle domande              │
+#  │ /glossario · /en/glossario │ definizioni, un'ancora per termine           │
+#  │ /dati · /en/dati           │ dati citabili, con popolazione e DOI         │
+#  │ /feed.xml                  │ RSS degli articoli nuovi                     │
+#  │ /blog/{slug}.md            │ testo integrale in markdown di ogni articolo │
+#  └────────────────────────────┴──────────────────────────────────────────────┘
+#
+#  Il gemello markdown è dichiarato in ogni pagina HTML come
+#  <link rel="alternate" type="text/markdown">.

@@ -15,8 +15,37 @@ import { GLOSSARY } from './src/data/glossary'
 import { FAQ_BAB } from './src/data/faqBab'
 import { FACTS } from './src/data/facts'
 import { autolinkGlossary } from './src/lib/autolink'
+import { SIGNATURE } from './src/lib/signature'
+import {
+  renderSitemapIndex,
+  renderUrlset,
+  SITEMAP_XSL,
+  type ChangeFreq,
+  type SitemapEntry,
+  type SitemapFile,
+} from './scripts/sitemap'
 
 const DOMAIN = 'https://www.babsport.com'
+
+// Intestazione firmata per i file di testo generati (llms.txt, faq.txt, feed).
+// Le sitemap hanno la loro, con la tabella di riepilogo, in scripts/sitemap.ts.
+const SIGN_LINE = `${SIGNATURE}`
+
+// --- Pagine statiche nella sitemap -------------------------------------------
+// `lastmod` è una dichiarazione, non una stima: va toccato quando il testo della
+// pagina cambia davvero. Tenerlo qui, accanto a changefreq e priority, evita il
+// file sitemap.xml scritto a mano che invecchia senza che nessuno se ne accorga.
+// `priority` è l'importanza RELATIVA dentro questo sito (non influenza il
+// ranking): 1.0 home, 0.9 indici del blog, 0.8 pagine-risposta citabili,
+// 0.7 articoli e pagine istituzionali, 0.3 pagine legali.
+const STATIC_PAGES: Array<{ path: string; lastmod: string; changefreq: ChangeFreq; priority: string }> = [
+  { path: '/', lastmod: '2026-08-08', changefreq: 'weekly', priority: '1.0' },
+  { path: '/features', lastmod: '2026-06-22', changefreq: 'monthly', priority: '0.8' },
+  { path: '/about', lastmod: '2026-06-22', changefreq: 'monthly', priority: '0.7' },
+  { path: '/privacy', lastmod: '2026-06-22', changefreq: 'yearly', priority: '0.3' },
+  { path: '/cookie', lastmod: '2026-06-22', changefreq: 'yearly', priority: '0.3' },
+  { path: '/termini', lastmod: '2026-06-22', changefreq: 'yearly', priority: '0.3' },
+]
 
 // Rotte da pre-renderizzare → chiave SEO nel locale IT
 const PRERENDER_ROUTES: Record<string, string> = {
@@ -308,8 +337,14 @@ function prerenderRoutes(): Plugin {
       // url → alternate hreflang, per annotare la sitemap (Google legge gli
       // xhtml:link nella sitemap tanto quanto quelli in <head>).
       const blogAlternates = new Map<string, Array<{ hreflang: string; href: string }>>()
+      // url → cover dell'articolo, per l'estensione image: della sitemap. La
+      // didascalia è lo stesso alt che legge uno screen reader: una sola frase
+      // descrive quell'immagine in tutto il sito.
+      const blogImages = new Map<string, { loc: string; title: string; caption?: string }>()
+      // url → lingua, per separare la sitemap italiana da quella inglese.
+      const blogLang = new Map<string, string>()
       if (fs.existsSync(blogPath)) {
-        type Post = { slug: string; lang: string; title: string; seoTitle?: string; seoDescription?: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; answer?: string; cover: string | null; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string; id?: string }>; headings?: Array<{ level: number; text: string; id: string }>; html?: string }
+        type Post = { slug: string; lang: string; title: string; seoTitle?: string; seoDescription?: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; answer?: string; cover: string | null; coverAlt?: string; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string; id?: string }>; headings?: Array<{ level: number; text: string; id: string }>; html?: string }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
         // slug → lingua → articolo (solo le lingue che hanno un URL proprio)
         const bySlug = new Map<string, Map<string, Post>>()
@@ -615,6 +650,14 @@ function prerenderRoutes(): Plugin {
               else enCorpus.push({ url, title: post.title, updated: post.updated || post.date, body })
             }
             blogUrls.push(url)
+            blogLang.set(url, lang)
+            if (post.cover) {
+              blogImages.set(url, {
+                loc: `${DOMAIN}${post.cover}`,
+                title: post.title,
+                caption: post.coverAlt || undefined,
+              })
+            }
             if (lang === 'en') blogEnIndex.push({ url, title: post.title, excerpt: post.excerpt, date: post.date, updated: post.updated, slug })
             blogAlternates.set(url, [
               ...alternates.map((a) => ({ hreflang: BLOG_LOCALES[a.lang].hreflang, href: a.url })),
@@ -983,29 +1026,107 @@ function prerenderRoutes(): Plugin {
         console.log(`✓ AEO: ${bilingualUrls.length} pagine-risposta (glossario + FAQ + dati, IT/EN)`)
       }
 
-      // --- Sitemap: inserisce le URL del blog (lista + articoli) prima di </urlset> ---
-      const sitemapPath = path.join(dist, 'sitemap.xml')
-      if (fs.existsSync(sitemapPath)) {
-        let xml = fs.readFileSync(sitemapPath, 'utf8')
+      // --- Sitemap (SEO): un indice + quattro sezioni, generate qui e non a mano ---
+      // Il protocollo (sitemaps.org 0.9) consente fino a 50.000 URL per file: con
+      // un centinaio di pagine un file solo basterebbe. La divisione in sezioni
+      // serve a un'altra cosa: ogni sezione porta il proprio `lastmod` nell'indice,
+      // così un crawler capisce *dove* è cambiato qualcosa senza scaricare tutto —
+      // e chi apre il file capisce com'è fatto il sito.
+      {
         const latestBlog = [...blogLastmod.values()].sort().slice(-1)[0]
-        // Le pagine indice (IT ed EN) prendono la data dell'articolo più recente.
-        const indexPages = new Set([`${DOMAIN}/blog`, `${DOMAIN}/en/blog`])
-        const entries = [`${DOMAIN}/blog`, ...blogUrls, ...bilingualUrls]
-          .filter((u) => !xml.includes(`<loc>${u}</loc>`))
-          .map((u) => {
-            const lm = indexPages.has(u) ? latestBlog : blogLastmod.get(u)
-            const lmTag = lm ? `\n    <lastmod>${lm}</lastmod>` : ''
-            // Alternate hreflang anche nella sitemap: è il canale che Google
-            // consiglia quando le versioni linguistiche sono molte, e non
-            // dipende dal fatto che il crawler renderizzi la pagina.
-            const alt = (blogAlternates.get(u) ?? [])
-              .map((a) => `\n    <xhtml:link rel="alternate" hreflang="${a.hreflang}" href="${a.href}" />`)
-              .join('')
-            return `  <url>\n    <loc>${u}</loc>${lmTag}${alt}\n    <changefreq>weekly</changefreq>\n    <priority>0.6</priority>\n  </url>`
-          })
-          .join('\n')
-        if (entries) xml = xml.replace('</urlset>', `${entries}\n</urlset>`)
-        fs.writeFileSync(sitemapPath, xml)
+        const blogIndexAlternates = [
+          { hreflang: 'it', href: `${DOMAIN}/blog` },
+          { hreflang: 'en', href: `${DOMAIN}/en/blog` },
+          { hreflang: 'x-default', href: `${DOMAIN}/blog` },
+        ]
+
+        // 1. Pagine del sito: le rotte statiche più i due indici del blog.
+        const pageEntries: SitemapEntry[] = [
+          ...STATIC_PAGES.map((pg) => ({
+            loc: `${DOMAIN}${pg.path === '/' ? '/' : pg.path}`,
+            lastmod: pg.lastmod,
+            changefreq: pg.changefreq,
+            priority: pg.priority,
+          })),
+          ...[`${DOMAIN}/blog`, `${DOMAIN}/en/blog`].map((loc) => ({
+            loc,
+            // L'indice del blog è vecchio quanto il suo articolo più recente.
+            lastmod: latestBlog,
+            changefreq: 'weekly' as ChangeFreq,
+            priority: '0.9',
+            alternates: blogIndexAlternates,
+          })),
+        ]
+
+        // 2-3. Articoli, una sezione per lingua: sono due cataloghi che cambiano
+        // con ritmi diversi, e tenerli separati rende visibile quale dei due si è
+        // mosso. `changefreq: monthly` è la verità: un articolo cambia quando
+        // viene rivisto, non ogni settimana.
+        const articleEntry = (u: string): SitemapEntry => {
+          const img = blogImages.get(u)
+          return {
+            loc: u,
+            lastmod: blogLastmod.get(u),
+            changefreq: 'monthly',
+            priority: '0.7',
+            alternates: blogAlternates.get(u),
+            images: img ? [img] : undefined,
+          }
+        }
+        const articles = blogUrls.filter((u) => blogLang.has(u))
+        const byDateDesc = (a: SitemapEntry, b: SitemapEntry) => String(b.lastmod ?? '').localeCompare(String(a.lastmod ?? ''))
+        const itArticles = articles.filter((u) => blogLang.get(u) === 'it').map(articleEntry).sort(byDateDesc)
+        const enArticles = articles.filter((u) => blogLang.get(u) === 'en').map(articleEntry).sort(byDateDesc)
+
+        // 4. Pagine-risposta: glossario, FAQ e dati nelle due lingue. Sono le
+        // superfici costruite per essere citate, e cambiano a ogni voce nuova.
+        const answerEntries: SitemapEntry[] = bilingualUrls.map((u) => ({
+          loc: u,
+          // Queste pagine sono generate da glossary.ts, facts.ts e faqBab.ts, che
+          // cambiano insieme agli articoli: la data dell'ultima revisione del blog
+          // è l'approssimazione più onesta che si può calcolare al build.
+          lastmod: latestBlog,
+          changefreq: 'monthly',
+          priority: '0.8',
+          alternates: blogAlternates.get(u),
+        }))
+
+        const sections: SitemapFile[] = [
+          {
+            file: 'sitemap-pages.xml',
+            title: 'Pagine del sito',
+            description: 'Home, funzionalità, chi siamo, pagine legali e i due indici del blog (italiano e inglese).',
+            entries: pageEntries,
+          },
+          {
+            file: 'sitemap-blog-it.xml',
+            title: 'Blog · italiano',
+            description: 'Gli articoli in italiano, la versione canonica: ognuno con la data dell’ultima revisione reale e la propria cover.',
+            entries: itArticles,
+          },
+          {
+            file: 'sitemap-blog-en.xml',
+            title: 'Blog · inglese',
+            description: 'Le stesse pagine in inglese sotto il prefisso /en, dichiarate come traduzioni e non come contenuti indipendenti.',
+            entries: enArticles,
+          },
+          {
+            file: 'sitemap-answers.xml',
+            title: 'Pagine-risposta',
+            description: 'Glossario, domande e dati citabili nelle due lingue: le pagine in cui ogni voce ha un’ancora propria.',
+            entries: answerEntries,
+          },
+        ].filter((sec) => sec.entries.length > 0)
+
+        for (const sec of sections) fs.writeFileSync(path.join(dist, sec.file), renderUrlset(sec))
+        fs.writeFileSync(path.join(dist, 'sitemap.xml'), renderSitemapIndex(DOMAIN, sections))
+        fs.writeFileSync(path.join(dist, 'sitemap.xsl'), SITEMAP_XSL)
+
+        const totalUrls = sections.reduce((n, sec) => n + sec.entries.length, 0)
+        console.log(`✓ SEO: sitemap.xml (indice) + ${sections.length} sezioni, ${totalUrls} URL`)
+        for (const sec of sections) {
+          console.log(`    · ${sec.file.padEnd(22)} ${String(sec.entries.length).padStart(3)} URL  ${sec.title}`)
+        }
       }
 
       // --- llms.txt (GEO): guida per assistenti/answer engine, generata dal manifest ---
@@ -1016,6 +1137,24 @@ function prerenderRoutes(): Plugin {
         '> BAB è un ecosistema digitale per la salute e la crescita delle giovani atlete (13-17 anni). ' +
           "Aiuta le atlete a riconoscere in privato i segnali del proprio corpo — energia, umore, recupero, ciclo mestruale — " +
           'e fornisce alle società sportive solo segnali aggregati e anonimi, mai il dato di salute individuale.',
+        '',
+        '---',
+        '',
+        SIGN_LINE,
+        `Generato automaticamente al build · Ultima revisione di un articolo: ${[...blogLastmod.values()].sort().slice(-1)[0] ?? 'n/d'} · Licenza d'uso: citare con URL e fonte.`,
+        '',
+        '## Mappa dei formati',
+        '',
+        '| Risorsa | URL | Cosa contiene |',
+        '| --- | --- | --- |',
+        `| Indice per macchine | ${DOMAIN}/llms.txt | questo file: principi, politica editoriale, elenco degli articoli |`,
+        `| Corpus completo | ${DOMAIN}/llms-full.txt | tutti gli articoli per esteso, italiano e inglese, fonti comprese |`,
+        `| Domande e risposte | ${DOMAIN}/faq.txt | ogni domanda del sito con l'URL esatto della sua risposta |`,
+        `| Articolo in markdown | ${DOMAIN}/blog/{slug}.md | il testo integrale di un singolo articolo, senza markup di pagina |`,
+        `| Glossario | ${DOMAIN}/glossario · ${DOMAIN}/en/glossario | ${Object.keys(GLOSSARY).length} definizioni autonome, un'ancora per termine |`,
+        `| Dati citabili | ${DOMAIN}/dati · ${DOMAIN}/en/dati | ${FACTS.length} statistiche, ognuna con popolazione e DOI |`,
+        `| Mappa del sito | ${DOMAIN}/sitemap.xml | indice delle sitemap (pagine, blog IT, blog EN, pagine-risposta) |`,
+        `| Novità | ${DOMAIN}/feed.xml | feed RSS degli articoli più recenti |`,
         '',
         '## Principi',
         '- I dati di salute individuali restano privati: le società vedono solo aggregati anonimi.',
@@ -1200,8 +1339,14 @@ function prerenderRoutes(): Plugin {
             ].filter(Boolean).join('\n')
           })
           .join('\n')
+        const newestPost = [...blogForLlms]
+          .map((p) => p.updated || p.date)
+          .filter(Boolean)
+          .sort()
+          .slice(-1)[0]
         const feed = [
           '<?xml version="1.0" encoding="UTF-8"?>',
+          `<!-- ${SIGN_LINE} -->`,
           '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
           '  <channel>',
           '    <title>BAB — Breaking All Barriers</title>',
@@ -1209,6 +1354,9 @@ function prerenderRoutes(): Plugin {
           '    <description>Articoli con fonti peer-reviewed su salute, crescita e performance delle giovani atlete. Ogni affermazione è ancorata a una fonte citata; quando uno studio è condotto su adulti, l\'articolo lo dichiara.</description>',
           '    <language>it-IT</language>',
           `    <atom:link href="${DOMAIN}/feed.xml" rel="self" type="application/rss+xml" />`,
+          ...(newestPost ? [`    <lastBuildDate>${new Date(`${newestPost}T09:00:00Z`).toUTCString()}</lastBuildDate>`] : []),
+          '    <docs>https://www.rssboard.org/rss-specification</docs>',
+          '    <generator>BAB prerender (vite.config.ts)</generator>',
           items,
           '  </channel>',
           '</rss>',
@@ -1227,6 +1375,8 @@ function prerenderRoutes(): Plugin {
           : []
         const lines: string[] = [
           '# BAB — Domande e risposte / Questions and answers',
+          '',
+          SIGN_LINE,
           '',
           "> Tutte le domande a cui rispondono il sito e il blog di BAB (babsport.com), con l'URL esatto di ogni risposta.",
           "> Ogni affermazione di salute è ancorata a una fonte citata nell'articolo di provenienza, e la popolazione studiata è dichiarata insieme al dato.",
@@ -1284,6 +1434,8 @@ function prerenderRoutes(): Plugin {
           ])
         const full = [
           '# BAB — Breaking All Barriers — corpus completo del blog',
+          '',
+          SIGN_LINE,
           '',
           '> Tutti gli articoli del blog BAB per esteso, fonti comprese: salute, pubertà, ciclo mestruale, ' +
             'infortuni e abbandono sportivo nelle atlete adolescenti (13-17 anni). ' +

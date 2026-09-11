@@ -13,6 +13,10 @@ import { MotionConfig } from 'framer-motion'
 import './index.css'
 import './i18n'
 import App from './App.tsx'
+import { printSignature } from './lib/signature'
+
+// Firma dell'architettura: una riga in console su ogni pagina, prima del mount.
+printSignature()
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

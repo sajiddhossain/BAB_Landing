@@ -26,8 +26,10 @@ articoli, pagine-risposta, KB di `llms-full.txt`): sono la verifica rapida che n
 | `content/blog/{it,en}/*.md` | Gli articoli. Una coppia IT+EN per slug, stesso nome file. |
 | `scripts/build-blog.mjs` | Legge i markdown → `src/generated/blog.json` (frontmatter + HTML + ancore). |
 | `vite.config.ts` | Plugin di prerender: pagine statiche, JSON-LD, sitemap, llms.txt, faq.txt, feed.xml. |
-| `src/data/glossary.ts` | Glossario bilingue: 44 termini, fonte unica per DefinedTerm e `/glossario`. |
-| `src/data/facts.ts` | 56 statistiche citabili, bilingui, con fonte e DOI → `/dati`. |
+| `scripts/sitemap.ts` | Come si scrive una sitemap: indice + sezioni, `xhtml:link`, `image:image`, intestazione firmata, foglio di stile. |
+| `src/lib/signature.ts` | La firma dell'architettura: console del browser + intestazione dei file generati. |
+| `src/data/glossary.ts` | Glossario bilingue, fonte unica per DefinedTerm e `/glossario` (il conteggio si legge dal file, non da qui). |
+| `src/data/facts.ts` | Statistiche citabili, bilingui, con fonte e DOI → `/dati`. |
 | `src/data/faqBab.ts` | 14 domande sul progetto (non sui contenuti) → `/faq`. |
 | `src/lib/autolink.ts` | Collega i termini tecnici degli articoli al glossario. |
 | `docs/media-credits.md` | Provenienza e licenza di ogni immagine. Obbligatorio per ogni cover nuova. |
@@ -51,7 +53,7 @@ cui il dato è stato misurato.
 | Domande sul progetto | `/faq#{id}` · `/en/faq` | 14 × 2 |
 | Sezioni di articolo | `/blog/{slug}#{titolo-slugificato}` | tutti gli H2/H3 |
 | Testo integrale per macchine | `/blog/{slug}.md`, `/llms.txt`, `/llms-full.txt`, `/faq.txt` | — |
-| Scoperta | `/sitemap.xml` (con hreflang), `/feed.xml` (RSS) | — |
+| Scoperta | `/sitemap.xml` (indice) → `sitemap-pages`, `sitemap-blog-it`, `sitemap-blog-en`, `sitemap-answers`; `/feed.xml` (RSS) | — |
 
 ### Come si generano le ancore
 
@@ -66,6 +68,33 @@ Da lì:
 **Invariante da non rompere:** la classe `.answer-capsule` sta sul `<p>` del testo, non sul
 contenitore, sia nel client sia nel prerender — `abstract` e i selettori `speakable` puntano lì. Se la
 sposti, un assistente vocale legge anche l'etichetta "In breve".
+
+### La sitemap
+
+`scripts/sitemap.ts` genera **un indice più quattro sezioni**, tutte al build: non esiste più un
+`public/sitemap.xml` scritto a mano che invecchia in silenzio.
+
+| File | Cosa contiene | changefreq · priority |
+| --- | --- | --- |
+| `/sitemap.xml` | `sitemapindex`: l'unico file da dichiarare a robots.txt e a Search Console | — |
+| `/sitemap-pages.xml` | rotte statiche + i due indici del blog | da `STATIC_PAGES` · weekly 0.9 per gli indici |
+| `/sitemap-blog-it.xml` | articoli italiani, ordinati dal più recente | monthly · 0.7 |
+| `/sitemap-blog-en.xml` | articoli inglesi sotto `/en` | monthly · 0.7 |
+| `/sitemap-answers.xml` | glossario, FAQ e dati nelle due lingue | monthly · 0.8 |
+
+Regole che reggono il file:
+
+- `lastmod` è la data dell'ultima revisione **reale** (`updated`), mai la data del deploy. Le pagine
+  statiche hanno la propria data dichiarata in `STATIC_PAGES` dentro `vite.config.ts`: se cambia il
+  testo di una pagina, si cambia lì.
+- Ogni URL bilingue porta `xhtml:link` per `it`, `en` e `x-default`, che punta all'italiano.
+- Gli articoli portano la cover come `image:image`, con `image:caption` uguale all'`alt` della pagina.
+- `<?xml-stylesheet?>` punta a `/sitemap.xsl`: aprendo la sitemap nel browser si vede una tabella
+  invece dell'XML grezzo. È un miglioramento progressivo — Chrome sta rimuovendo XSLT, e quando
+  accadrà i file torneranno a mostrarsi come XML valido.
+- Le due estensioni (`xhtml`, `image`) fanno fallire la validazione contro l'XSD ufficiale 0.9, che
+  non prevede elementi esterni: è atteso, ed è ciò che Google stesso documenta. Il controllo che
+  conta è che i file siano ben formati (`xmllint --noout dist/sitemap*.xml`).
 
 ### Dati strutturati generati (vite.config.ts)
 
