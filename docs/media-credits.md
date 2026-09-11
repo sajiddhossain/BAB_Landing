@@ -310,3 +310,20 @@
   marchio riconoscibile. Scelta deliberata di una gradinata vuota: l'articolo parla del comportamento
   dei genitori in tribuna e qualunque volto adulto o minorile avrebbe attribuito a persone reali un
   comportamento che l'articolo descrive come problematico.
+
+## cover-eta-relativa-selezione.jpg
+- Titolo originale: "Starting line on a track" (pista di atletica rossa con corsie numerate da 1 a 6)
+- Fonte: Unsplash — https://unsplash.com/photos/running-track-with-numbered-lanes-52p1K0d0euM
+  (foto pubblicata il 22 settembre 2016, id `52p1K0d0euM`)
+- Autore: Austris Augusts (https://unsplash.com/@austris_a)
+- Licenza: Unsplash License (uso libero anche commerciale, attribuzione non obbligatoria; qui
+  registrata comunque per tracciabilità). Fonte diversa dal solito rawpixel perché in questa
+  sessione né `images.rawpixel.com` né l'API di Openverse erano raggiungibili.
+- Uso: cover articolo blog "effetto dell'età relativa e maturazione nella selezione" (IT + EN)
+- Lavorazione: rendition servita da `images.unsplash.com` con `rect=0,0,4563,2566` (ritaglio 16:9
+  ancorato al bordo superiore dell'originale 4563x2997, così restano visibili tutte e sei le
+  numerazioni di corsia), poi `w=1024&fm=jpg&q=88` → 1024x576. Nessun ritocco.
+  Nessuna persona nell'inquadratura, quindi nessun minore identificabile, e nessun marchio
+  leggibile: le uniche scritte sono i numeri di corsia dipinti sulla pista. Scelta deliberata di
+  una pista vuota con le corsie numerate: l'articolo parla della corsia che il calendario assegna
+  a un'atleta prima che qualcuno la veda giocare.

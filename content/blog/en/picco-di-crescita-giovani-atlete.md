@@ -1,10 +1,10 @@
 ---
 slug: picco-di-crescita-giovani-atlete
 title: "The growth spurt in young female athletes: what actually changes (and what is not their fault)"
-seoTitle: "The growth spurt in young female athletes"
-seoDescription: "The growth spurt peaks at 11.2 years on average, with huge variability. What changes for injuries and coordination, and how to adapt training load."
+seoTitle: "Growth spurt in girls: what age it peaks and what changes"
+seoDescription: "In girls the growth spurt peaks at 11.2 years on average, but two same-age girls can be years apart. What changes for injuries, coordination and load."
 date: 2026-08-02
-updated: 2026-08-21
+updated: 2026-09-11
 author: Sajid Hossain
 excerpt: "In young female athletes peak height velocity arrives at a mean age of about 11.2 years — but the individual range is enormous: a squad of thirteen-year-olds contains bodies years apart in maturation. Meanwhile bone mineralises roughly six months after it has lengthened. What the data actually say — and why, in girls, the evidence linking growth to injury is still limited."
 answer: "What changes is levers, coordination and bone structure — not commitment. In young female athletes the mean age at peak height velocity is 11.18 years, with a 90% credible interval from 8.62 to 12.94 (Lima et al., 2024): one age category holds athletes years apart biologically. Peak bone mineral accrual arrives roughly six months later (Bailey et al., 1999)."
@@ -34,6 +34,8 @@ faq:
     a: "Because for a few months the bone is already longer but not yet as dense. In the longitudinal study of 53 girls and 60 boys followed for six years, peak bone mineral content accrual arrives roughly six months AFTER peak height velocity (Bailey et al., 1999). In that window the structure is in transition, and it is also the period when repeated load meets apophyses and growth plates in full activity. That is not a reason to stop: it is a reason not to add volume precisely there, and to take seriously bone pain that keeps returning to the same spot."
   - q: "What can a club actually do?"
     a: "Four things, all at almost no cost. 1) Measure height every three months and keep a record, so you notice who is growing fast. 2) Do not increase volume and intensity in a quarter when an athlete has grown a lot: hold the load steady and work on technique and control. 3) Keep the neuromuscular warm-up — 20 minutes, twice a week — which in athletes aged 13-19 cuts ACL rupture risk by around 60% (Petushek et al., 2019). 4) Change the language: «your body is changing and we are adapting the work» instead of «you have been sloppy lately»."
+  - q: "Does birth month matter in selecting a young female athlete?"
+    a: "It matters a little, but systematically — and it matters less than development. In the reference meta-analysis on female sport — 57 studies, 308 independent samples, 25 sports — girls born in the first quarter of the selection year are 1.25 times more represented than those born in the last (95% CI 1.21-1.30), with the effect most pronounced precisely between ages 12 and 14 (Smith et al., 2018). Among 113 players in Ireland's youth national teams, however, the birth-month effect was absent, while a small advantage remained for biologically more mature athletes (d=0.39; Sweeney et al., 2025). Two girls born in the same month can be years apart in development: it is that distance, not the calendar, that shows on the pitch."
 ---
 
 There is one year, for every girl, in which the body changes faster than she can get used to it. She shoots up, her shoes stop fitting, movements that were automatic feel less precise. In sport that year has a technical name — **peak height velocity** — and a whole mythology has grown around it: the year you get injured, the year you turn clumsy, the year you "just have to wait out". **Almost none of that is established in girls.** What is documented, though, is enough to change something in the gym.
@@ -85,6 +87,8 @@ The most useful method is also the simplest: **measure height every three months
 
 Equations exist that estimate distance from peak height velocity from age, stature and sitting height, revised and validated in independent longitudinal samples (Moore et al., 2015). They are useful for planning, but they remain **estimates with wide error margins**, the wider the further you are from the spurt: they do not tell a girl who she is, they tell a coach where to pay attention.
 
+Measuring serves a second, less obvious purpose: correcting the selector's eye. Within a single birth year the observer sees performances, not months of head start or stages of development — and that is how the [relative age effect](/en/blog/eta-relativa-selezione-giovani-atlete) arises, worth an odds ratio of **1.25** between the first and last birth quarter in female sport, and **most pronounced precisely between ages 12 and 14** (Smith et al., 2018).
+
 What a club does **not** need: bone-age X-rays, pubertal staging, maturation rankings on the noticeboard. Those are clinical acts, and in youth sport they are also a matter of dignity and privacy — the same principle for which, as we write in [how to coach teenage girls](/en/blog/allenare-ragazze-adolescenti), a club needs aggregated signals, never the individual health data point.
 
 ## What changes on Monday
@@ -99,6 +103,8 @@ The growth spurt is not a danger to fear: it is a **window to accompany**. The w
 
 ## Sources
 
+- Smith K.L., Weir P.L., Till K., Romann M., Cobley S. **Relative Age Effects Across and Within Female Sport Contexts: A Systematic Review and Meta-Analysis.** *Sports Medicine*, 2018;48(6):1451-1478. (57 studies, 308 independent samples, 25 sports, female-only samples; odds ratio 1.25 between the first and last birth quarter, 95% CI 1.21-1.30, with larger effects in the ≤11 and 12-14 age bands) [doi:10.1007/s40279-018-0890-8](https://doi.org/10.1007/s40279-018-0890-8)
+- Sweeney L., Lundberg T.R., Sweeney C., Hickey J., MacNamara Á. **Biological maturity but not relative age biases exist in female international youth soccer players relative to the general population.** *Biology of Sport*, 2025;42(2):249-256. (113 players in Ireland's youth national teams, aged 14-17; no relative age effect, small advantage for biologically more mature players, d=0.39. Small elite sample, maturity estimated with the Khamis-Roche method) [doi:10.5114/biolsport.2025.144411](https://doi.org/10.5114/biolsport.2025.144411)
 - Lima A.B., Quinaud R.T., Karasiak F.C., Galvão L.G., Gonçalves C.E., Carvalho H.M. **Longitudinal Meta-Analysis of Peak Height Velocity in Young Female Athletes.** *Cureus*, 2024;16(5):e59482. (Bayesian meta-analysis of 14 studies and 21 independent samples of young female athletes; estimated mean age at peak 11.18 years, 90% CrI 8.62-12.94) [doi:10.7759/cureus.59482](https://doi.org/10.7759/cureus.59482)
 - Kozieł S.M., Suder A., Chrzanowska M., Králík M., Malina R.M. **Growth status and age at peak height velocity among youth participants in several sports: the Cracow longitudinal study.** *BMC Sports Science, Medicine and Rehabilitation*, 2024;16:121. (longitudinal study; **very small female groups**, from 6 to 22 girls per sport category: an order of magnitude, not a norm) [doi:10.1186/s13102-024-00905-6](https://doi.org/10.1186/s13102-024-00905-6)
 - Zoellner A., Whatman C. **The association between biological maturity and injury in young females participating in sport: A systematic review.** *Physical Therapy in Sport*, 2026;80:101843. (systematic review of 31 studies: 10 on injury, 21 on risk factors; limited evidence on maturation-injury, moderate on maturation-knee risk factors) [doi:10.1016/j.ptsp.2025.08.007](https://doi.org/10.1016/j.ptsp.2025.08.007)

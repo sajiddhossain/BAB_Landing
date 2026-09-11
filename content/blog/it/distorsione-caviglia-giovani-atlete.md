@@ -4,7 +4,7 @@ title: "«È solo una storta»: la caviglia è l'infortunio più frequente delle
 seoTitle: "Distorsione di caviglia nelle giovani atlete"
 seoDescription: "La caviglia è la sede del 23% degli infortuni nelle giovani atlete, e il 23,6% delle ragazze convive con un'instabilità cronica. Perché non è «solo una storta»."
 date: 2026-08-06
-updated: 2026-08-25
+updated: 2026-09-11
 author: Sajid Hossain
 excerpt: "La caviglia è la sede del 23% degli infortuni nelle giovani atlete — più del ginocchio (16%). Eppure è l'infortunio che si racconta con la frase «è solo una storta»: tra gli atleti di 14-18 anni il 20% convive con un'instabilità cronica di caviglia, e tra le ragazze la quota sale al 23,6%. Nello sport giovanile i programmi di prevenzione riducono gli infortuni di caviglia del 26%. I dati, i limiti dei dati, e cosa cambia in venti minuti a settimana."
 answer: "È l'infortunio più frequente delle giovani atlete: la caviglia è la sede del 23% di tutti gli infortuni, davanti a ginocchio (16%) e coscia (13%) (Beech et al., 2024). E non è banale: tra i 14 e i 18 anni il 20,0% degli atleti convive con un'instabilità cronica di caviglia, il 23,6% tra le ragazze (Donovan et al., 2020)."
@@ -76,9 +76,9 @@ E quell'instabilità ha un costo misurabile. Chi ne soffre riporta una funzione 
 
 Sul versante clinico, la revisione epidemiologica di riferimento riporta che **fino al 70%** di chi subisce una distorsione acuta può sviluppare una disabilità fisica residua, e cita uno studio che stima una prevalenza di instabilità cronica del **40% a un anno** dalla prima distorsione laterale (Herzog et al., 2019). È una revisione narrativa focalizzata sul contesto statunitense, non una meta-analisi: il valore è nell'ordine di grandezza, non nella cifra.
 
-## «È solo una storta»: perché il passaggio dal professionista salta così spesso
+## Perché dopo una distorsione di caviglia quasi nessuno va dal professionista?
 
-C'è uno studio che, nonostante l'età, descrive questo fenomeno meglio di qualsiasi altro. Su **84 giocatori di basket di scuola superiore**, il 70% aveva una storia di distorsione di caviglia; tra questi, l'**80% ne aveva avute più di una**; nel 32% dei casi l'infortunio aveva comportato oltre due settimane di stop. E il dato che conta: **nel 55% dei casi non era stata cercata alcuna assistenza medica**. Circa la metà riferiva sintomi residui, e il 15% riteneva che quei sintomi compromettessero la propria prestazione (Smith e Reischl, 1986).
+**Perché la caviglia smette di far male prima di essere guarita, e il dolore è l'unico criterio che l'atleta ha a disposizione.** C'è uno studio che, nonostante l'età, descrive questo fenomeno meglio di qualsiasi altro. Su **84 giocatori di basket di scuola superiore**, il 70% aveva una storia di distorsione di caviglia; tra questi, l'**80% ne aveva avute più di una**; nel 32% dei casi l'infortunio aveva comportato oltre due settimane di stop. E il dato che conta: **nel 55% dei casi non era stata cercata alcuna assistenza medica**. Circa la metà riferiva sintomi residui, e il 15% riteneva che quei sintomi compromettessero la propria prestazione (Smith e Reischl, 1986).
 
 Va detto forte: quel campione era **interamente maschile** e lo studio risale al **1986**. Non è una stima valida oggi, e non è una stima sulle ragazze. Lo citiamo per quello che è — la descrizione più chiara in letteratura di un comportamento culturale che chiunque frequenti una palestra riconosce ancora: la distorsione di caviglia è l'infortunio che si autogestisce.
 
@@ -86,7 +86,7 @@ Il punto è che questa autogestione non è irrazionale. Una caviglia distorta sm
 
 Su questo la dinamica assomiglia molto a quella che abbiamo descritto per le [perdite di urina](/blog/perdite-urina-giovani-atlete) e per il [dolore al ginocchio che dura mesi](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete): un sintomo frequentissimo, che proprio perché frequente viene scambiato per normale, e di cui nessuno parla abbastanza perché non sembra abbastanza grave da meritarlo.
 
-## La prevenzione funziona? Sì, e sui giovani esiste evidenza specifica
+## La prevenzione della distorsione di caviglia funziona nei giovani?
 
 **Sì, con un effetto stimato intorno al 26% — e questa volta i dati riguardano proprio la fascia d'età giusta.**
 
@@ -99,9 +99,9 @@ Sono numeri che si sommano a due riferimenti più specifici:
 
 Il messaggio pratico è lo stesso che avevamo trovato parlando di [allenamento neuromuscolare preventivo](/blog/crociato-giovani-atlete): la protezione non arriva da un attrezzo o da un gesto isolato, ma da un riscaldamento strutturato fatto **per mesi**. E, come per il crociato, la variabile che fa collassare l'effetto è l'aderenza — non l'intensità.
 
-## E dopo? La riabilitazione che riduce le recidive (con una precisazione sull'età)
+## Dopo una distorsione, cosa riduce il rischio di rifarsi male?
 
-La distorsione di caviglia ha una caratteristica che la rende diversa da quasi tutti gli altri infortuni giovanili: **il fattore di rischio meglio documentato per una distorsione è averne già avuta una**. È il motivo per cui i numeri sulla recidiva contano più di quelli sull'evento iniziale.
+**La riabilitazione con esercizio, non il tempo che passa** — con l'avvertenza, dichiarata qui sotto, che la prova più forte viene da adulti. La distorsione di caviglia ha una caratteristica che la rende diversa da quasi tutti gli altri infortuni giovanili: **il fattore di rischio meglio documentato per una distorsione è averne già avuta una**. È il motivo per cui i numeri sulla recidiva contano più di quelli sull'evento iniziale.
 
 Una revisione sistematica con meta-analisi di **14 studi randomizzati e 2.182 partecipanti** ha confrontato la riabilitazione basata sull'esercizio con la cura abituale dopo una distorsione laterale acuta, trovando una riduzione significativa delle recidive a **12 mesi** (OR **0,60**; IC 95% 0,36-0,99) (Wagemans et al., 2022).
 

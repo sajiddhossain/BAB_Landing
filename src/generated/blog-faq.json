@@ -1,6 +1,94 @@
 {
   "posts": [
     {
+      "slug": "eta-relativa-selezione-giovani-atlete",
+      "lang": "it",
+      "title": "Nata a dicembre: quanto pesa il mese di nascita nella selezione delle giovani atlete",
+      "date": "2026-09-11",
+      "questions": [
+        {
+          "q": "Che cos'è l'effetto dell'età relativa nello sport?",
+          "id": "faq-che-cose-leffetto-delleta-relativa-nello-sport"
+        },
+        {
+          "q": "Mia figlia è nata a dicembre: è svantaggiata?",
+          "id": "faq-mia-figlia-e-nata-a-dicembre-e-svantaggiata"
+        },
+        {
+          "q": "L'effetto dell'età relativa è uguale nei maschi e nelle femmine?",
+          "id": "faq-leffetto-delleta-relativa-e-uguale-nei-maschi-e-nelle"
+        },
+        {
+          "q": "Le ragazze nate a fine anno smettono di fare sport più delle altre?",
+          "id": "faq-le-ragazze-nate-a-fine-anno-smettono-di-fare-sport-piu"
+        },
+        {
+          "q": "Perché ai massimi livelli l'effetto a volte sparisce?",
+          "id": "faq-perche-ai-massimi-livelli-leffetto-a-volte-sparisce"
+        },
+        {
+          "q": "Conta più il mese di nascita o lo sviluppo puberale?",
+          "id": "faq-conta-piu-il-mese-di-nascita-o-lo-sviluppo-puberale"
+        },
+        {
+          "q": "Si può misurare quanto un'atleta è matura senza esami?",
+          "id": "faq-si-puo-misurare-quanto-unatleta-e-matura-senza-esami"
+        },
+        {
+          "q": "Il bio-banding funziona anche con le ragazze?",
+          "id": "faq-il-bio-banding-funziona-anche-con-le-ragazze"
+        },
+        {
+          "q": "Cosa può fare concretamente una società sportiva?",
+          "id": "faq-cosa-puo-fare-concretamente-una-societa-sportiva"
+        }
+      ]
+    },
+    {
+      "slug": "eta-relativa-selezione-giovani-atlete",
+      "lang": "en",
+      "title": "Born in December: how much does birth month weigh in selecting young female athletes?",
+      "date": "2026-09-11",
+      "questions": [
+        {
+          "q": "What is the relative age effect in sport?",
+          "id": "faq-what-is-the-relative-age-effect-in-sport"
+        },
+        {
+          "q": "My daughter was born in December — is she at a disadvantage?",
+          "id": "faq-my-daughter-was-born-in-december-is-she-at-a"
+        },
+        {
+          "q": "Is the relative age effect the same in boys and girls?",
+          "id": "faq-is-the-relative-age-effect-the-same-in-boys-and-girls"
+        },
+        {
+          "q": "Do girls born late in the year quit sport more often?",
+          "id": "faq-do-girls-born-late-in-the-year-quit-sport-more-often"
+        },
+        {
+          "q": "Why does the effect sometimes disappear at the highest levels?",
+          "id": "faq-why-does-the-effect-sometimes-disappear-at-the-highest"
+        },
+        {
+          "q": "Which matters more, birth month or pubertal development?",
+          "id": "faq-which-matters-more-birth-month-or-pubertal-development"
+        },
+        {
+          "q": "Can an athlete's maturity be measured without medical tests?",
+          "id": "faq-can-an-athletes-maturity-be-measured-without-medical"
+        },
+        {
+          "q": "Does bio-banding work for girls too?",
+          "id": "faq-does-bio-banding-work-for-girls-too"
+        },
+        {
+          "q": "What can a club actually do?",
+          "id": "faq-what-can-a-club-actually-do"
+        }
+      ]
+    },
+    {
       "slug": "genitori-a-bordo-campo-giovani-atlete",
       "lang": "it",
       "title": "Genitori a bordo campo: cosa chiedono davvero le atlete prima, durante e dopo la partita",
@@ -1377,6 +1465,10 @@
         {
           "q": "Cosa può fare concretamente una società sportiva?",
           "id": "faq-cosa-puo-fare-concretamente-una-societa-sportiva"
+        },
+        {
+          "q": "Il mese di nascita conta nella selezione di una giovane atleta?",
+          "id": "faq-il-mese-di-nascita-conta-nella-selezione-di-una-giovane"
         }
       ]
     },
@@ -1421,6 +1513,10 @@
         {
           "q": "What can a club actually do?",
           "id": "faq-what-can-a-club-actually-do"
+        },
+        {
+          "q": "Does birth month matter in selecting a young female athlete?",
+          "id": "faq-does-birth-month-matter-in-selecting-a-young-female"
         }
       ]
     },
@@ -1653,6 +1749,10 @@
         {
           "q": "Quanti giorni e quanti mesi di pausa servono in un anno?",
           "id": "faq-quanti-giorni-e-quanti-mesi-di-pausa-servono-in-un-anno"
+        },
+        {
+          "q": "Chi è più forte a 13 anni resterà più forte da adulta?",
+          "id": "faq-chi-e-piu-forte-a-13-anni-restera-piu-forte-da-adulta"
         }
       ]
     },
@@ -1693,6 +1793,10 @@
         {
           "q": "How many days and months off are needed each year?",
           "id": "faq-how-many-days-and-months-off-are-needed-each-year"
+        },
+        {
+          "q": "Will the strongest 13-year-old still be the strongest as an adult?",
+          "id": "faq-will-the-strongest-13-year-old-still-be-the-strongest"
         }
       ]
     },

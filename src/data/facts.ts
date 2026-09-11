@@ -878,6 +878,56 @@ export const FACTS: Fact[] = [
     source: 'Bois, Lalanne e Delforge, 2009',
     doi: '10.1080/02640410903062001',
   },
+  {
+    id: 'eta-relativa-1',
+    article: 'eta-relativa-selezione-giovani-atlete',
+    claim:
+      "Nello sport femminile le atlete nate nel primo trimestre dell'anno di selezione sono 1,25 volte più rappresentate di quelle nate nell'ultimo (odds ratio 1,25; IC 95% 1,21-1,30): un effetto significativo ma piccolo, più marcato nelle fasce fino agli 11 anni e fra i 12 e i 14 anni e ai livelli competitivi più alti. Popolazione: META-ANALISI di 57 studi e 308 campioni indipendenti su 25 sport, dati 1984-2016, campioni ESCLUSIVAMENTE FEMMINILI.",
+    claimEn:
+      'In female sport, athletes born in the first quarter of the selection year are 1.25 times more represented than those born in the last (odds ratio 1.25; 95% CI 1.21-1.30): a significant but small effect, strongest in the ≤11 and 12-14 age bands and at higher competition levels. Population: META-ANALYSIS of 57 studies and 308 independent samples across 25 sports, data 1984-2016, FEMALE-ONLY samples.',
+    source: 'Smith et al., 2018',
+    doi: '10.1007/s40279-018-0890-8',
+  },
+  {
+    id: 'eta-relativa-2',
+    article: 'eta-relativa-selezione-giovani-atlete',
+    claim:
+      "Seguendo per sette anni 9.908 calciatrici canadesi di 10-16 anni, la permanenza mediana nell'attività era di quattro anni per le nate nel primo trimestre e di tre anni per tutti gli altri trimestri; il predittore più forte restava però il livello, con il 55,9% di permanenza nel settore competitivo contro il 20,7% nel ricreativo. Popolazione: 9.908 ATLETE di 10-16 anni in Ontario; studio OSSERVAZIONALE su registri di tesseramento.",
+    claimEn:
+      'Following 9,908 Canadian female footballers aged 10-16 across seven years, median survival in the sport was four years for first-quarter births and three years for every other quarter; the strongest predictor, however, was competition level, with 55.9% retention in the competitive stream against 20.7% in the recreational stream. Population: 9,908 FEMALE ATHLETES aged 10-16 in Ontario; OBSERVATIONAL registry study.',
+    source: 'Smith e Weir, 2022',
+    doi: '10.3390/sports10050079',
+  },
+  {
+    id: 'eta-relativa-3',
+    article: 'eta-relativa-selezione-giovani-atlete',
+    claim:
+      "Nel percorso di selezione statunitense, su 3.364 calciatrici della stagione 2021-2022, la sovrarappresentazione delle nate nel primo trimestre era presente nei club e nei centri di identificazione del talento ma assente nelle nazionali giovanili, dove le date di nascita erano distribuite uniformemente, con una prevalenza di nate nell'ultimo trimestre e una quota più alta di atlete a maturazione tardiva. Popolazione: 3.364 ATLETE dall'under 13 all'under 18; studio TRASVERSALE su una sola federazione, maturazione STIMATA.",
+    claimEn:
+      'In the US talent pathway, across 3,364 female players in the 2021-2022 season, the over-representation of first-quarter births was present at club and talent identification centre level but absent in youth national teams, where birth dates were evenly spread, with a prevalence of last-quarter births and a higher share of late-maturing athletes. Population: 3,364 FEMALE ATHLETES from under-13 to under-18; CROSS-SECTIONAL study of a single federation, maturity ESTIMATED.',
+    source: 'Finnegan et al., 2024',
+    doi: '10.5114/biolsport.2024.136085',
+  },
+  {
+    id: 'eta-relativa-4',
+    article: 'eta-relativa-selezione-giovani-atlete',
+    claim:
+      "Fra 113 calciatrici convocate dalle nazionali giovanili irlandesi (52 under 15, 32 under 16, 29 under 17) non c'era alcun effetto dell'età relativa in nessuna categoria, mentre rispetto ai valori di popolazione le atlete biologicamente più mature risultavano lievemente favorite (d=0,39; p<0,001), con il vantaggio in crescita dall'under 15 (d=0,36) all'under 16 (d=0,44). Popolazione: 113 ATLETE d'ÉLITE di 14-17 anni; campione piccolo, maturazione stimata con il metodo Khamis-Roche.",
+    claimEn:
+      "Among 113 players called up to Ireland's youth national teams (52 under-15, 32 under-16, 29 under-17) there was no relative age effect in any age group, while relative to population values biologically more mature athletes were slightly favoured (d=0.39; p<0.001), with the advantage growing from under-15 (d=0.36) to under-16 (d=0.44). Population: 113 ELITE FEMALE ATHLETES aged 14-17; small sample, maturity estimated with the Khamis-Roche method.",
+    source: 'Sweeney et al., 2025',
+    doi: '10.5114/biolsport.2025.144411',
+  },
+  {
+    id: 'eta-relativa-5',
+    article: 'eta-relativa-selezione-giovani-atlete',
+    claim:
+      "Nella revisione sistematica più recente sul bio-banding nel calcio giovanile — 13 studi e 861 giovani atleti — il 99,8% dei partecipanti erano maschi (859) e lo 0,2% femmine (2): le prove disponibili riguardano inoltre soprattutto risposte immediate in partita, non l'accuratezza delle selezioni o lo sviluppo a lungo termine. Popolazione: 861 CALCIATORI GIOVANILI QUASI TUTTI MASCHI; nessuna conclusione trasferibile alle ragazze.",
+    claimEn:
+      'In the most recent systematic review of bio-banding in youth football — 13 studies and 861 young players — 99.8% of participants were male (859) and 0.2% female (2); the available evidence also concerns mostly immediate in-match responses rather than selection accuracy or long-term development. Population: 861 YOUTH FOOTBALLERS, ALMOST ALL MALE; no conclusion transferable to girls.',
+    source: 'Han et al., 2026',
+    doi: '10.52082/jssm.2026.446',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

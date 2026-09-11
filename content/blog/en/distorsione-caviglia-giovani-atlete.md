@@ -4,7 +4,7 @@ title: "\"It's just a twisted ankle\": the ankle is the most common injury in yo
 seoTitle: "Ankle sprains in young female athletes"
 seoDescription: "The ankle accounts for 23% of injuries in young female athletes, and 23.6% of girls live with chronic instability. Why it is not «just a twist»."
 date: 2026-08-06
-updated: 2026-08-25
+updated: 2026-09-11
 author: Sajid Hossain
 excerpt: "The ankle accounts for 23% of injuries in youth female athletes — more than the knee (16%). Yet it is the injury we describe with a shrug: among athletes aged 14-18, 20% live with chronic ankle instability, and among girls that figure rises to 23.6%. In youth sport, prevention programmes cut ankle injuries by about 26%. The data, the limits of the data, and what changes in twenty minutes a week."
 answer: "It is the most frequent injury in young female athletes: the ankle accounts for 23% of all injuries, ahead of the knee (16%) and thigh (13%) (Beech et al., 2024). And it is not trivial: between 14 and 18, 20.0% of athletes live with chronic ankle instability — 23.6% among girls (Donovan et al., 2020)."
@@ -76,9 +76,9 @@ And that instability carries a measurable cost. Those affected reported markedly
 
 On the clinical side, the reference epidemiological review reports that **up to 70%** of people who sustain an acute sprain may develop residual physical disability, and cites a study estimating a **40% prevalence of chronic instability one year** after a first lateral ankle sprain (Herzog et al., 2019). It is a narrative review focused on the US context, not a meta-analysis: the value is in the order of magnitude, not the exact figure.
 
-## "It's just a twisted ankle": why the clinician step gets skipped
+## Why does almost nobody see a clinician after an ankle sprain?
 
-There is one study that, despite its age, describes this better than any other. Across **84 high school basketball players**, 70% had a history of ankle sprain; of those, **80% had sustained more than one**; in 32% of cases the injury meant more than two weeks out. And the figure that matters: **in 55% of cases no medical attention was sought at all**. Around half reported residual symptoms, and 15% felt those symptoms compromised their performance (Smith and Reischl, 1986).
+**Because the ankle stops hurting before it is healed, and pain is the only criterion the athlete has.** There is one study that, despite its age, describes this better than any other. Across **84 high school basketball players**, 70% had a history of ankle sprain; of those, **80% had sustained more than one**; in 32% of cases the injury meant more than two weeks out. And the figure that matters: **in 55% of cases no medical attention was sought at all**. Around half reported residual symptoms, and 15% felt those symptoms compromised their performance (Smith and Reischl, 1986).
 
 This must be said plainly: that sample was **entirely male** and the study dates from **1986**. It is not a valid estimate today, and it is not an estimate about girls. We cite it for what it is — the clearest description in the literature of a cultural behaviour that anyone who spends time in a gym still recognises: the ankle sprain is the injury people self-manage.
 
@@ -86,7 +86,7 @@ The thing is, that self-management isn't irrational. A sprained ankle stops hurt
 
 The dynamic closely resembles what we described for [urinary leakage](/en/blog/perdite-urina-giovani-atlete) and for [knee pain that lasts months](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete): a very common symptom which, precisely because it is common, gets mistaken for normal, and which nobody discusses enough because it never seems serious enough to deserve it.
 
-## Does prevention work? Yes — and there is youth-specific evidence
+## Does ankle sprain prevention work in young athletes?
 
 **Yes, with an estimated effect of around 26% — and this time the data cover exactly the right age band.**
 
@@ -99,9 +99,9 @@ Those numbers sit alongside two more specific reference points:
 
 The practical message is the same one we found writing about [neuromuscular prevention training](/en/blog/crociato-giovani-atlete): protection doesn't come from a piece of equipment or an isolated drill, but from a structured warm-up done **for months**. And, as with the ACL, the variable that collapses the effect is adherence — not intensity.
 
-## And afterwards? The rehab that reduces recurrence (with an age caveat)
+## After a sprain, what reduces the risk of doing it again?
 
-The ankle sprain has one feature that sets it apart from almost every other youth injury: **the best-documented risk factor for a sprain is having had one already**. That is why the recurrence numbers matter more than the first-event numbers.
+**Exercise-based rehabilitation, not time passing** — with the caveat, stated below, that the strongest evidence comes from adults. The ankle sprain has one feature that sets it apart from almost every other youth injury: **the best-documented risk factor for a sprain is having had one already**. That is why the recurrence numbers matter more than the first-event numbers.
 
 A systematic review and meta-analysis of **14 randomised trials with 2,182 participants** compared exercise-based rehabilitation with usual care after an acute lateral sprain, finding a significant reduction in re-injury at **12 months** (OR **0.60**; 95% CI 0.36-0.99) (Wagemans et al., 2022).
 

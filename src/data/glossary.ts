@@ -633,6 +633,31 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'The extent to which an athlete perceives that parental approval depends on sporting results. In 341 young French athletes (201 basketball, 140 tennis) surveyed before an official competition, directive behaviours and pressure were associated with higher pre-competitive anxiety, while praise and understanding were associated with lower anxiety among female tennis players; in the same study the presence of both parents was associated with more anxiety in almost every subgroup, but the absence of both was not associated with less (Bois, Lalanne and Delforge, 2009; cross-sectional, so associations rather than causal links).',
   },
+  'effetto-eta-relativa': {
+    name: "Effetto dell'età relativa",
+    description:
+      "La sovrarappresentazione, dentro una stessa categoria di età, di chi è nato nei primi mesi dell'anno di selezione, e la corrispondente sottorappresentazione di chi è nato negli ultimi. Nello sport femminile la meta-analisi di riferimento — 57 studi, 308 campioni indipendenti, 25 sport, dati 1984-2016 — stima un odds ratio di 1,25 fra primo e ultimo trimestre di nascita (IC 95% 1,21-1,30), quindi un effetto significativo ma piccolo, più marcato fino ai 14 anni e ai livelli competitivi più alti (Smith et al., 2018). In Italia la data di taglio è il 1º gennaio.",
+    nameEn: 'Relative age effect',
+    descriptionEn:
+      "The over-representation, within a single age category, of those born in the early months of the selection year, and the matching under-representation of those born in the late months. In female sport the reference meta-analysis — 57 studies, 308 independent samples, 25 sports, data from 1984 to 2016 — estimates an odds ratio of 1.25 between the first and last birth quarter (95% CI 1.21-1.30): significant but small, and most pronounced up to age 14 and at higher competition levels (Smith et al., 2018). In Italy the cut-off date is 1 January.",
+    sameAs: 'https://en.wikipedia.org/wiki/Relative_age_effect',
+  },
+  'bio-banding': {
+    name: 'Bio-banding',
+    description:
+      "La pratica di raggruppare i giovani atleti per maturazione biologica invece che per anno di nascita, per allenamenti o tornei (Cumming et al., 2017). L'evidenza disponibile è quasi tutta maschile: nella revisione sistematica più recente, su 861 giovani calciatori inclusi in 13 studi, il 99,8% erano maschi (n=859) e lo 0,2% femmine (n=2), e i risultati riguardano soprattutto risposte immediate in partita, non l'accuratezza delle selezioni nel tempo (Han et al., 2026). Sulle ragazze è quindi una pratica ragionevole da sperimentare, non una soluzione dimostrata.",
+    nameEn: 'Bio-banding',
+    descriptionEn:
+      "The practice of grouping young athletes by biological maturity rather than by birth year, for training or tournaments (Cumming et al., 2017). The available evidence is almost entirely male: in the most recent systematic review, of 861 young footballers across 13 studies, 99.8% were male (n=859) and 0.2% female (n=2), and the findings concern mostly immediate in-match responses rather than selection accuracy over time (Han et al., 2026). For girls it is therefore a reasonable practice to trial, not a proven solution.",
+  },
+  'statura-adulta-prevista': {
+    name: 'Percentuale di statura adulta prevista',
+    description:
+      "Indicatore di maturazione somatica: si stima la statura da adulta a partire da statura, peso ed altezza dei genitori (metodo Khamis-Roche) e si calcola quanta parte di quel percorso l'atleta ha già compiuto. È il metodo usato per valutare 113 calciatrici delle nazionali giovanili irlandesi, dove le atlete più mature risultavano lievemente favorite nella selezione (d=0,39; Sweeney et al., 2025). L'alternativa — le equazioni che stimano gli anni al picco di crescita — è meno affidabile nelle ragazze: confrontate con la crescita osservata di 198 ragazze, collocano il picco troppo tardi nelle precoci e troppo presto nelle tardive, senza una finestra chiara di accuratezza (Kozieł e Malina, 2018).",
+    nameEn: 'Percentage of predicted adult height',
+    descriptionEn:
+      "An indicator of somatic maturity: adult height is predicted from height, weight and parental heights (Khamis-Roche method), and the athlete's current height is expressed as a percentage of it. This is the method used to assess 113 players in Ireland's youth national teams, where more mature athletes were slightly favoured in selection (d=0.39; Sweeney et al., 2025). The alternative — equations estimating years to peak height velocity — is less reliable in girls: compared with observed growth in 198 girls, they place the peak too late in early maturers and too early in late maturers, with no clear window of accuracy (Kozieł and Malina, 2018).",
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;

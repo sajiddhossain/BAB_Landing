@@ -4,7 +4,7 @@ title: "Early specialisation: one sport all year round, and what it actually cos
 seoTitle: "Early sport specialisation: the real costs"
 seoDescription: "One sport all year costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised got hurt more often."
 date: 2026-07-26
-updated: 2026-08-29
+updated: 2026-09-11
 author: Sajid Hossain
 excerpt: "Among female athletes aged 13-18, those highly specialised in a single sport are 2.93 times as likely to report an injury history. Training more hours per week than your age in years doubles the odds of a serious overuse injury. And the athletes who actually reach the top started their main sport later, not earlier. The evidence, its limits, and the three questions that tell you whether a girl is already specialised."
 answer: "It costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised reported a history of injury 2.93 times as often as low-specialisation peers (Okoruwa et al., 2022), and training more hours a week than your age in years doubles the odds of a serious overuse injury (Jayanthi et al., 2015)."
@@ -31,6 +31,8 @@ faq:
     a: "No. The American Academy of Pediatrics lists burnout, anxiety and drop-out among the documented risks of early specialisation, along with social isolation from peers who do not play the same sport (Brenner and AAP, 2016). It is consensus guidance, not a trial-validated protocol, and the AAP itself writes that the exact threshold has not been clarified: it points a direction, not a numerical rule."
   - q: "How many days and months off are needed each year?"
     a: "The American Academy of Pediatrics guidance suggests at least 1-2 days a week free from the specific sport and at least 3 months a year away from it, taken in one-month blocks, while staying active in other activities (Brenner and AAP, 2016). It is consensus guidance built on limited evidence, not a validated protocol: its stated purpose is to leave room for physical and psychological recovery while the body is still growing."
+  - q: "Will the strongest 13-year-old still be the strongest as an adult?"
+    a: "The data say no, and point to two separate reasons. First: in the meta-analysis of 51 studies and 6,096 athletes, 772 of them among the world's best, those who reached the highest level as adults had practised more sports, started their main sport later and accumulated fewer sport-specific hours than their national-level peers (Güllich et al., 2022). Second, it depends who gets looked at: in the US talent pathway, across 3,364 female players, the over-representation of girls born early in the year was present at club and regional centre level and absent in the youth national teams, where more late-year births and more late-maturing athletes appeared (Finnegan et al., 2024). Being \"ahead\" at 13 often means having a few more months, or a few more stages of development — not more talent."
 ---
 
 In girls' youth sport the question almost nobody asks is not "how much does she train", but **how many months has it been since she did anything else**. One sport, twelve months a year, three or four sessions a week plus matches, from the age of nine or ten. In most countries this isn't called early specialisation: it's called taking sport seriously. And yet it is precisely the participation model on which paediatric medicine has stacked up the most warning signals — and for girls, there are now some numbers.
@@ -96,6 +98,8 @@ A meta-analysis of **51 studies, 6,096 athletes, including 772 of the world's be
 - accumulated **fewer hours of sport-specific practice**;
 - and progressed **more slowly** in the early stages.
 
+There is one more reason to distrust the snapshot taken at 13, and it has nothing to do with training hours: it has to do with who ends up in the frame. In the US talent pathway, across **3,364 female players**, the over-representation of girls born early in the year was clear at club and regional centre level and **disappeared in the youth national teams**, where more late-year births and more late-maturing athletes appeared (Finnegan et al., 2024). A girl who is "ahead" at 13 is often simply [further along the calendar, or further along in development](/en/blog/eta-relativa-selezione-giovani-atlete).
+
 Among **youth** athletes the picture flips: those who were better as youngsters had started earlier, practised their main sport more and other sports less, and progressed faster. In other words: early specialisation **works for winning now**, which is exactly why it is so hard to resist. It is not, however, what distinguishes those who reach the top as adults.
 
 The American Academy of Pediatrics is explicit: there is no evidence that specialising before puberty is necessary to reach elite status, and for most sports **late specialisation with early diversification** is the more likely route there ([Brenner and AAP, 2016, *Pediatrics*](https://doi.org/10.1542/peds.2016-2148)).
@@ -138,6 +142,7 @@ Because the problem with early specialisation is not one session too many. It is
 
 ## Sources
 
+- Finnegan L., van Rijbroek M., Oliva-Lozano J.M., Cost R., Andrew M. **Relative age effect across the talent identification process of youth female soccer players in the United States: Influence of birth year, position, biological maturation, and skill level.** *Biology of Sport*, 2024;41(4):241-251. (3,364 US female players from under-13 to under-18, 2021-2022 season; relative age effect present at club and talent identification centres and absent in youth national teams. **Cross-sectional**, single federation; maturity **estimated**) [doi:10.5114/biolsport.2024.136085](https://doi.org/10.5114/biolsport.2024.136085)
 - Okoruwa E.T., Abbott A., Stamm M., Mulcahey M.K. **Sport Specialization Classification and Injury Risk in Female Athletes.** *Sports Health*, 2022;14(6):797-804. (n=219 **female athletes** aged 13-18; cross-sectional questionnaire study, wide confidence intervals) [doi:10.1177/19417381221123532](https://doi.org/10.1177/19417381221123532)
 - Giusti N.E., Carder S.L., Vopat L., Baker J., Tarakemeh A., Vopat B., Mulcahey M.K. **Comparing Burnout in Sport-Specializing Versus Sport-Sampling Adolescent Athletes: A Systematic Review and Meta-analysis.** *Orthopaedic Journal of Sports Medicine*, 2020;8(3). (8 studies, 1,429 adolescent athletes, mean age 15.59 years; **highly unbalanced groups**: 1,371 specialisers vs 58 samplers) [doi:10.1177/2325967120907579](https://doi.org/10.1177/2325967120907579)
 - Bell D.R., Post E.G., Biese K., Bay C., Valovich McLeod T. **Sport Specialization and Risk of Overuse Injuries: A Systematic Review With Meta-analysis.** *Pediatrics*, 2018;142(3):e20180657. (systematic review with meta-analysis; athletes of both sexes, results not broken down by sex; strength of recommendation grade B) [doi:10.1542/peds.2018-0657](https://doi.org/10.1542/peds.2018-0657)

@@ -4,7 +4,7 @@ title: "Commozione cerebrale nelle giovani atlete: più frequente, meno riconosc
 seoTitle: "Commozione cerebrale nelle giovani atlete: cosa fare"
 seoDescription: "Nel calcio scolastico le ragazze subiscono 1,88 volte le commozioni cerebrali dei coetanei maschi. Come riconoscerle a bordo campo e cosa fare nei primi minuti."
 date: 2026-07-24
-updated: 2026-08-20
+updated: 2026-09-11
 author: Sajid Hossain
 excerpt: "Nel calcio scolastico americano le ragazze subiscono commozioni cerebrali 1,88 volte più dei coetanei maschi, e hanno 1,26 volte la probabilità di non essere tolte dall'attività dopo il colpo. Chi continua a giocare recupera in 44 giorni invece di 22 — e il 60% degli episodi non viene riferito a nessun adulto. Non serve né un colpo visibile alla testa né la perdita di coscienza: i dati, i segnali da riconoscere a bordo campo nei primi minuti e cosa dicono davvero le linee guida internazionali."
 answer: "Le atlete la subiscono più spesso e la riferiscono meno: nel calcio scolastico il rischio è 1,88 volte quello dei coetanei maschi (Bretzin et al., 2021) e il 60% degli episodi non era stato riferito ad alcun adulto (Register-Mihalik et al., 2013). Al sospetto l'atleta va tolta subito dal gioco: chi resta in campo recupera in 44,4 giorni contro 22,0 (Elbin et al., 2016)."
@@ -121,9 +121,9 @@ Il consenso di Amsterdam va nella stessa direzione: strategie simili di ritorno 
 
 Messo tutto insieme, il quadro non è "le ragazze guariscono peggio". È: **le ragazze arrivano più spesso al momento della diagnosi in una condizione peggiore**, perché escono dal campo più tardi e perché riferiscono più sintomi quando finalmente qualcuno chiede. Il punto di intervento non è la riabilitazione. È il bordo campo.
 
-## L'angolo cieco: linee guida costruite all'80% su maschi
+## Le linee guida sulla commozione cerebrale valgono anche per le ragazze?
 
-Vale la pena dirlo, perché cambia il modo in cui si leggono tutti i numeri precedenti.
+**In parte, e conviene saperlo: poggiano su campioni all'80,1% maschili.** Vale la pena dirlo, perché cambia il modo in cui si leggono tutti i numeri precedenti.
 
 Un'analisi ha esaminato i **171 studi** citati dalle tre dichiarazioni di consenso e di posizione più influenti sulla commozione cerebrale nello sport (NATA 2014, ICCS 2017, AMSSM 2019). I campioni su cui poggiano quelle raccomandazioni sono **all'80,1% maschili**, e il **40,4% degli studi non include nemmeno un'atleta** ([D'Lauro et al., 2022, *Br J Sports Med*](https://doi.org/10.1136/bjsports-2021-105045)).
 

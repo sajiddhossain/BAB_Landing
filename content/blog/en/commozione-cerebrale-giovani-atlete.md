@@ -4,7 +4,7 @@ title: "Concussion in young female athletes: more common, less often spotted (an
 seoTitle: "Concussion in young female athletes: what to do"
 seoDescription: "In school soccer, girls sustain 1.88 times the concussions of boys. How to recognise one on the sideline and what to do in the first minutes."
 date: 2026-07-24
-updated: 2026-08-20
+updated: 2026-09-11
 author: Sajid Hossain
 excerpt: "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22 — and 60% of events are never reported to any adult. Neither a visible blow to the head nor loss of consciousness is required: the data, the sideline signs in the first minutes, and what the international guidelines actually say."
 answer: "Female athletes sustain more concussions and report fewer: in high-school football (soccer) the risk is 1.88 times that of male peers (Bretzin et al., 2021), and 60% of events had not been reported to any adult (Register-Mihalik et al., 2013). On suspicion the athlete must come off immediately: those who stay on recover in 44.4 days against 22.0 (Elbin et al., 2016)."
@@ -121,9 +121,9 @@ The Amsterdam consensus points the same way: similar return-to-learn and return-
 
 Taken together, the picture isn't "girls heal worse". It is: **girls more often arrive at diagnosis in a worse state**, because they leave the field later and because they report more symptoms when someone finally asks. The intervention point isn't rehabilitation. It's the sideline.
 
-## The blind spot: guidelines built 80% on males
+## Do concussion guidelines apply to girls too?
 
-This is worth saying, because it changes how every number above should be read.
+**Only partly, and it is worth knowing why: they rest on samples that are 80.1% male.** This is worth saying, because it changes how every number above should be read.
 
 One analysis examined the **171 studies** cited by the three most influential consensus and position statements on sport-related concussion (NATA 2014, ICCS 2017, AMSSM 2019). The samples underpinning those recommendations are **80.1% male**, and **40.4% of the studies include no female participants at all** ([D'Lauro et al., 2022, *Br J Sports Med*](https://doi.org/10.1136/bjsports-2021-105045)).
 
