@@ -4,7 +4,7 @@ title: "Girls and weights: does strength training at 13-14 stunt growth?"
 seoTitle: "Girls and weights: does strength stunt growth?"
 seoDescription: "Weights don't stunt growth: what the evidence says about strength training at 13-14, how much girls actually gain, and how to set it up safely."
 date: 2026-08-04
-updated: 2026-08-23
+updated: 2026-09-12
 author: Sajid Hossain
 excerpt: "No. In the most cited review on the question, 22 experimental weight-training programmes in children and pre-adolescents did not influence growth in height or weight, with estimated injury rates between 0.053 and 0.176 per 100 participant-hours. Yet only 38.5% of children and adolescents meet muscle-strengthening recommendations — and being a boy is one of the factors that predicts meeting them. What the data actually say about strength in young female athletes."
 answer: "No: in a review of 22 experimental programmes in children and preadolescents, resistance training improved strength and did NOT affect growth in height or weight (Malina, 2006). The condition is supervision, with technique before load: the documented risk concerns improvised loading, not weights themselves."
@@ -49,7 +49,7 @@ Youth sport is still full of statements about the weights room that nobody has e
 > - As prevention, strength training alone is associated with an injury risk of **0.338** (95% CI 0.238-0.480) — but in participants aged **12-40**, not adolescents only (Lauersen et al., 2018).
 > - The two conditions present in every document: **qualified supervision** and **technique before load**.
 
-## Do weights stunt growth? What the most cited review says
+## Do weights stunt growth in girls?
 
 **No.** That is the short answer, and for once it rests on a piece of work designed to answer exactly this question.
 

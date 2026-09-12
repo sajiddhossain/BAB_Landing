@@ -4,7 +4,7 @@ title: "Le ragazze e i pesi: l'allenamento della forza a 13-14 anni fa male alla
 seoTitle: "Pesi e adolescenti: la forza fa male alla crescita?"
 seoDescription: "I pesi non bloccano la crescita: cosa dice l'evidenza sull'allenamento della forza a 13-14 anni, quanto si guadagna davvero e come impostarlo in sicurezza."
 date: 2026-08-04
-updated: 2026-08-23
+updated: 2026-09-12
 author: Sajid Hossain
 excerpt: "No: nella revisione più citata sull'argomento, 22 programmi sperimentali di allenamento con i pesi in bambini e preadolescenti non hanno influenzato la crescita in statura e peso, con tassi di infortunio tra 0,053 e 0,176 ogni 100 ore di partecipazione. Eppure solo il 38,5% dei ragazzi e delle ragazze raggiunge le raccomandazioni di attività di rinforzo muscolare — ed essere maschio è uno dei fattori che predicono di riuscirci. Cosa dicono davvero i dati sulla forza nelle giovani atlete."
 answer: "No: in una revisione di 22 programmi sperimentali su bambini e preadolescenti l'allenamento contro resistenza ha migliorato la forza e NON ha influenzato la crescita in statura e peso (Malina, 2006). La condizione è la supervisione, con la tecnica prima del carico: il rischio documentato riguarda il carico improvvisato, non i pesi in sé."
@@ -49,7 +49,7 @@ Nello sport giovanile femminile la sala pesi è ancora piena di frasi che nessun
 > - Come prevenzione, il solo allenamento della forza si associa a un rischio di infortunio di **0,338** (IC 95% 0,238-0,480) — ma su partecipanti di **12-40 anni**, non solo adolescenti (Lauersen et al., 2018).
 > - Le due condizioni che ricorrono in ogni documento: **supervisione qualificata** e **tecnica prima del carico**.
 
-## I pesi bloccano la crescita? Cosa dice la revisione più citata
+## I pesi bloccano la crescita nelle ragazze?
 
 **No.** È la risposta breve, e per una volta poggia su un lavoro fatto apposta per rispondere a questa domanda.
 

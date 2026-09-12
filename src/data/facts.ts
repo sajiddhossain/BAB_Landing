@@ -928,6 +928,43 @@ export const FACTS: Fact[] = [
     source: 'Han et al., 2026',
     doi: '10.52082/jssm.2026.446',
   },
+  {
+    id: 'safeguarding-1',
+    article: 'safeguarding-abusi-nello-sport-giovani-atlete',
+    claim:
+      "Nella prima indagine italiana sulla violenza nello sport, il 38,6% dei partecipanti riferisce di aver subito almeno una forma di violenza interpersonale dentro lo sport prima dei 18 anni: psicologica 30,4%, fisica 18,6%, negligenza 14,5%, sessuale senza contatto 10,3%, sessuale con contatto 9,6%. Popolazione: 1.446 ADULTI italiani di 18-30 anni che da minorenni avevano praticato sport organizzato; CAMPIONE DI CONVENIENZA online, dati RETROSPETTIVI, REPORT NON PEER-REVIEWED.",
+    claimEn:
+      'In the first Italian survey on violence in sport, 38.6% of participants report having experienced at least one form of interpersonal violence inside sport before age 18: psychological 30.4%, physical 18.6%, neglect 14.5%, non-contact sexual 10.3%, contact sexual 9.6%. Population: 1,446 Italian ADULTS aged 18-30 who played organised sport as minors; online CONVENIENCE SAMPLE, RETROSPECTIVE data, REPORT NOT PEER-REVIEWED.',
+    source: 'ChangeTheGame, 2023',
+  },
+  {
+    id: 'safeguarding-2',
+    article: 'safeguarding-abusi-nello-sport-giovani-atlete',
+    claim:
+      "Fra le donne del campione italiano, il 62,3% non ha chiesto né ricevuto aiuto dopo l'esperienza subita nello sport, contro una media del 54,5% (18-24 anni) e del 57,7% (25-30 anni); fra chi non ha cercato aiuto, il 46,5% riteneva quei comportamenti accettabili o tollerabili e il 25,3% non sapeva a chi rivolgersi. Popolazione: 1.446 ADULTI italiani di 18-30 anni, 735 donne; campione di convenienza online, report NON PEER-REVIEWED.",
+    claimEn:
+      'Among the women in the Italian sample, 62.3% neither asked for nor received help after what they experienced in sport, against averages of 54.5% (age 18-24) and 57.7% (age 25-30); among those who did not seek help, 46.5% considered the behaviours acceptable or tolerable and 25.3% did not know who to turn to. Population: 1,446 Italian ADULTS aged 18-30, 735 women; online convenience sample, report NOT PEER-REVIEWED.',
+    source: 'ChangeTheGame, 2023',
+  },
+  {
+    id: 'safeguarding-3',
+    article: 'safeguarding-abusi-nello-sport-giovani-atlete',
+    claim:
+      "Fra le donne che riferiscono violenza subita nello sport da minorenni, il 37,4% ha lasciato del tutto lo sport e il 32,6% ha cambiato disciplina (uomini: 27,0% e 27,4%); nelle esperienze più gravi le donne indicano l'allenatore o l'allenatrice nel 35,0% dei casi contro il 27,0% degli uomini. Popolazione: 1.446 ADULTI italiani di 18-30 anni; campione di convenienza online, dati retrospettivi, report NON PEER-REVIEWED.",
+    claimEn:
+      'Among women reporting violence experienced in sport as minors, 37.4% left sport altogether and 32.6% changed discipline (men: 27.0% and 27.4%); for the most severe experiences, women name the coach in 35.0% of cases against 27.0% for men. Population: 1,446 Italian ADULTS aged 18-30; online convenience sample, retrospective data, report NOT PEER-REVIEWED.',
+    source: 'ChangeTheGame, 2023',
+  },
+  {
+    id: 'safeguarding-4',
+    article: 'safeguarding-abusi-nello-sport-giovani-atlete',
+    claim:
+      'Nello studio europeo CASES la prevalenza di violenza interpersonale subita dentro lo sport prima dei 18 anni è: psicologica 65%, fisica 44%, negligenza 37%, sessuale senza contatto 35%, sessuale con contatto 20%. Popolazione: 10.302 ADULTI di 18-30 anni in Austria, Belgio, Germania, Romania, Spagna e Regno Unito — L\'ITALIA NON È INCLUSA; studio retrospettivo su campione di convenienza online, prevalenza complessiva più alta nei maschi.',
+    claimEn:
+      'In the European CASES study, the prevalence of interpersonal violence experienced inside sport before age 18 is: psychological 65%, physical 44%, neglect 37%, non-contact sexual 35%, contact sexual 20%. Population: 10,302 ADULTS aged 18-30 in Austria, Belgium, Germany, Romania, Spain and the United Kingdom — ITALY IS NOT INCLUDED; retrospective study on an online convenience sample, overall prevalence higher in males.',
+    source: 'Hartill et al., 2023',
+    doi: '10.1016/j.chiabu.2023.106513',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

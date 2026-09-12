@@ -4,7 +4,7 @@ title: "Why girls stop playing sport as teenagers: the data on drop-out at 10-14
 seoTitle: "Why teenage girls drop out of sport: the data"
 seoDescription: "Girls do not stop because they lose interest: they stop when the environment stops working. The drop-out data at 10-14, and what reverses it."
 date: 2026-06-22
-updated: 2026-09-11
+updated: 2026-09-12
 author: Sajid Hossain
 excerpt: "Among girls who join a club aged 10-14, 71% drop out without ever returning and only 13% take part continuously over seven years. It isn't a dip in motivation: drop-out follows the developing body — girls who go through puberty earlier are significantly more likely to stop (HR 1.68). The real figures, the inflated ones to be wary of, and the four levers a club actually holds."
 answer: "Not because they lose interest, but because the environment stops working when the body changes. Among girls registered with a club at 10-14, 71% drop out of sport without ever returning (Eime et al., 2020), and earlier puberty significantly raises the probability of stopping (HR 1.68; Gallant et al., 2023)."
@@ -81,6 +81,8 @@ When an environment won't talk about periods, energy and a changing body, the at
 - [Low energy availability](/en/blog/red-s-bassa-disponibilita-energetica), which takes the performance first and the period second — and which almost no 14-year-old recognises as a problem.
 - [Breathlessness during exercise](/en/blog/fiato-corto-giovani-atlete): 14% of adolescents report it, girls more often, and 61% of them have no asthma diagnosis at all (Johansson et al., 2014) — a symptom usually filed away as poor fitness.
 
+There is also a reason that appears in no motivation questionnaire, and it deserves naming: **what happens inside the club**. In the first Italian survey on violence in sport — 1,446 adults aged 18-30 who had played organised sport as minors, an online convenience sample and a report that is not peer-reviewed — among women reporting interpersonal violence, **37.4% left sport altogether** and 32.6% changed discipline, against 27.0% and 27.4% of men ([ChangeTheGame, 2023](https://www.sport.governo.it/media/tnyji12g/indagine-violenza-sport-change-the-game-02-11-23.pdf)). On the numbers, their limits and what an Italian club must have by law, this blog has a [dedicated article on safeguarding](/en/blog/safeguarding-abusi-nello-sport-giovani-atlete).
+
 None of these enters a drop-out statistic. Together they explain why a girl «is there less» months before she is not there at all.
 
 ## How do you keep an adolescent athlete? Four concrete levers
@@ -120,5 +122,7 @@ BAB gives clubs the tools to read the team's aggregated, anonymous signals, and 
 - Scurr J., Brown N., Smith J., Brasher A., Risius D., Marczyk A. **The Influence of the Breast on Sport and Exercise Participation in School Girls in the United Kingdom.** *Journal of Adolescent Health*, 2016;58(2):167-173. (n=2,089 girls, aged 11-18, UK) [doi:10.1016/j.jadohealth.2015.10.005](https://doi.org/10.1016/j.jadohealth.2015.10.005)
 - Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studies, 633 adolescent athletes, mean age 16.15 years) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
 - Johansson H., Norlander K., Hedenström H., Janson C., Nordang L., Nordvall L., Emtner M. **Exercise-induced dyspnea is a problem among the general adolescent population.** *Respiratory Medicine*, 2014;108(6):852-858. (**cross-sectional population study**, 2,309 Swedish adolescents aged 12-13; exercise-induced dyspnoea reported by 14%, female sex independently associated; 61% of those reporting it had no asthma diagnosis) [doi:10.1016/j.rmed.2014.03.010](https://doi.org/10.1016/j.rmed.2014.03.010)
+
+- Hartill M., Ferracuti S., Barchielli B., et al. **Abuse and violence in sport. General Report Italia.** ChangeTheGame, 2023. (convenience sample of **1,446** Italian adults aged 18-30 who had played organised sport as minors; among women reporting violence, 37.4% left sport and 32.6% changed discipline. **Project report, not peer-reviewed**, retrospective data, non-probability sample) [PDF published by the Italian Department for Sport](https://www.sport.governo.it/media/tnyji12g/indagine-violenza-sport-change-the-game-02-11-23.pdf)
 
 *This article is for information only and does not constitute medical advice. If signals persist, speak to a healthcare professional.*

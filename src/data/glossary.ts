@@ -658,6 +658,30 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       "An indicator of somatic maturity: adult height is predicted from height, weight and parental heights (Khamis-Roche method), and the athlete's current height is expressed as a percentage of it. This is the method used to assess 113 players in Ireland's youth national teams, where more mature athletes were slightly favoured in selection (d=0.39; Sweeney et al., 2025). The alternative — equations estimating years to peak height velocity — is less reliable in girls: compared with observed growth in 198 girls, they place the peak too late in early maturers and too early in late maturers, with no clear window of accuracy (Kozieł and Malina, 2018).",
   },
+  'violenza-interpersonale-nello-sport': {
+    name: 'Violenza interpersonale nello sport',
+    description:
+      "L'insieme dei comportamenti dannosi subiti dentro il contesto sportivo, che la ricerca internazionale raggruppa in cinque categorie: violenza psicologica, violenza fisica, negligenza, violenza sessuale senza contatto e violenza sessuale con contatto (Tuakli-Wosornu et al., 2024). Non coincide con il reato: i questionari usati in Europa includono comportamenti normalizzati come l'esercizio fisico imposto come punizione o le critiche all'aspetto fisico. Nella prima indagine italiana — 1.446 adulti di 18-30 anni che da minorenni avevano praticato sport organizzato, campione di convenienza online e report non peer-reviewed — il 38,6% ne riferisce almeno una forma prima dei 18 anni, soprattutto psicologica (30,4%) (ChangeTheGame, 2023).",
+    nameEn: 'Interpersonal violence in sport',
+    descriptionEn:
+      'The set of harmful behaviours experienced inside the sport context, which international research groups into five categories: psychological violence, physical violence, neglect, non-contact sexual violence and contact sexual violence (Tuakli-Wosornu et al., 2024). It does not coincide with criminal offences: the questionnaires used across Europe include normalised behaviours such as exercise imposed as punishment or criticism of appearance. In the first Italian survey — 1,446 adults aged 18-30 who played organised sport as minors, an online convenience sample and a report that is not peer-reviewed — 38.6% report at least one form before age 18, mostly psychological (30.4%) (ChangeTheGame, 2023).',
+  },
+  safeguarding: {
+    name: 'Safeguarding (tutela dei minori nello sport)',
+    description:
+      "L'insieme delle politiche e delle procedure con cui un'organizzazione sportiva previene e gestisce abusi, violenze e discriminazioni a danno di chi pratica, in particolare minorenni: codice di condotta, regole sugli spazi e sulle comunicazioni, canali di segnalazione e una persona responsabile (Tuakli-Wosornu et al., 2024). Le raccomandazioni organizzative del consenso CIO 2024 non sono state validate da studi controllati: sono pratiche ragionevoli fondate sul modello di rischio e sull'esperienza dei sistemi nazionali.",
+    nameEn: 'Safeguarding in sport',
+    descriptionEn:
+      'The set of policies and procedures through which a sports organisation prevents and handles abuse, violence and discrimination against participants, particularly minors: a code of conduct, rules about spaces and communications, reporting channels and a named responsible person (Tuakli-Wosornu et al., 2024). The organisational recommendations in the 2024 IOC consensus have not been validated by controlled trials: they are reasonable practices grounded in the risk model and in the experience of national systems.',
+  },
+  'responsabile-safeguarding': {
+    name: 'Responsabile contro abusi, violenze e discriminazioni',
+    description:
+      "La figura che ogni associazione e società sportiva dilettantistica italiana deve nominare per la tutela di chi pratica, nota anche come safeguarding officer. L'obbligo discende dall'articolo 33 comma 6 del D.Lgs. 36/2021 e dall'articolo 16 del D.Lgs. 39/2021, insieme all'adozione di un modello organizzativo e di controllo e di un codice di condotta; il nominativo va pubblicato sul sito della società e comunicato alla federazione di affiliazione, e il termine per la nomina nelle società affiliate era il 31 dicembre 2024. È un obbligo normativo, non una raccomandazione scientifica.",
+    nameEn: 'Safeguarding officer (Italy)',
+    descriptionEn:
+      'The person every Italian amateur sports club must appoint to protect participants, known in Italy as Responsabile contro abusi, violenze e discriminazioni. The duty arises from article 33(6) of Legislative Decree 36/2021 and article 16 of Legislative Decree 39/2021, alongside the adoption of an organisational and control model and a code of conduct; the name must be published on the club website and communicated to its federation, and the appointment deadline for affiliated clubs was 31 December 2024. This is a legal obligation, not a scientific recommendation.',
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;

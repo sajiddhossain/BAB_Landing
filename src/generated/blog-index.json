@@ -1,6 +1,200 @@
 {
   "posts": [
     {
+      "slug": "safeguarding-abusi-nello-sport-giovani-atlete",
+      "lang": "it",
+      "title": "Quattro su dieci: i numeri italiani su abusi e violenza nello sport, e cosa deve avere una società",
+      "seoTitle": "Safeguarding nello sport: i dati italiani e cosa deve avere la società",
+      "seoDescription": "Nella prima indagine italiana il 38,6% di chi ha fatto sport da minorenne riferisce una violenza subita nello sport. I numeri, i limiti, e gli obblighi delle società.",
+      "date": "2026-09-12",
+      "updated": "2026-09-12",
+      "author": "Sajid Hossain",
+      "excerpt": "Nella prima indagine italiana sul tema, quasi quattro persone su dieci che da minorenni hanno fatto sport organizzato riferiscono di aver subito almeno una forma di violenza interpersonale dentro lo sport: soprattutto psicologica, spesso iniziata prima dei 14 anni, quasi sempre mai raccontata a nessuno. Fra le donne, il 62,3% non ha chiesto né ricevuto aiuto. Cosa dicono i dati, con i loro limiti, e cosa una società sportiva deve avere oggi per legge.",
+      "answer": "Nella prima indagine italiana — 1.446 adulti di 18-30 anni che da minorenni hanno praticato sport organizzato, campione di convenienza online, report non peer-reviewed — il 38,6% riferisce almeno una forma di violenza interpersonale subita nello sport prima dei 18 anni: psicologica nel 30,4% dei casi, fisica nel 18,6%, negligenza nel 14,5% (ChangeTheGame, 2023).",
+      "cover": "/fotobab/cover-safeguarding-sport.jpg",
+      "coverAlt": "Palestra scolastica vuota e illuminata, con pavimento lucido, canestri alle due estremità e grandi cerchi colorati dipinti sulla parete; nessuna persona nell'inquadratura",
+      "tags": [
+        "safeguarding",
+        "violenza-interpersonale-nello-sport",
+        "responsabile-safeguarding",
+        "società",
+        "drop-out",
+        "salute-mentale-atleta"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Di che cosa parliamo quando diciamo «violenza nello sport»?",
+          "id": "di-che-cosa-parliamo-quando-diciamo-violenza-nello-sport"
+        },
+        {
+          "level": 2,
+          "text": "Quanto è diffusa in Italia?",
+          "id": "quanto-e-diffusa-in-italia"
+        },
+        {
+          "level": 2,
+          "text": "I numeri europei dicono la stessa cosa?",
+          "id": "i-numeri-europei-dicono-la-stessa-cosa"
+        },
+        {
+          "level": 2,
+          "text": "Le ragazze sono più a rischio dei ragazzi?",
+          "id": "le-ragazze-sono-piu-a-rischio-dei-ragazzi"
+        },
+        {
+          "level": 2,
+          "text": "Chi c'è dall'altra parte, e dove succede?",
+          "id": "chi-ce-dallaltra-parte-e-dove-succede"
+        },
+        {
+          "level": 2,
+          "text": "Perché quasi nessuno ne parla?",
+          "id": "perche-quasi-nessuno-ne-parla"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa resta, anni dopo?",
+          "id": "che-cosa-resta-anni-dopo"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa deve avere, per legge, una società sportiva italiana?",
+          "id": "che-cosa-deve-avere-per-legge-una-societa-sportiva-italiana"
+        },
+        {
+          "level": 2,
+          "text": "Come si capisce se una società lo ha preso sul serio?",
+          "id": "come-si-capisce-se-una-societa-lo-ha-preso-sul-serio"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa può fare un allenatore la prossima settimana?",
+          "id": "che-cosa-puo-fare-un-allenatore-la-prossima-settimana"
+        },
+        {
+          "level": 2,
+          "text": "A chi rivolgersi",
+          "id": "a-chi-rivolgersi"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Quando rivolgersi a un professionista",
+          "id": "quando-rivolgersi-a-un-professionista"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 3444,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
+      "slug": "safeguarding-abusi-nello-sport-giovani-atlete",
+      "lang": "en",
+      "title": "Four in ten: the Italian numbers on abuse and violence in sport, and what a club must have",
+      "seoTitle": "Safeguarding in youth sport: the Italian data and what a club must have",
+      "seoDescription": "In the first Italian survey, 38.6% of people who played sport as minors report violence experienced inside sport. The numbers, the limits, and what clubs owe families.",
+      "date": "2026-09-12",
+      "updated": "2026-09-12",
+      "author": "Sajid Hossain",
+      "excerpt": "In the first Italian survey on the subject, almost four in ten people who played organised sport as minors report having experienced at least one form of interpersonal violence inside sport: mostly psychological, often starting before age 14, and almost never told to anyone. Among women, 62.3% neither asked for nor received help. What the data say, with their limits, and what an Italian club is now legally required to have.",
+      "answer": "In the first Italian survey — 1,446 adults aged 18-30 who played organised sport as minors, an online convenience sample, a report that is not peer-reviewed — 38.6% report at least one form of interpersonal violence experienced inside sport before age 18: psychological in 30.4% of cases, physical in 18.6%, neglect in 14.5% (ChangeTheGame, 2023).",
+      "cover": "/fotobab/cover-safeguarding-sport.jpg",
+      "coverAlt": "An empty, brightly lit school gymnasium with a polished floor, basketball hoops at both ends and large coloured circles painted on the wall; no people in frame",
+      "tags": [
+        "safeguarding",
+        "interpersonal-violence-in-sport",
+        "safeguarding-officer",
+        "clubs",
+        "drop-out",
+        "athlete-mental-health"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What do we mean by violence in sport?",
+          "id": "what-do-we-mean-by-violence-in-sport"
+        },
+        {
+          "level": 2,
+          "text": "How widespread is it in Italy?",
+          "id": "how-widespread-is-it-in-italy"
+        },
+        {
+          "level": 2,
+          "text": "Do the European numbers say the same?",
+          "id": "do-the-european-numbers-say-the-same"
+        },
+        {
+          "level": 2,
+          "text": "Are girls more at risk than boys?",
+          "id": "are-girls-more-at-risk-than-boys"
+        },
+        {
+          "level": 2,
+          "text": "Who is on the other side, and where does it happen?",
+          "id": "who-is-on-the-other-side-and-where-does-it-happen"
+        },
+        {
+          "level": 2,
+          "text": "Why does hardly anyone speak up?",
+          "id": "why-does-hardly-anyone-speak-up"
+        },
+        {
+          "level": 2,
+          "text": "What remains, years later?",
+          "id": "what-remains-years-later"
+        },
+        {
+          "level": 2,
+          "text": "What must an Italian sports club have by law?",
+          "id": "what-must-an-italian-sports-club-have-by-law"
+        },
+        {
+          "level": 2,
+          "text": "How can you tell whether a club takes it seriously?",
+          "id": "how-can-you-tell-whether-a-club-takes-it-seriously"
+        },
+        {
+          "level": 2,
+          "text": "What can a coach do next week?",
+          "id": "what-can-a-coach-do-next-week"
+        },
+        {
+          "level": 2,
+          "text": "Who to turn to",
+          "id": "who-to-turn-to"
+        },
+        {
+          "level": 2,
+          "text": "BAB's role",
+          "id": "babs-role"
+        },
+        {
+          "level": 2,
+          "text": "When to consult a professional",
+          "id": "when-to-consult-a-professional"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 3321,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
       "slug": "eta-relativa-selezione-giovani-atlete",
       "lang": "it",
       "title": "Nata a dicembre: quanto pesa il mese di nascita nella selezione delle giovani atlete",
@@ -1113,7 +1307,7 @@
       "seoTitle": "Fiato corto durante lo sforzo: quando non è asma",
       "seoDescription": "Il 14% degli adolescenti ha fiato corto sotto sforzo e il 61% non ha alcuna diagnosi di asma. EIB, EILO e perché serve un test oggettivo, non un'etichetta.",
       "date": "2026-08-20",
-      "updated": "2026-08-20",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "Il 14% degli adolescenti riferisce episodi di respiro corto dopo attività intensa, e il rischio è più alto nelle ragazze: ma il 61% di loro non ha alcuna diagnosi di asma (Johansson et al., 2014). Quando si va a misurare, sotto quel sintomo ci sono almeno due condizioni diverse — una nei bronchi, una nella laringe — che si curano in modi opposti. Cosa dice l'evidenza, e perché «è solo che non è allenata» è la conclusione più costosa.",
       "answer": "Il fiato corto sotto sforzo riguarda il 14% degli adolescenti di 12-13 anni, con rischio più alto nelle ragazze, e il 61% di chi lo riferisce non ha una diagnosi di asma (Johansson et al., 2014, campione svedese). Testando la popolazione adolescente, la prevalenza stimata è 19,2% per la broncocostrizione da sforzo e 5,7% per l'ostruzione laringea da sforzo (Johansson et al., 2015). Il sintomo da solo non distingue le due: serve un test oggettivo.",
@@ -1159,8 +1353,8 @@
         },
         {
           "level": 2,
-          "text": "Cosa può fare una società, da lunedì",
-          "id": "cosa-puo-fare-una-societa-da-lunedi"
+          "text": "Che cosa può fare una società da lunedì?",
+          "id": "che-cosa-puo-fare-una-societa-da-lunedi"
         },
         {
           "level": 2,
@@ -1173,7 +1367,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2564,
+      "words": 2591,
       "readingMinutes": 13,
       "timeRequired": "PT13M"
     },
@@ -1184,7 +1378,7 @@
       "seoTitle": "Breathlessness in sport: when it is not asthma",
       "seoDescription": "14% of adolescents get breathless during exercise and 61% have no asthma diagnosis. EIB, EILO, and why it takes an objective test, not a label.",
       "date": "2026-08-20",
-      "updated": "2026-08-20",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "14% of adolescents report attacks of breathlessness after strenuous activity, and the risk is higher in girls — yet 61% of them have no asthma diagnosis at all (Johansson et al., 2014). When you actually measure, that single symptom splits into at least two different conditions — one in the bronchi, one in the larynx — treated in opposite ways. Here's what the evidence says, and why 'she's just unfit' is the most expensive conclusion available.",
       "answer": "Breathlessness during exercise affects 14% of 12-13 year-olds, with higher risk in girls, and 61% of those reporting it have no asthma diagnosis (Johansson et al., 2014, Swedish sample). When adolescents are objectively tested, estimated prevalence is 19.2% for exercise-induced bronchoconstriction and 5.7% for exercise-induced laryngeal obstruction (Johansson et al., 2015). Symptoms alone can't tell the two apart: that takes an objective test.",
@@ -1230,8 +1424,8 @@
         },
         {
           "level": 2,
-          "text": "What a club can do, starting Monday",
-          "id": "what-a-club-can-do-starting-monday"
+          "text": "What can a club do, starting Monday?",
+          "id": "what-can-a-club-do-starting-monday"
         },
         {
           "level": 2,
@@ -1244,7 +1438,7 @@
           "id": "sources"
         }
       ],
-      "words": 2361,
+      "words": 2387,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -2253,7 +2447,7 @@
       "seoTitle": "Pesi e adolescenti: la forza fa male alla crescita?",
       "seoDescription": "I pesi non bloccano la crescita: cosa dice l'evidenza sull'allenamento della forza a 13-14 anni, quanto si guadagna davvero e come impostarlo in sicurezza.",
       "date": "2026-08-04",
-      "updated": "2026-08-23",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "No: nella revisione più citata sull'argomento, 22 programmi sperimentali di allenamento con i pesi in bambini e preadolescenti non hanno influenzato la crescita in statura e peso, con tassi di infortunio tra 0,053 e 0,176 ogni 100 ore di partecipazione. Eppure solo il 38,5% dei ragazzi e delle ragazze raggiunge le raccomandazioni di attività di rinforzo muscolare — ed essere maschio è uno dei fattori che predicono di riuscirci. Cosa dicono davvero i dati sulla forza nelle giovani atlete.",
       "answer": "No: in una revisione di 22 programmi sperimentali su bambini e preadolescenti l'allenamento contro resistenza ha migliorato la forza e NON ha influenzato la crescita in statura e peso (Malina, 2006). La condizione è la supervisione, con la tecnica prima del carico: il rischio documentato riguarda il carico improvvisato, non i pesi in sé.",
@@ -2268,8 +2462,8 @@
       "headings": [
         {
           "level": 2,
-          "text": "I pesi bloccano la crescita? Cosa dice la revisione più citata",
-          "id": "i-pesi-bloccano-la-crescita-cosa-dice-la-revisione-piu"
+          "text": "I pesi bloccano la crescita nelle ragazze?",
+          "id": "i-pesi-bloccano-la-crescita-nelle-ragazze"
         },
         {
           "level": 2,
@@ -2307,7 +2501,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2530,
+      "words": 2526,
       "readingMinutes": 13,
       "timeRequired": "PT13M"
     },
@@ -2318,7 +2512,7 @@
       "seoTitle": "Girls and weights: does strength stunt growth?",
       "seoDescription": "Weights don't stunt growth: what the evidence says about strength training at 13-14, how much girls actually gain, and how to set it up safely.",
       "date": "2026-08-04",
-      "updated": "2026-08-23",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "No. In the most cited review on the question, 22 experimental weight-training programmes in children and pre-adolescents did not influence growth in height or weight, with estimated injury rates between 0.053 and 0.176 per 100 participant-hours. Yet only 38.5% of children and adolescents meet muscle-strengthening recommendations — and being a boy is one of the factors that predicts meeting them. What the data actually say about strength in young female athletes.",
       "answer": "No: in a review of 22 experimental programmes in children and preadolescents, resistance training improved strength and did NOT affect growth in height or weight (Malina, 2006). The condition is supervision, with technique before load: the documented risk concerns improvised loading, not weights themselves.",
@@ -2333,8 +2527,8 @@
       "headings": [
         {
           "level": 2,
-          "text": "Do weights stunt growth? What the most cited review says",
-          "id": "do-weights-stunt-growth-what-the-most-cited-review-says"
+          "text": "Do weights stunt growth in girls?",
+          "id": "do-weights-stunt-growth-in-girls"
         },
         {
           "level": 2,
@@ -2372,7 +2566,7 @@
           "id": "sources"
         }
       ],
-      "words": 2395,
+      "words": 2391,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -3757,7 +3951,7 @@
       "seoTitle": "Le parole dell'allenatore e la salute delle atlete",
       "seoDescription": "Con un'allenatrice donna parla di ciclo il 55% delle atlete, con un allenatore uomo il 4%. Cosa dire, cosa non dire mai e come aprire un canale.",
       "date": "2026-07-09",
-      "updated": "2026-08-29",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "Cosa dovrebbe sapere — e cosa è meglio non dire mai — chi allena ragazze adolescenti. Le atlete che percepiscono il proprio allenatore come molto informato riportano il 36% di sintomi di RED-S in meno; chi ha ricevuto commenti sul proprio corpo è quattro volte più propensa a modificare l'alimentazione (33% contro 7%). Il linguaggio dello staff non è un contorno neutro dell'allenamento: è una variabile di salute misurabile. I dati, i limiti, e cosa farne domani in palestra.",
       "answer": "Più di quanto sembri, e si misura: un allenatore percepito come molto informato si associa a 3,2 sintomi di RED-S in media contro 4,3, cioè il 36% in meno, mentre i commenti sul corpo che mettono a disagio si associano a quattro volte più probabilità di modificare l'alimentazione (Female Athlete Health Report, 2023 — campione adulto, non peer-reviewed).",
@@ -3805,9 +3999,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2186,
-      "readingMinutes": 11,
-      "timeRequired": "PT11M"
+      "words": 2410,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
     },
     {
       "slug": "parole-allenatore-salute-atlete",
@@ -3816,7 +4010,7 @@
       "seoTitle": "A coach's words and young athletes' health",
       "seoDescription": "With a female coach, 55% of athletes discuss their cycle; with a male coach, 4%. What to say, what never to say, and how to open a channel.",
       "date": "2026-07-09",
-      "updated": "2026-08-29",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "What a coach of adolescent girls should know — and what is better never said. Athletes who perceive their coach as very knowledgeable report 36% fewer RED-S symptoms; those who have received comments about their body are four times more likely to change how they eat (33% vs 7%). Staff language is not a neutral backdrop to training: it is a measurable health variable. The data, the limits, and what to do with it tomorrow in the gym.",
       "answer": "More than it seems, and it is measurable: a coach perceived as very well-informed is associated with 3.2 RED-S symptoms on average against 4.3 — 36% fewer — while comments about the body that make athletes uncomfortable are associated with four times the odds of changing their eating (Female Athlete Health Report, 2023 — adult sample, not peer-reviewed).",
@@ -3864,9 +4058,9 @@
           "id": "sources"
         }
       ],
-      "words": 2125,
-      "readingMinutes": 11,
-      "timeRequired": "PT11M"
+      "words": 2347,
+      "readingMinutes": 12,
+      "timeRequired": "PT12M"
     },
     {
       "slug": "red-s-bassa-disponibilita-energetica",
@@ -4009,7 +4203,7 @@
       "seoTitle": "Parlare del ciclo con l'allenatore: come farlo",
       "seoDescription": "Solo l'11% delle atlete parla di ciclo con chi la allena, il 4% se è un uomo. Perché succede e cosa cambia il silenzio in una società sportiva.",
       "date": "2026-07-03",
-      "updated": "2026-08-25",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: il 4% se è un uomo, il 55% se è una donna. E l'88% ha imparato queste cose da sola. Non è disinteresse: è l'assenza di un canale sicuro. Cosa dicono i dati raccolti su 1.086 atlete in 57 sport, cosa può dire davvero chi allena, cosa rispondere quando un'atleta parla di dolore, e come si apre il canale senza obbligare nessuna a esporsi.",
       "answer": "Perché quasi nessuno lo ha reso possibile: solo l'11% delle atlete parla di ciclo con chi la allena — 4% se è un uomo, 55% se è una donna — e l'88% ha imparato queste cose da sola (Höök et al., 2022). Non è timidezza: è l'assenza di un canale e di un linguaggio condivisi, e si cambia dal lato dello staff.",
@@ -4053,9 +4247,9 @@
           "id": "fonti"
         }
       ],
-      "words": 1440,
-      "readingMinutes": 7,
-      "timeRequired": "PT7M"
+      "words": 1519,
+      "readingMinutes": 8,
+      "timeRequired": "PT8M"
     },
     {
       "slug": "parlare-di-ciclo-con-allenatore",
@@ -4064,7 +4258,7 @@
       "seoTitle": "Talking about periods with your coach",
       "seoDescription": "Only 11% of athletes discuss their cycle with their coach — 4% if he is a man. Why that happens and what actually breaks the silence.",
       "date": "2026-07-03",
-      "updated": "2026-08-25",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "Only 11% of athletes talk about their menstrual cycle with their coach: 4% if he's a man, 55% if she's a woman. And 88% learned these things on their own. It isn't disinterest: it is the absence of a safe channel. What data from 1,086 athletes across 57 sports show, what coaches can actually say, what to answer when an athlete mentions pain, and how to open the channel without forcing anyone to expose herself.",
       "answer": "Because almost nobody has made it possible: only 11% of athletes discuss their cycle with the person coaching them — 4% if that person is a man, 55% if a woman — and 88% learned about it on their own (Höök et al., 2022). This is not shyness: it is the absence of a shared channel and language, and it changes from the staff's side.",
@@ -4108,9 +4302,9 @@
           "id": "sources"
         }
       ],
-      "words": 1479,
-      "readingMinutes": 7,
-      "timeRequired": "PT7M"
+      "words": 1554,
+      "readingMinutes": 8,
+      "timeRequired": "PT8M"
     },
     {
       "slug": "allenare-ragazze-adolescenti",
@@ -4119,7 +4313,7 @@
       "seoTitle": "Come allenare ragazze adolescenti: 4 leve concrete",
       "seoDescription": "Quattro leve concrete per coach e società: linguaggio non giudicante, carico adattato, segnali di squadra anonimi, spazi e continuità. Con i dati dietro.",
       "date": "2026-07-02",
-      "updated": "2026-08-25",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "Tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Allenarle bene significa quattro cose concrete e senza budget: parlare del corpo che cambia, adattare il carico invece di sanzionare il calo, usare solo segnali di squadra anonimi, garantire spazi e continuità. Ecco i dati che sostengono ciascuna leva — e cosa fare quando un'atleta si presenta con dolore.",
       "answer": "Agendo sull'ambiente, non sulla motivazione della singola: linguaggio non giudicante, segnali di squadra aggregati e anonimi, condizioni pratiche e prevenzione degli infortuni. Un allenatore percepito come molto informato si associa al 36% di sintomi di RED-S in meno nelle sue atlete (Female Athlete Health Report, 2023 — campione adulto, report non peer-reviewed).",
@@ -4160,6 +4354,11 @@
         },
         {
           "level": 2,
+          "text": "Che cosa deve avere una società, oltre alle buone intenzioni?",
+          "id": "che-cosa-deve-avere-una-societa-oltre-alle-buone-intenzioni"
+        },
+        {
+          "level": 2,
           "text": "Un'atleta con dolori mestruali deve saltare l'allenamento?",
           "id": "unatleta-con-dolori-mestruali-deve-saltare-lallenamento"
         },
@@ -4179,9 +4378,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2481,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2821,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
     },
     {
       "slug": "reggiseno-sportivo-ragazze",
@@ -4253,7 +4452,7 @@
       "seoTitle": "How to coach teenage girls: 4 concrete levers",
       "seoDescription": "Four concrete levers for coaches and clubs: non-judgemental language, adjusted load, anonymous team signals, space and continuity — with the data.",
       "date": "2026-07-02",
-      "updated": "2026-08-25",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "Among girls who join a club aged 10-14, 71% drop out without ever returning, and it is almost never about motivation. Coaching them well means four concrete, budget-free things: talking about the changing body, adjusting the load instead of penalising a dip, using only anonymous team signals, and guaranteeing space and continuity. Here is the evidence behind each lever — and what to do when an athlete turns up in pain.",
       "answer": "By acting on the environment, not on the individual girl's motivation: non-judgemental language, aggregated and anonymous team signals, practical conditions and injury prevention. A coach perceived as very well-informed is associated with 36% fewer RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample, non-peer-reviewed report).",
@@ -4294,6 +4493,11 @@
         },
         {
           "level": 2,
+          "text": "What must a club have, beyond good intentions?",
+          "id": "what-must-a-club-have-beyond-good-intentions"
+        },
+        {
+          "level": 2,
           "text": "Should an athlete with period pain skip training?",
           "id": "should-an-athlete-with-period-pain-skip-training"
         },
@@ -4313,9 +4517,9 @@
           "id": "sources"
         }
       ],
-      "words": 2418,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2768,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
     },
     {
       "slug": "reggiseno-sportivo-ragazze",
@@ -4387,7 +4591,7 @@
       "seoTitle": "Perché le ragazze smettono di fare sport in pubertà",
       "seoDescription": "Le ragazze non smettono perché perdono interesse: smettono quando l'ambiente non funziona più. I dati sull'abbandono a 10-14 anni e cosa lo inverte.",
       "date": "2026-06-22",
-      "updated": "2026-09-11",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "Tra le ragazze che si tesserano a 10-14 anni, il 71% abbandona lo sport senza mai rientrare e solo il 13% partecipa con continuità per sette anni. Non è un calo di motivazione: l'abbandono segue lo sviluppo del corpo — una pubertà precoce aumenta significativamente la probabilità di smettere (HR 1,68). I dati veri, quelli gonfiati da cui diffidare, e le quattro leve che una società ha davvero in mano.",
       "answer": "Non perché perdono interesse, ma perché l'ambiente smette di funzionare quando il corpo cambia. Tra le ragazze tesserate a 10-14 anni il 71% abbandona lo sport senza mai rientrare (Eime et al., 2020), e una pubertà precoce aumenta significativamente la probabilità di smettere (HR 1,68; Gallant et al., 2023).",
@@ -4431,9 +4635,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2479,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2658,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "abbandono-puberta",
@@ -4442,7 +4646,7 @@
       "seoTitle": "Why teenage girls drop out of sport: the data",
       "seoDescription": "Girls do not stop because they lose interest: they stop when the environment stops working. The drop-out data at 10-14, and what reverses it.",
       "date": "2026-06-22",
-      "updated": "2026-09-11",
+      "updated": "2026-09-12",
       "author": "Sajid Hossain",
       "excerpt": "Among girls who join a club aged 10-14, 71% drop out without ever returning and only 13% take part continuously over seven years. It isn't a dip in motivation: drop-out follows the developing body — girls who go through puberty earlier are significantly more likely to stop (HR 1.68). The real figures, the inflated ones to be wary of, and the four levers a club actually holds.",
       "answer": "Not because they lose interest, but because the environment stops working when the body changes. Among girls registered with a club at 10-14, 71% drop out of sport without ever returning (Eime et al., 2020), and earlier puberty significantly raises the probability of stopping (HR 1.68; Gallant et al., 2023).",
@@ -4486,9 +4690,9 @@
           "id": "sources"
         }
       ],
-      "words": 2420,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2577,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "ciclo-e-performance",

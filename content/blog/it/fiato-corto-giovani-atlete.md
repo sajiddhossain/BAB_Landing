@@ -4,7 +4,7 @@ title: "Fiato corto durante lo sforzo: nel 61% dei casi non c'è nessuna diagnos
 seoTitle: "Fiato corto durante lo sforzo: quando non è asma"
 seoDescription: "Il 14% degli adolescenti ha fiato corto sotto sforzo e il 61% non ha alcuna diagnosi di asma. EIB, EILO e perché serve un test oggettivo, non un'etichetta."
 date: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-12
 author: Sajid Hossain
 excerpt: "Il 14% degli adolescenti riferisce episodi di respiro corto dopo attività intensa, e il rischio è più alto nelle ragazze: ma il 61% di loro non ha alcuna diagnosi di asma (Johansson et al., 2014). Quando si va a misurare, sotto quel sintomo ci sono almeno due condizioni diverse — una nei bronchi, una nella laringe — che si curano in modi opposti. Cosa dice l'evidenza, e perché «è solo che non è allenata» è la conclusione più costosa."
 answer: "Il fiato corto sotto sforzo riguarda il 14% degli adolescenti di 12-13 anni, con rischio più alto nelle ragazze, e il 61% di chi lo riferisce non ha una diagnosi di asma (Johansson et al., 2014, campione svedese). Testando la popolazione adolescente, la prevalenza stimata è 19,2% per la broncocostrizione da sforzo e 5,7% per l'ostruzione laringea da sforzo (Johansson et al., 2015). Il sintomo da solo non distingue le due: serve un test oggettivo."
@@ -101,9 +101,9 @@ Due avvertenze, entrambe importanti. La prima: lo studio non aveva gruppo di con
 
 Il problema di partire da «non è allenata» è che è una spiegazione che si auto-conferma: l'atleta si allena di più, sta peggio, si convince di non essere adatta e smette. È uno dei percorsi silenziosi verso [l'abbandono sportivo in pubertà](/blog/abbandono-puberta) — non un evento drammatico, ma una serie di allenamenti in cui una ragazza conclude, da sola, di non essere fatta per quello sport.
 
-## Cosa può fare una società, da lunedì
+## Che cosa può fare una società da lunedì?
 
-Nessuna di queste è una prestazione sanitaria. Sono osservazioni e scelte organizzative:
+**Quattro cose che non sono prestazioni sanitarie: osservare, annotare, non concludere e indirizzare.** Nessuna richiede competenze cliniche, e tutte si reggono sullo stesso principio — il fiato corto è un dato da registrare, non una diagnosi da improvvisare:
 
 - **Annotare quando compare l'affanno, non solo che è comparso.** Durante lo sforzo o dopo? Quanto dura? Il respiro è più rumoroso in entrata o in uscita? È la traccia che permette a un medico di orientarsi fra bronchi e laringe.
 - **Trattare l'inalatore che non funziona come un'informazione.** Se un'atleta usa il broncodilatatore e resta senza fiato, quel dato va riportato a chi ha fatto la diagnosi: le revisioni segnalano proprio i casi di atleti trattati e poi risultati negativi al test oggettivo (Smoliga et al., 2016).

@@ -4,7 +4,7 @@ title: "Breathlessness during exercise: 61% of the teenagers who report it have 
 seoTitle: "Breathlessness in sport: when it is not asthma"
 seoDescription: "14% of adolescents get breathless during exercise and 61% have no asthma diagnosis. EIB, EILO, and why it takes an objective test, not a label."
 date: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-12
 author: Sajid Hossain
 excerpt: "14% of adolescents report attacks of breathlessness after strenuous activity, and the risk is higher in girls — yet 61% of them have no asthma diagnosis at all (Johansson et al., 2014). When you actually measure, that single symptom splits into at least two different conditions — one in the bronchi, one in the larynx — treated in opposite ways. Here's what the evidence says, and why 'she's just unfit' is the most expensive conclusion available."
 answer: "Breathlessness during exercise affects 14% of 12-13 year-olds, with higher risk in girls, and 61% of those reporting it have no asthma diagnosis (Johansson et al., 2014, Swedish sample). When adolescents are objectively tested, estimated prevalence is 19.2% for exercise-induced bronchoconstriction and 5.7% for exercise-induced laryngeal obstruction (Johansson et al., 2015). Symptoms alone can't tell the two apart: that takes an objective test."
@@ -101,9 +101,9 @@ Two caveats, both important. First: the study had no control group and no random
 
 The problem with starting from 'she's unfit' is that it's a self-confirming explanation: the athlete trains harder, feels worse, concludes she isn't cut out for it, and stops. It's one of the quiet routes to [dropping out of sport during puberty](/en/blog/abbandono-puberta) — not a dramatic event, but a run of sessions in which a girl decides, on her own, that this sport isn't for her.
 
-## What a club can do, starting Monday
+## What can a club do, starting Monday?
 
-None of these is a clinical procedure. They're observations and organisational choices:
+**Four things that are not clinical procedures: observe, write it down, don't conclude, and refer.** None requires medical training, and all rest on the same principle — breathlessness is a datum to record, not a diagnosis to improvise:
 
 - **Record when the breathlessness appears, not just that it did.** During exertion or after? How long does it last? Is the breathing noisier on the way in or the way out? That trace is what lets a clinician orient between bronchi and larynx.
 - **Treat an inhaler that doesn't work as information.** If an athlete uses a bronchodilator and stays breathless, that belongs back with whoever made the diagnosis: reviews flag precisely these cases of treated athletes who later test negative (Smoliga et al., 2016).

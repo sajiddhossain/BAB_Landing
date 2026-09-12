@@ -4,7 +4,7 @@ title: "Perché le ragazze smettono di fare sport in adolescenza: i dati sull'ab
 seoTitle: "Perché le ragazze smettono di fare sport in pubertà"
 seoDescription: "Le ragazze non smettono perché perdono interesse: smettono quando l'ambiente non funziona più. I dati sull'abbandono a 10-14 anni e cosa lo inverte."
 date: 2026-06-22
-updated: 2026-09-11
+updated: 2026-09-12
 author: Sajid Hossain
 excerpt: "Tra le ragazze che si tesserano a 10-14 anni, il 71% abbandona lo sport senza mai rientrare e solo il 13% partecipa con continuità per sette anni. Non è un calo di motivazione: l'abbandono segue lo sviluppo del corpo — una pubertà precoce aumenta significativamente la probabilità di smettere (HR 1,68). I dati veri, quelli gonfiati da cui diffidare, e le quattro leve che una società ha davvero in mano."
 answer: "Non perché perdono interesse, ma perché l'ambiente smette di funzionare quando il corpo cambia. Tra le ragazze tesserate a 10-14 anni il 71% abbandona lo sport senza mai rientrare (Eime et al., 2020), e una pubertà precoce aumenta significativamente la probabilità di smettere (HR 1,68; Gallant et al., 2023)."
@@ -79,6 +79,8 @@ Quando un ambiente non parla di ciclo, energia e cambiamenti del corpo, l'atleta
 - [La bassa disponibilità di energia](/blog/red-s-bassa-disponibilita-energetica), che toglie prima le prestazioni e poi il ciclo — e che a 14 anni quasi nessuna riconosce come un problema.
 - [Il fiato corto durante lo sforzo](/blog/fiato-corto-giovani-atlete): lo riferisce il 14% degli adolescenti, più spesso le ragazze, e il 61% di loro non ha alcuna diagnosi di asma (Johansson et al., 2014) — un sintomo che di solito viene archiviato come scarsa condizione fisica.
 
+C'è poi una ragione che non compare in nessun questionario sulla motivazione, e che va nominata: **quello che succede dentro la società**. Nella prima indagine italiana sulla violenza nello sport — 1.446 adulti di 18-30 anni che da minorenni avevano praticato sport organizzato, campione di convenienza online e report non peer-reviewed — fra le donne che riferiscono di aver subito violenza interpersonale il **37,4% ha lasciato del tutto lo sport** e il 32,6% ha cambiato disciplina, contro il 27,0% e il 27,4% degli uomini ([ChangeTheGame, 2023](https://www.sport.governo.it/media/tnyji12g/indagine-violenza-sport-change-the-game-02-11-23.pdf)). Sui numeri, i limiti e su cosa una società deve avere per legge, il blog ha un [articolo dedicato al safeguarding](/blog/safeguarding-abusi-nello-sport-giovani-atlete).
+
 Nessuno di questi entra in una statistica di abbandono. Tutti insieme spiegano perché una ragazza «c'è meno» mesi prima di non esserci più.
 
 ## Come si trattiene un'atleta adolescente? Quattro leve concrete
@@ -116,5 +118,7 @@ BAB dà alle società gli strumenti per leggere i segnali aggregati e anonimi de
 - Scurr J., Brown N., Smith J., Brasher A., Risius D., Marczyk A. **The Influence of the Breast on Sport and Exercise Participation in School Girls in the United Kingdom.** *Journal of Adolescent Health*, 2016;58(2):167-173. (n=2.089 ragazze, 11-18 anni, UK) [doi:10.1016/j.jadohealth.2015.10.005](https://doi.org/10.1016/j.jadohealth.2015.10.005)
 - Rial Rebullido T., Gómez-Tomás C., Faigenbaum A.D., Chulvi-Medrano I. **The Prevalence of Urinary Incontinence among Adolescent Female Athletes: A Systematic Review.** *Journal of Functional Morphology and Kinesiology*, 2021;6(1):12. (9 studi, 633 atlete adolescenti, età media 16,15 anni) [doi:10.3390/jfmk6010012](https://doi.org/10.3390/jfmk6010012)
 - Johansson H., Norlander K., Hedenström H., Janson C., Nordang L., Nordvall L., Emtner M. **Exercise-induced dyspnea is a problem among the general adolescent population.** *Respiratory Medicine*, 2014;108(6):852-858. (**studio trasversale di popolazione**, 2.309 adolescenti svedesi di 12-13 anni; dispnea da sforzo riferita dal 14%, sesso femminile associato in modo indipendente; 61% di chi la riferisce senza diagnosi di asma) [doi:10.1016/j.rmed.2014.03.010](https://doi.org/10.1016/j.rmed.2014.03.010)
+
+- Hartill M., Ferracuti S., Barchielli B., et al. **Abusi e violenza nello sport. General Report Italia.** ChangeTheGame, 2023. (campione di convenienza di **1.446** adulti italiani di 18-30 anni che da minorenni avevano praticato sport organizzato; fra le donne che riferiscono violenza subita, il 37,4% ha lasciato lo sport e il 32,6% ha cambiato disciplina. **Report di progetto non peer-reviewed**, dati retrospettivi, campione non probabilistico) [PDF pubblicato dal Dipartimento per lo Sport](https://www.sport.governo.it/media/tnyji12g/indagine-violenza-sport-change-the-game-02-11-23.pdf)
 
 *Questo articolo ha finalità informative e non costituisce parere medico. In presenza di segnali persistenti, rivolgersi a un professionista sanitario.*

@@ -1,6 +1,110 @@
 {
   "posts": [
     {
+      "slug": "safeguarding-abusi-nello-sport-giovani-atlete",
+      "lang": "it",
+      "title": "Quattro su dieci: i numeri italiani su abusi e violenza nello sport, e cosa deve avere una società",
+      "date": "2026-09-12",
+      "questions": [
+        {
+          "q": "Che cosa si intende per violenza interpersonale nello sport?",
+          "id": "faq-che-cosa-si-intende-per-violenza-interpersonale-nello"
+        },
+        {
+          "q": "Quante ragazze e ragazzi subiscono violenza nello sport in Italia?",
+          "id": "faq-quante-ragazze-e-ragazzi-subiscono-violenza-nello-sport"
+        },
+        {
+          "q": "Le ragazze sono più a rischio dei ragazzi?",
+          "id": "faq-le-ragazze-sono-piu-a-rischio-dei-ragazzi"
+        },
+        {
+          "q": "Chi sono le persone che fanno del male, nei dati?",
+          "id": "faq-chi-sono-le-persone-che-fanno-del-male-nei-dati"
+        },
+        {
+          "q": "Dove succede?",
+          "id": "faq-dove-succede"
+        },
+        {
+          "q": "Perché la maggior parte non ne parla con nessuno?",
+          "id": "faq-perche-la-maggior-parte-non-ne-parla-con-nessuno"
+        },
+        {
+          "q": "Che cosa deve avere per legge una società sportiva italiana?",
+          "id": "faq-che-cosa-deve-avere-per-legge-una-societa-sportiva"
+        },
+        {
+          "q": "Come si capisce se una società ha preso sul serio il safeguarding?",
+          "id": "faq-come-si-capisce-se-una-societa-ha-preso-sul-serio-il"
+        },
+        {
+          "q": "L'esercizio fisico come punizione è una forma di violenza?",
+          "id": "faq-lesercizio-fisico-come-punizione-e-una-forma-di-violenza"
+        },
+        {
+          "q": "Che conseguenze lascia, anni dopo?",
+          "id": "faq-che-conseguenze-lascia-anni-dopo"
+        },
+        {
+          "q": "A chi ci si rivolge se succede qualcosa?",
+          "id": "faq-a-chi-ci-si-rivolge-se-succede-qualcosa"
+        }
+      ]
+    },
+    {
+      "slug": "safeguarding-abusi-nello-sport-giovani-atlete",
+      "lang": "en",
+      "title": "Four in ten: the Italian numbers on abuse and violence in sport, and what a club must have",
+      "date": "2026-09-12",
+      "questions": [
+        {
+          "q": "What counts as interpersonal violence in sport?",
+          "id": "faq-what-counts-as-interpersonal-violence-in-sport"
+        },
+        {
+          "q": "How many girls and boys experience violence in sport in Italy?",
+          "id": "faq-how-many-girls-and-boys-experience-violence-in-sport-in"
+        },
+        {
+          "q": "Are girls more at risk than boys?",
+          "id": "faq-are-girls-more-at-risk-than-boys"
+        },
+        {
+          "q": "Who causes the harm, in the data?",
+          "id": "faq-who-causes-the-harm-in-the-data"
+        },
+        {
+          "q": "Where does it happen?",
+          "id": "faq-where-does-it-happen"
+        },
+        {
+          "q": "Why do most people never tell anyone?",
+          "id": "faq-why-do-most-people-never-tell-anyone"
+        },
+        {
+          "q": "What must an Italian sports club have by law?",
+          "id": "faq-what-must-an-italian-sports-club-have-by-law"
+        },
+        {
+          "q": "How can you tell whether a club takes safeguarding seriously?",
+          "id": "faq-how-can-you-tell-whether-a-club-takes-safeguarding"
+        },
+        {
+          "q": "Is physical exercise used as punishment a form of violence?",
+          "id": "faq-is-physical-exercise-used-as-punishment-a-form-of"
+        },
+        {
+          "q": "What does it leave behind, years later?",
+          "id": "faq-what-does-it-leave-behind-years-later"
+        },
+        {
+          "q": "Who should you turn to if something happens?",
+          "id": "faq-who-should-you-turn-to-if-something-happens"
+        }
+      ]
+    },
+    {
       "slug": "eta-relativa-selezione-giovani-atlete",
       "lang": "it",
       "title": "Nata a dicembre: quanto pesa il mese di nascita nella selezione delle giovani atlete",
@@ -2419,6 +2523,10 @@
           "id": "faq-come-incide-il-linguaggio-dello-staff-sullansia-da"
         },
         {
+          "q": "Dove finisce un linguaggio duro e comincia la violenza psicologica?",
+          "id": "faq-dove-finisce-un-linguaggio-duro-e-comincia-la-violenza"
+        },
+        {
           "q": "Che differenza c'è tra un'atleta demotivata e un'atleta in burnout?",
           "id": "faq-che-differenza-ce-tra-unatleta-demotivata-e-unatleta-in"
         }
@@ -2465,6 +2573,10 @@
         {
           "q": "How does staff language affect an athlete's performance anxiety?",
           "id": "faq-how-does-staff-language-affect-an-athletes-performance"
+        },
+        {
+          "q": "Where does tough language end and psychological violence begin?",
+          "id": "faq-where-does-tough-language-end-and-psychological"
         },
         {
           "q": "What is the difference between an unmotivated athlete and one in burnout?",
@@ -2627,6 +2739,14 @@
           "id": "faq-quante-atlete-hanno-avuto-un-ciclo-che-sparisce-e-con"
         },
         {
+          "q": "E se la risposta dell'allenatore è una battuta o un commento sul corpo?",
+          "id": "faq-e-se-la-risposta-dellallenatore-e-una-battuta-o-un"
+        },
+        {
+          "q": "Se l'allenatore non è la persona giusta, con chi altro può parlarne un'atleta?",
+          "id": "faq-se-lallenatore-non-e-la-persona-giusta-con-chi-altro"
+        },
+        {
           "q": "Cosa può dire un allenatore per rendere il tema meno tabù?",
           "id": "faq-cosa-puo-dire-un-allenatore-per-rendere-il-tema-meno"
         }
@@ -2683,6 +2803,14 @@
           "id": "faq-how-many-athletes-have-had-their-period-stop-and-who-do"
         },
         {
+          "q": "What if the coach answers with a joke or a comment about her body?",
+          "id": "faq-what-if-the-coach-answers-with-a-joke-or-a-comment"
+        },
+        {
+          "q": "If the coach is not the right person, who else can an athlete talk to?",
+          "id": "faq-if-the-coach-is-not-the-right-person-who-else-can-an"
+        },
+        {
           "q": "What can a coach say to make the topic less taboo?",
           "id": "faq-what-can-a-coach-say-to-make-the-topic-less-taboo"
         }
@@ -2729,6 +2857,10 @@
         {
           "q": "Come si prevengono gli infortuni gravi nelle atlete adolescenti?",
           "id": "faq-come-si-prevengono-gli-infortuni-gravi-nelle-atlete"
+        },
+        {
+          "q": "Che obblighi di tutela ha oggi una società sportiva dilettantistica?",
+          "id": "faq-che-obblighi-di-tutela-ha-oggi-una-societa-sportiva"
         },
         {
           "q": "Come si prepara una squadra al primo allenamento del ritiro estivo?",
@@ -2833,6 +2965,10 @@
         {
           "q": "How do you prevent serious injuries in teenage female athletes?",
           "id": "faq-how-do-you-prevent-serious-injuries-in-teenage-female"
+        },
+        {
+          "q": "What safeguarding duties does an Italian amateur club have today?",
+          "id": "faq-what-safeguarding-duties-does-an-italian-amateur-club"
         },
         {
           "q": "How do you prepare a team for the first summer preseason session?",

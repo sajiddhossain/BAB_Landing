@@ -327,3 +327,25 @@
   leggibile: le uniche scritte sono i numeri di corsia dipinti sulla pista. Scelta deliberata di
   una pista vuota con le corsie numerate: l'articolo parla della corsia che il calendario assegna
   a un'atleta prima che qualcuno la veda giocare.
+
+## cover-safeguarding-sport.jpg
+- Titolo originale: "Elfton Elementary School Gym interior design" (palestra scolastica vuota, pavimento
+  lucido, cerchi colorati dipinti sulla parete)
+- Fonte: Flickr — https://www.flickr.com/photos/91689877@N03/48419435147
+  (reperita via Openverse, filtro licenza cc0/pdm, source=flickr; id Openverse
+  `5b8413fe-e831-4a45-a0da-a2bcd8ce68c6`)
+- Autore: PatrickRich (https://www.flickr.com/photos/91689877@N03)
+- Licenza: Public Domain Mark 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non
+  obbligatoria, qui registrata per tracciabilità)
+- Uso: cover articolo blog "safeguarding: abusi e violenza nello sport giovanile" (IT + EN)
+- Lavorazione: originale 1024x680 servito da `live.staticflickr.com` (rendition `_b`), ritaglio 16:9
+  centrato a 1024x576 con `sips -c`, JPEG q78. Nessun resample oltre il ritaglio.
+  Nessuna persona nell'inquadratura, quindi nessun minore identificabile, e nessun marchio leggibile.
+  Scelta deliberata di una palestra vuota e luminosa: l'articolo parla di violenza interpersonale
+  nello sport giovanile, e qualunque volto — adulto o minorile — avrebbe attribuito a una persona
+  reale il ruolo di vittima o di responsabile. Scartate in fase di selezione: una palestra scolastica
+  abbandonata (tono di degrado non pertinente), una palestra con atlete adolescenti in campo (regola
+  «niente minori identificabili», tanto più su questo tema) e un corridoio con un poster di una
+  persona reale riconoscibile.
+  Fonte diversa dal solito rawpixel perché in questa sessione `images.rawpixel.com` e `pd.w.org` non
+  erano raggiungibili.
