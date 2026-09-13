@@ -1,10 +1,10 @@
 ---
 slug: dolore-inguine-giovani-atlete
 title: "Groin pain at 14: why it is almost never «a pulled muscle»"
-seoTitle: "Groin pain in young female athletes"
+seoTitle: "Groin pain at 14: why it is rarely just a strain"
 seoDescription: "In a growing body the weak link in the groin is the apophysis, not the muscle: mean ages 13.6-16.8. What the data say and when to get it looked at."
 date: 2026-08-21
-updated: 2026-08-21
+updated: 2026-09-13
 author: Sajid Hossain
 excerpt: "In women's football, hip and groin problems reach a 60.7% seasonal prevalence — yet only 11.1% of them cost a single training session. It is the injury that never makes it into the records, because almost nobody stops. And in a growing body the chain does not break where it would break in an adult: between 13 and 17 the weak link is not the muscle, it is the apophysis. The data, the limits of the data, and the two signals not worth waiting on."
 answer: "In a growing body the weak link in the groin is not the muscle belly but the apophysis, the growth centre the tendon attaches to: across pelvic avulsion series mean ages run from 13.6 to 16.8 years, and the commonest sites are the anterior superior iliac spine (37%), the anterior inferior iliac spine (31%) and the ischial tuberosity (14%) (Di Maria et al., 2022; sample 82% male). That is why the adult 'adductor strain' model describes what happens at 14 rather badly."
@@ -116,7 +116,7 @@ The honest summary is this: strengthening the adductors is low-risk, consistent 
 
 Three things, none of which requires clinical skills.
 
-**Ask rather than wait.** The figure that opens this article — only 11.1% of hip and groin problems lead to missing anything ([Reichmann et al., 2025](https://doi.org/10.1016/j.smhs.2025.04.005)) — means the spontaneous channel does not work: the player in pain keeps playing, so she doesn't mention it. One direct question during a lap of the pitch is worth more than an open door.
+**Ask rather than wait.** The figure that opens this article — only 11.1% of hip and groin problems lead to missing anything ([Reichmann et al., 2025](https://doi.org/10.1016/j.smhs.2025.04.005)) — means the spontaneous channel does not work: the player in pain keeps playing, so she doesn't mention it. It is the same silence that surrounds other symptoms in youth sport, from [leaking urine when jumping](/en/blog/perdite-urina-giovani-atlete) to [knee pain that lasts for months](/en/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete). One direct question during a lap of the pitch is worth more than an open door.
 
 **Distinguish how it started.** Pain that came on gradually over weeks of sprints and changes of direction, and pain that appeared suddenly mid-sprint, are two different stories: the second one, in a growing body, is a scenario to get looked at.
 

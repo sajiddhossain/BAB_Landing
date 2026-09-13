@@ -682,6 +682,32 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'The person every Italian amateur sports club must appoint to protect participants, known in Italy as Responsabile contro abusi, violenze e discriminazioni. The duty arises from article 33(6) of Legislative Decree 36/2021 and article 16 of Legislative Decree 39/2021, alongside the adoption of an organisational and control model and a code of conduct; the name must be published on the club website and communicated to its federation, and the appointment deadline for affiliated clubs was 31 December 2024. This is a legal obligation, not a scientific recommendation.',
   },
+  'scoliosi-idiopatica-adolescenziale': {
+    name: 'Scoliosi idiopatica adolescenziale',
+    description:
+      "Curva laterale della colonna vertebrale di almeno 10°, misurata con l'angolo di Cobb, senza causa identificabile, che compare fra i 10 e i 18 anni e tende a peggiorare durante la crescita, prima della maturità scheletrica (USPSTF, 2018). È una deformità tridimensionale, con rotazione delle vertebre (Negrini et al., 2018). Riguarda l'1-3% dei 10-16enni (Weinstein et al., 2008); il rapporto femmine:maschi è 1,4:1 nelle curve fra 10° e 20° e sale a 7,2:1 in quelle oltre 40°, in dati da screening scolastici con metodi non omogenei (Konieczny et al., 2013). Non è una controindicazione alla maggior parte degli sport: le linee guida SOSORT 2016 raccomandano di continuare lo sport, anche durante il trattamento con corsetto, e di non prescriverlo come cura.",
+    nameEn: 'Adolescent idiopathic scoliosis',
+    descriptionEn:
+      'A sideways curve of the spine of at least 10°, measured with the Cobb angle, with no identifiable cause, appearing between the ages of 10 and 18 and tending to worsen during growth, before skeletal maturity (USPSTF, 2018). It is a three-dimensional deformity, with rotation of the vertebrae (Negrini et al., 2018). It affects 1-3% of 10-16-year-olds (Weinstein et al., 2008); the female-to-male ratio is 1.4:1 in curves of 10-20° and rises to 7.2:1 in curves above 40°, in school-screening data with inconsistent methods (Konieczny et al., 2013). It is not a contraindication to most sports: the 2016 SOSORT guidelines recommend continuing sport, including during brace treatment, and not prescribing it as a treatment.',
+    sameAs: 'https://en.wikipedia.org/wiki/Scoliosis',
+  },
+  'angolo-di-cobb': {
+    name: 'Angolo di Cobb',
+    description:
+      "La misura standard dell'entità di una scoliosi: l'angolo formato dalle linee tangenti alle vertebre più inclinate alle due estremità della curva, misurato su una radiografia della colonna in piedi. Un angolo di almeno 10° definisce la scoliosi; sotto quella soglia si parla di asimmetria (USPSTF, 2018). Nello studio BrAIST su 242 adolescenti la progressione a 50° o più era la soglia di fallimento del trattamento con corsetto, perché vicina all'indicazione chirurgica: la raggiungeva il 28% di chi portava il corsetto contro il 52% di chi era solo osservato (Weinstein et al., 2013).",
+    nameEn: 'Cobb angle',
+    descriptionEn:
+      'The standard measurement of the size of a scoliosis: the angle formed by lines drawn along the most tilted vertebrae at the two ends of the curve, measured on a standing X-ray of the spine. An angle of at least 10° defines scoliosis; below that threshold the term is asymmetry (USPSTF, 2018). In the BrAIST trial of 242 adolescents, progression to 50° or more was the threshold for bracing failure, being close to the indication for surgery: it was reached by 28% of braced patients against 52% of those only observed (Weinstein et al., 2013).',
+    sameAs: 'https://en.wikipedia.org/wiki/Cobb_angle',
+  },
+  'test-di-adams': {
+    name: 'Test di Adams (flessione anteriore del busto)',
+    description:
+      "Test clinico di screening della scoliosi: la persona si piega in avanti a gambe tese e si osserva se un lato della schiena appare più alto dell'altro, segno della rotazione vertebrale; con lo scoliometro si misura l'angolo di rotazione del tronco. Nello screening scolastico su 4.000 dodicenni norvegesi la soglia per l'invio a radiografia era un gibbo superiore a 7°, e la scoliosi confermata riguardava lo 0,55% (Adobor et al., 2011). Le linee guida SOSORT raccomandano che pediatri, medici di famiglia e medici dello sport lo eseguano a ogni visita fra gli 8 e i 15 anni (Negrini et al., 2018); negli Stati Uniti le prove sui benefici dello screening di popolazione sono giudicate insufficienti (USPSTF, 2018). È uno strumento di screening, non di diagnosi: la diagnosi richiede la misura radiografica dell'angolo di Cobb.",
+    nameEn: 'Adams forward bend test',
+    descriptionEn:
+      'A clinical screening test for scoliosis: the person bends forward with straight legs and the examiner looks for one side of the back sitting higher than the other, a sign of vertebral rotation; a scoliometer measures the angle of trunk rotation. In a school screening of 4,000 Norwegian twelve-year-olds the threshold for X-ray referral was a rib hump above 7°, and confirmed scoliosis affected 0.55% (Adobor et al., 2011). The SOSORT guidelines recommend that paediatricians, GPs and sports physicians perform it at every visit between the ages of 8 and 15 (Negrini et al., 2018); in the United States the evidence on the benefits of population screening is judged insufficient (USPSTF, 2018). It is a screening tool, not a diagnostic one: diagnosis requires a radiographic Cobb angle measurement.',
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;

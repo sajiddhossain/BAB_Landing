@@ -965,6 +965,56 @@ export const FACTS: Fact[] = [
     source: 'Hartill et al., 2023',
     doi: '10.1016/j.chiabu.2023.106513',
   },
+  {
+    id: 'scoliosi-idiopatica-sport-giovani-atlete-1',
+    article: 'scoliosi-idiopatica-sport-giovani-atlete',
+    claim:
+      'Nella scoliosi idiopatica adolescenziale il rapporto femmine:maschi è 1,4:1 nelle curve fra 10° e 20° e sale a 7,2:1 in quelle oltre 40°; la prevalenza complessiva riportata va dallo 0,47% al 5,2%. Popolazione: revisione di studi di SCREENING SCOLASTICO con età, metodi e criteri diagnostici NON CONFRONTABILI fra loro.',
+    claimEn:
+      'In adolescent idiopathic scoliosis the female-to-male ratio is 1.4:1 in curves of 10-20° and rises to 7.2:1 in curves above 40°; reported overall prevalence ranges from 0.47% to 5.2%. Population: review of SCHOOL-SCREENING studies whose ages, methods and diagnostic criteria are NOT COMPARABLE.',
+    source: 'Konieczny et al., 2013',
+    doi: '10.1007/s11832-012-0457-4',
+  },
+  {
+    id: 'scoliosi-idiopatica-sport-giovani-atlete-2',
+    article: 'scoliosi-idiopatica-sport-giovani-atlete',
+    claim:
+      "Fra 100 ragazze che praticavano ginnastica ritmica la scoliosi riguardava il 12%, contro l'1,1% delle coetanee non sportive. Popolazione: singolo gruppo di ginnaste, studio TRASVERSALE; associazione, causa NON dimostrata.",
+    claimEn:
+      'Among 100 girls doing rhythmic gymnastics, scoliosis affected 12%, against 1.1% of non-sporting peers. Population: a single group of gymnasts, CROSS-SECTIONAL study; association, causation NOT shown.',
+    source: 'Tanchev et al., 2000',
+    doi: '10.1097/00007632-200006010-00008',
+  },
+  {
+    id: 'scoliosi-idiopatica-sport-giovani-atlete-3',
+    article: 'scoliosi-idiopatica-sport-giovani-atlete',
+    claim:
+      "Una storia di attività fisica vigorosa è associata a una probabilità del 24% più bassa di ricevere una diagnosi di scoliosi idiopatica adolescenziale (OR 0,76; IC 95% 0,65-0,89). Danza e ginnastica sono gli unici sport associati alla diagnosi, con direzione dell'associazione incerta. Popolazione: meta-analisi di 16 studi OSSERVAZIONALI, 9.627 partecipanti, 95% femmine.",
+    claimEn:
+      'A history of vigorous physical activity is associated with 24% lower odds of an adolescent idiopathic scoliosis diagnosis (OR 0.76; 95% CI 0.65-0.89). Ballet and gymnastics are the only sports associated with diagnosis, with the direction of association uncertain. Population: meta-analysis of 16 OBSERVATIONAL studies, 9,627 participants, 95% female.',
+    source: 'Newman et al., 2023',
+    doi: '10.1016/j.apmr.2023.01.019',
+  },
+  {
+    id: 'scoliosi-idiopatica-sport-giovani-atlete-4',
+    article: 'scoliosi-idiopatica-sport-giovani-atlete',
+    claim:
+      "Con un corsetto prescritto per almeno 18 ore al giorno, il 72% degli adolescenti con scoliosi idiopatica a rischio arriva a fine crescita senza progredire a 50° o più, contro il 48% di chi è solo osservato; il successo cresce con le ore di utilizzo. Popolazione: 242 pazienti dello studio multicentrico BrAIST (coorte randomizzata più coorte per preferenza).",
+    claimEn:
+      'With a brace prescribed for at least 18 hours a day, 72% of adolescents with at-risk idiopathic scoliosis reach the end of growth without progressing to 50° or more, against 48% of those only observed; success rises with hours of wear. Population: 242 patients in the multicentre BrAIST trial (randomised plus preference cohort).',
+    source: 'Weinstein et al., 2013',
+    doi: '10.1056/NEJMoa1307337',
+  },
+  {
+    id: 'scoliosi-idiopatica-sport-giovani-atlete-5',
+    article: 'scoliosi-idiopatica-sport-giovani-atlete',
+    claim:
+      "Dopo artrodesi vertebrale posteriore per scoliosi idiopatica adolescenziale la maggior parte dei pazienti torna allo sport entro un anno, in genere fra gli 8 e i 12 mesi; età maggiore, curve più ampie, fusioni più estese e paura di farsi male ritardano il rientro. Popolazione: revisione sistematica di 11 studi, 722 pazienti con età media di 15,2 anni; livello di evidenza 4.",
+    claimEn:
+      'After posterior spinal fusion for adolescent idiopathic scoliosis most patients return to sport within a year, usually between 8 and 12 months; older age, larger curves, longer fusions and fear of injury delay return. Population: systematic review of 11 studies, 722 patients with a mean age of 15.2; level of evidence 4.',
+    source: 'Nassar et al., 2026',
+    doi: '10.1177/03635465251390546',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

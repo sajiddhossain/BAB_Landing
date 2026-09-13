@@ -4,7 +4,7 @@ title: "Dolori mestruali e sport: quanto dolore è normale e cosa funziona davve
 seoTitle: "Dolori mestruali e sport: cosa funziona davvero"
 seoDescription: "La dismenorrea riguarda il 71,1% delle giovani. Cosa funziona davvero (calore, esercizio, FANS) e quando un dolore che ferma la vita va fatto valutare."
 date: 2026-08-10
-updated: 2026-08-20
+updated: 2026-09-13
 author: Sajid Hossain
 excerpt: "Il 71% delle giovani donne under 25 ha dolori mestruali e una su cinque salta la scuola per questo. Tra le atlete la dismenorrea è il disturbo del ciclo più frequente. Eppure quasi nessuno spiega a una ragazza di 14 anni due cose semplici: che il dolore ha trattamenti con prove alle spalle — esercizio, calore, farmaci — e che un dolore che continua a farle saltare gli allenamenti non è qualcosa da sopportare, è qualcosa da far valutare."
 answer: "Un dolore che fa saltare scuola o allenamenti non è normale, per quanto sia comune: la dismenorrea riguarda il 71,1% delle giovani donne under 25 e il 20,1% ha saltato la scuola per questo (Armour et al., 2019). Hanno effetto misurato l'esercizio fisico (SMD -1,86) e il calore, con qualità delle prove bassa; se non migliora entro 3-6 mesi va indagata una causa secondaria."
@@ -99,9 +99,9 @@ Niente di clinico. Tre cose pratiche, tutte a costo zero:
 
 E una cosa da **non** fare: chiedere diagnosi, dettagli o date. Allo staff non serve il dato clinico della singola atleta — serve sapere come dosare la seduta di oggi.
 
-## Quando parlare con un medico
+## Quando i dolori mestruali vanno fatti valutare da un medico?
 
-Sono motivi ragionevoli per chiedere una valutazione, senza allarmismi e senza aspettare:
+**Quando il dolore fa saltare regolarmente scuola o allenamenti, non migliora entro 3-6 mesi da un trattamento, compare anche fuori dai giorni del ciclo o peggiora mese dopo mese.** Sono motivi ragionevoli per chiedere una valutazione, senza allarmismi e senza aspettare:
 
 - dolore che fa **saltare regolarmente** scuola o allenamenti;
 - dolore che **non migliora entro 3-6 mesi** dall'inizio di un trattamento (ACOG, 2018);
@@ -110,6 +110,8 @@ Sono motivi ragionevoli per chiedere una valutazione, senza allarmismi e senza a
 - dolore che **peggiora progressivamente** mese dopo mese.
 
 Nessuno di questi punti è una diagnosi. Sono soglie: servono a decidere quando smettere di aspettare.
+
+## Il ruolo di BAB
 
 BAB accompagna le atlete adolescenti a riconoscere e nominare i segnali del proprio corpo — energia, recupero, dolore, ciclo — in uno spazio privato, e dà a famiglie e società gli strumenti per sostenerle senza mai chiedere loro di esporsi. Perché "sono solo dolori" non sia più la fine della conversazione.
 

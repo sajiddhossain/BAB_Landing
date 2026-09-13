@@ -1,6 +1,190 @@
 {
   "posts": [
     {
+      "slug": "scoliosi-idiopatica-sport-giovani-atlete",
+      "lang": "it",
+      "title": "Scoliosi e sport a 13 anni: perché una curva nella schiena non è un motivo per smettere",
+      "seoTitle": "Scoliosi e sport nelle ragazze: cosa dicono i dati",
+      "seoDescription": "Nelle curve oltre i 40° le ragazze sono 7 volte i ragazzi. Sport associati, corsetto, rientro dopo l'intervento: perché la scoliosi quasi mai vieta lo sport.",
+      "date": "2026-09-13",
+      "updated": "2026-09-13",
+      "author": "Sajid Hossain",
+      "excerpt": "La scoliosi idiopatica adolescenziale compare proprio negli anni in cui una ragazza cresce e si allena di più, e quando la curva è importante riguarda quasi solo le ragazze. Nella ginnastica ritmica e nella danza è più frequente, e al nuoto viene attribuito un potere curativo che i dati non confermano. Cosa sappiamo davvero del rapporto fra sport e scoliosi, cosa cambia con il corsetto e dopo un intervento, e perché le linee guida chiedono di non togliere lo sport a chi ha una curva.",
+      "answer": "Quasi mai. La scoliosi idiopatica adolescenziale — una curva di almeno 10° misurata con l'angolo di Cobb — riguarda l'1-3% dei 10-16enni, e nelle curve oltre i 40° le ragazze sono 7,2 volte i ragazzi (Weinstein et al., 2008; Konieczny et al., 2013, dati da screening scolastici con metodi non omogenei). Le linee guida SOSORT 2016 raccomandano di continuare lo sport, anche con il corsetto.",
+      "cover": "/fotobab/cover-scoliosi-sport.jpg",
+      "coverAlt": "Due mani fasciate, con paracalli da ginnastica e polsiere verdi, strette su una sbarra orizzontale su fondo scuro; l'atleta non è inquadrata oltre i polsi",
+      "tags": [
+        "scoliosi-idiopatica-adolescenziale",
+        "angolo-di-cobb",
+        "test-di-adams",
+        "ipermobilità-articolare",
+        "picco-di-crescita",
+        "ginnastica"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Che cos'è la scoliosi idiopatica adolescenziale, e come si misura?",
+          "id": "che-cose-la-scoliosi-idiopatica-adolescenziale-e-come-si"
+        },
+        {
+          "level": 2,
+          "text": "Quante ragazze ne sono interessate, e perché più dei ragazzi?",
+          "id": "quante-ragazze-ne-sono-interessate-e-perche-piu-dei-ragazzi"
+        },
+        {
+          "level": 2,
+          "text": "Ginnastica, danza e nuoto causano la scoliosi?",
+          "id": "ginnastica-danza-e-nuoto-causano-la-scoliosi"
+        },
+        {
+          "level": 2,
+          "text": "Fare sport aumenta o riduce il rischio di scoliosi?",
+          "id": "fare-sport-aumenta-o-riduce-il-rischio-di-scoliosi"
+        },
+        {
+          "level": 2,
+          "text": "Una ragazza con la scoliosi deve smettere di fare sport?",
+          "id": "una-ragazza-con-la-scoliosi-deve-smettere-di-fare-sport"
+        },
+        {
+          "level": 2,
+          "text": "Si può fare sport con il corsetto?",
+          "id": "si-puo-fare-sport-con-il-corsetto"
+        },
+        {
+          "level": 2,
+          "text": "Si torna a fare sport dopo un intervento?",
+          "id": "si-torna-a-fare-sport-dopo-un-intervento"
+        },
+        {
+          "level": 2,
+          "text": "Ipermobilità, ossa e ciclo: che cosa c'entrano?",
+          "id": "ipermobilita-ossa-e-ciclo-che-cosa-centrano"
+        },
+        {
+          "level": 2,
+          "text": "Come se ne accorge chi sta intorno all'atleta?",
+          "id": "come-se-ne-accorge-chi-sta-intorno-allatleta"
+        },
+        {
+          "level": 2,
+          "text": "Cosa può fare una società sportiva, senza fare diagnosi?",
+          "id": "cosa-puo-fare-una-societa-sportiva-senza-fare-diagnosi"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Quando rivolgersi a un professionista?",
+          "id": "quando-rivolgersi-a-un-professionista"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 5042,
+      "readingMinutes": 25,
+      "timeRequired": "PT25M"
+    },
+    {
+      "slug": "scoliosi-idiopatica-sport-giovani-atlete",
+      "lang": "en",
+      "title": "Scoliosis and sport at 13: why a curve in the spine is not a reason to stop",
+      "seoTitle": "Scoliosis and sport in girls: what the data say",
+      "seoDescription": "In curves above 40° girls outnumber boys 7 to 1. Linked sports, bracing, return after surgery: why scoliosis almost never rules out sport.",
+      "date": "2026-09-13",
+      "updated": "2026-09-13",
+      "author": "Sajid Hossain",
+      "excerpt": "Adolescent idiopathic scoliosis appears in exactly the years when a girl is growing and training most, and when the curve is significant it affects girls almost exclusively. It is more common in rhythmic gymnastics and ballet, and swimming is credited with a healing power the data do not confirm. What we actually know about sport and scoliosis, what changes with a brace and after surgery, and why the guidelines ask us not to take sport away from a girl with a curve.",
+      "answer": "Almost never. Adolescent idiopathic scoliosis — a curve of at least 10° measured with the Cobb angle — affects 1-3% of 10-16-year-olds, and in curves above 40° girls outnumber boys 7.2 to 1 (Weinstein et al., 2008; Konieczny et al., 2013, from school-screening data with inconsistent methods). The 2016 SOSORT guidelines recommend continuing sport, including during brace treatment.",
+      "cover": "/fotobab/cover-scoliosi-sport.jpg",
+      "coverAlt": "Two taped hands, with gymnastics grips and green wrist straps, gripping a horizontal bar against a dark background; the athlete is not shown beyond the wrists",
+      "tags": [
+        "adolescent-idiopathic-scoliosis",
+        "cobb-angle",
+        "adams-forward-bend-test",
+        "joint-hypermobility",
+        "peak-height-velocity",
+        "gymnastics"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is adolescent idiopathic scoliosis, and how is it measured?",
+          "id": "what-is-adolescent-idiopathic-scoliosis-and-how-is-it"
+        },
+        {
+          "level": 2,
+          "text": "How many girls are affected, and why more than boys?",
+          "id": "how-many-girls-are-affected-and-why-more-than-boys"
+        },
+        {
+          "level": 2,
+          "text": "Do gymnastics, ballet and swimming cause scoliosis?",
+          "id": "do-gymnastics-ballet-and-swimming-cause-scoliosis"
+        },
+        {
+          "level": 2,
+          "text": "Does sport increase or reduce the risk of scoliosis?",
+          "id": "does-sport-increase-or-reduce-the-risk-of-scoliosis"
+        },
+        {
+          "level": 2,
+          "text": "Does a girl with scoliosis have to stop playing sport?",
+          "id": "does-a-girl-with-scoliosis-have-to-stop-playing-sport"
+        },
+        {
+          "level": 2,
+          "text": "Can you play sport while wearing a brace?",
+          "id": "can-you-play-sport-while-wearing-a-brace"
+        },
+        {
+          "level": 2,
+          "text": "Can you return to sport after surgery?",
+          "id": "can-you-return-to-sport-after-surgery"
+        },
+        {
+          "level": 2,
+          "text": "Hypermobility, bone and periods: how do they fit in?",
+          "id": "hypermobility-bone-and-periods-how-do-they-fit-in"
+        },
+        {
+          "level": 2,
+          "text": "How do the people around an athlete notice it?",
+          "id": "how-do-the-people-around-an-athlete-notice-it"
+        },
+        {
+          "level": 2,
+          "text": "What can a sports club do without making diagnoses?",
+          "id": "what-can-a-sports-club-do-without-making-diagnoses"
+        },
+        {
+          "level": 2,
+          "text": "What BAB does here",
+          "id": "what-bab-does-here"
+        },
+        {
+          "level": 2,
+          "text": "When should you see a professional?",
+          "id": "when-should-you-see-a-professional"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 4829,
+      "readingMinutes": 24,
+      "timeRequired": "PT24M"
+    },
+    {
       "slug": "safeguarding-abusi-nello-sport-giovani-atlete",
       "lang": "it",
       "title": "Quattro su dieci: i numeri italiani su abusi e violenza nello sport, e cosa deve avere una società",
@@ -1020,10 +1204,10 @@
       "slug": "ipermobilita-articolare-giovani-atlete",
       "lang": "it",
       "title": "Ipermobilità articolare: essere «elastiche» è un talento o un rischio?",
-      "seoTitle": "Ipermobilità articolare nelle giovani atlete",
+      "seoTitle": "Ipermobilità articolare nello sport: rischio o talento?",
       "seoDescription": "Il pollice che tocca l'avambraccio non è un talento né una diagnosi. A 14 anni la soglia del Beighton è più alta che nell'adulta: cosa dicono davvero i dati.",
       "date": "2026-08-23",
-      "updated": "2026-08-23",
+      "updated": "2026-09-13",
       "author": "Sajid Hossain",
       "excerpt": "Nella danza e nella ginnastica l'articolazione che va «oltre» viene letta come dote; in palestra, come fragilità. I dati non danno ragione a nessuna delle due letture. Il punteggio di Beighton misura una caratteristica diffusa — nelle ragazze quasi il doppio che nei ragazzi — la cui soglia cambia con l'età, e il cui legame con dolore e infortuni è reale ma molto più stretto e specifico di quanto si racconti a bordo campo. Che cosa aumenta davvero il rischio, che cosa non lo aumenta affatto, e perché «elastica» non vuol dire «debole».",
       "answer": "Né l'uno né l'altro di per sé: è una caratteristica diffusa. In una meta-analisi su 21.145 bambini e adolescenti la prevalenza è del 34,1%, e nelle ragazze è quasi il doppio che nei ragazzi (32,5% contro 18,1%; Sobhani-Eraghi et al., 2020). Il rischio in più è specifico — il ginocchio negli sport di contatto — non generale (Pacey et al., 2010).",
@@ -1087,18 +1271,18 @@
           "id": "fonti"
         }
       ],
-      "words": 2920,
-      "readingMinutes": 15,
-      "timeRequired": "PT15M"
+      "words": 3236,
+      "readingMinutes": 16,
+      "timeRequired": "PT16M"
     },
     {
       "slug": "ipermobilita-articolare-giovani-atlete",
       "lang": "en",
       "title": "Joint hypermobility: is being «bendy» a gift or a risk?",
-      "seoTitle": "Joint hypermobility in young female athletes",
+      "seoTitle": "Joint hypermobility in sport: a risk or a gift?",
       "seoDescription": "A thumb that touches the forearm is neither a talent nor a diagnosis. At 14 the Beighton cut-off is higher than an adult's — here is what the data actually say.",
       "date": "2026-08-23",
-      "updated": "2026-08-23",
+      "updated": "2026-09-13",
       "author": "Sajid Hossain",
       "excerpt": "In dance and gymnastics a joint that goes «beyond» is read as a gift; in the gym, as fragility. The data back neither reading. The Beighton score measures a common characteristic — almost twice as common in girls as in boys — whose cut-off changes with age, and whose link with pain and injury is real but far narrower and more specific than the sideline version of it. What actually raises the risk, what does not raise it at all, and why «bendy» does not mean «weak».",
       "answer": "Neither, in itself: it is a common characteristic. In a meta-analysis of 21,145 children and adolescents the prevalence is 34.1%, and in girls it is almost double that in boys (32.5% vs 18.1%; Sobhani-Eraghi et al., 2020). The added risk is specific — the knee in contact sports — not general (Pacey et al., 2010).",
@@ -1162,18 +1346,18 @@
           "id": "sources"
         }
       ],
-      "words": 2833,
-      "readingMinutes": 14,
-      "timeRequired": "PT14M"
+      "words": 3133,
+      "readingMinutes": 16,
+      "timeRequired": "PT16M"
     },
     {
       "slug": "dolore-inguine-giovani-atlete",
       "lang": "it",
       "title": "Dolore all'inguine a 14 anni: perché quasi mai è «uno stiramento»",
-      "seoTitle": "Dolore all'inguine nelle giovani atlete",
+      "seoTitle": "Dolore all'inguine a 14 anni: quasi mai uno stiramento",
       "seoDescription": "Nel corpo che cresce l'anello debole dell'inguine non è il muscolo ma l'apofisi: età media 13,6-16,8 anni. Cosa dicono i dati e quando far vedere.",
       "date": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-09-13",
       "author": "Sajid Hossain",
       "excerpt": "Nelle calciatrici il dolore all'anca e all'inguine tocca il 60,7% in una stagione, ma solo l'11,1% dei casi fa saltare un allenamento: è l'infortunio che non entra in nessun registro perché nessuna si ferma. E nel corpo che cresce non si rompe dove si romperebbe in un'adulta: fra i 13 e i 17 anni l'anello debole non è il muscolo, è l'apofisi. I dati, i limiti dei dati, e i due segnali che non vanno aspettati.",
       "answer": "Nel corpo che cresce il punto debole dell'inguine non è il ventre muscolare ma l'apofisi, il nucleo di accrescimento su cui il tendine si attacca: nelle serie di avulsioni pelviche l'età media va da 13,6 a 16,8 anni e le sedi più colpite sono spina iliaca antero-superiore (37%), antero-inferiore (31%) e tuberosità ischiatica (14%) (Di Maria et al., 2022; campione all'82% maschile). È per questo che il modello «stiramento dell'adduttore» dell'adulta descrive male quello che succede a 14 anni.",
@@ -1229,7 +1413,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2555,
+      "words": 2580,
       "readingMinutes": 13,
       "timeRequired": "PT13M"
     },
@@ -1237,10 +1421,10 @@
       "slug": "dolore-inguine-giovani-atlete",
       "lang": "en",
       "title": "Groin pain at 14: why it is almost never «a pulled muscle»",
-      "seoTitle": "Groin pain in young female athletes",
+      "seoTitle": "Groin pain at 14: why it is rarely just a strain",
       "seoDescription": "In a growing body the weak link in the groin is the apophysis, not the muscle: mean ages 13.6-16.8. What the data say and when to get it looked at.",
       "date": "2026-08-21",
-      "updated": "2026-08-21",
+      "updated": "2026-09-13",
       "author": "Sajid Hossain",
       "excerpt": "In women's football, hip and groin problems reach a 60.7% seasonal prevalence — yet only 11.1% of them cost a single training session. It is the injury that never makes it into the records, because almost nobody stops. And in a growing body the chain does not break where it would break in an adult: between 13 and 17 the weak link is not the muscle, it is the apophysis. The data, the limits of the data, and the two signals not worth waiting on.",
       "answer": "In a growing body the weak link in the groin is not the muscle belly but the apophysis, the growth centre the tendon attaches to: across pelvic avulsion series mean ages run from 13.6 to 16.8 years, and the commonest sites are the anterior superior iliac spine (37%), the anterior inferior iliac spine (31%) and the ischial tuberosity (14%) (Di Maria et al., 2022; sample 82% male). That is why the adult 'adductor strain' model describes what happens at 14 rather badly.",
@@ -1296,9 +1480,9 @@
           "id": "sources"
         }
       ],
-      "words": 2491,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2515,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "fiato-corto-giovani-atlete",
@@ -2003,7 +2187,7 @@
       "seoTitle": "Dolori mestruali e sport: cosa funziona davvero",
       "seoDescription": "La dismenorrea riguarda il 71,1% delle giovani. Cosa funziona davvero (calore, esercizio, FANS) e quando un dolore che ferma la vita va fatto valutare.",
       "date": "2026-08-10",
-      "updated": "2026-08-20",
+      "updated": "2026-09-13",
       "author": "Sajid Hossain",
       "excerpt": "Il 71% delle giovani donne under 25 ha dolori mestruali e una su cinque salta la scuola per questo. Tra le atlete la dismenorrea è il disturbo del ciclo più frequente. Eppure quasi nessuno spiega a una ragazza di 14 anni due cose semplici: che il dolore ha trattamenti con prove alle spalle — esercizio, calore, farmaci — e che un dolore che continua a farle saltare gli allenamenti non è qualcosa da sopportare, è qualcosa da far valutare.",
       "answer": "Un dolore che fa saltare scuola o allenamenti non è normale, per quanto sia comune: la dismenorrea riguarda il 71,1% delle giovani donne under 25 e il 20,1% ha saltato la scuola per questo (Armour et al., 2019). Hanno effetto misurato l'esercizio fisico (SMD -1,86) e il calore, con qualità delle prove bassa; se non migliora entro 3-6 mesi va indagata una causa secondaria.",
@@ -2048,8 +2232,13 @@
         },
         {
           "level": 2,
-          "text": "Quando parlare con un medico",
-          "id": "quando-parlare-con-un-medico"
+          "text": "Quando i dolori mestruali vanno fatti valutare da un medico?",
+          "id": "quando-i-dolori-mestruali-vanno-fatti-valutare-da-un-medico"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
         },
         {
           "level": 2,
@@ -2057,7 +2246,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2423,
+      "words": 2462,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -2068,7 +2257,7 @@
       "seoTitle": "Period pain and sport: what actually works",
       "seoDescription": "Dysmenorrhoea affects 71.1% of young women. What actually works (heat, exercise, NSAIDs) and when pain that stops life needs assessing.",
       "date": "2026-08-10",
-      "updated": "2026-08-20",
+      "updated": "2026-09-13",
       "author": "Sajid Hossain",
       "excerpt": "71% of young women under 25 have period pain, and one in five has already missed school because of it. Among athletes, dysmenorrhoea is the most common menstrual cycle disorder. Yet almost nobody tells a 14-year-old two simple things: that period pain has treatments with evidence behind them — exercise, heat, medication — and that pain which keeps making her miss training is not something to endure, it is something to have assessed.",
       "answer": "Pain that costs school days or training sessions is not normal, however common it is: dysmenorrhoea affects 71.1% of young women under 25, and 20.1% have missed school because of it (Armour et al., 2019). Exercise (SMD -1.86) and heat have a measured effect, with low-quality evidence; if it does not improve within 3-6 months, a secondary cause should be investigated.",
@@ -2113,8 +2302,13 @@
         },
         {
           "level": 2,
-          "text": "When to speak to a doctor",
-          "id": "when-to-speak-to-a-doctor"
+          "text": "When should period pain be checked by a doctor?",
+          "id": "when-should-period-pain-be-checked-by-a-doctor"
+        },
+        {
+          "level": 2,
+          "text": "What BAB does here",
+          "id": "what-bab-does-here"
         },
         {
           "level": 2,
@@ -2122,7 +2316,7 @@
           "id": "sources"
         }
       ],
-      "words": 2367,
+      "words": 2406,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -2837,7 +3031,7 @@
       "seoTitle": "Fratture da stress nelle giovani atlete: prevenzione",
       "seoDescription": "Le ragazze subiscono fratture da stress 1,75 volte più dei coetanei, e l'osso si costruisce entro i 18 anni. Energia, ciclo e carico: cosa dice l'evidenza.",
       "date": "2026-07-28",
-      "updated": "2026-08-28",
+      "updated": "2026-09-13",
       "author": "Sajid Hossain",
       "excerpt": "Nelle scuole superiori americane le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi, e sono il 63% di tutti i casi. Non è sfortuna: è un osso che si sta ancora costruendo, in una finestra che si chiude verso i 18 anni. Cosa dicono i dati, quali segnali guardare e cosa costruisce osso davvero.",
       "answer": "Perché l'osso si costruisce adesso e la finestra si chiude verso i 18 anni. Nelle scuole superiori le ragazze subiscono fratture da stress 1,75 volte più spesso dei coetanei maschi e rappresentano il 63,3% dei casi (Changstrom et al., 2015); il moltiplicatore non è il carico da solo, ma il carico senza abbastanza energia a coprirlo.",
@@ -2892,9 +3086,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2614,
-      "readingMinutes": 13,
-      "timeRequired": "PT13M"
+      "words": 2864,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
     },
     {
       "slug": "salute-ossea-fratture-da-stress-giovani-atlete",
@@ -2903,7 +3097,7 @@
       "seoTitle": "Stress fractures in young female athletes",
       "seoDescription": "Girls sustain stress fractures 1.75 times as often as male peers, and bone is built before 18. Energy, periods and load: what the evidence says.",
       "date": "2026-07-28",
-      "updated": "2026-08-28",
+      "updated": "2026-09-13",
       "author": "Sajid Hossain",
       "excerpt": "In US high school sport, girls sustain stress fractures 1.75 times as often as boys and account for 63% of all cases. That is not bad luck: it is a skeleton still under construction, inside a window that closes around age 18. What the data say, which signs to watch, and what actually builds bone.",
       "answer": "Because bone is built now and the window closes towards age 18. In high-school sport, girls sustain stress fractures 1.75 times as often as male peers and account for 63.3% of cases (Changstrom et al., 2015); the multiplier is not load on its own, but load without enough energy to cover it.",
@@ -2958,9 +3152,9 @@
           "id": "sources"
         }
       ],
-      "words": 2438,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2687,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "specializzazione-precoce-giovani-atlete",

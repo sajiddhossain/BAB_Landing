@@ -65,6 +65,12 @@ export const AUTOLINK_TERMS: Record<string, { it: string[]; en: string[] }> = {
     it: ["burnout dell'atleta", 'burnout sportivo'],
     en: ['athlete burnout', 'sport burnout'],
   },
+  'scoliosi-idiopatica-adolescenziale': {
+    it: ['scoliosi idiopatica adolescenziale'],
+    en: ['adolescent idiopathic scoliosis'],
+  },
+  'angolo-di-cobb': { it: ['angolo di Cobb'], en: ['Cobb angle'] },
+  'test-di-adams': { it: ['test di Adams'], en: ['Adams forward bend test'] },
 };
 
 /** Oltre questa soglia i link al glossario smettono di aiutare e iniziano a distrarre. */

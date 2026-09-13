@@ -349,3 +349,21 @@
   persona reale riconoscibile.
   Fonte diversa dal solito rawpixel perché in questa sessione `images.rawpixel.com` e `pd.w.org` non
   erano raggiungibili.
+
+## cover-scoliosi-sport.jpg
+- Titolo originale: "Gymnast's hands gripping bar" (due mani fasciate, con paracalli e polsiere verdi, strette su
+  una sbarra orizzontale su fondo scuro)
+- Fonte: rawpixel — https://www.rawpixel.com/image/5925467/photo-image-public-domain-hands-free
+  (reperita via Openverse, filtro licenza cc0/pdm; id Openverse `ef21c7f4-e91c-4567-a158-19aae5dcfe3b`)
+- Autore: non indicato dalla fonte (metadati EXIF: «free public domain CC0 photo», software rawpixel.com)
+- Licenza: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/) — pubblico dominio, uso libero anche
+  commerciale, attribuzione non obbligatoria; registrata qui per tracciabilità
+- Uso: cover articolo blog "scoliosi idiopatica adolescenziale e sport" (IT + EN)
+- Lavorazione: rendition `editor_1024` (non filigranata; la `image_1300` lo è), servita come WebP 1024x683 →
+  convertita in JPEG con `sips`, ritaglio 16:9 a 1024x576 con offset verticale di 90 px per tenere mani e
+  sbarra nell'inquadratura, JPEG q82. Nessun ritocco.
+  Nessun volto e nessuna persona identificabile: dell'atleta si vedono solo mani e avambracci. Nessun marchio
+  leggibile. Scelta deliberata di un dettaglio di attrezzo da ginnastica: l'articolo parla di colonna e di sport
+  come la ginnastica, e una schiena reale — per di più di un'adolescente — sarebbe stata un corpo esposto come
+  «caso clinico». Scartate in fase di selezione: foto di ginnaste ritmiche in gara riconoscibili (persone reali
+  identificabili, fonte Wikimedia) e immagini «balance beam» che si sono rivelate non pertinenti.

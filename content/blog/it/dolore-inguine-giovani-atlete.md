@@ -1,10 +1,10 @@
 ---
 slug: dolore-inguine-giovani-atlete
 title: "Dolore all'inguine a 14 anni: perché quasi mai è «uno stiramento»"
-seoTitle: "Dolore all'inguine nelle giovani atlete"
+seoTitle: "Dolore all'inguine a 14 anni: quasi mai uno stiramento"
 seoDescription: "Nel corpo che cresce l'anello debole dell'inguine non è il muscolo ma l'apofisi: età media 13,6-16,8 anni. Cosa dicono i dati e quando far vedere."
 date: 2026-08-21
-updated: 2026-08-21
+updated: 2026-09-13
 author: Sajid Hossain
 excerpt: "Nelle calciatrici il dolore all'anca e all'inguine tocca il 60,7% in una stagione, ma solo l'11,1% dei casi fa saltare un allenamento: è l'infortunio che non entra in nessun registro perché nessuna si ferma. E nel corpo che cresce non si rompe dove si romperebbe in un'adulta: fra i 13 e i 17 anni l'anello debole non è il muscolo, è l'apofisi. I dati, i limiti dei dati, e i due segnali che non vanno aspettati."
 answer: "Nel corpo che cresce il punto debole dell'inguine non è il ventre muscolare ma l'apofisi, il nucleo di accrescimento su cui il tendine si attacca: nelle serie di avulsioni pelviche l'età media va da 13,6 a 16,8 anni e le sedi più colpite sono spina iliaca antero-superiore (37%), antero-inferiore (31%) e tuberosità ischiatica (14%) (Di Maria et al., 2022; campione all'82% maschile). È per questo che il modello «stiramento dell'adduttore» dell'adulta descrive male quello che succede a 14 anni."
@@ -116,7 +116,7 @@ La sintesi onesta è questa: rinforzare gli adduttori è a basso rischio, coeren
 
 Tre cose, e nessuna richiede competenze cliniche.
 
-**Chiedere invece di aspettare.** Il dato che apre questo articolo — solo l'11,1% dei problemi d'anca e inguine porta a saltare qualcosa ([Reichmann et al., 2025](https://doi.org/10.1016/j.smhs.2025.04.005)) — significa che il canale spontaneo non funziona: chi ha male continua a giocare, quindi non lo dice. Una domanda diretta nel giro di campo vale più di una porta aperta.
+**Chiedere invece di aspettare.** Il dato che apre questo articolo — solo l'11,1% dei problemi d'anca e inguine porta a saltare qualcosa ([Reichmann et al., 2025](https://doi.org/10.1016/j.smhs.2025.04.005)) — significa che il canale spontaneo non funziona: chi ha male continua a giocare, quindi non lo dice. È lo stesso silenzio che accompagna altri sintomi dello sport giovanile, dalle [perdite di urina durante i salti](/blog/perdite-urina-giovani-atlete) al [ginocchio che fa male da mesi](/blog/dolore-ginocchio-femoro-rotuleo-giovani-atlete). Una domanda diretta nel giro di campo vale più di una porta aperta.
 
 **Distinguere il come è cominciato.** Un dolore comparso gradualmente in settimane di scatti e cambi di direzione e un dolore comparso di colpo durante uno sprint sono due storie diverse: la seconda, in un corpo in crescita, è uno scenario da far vedere.
 

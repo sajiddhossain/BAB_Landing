@@ -4,7 +4,7 @@ title: "Period pain and sport: how much pain is normal, and what actually works"
 seoTitle: "Period pain and sport: what actually works"
 seoDescription: "Dysmenorrhoea affects 71.1% of young women. What actually works (heat, exercise, NSAIDs) and when pain that stops life needs assessing."
 date: 2026-08-10
-updated: 2026-08-20
+updated: 2026-09-13
 author: Sajid Hossain
 excerpt: "71% of young women under 25 have period pain, and one in five has already missed school because of it. Among athletes, dysmenorrhoea is the most common menstrual cycle disorder. Yet almost nobody tells a 14-year-old two simple things: that period pain has treatments with evidence behind them — exercise, heat, medication — and that pain which keeps making her miss training is not something to endure, it is something to have assessed."
 answer: "Pain that costs school days or training sessions is not normal, however common it is: dysmenorrhoea affects 71.1% of young women under 25, and 20.1% have missed school because of it (Armour et al., 2019). Exercise (SMD -1.86) and heat have a measured effect, with low-quality evidence; if it does not improve within 3-6 months, a secondary cause should be investigated."
@@ -99,9 +99,9 @@ Nothing clinical. Three practical things, all free:
 
 And one thing **not** to do: ask for diagnoses, details or dates. Staff do not need an individual athlete's clinical data — they need to know how to dose today's session.
 
-## When to speak to a doctor
+## When should period pain be checked by a doctor?
 
-These are reasonable reasons to ask for an assessment, without alarm and without waiting:
+**When the pain regularly costs school days or training, does not improve within 3-6 months of starting treatment, appears outside the days of the period, or gets worse month after month.** These are reasonable reasons to ask for an assessment, without alarm and without waiting:
 
 - pain that **regularly costs** school days or training sessions;
 - pain that **does not improve within 3-6 months** of starting treatment (ACOG, 2018);
@@ -110,6 +110,8 @@ These are reasonable reasons to ask for an assessment, without alarm and without
 - pain that gets **progressively worse** month after month.
 
 None of these points is a diagnosis. They are thresholds: they exist to decide when to stop waiting.
+
+## What BAB does here
 
 BAB helps adolescent athletes recognise and name their body's signals — energy, recovery, pain, cycle — in a private space, and gives families and clubs the tools to support them without ever asking them to expose themselves. So that "it's just period pain" is no longer the end of the conversation.
 

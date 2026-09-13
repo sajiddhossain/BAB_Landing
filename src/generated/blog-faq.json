@@ -1,6 +1,110 @@
 {
   "posts": [
     {
+      "slug": "scoliosi-idiopatica-sport-giovani-atlete",
+      "lang": "it",
+      "title": "Scoliosi e sport a 13 anni: perché una curva nella schiena non è un motivo per smettere",
+      "date": "2026-09-13",
+      "questions": [
+        {
+          "q": "Che cos'è la scoliosi idiopatica adolescenziale?",
+          "id": "faq-che-cose-la-scoliosi-idiopatica-adolescenziale"
+        },
+        {
+          "q": "Quante ragazze hanno la scoliosi?",
+          "id": "faq-quante-ragazze-hanno-la-scoliosi"
+        },
+        {
+          "q": "La ginnastica ritmica o la danza causano la scoliosi?",
+          "id": "faq-la-ginnastica-ritmica-o-la-danza-causano-la-scoliosi"
+        },
+        {
+          "q": "Il nuoto fa bene alla scoliosi?",
+          "id": "faq-il-nuoto-fa-bene-alla-scoliosi"
+        },
+        {
+          "q": "Una ragazza con la scoliosi può continuare a fare sport?",
+          "id": "faq-una-ragazza-con-la-scoliosi-puo-continuare-a-fare-sport"
+        },
+        {
+          "q": "Si può fare sport con il corsetto?",
+          "id": "faq-si-puo-fare-sport-con-il-corsetto"
+        },
+        {
+          "q": "Fare sport aumenta il rischio di scoliosi?",
+          "id": "faq-fare-sport-aumenta-il-rischio-di-scoliosi"
+        },
+        {
+          "q": "Come ci si accorge di una scoliosi?",
+          "id": "faq-come-ci-si-accorge-di-una-scoliosi"
+        },
+        {
+          "q": "Quando si torna allo sport dopo un intervento per scoliosi?",
+          "id": "faq-quando-si-torna-allo-sport-dopo-un-intervento-per"
+        },
+        {
+          "q": "Il picco di crescita conta per la scoliosi?",
+          "id": "faq-il-picco-di-crescita-conta-per-la-scoliosi"
+        },
+        {
+          "q": "Ipermobilità, ciclo tardivo e magrezza c'entrano con la scoliosi?",
+          "id": "faq-ipermobilita-ciclo-tardivo-e-magrezza-centrano-con-la"
+        }
+      ]
+    },
+    {
+      "slug": "scoliosi-idiopatica-sport-giovani-atlete",
+      "lang": "en",
+      "title": "Scoliosis and sport at 13: why a curve in the spine is not a reason to stop",
+      "date": "2026-09-13",
+      "questions": [
+        {
+          "q": "What is adolescent idiopathic scoliosis?",
+          "id": "faq-what-is-adolescent-idiopathic-scoliosis"
+        },
+        {
+          "q": "How many girls have scoliosis?",
+          "id": "faq-how-many-girls-have-scoliosis"
+        },
+        {
+          "q": "Do rhythmic gymnastics or ballet cause scoliosis?",
+          "id": "faq-do-rhythmic-gymnastics-or-ballet-cause-scoliosis"
+        },
+        {
+          "q": "Is swimming good for scoliosis?",
+          "id": "faq-is-swimming-good-for-scoliosis"
+        },
+        {
+          "q": "Can a girl with scoliosis keep playing sport?",
+          "id": "faq-can-a-girl-with-scoliosis-keep-playing-sport"
+        },
+        {
+          "q": "Can you do sport while wearing a brace?",
+          "id": "faq-can-you-do-sport-while-wearing-a-brace"
+        },
+        {
+          "q": "Does playing sport increase the risk of scoliosis?",
+          "id": "faq-does-playing-sport-increase-the-risk-of-scoliosis"
+        },
+        {
+          "q": "How do you spot scoliosis?",
+          "id": "faq-how-do-you-spot-scoliosis"
+        },
+        {
+          "q": "When can you return to sport after scoliosis surgery?",
+          "id": "faq-when-can-you-return-to-sport-after-scoliosis-surgery"
+        },
+        {
+          "q": "Does the growth spurt matter for scoliosis?",
+          "id": "faq-does-the-growth-spurt-matter-for-scoliosis"
+        },
+        {
+          "q": "Are hypermobility, late periods and low body fat linked to scoliosis?",
+          "id": "faq-are-hypermobility-late-periods-and-low-body-fat-linked"
+        }
+      ]
+    },
+    {
       "slug": "safeguarding-abusi-nello-sport-giovani-atlete",
       "lang": "it",
       "title": "Quattro su dieci: i numeri italiani su abusi e violenza nello sport, e cosa deve avere una società",
@@ -593,6 +697,10 @@
         {
           "q": "Quando è il caso di far valutare un'atleta ipermobile?",
           "id": "faq-quando-e-il-caso-di-far-valutare-unatleta-ipermobile"
+        },
+        {
+          "q": "L'ipermobilità è collegata alla scoliosi?",
+          "id": "faq-lipermobilita-e-collegata-alla-scoliosi"
         }
       ]
     },
@@ -637,6 +745,10 @@
         {
           "q": "When should a hypermobile athlete be assessed?",
           "id": "faq-when-should-a-hypermobile-athlete-be-assessed"
+        },
+        {
+          "q": "Is hypermobility linked to scoliosis?",
+          "id": "faq-is-hypermobility-linked-to-scoliosis"
         }
       ]
     },
@@ -1765,6 +1877,10 @@
         {
           "q": "Il picco di massa ossea arriva insieme al picco di crescita?",
           "id": "faq-il-picco-di-massa-ossea-arriva-insieme-al-picco-di"
+        },
+        {
+          "q": "Menarca tardivo e bassa massa grassa hanno a che fare anche con la colonna?",
+          "id": "faq-menarca-tardivo-e-bassa-massa-grassa-hanno-a-che-fare"
         }
       ]
     },
@@ -1813,6 +1929,10 @@
         {
           "q": "Does peak bone mass arrive at the same time as the growth spurt?",
           "id": "faq-does-peak-bone-mass-arrive-at-the-same-time-as-the"
+        },
+        {
+          "q": "Are late menarche and low body fat linked to the spine as well?",
+          "id": "faq-are-late-menarche-and-low-body-fat-linked-to-the-spine"
         }
       ]
     },
