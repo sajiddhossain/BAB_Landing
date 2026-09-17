@@ -385,3 +385,22 @@
   Scartate in fase di selezione: una foto di mani che allacciano scarpe da corsa (marchio sportivo leggibile
   sulla scarpa, rischio di endorsement implicito) e immagini di gambe di atlete adulte in allenamento
   (persone potenzialmente identificabili, tema clinico).
+
+## cover-contraccezione-atlete.jpg
+- Titolo originale: "Birth control pills, healthcare photo" (un blister di pillole contraccettive, parzialmente
+  iniziato, appoggiato su un tavolo di legno chiaro)
+- Fonte: rawpixel — https://www.rawpixel.com/image/6033794/photo-image-public-domain-women-medicine
+  (reperita via API Openverse, filtro licenza cc0/pdm; id Openverse `bf8bd71f-af43-4a0c-a673-766aabcbbcf7`)
+- Autore: non indicato dalla fonte
+- Licenza: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/) — pubblico dominio, uso libero anche
+  commerciale, attribuzione non obbligatoria; registrata qui per tracciabilità
+- Uso: cover articolo blog "contraccezione ormonale e atlete adolescenti" (IT + EN)
+- Lavorazione: rendition `editor_1024` (non filigranata; la `image_1300` lo è) servita **attraverso il proxy
+  Openverse** (`/v1/images/{id}/thumb/?full_size=true`), perché in questa sessione `images.rawpixel.com` non era
+  risolvibile dal DNS. Originale 1024x683 → ritaglio 16:9 a 1024x576 con offset verticale di 35 px dall'alto per
+  tenere il blister nel terzo superiore, JPEG q82 con Pillow. Nessun ritocco.
+  Nessuna persona nell'inquadratura, quindi nessun minore identificabile, e nessun marchio o nome commerciale
+  leggibile sul blister — requisito non negoziabile su un tema in cui una foto con un marchio visibile
+  equivarrebbe a suggerire un prodotto. Scartate in fase di selezione: le rappresentazioni molecolari CC0 di
+  etinilestradiolo e desogestrel su Wikimedia (illustrative ma fredde, e la provenienza Wikimedia è esclusa per
+  le cover) e le foto di ambulatori ginecologici (persone reali identificabili).

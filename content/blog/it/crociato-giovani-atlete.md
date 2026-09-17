@@ -4,12 +4,12 @@ title: "Crociato e giovani atlete: perché il rischio è più alto, e i 20 minut
 seoTitle: "Crociato nelle giovani atlete: rischio e prevenzione"
 seoDescription: "Nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei. Cosa cambia con la pubertà e i 20 minuti che riducono il rischio."
 date: 2026-07-21
-updated: 2026-08-29
+updated: 2026-09-18
 author: Sajid Hossain
 excerpt: "Nello sport scolastico le ragazze si rompono il crociato 1,4 volte più dei coetanei maschi — a basket oltre quattro volte tanto. Esiste un riscaldamento neuromuscolare che nelle atlete di 13-19 anni riduce il rischio di circa il 60%, costa venti minuti due volte a settimana e quasi nessuna squadra lo fa davvero. I dati, e cosa cambia lunedì in palestra."
 answer: "Perché il divario si apre con la pubertà, non con il livello: nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei maschi, fino a 4,14 volte nel basket (Bram et al., 2021). Venti minuti di allenamento neuromuscolare due volte a settimana riducono il rischio di circa il 60% tra le atlete di 13-19 anni (Petushek et al., 2019)."
 cover: /fotobab/cover-crociato-atlete.jpg
-coverAlt: "Palestra vuota con parquet da basket, tribune blu e canestri alle due estremità"
+coverAlt: "Palestra vuota vista da bordo campo: parquet da basket lucido con le linee dell'area, tribune blu retratte sulla sinistra, canestri alle due estremità e un tabellone segnapunti accesso sulla parete di fondo; nessuna persona nell'inquadratura"
 tags:
   - crociato
   - prevenzione

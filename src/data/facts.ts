@@ -1075,6 +1075,56 @@ export const FACTS: Fact[] = [
     source: 'Kemmeren et al., 2024',
     doi: '10.1177/03635465241277162',
   },
+  {
+    id: 'contraccezione-ormonale-giovani-atlete-1',
+    article: 'contraccezione-ormonale-giovani-atlete',
+    claim:
+      "Le linee guida 2025 della Female Athlete Triad Coalition raccomandano di NON usare la pillola contraccettiva combinata per ristabilire mestruazioni cicliche o migliorare la densità ossea, con evidenza di livello A; chi la usa a scopo contraccettivo va avvertita che può mascherare la ripresa spontanea delle mestruazioni e che la perdita ossea può continuare se persiste il deficit energetico (livello B). La terapia sostitutiva raccomandata è 17β-estradiolo TRASDERMICO a dosi fisiologiche con un progestinico (livello A). Popolazione: linee guida cliniche esplicitamente inclusive delle ATLETE ADOLESCENTI.",
+    claimEn:
+      'The 2025 Female Athlete Triad Coalition guidelines recommend NOT using the combined contraceptive pill to re-establish cyclic menses or improve bone density, at Level A evidence; those using it for contraception should be cautioned that it may mask spontaneous menstrual resumption and that bone loss may continue if the energy deficit persists (Level B). The recommended replacement therapy is TRANSDERMAL 17β-estradiol at physiologic doses with a progestin (Level A). Population: clinical guidelines explicitly inclusive of ADOLESCENT ATHLETES.',
+    source: 'Williams et al., 2025',
+    doi: '10.1007/s40279-025-02332-0',
+  },
+  {
+    id: 'contraccezione-ormonale-giovani-atlete-2',
+    article: 'contraccezione-ormonale-giovani-atlete',
+    claim:
+      "In uno studio randomizzato, a 12 mesi lo Z-score della densità ossea a colonna lombare e collo del femore aumentava nel gruppo trattato con cerotto di 17β-estradiolo rispetto al gruppo in pillola con etinilestradiolo (p=0,011 e p=0,021) e rispetto a chi non riceveva ormoni (p=0,021 e p=0,033): la pillola non si distingueva dal non fare nulla. Popolazione: 121 atlete di 14-25 anni con ciclo assente o irregolare e peso normale — quindi anche ADOLESCENTI — tutte con calcio e vitamina D.",
+    claimEn:
+      'In a randomised trial, at 12 months bone density Z-scores at the lumbar spine and femoral neck increased in the 17β-estradiol patch group compared with the ethinyl estradiol pill group (p=0.011 and p=0.021) and compared with those receiving no hormones (p=0.021 and p=0.033): the pill was indistinguishable from doing nothing. Population: 121 athletes aged 14-25 with absent or irregular cycles and normal weight — so including ADOLESCENTS — all receiving calcium and vitamin D.',
+    source: 'Ackerman et al., 2019',
+    doi: '10.1136/bjsports-2018-099723',
+  },
+  {
+    id: 'contraccezione-ormonale-giovani-atlete-3',
+    article: 'contraccezione-ormonale-giovani-atlete',
+    claim:
+      "L'uso della pillola contraccettiva potrebbe associarsi a una prestazione leggermente inferiore rispetto a chi ha un ciclo spontaneo, ma qualunque effetto di gruppo è «molto probabilmente banale», e la prestazione è costante fra i giorni di assunzione e quelli di sospensione. Popolazione: 42 studi e 590 partecipanti, donne ADULTE; l'83% degli studi di qualità moderata, bassa o molto bassa e nessuna analisi per fascia d'età — non esistono dati equivalenti sulle adolescenti.",
+    claimEn:
+      'Contraceptive pill use might be associated with slightly inferior performance compared with naturally menstruating women, but any group-level effect is "most likely to be trivial", and performance is consistent between pill-taking and withdrawal days. Population: 42 studies and 590 participants, ADULT women; 83% of studies of moderate, low or very low quality and no analysis by age group — no equivalent data exist for adolescents.',
+    source: 'Elliott-Sale et al., 2020',
+    doi: '10.1007/s40279-020-01317-5',
+  },
+  {
+    id: 'contraccezione-ormonale-giovani-atlete-4',
+    article: 'contraccezione-ormonale-giovani-atlete',
+    claim:
+      "Il 57% delle atlete usava un contraccettivo ormonale (74% combinato, 26% con solo progestinico) e il 60% delle utilizzatrici di pillola dichiarava di avere manipolato il proprio ciclo con l'assunzione continuativa in funzione delle gare; fra le non utilizzatrici, il 51% riferiva disturbi del ciclo, con il 69% negli sport di endurance. L'uso di contraccettivi ormonali non aboliva la dismenorrea. Popolazione: 186 atlete d'élite ADULTE in Danimarca, questionario — nessun dato equivalente sulle adolescenti.",
+    claimEn:
+      '57% of athletes used a hormonal contraceptive (74% combined, 26% progestin-only) and 60% of pill users reported having manipulated their cycle through continuous use around competitions; among non-users, 51% reported menstrual disturbances, rising to 69% in endurance sports. Hormonal contraceptive use did not abolish dysmenorrhoea. Population: 186 ADULT elite athletes in Denmark, questionnaire — no equivalent data for adolescents.',
+    source: 'Oxfeldt et al., 2020',
+    doi: '10.1123/ijspp.2019-0636',
+  },
+  {
+    id: 'contraccezione-ormonale-giovani-atlete-5',
+    article: 'contraccezione-ormonale-giovani-atlete',
+    claim:
+      "In un anno, la variazione mediana della densità ossea alla colonna lombare è stata del +2,07% nelle adolescenti che usavano una pillola a basso dosaggio (etinilestradiolo 20 µg con desogestrel 150 µg) contro il +12,16% in chi non la usava; il contenuto minerale osseo +1,57% contro +16,84%, mentre sul corpo intero le due curve erano simili. Popolazione: 67 adolescenti di 12-19 anni (41 utilizzatrici, 26 controlli), studio NON randomizzato e di piccole dimensioni: non dimostra un rapporto di causa e non riporta dati sul rischio di frattura.",
+    claimEn:
+      'Over one year, the median change in lumbar spine bone density was +2.07% in adolescents using a low-dose pill (ethinyl estradiol 20 µg with desogestrel 150 µg) against +12.16% in non-users; bone mineral content +1.57% against +16.84%, while total-body curves were similar. Population: 67 adolescents aged 12-19 (41 users, 26 controls), a NON-randomised and small study: it does not establish causation and reports no fracture-risk data.',
+    source: 'Biason et al., 2015',
+    doi: '10.1186/s12902-015-0012-7',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

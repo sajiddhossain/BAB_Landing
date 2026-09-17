@@ -4,12 +4,12 @@ title: "ACL injuries in young female athletes: why the risk is higher, and the 2
 seoTitle: "ACL injuries in young female athletes"
 seoDescription: "In high-school sport girls sustain 1.40 times the ACL ruptures of male peers. What puberty changes, and the 20 minutes that cut the risk."
 date: 2026-07-21
-updated: 2026-08-29
+updated: 2026-09-18
 author: Sajid Hossain
 excerpt: "In high-school sport, girls tear their ACL 1.4 times as often as boys — and over four times as often in basketball. A neuromuscular warm-up cuts that risk by roughly 60% in 13-19 year-old athletes, costs twenty minutes twice a week, and almost no team actually does it. The evidence, and what changes on Monday."
 answer: "Because the gap opens with puberty, not with playing level: in high-school sport girls sustain 1.40 times the ACL ruptures of male peers, and up to 4.14 times in basketball (Bram et al., 2021). Twenty minutes of neuromuscular training twice a week cuts the risk by roughly 60% among athletes aged 13-19 (Petushek et al., 2019)."
 cover: /fotobab/cover-crociato-atlete.jpg
-coverAlt: "An empty indoor gymnasium with a polished wooden basketball court, blue bleachers and hoops at both ends"
+coverAlt: "An empty gymnasium seen from courtside: a polished wooden basketball court with the key markings, retracted blue bleachers on the left, hoops at both ends and a lit scoreboard on the far wall; nobody in shot"
 tags:
   - acl
   - prevention

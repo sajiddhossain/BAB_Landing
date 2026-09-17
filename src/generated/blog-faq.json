@@ -49,6 +49,54 @@
       ]
     },
     {
+      "slug": "contraccezione-ormonale-giovani-atlete",
+      "lang": "it",
+      "title": "«Prendi la pillola, così il ciclo si sistema»: che cosa fa davvero la contraccezione ormonale a un'atleta adolescente",
+      "date": "2026-09-18",
+      "questions": [
+        {
+          "q": "La pillola fa peggiorare la performance sportiva?",
+          "id": "faq-la-pillola-fa-peggiorare-la-performance-sportiva"
+        },
+        {
+          "q": "Il sanguinamento che arriva con la pillola è un ciclo vero?",
+          "id": "faq-il-sanguinamento-che-arriva-con-la-pillola-e-un-ciclo"
+        },
+        {
+          "q": "La pillola protegge le ossa di un'atleta che ha perso il ciclo?",
+          "id": "faq-la-pillola-protegge-le-ossa-di-unatleta-che-ha-perso-il"
+        },
+        {
+          "q": "Se il ciclo è regolare, la pillola cambia le ossa di una sedicenne?",
+          "id": "faq-se-il-ciclo-e-regolare-la-pillola-cambia-le-ossa-di-una"
+        },
+        {
+          "q": "La pillola serve per i dolori mestruali a 15 anni?",
+          "id": "faq-la-pillola-serve-per-i-dolori-mestruali-a-15-anni"
+        },
+        {
+          "q": "Si può usare la pillola per spostare il ciclo il giorno della gara?",
+          "id": "faq-si-puo-usare-la-pillola-per-spostare-il-ciclo-il-giorno"
+        },
+        {
+          "q": "La pillola riduce il rischio di rottura del crociato?",
+          "id": "faq-la-pillola-riduce-il-rischio-di-rottura-del-crociato"
+        },
+        {
+          "q": "Spirale, impianto o puntura: cambiano qualcosa per le ossa?",
+          "id": "faq-spirale-impianto-o-puntura-cambiano-qualcosa-per-le-ossa"
+        },
+        {
+          "q": "Che cosa si usa, allora, se un'atleta ha perso il ciclo?",
+          "id": "faq-che-cosa-si-usa-allora-se-unatleta-ha-perso-il-ciclo"
+        },
+        {
+          "q": "Chi allena può consigliare la pillola a un'atleta?",
+          "id": "faq-chi-allena-puo-consigliare-la-pillola-a-unatleta"
+        }
+      ]
+    },
+    {
       "slug": "apofisiti-osgood-schlatter-sever-giovani-atlete",
       "lang": "en",
       "title": "\"It's just growing pains\": what Osgood-Schlatter and Sever's really are, and why waiting is not a plan",
@@ -93,6 +141,54 @@
         {
           "q": "When is a medical review needed?",
           "id": "faq-when-is-a-medical-review-needed"
+        }
+      ]
+    },
+    {
+      "slug": "contraccezione-ormonale-giovani-atlete",
+      "lang": "en",
+      "title": "\"Just go on the pill, it will sort your cycle out\": what hormonal contraception actually does to an adolescent athlete",
+      "date": "2026-09-18",
+      "questions": [
+        {
+          "q": "Does the pill make sports performance worse?",
+          "id": "faq-does-the-pill-make-sports-performance-worse"
+        },
+        {
+          "q": "Is the bleed you get on the pill a real period?",
+          "id": "faq-is-the-bleed-you-get-on-the-pill-a-real-period"
+        },
+        {
+          "q": "Does the pill protect the bones of an athlete who has lost her period?",
+          "id": "faq-does-the-pill-protect-the-bones-of-an-athlete-who-has"
+        },
+        {
+          "q": "If her cycle is regular, does the pill change a 16-year-old's bones?",
+          "id": "faq-if-her-cycle-is-regular-does-the-pill-change-a-16-year"
+        },
+        {
+          "q": "Is the pill the answer for period pain at 15?",
+          "id": "faq-is-the-pill-the-answer-for-period-pain-at-15"
+        },
+        {
+          "q": "Can the pill be used to move a period away from race day?",
+          "id": "faq-can-the-pill-be-used-to-move-a-period-away-from-race-day"
+        },
+        {
+          "q": "Does the pill reduce the risk of an ACL tear?",
+          "id": "faq-does-the-pill-reduce-the-risk-of-an-acl-tear"
+        },
+        {
+          "q": "Coil, implant or injection: do they change anything for bone?",
+          "id": "faq-coil-implant-or-injection-do-they-change-anything-for"
+        },
+        {
+          "q": "So what is used if an athlete has lost her period?",
+          "id": "faq-so-what-is-used-if-an-athlete-has-lost-her-period"
+        },
+        {
+          "q": "Can a coach suggest the pill to an athlete?",
+          "id": "faq-can-a-coach-suggest-the-pill-to-an-athlete"
         }
       ]
     },
@@ -613,6 +709,10 @@
         {
           "q": "Perché il ferro non è nella lista degli esami obbligatori?",
           "id": "faq-perche-il-ferro-non-e-nella-lista-degli-esami"
+        },
+        {
+          "q": "Alla visita di idoneità va detto che si prende la pillola?",
+          "id": "faq-alla-visita-di-idoneita-va-detto-che-si-prende-la"
         }
       ]
     },
@@ -661,6 +761,10 @@
         {
           "q": "Why is iron not on the list of mandatory tests?",
           "id": "faq-why-is-iron-not-on-the-list-of-mandatory-tests"
+        },
+        {
+          "q": "Should you tell the eligibility exam that you are on the pill?",
+          "id": "faq-should-you-tell-the-eligibility-exam-that-you-are-on"
         }
       ]
     },
@@ -1241,6 +1345,10 @@
         {
           "q": "Le perdite durante lo sport sono sempre legate al ciclo?",
           "id": "faq-le-perdite-durante-lo-sport-sono-sempre-legate-al-ciclo"
+        },
+        {
+          "q": "Si può spostare il ciclo per non averlo il giorno della gara?",
+          "id": "faq-si-puo-spostare-il-ciclo-per-non-averlo-il-giorno-della"
         }
       ]
     },
@@ -1285,6 +1393,10 @@
         {
           "q": "Is leaking during sport always about periods?",
           "id": "faq-is-leaking-during-sport-always-about-periods"
+        },
+        {
+          "q": "Can a period be shifted so it does not fall on race day?",
+          "id": "faq-can-a-period-be-shifted-so-it-does-not-fall-on-race-day"
         }
       ]
     },
@@ -2865,6 +2977,14 @@
         {
           "q": "La RED-S influisce anche sulla tolleranza al caldo?",
           "id": "faq-la-red-s-influisce-anche-sulla-tolleranza-al-caldo"
+        },
+        {
+          "q": "La pillola fa tornare il ciclo e protegge le ossa?",
+          "id": "faq-la-pillola-fa-tornare-il-ciclo-e-protegge-le-ossa"
+        },
+        {
+          "q": "Se un'atleta prende la pillola, come si capisce se mangia abbastanza?",
+          "id": "faq-se-unatleta-prende-la-pillola-come-si-capisce-se-mangia"
         }
       ]
     },
@@ -2917,6 +3037,14 @@
         {
           "q": "Does RED-S also affect heat tolerance?",
           "id": "faq-does-red-s-also-affect-heat-tolerance"
+        },
+        {
+          "q": "Does the pill bring the period back and protect the bones?",
+          "id": "faq-does-the-pill-bring-the-period-back-and-protect-the"
+        },
+        {
+          "q": "If an athlete is on the pill, how do you tell whether she is eating enough?",
+          "id": "faq-if-an-athlete-is-on-the-pill-how-do-you-tell-whether"
         }
       ]
     },

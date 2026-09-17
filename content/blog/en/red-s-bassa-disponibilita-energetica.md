@@ -2,9 +2,9 @@
 slug: red-s-bassa-disponibilita-energetica
 title: "RED-S: when training more does harm (and how to catch it early)"
 seoTitle: "RED-S in female athletes: signs and symptoms"
-seoDescription: "RED-S: when energy intake doesn't cover training and growth. Symptoms, early signs, and why a disappearing period is never a good sign."
+seoDescription: "A disappearing period is not a sign of good training, and the pill does not bring it back: the 2025 guidelines say so at Level A evidence. Signs and next steps."
 date: 2026-07-04
-updated: 2026-08-28
+updated: 2026-09-18
 author: Sajid Hossain
 excerpt: "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
 answer: "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021)."
@@ -40,6 +40,10 @@ faq:
     a: "The best-documented bill is paid by bone. In the same prospective study of 259 active girls and young women, those with low bone density (Z-score below -1.0) training at least 12 hours a week sustained a bone stress injury in 29.7% of cases, against 10.8% overall (Barrack et al., 2014). Two necessary caveats: the mean age of that sample is 18.1, so it is not a snapshot of a 13- or 14-year-old, and it is an observational study describing associations, not demonstrated causation. The reason not to wait stands: the months in which this happens are the same months in which bone mass is built."
   - q: "Does RED-S also affect heat tolerance?"
     a: "Thermoregulation is among the physiological functions the International Olympic Committee consensus explicitly lists as supported by the energy left over after training, alongside bone growth, reproductive function and the immune system (Mountjoy et al., 2014). There is no specific figure today for how much this matters in adolescents training in heat: it's one more reason — not the only one — not to treat fuelling and heat acclimatization as separate topics, not a claim to cite with a precise number."
+  - q: "Does the pill bring the period back and protect the bones?"
+    a: "No to both, and this is the sharpest recommendation in the 2025 update to the female athlete triad consensus: do NOT use the combined contraceptive pill to re-establish cyclic menses or to improve bone density, at Level A evidence, the highest grade; bone loss may continue if the energy deficit persists (Williams et al., 2025). In a randomised trial of 121 athletes aged 14-25 with absent or irregular cycles, at 12 months bone density Z-scores at the spine and femoral neck increased with the 17β-estradiol patch compared with a pill containing ethinyl estradiol (p=0.011 and p=0.021) and compared with no hormone therapy: the pill arm was indistinguishable from doing nothing (Ackerman et al., 2019). The first intervention remains nutritional, for at least 6-12 months, with a multidisciplinary approach (Williams et al., 2025)."
+  - q: "If an athlete is on the pill, how do you tell whether she is eating enough?"
+    a: "By looking at everything else, because the cycle is no longer a useful indicator. The bleed that arrives during the pill-free days is a withdrawal bleed, caused by the drop in the hormones being taken, and the 2025 guidelines explicitly ask that athletes be cautioned that the combined pill \"may mask spontaneous menstrual resumption\" (Level B evidence; Williams et al., 2025). That leaves the non-menstrual signals: repeated overuse injuries, stress fractures, fatigue that does not clear with normal recovery, worse sleep and mood, performance falling while effort rises. And the opposite of the common belief holds: amenorrhoea that appears after stopping the pill is not an effect of stopping, it is what the pill was covering."
 ---
 
 There's a dangerous idea in youth women's sport: that training harder is always better. But an adolescent athlete's body is not an engine you can push forever. When the energy coming in isn't enough to cover what goes out — across training, school and growth itself — the body starts to **cut the functions it deems least urgent**. That is the heart of a condition science calls RED-S.
@@ -87,6 +91,8 @@ None of these signs, alone, "makes a diagnosis". But together they deserve atten
 
 Here lies a cultural problem. In a study of 90 adolescent athletes, **44% believed losing the period was a normal response to high load** ([Armento et al., 2021](https://doi.org/10.4085/624-20)). Misinformation starts early: normalising a warning sign is exactly what delays action.
 
+And there is a second, quieter way that signal gets lost: **the contraceptive pill**. The blood that arrives during the pill-free days is a **withdrawal bleed**, not proof that a spontaneous cycle has returned — and the 2025 Female Athlete Triad Coalition guidelines ask that athletes be cautioned that the combined pill "may mask spontaneous menstrual resumption" and does not improve bone density ([Williams et al., 2025](https://doi.org/10.1007/s40279-025-02332-0)). In a randomised trial of 121 athletes aged 14-25 with absent or irregular cycles, the pill arm showed no bone advantage over those receiving no hormone therapy at all ([Ackerman et al., 2019](https://doi.org/10.1136/bjsports-2018-099723)). On what hormonal contraception does and does not do to an adolescent athlete, there is [a dedicated article](/en/blog/contraccezione-ormonale-giovani-atlete).
+
 ## How is RED-S risk assessed, and by whom?
 
 There are tools designed to **flag who needs a closer look**, not to label. The best known:
@@ -114,6 +120,8 @@ BAB does not diagnose and does not replace a doctor. It helps the athlete **reco
 
 ## Sources
 
+- Williams N.I., De Souza M.J., Misra M., Nattiv A., et al. **2025 Update to the Female Athlete Triad Coalition Consensus Statement Part 2: Clinical Guidelines for Screening, Diagnosis, Treatment, and Return to Play for Adolescents and Adults.** *Sports Medicine*, 2025. (clinical guidelines **inclusive of adolescents**: recommendation NOT to use the combined pill to re-establish menses or improve bone density, **Level A** evidence; caution that it may mask spontaneous menstrual resumption, Level B; physiologic-dose transdermal 17β-estradiol with a progestin as replacement therapy, Level A; non-pharmacological treatment for at least 6-12 months, Level C) [doi:10.1007/s40279-025-02332-0](https://doi.org/10.1007/s40279-025-02332-0)
+- Ackerman K.E., Singhal V., Baskaran C., et al. **Oestrogen replacement improves bone mineral density in oligo-amenorrhoeic athletes: a randomised clinical trial.** *British Journal of Sports Medicine*, 2019;53(4):229-236. (**randomised** trial, 121 athletes aged 14-25 with absent or irregular cycles: at 12 months BMD Z-scores increased with the 17β-estradiol patch compared with the ethinyl estradiol pill, p=0.011 at the spine and p=0.021 at the femoral neck, and compared with no hormone therapy) [doi:10.1136/bjsports-2018-099723](https://doi.org/10.1136/bjsports-2018-099723)
 - Mountjoy M., et al. **2023 IOC consensus statement on Relative Energy Deficiency in Sport (REDs).** *Br J Sports Med*, 2023. [doi:10.1136/bjsports-2023-106994](https://doi.org/10.1136/bjsports-2023-106994)
 - Mountjoy M., et al. **The IOC consensus statement: beyond the Female Athlete Triad — Relative Energy Deficiency in Sport (RED-S).** *Br J Sports Med*, 2014. [doi:10.1136/bjsports-2014-093502](https://doi.org/10.1136/bjsports-2014-093502)
 - De Souza M.J., et al. **Female Athlete Triad Coalition consensus statement.** *Br J Sports Med*, 2014. [doi:10.1136/bjsports-2013-093218](https://doi.org/10.1136/bjsports-2013-093218)

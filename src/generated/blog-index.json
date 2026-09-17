@@ -83,6 +83,94 @@
       "timeRequired": "PT19M"
     },
     {
+      "slug": "contraccezione-ormonale-giovani-atlete",
+      "lang": "it",
+      "title": "«Prendi la pillola, così il ciclo si sistema»: che cosa fa davvero la contraccezione ormonale a un'atleta adolescente",
+      "seoTitle": "Pillola e sport nelle adolescenti: cosa dicono i dati",
+      "seoDescription": "La pillola combinata non fa tornare il ciclo e non migliora le ossa: le linee guida 2025 lo raccomandano con evidenza di livello A. Performance, ossa, dolore.",
+      "date": "2026-09-18",
+      "updated": "2026-09-18",
+      "author": "Sajid Hossain",
+      "excerpt": "È una frase che circola negli spogliatoi e a volte negli ambulatori: se il ciclo è irregolare o è sparito, la pillola lo rimette a posto. Sulle ossa di un'atleta che ha perso il ciclo, le linee guida più recenti dicono l'opposto — con il grado di evidenza più alto. Ecco che cosa la contraccezione ormonale fa e non fa: sulla prestazione, sulle ossa in crescita, sul dolore mestruale, sul calendario delle gare.",
+      "answer": "Meno di quanto si teme sulla prestazione e non quello che molti sperano sulle ossa. Sulla performance l'effetto medio è banale (42 studi, 590 donne ADULTE; Elliott-Sale et al., 2020). Le linee guida 2025 raccomandano con evidenza di livello A di NON usare la pillola combinata per far tornare il ciclo o migliorare la densità ossea (Williams et al., 2025).",
+      "cover": "/fotobab/cover-contraccezione-atlete.jpg",
+      "coverAlt": "Un blister di pillole contraccettive, parzialmente iniziato, appoggiato su un tavolo di legno chiaro; nessuna persona e nessun marchio leggibile nell'inquadratura",
+      "tags": [
+        "contraccezione-ormonale",
+        "sanguinamento-da-sospensione",
+        "amenorrea-ipotalamica-funzionale",
+        "estradiolo-transdermico",
+        "salute-mestruale",
+        "red-s",
+        "triade-atleta"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Che cos'è la contraccezione ormonale, in concreto?",
+          "id": "che-cose-la-contraccezione-ormonale-in-concreto"
+        },
+        {
+          "level": 2,
+          "text": "La pillola fa peggiorare la performance?",
+          "id": "la-pillola-fa-peggiorare-la-performance"
+        },
+        {
+          "level": 2,
+          "text": "Il sanguinamento con la pillola è un ciclo vero?",
+          "id": "il-sanguinamento-con-la-pillola-e-un-ciclo-vero"
+        },
+        {
+          "level": 2,
+          "text": "La pillola protegge le ossa di un'atleta che ha perso il ciclo?",
+          "id": "la-pillola-protegge-le-ossa-di-unatleta-che-ha-perso-il"
+        },
+        {
+          "level": 2,
+          "text": "Se il ciclo è regolare, la pillola cambia le ossa di una sedicenne?",
+          "id": "se-il-ciclo-e-regolare-la-pillola-cambia-le-ossa-di-una"
+        },
+        {
+          "level": 2,
+          "text": "La pillola serve per i dolori mestruali?",
+          "id": "la-pillola-serve-per-i-dolori-mestruali"
+        },
+        {
+          "level": 2,
+          "text": "Si può usare la pillola per spostare il ciclo il giorno della gara?",
+          "id": "si-puo-usare-la-pillola-per-spostare-il-ciclo-il-giorno"
+        },
+        {
+          "level": 2,
+          "text": "La pillola riduce il rischio di rottura del crociato?",
+          "id": "la-pillola-riduce-il-rischio-di-rottura-del-crociato"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa deve sapere chi allena?",
+          "id": "che-cosa-deve-sapere-chi-allena"
+        },
+        {
+          "level": 2,
+          "text": "Quando rivolgersi a un professionista",
+          "id": "quando-rivolgersi-a-un-professionista"
+        },
+        {
+          "level": 2,
+          "text": "Il ruolo di BAB",
+          "id": "il-ruolo-di-bab"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 4296,
+      "readingMinutes": 21,
+      "timeRequired": "PT21M"
+    },
+    {
       "slug": "apofisiti-osgood-schlatter-sever-giovani-atlete",
       "lang": "en",
       "title": "\"It's just growing pains\": what Osgood-Schlatter and Sever's really are, and why waiting is not a plan",
@@ -163,6 +251,94 @@
       "words": 3550,
       "readingMinutes": 18,
       "timeRequired": "PT18M"
+    },
+    {
+      "slug": "contraccezione-ormonale-giovani-atlete",
+      "lang": "en",
+      "title": "\"Just go on the pill, it will sort your cycle out\": what hormonal contraception actually does to an adolescent athlete",
+      "seoTitle": "The pill and sport in teenage girls: what the data say",
+      "seoDescription": "The combined pill does not bring back a lost period and does not improve bone: the 2025 guidelines say so at Level A evidence. Performance, bone, pain.",
+      "date": "2026-09-18",
+      "updated": "2026-09-18",
+      "author": "Sajid Hossain",
+      "excerpt": "It is a sentence you hear in changing rooms and sometimes in clinics: if her cycle is irregular or has disappeared, the pill will fix it. For the bones of an athlete who has lost her period, the most recent guidelines say the opposite — at the highest grade of evidence. Here is what hormonal contraception does and does not do: for performance, for growing bone, for period pain, for the race calendar.",
+      "answer": "Less than feared for performance, and not what many hope for bone. On performance the average effect is trivial (42 studies, 590 ADULT women; Elliott-Sale et al., 2020). The 2025 guidelines recommend at Level A evidence NOT using the combined pill to restore menses or improve bone density (Williams et al., 2025).",
+      "cover": "/fotobab/cover-contraccezione-atlete.jpg",
+      "coverAlt": "A partly used blister pack of contraceptive pills resting on a pale wooden table; no people and no readable brand in shot",
+      "tags": [
+        "contraccezione-ormonale",
+        "sanguinamento-da-sospensione",
+        "amenorrea-ipotalamica-funzionale",
+        "estradiolo-transdermico",
+        "salute-mestruale",
+        "red-s",
+        "triade-atleta"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is hormonal contraception, concretely?",
+          "id": "what-is-hormonal-contraception-concretely"
+        },
+        {
+          "level": 2,
+          "text": "Does the pill make performance worse?",
+          "id": "does-the-pill-make-performance-worse"
+        },
+        {
+          "level": 2,
+          "text": "Is the bleed on the pill a real period?",
+          "id": "is-the-bleed-on-the-pill-a-real-period"
+        },
+        {
+          "level": 2,
+          "text": "Does the pill protect the bones of an athlete who has lost her period?",
+          "id": "does-the-pill-protect-the-bones-of-an-athlete-who-has-lost"
+        },
+        {
+          "level": 2,
+          "text": "If her cycle is regular, does the pill change a sixteen-year-old's bones?",
+          "id": "if-her-cycle-is-regular-does-the-pill-change-a-sixteen-year"
+        },
+        {
+          "level": 2,
+          "text": "Is the pill the answer for period pain?",
+          "id": "is-the-pill-the-answer-for-period-pain"
+        },
+        {
+          "level": 2,
+          "text": "Can the pill be used to move a period away from race day?",
+          "id": "can-the-pill-be-used-to-move-a-period-away-from-race-day"
+        },
+        {
+          "level": 2,
+          "text": "Does the pill reduce the risk of an ACL tear?",
+          "id": "does-the-pill-reduce-the-risk-of-an-acl-tear"
+        },
+        {
+          "level": 2,
+          "text": "What should a coach know?",
+          "id": "what-should-a-coach-know"
+        },
+        {
+          "level": 2,
+          "text": "When to see a professional",
+          "id": "when-to-see-a-professional"
+        },
+        {
+          "level": 2,
+          "text": "Where BAB fits",
+          "id": "where-bab-fits"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 4195,
+      "readingMinutes": 21,
+      "timeRequired": "PT21M"
     },
     {
       "slug": "scoliosi-idiopatica-sport-giovani-atlete",
@@ -1059,7 +1235,7 @@
       "seoTitle": "Visita di idoneità agonistica: cosa controlla davvero",
       "seoDescription": "Cinque accertamenti previsti per legge dal 1982: visita, urine, ECG a riposo e dopo sforzo, spirografia. Nessuno riguarda ciclo, ferro o salute ossea.",
       "date": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-09-18",
       "author": "Sajid Hossain",
       "excerpt": "Ogni anno, prima di poter giocare, un'atleta passa da un ambulatorio e ne esce con un certificato. Gli accertamenti che la legge italiana prevede dal 1982 sono cinque — visita medica, esame completo delle urine, elettrocardiogramma a riposo e dopo sforzo, spirografia — e sono nati per intercettare un problema preciso: le cardiopatie che causano morte improvvisa. Su quel fronte i dati del Veneto mostrano un calo dell'89% dell'incidenza. Ma nessuno dei cinque riguarda il ciclo mestruale, la disponibilità energetica, il ferro o la salute ossea: cioè le cose che, statisticamente, fermano di più una ragazza di 14 anni. Cosa copre il certificato, cosa non copre, e quali domande vale la pena portarsi in ambulatorio.",
       "answer": "Prevede cinque accertamenti fissati dal DM 18 febbraio 1982: visita medica, esame completo delle urine, elettrocardiogramma a riposo e dopo sforzo, spirografia. È uno screening cardiologico, e sul suo bersaglio funziona — nel Veneto l'incidenza di morte cardiovascolare improvvisa negli atleti sottoposti a screening è scesa dell'89% (Corrado et al., 2006; 55 decessi, di cui 50 maschi, età media 23,3 anni). Non è invece uno screening della salute dell'atleta adolescente: ciclo, disponibilità energetica, ferro e salute ossea non sono nella lista.",
@@ -1124,9 +1300,9 @@
           "id": "fonti"
         }
       ],
-      "words": 3311,
-      "readingMinutes": 17,
-      "timeRequired": "PT17M"
+      "words": 3631,
+      "readingMinutes": 18,
+      "timeRequired": "PT18M"
     },
     {
       "slug": "visita-idoneita-sportiva-giovani-atlete",
@@ -1135,7 +1311,7 @@
       "seoTitle": "Sports eligibility exam: what it actually checks",
       "seoDescription": "Five tests required by Italian law since 1982: exam, urinalysis, ECG at rest and after exercise, spirography. None of them covers periods, iron or bone health.",
       "date": "2026-08-28",
-      "updated": "2026-08-28",
+      "updated": "2026-09-18",
       "author": "Sajid Hossain",
       "excerpt": "Every year, before she can play, an athlete visits a clinic and leaves with a certificate. Italian law has required five tests since 1982 — medical examination, full urinalysis, ECG at rest and after exercise, spirography — and they were designed to catch one thing: the cardiac conditions that cause sudden death. On that target the Veneto data show an 89% drop in incidence. But none of the five covers the menstrual cycle, energy availability, iron or bone health: the things that, statistically, are far more likely to stop a 14-year-old. What the certificate covers, what it does not, and which questions are worth bringing into the room.",
       "answer": "It requires five tests set out in the Italian ministerial decree of 18 February 1982: medical examination, full urinalysis, ECG at rest, ECG after exercise, and spirography. It is a cardiac screening programme, and on its own target it works — in the Veneto region the incidence of sudden cardiovascular death in screened athletes fell by 89% (Corrado et al., 2006; 55 deaths, 50 of them male, mean age 23.3 years). It is not a screening of adolescent athlete health: cycle, energy availability, iron and bone are not on the list.",
@@ -1200,9 +1376,9 @@
           "id": "sources"
         }
       ],
-      "words": 3344,
-      "readingMinutes": 17,
-      "timeRequired": "PT17M"
+      "words": 3658,
+      "readingMinutes": 18,
+      "timeRequired": "PT18M"
     },
     {
       "slug": "integratori-energy-drink-giovani-atlete",
@@ -2069,7 +2245,7 @@
       "seoTitle": "Fare sport con il ciclo: la gestione pratica",
       "seoDescription": "Dal 25% al 61% delle adolescenti evita lo sport durante le mestruazioni. Prodotti, divise e kit in palestra: la gestione pratica del ciclo, senza tabù.",
       "date": "2026-08-13",
-      "updated": "2026-08-31",
+      "updated": "2026-09-18",
       "author": "Sajid Hossain",
       "excerpt": "La paura delle perdite è una delle ragioni per cui le ragazze saltano allenamenti e ore di educazione fisica — e tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni. Quasi tutti i contenuti si fermano a dire che è un problema. Questo prova a rispondere alla domanda pratica che nessuno affronta: cosa si fa, concretamente, il giorno in cui capita.",
       "answer": "Con tre cose che dipendono più dall'organizzazione che dall'atleta: un prodotto mestruale adatto al gesto sportivo, una divisa che non aumenti la paura delle perdite e un kit disponibile in palestra. Tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, e la paura delle perdite è una barriera ricorrente (Harvey et al., 2025).",
@@ -2114,6 +2290,11 @@
         },
         {
           "level": 2,
+          "text": "Si può spostare il ciclo per una gara?",
+          "id": "si-puo-spostare-il-ciclo-per-una-gara"
+        },
+        {
+          "level": 2,
           "text": "Il ruolo di BAB",
           "id": "il-ruolo-di-bab"
         },
@@ -2123,9 +2304,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2324,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2685,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "gestire-ciclo-nello-sport",
@@ -2134,7 +2315,7 @@
       "seoTitle": "Playing sport on your period: a practical guide",
       "seoDescription": "Between 25% and 61% of adolescent girls avoid sport during their period. Products, kit and what to keep at the gym: the practical side, without taboos.",
       "date": "2026-08-13",
-      "updated": "2026-08-31",
+      "updated": "2026-09-18",
       "author": "Sajid Hossain",
       "excerpt": "Fear of leaking is one of the reasons girls skip training sessions and PE lessons — and among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period. Almost every article on the subject stops at saying it is a problem. This one tries to answer the practical question nobody addresses: what do you actually do on the day it happens.",
       "answer": "With three things that depend on organisation rather than on the athlete: a menstrual product suited to the movement, kit that does not add to the fear of leaking, and supplies available at the gym. Among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period, and fear of leaking is a recurring barrier (Harvey et al., 2025).",
@@ -2179,6 +2360,11 @@
         },
         {
           "level": 2,
+          "text": "Can a period be moved for a competition?",
+          "id": "can-a-period-be-moved-for-a-competition"
+        },
+        {
+          "level": 2,
           "text": "Where BAB fits",
           "id": "where-bab-fits"
         },
@@ -2188,9 +2374,9 @@
           "id": "sources"
         }
       ],
-      "words": 2275,
-      "readingMinutes": 11,
-      "timeRequired": "PT11M"
+      "words": 2621,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "dolore-spalla-giovani-atlete",
@@ -3751,12 +3937,12 @@
       "seoTitle": "Crociato nelle giovani atlete: rischio e prevenzione",
       "seoDescription": "Nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei. Cosa cambia con la pubertà e i 20 minuti che riducono il rischio.",
       "date": "2026-07-21",
-      "updated": "2026-08-29",
+      "updated": "2026-09-18",
       "author": "Sajid Hossain",
       "excerpt": "Nello sport scolastico le ragazze si rompono il crociato 1,4 volte più dei coetanei maschi — a basket oltre quattro volte tanto. Esiste un riscaldamento neuromuscolare che nelle atlete di 13-19 anni riduce il rischio di circa il 60%, costa venti minuti due volte a settimana e quasi nessuna squadra lo fa davvero. I dati, e cosa cambia lunedì in palestra.",
       "answer": "Perché il divario si apre con la pubertà, non con il livello: nello sport scolastico le ragazze subiscono 1,40 volte le rotture di crociato dei coetanei maschi, fino a 4,14 volte nel basket (Bram et al., 2021). Venti minuti di allenamento neuromuscolare due volte a settimana riducono il rischio di circa il 60% tra le atlete di 13-19 anni (Petushek et al., 2019).",
       "cover": "/fotobab/cover-crociato-atlete.jpg",
-      "coverAlt": "Palestra vuota con parquet da basket, tribune blu e canestri alle due estremità",
+      "coverAlt": "Palestra vuota vista da bordo campo: parquet da basket lucido con le linee dell'area, tribune blu retratte sulla sinistra, canestri alle due estremità e un tabellone segnapunti accesso sulla parete di fondo; nessuna persona nell'inquadratura",
       "tags": [
         "crociato",
         "prevenzione",
@@ -3830,12 +4016,12 @@
       "seoTitle": "ACL injuries in young female athletes",
       "seoDescription": "In high-school sport girls sustain 1.40 times the ACL ruptures of male peers. What puberty changes, and the 20 minutes that cut the risk.",
       "date": "2026-07-21",
-      "updated": "2026-08-29",
+      "updated": "2026-09-18",
       "author": "Sajid Hossain",
       "excerpt": "In high-school sport, girls tear their ACL 1.4 times as often as boys — and over four times as often in basketball. A neuromuscular warm-up cuts that risk by roughly 60% in 13-19 year-old athletes, costs twenty minutes twice a week, and almost no team actually does it. The evidence, and what changes on Monday.",
       "answer": "Because the gap opens with puberty, not with playing level: in high-school sport girls sustain 1.40 times the ACL ruptures of male peers, and up to 4.14 times in basketball (Bram et al., 2021). Twenty minutes of neuromuscular training twice a week cuts the risk by roughly 60% among athletes aged 13-19 (Petushek et al., 2019).",
       "cover": "/fotobab/cover-crociato-atlete.jpg",
-      "coverAlt": "An empty indoor gymnasium with a polished wooden basketball court, blue bleachers and hoops at both ends",
+      "coverAlt": "An empty gymnasium seen from courtside: a polished wooden basketball court with the key markings, retracted blue bleachers on the left, hoops at both ends and a lit scoreboard on the far wall; nobody in shot",
       "tags": [
         "acl",
         "prevention",
@@ -4171,12 +4357,12 @@
       "seoTitle": "Il dolore in pubertà: cosa dice la neuroscienza",
       "seoDescription": "In pubertà il dolore clinico aumenta davvero, soprattutto nelle ragazze. Cosa dice la neuroscienza e perché «sta esagerando» è la risposta sbagliata.",
       "date": "2026-07-11",
-      "updated": "2026-08-31",
+      "updated": "2026-09-18",
       "author": "Sajid Hossain",
       "excerpt": "In pubertà il dolore clinico aumenta davvero: il dolore addominale sale a quasi il 30% nelle ragazze contro il 16% nei ragazzi, e il dolore mestruale riguarda il 71,1% delle giovani donne — il 20,1% salta scuola per questo. Non è fragilità né teatro: è una fase dello sviluppo documentata dalle neuroscienze. Cosa succede a 13-14 anni, come distinguere un dolore da osservare da uno da far vedere a un medico, e perché conta per chi allena e per chi cresce una figlia.",
       "answer": "Perché in pubertà i meccanismi del dolore si riorganizzano: il dolore sperimentale tende a diminuire mentre quello clinico — mal di testa, dolore addominale, dismenorrea — aumenta (Nahman-Averbuch et al., 2023). Le differenze tra ragazze e ragazzi emergono in adolescenza e non prima: è fisiologia, non carattere, e va trattata come informazione.",
       "cover": "/fotobab/cover-dolore-puberta.jpg",
-      "coverAlt": "Primo piano delle corsie bianche di una pista di atletica rossa, vuota",
+      "coverAlt": "Primo piano ravvicinato di una pista di atletica rossa vuota: righe bianche continue e tratteggiate che delimitano le corsie e si incrociano in diagonale sulla superficie granulosa; nessuna persona nell'inquadratura",
       "tags": [
         "dolore",
         "pubertà",
@@ -4240,12 +4426,12 @@
       "seoTitle": "Pain at puberty: what neuroscience says",
       "seoDescription": "Clinical pain really does increase at puberty, especially in girls. What neuroscience says, and why 'she's being dramatic' is the wrong answer.",
       "date": "2026-07-11",
-      "updated": "2026-08-31",
+      "updated": "2026-09-18",
       "author": "Sajid Hossain",
       "excerpt": "During puberty clinical pain genuinely increases: abdominal pain rises to nearly 30% in girls versus 16% in boys, and period pain affects 71.1% of young women — 20.1% miss school because of it. It isn't fragility or theatre: it's a developmental stage documented by neuroscience. What happens at 13-14, how to tell pain worth watching from pain that needs a doctor, and why it matters for coaches and parents.",
       "answer": "Because pain mechanisms reorganise during puberty: experimental pain tends to decrease while clinical pain — headache, abdominal pain, dysmenorrhoea — increases (Nahman-Averbuch et al., 2023). Differences between girls and boys emerge in adolescence and not before: this is physiology, not character, and it should be treated as information.",
       "cover": "/fotobab/cover-dolore-puberta.jpg",
-      "coverAlt": "Close-up of the white lane lines on an empty red athletics track",
+      "coverAlt": "A close-up of an empty red athletics track: solid and dashed white lines marking the lanes and crossing diagonally over the grainy surface; nobody in shot",
       "tags": [
         "pain",
         "puberty",
@@ -4425,9 +4611,9 @@
       "lang": "it",
       "title": "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)",
       "seoTitle": "RED-S nelle atlete: cos'è, sintomi e primi segnali",
-      "seoDescription": "RED-S: quando l'energia non copre allenamento e crescita. Sintomi, primi segnali e perché un ciclo che sparisce non è mai un buon segno.",
+      "seoDescription": "Un ciclo che sparisce non è un segno di buon allenamento, e la pillola non lo riporta: le linee guida 2025 lo dicono con evidenza di livello A. Segnali e cosa fare.",
       "date": "2026-07-04",
-      "updated": "2026-08-28",
+      "updated": "2026-09-18",
       "author": "Sajid Hossain",
       "excerpt": "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica.",
       "answer": "Quando l'energia introdotta non copre quella spesa tra allenamento e crescita: è la bassa disponibilità energetica alla base della RED-S. Non serve un disturbo alimentare, può accadere senza intenzione, e i primi segnali sono un ciclo che si dirada, infortuni ripetuti, sonno e umore peggiori — eppure il 44% delle atlete adolescenti crede che perdere il ciclo sia normale (Armento et al., 2021).",
@@ -4483,18 +4669,18 @@
           "id": "fonti"
         }
       ],
-      "words": 1626,
-      "readingMinutes": 8,
-      "timeRequired": "PT8M"
+      "words": 1927,
+      "readingMinutes": 10,
+      "timeRequired": "PT10M"
     },
     {
       "slug": "red-s-bassa-disponibilita-energetica",
       "lang": "en",
       "title": "RED-S: when training more does harm (and how to catch it early)",
       "seoTitle": "RED-S in female athletes: signs and symptoms",
-      "seoDescription": "RED-S: when energy intake doesn't cover training and growth. Symptoms, early signs, and why a disappearing period is never a good sign.",
+      "seoDescription": "A disappearing period is not a sign of good training, and the pill does not bring it back: the 2025 guidelines say so at Level A evidence. Signs and next steps.",
       "date": "2026-07-04",
-      "updated": "2026-08-28",
+      "updated": "2026-09-18",
       "author": "Sajid Hossain",
       "excerpt": "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed.",
       "answer": "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021).",
@@ -4550,9 +4736,9 @@
           "id": "sources"
         }
       ],
-      "words": 1580,
-      "readingMinutes": 8,
-      "timeRequired": "PT8M"
+      "words": 1864,
+      "readingMinutes": 9,
+      "timeRequired": "PT9M"
     },
     {
       "slug": "parlare-di-ciclo-con-allenatore",

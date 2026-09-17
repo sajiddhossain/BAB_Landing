@@ -733,6 +733,42 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     descriptionEn:
       'Traction apophysitis of the lower pole of the kneecap, the opposite end of the patellar tendon from Osgood-Schlatter disease. In a population study of 1,910 Dutch adolescents aged 12-15 (52% girls) who had MRI of both knees regardless of symptoms, features appeared in 0.8%, against 2.3% for Osgood-Schlatter; in the same study nearly one adolescent in five had at least one abnormal finding, a reason not to over-treat those without symptoms (Kemmeren et al., 2024).',
   },
+  'contraccezione-ormonale': {
+    name: 'Contraccezione ormonale',
+    description:
+      "Famiglia di metodi che sopprimono gli ormoni prodotti dall'ovaio e li sostituiscono con ormoni assunti dall'esterno: pillola combinata (estrogeno sintetico, di solito etinilestradiolo a 20 o 30 µg, più un progestinico), metodi con solo progestinico (pillola, impianto, spirale ormonale, puntura trimestrale di medrossiprogesterone acetato), cerotto e anello. Fra 186 atlete d'élite adulte danesi il 57% ne usava uno, il 74% di tipo combinato (Oxfeldt et al., 2020). Sulla prestazione l'effetto medio è banale (42 studi, 590 donne adulte; Elliott-Sale et al., 2020); sulla densità ossea di un'atleta senza ciclo la pillola combinata non è efficace, e le linee guida 2025 raccomandano di non usarla a quello scopo con evidenza di livello A (Williams et al., 2025).",
+    nameEn: 'Hormonal contraception',
+    descriptionEn:
+      "A family of methods that suppress ovarian hormones and replace them with hormones taken from outside: the combined pill (a synthetic oestrogen, usually ethinyl estradiol at 20 or 30 µg, plus a progestin), progestin-only methods (pill, implant, hormonal coil, three-monthly depot medroxyprogesterone acetate injection), patch and ring. Among 186 adult Danish elite athletes, 57% used one, 74% of them combined (Oxfeldt et al., 2020). The average effect on performance is trivial (42 studies, 590 adult women; Elliott-Sale et al., 2020); for the bone density of an athlete without a period the combined pill is not effective, and the 2025 guidelines recommend against using it for that purpose at Level A evidence (Williams et al., 2025).",
+    sameAs: 'https://en.wikipedia.org/wiki/Hormonal_contraception',
+  },
+  'sanguinamento-da-sospensione': {
+    name: 'Sanguinamento da sospensione',
+    description:
+      "Il sanguinamento che arriva nei giorni di pausa o di placebo della pillola combinata: è la risposta dell'endometrio al calo degli ormoni assunti, non la prova che l'asse ipotalamo-ipofisi-ovaio stia funzionando. La distinzione è clinica: le linee guida 2025 della Female Athlete Triad Coalition raccomandano di avvertire le atlete che la pillola combinata «può mascherare la ripresa spontanea delle mestruazioni» e non migliora la densità ossea, con evidenza di livello B (Williams et al., 2025). Ne segue che un'amenorrea comparsa dopo la sospensione non è un effetto della sospensione, ma ciò che la pillola stava coprendo.",
+    nameEn: 'Withdrawal bleeding',
+    descriptionEn:
+      "The bleed that arrives during the pill-free or placebo days of the combined pill: it is the endometrium's response to the drop in the hormones being taken, not proof that the hypothalamic-pituitary-ovarian axis is working. The distinction is clinical: the 2025 Female Athlete Triad Coalition guidelines recommend cautioning athletes that the combined pill \"may mask spontaneous menstrual resumption\" and does not improve bone density, at Level B evidence (Williams et al., 2025). It follows that amenorrhoea appearing after stopping the pill is not an effect of stopping, but what the pill was covering.",
+    sameAs: 'https://en.wikipedia.org/wiki/Withdrawal_bleeding',
+  },
+  'amenorrea-ipotalamica-funzionale': {
+    name: 'Amenorrea ipotalamica funzionale',
+    description:
+      "Assenza di mestruazioni dovuta alla riduzione dei segnali ormonali dall'ipotalamo, nell'atleta quasi sempre per bassa disponibilità di energia e non per una malattia dell'ovaio. È la componente riproduttiva della triade dell'atleta femminile, e nell'aggiornamento 2025 del consenso compare come «oligo-amenorrea ipotalamica funzionale» in un modello dedicato alle adolescenti (De Souza et al., 2025). Fra 186 atlete d'élite adulte danesi che non usavano contraccettivi ormonali, il 51% riferiva disturbi del ciclo, con una quota più alta negli sport di endurance, 69% (Oxfeldt et al., 2020).",
+    nameEn: 'Functional hypothalamic amenorrhoea',
+    descriptionEn:
+      'Absence of menstruation caused by reduced hormonal signalling from the hypothalamus — in athletes almost always because of low energy availability rather than ovarian disease. It is the reproductive component of the female athlete triad, and the 2025 update to the consensus statement lists it as "functional hypothalamic oligo-amenorrhoea" within a model dedicated to adolescents (De Souza et al., 2025). Among 186 adult Danish elite athletes not using hormonal contraceptives, 51% reported menstrual disturbances, with a higher share in endurance sports, 69% (Oxfeldt et al., 2020).',
+    sameAs: 'https://en.wikipedia.org/wiki/Functional_hypothalamic_amenorrhea',
+  },
+  'estradiolo-transdermico': {
+    name: 'Estradiolo transdermico',
+    description:
+      "Terapia sostitutiva con 17β-estradiolo assorbito attraverso la pelle (cerotto), associato a un progestinico per la protezione dell'endometrio: a differenza dell'estrogeno orale non attraversa il fegato al primo passaggio. In uno studio randomizzato su 121 atlete di 14-25 anni con ciclo assente o irregolare, a 12 mesi lo Z-score della densità ossea aumentava con il cerotto rispetto a una pillola con etinilestradiolo a colonna e collo del femore (p=0,011 e p=0,021) e rispetto a nessuna terapia (Ackerman et al., 2019). Le linee guida 2025 lo raccomandano come terapia sostitutiva a dosi fisiologiche con evidenza di livello A, precisando che non ha efficacia contraccettiva (Williams et al., 2025).",
+    nameEn: 'Transdermal estradiol',
+    descriptionEn:
+      'Replacement therapy with 17β-estradiol absorbed through the skin (a patch), combined with a progestin for endometrial protection: unlike oral oestrogen it does not undergo first-pass liver metabolism. In a randomised trial of 121 athletes aged 14-25 with absent or irregular cycles, at 12 months bone density Z-scores increased with the patch compared with a pill containing ethinyl estradiol at the spine and femoral neck (p=0.011 and p=0.021) and compared with no therapy (Ackerman et al., 2019). The 2025 guidelines recommend it as physiologic-dose replacement therapy at Level A evidence, noting that it has no contraceptive efficacy (Williams et al., 2025).',
+    sameAs: 'https://en.wikipedia.org/wiki/Estradiol_(medication)',
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;

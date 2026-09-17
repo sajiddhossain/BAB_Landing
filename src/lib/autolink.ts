@@ -19,6 +19,24 @@
 export const AUTOLINK_TERMS: Record<string, { it: string[]; en: string[] }> = {
   'red-s': { it: ['RED-S'], en: ['RED-S'] },
   dismenorrea: { it: ['dismenorrea'], en: ['dysmenorrhoea'] },
+  'contraccezione-ormonale': {
+    it: ['contraccezione ormonale', 'contraccettivi ormonali'],
+    en: ['hormonal contraception', 'hormonal contraceptives'],
+  },
+  'sanguinamento-da-sospensione': {
+    it: ['sanguinamento da sospensione'],
+    en: ['withdrawal bleed'],
+  },
+  'estradiolo-transdermico': {
+    it: ['estradiolo trasdermico'],
+    en: ['transdermal estradiol'],
+  },
+  // Prima di 'amenorrea': il termine lungo va riconosciuto per primo, altrimenti
+  // il link cade sulla sola parola «amenorrea» dentro la forma estesa.
+  'amenorrea-ipotalamica-funzionale': {
+    it: ['amenorrea ipotalamica funzionale', 'oligo-amenorrea ipotalamica funzionale'],
+    en: ['functional hypothalamic amenorrhoea', 'functional hypothalamic oligo-amenorrhoea'],
+  },
   endometriosi: { it: ['endometriosi'], en: ['endometriosis'] },
   amenorrea: { it: ['amenorrea'], en: ['amenorrhoea'] },
   menarca: { it: ['menarca'], en: ['menarche'] },
