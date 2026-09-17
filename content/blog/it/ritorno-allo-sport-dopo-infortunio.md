@@ -4,7 +4,7 @@ title: "Tornare a giocare dopo un infortunio: il ginocchio guarisce prima della 
 seoTitle: "Tornare allo sport dopo un infortunio: quando è ora"
 seoDescription: "Dopo un crociato l'81% torna allo sport ma solo il 55% al livello competitivo. La prontezza psicologica conta quanto il ginocchio."
 date: 2026-08-16
-updated: 2026-08-29
+updated: 2026-09-18
 author: Sajid Hossain
 excerpt: "Dopo una ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo — e chi non torna, spesso, ha un ginocchio che funziona. La prontezza psicologica si misura, predice il rientro e, negli under 20, è associata al rischio di un secondo infortunio. Cosa dicono i numeri sul calendario, sui criteri e sulle ragazze, e cosa può dire davvero chi allena il giorno del rientro."
 answer: "Perché il tessuto guarisce prima della fiducia: dopo la ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo, e tra chi non rientra la paura di rifarsi male è una delle ragioni più frequenti (Ardern et al., 2014, meta-analisi su 7.556 partecipanti in prevalenza adulti)."
@@ -120,9 +120,9 @@ La seconda: la decisione è **condivisa** tra atleta, staff sanitario e chi alle
 
 Una nota di trasparenza sulle prove: gran parte dei numeri di questo articolo riguarda il **crociato**, semplicemente perché è l'infortunio più studiato. Per una caviglia, una spalla o una lombalgia i valori assoluti sono diversi e spesso non ci sono; il principio — tappe verificate, criteri prima del calendario, decisione condivisa — è invece trasversale. Per la [distorsione di caviglia](/blog/distorsione-caviglia-giovani-atlete) e per il [mal di schiena](/blog/mal-di-schiena-giovani-atlete) abbiamo raccontato che cosa si sa, e dove le prove si fermano.
 
-## Cosa può fare chi sta intorno all'atleta
+## Che cosa può fare chi sta intorno a un'atleta che rientra?
 
-Nessuna di queste cose richiede una competenza clinica, e tutte riducono la distanza tra le tre tappe.
+**Accorciare la distanza fra il corpo guarito e la testa che rientra, e nessuna di queste cose richiede una competenza clinica.** Il tessuto guarisce con i suoi tempi; la fiducia no, e su quella chi allena, la famiglia e le compagne hanno un'influenza diretta. Le azioni qui sotto agiscono proprio lì, fra le tre tappe del ritorno.
 
 - **Chi allena**: dire prima della seduta che cosa succederà oggi («solo lavoro con la palla, niente contrasti»), togliere il paragone con il «prima», non chiedere una dimostrazione al primo allenamento. E ricordare che [le parole dette a bordo campo restano addosso](/blog/parole-allenatore-salute-atlete) molto più a lungo del referto.
 - **La famiglia**: separare la domanda «come va il ginocchio» dalla domanda «come stai». Sono due recuperi, e vanno avanti a velocità diverse.

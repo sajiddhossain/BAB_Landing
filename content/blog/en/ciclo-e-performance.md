@@ -1,10 +1,10 @@
 ---
 slug: ciclo-e-performance
 title: "Menstrual cycle and sports performance: what the data says (and what it doesn't)"
-seoTitle: "Menstrual cycle and sport: what the data says"
-seoDescription: "The effect of cycle phase on performance is trivial in the largest meta-analysis — and it was measured in adult women. What the data do and do not say."
+seoTitle: "Does the menstrual cycle affect sports performance?"
+seoDescription: "In the largest meta-analysis (1,193 adult women) the effect of cycle phase is “trivial”. Yet 77% of athletes feel it, and 25-61% of adolescent girls skip activity."
 date: 2026-06-20
-updated: 2026-08-20
+updated: 2026-09-18
 author: Sajid Hossain
 excerpt: "77% of elite athletes report their cycle has negatively affected their performance — but that sample has a mean age of 28. Among adolescents aged 10-18, between 25% and 61% cut back or avoid physical activity during their period. And periodising training around cycle phase? For a 14-year-old there is no evidence supporting it. What the data says, what it doesn't, and where to actually start."
 answer: "Yes, but less than is commonly believed and not predictably: in the largest meta-analysis the effect of cycle phase on performance is of «trivial» magnitude, and measured in adult women (McNulty et al., 2020). What the athlete actually experiences weighs more: 77% of elite athletes report their cycle has affected their performance (Jones et al., 2024 — mean age 28)."

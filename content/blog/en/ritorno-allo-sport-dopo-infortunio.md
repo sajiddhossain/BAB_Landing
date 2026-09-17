@@ -4,7 +4,7 @@ title: "Going back after an injury: the knee heals before the head does"
 seoTitle: "Return to sport after injury: when it's time"
 seoDescription: "After ACL reconstruction 81% return to sport but only 55% to competitive level. Psychological readiness matters as much as the knee."
 date: 2026-08-16
-updated: 2026-08-29
+updated: 2026-09-18
 author: Sajid Hossain
 excerpt: "After ACL reconstruction 81% go back to playing sport, but only 55% go back to competitive level — and many of those who never return have a knee that works fine. Psychological readiness can be measured, it predicts return, and in under-20s it is associated with the risk of a second injury. What the numbers say about the calendar, about criteria and about girls, and what a coach can actually say on the day someone comes back."
 answer: "Because tissue heals faster than confidence: after ACL reconstruction 81% go back to playing sport but only 55% return to competitive level, and among those who do not return, fear of reinjury is one of the most common reasons (Ardern et al., 2014, a meta-analysis of 7,556 participants, mostly adults)."
@@ -120,9 +120,9 @@ Second: the decision is **shared** between athlete, medical staff and coaches, a
 
 A note on the evidence, for transparency: most of the numbers in this article concern the **ACL**, simply because it is the most studied injury. For an ankle, a shoulder or low back pain the absolute values are different and often missing; the principle — verified steps, criteria before the calendar, a shared decision — does carry across. For [ankle sprains](/en/blog/distorsione-caviglia-giovani-atlete) and [low back pain](/en/blog/mal-di-schiena-giovani-atlete) we have described what is known, and where the evidence stops.
 
-## What the people around the athlete can do
+## What can the people around a returning athlete actually do?
 
-None of this requires clinical expertise, and all of it shortens the distance between the three steps.
+**Shorten the distance between the healed body and the head that is coming back — and none of it requires clinical expertise.** Tissue heals on its own timeline; confidence does not, and coaches, family and teammates have direct influence there. What follows acts exactly in that space, between the three steps of return.
 
 - **Coaches**: say before the session what today will involve ("ball work only, no contact"), drop comparisons with "before", do not ask for a demonstration in the first session. And remember that [words said on the sideline](/en/blog/parole-allenatore-salute-atlete) stick around far longer than the medical report.
 - **Families**: separate "how is the knee" from "how are you". These are two recoveries, and they move at different speeds.

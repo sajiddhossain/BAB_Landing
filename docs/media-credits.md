@@ -367,3 +367,21 @@
   come la ginnastica, e una schiena reale — per di più di un'adolescente — sarebbe stata un corpo esposto come
   «caso clinico». Scartate in fase di selezione: foto di ginnaste ritmiche in gara riconoscibili (persone reali
   identificabili, fonte Wikimedia) e immagini «balance beam» che si sono rivelate non pertinenti.
+
+## cover-apofisiti-crescita.jpg
+- Titolo originale: "Empty running track field" (curva di una pista di atletica vuota vista dall'alto, corsie rosse
+  separate da linee bianche)
+- Fonte: rawpixel — https://www.rawpixel.com/image/6017346/photo-image-public-domain-free-sport
+  (reperita via API Openverse, filtro licenza cc0)
+- Autore: non indicato dalla fonte (rendition servita da `images.rawpixel.com`)
+- Licenza: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/) — pubblico dominio, uso libero anche
+  commerciale, attribuzione non obbligatoria; registrata qui per tracciabilità
+- Uso: cover articolo blog "apofisiti da trazione: Osgood-Schlatter e morbo di Sever" (IT + EN)
+- Lavorazione: rendition `editor_1024` (non filigranata), 1024x685 → JPEG con `sips`, ritaglio 16:9 centrato a
+  1024x576, q82. Nessun ritocco.
+  Nessuna persona nell'inquadratura, quindi nessun minore identificabile, e nessun marchio leggibile.
+  Scelta deliberata di una pista vuota: l'articolo parla del dolore che toglie mesi di allenamento — da 1 a 45
+  settimane — e una pista senza nessuno è esattamente ciò che resta quando un'apofisite non viene gestita.
+  Scartate in fase di selezione: una foto di mani che allacciano scarpe da corsa (marchio sportivo leggibile
+  sulla scarpa, rischio di endorsement implicito) e immagini di gambe di atlete adulte in allenamento
+  (persone potenzialmente identificabili, tema clinico).

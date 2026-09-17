@@ -306,10 +306,10 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
   'osgood-schlatter': {
     name: 'Morbo di Osgood-Schlatter',
     description:
-      "Dolore localizzato sulla tuberosità tibiale, dove il tendine rotuleo si inserisce appena sotto la rotula; tipico dell'adolescenza in crescita. Non richiede solo attesa: in una coorte prospettica su 51 adolescenti di 10-14 anni (51% ragazze) una scala di progressione del carico con esercizi di rinforzo ha prodotto l'80% di esiti positivi a 12 settimane e il 90% a 12 mesi, pur senza gruppo di controllo (Rathleff et al., 2020).",
+      "Apofisite da trazione della tuberosità tibiale, dove il tendine rotuleo si inserisce appena sotto la rotula: dolore puntiforme sull'osso, tipico dell'adolescenza in crescita, che si accende con salti, corsa e accosciate su una gamba sola (Holden et al., 2024). Non richiede solo attesa: in una coorte prospettica su 51 adolescenti di 10-14 anni (51% ragazze) una scala di progressione del carico con esercizi di rinforzo ha prodotto l'80% di esiti positivi a 12 settimane e il 90% a 12 mesi, pur senza gruppo di controllo (Rathleff et al., 2020). Non è sempre autolimitante: a una mediana di 3,75 anni dalla diagnosi il 60,5% di 43 pazienti rintracciati riferiva ancora dolore, e il 54% di questi aveva ridotto lo sport (Guldhammer et al., 2019; campione piccolo, metà dei contattati non ha risposto).",
     nameEn: 'Osgood-Schlatter disease',
     descriptionEn:
-      'Pain localised over the tibial tuberosity, where the patellar tendon inserts just below the kneecap; typical of the growing adolescent. It does not simply require waiting: in a prospective cohort of 51 adolescents aged 10-14 (51% girls), a load-progression ladder with strengthening exercises produced 80% positive outcomes at 12 weeks and 90% at 12 months, albeit without a control group (Rathleff et al., 2020).',
+      'Traction apophysitis of the tibial tuberosity, where the patellar tendon inserts just below the kneecap: pinpoint pain on the bone, typical of the growing adolescent, flaring with jumping, running and single-leg squats (Holden et al., 2024). It does not simply require waiting: in a prospective cohort of 51 adolescents aged 10-14 (51% girls), a load-progression ladder with strengthening exercises produced 80% positive outcomes at 12 weeks and 90% at 12 months, albeit without a control group (Rathleff et al., 2020). It is not always self-limiting: at a median of 3.75 years after diagnosis, 60.5% of 43 traced patients still reported pain, and 54% of those had cut back on sport (Guldhammer et al., 2019; small sample, half of those contacted did not respond).',
     sameAs: 'https://it.wikipedia.org/wiki/Morbo_di_Osgood-Schlatter',
   },
   'gestione-del-carico': {
@@ -707,6 +707,31 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     nameEn: 'Adams forward bend test',
     descriptionEn:
       'A clinical screening test for scoliosis: the person bends forward with straight legs and the examiner looks for one side of the back sitting higher than the other, a sign of vertebral rotation; a scoliometer measures the angle of trunk rotation. In a school screening of 4,000 Norwegian twelve-year-olds the threshold for X-ray referral was a rib hump above 7°, and confirmed scoliosis affected 0.55% (Adobor et al., 2011). The SOSORT guidelines recommend that paediatricians, GPs and sports physicians perform it at every visit between the ages of 8 and 15 (Negrini et al., 2018); in the United States the evidence on the benefits of population screening is judged insufficient (USPSTF, 2018). It is a screening tool, not a diagnostic one: diagnosis requires a radiographic Cobb angle measurement.',
+  },
+  'apofisite-da-trazione': {
+    name: 'Apofisite da trazione',
+    description:
+      "Irritazione dolorosa del punto in cui un tendine tira su un'apofisi non ancora fusa, per accumulo di carico e non per un trauma singolo. Nell'arto inferiore tre quadri coprono oltre il 99% dei casi: morbo di Osgood-Schlatter, morbo di Sever e sindrome di Sinding-Larsen-Johansson. In una coorte prospettica danese di 5,5 anni su 878 bambine e 792 bambini di scuola primaria, con 1.265 episodi registrati, la durata mediana era di 3-4 settimane con un intervallo da 1 a 45 settimane, e l'incidenza fra 3,2 e 7,0 casi per 1.000 partecipazioni sportive nel tempo libero; calcio, pallamano, pallacanestro e ginnastica con salti avevano rischi più alti (RR 2,07-2,74), mentre le ore aggiuntive di educazione fisica non aumentavano il rischio (Wedderkopp et al., 2026).",
+    nameEn: 'Traction apophysitis',
+    descriptionEn:
+      'Painful irritation of the point where a tendon pulls on an unfused apophysis, from accumulated load rather than a single trauma. In the lower limb three conditions cover more than 99% of cases: Osgood-Schlatter disease, Sever’s disease and Sinding-Larsen-Johansson syndrome. In a 5.5-year Danish prospective cohort of 878 girls and 792 boys in primary school, with 1,265 recorded episodes, median duration was 3-4 weeks with a range of 1 to 45 weeks, and incidence ran between 3.2 and 7.0 cases per 1,000 leisure-time sport participations; football, handball, basketball and jumping gymnastics carried higher risk (RR 2.07-2.74), while extra physical education hours did not raise it (Wedderkopp et al., 2026).',
+  },
+  'morbo-di-sever': {
+    name: 'Morbo di Sever (apofisite calcaneare)',
+    description:
+      "Apofisite da trazione dell'apofisi del calcagno, dove si inserisce il tendine d'Achille: dolore al tallone tipicamente all'inizio dell'attività e sui terreni duri, riprodotto stringendo il tallone ai lati. È la causa più frequente di dolore al tallone in età pediatrica; nelle registrazioni di 34 studi di medicina generale olandesi su pazienti di 6-17 anni l'incidenza di diagnosi era di 3,7 per 1.000 pazienti registrati, verosimilmente una sottostima per i criteri di inclusione stretti (Wiegerinck et al., 2014). Il trattamento conservativo — plantari, esercizio, taping — allevia i sintomi in una revisione di 8 studi randomizzati (Hernandez-Lucas et al., 2024), ma nella revisione Cochrane 2026 le prove sui singoli presidi restano di certezza bassa o molto bassa, su campioni al 73% maschili (Williams et al., 2026).",
+    nameEn: "Sever's disease (calcaneal apophysitis)",
+    descriptionEn:
+      'Traction apophysitis of the heel bone’s apophysis, where the Achilles tendon inserts: heel pain typically at the start of activity and on hard surfaces, reproduced by squeezing the heel from both sides. It is the most common cause of heel pain in childhood; in records from 34 Dutch general practices covering patients aged 6-17, the incidence of recorded diagnoses was 3.7 per 1,000 registered patients, probably an underestimate given strict inclusion criteria (Wiegerinck et al., 2014). Conservative treatment — insoles, exercise, taping — relieves symptoms in a review of 8 randomised trials (Hernandez-Lucas et al., 2024), but in the 2026 Cochrane review the evidence on individual devices remains of low or very low certainty, in samples that were 73% male (Williams et al., 2026).',
+    sameAs: 'https://en.wikipedia.org/wiki/Calcaneal_apophysitis',
+  },
+  'sinding-larsen-johansson': {
+    name: 'Sindrome di Sinding-Larsen-Johansson',
+    description:
+      "Apofisite da trazione del polo inferiore della rotula, cioè l'estremità opposta del tendine rotuleo rispetto al morbo di Osgood-Schlatter. In uno studio di popolazione su 1.910 adolescenti olandesi di 12-15 anni (52% ragazze) sottoposti a risonanza di entrambe le ginocchia indipendentemente dai sintomi, i segni comparivano nello 0,8%, contro il 2,3% dell'Osgood-Schlatter; nello stesso studio quasi un adolescente su cinque aveva almeno un reperto anomalo, un motivo per non sovra-trattare chi non ha sintomi (Kemmeren et al., 2024).",
+    nameEn: 'Sinding-Larsen-Johansson syndrome',
+    descriptionEn:
+      'Traction apophysitis of the lower pole of the kneecap, the opposite end of the patellar tendon from Osgood-Schlatter disease. In a population study of 1,910 Dutch adolescents aged 12-15 (52% girls) who had MRI of both knees regardless of symptoms, features appeared in 0.8%, against 2.3% for Osgood-Schlatter; in the same study nearly one adolescent in five had at least one abnormal finding, a reason not to over-treat those without symptoms (Kemmeren et al., 2024).',
   },
 };
 

@@ -70,6 +70,18 @@ export const AUTOLINK_TERMS: Record<string, { it: string[]; en: string[] }> = {
     en: ['adolescent idiopathic scoliosis'],
   },
   'angolo-di-cobb': { it: ['angolo di Cobb'], en: ['Cobb angle'] },
+  'apofisite-da-trazione': {
+    it: ['apofisite da trazione', 'apofisiti da trazione'],
+    en: ['traction apophysitis'],
+  },
+  'morbo-di-sever': {
+    it: ['morbo di Sever', 'apofisite calcaneare'],
+    en: ["Sever's disease", 'calcaneal apophysitis'],
+  },
+  'sinding-larsen-johansson': {
+    it: ['Sinding-Larsen-Johansson'],
+    en: ['Sinding-Larsen-Johansson'],
+  },
   'test-di-adams': { it: ['test di Adams'], en: ['Adams forward bend test'] },
 };
 

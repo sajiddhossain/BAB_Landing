@@ -1015,6 +1015,66 @@ export const FACTS: Fact[] = [
     source: 'Nassar et al., 2026',
     doi: '10.1177/03635465251390546',
   },
+  {
+    id: 'apofisiti-osgood-schlatter-sever-giovani-atlete-1',
+    article: 'apofisiti-osgood-schlatter-sever-giovani-atlete',
+    claim:
+      "Le apofisiti dell'arto inferiore durano in mediana 3-4 settimane, ma l'intervallo osservato va da 1 a 45 settimane; morbo di Sever, sindrome di Sinding-Larsen-Johansson e morbo di Osgood-Schlatter insieme fanno oltre il 99% dei casi. Popolazione: coorte prospettica danese di 5,5 anni, 878 bambine e 792 bambini di scuola primaria, 1.265 episodi registrati settimanalmente dai genitori e valutati clinicamente.",
+    claimEn:
+      "Lower-limb apophysitis lasts a median of 3-4 weeks, but the observed range runs from 1 to 45 weeks; Sever's disease, Sinding-Larsen-Johansson syndrome and Osgood-Schlatter disease together account for more than 99% of cases. Population: 5.5-year Danish prospective cohort, 878 girls and 792 boys in primary school, 1,265 episodes reported weekly by parents and clinically assessed.",
+    source: 'Wedderkopp et al., 2026',
+    doi: '10.1007/s40279-025-02328-w',
+  },
+  {
+    id: 'apofisiti-osgood-schlatter-sever-giovani-atlete-2',
+    article: 'apofisiti-osgood-schlatter-sever-giovani-atlete',
+    claim:
+      "L'incidenza delle apofisiti dell'arto inferiore è fra 3,2 e 7,0 casi per 1.000 partecipazioni sportive nel tempo libero; calcio, pallamano, pallacanestro e ginnastica con salti hanno rischi più alti (rapporti di rischio 2,07-2,74), mentre le ore aggiuntive di educazione fisica a scuola non aumentano il rischio. Popolazione: 1.670 bambini e bambine danesi di scuola primaria seguiti per 5,5 anni.",
+    claimEn:
+      'The incidence of lower-limb apophysitis runs between 3.2 and 7.0 cases per 1,000 leisure-time sport participations; football, handball, basketball and jumping gymnastics carry higher risk (risk ratios 2.07-2.74), while extra physical education hours at school do not raise it. Population: 1,670 Danish primary-school children followed for 5.5 years.',
+    source: 'Wedderkopp et al., 2026',
+    doi: '10.1007/s40279-025-02328-w',
+  },
+  {
+    id: 'apofisiti-osgood-schlatter-sever-giovani-atlete-3',
+    article: 'apofisiti-osgood-schlatter-sever-giovani-atlete',
+    claim:
+      "A una mediana di 3,75 anni dalla diagnosi di morbo di Osgood-Schlatter, il 60,5% dei pazienti rintracciati riferiva ancora dolore al ginocchio legato alla condizione, il 42,9% di questi un dolore quotidiano, e il 54% di chi aveva dolore aveva ridotto lo sport. Popolazione: coorte RETROSPETTIVA monocentrica, 43 rispondenti su 84 pazienti contattati — campione piccolo e soggetto a bias di risposta.",
+    claimEn:
+      'At a median of 3.75 years after an Osgood-Schlatter diagnosis, 60.5% of traced patients still reported knee pain related to the condition, 42.9% of them daily pain, and 54% of those with pain had reduced their sport. Population: single-centre RETROSPECTIVE cohort, 43 respondents out of 84 patients contacted — a small sample subject to response bias.',
+    source: 'Guldhammer et al., 2019',
+    doi: '10.1177/2325967119878136',
+  },
+  {
+    id: 'apofisiti-osgood-schlatter-sever-giovani-atlete-4',
+    article: 'apofisiti-osgood-schlatter-sever-giovani-atlete',
+    claim:
+      "Fra gli studenti attivi nello sport a 13 anni il morbo di Osgood-Schlatter aveva riguardato il 21,2%, contro il 4,5% dei non attivi; nei giovani atleti seguiti in clinica il dolore aveva interrotto completamente l'allenamento per 3,2 mesi in media e interferito con un allenamento pienamente efficace per 7,3 mesi. Popolazione: 389 studenti finlandesi (191 ragazze, 198 ragazzi) e 68 giovani atleti; questionario RETROSPETTIVO degli anni Ottanta, con gestione dell'epoca basata sul riposo.",
+    claimEn:
+      'Among students active in sport at age 13, 21.2% had had Osgood-Schlatter disease, against 4.5% of those not active; in young athletes seen in clinic, pain had completely stopped training for an average of 3.2 months and interfered with fully effective training for 7.3 months. Population: 389 Finnish students (191 girls, 198 boys) and 68 young athletes; RETROSPECTIVE questionnaire from the 1980s, when management was based on rest.',
+    source: 'Kujala et al., 1985',
+    doi: '10.1177/036354658501300404',
+  },
+  {
+    id: 'apofisiti-osgood-schlatter-sever-giovani-atlete-5',
+    article: 'apofisiti-osgood-schlatter-sever-giovani-atlete',
+    claim:
+      'Le prove sui trattamenti non chirurgici delle apofisiti dell’arto inferiore — farmaci, taping, plantari, rialzi e cuscinetti per il tallone — sono in larga parte di certezza bassa o molto bassa, e plantari su misura e rialzi del tallone risultano sostanzialmente equivalenti su dolore e funzione; nessuno studio ha misurato la qualità di vita. Popolazione: revisione sistematica Cochrane di 10 studi randomizzati, 654 bambini di età media 10,3-13,3 anni, 73% MASCHI.',
+    claimEn:
+      'Evidence on non-surgical treatments for lower-limb apophyseal injuries — drugs, taping, foot orthoses, heel lifts and heel cushioning — is largely of low or very low certainty, and custom orthoses and heel lifts are essentially equivalent for pain and function; no trial measured quality of life. Population: Cochrane systematic review of 10 randomised trials, 654 children with mean ages of 10.3-13.3, 73% MALE.',
+    source: 'Williams et al., 2026',
+    doi: '10.1002/14651858.CD015156.pub2',
+  },
+  {
+    id: 'apofisiti-osgood-schlatter-sever-giovani-atlete-6',
+    article: 'apofisiti-osgood-schlatter-sever-giovani-atlete',
+    claim:
+      "Alla risonanza magnetica di entrambe le ginocchia, eseguita a prescindere dai sintomi, i segni di morbo di Osgood-Schlatter comparivano nel 2,3% degli adolescenti e quelli di sindrome di Sinding-Larsen-Johansson nello 0,8%, con l'Osgood-Schlatter più frequente nei maschi (OR 4,21; IC 95% 2,01-8,85); il 19,4% aveva almeno un reperto anomalo. Popolazione: 1.910 adolescenti olandesi di 12-15 anni, 52% ragazze, studio di popolazione — reperti per immagini, non diagnosi cliniche.",
+    claimEn:
+      'On MRI of both knees, performed regardless of symptoms, Osgood-Schlatter features appeared in 2.3% of adolescents and Sinding-Larsen-Johansson features in 0.8%, with Osgood-Schlatter more frequent in boys (OR 4.21; 95% CI 2.01-8.85); 19.4% had at least one abnormal finding. Population: 1,910 Dutch adolescents aged 12-15, 52% girls, population-based study — imaging findings, not clinical diagnoses.',
+    source: 'Kemmeren et al., 2024',
+    doi: '10.1177/03635465241277162',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */
