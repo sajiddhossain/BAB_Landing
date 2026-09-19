@@ -4,7 +4,7 @@ title: "Playing sport on your period: how it actually works (leaks, products, ki
 seoTitle: "Playing sport on your period: a practical guide"
 seoDescription: "Between 25% and 61% of adolescent girls avoid sport during their period. Products, kit and what to keep at the gym: the practical side, without taboos."
 date: 2026-08-13
-updated: 2026-09-18
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "Fear of leaking is one of the reasons girls skip training sessions and PE lessons — and among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period. Almost every article on the subject stops at saying it is a problem. This one tries to answer the practical question nobody addresses: what do you actually do on the day it happens."
 answer: "With three things that depend on organisation rather than on the athlete: a menstrual product suited to the movement, kit that does not add to the fear of leaking, and supplies available at the gym. Among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period, and fear of leaking is a recurring barrier (Harvey et al., 2025)."
@@ -109,6 +109,7 @@ One necessary caveat: **none of this applies to pain that prevents training ever
 - **Try at home** the product intended for training. It applies to any product, and it is explicit in the menstrual cup review (van Eijk et al., 2019).
 - **Agree a ready-made sentence** for the coach that requires no explanation. Having decided it in advance is what makes it usable, and it is the crux of [how to talk about periods with the person coaching](/en/blog/parlare-di-ciclo-con-allenatore).
 - **Do not make it a sideline topic.** Athletes this age ask parents above all [not to draw attention to them in front of their team-mates](/en/blog/genitori-a-bordo-campo-giovani-atlete): the preparation happens at home, quietly, beforehand.
+- **Count the days, and know when the count matters.** Managing a cycle assumes there is one: a cycle beyond 90 days, or never arrived by age 15, is not an organisational question but [a written clinical threshold](/en/blog/ovaio-policistico-giovani-atlete), and belongs with a paediatrician or a gynaecologist.
 
 This is not an organisational detail: the global review identifies **informational gaps** as one of the main knots, present in **24 of 42 studies (57.1%)**, with poor menstrual health literacy among girls and inadequate training among PE staff (Harvey et al., 2025). Practical information arrives late, or not at all.
 

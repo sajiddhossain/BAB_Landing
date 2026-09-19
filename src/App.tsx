@@ -18,6 +18,7 @@ import FlagIcon, { type FlagLang } from './components/FlagIcon';
 import { COACH_ENABLED, APP_ENABLED } from './lib/flags';
 import { SUPPORTED_LNGS } from './i18n';
 import { blogLangFromPath, blogPath } from './lib/blogLocale';
+import { CLUSTER_SEGMENT } from './data/clusters';
 import type { UserType } from './lib/leads';
 
 // Route Components — Home eager (LCP della landing), il resto code-split per route
@@ -31,6 +32,7 @@ const About = lazy(() => import('./components/About'));
 const LegalPage = lazy(() => import('./components/LegalPage'));
 const Blog = lazy(() => import('./components/Blog'));
 const BlogPost = lazy(() => import('./components/BlogPost'));
+const BlogCluster = lazy(() => import('./components/BlogCluster'));
 const Glossary = lazy(() => import('./components/Glossary'));
 const FaqHub = lazy(() => import('./components/FaqHub'));
 const Facts = lazy(() => import('./components/Facts'));
@@ -361,6 +363,11 @@ export default function App() {
     ? decodeURIComponent(currentPath.slice(blogBase.length + 1))
     : null;
   const isBlogRoute = isBlogList || blogSlug !== null;
+  // Pagina pilastro di un tema: <prefisso>/blog/tema/{chiave}. Condivide il ramo del
+  // blog (lingua dall'URL, cambio lingua che conserva il path) ma non è un articolo:
+  // la chiave è validata da BlogCluster, come lo slug lo è da BlogPost.
+  const clusterKey = blogSlug?.startsWith(`${CLUSTER_SEGMENT}/`) ? blogSlug.slice(CLUSTER_SEGMENT.length + 1) : null;
+  const articleSlug = clusterKey === null ? blogSlug : null;
 
   // Route sconosciuta → pagina 404 in-brand (non un finto rendering della Home)
   const bilingualRoute = matchBilingual(currentPath);
@@ -545,7 +552,8 @@ export default function App() {
           <AnimatePresence mode="wait">
             {isNotFound && <NotFound key="404" onNavigate={navigate} />}
             {isBlogList && <Blog key={`blog-${blogLang}`} lang={blogLang} />}
-            {blogSlug && <BlogPost key={`blog-${blogLang}-${blogSlug}`} slug={blogSlug} onNavigate={navigate} lang={blogLang} />}
+            {articleSlug && <BlogPost key={`blog-${blogLang}-${articleSlug}`} slug={articleSlug} onNavigate={navigate} lang={blogLang} />}
+            {clusterKey !== null && <BlogCluster key={`tema-${blogLang}-${clusterKey}`} clusterKey={clusterKey} onNavigate={navigate} lang={blogLang} />}
             {activePath === '/' && <Home key="home" onOpenWaitlist={openWaitlist} onNavigate={navigate} />}
             {APP_ENABLED && activePath === '/app' && <AppSimulator key="app" onOpenWaitlist={openWaitlist} />}
             {COACH_ENABLED && activePath === '/coach' && <CoachDashboard key="coach" />}

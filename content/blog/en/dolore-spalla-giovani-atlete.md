@@ -4,7 +4,7 @@ title: "Shoulder pain in young female athletes: volleyball, swimming and the loa
 seoTitle: "Shoulder pain in volleyball and swimming: what to do at 14"
 seoDescription: "23% of elite youth handball players have substantial shoulder problems in a single season. When the pain is overload, what to look at, and when to stop."
 date: 2026-08-12
-updated: 2026-08-23
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "In elite youth handball, almost one athlete in four (23%) had substantial shoulder problems over a single season, and girls had a prevalence 1.46 times higher than boys. Among adolescent swimmers the available review reports the highest shoulder-pain rate of any age group (91.3%), against 17 hours a week in the pool. The shoulder is the one joint that works overhead every day in girls' sport — and the one nobody keeps count of."
 answer: "Because the overhead movement loads a shoulder that has not finished growing, every day. In elite handball at 15-18, 23% have substantial shoulder problems in one season, with prevalence 1.46 times higher in girls (Asker et al., 2018); in swimming, the 15-17 band reports the highest pain rate of any age (91.3%; Feijen et al., 2020)."
@@ -113,9 +113,9 @@ Because it prevents nothing. A swollen ankle is visible, a concussion has a prot
 
 It is the same silence already seen with [urinary leaks](/en/blog/perdite-urina-giovani-atlete) and [period pain](/en/blog/dolori-mestruali-giovani-atlete): the symptom does not stop training, so it never enters any record, so statistically it does not exist. And what does not exist does not get managed.
 
-## What changes in the gym and in the pool
+## What changes, concretely, in the gym and in the pool?
 
-This is not a clinical protocol — that is written by whoever assesses the athlete. These are the points the sources above converge on.
+**One thing above all: count the overhead hours.** This is not a clinical protocol — that is written by whoever assesses the athlete — but it is the point the sources above converge on, and it is also the only variable a coach can genuinely change.
 
 - **Count the overhead hours, all of them.** Club, school, regional squads. Volume is the only genuinely modifiable variable among those studied, and in swimming it is the one that correlates with tendon thickness and with pain (Feijen et al., 2020).
 - **Ask about the shoulder with the right question.** Not «does it hurt?» but «have you had to hit softer, change your movement or skip a set because of your shoulder?». That is the difference between detecting pain and detecting a *substantial* problem — the threshold that in the prospective study affected 6% of athletes every week (Asker et al., 2018).

@@ -8,6 +8,7 @@
  */
 import { useTranslation } from 'react-i18next';
 import { blogPath } from '../lib/blogLocale';
+import { CLUSTERS, clusterName, clusterOf, clusterPath } from '../data/clusters';
 import blogData from '../generated/blog-index.json';
 import SponsorSlot from './SponsorSlot';
 
@@ -111,6 +112,32 @@ export default function Blog({ lang: langProp }: BlogProps = {}) {
  </p>
  </header>
 
+ {/* I temi: sei porte d'ingresso al posto di una lista sola. Ogni tema ha una
+ pagina pilastro propria, ed è da qui che un lettore — e un crawler — capisce
+ che gli articoli non sono una pila cronologica ma sei argomenti coperti a fondo. */}
+ <nav aria-labelledby="blog-topics" className="mb-12 sm:mb-16">
+ <h2 id="blog-topics" className="font-black uppercase text-xs tracking-widest mb-4">
+ {lang === 'en' ? 'Browse by topic' : 'Sfoglia per tema'}
+ </h2>
+ <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 list-none">
+ {CLUSTERS.map((c) => (
+ <li key={c.key}>
+ <a
+ href={clusterPath(lang, c.key)}
+ className="group flex items-baseline justify-between gap-3 h-full bg-[#D2EC7C] border-[3px] border-black px-4 py-3 shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-0.5 hover:shadow-[6px_6px_0_0_#0F0F12] transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+ >
+ <span className="font-['Bricolage_Grotesque',_sans-serif] text-lg font-black leading-tight">
+ {clusterName(c, lang)}
+ </span>
+ <span className="shrink-0 text-[11px] font-black uppercase tracking-wide text-[#0F0F12]/70">
+ {c.slugs.length} {lang === 'en' ? 'articles' : 'articoli'} →
+ </span>
+ </a>
+ </li>
+ ))}
+ </ul>
+ </nav>
+
  {posts.length === 0 ? (
  <p className="font-bold text-[#0F0F12]/70 border-[3px] border-black bg-white p-6 shadow-[4px_4px_0_0_#0F0F12]">
  {tt('blog.empty')}
@@ -132,7 +159,13 @@ export default function Blog({ lang: langProp }: BlogProps = {}) {
  />
  )}
  <div className="flex flex-col flex-1 p-5">
- <div className="flex items-center gap-2 text-[11px] font-black uppercase tracking-wide text-[#0F0F12]/60 mb-3">
+ <div className="flex flex-wrap items-center gap-2 text-[11px] font-black uppercase tracking-wide text-[#0F0F12]/60 mb-3">
+ {clusterOf(p.slug) && (
+ <>
+ <span className="text-[#0F0F12]">{clusterName(clusterOf(p.slug)!, lang)}</span>
+ <span aria-hidden="true">·</span>
+ </>
+ )}
  <span>{formatDate(p.date, lang)}</span>
  <span aria-hidden="true">·</span>
  <span>{p.readingMinutes} {tt('blog.reading')}</span>

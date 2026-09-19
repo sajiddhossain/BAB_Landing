@@ -4,7 +4,7 @@ title: "Ciclo mestruale e performance sportiva: cosa dicono i dati (e cosa non d
 seoTitle: "Il ciclo mestruale influisce sulla performance sportiva?"
 seoDescription: "Nella meta-analisi più ampia (1.193 donne adulte) l'effetto della fase del ciclo è «banale». Ma il 77% delle atlete lo sente, e fra le adolescenti il 25-61% salta l'attività."
 date: 2026-06-20
-updated: 2026-09-18
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "Il 77% delle atlete d'élite riferisce che il ciclo ha influenzato negativamente la performance — ma quel campione ha 28 anni di età media. Tra le adolescenti di 10-18 anni, dal 25% al 61% riduce o evita l'attività fisica durante le mestruazioni. E periodizzare l'allenamento sulla fase del ciclo? Su una ragazza di 14 anni non esiste evidenza che lo sostenga. Cosa dicono i dati, cosa non dicono, e da dove partire davvero."
 answer: "Sì, ma meno di quanto si creda e non in modo prevedibile: nella meta-analisi più ampia l'effetto della fase del ciclo sulla prestazione è di entità «banale», e misurato su donne adulte (McNulty et al., 2020). Pesa di più ciò che l'atleta vive: il 77% delle atlete d'élite riferisce che il ciclo ha influenzato la performance (Jones et al., 2024 — età media 28 anni)."
@@ -77,7 +77,7 @@ Vale la pena aggiungere una cosa che di solito manca da questa conversazione: pa
 - **Osservare, non giudicare.** Annotare energia, umore e sonno giorno per giorno aiuta a riconoscere i propri schemi. Un giorno storto smette di essere un mistero quando lo vedi ripresentarsi nello stesso punto del mese.
 - **Adattare, non fermarsi.** Conoscere le proprie fasi permette di dosare carico e recupero invece di subirli. E tenere presente la scala delle cose: la variazione legata alla fase del ciclo è di entità «banale» nella meta-analisi più ampia disponibile (McNulty et al., 2020), mentre ciò che si costruisce nei mesi — a partire dall'[allenamento della forza](/blog/forza-ragazze-adolescenti) — ha effetti molto più grandi.
 - **Parlarne, anche di ciò che imbarazza.** Il ciclo non è l'unico tema che resta fuori dallo spogliatoio: [le perdite di urina durante i salti](/blog/perdite-urina-giovani-atlete) riguardano quasi una atleta adolescente su due, e l'87% non ne parlerebbe con l'allenatore. Un linguaggio condiviso con allenatori e famiglia trasforma un tabù in un vantaggio — e [le parole di chi allena](/blog/parole-allenatore-salute-atlete) pesano più di quanto chi le pronuncia immagini.
-- **Distinguere il fisiologico da ciò che va guardato.** Un ciclo che sparisce non è un segno di buon allenamento: può essere un segnale di [bassa disponibilità energetica](/blog/red-s-bassa-disponibilita-energetica), e merita un professionista, non un'app.
+- **Distinguere il fisiologico da ciò che va guardato.** Un ciclo che sparisce non è un segno di buon allenamento: può essere un segnale di [bassa disponibilità energetica](/blog/red-s-bassa-disponibilita-energetica), ma anche l'opposto — un asse ormonale iperattivo, come nella [sindrome dell'ovaio policistico](/blog/ovaio-policistico-giovani-atlete). In entrambi i casi merita un professionista, non un'app: le due condizioni si distinguono con un prelievo, non a occhio.
 
 ## Il ruolo di BAB
 

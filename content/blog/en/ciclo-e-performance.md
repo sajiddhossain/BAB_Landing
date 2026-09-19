@@ -4,7 +4,7 @@ title: "Menstrual cycle and sports performance: what the data says (and what it 
 seoTitle: "Does the menstrual cycle affect sports performance?"
 seoDescription: "In the largest meta-analysis (1,193 adult women) the effect of cycle phase is “trivial”. Yet 77% of athletes feel it, and 25-61% of adolescent girls skip activity."
 date: 2026-06-20
-updated: 2026-09-18
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "77% of elite athletes report their cycle has negatively affected their performance — but that sample has a mean age of 28. Among adolescents aged 10-18, between 25% and 61% cut back or avoid physical activity during their period. And periodising training around cycle phase? For a 14-year-old there is no evidence supporting it. What the data says, what it doesn't, and where to actually start."
 answer: "Yes, but less than is commonly believed and not predictably: in the largest meta-analysis the effect of cycle phase on performance is of «trivial» magnitude, and measured in adult women (McNulty et al., 2020). What the athlete actually experiences weighs more: 77% of elite athletes report their cycle has affected their performance (Jones et al., 2024 — mean age 28)."
@@ -77,7 +77,7 @@ One thing usually missing from this conversation is worth adding: part of what g
 - **Observe, don't judge.** Logging energy, mood and sleep day by day helps reveal your own patterns. An off day stops being a mystery once you see it land at the same point each month.
 - **Adapt, don't stop.** Knowing your own phases lets you dose load and recovery instead of being caught off guard. And keep the scale of things in mind: the variation tied to cycle phase is «trivial» in the largest meta-analysis available (McNulty et al., 2020), while what you build over months — starting with [strength training](/en/blog/forza-ragazze-adolescenti) — has far larger effects.
 - **Talk about it, including what embarrasses you.** Periods are not the only subject left outside the changing room: [urinary leakage during jumping](/en/blog/perdite-urina-giovani-atlete) affects nearly one adolescent athlete in two, and 87% would not raise it with their coach. A shared language with coaches and family turns a taboo into an advantage — and [a coach's words](/en/blog/parole-allenatore-salute-atlete) carry more weight than the person saying them tends to realise.
-- **Tell the physiological from what needs a closer look.** A cycle that disappears is not a sign of good training: it can be a signal of [low energy availability](/en/blog/red-s-bassa-disponibilita-energetica), and it deserves a professional, not an app.
+- **Tell the physiological from what needs a closer look.** A cycle that disappears is not a sign of good training: it can be a signal of [low energy availability](/en/blog/red-s-bassa-disponibilita-energetica), but also the opposite — an overactive hormonal axis, as in [polycystic ovary syndrome](/en/blog/ovaio-policistico-giovani-atlete). Either way it deserves a professional, not an app: the two are told apart with a blood test, not by eye.
 
 ## Where BAB fits
 

@@ -1,6 +1,171 @@
 {
   "posts": [
     {
+      "slug": "ovaio-policistico-giovani-atlete",
+      "lang": "it",
+      "title": "«Sarà l'allenamento»: quando il ciclo irregolare di un'atleta adolescente è sindrome dell'ovaio policistico",
+      "seoTitle": "Ovaio policistico e sport nelle adolescenti: i criteri",
+      "seoDescription": "Nelle adolescenti la PCOS richiede ciclo irregolare E iperandrogenismo, e l'ecografia non si usa prima di 8 anni dal menarca (Teede et al., 2023). Perché conta.",
+      "date": "2026-09-19",
+      "updated": "2026-09-19",
+      "author": "Sajid Hossain",
+      "excerpt": "In una ragazza che si allena molto, un ciclo che salta viene quasi sempre attribuito al carico. A volte è vero. Ma nelle atlete olimpiche svedesi studiate con gli ormoni in mano, la causa più frequente di disturbo mestruale non era il deficit energetico: era la sindrome dell'ovaio policistico. Ecco come si distinguono, perché nelle adolescenti l'ecografia non serve a fare diagnosi, e che cosa cambia nei fatti.",
+      "answer": "Non sempre è il carico. In 90 atlete olimpiche svedesi — ADULTE — la causa più frequente di disturbo mestruale è risultata la sindrome dell'ovaio policistico, non il deficit energetico (Hagmar et al., 2009). Nelle adolescenti la diagnosi richiede insieme ciclo irregolare E iperandrogenismo, e l'ecografia non va usata prima di 8 anni dal menarca (Teede et al., 2023).",
+      "cover": "/fotobab/cover-ovaio-policistico-atlete.jpg",
+      "coverAlt": "Due mani con guanti da laboratorio reggono una provetta di sangue mentre una pipetta la riempie; nessun volto e nessun marchio leggibile nell'inquadratura",
+      "tags": [
+        "sindrome-ovaio-policistico",
+        "iperandrogenismo",
+        "morfologia-ovarica-policistica",
+        "amenorrea-ipotalamica-funzionale",
+        "salute-mestruale",
+        "red-s",
+        "contraccezione-ormonale"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Che cos'è, di preciso, la sindrome dell'ovaio policistico?",
+          "id": "che-cose-di-preciso-la-sindrome-dellovaio-policistico"
+        },
+        {
+          "level": 2,
+          "text": "Perché, in un'adolescente, le regole sono diverse?",
+          "id": "perche-in-unadolescente-le-regole-sono-diverse"
+        },
+        {
+          "level": 3,
+          "text": "Quando un ciclo è irregolare davvero?",
+          "id": "quando-un-ciclo-e-irregolare-davvero"
+        },
+        {
+          "level": 3,
+          "text": "Perché l'ecografia, a quell'età, non si usa",
+          "id": "perche-lecografia-a-quelleta-non-si-usa"
+        },
+        {
+          "level": 3,
+          "text": "E se i criteri non sono tutti soddisfatti?",
+          "id": "e-se-i-criteri-non-sono-tutti-soddisfatti"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa c'entra tutto questo con un'atleta?",
+          "id": "che-cosa-centra-tutto-questo-con-unatleta"
+        },
+        {
+          "level": 2,
+          "text": "Come si distingue dalla bassa disponibilità energetica?",
+          "id": "come-si-distingue-dalla-bassa-disponibilita-energetica"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa si fa, dopo la diagnosi?",
+          "id": "che-cosa-si-fa-dopo-la-diagnosi"
+        },
+        {
+          "level": 2,
+          "text": "Perché arrivarci presto cambia qualcosa",
+          "id": "perche-arrivarci-presto-cambia-qualcosa"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa può fare chi allena (e che cosa no)",
+          "id": "che-cosa-puo-fare-chi-allena-e-che-cosa-no"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 3379,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
+      "slug": "ovaio-policistico-giovani-atlete",
+      "lang": "en",
+      "title": "\"It's just the training\": when a teenage athlete's irregular cycle is polycystic ovary syndrome",
+      "seoTitle": "PCOS and sport in teenage girls: the diagnostic rules",
+      "seoDescription": "In adolescents PCOS requires irregular cycles AND hyperandrogenism, and ultrasound is not used until 8 years post-menarche (Teede et al., 2023). Why it matters.",
+      "date": "2026-09-19",
+      "updated": "2026-09-19",
+      "author": "Sajid Hossain",
+      "excerpt": "In a girl who trains a lot, a cycle that goes missing is almost always put down to the training load. Sometimes that is right. But in Swedish Olympic athletes studied with their hormones on the table, the most common cause of menstrual disturbance was not an energy deficit: it was polycystic ovary syndrome. Here is how the two are told apart, why ultrasound does not make the diagnosis in adolescents, and what actually changes.",
+      "answer": "Not always the training. In 90 Swedish Olympic athletes — ADULTS — the most common cause of menstrual disturbance turned out to be polycystic ovary syndrome, not energy deficiency (Hagmar et al., 2009). In adolescents the diagnosis requires irregular cycles AND hyperandrogenism together, and ultrasound should not be used until 8 years post-menarche (Teede et al., 2023).",
+      "cover": "/fotobab/cover-ovaio-policistico-atlete.jpg",
+      "coverAlt": "Two gloved laboratory hands hold a blood tube while a pipette fills it; no face and no legible brand in the frame",
+      "tags": [
+        "polycystic ovary syndrome",
+        "hyperandrogenism",
+        "menstrual health",
+        "functional hypothalamic amenorrhoea",
+        "RED-S",
+        "adolescent athletes"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What exactly is polycystic ovary syndrome?",
+          "id": "what-exactly-is-polycystic-ovary-syndrome"
+        },
+        {
+          "level": 2,
+          "text": "Why are the rules different in an adolescent?",
+          "id": "why-are-the-rules-different-in-an-adolescent"
+        },
+        {
+          "level": 3,
+          "text": "When is a cycle genuinely irregular?",
+          "id": "when-is-a-cycle-genuinely-irregular"
+        },
+        {
+          "level": 3,
+          "text": "Why ultrasound is not used at that age",
+          "id": "why-ultrasound-is-not-used-at-that-age"
+        },
+        {
+          "level": 3,
+          "text": "And if not all the criteria are met?",
+          "id": "and-if-not-all-the-criteria-are-met"
+        },
+        {
+          "level": 2,
+          "text": "What has any of this to do with an athlete?",
+          "id": "what-has-any-of-this-to-do-with-an-athlete"
+        },
+        {
+          "level": 2,
+          "text": "How is it told apart from low energy availability?",
+          "id": "how-is-it-told-apart-from-low-energy-availability"
+        },
+        {
+          "level": 2,
+          "text": "What happens after a diagnosis?",
+          "id": "what-happens-after-a-diagnosis"
+        },
+        {
+          "level": 2,
+          "text": "Why getting there early changes something",
+          "id": "why-getting-there-early-changes-something"
+        },
+        {
+          "level": 2,
+          "text": "What a coach can do (and cannot)",
+          "id": "what-a-coach-can-do-and-cannot"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 3350,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
       "slug": "apofisiti-osgood-schlatter-sever-giovani-atlete",
       "lang": "it",
       "title": "«Sono dolori di crescita»: che cosa sono davvero Osgood-Schlatter e Sever, e perché aspettare non basta",
@@ -1973,7 +2138,7 @@
       "seoTitle": "Allenarsi al caldo: rischi per le giovani atlete",
       "seoDescription": "Nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma è una questione di esposizione, non di sesso. Acclimatazione, segnali e cosa fare subito.",
       "date": "2026-08-19",
-      "updated": "2026-08-31",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "Nei licei americani il colpo di calore da sforzo è per l'87,7% maschile — ma togliendo il football scende al 50,9%, quasi la parità (Kerr et al., 2013). Non sono i ragazzi a reggere meglio il caldo: sono i ragazzi a giocare di più a football, nella stagione più calda. Cosa dice davvero la fisiologia sulle adolescenti che si allenano d'estate, cosa non dice ancora, e cosa cambia nella prima settimana di ritiro — quella in cui succede quasi tutto.",
       "answer": "Non è una questione di sesso ma di esposizione: nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma scende al 50,9% togliendo il football americano (Kerr et al., 2013). Sulla fisiologia, l'evidenza diretta sulle differenze fra ragazze e ragazzi in pubertà resta scarsa (Topham et al., 2022). Il fattore che conta davvero è l'acclimatazione nelle prime due settimane (Casa et al., 2009).",
@@ -2027,9 +2192,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2095,
-      "readingMinutes": 10,
-      "timeRequired": "PT10M"
+      "words": 2167,
+      "readingMinutes": 11,
+      "timeRequired": "PT11M"
     },
     {
       "slug": "allenarsi-al-caldo-giovani-atlete",
@@ -2038,7 +2203,7 @@
       "seoTitle": "Training in the heat: risks for young athletes",
       "seoDescription": "In U.S. high schools exertional heat illness is 87.7% male — but that is exposure, not sex. Acclimatization, warning signs and what to do first.",
       "date": "2026-08-19",
-      "updated": "2026-08-31",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "In U.S. high schools, exertional heat illness is 87.7% male — but strip out American football and it drops to 50.9%, close to parity (Kerr et al., 2013). Boys aren't better at handling heat: boys play more football, in the hottest season of the year. Here's what the physiology actually says about adolescent girls training in summer, what it doesn't say yet, and what changes in the first week of preseason — the week when almost everything happens.",
       "answer": "It isn't about sex, it's about exposure: in U.S. high schools exertional heat illness is 87.7% male, but that drops to 50.9% once American football is excluded (Kerr et al., 2013). On physiology, direct evidence on sex differences during puberty is still scarce (Topham et al., 2022). What actually matters is acclimatization over the first two weeks (Casa et al., 2009).",
@@ -2092,7 +2257,7 @@
           "id": "sources"
         }
       ],
-      "words": 1948,
+      "words": 2013,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -2245,7 +2410,7 @@
       "seoTitle": "Fare sport con il ciclo: la gestione pratica",
       "seoDescription": "Dal 25% al 61% delle adolescenti evita lo sport durante le mestruazioni. Prodotti, divise e kit in palestra: la gestione pratica del ciclo, senza tabù.",
       "date": "2026-08-13",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "La paura delle perdite è una delle ragioni per cui le ragazze saltano allenamenti e ore di educazione fisica — e tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni. Quasi tutti i contenuti si fermano a dire che è un problema. Questo prova a rispondere alla domanda pratica che nessuno affronta: cosa si fa, concretamente, il giorno in cui capita.",
       "answer": "Con tre cose che dipendono più dall'organizzazione che dall'atleta: un prodotto mestruale adatto al gesto sportivo, una divisa che non aumenti la paura delle perdite e un kit disponibile in palestra. Tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, e la paura delle perdite è una barriera ricorrente (Harvey et al., 2025).",
@@ -2304,9 +2469,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2685,
-      "readingMinutes": 13,
-      "timeRequired": "PT13M"
+      "words": 2735,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
     },
     {
       "slug": "gestire-ciclo-nello-sport",
@@ -2315,7 +2480,7 @@
       "seoTitle": "Playing sport on your period: a practical guide",
       "seoDescription": "Between 25% and 61% of adolescent girls avoid sport during their period. Products, kit and what to keep at the gym: the practical side, without taboos.",
       "date": "2026-08-13",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "Fear of leaking is one of the reasons girls skip training sessions and PE lessons — and among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period. Almost every article on the subject stops at saying it is a problem. This one tries to answer the practical question nobody addresses: what do you actually do on the day it happens.",
       "answer": "With three things that depend on organisation rather than on the athlete: a menstrual product suited to the movement, kit that does not add to the fear of leaking, and supplies available at the gym. Among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period, and fear of leaking is a recurring barrier (Harvey et al., 2025).",
@@ -2374,7 +2539,7 @@
           "id": "sources"
         }
       ],
-      "words": 2621,
+      "words": 2667,
       "readingMinutes": 13,
       "timeRequired": "PT13M"
     },
@@ -2385,7 +2550,7 @@
       "seoTitle": "Dolore alla spalla in pallavolo e nuoto: cosa fare a 14 anni",
       "seoDescription": "Il 23% delle atlete di pallamano giovanile d'élite ha problemi di spalla rilevanti in una stagione. Quando il dolore è sovraccarico, cosa guardare e quando fermarsi.",
       "date": "2026-08-12",
-      "updated": "2026-08-23",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "Nella pallamano d'élite giovanile quasi una atleta su quattro (23%) ha avuto problemi di spalla rilevanti in una stagione, e le ragazze hanno una prevalenza 1,46 volte più alta dei coetanei maschi. Tra le nuotatrici e i nuotatori adolescenti la revisione disponibile riporta il tasso di dolore di spalla più alto di tutte le fasce d'età (91,3%), a fronte di 17 ore di vasca a settimana. La spalla è l'unica articolazione che nello sport femminile italiano lavora ogni giorno sopra la testa — ed è quella di cui nessuno tiene il conto.",
       "answer": "Perché il gesto sopra la testa carica ogni giorno una spalla che non ha finito di crescere. Nella pallamano d'élite di 15-18 anni il 23% ha problemi di spalla sostanziali in una stagione, con prevalenza 1,46 volte più alta nelle ragazze (Asker et al., 2018); nel nuoto la fascia 15-17 anni riporta il tasso di dolore più alto di tutte le età (91,3%; Feijen et al., 2020).",
@@ -2436,8 +2601,8 @@
         },
         {
           "level": 2,
-          "text": "Cosa cambia in palestra e in vasca, concretamente",
-          "id": "cosa-cambia-in-palestra-e-in-vasca-concretamente"
+          "text": "Che cosa cambia, concretamente, in palestra e in vasca?",
+          "id": "che-cosa-cambia-concretamente-in-palestra-e-in-vasca"
         },
         {
           "level": 2,
@@ -2450,7 +2615,7 @@
           "id": "fonti"
         }
       ],
-      "words": 3258,
+      "words": 3281,
       "readingMinutes": 16,
       "timeRequired": "PT16M"
     },
@@ -2461,7 +2626,7 @@
       "seoTitle": "Shoulder pain in volleyball and swimming: what to do at 14",
       "seoDescription": "23% of elite youth handball players have substantial shoulder problems in a single season. When the pain is overload, what to look at, and when to stop.",
       "date": "2026-08-12",
-      "updated": "2026-08-23",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "In elite youth handball, almost one athlete in four (23%) had substantial shoulder problems over a single season, and girls had a prevalence 1.46 times higher than boys. Among adolescent swimmers the available review reports the highest shoulder-pain rate of any age group (91.3%), against 17 hours a week in the pool. The shoulder is the one joint that works overhead every day in girls' sport — and the one nobody keeps count of.",
       "answer": "Because the overhead movement loads a shoulder that has not finished growing, every day. In elite handball at 15-18, 23% have substantial shoulder problems in one season, with prevalence 1.46 times higher in girls (Asker et al., 2018); in swimming, the 15-17 band reports the highest pain rate of any age (91.3%; Feijen et al., 2020).",
@@ -2512,8 +2677,8 @@
         },
         {
           "level": 2,
-          "text": "What changes in the gym and in the pool",
-          "id": "what-changes-in-the-gym-and-in-the-pool"
+          "text": "What changes, concretely, in the gym and in the pool?",
+          "id": "what-changes-concretely-in-the-gym-and-in-the-pool"
         },
         {
           "level": 2,
@@ -2526,7 +2691,7 @@
           "id": "sources"
         }
       ],
-      "words": 3102,
+      "words": 3125,
       "readingMinutes": 16,
       "timeRequired": "PT16M"
     },
@@ -2677,7 +2842,7 @@
       "seoTitle": "Mal di schiena nelle giovani atlete: cause e segnali",
       "seoDescription": "In una giovane atleta la causa più descritta è la spondilolisi, non la contrattura: negli adulti è il contrario. Segnali, tempi e cosa dice l'evidenza.",
       "date": "2026-08-08",
-      "updated": "2026-08-29",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "Il 42% delle atlete e degli atleti di 10-19 anni riferisce mal di schiena nell'arco di dodici mesi, e il sesso femminile compare tra i fattori di rischio. La differenza che quasi nessuno conosce sta nella causa: in adolescenza la lombalgia da sport è molto più spesso una frattura da stress della colonna e molto più raramente un problema di disco o una contrattura. I dati, i limiti dei dati, e perché oggi la fisioterapia immediata batte il riposo.",
       "answer": "Perché in una giovane atleta la causa più descritta è la spondilolisi, una frattura da stress della vertebra, mentre nell'adulto è il disco: in un confronto diretto spiegava il 47% dei casi negli adolescenti contro il 5% negli adulti (Micheli e Wood, 1995 — campione di clinica specialistica). Un mal di schiena che dura oltre due o tre settimane va valutato, non normalizzato.",
@@ -2758,7 +2923,7 @@
       "seoTitle": "Low back pain in young athletes: causes and signs",
       "seoDescription": "In a young athlete the most described cause is spondylolysis, not a muscle strain — in adults it is the reverse. Signs, timing and the evidence.",
       "date": "2026-08-08",
-      "updated": "2026-08-29",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "42% of athletes aged 10-19 report low back pain over twelve months, and female sex appears among the reported risk factors. The difference almost nobody knows about is the cause: in adolescence, sport-related low back pain is far more often a stress fracture of the spine and far more rarely a disc problem or a muscle strain. The data, the limits of the data, and why immediate physiotherapy now beats rest.",
       "answer": "Because in a young athlete the most described cause is spondylolysis, a stress fracture of the vertebra, whereas in adults it is the disc: in a direct comparison it explained 47% of cases in adolescents against 5% in adults (Micheli and Wood, 1995 — a specialist-clinic sample). Back pain lasting more than two or three weeks should be assessed, not normalised.",
@@ -3121,7 +3286,7 @@
       "seoTitle": "Picco di crescita nelle ragazze: a che età arriva e cosa cambia",
       "seoDescription": "Nelle ragazze il picco di crescita arriva in media a 11,2 anni, ma due coetanee possono distare anni. Cosa cambia per infortuni, coordinazione e carico.",
       "date": "2026-08-02",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "Nelle giovani atlete il picco di velocità di crescita arriva in media intorno agli 11,2 anni, ma con una variabilità enorme: in una squadra di tredicenni convivono corpi a stadi di maturazione diversi di anni. Nel frattempo l'osso si mineralizza circa sei mesi dopo che si è allungato. Cosa dicono davvero i dati — e perché sulle ragazze l'evidenza che lega la crescita agli infortuni è ancora limitata.",
       "answer": "Cambiano leve, coordinazione e struttura ossea, non l'impegno. Nelle giovani atlete l'età media al picco di crescita è 11,18 anni, ma con un intervallo di credibilità al 90% da 8,62 a 12,94 (Lima et al., 2024): nella stessa categoria convivono atlete biologicamente distanti anni. Il picco di minerale osseo arriva circa sei mesi dopo (Bailey et al., 1999).",
@@ -3161,8 +3326,8 @@
         },
         {
           "level": 2,
-          "text": "Cosa cambia lunedì in palestra",
-          "id": "cosa-cambia-lunedi-in-palestra"
+          "text": "Che cosa cambia lunedì in palestra?",
+          "id": "che-cosa-cambia-lunedi-in-palestra"
         },
         {
           "level": 2,
@@ -3170,9 +3335,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2898,
-      "readingMinutes": 14,
-      "timeRequired": "PT14M"
+      "words": 2925,
+      "readingMinutes": 15,
+      "timeRequired": "PT15M"
     },
     {
       "slug": "picco-di-crescita-giovani-atlete",
@@ -3181,7 +3346,7 @@
       "seoTitle": "Growth spurt in girls: what age it peaks and what changes",
       "seoDescription": "In girls the growth spurt peaks at 11.2 years on average, but two same-age girls can be years apart. What changes for injuries, coordination and load.",
       "date": "2026-08-02",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "In young female athletes peak height velocity arrives at a mean age of about 11.2 years — but the individual range is enormous: a squad of thirteen-year-olds contains bodies years apart in maturation. Meanwhile bone mineralises roughly six months after it has lengthened. What the data actually say — and why, in girls, the evidence linking growth to injury is still limited.",
       "answer": "What changes is levers, coordination and bone structure — not commitment. In young female athletes the mean age at peak height velocity is 11.18 years, with a 90% credible interval from 8.62 to 12.94 (Lima et al., 2024): one age category holds athletes years apart biologically. Peak bone mineral accrual arrives roughly six months later (Bailey et al., 1999).",
@@ -3221,8 +3386,8 @@
         },
         {
           "level": 2,
-          "text": "What changes on Monday",
-          "id": "what-changes-on-monday"
+          "text": "What changes on Monday in the gym?",
+          "id": "what-changes-on-monday-in-the-gym"
         },
         {
           "level": 2,
@@ -3230,7 +3395,7 @@
           "id": "sources"
         }
       ],
-      "words": 2809,
+      "words": 2839,
       "readingMinutes": 14,
       "timeRequired": "PT14M"
     },
@@ -3651,7 +3816,7 @@
       "seoTitle": "Commozione cerebrale nelle giovani atlete: cosa fare",
       "seoDescription": "Nel calcio scolastico le ragazze subiscono 1,88 volte le commozioni cerebrali dei coetanei maschi. Come riconoscerle a bordo campo e cosa fare nei primi minuti.",
       "date": "2026-07-24",
-      "updated": "2026-09-11",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "Nel calcio scolastico americano le ragazze subiscono commozioni cerebrali 1,88 volte più dei coetanei maschi, e hanno 1,26 volte la probabilità di non essere tolte dall'attività dopo il colpo. Chi continua a giocare recupera in 44 giorni invece di 22 — e il 60% degli episodi non viene riferito a nessun adulto. Non serve né un colpo visibile alla testa né la perdita di coscienza: i dati, i segnali da riconoscere a bordo campo nei primi minuti e cosa dicono davvero le linee guida internazionali.",
       "answer": "Le atlete la subiscono più spesso e la riferiscono meno: nel calcio scolastico il rischio è 1,88 volte quello dei coetanei maschi (Bretzin et al., 2021) e il 60% degli episodi non era stato riferito ad alcun adulto (Register-Mihalik et al., 2013). Al sospetto l'atleta va tolta subito dal gioco: chi resta in campo recupera in 44,4 giorni contro 22,0 (Elbin et al., 2016).",
@@ -3705,8 +3870,8 @@
         },
         {
           "level": 2,
-          "text": "Cosa può fare una società, da lunedì",
-          "id": "cosa-puo-fare-una-societa-da-lunedi"
+          "text": "Che cosa può fare una società da lunedì, senza un medico in panchina?",
+          "id": "che-cosa-puo-fare-una-societa-da-lunedi-senza-un-medico-in"
         },
         {
           "level": 2,
@@ -3719,7 +3884,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2834,
+      "words": 2866,
       "readingMinutes": 14,
       "timeRequired": "PT14M"
     },
@@ -3730,7 +3895,7 @@
       "seoTitle": "Concussion in young female athletes: what to do",
       "seoDescription": "In school soccer, girls sustain 1.88 times the concussions of boys. How to recognise one on the sideline and what to do in the first minutes.",
       "date": "2026-07-24",
-      "updated": "2026-09-11",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22 — and 60% of events are never reported to any adult. Neither a visible blow to the head nor loss of consciousness is required: the data, the sideline signs in the first minutes, and what the international guidelines actually say.",
       "answer": "Female athletes sustain more concussions and report fewer: in high-school football (soccer) the risk is 1.88 times that of male peers (Bretzin et al., 2021), and 60% of events had not been reported to any adult (Register-Mihalik et al., 2013). On suspicion the athlete must come off immediately: those who stay on recover in 44.4 days against 22.0 (Elbin et al., 2016).",
@@ -3784,8 +3949,8 @@
         },
         {
           "level": 2,
-          "text": "What a club can do, starting Monday",
-          "id": "what-a-club-can-do-starting-monday"
+          "text": "What can a club do from Monday, with no doctor on the bench?",
+          "id": "what-can-a-club-do-from-monday-with-no-doctor-on-the-bench"
         },
         {
           "level": 2,
@@ -3798,7 +3963,7 @@
           "id": "sources"
         }
       ],
-      "words": 2702,
+      "words": 2741,
       "readingMinutes": 14,
       "timeRequired": "PT14M"
     },
@@ -4613,7 +4778,7 @@
       "seoTitle": "RED-S nelle atlete: cos'è, sintomi e primi segnali",
       "seoDescription": "Un ciclo che sparisce non è un segno di buon allenamento, e la pillola non lo riporta: le linee guida 2025 lo dicono con evidenza di livello A. Segnali e cosa fare.",
       "date": "2026-07-04",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica.",
       "answer": "Quando l'energia introdotta non copre quella spesa tra allenamento e crescita: è la bassa disponibilità energetica alla base della RED-S. Non serve un disturbo alimentare, può accadere senza intenzione, e i primi segnali sono un ciclo che si dirada, infortuni ripetuti, sonno e umore peggiori — eppure il 44% delle atlete adolescenti crede che perdere il ciclo sia normale (Armento et al., 2021).",
@@ -4669,7 +4834,7 @@
           "id": "fonti"
         }
       ],
-      "words": 1927,
+      "words": 1957,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -4680,7 +4845,7 @@
       "seoTitle": "RED-S in female athletes: signs and symptoms",
       "seoDescription": "A disappearing period is not a sign of good training, and the pill does not bring it back: the 2025 guidelines say so at Level A evidence. Signs and next steps.",
       "date": "2026-07-04",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed.",
       "answer": "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021).",
@@ -4736,7 +4901,7 @@
           "id": "sources"
         }
       ],
-      "words": 1864,
+      "words": 1895,
       "readingMinutes": 9,
       "timeRequired": "PT9M"
     },
@@ -5245,7 +5410,7 @@
       "seoTitle": "Il ciclo mestruale influisce sulla performance sportiva?",
       "seoDescription": "Nella meta-analisi più ampia (1.193 donne adulte) l'effetto della fase del ciclo è «banale». Ma il 77% delle atlete lo sente, e fra le adolescenti il 25-61% salta l'attività.",
       "date": "2026-06-20",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "Il 77% delle atlete d'élite riferisce che il ciclo ha influenzato negativamente la performance — ma quel campione ha 28 anni di età media. Tra le adolescenti di 10-18 anni, dal 25% al 61% riduce o evita l'attività fisica durante le mestruazioni. E periodizzare l'allenamento sulla fase del ciclo? Su una ragazza di 14 anni non esiste evidenza che lo sostenga. Cosa dicono i dati, cosa non dicono, e da dove partire davvero.",
       "answer": "Sì, ma meno di quanto si creda e non in modo prevedibile: nella meta-analisi più ampia l'effetto della fase del ciclo sulla prestazione è di entità «banale», e misurato su donne adulte (McNulty et al., 2020). Pesa di più ciò che l'atleta vive: il 77% delle atlete d'élite riferisce che il ciclo ha influenzato la performance (Jones et al., 2024 — età media 28 anni).",
@@ -5294,7 +5459,7 @@
           "id": "fonti"
         }
       ],
-      "words": 1734,
+      "words": 1761,
       "readingMinutes": 9,
       "timeRequired": "PT9M"
     },
@@ -5305,7 +5470,7 @@
       "seoTitle": "Does the menstrual cycle affect sports performance?",
       "seoDescription": "In the largest meta-analysis (1,193 adult women) the effect of cycle phase is “trivial”. Yet 77% of athletes feel it, and 25-61% of adolescent girls skip activity.",
       "date": "2026-06-20",
-      "updated": "2026-09-18",
+      "updated": "2026-09-19",
       "author": "Sajid Hossain",
       "excerpt": "77% of elite athletes report their cycle has negatively affected their performance — but that sample has a mean age of 28. Among adolescents aged 10-18, between 25% and 61% cut back or avoid physical activity during their period. And periodising training around cycle phase? For a 14-year-old there is no evidence supporting it. What the data says, what it doesn't, and where to actually start.",
       "answer": "Yes, but less than is commonly believed and not predictably: in the largest meta-analysis the effect of cycle phase on performance is of «trivial» magnitude, and measured in adult women (McNulty et al., 2020). What the athlete actually experiences weighs more: 77% of elite athletes report their cycle has affected their performance (Jones et al., 2024 — mean age 28).",
@@ -5354,9 +5519,9 @@
           "id": "sources"
         }
       ],
-      "words": 1685,
-      "readingMinutes": 8,
-      "timeRequired": "PT8M"
+      "words": 1712,
+      "readingMinutes": 9,
+      "timeRequired": "PT9M"
     }
   ]
 }

@@ -4,7 +4,7 @@ title: "RED-S: when training more does harm (and how to catch it early)"
 seoTitle: "RED-S in female athletes: signs and symptoms"
 seoDescription: "A disappearing period is not a sign of good training, and the pill does not bring it back: the 2025 guidelines say so at Level A evidence. Signs and next steps."
 date: 2026-07-04
-updated: 2026-09-18
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "RED-S is what happens when the energy an athlete takes in isn't enough to cover training and growth: the body shuts down essential functions — periods, bones, recovery, mood. What the 2023 IOC consensus says, the signs to know, why 44% of adolescent athletes wrongly believe losing their period is normal — and why this is monitored, not diagnosed."
 answer: "When energy taken in does not cover what training and growth spend: this is the low energy availability underlying RED-S. No eating disorder is required, it can happen unintentionally, and the early signals are a thinning or absent period, repeated injuries, worse sleep and mood — yet 44% of adolescent athletes believe losing your period is normal (Armento et al., 2021)."
@@ -83,7 +83,7 @@ Yet research struggles to keep up: only **6% of sport-science studies** are cond
 
 None of these signs, alone, "makes a diagnosis". But together they deserve attention and, if they persist, a professional's opinion:
 
-- **Absent or irregular period** after menarche, unexplained by anything else.
+- **Absent or irregular period** after menarche, unexplained by anything else — and "unexplained by anything else" should be taken literally: a missing cycle can also come from an *overactive* hormonal axis rather than a switched-off one, as in [polycystic ovary syndrome](/en/blog/ovaio-policistico-giovani-atlete).
 - **Fatigue that won't lift** with normal recovery.
 - **Recurring overuse injuries**, including [stress fractures](/en/blog/salute-ossea-fratture-da-stress-giovani-atlete). Here the evidence is quantified: in a prospective multisite study of 259 physically active girls and young women (mean age 18.1 years), those with low bone mineral density training ≥12 hours a week sustained a bone stress injury in **29.7%** of cases, and those combining ≥12 hours, a leanness sport and dietary restraint in **46.2%**, against 10.8% overall ([Barrack et al., 2014](https://doi.org/10.1177/0363546513520295)). A body that recovers worse is also a body more exposed to acute injury: [ACL prevention](/en/blog/crociato-giovani-atlete) grows from the same ground.
 - **Performance dropping** despite rising effort.

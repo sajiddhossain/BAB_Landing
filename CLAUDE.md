@@ -28,6 +28,7 @@ articoli, pagine-risposta, KB di `llms-full.txt`): sono la verifica rapida che n
 | `vite.config.ts` | Plugin di prerender: pagine statiche, JSON-LD, sitemap, llms.txt, faq.txt, feed.xml. |
 | `scripts/sitemap.ts` | Come si scrive una sitemap: indice + sezioni, `xhtml:link`, `image:image`, intestazione firmata, foglio di stile. |
 | `src/lib/signature.ts` | La firma dell'architettura: console del browser + intestazione dei file generati. |
+| `src/data/clusters.ts` | I 6 temi del blog (topic cluster): ogni articolo sta in un tema solo. Fonte unica per pagine pilastro, blocco «Nello stesso tema», breadcrumb e sezione «Temi» di llms.txt. |
 | `src/data/glossary.ts` | Glossario bilingue, fonte unica per DefinedTerm e `/glossario` (il conteggio si legge dal file, non da qui). |
 | `src/data/facts.ts` | Statistiche citabili, bilingui, con fonte e DOI → `/dati`. |
 | `src/data/faqBab.ts` | 14 domande sul progetto (non sui contenuti) → `/faq`. |
@@ -52,6 +53,7 @@ cui il dato è stato misurato.
 | Statistiche | `/dati#{id}` · `/en/dati` | 56 × 2 |
 | Domande sul progetto | `/faq#{id}` · `/en/faq` | 14 × 2 |
 | Sezioni di articolo | `/blog/{slug}#{titolo-slugificato}` | tutti gli H2/H3 |
+| Pagine pilastro dei temi | `/blog/tema/{chiave}` · `/en/blog/tema/{chiave}` | 6 × 2 |
 | Testo integrale per macchine | `/blog/{slug}.md`, `/llms.txt`, `/llms-full.txt`, `/faq.txt` | — |
 | Scoperta | `/sitemap.xml` (indice) → `sitemap-pages`, `sitemap-blog-it`, `sitemap-blog-en`, `sitemap-answers`; `/feed.xml` (RSS) | — |
 
@@ -69,6 +71,29 @@ Da lì:
 contenitore, sia nel client sia nel prerender — `abstract` e i selettori `speakable` puntano lì. Se la
 sposti, un assistente vocale legge anche l'etichetta "In breve".
 
+### I temi (topic cluster)
+
+Il blog non è una lista cronologica: è diviso in **sei temi** dichiarati in `src/data/clusters.ts`
+(ciclo mestruale · energia, ossa e recupero · pubertà e crescita · infortuni e dolore · salute e
+prevenzione · allenatori, famiglie e ambiente). Da quel file solo discendono:
+
+- la **pagina pilastro** di ogni tema (`BlogCluster.tsx` + prerender): apertura del tema, articoli
+  nell'ordine di lettura con la loro capsule, un numero per articolo da `facts.ts`, i termini del
+  glossario. JSON-LD: `CollectionPage` (`hasPart`, `about`, `mainEntity: ItemList`) + `BreadcrumbList`.
+  La pagina non ha testo proprio da mantenere: cresce da sola a ogni articolo nuovo;
+- il blocco **«Nello stesso tema»** in fondo a ogni articolo (`relatedSlugs`: prima l'articolo da cui
+  partire, poi i vicini nell'ordine di lettura) — è ciò che dà link in ingresso anche all'ultimo
+  pubblicato. Client e prerender usano la stessa funzione: i link statici e quelli di React coincidono;
+- il **terzo livello del breadcrumb** degli articoli (Home › Blog › Tema › Articolo) e il secondo
+  `isPartOf` del `BlogPosting`, che punta all'`@id` della pagina pilastro (`…#tema`);
+- la striscia «Sfoglia per tema» dell'indice e la sezione «Temi» di `llms.txt`.
+
+**Invariante verificata al build:** ogni slug di `content/blog/it` sta in un tema e in uno solo
+(`validateClusters`). Un articolo nuovo senza tema **fa fallire il prerender**, con il messaggio che
+dice cosa aggiungere: è voluto. I testi dei temi (`intro`) descrivono il contenuto e non fanno
+affermazioni di salute — i numeri della pagina arrivano da `facts.ts`, che ha già popolazione e fonte.
+I tag si leggono sempre dalla versione italiana, anche su `/en`: è lì che usano le chiavi del glossario.
+
 ### La sitemap
 
 `scripts/sitemap.ts` genera **un indice più quattro sezioni**, tutte al build: non esiste più un
@@ -77,7 +102,7 @@ sposti, un assistente vocale legge anche l'etichetta "In breve".
 | File | Cosa contiene | changefreq · priority |
 | --- | --- | --- |
 | `/sitemap.xml` | `sitemapindex`: l'unico file da dichiarare a robots.txt e a Search Console | — |
-| `/sitemap-pages.xml` | rotte statiche + i due indici del blog | da `STATIC_PAGES` · weekly 0.9 per gli indici |
+| `/sitemap-pages.xml` | rotte statiche + i due indici del blog + le 12 pagine pilastro dei temi | da `STATIC_PAGES` · weekly 0.9 per gli indici, 0.8 per i temi |
 | `/sitemap-blog-it.xml` | articoli italiani, ordinati dal più recente | monthly · 0.7 |
 | `/sitemap-blog-en.xml` | articoli inglesi sotto `/en` | monthly · 0.7 |
 | `/sitemap-answers.xml` | glossario, FAQ e dati nelle due lingue | monthly · 0.8 |
@@ -122,6 +147,9 @@ slug, title, date, updated, author, excerpt, answer, cover, coverAlt, tags[], fa
 - Cover: solo immagini senza copyright (CC0/Pexels/pubblico dominio), provenienza in
   `docs/media-credits.md`, nessun minore identificabile. Le rendition rawpixel `image_1300` sono
   filigranate: usare `editor_1024`.
+- **Assegnare l'articolo a un tema** in `src/data/clusters.ts`, nella posizione giusta dell'ordine di
+  lettura: senza, il build fallisce. Se davvero non sta in nessuno dei sei, è il segnale per discutere
+  un tema nuovo, non per forzarlo in uno esistente.
 - Dopo aver scritto: aggiungere il termine nuovo a `src/data/glossary.ts` e la statistica-chiave a
   `src/data/facts.ts` se merita di essere citata da sola.
 
@@ -158,6 +186,9 @@ Si parla di salute di adolescenti: i testi devono reggere davanti a un genitore 
 - **Autolink**: `src/lib/autolink.ts` non deve mai inserire link dentro heading, link esistenti,
   `<code>` o la bibliografia. Solo termini tecnici, una occorrenza ciascuno, max 6 per articolo:
   linkare parole comuni («dolore», «sonno») produce rumore.
+- **Pagine dei temi e router**: `/blog/tema/{chiave}` passa dal ramo del blog in `App.tsx` — lo «slug»
+  che inizia con `tema/` viene girato a `BlogCluster` invece che a `BlogPost`. Nessun articolo può
+  quindi chiamarsi `tema`.
 - **Rotte bilingui**: `/glossario`, `/faq`, `/dati` esistono anche sotto `/en`. Aggiungerne una
   richiede tre punti: `BILINGUAL_ROUTES` in `App.tsx`, il ciclo delle pagine-risposta in
   `vite.config.ts`, e le chiavi `seo.*` nei tre locales.

@@ -4,7 +4,7 @@ title: "Commozione cerebrale nelle giovani atlete: più frequente, meno riconosc
 seoTitle: "Commozione cerebrale nelle giovani atlete: cosa fare"
 seoDescription: "Nel calcio scolastico le ragazze subiscono 1,88 volte le commozioni cerebrali dei coetanei maschi. Come riconoscerle a bordo campo e cosa fare nei primi minuti."
 date: 2026-07-24
-updated: 2026-09-11
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "Nel calcio scolastico americano le ragazze subiscono commozioni cerebrali 1,88 volte più dei coetanei maschi, e hanno 1,26 volte la probabilità di non essere tolte dall'attività dopo il colpo. Chi continua a giocare recupera in 44 giorni invece di 22 — e il 60% degli episodi non viene riferito a nessun adulto. Non serve né un colpo visibile alla testa né la perdita di coscienza: i dati, i segnali da riconoscere a bordo campo nei primi minuti e cosa dicono davvero le linee guida internazionali."
 answer: "Le atlete la subiscono più spesso e la riferiscono meno: nel calcio scolastico il rischio è 1,88 volte quello dei coetanei maschi (Bretzin et al., 2021) e il 60% degli episodi non era stato riferito ad alcun adulto (Register-Mihalik et al., 2013). Al sospetto l'atleta va tolta subito dal gioco: chi resta in campo recupera in 44,4 giorni contro 22,0 (Elbin et al., 2016)."
@@ -131,9 +131,9 @@ Lo riconosce lo stesso consenso di Amsterdam, che nella sezione sulla prevenzion
 
 È lo stesso vuoto che attraversa tutta la medicina dello sport femminile: solo il **6% degli studi** in scienze dello sport è condotto esclusivamente su donne ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). Sul crociato quel vuoto lo abbiamo già raccontato: [esistono protocolli che funzionano](/blog/crociato-giovani-atlete), e sono lo stesso riscaldamento di cui parla il consenso.
 
-## Cosa può fare una società, da lunedì
+## Che cosa può fare una società da lunedì, senza un medico in panchina?
 
-Nessuna di queste è una prescrizione medica. Sono decisioni organizzative, a costo zero:
+**Quattro decisioni organizzative, tutte a costo zero e nessuna clinica.** Non servono un medico in panchina né un protocollo firmato per applicarle: servono una regola scritta prima della partita e qualcuno che la rispetti anche quando la partita conta.
 
 - **Una regola scritta, una sola**: in caso di sospetta commozione cerebrale l'atleta esce e non rientra quel giorno. Nessuna eccezione per la finale, per il derby, per "manca poco".
 - **Chi guarda deve saper vedere.** Se il meccanismo tipico nelle ragazze è il contatto con un oggetto — pallone, palo, terreno — chi sta in panchina deve sapere che l'infortunio più frequente è anche il **meno spettacolare**.

@@ -4,7 +4,7 @@ title: "Dolore alla spalla nelle giovani atlete: pallavolo, nuoto e il carico ch
 seoTitle: "Dolore alla spalla in pallavolo e nuoto: cosa fare a 14 anni"
 seoDescription: "Il 23% delle atlete di pallamano giovanile d'élite ha problemi di spalla rilevanti in una stagione. Quando il dolore è sovraccarico, cosa guardare e quando fermarsi."
 date: 2026-08-12
-updated: 2026-08-23
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "Nella pallamano d'élite giovanile quasi una atleta su quattro (23%) ha avuto problemi di spalla rilevanti in una stagione, e le ragazze hanno una prevalenza 1,46 volte più alta dei coetanei maschi. Tra le nuotatrici e i nuotatori adolescenti la revisione disponibile riporta il tasso di dolore di spalla più alto di tutte le fasce d'età (91,3%), a fronte di 17 ore di vasca a settimana. La spalla è l'unica articolazione che nello sport femminile italiano lavora ogni giorno sopra la testa — ed è quella di cui nessuno tiene il conto."
 answer: "Perché il gesto sopra la testa carica ogni giorno una spalla che non ha finito di crescere. Nella pallamano d'élite di 15-18 anni il 23% ha problemi di spalla sostanziali in una stagione, con prevalenza 1,46 volte più alta nelle ragazze (Asker et al., 2018); nel nuoto la fascia 15-17 anni riporta il tasso di dolore più alto di tutte le età (91,3%; Feijen et al., 2020)."
@@ -113,9 +113,9 @@ Perché non impedisce niente. Una caviglia gonfia si vede, una commozione cerebr
 
 È lo stesso silenzio già visto per [le perdite di urina](/blog/perdite-urina-giovani-atlete) e per [i dolori mestruali](/blog/dolori-mestruali-giovani-atlete): il sintomo non ferma l'allenamento, quindi non entra mai in nessun registro, quindi statisticamente non esiste. E ciò che non esiste non viene gestito.
 
-## Cosa cambia in palestra e in vasca, concretamente
+## Che cosa cambia, concretamente, in palestra e in vasca?
 
-Non è un protocollo clinico — quello lo scrive chi valuta l'atleta. Sono i punti su cui le fonti citate sopra convergono.
+**Una cosa sopra tutte: contare le ore sopra la testa.** Non è un protocollo clinico — quello lo scrive chi valuta l'atleta — ma è il punto su cui le fonti citate sopra convergono, ed è anche l'unica variabile davvero modificabile da chi allena.
 
 - **Contare le ore sopra la testa, tutte.** Società, scuola, rappresentative, tornei. Il volume è l'unica variabile davvero modificabile tra quelle studiate, e nel nuoto è quella che correla con lo spessore tendineo e con il dolore (Feijen et al., 2020).
 - **Chiedere della spalla con la domanda giusta.** Non «ti fa male?» ma «hai dovuto tirare più piano, cambiare gesto o saltare una serie per la spalla?». È la differenza tra rilevare un dolore e rilevare un problema *sostanziale* — la soglia che nello studio prospettico riguardava il 6% delle atlete ogni settimana (Asker et al., 2018).

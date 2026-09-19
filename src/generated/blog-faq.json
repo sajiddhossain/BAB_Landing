@@ -1,6 +1,94 @@
 {
   "posts": [
     {
+      "slug": "ovaio-policistico-giovani-atlete",
+      "lang": "it",
+      "title": "«Sarà l'allenamento»: quando il ciclo irregolare di un'atleta adolescente è sindrome dell'ovaio policistico",
+      "date": "2026-09-19",
+      "questions": [
+        {
+          "q": "Che cos'è la sindrome dell'ovaio policistico?",
+          "id": "faq-che-cose-la-sindrome-dellovaio-policistico"
+        },
+        {
+          "q": "Come si diagnostica la sindrome dell'ovaio policistico in una ragazza di 16 anni?",
+          "id": "faq-come-si-diagnostica-la-sindrome-dellovaio-policistico"
+        },
+        {
+          "q": "Perché l'ecografia non serve a fare diagnosi in un'adolescente?",
+          "id": "faq-perche-lecografia-non-serve-a-fare-diagnosi-in"
+        },
+        {
+          "q": "Quando un ciclo è «irregolare» davvero, a 14 o 15 anni?",
+          "id": "faq-quando-un-ciclo-e-irregolare-davvero-a-14-o-15-anni"
+        },
+        {
+          "q": "Come si distingue la PCOS dall'amenorrea ipotalamica funzionale di un'atleta?",
+          "id": "faq-come-si-distingue-la-pcos-dallamenorrea-ipotalamica"
+        },
+        {
+          "q": "Un ciclo irregolare in un'atleta è sempre colpa del carico di allenamento?",
+          "id": "faq-un-ciclo-irregolare-in-unatleta-e-sempre-colpa-del"
+        },
+        {
+          "q": "Perché conta arrivare presto a una diagnosi?",
+          "id": "faq-perche-conta-arrivare-presto-a-una-diagnosi"
+        },
+        {
+          "q": "L'attività fisica serve nella gestione della PCOS?",
+          "id": "faq-lattivita-fisica-serve-nella-gestione-della-pcos"
+        },
+        {
+          "q": "Chi allena che cosa può fare, in concreto?",
+          "id": "faq-chi-allena-che-cosa-puo-fare-in-concreto"
+        }
+      ]
+    },
+    {
+      "slug": "ovaio-policistico-giovani-atlete",
+      "lang": "en",
+      "title": "\"It's just the training\": when a teenage athlete's irregular cycle is polycystic ovary syndrome",
+      "date": "2026-09-19",
+      "questions": [
+        {
+          "q": "What is polycystic ovary syndrome?",
+          "id": "faq-what-is-polycystic-ovary-syndrome"
+        },
+        {
+          "q": "How is polycystic ovary syndrome diagnosed in a 16-year-old?",
+          "id": "faq-how-is-polycystic-ovary-syndrome-diagnosed-in-a-16-year"
+        },
+        {
+          "q": "Why does ultrasound not make the diagnosis in an adolescent?",
+          "id": "faq-why-does-ultrasound-not-make-the-diagnosis-in-an"
+        },
+        {
+          "q": "When is a cycle genuinely irregular at 14 or 15?",
+          "id": "faq-when-is-a-cycle-genuinely-irregular-at-14-or-15"
+        },
+        {
+          "q": "How is PCOS told apart from an athlete's functional hypothalamic amenorrhoea?",
+          "id": "faq-how-is-pcos-told-apart-from-an-athletes-functional"
+        },
+        {
+          "q": "Is an athlete's irregular cycle always down to training load?",
+          "id": "faq-is-an-athletes-irregular-cycle-always-down-to-training"
+        },
+        {
+          "q": "Why does an early diagnosis matter?",
+          "id": "faq-why-does-an-early-diagnosis-matter"
+        },
+        {
+          "q": "Does physical activity help in managing PCOS?",
+          "id": "faq-does-physical-activity-help-in-managing-pcos"
+        },
+        {
+          "q": "What can a coach actually do?",
+          "id": "faq-what-can-a-coach-actually-do"
+        }
+      ]
+    },
+    {
       "slug": "apofisiti-osgood-schlatter-sever-giovani-atlete",
       "lang": "it",
       "title": "«Sono dolori di crescita»: che cosa sono davvero Osgood-Schlatter e Sever, e perché aspettare non basta",
@@ -1173,6 +1261,14 @@
         {
           "q": "Perché la maggior parte dei dati su questo tema riguarda il football americano?",
           "id": "faq-perche-la-maggior-parte-dei-dati-su-questo-tema"
+        },
+        {
+          "q": "Che cosa si fa nei primi minuti, prima che arrivino i soccorsi?",
+          "id": "faq-che-cosa-si-fa-nei-primi-minuti-prima-che-arrivino-i"
+        },
+        {
+          "q": "Il termometro auricolare basta per capire se è un colpo di calore?",
+          "id": "faq-il-termometro-auricolare-basta-per-capire-se-e-un-colpo"
         }
       ]
     },
@@ -1213,6 +1309,14 @@
         {
           "q": "Why is so much of this data about American football specifically?",
           "id": "faq-why-is-so-much-of-this-data-about-american-football"
+        },
+        {
+          "q": "What do you do in the first few minutes, before help arrives?",
+          "id": "faq-what-do-you-do-in-the-first-few-minutes-before-help"
+        },
+        {
+          "q": "Is an ear thermometer enough to tell whether it is heat stroke?",
+          "id": "faq-is-an-ear-thermometer-enough-to-tell-whether-it-is-heat"
         }
       ]
     },
@@ -1613,6 +1717,14 @@
         {
           "q": "Perché tante ragazze non dicono di avere mal di schiena?",
           "id": "faq-perche-tante-ragazze-non-dicono-di-avere-mal-di-schiena"
+        },
+        {
+          "q": "Quante atlete con mal di schiena hanno davvero una spondilolisi?",
+          "id": "faq-quante-atlete-con-mal-di-schiena-hanno-davvero-una"
+        },
+        {
+          "q": "Che cosa aumenta il rischio di mal di schiena in una giovane atleta?",
+          "id": "faq-che-cosa-aumenta-il-rischio-di-mal-di-schiena-in-una"
         }
       ]
     },
@@ -1653,6 +1765,14 @@
         {
           "q": "Why do so many girls not mention back pain?",
           "id": "faq-why-do-so-many-girls-not-mention-back-pain"
+        },
+        {
+          "q": "How many athletes with back pain actually have spondylolysis?",
+          "id": "faq-how-many-athletes-with-back-pain-actually-have"
+        },
+        {
+          "q": "What raises the risk of back pain in a young female athlete?",
+          "id": "faq-what-raises-the-risk-of-back-pain-in-a-young-female"
         }
       ]
     },

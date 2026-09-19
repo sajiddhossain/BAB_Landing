@@ -404,3 +404,27 @@
   equivarrebbe a suggerire un prodotto. Scartate in fase di selezione: le rappresentazioni molecolari CC0 di
   etinilestradiolo e desogestrel su Wikimedia (illustrative ma fredde, e la provenienza Wikimedia è esclusa per
   le cover) e le foto di ambulatori ginecologici (persone reali identificabili).
+
+## cover-ovaio-policistico-atlete.jpg
+- Titolo originale: "Free blood sample tube image" (due mani con guanti da laboratorio reggono una provetta mentre
+  una pipetta la riempie di sangue; sullo sfondo sfocati un portaprovette e altre provette)
+- Fonte: rawpixel — https://www.rawpixel.com/image/5911629/image-public-domain-person-doctor
+  (reperita via API Openverse, filtro licenza cc0; id Openverse `0d67ed10-7fe2-4d3a-a9ed-e68670b83408`)
+- Autore: non indicato dalla fonte
+- Licenza: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/) — pubblico dominio, uso libero anche
+  commerciale, attribuzione non obbligatoria; registrata qui per tracciabilità
+- Uso: cover articolo blog "sindrome dell'ovaio policistico e giovani atlete" (IT + EN)
+- Lavorazione: rendition `editor_1024` (non filigranata) servita **attraverso il proxy Openverse**
+  (`/v1/images/{id}/thumb/?full_size=true`), perché anche in questa sessione `images.rawpixel.com` non era
+  risolvibile dal DNS. Originale 1024x768 → ritaglio 16:9 a 1024x576 con offset di 76 px dall'alto per tenere
+  la provetta al centro e le mani intere, JPEG q82 con Pillow. Nessun ritocco.
+  Nessun volto nell'inquadratura — solo mani adulte guantate — quindi nessun minore identificabile, e nessuna
+  scritta leggibile sull'etichetta della provetta. Il requisito «nessun marchio» è stato decisivo: la prima
+  candidata (Openverse `3d36b195-…`, "Lab tube", CC0) è stata **scartata** perché la provetta mostrava in chiaro
+  un marchio commerciale, che su un tema diagnostico equivarrebbe a indicare un prodotto.
+  Scelta del soggetto: l'articolo ruota attorno al fatto che in un'adolescente la PCOS si distingue
+  dall'amenorrea ipotalamica funzionale **con il sangue, non con l'ecografia** — la provetta è esattamente
+  l'esame che le linee guida mettono al posto dell'immagine.
+  Scartate in fase di selezione: le immagini di ecografi (le uniche CC0 disponibili ritraevano personale
+  sanitario e pazienti reali identificabili) e una foto di calendario aperto con annotazioni, di provenienza
+  Wikimedia rimpacchettata da rawpixel — provenienza esclusa per le cover.

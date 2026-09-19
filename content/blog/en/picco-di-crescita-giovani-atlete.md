@@ -4,7 +4,7 @@ title: "The growth spurt in young female athletes: what actually changes (and wh
 seoTitle: "Growth spurt in girls: what age it peaks and what changes"
 seoDescription: "In girls the growth spurt peaks at 11.2 years on average, but two same-age girls can be years apart. What changes for injuries, coordination and load."
 date: 2026-08-02
-updated: 2026-09-18
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "In young female athletes peak height velocity arrives at a mean age of about 11.2 years — but the individual range is enormous: a squad of thirteen-year-olds contains bodies years apart in maturation. Meanwhile bone mineralises roughly six months after it has lengthened. What the data actually say — and why, in girls, the evidence linking growth to injury is still limited."
 answer: "What changes is levers, coordination and bone structure — not commitment. In young female athletes the mean age at peak height velocity is 11.18 years, with a 90% credible interval from 8.62 to 12.94 (Lima et al., 2024): one age category holds athletes years apart biologically. Peak bone mineral accrual arrives roughly six months later (Bailey et al., 1999)."
@@ -95,7 +95,9 @@ Measuring serves a second, less obvious purpose: correcting the selector's eye. 
 
 What a club does **not** need: bone-age X-rays, pubertal staging, maturation rankings on the noticeboard. Those are clinical acts, and in youth sport they are also a matter of dignity and privacy — the same principle for which, as we write in [how to coach teenage girls](/en/blog/allenare-ragazze-adolescenti), a club needs aggregated signals, never the individual health data point.
 
-## What changes on Monday
+## What changes on Monday in the gym?
+
+**Three things, and the most important is what you do NOT do: you do not raise the load in the quarter when an athlete is growing fastest.**
 
 - **Measure and record.** A fixed wall measure, one measurement every three months, one line on a sheet. It only needs to tell you who is growing fast.
 - **Do not raise the load in the growth quarter.** If an athlete has grown a lot, that is the quarter to hold volume steady and work on technique, control and strength — not the one to add sessions. Doubly so for anyone doing [one sport all year round](/en/blog/specializzazione-precoce-giovani-atlete).

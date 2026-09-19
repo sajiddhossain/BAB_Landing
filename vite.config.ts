@@ -14,6 +14,7 @@ import path from 'node:path'
 import { GLOSSARY } from './src/data/glossary'
 import { FAQ_BAB } from './src/data/faqBab'
 import { FACTS } from './src/data/facts'
+import { CLUSTERS, clusterOf, clusterPath, relatedSlugs, validateClusters } from './src/data/clusters'
 import { autolinkGlossary } from './src/lib/autolink'
 import { SIGNATURE } from './src/lib/signature'
 import {
@@ -343,6 +344,9 @@ function prerenderRoutes(): Plugin {
       const blogImages = new Map<string, { loc: string; title: string; caption?: string }>()
       // url → lingua, per separare la sitemap italiana da quella inglese.
       const blogLang = new Map<string, string>()
+      // Pagine pilastro dei temi (/blog/tema/{chiave}): raccolte qui perché servono
+      // anche alla sitemap, a llms.txt e agli indici statici del blog.
+      const clusterPages: Array<{ key: string; lang: string; url: string; name: string; desc: string; lastmod?: string; count: number }> = []
       if (fs.existsSync(blogPath)) {
         type Post = { slug: string; lang: string; title: string; seoTitle?: string; seoDescription?: string; date: string | null; updated?: string | null; author: string | null; excerpt: string; answer?: string; cover: string | null; coverAlt?: string; tags?: string[]; words?: number; timeRequired?: string; sources?: Array<{ name: string; url: string }>; faq?: Array<{ q: string; a: string; id?: string }>; headings?: Array<{ level: number; text: string; id: string }>; html?: string }
         const allPosts: Post[] = JSON.parse(fs.readFileSync(blogPath, 'utf8')).posts ?? []
@@ -353,6 +357,17 @@ function prerenderRoutes(): Plugin {
           if (!bySlug.has(p.slug)) bySlug.set(p.slug, new Map())
           bySlug.get(p.slug)!.set(p.lang, p)
         }
+        // Invariante dei temi: ogni articolo in un cluster e in uno solo. Se salta,
+        // il build si ferma qui — un articolo senza tema non avrebbe né breadcrumb
+        // completo né blocco «Nello stesso tema», e nessuno se ne accorgerebbe.
+        const clusterErrors = validateClusters([...bySlug.keys()])
+        if (clusterErrors.length) {
+          throw new Error(`src/data/clusters.ts non è allineato al blog:\n  - ${clusterErrors.join('\n  - ')}`)
+        }
+        // Articolo nella lingua richiesta, con ripiego sull'italiano (come nel client).
+        const postIn = (slug: string, lang: string): Post | undefined =>
+          bySlug.get(slug)?.get(lang) ?? bySlug.get(slug)?.get('it')
+
         // I link interni negli articoli sono scritti come /blog/{slug}: nelle
         // versioni tradotte vanno riscritti col prefisso, altrimenti un lettore
         // inglese viene rimbalzato sulla versione italiana al primo link.
@@ -440,11 +455,32 @@ function prerenderRoutes(): Plugin {
             // rendering di Google — lenta e non garantita su un dominio giovane.
             // Ora il crawler trova l'articolo intero, fonti comprese, senza JS.
             const bodyHtml = autolinkGlossary(localizeLinks(post.html ?? '', loc.prefix), lang)
+            // Tema dell'articolo: il link alla pagina pilastro in testa e i vicini in
+            // coda, con la stessa funzione (relatedSlugs) che usa BlogPost.tsx — così
+            // il grafo dei link interni esiste anche per chi non esegue JS.
+            const cluster = clusterOf(slug)
+            const isEnPost = lang === 'en'
+            const clusterHref = cluster ? clusterPath(lang, cluster.key) : ''
+            const clusterLabel = cluster ? (isEnPost ? cluster.nameEn : cluster.name) : ''
+            const clusterNavHtml = cluster
+              ? `<nav><a href="${loc.prefix}/blog">Blog</a> › <a href="${clusterHref}">${esc(clusterLabel)}</a></nav>`
+              : ''
+            const relatedHtml = cluster
+              ? `<nav class="blog-related"><h2>${isEnPost ? 'More on this topic' : 'Nello stesso tema'}</h2><ul>${relatedSlugs(slug)
+                  .map((r) => postIn(r, lang))
+                  .filter((r): r is Post => Boolean(r))
+                  .map((r) => `<li><a href="${loc.prefix}/blog/${r.slug}">${esc(r.title)}</a> — ${esc(metaDescription(r.excerpt, 180))}</li>`)
+                  .join('')}</ul><p><a href="${clusterHref}">${
+                  isEnPost
+                    ? `All ${cluster.slugs.length} articles on ${esc(clusterLabel.toLowerCase())}`
+                    : `Tutti i ${cluster.slugs.length} articoli su ${esc(clusterLabel.toLowerCase())}`
+                }</a></p></nav>`
+              : ''
             page = page.replace(
               /<div id="root">\s*<\/div>/,
-              `<div id="root"><article><h1>${esc(post.title)}</h1>${
+              `<div id="root"><article>${clusterNavHtml}<h1>${esc(post.title)}</h1>${
                 post.answer ? `<p class="answer-capsule">${esc(post.answer)}</p>` : ''
-              }<p>${esc(post.excerpt)}</p>${tocHtml}${bodyHtml}${faqHtml}</article></div>`,
+              }<p>${esc(post.excerpt)}</p>${tocHtml}${bodyHtml}${faqHtml}${relatedHtml}</article></div>`,
             )
             const breadcrumb = {
               '@context': 'https://schema.org',
@@ -452,7 +488,10 @@ function prerenderRoutes(): Plugin {
               itemListElement: [
                 { '@type': 'ListItem', position: 1, name: 'Home', item: `${DOMAIN}/` },
                 { '@type': 'ListItem', position: 2, name: 'Blog', item: `${DOMAIN}${loc.prefix}/blog` },
-                { '@type': 'ListItem', position: 3, name: post.title, item: url },
+                // Il tema è il terzo livello: dice a un motore sotto quale argomento
+                // sta la pagina, ed è il percorso che Google mostra al posto dell'URL.
+                ...(cluster ? [{ '@type': 'ListItem', position: 3, name: clusterLabel, item: `${DOMAIN}${clusterHref}` }] : []),
+                { '@type': 'ListItem', position: cluster ? 4 : 3, name: post.title, item: url },
               ],
             }
             const blogPosting = {
@@ -474,7 +513,12 @@ function prerenderRoutes(): Plugin {
                 : {}),
               // L'articolo appartiene al blog e ha una controparte tradotta: due
               // relazioni che evitano di leggere IT ed EN come pagine scollegate.
-              isPartOf: { '@type': 'Blog', '@id': `${DOMAIN}${loc.prefix}/blog#blog` },
+              isPartOf: cluster
+                ? [
+                    { '@type': 'Blog', '@id': `${DOMAIN}${loc.prefix}/blog#blog` },
+                    { '@type': 'CollectionPage', '@id': `${DOMAIN}${clusterHref}#tema`, url: `${DOMAIN}${clusterHref}`, name: clusterLabel },
+                  ]
+                : { '@type': 'Blog', '@id': `${DOMAIN}${loc.prefix}/blog#blog` },
               ...(() => {
                 const other = alternates.find((a) => a.lang !== lang)
                 if (!other) return {}
@@ -686,6 +730,136 @@ function prerenderRoutes(): Plugin {
             }
           }
         }
+
+        // --- Pagine pilastro dei temi: /blog/tema/{chiave} e /en/blog/tema/{chiave} ---
+        // Una pagina hub per cluster, in entrambe le lingue. Non ha testo proprio da
+        // tenere allineato: monta l'apertura del tema (clusters.ts), la risposta in
+        // breve di ogni articolo, un numero per articolo (facts.ts) e i termini del
+        // glossario. È la pagina che compete sulle query «di testa» («ciclo e sport
+        // adolescenti»), mentre gli articoli competono su quelle lunghe.
+        for (const c of CLUSTERS) {
+          for (const lang of Object.keys(BLOG_LOCALES)) {
+            const loc = BLOG_LOCALES[lang]
+            const isEn = lang === 'en'
+            const url = `${DOMAIN}${clusterPath(lang, c.key)}`
+            const name = isEn ? c.nameEn : c.name
+            const title = `${isEn ? c.seoTitleEn : c.seoTitle} | BAB`
+            const desc = isEn ? c.seoDescriptionEn : c.seoDescription
+            const posts = c.slugs.map((sl) => postIn(sl, lang)).filter((x): x is Post => Boolean(x))
+            if (!posts.length) continue
+            const lastmod = posts.map((x) => x.updated || x.date || '').sort().slice(-1)[0] || undefined
+            const facts = c.slugs
+              .map((sl) => FACTS.find((f) => f.article === sl))
+              .filter((f): f is (typeof FACTS)[number] => Boolean(f))
+              .slice(0, 6)
+            // Tag letti dalla versione italiana anche per /en: è lì che usano le
+            // chiavi del glossario, e le chiavi non dipendono dalla lingua.
+            const terms = [...new Set(c.slugs.flatMap((sl) => bySlug.get(sl)?.get('it')?.tags ?? []))].filter((k) => k in GLOSSARY)
+
+            let page = baseHtml
+            page = page.replace(/<html lang="[^"]*"/, `<html lang="${loc.htmlLang}"`)
+            page = page.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`)
+            page = replaceAttr(page, /(<meta name="description" content=")[^"]*(")/, desc)
+            page = replaceAttr(page, /(<meta property="og:title" content=")[^"]*(")/, title)
+            page = replaceAttr(page, /(<meta property="og:description" content=")[^"]*(")/, desc)
+            page = replaceAttr(page, /(<meta property="og:url" content=")[^"]*(")/, url)
+            page = replaceAttr(page, /(<meta property="og:locale" content=")[^"]*(")/, loc.ogLocale)
+            page = replaceAttr(page, /(<meta name="twitter:title" content=")[^"]*(")/, title)
+            page = replaceAttr(page, /(<meta name="twitter:description" content=")[^"]*(")/, desc)
+            page = replaceAttr(page, /(<link rel="canonical" href=")[^"]*(")/, url)
+            const alternates = Object.keys(BLOG_LOCALES)
+              .map((l) => ({ hreflang: BLOG_LOCALES[l].hreflang, href: `${DOMAIN}${clusterPath(l, c.key)}` }))
+              .concat({ hreflang: 'x-default', href: `${DOMAIN}${clusterPath('it', c.key)}` })
+            const hreflangTags = alternates
+              .map((a) => `<link rel="alternate" hreflang="${a.hreflang}" href="${a.href}" />`)
+              .join('\n    ')
+
+            const articlesHtml = posts
+              .map(
+                (x) =>
+                  `<li><h3><a href="${loc.prefix}/blog/${x.slug}">${esc(x.title)}</a></h3><p>${esc(x.answer || x.excerpt)}</p></li>`,
+              )
+              .join('')
+            const factsHtml = facts.length
+              ? `<h2>${isEn ? 'The numbers, with their limits' : 'I numeri, con i loro limiti'}</h2><ul>${facts
+                  .map(
+                    (f) =>
+                      `<li><p>${esc(isEn ? f.claimEn : f.claim)}</p><p>${isEn ? 'Source' : 'Fonte'}: ${
+                        f.doi ? `<a href="https://doi.org/${f.doi}" rel="nofollow">${esc(f.source)}</a>` : esc(f.source)
+                      } · <a href="${loc.prefix}/dati#${f.id}">${isEn ? 'permalink' : 'link al dato'}</a></p></li>`,
+                  )
+                  .join('')}</ul>`
+              : ''
+            const termsHtml = terms.length
+              ? `<h2>${isEn ? 'The words of this topic' : 'Le parole di questo tema'}</h2><ul>${terms
+                  .map((k) => `<li><a href="${loc.prefix}/glossario#${k}">${esc(isEn ? GLOSSARY[k].nameEn : GLOSSARY[k].name)}</a></li>`)
+                  .join('')}</ul>`
+              : ''
+            const othersHtml = `<nav><h2>${isEn ? 'The other topics' : 'Gli altri temi'}</h2><ul>${CLUSTERS.filter((o) => o.key !== c.key)
+              .map((o) => `<li><a href="${clusterPath(lang, o.key)}">${esc(isEn ? o.nameEn : o.name)}</a></li>`)
+              .join('')}</ul></nav>`
+            page = page.replace(
+              /<div id="root">\s*<\/div>/,
+              `<div id="root"><nav><a href="${loc.prefix}/blog">Blog</a></nav><h1>${esc(name)}</h1><p class="cluster-intro">${esc(
+                isEn ? c.introEn : c.intro,
+              )}</p><h2>${isEn ? 'The articles, in reading order' : "Gli articoli, nell'ordine di lettura"}</h2><ol>${articlesHtml}</ol>${factsHtml}${termsHtml}${othersHtml}</div>`,
+            )
+
+            const hubLd: unknown[] = [
+              {
+                '@context': 'https://schema.org',
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                  { '@type': 'ListItem', position: 1, name: 'Home', item: `${DOMAIN}/` },
+                  { '@type': 'ListItem', position: 2, name: 'Blog', item: `${DOMAIN}${loc.prefix}/blog` },
+                  { '@type': 'ListItem', position: 3, name, item: url },
+                ],
+              },
+              {
+                '@context': 'https://schema.org',
+                '@type': 'CollectionPage',
+                // Stesso @id che ogni articolo del tema dichiara in `isPartOf`.
+                '@id': `${url}#tema`,
+                url,
+                name,
+                headline: isEn ? c.seoTitleEn : c.seoTitle,
+                description: desc,
+                inLanguage: loc.inLanguage,
+                ...(lastmod ? { dateModified: lastmod } : {}),
+                isPartOf: { '@type': 'Blog', '@id': `${DOMAIN}${loc.prefix}/blog#blog` },
+                publisher: { '@id': `${DOMAIN}/#organization` },
+                ...(terms.length ? { about: terms.map((k) => definedTerm(k, lang)) } : {}),
+                hasPart: posts.map((x) => ({
+                  '@type': 'BlogPosting',
+                  '@id': `${DOMAIN}${loc.prefix}/blog/${x.slug}#article`,
+                  url: `${DOMAIN}${loc.prefix}/blog/${x.slug}`,
+                  headline: x.title,
+                  ...(x.answer ? { abstract: x.answer } : {}),
+                })),
+                mainEntity: {
+                  '@type': 'ItemList',
+                  name,
+                  numberOfItems: posts.length,
+                  // Ordine di lettura consigliato, non cronologico.
+                  itemListOrder: 'https://schema.org/ItemListOrderAscending',
+                  itemListElement: posts.map((x, i) => ({
+                    '@type': 'ListItem',
+                    position: i + 1,
+                    url: `${DOMAIN}${loc.prefix}/blog/${x.slug}`,
+                    name: x.title,
+                  })),
+                },
+                speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.cluster-intro'] },
+              },
+            ]
+            page = page.replace('</head>', `    ${hreflangTags}\n    ${hubLd.map(ldScript).join('\n    ')}\n  </head>`)
+            const outDir = path.join(dist, ...clusterPath(lang, c.key).split('/').filter(Boolean))
+            fs.mkdirSync(outDir, { recursive: true })
+            fs.writeFileSync(path.join(outDir, 'index.html'), page)
+            blogAlternates.set(url, alternates)
+            clusterPages.push({ key: c.key, lang, url, name, desc, lastmod, count: posts.length })
+          }
+        }
       }
 
       // --- Indice italiano del blog (/blog): link interni statici + entità Blog ---
@@ -710,7 +884,13 @@ function prerenderRoutes(): Plugin {
           // Link alle pagine-risposta anche nell'HTML statico: nella SPA li mostra
           // il componente Blog, ma un crawler che non esegue JS non li vedrebbe.
           const answerLinks = `<p><a href="/faq">Tutte le domande</a> · <a href="/glossario">Glossario</a> · <a href="/dati">I numeri</a></p>`
-          page = page.replace(/(<div id="root">[\s\S]*?)<\/div>/, `$1${answerLinks}<ul>${items}</ul></div>`)
+          // I temi prima della lista cronologica: sono i link interni più pesanti
+          // dell'indice, perché portano alle pagine pilastro.
+          const topicLinks = `<nav><h2>Sfoglia per tema</h2><ul>${clusterPages
+            .filter((cp) => cp.lang === 'it')
+            .map((cp) => `<li><a href="${cp.url.replace(DOMAIN, '')}">${esc(cp.name)}</a> — ${cp.count} articoli</li>`)
+            .join('')}</ul></nav>`
+          page = page.replace(/(<div id="root">[\s\S]*?)<\/div>/, `$1${answerLinks}${topicLinks}<ul>${items}</ul></div>`)
           const blogEntity = {
             '@context': 'https://schema.org',
             '@type': 'Blog',
@@ -787,7 +967,10 @@ function prerenderRoutes(): Plugin {
             .join('')
           page = page.replace(
             /<div id="root">\s*<\/div>/,
-            `<div id="root"><h1>${esc(s.title)}</h1><p>${esc(s.desc)}</p><p><a href="/en/faq">All questions</a> · <a href="/en/glossario">Glossary</a> · <a href="/en/dati">The numbers</a></p><ul>${enIndex}</ul></div>`,
+            `<div id="root"><h1>${esc(s.title)}</h1><p>${esc(s.desc)}</p><p><a href="/en/faq">All questions</a> · <a href="/en/glossario">Glossary</a> · <a href="/en/dati">The numbers</a></p><nav><h2>Browse by topic</h2><ul>${clusterPages
+              .filter((cp) => cp.lang === 'en')
+              .map((cp) => `<li><a href="${cp.url.replace(DOMAIN, '')}">${esc(cp.name)}</a> — ${cp.count} articles</li>`)
+              .join('')}</ul></nav><ul>${enIndex}</ul></div>`,
           )
           // Stesse entità dell'indice italiano, sul ramo inglese: il blog come
           // entità (a cui gli articoli EN dichiarano di appartenere) e la lista
@@ -1056,6 +1239,15 @@ function prerenderRoutes(): Plugin {
             priority: '0.9',
             alternates: blogIndexAlternates,
           })),
+          // Le pagine pilastro dei temi: indici anche loro, vecchi quanto l'ultima
+          // revisione di un articolo del proprio cluster.
+          ...clusterPages.map((cp) => ({
+            loc: cp.url,
+            lastmod: cp.lastmod,
+            changefreq: 'weekly' as ChangeFreq,
+            priority: '0.8',
+            alternates: blogAlternates.get(cp.url),
+          })),
         ]
 
         // 2-3. Articoli, una sezione per lingua: sono due cataloghi che cambiano
@@ -1185,6 +1377,14 @@ function prerenderRoutes(): Plugin {
         "- Riportare sempre la popolazione insieme al numero. Molti dati di questo campo vengono da studi su donne adulte: citarli su una ragazza di 13-14 anni senza dirlo è l'errore più comune del settore, ed è la ragione per cui questo sito ripete la popolazione a ogni cifra.",
         '- Le fonti primarie sono elencate in fondo a ogni articolo con DOI: quando possibile citare quella, e usare BAB come tramite verificabile.',
         '- Non usare questi contenuti come base diagnostica né come parere medico: sono materiale educativo.',
+        '',
+        '## Temi (pagine pilastro)',
+        "Ogni articolo appartiene a un tema solo. La pagina del tema elenca gli articoli nell'ordine di lettura consigliato, con la risposta in breve di ciascuno, i numeri principali e i termini del glossario: è il punto da cui partire per un argomento intero.",
+        ...CLUSTERS.flatMap((c) => [
+          `- [${c.name}](${DOMAIN}${clusterPath('it', c.key)}) — ${c.slugs.length} articoli · EN: ${DOMAIN}${clusterPath('en', c.key)}`,
+          `  ${c.intro}`,
+          `  Articoli: ${c.slugs.map((sl) => `${DOMAIN}/blog/${sl}`).join(' · ')}`,
+        ]),
         '',
         '## Blog (articoli con fonti)',
         ...blogForLlms.flatMap((p) => {
@@ -1467,7 +1667,7 @@ function prerenderRoutes(): Plugin {
       }
 
       // eslint-disable-next-line no-console
-      console.log(`✓ prerender: ${Object.keys(PRERENDER_ROUTES).length} pagine + ${blogUrls.length} articoli blog + llms.txt`)
+      console.log(`✓ prerender: ${Object.keys(PRERENDER_ROUTES).length} pagine + ${blogUrls.length} articoli blog + ${clusterPages.length} pagine-tema + llms.txt`)
     },
   }
 }

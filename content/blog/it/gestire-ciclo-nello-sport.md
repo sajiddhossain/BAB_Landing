@@ -4,7 +4,7 @@ title: "Fare sport con il ciclo: come si gestisce in pratica (perdite, prodotti,
 seoTitle: "Fare sport con il ciclo: la gestione pratica"
 seoDescription: "Dal 25% al 61% delle adolescenti evita lo sport durante le mestruazioni. Prodotti, divise e kit in palestra: la gestione pratica del ciclo, senza tabù."
 date: 2026-08-13
-updated: 2026-09-18
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "La paura delle perdite è una delle ragioni per cui le ragazze saltano allenamenti e ore di educazione fisica — e tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni. Quasi tutti i contenuti si fermano a dire che è un problema. Questo prova a rispondere alla domanda pratica che nessuno affronta: cosa si fa, concretamente, il giorno in cui capita."
 answer: "Con tre cose che dipendono più dall'organizzazione che dall'atleta: un prodotto mestruale adatto al gesto sportivo, una divisa che non aumenti la paura delle perdite e un kit disponibile in palestra. Tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, e la paura delle perdite è una barriera ricorrente (Harvey et al., 2025)."
@@ -109,6 +109,7 @@ Una precisazione doverosa: **niente di tutto questo riguarda il dolore che imped
 - **Provare a casa** il prodotto che si intende usare in allenamento. Vale per qualsiasi prodotto, ed è esplicito nella revisione sulle coppette (van Eijk et al., 2019).
 - **Concordare una frase pronta** da dire all'allenatore, che non obblighi a spiegare nulla. Averla decisa prima è ciò che rende possibile usarla, ed è il nodo di [come si parla di ciclo con chi allena](/blog/parlare-di-ciclo-con-allenatore).
 - **Non farne un tema da bordo campo.** Le atlete di questa età chiedono ai genitori soprattutto di [non attirare l'attenzione su di loro davanti alle compagne](/blog/genitori-a-bordo-campo-giovani-atlete): la preparazione si fa a casa, in silenzio, prima.
+- **Contare i giorni, e sapere quando il conteggio conta.** Gestire il ciclo presuppone che ci sia: un ciclo oltre i 90 giorni, o mai arrivato entro i 15 anni, non è una questione organizzativa ma [una soglia clinica scritta](/blog/ovaio-policistico-giovani-atlete), e va portato a un pediatra o a un ginecologo.
 
 Non è un dettaglio organizzativo: la revisione globale identifica proprio le **carenze informative** come uno dei nodi principali, presenti in **24 studi su 42 (57,1%)**, con scarsa alfabetizzazione mestruale tra le ragazze e formazione inadeguata di chi insegna educazione fisica (Harvey et al., 2025). Le informazioni pratiche arrivano tardi, o non arrivano.
 

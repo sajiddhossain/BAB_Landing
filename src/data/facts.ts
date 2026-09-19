@@ -1125,6 +1125,46 @@ export const FACTS: Fact[] = [
     source: 'Biason et al., 2015',
     doi: '10.1186/s12902-015-0012-7',
   },
+  {
+    id: 'ovaio-policistico-giovani-atlete-1',
+    article: 'ovaio-policistico-giovani-atlete',
+    claim:
+      "Nelle adolescenti la sindrome dell'ovaio policistico si diagnostica solo con ciclo irregolare E iperandrogenismo insieme: l'ecografia pelvica non va usata prima di 8 anni dal menarca, e nemmeno il dosaggio dell'AMH, perché entrambi si sovrappongono alla fisiologia puberale normale. La prevalenza della condizione è del 10-13% delle donne in età riproduttiva, con variazioni legate ai criteri diagnostici adottati.",
+    claimEn:
+      'In adolescents, polycystic ovary syndrome is diagnosed only when irregular cycles AND hyperandrogenism are present together: pelvic ultrasound must not be used until 8 years post-menarche, nor should AMH measurement, because both overlap with normal pubertal physiology. Prevalence of the condition is 10-13% of women of reproductive age, varying with the diagnostic criteria used.',
+    source: 'Teede et al., 2023',
+    doi: '10.1093/humrep/dead156',
+  },
+  {
+    id: 'ovaio-policistico-giovani-atlete-2',
+    article: 'ovaio-policistico-giovani-atlete',
+    claim:
+      "Fra le atlete olimpiche che non usavano contraccettivi ormonali, il 27% aveva una disfunzione mestruale, soprattutto negli sport di endurance; composizione corporea e marcatori della disponibilità energetica erano però nella norma e la densità ossea era elevata, e la causa più frequente è risultata la sindrome dell'ovaio policistico, non l'inibizione ipotalamica da deficit energetico. Popolazione: 90 atlete olimpiche svedesi ADULTE; nessun dato equivalente sulle adolescenti.",
+    claimEn:
+      'Among Olympic athletes not using hormonal contraception, 27% had menstrual dysfunction, particularly in endurance sports; body composition and markers of energy availability were nonetheless within normal ranges and bone density was elevated, and the most common cause turned out to be polycystic ovary syndrome, not energy-deficiency hypothalamic inhibition. Population: 90 ADULT Swedish Olympic athletes; no equivalent data exists for adolescents.',
+    source: 'Hagmar et al., 2009',
+    doi: '10.1249/MSS.0b013e318195a21a',
+  },
+  {
+    id: 'ovaio-policistico-giovani-atlete-3',
+    article: 'ovaio-policistico-giovani-atlete',
+    claim:
+      "Una morfologia ovarica policistica all'ecografia compare nel 41,9-46,7% delle donne con amenorrea ipotalamica funzionale, contro il 14-33% della popolazione generale: è il motivo per cui l'immagine, da sola, porta a scambiare le due condizioni. Il rapporto LH/FSH è inferiore a 1 in circa l'82% dei casi di amenorrea ipotalamica funzionale, mentre nella PCOS tende a superare 2. Popolazione: donne ADULTE; revisione narrativa, non sistematica.",
+    claimEn:
+      'Polycystic ovarian morphology on ultrasound appears in 41.9-46.7% of women with functional hypothalamic amenorrhoea, against 14-33% in the general population: this is why the image alone leads to the two conditions being confused. The LH/FSH ratio is below 1 in about 82% of functional hypothalamic amenorrhoea cases, whereas in PCOS it tends to exceed 2. Population: ADULT women; narrative, not systematic, review.',
+    source: 'Ott et al., 2025',
+    doi: '10.1093/humupd/dmae030',
+  },
+  {
+    id: 'ovaio-policistico-giovani-atlete-4',
+    article: 'ovaio-policistico-giovani-atlete',
+    claim:
+      "Il 33,6% delle donne con sindrome dell'ovaio policistico ha atteso più di 2 anni prima della diagnosi e il 47,1% ha consultato 3 o più professionisti sanitari; solo il 35,2% si dichiarava soddisfatto del percorso diagnostico. Popolazione: 1.385 donne ADULTE con diagnosi di PCOS (53% Nord America, 42% Europa); disegno retrospettivo basato sul ricordo delle partecipanti.",
+    claimEn:
+      '33.6% of women with polycystic ovary syndrome waited more than 2 years before diagnosis and 47.1% consulted 3 or more health professionals; only 35.2% were satisfied with their diagnostic experience. Population: 1,385 ADULT women with a PCOS diagnosis (53% North America, 42% Europe); retrospective design based on participants’ recall.',
+    source: 'Gibson-Helm et al., 2017',
+    doi: '10.1210/jc.2016-2963',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

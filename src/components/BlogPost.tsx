@@ -10,6 +10,7 @@ import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { blogPath, localizeBlogLinks } from '../lib/blogLocale';
 import { autolinkGlossary } from '../lib/autolink';
+import { clusterName, clusterOf, clusterPath, relatedSlugs } from '../data/clusters';
 import { BLOG_POSTS, formatDate, type BlogPostData, type BlogPostContent } from './Blog';
 import NotFound from './NotFound';
 import SponsorSlot from './SponsorSlot';
@@ -94,6 +95,13 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
 
  if (!post) return <NotFound onNavigate={onNavigate} />;
 
+ // Il tema dell'articolo e i suoi vicini: stessa funzione (relatedSlugs) usata dal
+ // prerender, così i link statici e quelli montati da React sono gli stessi.
+ const cluster = clusterOf(post.slug);
+ const related = relatedSlugs(post.slug)
+ .map((s) => findPost(s, lang))
+ .filter((p): p is BlogPostData => Boolean(p));
+
  return (
  <article className="w-full max-w-3xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
  <a
@@ -104,6 +112,14 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  </a>
 
  <header className="mb-8">
+ {cluster && (
+ <a
+ href={clusterPath(lang, cluster.key)}
+ className="inline-block bg-[#D2EC7C] text-[#0F0F12] border-[3px] border-black px-3 py-1 font-black uppercase tracking-widest text-[11px] shadow-[3px_3px_0_0_#0F0F12] hover:-translate-y-0.5 transition-transform focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] mb-4"
+ >
+ {clusterName(cluster, lang)}
+ </a>
+ )}
  <div className="flex items-center gap-2 text-[11px] font-black uppercase tracking-wide text-[#0F0F12]/60 mb-4">
  <span>{formatDate(post.date, lang)}</span>
  <span aria-hidden="true">·</span>
@@ -215,6 +231,47 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  ))}
  </dl>
  </section>
+ )}
+
+ {/* Nello stesso tema: i vicini dell'articolo nel suo cluster. È ciò che dà a ogni
+ pezzo — anche all'ultimo pubblicato, che nessun vecchio articolo cita ancora —
+ link in ingresso dai fratelli e un'uscita che non sia «torna alla lista». */}
+ {cluster && related.length > 0 && (
+ <nav className="blog-related mt-14 border-t-[3px] border-black pt-8" aria-labelledby="related-heading">
+ <h2
+ id="related-heading"
+ className="font-['Bricolage_Grotesque',_sans-serif] text-2xl sm:text-3xl font-black tracking-tight mb-6"
+ >
+ {lang === 'en' ? 'More on this topic' : 'Nello stesso tema'}
+ </h2>
+ <ul className="flex flex-col gap-4 list-none">
+ {related.map((r) => (
+ <li key={r.slug}>
+ <a
+ href={blogPath(lang, r.slug)}
+ className="group block bg-white border-[3px] border-black p-4 shadow-[4px_4px_0_0_#0F0F12] hover:-translate-y-0.5 hover:shadow-[6px_6px_0_0_#0F0F12] transition-all focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+ >
+ <span className="block font-['Bricolage_Grotesque',_sans-serif] text-lg font-black leading-tight mb-1 group-hover:text-vividteal transition-colors">
+ {r.title}
+ </span>
+ <span className="block font-['Space_Grotesk',_sans-serif] text-sm text-[#0F0F12]/75 leading-relaxed">
+ {r.excerpt}
+ </span>
+ </a>
+ </li>
+ ))}
+ </ul>
+ <p className="mt-5">
+ <a
+ href={clusterPath(lang, cluster.key)}
+ className="font-bold uppercase text-xs tracking-wide text-vividteal hover:underline focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]"
+ >
+ {lang === 'en'
+ ? `All ${cluster.slugs.length} articles on ${clusterName(cluster, lang).toLowerCase()} →`
+ : `Tutti i ${cluster.slugs.length} articoli su ${clusterName(cluster, lang).toLowerCase()} →`}
+ </a>
+ </p>
+ </nav>
  )}
 
  {/* Spazio sponsor #2 — in fondo all'articolo, gestito a mano */}

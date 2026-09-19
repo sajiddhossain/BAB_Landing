@@ -769,6 +769,32 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
       'Replacement therapy with 17β-estradiol absorbed through the skin (a patch), combined with a progestin for endometrial protection: unlike oral oestrogen it does not undergo first-pass liver metabolism. In a randomised trial of 121 athletes aged 14-25 with absent or irregular cycles, at 12 months bone density Z-scores increased with the patch compared with a pill containing ethinyl estradiol at the spine and femoral neck (p=0.011 and p=0.021) and compared with no therapy (Ackerman et al., 2019). The 2025 guidelines recommend it as physiologic-dose replacement therapy at Level A evidence, noting that it has no contraceptive efficacy (Williams et al., 2025).',
     sameAs: 'https://en.wikipedia.org/wiki/Estradiol_(medication)',
   },
+  'sindrome-ovaio-policistico': {
+    name: "Sindrome dell'ovaio policistico (PCOS)",
+    description:
+      "Condizione endocrina e metabolica definita dalla coesistenza di eccesso di androgeni e ovulazione irregolare o assente; riguarda il 10-13% delle donne in età riproduttiva, con differenze legate ai criteri usati (Teede et al., 2023). Nelle ADOLESCENTI la diagnosi richiede insieme ciclo irregolare e iperandrogenismo, dopo l'esclusione di altre cause, mentre ecografia pelvica e AMH non vanno usati prima di 8 anni dal menarca perché si sovrappongono alla fisiologia puberale normale (Peña et al., 2020; Teede et al., 2023). Chi ha alcuni tratti ma non tutti rientra nella categoria «a rischio», con rivalutazione programmata. In 90 atlete olimpiche svedesi ADULTE è risultata la causa più frequente di disturbo mestruale, più del deficit energetico (Hagmar et al., 2009).",
+    nameEn: 'Polycystic ovary syndrome (PCOS)',
+    descriptionEn:
+      'An endocrine and metabolic condition defined by androgen excess coexisting with irregular or absent ovulation; it affects 10-13% of women of reproductive age, varying with the criteria used (Teede et al., 2023). In ADOLESCENTS the diagnosis requires irregular cycles and hyperandrogenism together, after excluding other causes, while pelvic ultrasound and AMH must not be used until 8 years post-menarche because they overlap with normal pubertal physiology (Peña et al., 2020; Teede et al., 2023). Girls with some features but not all fall into the "at risk" category, with a planned reassessment. In 90 ADULT Swedish Olympic athletes it was the most common cause of menstrual disturbance, ahead of energy deficiency (Hagmar et al., 2009).',
+    sameAs: 'https://en.wikipedia.org/wiki/Polycystic_ovary_syndrome',
+  },
+  iperandrogenismo: {
+    name: 'Iperandrogenismo',
+    description:
+      "Eccesso di ormoni androgeni, rilevato clinicamente (irsutismo, acne moderata-severa) o con il dosaggio degli androgeni nel sangue. È uno dei due criteri necessari per diagnosticare la sindrome dell'ovaio policistico in un'adolescente. Nelle adolescenti l'acne comedonica moderata-severa in pubertà precoce, o quella infiammatoria moderata-severa nel periodo perimenarcale, è poco comune (meno del 5%) e depone per un iperandrogenismo clinico; l'irsutismo si valuta con la scala di Ferriman-Gallwey modificata, con soglie che dipendono dall'etnia (Peña et al., 2020). È il segno che distingue la PCOS dall'amenorrea ipotalamica funzionale, in cui gli androgeni sono invece bassi (Ott et al., 2025).",
+    nameEn: 'Hyperandrogenism',
+    descriptionEn:
+      'An excess of androgen hormones, identified clinically (hirsutism, moderate-to-severe acne) or by measuring androgens in the blood. It is one of the two criteria required to diagnose polycystic ovary syndrome in an adolescent. In adolescents, moderate-to-severe comedonal acne in early puberty, or moderate-to-severe inflammatory acne in the peri-menarcheal years, is uncommon (under 5%) and points to clinical hyperandrogenism; hirsutism is assessed with the modified Ferriman-Gallwey scale using ethnicity-specific cut-offs (Peña et al., 2020). It is the sign that separates PCOS from functional hypothalamic amenorrhoea, in which androgens are instead low (Ott et al., 2025).',
+    sameAs: 'https://en.wikipedia.org/wiki/Hyperandrogenism',
+  },
+  'morfologia-ovarica-policistica': {
+    name: 'Morfologia ovarica policistica',
+    description:
+      "Aspetto ecografico dell'ovaia con numerosi follicoli fermi a uno stadio intermedio di sviluppo: non sono cisti, e da soli non fanno diagnosi. Nelle adolescenti sono un tratto del normale assestamento dell'asse ovarico e si trovano fino al 40% delle ragazze a 2 anni dal menarca, con scarsa rilevanza clinica a lungo termine: per questo le linee guida escludono l'ecografia pelvica dai criteri diagnostici fino a 8 anni dal menarca (Peña et al., 2025; Teede et al., 2023). Compare inoltre nel 41,9-46,7% delle donne ADULTE con amenorrea ipotalamica funzionale, contro il 14-33% della popolazione generale: è il motivo per cui l'immagine può portare alla diagnosi sbagliata (Ott et al., 2025).",
+    nameEn: 'Polycystic ovarian morphology',
+    descriptionEn:
+      'The ultrasound appearance of an ovary with numerous follicles arrested at an intermediate stage of development: they are not cysts, and on their own they do not make a diagnosis. In adolescents they are a feature of the normal settling of the ovarian axis and are found in up to 40% of girls 2 years post-menarche, with little long-term clinical relevance: this is why the guidelines exclude pelvic ultrasound from the diagnostic criteria until 8 years post-menarche (Peña et al., 2025; Teede et al., 2023). It also appears in 41.9-46.7% of ADULT women with functional hypothalamic amenorrhoea, against 14-33% in the general population: this is why the image can lead to the wrong diagnosis (Ott et al., 2025).',
+  },
 };
 
 export type GlossaryKey = keyof typeof GLOSSARY;

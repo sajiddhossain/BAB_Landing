@@ -4,7 +4,7 @@ title: "RED-S: quando allenarsi di più fa male (e come accorgersene in tempo)"
 seoTitle: "RED-S nelle atlete: cos'è, sintomi e primi segnali"
 seoDescription: "Un ciclo che sparisce non è un segno di buon allenamento, e la pillola non lo riporta: le linee guida 2025 lo dicono con evidenza di livello A. Segnali e cosa fare."
 date: 2026-07-04
-updated: 2026-09-18
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "La RED-S è quello che succede quando l'energia introdotta non basta a coprire allenamento e crescita: il corpo taglia funzioni essenziali — ciclo, ossa, recupero, umore. Cosa dice il consensus IOC 2023, quali sono i segnali da conoscere, perché il 44% delle atlete adolescenti crede erroneamente che perdere il ciclo sia normale — e perché si monitora, non si diagnostica."
 answer: "Quando l'energia introdotta non copre quella spesa tra allenamento e crescita: è la bassa disponibilità energetica alla base della RED-S. Non serve un disturbo alimentare, può accadere senza intenzione, e i primi segnali sono un ciclo che si dirada, infortuni ripetuti, sonno e umore peggiori — eppure il 44% delle atlete adolescenti crede che perdere il ciclo sia normale (Armento et al., 2021)."
@@ -83,7 +83,7 @@ Eppure la ricerca fatica a starci dietro: solo il **6% degli studi** in scienze 
 
 Nessuno di questi segnali, da solo, "fa diagnosi". Ma insieme meritano ascolto e, se persistono, il parere di un professionista:
 
-- **Ciclo mestruale assente o irregolare** dopo il menarca, non spiegato da altro.
+- **Ciclo mestruale assente o irregolare** dopo il menarca, non spiegato da altro — e «non spiegato da altro» va preso alla lettera: un ciclo che manca può dipendere anche da un asse ormonale *iperattivo*, non solo spento, come nella [sindrome dell'ovaio policistico](/blog/ovaio-policistico-giovani-atlete).
 - **Stanchezza che non passa** con il normale recupero.
 - **Infortuni da sovraccarico ricorrenti**, comprese le [fratture da stress](/blog/salute-ossea-fratture-da-stress-giovani-atlete). Qui l'evidenza è quantificata: in uno studio prospettico multicentrico su 259 ragazze e giovani donne attive (età media 18,1 anni), chi aveva bassa densità ossea e si allenava ≥12 ore a settimana ha subito una lesione ossea da stress nel **29,7%** dei casi, e chi sommava ≥12 ore, uno sport «di magrezza» e restrizione alimentare nel **46,2%**, contro un 10,8% complessivo ([Barrack et al., 2014](https://doi.org/10.1177/0363546513520295)). Un corpo che recupera peggio è anche un corpo più esposto agli infortuni acuti: [la prevenzione del crociato](/blog/crociato-giovani-atlete) passa dallo stesso terreno.
 - **Prestazione che cala** nonostante l'impegno aumenti.

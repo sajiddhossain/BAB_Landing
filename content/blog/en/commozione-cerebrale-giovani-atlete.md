@@ -4,7 +4,7 @@ title: "Concussion in young female athletes: more common, less often spotted (an
 seoTitle: "Concussion in young female athletes: what to do"
 seoDescription: "In school soccer, girls sustain 1.88 times the concussions of boys. How to recognise one on the sideline and what to do in the first minutes."
 date: 2026-07-24
-updated: 2026-09-11
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22 — and 60% of events are never reported to any adult. Neither a visible blow to the head nor loss of consciousness is required: the data, the sideline signs in the first minutes, and what the international guidelines actually say."
 answer: "Female athletes sustain more concussions and report fewer: in high-school football (soccer) the risk is 1.88 times that of male peers (Bretzin et al., 2021), and 60% of events had not been reported to any adult (Register-Mihalik et al., 2013). On suspicion the athlete must come off immediately: those who stay on recover in 44.4 days against 22.0 (Elbin et al., 2016)."
@@ -131,9 +131,9 @@ The Amsterdam consensus acknowledges it too: in its prevention section it notes 
 
 It is the same gap that runs through all of women's sports medicine: only **6% of sport and exercise science studies** are conducted exclusively on women ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). We have already told that story for the ACL: [protocols that work do exist](/en/blog/crociato-giovani-atlete), and they are the very warm-up the consensus refers to.
 
-## What a club can do, starting Monday
+## What can a club do from Monday, with no doctor on the bench?
 
-None of these is a medical prescription. They are organisational decisions, at zero cost:
+**Four organisational decisions, all at zero cost and none of them clinical.** You need neither a doctor on the bench nor a signed protocol to apply them: you need a rule written down before the match, and someone who holds to it even when the match matters.
 
 - **One written rule**: if a concussion is suspected, the athlete comes off and does not return that day. No exception for the final, the derby, or "there's barely any time left".
 - **Whoever is watching has to know what to look for.** If the typical mechanism in girls is contact with an object — ball, post, ground — then the bench needs to know that the most common injury is also the **least spectacular**.

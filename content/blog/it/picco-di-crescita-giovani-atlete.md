@@ -4,7 +4,7 @@ title: "Picco di crescita nelle giovani atlete: cosa cambia davvero (e cosa non 
 seoTitle: "Picco di crescita nelle ragazze: a che età arriva e cosa cambia"
 seoDescription: "Nelle ragazze il picco di crescita arriva in media a 11,2 anni, ma due coetanee possono distare anni. Cosa cambia per infortuni, coordinazione e carico."
 date: 2026-08-02
-updated: 2026-09-18
+updated: 2026-09-19
 author: Sajid Hossain
 excerpt: "Nelle giovani atlete il picco di velocità di crescita arriva in media intorno agli 11,2 anni, ma con una variabilità enorme: in una squadra di tredicenni convivono corpi a stadi di maturazione diversi di anni. Nel frattempo l'osso si mineralizza circa sei mesi dopo che si è allungato. Cosa dicono davvero i dati — e perché sulle ragazze l'evidenza che lega la crescita agli infortuni è ancora limitata."
 answer: "Cambiano leve, coordinazione e struttura ossea, non l'impegno. Nelle giovani atlete l'età media al picco di crescita è 11,18 anni, ma con un intervallo di credibilità al 90% da 8,62 a 12,94 (Lima et al., 2024): nella stessa categoria convivono atlete biologicamente distanti anni. Il picco di minerale osseo arriva circa sei mesi dopo (Bailey et al., 1999)."
@@ -95,7 +95,9 @@ Misurare serve anche a un secondo scopo, meno ovvio: correggere lo sguardo di ch
 
 Cosa **non** serve in una società sportiva: radiografie dell'età ossea, valutazioni dello stadio puberale, classifiche di maturazione appese in bacheca. Sono atti clinici, e nel contesto sportivo giovanile sono anche una questione di dignità e privacy — lo stesso principio per cui, come scriviamo in [come allenare ragazze adolescenti](/blog/allenare-ragazze-adolescenti), a una società servono segnali aggregati, mai il dato di salute individuale.
 
-## Cosa cambia lunedì in palestra
+## Che cosa cambia lunedì in palestra?
+
+**Tre cose, e la più importante è ciò che NON si fa: non si alza il carico nel trimestre in cui un'atleta sta crescendo di più.**
 
 - **Misura e annota.** Un metro fisso a muro, una misurazione ogni tre mesi, una riga su un foglio. Serve solo a sapere chi sta crescendo in fretta.
 - **Non alzare il carico nel trimestre della crescita.** Se un'atleta è cresciuta molto, quello è il trimestre in cui si tiene stabile il volume e si lavora su tecnica, controllo e forza — non quello in cui si aggiungono allenamenti. Vale doppio per chi fa [un solo sport tutto l'anno](/blog/specializzazione-precoce-giovani-atlete).

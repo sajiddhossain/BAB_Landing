@@ -80,6 +80,7 @@ Sitemap: https://www.babsport.com/sitemap.xml
 #  │ /dati · /en/dati           │ dati citabili, con popolazione e DOI         │
 #  │ /feed.xml                  │ RSS degli articoli nuovi                     │
 #  │ /blog/{slug}.md            │ testo integrale in markdown di ogni articolo │
+#  │ /blog/tema/{chiave}        │ pagina pilastro di un tema, IT ed EN (/en/…) │
 #  └────────────────────────────┴──────────────────────────────────────────────┘
 #
 #  Il gemello markdown è dichiarato in ogni pagina HTML come
