@@ -9,7 +9,7 @@ author: Sajid Hossain
 excerpt: "An injury is visible: you ice it, you book an appointment. A girl who cannot sleep the night before a match, who feels hollowed out three months into the season and has stopped enjoying any of it leaves no medical record — and gets filed away as «the anxious one» or «the one who lost her hunger». Research has measured both. Competitive anxiety breaks down into three distinct components, sport burnout has three dimensions and a prevalence estimate in adolescents. What the data say, what differs between girls and boys, and how to tell a bad week from a signal worth taking to a professional."
 answer: "Competitive anxiety is not one trait: it is measured as three separate components — somatic anxiety, worry about performing poorly, and concentration disruption — and in 1,038 athletes aged 9-14 worry was highest in girls, with differences the authors themselves describe as modest (Grossbard et al., 2009). Sport burnout, defined as exhaustion plus sport devaluation, was detected at elevated scores in 1-9% of 980 adolescent athletes (Gustafsson et al., 2007)."
 cover: /fotobab/cover-ansia-burnout-atlete.jpg
-coverAlt: "A wall of orange locker-room lockers with padlocks and a single lime-green door at the centre; no people in frame"
+coverAlt: "An empty corridor lined with rows of blue lockers, a tiled floor leading to a wall of coloured lockers at the far end; no people in frame"
 tags:
   - athlete-mental-health
   - athlete-burnout

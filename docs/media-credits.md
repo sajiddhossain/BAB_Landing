@@ -109,17 +109,19 @@
   NB: scartate le varianti con rastrelliera di manubri perché mostrano un marchio commerciale leggibile.
 
 ## cover-caviglia-giovani-atlete.jpg
-- Titolo originale: "Closeup indoor sport hall"
-- Fonte: rawpixel — https://www.rawpixel.com/image/6031925/photo-image-public-domain-green-lines (reperita via Openverse)
-- Autore: non indicato (collezione public domain di rawpixel)
-- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria), come indicizzata da Openverse
+- Titolo originale: foto della WordPress Photo Directory, descritta dall'autore come «An empty outdoor basketball
+  court with a hoop and net» (campo da basket all'aperto vuoto, siepe e collina sullo sfondo)
+- Fonte: WordPress Photo Directory — https://wordpress.org/photos/photo/16868931ff/
+  (rendition 2048x1365 `pd.w.org`, reperita con l'API REST della directory)
+- Autore: Nilo Velez (https://profiles.wordpress.org/nilovelez/)
+- Licenza: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/) — tutte le foto della WordPress Photo
+  Directory sono CC0; uso libero anche commerciale, attribuzione non obbligatoria, registrata qui per tracciabilità
 - Uso: cover articolo blog "distorsione di caviglia nelle giovani atlete" (IT + EN)
-- Lavorazione: rendition `editor_1024` (senza filigrana; originale 4515x3299), ritaglio 16:9 a 1024x576 con
-  offset y=116 per rendere dominanti le linee di campo, JPEG q85 progressivo.
-  NB: le rendition più grandi di rawpixel sono filigranate → usare `editor_1024`.
-  Nessuna persona ritratta e nessun marchio leggibile: scelta deliberata per un tema che riguarda minori.
-  Scelta del soggetto: il pavimento di una palestra polivalente con le linee dei campi sovrapposte —
-  la superficie su cui si atterra, cioè il punto esatto in cui la caviglia cede.
+- Lavorazione: ritaglio 16:9 2048x1152 dall'alto (per tenere intero il tabellone), ridotta a 1600x900, JPEG q84.
+  Nessuna persona nell'inquadratura e nessun marchio leggibile.
+- Sostituisce (2026-09-21) la cover precedente, rawpixel CC0 "Closeup indoor sport hall", perché rawpixel fornisce
+  senza filigrana solo la rendition a 1024 px e Google Discover richiede cover larghe almeno 1200 px. Il soggetto
+  resta un campo da gioco vuoto con le sue linee.
 
 ## cover-mal-di-schiena-giovani-atlete.jpg
 - Titolo originale: "Vaulting horse (cropped)"
@@ -212,6 +214,7 @@
   Nessuna persona nell'inquadratura: scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: la palestra vuota vista dal centro del campo — il punto in cui un'atleta si
   ferma senza fiato mentre le altre continuano, che è la scena di apertura dell'articolo.
+- **Aggiornamento 2026-09-21 (Google Discover, cover ≥ 1200 px)**: stessa foto, rendition 2048x1536 della WordPress Photo Directory (`pd.w.org/2025/01/9296797cc2907b268.00692699-2048x1536.jpg`), stessa inquadratura (ritaglio 16:9 2048x1152 con offset verticale di 192 px), ridotta a 1600x900, JPEG q84.
 
 ## cover-inguine-giovani-atlete.jpg
 - Titolo originale: "Nets line empty soccer field"
@@ -243,6 +246,7 @@
   Scelta del soggetto: le scarpette da punta in sala di danza, perché la danza è la disciplina in cui
   l'ipermobilità è più frequente — 68,2% delle ballerine contro il 13,2% delle giocatrici di pallamano
   nello studio su 132 atleti adolescenti d'élite citato nell'articolo (Schmidt et al., 2017).
+- **Aggiornamento 2026-09-21 (Google Discover, cover ≥ 1200 px)**: stessa foto, riscaricata dalla CDN Pexels a 2400 px di larghezza (`images.pexels.com/photos/8463090/…?w=2400`), stessa inquadratura ritrovata per confronto con la cover precedente (ritaglio 16:9 2400x1350 con offset verticale di 125 px), ridotta a 1600x900, JPEG q84.
 
 ## cover-integratori-energy-drink.jpg
 - Titolo originale: "Free red soda can grey background image" (lattina rossa anonima su fondo grigio)
@@ -277,22 +281,20 @@
   marchio del lettino era leggibile in primo piano.
 
 ## cover-ansia-burnout-atlete.jpg
-- Titolo originale: "Free school lockers image" (parete di armadietti arancioni con un solo anta verde lime)
-- Fonte: rawpixel — https://www.rawpixel.com/image/5914049/photo-image-background-public-domain-orange
-  (reperita via Openverse, filtro licenza cc0/pdm, source=rawpixel)
-- Autore: non indicato dalla fonte (nessuna attribuzione richiesta)
-- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Titolo originale: foto della WordPress Photo Directory, descritta dall'autore come «A school hallway with
+  blue lockers on both sides of the hall» (corridoio con armadietti blu su entrambi i lati, armadietti colorati in
+  fondo)
+- Fonte: WordPress Photo Directory — https://wordpress.org/photos/photo/4606711089/
+  (rendition 2048x1536 `pd.w.org`, reperita con l'API REST della directory)
+- Autore: Erwin Brouwer (https://wordpress.org/photos/author/erwinbrouwer/)
+- Licenza: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/) — tutte le foto della WordPress Photo
+  Directory sono CC0; uso libero anche commerciale, attribuzione non obbligatoria, registrata qui per tracciabilità
 - Uso: cover articolo blog "ansia da prestazione e burnout nelle giovani atlete" (IT + EN)
-- Lavorazione: rendition `editor_1024` (senza filigrana; l'originale è 5760x3840), da WebP a JPEG,
-  ritaglio della banda 16:9 con offset 80px dall'alto (1024x576) — l'anta verde lime resta intera al
-  centro dell'inquadratura. Nessun resample oltre il ritaglio, JPEG q88.
-  NB: come per le altre immagini rawpixel, la rendition `image_1300` è filigranata → non usare.
-  Nessuna persona nell'inquadratura, quindi nessun minore identificabile; le etichette sugli
-  armadietti sono codici a barre illeggibili e non c'è nessun marchio riconoscibile. Scelta
-  deliberata di uno spogliatoio vuoto: l'articolo parla di salute mentale di adolescenti e
-  qualunque volto avrebbe attribuito un disagio a una persona reale.
-  Scartata in fase di selezione la rawpixel image/3303403 ("Small locker units change room") perché
-  il nome file della fonte la dichiara derivata da Wikimedia → regola «niente foto da Wikipedia».
+- Lavorazione: ritaglio 16:9 2048x1152 con offset verticale di 230 px, ridotta a 1600x900, JPEG q84. Nessun ritocco.
+  Nessuna persona nell'inquadratura e nessun marchio leggibile.
+- Sostituisce (2026-09-21) la cover precedente, rawpixel CC0 "Free school lockers image" (armadietti arancioni con
+  un'anta verde lime), perché rawpixel fornisce senza filigrana solo la rendition a 1024 px e Google Discover
+  richiede cover larghe almeno 1200 px. Il soggetto resta lo stesso: armadietti da spogliatoio vuoti.
 
 ## cover-genitori-bordo-campo.jpg
 - Titolo originale: "Closeup red stadium seats" (file rawpixel `frsports_baseball_america_boston_2`)
@@ -327,6 +329,7 @@
   leggibile: le uniche scritte sono i numeri di corsia dipinti sulla pista. Scelta deliberata di
   una pista vuota con le corsie numerate: l'articolo parla della corsia che il calendario assegna
   a un'atleta prima che qualcuno la veda giocare.
+- **Aggiornamento 2026-09-21 (Google Discover, cover ≥ 1200 px)**: stessa foto, riscaricata da Unsplash a 2400 px di larghezza (download ufficiale della pagina della foto), ritaglio 16:9 2400x1350 dall'alto, ridotta a 1600x900, JPEG q84.
 
 ## cover-safeguarding-sport.jpg
 - Titolo originale: "Elfton Elementary School Gym interior design" (palestra scolastica vuota, pavimento

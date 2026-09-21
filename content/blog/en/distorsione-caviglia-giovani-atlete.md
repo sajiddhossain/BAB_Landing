@@ -9,7 +9,7 @@ author: Sajid Hossain
 excerpt: "The ankle accounts for 23% of injuries in youth female athletes — more than the knee (16%). Yet it is the injury we describe with a shrug: among athletes aged 14-18, 20% live with chronic ankle instability, and among girls that figure rises to 23.6%. In youth sport, prevention programmes cut ankle injuries by about 26%. The data, the limits of the data, and what changes in twenty minutes a week."
 answer: "It is the most frequent injury in young female athletes: the ankle accounts for 23% of all injuries, ahead of the knee (16%) and thigh (13%) (Beech et al., 2024). And it is not trivial: between 14 and 18, 20.0% of athletes live with chronic ankle instability — 23.6% among girls (Donovan et al., 2020)."
 cover: /fotobab/cover-caviglia-giovani-atlete.jpg
-coverAlt: "Close-up of a multi-purpose sports hall floor, with court lines in different colours crossing each other; no people in frame"
+coverAlt: "An empty outdoor basketball court, with a hoop and white lines on red paving, in front of a hedge and a green hill; no people in frame"
 tags:
   - ankle-sprain
   - chronic-ankle-instability

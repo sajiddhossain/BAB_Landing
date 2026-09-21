@@ -9,7 +9,7 @@ author: Sajid Hossain
 excerpt: "Un infortunio si vede, si mette il ghiaccio, si prende un appuntamento. Una ragazza che dorme male la notte prima della partita, che si sente svuotata dopo tre mesi di stagione e che ha smesso di divertirsi non lascia nessun referto — e viene archiviata come «una che si agita» o «una che non ha più fame». La ricerca però l'ha misurata: l'ansia competitiva ha tre componenti distinte, il burnout sportivo ha tre dimensioni e una prevalenza stimata anche fra gli adolescenti. Cosa dicono i dati, cosa cambia fra ragazze e ragazzi, e come si distingue una brutta settimana da un segnale da portare a un professionista."
 answer: "L'ansia competitiva non è un tratto unico: si misura in tre componenti separate — ansia somatica, preoccupazione di fare male, disturbo della concentrazione — e in 1.038 atleti di 9-14 anni la preoccupazione di fare male era più alta nelle ragazze, con differenze descritte dagli autori come modeste (Grossbard et al., 2009). Il burnout sportivo, definito come esaurimento più svalutazione dello sport, è stato rilevato con punteggi elevati nell'1-9% di 980 atleti adolescenti (Gustafsson et al., 2007)."
 cover: /fotobab/cover-ansia-burnout-atlete.jpg
-coverAlt: "Parete di armadietti da spogliatoio arancioni con lucchetti, un'anta verde lime al centro; nessuna persona nell'inquadratura"
+coverAlt: "Corridoio vuoto fiancheggiato da file di armadietti blu, con un pavimento di piastrelle che porta a una parete di armadietti colorati in fondo; nessuna persona nell'inquadratura"
 tags:
   - salute-mentale-atleta
   - burnout-sportivo

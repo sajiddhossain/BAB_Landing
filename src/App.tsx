@@ -47,6 +47,9 @@ const normalizePath = (p: string): string => {
   return clean === '/en' ? '/en/blog' : clean;
 };
 
+// Meta robots delle pagine indicizzabili: deve coincidere con quello di index.html.
+const ROBOTS_DEFAULT = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+
 // Rotte che, come il blog, esistono in due lingue con l'inglese sotto /en.
 // Sono pagine-risposta (glossario e FAQ): la lingua deve stare nell'URL, altrimenti
 // la versione inglese non è indicizzabile e non ha un indirizzo da citare.
@@ -221,18 +224,16 @@ export default function App() {
       meta.setAttribute('content', isUnknown ? t('notFound.body') : tt(`seo.${key}.desc`));
     }
 
-    // 404: chiedi ai crawler di non indicizzare la pagina (soft-404 pulito)
+    // 404: chiedi ai crawler di non indicizzare la pagina (soft-404 pulito). Sulle
+    // altre pagine ripristina il valore di index.html: max-image-preview:large è ciò
+    // che permette a Google Discover di mostrare la cover grande invece della miniatura.
     let robots = document.querySelector('meta[name="robots"]');
-    if (isUnknown) {
-      if (!robots) {
-        robots = document.createElement('meta');
-        robots.setAttribute('name', 'robots');
-        document.head.appendChild(robots);
-      }
-      robots.setAttribute('content', 'noindex, follow');
-    } else if (robots) {
-      robots.remove();
+    if (!robots) {
+      robots = document.createElement('meta');
+      robots.setAttribute('name', 'robots');
+      document.head.appendChild(robots);
     }
+    robots.setAttribute('content', isUnknown ? 'noindex, follow' : ROBOTS_DEFAULT);
   }, [currentPath, t, i18n]);
 
   // Menu mobile fullscreen: Escape per chiudere + focus-trap + ritorno del focus
