@@ -4,7 +4,7 @@ title: "Low back pain at 14: why in a young athlete it is not what it is in an a
 seoTitle: "Low back pain in young athletes: causes and signs"
 seoDescription: "In a young athlete the most described cause is spondylolysis, not a muscle strain — in adults it is the reverse. Signs, timing and the evidence."
 date: 2026-08-08
-updated: 2026-09-19
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "42% of athletes aged 10-19 report low back pain over twelve months, and female sex appears among the reported risk factors. The difference almost nobody knows about is the cause: in adolescence, sport-related low back pain is far more often a stress fracture of the spine and far more rarely a disc problem or a muscle strain. The data, the limits of the data, and why immediate physiotherapy now beats rest."
 answer: "Because in a young athlete the most described cause is spondylolysis, a stress fracture of the vertebra, whereas in adults it is the disc: in a direct comparison it explained 47% of cases in adolescents against 5% in adults (Micheli and Wood, 1995 — a specialist-clinic sample). Back pain lasting more than two or three weeks should be assessed, not normalised."
@@ -92,7 +92,7 @@ What happens if you look at a less selected population? The number falls, but st
 
 Three estimates, three different populations, a range running from 30% to 47%. The message is not the figure: it is that **a cause that is a rarity in adults is, in this age group, among the first to consider**.
 
-The same reversal holds a few centimetres lower down. Low pain, over the pelvis or under the buttock, makes an adult think hamstrings; in a growing body the weak link is the apophysis, and the ischial tuberosity is the third commonest site of adolescent pelvic avulsions (14%) ([Di Maria et al., 2022](https://doi.org/10.3389/fped.2022.947463)). The same rule applies: [at this age the adult model describes what happens rather badly](/en/blog/dolore-inguine-giovani-atlete).
+The same reversal holds a few centimetres lower down. Low pain, over the pelvis or under the buttock, makes an adult think hamstrings; in a growing body the weak link is the apophysis, and the ischial tuberosity is the third commonest site of adolescent pelvic avulsions (14%) ([Di Maria et al., 2022](https://doi.org/10.3389/fped.2022.947463)). The same rule applies: [at this age the adult model describes what happens rather badly](/en/blog/dolore-inguine-giovani-atlete). And a separate subject, which is not a pain but a curve of the spine, is [adolescent idiopathic scoliosis and how it relates to sport](/en/blog/scoliosi-idiopatica-sport-giovani-atlete).
 
 ## What is spondylolysis, in plain terms?
 

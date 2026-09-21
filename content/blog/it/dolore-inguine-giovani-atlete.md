@@ -4,7 +4,7 @@ title: "Dolore all'inguine a 14 anni: perché quasi mai è «uno stiramento»"
 seoTitle: "Dolore all'inguine a 14 anni: quasi mai uno stiramento"
 seoDescription: "Nel corpo che cresce l'anello debole dell'inguine non è il muscolo ma l'apofisi: età media 13,6-16,8 anni. Cosa dicono i dati e quando far vedere."
 date: 2026-08-21
-updated: 2026-09-13
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "Nelle calciatrici il dolore all'anca e all'inguine tocca il 60,7% in una stagione, ma solo l'11,1% dei casi fa saltare un allenamento: è l'infortunio che non entra in nessun registro perché nessuna si ferma. E nel corpo che cresce non si rompe dove si romperebbe in un'adulta: fra i 13 e i 17 anni l'anello debole non è il muscolo, è l'apofisi. I dati, i limiti dei dati, e i due segnali che non vanno aspettati."
 answer: "Nel corpo che cresce il punto debole dell'inguine non è il ventre muscolare ma l'apofisi, il nucleo di accrescimento su cui il tendine si attacca: nelle serie di avulsioni pelviche l'età media va da 13,6 a 16,8 anni e le sedi più colpite sono spina iliaca antero-superiore (37%), antero-inferiore (31%) e tuberosità ischiatica (14%) (Di Maria et al., 2022; campione all'82% maschile). È per questo che il modello «stiramento dell'adduttore» dell'adulta descrive male quello che succede a 14 anni."
@@ -69,7 +69,7 @@ Due studi indipendenti, due contesti lontanissimi, la stessa conclusione. Il dol
 
 ## Perché a 14 anni non è quasi mai «uno stiramento»?
 
-**Perché il punto più debole della catena non è il muscolo: è l'osso su cui il muscolo tira.** Le apofisi sono i nuclei di accrescimento su cui si inseriscono i tendini; restano cartilaginei fino alla fusione, che intorno al bacino avviene in piena adolescenza. Finché quel punto è cartilagineo, in un gesto esplosivo cede prima lui del tendine.
+**Perché il punto più debole della catena non è il muscolo: è l'osso su cui il muscolo tira.** Le apofisi sono i nuclei di accrescimento su cui si inseriscono i tendini; restano cartilaginei fino alla fusione, che intorno al bacino avviene in piena adolescenza. Finché quel punto è cartilagineo, in un gesto esplosivo cede prima lui del tendine. È lo stesso punto debole che, sotto un carico ripetuto invece che improvviso, dà [le apofisiti da trazione del ginocchio e del tallone](/blog/apofisiti-osgood-schlatter-sever-giovani-atlete).
 
 Il risultato ha un nome: **avulsione apofisaria**. Una revisione di tipo scoping su 18 studi e **453 pazienti adolescenti** ha trovato età medie comprese tra **13,6 e 16,8 anni**, con questa distribuzione delle sedi ([Di Maria et al., 2022](https://doi.org/10.3389/fped.2022.947463)):
 

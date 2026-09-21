@@ -4,7 +4,7 @@ title: "Ansia da prestazione e burnout: quando a fermarsi è la testa, non il gi
 seoTitle: "Ansia da prestazione e burnout nelle giovani atlete"
 seoDescription: "L'ansia competitiva ha tre componenti misurabili e la paura di fare male è più alta nelle ragazze. Il burnout sportivo esiste già in adolescenza: cosa guardare."
 date: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "Un infortunio si vede, si mette il ghiaccio, si prende un appuntamento. Una ragazza che dorme male la notte prima della partita, che si sente svuotata dopo tre mesi di stagione e che ha smesso di divertirsi non lascia nessun referto — e viene archiviata come «una che si agita» o «una che non ha più fame». La ricerca però l'ha misurata: l'ansia competitiva ha tre componenti distinte, il burnout sportivo ha tre dimensioni e una prevalenza stimata anche fra gli adolescenti. Cosa dicono i dati, cosa cambia fra ragazze e ragazzi, e come si distingue una brutta settimana da un segnale da portare a un professionista."
 answer: "L'ansia competitiva non è un tratto unico: si misura in tre componenti separate — ansia somatica, preoccupazione di fare male, disturbo della concentrazione — e in 1.038 atleti di 9-14 anni la preoccupazione di fare male era più alta nelle ragazze, con differenze descritte dagli autori come modeste (Grossbard et al., 2009). Il burnout sportivo, definito come esaurimento più svalutazione dello sport, è stato rilevato con punteggi elevati nell'1-9% di 980 atleti adolescenti (Gustafsson et al., 2007)."
@@ -108,7 +108,7 @@ Anche qui la popolazione va dichiarata: sono **atlete universitarie statunitensi
 - l'**infortunio** non è solo un problema di tessuti: la parte psicologica del rientro è documentata e spesso ignorata, ed è il motivo per cui [il ginocchio guarisce prima della testa](/blog/ritorno-allo-sport-dopo-infortunio). Lo stesso vale per un trauma cranico, dove i sintomi emotivi fanno parte del quadro e non sono un effetto collaterale del carattere ([la commozione cerebrale nelle giovani atlete](/blog/commozione-cerebrale-giovani-atlete));
 - il **sonno** è la leva più sottovalutata e la più misurabile.
 
-Il terzo — il supporto percepito — non è un fattore soffice: nel modello sopra è una variabile alla pari delle altre due.
+Il terzo — il supporto percepito — non è un fattore soffice: nel modello sopra è una variabile alla pari delle altre due. Per un'atleta di quattordici anni una parte di quel supporto passa dalla tribuna, e [che cosa le ragazze chiedono ai genitori a bordo campo](/blog/genitori-a-bordo-campo-giovani-atlete) è stato chiesto a loro direttamente.
 
 ## Come si distingue una brutta settimana da qualcosa di più serio?
 

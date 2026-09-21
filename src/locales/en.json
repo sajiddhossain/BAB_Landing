@@ -568,7 +568,11 @@
           "h": "10. Changes to this policy",
           "p": "We may update this policy over time. The version in force is always the one published on this page, with the update date shown at the top. We invite you to review it periodically."
         }
-      ]
+      ],
+      "webAnalytics": {
+        "h": "Visit statistics (cookie-free)",
+        "p": "To understand, in aggregate, which pages are read we use Cloudflare Web Analytics. The tool sets no cookies, does not use the browser's local storage, builds no profiles and does not follow people from one site to another: it only collects aggregate data such as pages visited, referring site, device and browser type, country and load times. The legal basis is our legitimate interest in measuring how the site is used (Art. 6(1)(f) GDPR). The provider, Cloudflare, Inc., processes this data on our behalf as a processor and participates in the EU-US Data Privacy Framework for any transfers outside the European Union."
+      }
     },
     "cookie": {
       "title": "Cookie Policy",
@@ -591,7 +595,11 @@
           "h": "4. Managing consent",
           "p": "You can accept or reject non-essential cookies from the banner shown on your first visit. You can change your mind at any time by clearing the site cookies and data from your browser: the banner will reappear and you can make a new choice."
         }
-      ]
+      ],
+      "webAnalytics": {
+        "h": "Cookie-free visit statistics",
+        "p": "To measure visits in aggregate we use Cloudflare Web Analytics, which sets no cookies and does not use the browser's local storage: for this reason it does not require your consent and does not appear in the banner. Details are in the privacy policy."
+      }
     },
     "terms": {
       "title": "Terms & Conditions",

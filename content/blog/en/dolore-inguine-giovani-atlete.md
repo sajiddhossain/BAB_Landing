@@ -4,7 +4,7 @@ title: "Groin pain at 14: why it is almost never «a pulled muscle»"
 seoTitle: "Groin pain at 14: why it is rarely just a strain"
 seoDescription: "In a growing body the weak link in the groin is the apophysis, not the muscle: mean ages 13.6-16.8. What the data say and when to get it looked at."
 date: 2026-08-21
-updated: 2026-09-13
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "In women's football, hip and groin problems reach a 60.7% seasonal prevalence — yet only 11.1% of them cost a single training session. It is the injury that never makes it into the records, because almost nobody stops. And in a growing body the chain does not break where it would break in an adult: between 13 and 17 the weak link is not the muscle, it is the apophysis. The data, the limits of the data, and the two signals not worth waiting on."
 answer: "In a growing body the weak link in the groin is not the muscle belly but the apophysis, the growth centre the tendon attaches to: across pelvic avulsion series mean ages run from 13.6 to 16.8 years, and the commonest sites are the anterior superior iliac spine (37%), the anterior inferior iliac spine (31%) and the ischial tuberosity (14%) (Di Maria et al., 2022; sample 82% male). That is why the adult 'adductor strain' model describes what happens at 14 rather badly."
@@ -69,7 +69,7 @@ Two independent studies, two very distant contexts, the same conclusion. Groin p
 
 ## Why is it almost never «a pulled muscle» at 14?
 
-**Because the weakest point in the chain is not the muscle: it is the bone the muscle pulls on.** Apophyses are the growth centres tendons insert onto; they stay cartilaginous until they fuse, which around the pelvis happens in mid-to-late adolescence. While that point is cartilaginous, in an explosive movement it gives way before the tendon does.
+**Because the weakest point in the chain is not the muscle: it is the bone the muscle pulls on.** Apophyses are the growth centres tendons insert onto; they stay cartilaginous until they fuse, which around the pelvis happens in mid-to-late adolescence. While that point is cartilaginous, in an explosive movement it gives way before the tendon does. It is the same weak point that, under repeated rather than sudden load, produces [traction apophysitis at the knee and heel](/en/blog/apofisiti-osgood-schlatter-sever-giovani-atlete).
 
 The result has a name: **apophyseal avulsion**. A scoping review of 18 studies and **453 adolescent patients** found sample mean ages between **13.6 and 16.8 years**, with this distribution of sites ([Di Maria et al., 2022](https://doi.org/10.3389/fped.2022.947463)):
 

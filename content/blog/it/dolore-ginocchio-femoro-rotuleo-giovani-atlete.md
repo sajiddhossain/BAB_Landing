@@ -4,7 +4,7 @@ title: "Il ginocchio che fa male da mesi: perché non è «dolore di crescita»"
 seoTitle: "Dolore al ginocchio negli adolescenti: cosa fare"
 seoDescription: "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze e la durata mediana è di 24 mesi. Perché non è «dolore di crescita» e cosa fare."
 date: 2026-07-30
-updated: 2026-09-18
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "Tra gli adolescenti con dolore al ginocchio ricorrente il 72% sono ragazze, la durata mediana del dolore è di 24 mesi e cinque anni dopo il 40,5% ha ancora male — con il 60% che ha smesso o ridotto lo sport. Il dolore femoro-rotuleo non passa «crescendo»: passa quando qualcuno lo prende sul serio e dosa il carico. I dati, e cosa cambia in palestra."
 answer: "Nella maggior parte dei casi non passa crescendo: cinque anni dopo, il 40,5% degli adolescenti con dolore al ginocchio ne ha ancora, e il 60% di questi ha smesso o ridotto lo sport a causa del ginocchio (Rathleff et al., 2019). Quello che funziona non è il riposo totale ma il carico dosato per settimane, insieme al rinforzo di anca e ginocchio."
@@ -107,7 +107,7 @@ Il punto pratico che tiene insieme tutto: **il ginocchio non guarisce stando fer
 
 ## E il ginocchio che fa male sotto la rotula (Osgood-Schlatter)?
 
-**È un quadro diverso, con lo stesso approccio.** Il dolore localizzato sulla tuberosità tibiale — quella prominenza ossea appena sotto la rotula, dove si inserisce il tendine rotuleo — è tipico dell'adolescenza in crescita e viene chiamato morbo di Osgood-Schlatter. Anche qui l'idea che serva solo aspettare è stata messa alla prova: in uno studio prospettico su **51 adolescenti di 10-14 anni (51% ragazze)**, un percorso di 12 settimane con **una scala di progressione del carico** sul tendine rotuleo, esercizi di rinforzo e ritorno graduale allo sport ha prodotto l'**80% di esiti riferiti come positivi a 12 settimane** e il **90% a 12 mesi** ([Rathleff et al., 2020, *Orthop J Sports Med*](https://doi.org/10.1177/2325967120911106)).
+**È un quadro diverso, con lo stesso approccio.** Il dolore localizzato sulla tuberosità tibiale — quella prominenza ossea appena sotto la rotula, dove si inserisce il tendine rotuleo — è tipico dell'adolescenza in crescita e viene chiamato morbo di Osgood-Schlatter: fa parte delle [apofisiti da trazione, insieme al morbo di Sever del tallone](/blog/apofisiti-osgood-schlatter-sever-giovani-atlete). Anche qui l'idea che serva solo aspettare è stata messa alla prova: in uno studio prospettico su **51 adolescenti di 10-14 anni (51% ragazze)**, un percorso di 12 settimane con **una scala di progressione del carico** sul tendine rotuleo, esercizi di rinforzo e ritorno graduale allo sport ha prodotto l'**80% di esiti riferiti come positivi a 12 settimane** e il **90% a 12 mesi** ([Rathleff et al., 2020, *Orthop J Sports Med*](https://doi.org/10.1177/2325967120911106)).
 
 Anche questo è uno studio **senza gruppo di controllo** e su un campione piccolo: non è una prova di efficacia, è un segnale coerente. Ma il messaggio che ne esce è lo stesso, e vale la pena ripeterlo: **la progressione del carico è un intervento, l'attesa no.**
 

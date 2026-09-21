@@ -128,7 +128,25 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  </a>
  )}
  <div className="flex items-center gap-2 text-[11px] font-black uppercase tracking-wide text-[#0F0F12]/60 mb-4">
- <span>{formatDate(post.date, lang)}</span>
+ {post.author && (
+ <>
+ <a href="/about" className="hover:underline focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0]">
+ {lang === 'en' ? 'By' : 'Di'} {post.author}
+ </a>
+ <span aria-hidden="true">·</span>
+ </>
+ )}
+ <time dateTime={post.date ?? undefined}>{formatDate(post.date, lang)}</time>
+ {/* La data di revisione è un segnale di freschezza per chi legge e per Discover:
+ compare solo quando il testo è stato davvero rivisto dopo la pubblicazione. */}
+ {post.updated && post.date && post.updated > post.date && (
+ <>
+ <span aria-hidden="true">·</span>
+ <span>
+ {lang === 'en' ? 'Updated' : 'Aggiornato il'} <time dateTime={post.updated}>{formatDate(post.updated, lang)}</time>
+ </span>
+ </>
+ )}
  <span aria-hidden="true">·</span>
  <span>{post.readingMinutes} {tt('blog.reading')}</span>
  </div>

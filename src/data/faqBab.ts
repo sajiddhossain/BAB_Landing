@@ -80,6 +80,20 @@ export const FAQ_BAB: FaqEntry[] = [
     aEn: 'On peer-reviewed literature, cited at the foot of every article with a DOI where one exists. Three editorial rules apply to every piece: every number has a source; the population studied is always stated alongside the number; when a study was conducted on adult athletes the article says so explicitly instead of letting the result pass as valid for a thirteen-year-old. Non-peer-reviewed research (reports, industry surveys) is labelled as such.',
   },
   {
+    id: 'come-verificate-le-fonti',
+    q: 'Come verificate le fonti degli articoli?',
+    a: "Ogni DOI citato viene controllato sul registro Crossref, per accertare che autori, titolo e rivista corrispondano davvero all'identificativo; ogni numero riportato viene confrontato con l'abstract o con il testo completo dello studio, insieme alla popolazione in cui è stato misurato. Non ci fidiamo dei DOI scritti a memoria: in una verifica interna questo controllo ha trovato 6 identificativi errati su 49. Le statistiche raccolte nella pagina dei dati vengono inoltre confrontate con la bibliografia dell'articolo che le cita.",
+    qEn: 'How do you check the sources in the articles?',
+    aEn: 'Every DOI cited is checked against the Crossref registry, to confirm that authors, title and journal really match the identifier; every number reported is compared with the abstract or full text of the study, together with the population it was measured in. We do not trust DOIs written from memory: in one internal check this step found 6 wrong identifiers out of 49. The statistics collected on the data page are also checked against the bibliography of the article that cites them.',
+  },
+  {
+    id: 'correzioni',
+    q: 'Che cosa succede quando trovate un errore in un articolo?',
+    a: "Lo correggiamo in tutte le pagine in cui compare, aggiorniamo la data di revisione dell'articolo e lo dichiariamo qui. Registro delle correzioni — 21 settembre 2026: il dato «solo l'11% delle atlete parla di ciclo con l'allenatore» era attribuito a Höök et al. (2022) con un titolo che non corrispondeva al DOI citato; lo studio corretto è von Rosen et al. (2022), su 1.086 atlete adulte di Svezia e Norvegia. La verifica sul testo completo ha corretto anche due dettagli: il campione era di sole maggiorenni, non misto per età, e il 22% indicava le atlete senza nessuno con cui parlare di amenorrea, non quelle che l'avevano avuta. Corretti cinque articoli in italiano e in inglese, la pagina dei dati e il glossario.",
+    qEn: 'What happens when you find an error in an article?',
+    aEn: "We correct it on every page where it appears, update the article's revision date and declare it here. Corrections log — 21 September 2026: the figure 'only 11% of athletes discuss their cycle with their coach' was attributed to Höök et al. (2022) with a title that did not match the DOI cited; the correct study is von Rosen et al. (2022), on 1,086 adult athletes from Sweden and Norway. Checking the full text also corrected two details: the sample was adults only, not mixed-age, and the 22% referred to athletes with nobody to talk to about amenorrhoea, not those who had had it. Five articles in Italian and English, the data page and the glossary were corrected.",
+  },
+  {
     id: 'perche-le-atlete-adolescenti',
     q: 'Perché un progetto dedicato solo alle atlete adolescenti?',
     a: "Perché è la fascia dove il divario tra bisogno e ricerca è più largo. Solo il 6% degli studi in scienze dello sport è condotto esclusivamente su donne (Cowley et al., 2021), e tra le ragazze tesserate a 10-14 anni il 71% abbandona lo sport senza mai rientrare (Eime et al., 2020). Le due cose sono collegate: un ambiente costruito su dati raccolti altrove smette di funzionare esattamente quando il corpo cambia.",

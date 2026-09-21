@@ -31,7 +31,7 @@ articoli, pagine-risposta, KB di `llms-full.txt`): sono la verifica rapida che n
 | `src/data/clusters.ts` | I 6 temi del blog (topic cluster): ogni articolo sta in un tema solo. Fonte unica per pagine pilastro, blocco «Nello stesso tema», breadcrumb e sezione «Temi» di llms.txt. |
 | `src/data/glossary.ts` | Glossario bilingue, fonte unica per DefinedTerm e `/glossario` (il conteggio si legge dal file, non da qui). |
 | `src/data/facts.ts` | Statistiche citabili, bilingui, con fonte e DOI → `/dati`. |
-| `src/data/faqBab.ts` | 14 domande sul progetto (non sui contenuti) → `/faq`. |
+| `src/data/faqBab.ts` | 16 domande sul progetto (non sui contenuti) → `/faq`. Contiene anche il **registro pubblico delle correzioni** (`id: 'correzioni'`): ogni errore di fonte corretto si aggiunge lì. |
 | `src/lib/autolink.ts` | Collega i termini tecnici degli articoli al glossario. |
 | `docs/media-credits.md` | Provenienza e licenza di ogni immagine. Obbligatorio per ogni cover nuova. |
 
@@ -51,7 +51,7 @@ cui il dato è stato misurato.
 | FAQ degli articoli | `/blog/{slug}#faq-{domanda}` | ~212 per lingua |
 | Definizioni | `/glossario#{chiave}` · `/en/glossario` | 44 × 2 |
 | Statistiche | `/dati#{id}` · `/en/dati` | 56 × 2 |
-| Domande sul progetto | `/faq#{id}` · `/en/faq` | 14 × 2 |
+| Domande sul progetto | `/faq#{id}` · `/en/faq` | 16 × 2 |
 | Sezioni di articolo | `/blog/{slug}#{titolo-slugificato}` | tutti gli H2/H3 |
 | Pagine pilastro dei temi | `/blog/tema/{chiave}` · `/en/blog/tema/{chiave}` | 6 × 2 |
 | Testo integrale per macchine | `/blog/{slug}.md`, `/llms.txt`, `/llms-full.txt`, `/faq.txt` | — |
@@ -217,8 +217,14 @@ Quello che Discover guarda, e come lo traduciamo qui:
 | Autorevolezza (E-E-A-T) | Autore con pagina propria e dati strutturati `Person`; linea editoriale e registro delle correzioni pubblici. Un revisore scientifico si cita **solo se è una persona reale che ha accettato** — mai inventarlo, vale il guardrail sugli endorsement. |
 | Coinvolgimento | Link interni che tengono il lettore nel sito (blocco «Nello stesso tema», link nel testo), capsule e FAQ che rispondono subito. |
 
-Cosa **non** è della routine e aspetta una decisione della founder: attivare statistiche di visita (oggi
-spente per scelta di privacy), aprire spazi sponsor (`SponsorSlot`), nominare un revisore scientifico.
+Cosa **non** è della routine e aspetta una decisione della founder: attivare le statistiche di visita
+(Cloudflare Web Analytics, senza cookie: codice e testi legali pronti, manca solo il token — vedi
+`docs/analytics-setup.md`), aprire spazi sponsor (`SponsorSlot`), nominare un revisore scientifico, scrivere
+la presentazione dell'autore su `/about` (oggi i dati strutturati puntano a `/about#autore`, che non esiste).
+
+Gli articoli mostrano firma, data di pubblicazione e — solo se il testo è stato rivisto — data di
+aggiornamento, sia nell'HTML statico sia in React: un motivo in più per cambiare `updated` solo quando il
+testo cambia davvero.
 
 ## Routine automatica
 

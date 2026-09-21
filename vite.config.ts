@@ -476,9 +476,20 @@ function prerenderRoutes(): Plugin {
                     : `Tutti i ${cluster.slugs.length} articoli su ${esc(clusterLabel.toLowerCase())}`
                 }</a></p></nav>`
               : ''
+            // Firma e date visibili anche senza JS: chi ha scritto e quando è stato rivisto
+            // sono i primi segnali di affidabilità che Google cerca su un tema di salute.
+            const fmtDate = (d: string) =>
+              new Date(d).toLocaleDateString(isEnPost ? 'en-GB' : 'it-IT', { day: 'numeric', month: 'long', year: 'numeric' })
+            const bylineHtml = `<p class="byline">${
+              post.author ? `${isEnPost ? 'By' : 'Di'} <a href="/about">${esc(post.author)}</a> · ` : ''
+            }${post.date ? `${isEnPost ? 'Published' : 'Pubblicato il'} <time datetime="${post.date}">${fmtDate(post.date)}</time>` : ''}${
+              post.updated && post.date && post.updated > post.date
+                ? ` · ${isEnPost ? 'Updated' : 'Aggiornato il'} <time datetime="${post.updated}">${fmtDate(post.updated)}</time>`
+                : ''
+            }</p>`
             page = page.replace(
               /<div id="root">\s*<\/div>/,
-              `<div id="root"><article>${clusterNavHtml}<h1>${esc(post.title)}</h1>${
+              `<div id="root"><article>${clusterNavHtml}<h1>${esc(post.title)}</h1>${bylineHtml}${
                 post.answer ? `<p class="answer-capsule">${esc(post.answer)}</p>` : ''
               }<p>${esc(post.excerpt)}</p>${tocHtml}${bodyHtml}${faqHtml}${relatedHtml}</article></div>`,
             )

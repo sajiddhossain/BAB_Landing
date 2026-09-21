@@ -4,7 +4,7 @@ title: "The knee that has hurt for months: why it is not 'growing pains'"
 seoTitle: "Knee pain in teenage athletes: what to do"
 seoDescription: "Among adolescents with recurrent knee pain, 72% are girls and the median duration is 24 months. Why it is not growing pains, and what to do."
 date: 2026-07-30
-updated: 2026-09-18
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "Among adolescents with recurrent knee pain, 72% are girls, the median duration of pain is 24 months, and five years later 40.5% still hurt — with 60% of those having stopped or cut back on sport. Patellofemoral pain does not go away by 'growing out of it': it goes away when someone takes it seriously and doses the load. The data, and what changes in the gym."
 answer: "In most cases it does not go away with growth: five years on, 40.5% of adolescents with knee pain still have it, and 60% of those have stopped or cut back on sport because of the knee (Rathleff et al., 2019). What works is not complete rest but dosed load over weeks, together with hip and knee strengthening."
@@ -107,7 +107,7 @@ The practical point that holds it all together: **a knee does not heal by stayin
 
 ## And the knee that hurts below the kneecap (Osgood-Schlatter)?
 
-**Different picture, same approach.** Pain localised over the tibial tuberosity — the bony prominence just below the kneecap, where the patellar tendon attaches — is typical of adolescence during growth and is called Osgood-Schlatter disease. Here too, the idea that you just need to wait has been tested: in a prospective study of **51 adolescents aged 10-14 (51% girls)**, a 12-week pathway using a **load-progression ladder** for the patellar tendon, strengthening exercises and a graded return to sport produced **80% self-reported successful outcomes at 12 weeks** and **90% at 12 months** ([Rathleff et al., 2020, *Orthop J Sports Med*](https://doi.org/10.1177/2325967120911106)).
+**Different picture, same approach.** Pain localised over the tibial tuberosity — the bony prominence just below the kneecap, where the patellar tendon attaches — is typical of adolescence during growth and is called Osgood-Schlatter disease: it belongs to the [traction apophysitis family, alongside Sever's disease of the heel](/en/blog/apofisiti-osgood-schlatter-sever-giovani-atlete). Here too, the idea that you just need to wait has been tested: in a prospective study of **51 adolescents aged 10-14 (51% girls)**, a 12-week pathway using a **load-progression ladder** for the patellar tendon, strengthening exercises and a graded return to sport produced **80% self-reported successful outcomes at 12 weeks** and **90% at 12 months** ([Rathleff et al., 2020, *Orthop J Sports Med*](https://doi.org/10.1177/2325967120911106)).
 
 This too is a study **without a control group** and in a small sample: not proof of efficacy, but a consistent signal. And the message is the same, worth repeating: **load progression is an intervention; waiting is not.**
 

@@ -5,6 +5,7 @@
  * contrasto, niente skew/stroke — la leggibilità qui è prioritaria.
  */
 import { useTranslation } from 'react-i18next';
+import { cfAnalyticsEnabled } from '../lib/analytics';
 
 type LegalKey = 'privacy' | 'cookie' | 'terms';
 
@@ -20,6 +21,12 @@ interface Section {
 export default function LegalPage({ page }: LegalPageProps) {
  const { t } = useTranslation();
  const sections = t(`legal.${page}.sections`, { returnObjects: true }) as unknown as Section[];
+ // Statistiche senza cookie (Cloudflare Web Analytics): la sezione che le descrive compare
+ // solo quando il token è configurato, così l'informativa dice sempre ciò che il sito fa davvero.
+ const webAnalytics = cfAnalyticsEnabled && page !== 'terms'
+ ? (t(`legal.${page}.webAnalytics`, { returnObjects: true }) as unknown as Section)
+ : null;
+ const allSections = Array.isArray(sections) && webAnalytics?.h ? [...sections, webAnalytics] : sections;
 
  return (
  <div className="w-full min-h-screen px-4 py-24 md:py-32 text-[#0F0F12]">
@@ -44,7 +51,7 @@ export default function LegalPage({ page }: LegalPageProps) {
  </p>
 
  <div className="flex flex-col gap-8">
- {Array.isArray(sections) && sections.map((s, i) => (
+ {Array.isArray(allSections) && allSections.map((s, i) => (
  <section key={i}>
  <h2 className="font-['Bricolage_Grotesque',_sans-serif] text-xl sm:text-2xl font-black mb-2 tracking-tight">
  {s.h}

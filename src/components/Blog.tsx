@@ -18,6 +18,8 @@ export interface BlogPostData {
  lang: string;
  title: string;
  date: string | null;
+ /** Ultima revisione reale del testo (dateModified); null se mai rivisto. */
+ updated?: string | null;
  author: string | null;
  excerpt: string;
  /** Risposta sintetica alla domanda del titolo (40-60 parole), citabile da sola. */

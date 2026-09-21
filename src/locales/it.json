@@ -568,7 +568,11 @@
           "h": "10. Modifiche a questa informativa",
           "p": "Possiamo aggiornare questa informativa nel tempo. La versione in vigore è sempre quella pubblicata su questa pagina, con la data di aggiornamento indicata in alto. Ti invitiamo a consultarla periodicamente."
         }
-      ]
+      ],
+      "webAnalytics": {
+        "h": "Statistiche di visita (senza cookie)",
+        "p": "Per capire in forma aggregata quali pagine vengono lette usiamo Cloudflare Web Analytics. Lo strumento non installa cookie, non usa la memoria locale del browser, non crea profili e non segue le persone da un sito all'altro: raccoglie solo dati aggregati come pagine visitate, sito di provenienza, tipo di dispositivo e di browser, paese e tempi di caricamento. La base giuridica è il nostro legittimo interesse a misurare l'uso del sito (art. 6.1.f GDPR). Il fornitore, Cloudflare, Inc., tratta questi dati per nostro conto come responsabile del trattamento e aderisce al Data Privacy Framework UE-USA per gli eventuali trasferimenti fuori dall'Unione Europea."
+      }
     },
     "cookie": {
       "title": "Cookie Policy",
@@ -591,7 +595,11 @@
           "h": "4. Gestire il consenso",
           "p": "Puoi accettare o rifiutare i cookie non essenziali dal banner che compare alla prima visita. Puoi cambiare idea in qualsiasi momento cancellando i cookie e i dati del sito dal tuo browser: il banner ricomparirà e potrai esprimere una nuova scelta."
         }
-      ]
+      ],
+      "webAnalytics": {
+        "h": "Statistiche di visita senza cookie",
+        "p": "Per misurare in forma aggregata le visite usiamo Cloudflare Web Analytics, che non installa cookie e non usa la memoria locale del browser: per questo non richiede il tuo consenso e non compare nel banner. I dettagli sono nell'informativa privacy."
+      }
     },
     "terms": {
       "title": "Termini e Condizioni",

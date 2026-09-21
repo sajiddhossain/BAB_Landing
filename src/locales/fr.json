@@ -568,7 +568,11 @@
           "h": "10. Modifications de cette politique",
           "p": "Nous pouvons mettre à jour cette politique au fil du temps. La version en vigueur est toujours celle publiée sur cette page, avec la date de mise à jour indiquée en haut. Nous vous invitons à la consulter régulièrement."
         }
-      ]
+      ],
+      "webAnalytics": {
+        "h": "Statistiques de visite (sans cookies)",
+        "p": "Pour comprendre, de manière agrégée, quelles pages sont lues, nous utilisons Cloudflare Web Analytics. L'outil ne dépose pas de cookies, n'utilise pas le stockage local du navigateur, ne crée pas de profils et ne suit pas les personnes d'un site à l'autre : il ne collecte que des données agrégées telles que les pages visitées, le site de provenance, le type d'appareil et de navigateur, le pays et les temps de chargement. La base juridique est notre intérêt légitime à mesurer l'utilisation du site (art. 6.1.f RGPD). Le prestataire, Cloudflare, Inc., traite ces données pour notre compte en tant que sous-traitant et adhère au Data Privacy Framework UE-États-Unis pour les éventuels transferts hors de l'Union européenne."
+      }
     },
     "cookie": {
       "title": "Politique relative aux cookies",
@@ -591,7 +595,11 @@
           "h": "4. Gérer le consentement",
           "p": "Vous pouvez accepter ou refuser les cookies non essentiels depuis la bannière affichée lors de votre première visite. Vous pouvez changer d'avis à tout moment en effaçant les cookies et les données du site depuis votre navigateur : la bannière réapparaîtra et vous pourrez faire un nouveau choix."
         }
-      ]
+      ],
+      "webAnalytics": {
+        "h": "Statistiques de visite sans cookies",
+        "p": "Pour mesurer les visites de manière agrégée, nous utilisons Cloudflare Web Analytics, qui ne dépose pas de cookies et n'utilise pas le stockage local du navigateur : il ne nécessite donc pas votre consentement et n'apparaît pas dans la bannière. Les détails figurent dans la politique de confidentialité."
+      }
     },
     "terms": {
       "title": "Conditions générales",

@@ -4,7 +4,7 @@ title: "Mal di schiena a 14 anni: perché in una giovane atleta non è quello di
 seoTitle: "Mal di schiena nelle giovani atlete: cause e segnali"
 seoDescription: "In una giovane atleta la causa più descritta è la spondilolisi, non la contrattura: negli adulti è il contrario. Segnali, tempi e cosa dice l'evidenza."
 date: 2026-08-08
-updated: 2026-09-19
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "Il 42% delle atlete e degli atleti di 10-19 anni riferisce mal di schiena nell'arco di dodici mesi, e il sesso femminile compare tra i fattori di rischio. La differenza che quasi nessuno conosce sta nella causa: in adolescenza la lombalgia da sport è molto più spesso una frattura da stress della colonna e molto più raramente un problema di disco o una contrattura. I dati, i limiti dei dati, e perché oggi la fisioterapia immediata batte il riposo."
 answer: "Perché in una giovane atleta la causa più descritta è la spondilolisi, una frattura da stress della vertebra, mentre nell'adulto è il disco: in un confronto diretto spiegava il 47% dei casi negli adolescenti contro il 5% negli adulti (Micheli e Wood, 1995 — campione di clinica specialistica). Un mal di schiena che dura oltre due o tre settimane va valutato, non normalizzato."
@@ -92,7 +92,7 @@ Cosa succede se si guarda una popolazione meno selezionata? Il numero scende, ma
 
 Tre stime, tre popolazioni diverse, un intervallo che va dal 30% al 47%. Il messaggio non è la cifra: è che **una causa che negli adulti è una rarità, in questa fascia d'età è tra le prime a essere considerate**.
 
-Lo stesso ribaltamento vale scendendo di qualche centimetro. Un dolore basso, sul bacino o sotto il gluteo, in un adulto fa pensare agli ischiocrurali; in un corpo in crescita l'anello debole è l'apofisi, e la tuberosità ischiatica è la terza sede più colpita delle avulsioni pelviche dell'adolescente (14%) ([Di Maria et al., 2022](https://doi.org/10.3389/fped.2022.947463)). Vale la stessa regola: [a quest'età il modello dell'adulta descrive male quello che succede](/blog/dolore-inguine-giovani-atlete).
+Lo stesso ribaltamento vale scendendo di qualche centimetro. Un dolore basso, sul bacino o sotto il gluteo, in un adulto fa pensare agli ischiocrurali; in un corpo in crescita l'anello debole è l'apofisi, e la tuberosità ischiatica è la terza sede più colpita delle avulsioni pelviche dell'adolescente (14%) ([Di Maria et al., 2022](https://doi.org/10.3389/fped.2022.947463)). Vale la stessa regola: [a quest'età il modello dell'adulta descrive male quello che succede](/blog/dolore-inguine-giovani-atlete). E un tema a parte, che non è un dolore ma una curva della colonna, è [la scoliosi idiopatica adolescenziale e il suo rapporto con lo sport](/blog/scoliosi-idiopatica-sport-giovani-atlete).
 
 ## Cos'è la spondilolisi, in parole semplici?
 

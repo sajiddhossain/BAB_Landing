@@ -4,7 +4,7 @@ title: "Performance anxiety and burnout: when it is the head that stops, not the
 seoTitle: "Performance anxiety and burnout in young female athletes"
 seoDescription: "Competitive anxiety has three measurable components, and worry is highest in girls. Sport burnout already exists in adolescence: what to watch for, and when."
 date: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "An injury is visible: you ice it, you book an appointment. A girl who cannot sleep the night before a match, who feels hollowed out three months into the season and has stopped enjoying any of it leaves no medical record — and gets filed away as «the anxious one» or «the one who lost her hunger». Research has measured both. Competitive anxiety breaks down into three distinct components, sport burnout has three dimensions and a prevalence estimate in adolescents. What the data say, what differs between girls and boys, and how to tell a bad week from a signal worth taking to a professional."
 answer: "Competitive anxiety is not one trait: it is measured as three separate components — somatic anxiety, worry about performing poorly, and concentration disruption — and in 1,038 athletes aged 9-14 worry was highest in girls, with differences the authors themselves describe as modest (Grossbard et al., 2009). Sport burnout, defined as exhaustion plus sport devaluation, was detected at elevated scores in 1-9% of 980 adolescent athletes (Gustafsson et al., 2007)."
@@ -108,7 +108,7 @@ Here too the population must be declared: these are **US collegiate athletes**, 
 - **injury** is not only a tissue problem: the psychological side of return is documented and routinely ignored, which is why [the knee heals before the head does](/en/blog/ritorno-allo-sport-dopo-infortunio). The same applies to head trauma, where emotional symptoms are part of the picture and not a side effect of character ([concussion in young female athletes](/en/blog/commozione-cerebrale-giovani-atlete));
 - **sleep** is the most underrated lever and the most measurable one.
 
-The third — perceived support — is not a soft factor: in the model above it sits alongside the other two as an equal.
+The third — perceived support — is not a soft factor: in the model above it sits alongside the other two as an equal. For a fourteen-year-old athlete part of that support comes from the stands, and [what girls want from parents on the sideline](/en/blog/genitori-a-bordo-campo-giovani-atlete) has been asked of them directly.
 
 ## How do you tell a bad week from something more serious?
 
