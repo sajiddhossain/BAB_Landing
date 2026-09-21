@@ -146,7 +146,9 @@ slug, title, date, updated, author, excerpt, answer, cover, coverAlt, tags[], fa
   `ScholarlyArticle`. Preferire sempre il link DOI.
 - Cover: solo immagini senza copyright (CC0/Pexels/pubblico dominio), provenienza in
   `docs/media-credits.md`, nessun minore identificabile. Le rendition rawpixel `image_1300` sono
-  filigranate: usare `editor_1024`.
+  filigranate: usare `editor_1024`
+  solo se non esiste una versione più grande — la cover deve essere **larga almeno 1200 px** (Discover), quindi
+  l'originale va cercato alla risoluzione piena (Pexels/Unsplash la forniscono) e ritagliato a 16:9.
 - **Assegnare l'articolo a un tema** in `src/data/clusters.ts`, nella posizione giusta dell'ordine di
   lettura: senza, il build fallisce. Se davvero non sta in nessuno dei sei, è il segnale per discutere
   un tema nuovo, non per forzarlo in uno esistente.
@@ -199,10 +201,30 @@ Si parla di salute di adolescenti: i testi devono reggere davanti a un genitore 
 - **`updated`**: va cambiata solo quando il testo cambia davvero. È `dateModified` nei dati
   strutturati, e mentire lì è un segnale sprecato.
 
+## Obiettivo: crescita del pubblico e Google Discover
+
+Da settembre 2026 l'obiettivo del blog non è più solo «essere indicizzato bene»: è **portare sempre più
+lettori** e diventare il riferimento per lo sport femminile adolescenziale, anche per attrarre sponsor.
+Il canale da conquistare è **Google Discover** (il feed consigliato dell'app Google e di Chrome mobile),
+che non si richiede: Google ci mette le pagine che giudica interessanti, affidabili e ben presentate.
+Quello che Discover guarda, e come lo traduciamo qui:
+
+| Requisito | Regola nel repo |
+| --- | --- |
+| Immagini grandi | Ogni cover **≥ 1200 px di larghezza**, 16:9 (1600×900 consigliato). Con `max-image-preview:large` nel meta robots, altrimenti Google mostra solo la miniatura. |
+| Titoli che invogliano, mai acchiappaclic | Il `title` pone la domanda o la tensione reale del pezzo; niente promesse che l'articolo non mantiene, niente allarmismi. Il `seoTitle` resta quello per la ricerca. |
+| Freschezza e costanza | Ritmo regolare (la routine gira ogni 2 giorni); almeno **un articolo al mese agganciato all'attualità** (studio appena pubblicato, consenso o linea guida nuova, inizio stagione, caso di cronaca sportiva), sempre con fonte. |
+| Autorevolezza (E-E-A-T) | Autore con pagina propria e dati strutturati `Person`; linea editoriale e registro delle correzioni pubblici. Un revisore scientifico si cita **solo se è una persona reale che ha accettato** — mai inventarlo, vale il guardrail sugli endorsement. |
+| Coinvolgimento | Link interni che tengono il lettore nel sito (blocco «Nello stesso tema», link nel testo), capsule e FAQ che rispondono subito. |
+
+Cosa **non** è della routine e aspetta una decisione della founder: attivare statistiche di visita (oggi
+spente per scelta di privacy), aprire spazi sponsor (`SponsorSlot`), nominare un revisore scientifico.
+
 ## Routine automatica
 
 Un task schedulato (`bab-blog-content-seo`) pubblica e ottimizza contenuti da solo: ogni run produce
-almeno 3 modifiche SEO + 3 AEO + 3 GEO e valuta se pubblicare un articolo nuovo. Ruota i bersagli
+almeno 3 modifiche SEO + 3 AEO + 3 GEO + 2 DISCOVER (crescita), e pubblica un articolo nuovo ogni volta
+che esiste un tema difendibile. Ruota i bersagli
 guardando `git log`. Identità commit: `sajiddhossain <sajid.hossain2009@gmail.com>` — è l'email legata all'account
 GitHub `sajiddhossain`; `bab.community.official@gmail.com` attribuisce i commit a `breakingallbarriers`, da
 non usare — con trailer
