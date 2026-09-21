@@ -2,12 +2,12 @@
 slug: parlare-di-ciclo-con-allenatore
 title: "Talking about periods with your coach: why only 11% of athletes do (and how to change it)"
 seoTitle: "Talking about periods with your coach"
-seoDescription: "Only 11% of athletes discuss their cycle with their coach — 4% if he is a man. Why that happens and what actually breaks the silence."
+seoDescription: "Of 1,086 adult athletes only 11% discuss their cycle with their coach, 4% if he is a man (von Rosen et al., 2022). Why it happens and how to open the channel."
 date: 2026-07-03
-updated: 2026-09-12
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "Only 11% of athletes talk about their menstrual cycle with their coach: 4% if he's a man, 55% if she's a woman. And 88% learned these things on their own. It isn't disinterest: it is the absence of a safe channel. What data from 1,086 athletes across 57 sports show, what coaches can actually say, what to answer when an athlete mentions pain, and how to open the channel without forcing anyone to expose herself."
-answer: "Because almost nobody has made it possible: only 11% of athletes discuss their cycle with the person coaching them — 4% if that person is a man, 55% if a woman — and 88% learned about it on their own (Höök et al., 2022). This is not shyness: it is the absence of a shared channel and language, and it changes from the staff's side."
+answer: "Because almost nobody has made it possible: only 11% of athletes discuss their cycle with the person coaching them — 4% if that person is a man, 55% if a woman — and 88% learned about it on their own (von Rosen et al., 2022; adult athletes). This is not shyness: it is the absence of a shared channel and language, and it changes from the staff's side."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
 coverAlt: "A smiling girl sitting at her desk at home, headphones round her neck, writing in a notebook"
 tags:
@@ -17,7 +17,7 @@ tags:
   - amenorrhoea
 faq:
   - q: "How many athletes talk about their cycle with their coach?"
-    a: "In a study of 1,086 athletes from Sweden and Norway, only 11% discussed menstrual topics with their coach. The share dropped to 4% when the coach was a man and rose to 55% with a female coach (Höök et al., 2022)."
+    a: "In a study of 1,086 athletes from Sweden and Norway, only 11% discussed menstrual topics with their coach. The share dropped to 4% when the coach was a man and rose to 55% with a female coach (von Rosen et al., 2022; adult athletes)."
   - q: "Should a male coach know about his athletes' cycles?"
     a: "He does not need to know each athlete's individual data — that stays private. But he should have basic awareness of the topic and create an environment where talking about it isn't taboo. Tools like BAB let staff read only aggregated, anonymous signals, without putting the athlete in the position of having to expose herself."
   - q: "Why do so few athletes talk about it?"
@@ -29,46 +29,46 @@ faq:
   - q: "What does a coach actually need in order to plan the session?"
     a: "One functional piece of information: how the athlete is today and how much load she can take. Not the clinical data, not the cycle phase, not the date. That distinction is what makes the conversation possible at all: \"how are you feeling for today's session\" is a question a 14-year-old can answer in front of the group; \"where are you in your cycle\" is not. It is also the reason team signals should be read in aggregated, anonymous form."
   - q: "Do you need a female coach for athletes to talk about it?"
-    a: "It helps a great deal, but it is not the structural fix. In the study of 1,086 athletes, the share discussing menstrual matters rises from 4% with a male coach to 55% with a female coach (Höök et al., 2022): the gap is huge, and it says the coach's gender matters. But 53% of athletes rated their coach's knowledge of female athlete health as poor, and 88% had learned these things on their own — so the gap is one of training and of channel, not only of gender. Swapping people is not enough: you have to raise the staff's baseline knowledge and give the athlete a way to communicate that doesn't force her to expose herself."
+    a: "It helps a great deal, but it is not the structural fix. In the study of 1,086 athletes, the share discussing menstrual matters rises from 4% with a male coach to 55% with a female coach (von Rosen et al., 2022; adult athletes): the gap is huge, and it says the coach's gender matters. But 53% of athletes rated their coach's knowledge of female athlete health as poor, and 88% had learned these things on their own — so the gap is one of training and of channel, not only of gender. Swapping people is not enough: you have to raise the staff's baseline knowledge and give the athlete a way to communicate that doesn't force her to expose herself."
   - q: "What else do athletes not talk about with their coaches?"
     a: "The silence is not limited to periods. Among adolescent female athletes, 87% say they would not discuss urinary leakage during activity with their coach, and between 69% and 90% have never heard of pelvic floor training (Rial Rebullido et al., 2021). It is the same mechanism: a common symptom, no shared language to name it, and therefore no conversation."
   - q: "How many girls skip or cut back training during their period?"
     a: "A very large share, and the main reason is not pain. The global scoping review of adolescents aged 10-18 reports that between 25.2% and 61.1% avoid or reduce physical activity during menstruation, often out of fear of leaks and embarrassment rather than because of symptoms (Harvey et al., 2025). The range is wide because it pools studies from very different countries and school settings: it describes a widespread phenomenon, not a precise percentage transferable to any one squad. These are sessions that appear in no injury register, because formally nobody got hurt."
   - q: "Does an athlete have access to a gynaecologist through her club?"
-    a: "Almost never. In the study of 1,086 athletes in Sweden and Norway, only 3% had access to a gynaecologist through their sport (Höök et al., 2022). This is the figure that explains why loading a clinical role onto the coach does not work: the gap is not in the coaching staff's expertise, it is in services. A coach does not need to become a gynaecologist — they need to recognise when a signal deserves to leave the changing room, and who it should go to. The sample includes adult and adolescent athletes together, with results not broken down by age."
+    a: "Almost never. In the study of 1,086 athletes in Sweden and Norway, only 3% had access to a gynaecologist through their sport (von Rosen et al., 2022; adult athletes). This is the figure that explains why loading a clinical role onto the coach does not work: the gap is not in the coaching staff's expertise, it is in services. A coach does not need to become a gynaecologist — they need to recognise when a signal deserves to leave the changing room, and who it should go to. The sample is of ADULT athletes, all aged 18 or over: no equivalent data exists for minors."
   - q: "How many athletes have had their period stop, and who do they tell?"
-    a: "22% of the athletes in the study of 1,086 participants reported an episode of amenorrhoea, and about one in five had nobody in their sporting environment to talk to about it (Höök et al., 2022). That combination is the worrying part: a period that disappears is not a sign of good training, it can be a signal of low energy availability, and with nobody to tell it stays invisible until something else arrives — a stress fracture, a drop in performance. The sample is mixed for age, adults and adolescents together."
+    a: "In the study of 1,086 athletes only 60% had never had amenorrhoea lasting more than three months, and 22% — about one in five — had nobody in their sporting environment to talk to about it (von Rosen et al., 2022; adult athletes). That combination is the worrying part: a period that disappears is not a sign of good training, it can be a signal of low energy availability, and with nobody to tell it stays invisible until something else arrives — a stress fracture, a drop in performance. The sample is of ADULT athletes, aged 18 or over."
   - q: "What if the coach answers with a joke or a comment about her body?"
     a: "Then the problem is no longer communication, and it helps to know that in advance. In the European questionnaires on interpersonal violence in sport, \"being criticised for my physical appearance\" is an item of psychological violence: in the first Italian survey, 30.4% of 1,446 adults who had played organised sport as minors report at least one such experience, and women name the coach as responsible for the most severe experience in 35.0% of cases, against 27.0% for men (ChangeTheGame, 2023; online convenience sample, report not peer-reviewed). An isolated joke is not a case of abuse and should not be treated as one: what matters is that the athlete knows another point of contact exists — in Italy every club must have a Responsabile contro abusi, violenze e discriminazioni — and that using it will not cost her a place in the team."
   - q: "If the coach is not the right person, who else can an athlete talk to?"
     a: "Whoever is easiest, and the data say it is almost never someone inside sport. In the Italian survey, among those who received help after a negative experience in sport the source was family in 46.9% of cases, friends in 31.8%, someone in the sport setting in 25.5% and a mental health professional in 10.9% (ChangeTheGame, 2023). For menstrual health the useful chain is the same: a parent or trusted adult, the family doctor or paediatrician, and — where one exists — the club's designated contact person. The coach should not be the only channel available: in most cases they never were."
   - q: "What can a coach say to make the topic less taboo?"
-    a: "A few words, said once and backed up by behaviour: \"you can talk about this here, and nobody gets judged for it.\" Then consistency — don't comment on bodies, don't treat fatigue as an excuse, don't ask for details. In Höök and colleagues' study (2022), 53% of athletes rated their coach's knowledge of female-athlete health as poor: closing that gap is the staff's responsibility, not the girls'."
+    a: "A few words, said once and backed up by behaviour: \"you can talk about this here, and nobody gets judged for it.\" Then consistency — don't comment on bodies, don't treat fatigue as an excuse, don't ask for details. In von Rosen and colleagues' study (2022), 53% of athletes rated their coach's knowledge of female-athlete health as poor: closing that gap is the staff's responsibility, not the girls'."
 ---
 
 Here is a figure that should make anyone who coaches girls stop and think: when the coach is a man, **only 4% of athletes talk to him about the menstrual cycle**. Not because the cycle doesn't matter — it matters a great deal — but because there's no simple, safe, non-embarrassing way to do it. The problem in youth women's sport is often not the athletes' motivation. It's the **silence**.
 
 > **Key points**
-> - Only **11%** of athletes talk about their cycle with their coach; **4%** if he's a man, **55%** if she's a woman.
+> - Only **11%** of athletes talk about their cycle with their coach; **4%** if he's a man, **55%** if she's a woman (von Rosen et al., 2022; 1,086 **adult** athletes, aged 18 or over).
 > - **88%** learned these things **on their own**: formal education is almost absent.
 > - The gap **does not depend on competitive level**: it affects everyone, not just the youngest or amateurs.
 > - The answer isn't "force them to talk", but to build **basic awareness** and **channels that don't require exposing oneself**.
 
 ## How many athletes talk about their cycle with their coach?
 
-**Eleven in a hundred.** That falls to **four in a hundred** when the coach is a man, and rises to **fifty-five in a hundred** with a female coach. These are the figures from a study of 1,086 athletes in Sweden and Norway, and they are the clearest picture we have of a communication channel that simply doesn't exist.
+**Eleven in a hundred.** That falls to **four in a hundred** when the coach is a man, and rises to **fifty-five in a hundred** with a female coach. These are the figures from a study of 1,086 **adult** athletes in Sweden and Norway, and they are the clearest picture we have of a communication channel that simply doesn't exist.
 
-The study spans 57 sports ([Höök et al., 2022, *IJERPH*](https://doi.org/10.3390/ijerph191911932)), and its full set of results captures a precise void:
+The study spans 57 sports ([von Rosen et al., 2022, *IJERPH*](https://doi.org/10.3390/ijerph191911932)), and its full set of results captures a precise void:
 
 - **26%** rate their **own** knowledge of female-athlete health as poor or very poor.
 - **53%** rate their **coach's** knowledge as poor.
 - **88%** acquired this knowledge **on their own**; only 12% in a structured sporting context.
 - Only **11%** discuss menstrual topics with their coach — **4% with a man, 55% with a woman**.
-- **22%** had an episode of amenorrhea; roughly **one in five had no one** to talk to about it in sport.
+- Only **60%** had never had amenorrhoea lasting more than three months; **22%**, roughly **one in five, had no one** to talk to about it in sport.
 
 And one detail that widens the problem: **there is no significant difference in knowledge by competitive level** (p = 0.171). The gap isn't confined to the young or the amateur: it's **everywhere**.
 
-One necessary caveat on age: Höök and colleagues' sample includes adult and adolescent athletes together, and the data are not broken down by age band. So we do not have a prevalence measured on 13-year-olds — which is no accident, given that only **6%** of studies in sport and exercise science are conducted exclusively on women ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). The picture describes a real phenomenon; the specific number for the youngest athletes simply hasn't been measured yet.
+One necessary caveat on age: von Rosen and colleagues' sample is made up of **adult** athletes: the questionnaire was open only to those aged **18 or over**. So we do not have a prevalence measured on 13-year-olds — which is no accident, given that only **6%** of studies in sport and exercise science are conducted exclusively on women ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). The picture describes a real phenomenon; the specific number for the youngest athletes simply hasn't been measured yet.
 
 ## Why doesn't an athlete talk about her cycle with her coach?
 
@@ -87,7 +87,7 @@ This second point is decisive precisely because of the "4% with a male coach" fi
 
 ## What can a coach do tomorrow without getting it wrong?
 
-**One sentence said once and backed up in practice — "you can talk about this here, and nobody is judged for it" — and no personal questions.** That is the minimum that opens the channel, and it is also the most you can ask of a coach without pushing them into a clinical role that is not theirs. The rest is consistency: don't comment on bodies, don't treat tiredness as an excuse, don't ask for dates or details. In the study of 1,086 athletes, 53% rated their coach's knowledge of female athlete health as poor ([Höök et al., 2022](https://doi.org/10.3390/ijerph191911932)): closing that gap is the staff's responsibility, not the girls'.
+**One sentence said once and backed up in practice — "you can talk about this here, and nobody is judged for it" — and no personal questions.** That is the minimum that opens the channel, and it is also the most you can ask of a coach without pushing them into a clinical role that is not theirs. The rest is consistency: don't comment on bodies, don't treat tiredness as an excuse, don't ask for dates or details. In the study of 1,086 athletes, 53% rated their coach's knowledge of female athlete health as poor ([von Rosen et al., 2022](https://doi.org/10.3390/ijerph191911932); adult athletes): closing that gap is the staff's responsibility, not the girls'.
 
 Role by role:
 
@@ -102,7 +102,7 @@ BAB was born exactly in this void. It gives the athlete a **private space** to r
 
 ## Sources
 
-- Höök M., et al. **Perceptions of and communication about the menstrual cycle among female athletes.** *International Journal of Environmental Research and Public Health*, 2022. [doi:10.3390/ijerph191911932](https://doi.org/10.3390/ijerph191911932)
+- von Rosen P., Ekenros L., Solli G.S., Sandbakk Ø., Holmberg H.-C., Hirschberg A.L., Fridén C. **Offered Support and Knowledge about the Menstrual Cycle in the Athletic Community: A Cross-Sectional Study of 1086 Female Athletes.** *International Journal of Environmental Research and Public Health*, 2022;19(19):11932. (online questionnaire of **1,086 ADULT athletes**, aged **18 or over**, from Sweden and Norway across 57 sports: only **11%** discussed female athlete health with their coach — **4%** with a male coach, **55%** with a female coach; **53%** rated their coach's knowledge poor or very poor; **88%** had acquired this knowledge on their own; **60%** had never had amenorrhoea lasting more than three months and **22%** had nobody to talk to about it in their sporting environment; only **3%** had access to a gynaecologist; **no minors in the sample**) [doi:10.3390/ijerph191911932](https://doi.org/10.3390/ijerph191911932)
 - Findlay R.J., et al. **How the menstrual cycle and menstruation affect sporting performance: experiences of elite female rugby players.** *Br J Sports Med*, 2020. (n=15 international rugby players, **adults**) [doi:10.1136/bjsports-2019-101486](https://doi.org/10.1136/bjsports-2019-101486)
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studies, 33 countries, adolescents aged 10-18) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
 - Taim B.C., Ó Catháin C., Renard M., Elliott-Sale K.J., Madigan S., Ní Chéilleachair N. **The Prevalence of Menstrual Cycle Disorders and Menstrual Cycle-Related Symptoms in Female Athletes: A Systematic Literature Review.** *Sports Medicine*, 2023;53(10):1963-1984. (60 studies, 6,380 athletes; dysmenorrhoea is the most prevalent cycle disorder: 32.3%, range 7.8-85.6%) [doi:10.1007/s40279-023-01871-8](https://doi.org/10.1007/s40279-023-01871-8)

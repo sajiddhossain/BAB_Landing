@@ -6,7 +6,7 @@ seoDescription: "Interviewed one by one, 36 athletes averaging 13.5 years asked 
 excerpt: "Nobody teaches a parent how to behave on the sideline, and most work out on their own that something is off — usually in the car, on the way home. Research has asked the girls directly: 36 athletes aged 12-15 described what they want from parents before, during and after competition, and on three behaviours the answer was unanimous, 36 out of 36. This is not etiquette. It is a map of what actually lands on the other side of the touchline."
 answer: "In individual interviews with 36 team-sport athletes aged 12-15 (mean age 13.5), three preferences were reported by all 36: that parents encourage the entire team rather than only their own daughter, that they focus on effort rather than the outcome, and that they keep their own emotions under control. The least welcome behaviours were coaching from the sideline (29 of 36 athletes) and arguing with officials (31 of 36) (Knight, Neely and Holt, 2011 — a qualitative study of 36 Canadian athletes, describing preferences rather than measured effects)."
 date: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-21
 author: Sajid Hossain
 cover: /fotobab/cover-genitori-bordo-campo.jpg
 coverAlt: "Rows of empty red stadium seats on a grandstand, seen from above at an angle; no people in frame"
@@ -124,17 +124,17 @@ And this is exactly where the most relevant and least known piece of research si
 
 The mechanism, though, is recognisable everywhere. The car ride is the first moment parent and daughter are alone, the game is still on both of them, and one of the two has just spent an hour running. It is not a good moment for technical analysis. It is an excellent moment for a single question — «how was it for you?» — and for a willingness to accept silence as an answer.
 
-## Why «having fun» is not a vague word
+## Is «having fun» a vague word?
 
-Because it has been broken down and measured.
+**No: it has been broken down and measured, and it contains 11 dimensions and 81 distinct elements** ([Visek et al., 2015](https://doi.org/10.1123/jpah.2013-0180)).
 
 One study asked **142 soccer players, 37 coaches and 57 parents** to list everything that makes playing sport fun, then to sort and rate the ideas collected. The result is a map of **11 dimensions of fun** made up of **81 distinct determinants** ([Visek et al., 2015](https://doi.org/10.1123/jpah.2013-0180)). Fun, in other words, is not the opposite of hard work, nor a concession to younger children: it is an articulated construct that includes learning, improving, belonging to a group and being treated well.
 
 This matters to a parent for a precise reason. The very things athletes ask for on the sideline — cheering for the whole team, attention to effort, no pressure on the result — are not requests to lower the bar. They are the conditions under which the bar can be raised without somebody quitting. And quitting, in this age band, is not a theoretical risk: among girls registered with a club at 10-14, the share who leave sport without ever returning is [71%](/en/blog/abbandono-puberta).
 
-## What a parent can do from next Sunday
+## What can a parent do from next Sunday?
 
-Six behaviours, all taken directly from what the athletes asked for.
+**Cheer for the whole team, comment on effort rather than the score, leave technical instructions to the coach and the referee alone, and let her decide when to talk about the game.** These are six behaviours, all taken directly from what the athletes asked for.
 
 - **Before:** handle the logistics (30 of 36 ask for it) and say *«do you want to talk about it, or would you rather think about something else?»* instead of assuming that talking helps (33 of 36 raised mental preparation).
 - **During — cheer for everyone.** Team-mates' names, not only your daughter's. It is the study's most unanimous request.
@@ -153,9 +153,9 @@ What it offers is a **private space for the athlete**, where a girl records her 
 
 The educational half is the other contribution: giving a family precise words for something rarely discussed, so that «my dad argues with the referee» can become a conversation between them instead of a silent embarrassment nobody names. It is the same principle that applies to [the words of the person coaching](/en/blog/parole-allenatore-salute-atlete): the frame around a game is not neutral, and it can be changed without asking anybody to love their daughter any less.
 
-## When to consult a professional
+## When is it time to consult a professional?
 
-The guidance in this article is about behaviour, not mental health. If a girl shows distress that lasts for weeks, if she has stopped enjoying something she used to love, if pre-match anxiety also affects her sleep, her schoolwork and her relationships, or if she talks about quitting in a way that does not sound like a change of interests, that is not something to fix with better cheering: it is the moment to speak to a paediatrician or family doctor, who can point to the right pathway. The blog has a dedicated article on [performance anxiety and burnout](/en/blog/ansia-prestazione-burnout-giovani-atlete).
+**When the distress lasts for weeks, takes the pleasure out of what she used to enjoy, or spills into sleep, school and relationships.** The guidance in this article is about behaviour, not mental health. If a girl shows distress that lasts for weeks, if she has stopped enjoying something she used to love, if pre-match anxiety also affects her sleep, her schoolwork and her relationships, or if she talks about quitting in a way that does not sound like a change of interests, that is not something to fix with better cheering: it is the moment to speak to a paediatrician or family doctor, who can point to the right pathway. The blog has a dedicated article on [performance anxiety and burnout](/en/blog/ansia-prestazione-burnout-giovani-atlete).
 
 ## Sources
 

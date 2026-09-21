@@ -4,7 +4,7 @@ title: "Genitori a bordo campo: cosa chiedono davvero le atlete prima, durante e
 seoTitle: "Genitori a bordo campo: cosa vogliono le giovani atlete"
 seoDescription: "Interrogate una per una, 36 atlete di 13,5 anni in media chiedono tutte lo stesso: tifare per tutta la squadra, guardare all'impegno, non allenare da fuori."
 date: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "Nessuno insegna a un genitore come stare a bordo campo, e quasi tutti scoprono da soli che qualcosa non funziona — di solito in macchina, sulla strada di casa. La ricerca però lo ha chiesto direttamente alle ragazze: 36 atlete di 12-15 anni hanno descritto cosa vogliono dai genitori prima, durante e dopo la partita, e su tre comportamenti la risposta è stata unanime, 36 su 36. Non è un galateo: è una mappa di cosa arriva davvero dall'altra parte del campo."
 answer: "In interviste individuali a 36 atlete di 12-15 anni (età media 13,5) di sport di squadra, tre preferenze sono state riportate da tutte e 36: che i genitori incoraggino la squadra intera e non solo la propria figlia, che guardino all'impegno invece che al risultato, e che tengano sotto controllo le proprie emozioni. I comportamenti meno graditi erano dare indicazioni tecniche da fuori (29 atlete su 36) e discutere con gli arbitri (31 su 36) (Knight, Neely e Holt, 2011 — studio qualitativo su 36 atlete canadesi, descrive preferenze e non effetti misurati)."
@@ -124,17 +124,17 @@ Ed è esattamente qui che si colloca il pezzo di ricerca più rilevante e meno n
 
 Il meccanismo, però, è riconoscibile ovunque. Il viaggio in macchina è il primo momento in cui genitore e figlia sono soli, la partita è ancora addosso a entrambi, e uno dei due ha appena finito di correre per un'ora. Non è un buon momento per un'analisi tecnica. È un ottimo momento per una domanda sola — «com'è andata per te?» — e per la disponibilità ad accettare come risposta anche il silenzio.
 
-## Perché «divertirsi» non è una parola vaga
+## «Divertirsi» è una parola vaga?
 
-Perché è stata scomposta e misurata.
+**No: è stata scomposta e misurata, e contiene 11 dimensioni e 81 elementi distinti** ([Visek et al., 2015](https://doi.org/10.1123/jpah.2013-0180)).
 
 Uno studio ha chiesto a **142 giocatori e giocatrici di calcio, 37 allenatori e 57 genitori** di elencare tutto ciò che rende divertente praticare uno sport, poi di raggruppare e valutare le idee raccolte. Il risultato è una mappa con **11 dimensioni del divertimento** composte da **81 determinanti** distinti ([Visek et al., 2015](https://doi.org/10.1123/jpah.2013-0180)). Il divertimento, in altre parole, non è il contrario dell'impegno né una concessione ai più piccoli: è un costrutto articolato che comprende imparare, migliorare, far parte di un gruppo e sentirsi trattati bene.
 
 Questo conta per un genitore per una ragione precisa. Le stesse cose che le atlete chiedono a bordo campo — tifo per tutta la squadra, attenzione all'impegno, assenza di pressione sul risultato — non sono richieste di abbassare l'asticella. Sono le condizioni in cui l'asticella si può alzare senza che qualcuno smetta. E l'abbandono, in questa fascia d'età, non è un rischio teorico: fra le ragazze tesserate a 10-14 anni la quota che lascia lo sport senza mai rientrare è del [71%](/blog/abbandono-puberta).
 
-## Cosa può fare un genitore da domenica prossima
+## Che cosa può fare un genitore da domenica prossima?
 
-Sei comportamenti, tutti derivati direttamente da quello che le atlete hanno chiesto.
+**Tifare per tutta la squadra, commentare l'impegno e non il punteggio, lasciare le indicazioni tecniche all'allenatore e l'arbitro in pace, e lasciar decidere a lei quando parlare della partita.** Sono sei comportamenti, tutti derivati direttamente da quello che le atlete hanno chiesto.
 
 - **Prima:** occuparsi della logistica (30 su 36 lo chiedono) e domandare *«vuoi parlarne o preferisci pensare ad altro?»* invece di dare per scontato che parlare aiuti (33 su 36 hanno posto la questione della preparazione mentale).
 - **Durante — tifare per tutte.** Il nome delle compagne, non solo quello della figlia. È la richiesta più unanime dello studio.
@@ -153,9 +153,9 @@ Quello che offre è uno **spazio privato dell'atleta**, in cui una ragazza regis
 
 Il contributo educativo è l'altra metà: dare a una famiglia parole precise per una cosa di cui si parla poco, in modo che «mio padre si arrabbia con l'arbitro» possa diventare una conversazione fra loro invece di un imbarazzo silenzioso che nessuno nomina. È lo stesso principio che vale per [le parole di chi allena](/blog/parole-allenatore-salute-atlete): il contorno di una partita non è neutro, e si può cambiare senza chiedere a nessuno di volere meno bene a sua figlia.
 
-## Quando rivolgersi a un professionista
+## Quando è il caso di rivolgersi a un professionista?
 
-Le indicazioni di questo articolo riguardano il comportamento, non la salute mentale. Se una ragazza mostra un malessere che dura settimane, se ha smesso di provare piacere in una cosa che le piaceva, se l'ansia prima delle partite le condiziona anche sonno, scuola e rapporti, oppure se dice di voler smettere in un modo che non somiglia a un cambio di interessi, quello non è terreno da correggere con un tifo migliore: è il momento di parlarne con il pediatra o il medico di famiglia, che sapranno indicare il percorso adatto. Su questo il blog ha un articolo dedicato all'[ansia da prestazione e al burnout](/blog/ansia-prestazione-burnout-giovani-atlete).
+**Quando il malessere dura settimane, toglie piacere a ciò che piaceva o invade sonno, scuola e rapporti.** Le indicazioni di questo articolo riguardano il comportamento, non la salute mentale. Se una ragazza mostra un malessere che dura settimane, se ha smesso di provare piacere in una cosa che le piaceva, se l'ansia prima delle partite le condiziona anche sonno, scuola e rapporti, oppure se dice di voler smettere in un modo che non somiglia a un cambio di interessi, quello non è terreno da correggere con un tifo migliore: è il momento di parlarne con il pediatra o il medico di famiglia, che sapranno indicare il percorso adatto. Su questo il blog ha un articolo dedicato all'[ansia da prestazione e al burnout](/blog/ansia-prestazione-burnout-giovani-atlete).
 
 ## Fonti
 

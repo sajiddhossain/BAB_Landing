@@ -4,7 +4,7 @@ title: "Tornare a giocare dopo un infortunio: il ginocchio guarisce prima della 
 seoTitle: "Tornare allo sport dopo un infortunio: quando è ora"
 seoDescription: "Dopo un crociato l'81% torna allo sport ma solo il 55% al livello competitivo. La prontezza psicologica conta quanto il ginocchio."
 date: 2026-08-16
-updated: 2026-09-18
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "Dopo una ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo — e chi non torna, spesso, ha un ginocchio che funziona. La prontezza psicologica si misura, predice il rientro e, negli under 20, è associata al rischio di un secondo infortunio. Cosa dicono i numeri sul calendario, sui criteri e sulle ragazze, e cosa può dire davvero chi allena il giorno del rientro."
 answer: "Perché il tessuto guarisce prima della fiducia: dopo la ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo, e tra chi non rientra la paura di rifarsi male è una delle ragioni più frequenti (Ardern et al., 2014, meta-analisi su 7.556 partecipanti in prevalenza adulti)."
@@ -87,7 +87,7 @@ Nella coorte prospettica Delaware-Oslo, **106 pazienti** operati di crociato e p
 
 Sul peso dei criteri esiste anche un dato più netto, che però va citato con la sua popolazione attaccata: in **158 atleti professionisti maschi adulti**, non soddisfare sei criteri di dimissione prima del rientro era associato a un rischio **quadruplo** di rottura del trapianto. Nello stesso gruppo 26 atleti (16,5%) hanno rotto il crociato in media **105 giorni** dopo il rientro ([Kyritsis et al., 2016](https://doi.org/10.1136/bjsports-2015-095908)). Il principio — si rientra su prove superate, non su giorni trascorsi — regge; la stima numerica non si trasferisce a una sedicenne.
 
-C'è un errore che questi dati rendono evidente: **usare la data dell'intervento come data del rientro**. Il tempo serve al tessuto, i test servono alla decisione. Nessuno dei due, da solo, basta.
+C'è un errore che questi dati rendono evidente: **usare la data dell'intervento come data del rientro**. Il tempo serve al tessuto, i test servono alla decisione. Nessuno dei due, da solo, basta. Lo stesso principio vale anche fuori dagli infortuni: dopo [la mononucleosi](/blog/mononucleosi-sport-giovani-atlete) il rientro si costruisce sull'assenza di sintomi e sui tempi della milza, non sul giorno in cui è sparita la febbre.
 
 ## Quanto è alto il rischio di un secondo infortunio nelle giovani atlete?
 

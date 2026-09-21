@@ -98,10 +98,10 @@ export const FACTS: Fact[] = [
     id: 'dolori-mestruali-giovani-atlete-5',
     article: 'dolori-mestruali-giovani-atlete',
     claim:
-      "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: 4% se è un uomo, 55% se è una donna; l'88% ha imparato queste cose da sola. Popolazione: 1.086 atlete, adulte e adolescenti insieme, dati non suddivisi per età.",
+      "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: 4% se è un uomo, 55% se è una donna; l'88% ha imparato queste cose da sola. Popolazione: 1.086 atlete ADULTE di Svezia e Norvegia, tutte di almeno 18 anni; nessuna minorenne nel campione.",
     claimEn:
-      'Only 11% of athletes discuss their menstrual cycle with their coach: 4% if the coach is a man, 55% if a woman; 88% learned about it on their own. Population: 1,086 athletes, adults and adolescents together, data not broken down by age.',
-    source: 'Höök et al., 2022',
+      'Only 11% of athletes discuss their menstrual cycle with their coach: 4% if the coach is a man, 55% if a woman; 88% learned about it on their own. Population: 1,086 ADULT athletes from Sweden and Norway, all aged 18 or over; no minors in the sample.',
+    source: 'von Rosen et al., 2022',
     doi: '10.3390/ijerph191911932',
   },
   {
@@ -1164,6 +1164,45 @@ export const FACTS: Fact[] = [
       '33.6% of women with polycystic ovary syndrome waited more than 2 years before diagnosis and 47.1% consulted 3 or more health professionals; only 35.2% were satisfied with their diagnostic experience. Population: 1,385 ADULT women with a PCOS diagnosis (53% North America, 42% Europe); retrospective design based on participants’ recall.',
     source: 'Gibson-Helm et al., 2017',
     doi: '10.1210/jc.2016-2963',
+  },  {
+    id: 'mononucleosi-sport-giovani-atlete-1',
+    article: 'mononucleosi-sport-giovani-atlete',
+    claim:
+      "Dopo la mononucleosi infettiva le lesioni della milza si concentrano nei primi 21 giorni di malattia e sono rarissime dopo i 28; la rottura riguarda meno dello 0,5% dei casi. La maggior parte delle raccomandazioni indica 3 settimane senza sport e poi una ripresa graduale, ma non esistono linee guida basate su studi controllati. Fonte: revisione clinica (livello di evidenza 4), non uno studio sulle adolescenti.",
+    claimEn:
+      'After infectious mononucleosis, spleen injuries cluster in the first 21 days of illness and are exceedingly rare after day 28; rupture occurs in under 0.5% of cases. Most recommendations call for 3 weeks without sport followed by a gradual return, but there are no guidelines based on controlled studies. Source: clinical review (level of evidence 4), not a study of adolescents.',
+    source: 'Becker e Smith, 2014',
+    doi: '10.1177/1941738114521984',
+  },
+  {
+    id: 'mononucleosi-sport-giovani-atlete-2',
+    article: 'mononucleosi-sport-giovani-atlete',
+    claim:
+      "Nei casi pubblicati di rottura della milza durante la mononucleosi, il sintomo d'esordio era il dolore addominale nell'88%, solo il 14% aveva subito un trauma, il tempo medio dall'inizio dei sintomi era di 14 giorni con casi fino a 8 settimane e la mortalità complessiva era del 9%. Popolazione: 85 case report pubblicati fra il 1984 e il 2014, età media 22 anni, 70% maschi; non è una stima del rischio negli adolescenti.",
+    claimEn:
+      'In published cases of splenic rupture during mononucleosis, the presenting symptom was abdominal pain in 88%, only 14% had any trauma, the mean time from symptom onset was 14 days with cases up to 8 weeks, and overall mortality was 9%. Population: 85 case reports published between 1984 and 2014, mean age 22, 70% male; not a risk estimate for adolescents.',
+    source: 'Bartlett et al., 2016',
+    doi: '10.1016/j.injury.2015.10.071',
+  },
+  {
+    id: 'mononucleosi-sport-giovani-atlete-3',
+    article: 'mononucleosi-sport-giovani-atlete',
+    claim:
+      "Dopo la mononucleosi, i criteri pediatrici di sindrome da fatica cronica erano soddisfatti dal 13% degli adolescenti a 6 mesi, dal 7% a 12 mesi e dal 4% a 24 mesi; tutti i 13 ancora affetti a 24 mesi erano femmine. Popolazione: 301 adolescenti di 12-18 anni, studio prospettico in un solo centro statunitense.",
+    claimEn:
+      'After mononucleosis, paediatric criteria for chronic fatigue syndrome were met by 13% of adolescents at 6 months, 7% at 12 months and 4% at 24 months; all 13 still affected at 24 months were female. Population: 301 adolescents aged 12-18, prospective study at a single US centre.',
+    source: 'Katz et al., 2009',
+    doi: '10.1542/peds.2008-1879',
+  },
+  {
+    id: 'mononucleosi-sport-giovani-atlete-4',
+    article: 'mononucleosi-sport-giovani-atlete',
+    claim:
+      "Oltre il 7% di atleti sani misurati con l'ecografia aveva già una milza che rientrava nei criteri convenzionali di ingrossamento, e le donne avevano milze più piccole degli uomini: una singola ecografia ha valore limitato per decidere il rientro dopo la mononucleosi. Popolazione: 631 atleti universitari statunitensi di Division I, giovani ADULTI, non adolescenti.",
+    claimEn:
+      'More than 7% of healthy athletes scanned by ultrasound already had a spleen meeting the conventional criteria for enlargement, and women had smaller spleens than men: a single ultrasound is of limited value in deciding return to play after mononucleosis. Population: 631 US Division I collegiate athletes, young ADULTS, not adolescents.',
+    source: 'Hosey et al., 2006',
+    doi: '10.1136/bjsm.2005.022376',
   },
 ];
 

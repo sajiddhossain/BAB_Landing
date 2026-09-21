@@ -4,7 +4,7 @@ title: "Nata a dicembre: quanto pesa il mese di nascita nella selezione delle gi
 seoTitle: "Effetto età relativa nello sport femminile: quanto conta il mese di nascita"
 seoDescription: "Nello sport femminile le nate nel primo trimestre sono 1,25 volte più rappresentate delle nate nell'ultimo: dove pesa, a che età, e cosa può fare una società."
 date: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "In una squadra di under 14 possono convivere due ragazze con undici mesi di differenza e tre anni di sviluppo biologico di distanza, e il regolamento le tratta come coetanee. Su 57 studi e 308 campioni, le nate a gennaio-marzo risultano più rappresentate delle nate a ottobre-dicembre in modo piccolo ma sistematico — e nelle federazioni dove lo si è misurato, chi è nata a fine anno smette prima. Cosa dicono i numeri e cosa può cambiare una società senza aspettare una riforma."
 answer: "Nello sport femminile l'effetto dell'età relativa esiste ma è di entità piccola: nella meta-analisi di 57 studi e 308 campioni indipendenti su 25 sport, le atlete nate nel primo trimestre dell'anno di selezione sono 1,25 volte più rappresentate di quelle nate nell'ultimo (odds ratio 1,25; IC 95% 1,21-1,30), con l'effetto più marcato fino ai 14 anni e ai livelli competitivi più alti (Smith et al., 2018)."
@@ -117,9 +117,9 @@ Il **bio-banding** è l'idea più discussa del settore: raggruppare per maturazi
 
 Quindi: sperimentabile in allenamento, sì. Presentabile alle famiglie come una pratica dimostrata, no. E su una squadra di ragazze, dimostrata ancora meno.
 
-## Cosa può fare una società dalla prossima stagione
+## Che cosa può fare una società dalla prossima stagione?
 
-Nessuna di queste quattro pratiche è stata validata da uno studio controllato su atlete femmine. Sono correttivi ragionevoli a un bias documentato, e vanno presentati per quello che sono — il che è comunque meglio di non fare niente perché la riforma federale non arriva.
+**Quattro cose a costo quasi zero: scrivere il mese di nascita accanto al nome, non decidere in una giornata sola, variare i raggruppamenti e trattare la maturazione come un'informazione temporanea.** Nessuna di queste quattro pratiche è stata validata da uno studio controllato su atlete femmine. Sono correttivi ragionevoli a un bias documentato, e vanno presentati per quello che sono — il che è comunque meglio di non fare niente perché la riforma federale non arriva.
 
 - **Scrivere il mese di nascita accanto al nome** nei fogli di valutazione. È il correttivo a costo zero: chi osserva sa se sta confrontando due atlete con undici mesi di differenza, e la correzione mentale avviene sul posto.
 - **Non decidere in una giornata sola.** Le valutazioni ripetute in momenti diversi dell'anno riducono il peso della fotografia istantanea, che è esattamente ciò che l'età relativa distorce.
@@ -134,9 +134,9 @@ Quello che offre è uno **spazio privato dell'atleta** in cui una ragazza regist
 
 La metà educativa è dare parole precise a una cosa che a bordo campo viene detta a sentimento — «è indietro», «è piccola» — e che nella maggior parte dei casi significa soltanto: *oggi ha meno mesi, o meno pubertà, delle altre*.
 
-## Quando rivolgersi a un professionista
+## Quando è il caso di rivolgersi a un professionista?
 
-Questo articolo parla di selezione e di categorie, non di salute. Ci sono però due situazioni in cui la crescita smette di essere un tema organizzativo e diventa clinico: quando la statura o lo sviluppo puberale si **fermano** o restano molto distanti da quelli delle coetanee, e quando il [ciclo mestruale non compare entro i 15 anni o scompare](/blog/red-s-bassa-disponibilita-energetica) dopo essere comparso. In entrambi i casi il riferimento è il pediatra o il medico di famiglia, non l'allenatore. Vale anche per i dolori che durano da settimane in una fase di crescita rapida: il [picco di crescita](/blog/picco-di-crescita-giovani-atlete) spiega molte cose, ma non è una diagnosi.
+**Quando statura o sviluppo puberale si fermano, oppure quando il ciclo non compare entro i 15 anni o scompare dopo essere comparso.** Questo articolo parla di selezione e di categorie, non di salute. Ci sono però due situazioni in cui la crescita smette di essere un tema organizzativo e diventa clinico: quando la statura o lo sviluppo puberale si **fermano** o restano molto distanti da quelli delle coetanee, e quando il [ciclo mestruale non compare entro i 15 anni o scompare](/blog/red-s-bassa-disponibilita-energetica) dopo essere comparso. In entrambi i casi il riferimento è il pediatra o il medico di famiglia, non l'allenatore. Vale anche per i dolori che durano da settimane in una fase di crescita rapida: il [picco di crescita](/blog/picco-di-crescita-giovani-atlete) spiega molte cose, ma non è una diagnosi.
 
 ## Fonti
 

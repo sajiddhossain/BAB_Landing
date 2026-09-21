@@ -1,6 +1,94 @@
 {
   "posts": [
     {
+      "slug": "mononucleosi-sport-giovani-atlete",
+      "lang": "it",
+      "title": "Mononucleosi e sport: quando un'atleta adolescente può tornare ad allenarsi (e perché il problema è la milza)",
+      "date": "2026-09-21",
+      "questions": [
+        {
+          "q": "Che cos'è la mononucleosi e perché colpisce proprio le adolescenti?",
+          "id": "faq-che-cose-la-mononucleosi-e-perche-colpisce-proprio-le"
+        },
+        {
+          "q": "Quali sono i sintomi della mononucleosi in un'atleta?",
+          "id": "faq-quali-sono-i-sintomi-della-mononucleosi-in-unatleta"
+        },
+        {
+          "q": "Quando si può tornare ad allenarsi dopo la mononucleosi?",
+          "id": "faq-quando-si-puo-tornare-ad-allenarsi-dopo-la-mononucleosi"
+        },
+        {
+          "q": "Perché la milza è il vero problema?",
+          "id": "faq-perche-la-milza-e-il-vero-problema"
+        },
+        {
+          "q": "Basta un'ecografia per sapere se la milza è tornata normale?",
+          "id": "faq-basta-unecografia-per-sapere-se-la-milza-e-tornata"
+        },
+        {
+          "q": "Quali segnali devono far chiamare subito i soccorsi?",
+          "id": "faq-quali-segnali-devono-far-chiamare-subito-i-soccorsi"
+        },
+        {
+          "q": "La stanchezza dopo la mononucleosi può durare mesi?",
+          "id": "faq-la-stanchezza-dopo-la-mononucleosi-puo-durare-mesi"
+        },
+        {
+          "q": "La mononucleosi è contagiosa per le compagne di squadra?",
+          "id": "faq-la-mononucleosi-e-contagiosa-per-le-compagne-di-squadra"
+        },
+        {
+          "q": "Che cosa può fare chi allena?",
+          "id": "faq-che-cosa-puo-fare-chi-allena"
+        }
+      ]
+    },
+    {
+      "slug": "mononucleosi-sport-giovani-atlete",
+      "lang": "en",
+      "title": "Glandular fever and sport: when a teenage athlete can return to training (and why the spleen is the problem)",
+      "date": "2026-09-21",
+      "questions": [
+        {
+          "q": "What is mononucleosis and why does it hit teenage girls in particular?",
+          "id": "faq-what-is-mononucleosis-and-why-does-it-hit-teenage-girls"
+        },
+        {
+          "q": "What are the symptoms of mononucleosis in an athlete?",
+          "id": "faq-what-are-the-symptoms-of-mononucleosis-in-an-athlete"
+        },
+        {
+          "q": "When can a teenager return to training after mononucleosis?",
+          "id": "faq-when-can-a-teenager-return-to-training-after"
+        },
+        {
+          "q": "Why is the spleen the real problem?",
+          "id": "faq-why-is-the-spleen-the-real-problem"
+        },
+        {
+          "q": "Is one ultrasound scan enough to know the spleen is back to normal?",
+          "id": "faq-is-one-ultrasound-scan-enough-to-know-the-spleen-is"
+        },
+        {
+          "q": "Which warning signs mean calling emergency services straight away?",
+          "id": "faq-which-warning-signs-mean-calling-emergency-services"
+        },
+        {
+          "q": "Can the tiredness after mononucleosis last for months?",
+          "id": "faq-can-the-tiredness-after-mononucleosis-last-for-months"
+        },
+        {
+          "q": "Is mononucleosis contagious to teammates?",
+          "id": "faq-is-mononucleosis-contagious-to-teammates"
+        },
+        {
+          "q": "What can a coach do?",
+          "id": "faq-what-can-a-coach-do"
+        }
+      ]
+    },
+    {
       "slug": "ovaio-policistico-giovani-atlete",
       "lang": "it",
       "title": "«Sarà l'allenamento»: quando il ciclo irregolare di un'atleta adolescente è sindrome dell'ovaio policistico",
@@ -1637,6 +1725,14 @@
         {
           "q": "Cosa può fare un allenatore quando un'atleta ha dolori mestruali?",
           "id": "faq-cosa-puo-fare-un-allenatore-quando-unatleta-ha-dolori"
+        },
+        {
+          "q": "Quante adolescenti rinunciano allo sport durante il ciclo?",
+          "id": "faq-quante-adolescenti-rinunciano-allo-sport-durante-il"
+        },
+        {
+          "q": "Che differenza c'è tra dismenorrea primaria e secondaria?",
+          "id": "faq-che-differenza-ce-tra-dismenorrea-primaria-e-secondaria"
         }
       ]
     },
@@ -1677,6 +1773,14 @@
         {
           "q": "What can a coach do when an athlete has period pain?",
           "id": "faq-what-can-a-coach-do-when-an-athlete-has-period-pain"
+        },
+        {
+          "q": "How many teenage girls give up sport during their period?",
+          "id": "faq-how-many-teenage-girls-give-up-sport-during-their-period"
+        },
+        {
+          "q": "What is the difference between primary and secondary dysmenorrhoea?",
+          "id": "faq-what-is-the-difference-between-primary-and-secondary"
         }
       ]
     },

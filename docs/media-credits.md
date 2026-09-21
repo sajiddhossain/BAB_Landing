@@ -428,3 +428,22 @@
   Scartate in fase di selezione: le immagini di ecografi (le uniche CC0 disponibili ritraevano personale
   sanitario e pazienti reali identificabili) e una foto di calendario aperto con annotazioni, di provenienza
   Wikimedia rimpacchettata da rawpixel — provenienza esclusa per le cover.
+
+## cover-mononucleosi-sport.jpg
+- Titolo originale: "Free thermometer background" (termometro clinico in vetro appoggiato in diagonale su una
+  superficie rosata, scala 35-42 °C con il 37 evidenziato in rosso)
+- Fonte: rawpixel — https://www.rawpixel.com/image/5921449/photo-image-background-design-public-domain
+  (reperita via API Openverse, filtro licenza cc0/pdm; id Openverse `2af46ad8-33ba-4a04-92fa-b65586f81ca7`)
+- Autore: non indicato dalla fonte
+- Licenza: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/) — pubblico dominio, uso libero anche
+  commerciale, attribuzione non obbligatoria; registrata qui per tracciabilità
+- Uso: cover articolo blog "mononucleosi e ritorno allo sport nelle giovani atlete" (IT + EN)
+- Lavorazione: rendition `editor_1024` (non filigranata) servita attraverso il proxy Openverse
+  (`/v1/images/{id}/thumb/?full_size=true`). Originale 1024x683 → ritaglio 16:9 a 1024x576 con offset di 54 px
+  dall'alto per tenere il termometro intero e centrato, JPEG q82 con Pillow. Nessun ritocco.
+  Nessuna persona nell'inquadratura, quindi nessun minore identificabile, e nessun marchio leggibile sullo
+  strumento. Scelta del soggetto: la febbre è il sintomo con cui la malattia si presenta e anche quello che,
+  scomparendo, induce a un rientro troppo precoce — il punto centrale dell'articolo.
+  Scartate in fase di selezione: "Closeup of thermometer" (`8564aae3-…`, CC0), che è un termometro da esterno
+  con scala sotto zero e avrebbe suggerito il freddo invece della febbre; le foto CC0 "Temperature check" con
+  persone reali in contesto COVID (volti riconoscibili e contesto fuorviante).

@@ -1,6 +1,160 @@
 {
   "posts": [
     {
+      "slug": "mononucleosi-sport-giovani-atlete",
+      "lang": "it",
+      "title": "Mononucleosi e sport: quando un'atleta adolescente può tornare ad allenarsi (e perché il problema è la milza)",
+      "seoTitle": "Mononucleosi e sport: quando si torna ad allenarsi",
+      "seoDescription": "Dopo la mononucleosi le lesioni della milza si concentrano nei primi 21 giorni e sono rarissime dopo i 28 (Becker e Smith, 2014). Come si torna allo sport, per gradi.",
+      "date": "2026-09-21",
+      "updated": "2026-09-21",
+      "author": "Sajid Hossain",
+      "excerpt": "La mononucleosi colpisce proprio negli anni dello sport agonistico, e la domanda che arriva in palestra è sempre la stessa: quando può tornare? La risposta non dipende dalla gola o dalla febbre, ma da un organo che non si vede e non si sente — la milza. Ecco che cosa dicono gli studi su tempi, rischi e stanchezza che non passa, e perché un'ecografia sola non basta a decidere.",
+      "answer": "Di solito non prima di 3 settimane dall'inizio dei sintomi, e poi per gradi. La milza si ingrossa e le sue lesioni si concentrano nei primi 21 giorni di malattia, diventando rarissime dopo i 28; la rottura riguarda meno dello 0,5% dei casi (Becker e Smith, 2014, revisione clinica). Gli sport di contatto richiedono più cautela, e la decisione è individuale e medica.",
+      "cover": "/fotobab/cover-mononucleosi-sport.jpg",
+      "coverAlt": "Un termometro clinico in vetro appoggiato in diagonale su una superficie rosata, con la scala dei gradi da 35 a 42 e il 37 evidenziato in rosso; nessuna persona e nessun marchio nell'inquadratura",
+      "tags": [
+        "mononucleosi-infettiva",
+        "splenomegalia",
+        "rottura-splenica",
+        "ritorno-al-gioco",
+        "idoneita-agonistica",
+        "sonno"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Che cos'è la mononucleosi, e perché arriva proprio a quell'età?",
+          "id": "che-cose-la-mononucleosi-e-perche-arriva-proprio-a-quelleta"
+        },
+        {
+          "level": 2,
+          "text": "Come si riconosce, in un'atleta?",
+          "id": "come-si-riconosce-in-unatleta"
+        },
+        {
+          "level": 3,
+          "text": "E il test rapido?",
+          "id": "e-il-test-rapido"
+        },
+        {
+          "level": 2,
+          "text": "Perché il vero problema è la milza?",
+          "id": "perche-il-vero-problema-e-la-milza"
+        },
+        {
+          "level": 2,
+          "text": "Perché un'ecografia sola non basta?",
+          "id": "perche-unecografia-sola-non-basta"
+        },
+        {
+          "level": 2,
+          "text": "Quando si può tornare ad allenarsi?",
+          "id": "quando-si-puo-tornare-ad-allenarsi"
+        },
+        {
+          "level": 2,
+          "text": "E se la stanchezza non passa?",
+          "id": "e-se-la-stanchezza-non-passa"
+        },
+        {
+          "level": 2,
+          "text": "E la squadra? È contagiosa?",
+          "id": "e-la-squadra-e-contagiosa"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa può fare chi allena (e che cosa no)",
+          "id": "che-cosa-puo-fare-chi-allena-e-che-cosa-no"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 3011,
+      "readingMinutes": 15,
+      "timeRequired": "PT15M"
+    },
+    {
+      "slug": "mononucleosi-sport-giovani-atlete",
+      "lang": "en",
+      "title": "Glandular fever and sport: when a teenage athlete can return to training (and why the spleen is the problem)",
+      "seoTitle": "Mono and sport in teens: when to return to training",
+      "seoDescription": "After mono, spleen injuries cluster in the first 21 days and are exceedingly rare after day 28 (Becker and Smith, 2014). How a teenage athlete returns, step by step.",
+      "date": "2026-09-21",
+      "updated": "2026-09-21",
+      "author": "Sajid Hossain",
+      "excerpt": "Infectious mononucleosis strikes in exactly the years of competitive sport, and the question at the gym is always the same: when can she come back? The answer does not depend on the sore throat or the fever, but on an organ nobody can see or feel — the spleen. Here is what the studies say about timing, risk and the tiredness that will not lift, and why a single scan is not enough to decide.",
+      "answer": "Usually not before 3 weeks from symptom onset, and then gradually. The spleen enlarges, and spleen injuries cluster in the first 21 days of illness and become exceedingly rare after day 28; rupture occurs in under 0.5% of cases (Becker and Smith, 2014, clinical review). Contact sports call for more caution, and the decision is individual and medical.",
+      "cover": "/fotobab/cover-mononucleosi-sport.jpg",
+      "coverAlt": "A glass clinical thermometer lying diagonally on a pinkish surface, its scale running from 35 to 42 degrees with 37 marked in red; no person and no brand in the frame",
+      "tags": [
+        "infectious mononucleosis",
+        "splenomegaly",
+        "splenic rupture",
+        "return to play",
+        "sports eligibility",
+        "sleep"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is mononucleosis, and why does it arrive at that age?",
+          "id": "what-is-mononucleosis-and-why-does-it-arrive-at-that-age"
+        },
+        {
+          "level": 2,
+          "text": "How do you recognise it in an athlete?",
+          "id": "how-do-you-recognise-it-in-an-athlete"
+        },
+        {
+          "level": 3,
+          "text": "What about the rapid test?",
+          "id": "what-about-the-rapid-test"
+        },
+        {
+          "level": 2,
+          "text": "Why is the spleen the real problem?",
+          "id": "why-is-the-spleen-the-real-problem"
+        },
+        {
+          "level": 2,
+          "text": "Why is a single scan not enough?",
+          "id": "why-is-a-single-scan-not-enough"
+        },
+        {
+          "level": 2,
+          "text": "When can she return to training?",
+          "id": "when-can-she-return-to-training"
+        },
+        {
+          "level": 2,
+          "text": "What if the tiredness does not lift?",
+          "id": "what-if-the-tiredness-does-not-lift"
+        },
+        {
+          "level": 2,
+          "text": "And the squad? Is it contagious?",
+          "id": "and-the-squad-is-it-contagious"
+        },
+        {
+          "level": 2,
+          "text": "What a coach can do (and what not)",
+          "id": "what-a-coach-can-do-and-what-not"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 2939,
+      "readingMinutes": 15,
+      "timeRequired": "PT15M"
+    },
+    {
       "slug": "ovaio-policistico-giovani-atlete",
       "lang": "it",
       "title": "«Sarà l'allenamento»: quando il ciclo irregolare di un'atleta adolescente è sindrome dell'ovaio policistico",
@@ -890,7 +1044,7 @@
       "seoTitle": "Effetto età relativa nello sport femminile: quanto conta il mese di nascita",
       "seoDescription": "Nello sport femminile le nate nel primo trimestre sono 1,25 volte più rappresentate delle nate nell'ultimo: dove pesa, a che età, e cosa può fare una società.",
       "date": "2026-09-11",
-      "updated": "2026-09-11",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "In una squadra di under 14 possono convivere due ragazze con undici mesi di differenza e tre anni di sviluppo biologico di distanza, e il regolamento le tratta come coetanee. Su 57 studi e 308 campioni, le nate a gennaio-marzo risultano più rappresentate delle nate a ottobre-dicembre in modo piccolo ma sistematico — e nelle federazioni dove lo si è misurato, chi è nata a fine anno smette prima. Cosa dicono i numeri e cosa può cambiare una società senza aspettare una riforma.",
       "answer": "Nello sport femminile l'effetto dell'età relativa esiste ma è di entità piccola: nella meta-analisi di 57 studi e 308 campioni indipendenti su 25 sport, le atlete nate nel primo trimestre dell'anno di selezione sono 1,25 volte più rappresentate di quelle nate nell'ultimo (odds ratio 1,25; IC 95% 1,21-1,30), con l'effetto più marcato fino ai 14 anni e ai livelli competitivi più alti (Smith et al., 2018).",
@@ -947,8 +1101,8 @@
         },
         {
           "level": 2,
-          "text": "Cosa può fare una società dalla prossima stagione",
-          "id": "cosa-puo-fare-una-societa-dalla-prossima-stagione"
+          "text": "Che cosa può fare una società dalla prossima stagione?",
+          "id": "che-cosa-puo-fare-una-societa-dalla-prossima-stagione"
         },
         {
           "level": 2,
@@ -957,8 +1111,8 @@
         },
         {
           "level": 2,
-          "text": "Quando rivolgersi a un professionista",
-          "id": "quando-rivolgersi-a-un-professionista"
+          "text": "Quando è il caso di rivolgersi a un professionista?",
+          "id": "quando-e-il-caso-di-rivolgersi-a-un-professionista"
         },
         {
           "level": 2,
@@ -966,9 +1120,9 @@
           "id": "fonti"
         }
       ],
-      "words": 3087,
-      "readingMinutes": 15,
-      "timeRequired": "PT15M"
+      "words": 3144,
+      "readingMinutes": 16,
+      "timeRequired": "PT16M"
     },
     {
       "slug": "eta-relativa-selezione-giovani-atlete",
@@ -977,7 +1131,7 @@
       "seoTitle": "Relative age effect in female sport: how much birth month counts",
       "seoDescription": "In female sport, girls born in the first quarter are 1.25 times more represented than those born in the last: where it bites, at what age, and what a club can do.",
       "date": "2026-09-11",
-      "updated": "2026-09-11",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "An under-14 squad can contain two girls eleven months apart and three years apart in biological development, and the rulebook treats them as the same age. Across 57 studies and 308 samples, girls born in January-March are more represented than those born in October-December — small, but systematic — and in the federations where it has been tracked, those born late in the year quit sooner. What the numbers say, and what a club can change without waiting for a reform.",
       "answer": "In female sport the relative age effect exists but is small: in a meta-analysis of 57 studies and 308 independent samples across 25 sports, athletes born in the first quarter of the selection year are 1.25 times more represented than those born in the last (odds ratio 1.25; 95% CI 1.21-1.30), with the effect most pronounced up to age 14 and at higher competition levels (Smith et al., 2018).",
@@ -1034,8 +1188,8 @@
         },
         {
           "level": 2,
-          "text": "What a club can do from next season",
-          "id": "what-a-club-can-do-from-next-season"
+          "text": "What can a club do from next season?",
+          "id": "what-can-a-club-do-from-next-season"
         },
         {
           "level": 2,
@@ -1044,8 +1198,8 @@
         },
         {
           "level": 2,
-          "text": "When to consult a professional",
-          "id": "when-to-consult-a-professional"
+          "text": "When is it time to consult a professional?",
+          "id": "when-is-it-time-to-consult-a-professional"
         },
         {
           "level": 2,
@@ -1053,7 +1207,7 @@
           "id": "sources"
         }
       ],
-      "words": 2954,
+      "words": 3005,
       "readingMinutes": 15,
       "timeRequired": "PT15M"
     },
@@ -1064,7 +1218,7 @@
       "seoTitle": "Genitori a bordo campo: cosa vogliono le giovani atlete",
       "seoDescription": "Interrogate una per una, 36 atlete di 13,5 anni in media chiedono tutte lo stesso: tifare per tutta la squadra, guardare all'impegno, non allenare da fuori.",
       "date": "2026-08-31",
-      "updated": "2026-08-31",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Nessuno insegna a un genitore come stare a bordo campo, e quasi tutti scoprono da soli che qualcosa non funziona — di solito in macchina, sulla strada di casa. La ricerca però lo ha chiesto direttamente alle ragazze: 36 atlete di 12-15 anni hanno descritto cosa vogliono dai genitori prima, durante e dopo la partita, e su tre comportamenti la risposta è stata unanime, 36 su 36. Non è un galateo: è una mappa di cosa arriva davvero dall'altra parte del campo.",
       "answer": "In interviste individuali a 36 atlete di 12-15 anni (età media 13,5) di sport di squadra, tre preferenze sono state riportate da tutte e 36: che i genitori incoraggino la squadra intera e non solo la propria figlia, che guardino all'impegno invece che al risultato, e che tengano sotto controllo le proprie emozioni. I comportamenti meno graditi erano dare indicazioni tecniche da fuori (29 atlete su 36) e discutere con gli arbitri (31 su 36) (Knight, Neely e Holt, 2011 — studio qualitativo su 36 atlete canadesi, descrive preferenze e non effetti misurati).",
@@ -1116,13 +1270,13 @@
         },
         {
           "level": 2,
-          "text": "Perché «divertirsi» non è una parola vaga",
-          "id": "perche-divertirsi-non-e-una-parola-vaga"
+          "text": "«Divertirsi» è una parola vaga?",
+          "id": "divertirsi-e-una-parola-vaga"
         },
         {
           "level": 2,
-          "text": "Cosa può fare un genitore da domenica prossima",
-          "id": "cosa-puo-fare-un-genitore-da-domenica-prossima"
+          "text": "Che cosa può fare un genitore da domenica prossima?",
+          "id": "che-cosa-puo-fare-un-genitore-da-domenica-prossima"
         },
         {
           "level": 2,
@@ -1131,8 +1285,8 @@
         },
         {
           "level": 2,
-          "text": "Quando rivolgersi a un professionista",
-          "id": "quando-rivolgersi-a-un-professionista"
+          "text": "Quando è il caso di rivolgersi a un professionista?",
+          "id": "quando-e-il-caso-di-rivolgersi-a-un-professionista"
         },
         {
           "level": 2,
@@ -1140,7 +1294,7 @@
           "id": "fonti"
         }
       ],
-      "words": 3383,
+      "words": 3445,
       "readingMinutes": 17,
       "timeRequired": "PT17M"
     },
@@ -1151,7 +1305,7 @@
       "seoTitle": "Parents on the sideline: what young female athletes want",
       "seoDescription": "Interviewed one by one, 36 athletes averaging 13.5 years asked for the same three things: cheer the whole team, watch the effort, never coach from the stands.",
       "date": "2026-08-31",
-      "updated": "2026-08-31",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Nobody teaches a parent how to behave on the sideline, and most work out on their own that something is off — usually in the car, on the way home. Research has asked the girls directly: 36 athletes aged 12-15 described what they want from parents before, during and after competition, and on three behaviours the answer was unanimous, 36 out of 36. This is not etiquette. It is a map of what actually lands on the other side of the touchline.",
       "answer": "In individual interviews with 36 team-sport athletes aged 12-15 (mean age 13.5), three preferences were reported by all 36: that parents encourage the entire team rather than only their own daughter, that they focus on effort rather than the outcome, and that they keep their own emotions under control. The least welcome behaviours were coaching from the sideline (29 of 36 athletes) and arguing with officials (31 of 36) (Knight, Neely and Holt, 2011 — a qualitative study of 36 Canadian athletes, describing preferences rather than measured effects).",
@@ -1203,13 +1357,13 @@
         },
         {
           "level": 2,
-          "text": "Why «having fun» is not a vague word",
-          "id": "why-having-fun-is-not-a-vague-word"
+          "text": "Is «having fun» a vague word?",
+          "id": "is-having-fun-a-vague-word"
         },
         {
           "level": 2,
-          "text": "What a parent can do from next Sunday",
-          "id": "what-a-parent-can-do-from-next-sunday"
+          "text": "What can a parent do from next Sunday?",
+          "id": "what-can-a-parent-do-from-next-sunday"
         },
         {
           "level": 2,
@@ -1218,8 +1372,8 @@
         },
         {
           "level": 2,
-          "text": "When to consult a professional",
-          "id": "when-to-consult-a-professional"
+          "text": "When is it time to consult a professional?",
+          "id": "when-is-it-time-to-consult-a-professional"
         },
         {
           "level": 2,
@@ -1227,7 +1381,7 @@
           "id": "sources"
         }
       ],
-      "words": 3339,
+      "words": 3410,
       "readingMinutes": 17,
       "timeRequired": "PT17M"
     },
@@ -1400,7 +1554,7 @@
       "seoTitle": "Visita di idoneità agonistica: cosa controlla davvero",
       "seoDescription": "Cinque accertamenti previsti per legge dal 1982: visita, urine, ECG a riposo e dopo sforzo, spirografia. Nessuno riguarda ciclo, ferro o salute ossea.",
       "date": "2026-08-28",
-      "updated": "2026-09-18",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Ogni anno, prima di poter giocare, un'atleta passa da un ambulatorio e ne esce con un certificato. Gli accertamenti che la legge italiana prevede dal 1982 sono cinque — visita medica, esame completo delle urine, elettrocardiogramma a riposo e dopo sforzo, spirografia — e sono nati per intercettare un problema preciso: le cardiopatie che causano morte improvvisa. Su quel fronte i dati del Veneto mostrano un calo dell'89% dell'incidenza. Ma nessuno dei cinque riguarda il ciclo mestruale, la disponibilità energetica, il ferro o la salute ossea: cioè le cose che, statisticamente, fermano di più una ragazza di 14 anni. Cosa copre il certificato, cosa non copre, e quali domande vale la pena portarsi in ambulatorio.",
       "answer": "Prevede cinque accertamenti fissati dal DM 18 febbraio 1982: visita medica, esame completo delle urine, elettrocardiogramma a riposo e dopo sforzo, spirografia. È uno screening cardiologico, e sul suo bersaglio funziona — nel Veneto l'incidenza di morte cardiovascolare improvvisa negli atleti sottoposti a screening è scesa dell'89% (Corrado et al., 2006; 55 decessi, di cui 50 maschi, età media 23,3 anni). Non è invece uno screening della salute dell'atleta adolescente: ciclo, disponibilità energetica, ferro e salute ossea non sono nella lista.",
@@ -1465,7 +1619,7 @@
           "id": "fonti"
         }
       ],
-      "words": 3631,
+      "words": 3699,
       "readingMinutes": 18,
       "timeRequired": "PT18M"
     },
@@ -1476,7 +1630,7 @@
       "seoTitle": "Sports eligibility exam: what it actually checks",
       "seoDescription": "Five tests required by Italian law since 1982: exam, urinalysis, ECG at rest and after exercise, spirography. None of them covers periods, iron or bone health.",
       "date": "2026-08-28",
-      "updated": "2026-09-18",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Every year, before she can play, an athlete visits a clinic and leaves with a certificate. Italian law has required five tests since 1982 — medical examination, full urinalysis, ECG at rest and after exercise, spirography — and they were designed to catch one thing: the cardiac conditions that cause sudden death. On that target the Veneto data show an 89% drop in incidence. But none of the five covers the menstrual cycle, energy availability, iron or bone health: the things that, statistically, are far more likely to stop a 14-year-old. What the certificate covers, what it does not, and which questions are worth bringing into the room.",
       "answer": "It requires five tests set out in the Italian ministerial decree of 18 February 1982: medical examination, full urinalysis, ECG at rest, ECG after exercise, and spirography. It is a cardiac screening programme, and on its own target it works — in the Veneto region the incidence of sudden cardiovascular death in screened athletes fell by 89% (Corrado et al., 2006; 55 deaths, 50 of them male, mean age 23.3 years). It is not a screening of adolescent athlete health: cycle, energy availability, iron and bone are not on the list.",
@@ -1541,9 +1695,9 @@
           "id": "sources"
         }
       ],
-      "words": 3658,
-      "readingMinutes": 18,
-      "timeRequired": "PT18M"
+      "words": 3729,
+      "readingMinutes": 19,
+      "timeRequired": "PT19M"
     },
     {
       "slug": "integratori-energy-drink-giovani-atlete",
@@ -2268,7 +2422,7 @@
       "seoTitle": "Tornare allo sport dopo un infortunio: quando è ora",
       "seoDescription": "Dopo un crociato l'81% torna allo sport ma solo il 55% al livello competitivo. La prontezza psicologica conta quanto il ginocchio.",
       "date": "2026-08-16",
-      "updated": "2026-09-18",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Dopo una ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo — e chi non torna, spesso, ha un ginocchio che funziona. La prontezza psicologica si misura, predice il rientro e, negli under 20, è associata al rischio di un secondo infortunio. Cosa dicono i numeri sul calendario, sui criteri e sulle ragazze, e cosa può dire davvero chi allena il giorno del rientro.",
       "answer": "Perché il tessuto guarisce prima della fiducia: dopo la ricostruzione del crociato l'81% torna a fare sport, ma solo il 55% torna a livello competitivo, e tra chi non rientra la paura di rifarsi male è una delle ragioni più frequenti (Ardern et al., 2014, meta-analisi su 7.556 partecipanti in prevalenza adulti).",
@@ -2328,7 +2482,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2534,
+      "words": 2566,
       "readingMinutes": 13,
       "timeRequired": "PT13M"
     },
@@ -2339,7 +2493,7 @@
       "seoTitle": "Return to sport after injury: when it's time",
       "seoDescription": "After ACL reconstruction 81% return to sport but only 55% to competitive level. Psychological readiness matters as much as the knee.",
       "date": "2026-08-16",
-      "updated": "2026-09-18",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "After ACL reconstruction 81% go back to playing sport, but only 55% go back to competitive level — and many of those who never return have a knee that works fine. Psychological readiness can be measured, it predicts return, and in under-20s it is associated with the risk of a second injury. What the numbers say about the calendar, about criteria and about girls, and what a coach can actually say on the day someone comes back.",
       "answer": "Because tissue heals faster than confidence: after ACL reconstruction 81% go back to playing sport but only 55% return to competitive level, and among those who do not return, fear of reinjury is one of the most common reasons (Ardern et al., 2014, a meta-analysis of 7,556 participants, mostly adults).",
@@ -2399,7 +2553,7 @@
           "id": "sources"
         }
       ],
-      "words": 2435,
+      "words": 2463,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -2410,7 +2564,7 @@
       "seoTitle": "Fare sport con il ciclo: la gestione pratica",
       "seoDescription": "Dal 25% al 61% delle adolescenti evita lo sport durante le mestruazioni. Prodotti, divise e kit in palestra: la gestione pratica del ciclo, senza tabù.",
       "date": "2026-08-13",
-      "updated": "2026-09-19",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "La paura delle perdite è una delle ragioni per cui le ragazze saltano allenamenti e ore di educazione fisica — e tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni. Quasi tutti i contenuti si fermano a dire che è un problema. Questo prova a rispondere alla domanda pratica che nessuno affronta: cosa si fa, concretamente, il giorno in cui capita.",
       "answer": "Con tre cose che dipendono più dall'organizzazione che dall'atleta: un prodotto mestruale adatto al gesto sportivo, una divisa che non aumenti la paura delle perdite e un kit disponibile in palestra. Tra le adolescenti dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, e la paura delle perdite è una barriera ricorrente (Harvey et al., 2025).",
@@ -2469,7 +2623,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2735,
+      "words": 2823,
       "readingMinutes": 14,
       "timeRequired": "PT14M"
     },
@@ -2480,7 +2634,7 @@
       "seoTitle": "Playing sport on your period: a practical guide",
       "seoDescription": "Between 25% and 61% of adolescent girls avoid sport during their period. Products, kit and what to keep at the gym: the practical side, without taboos.",
       "date": "2026-08-13",
-      "updated": "2026-09-19",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Fear of leaking is one of the reasons girls skip training sessions and PE lessons — and among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period. Almost every article on the subject stops at saying it is a problem. This one tries to answer the practical question nobody addresses: what do you actually do on the day it happens.",
       "answer": "With three things that depend on organisation rather than on the athlete: a menstrual product suited to the movement, kit that does not add to the fear of leaking, and supplies available at the gym. Among adolescents, between 25.2% and 61.1% avoid or reduce physical activity during their period, and fear of leaking is a recurring barrier (Harvey et al., 2025).",
@@ -2539,9 +2693,9 @@
           "id": "sources"
         }
       ],
-      "words": 2667,
-      "readingMinutes": 13,
-      "timeRequired": "PT13M"
+      "words": 2748,
+      "readingMinutes": 14,
+      "timeRequired": "PT14M"
     },
     {
       "slug": "dolore-spalla-giovani-atlete",
@@ -2702,7 +2856,7 @@
       "seoTitle": "Dolori mestruali e sport: cosa funziona davvero",
       "seoDescription": "La dismenorrea riguarda il 71,1% delle giovani. Cosa funziona davvero (calore, esercizio, FANS) e quando un dolore che ferma la vita va fatto valutare.",
       "date": "2026-08-10",
-      "updated": "2026-09-13",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Il 71% delle giovani donne under 25 ha dolori mestruali e una su cinque salta la scuola per questo. Tra le atlete la dismenorrea è il disturbo del ciclo più frequente. Eppure quasi nessuno spiega a una ragazza di 14 anni due cose semplici: che il dolore ha trattamenti con prove alle spalle — esercizio, calore, farmaci — e che un dolore che continua a farle saltare gli allenamenti non è qualcosa da sopportare, è qualcosa da far valutare.",
       "answer": "Un dolore che fa saltare scuola o allenamenti non è normale, per quanto sia comune: la dismenorrea riguarda il 71,1% delle giovani donne under 25 e il 20,1% ha saltato la scuola per questo (Armour et al., 2019). Hanno effetto misurato l'esercizio fisico (SMD -1,86) e il calore, con qualità delle prove bassa; se non migliora entro 3-6 mesi va indagata una causa secondaria.",
@@ -2761,9 +2915,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2462,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2563,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "dolori-mestruali-giovani-atlete",
@@ -2772,7 +2926,7 @@
       "seoTitle": "Period pain and sport: what actually works",
       "seoDescription": "Dysmenorrhoea affects 71.1% of young women. What actually works (heat, exercise, NSAIDs) and when pain that stops life needs assessing.",
       "date": "2026-08-10",
-      "updated": "2026-09-13",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "71% of young women under 25 have period pain, and one in five has already missed school because of it. Among athletes, dysmenorrhoea is the most common menstrual cycle disorder. Yet almost nobody tells a 14-year-old two simple things: that period pain has treatments with evidence behind them — exercise, heat, medication — and that pain which keeps making her miss training is not something to endure, it is something to have assessed.",
       "answer": "Pain that costs school days or training sessions is not normal, however common it is: dysmenorrhoea affects 71.1% of young women under 25, and 20.1% have missed school because of it (Armour et al., 2019). Exercise (SMD -1.86) and heat have a measured effect, with low-quality evidence; if it does not improve within 3-6 months, a secondary cause should be investigated.",
@@ -2831,9 +2985,9 @@
           "id": "sources"
         }
       ],
-      "words": 2406,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2503,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "mal-di-schiena-giovani-atlete",
@@ -4391,7 +4545,7 @@
       "seoTitle": "Ferro basso nelle atlete adolescenti: come si trova",
       "seoDescription": "Il 53,2% delle atlete adolescenti ha una carenza di ferro lieve, ma l'emocromo da solo non la vede: serve la ferritina. Sintomi, esami e cosa chiedere.",
       "date": "2026-07-16",
-      "updated": "2026-08-28",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Il 53,2% delle atlete di 11-18 anni ha riserve di ferro basse, ma solo il 4% ha un'anemia: la carenza arriva molto prima, e con l'emocromo normale non si vede. Dal 2026 l'American Academy of Pediatrics raccomanda emocromo più ferritina in tutte le adolescenti entro i 14 anni. Cosa dicono i dati, cosa alza davvero il rischio, e perché la mossa giusta è un prelievo — mai un integratore preso da soli.",
       "answer": "Con un esame del sangue, non a intuito: il 53,2% delle atlete adolescenti ha una carenza di ferro lieve (ferritina ≤30 µg/L), mentre l'anemia sideropenica riguarda solo il 4% (Nicotra et al., 2023). Lo sport non è il fattore dominante — tra le adolescenti, atlete e non atlete non differiscono in modo significativo — e integrare senza aver misurato non è una buona idea.",
@@ -4446,7 +4600,7 @@
           "id": "fonti"
         }
       ],
-      "words": 2021,
+      "words": 2056,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -4457,7 +4611,7 @@
       "seoTitle": "Low iron in teenage athletes: how it is found",
       "seoDescription": "53.2% of adolescent athletes have mild iron deficiency, but a full blood count alone misses it: ferritin is the test. Symptoms and what to ask for.",
       "date": "2026-07-16",
-      "updated": "2026-08-28",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "53.2% of athletes aged 11-18 have low iron stores, but only 4% are anaemic: deficiency arrives long before anaemia, and a normal blood count hides it. Since 2026 the American Academy of Pediatrics recommends a full blood count plus ferritin in every adolescent by age 14. What the evidence says, what actually raises the risk, and why the right move is a blood test — never a supplement taken alone.",
       "answer": "With a blood test, not by intuition: 53.2% of adolescent female athletes have mild iron deficiency (ferritin ≤30 µg/L), while iron-deficiency anaemia affects only 4% (Nicotra et al., 2023). Sport is not the dominant factor — among adolescents, athletes and non-athletes do not differ significantly — and supplementing without measuring first is not a good idea.",
@@ -4511,7 +4665,7 @@
           "id": "sources"
         }
       ],
-      "words": 1911,
+      "words": 1945,
       "readingMinutes": 10,
       "timeRequired": "PT10M"
     },
@@ -4658,9 +4812,9 @@
       "lang": "it",
       "title": "Le parole dell'allenatore: come la cultura e il linguaggio dello staff cambiano la salute delle atlete",
       "seoTitle": "Le parole dell'allenatore e la salute delle atlete",
-      "seoDescription": "Con un'allenatrice donna parla di ciclo il 55% delle atlete, con un allenatore uomo il 4%. Cosa dire, cosa non dire mai e come aprire un canale.",
+      "seoDescription": "Fra 1.086 atlete adulte parla di ciclo il 55% di chi ha un'allenatrice, il 4% di chi ha un allenatore. Cosa dire, cosa non dire mai e come aprire un canale.",
       "date": "2026-07-09",
-      "updated": "2026-09-12",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Cosa dovrebbe sapere — e cosa è meglio non dire mai — chi allena ragazze adolescenti. Le atlete che percepiscono il proprio allenatore come molto informato riportano il 36% di sintomi di RED-S in meno; chi ha ricevuto commenti sul proprio corpo è quattro volte più propensa a modificare l'alimentazione (33% contro 7%). Il linguaggio dello staff non è un contorno neutro dell'allenamento: è una variabile di salute misurabile. I dati, i limiti, e cosa farne domani in palestra.",
       "answer": "Più di quanto sembri, e si misura: un allenatore percepito come molto informato si associa a 3,2 sintomi di RED-S in media contro 4,3, cioè il 36% in meno, mentre i commenti sul corpo che mettono a disagio si associano a quattro volte più probabilità di modificare l'alimentazione (Female Athlete Health Report, 2023 — campione adulto, non peer-reviewed).",
@@ -4708,18 +4862,18 @@
           "id": "fonti"
         }
       ],
-      "words": 2410,
-      "readingMinutes": 12,
-      "timeRequired": "PT12M"
+      "words": 2521,
+      "readingMinutes": 13,
+      "timeRequired": "PT13M"
     },
     {
       "slug": "parole-allenatore-salute-atlete",
       "lang": "en",
       "title": "A coach's words: how staff knowledge and language change athletes' health",
       "seoTitle": "A coach's words and young athletes' health",
-      "seoDescription": "With a female coach, 55% of athletes discuss their cycle; with a male coach, 4%. What to say, what never to say, and how to open a channel.",
+      "seoDescription": "Among 1,086 adult athletes, 55% with a female coach discuss their cycle, 4% with a male one. What to say, what never to say, and how to open a channel.",
       "date": "2026-07-09",
-      "updated": "2026-09-12",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "What a coach of adolescent girls should know — and what is better never said. Athletes who perceive their coach as very knowledgeable report 36% fewer RED-S symptoms; those who have received comments about their body are four times more likely to change how they eat (33% vs 7%). Staff language is not a neutral backdrop to training: it is a measurable health variable. The data, the limits, and what to do with it tomorrow in the gym.",
       "answer": "More than it seems, and it is measurable: a coach perceived as very well-informed is associated with 3.2 RED-S symptoms on average against 4.3 — 36% fewer — while comments about the body that make athletes uncomfortable are associated with four times the odds of changing their eating (Female Athlete Health Report, 2023 — adult sample, not peer-reviewed).",
@@ -4767,7 +4921,7 @@
           "id": "sources"
         }
       ],
-      "words": 2347,
+      "words": 2455,
       "readingMinutes": 12,
       "timeRequired": "PT12M"
     },
@@ -4910,12 +5064,12 @@
       "lang": "it",
       "title": "Parlare di ciclo con l'allenatore: perché lo fa solo l'11% delle atlete (e come cambiarlo)",
       "seoTitle": "Parlare del ciclo con l'allenatore: come farlo",
-      "seoDescription": "Solo l'11% delle atlete parla di ciclo con chi la allena, il 4% se è un uomo. Perché succede e cosa cambia il silenzio in una società sportiva.",
+      "seoDescription": "Su 1.086 atlete adulte solo l'11% parla di ciclo con chi la allena, il 4% se è un uomo (von Rosen et al., 2022). Perché succede e come si apre il canale.",
       "date": "2026-07-03",
-      "updated": "2026-09-12",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: il 4% se è un uomo, il 55% se è una donna. E l'88% ha imparato queste cose da sola. Non è disinteresse: è l'assenza di un canale sicuro. Cosa dicono i dati raccolti su 1.086 atlete in 57 sport, cosa può dire davvero chi allena, cosa rispondere quando un'atleta parla di dolore, e come si apre il canale senza obbligare nessuna a esporsi.",
-      "answer": "Perché quasi nessuno lo ha reso possibile: solo l'11% delle atlete parla di ciclo con chi la allena — 4% se è un uomo, 55% se è una donna — e l'88% ha imparato queste cose da sola (Höök et al., 2022). Non è timidezza: è l'assenza di un canale e di un linguaggio condivisi, e si cambia dal lato dello staff.",
+      "answer": "Perché quasi nessuno lo ha reso possibile: solo l'11% delle atlete parla di ciclo con chi la allena — 4% se è un uomo, 55% se è una donna — e l'88% ha imparato queste cose da sola (von Rosen et al., 2022; atlete adulte). Non è timidezza: è l'assenza di un canale e di un linguaggio condivisi, e si cambia dal lato dello staff.",
       "cover": "/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif",
       "coverAlt": "Ragazza sorridente seduta alla scrivania di camera sua, con cuffie al collo, mentre scrive su un quaderno",
       "tags": [
@@ -4956,7 +5110,7 @@
           "id": "fonti"
         }
       ],
-      "words": 1519,
+      "words": 1655,
       "readingMinutes": 8,
       "timeRequired": "PT8M"
     },
@@ -4965,12 +5119,12 @@
       "lang": "en",
       "title": "Talking about periods with your coach: why only 11% of athletes do (and how to change it)",
       "seoTitle": "Talking about periods with your coach",
-      "seoDescription": "Only 11% of athletes discuss their cycle with their coach — 4% if he is a man. Why that happens and what actually breaks the silence.",
+      "seoDescription": "Of 1,086 adult athletes only 11% discuss their cycle with their coach, 4% if he is a man (von Rosen et al., 2022). Why it happens and how to open the channel.",
       "date": "2026-07-03",
-      "updated": "2026-09-12",
+      "updated": "2026-09-21",
       "author": "Sajid Hossain",
       "excerpt": "Only 11% of athletes talk about their menstrual cycle with their coach: 4% if he's a man, 55% if she's a woman. And 88% learned these things on their own. It isn't disinterest: it is the absence of a safe channel. What data from 1,086 athletes across 57 sports show, what coaches can actually say, what to answer when an athlete mentions pain, and how to open the channel without forcing anyone to expose herself.",
-      "answer": "Because almost nobody has made it possible: only 11% of athletes discuss their cycle with the person coaching them — 4% if that person is a man, 55% if a woman — and 88% learned about it on their own (Höök et al., 2022). This is not shyness: it is the absence of a shared channel and language, and it changes from the staff's side.",
+      "answer": "Because almost nobody has made it possible: only 11% of athletes discuss their cycle with the person coaching them — 4% if that person is a man, 55% if a woman — and 88% learned about it on their own (von Rosen et al., 2022; adult athletes). This is not shyness: it is the absence of a shared channel and language, and it changes from the staff's side.",
       "cover": "/fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif",
       "coverAlt": "A smiling girl sitting at her desk at home, headphones round her neck, writing in a notebook",
       "tags": [
@@ -5011,7 +5165,7 @@
           "id": "sources"
         }
       ],
-      "words": 1554,
+      "words": 1687,
       "readingMinutes": 8,
       "timeRequired": "PT8M"
     },

@@ -109,10 +109,10 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
   amenorrea: {
     name: 'Amenorrea',
     description:
-      "Assenza del ciclo mestruale: primaria quando le mestruazioni non sono mai comparse entro i quindici anni, secondaria quando scompaiono per tre mesi o più in chi le aveva già. Nello sport non è un effetto collaterale innocuo dell'allenamento: può accompagnare una condizione di bassa disponibilità energetica ed è uno dei tre elementi della Triade dell'atleta femminile, insieme alla ridotta salute ossea. Nello studio su 1.086 atlete di Svezia e Norvegia il 22% riferiva un episodio di amenorrea e circa una su cinque non aveva nessuno con cui parlarne in ambito sportivo (Höök et al., 2022; campione misto per età, atlete adulte e adolescenti insieme). Non è fra gli accertamenti previsti dallo screening di idoneità agonistica in Italia.",
+      "Assenza del ciclo mestruale: primaria quando le mestruazioni non sono mai comparse entro i quindici anni, secondaria quando scompaiono per tre mesi o più in chi le aveva già. Nello sport non è un effetto collaterale innocuo dell'allenamento: può accompagnare una condizione di bassa disponibilità energetica ed è uno dei tre elementi della Triade dell'atleta femminile, insieme alla ridotta salute ossea. Nello studio su 1.086 atlete ADULTE di Svezia e Norvegia, tutte di almeno 18 anni, solo il 60% non aveva mai avuto un'amenorrea di oltre tre mesi e il 22% non aveva nessuno con cui parlarne in ambito sportivo (von Rosen et al., 2022). Non è fra gli accertamenti previsti dallo screening di idoneità agonistica in Italia.",
     nameEn: 'Amenorrhoea',
     descriptionEn:
-      'The absence of menstruation: primary when periods have never appeared by age fifteen, secondary when they disappear for three months or more in someone who previously had them. In sport it is not a harmless side effect of training: it can accompany low energy availability and is one of the three components of the Female Athlete Triad, alongside reduced bone health. In the study of 1,086 Swedish and Norwegian athletes, 22% reported an episode of amenorrhoea and roughly one in five had nobody in their sporting environment to discuss it with (Höök et al., 2022; mixed-age sample, adult and adolescent athletes together). It is not among the tests required by competitive sports eligibility screening in Italy.',
+      'The absence of menstruation: primary when periods have never appeared by age fifteen, secondary when they disappear for three months or more in someone who previously had them. In sport it is not a harmless side effect of training: it can accompany low energy availability and is one of the three components of the Female Athlete Triad, alongside reduced bone health. In the study of 1,086 ADULT Swedish and Norwegian athletes, all aged 18 or over, only 60% had never had amenorrhoea lasting more than three months and 22% had nobody in their sporting environment to discuss it with (von Rosen et al., 2022). It is not among the tests required by competitive sports eligibility screening in Italy.',
     sameAs: 'https://it.wikipedia.org/wiki/Amenorrea',
   },
   menarca: {
@@ -794,6 +794,33 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
     nameEn: 'Polycystic ovarian morphology',
     descriptionEn:
       'The ultrasound appearance of an ovary with numerous follicles arrested at an intermediate stage of development: they are not cysts, and on their own they do not make a diagnosis. In adolescents they are a feature of the normal settling of the ovarian axis and are found in up to 40% of girls 2 years post-menarche, with little long-term clinical relevance: this is why the guidelines exclude pelvic ultrasound from the diagnostic criteria until 8 years post-menarche (Peña et al., 2025; Teede et al., 2023). It also appears in 41.9-46.7% of ADULT women with functional hypothalamic amenorrhoea, against 14-33% in the general population: this is why the image can lead to the wrong diagnosis (Ott et al., 2025).',
+  },
+  'mononucleosi-infettiva': {
+    name: 'Mononucleosi infettiva',
+    description:
+      "Infezione causata nella grande maggioranza dei casi dal virus di Epstein-Barr, trasmesso con la saliva, con un'incubazione di 30-50 giorni e la triade mal di gola, febbre e linfonodi del collo ingrossati; in un'atleta può presentarsi solo come stanchezza o calo di prestazione. Negli Stati Uniti l'incidenza è di circa 500 casi ogni 100.000 persone l'anno, con il picco fra 15 e 24 anni e senza differenze di sesso (Becker e Smith, 2014). Nello sport conta soprattutto per il rischio a carico della milza, che guida i tempi di rientro: in genere non prima di 3 settimane dall'esordio e poi per gradi, senza linee guida basate su studi controllati (Putukian et al., 2008).",
+    nameEn: 'Infectious mononucleosis',
+    descriptionEn:
+      'An infection caused in the vast majority of cases by the Epstein-Barr virus, spread through saliva, with an incubation period of 30-50 days and the triad of sore throat, fever and swollen neck glands; in an athlete it may show up only as fatigue or a drop in performance. In the United States incidence is about 500 cases per 100,000 people per year, peaking at 15-24 with no sex difference (Becker and Smith, 2014). In sport it matters above all because of the risk to the spleen, which drives return-to-play timing: usually not before 3 weeks from onset and then gradually, with no guidelines based on controlled studies (Putukian et al., 2008).',
+    sameAs: 'https://en.wikipedia.org/wiki/Infectious_mononucleosis',
+  },
+  splenomegalia: {
+    name: 'Splenomegalia',
+    description:
+      "Ingrossamento della milza. Nella mononucleosi è dovuto all'infiltrazione di linfociti, porta l'organo fuori dalla protezione delle costole e lo rende più fragile; raggiunge il massimo di solito entro 2 settimane (a volte fino a 3,5) e nella maggior parte dei casi si risolve in 4-6 settimane. L'esame obiettivo lo riconosce in appena il 17% dei casi in uno studio citato (Becker e Smith, 2014), e una singola ecografia dice poco: in 631 atleti universitari sani, giovani ADULTI, oltre il 7% rientrava già nei criteri di splenomegalia (Hosey et al., 2006).",
+    nameEn: 'Splenomegaly',
+    descriptionEn:
+      'Enlargement of the spleen. In mononucleosis it is caused by lymphocytic infiltration, moves the organ out from under the protection of the ribs and makes it more fragile; it usually peaks within 2 weeks (occasionally up to 3.5) and in most cases resolves within 4-6 weeks. Physical examination detected it in as few as 17% of cases in one cited study (Becker and Smith, 2014), and a single ultrasound says little: in 631 healthy collegiate athletes, young ADULTS, more than 7% already met the criteria for splenomegaly (Hosey et al., 2006).',
+    sameAs: 'https://en.wikipedia.org/wiki/Splenomegaly',
+  },
+  'rottura-splenica': {
+    name: 'Rottura della milza (rottura splenica)',
+    description:
+      "Lacerazione della milza, complicanza rara ma grave della mononucleosi: avviene in meno dello 0,5% dei casi, per lo più nei primi 21 giorni di malattia, ed è rarissima dopo i 28 (Becker e Smith, 2014). In una revisione di 85 casi pubblicati il tempo medio dall'esordio era di 14 giorni con casi fino a 8 settimane, solo il 14% aveva subito un trauma, il sintomo d'esordio era il dolore addominale nell'88% e la mortalità complessiva era del 9%; sono case report con età media 22 anni e per il 70% maschi, non una stima del rischio negli adolescenti (Bartlett et al., 2016).",
+    nameEn: 'Splenic rupture',
+    descriptionEn:
+      'A tear of the spleen, a rare but serious complication of mononucleosis: it occurs in under 0.5% of cases, mostly in the first 21 days of illness, and is exceedingly rare after day 28 (Becker and Smith, 2014). In a review of 85 published cases the mean time from onset was 14 days with cases up to 8 weeks, only 14% had any trauma, the presenting symptom was abdominal pain in 88% and overall mortality was 9%; these are case reports with a mean age of 22 and 70% male, not a risk estimate for adolescents (Bartlett et al., 2016).',
+    sameAs: 'https://en.wikipedia.org/wiki/Splenic_injury',
   },
 };
 

@@ -2,12 +2,12 @@
 slug: parlare-di-ciclo-con-allenatore
 title: "Parlare di ciclo con l'allenatore: perché lo fa solo l'11% delle atlete (e come cambiarlo)"
 seoTitle: "Parlare del ciclo con l'allenatore: come farlo"
-seoDescription: "Solo l'11% delle atlete parla di ciclo con chi la allena, il 4% se è un uomo. Perché succede e cosa cambia il silenzio in una società sportiva."
+seoDescription: "Su 1.086 atlete adulte solo l'11% parla di ciclo con chi la allena, il 4% se è un uomo (von Rosen et al., 2022). Perché succede e come si apre il canale."
 date: 2026-07-03
-updated: 2026-09-12
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "Solo l'11% delle atlete parla di ciclo mestruale con il proprio allenatore: il 4% se è un uomo, il 55% se è una donna. E l'88% ha imparato queste cose da sola. Non è disinteresse: è l'assenza di un canale sicuro. Cosa dicono i dati raccolti su 1.086 atlete in 57 sport, cosa può dire davvero chi allena, cosa rispondere quando un'atleta parla di dolore, e come si apre il canale senza obbligare nessuna a esporsi."
-answer: "Perché quasi nessuno lo ha reso possibile: solo l'11% delle atlete parla di ciclo con chi la allena — 4% se è un uomo, 55% se è una donna — e l'88% ha imparato queste cose da sola (Höök et al., 2022). Non è timidezza: è l'assenza di un canale e di un linguaggio condivisi, e si cambia dal lato dello staff."
+answer: "Perché quasi nessuno lo ha reso possibile: solo l'11% delle atlete parla di ciclo con chi la allena — 4% se è un uomo, 55% se è una donna — e l'88% ha imparato queste cose da sola (von Rosen et al., 2022; atlete adulte). Non è timidezza: è l'assenza di un canale e di un linguaggio condivisi, e si cambia dal lato dello staff."
 cover: /fotobab/VdqkhgkqBx24EcakOTkAIdtMLaw.avif
 coverAlt: "Ragazza sorridente seduta alla scrivania di camera sua, con cuffie al collo, mentre scrive su un quaderno"
 tags:
@@ -17,7 +17,7 @@ tags:
   - amenorrea
 faq:
   - q: "Quante atlete parlano di ciclo con il proprio allenatore?"
-    a: "In uno studio su 1.086 atlete di Svezia e Norvegia, solo l'11% affrontava tematiche mestruali con il proprio allenatore. La quota scendeva al 4% quando l'allenatore era un uomo, e saliva al 55% con un'allenatrice donna (Höök et al., 2022)."
+    a: "In uno studio su 1.086 atlete di Svezia e Norvegia, solo l'11% affrontava tematiche mestruali con il proprio allenatore. La quota scendeva al 4% quando l'allenatore era un uomo, e saliva al 55% con un'allenatrice donna (von Rosen et al., 2022; atlete adulte)."
   - q: "Un allenatore uomo deve conoscere il ciclo delle sue atlete?"
     a: "Non deve conoscere il dato individuale di ciascuna: quello resta privato. Deve però avere una cultura di base sul tema e creare un ambiente in cui parlarne non sia un tabù. Strumenti come BAB permettono allo staff di leggere solo segnali aggregati e anonimi, senza mettere l'atleta nella posizione di doversi esporre."
   - q: "Perché così poche atlete ne parlano?"
@@ -29,46 +29,46 @@ faq:
   - q: "Di che cosa ha davvero bisogno un allenatore per programmare la seduta?"
     a: "Di una sola informazione funzionale: come sta oggi l'atleta e quanto carico regge. Non del dato clinico, non della fase del ciclo, non della data. La distinzione è ciò che rende la conversazione possibile: chiedere «come stai per l'allenamento di oggi» è una domanda a cui una quattordicenne può rispondere davanti al gruppo; chiedere «a che punto sei del ciclo» non lo è. Ed è anche la ragione per cui i segnali di squadra vanno letti in forma aggregata e anonima."
   - q: "Serve un'allenatrice donna perché le atlete ne parlino?"
-    a: "Aiuta molto, ma non è la soluzione strutturale. Nello studio su 1.086 atlete la quota che affronta tematiche mestruali passa dal 4% con un allenatore uomo al 55% con un'allenatrice donna (Höök et al., 2022): il divario è enorme e dice che il genere di chi allena pesa. Ma il 53% delle atlete giudicava scarsa la conoscenza del proprio allenatore sulla salute dell'atleta donna, e l'88% aveva imparato queste cose da sola — cioè il vuoto è di formazione e di canale, non solo di genere. Sostituire le persone non basta: serve alzare la cultura di base dello staff e dare all'atleta un modo di comunicare che non la costringa a esporsi."
+    a: "Aiuta molto, ma non è la soluzione strutturale. Nello studio su 1.086 atlete la quota che affronta tematiche mestruali passa dal 4% con un allenatore uomo al 55% con un'allenatrice donna (von Rosen et al., 2022; atlete adulte): il divario è enorme e dice che il genere di chi allena pesa. Ma il 53% delle atlete giudicava scarsa la conoscenza del proprio allenatore sulla salute dell'atleta donna, e l'88% aveva imparato queste cose da sola — cioè il vuoto è di formazione e di canale, non solo di genere. Sostituire le persone non basta: serve alzare la cultura di base dello staff e dare all'atleta un modo di comunicare che non la costringa a esporsi."
   - q: "Di quali altri temi le atlete non parlano con chi le allena?"
     a: "Il silenzio non riguarda solo il ciclo. Tra le atlete adolescenti, l'87% dichiara che non parlerebbe con il proprio allenatore di perdite di urina durante l'attività, e dal 69% al 90% non ha mai sentito nominare l'allenamento del pavimento pelvico (Rial Rebullido et al., 2021). È lo stesso meccanismo: un sintomo frequente, nessun linguaggio condiviso per nominarlo, e quindi nessuna conversazione."
   - q: "Quante ragazze saltano o riducono l'allenamento durante il ciclo?"
     a: "Una quota molto ampia, e il motivo prevalente non è il dolore. La scoping review globale su adolescenti di 10-18 anni riporta che dal 25,2% al 61,1% evita o riduce l'attività fisica durante le mestruazioni, spesso per paura delle perdite e per imbarazzo più che per i sintomi (Harvey et al., 2025). L'intervallo è ampio perché mette insieme studi condotti in Paesi e contesti scolastici molto diversi: descrive un fenomeno diffuso, non una percentuale precisa applicabile a una squadra italiana. Sono allenamenti che non finiscono in nessun registro degli infortuni, perché formalmente nessuna si è fatta male."
   - q: "Un'atleta ha accesso a un ginecologo attraverso la sua società sportiva?"
-    a: "Quasi mai. Nello studio su 1.086 atlete di Svezia e Norvegia, solo il 3% aveva accesso a un ginecologo tramite lo sport (Höök et al., 2022). È il dato che spiega perché caricare l'allenatore di un ruolo clinico non funziona: il vuoto non è di competenza dello staff tecnico, è di servizi. Un allenatore non deve diventare un ginecologo — deve sapere riconoscere quando un segnale merita di essere portato fuori dallo spogliatoio e a chi. Il campione comprende atlete adulte e adolescenti insieme e i dati non sono suddivisi per età."
+    a: "Quasi mai. Nello studio su 1.086 atlete di Svezia e Norvegia, solo il 3% aveva accesso a un ginecologo tramite lo sport (von Rosen et al., 2022; atlete adulte). È il dato che spiega perché caricare l'allenatore di un ruolo clinico non funziona: il vuoto non è di competenza dello staff tecnico, è di servizi. Un allenatore non deve diventare un ginecologo — deve sapere riconoscere quando un segnale merita di essere portato fuori dallo spogliatoio e a chi. Il campione è di atlete ADULTE, tutte di almeno 18 anni: nessun dato equivalente esiste sulle minorenni."
   - q: "Quante atlete hanno avuto un ciclo che sparisce, e con chi ne parlano?"
-    a: "Il 22% delle atlete dello studio su 1.086 partecipanti riferiva un episodio di amenorrea, e circa una su cinque non aveva nessuno con cui parlarne in ambito sportivo (Höök et al., 2022). È la combinazione che preoccupa di più: un ciclo che scompare non è un segno di buon allenamento, può essere un segnale di bassa disponibilità energetica, e se non c'è nessuno a cui dirlo resta invisibile finché non arriva qualcos'altro — una frattura da stress, un calo di prestazione. Il campione è misto per età, adulte e adolescenti insieme."
+    a: "Nello studio su 1.086 atlete solo il 60% non aveva mai avuto un'amenorrea di oltre tre mesi, e il 22% — circa una su cinque — non aveva nessuno con cui parlarne in ambito sportivo (von Rosen et al., 2022; atlete adulte). È la combinazione che preoccupa di più: un ciclo che scompare non è un segno di buon allenamento, può essere un segnale di bassa disponibilità energetica, e se non c'è nessuno a cui dirlo resta invisibile finché non arriva qualcos'altro — una frattura da stress, un calo di prestazione. Il campione è di atlete ADULTE, di almeno 18 anni."
   - q: "E se la risposta dell'allenatore è una battuta o un commento sul corpo?"
     a: "Allora il problema non è più la comunicazione, ed è utile saperlo prima che succeda. Nei questionari europei sulla violenza interpersonale nello sport, «essere criticato per il proprio aspetto fisico» è un item di violenza psicologica: nella prima indagine italiana il 30,4% di 1.446 adulti che da minorenni avevano praticato sport organizzato ne riferisce almeno un episodio, e le donne indicano l'allenatore o l'allenatrice come responsabile dell'esperienza più grave nel 35,0% dei casi, contro il 27,0% degli uomini (ChangeTheGame, 2023; campione di convenienza online, report non peer-reviewed). Una battuta isolata non è un caso di abuso e non va trattata come tale: quello che serve è che l'atleta sappia che esiste un altro interlocutore — in Italia ogni società deve avere un Responsabile contro abusi, violenze e discriminazioni — e che dirlo non le costa il posto in squadra."
   - q: "Se l'allenatore non è la persona giusta, con chi altro può parlarne un'atleta?"
     a: "Con chiunque sia più facile, e i dati dicono che quasi mai è qualcuno dentro lo sport. Nell'indagine italiana, fra chi ha ricevuto aiuto dopo un'esperienza negativa nello sport la fonte è stata la famiglia nel 46,9% dei casi, gli amici nel 31,8%, l'ambito sportivo nel 25,5% e un professionista della salute mentale nel 10,9% (ChangeTheGame, 2023). Per i temi di salute mestruale la catena utile è la stessa: un genitore o un adulto di fiducia, il medico di famiglia o il pediatra, e — quando c'è — la persona di riferimento designata dalla società. L'allenatore non deve essere l'unico canale disponibile: nella maggior parte dei casi non lo è mai stato."
   - q: "Cosa può dire un allenatore per rendere il tema meno tabù?"
-    a: "Poche parole, dette una volta e mantenute nei fatti: «qui se ne può parlare, e nessuno viene valutato per questo». Poi coerenza — non commentare i corpi, non trattare la stanchezza come una scusa, non chiedere dettagli. Nello studio di Höök e colleghi (2022) il 53% delle atlete giudicava scarsa la conoscenza del proprio allenatore sulla salute dell'atleta donna: colmare quel vuoto è responsabilità dello staff, non delle ragazze."
+    a: "Poche parole, dette una volta e mantenute nei fatti: «qui se ne può parlare, e nessuno viene valutato per questo». Poi coerenza — non commentare i corpi, non trattare la stanchezza come una scusa, non chiedere dettagli. Nello studio di von Rosen e colleghi (2022) il 53% delle atlete giudicava scarsa la conoscenza del proprio allenatore sulla salute dell'atleta donna: colmare quel vuoto è responsabilità dello staff, non delle ragazze."
 ---
 
 C'è un dato che dovrebbe far riflettere chiunque alleni ragazze: quando l'allenatore è un uomo, **solo il 4% delle atlete parla con lui di ciclo mestruale**. Non perché il ciclo non conti — conta eccome — ma perché manca un modo semplice, sicuro e non imbarazzante per farlo. Il problema dello sport femminile giovanile, spesso, non è la motivazione delle atlete. È il **silenzio**.
 
 > **In breve**
-> - Solo **l'11%** delle atlete parla di ciclo con il proprio allenatore; **4%** se è un uomo, **55%** se è una donna.
+> - Solo **l'11%** delle atlete parla di ciclo con il proprio allenatore; **4%** se è un uomo, **55%** se è una donna (von Rosen et al., 2022; 1.086 atlete **adulte**, di almeno 18 anni).
 > - L'**88%** ha imparato queste cose **da sola**: l'educazione formale è quasi assente.
 > - Il gap **non dipende dal livello competitivo**: riguarda tutte, non solo le più giovani o le amatoriali.
 > - La soluzione non è "obbligare a parlarne", ma creare **cultura di base** e **canali che non costringono a esporsi**.
 
 ## Quante atlete parlano di ciclo con il proprio allenatore?
 
-**Undici su cento.** E scendono a **quattro su cento** quando chi allena è un uomo, mentre salgono a **cinquantacinque su cento** con un'allenatrice donna. Sono i numeri di uno studio su 1.086 atlete di Svezia e Norvegia, e sono la fotografia più chiara che abbiamo di un canale di comunicazione che, semplicemente, non esiste.
+**Undici su cento.** E scendono a **quattro su cento** quando chi allena è un uomo, mentre salgono a **cinquantacinque su cento** con un'allenatrice donna. Sono i numeri di uno studio su 1.086 atlete **adulte** di Svezia e Norvegia, e sono la fotografia più chiara che abbiamo di un canale di comunicazione che, semplicemente, non esiste.
 
-Lo studio copre 57 sport ([Höök et al., 2022, *IJERPH*](https://doi.org/10.3390/ijerph191911932)), e il quadro completo dei risultati fotografa un vuoto preciso:
+Lo studio copre 57 sport ([von Rosen et al., 2022, *IJERPH*](https://doi.org/10.3390/ijerph191911932)), e il quadro completo dei risultati fotografa un vuoto preciso:
 
 - Il **26%** giudica scarsa o molto scarsa la **propria** conoscenza sulla salute dell'atleta donna.
 - Il **53%** giudica scarsa la conoscenza del **proprio allenatore**.
 - L'**88%** ha acquisito queste conoscenze **da sola**; solo il 12% in un contesto sportivo strutturato.
 - Solo l'**11%** parla di tematiche mestruali con l'allenatore — **4% con un uomo, 55% con una donna**.
-- Il **22%** ha avuto un episodio di amenorrea; circa **una su cinque non aveva nessuno** con cui parlarne in ambito sportivo.
+- Solo il **60%** non ha mai avuto un'amenorrea di oltre tre mesi; il **22%**, circa **una su cinque, non aveva nessuno** con cui parlarne in ambito sportivo.
 
 E un dettaglio che allarga il problema: **non c'è differenza significativa di conoscenza per livello competitivo** (p = 0,171). Il gap non è solo delle giovani o delle amatoriali: è **ovunque**.
 
-Una precisazione doverosa sull'età: il campione di Höök e colleghi comprende atlete adulte e adolescenti insieme, e i dati non sono suddivisi per fascia d'età. Non abbiamo quindi una prevalenza misurata sulle tredicenni — e non è un caso, visto che solo il **6%** degli studi in scienze dello sport è condotto esclusivamente su donne ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). Il quadro descrive un fenomeno reale; il numero specifico sulle più giovani, semplicemente, nessuno l'ha ancora misurato.
+Una precisazione doverosa sull'età: il campione di von Rosen e colleghi è composto da atlete **adulte**: il questionario era aperto solo a chi aveva **almeno 18 anni**. Non abbiamo quindi una prevalenza misurata sulle tredicenni — e non è un caso, visto che solo il **6%** degli studi in scienze dello sport è condotto esclusivamente su donne ([Cowley et al., 2021](https://doi.org/10.1123/wspaj.2021-0028)). Il quadro descrive un fenomeno reale; il numero specifico sulle più giovani, semplicemente, nessuno l'ha ancora misurato.
 
 ## Perché un'atleta non parla del ciclo con l'allenatore?
 
@@ -87,7 +87,7 @@ Questo secondo punto è decisivo proprio per il dato "4% con un allenatore uomo"
 
 ## Cosa può fare un allenatore, da domani, senza sbagliare?
 
-**Una frase detta una volta e mantenuta nei fatti — «qui se ne può parlare, e nessuno ti valuta per questo» — e nessuna domanda personale.** È il minimo che apre il canale, ed è anche il massimo che si può chiedere a chi allena senza sconfinare in un ruolo clinico che non gli appartiene. Il resto è coerenza: non commentare i corpi, non trattare la stanchezza come una scusa, non chiedere date né dettagli. Nello studio su 1.086 atlete il 53% giudicava scarsa la conoscenza del proprio allenatore sulla salute dell'atleta donna ([Höök et al., 2022](https://doi.org/10.3390/ijerph191911932)): colmare quel vuoto è responsabilità dello staff, non delle ragazze.
+**Una frase detta una volta e mantenuta nei fatti — «qui se ne può parlare, e nessuno ti valuta per questo» — e nessuna domanda personale.** È il minimo che apre il canale, ed è anche il massimo che si può chiedere a chi allena senza sconfinare in un ruolo clinico che non gli appartiene. Il resto è coerenza: non commentare i corpi, non trattare la stanchezza come una scusa, non chiedere date né dettagli. Nello studio su 1.086 atlete il 53% giudicava scarsa la conoscenza del proprio allenatore sulla salute dell'atleta donna ([von Rosen et al., 2022](https://doi.org/10.3390/ijerph191911932); atlete adulte): colmare quel vuoto è responsabilità dello staff, non delle ragazze.
 
 Nel dettaglio, per ruolo:
 
@@ -102,7 +102,7 @@ BAB nasce esattamente in questo vuoto. Dà all'atleta uno **spazio privato** per
 
 ## Fonti
 
-- Höök M., et al. **Perceptions of and communication about the menstrual cycle among female athletes.** *International Journal of Environmental Research and Public Health*, 2022. [doi:10.3390/ijerph191911932](https://doi.org/10.3390/ijerph191911932)
+- von Rosen P., Ekenros L., Solli G.S., Sandbakk Ø., Holmberg H.-C., Hirschberg A.L., Fridén C. **Offered Support and Knowledge about the Menstrual Cycle in the Athletic Community: A Cross-Sectional Study of 1086 Female Athletes.** *International Journal of Environmental Research and Public Health*, 2022;19(19):11932. (questionario online su **1.086 atlete ADULTE**, di **almeno 18 anni**, di Svezia e Norvegia in 57 sport: solo l'**11%** affrontava temi di salute dell'atleta donna con il proprio allenatore — **4%** con allenatore uomo, **55%** con allenatrice donna; il **53%** giudicava scarsa o molto scarsa la conoscenza del proprio allenatore; l'**88%** aveva acquisito queste conoscenze da sola; il **60%** non aveva mai avuto un'amenorrea di oltre tre mesi e il **22%** non aveva nessuno con cui parlarne in ambito sportivo; solo il **3%** aveva accesso a un ginecologo; **nessuna minorenne nel campione**) [doi:10.3390/ijerph191911932](https://doi.org/10.3390/ijerph191911932)
 - Findlay R.J., et al. **How the menstrual cycle and menstruation affect sporting performance: experiences of elite female rugby players.** *Br J Sports Med*, 2020. (n=15 rugbiste internazionali, **adulte**) [doi:10.1136/bjsports-2019-101486](https://doi.org/10.1136/bjsports-2019-101486)
 - Harvey J., Western M.J., Townsend N.P., et al. **Adolescents, menstruation, and physical activity: insights from a global scoping review.** *BMC Women's Health*, 2025;25:281. (86 studi, 33 Paesi, adolescenti 10-18 anni) [doi:10.1186/s12905-025-03825-w](https://doi.org/10.1186/s12905-025-03825-w)
 - Taim B.C., Ó Catháin C., Renard M., Elliott-Sale K.J., Madigan S., Ní Chéilleachair N. **The Prevalence of Menstrual Cycle Disorders and Menstrual Cycle-Related Symptoms in Female Athletes: A Systematic Literature Review.** *Sports Medicine*, 2023;53(10):1963-1984. (60 studi, 6.380 atlete; la dismenorrea è il disturbo del ciclo più prevalente: 32,3%, intervallo 7,8-85,6%) [doi:10.1007/s40279-023-01871-8](https://doi.org/10.1007/s40279-023-01871-8)

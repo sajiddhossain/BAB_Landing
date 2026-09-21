@@ -4,7 +4,7 @@ title: "Going back after an injury: the knee heals before the head does"
 seoTitle: "Return to sport after injury: when it's time"
 seoDescription: "After ACL reconstruction 81% return to sport but only 55% to competitive level. Psychological readiness matters as much as the knee."
 date: 2026-08-16
-updated: 2026-09-18
+updated: 2026-09-21
 author: Sajid Hossain
 excerpt: "After ACL reconstruction 81% go back to playing sport, but only 55% go back to competitive level — and many of those who never return have a knee that works fine. Psychological readiness can be measured, it predicts return, and in under-20s it is associated with the risk of a second injury. What the numbers say about the calendar, about criteria and about girls, and what a coach can actually say on the day someone comes back."
 answer: "Because tissue heals faster than confidence: after ACL reconstruction 81% go back to playing sport but only 55% return to competitive level, and among those who do not return, fear of reinjury is one of the most common reasons (Ardern et al., 2014, a meta-analysis of 7,556 participants, mostly adults)."
@@ -87,7 +87,7 @@ In the Delaware-Oslo prospective cohort, **106 patients** after ACL reconstructi
 
 There is also a sharper figure on the weight of criteria, but it must be quoted with its population attached: in **158 adult male professional athletes**, failing to meet six discharge criteria before returning was associated with a **fourfold** risk of graft rupture. In the same group 26 athletes (16.5%) ruptured their graft an average of **105 days** after returning ([Kyritsis et al., 2016](https://doi.org/10.1136/bjsports-2015-095908)). The principle — you return on tests passed, not on days elapsed — holds; the numerical estimate does not transfer to a 16-year-old.
 
-These data make one error obvious: **treating the date of surgery as the date of return**. Time serves the tissue, tests serve the decision. Neither is enough on its own.
+These data make one error obvious: **treating the date of surgery as the date of return**. Time serves the tissue, tests serve the decision. Neither is enough on its own. The same principle holds outside injury too: after [mononucleosis](/en/blog/mononucleosi-sport-giovani-atlete) the return is built on being symptom-free and on the spleen's timeline, not on the day the fever went.
 
 ## How high is the risk of a second injury in young athletes?
 

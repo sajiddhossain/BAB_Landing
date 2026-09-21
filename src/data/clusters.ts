@@ -141,22 +141,23 @@ export const CLUSTERS: Cluster[] = [
     key: 'salute-prevenzione',
     name: 'Salute e prevenzione',
     nameEn: 'Health and prevention',
-    seoTitle: 'Salute delle giovani atlete: visita, respiro, caldo',
+    seoTitle: 'Salute delle giovani atlete: visita, respiro, caldo, mono',
     seoTitleEn: 'Young athlete health: screening, breathing, heat',
     seoDescription:
-      "Visita di idoneità, fiato corto, allenamento al caldo e pavimento pelvico: gli articoli di BAB sui temi di salute di cui in palestra si parla meno.",
+      "Visita di idoneità, fiato corto, caldo, pavimento pelvico e rientro dopo la mononucleosi: gli articoli di BAB sui temi di salute di cui si parla meno.",
     seoDescriptionEn:
-      'The eligibility exam, breathlessness, training in the heat and the pelvic floor: the BAB articles on the health topics gyms talk about least.',
+      'The eligibility exam, breathlessness, heat, the pelvic floor and returning after mono: the BAB articles on the health topics gyms talk about least.',
     intro:
-      "I temi di salute che non sono infortuni e di cui in palestra si parla poco: che cosa guarda — e che cosa non guarda — la visita di idoneità agonistica, il fiato corto sotto sforzo, l'allenamento al caldo, le perdite di urina durante i salti. Sono articoli scritti per sapere quando una cosa è normale, quando non lo è, e a chi portarla.",
+      "I temi di salute che non sono infortuni e di cui in palestra si parla poco: che cosa guarda — e che cosa non guarda — la visita di idoneità agonistica, il fiato corto sotto sforzo, l'allenamento al caldo, le perdite di urina durante i salti, il rientro in campo dopo la mononucleosi. Sono articoli scritti per sapere quando una cosa è normale, quando non lo è, e a chi portarla.",
     introEn:
-      'The health topics that are not injuries and that gyms rarely discuss: what the competitive eligibility exam looks at — and what it misses — breathlessness on exertion, training in the heat, leaking urine when jumping. These articles are written to tell when something is normal, when it is not, and who to take it to.',
+      'The health topics that are not injuries and that gyms rarely discuss: what the competitive eligibility exam looks at — and what it misses — breathlessness on exertion, training in the heat, leaking urine when jumping, getting back on the pitch after glandular fever. These articles are written to tell when something is normal, when it is not, and who to take it to.',
     startHere: 'visita-idoneita-sportiva-giovani-atlete',
     slugs: [
       'visita-idoneita-sportiva-giovani-atlete',
       'fiato-corto-giovani-atlete',
       'allenarsi-al-caldo-giovani-atlete',
       'perdite-urina-giovani-atlete',
+      'mononucleosi-sport-giovani-atlete',
     ],
   },
   {

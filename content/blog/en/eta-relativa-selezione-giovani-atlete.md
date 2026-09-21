@@ -6,7 +6,7 @@ seoDescription: "In female sport, girls born in the first quarter are 1.25 times
 excerpt: "An under-14 squad can contain two girls eleven months apart and three years apart in biological development, and the rulebook treats them as the same age. Across 57 studies and 308 samples, girls born in January-March are more represented than those born in October-December — small, but systematic — and in the federations where it has been tracked, those born late in the year quit sooner. What the numbers say, and what a club can change without waiting for a reform."
 answer: "In female sport the relative age effect exists but is small: in a meta-analysis of 57 studies and 308 independent samples across 25 sports, athletes born in the first quarter of the selection year are 1.25 times more represented than those born in the last (odds ratio 1.25; 95% CI 1.21-1.30), with the effect most pronounced up to age 14 and at higher competition levels (Smith et al., 2018)."
 date: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-21
 author: Sajid Hossain
 cover: /fotobab/cover-eta-relativa-selezione.jpg
 coverAlt: "Start line of a red running track seen from above, with lanes numbered 1 to 6 painted in white; no people in frame"
@@ -117,9 +117,9 @@ It is a sensible idea. The problem is the evidence. In the most recent systemati
 
 So: worth trying in training, yes. Presentable to families as a proven practice, no. And on a girls' squad, proven even less.
 
-## What a club can do from next season
+## What can a club do from next season?
 
-None of these four practices has been validated by a controlled trial in female athletes. They are reasonable corrections to a documented bias, and should be presented as such — which is still better than doing nothing because the federal reform has not arrived.
+**Four things at almost no cost: write the birth month next to the name, never decide on a single day, vary the groupings and treat maturation as temporary information.** None of these four practices has been validated by a controlled trial in female athletes. They are reasonable corrections to a documented bias, and should be presented as such — which is still better than doing nothing because the federal reform has not arrived.
 
 - **Write the birth month next to the name** on assessment sheets. This is the zero-cost correction: whoever is watching knows whether they are comparing two athletes eleven months apart, and the mental adjustment happens on the spot.
 - **Do not decide on a single day.** Assessments repeated at different points in the year reduce the weight of the instant snapshot, which is exactly what relative age distorts.
@@ -134,9 +134,9 @@ What it offers is a **private athlete space** in which a girl records her own si
 
 The educational half is giving precise words to something that gets said by feel on the sideline — "she's behind", "she's small" — and that in most cases means only this: *today she has fewer months, or less puberty, than the others*.
 
-## When to consult a professional
+## When is it time to consult a professional?
 
-This article is about selection and categories, not health. There are two situations, though, in which growth stops being an organisational question and becomes a clinical one: when height or pubertal development **stall** or remain far from those of peers, and when [menstruation has not appeared by age 15, or disappears](/en/blog/red-s-bassa-disponibilita-energetica) after having appeared. In both cases the reference point is the paediatrician or family doctor, not the coach. The same holds for pain lasting weeks during a phase of rapid growth: [peak height velocity](/en/blog/picco-di-crescita-giovani-atlete) explains many things, but it is not a diagnosis.
+**When height or pubertal development stall, or when menstruation has not appeared by 15 or disappears after having appeared.** This article is about selection and categories, not health. There are two situations, though, in which growth stops being an organisational question and becomes a clinical one: when height or pubertal development **stall** or remain far from those of peers, and when [menstruation has not appeared by age 15, or disappears](/en/blog/red-s-bassa-disponibilita-energetica) after having appeared. In both cases the reference point is the paediatrician or family doctor, not the coach. The same holds for pain lasting weeks during a phase of rapid growth: [peak height velocity](/en/blog/picco-di-crescita-giovani-atlete) explains many things, but it is not a diagnosis.
 
 ## Sources
 
