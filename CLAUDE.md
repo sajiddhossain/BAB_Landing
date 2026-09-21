@@ -203,5 +203,7 @@ Si parla di salute di adolescenti: i testi devono reggere davanti a un genitore 
 
 Un task schedulato (`bab-blog-content-seo`) pubblica e ottimizza contenuti da solo: ogni run produce
 almeno 3 modifiche SEO + 3 AEO + 3 GEO e valuta se pubblicare un articolo nuovo. Ruota i bersagli
-guardando `git log`. Identità commit: `sajiddhossain <bab.community.official@gmail.com>`, con trailer
+guardando `git log`. Identità commit: `sajiddhossain <sajid.hossain2009@gmail.com>` — è l'email legata all'account
+GitHub `sajiddhossain`; `bab.community.official@gmail.com` attribuisce i commit a `breakingallbarriers`, da
+non usare — con trailer
 `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`.

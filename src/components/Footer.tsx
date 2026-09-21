@@ -28,13 +28,22 @@ const NAV_LINKS = [
  { path: '/dati', key: 'nav.facts' },
 ].filter((l) => (COACH_ENABLED || l.path !== '/coach') && (APP_ENABLED || l.path !== '/app'));
 
+/** Percorsi che esistono anche in inglese sotto /en. */
+const LOCALIZED_PATHS = new Set(['/blog', '/faq', '/glossario', '/dati']);
+
 const SOCIALS = [
  { href: 'https://substack.com/@babcommunity', label: 'Substack' },
  { href: 'https://www.instagram.com/bab_community/', label: 'Instagram' },
 ] as const;
 
 export default function Footer({ onOpenWaitlist }: FooterProps) {
- const { t } = useTranslation();
+ const { t, i18n } = useTranslation();
+ // Blog e pagine-risposta hanno l'inglese sotto /en: chi legge il sito in una lingua
+ // diversa dall'italiano va portato lì, non sulla versione italiana. Il francese non
+ // ha un blog proprio, quindi ripiega sull'inglese.
+ const urlPrefix = (i18n.language || 'it').startsWith('it') ? '' : '/en';
+ const localizedPath = (path: string): string =>
+  LOCALIZED_PATHS.has(path) ? `${urlPrefix}${path}` : path;
 
  return (
  <footer className="w-full bg-[#0F0F12] text-[#FAF9F6] border-t-[4px] border-black relative z-10">
@@ -85,7 +94,7 @@ export default function Footer({ onOpenWaitlist }: FooterProps) {
  {NAV_LINKS.map((link) => (
  <li key={link.path}>
  <a
- href={link.path}
+ href={localizedPath(link.path)}
  className="inline-flex items-center min-h-[44px] font-['Space_Grotesk',_sans-serif] font-bold text-base uppercase tracking-wide text-[#FAF9F6]/90 hover:text-[#34BBC0] hover:translate-x-1 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-[#34BBC0] transition-all"
  >
  {t(link.key)}

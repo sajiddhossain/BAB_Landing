@@ -105,7 +105,14 @@ export default function App() {
 
   // Una lingua attiva fuori da SUPPORTED_LNGS (es. 'fr' residuo) viene mostrata come 'en'.
   const detected = (i18n.language ? i18n.language.substring(0, 2) : 'en') as FlagLang;
-  const currentLang: FlagLang = (SUPPORTED_LNGS as readonly string[]).includes(detected) ? detected : 'en';
+  // Su blog, glossario, FAQ e dati la lingua è nell'URL: il selettore deve mostrare quella
+  // della pagina, non la preferenza del browser. Altrimenti chi ha il browser in inglese e
+  // arriva su /blog/{slug} vede la bandiera inglese come «attiva», non trova l'inglese fra
+  // le opzioni e resta bloccato sulla versione italiana.
+  const pageUrlLang: FlagLang | null = /^\/(en\/)?blog(\/|$)/.test(currentPath)
+    ? blogLangFromPath(currentPath)
+    : (matchBilingual(currentPath)?.lang ?? null);
+  const currentLang: FlagLang = pageUrlLang ?? ((SUPPORTED_LNGS as readonly string[]).includes(detected) ? detected : 'en');
   const otherLangs = (SUPPORTED_LNGS as readonly FlagLang[]).filter(l => l !== currentLang);
 
   // Easter Egg Signature
@@ -523,7 +530,7 @@ export default function App() {
                 {/* Mobile Language Switcher */}
                 <div className="flex justify-center gap-4 mt-8" role="group" aria-label="Lingua">
                   {(SUPPORTED_LNGS as readonly FlagLang[]).map((lng) => {
-                    const active = i18n.language.startsWith(lng);
+                    const active = lng === currentLang;
                     return (
                       <button
                         key={lng}

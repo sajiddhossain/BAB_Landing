@@ -11,6 +11,7 @@ import { blogPath } from '../lib/blogLocale';
 import { CLUSTERS, clusterName, clusterOf, clusterPath } from '../data/clusters';
 import blogData from '../generated/blog-index.json';
 import SponsorSlot from './SponsorSlot';
+import EnglishVersionNotice from './EnglishVersionNotice';
 
 export interface BlogPostData {
  slug: string;
@@ -77,6 +78,7 @@ export default function Blog({ lang: langProp }: BlogProps = {}) {
 
  return (
  <section className="w-full max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-20">
+ <EnglishVersionNotice lang={lang} href={blogPath('en')} label="Read the blog in English" />
  <header className="mb-12 sm:mb-16">
  <span className="inline-block bg-[#EBE5FF] text-[#0F0F12] border-[3px] border-black px-4 py-1.5 font-black uppercase tracking-widest text-xs shadow-[4px_4px_0_0_#0F0F12] mb-6">
  {tt('blog.kicker')}

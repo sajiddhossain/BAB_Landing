@@ -13,6 +13,7 @@ import { autolinkGlossary } from '../lib/autolink';
 import { clusterName, clusterOf, clusterPath, relatedSlugs } from '../data/clusters';
 import { BLOG_POSTS, formatDate, type BlogPostData, type BlogPostContent } from './Blog';
 import NotFound from './NotFound';
+import EnglishVersionNotice from './EnglishVersionNotice';
 import SponsorSlot from './SponsorSlot';
 
 interface BlogPostProps {
@@ -110,6 +111,12 @@ export default function BlogPost({ slug, onNavigate, lang: langProp }: BlogPostP
  >
  <span aria-hidden="true">←</span> {tt('blog.back')}
  </a>
+
+ <EnglishVersionNotice
+ lang={lang}
+ href={BLOG_POSTS.some((p) => p.slug === post.slug && p.lang === 'en') ? blogPath('en', post.slug) : null}
+ label="This article is available in English"
+ />
 
  <header className="mb-8">
  {cluster && (
