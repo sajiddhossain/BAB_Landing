@@ -4,7 +4,7 @@ title: "Mononucleosi e sport: quando un'atleta adolescente può tornare ad allen
 seoTitle: "Mononucleosi e sport: quando si torna ad allenarsi"
 seoDescription: "Dopo la mononucleosi le lesioni della milza si concentrano nei primi 21 giorni e sono rarissime dopo i 28 (Becker e Smith, 2014). Come si torna allo sport, per gradi."
 date: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-23
 author: Sajid Hossain
 excerpt: "La mononucleosi colpisce proprio negli anni dello sport agonistico, e la domanda che arriva in palestra è sempre la stessa: quando può tornare? La risposta non dipende dalla gola o dalla febbre, ma da un organo che non si vede e non si sente — la milza. Ecco che cosa dicono gli studi su tempi, rischi e stanchezza che non passa, e perché un'ecografia sola non basta a decidere."
 answer: "Di solito non prima di 3 settimane dall'inizio dei sintomi, e poi per gradi. La milza si ingrossa e le sue lesioni si concentrano nei primi 21 giorni di malattia, diventando rarissime dopo i 28; la rottura riguarda meno dello 0,5% dei casi (Becker e Smith, 2014, revisione clinica). Gli sport di contatto richiedono più cautela, e la decisione è individuale e medica."
@@ -140,6 +140,8 @@ Una stanchezza che dopo la mononucleosi dura settimane o mesi va quindi portata 
 Il virus passa con la saliva, e dopo l'infezione continua a essere **eliminato nella saliva**, con un calo progressivo nel corso del **primo anno** — e resta nell'organismo per tutta la vita (Becker e Smith, 2014). Tenere un'atleta lontana dalla squadra non è quindi la misura che protegge le compagne: molte hanno già incontrato il virus, e chi l'ha appena avuto lo elimina comunque a lungo.
 
 La regola utile è un'altra, e vale sempre, non solo in caso di mononucleosi: **borracce, bicchieri e posate non si condividono**. La ragione per restare fuori dal campo nelle prime settimane è **la milza**, non il contagio.
+
+Per tutte le altre infezioni che passano in una squadra durante l'anno — raffreddori, mal di gola, influenze — la decisione quotidiana segue un'altra logica, più semplice e con altri limiti: è [la «regola del collo»](/blog/allenarsi-con-il-raffreddore-giovani-atlete), che nella mononucleosi **non basta**, perché il rischio che conta qui non dà sintomi.
 
 ## Che cosa può fare chi allena (e che cosa no)
 

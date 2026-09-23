@@ -4,12 +4,12 @@ title: "Training in the heat: for young athletes, the risk isn't (only) about se
 seoTitle: "Training in the heat: risks for young athletes"
 seoDescription: "In U.S. high schools exertional heat illness is 87.7% male — but that is exposure, not sex. Acclimatization, warning signs and what to do first."
 date: 2026-08-19
-updated: 2026-09-19
+updated: 2026-09-23
 author: Sajid Hossain
 excerpt: "In U.S. high schools, exertional heat illness is 87.7% male — but strip out American football and it drops to 50.9%, close to parity (Kerr et al., 2013). Boys aren't better at handling heat: boys play more football, in the hottest season of the year. Here's what the physiology actually says about adolescent girls training in summer, what it doesn't say yet, and what changes in the first week of preseason — the week when almost everything happens."
 answer: "It isn't about sex, it's about exposure: in U.S. high schools exertional heat illness is 87.7% male, but that drops to 50.9% once American football is excluded (Kerr et al., 2013). On physiology, direct evidence on sex differences during puberty is still scarce (Topham et al., 2022). What actually matters is acclimatization over the first two weeks (Casa et al., 2009)."
 cover: /fotobab/cover-caldo-giovani-atlete.jpg
-coverAlt: "Close-up of the center lane on a red tartan running track, shot low, with the white line stretching toward the horizon; no person in frame"
+coverAlt: "Lanes numbered 1, 2, 3 and 4 on a red tartan running track in full sun, with the hard shadow of a post cutting across them diagonally; no person in frame"
 tags:
   - exertional-heat-illness
   - heat-acclimatization

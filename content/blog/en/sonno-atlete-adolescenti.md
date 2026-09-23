@@ -4,12 +4,12 @@ title: "Sleep and teenage athletes: why 8 hours isn't a luxury (and puberty make
 seoTitle: "Sleep and teenage athletes: how many hours"
 seoDescription: "At 13-18 you need 8-10 hours a night: sleeping fewer than 8 is linked to 1.7 times more injuries. Why puberty shifts the body clock later."
 date: 2026-07-18
-updated: 2026-08-31
+updated: 2026-09-23
 author: Sajid Hossain
 excerpt: "How many hours should a 14-year-old athlete sleep? Between 8 and 10, says the consensus recommendation for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured, and through puberty insomnia symptoms in girls climb from 3.4% to 12.2% — against 4.3%-9.1% in boys, because the body clock shifts later while the school alarm stays put. What the evidence says, what it does not, and what a club can change from Monday."
 answer: "Because at 13-18 you need 8-10 hours a night (Paruthi et al., 2016), and sleeping fewer than 8 is associated with being injured 1.7 times as often (Milewski et al., 2014). With puberty the biological clock shifts later: the need for sleep does not fall, what changes is the hour at which the body can fall asleep."
 cover: /fotobab/cover-sonno-atlete.jpg
-coverAlt: "A bright, tidy bedroom at dawn, with an unmade bed and rumpled covers, a lit bedside lamp and natural light coming through the window; no people in frame"
+coverAlt: "Two white pillows on an unmade bed, with a beige chenille throw and a patterned duvet, lit by low natural light; no people in frame"
 tags:
   - sleep
   - circadian-rhythm

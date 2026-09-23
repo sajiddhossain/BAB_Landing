@@ -1,13 +1,159 @@
 {
   "posts": [
     {
+      "slug": "allenarsi-con-il-raffreddore-giovani-atlete",
+      "lang": "it",
+      "title": "Ha il raffreddore: si allena o sta a casa? La «regola del collo», e i segnali che la annullano",
+      "seoTitle": "Allenarsi con il raffreddore: la regola del collo",
+      "seoDescription": "Sintomi solo sopra il collo: di solito ci si può muovere piano. Febbre, brividi, dolore al petto o stanchezza eccessiva: no. La regola, i suoi limiti e le fonti.",
+      "date": "2026-09-23",
+      "updated": "2026-09-23",
+      "author": "Sajid Hossain",
+      "excerpt": "Settembre, riprendono i campionati, e il primo raffreddore arriva puntuale. In spogliatoio la decisione si prende in trenta secondi, spesso guardando il calendario invece della ragazza. Esiste però una regola semplice — sopra il collo, sotto il collo — che aiuta a decidere in modo più onesto: ecco da dove viene davvero, che cosa dicono gli studi e quali sintomi la rendono inutile.",
+      "answer": "Se i sintomi stanno solo «sopra il collo» — naso chiuso, starnuti, mal di gola lieve — di solito si può fare attività leggera, riducendo intensità e durata. Con febbre, brividi, tosse profonda, dolore al petto o stanchezza eccessiva, no: in 84 atleti adulti con infezione respiratoria la stanchezza eccessiva era il sintomo più associato a un rientro lungo (Schwellnus et al., 2021).",
+      "cover": "/fotobab/cover-allenarsi-da-malata.jpg",
+      "coverAlt": "Una tazza bianca di tè scuro con due fette di limone, appoggiata su una coperta di lana grigia a maglia grossa, con foglie secche accanto; nessuna persona nell'inquadratura",
+      "tags": [
+        "infezione-respiratoria-acuta",
+        "regola-del-collo",
+        "miocardite",
+        "ritorno-al-gioco",
+        "gestione-del-carico",
+        "mononucleosi-infettiva",
+        "idoneita-agonistica"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "Che cos'è la «regola del collo», e da dove viene davvero?",
+          "id": "che-cose-la-regola-del-collo-e-da-dove-viene-davvero"
+        },
+        {
+          "level": 2,
+          "text": "Perché la febbre è la linea che non si negozia",
+          "id": "perche-la-febbre-e-la-linea-che-non-si-negozia"
+        },
+        {
+          "level": 2,
+          "text": "Quanto si ammalano, davvero, le giovani atlete?",
+          "id": "quanto-si-ammalano-davvero-le-giovani-atlete"
+        },
+        {
+          "level": 2,
+          "text": "Un raffreddore fa calare la prestazione? Meno di quanto si teme",
+          "id": "un-raffreddore-fa-calare-la-prestazione-meno-di-quanto-si"
+        },
+        {
+          "level": 2,
+          "text": "Allenarsi tanto abbassa le difese?",
+          "id": "allenarsi-tanto-abbassa-le-difese"
+        },
+        {
+          "level": 2,
+          "text": "Come si rientra, per gradi",
+          "id": "come-si-rientra-per-gradi"
+        },
+        {
+          "level": 2,
+          "text": "E se il fiato corto non passa mai?",
+          "id": "e-se-il-fiato-corto-non-passa-mai"
+        },
+        {
+          "level": 2,
+          "text": "Che cosa può fare chi allena (e che cosa no)",
+          "id": "che-cosa-puo-fare-chi-allena-e-che-cosa-no"
+        },
+        {
+          "level": 2,
+          "text": "Fonti",
+          "id": "fonti"
+        }
+      ],
+      "words": 3537,
+      "readingMinutes": 18,
+      "timeRequired": "PT18M"
+    },
+    {
+      "slug": "allenarsi-con-il-raffreddore-giovani-atlete",
+      "lang": "en",
+      "title": "She has a cold: does she train or stay home? The neck check, and the signs that cancel it",
+      "seoTitle": "Training with a cold: the neck check, explained",
+      "seoDescription": "Symptoms above the neck only: light activity is usually fine. Fever, chills, chest pain or excessive fatigue: no. The rule, its limits and the sources behind it.",
+      "date": "2026-09-23",
+      "updated": "2026-09-23",
+      "author": "Sajid Hossain",
+      "excerpt": "September, the season restarts, and the first cold arrives on cue. In the changing room the decision gets made in thirty seconds, usually by looking at the fixture list instead of the girl. There is a simpler rule — above the neck, below the neck — that helps decide more honestly: here is where it actually comes from, what the studies say, and which symptoms make it useless.",
+      "answer": "If symptoms sit only above the neck — blocked nose, sneezing, mild sore throat — light activity is usually fine, with reduced intensity and duration. With fever, chills, a deep cough, chest pain or excessive fatigue, no: in 84 adult athletes with a respiratory infection, excessive fatigue was the symptom most associated with a prolonged return (Schwellnus et al., 2021).",
+      "cover": "/fotobab/cover-allenarsi-da-malata.jpg",
+      "coverAlt": "A white cup of dark tea with two lemon slices, resting on a chunky grey knitted blanket with dried leaves beside it; no person in the frame",
+      "tags": [
+        "infezione-respiratoria-acuta",
+        "regola-del-collo",
+        "miocardite",
+        "ritorno-al-gioco",
+        "gestione-del-carico",
+        "mononucleosi-infettiva",
+        "idoneita-agonistica"
+      ],
+      "headings": [
+        {
+          "level": 2,
+          "text": "What is the neck check, and where does it actually come from?",
+          "id": "what-is-the-neck-check-and-where-does-it-actually-come-from"
+        },
+        {
+          "level": 2,
+          "text": "Why fever is the line that is not negotiable",
+          "id": "why-fever-is-the-line-that-is-not-negotiable"
+        },
+        {
+          "level": 2,
+          "text": "How often do young female athletes really fall ill?",
+          "id": "how-often-do-young-female-athletes-really-fall-ill"
+        },
+        {
+          "level": 2,
+          "text": "Does a cold hurt performance? Less than feared",
+          "id": "does-a-cold-hurt-performance-less-than-feared"
+        },
+        {
+          "level": 2,
+          "text": "Does heavy training lower the defences?",
+          "id": "does-heavy-training-lower-the-defences"
+        },
+        {
+          "level": 2,
+          "text": "How to come back, step by step",
+          "id": "how-to-come-back-step-by-step"
+        },
+        {
+          "level": 2,
+          "text": "And if the breathlessness never goes away?",
+          "id": "and-if-the-breathlessness-never-goes-away"
+        },
+        {
+          "level": 2,
+          "text": "What a coach can do (and cannot)",
+          "id": "what-a-coach-can-do-and-cannot"
+        },
+        {
+          "level": 2,
+          "text": "Sources",
+          "id": "sources"
+        }
+      ],
+      "words": 3490,
+      "readingMinutes": 17,
+      "timeRequired": "PT17M"
+    },
+    {
       "slug": "mononucleosi-sport-giovani-atlete",
       "lang": "it",
       "title": "Mononucleosi e sport: quando un'atleta adolescente può tornare ad allenarsi (e perché il problema è la milza)",
       "seoTitle": "Mononucleosi e sport: quando si torna ad allenarsi",
       "seoDescription": "Dopo la mononucleosi le lesioni della milza si concentrano nei primi 21 giorni e sono rarissime dopo i 28 (Becker e Smith, 2014). Come si torna allo sport, per gradi.",
       "date": "2026-09-21",
-      "updated": "2026-09-21",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "La mononucleosi colpisce proprio negli anni dello sport agonistico, e la domanda che arriva in palestra è sempre la stessa: quando può tornare? La risposta non dipende dalla gola o dalla febbre, ma da un organo che non si vede e non si sente — la milza. Ecco che cosa dicono gli studi su tempi, rischi e stanchezza che non passa, e perché un'ecografia sola non basta a decidere.",
       "answer": "Di solito non prima di 3 settimane dall'inizio dei sintomi, e poi per gradi. La milza si ingrossa e le sue lesioni si concentrano nei primi 21 giorni di malattia, diventando rarissime dopo i 28; la rottura riguarda meno dello 0,5% dei casi (Becker e Smith, 2014, revisione clinica). Gli sport di contatto richiedono più cautela, e la decisione è individuale e medica.",
@@ -73,7 +219,7 @@
           "id": "fonti"
         }
       ],
-      "words": 3011,
+      "words": 3061,
       "readingMinutes": 15,
       "timeRequired": "PT15M"
     },
@@ -84,7 +230,7 @@
       "seoTitle": "Mono and sport in teens: when to return to training",
       "seoDescription": "After mono, spleen injuries cluster in the first 21 days and are exceedingly rare after day 28 (Becker and Smith, 2014). How a teenage athlete returns, step by step.",
       "date": "2026-09-21",
-      "updated": "2026-09-21",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "Infectious mononucleosis strikes in exactly the years of competitive sport, and the question at the gym is always the same: when can she come back? The answer does not depend on the sore throat or the fever, but on an organ nobody can see or feel — the spleen. Here is what the studies say about timing, risk and the tiredness that will not lift, and why a single scan is not enough to decide.",
       "answer": "Usually not before 3 weeks from symptom onset, and then gradually. The spleen enlarges, and spleen injuries cluster in the first 21 days of illness and become exceedingly rare after day 28; rupture occurs in under 0.5% of cases (Becker and Smith, 2014, clinical review). Contact sports call for more caution, and the decision is individual and medical.",
@@ -150,7 +296,7 @@
           "id": "sources"
         }
       ],
-      "words": 2939,
+      "words": 2989,
       "readingMinutes": 15,
       "timeRequired": "PT15M"
     },
@@ -1554,7 +1700,7 @@
       "seoTitle": "Visita di idoneità agonistica: cosa controlla davvero",
       "seoDescription": "Cinque accertamenti previsti per legge dal 1982: visita, urine, ECG a riposo e dopo sforzo, spirografia. Nessuno riguarda ciclo, ferro o salute ossea.",
       "date": "2026-08-28",
-      "updated": "2026-09-21",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "Ogni anno, prima di poter giocare, un'atleta passa da un ambulatorio e ne esce con un certificato. Gli accertamenti che la legge italiana prevede dal 1982 sono cinque — visita medica, esame completo delle urine, elettrocardiogramma a riposo e dopo sforzo, spirografia — e sono nati per intercettare un problema preciso: le cardiopatie che causano morte improvvisa. Su quel fronte i dati del Veneto mostrano un calo dell'89% dell'incidenza. Ma nessuno dei cinque riguarda il ciclo mestruale, la disponibilità energetica, il ferro o la salute ossea: cioè le cose che, statisticamente, fermano di più una ragazza di 14 anni. Cosa copre il certificato, cosa non copre, e quali domande vale la pena portarsi in ambulatorio.",
       "answer": "Prevede cinque accertamenti fissati dal DM 18 febbraio 1982: visita medica, esame completo delle urine, elettrocardiogramma a riposo e dopo sforzo, spirografia. È uno screening cardiologico, e sul suo bersaglio funziona — nel Veneto l'incidenza di morte cardiovascolare improvvisa negli atleti sottoposti a screening è scesa dell'89% (Corrado et al., 2006; 55 decessi, di cui 50 maschi, età media 23,3 anni). Non è invece uno screening della salute dell'atleta adolescente: ciclo, disponibilità energetica, ferro e salute ossea non sono nella lista.",
@@ -1619,9 +1765,9 @@
           "id": "fonti"
         }
       ],
-      "words": 3699,
-      "readingMinutes": 18,
-      "timeRequired": "PT18M"
+      "words": 3791,
+      "readingMinutes": 19,
+      "timeRequired": "PT19M"
     },
     {
       "slug": "visita-idoneita-sportiva-giovani-atlete",
@@ -1630,7 +1776,7 @@
       "seoTitle": "Sports eligibility exam: what it actually checks",
       "seoDescription": "Five tests required by Italian law since 1982: exam, urinalysis, ECG at rest and after exercise, spirography. None of them covers periods, iron or bone health.",
       "date": "2026-08-28",
-      "updated": "2026-09-21",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "Every year, before she can play, an athlete visits a clinic and leaves with a certificate. Italian law has required five tests since 1982 — medical examination, full urinalysis, ECG at rest and after exercise, spirography — and they were designed to catch one thing: the cardiac conditions that cause sudden death. On that target the Veneto data show an 89% drop in incidence. But none of the five covers the menstrual cycle, energy availability, iron or bone health: the things that, statistically, are far more likely to stop a 14-year-old. What the certificate covers, what it does not, and which questions are worth bringing into the room.",
       "answer": "It requires five tests set out in the Italian ministerial decree of 18 February 1982: medical examination, full urinalysis, ECG at rest, ECG after exercise, and spirography. It is a cardiac screening programme, and on its own target it works — in the Veneto region the incidence of sudden cardiovascular death in screened athletes fell by 89% (Corrado et al., 2006; 55 deaths, 50 of them male, mean age 23.3 years). It is not a screening of adolescent athlete health: cycle, energy availability, iron and bone are not on the list.",
@@ -1695,7 +1841,7 @@
           "id": "sources"
         }
       ],
-      "words": 3729,
+      "words": 3816,
       "readingMinutes": 19,
       "timeRequired": "PT19M"
     },
@@ -2292,12 +2438,12 @@
       "seoTitle": "Allenarsi al caldo: rischi per le giovani atlete",
       "seoDescription": "Nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma è una questione di esposizione, non di sesso. Acclimatazione, segnali e cosa fare subito.",
       "date": "2026-08-19",
-      "updated": "2026-09-19",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "Nei licei americani il colpo di calore da sforzo è per l'87,7% maschile — ma togliendo il football scende al 50,9%, quasi la parità (Kerr et al., 2013). Non sono i ragazzi a reggere meglio il caldo: sono i ragazzi a giocare di più a football, nella stagione più calda. Cosa dice davvero la fisiologia sulle adolescenti che si allenano d'estate, cosa non dice ancora, e cosa cambia nella prima settimana di ritiro — quella in cui succede quasi tutto.",
       "answer": "Non è una questione di sesso ma di esposizione: nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma scende al 50,9% togliendo il football americano (Kerr et al., 2013). Sulla fisiologia, l'evidenza diretta sulle differenze fra ragazze e ragazzi in pubertà resta scarsa (Topham et al., 2022). Il fattore che conta davvero è l'acclimatazione nelle prime due settimane (Casa et al., 2009).",
       "cover": "/fotobab/cover-caldo-giovani-atlete.jpg",
-      "coverAlt": "Primo piano della corsia centrale di una pista di atletica in tartan rosso, vista dal basso, con la linea bianca che si allontana verso l'orizzonte; nessuna persona nell'inquadratura",
+      "coverAlt": "Le corsie numerate 1, 2, 3 e 4 di una pista di atletica in tartan rosso sotto il sole pieno, con l'ombra netta di un palo che la attraversa in diagonale; nessuna persona nell'inquadratura",
       "tags": [
         "colpo-di-calore",
         "acclimatazione-al-caldo",
@@ -2357,12 +2503,12 @@
       "seoTitle": "Training in the heat: risks for young athletes",
       "seoDescription": "In U.S. high schools exertional heat illness is 87.7% male — but that is exposure, not sex. Acclimatization, warning signs and what to do first.",
       "date": "2026-08-19",
-      "updated": "2026-09-19",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "In U.S. high schools, exertional heat illness is 87.7% male — but strip out American football and it drops to 50.9%, close to parity (Kerr et al., 2013). Boys aren't better at handling heat: boys play more football, in the hottest season of the year. Here's what the physiology actually says about adolescent girls training in summer, what it doesn't say yet, and what changes in the first week of preseason — the week when almost everything happens.",
       "answer": "It isn't about sex, it's about exposure: in U.S. high schools exertional heat illness is 87.7% male, but that drops to 50.9% once American football is excluded (Kerr et al., 2013). On physiology, direct evidence on sex differences during puberty is still scarce (Topham et al., 2022). What actually matters is acclimatization over the first two weeks (Casa et al., 2009).",
       "cover": "/fotobab/cover-caldo-giovani-atlete.jpg",
-      "coverAlt": "Close-up of the center lane on a red tartan running track, shot low, with the white line stretching toward the horizon; no person in frame",
+      "coverAlt": "Lanes numbered 1, 2, 3 and 4 on a red tartan running track in full sun, with the hard shadow of a post cutting across them diagonally; no person in frame",
       "tags": [
         "exertional-heat-illness",
         "heat-acclimatization",
@@ -3310,12 +3456,12 @@
       "seoTitle": "Pesi e adolescenti: la forza fa male alla crescita?",
       "seoDescription": "I pesi non bloccano la crescita: cosa dice l'evidenza sull'allenamento della forza a 13-14 anni, quanto si guadagna davvero e come impostarlo in sicurezza.",
       "date": "2026-08-04",
-      "updated": "2026-09-12",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "No: nella revisione più citata sull'argomento, 22 programmi sperimentali di allenamento con i pesi in bambini e preadolescenti non hanno influenzato la crescita in statura e peso, con tassi di infortunio tra 0,053 e 0,176 ogni 100 ore di partecipazione. Eppure solo il 38,5% dei ragazzi e delle ragazze raggiunge le raccomandazioni di attività di rinforzo muscolare — ed essere maschio è uno dei fattori che predicono di riuscirci. Cosa dicono davvero i dati sulla forza nelle giovani atlete.",
       "answer": "No: in una revisione di 22 programmi sperimentali su bambini e preadolescenti l'allenamento contro resistenza ha migliorato la forza e NON ha influenzato la crescita in statura e peso (Malina, 2006). La condizione è la supervisione, con la tecnica prima del carico: il rischio documentato riguarda il carico improvvisato, non i pesi in sé.",
       "cover": "/fotobab/cover-forza-ragazze.jpg",
-      "coverAlt": "Due manubri azzurri appoggiati su un pavimento di legno chiaro davanti a una parete bianca, senza persone",
+      "coverAlt": "Una rastrelliera di manubri neri in una sala pesi, con i primi a fuoco e gli attrezzi colorati sfocati sullo sfondo; nessuna persona inquadrata",
       "tags": [
         "allenamento-della-forza",
         "cartilagine-di-accrescimento",
@@ -3375,12 +3521,12 @@
       "seoTitle": "Girls and weights: does strength stunt growth?",
       "seoDescription": "Weights don't stunt growth: what the evidence says about strength training at 13-14, how much girls actually gain, and how to set it up safely.",
       "date": "2026-08-04",
-      "updated": "2026-09-12",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "No. In the most cited review on the question, 22 experimental weight-training programmes in children and pre-adolescents did not influence growth in height or weight, with estimated injury rates between 0.053 and 0.176 per 100 participant-hours. Yet only 38.5% of children and adolescents meet muscle-strengthening recommendations — and being a boy is one of the factors that predicts meeting them. What the data actually say about strength in young female athletes.",
       "answer": "No: in a review of 22 experimental programmes in children and preadolescents, resistance training improved strength and did NOT affect growth in height or weight (Malina, 2006). The condition is supervision, with technique before load: the documented risk concerns improvised loading, not weights themselves.",
       "cover": "/fotobab/cover-forza-ragazze.jpg",
-      "coverAlt": "Two blue dumbbells resting on a light wooden floor against a white wall, no people in the frame",
+      "coverAlt": "A rack of black dumbbells in a weights room, the nearest ones in focus and the colourful equipment blurred behind; no people in the frame",
       "tags": [
         "allenamento-della-forza",
         "cartilagine-di-accrescimento",
@@ -3832,12 +3978,12 @@
       "seoTitle": "Specializzazione precoce nello sport: i costi reali",
       "seoDescription": "Un solo sport tutto l'anno costa infortuni, non vantaggio competitivo: fra 219 atlete di 13-18 anni le altamente specializzate si infortunano di più.",
       "date": "2026-07-26",
-      "updated": "2026-09-11",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "Tra le atlete di 13-18 anni, chi è altamente specializzata in un solo sport ha 2,93 volte le probabilità di aver avuto un infortunio. Allenarsi più ore a settimana dei propri anni d'età raddoppia il rischio di infortunio grave da sovraccarico. E gli atleti che arrivano davvero in cima hanno iniziato il loro sport principale più tardi, non prima. I dati, i limiti dei dati, e le tre domande che dicono se una ragazza è già specializzata.",
       "answer": "Costa infortuni, non vantaggio competitivo: tra 219 atlete di 13-18 anni le altamente specializzate riferivano una storia di infortuni 2,93 volte più spesso delle poco specializzate (Okoruwa et al., 2022), e allenarsi più ore a settimana dei propri anni d'età raddoppia le probabilità di un infortunio grave da sovraccarico (Jayanthi et al., 2015).",
       "cover": "/fotobab/cover-specializzazione-precoce.jpg",
-      "coverAlt": "Campetto polivalente all'aperto visto dall'alto: un campo da basket verde con canestri e, sul fondo, porte da calcio",
+      "coverAlt": "Palloni di sport diversi — calcio, pallamano, palloni da gioco a stelle — dentro reti arancioni appese a una corda all'aperto; nessuna persona nell'inquadratura",
       "tags": [
         "specializzazione-precoce",
         "sovraccarico",
@@ -3890,9 +4036,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2833,
-      "readingMinutes": 14,
-      "timeRequired": "PT14M"
+      "words": 3001,
+      "readingMinutes": 15,
+      "timeRequired": "PT15M"
     },
     {
       "slug": "specializzazione-precoce-giovani-atlete",
@@ -3901,12 +4047,12 @@
       "seoTitle": "Early sport specialisation: the real costs",
       "seoDescription": "One sport all year costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised got hurt more often.",
       "date": "2026-07-26",
-      "updated": "2026-09-11",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "Among female athletes aged 13-18, those highly specialised in a single sport are 2.93 times as likely to report an injury history. Training more hours per week than your age in years doubles the odds of a serious overuse injury. And the athletes who actually reach the top started their main sport later, not earlier. The evidence, its limits, and the three questions that tell you whether a girl is already specialised.",
       "answer": "It costs injuries, not competitive advantage: among 219 athletes aged 13-18, the highly specialised reported a history of injury 2.93 times as often as low-specialisation peers (Okoruwa et al., 2022), and training more hours a week than your age in years doubles the odds of a serious overuse injury (Jayanthi et al., 2015).",
       "cover": "/fotobab/cover-specializzazione-precoce.jpg",
-      "coverAlt": "An outdoor multi-use court seen from above: a green basketball court with hoops and, at the far end, football goals",
+      "coverAlt": "Balls from different sports — footballs, handballs, star-patterned play balls — inside orange nets hanging from a rope outdoors; no person in frame",
       "tags": [
         "early-specialisation",
         "overuse",
@@ -3959,7 +4105,7 @@
           "id": "sources"
         }
       ],
-      "words": 2716,
+      "words": 2870,
       "readingMinutes": 14,
       "timeRequired": "PT14M"
     },
@@ -4414,12 +4560,12 @@
       "seoTitle": "Sonno e atlete adolescenti: quante ore servono",
       "seoDescription": "A 13-18 anni servono 8-10 ore per notte: dormirne meno di 8 si associa a infortuni 1,7 volte più frequenti. Perché la pubertà sposta l'orologio interno.",
       "date": "2026-07-18",
-      "updated": "2026-08-31",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "Quante ore deve dormire un'atleta di 14 anni? Tra 8 e 10, dice la raccomandazione di consenso per i 13-18 anni. Negli atleti adolescenti chi dorme meno di 8 ore risulta 1,7 volte più spesso infortunato, e con la pubertà i sintomi di insonnia nelle ragazze passano dal 3,4% al 12,2% — contro il 4,3%-9,1% dei ragazzi, perché l'orologio biologico slitta in avanti mentre la sveglia della scuola resta la stessa. Cosa dicono davvero i dati, cosa non dicono, e cosa può cambiare una società sportiva già da lunedì.",
       "answer": "Perché a 13-18 anni ne servono 8-10 per notte (Paruthi et al., 2016) e dormirne meno di 8 si associa a essere infortunati 1,7 volte più spesso (Milewski et al., 2014). Con la pubertà l'orologio biologico slitta in avanti: il bisogno di sonno non cala, cambia l'ora in cui il corpo riesce ad addormentarsi.",
       "cover": "/fotobab/cover-sonno-atlete.jpg",
-      "coverAlt": "Camera da letto luminosa e ordinata all'alba, con letto disfatto e coperte scomposte, lampada da comodino accesa e luce naturale che entra dalla finestra; nessuna persona inquadrata",
+      "coverAlt": "Due cuscini bianchi appoggiati su un letto disfatto, con una coperta beige di ciniglia e un copripiumino a fantasia, illuminati da luce naturale radente; nessuna persona inquadrata",
       "tags": [
         "sonno",
         "ritmo-circadiano",
@@ -4479,12 +4625,12 @@
       "seoTitle": "Sleep and teenage athletes: how many hours",
       "seoDescription": "At 13-18 you need 8-10 hours a night: sleeping fewer than 8 is linked to 1.7 times more injuries. Why puberty shifts the body clock later.",
       "date": "2026-07-18",
-      "updated": "2026-08-31",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "How many hours should a 14-year-old athlete sleep? Between 8 and 10, says the consensus recommendation for 13-18 year olds. Among adolescent athletes, those sleeping under 8 hours were 1.7 times more likely to have been injured, and through puberty insomnia symptoms in girls climb from 3.4% to 12.2% — against 4.3%-9.1% in boys, because the body clock shifts later while the school alarm stays put. What the evidence says, what it does not, and what a club can change from Monday.",
       "answer": "Because at 13-18 you need 8-10 hours a night (Paruthi et al., 2016), and sleeping fewer than 8 is associated with being injured 1.7 times as often (Milewski et al., 2014). With puberty the biological clock shifts later: the need for sleep does not fall, what changes is the hour at which the body can fall asleep.",
       "cover": "/fotobab/cover-sonno-atlete.jpg",
-      "coverAlt": "A bright, tidy bedroom at dawn, with an unmade bed and rumpled covers, a lit bedside lamp and natural light coming through the window; no people in frame",
+      "coverAlt": "Two white pillows on an unmade bed, with a beige chenille throw and a patterned duvet, lit by low natural light; no people in frame",
       "tags": [
         "sleep",
         "circadian-rhythm",
@@ -5172,11 +5318,11 @@
     {
       "slug": "allenare-ragazze-adolescenti",
       "lang": "it",
-      "title": "Come allenare ragazze adolescenti: 4 leve concrete per coach e società sportive",
+      "title": "Sette su dieci smettono: le quattro leve che un allenatore ha davvero in mano",
       "seoTitle": "Come allenare ragazze adolescenti: 4 leve concrete",
-      "seoDescription": "Quattro leve concrete per coach e società: linguaggio non giudicante, carico adattato, segnali di squadra anonimi, spazi e continuità. Con i dati dietro.",
+      "seoDescription": "Il 71% delle ragazze tesserate a 10-14 anni smette senza rientrare. Quattro leve senza budget per coach e società: linguaggio, carico, segnali anonimi, continuità.",
       "date": "2026-07-02",
-      "updated": "2026-09-12",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "Tra le ragazze tesserate a 10-14 anni il 71% abbandona senza mai rientrare, e quasi mai è una questione di motivazione. Allenarle bene significa quattro cose concrete e senza budget: parlare del corpo che cambia, adattare il carico invece di sanzionare il calo, usare solo segnali di squadra anonimi, garantire spazi e continuità. Ecco i dati che sostengono ciascuna leva — e cosa fare quando un'atleta si presenta con dolore.",
       "answer": "Agendo sull'ambiente, non sulla motivazione della singola: linguaggio non giudicante, segnali di squadra aggregati e anonimi, condizioni pratiche e prevenzione degli infortuni. Un allenatore percepito come molto informato si associa al 36% di sintomi di RED-S in meno nelle sue atlete (Female Athlete Health Report, 2023 — campione adulto, report non peer-reviewed).",
@@ -5241,9 +5387,9 @@
           "id": "fonti"
         }
       ],
-      "words": 2821,
-      "readingMinutes": 14,
-      "timeRequired": "PT14M"
+      "words": 2959,
+      "readingMinutes": 15,
+      "timeRequired": "PT15M"
     },
     {
       "slug": "reggiseno-sportivo-ragazze",
@@ -5311,11 +5457,11 @@
     {
       "slug": "allenare-ragazze-adolescenti",
       "lang": "en",
-      "title": "How to coach teenage girls: 4 concrete levers for coaches and sports clubs",
+      "title": "Seven in ten drop out: the four levers a coach actually holds",
       "seoTitle": "How to coach teenage girls: 4 concrete levers",
-      "seoDescription": "Four concrete levers for coaches and clubs: non-judgemental language, adjusted load, anonymous team signals, space and continuity — with the data.",
+      "seoDescription": "71% of girls who join a club at 10-14 drop out for good. Four budget-free levers for coaches and clubs: language, load, anonymous signals, continuity.",
       "date": "2026-07-02",
-      "updated": "2026-09-12",
+      "updated": "2026-09-23",
       "author": "Sajid Hossain",
       "excerpt": "Among girls who join a club aged 10-14, 71% drop out without ever returning, and it is almost never about motivation. Coaching them well means four concrete, budget-free things: talking about the changing body, adjusting the load instead of penalising a dip, using only anonymous team signals, and guaranteeing space and continuity. Here is the evidence behind each lever — and what to do when an athlete turns up in pain.",
       "answer": "By acting on the environment, not on the individual girl's motivation: non-judgemental language, aggregated and anonymous team signals, practical conditions and injury prevention. A coach perceived as very well-informed is associated with 36% fewer RED-S symptoms in his or her athletes (Female Athlete Health Report, 2023 — adult sample, non-peer-reviewed report).",
@@ -5380,7 +5526,7 @@
           "id": "sources"
         }
       ],
-      "words": 2768,
+      "words": 2896,
       "readingMinutes": 14,
       "timeRequired": "PT14M"
     },

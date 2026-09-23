@@ -1,4 +1,5 @@
 
+
 ## cover-dolore-puberta.jpg
 - Fonte: Pexels — https://www.pexels.com/photo/surface-of-an-empty-running-track-18502968/
 - Autore: Jan van der Wolf
@@ -14,13 +15,15 @@
   NB: la rendition `image_1300` dello stesso file è filigranata "rawpixel" → non usare.
 
 ## cover-sonno-atlete.jpg
-- Titolo originale: "Bedroom Clean"
-- Fonte: StockSnap.io — https://stocksnap.io/photo/bedroom-clean-OE0F9BHXJQ (reperita via Openverse)
-- Autore: Burst (https://burst.shopify.com)
-- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Titolo originale: "Pillows and blankets on the bed"
+- Fonte: Pexels — https://www.pexels.com/photo/pillows-and-blankets-on-the-bed-16497537/
+- Licenza: Pexels License (uso gratuito, anche commerciale; attribuzione non obbligatoria)
 - Uso: cover articolo blog "sonno e atlete adolescenti" (IT + EN)
-- Lavorazione: rendition `960w` (massima disponibile sul CDN), ritaglio 16:9 a 960x540, JPEG q85.
+- Lavorazione: originale 3024x4032, ritaglio 16:9 (ancoraggio verticale 0,45) e resample a **1600x900**, JPEG q85.
   Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+- Storia: sostituisce la precedente cover StockSnap "Bedroom Clean" di Burst (CC0), disponibile sul CDN
+  solo nella rendition `960w` e quindi ferma a 960x540 — sotto la soglia di 1200 px di Google Discover.
+  L'originale a piena risoluzione non è recuperabile dal CDN di StockSnap, da cui la sostituzione.
 
 ## cover-crociato-atlete.jpg
 - Titolo originale: "An empty indoor basketball court with polished wooden flooring…"
@@ -51,15 +54,16 @@
   Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
 
 ## cover-specializzazione-precoce.jpg
-- Titolo originale: "Hobbies Sports"
-- Fonte: StockSnap.io — https://stocksnap.io/photo/hobbies-sports-HBNGBU52V1 (reperita via Openverse)
-- Autore: Emile-Victor Portenart
-- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Titolo originale: "Balls in nets hanging on a rope"
+- Fonte: Pexels — https://www.pexels.com/photo/balls-in-nets-hanging-on-a-rope-16550962/
+- Licenza: Pexels License (uso gratuito, anche commerciale; attribuzione non obbligatoria)
 - Uso: cover articolo blog "specializzazione precoce nelle giovani atlete" (IT + EN)
-- Lavorazione: rendition `960w` (originale 3365x1892), già in 16:9 → 960x540, JPEG q85.
-  Scelta del soggetto: campetto polivalente (basket + porte da calcio) come immagine del gioco
-  libero e multi-sport, cioè l'opposto della specializzazione precoce.
-  Le persone presenti sono riprese dall'alto e a distanza, non identificabili: nessun volto leggibile.
+- Lavorazione: originale 2947x4421, ritaglio 16:9 (ancoraggio verticale 0,45) e resample a **1600x900**, JPEG q85.
+  Scelta del soggetto: palloni di sport diversi appesi insieme — l'immagine della diversificazione, che è
+  l'alternativa documentata allo sport unico tutto l'anno. Nessuna persona ritratta.
+- Storia: sostituisce la precedente cover StockSnap "Hobbies Sports" di Emile-Victor Portenart (CC0),
+  disponibile sul CDN solo nella rendition `960w` e quindi ferma a 960x540 — sotto la soglia di 1200 px
+  di Google Discover.
 
 ## cover-salute-ossea.jpg
 - Titolo originale: "Hopscotch game"
@@ -97,12 +101,15 @@
   NB: scartata "Gymnastics room 2.webp" (pure CC0) perché ritrae giovani ginnaste identificabili.
 
 ## cover-forza-ragazze.jpg
-- Titolo originale: "Fitness Weights"
-- Fonte: StockSnap.io — https://stocksnap.io/photo/fitness-weights-CYK8OIFEIE (reperita via Openverse)
-- Autore: Kristin Hardwick
-- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Titolo originale: "A row of dumbbells in a gym"
+- Fonte: Pexels — https://www.pexels.com/photo/a-row-of-dumbbells-in-a-gym-19025674/
+- Licenza: Pexels License (uso gratuito, anche commerciale; attribuzione non obbligatoria)
 - Uso: cover articolo blog "le ragazze e i pesi / allenamento della forza a 13-14 anni" (IT + EN)
-- Lavorazione: rendition `960w` (originale 5556x3704), ritaglio centrato 16:9 a 960x540, JPEG q85.
+- Lavorazione: originale 9504x6336, ritaglio centrato 16:9 e resample a **1600x900**, JPEG q85.
+  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+- Storia: sostituisce la precedente cover StockSnap "Fitness Weights" di Kristin Hardwick (CC0),
+  disponibile sul CDN solo nella rendition `960w` e quindi ferma a 960x540 — sotto la soglia di
+  1200 px di Google Discover.
   Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
   Scelta del soggetto: due manubri leggeri appoggiati per terra, senza sala pesi e senza corpi —
   la forza come attrezzo accessibile, non come contesto intimidatorio.
@@ -187,20 +194,14 @@
   si è ferme, che è il vero contenuto dell'articolo.
 
 ## cover-caldo-giovani-atlete.jpg
-- Titolo originale: "Track Field"
-- Fonte: StockSnap.io — https://stocksnap.io/photo/track-field-RRPLZNV2QC (reperita via Openverse,
-  record 66cbbd0f-82ae-4075-8e7f-e2f8a25202b1)
-- Autore: Matt Moloney
-- Licenza: CC0 1.0 (dedicata al pubblico dominio, uso libero anche commerciale; attribuzione non
-  obbligatoria)
-- Uso: cover articolo blog "allenarsi al caldo nelle giovani atlete" (IT + EN)
-- Lavorazione: originale 960x540 (unica rendition disponibile su StockSnap per questo file). Ritaglio
-  dei 150px superiori (contenevano una figura adulta minuscola e sfocata sullo sfondo, vicino alle
-  tribune) per eliminare ogni persona dall'inquadratura, poi ritaglio 16:9 centrato (693x390) e
-  resample a 960x540, JPEG q88.
-  Nessuna persona nell'inquadratura finale: scelta deliberata per un tema che riguarda minori.
-  Scelta del soggetto: la corsia centrale della pista vista dal basso — l'immagine astratta
-  dell'allenamento all'aperto, senza legarla a uno sport specifico.
+- Titolo originale: "Empty running track lanes with shadows"
+- Fonte: Pexels — https://www.pexels.com/photo/empty-running-track-lanes-with-shadows-37718513/
+- Licenza: Pexels License (uso gratuito, anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "allenarsi al caldo / giovani atlete" (IT + EN)
+- Lavorazione: originale 3120x2080, ritaglio centrato 16:9 e resample a **1600x900**, JPEG q85.
+  Sole pieno e ombre nette: è il soggetto del pezzo. Nessuna persona ritratta.
+- Storia: sostituisce la precedente cover StockSnap "Track Field" di Matt Moloney (CC0), disponibile sul
+  CDN solo nella rendition `960w` e quindi ferma a 960x540 — sotto la soglia di 1200 px di Google Discover.
 
 ## cover-fiato-corto-giovani-atlete.jpg
 - Titolo originale: "An empty indoor basketball court with polished wooden flooring, blue and white
@@ -450,3 +451,12 @@
   Scartate in fase di selezione: "Closeup of thermometer" (`8564aae3-…`, CC0), che è un termometro da esterno
   con scala sotto zero e avrebbe suggerito il freddo invece della febbre; le foto CC0 "Temperature check" con
   persone reali in contesto COVID (volti riconoscibili e contesto fuorviante).
+
+## cover-allenarsi-da-malata.jpg
+- Titolo originale: tazza di tè al limone su coperta di lana
+- Fonte: Pexels — https://www.pexels.com/photo/10775692/
+- Licenza: Pexels License (uso gratuito, anche commerciale; attribuzione non obbligatoria)
+- Uso: cover articolo blog "allenarsi con il raffreddore / la regola del collo" (IT + EN)
+- Lavorazione: originale 5485x3657, ritaglio 16:9 e resample a **1600x900**, JPEG q85.
+  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori, e nessun farmaco
+  nell'inquadratura — l'articolo è educativo e non suggerisce terapie.

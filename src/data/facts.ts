@@ -1204,6 +1204,36 @@ export const FACTS: Fact[] = [
     source: 'Hosey et al., 2006',
     doi: '10.1136/bjsm.2005.022376',
   },
+  {
+    id: 'allenarsi-con-il-raffreddore-giovani-atlete-1',
+    article: 'allenarsi-con-il-raffreddore-giovani-atlete',
+    claim:
+      "In media il 43% dei giovani atleti aveva un problema di salute in corso in un dato momento, e le malattie pesavano per il 30% dell'impatto complessivo, quanto gli infortuni da sovraccarico. Popolazione: 320 atleti di licei sportivi norvegesi, età media 16,2 anni, maschi E femmine, seguiti per 26 settimane.",
+    claimEn:
+      'On average 43% of young athletes had an ongoing health problem at any given time, and illnesses accounted for 30% of the total burden, about as much as overuse injuries. Population: 320 athletes at Norwegian sport academy high schools, mean age 16.2, boys AND girls, followed for 26 weeks.',
+    source: 'Moseid et al., 2018',
+    doi: '10.1111/sms.13047',
+  },
+  {
+    id: 'allenarsi-con-il-raffreddore-giovani-atlete-2',
+    article: 'allenarsi-con-il-raffreddore-giovani-atlete',
+    claim:
+      'Le donne hanno avuto il 40% di malattie in più degli uomini, e il 47% delle malattie registrate riguardava le vie respiratorie. Popolazione: 11.274 atleti olimpici ADULTI (45% donne) monitorati per 17 giorni a Rio 2016, in un contesto di viaggi intercontinentali e carichi di gara: non è una stima trasferibile alle adolescenti.',
+    claimEn:
+      'Women had 40% more illnesses than men, and 47% of recorded illnesses affected the respiratory system. Population: 11,274 ADULT Olympic athletes (45% women) monitored over 17 days at Rio 2016, in a setting of intercontinental travel and competition loads: not an estimate transferable to adolescents.',
+    source: 'Soligard et al., 2017',
+    doi: '10.1136/bjsports-2017-097956',
+  },
+  {
+    id: 'allenarsi-con-il-raffreddore-giovani-atlete-3',
+    article: 'allenarsi-con-il-raffreddore-giovani-atlete',
+    claim:
+      'Le infezioni respiratorie lievi lasciano la resistenza cardiorespiratoria in gran parte non compromessa, mentre le prove di funzione polmonare calano restando entro i valori normali; le forme più severe si associano a un impatto negativo su allenamento e prestazione. Popolazione: revisione sistematica di 17 studi su 7.793 persone fra i 15 e i 65 anni, con eterogeneità metodologica sostanziale.',
+    claimEn:
+      'Mild respiratory infections leave cardiorespiratory endurance largely unaffected, while pulmonary function tests fall yet stay within normal ranges; more severe forms are associated with a negative impact on training and performance. Population: systematic review of 17 studies in 7,793 people aged 15-65, with substantial methodological heterogeneity.',
+    source: 'Kaulback et al., 2023',
+    doi: '10.1080/17461391.2022.2089914',
+  },
 ];
 
 /** Il numero di dati pubblicati: usato nei testi di pagina e nelle meta description. */

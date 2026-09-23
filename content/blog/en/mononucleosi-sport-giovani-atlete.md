@@ -4,7 +4,7 @@ title: "Glandular fever and sport: when a teenage athlete can return to training
 seoTitle: "Mono and sport in teens: when to return to training"
 seoDescription: "After mono, spleen injuries cluster in the first 21 days and are exceedingly rare after day 28 (Becker and Smith, 2014). How a teenage athlete returns, step by step."
 date: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-23
 author: Sajid Hossain
 excerpt: "Infectious mononucleosis strikes in exactly the years of competitive sport, and the question at the gym is always the same: when can she come back? The answer does not depend on the sore throat or the fever, but on an organ nobody can see or feel — the spleen. Here is what the studies say about timing, risk and the tiredness that will not lift, and why a single scan is not enough to decide."
 answer: "Usually not before 3 weeks from symptom onset, and then gradually. The spleen enlarges, and spleen injuries cluster in the first 21 days of illness and become exceedingly rare after day 28; rupture occurs in under 0.5% of cases (Becker and Smith, 2014, clinical review). Contact sports call for more caution, and the decision is individual and medical."
@@ -140,6 +140,8 @@ Tiredness that lasts weeks or months after mononucleosis should therefore go to 
 The virus spreads through saliva, and after infection it keeps being **shed in saliva**, declining over the **first year** — and it stays in the body for life (Becker and Smith, 2014). Keeping an athlete away from the squad is therefore not what protects her teammates: many will already have met the virus, and anyone who has just had it keeps shedding it for a long time anyway.
 
 The useful rule is a different one, and it applies always, not just with mononucleosis: **water bottles, cups and cutlery are not shared**. The reason to stay off the pitch in the first weeks is **the spleen**, not contagion.
+
+For every other infection that goes round a squad during the year — colds, sore throats, flu — the day-to-day decision follows a different and simpler logic, with different limits: it is [the neck check](/en/blog/allenarsi-con-il-raffreddore-giovani-atlete), which in mononucleosis is **not enough**, because the risk that matters here gives no symptoms.
 
 ## What a coach can do (and what not)
 

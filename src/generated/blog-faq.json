@@ -1,6 +1,94 @@
 {
   "posts": [
     {
+      "slug": "allenarsi-con-il-raffreddore-giovani-atlete",
+      "lang": "it",
+      "title": "Ha il raffreddore: si allena o sta a casa? La «regola del collo», e i segnali che la annullano",
+      "date": "2026-09-23",
+      "questions": [
+        {
+          "q": "Che cos'è la «regola del collo»?",
+          "id": "faq-che-cose-la-regola-del-collo"
+        },
+        {
+          "q": "Con la febbre si può allenare?",
+          "id": "faq-con-la-febbre-si-puo-allenare"
+        },
+        {
+          "q": "Quanto è frequente che una giovane atleta si ammali?",
+          "id": "faq-quanto-e-frequente-che-una-giovane-atleta-si-ammali"
+        },
+        {
+          "q": "Perché le atlete donne sembrano ammalarsi più spesso?",
+          "id": "faq-perche-le-atlete-donne-sembrano-ammalarsi-piu-spesso"
+        },
+        {
+          "q": "Un raffreddore fa davvero calare la prestazione?",
+          "id": "faq-un-raffreddore-fa-davvero-calare-la-prestazione"
+        },
+        {
+          "q": "Allenarsi tanto abbassa le difese immunitarie?",
+          "id": "faq-allenarsi-tanto-abbassa-le-difese-immunitarie"
+        },
+        {
+          "q": "Quanto tempo serve per tornare dopo un'influenza?",
+          "id": "faq-quanto-tempo-serve-per-tornare-dopo-uninfluenza"
+        },
+        {
+          "q": "E se la stanchezza non passa?",
+          "id": "faq-e-se-la-stanchezza-non-passa"
+        },
+        {
+          "q": "Che cosa può fare chi allena?",
+          "id": "faq-che-cosa-puo-fare-chi-allena"
+        }
+      ]
+    },
+    {
+      "slug": "allenarsi-con-il-raffreddore-giovani-atlete",
+      "lang": "en",
+      "title": "She has a cold: does she train or stay home? The neck check, and the signs that cancel it",
+      "date": "2026-09-23",
+      "questions": [
+        {
+          "q": "What is the neck check?",
+          "id": "faq-what-is-the-neck-check"
+        },
+        {
+          "q": "Can she train with a fever?",
+          "id": "faq-can-she-train-with-a-fever"
+        },
+        {
+          "q": "How often does a young female athlete actually fall ill?",
+          "id": "faq-how-often-does-a-young-female-athlete-actually-fall-ill"
+        },
+        {
+          "q": "Why do female athletes seem to fall ill more often?",
+          "id": "faq-why-do-female-athletes-seem-to-fall-ill-more-often"
+        },
+        {
+          "q": "Does a cold really hurt performance?",
+          "id": "faq-does-a-cold-really-hurt-performance"
+        },
+        {
+          "q": "Does hard training weaken the immune system?",
+          "id": "faq-does-hard-training-weaken-the-immune-system"
+        },
+        {
+          "q": "How long does it take to come back after flu?",
+          "id": "faq-how-long-does-it-take-to-come-back-after-flu"
+        },
+        {
+          "q": "And if the tiredness does not lift?",
+          "id": "faq-and-if-the-tiredness-does-not-lift"
+        },
+        {
+          "q": "What can a coach do?",
+          "id": "faq-what-can-a-coach-do"
+        }
+      ]
+    },
+    {
       "slug": "mononucleosi-sport-giovani-atlete",
       "lang": "it",
       "title": "Mononucleosi e sport: quando un'atleta adolescente può tornare ad allenarsi (e perché il problema è la milza)",
@@ -889,6 +977,10 @@
         {
           "q": "Alla visita di idoneità va detto che si prende la pillola?",
           "id": "faq-alla-visita-di-idoneita-va-detto-che-si-prende-la"
+        },
+        {
+          "q": "Dopo una malattia importante serve una nuova valutazione prima di rientrare?",
+          "id": "faq-dopo-una-malattia-importante-serve-una-nuova"
         }
       ]
     },
@@ -941,6 +1033,10 @@
         {
           "q": "Should you tell the eligibility exam that you are on the pill?",
           "id": "faq-should-you-tell-the-eligibility-exam-that-you-are-on"
+        },
+        {
+          "q": "After a significant illness, is a new assessment needed before returning?",
+          "id": "faq-after-a-significant-illness-is-a-new-assessment-needed"
         }
       ]
     },
@@ -2425,6 +2521,10 @@
         {
           "q": "Chi è più forte a 13 anni resterà più forte da adulta?",
           "id": "faq-chi-e-piu-forte-a-13-anni-restera-piu-forte-da-adulta"
+        },
+        {
+          "q": "Un solo sport tutto l'anno fa anche ammalare di più?",
+          "id": "faq-un-solo-sport-tutto-lanno-fa-anche-ammalare-di-piu"
         }
       ]
     },
@@ -2469,6 +2569,10 @@
         {
           "q": "Will the strongest 13-year-old still be the strongest as an adult?",
           "id": "faq-will-the-strongest-13-year-old-still-be-the-strongest"
+        },
+        {
+          "q": "Does one sport all year round also mean falling ill more often?",
+          "id": "faq-does-one-sport-all-year-round-also-mean-falling-ill"
         }
       ]
     },
@@ -3403,7 +3507,7 @@
     {
       "slug": "allenare-ragazze-adolescenti",
       "lang": "it",
-      "title": "Come allenare ragazze adolescenti: 4 leve concrete per coach e società sportive",
+      "title": "Sette su dieci smettono: le quattro leve che un allenatore ha davvero in mano",
       "date": "2026-07-02",
       "questions": [
         {
@@ -3445,6 +3549,10 @@
         {
           "q": "Che obblighi di tutela ha oggi una società sportiva dilettantistica?",
           "id": "faq-che-obblighi-di-tutela-ha-oggi-una-societa-sportiva"
+        },
+        {
+          "q": "Un'atleta può allenarsi con il raffreddore?",
+          "id": "faq-unatleta-puo-allenarsi-con-il-raffreddore"
         },
         {
           "q": "Come si prepara una squadra al primo allenamento del ritiro estivo?",
@@ -3511,7 +3619,7 @@
     {
       "slug": "allenare-ragazze-adolescenti",
       "lang": "en",
-      "title": "How to coach teenage girls: 4 concrete levers for coaches and sports clubs",
+      "title": "Seven in ten drop out: the four levers a coach actually holds",
       "date": "2026-07-02",
       "questions": [
         {
@@ -3553,6 +3661,10 @@
         {
           "q": "What safeguarding duties does an Italian amateur club have today?",
           "id": "faq-what-safeguarding-duties-does-an-italian-amateur-club"
+        },
+        {
+          "q": "Can an athlete train with a cold?",
+          "id": "faq-can-an-athlete-train-with-a-cold"
         },
         {
           "q": "How do you prepare a team for the first summer preseason session?",

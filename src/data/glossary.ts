@@ -813,6 +813,32 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
       'Enlargement of the spleen. In mononucleosis it is caused by lymphocytic infiltration, moves the organ out from under the protection of the ribs and makes it more fragile; it usually peaks within 2 weeks (occasionally up to 3.5) and in most cases resolves within 4-6 weeks. Physical examination detected it in as few as 17% of cases in one cited study (Becker and Smith, 2014), and a single ultrasound says little: in 631 healthy collegiate athletes, young ADULTS, more than 7% already met the criteria for splenomegaly (Hosey et al., 2006).',
     sameAs: 'https://en.wikipedia.org/wiki/Splenomegaly',
   },
+  'infezione-respiratoria-acuta': {
+    name: 'Infezione respiratoria acuta',
+    description:
+      "Raffreddore, faringite, laringite, bronchite: le infezioni delle vie aeree, la categoria di malattia più comune in chi fa sport. Nel monitoraggio prospettico dei Giochi olimpici di Rio 2016 su 11.274 atleti ADULTI, il 47% delle malattie registrate riguardava le vie respiratorie e le donne ne hanno avute il 40% in più degli uomini (Soligard et al., 2017). Una revisione sistematica di 17 studi su 7.793 persone di 15-65 anni ha trovato che le forme lievi lasciano la resistenza cardiorespiratoria in gran parte intatta, mentre le forme severe si associano a un impatto negativo su allenamento e prestazione (Kaulback et al., 2023).",
+    nameEn: 'Acute respiratory illness',
+    descriptionEn:
+      'Colds, sore throats, laryngitis, bronchitis: airway infections, the most common category of illness in people who play sport. In the prospective surveillance of the Rio 2016 Olympic Games across 11,274 ADULT athletes, 47% of recorded illnesses affected the respiratory system and women had 40% more of them than men (Soligard et al., 2017). A systematic review of 17 studies in 7,793 people aged 15-65 found that mild forms leave cardiorespiratory endurance largely intact, while severe forms are associated with a negative impact on training and performance (Kaulback et al., 2023).',
+    sameAs: 'https://en.wikipedia.org/wiki/Upper_respiratory_tract_infection',
+  },
+  'regola-del-collo': {
+    name: 'Regola del collo',
+    description:
+      "Regola pratica per decidere se allenarsi durante un'infezione respiratoria: con i sintomi solo sopra il collo (naso chiuso, starnuti, gola che pizzica) si può fare attività leggera a intensità e durata ridotte; con sintomi sotto il collo (febbre, brividi, dolori muscolari diffusi, tosse profonda, costrizione al petto, sintomi gastrointestinali) ci si ferma. È attribuita a una rubrica clinica del 1993 (Eichner, 1993) e non è mai stata validata da uno studio controllato: è un aiuto alla decisione, non un protocollo clinico.",
+    nameEn: 'Neck check',
+    descriptionEn:
+      'A rule of thumb for deciding whether to train during a respiratory infection: with symptoms above the neck only (blocked nose, sneezing, a scratchy throat) light activity at reduced intensity and duration is possible; with symptoms below the neck (fever, chills, widespread muscle aches, a deep cough, chest tightness, gastrointestinal symptoms) you stop. It is attributed to a 1993 clinical column (Eichner, 1993) and has never been validated by a controlled trial: it is a decision aid, not a clinical protocol.',
+  },
+  miocardite: {
+    name: 'Miocardite',
+    description:
+      "Infiammazione del muscolo cardiaco, che può seguire un'infezione virale. È una causa riconosciuta di aritmie e di morte cardiaca improvvisa in persone attive e atleti, e fra i fattori di rischio negli atleti d'élite la letteratura elenca il continuare ad allenarsi durante le infezioni o riprendere troppo presto; la presentazione è aspecifica — fatica, indolenzimento muscolare, frequenza cardiaca elevata a riposo e sotto sforzo, capacità di esercizio ridotta (Halle et al., 2020, revisione clinica su popolazione in gran parte ADULTA). È la ragione per cui con la febbre non si fa attività fisica.",
+    nameEn: 'Myocarditis',
+    descriptionEn:
+      'Inflammation of the heart muscle, which can follow a viral infection. It is a recognised cause of arrhythmia and sudden cardiac death in physically active people and athletes, and among the risk factors in elite athletes the literature lists continuing to train during infections or resuming too early; the presentation is non-specific — fatigue, muscle soreness, a raised heart rate at rest and on exertion, reduced exercise capacity (Halle et al., 2020, clinical review in a largely ADULT population). It is the reason there is no physical activity with a fever.',
+    sameAs: 'https://en.wikipedia.org/wiki/Myocarditis',
+  },
   'rottura-splenica': {
     name: 'Rottura della milza (rottura splenica)',
     description:

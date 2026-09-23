@@ -4,12 +4,12 @@ title: "Allenarsi al caldo: nelle giovani atlete il rischio non è (solo) questi
 seoTitle: "Allenarsi al caldo: rischi per le giovani atlete"
 seoDescription: "Nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma è una questione di esposizione, non di sesso. Acclimatazione, segnali e cosa fare subito."
 date: 2026-08-19
-updated: 2026-09-19
+updated: 2026-09-23
 author: Sajid Hossain
 excerpt: "Nei licei americani il colpo di calore da sforzo è per l'87,7% maschile — ma togliendo il football scende al 50,9%, quasi la parità (Kerr et al., 2013). Non sono i ragazzi a reggere meglio il caldo: sono i ragazzi a giocare di più a football, nella stagione più calda. Cosa dice davvero la fisiologia sulle adolescenti che si allenano d'estate, cosa non dice ancora, e cosa cambia nella prima settimana di ritiro — quella in cui succede quasi tutto."
 answer: "Non è una questione di sesso ma di esposizione: nei licei USA il colpo di calore da sforzo è all'87,7% maschile, ma scende al 50,9% togliendo il football americano (Kerr et al., 2013). Sulla fisiologia, l'evidenza diretta sulle differenze fra ragazze e ragazzi in pubertà resta scarsa (Topham et al., 2022). Il fattore che conta davvero è l'acclimatazione nelle prime due settimane (Casa et al., 2009)."
 cover: /fotobab/cover-caldo-giovani-atlete.jpg
-coverAlt: "Primo piano della corsia centrale di una pista di atletica in tartan rosso, vista dal basso, con la linea bianca che si allontana verso l'orizzonte; nessuna persona nell'inquadratura"
+coverAlt: "Le corsie numerate 1, 2, 3 e 4 di una pista di atletica in tartan rosso sotto il sole pieno, con l'ombra netta di un palo che la attraversa in diagonale; nessuna persona nell'inquadratura"
 tags:
   - colpo-di-calore
   - acclimatazione-al-caldo
