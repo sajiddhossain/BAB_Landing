@@ -42,6 +42,7 @@ const SIGN_LINE = `${SIGNATURE}`
 const STATIC_PAGES: Array<{ path: string; lastmod: string; changefreq: ChangeFreq; priority: string }> = [
   { path: '/', lastmod: '2026-08-08', changefreq: 'weekly', priority: '1.0' },
   { path: '/features', lastmod: '2026-06-22', changefreq: 'monthly', priority: '0.8' },
+  { path: '/sondaggio', lastmod: '2026-09-23', changefreq: 'weekly', priority: '0.9' },
   { path: '/about', lastmod: '2026-06-22', changefreq: 'monthly', priority: '0.7' },
   { path: '/privacy', lastmod: '2026-06-22', changefreq: 'yearly', priority: '0.3' },
   { path: '/cookie', lastmod: '2026-06-22', changefreq: 'yearly', priority: '0.3' },
@@ -51,6 +52,7 @@ const STATIC_PAGES: Array<{ path: string; lastmod: string; changefreq: ChangeFre
 // Rotte da pre-renderizzare → chiave SEO nel locale IT
 const PRERENDER_ROUTES: Record<string, string> = {
   '/features': 'features',
+  '/sondaggio': 'sondaggio',
   // '/app' temporaneamente nascosta (APP_ENABLED=false): non pre-renderizzata.
   '/about': 'about',
   '/privacy': 'privacy',
@@ -73,6 +75,7 @@ const BLOG_LOCALES: Record<string, { prefix: string; htmlLang: string; ogLocale:
 // Etichette brevi per il breadcrumb (il <title> SEO è troppo lungo come nodo)
 const BREADCRUMB_LABEL: Record<string, string> = {
   '/features': 'Funzionalità',
+  '/sondaggio': 'Sondaggio',
   '/app': "L'App",
   '/about': 'Chi siamo',
   '/privacy': 'Privacy Policy',

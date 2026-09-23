@@ -36,6 +36,7 @@ const BlogCluster = lazy(() => import('./components/BlogCluster'));
 const Glossary = lazy(() => import('./components/Glossary'));
 const FaqHub = lazy(() => import('./components/FaqHub'));
 const Facts = lazy(() => import('./components/Facts'));
+const CoachSurvey = lazy(() => import('./components/CoachSurvey'));
 const WaitlistModal = lazy(() => import('./components/WaitlistModal'));
 
 // Normalizza il path: rimuove lo slash finale (/coach/ → /coach), così il match
@@ -380,7 +381,7 @@ export default function App() {
   // Route sconosciuta → pagina 404 in-brand (non un finto rendering della Home)
   const bilingualRoute = matchBilingual(currentPath);
   const knownPaths = [
-    '/', '/app', '/coach', '/features', '/about', '/privacy', '/cookie', '/termini', '/blog',
+    '/', '/app', '/coach', '/features', '/about', '/privacy', '/cookie', '/termini', '/blog', '/sondaggio',
     ...BILINGUAL_ROUTES, ...BILINGUAL_ROUTES.map((r) => `/en${r}`),
   ];
   const isNotFound = !knownPaths.includes(currentPath) && !isBlogRoute;
@@ -575,6 +576,7 @@ export default function App() {
               <Facts key={`dati-${bilingualRoute.lang}`} lang={bilingualRoute.lang} />
             )}
             {activePath === '/features' && <Features key="features" />}
+            {activePath === '/sondaggio' && <CoachSurvey key="sondaggio" />}
             {activePath === '/about' && <About key="about" />}
             {activePath === '/privacy' && <LegalPage key="privacy" page="privacy" />}
             {activePath === '/cookie' && <LegalPage key="cookie" page="cookie" />}

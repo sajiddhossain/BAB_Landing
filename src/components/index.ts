@@ -10,6 +10,7 @@
 export { default as About } from './About';
 export { default as AppSimulator } from './AppSimulator';
 export { default as ClubLeadForm } from './ClubLeadForm';
+export { default as CoachSurvey } from './CoachSurvey';
 export { default as CoachDashboard } from './CoachDashboard';
 export { default as FAQ } from './FAQ';
 export { default as Features } from './Features';
