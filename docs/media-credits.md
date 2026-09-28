@@ -45,13 +45,20 @@
   NB: scartata la variante "Hlavni Sal A" dello stesso autore perché contiene figure in lontananza.
 
 ## cover-commozione-cerebrale.jpg
-- Titolo originale: "Still Items"
-- Fonte: StockSnap.io — https://stocksnap.io/photo/still-items-KTQZYM7YXM (reperita via Openverse)
-- Autore: Markus Spiske
-- Licenza: CC0 1.0 (pubblico dominio, uso libero anche commerciale; attribuzione non obbligatoria)
+- Titolo originale: foto della WordPress Photo Directory, descritta dall'autore come «Sunset behind leaf-less
+  trees, soccer goals, and a baseball field (Towson, Maryland)»
+- Fonte: WordPress Photo Directory — https://wordpress.org/photos/photo/87365c5064/
+  (rendition 2048x1536 `pd.w.org/2024/02/87365c50640a18c95.06703778-2048x1536.jpg`, reperita con l'API REST
+  della directory; originale 4032x3024)
+- Autore: Jeffrey Paul (utente WordPress.org id 5645739, sito indicato nel profilo: https://jeffpaul.com/)
+- Licenza: CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/) — tutte le foto della WordPress Photo
+  Directory sono CC0; uso libero anche commerciale, attribuzione non obbligatoria, registrata qui per tracciabilità
 - Uso: cover articolo blog "commozione cerebrale nelle giovani atlete" (IT + EN)
-- Lavorazione: rendition `960w` (originale 2972x1896), ritaglio centrato 16:9 a 960x540, JPEG q85.
-  Nessuna persona ritratta: scelta deliberata per un tema che riguarda minori.
+- Lavorazione: ritaglio 16:9 2048x1152 con offset verticale di 260 px, ridotta a 1600x900, JPEG q84 progressivo.
+  Nessuna persona riconoscibile (solo una sagoma lontanissima vicino alla porta di destra) e nessun marchio.
+- Sostituisce (2026-09-28) la cover precedente, StockSnap CC0 "Still Items" di Markus Spiske, perché era in uso
+  la rendition a 960 px e l'originale a piena risoluzione non è più scaricabile senza login; Google Discover
+  richiede cover larghe almeno 1200 px. Il soggetto resta un campo vuoto con la porta e il sole basso.
 
 ## cover-specializzazione-precoce.jpg
 - Titolo originale: "Balls in nets hanging on a rope"

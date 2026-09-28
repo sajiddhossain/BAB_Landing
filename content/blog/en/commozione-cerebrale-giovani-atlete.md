@@ -2,23 +2,26 @@
 slug: commozione-cerebrale-giovani-atlete
 title: "Concussion in young female athletes: more common, less often spotted (and what to do in the first minutes)"
 seoTitle: "Concussion in young female athletes: what to do"
-seoDescription: "In school soccer, girls sustain 1.88 times the concussions of boys. How to recognise one on the sideline and what to do in the first minutes."
+seoDescription: "A blow to the head at training: the red flags for calling an ambulance, when she must come off, and the first 48 hours. With a printable A4 sheet."
 date: 2026-07-24
-updated: 2026-09-19
+updated: 2026-09-28
 author: Sajid Hossain
 excerpt: "In US high school soccer, girls sustain concussions at 1.88 times the rate of boys, and they are 1.26 times more likely not to be removed from activity after the hit. Athletes who keep playing recover in 44 days instead of 22 — and 60% of events are never reported to any adult. Neither a visible blow to the head nor loss of consciousness is required: the data, the sideline signs in the first minutes, and what the international guidelines actually say."
 answer: "Female athletes sustain more concussions and report fewer: in high-school football (soccer) the risk is 1.88 times that of male peers (Bretzin et al., 2021), and 60% of events had not been reported to any adult (Register-Mihalik et al., 2013). On suspicion the athlete must come off immediately: those who stay on recover in 44.4 days against 22.0 (Elbin et al., 2016)."
 cover: /fotobab/cover-commozione-cerebrale.jpg
-coverAlt: "A football resting on the touchline of an empty grass pitch, with the goal and low sun in the background"
+coverAlt: "An empty sports field at sunset, with two football goals silhouetted beneath bare trees and an orange sky"
 tags:
   - concussion
   - return-to-play
+  - crt6
   - prevention
 faq:
   - q: "Are girls at higher risk of concussion than boys?"
     a: "In the available data, yes — in sports where a like-for-like comparison is possible. In Michigan high school soccer, across 83,378 athletes followed for three seasons, girls had 1.88 times the concussion risk of their male peers (95% CI 1.69-2.09): 950 cases among girls versus 557 among boys (Bretzin et al., 2021). A separate study in a 12-22 year old population estimated 1.62 times higher odds in females (95% CI 1.40-1.86) (Hannah et al., 2021). These are US school-sport data: the direction is consistent, but the reason remains largely unexplained."
   - q: "How do you recognise a concussion on the sideline?"
     a: "You don't need a visible blow to the head, and you don't need loss of consciousness. The Amsterdam 2022 consensus lists signs that warrant immediate removal from play: actual or suspected loss of consciousness, seizure, tonic posturing, ataxia or motor incoordination, poor balance, confusion, behavioural changes, amnesia (Patricios et al., 2023). There is one rule: if a concussion is suspected, the athlete comes off. Players showing those signs should not return to the match or training that day unless acutely evaluated by an experienced healthcare professional."
+  - q: "When should you call an ambulance after a blow to the head?"
+    a: "When even one of the red flags listed in the Concussion Recognition Tool 6 (CRT6) appears: neck pain or tenderness, double vision, weakness or tingling in arms or legs, severe or increasing headache, seizure or convulsion, loss of consciousness, deteriorating conscious state, vomiting, increasing restlessness or agitation. The athlete should then be safely removed from play and, if no healthcare professional is present, an ambulance called; with neck pain she should not be moved (Echemendia et al., 2023). A validated Italian version of the CRT6 is also available (Baioccato et al., 2025)."
   - q: "Why does coming off immediately matter so much?"
     a: "Because recovery time changes. In a study of 69 athletes aged 12-19 seen at a specialist clinic, those removed immediately recovered in a mean of 22.0 days, those who kept playing in 44.4 (p=.003), and the latter were 8.8 times more likely to have protracted recovery beyond 21 days (Elbin et al., 2016). It is a small, mixed-sex, clinic-referred sample — not a law — but the systematic review underpinning the Amsterdam consensus points the same way: continuing to play and delayed access to healthcare professionals are associated with longer recovery (Patricios et al., 2023)."
   - q: "After a concussion, should the athlete stay in a dark room and do nothing?"
@@ -94,6 +97,14 @@ You don't need a visible blow to the head, and you **don't need loss of consciou
 
 The operating rule admits no nuance: **if a concussion is suspected, the athlete comes off**. Anyone showing one of those signs **does not return that day**, unless acutely evaluated by an experienced healthcare professional. The consensus also notes that symptoms may evolve over **minutes, hours or days**: an athlete who seems fine at full time still needs re-evaluation in the hours that follow.
 
+### When should you call an ambulance straight away?
+
+**When even one of the "red flags" of the CRT6 appears — the Concussion in Sport Group's recognition tool designed for people without medical training.** The athlete should then be safely removed from activity and, if no healthcare professional is present, an ambulance called ([Echemendia et al., 2023](https://doi.org/10.1136/bjsports-2023-107021)). The red flags are: neck pain or tenderness, double vision, weakness or tingling in arms or legs, severe or increasing headache, seizure or convulsion, loss of consciousness, deteriorating conscious state, vomiting, increasing restlessness or agitation. With neck pain the athlete should not be moved, and a helmet should not be removed, except by someone trained to do so.
+
+The same tool says what happens next: an athlete with a suspected concussion is **not left alone for the first 1-2 hours**, is not sent home alone but with a responsible adult, and does not drink alcohol. The CRT6 also exists **in Italian**: its translation, cultural adaptation and validation were published in 2025, with an average completion time of 3.2 minutes — together with SCAT6 and SCOAT6, the first concussion assessment tools available in Italian ([Baioccato et al., 2025](https://doi.org/10.1186/s13052-025-01950-8)).
+
+For coaches we've put all of this on a single page to print and pin up in the locker room: **[download the A4 sheet "Hit to the head: what to do in the first minutes" (PDF)](/schede/head-impact.pdf)**.
+
 One detail that often gets missed: symptoms aren't only physical. Confusion, irritability, trouble concentrating, disturbed sleep. On sleep specifically, the consensus notes that **sleep disturbance in the 10 days after a concussion is associated with an increased risk of persisting symptoms** — another reason [a teenage athlete's sleep](/en/blog/sonno-atlete-adolescenti) isn't a detail.
 
 ## How much rest does a concussion need?
@@ -157,6 +168,8 @@ BAB does not diagnose concussion and does not replace any clinical evaluation: n
 - Register-Mihalik J.K., Guskiewicz K.M., McLeod T.C.V., Linnan L.A., Mueller F.O., Marshall S.W. **Knowledge, Attitude, and Concussion-Reporting Behaviors Among High School Athletes: A Preliminary Study.** *Journal of Athletic Training*, 2013;48(5):645-653. (n=167 high school athletes of both sexes, mean age 15.7; preliminary study) [doi:10.4085/1062-6050-48.3.20](https://doi.org/10.4085/1062-6050-48.3.20)
 - Hannah T.C., Li A.Y., Spiera Z., et al. **Sex-Related Differences in the Incidence, Severity, and Recovery of Concussion in Adolescent Student-Athletes Between 2009 and 2019.** *The American Journal of Sports Medicine*, 2021;49(7):1929-1937. (3,465 males and 1,751 females aged 12-22, median age 15) [doi:10.1177/03635465211008596](https://doi.org/10.1177/03635465211008596)
 - Patricios J.S., Schneider K.J., Dvorak J., et al. **Consensus statement on concussion in sport: the 6th International Conference on Concussion in Sport — Amsterdam, October 2022.** *British Journal of Sports Medicine*, 2023;57(11):695-711. (international consensus statement, informed by 10 systematic reviews) [doi:10.1136/bjsports-2023-106898](https://doi.org/10.1136/bjsports-2023-106898)
+- Echemendia R.J., Ahmed O.H., Bailey C.M., et al. **The Concussion Recognition Tool 6 (CRT6).** *British Journal of Sports Medicine*, 2023;57(11):692-694. (Concussion in Sport Group tool for recognising suspected concussion, designed for non-medical people) [doi:10.1136/bjsports-2023-107021](https://doi.org/10.1136/bjsports-2023-107021)
+- Baioccato V., Bazo M., Leo I., Simonelli A., Ermolao A., Patricios J.S., Echemendia R.J., Davis G.A., Re V., Bressan S. **Translation, cultural adaptation, and validation of the Concussion Recognition Tool 6 (CRT6™), Sport Concussion Assessment Tool 6 (SCAT6®) and Sport Concussion Office Assessment Tool 6 (SCOAT6™): the Italian process.** *Italian Journal of Pediatrics*, 2025;51:109. (8-step process, pilot test in 12 amateur athletes) [doi:10.1186/s13052-025-01950-8](https://doi.org/10.1186/s13052-025-01950-8)
 - D'Lauro C., Jones E.R., Swope L.M., Anderson M.N., Broglio S., Schmidt J.D. **Under-representation of female athletes in research informing influential concussion consensus and position statements: an evidence review and synthesis.** *British Journal of Sports Medicine*, 2022;56(17):981-987. (171 studies cited by 3 consensus statements; samples 80.1% male) [doi:10.1136/bjsports-2021-105045](https://doi.org/10.1136/bjsports-2021-105045)
 - Cowley E.S., Olenick A.A., McNulty K.L., Ross E.Z. **"Invisible Sportswomen": the sex data gap in sport and exercise science research.** *Women in Sport and Physical Activity Journal*, 2021;29(2):146-151. [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
 

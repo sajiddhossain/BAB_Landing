@@ -6,7 +6,7 @@ seoDescription: "In female sport, girls born in the first quarter are 1.25 times
 excerpt: "An under-14 squad can contain two girls eleven months apart and three years apart in biological development, and the rulebook treats them as the same age. Across 57 studies and 308 samples, girls born in January-March are more represented than those born in October-December — small, but systematic — and in the federations where it has been tracked, those born late in the year quit sooner. What the numbers say, and what a club can change without waiting for a reform."
 answer: "In female sport the relative age effect exists but is small: in a meta-analysis of 57 studies and 308 independent samples across 25 sports, athletes born in the first quarter of the selection year are 1.25 times more represented than those born in the last (odds ratio 1.25; 95% CI 1.21-1.30), with the effect most pronounced up to age 14 and at higher competition levels (Smith et al., 2018)."
 date: 2026-09-11
-updated: 2026-09-21
+updated: 2026-09-28
 author: Sajid Hossain
 cover: /fotobab/cover-eta-relativa-selezione.jpg
 coverAlt: "Start line of a red running track seen from above, with lanes numbered 1 to 6 painted in white; no people in frame"
@@ -36,6 +36,8 @@ faq:
     a: "We do not know, and that needs saying. Bio-banding — grouping by biological maturity rather than by birth year — has been studied almost exclusively in boys: in the most recent systematic review, of 861 young footballers across 13 studies, 99.8% were male (n = 859) and 0.2% female (n = 2) (Han et al., 2026). The same review notes that the available evidence concerns mostly immediate match responses, not the quality of selection decisions over time. In other words: a reasonable thing to try in training, not a proven solution — and least of all proven in girls."
   - q: "What can a club actually do?"
     a: "Four things that need neither budget nor federal reform: write the birth month next to the name on assessment sheets, so whoever is watching knows whether they are comparing two athletes eleven months apart; repeat assessments at different points in the year instead of deciding on a single trial day; use groupings by height or developmental stage in training, not only by birth year; and treat maturity as temporary information, because the girl who is behind today may be the one with the most room in three years. None of these practices has been validated by a controlled trial in female athletes: they are reasonable corrections to a documented bias, and should be presented as exactly that."
+  - q: "At what age does the relative age effect weigh most on girls?"
+    a: "In categories up to age 11 and between 12 and 14, and at higher competition levels: that is what a meta-analysis of 57 studies on female-only populations shows, with the effect also more marked in team sports and in individual sports with high physiological demands (Smith et al., 2018). The 12-14 band coincides with the first selections and with the growth spurt: two girls born in the same year can be at very different stages of development."
 ---
 
 An under-14 squad organised by calendar year can contain two girls born in January and in December: **eleven months apart**, roughly 8% of the life of a twelve-year-old. If one of them entered puberty two years before the other — entirely normal — the distance in centimetres, kilos and strength can be enormous. The rulebook, however, calls them the same age and has them compete for the same place.
@@ -67,7 +69,7 @@ An odds ratio of 1.25 means that, across large numbers, for every four athletes 
 
 ## At what age does it weigh most?
 
-In the subgroup analyses, the magnitude is not uniform: it is **larger in categories up to age 11 and between 12 and 14**, and **larger at higher competition levels**; it is also more pronounced in team sports and in individual sports with high physiological demands ([Smith et al., 2018](https://doi.org/10.1007/s40279-018-0890-8)).
+**Up to age 11 and between 12 and 14, and more so at higher competition levels.** In the subgroup analyses of the meta-analysis on female sport, the magnitude is not uniform: it is **larger in categories up to age 11 and between 12 and 14**, and **larger at higher competition levels**; it is also more pronounced in team sports and in individual sports with high physiological demands ([Smith et al., 2018](https://doi.org/10.1007/s40279-018-0890-8)).
 
 The 12-14 band is exactly when the first regional selections are made, and it coincides with [peak height velocity](/en/blog/picco-di-crescita-giovani-atlete): two girls born in the same year can be one before and one after their fastest phase of growth, with performance differences that say nothing about talent and everything about the biology of the moment.
 
@@ -136,7 +138,7 @@ The educational half is giving precise words to something that gets said by feel
 
 ## When is it time to consult a professional?
 
-**When height or pubertal development stall, or when menstruation has not appeared by 15 or disappears after having appeared.** This article is about selection and categories, not health. There are two situations, though, in which growth stops being an organisational question and becomes a clinical one: when height or pubertal development **stall** or remain far from those of peers, and when [menstruation has not appeared by age 15, or disappears](/en/blog/red-s-bassa-disponibilita-energetica) after having appeared. In both cases the reference point is the paediatrician or family doctor, not the coach. The same holds for pain lasting weeks during a phase of rapid growth: [peak height velocity](/en/blog/picco-di-crescita-giovani-atlete) explains many things, but it is not a diagnosis.
+**When height or pubertal development stall, or when menstruation has not appeared by 15 or disappears after having appeared.** This article is about selection and categories, not health. There are two situations, though, in which growth stops being an organisational question and becomes a clinical one: when height or pubertal development **stall** or remain far from those of peers, and when [menstruation has not appeared by age 15, or disappears](/en/blog/red-s-bassa-disponibilita-energetica) after having appeared — and the cause is not always training load: among the others is [polycystic ovary syndrome](/en/blog/ovaio-policistico-giovani-atlete). In both cases the reference point is the paediatrician or family doctor, not the coach. The same holds for pain lasting weeks during a phase of rapid growth: [peak height velocity](/en/blog/picco-di-crescita-giovani-atlete) explains many things, but it is not a diagnosis.
 
 ## Sources
 

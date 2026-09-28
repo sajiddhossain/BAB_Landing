@@ -221,6 +221,16 @@ export const FACTS: Fact[] = [
     doi: '10.1542/peds.2016-0910',
   },
   {
+    id: 'commozione-cerebrale-giovani-atlete-5',
+    article: 'commozione-cerebrale-giovani-atlete',
+    claim:
+      "Il Concussion Recognition Tool 6 (CRT6), lo strumento internazionale per riconoscere una sospetta commozione cerebrale pensato per non sanitari, esiste in una versione italiana tradotta e validata: compilarla richiede in media 3,2 minuti (DS 0,69). Con SCAT6 e SCOAT6 sono i primi strumenti di valutazione della commozione disponibili in italiano. Popolazione del test pilota: 12 atleti amatoriali.",
+    claimEn:
+      'The Concussion Recognition Tool 6 (CRT6), the international tool for recognising suspected concussion designed for non-medical people, exists in a translated and validated Italian version that takes a mean of 3.2 minutes (SD 0.69) to complete. With SCAT6 and SCOAT6 they are the first concussion assessment tools available in Italian. Pilot-test population: 12 amateur athletes.',
+    source: 'Baioccato et al., 2025',
+    doi: '10.1186/s13052-025-01950-8',
+  },
+  {
     id: 'crociato-giovani-atlete-1',
     article: 'crociato-giovani-atlete',
     claim:

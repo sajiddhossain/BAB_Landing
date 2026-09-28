@@ -220,6 +220,14 @@ export const GLOSSARY: Record<string, GlossaryEntry> = {
       'A functional brain injury induced by biomechanical forces: it requires neither a visible blow to the head nor loss of consciousness. In high-school football (soccer), female athletes sustain 1.88 times the concussions of male peers (95% CI 1.69-2.09), and the leading mechanism is contact with an object (41.9%) rather than with another player (Bretzin et al., 2021). Where concussion is suspected the athlete must be removed from play immediately.',
     sameAs: 'https://it.wikipedia.org/wiki/Commozione_cerebrale',
   },
+  crt6: {
+    name: 'CRT6 (Concussion Recognition Tool 6)',
+    description:
+      "Lo strumento del Concussion in Sport Group per riconoscere una sospetta commozione cerebrale, pensato per chi non ha una formazione sanitaria (allenatori, famiglie, atlete). Procede per passi: prima i segnali d'allarme che richiedono l'ambulanza (dolore al collo, visione doppia, convulsioni, perdita di coscienza, vomito, mal di testa che peggiora), poi i segni osservabili, i sintomi e le domande di memoria. Non serve a fare diagnosi ma a decidere che l'atleta esce dal campo (Echemendia et al., 2023). Dal 2025 esiste una versione italiana tradotta e validata, compilabile in circa 3 minuti (Baioccato et al., 2025).",
+    nameEn: 'CRT6 (Concussion Recognition Tool 6)',
+    descriptionEn:
+      "The Concussion in Sport Group's tool for recognising a suspected concussion, designed for people without medical training (coaches, families, athletes). It works in steps: first the red flags that call for an ambulance (neck pain, double vision, seizure, loss of consciousness, vomiting, worsening headache), then observable signs, symptoms and memory questions. It is not meant to diagnose but to decide that the athlete comes off (Echemendia et al., 2023). Since 2025 a translated and validated Italian version exists, taking about 3 minutes to complete (Baioccato et al., 2025).",
+  },
   'ritorno-al-gioco': {
     name: 'Ritorno al gioco (return-to-sport)',
     description:

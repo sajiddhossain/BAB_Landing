@@ -2,23 +2,26 @@
 slug: commozione-cerebrale-giovani-atlete
 title: "Commozione cerebrale nelle giovani atlete: più frequente, meno riconosciuta (e cosa fare nei primi minuti)"
 seoTitle: "Commozione cerebrale nelle giovani atlete: cosa fare"
-seoDescription: "Nel calcio scolastico le ragazze subiscono 1,88 volte le commozioni cerebrali dei coetanei maschi. Come riconoscerle a bordo campo e cosa fare nei primi minuti."
+seoDescription: "Colpo alla testa in allenamento: i segnali per chiamare il 118, quando l'atleta deve uscire e cosa fare nelle prime 48 ore. Con la scheda A4 da stampare."
 date: 2026-07-24
-updated: 2026-09-19
+updated: 2026-09-28
 author: Sajid Hossain
 excerpt: "Nel calcio scolastico americano le ragazze subiscono commozioni cerebrali 1,88 volte più dei coetanei maschi, e hanno 1,26 volte la probabilità di non essere tolte dall'attività dopo il colpo. Chi continua a giocare recupera in 44 giorni invece di 22 — e il 60% degli episodi non viene riferito a nessun adulto. Non serve né un colpo visibile alla testa né la perdita di coscienza: i dati, i segnali da riconoscere a bordo campo nei primi minuti e cosa dicono davvero le linee guida internazionali."
 answer: "Le atlete la subiscono più spesso e la riferiscono meno: nel calcio scolastico il rischio è 1,88 volte quello dei coetanei maschi (Bretzin et al., 2021) e il 60% degli episodi non era stato riferito ad alcun adulto (Register-Mihalik et al., 2013). Al sospetto l'atleta va tolta subito dal gioco: chi resta in campo recupera in 44,4 giorni contro 22,0 (Elbin et al., 2016)."
 cover: /fotobab/cover-commozione-cerebrale.jpg
-coverAlt: "Pallone da calcio fermo sulla linea laterale di un campo in erba vuoto, con la porta e il sole basso sullo sfondo"
+coverAlt: "Campo sportivo vuoto al tramonto, con due porte da calcio in controluce sotto gli alberi spogli e il cielo arancione"
 tags:
   - commozione-cerebrale
   - ritorno-al-gioco
+  - crt6
   - prevenzione
 faq:
   - q: "Le ragazze rischiano più dei ragazzi la commozione cerebrale?"
     a: "Nei dati disponibili sì, negli sport in cui il confronto è possibile. Nel calcio delle scuole superiori del Michigan, su 83.378 atleti seguiti per tre stagioni, le ragazze hanno riportato un rischio di commozione cerebrale 1,88 volte quello dei coetanei maschi (IC 95% 1,69-2,09): 950 casi tra le ragazze contro 557 tra i ragazzi (Bretzin et al., 2021). Un secondo studio su una popolazione di 12-22 anni ha stimato una probabilità 1,62 volte maggiore nelle femmine (IC 95% 1,40-1,86) (Hannah et al., 2021). Sono dati statunitensi di sport scolastico: la direzione è coerente, ma il perché resta in gran parte non spiegato."
   - q: "Come si riconosce una commozione cerebrale a bordo campo?"
     a: "Non serve un colpo alla testa visibile e non serve perdere coscienza. Il consenso internazionale di Amsterdam 2022 indica come segni che impongono la rimozione immediata dal campo: perdita di coscienza reale o sospetta, crisi convulsiva, postura tonica, atassia o mancanza di coordinazione, equilibrio scarso, confusione, cambiamenti del comportamento, amnesia (Patricios et al., 2023). La regola è una sola: se c'è il sospetto, l'atleta esce. E chi mostra quei segni non torna in campo quel giorno, se non dopo una valutazione acuta da parte di un professionista sanitario esperto."
+  - q: "Quando bisogna chiamare il 118 dopo un colpo alla testa?"
+    a: "Quando compare anche uno solo dei segnali d'allarme elencati dal Concussion Recognition Tool 6 (CRT6): dolore o dolorabilità al collo, visione doppia, debolezza o formicolio a braccia o gambe, mal di testa forte o che peggiora, crisi convulsiva, perdita di coscienza, stato di coscienza che peggiora, vomito, agitazione crescente. In quel caso l'atleta va tolta dal gioco in sicurezza e, se non è presente un professionista sanitario, si chiama un'ambulanza; con dolore al collo non va spostata (Echemendia et al., 2023). Il CRT6 è disponibile anche in una versione italiana validata (Baioccato et al., 2025)."
   - q: "Perché è così importante uscire subito dal campo?"
     a: "Perché il tempo di recupero cambia. In uno studio su 69 atleti di 12-19 anni seguiti in un centro specialistico, chi era stato tolto immediatamente dal gioco è guarito in media in 22,0 giorni, chi aveva continuato a giocare in 44,4 (p=0,003), e questi ultimi avevano 8,8 volte la probabilità di un recupero prolungato oltre i 21 giorni (Elbin et al., 2016). È un campione piccolo, misto per sesso e selezionato in clinica — non una legge — ma la stessa direzione è confermata dalla revisione sistematica alla base del consenso di Amsterdam: continuare a giocare e ritardare l'accesso a un professionista sanitario si associano a recuperi più lunghi (Patricios et al., 2023)."
   - q: "Dopo una commozione cerebrale bisogna stare al buio e fermi per giorni?"
@@ -94,6 +97,14 @@ Non serve un colpo alla testa visibile, e **non serve perdere coscienza**: nella
 
 La regola operativa è una sola, e non ammette sfumature: **se c'è il sospetto, l'atleta esce**. Chi mostra uno di quei segni **non torna in campo quel giorno**, salvo valutazione acuta da parte di un professionista sanitario esperto. Il consenso precisa anche che i sintomi possono comparire **in minuti, ore o giorni**: un'atleta che sta bene a fine partita va comunque rivalutata nelle ore successive.
 
+### Quando si chiama subito il 118?
+
+**Quando compare anche uno solo dei «segnali d'allarme» del CRT6, lo strumento di riconoscimento del Concussion in Sport Group pensato per chi non ha una formazione sanitaria.** In quel caso l'atleta va tolta dall'attività in sicurezza e, se non c'è un professionista sanitario, si chiama un'ambulanza ([Echemendia et al., 2023](https://doi.org/10.1136/bjsports-2023-107021)). I segnali d'allarme sono: dolore o dolorabilità al collo, visione doppia, debolezza o formicolio a braccia o gambe, mal di testa forte o che peggiora, crisi convulsiva, perdita di coscienza, stato di coscienza che peggiora, vomito, agitazione crescente. Con dolore al collo l'atleta non va spostata, e il casco non si toglie, se non da chi è formato a farlo.
+
+Lo stesso strumento dice che cosa fare dopo: l'atleta con sospetta commozione **non resta sola nelle prime 1-2 ore**, non torna a casa da sola ma con un adulto responsabile, e non beve alcol. Il CRT6 esiste anche **in italiano**: la traduzione, l'adattamento culturale e la validazione sono stati pubblicati nel 2025, con un tempo medio di compilazione di 3,2 minuti — insieme a SCAT6 e SCOAT6 sono i primi strumenti di valutazione della commozione disponibili in italiano ([Baioccato et al., 2025](https://doi.org/10.1186/s13052-025-01950-8)).
+
+Per chi allena abbiamo messo tutto questo su un foglio solo, da stampare e appendere nello spogliatoio: **[scarica la scheda A4 «Colpo alla testa: cosa fare nei primi minuti» (PDF)](/schede/colpo-alla-testa.pdf)**.
+
 Un dettaglio spesso ignorato: i sintomi non sono solo fisici. Confusione, irritabilità, difficoltà di concentrazione, sonno disturbato. Proprio sul sonno il consenso segnala che **un disturbo del sonno nei 10 giorni successivi si associa a un rischio maggiore di sintomi persistenti** — un altro motivo per cui [il sonno di un'atleta adolescente](/blog/sonno-atlete-adolescenti) non è un dettaglio.
 
 ## Quanto riposo serve dopo una commozione cerebrale?
@@ -157,6 +168,8 @@ BAB non diagnostica una commozione cerebrale e non sostituisce nessuna valutazio
 - Register-Mihalik J.K., Guskiewicz K.M., McLeod T.C.V., Linnan L.A., Mueller F.O., Marshall S.W. **Knowledge, Attitude, and Concussion-Reporting Behaviors Among High School Athletes: A Preliminary Study.** *Journal of Athletic Training*, 2013;48(5):645-653. (n=167 atleti di scuola superiore di entrambi i sessi, età media 15,7 anni; studio preliminare) [doi:10.4085/1062-6050-48.3.20](https://doi.org/10.4085/1062-6050-48.3.20)
 - Hannah T.C., Li A.Y., Spiera Z., et al. **Sex-Related Differences in the Incidence, Severity, and Recovery of Concussion in Adolescent Student-Athletes Between 2009 and 2019.** *The American Journal of Sports Medicine*, 2021;49(7):1929-1937. (3.465 maschi e 1.751 femmine di 12-22 anni, età mediana 15) [doi:10.1177/03635465211008596](https://doi.org/10.1177/03635465211008596)
 - Patricios J.S., Schneider K.J., Dvorak J., et al. **Consensus statement on concussion in sport: the 6th International Conference on Concussion in Sport — Amsterdam, October 2022.** *British Journal of Sports Medicine*, 2023;57(11):695-711. (dichiarazione di consenso internazionale, informata da 10 revisioni sistematiche) [doi:10.1136/bjsports-2023-106898](https://doi.org/10.1136/bjsports-2023-106898)
+- Echemendia R.J., Ahmed O.H., Bailey C.M., et al. **The Concussion Recognition Tool 6 (CRT6).** *British Journal of Sports Medicine*, 2023;57(11):692-694. (strumento del Concussion in Sport Group per il riconoscimento della sospetta commozione da parte di non sanitari) [doi:10.1136/bjsports-2023-107021](https://doi.org/10.1136/bjsports-2023-107021)
+- Baioccato V., Bazo M., Leo I., Simonelli A., Ermolao A., Patricios J.S., Echemendia R.J., Davis G.A., Re V., Bressan S. **Translation, cultural adaptation, and validation of the Concussion Recognition Tool 6 (CRT6™), Sport Concussion Assessment Tool 6 (SCAT6®) and Sport Concussion Office Assessment Tool 6 (SCOAT6™): the Italian process.** *Italian Journal of Pediatrics*, 2025;51:109. (processo in 8 fasi, test pilota su 12 atleti amatoriali) [doi:10.1186/s13052-025-01950-8](https://doi.org/10.1186/s13052-025-01950-8)
 - D'Lauro C., Jones E.R., Swope L.M., Anderson M.N., Broglio S., Schmidt J.D. **Under-representation of female athletes in research informing influential concussion consensus and position statements: an evidence review and synthesis.** *British Journal of Sports Medicine*, 2022;56(17):981-987. (171 studi citati da 3 dichiarazioni di consenso; campioni all'80,1% maschili) [doi:10.1136/bjsports-2021-105045](https://doi.org/10.1136/bjsports-2021-105045)
 - Cowley E.S., Olenick A.A., McNulty K.L., Ross E.Z. **"Invisible Sportswomen": the sex data gap in sport and exercise science research.** *Women in Sport and Physical Activity Journal*, 2021;29(2):146-151. [doi:10.1123/wspaj.2021-0028](https://doi.org/10.1123/wspaj.2021-0028)
 

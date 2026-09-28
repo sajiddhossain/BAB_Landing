@@ -81,6 +81,31 @@ prestito quello di chi ce l'ha.
 | 4 | Gruppi Facebook di genitori e allenatori di sport giovanile | È dove il pubblico sta davvero, e non cerca su Google | ☐ |
 | 5 | Fisioterapisti e nutrizionisti dello sport su Instagram | Ricondividono materiale con le fonti perché li fa sembrare seri | ☐ |
 | 6 | Giornaliste/i che si occupano di sport femminile | Non per il sondaggio: per **i risultati**, quando ci saranno | ☐ |
+| 7 | Responsabili safeguarding delle ASD/SSD (nominati per obbligo dal 2025) | Cercano materiale da far leggere ad allenatori e famiglie; la scheda sul colpo alla testa e l'articolo sul safeguarding sono pronti da girare | ☐ |
+| 8 | Comitati regionali FIR e reti sulla commozione (vedi `docs/outreach-link.md`, candidati 1-3) | La scheda A4 parla il loro linguaggio (CRT6, consenso di Amsterdam) e il sondaggio chiede proprio cosa sa chi allena sui colpi alla testa | ☐ |
+
+### Cosa offrire, oltre al sondaggio (aggiornato 2026-09-28)
+
+Chiedere tre minuti rende di più se nello stesso messaggio si **dà** qualcosa. Oggi esiste:
+
+| Materiale | URL | Per chi |
+| --- | --- | --- |
+| Scheda A4 «Colpo alla testa: cosa fare nei primi minuti» (IT) | https://www.babsport.com/schede/colpo-alla-testa.pdf | società, comitati, responsabili safeguarding |
+| Stessa scheda in inglese | https://www.babsport.com/schede/head-impact.pdf | contatti esteri, società con staff internazionale |
+
+La scheda porta già in fondo l'invito al sondaggio: ogni copia appesa in uno spogliatoio è un
+volantino. Sorgente e rigenerazione in `docs/schede.md`.
+
+### Messaggio per un responsabile safeguarding o un comitato
+
+> Buongiorno, curo BAB (babsport.com), materiale gratuito e con le fonti sulla salute delle
+> atlete adolescenti. Vi segnalo una scheda A4 da stampare per gli spogliatoi — cosa fare nei primi
+> minuti dopo un colpo alla testa, basata sul consenso internazionale e sul CRT6, di cui esiste la
+> versione italiana: https://www.babsport.com/schede/colpo-alla-testa.pdf
+>
+> E una richiesta, una sola: stiamo raccogliendo il primo dato italiano su che cosa sa chi allena
+> ragazze. Dieci domande, tre minuti, anonimo: https://www.babsport.com/sondaggio — se lo girate agli
+> allenatori della società ci aiutate molto. Grazie, {nome} — BAB
 
 **Regola del contatto:** si scrive una volta, si aspetta dieci giorni, si manda **un solo**
 sollecito di due righe. Poi si lascia perdere. Un secondo sollecito brucia il contatto per sempre,

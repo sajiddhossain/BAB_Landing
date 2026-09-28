@@ -305,6 +305,9 @@ export default function App() {
       const href = anchor.getAttribute('href');
       // solo link interni assoluti; esclude #ancore pure, mailto/http esterni, target=_blank
       if (!href || !href.startsWith('/') || anchor.getAttribute('target') === '_blank') return;
+      // I file statici (/schede/*.pdf, /blog/{slug}.md, /llms.txt…) non sono rotte: li serve
+      // l'host. Intercettarli li farebbe finire nel 404 del router.
+      if (anchor.hasAttribute('download') || /\.[a-z0-9]{2,5}$/i.test(href.split(/[?#]/)[0])) return;
       e.preventDefault();
       // Un link interno può puntare a un'ancora precisa (/blog/{slug}#faq-…): il path
       // decide la rotta, l'hash decide dove atterrare. Tenerli insieme manderebbe la

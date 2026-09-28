@@ -4,7 +4,7 @@ title: "Nata a dicembre: quanto pesa il mese di nascita nella selezione delle gi
 seoTitle: "Effetto età relativa nello sport femminile: quanto conta il mese di nascita"
 seoDescription: "Nello sport femminile le nate nel primo trimestre sono 1,25 volte più rappresentate delle nate nell'ultimo: dove pesa, a che età, e cosa può fare una società."
 date: 2026-09-11
-updated: 2026-09-21
+updated: 2026-09-28
 author: Sajid Hossain
 excerpt: "In una squadra di under 14 possono convivere due ragazze con undici mesi di differenza e tre anni di sviluppo biologico di distanza, e il regolamento le tratta come coetanee. Su 57 studi e 308 campioni, le nate a gennaio-marzo risultano più rappresentate delle nate a ottobre-dicembre in modo piccolo ma sistematico — e nelle federazioni dove lo si è misurato, chi è nata a fine anno smette prima. Cosa dicono i numeri e cosa può cambiare una società senza aspettare una riforma."
 answer: "Nello sport femminile l'effetto dell'età relativa esiste ma è di entità piccola: nella meta-analisi di 57 studi e 308 campioni indipendenti su 25 sport, le atlete nate nel primo trimestre dell'anno di selezione sono 1,25 volte più rappresentate di quelle nate nell'ultimo (odds ratio 1,25; IC 95% 1,21-1,30), con l'effetto più marcato fino ai 14 anni e ai livelli competitivi più alti (Smith et al., 2018)."
@@ -36,6 +36,8 @@ faq:
     a: "Non lo sappiamo, ed è importante dirlo. Il bio-banding — raggruppare per maturazione biologica invece che per anno di nascita — è stato studiato quasi esclusivamente sui maschi: nella revisione sistematica più recente, su 861 giovani calciatori inclusi in 13 studi, il 99,8% erano maschi (n = 859) e lo 0,2% femmine (n = 2) (Han et al., 2026). La stessa revisione segnala che le prove disponibili riguardano soprattutto risposte immediate nelle partite, non la qualità delle selezioni nel tempo. Tradotto: è una pratica ragionevole da sperimentare in allenamento, non una soluzione dimostrata, e men che meno dimostrata sulle ragazze."
   - q: "Cosa può fare concretamente una società sportiva?"
     a: "Quattro cose che non richiedono né budget né riforme federali: scrivere il mese di nascita accanto al nome nei fogli di valutazione, così chi osserva sa se sta confrontando due atlete con undici mesi di differenza; ripetere le valutazioni in momenti diversi dell'anno invece di deciderle in un'unica giornata di prove; usare in allenamento raggruppamenti per statura o per fase di sviluppo, non solo per annata; e trattare la maturazione come un'informazione temporanea, perché la ragazza più indietro oggi può essere quella con più margine fra tre anni. Nessuna di queste pratiche è stata validata da uno studio controllato su ragazze: sono correttivi ragionevoli a un bias documentato, e vanno presentati per quello che sono."
+  - q: "A che età l'effetto dell'età relativa pesa di più nelle ragazze?"
+    a: "Nelle categorie fino agli 11 anni e fra i 12 e i 14 anni, e ai livelli competitivi più alti: lo indica una meta-analisi di 57 studi su popolazioni esclusivamente femminili, che trova l'effetto anche più marcato negli sport di squadra e in quelli individuali ad alta richiesta fisiologica (Smith et al., 2018). La fascia 12-14 anni coincide con le prime selezioni e con il picco di crescita: due ragazze nate nello stesso anno possono trovarsi in fasi di sviluppo molto diverse."
 ---
 
 In una squadra under 14 di calendario solare possono convivere due ragazze nate a gennaio e a dicembre: **undici mesi di differenza**, cioè circa l'8% della vita di una dodicenne. Se poi una delle due è entrata in pubertà due anni prima dell'altra — cosa del tutto normale — la distanza in centimetri, chili e forza può essere enorme. Il regolamento, però, le chiama coetanee e le fa giocare per lo stesso posto.
@@ -67,7 +69,7 @@ Un odds ratio di 1,25 significa che, su grandi numeri, per ogni quattro atlete n
 
 ## A che età pesa di più?
 
-Nelle stesse analisi per sottogruppi, l'entità dell'effetto non è uniforme: è **maggiore nelle categorie fino agli 11 anni e fra i 12 e i 14 anni**, e **maggiore ai livelli competitivi più alti**; è inoltre più marcato negli sport di squadra e negli sport individuali ad alta richiesta fisiologica ([Smith et al., 2018](https://doi.org/10.1007/s40279-018-0890-8)).
+**Fino agli 11 anni e fra i 12 e i 14, e di più ai livelli competitivi più alti.** Nelle analisi per sottogruppi della meta-analisi sugli sport femminili, l'entità dell'effetto non è uniforme: è **maggiore nelle categorie fino agli 11 anni e fra i 12 e i 14 anni**, e **maggiore ai livelli competitivi più alti**; è inoltre più marcato negli sport di squadra e negli sport individuali ad alta richiesta fisiologica ([Smith et al., 2018](https://doi.org/10.1007/s40279-018-0890-8)).
 
 La fascia 12-14 anni è esattamente quella in cui in Italia si formano le prime selezioni territoriali, e coincide con il [picco di crescita](/blog/picco-di-crescita-giovani-atlete): due ragazze nate nello stesso anno possono trovarsi una prima e una dopo il momento di massima velocità di crescita staturale, con differenze di prestazione che non dicono nulla sul talento e tutto sulla biologia del momento.
 
@@ -136,7 +138,7 @@ La metà educativa è dare parole precise a una cosa che a bordo campo viene det
 
 ## Quando è il caso di rivolgersi a un professionista?
 
-**Quando statura o sviluppo puberale si fermano, oppure quando il ciclo non compare entro i 15 anni o scompare dopo essere comparso.** Questo articolo parla di selezione e di categorie, non di salute. Ci sono però due situazioni in cui la crescita smette di essere un tema organizzativo e diventa clinico: quando la statura o lo sviluppo puberale si **fermano** o restano molto distanti da quelli delle coetanee, e quando il [ciclo mestruale non compare entro i 15 anni o scompare](/blog/red-s-bassa-disponibilita-energetica) dopo essere comparso. In entrambi i casi il riferimento è il pediatra o il medico di famiglia, non l'allenatore. Vale anche per i dolori che durano da settimane in una fase di crescita rapida: il [picco di crescita](/blog/picco-di-crescita-giovani-atlete) spiega molte cose, ma non è una diagnosi.
+**Quando statura o sviluppo puberale si fermano, oppure quando il ciclo non compare entro i 15 anni o scompare dopo essere comparso.** Questo articolo parla di selezione e di categorie, non di salute. Ci sono però due situazioni in cui la crescita smette di essere un tema organizzativo e diventa clinico: quando la statura o lo sviluppo puberale si **fermano** o restano molto distanti da quelli delle coetanee, e quando il [ciclo mestruale non compare entro i 15 anni o scompare](/blog/red-s-bassa-disponibilita-energetica) dopo essere comparso — e la causa non è sempre il carico di allenamento: fra le altre c'è la [sindrome dell'ovaio policistico](/blog/ovaio-policistico-giovani-atlete). In entrambi i casi il riferimento è il pediatra o il medico di famiglia, non l'allenatore. Vale anche per i dolori che durano da settimane in una fase di crescita rapida: il [picco di crescita](/blog/picco-di-crescita-giovani-atlete) spiega molte cose, ma non è una diagnosi.
 
 ## Fonti
 
