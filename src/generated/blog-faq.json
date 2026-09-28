@@ -705,6 +705,10 @@
         {
           "q": "Cosa può fare concretamente una società sportiva?",
           "id": "faq-cosa-puo-fare-concretamente-una-societa-sportiva"
+        },
+        {
+          "q": "A che età l'effetto dell'età relativa pesa di più nelle ragazze?",
+          "id": "faq-a-che-eta-leffetto-delleta-relativa-pesa-di-piu-nelle"
         }
       ]
     },
@@ -749,6 +753,10 @@
         {
           "q": "What can a club actually do?",
           "id": "faq-what-can-a-club-actually-do"
+        },
+        {
+          "q": "At what age does the relative age effect weigh most on girls?",
+          "id": "faq-at-what-age-does-the-relative-age-effect-weigh-most-on"
         }
       ]
     },
@@ -793,6 +801,10 @@
         {
           "q": "Quanti commenti arrivano davvero dagli spalti in una partita?",
           "id": "faq-quanti-commenti-arrivano-davvero-dagli-spalti-in-una"
+        },
+        {
+          "q": "Che cosa significa davvero «divertirsi» nello sport per una ragazza?",
+          "id": "faq-che-cosa-significa-davvero-divertirsi-nello-sport-per"
         }
       ]
     },
@@ -837,6 +849,10 @@
         {
           "q": "How many comments actually come from the stands during a game?",
           "id": "faq-how-many-comments-actually-come-from-the-stands-during"
+        },
+        {
+          "q": "What does «having fun» in sport really mean for a girl?",
+          "id": "faq-what-does-having-fun-in-sport-really-mean-for-a-girl"
         }
       ]
     },
@@ -2591,6 +2607,10 @@
           "id": "faq-come-si-riconosce-una-commozione-cerebrale-a-bordo-campo"
         },
         {
+          "q": "Quando bisogna chiamare il 118 dopo un colpo alla testa?",
+          "id": "faq-quando-bisogna-chiamare-il-118-dopo-un-colpo-alla-testa"
+        },
+        {
           "q": "Perché è così importante uscire subito dal campo?",
           "id": "faq-perche-e-cosi-importante-uscire-subito-dal-campo"
         },
@@ -2637,6 +2657,10 @@
         {
           "q": "How do you recognise a concussion on the sideline?",
           "id": "faq-how-do-you-recognise-a-concussion-on-the-sideline"
+        },
+        {
+          "q": "When should you call an ambulance after a blow to the head?",
+          "id": "faq-when-should-you-call-an-ambulance-after-a-blow-to-the"
         },
         {
           "q": "Why does coming off immediately matter so much?",
